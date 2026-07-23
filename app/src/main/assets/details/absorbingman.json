@@ -1,0 +1,19 @@
+{
+    "id": "absorbingman",
+    "name": "Absorbing Man",
+    "abilityDetails": {
+        "Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vulnerability yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar."
+    },
+    "synergies": [],
+    "howToPlay": "Absorbing Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Absorbing Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

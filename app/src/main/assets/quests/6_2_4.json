@@ -1,0 +1,65 @@
+{
+  "name": "6.2.4 - Suç Unsurları",
+  "globalNodes": [
+    "Yıkıcı Geri Bildirim (Destructive Feedback) - Dövüş başında Savunmacı, 10 saniye boyunca hasar almasını engelleyen bir Kinetik Kalkan kazanır. Kalkan aktifken Saldırganın Özel 3 hariç tüm hasarı depolanır; kalkan süresi dolduğunda depolanan hasar Savunmacıya patlar (ya da temas anında Saldırgana yansır). Kalkan kapandıktan sonra 15 saniyelik bekleme süresi vardır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Sol Kapısız Ana Yol - Yellowjacket ile Başlayan Rota - En Kolay Yol):",
+        "• Karo Açıklaması: Yellowjacket ile başlayan ve hiçbir sınıf sınırı (gate) bulundurmayan sol taraftaki düz 'Criminal Elements' ana yoludur; küresel Yıkıcı Geri Bildirim düğümü etkindir - kalkan aktifken vurduğunuz hasar depolanıp kalkan bitince size ya da rakibe patlar.",
+        "• Strateji: Kalkan aktifken sadece Özel 3 kullanın veya hiç saldırmayıp mesafeyi koruyun; kalkan söndüğünde tam güçle saldırıya geçip 15 saniyelik bekleme süresinden faydalanın. Sıra: Yellowjacket, Black Widow (OG), Deadpool (X-Force), War Machine, Thor, Red Hulk."
+      ],
+      "defenders": [
+        "yellowjacket",
+        "blackwidow",
+        "deadpoolxforce",
+        "warmachine",
+        "thor",
+        "redhulk"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kukla Yolu - Alternatif Zor Yol):",
+        "• Karo Açıklaması: Aynı Destructive Feedback global düğümü geçerlidir; yolun sonundaki mini-boss The Hood'da ek olarak Bane (belirli aralıklarla düşman gücünü Saldırgana çevirir) ve Optimist düğümleri bulunur.",
+        "• Strateji: The Hood karşısında Bane'in Saldırgana geçiş zamanlamasını kalkanın açık/kapalı olduğu süreyle çakıştırmamaya dikkat edin; iki zamanlayıcıyı birlikte takip edin."
+      ],
+      "defenders": [
+        "wintersoldier",
+        "sentry",
+        "loki",
+        "doctorvoodoo",
+        "thehood"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "kingpin",
+    "bossNodes": [
+      "Güçlendirilmiş Bağışıklık (Empowered Immunity) - Kingpin çeşitli debuff türlerine karşı güçlü direnç kazanır.",
+      "Sersemleme Bağışıklığı (Stun Immunity) - Parry ile sersemletilemez, intercept ve özel saldırılara güvenmek gerekir.",
+      "Force of Will - Saldırganın hata payını (blok kırma, kaçırılan parry) cezalandırır.",
+      "Blocklanamaz Final (Unblockable Finale) - Özel saldırısının son vuruşu blocklanamaz.",
+      "Hercules (En Çok Önerilen MVP): Ölümsüzlük yeteneği sayesinde hata yapsanız bile maçı kurtarır; topluluk rehberlerinde en çok önerilen karakterdir. Ghost & Wasp Sinerjisi: Kalkan aktifken bile hafif saldırılarla doğrudan aşama (phase) değiştirerek hasar almadan oynayabilirsiniz. Corvus Glaive: Kalkan açıkken yanlışlıkla vursanız bile canınız 1'de kalacağı için dövüşü yarıda bırakmazsınız. Human Torch: Özellikle yol üzerindeki mistik mini patronlar ve Kingpin boss'u için harika bir seçenektir. Sinerji Önerisi (Heimdall): Takıma bir Heimdall eklemek, ölümcül darbede 1 defalık yenilmezlik vererek maçı kurtarır. Boss Karşıtları: Hyperion, Archangel, Doctor Doom veya Shang-Chi Kingpin'i çok rahat indirir; Kingpin'in SP1'ini atmasını sağlayın, ağır saldırılarla (Heavy) onu köşeye sıkıştırarak kalkan döngüsüne dikkat edip indirin."
+    ],
+    "idealCounters": [
+      "hercules",
+      "ghost",
+      "wasp",
+      "corvusglaive",
+      "humantorch",
+      "heimdall",
+      "aegon",
+      "killmonger",
+      "hyperion",
+      "archangel",
+      "doctordoom",
+      "shangchi"
+    ]
+  }
+}

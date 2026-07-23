@@ -1,0 +1,52 @@
+{
+  "name": "9.3.3 - Genetik Sapma",
+  "globalNodes": [
+    "Kapı Sistemi (Gate): Yol A, Beceri (Skill) Kapısı ile açılır ve Beceri sınıfına giriş avantajı sağlar; Yol B, Bilim (Science) Kapısı ile açılır ve Bilim sınıfına avantaj tanır.",
+    "Genetik Laboratuvar Karoları: Mister Sinister'ın deneylerinden kaçan/dönüştürülen mutant savunmacılar bulunur; birçoğu yüksek kanama/toksin bağışıklığına veya öz-iyileşme mekaniklerine sahiptir, bu da uzun süreli hasar biriktirme stratejilerini zayıflatır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Beceri Kapısı - En Kolay Yol):",
+        "• Karo Açıklaması: Hızlı, pençe temelli mutant savunmacılardan oluşur (Sabretooth, Wolverine, X-23); bu savunmacıların çoğu kendi kendini iyileştirir, bu yüzden düşük-orantılı hasar yerine yoğun kombo pencereleri gerekir.",
+        "• Strateji: Kapıyı Beceri sınıfıyla açıp bonus alın; Wolverine/X-23 gibi öz-iyileşen savunmacılara karşı parry sonrası tam kombo uygulayarak iyileşme oranlarının üzerine çıkın, Sabretooth'un öfke birikimini düşürmek için uzun bekletmeli maçlardan kaçının."
+      ],
+      "defenders": [
+        "sabretooth",
+        "wolverine",
+        "x_23"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Bilim Kapısı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Ağır zehir/radyasyon temalı deney ürünü savunmacılar (Omega Red, Apocalypse, Mystique, Juggernaut) bulunur; Omega Red'in Ölüm Feromonları can emişini artırırken Apocalypse'in Ölümsüzlük Yükleri boss öncesi kaynak tüketimini zorlar.",
+        "• Strateji: Zehir/kanama bağışıklığı yüksek ve blok gücü sağlam bir yapı getirin; Omega Red'de can emişini kesmek için hızlı blok kırma, Mystique'in taklit mekaniğine karşı ise öngörülebilir, düşük riskli saldırı düzeni kullanın."
+      ],
+      "defenders": [
+        "omega_red",
+        "apocalypse",
+        "mystique",
+        "juggernaut"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "mister_sinister",
+    "bossNodes": [
+      "Moleküler Yenilenme: Mister Sinister, saldırganın Kritik Vuruşlarıyla aldığı hasarın %70'ini 0,5 saniye içinde geri kazanır; bu oran saldırganın kombo sayacı arttıkça (50 vuruşa kadar) daha da yükselir.",
+      "Genetik Kod Çıkarımı: Sinister her rakibi yendiğinde onun sınıfına göre farklı bir Pasif yetenek kazanır (her sınıftan en fazla 3, toplamda 10 Pasif'e kadar); dövüş uzadıkça giderek güçlenir.",
+      "Genetik Bozulma (Special 1): Kendi üzerindeki hasar veren debuff'ları saldırgana Dejenerasyon olarak aktarır; ayrıca Telepatik Ustalığı sayesinde Sersemletme'ye ve Kontrol Tersine Çevirme'ye bağışıktır, Kanama etkisinin gücünü %100 azaltır ve Telekinetik gücüyle Engellenemez özel saldırıları bile bloklayabilir."
+    ],
+    "idealCounters": [
+      "guillotine_2099",
+      "killmonger",
+      "venom",
+      "nick_fury"
+    ]
+  }
+}

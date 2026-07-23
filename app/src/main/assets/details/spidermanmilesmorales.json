@@ -1,0 +1,19 @@
+{
+    "id": "spidermanmilesmorales",
+    "name": "Spider-Man (Miles Morales)",
+    "abilityDetails": {
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Spider-Man (Miles Morales) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Spider-Man (Miles Morales) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

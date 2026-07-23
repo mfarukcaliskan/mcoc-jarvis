@@ -1,0 +1,20 @@
+{
+    "id": "doctordoom",
+    "name": "Doctor Doom",
+    "abilityDetails": {
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
+    },
+    "synergies": [],
+    "howToPlay": "Doctor Doom için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Doctor Doom Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

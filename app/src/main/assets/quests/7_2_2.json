@@ -1,0 +1,54 @@
+{
+  "name": "7.2.2 - İkili Tehdit",
+  "globalNodes": [
+    "Güç Kalkanı (Power Shield) - Savunmacı korunurken saldırganın normal vuruşları hiç hasar vermez (sadece güç üretir), buna karşılık saldırganın özel saldırıları %400 daha fazla hasar verir; bu yüzden dövüş normal vuruşlarla güç toplayıp özel saldırıyla patlatma ritmine dayanır.",
+    "Yaşam Transferi (Life Transfer) - Savunmacı sürekli %2/saniye Yıpranma (Degeneration) ile can kaybeder, ancak saldırgana verdiği her hasarın %125'ini can olarak geri emer (bu yüzdeye sınıf avantajı/dezavantajı da etki eder); saldırganın kendi hasarını kontrol etmesi gerekir yoksa savunmacı sürekli iyileşir.",
+    "Hastalık Hayaleti (Spectre of Ailment) - Saldırganın uyguladığı debuff'ların iyileştirme/rejenerasyon azaltma etkisi %50 azalır, bu da sürekli can yenileyen savunmacılara karşı debuff'lara aşırı güvenmeyi riskli kılar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Örümcek Ağı Yolu - En Kolay Yol, Tigra Ara Patronu):",
+        "• Karo Açıklaması: Black Widow, Longshot ve Spider-Man (Miles Morales) ile karşılaşılır; yol sonunda ara patron Tigra bulunur. Tigra'nın ağır vuruşu hem kendisinin hem saldırganın Saldırı Gücünü %500 artırır ve özel saldırıları Zayıflık (Weakness) debuff'ı yoksa bloklanamaz hale gelir.",
+        "• Strateji: Yol dövüşleri: Black Widow → Longshot → Spider-Man (Miles Morales) → Tigra. Tigra karşısında ağır vuruş alışverişinden kaçının (saldırı artışı iki tarafı da etkiler); Zayıflık uygulayabilen bir şampiyonla özel saldırılarını bloklanabilir hale getirin."
+      ],
+      "defenders": [
+        "blackwidow",
+        "longshot",
+        "spidermanmilesmorales",
+        "tigra"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zihin Kristali Yolu - Zorlu Alternatif Yol, Magneto (House of X) Ara Patronu):",
+        "• Karo Açıklaması: Phoenix, Black Panther (Civil War) ve Medusa ile karşılaşılır; yol sonunda ara patron Magneto (House of X) bulunur. Bu versiyon Beceri (Prowess) yığınlamayı gerektirir ve Metal sınıfı şampiyonları ağır şekilde cezalandırır; dövüş büyük ölçüde oyuncu becerisine dayanır, tek bir kesin karşı şampiyon yoktur.",
+        "• Strateji: Yol dövüşleri: Phoenix → Black Panther (Civil War) → Medusa → Magneto. Metal sınıfı şampiyon getirmekten kesinlikle kaçının; Prowess yığınlayabilen veya sınıf avantajlı (Human Torch, Captain America Infinity War, Captain Marvel Movie) şampiyonlarla ilerleyin."
+      ],
+      "defenders": [
+        "phoenix",
+        "blackpanthercivilwar",
+        "medusa",
+        "magneto"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "guardian",
+    "bossNodes": [
+      "Güç Kalkanı (Power Shield) - Guardian'a karşı normal vuruşlar hasar vermez, sadece güç doldurur; özel saldırılar ise %400 fazladan hasar verir, bu yüzden dövüş güç biriktirip doğru anda özel saldırı patlatmaya dayanır.",
+      "Yaşam Transferi (Life Transfer) - Guardian saniyede %2 Yıpranma ile can kaybeder ama verdiği hasarın %125'ini yaşam çalma olarak geri kazanır; saldırganın kendi hasarını iyi zamanlaması gerekir, aksi halde Guardian dövüşü uzattıkça güçlenir.",
+      "Hastalık Hayaleti (Spectre of Ailment) - Debuff kaynaklı rejenerasyon azaltma etkisi %50 zayıflatılmıştır, bu yüzden sadece debuff'a güvenerek Guardian'ın kendini iyileştirmesini engellemek yetersiz kalır."
+    ],
+    "idealCounters": [
+      "magneto",
+      "ghost",
+      "doctordoom",
+      "hyperion"
+    ]
+  }
+}

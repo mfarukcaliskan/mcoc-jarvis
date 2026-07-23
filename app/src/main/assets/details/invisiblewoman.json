@@ -1,0 +1,18 @@
+{
+    "id": "invisiblewoman",
+    "name": "Invisible Woman",
+    "abilityDetails": {
+        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği.",
+        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Force Field": "Şampiyonun dövüş sırasında avantaj sağlayan özel Force Field yeteneği.",
+        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Fragility": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fragility yeteneği.",
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Invisible Woman için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Invisible Woman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

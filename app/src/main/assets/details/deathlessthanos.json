@@ -1,0 +1,22 @@
+{
+    "id": "deathlessthanos",
+    "name": "Thanos (Deathless)",
+    "abilityDetails": {
+        "Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Protection yeteneği.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Counterpunch": "Şampiyonun dövüş sırasında avantaj sağlayan özel Counterpunch yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Panic": "Şampiyonun dövüş sırasında avantaj sağlayan özel Panic yeteneği.",
+        "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Pulverize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pulverize yeteneği.",
+        "Corrosion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Corrosion yeteneği.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Armor Shattered": "Şampiyonun dövüş sırasında avantaj sağlayan özel Armor Shattered yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Genesis": "Şampiyonun dövüş sırasında avantaj sağlayan özel Genesis yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Thanos (Deathless) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Thanos (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,14 @@
+{
+    "id": "falcon",
+    "name": "Falcon",
+    "abilityDetails": {
+        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Fragility": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fragility yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Falcon için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Falcon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

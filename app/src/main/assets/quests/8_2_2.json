@@ -1,0 +1,53 @@
+{
+  "name": "8.2.2 - Ölümsüz Paralı Asker",
+  "globalNodes": [
+    "Silah (Weapon) Düğümü - Kızıl Kalkan (Red Riot Shield): Bazı savunmacılara ekstra blok gücü ve saldırı bonusu veren özel bir silah teması aktiftir; İyi Zamanlı Blok veya Kesişme ile düğüm etkisiz bırakılabilir.",
+    "Silahsızlandırma / Yakalama Düğümleri: Savunmacı silahsızken doğru eylemi yapan saldırgan silahın yeteneğini geçici olarak devralabilir; yakalama süresi dolduğunda tüm etkiler kalkar ve saldırgan bir süre tekrar silahsızlandıramaz."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Elektra Yolu - Daha Kolay Yol):",
+        "• Karo Açıklaması: Amansız Mutasyon (Relentless Mutation) ve Güçlü Saldırı (Vigorous Assault) düğümleri; Elektra mini-boss karşılaşmasında art arda gelen Kanama debuff'ları ve kritik hasar artışları mevcuttur.",
+        "• Strateji: Kanama bağışıklığı olan şampiyonlar tercih edin; Elektra'nın hızlı kombo zincirlerini kesmek için intercept/parry ritmini bozmayın."
+      ],
+      "defenders": [
+        "elektra",
+        "black_widow",
+        "taskmaster",
+        "winter_soldier",
+        "punisher"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Domino Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: İyileş ya da Sakla (Heal or Hide) ve Karşı Vur (Strike Back) düğümleri; Domino'nun Şans (Luck) mekaniği rakibin kritik ve kaçınma oranlarını rastgele değiştirir.",
+        "• Strateji: Kesin İsabet/Kesin Sezgi sağlayan şampiyonlar getirin; Domino'nun şans tabanlı kaçınma ve oto-blok tetiklemelerini bypass edin."
+      ],
+      "defenders": [
+        "domino",
+        "cable",
+        "x_23",
+        "gambit"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "deadpool_x_force",
+    "bossNodes": [
+      "Güç Bazlı Direnç: 1 bar altı güçte özel saldırı fırlatamaz ve tüm hasarı %95 azaltır; 1 barda +2100 Blok Delme kazanır; 2 barda tüm saldırıları Blok Edilemez olur; 3 barda ağır saldırı şarjı rakibin saldırı gücünün %50'si kadar doğrudan hasar verir.",
+      "Ölümsüz Rejenerasyon: Orta mesafe kaçış saldırıları sırasında Debuff ve Durdurulamaz (Unstoppable) bağışıklığı kazanır; her Sersemletme (Stun) debuff'u aldığında sonraki stunların süresi %10 azalır, hızlı iyileşmesi onu neredeyse öldürülemez kılar."
+    ],
+    "idealCounters": [
+      "wolverine",
+      "black_panther",
+      "guillotine_2099",
+      "warlock"
+    ]
+  }
+}

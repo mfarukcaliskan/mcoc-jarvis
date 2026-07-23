@@ -1,0 +1,61 @@
+{
+  "name": "6.4.5 - Hidra Kalesi",
+  "globalNodes": [
+    "Standart Özel Saldırılar Bloklanamaz + Aksiyon 6 Bölüm 4 Güçlendirmesi (+%600 Saldırı/Can) - Tüm savunmacıların özel saldırıları bloklanamaz hale gelir ve saldırı/can değerleri ciddi oranda artar; bu etki haritanın tamamında geçerlidir.",
+    "Lionheart (Aslan Kalbi) / Vivified / Masochism (Mazoşizm) - Rakiplerin sürekli özel saldırı (SP) doldurmasını sağlar ve attığınız zayıflatıcıları (debuff) yenileyerek rakibin can kazanmasına yol açar; zayıflatıcıları aşabilen veya rakibin özel saldırı atmasından faydalanan şampiyonlar seçilmelidir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Hydra Adaptoid Kulvarı - Aslan Kalbi Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Matador düğümü gereği güç sadece savunmacı Özel Saldırı attığında kazanılır; Vigor düğümü ise savunmacıya dövüş başladıktan sonra her 15 saniyede bir temel canının %50'si kadar iyileşme sağlar. Doğru şampiyon seçimiyle diğer yollara kıyasla çok daha kolay bypass edilebilen en zahmetsiz tamamlanma yoludur.",
+        "• Strateji: Yol dövüşleri X-23 → Darkhawk → Goldpool (Mazoşizm karosuyla birleşince çok fazla can yenileyebilir) → Angela → Gladiator Hulk → Deadpool → Green Goblin → Sabretooth → Guillotine 2099 (Ara Boss/Mini-Boss - Yavaşlatma/Slow uygulayan şampiyonlar veya Torch/Kozmik şampiyonlarla geçin) sırasındadır. Vigor tetiklenmeden önceki 15 saniyelik pencerede yüksek hasar patlatarak savunmacıyı düşürmeye çalışın, aksi halde iyileşme payını kapatmak zorlaşır."
+      ],
+      "defenders": [
+        "wolverinex23",
+        "darkhawk",
+        "goldpool",
+        "angela",
+        "hulkragnarok",
+        "deadpool",
+        "greengoblin",
+        "sabretooth",
+        "guillotine2099"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Hidra Elektrik Koridoru - Zorlu Alternatif Yol - 'Pull! / Selective Timestream / Flux Dispersal'):",
+        "• Karo Açıklaması: Pull! düğümü mermi (projectile) saldırılarının hasarını %100 artırırken diğer tüm saldırı türlerinin hasarını %75 azaltır. Flux Dispersal düğümü savunmacının aldığı her vuruşta hasar azaltma yükü biriktirmesini sağlar (bir Ağır Vuruş bu yükleri sıfırlar); süregelen (DOT) debufflar bu azaltmayı yok sayar.",
+        "• Strateji: Mermi saldırısı olan (Domino, Hyperion) ya da Zehir/Yanma gibi süregelen hasar debuff'larına dayanan (Hyperion, Void) şampiyonlar getirin; Flux Dispersal yüklerini sıfırlamamak için gereksiz Ağır Vuruş atmaktan kaçının."
+      ],
+      "defenders": [
+        "domino",
+        "hyperion",
+        "void"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "adaptoid",
+    "bossNodes": [
+      "Hidra Adaptoid (Teknoloji Sınıfı) - Iron Man (OG) tarzı davranan, Hydra tarafından ele geçirilmiş bir Adaptoid; karşısındaki saldırganın sınıfına göre ek bağışıklıklar kazanır. Zırh Kırma bağışıklığı vardır, çok hızlı güç kazanır ve özel saldırı kullandığında hem Siper Alınamaz (Unblockable) hem de Durdurulamaz (Unstoppable) olur. Ayrıca 10 yüklük Limber karosu vardır.",
+      "Matador - Güç sadece boss Özel Saldırı attığında kazanılır.",
+      "Vigor - Dövüş başladıktan sonra her 15 saniyede canının %50'si kadar iyileşir; bu pencereler arasında yüksek hasar patlatmak gerekir.",
+      "Strateji: She-Hulk bu kulvarın ve boss'un mutlak kraliçesidir - karolar sayesinde rakip sürekli özel saldırı doldurur ve She-Hulk'ın Pasif Hiddet yükleri bitmez; ağır saldırısıyla Yavaşlatma (Slow) uygulayarak boss'un Durdurulamaz olmasını engeller. Shang-Chi Slow etkisini kolayca yeniler, mazoşizmi ve boss'un durdurulamaz olmasını engeller. Doktor Doom blokta karşılayıp güç çalma döngüsüne sokarak dövüşü kontrol altında tutabilir. Captain America (IW) (+Mistik Sinerji) rakibin Durdurulamaz takviyesini anında siler ve kinetik yük kazanır. Black Widow (Claire Voyant) Yakma (Incinerate) moduna geçerek mazoşizmi aşabilir. Yol Counterları (Koridor): Stealth Suit Spider-Man (yenilenmeyi engeller), Hercules (yüksek hasar ve ölümsüzlük). Dövüş Stratejisi: Dövüş başlar başlamaz rakibin SP1 saldırmasını bekleyin (yemleyin); özel saldırısı bitene kadar arkaya kaçın, Durdurulamaz süresi bittiğinde agresif oynayarak kendi özel saldırılarınızı zincirleyin."
+    ],
+    "idealCounters": [
+      "shehulk",
+      "shangchi",
+      "doctordoom",
+      "captainamericaiw",
+      "blackwidowclairevoyant",
+      "spidermanstealthsuit",
+      "hercules"
+    ]
+  }
+}

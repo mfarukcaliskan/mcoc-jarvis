@@ -1,0 +1,53 @@
+{
+  "name": "7.2.5 - Kare Kare",
+  "globalNodes": [
+    "Güç Kalkanı (Power Shield) - Savunmacı korunurken saldırganın normal vuruşları hasar vermez (sadece güç doldurur), özel saldırılar ise %400 fazladan hasar verir; ritim güç toplayıp özel saldırı patlatmaya dayanır.",
+    "Zehir Kırılganlığı (Poison Vulnerability) - Savunmacılar Zehir debuff'ı altındayken aldıkları hasar belirgin şekilde artar, bu da Zehir uygulayan şampiyonları bu bölümde özellikle değerli kılar.",
+    "Zaman Kutusu (Hurt Locker) - Belirli aralıklarla gecikmeli bir patlama hasarı tetiklenir; bu patlama önceden görülen bir uyarı karesi ile senkronizedir, doğru anda blok/kaçınma yapmak hasarı büyük ölçüde azaltır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kadraj Yolu - En Kolay Yol, Void Ara Patronu):",
+        "• Karo Açıklaması: Spider-Man (Miles Morales), Psylocke ve Quake ile karşılaşılır; yol sonunda ara patron Void bulunur. Void'in hasar patlamaları saldırgan üzerindeki Kanama yığın sayısına göre ölçeklenir ve her 10 vuruşta bir üzerindeki debuff'ları temizler.",
+        "• Strateji: Yol dövüşleri: Spider-Man (Miles Morales) → Psylocke → Quake → Void. Kanama yığınlarını gereksiz büyütmeyin (Void'in patlama hasarını artırır); Nick Fury veya Mole Man gibi debuff temizlenmesinden bağımsız çalışan şampiyonlarla ilerleyin."
+      ],
+      "defenders": [
+        "spidermanmilesmorales",
+        "psylocke",
+        "quake",
+        "void"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kalıcılık Yolu - Zorlu Alternatif Yol, Platinumpool Ara Patronu):",
+        "• Karo Açıklaması: Ghost Rider, Captain America (Infinity War) ve Aegon ile karşılaşılır; yol sonunda ara patron Platinumpool bulunur. Platinumpool, 30 saniye içinde 10 veya daha fazla debuff uygulanmadığı veya saf (True) hasar alınmadığı sürece kendini sürekli yeniler.",
+        "• Strateji: Yol dövüşleri: Ghost Rider → Captain America (Infinity War) → Aegon → Platinumpool. Kısa sürede çok sayıda debuff uygulayabilen (Guillotine 2099, Human Torch, Abomination Immortal) veya saf hasar veren şampiyonlarla yenilenme döngüsünü kırın."
+      ],
+      "defenders": [
+        "ghostrider",
+        "captainamericaiw",
+        "aegon",
+        "platinumpool"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "dragonman",
+    "bossNodes": [
+      "Şaşırtıcı Yansıma (Stunning Reflection) - Bu yetenek aktifken parry yapılamaz; sadece Dragon Man'e Kızgınlık (Incinerate) debuff'ı uygulandığında yetenek 8 saniyeliğine devre dışı kalır ve bu pencerede parry mümkün hale gelir, ardından döngü tekrar başlar.",
+      "Sersemletme Bonusu - Dragon Man sersemletildiğinde saldırgan %40 Saldırı Gücü bonusu kazanır, bu da Kızgınlık üzerinden açılan parry pencerelerini son derece değerli kılar."
+    ],
+    "idealCounters": [
+      "humantorch",
+      "blackwidowclairevoyant",
+      "sunspot",
+      "doctordoom"
+    ]
+  }
+}

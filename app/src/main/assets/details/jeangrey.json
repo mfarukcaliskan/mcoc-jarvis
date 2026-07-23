@@ -1,0 +1,17 @@
+{
+    "id": "jeangrey",
+    "name": "Jean Grey",
+    "abilityDetails": {
+        "Neuroshock": "Rakibe zamanla yüksek elektrik tabanlı hasar verir.",
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Force Field": "Şampiyonun dövüş sırasında avantaj sağlayan özel Force Field yeteneği.",
+        "Delirium": "Rakibin özel saldırı zamanlamalarını bozar.",
+        "Uncanny": "Şampiyonun dövüş sırasında avantaj sağlayan özel Uncanny yeteneği.",
+        "Daunted": "Rakibin özel saldırılar sonrasında hasar almasını kolaylaştırır.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir."
+    },
+    "synergies": [],
+    "howToPlay": "Jean Grey için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Jean Grey Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

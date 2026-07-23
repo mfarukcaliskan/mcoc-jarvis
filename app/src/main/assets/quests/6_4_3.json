@@ -1,0 +1,64 @@
+{
+  "name": "6.4.3 - Karanlık Kanatlar",
+  "globalNodes": [
+    "True Strike (Gerçek Saldırı) & Aggressive Cruelty (Saldırgan Zalimlik) (küresel) - Bu haritanın karoları karmaşık bir mekanik içermez; düz vuruş/parry rotasyonlarıyla rahatça geçilebilir. Aksiyon 6 Bölüm 4 standart güçlendirmesi (+%600 Saldırı/Can) haritanın tamamında etkindir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (No Retreat Koridoru - En Kolay Yol):",
+        "• Karo Açıklaması: True Strike ve Aggressive Cruelty karolarının yer aldığı, düz dövüşlerden oluşan en rahat yoldur. Annihilus mini-boss'unda ayrıca No Retreat (Geri Adım Yok) düğümü vardır - 1.2 saniye içinde art arda iki kez geri kaçış, saldırganın canının %200'ü kadar direkt hasar veren 5 saniyelik pasif Degen (Bozunma) tetikler.",
+        "• Strateji: Yol dövüşleri Blade → Void → Venompool → Black Widow (Classic) → King Groot (can yenileme/regen mekaniğine dikkat edin) → Elektra → Drax → Annihilus (Mini-Boss) sırasındadır. Annihilus karşısında geri kaçışı minimuma indirip parry/blok döngüsüyle ilerleyin; Annihilus'un Kozmik Çubuğu (Cosmic Rod) sürekli unblockable/unstoppable tetikler, bu yüzden takviye silen mistik şampiyonlar (Doctor Doom çubuğu etkisiz kılar, Symbiote Supreme veya Claire Voyant) bu düğümü büyük ölçüde kolaylaştırır."
+      ],
+      "defenders": [
+        "blade",
+        "void",
+        "venompool",
+        "blackwidow",
+        "kinggroot",
+        "elektra",
+        "drax",
+        "annihilus"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Raptor Koridoru - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Force of Will düğümü savunmacıyı yetenek isabeti düşürme (ability accuracy azaltma) etkilerine bağışık kılar; teknoloji temalı savunmacılarla ilerlenen bu koridor Darkhawk'ın Raptor Zırhı yükseltmesine hazırlık niteliğindedir.",
+        "• Strateji: Yol dövüşleri Ultron → Sentinel → Ghost → Doctor Octopus → Nova şeklindedir. Güç çalma/azaltma yeteneğine dayanan şampiyonlar bu koridorda etkisiz kalır; bunun yerine ham hasar ve doğrudan bağışıklığa güvenen bir ekip getirin."
+      ],
+      "defenders": [
+        "ultron",
+        "sentinel",
+        "ghost",
+        "doctoroctopus",
+        "nova"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "darkhawk",
+    "bossNodes": [
+      "Teknolojik ve Metal Patron - Darkhawk teknolojik ve Metal sınıflı bir boss'tur; kalkan modlarında hasar yansıtır ve unblockable olur.",
+      "Raptor Zırhı Yükseltmesi - Darkhawk dövüşe Null Mode'da başlar; bu mod aktifken Hafif ve Orta saldırıları bloklanamaz.",
+      "Mod Değiştirme (Mode Shift) - Darkhawk periyodik olarak görünmezlik veya kalkan moduna geçer.",
+      "True Strike & Aggressive Cruelty (küresel) - Haritanın geri kalanındaki karo mekanikleri karmaşık değildir, düz rotasyonlarla ilerlenebilir.",
+      "Strateji: Kırmızı Magneto (Red Magneto), Darkhawk Metal sınıfı olduğu için onun yeteneklerini kilitler; ağır saldırıyla beceri (prowess) biriktirip SP3 attığınızda dövüşü tek seferde bitirebilir - bu dövüşün en net çözümüdür. Hulkling ve Hercules, yüksek hasarları ve zırh kırma bağışıklıklarıyla güçlü alternatiflerdir. Quake ile temassız oynayarak Null Mode'un bloklanamaz saldırılarından kaçının, ya da Human Torch/Doctor Doom gibi yüksek süregelen (DOT) hasarı olan şampiyonlarla dövüşü hızlandırın; Captain Marvel (Movie) de güçlü bir alternatiftir. Yol Counterları (Koridor): Hercules, CGR (Cosmic Ghost Rider) veya Corvus Glaive gibi zehir bağışıklığı veya yüksek hasarı olan şampiyonlar King Groot gibi can sıkan rakipleri hızla geçer."
+    ],
+    "idealCounters": [
+      "magneto",
+      "hulkling",
+      "hercules",
+      "quake",
+      "captainmarvelmcu",
+      "humantorch",
+      "doctordoom",
+      "cosmicghostrider",
+      "corvusglaive"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "7.2.6 - Gwenmaster Sınavı",
+  "globalNodes": [
+    "İmza Kısıtlaması - Bu bölümdeki tüm savunmacılar tek vuruşluk hasarı can tavanının %5'i ile sınırlar ve hasar veren efektlerin gücünü %100 azaltır; debuff süreleri de %50 kısalır, bu yüzden büyük tek vuruşlu kombolara dayalı stratejiler burada işe yaramaz."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Sentetik Zihin Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Ultron, Silver Surfer ve Hulkbuster ile karşılaşılır. Bu yoldaki Metal ve Kozmik temalı savunmacılar yüksek Zırh ve Enerji Direnci taşır; kalıcı hasar biriktirmek yerine istikrarlı vuruş serileri daha güvenlidir.",
+        "• Strateji: Yol dövüşleri: Ultron → Silver Surfer → Hulkbuster. Zırh Kırma uygulayabilen (Guardian, Ghost) veya Gerçek Vuruş temelli şampiyonlarla direnç katmanlarını aşın."
+      ],
+      "defenders": [
+        "ultron",
+        "silversurfer",
+        "hulkbuster"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kart Destesi Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Gambit, Captain Marvel (Movie) ve Guillotine 2099 ile karşılaşılır. Bu yoldaki savunmacılar buff/debuff etkileşimine dayalı karmaşık mekanikler taşır; dikkatsiz oynanış hızlı can kaybına yol açar.",
+        "• Strateji: Yol dövüşleri: Gambit → Captain Marvel (Movie) → Guillotine 2099. Buff'a bağımlı olmayan, sabit hasar veren şampiyonlarla ilerleyin ve parry disiplinini koruyun."
+      ],
+      "defenders": [
+        "gambit",
+        "captainmarvelmcu",
+        "guillotine2099"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "gwenmaster",
+    "bossNodes": [
+      "Yıkım Geri Sayımı (Countdown to Destruction) - Dövüş başında ve her Özel Saldırı 2 sonrası 30 saniyelik bir sayaç başlar; bu süre boyunca Özel Saldırı 2 kilitlidir. Sayaç doğal olarak dolarsa mevcut Plot Armor yeniden aktifleşir ve Özel Saldırı 2 hasarı saldırgana işler; sayaç Plot Armor'ın yok edilmesiyle sona ererse bir sonraki Plot Armor açılır ve hasar bunun yerine Gwenmaster'a işler.",
+      "1. Faz - Emma Frost'un Yalıtılmış Taytları: Saldırgandan 1 güç bar düşükken Elmas Formu (kritik ve debuff bağışıklığı) kazanır; yok etmek için Özel Saldırı 1 sırasında 4 Prowess yığınıyla Dexterity tetiklenmelidir.",
+      "2. Faz - Killmonger'ın Kraliyet Kolyesi: Blok yapıldığında 'Karşı Yumruk' yükleri birikir (0.75 saniyelik Durdurulamaz kazandırır); bu yükler tamamen tükendiğinde faz yok olur.",
+      "3. Faz - Görünmez Kadın'ın Alyansı: 286.538 canlık bir Güç Kalkanı gelen hasarın %90'ını emer; kalkan sıfırlanana kadar yok edilemez.",
+      "4. Faz - Doom'un Sevgili Kapüşonu: Haazareth Auası her düşüşten sonra Durdurulamaz verir ve saniyede saldırganın gücünün %5'ini çalar; bu fazı yok etmek için Ağır Vuruş, Özel Saldırı 1 ve Özel Saldırı 2 ile art arda düşüş yaptırmak gerekir.",
+      "5. Faz - Aarkus'un Retro Pelerini: Saldırgana yakınken saniyede %10 güç bar kazanır; uzaktayken 2.2 saniyede bir %238 Zırh Kırma uygular. Yok etmek için savunmacıyı en az 10 Zırh Kırma yığını aktifken düşürmek gerekir.",
+      "6. Faz - Iron Man'in Gösterişli Güneş Gözlüğü: 6 Zırh Artışı ile başlar ve her 14 saniyede bir yenisini kazanır (her biri 537 Zırh); ayrıca süresiz %100 Otomatik Blok kazanır. Yok etmek için Zırh Artışlarını bloklayarak veya 4. ışık kombo vuruşuyla sıfırlamak gerekir.",
+      "Özel Saldırı 3 - Anında Rakibi Bayıltır (Instant KO); bu hasar hiçbir şekilde engellenemez veya azaltılamaz."
+    ],
+    "idealCounters": [
+      "nickfury",
+      "colossus",
+      "professorx",
+      "doctordoom"
+    ]
+  }
+}

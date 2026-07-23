@@ -1,0 +1,17 @@
+{
+    "id": "dormammu",
+    "name": "Dormammu",
+    "abilityDetails": {
+        "Detonate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Detonate yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Dormammu için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Dormammu Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

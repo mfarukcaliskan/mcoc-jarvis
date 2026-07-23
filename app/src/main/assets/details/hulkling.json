@@ -1,0 +1,19 @@
+{
+    "id": "hulkling",
+    "name": "Hulkling",
+    "abilityDetails": {
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
+        "Aptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Aptitude yeteneği.",
+        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
+        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Hulkling için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Hulkling Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

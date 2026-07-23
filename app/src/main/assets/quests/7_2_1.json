@@ -1,0 +1,55 @@
+{
+  "name": "7.2.1 - Geri Tepme",
+  "globalNodes": [
+    "Enerji Kabulü (Energy Adoption) - Karo üzerindeki savunmacılar Ateş veya Buz temelli bir debuff'a maruz kaldığında bunu emer ve kalıcı bir dirence dönüştürür; aynı elementten ikinci kez etkilenmeye çalışıldığında tamamen bağışıklık kazanırlar, bu yüzden aynı debuff'ı art arda yığmaya çalışmak zaman kaybıdır.",
+    "Kanlı Sular (Blood in the Water) - Savunmacının canı %50'nin altına düştüğünde saldırgan üzerine 5 saniyede bir %8 Kanama hasarı işleyen bir yığın kazanır; uzun süren dövüşlerde bu birikerek saldırganı ciddi tehlikeye sokar.",
+    "Şok Kırılganlığı (Stun Vulnerability) - Savunmacılar sersemletildiğinde aldıkları hasar %50 artar, ancak sersemletme süreleri de %50 kısalır; sersemletmeyi büyük vuruşlarla eşleştirmek karlıdır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kozmik Konsey Yolu - En Kolay Yol, Mole Man Ara Patronu):",
+        "• Karo Açıklaması: Black Bolt, Professor X ve Scarlet Witch ile karşılaşılır; yol sonunda ara patron Mole Man bulunur. Mole Man Kanama ve Sersemleme dahil tüm debuff'ları silkeleyip her silkelemede bir 'Canavar Maskesi' yığını kazanır; 20 yığına ulaştığında Çılgınlık (Frenzy) moduna girer ve bu modda Kanama'ya karşı savunmasız hale gelir.",
+        "• Strateji: Yol dövüşleri: Black Bolt → Professor X → Scarlet Witch → Mole Man. Mole Man'e karşı debuff denemekten kaçının (silkeleme yığınını büyütmemek için), sadece temiz vuruşlarla hasar verin; Frenzy moduna girince Kanama uygulayabilen bir şampiyonla (Guillotine 2099, Wolverine) bitirin."
+      ],
+      "defenders": [
+        "blackbolt",
+        "professorx",
+        "scarletwitch",
+        "moleman"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Manyetik Ayaklanma Yolu - Zorlu Alternatif Yol, Magneto Ara Patronu):",
+        "• Karo Açıklaması: Stryfe, Captain Marvel (Movie) ve Juggernaut ile karşılaşılır; yol sonunda ara patron Magneto bulunur. Magneto, saldırgan bir buff tetiklediğinde 'Kin (Spite)' yığını kazanır ve bu yığınlar saldırganın hasarını düşürür; ayrıca Petrifikasyon (Petrify) debuff'ı ile saldırganın Kaçınma yeteneğini geçici olarak iptal eder. Metal sınıfı şampiyonlar bu yolda ekstra dezavantajlıdır.",
+        "• Strateji: Yol dövüşleri: Stryfe → Captain Marvel (Movie) → Juggernaut → Magneto. Buff'a bağımlı olmayan (Human Torch, Captain America Infinity War gibi) şampiyonlarla ilerleyin; Metal sınıfı şampiyon getirmekten kaçının, Petrifikasyon aktifken kaçınmaya güvenmeyin."
+      ],
+      "defenders": [
+        "stryfe",
+        "captainmarvelmcu",
+        "juggernaut",
+        "magneto"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "modok",
+    "bossNodes": [
+      "Kuvvet Alanı (Force Field) - MODOK dövüşe 1 Kuvvet Alanı yüküyle başlar; bu yük +174 Blok Yeterliliği ile gelen saldırıyı otomatik bloklar ve bu otomatik blok sırasında parry tetiklenemez. Kuvvet Alanı, sahadaki her canlı müttefik şampiyon için 0.8 saniye daha hızlı yeniden dolar (5 şampiyonun tamamı hayattaysa 3 saniyede dolar).",
+      "Aşırı Yüklenme (Overrun) - Kuvvet Alanı aktifken bloklanan saldırılar Overrun yükü biriktirir; yük belirli bir eşiği aştığında MODOK'un gelecek özel saldırısı ciddi oranda güçlenir, bu yüzden Gerçek Vuruş (True Strike) temelli saldırılarla Kuvvet Alanı'nı tamamen devre dışı bırakmak en güvenli yoldur."
+    ],
+    "idealCounters": [
+      "magneto",
+      "moleman",
+      "killmonger",
+      "falcon",
+      "angela",
+      "corvusglaive"
+    ]
+  }
+}

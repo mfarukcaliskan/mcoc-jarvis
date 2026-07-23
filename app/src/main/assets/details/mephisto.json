@@ -1,0 +1,15 @@
+{
+    "id": "mephisto",
+    "name": "Mephisto",
+    "abilityDetails": {
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Imprison": "Şampiyonun dövüş sırasında avantaj sağlayan özel Imprison yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Mephisto için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Mephisto Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

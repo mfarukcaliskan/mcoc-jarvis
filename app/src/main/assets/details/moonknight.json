@@ -1,0 +1,14 @@
+{
+    "id": "moonknight",
+    "name": "Moon Knight",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
+    },
+    "synergies": [],
+    "howToPlay": "Moon Knight için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Moon Knight Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

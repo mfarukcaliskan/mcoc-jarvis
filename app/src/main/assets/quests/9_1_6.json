@@ -1,0 +1,54 @@
+{
+  "name": "9.1.6 - Orochi Tapınağı",
+  "globalNodes": [
+    "Adrenalin Artışı (Adrenaline Rush) - Vuruş yediğinizde biriken Adrenalin ile saldırgan olarak aldığınız hasarı %100'e kadar azaltabilirsiniz.",
+    "Hattı Koru (Hold the Line) - Adrenalin ile ölçeklenerek blok etkinliğinizi %80'e kadar artırır. Bu, Sahne 9.1'in final bölümü 'Sow the Wind'de de geçerlidir ve tüm yollar aynı final boss'a (X-23 Orochi) çıkar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Weapon-X Güzergahı - En Kolay Yol):",
+        "• Karo Açıklaması: Pençe/iyileşme temalı X-Men düşmanları; bazıları vurulduğunda hızlı pasif Yenilenme (Regeneration) kazanır.",
+        "• Strateji: Kanamaya karşı bağışık veya yenilenmeyi durduran şampiyonlar getirin; parry sonrası ağır vuruş rutinini koruyup uzun kombolardan kaçının."
+      ],
+      "defenders": [
+        "wolverine",
+        "sabretooth",
+        "omega_red",
+        "x_23"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kabile Lideri Güzergahı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Zihin kontrolü ve buff-hırsızlığı temalı güçlü X-Men kötüleri; düşmanlar sizin buff'larınızı çalabilir veya nötrleyebilir.",
+        "• Strateji: Buff'a bağımlı olmayan, ham hasar odaklı şampiyonlar tercih edin; bağışıklık listesi (Zehir/Kanama/Şok) yüksek karakterler getirin."
+      ],
+      "defenders": [
+        "onslaught",
+        "magneto",
+        "mystique",
+        "apocalypse"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "x_23_orochi",
+    "bossNodes": [
+      "Mükemmel Blok - %100 Mükemmel Blok Şansına sahiptir ve Kaçış (Evade) ile atlatılamaz.",
+      "Anlık İyileşme - Gelen hasarın %95'ini anında geri kazanır; üzerinde aktif olan her ani-olmayan (süreli/DOT) hasar efekti bu oranı %5 azaltır, minimum %50'ye kadar düşer - yani aynı anda birden fazla Kanama/Zehir/Kızdırma etkisi gerekir.",
+      "Şiddetli Arınma (Violent Purge) - Üzerinde 10 veya daha fazla hasar efekti biriktiğinde 10 saniyelik bir sayaç başlar; süre dolduğunda tüm hasar efektlerini temizler ve saldırgana Bozunma (Degeneration) uygular - bu yüzden DOT stack'lerini kontrollü tutmak gerekir.",
+      "Sınıf Bonusu - Mutant sınıfı olduğu için Skill şampiyonlara karşı avantajlıdır, ancak Tech şampiyonlara karşı zayıftır."
+    ],
+    "idealCounters": [
+      "onslaught",
+      "lady_deathstrike",
+      "warlock",
+      "symbiote_supreme"
+    ]
+  }
+}

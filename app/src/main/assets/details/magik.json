@@ -1,0 +1,19 @@
+{
+    "id": "magik",
+    "name": "Magik",
+    "abilityDetails": {
+        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği.",
+        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
+        "Buff Deceleration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Deceleration yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Buff Acceleration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Acceleration yeteneği.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Magik için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Magik Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

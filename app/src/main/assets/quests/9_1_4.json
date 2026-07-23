@@ -1,0 +1,52 @@
+{
+  "name": "9.1.4 - Kara Dul'un Zehri",
+  "globalNodes": [
+    "Adrenalin Artışı (Adrenaline Rush) - Vuruş yediğinizde biriken Adrenalin ile saldırgan olarak aldığınız hasarı %100'e kadar azaltabilirsiniz.",
+    "Hattı Koru (Hold the Line) - Adrenalin ile ölçeklenerek blok etkinliğinizi %80'e kadar artırır. Sahne 9.1'in tüm bölümlerinde standarttır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Mistik Güzergahı - En Kolay Yol):",
+        "• Karo Açıklaması: Mistik temalı düşmanlar sürekli debuff uygular; bazıları vurulduğunda kendini iyileştirir.",
+        "• Strateji: Düşman özel saldırılarını baitleyin, parry sonrası ağır vuruş rutinini koruyun ve debuff bağışıklığı yüksek şampiyonlar tercih edin."
+      ],
+      "defenders": [
+        "mordo",
+        "dormammu",
+        "mephisto",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B ('Power Technician' Yenilenme Güzergahı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Wolverine ailesi düşmanlar sürekli pasif Yenilenme (Regeneration) uygular; standart Heal Block bazı düşmanlarda tam etkili olmayabilir.",
+        "• Strateji: Güç Kontrolü veya doğrudan burst hasar veren şampiyonlar getirin; yenilenmeyi tamamen durduran (Petrify tarzı) etkiler tercih edilmelidir."
+      ],
+      "defenders": [
+        "wolverine",
+        "sabretooth",
+        "x_23",
+        "omega_red"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "black_widow_claire_voyant",
+    "bossNodes": [
+      "Sürekli Can Çalma - İsabet ettirdiği her saldırıdan pasif olarak can yeniler; bu yenilenme standart Heal Block (İyileşme Engeli) tarafından tam olarak durdurulamaz.",
+      "İyileşme Tersine Çevirme İhtiyacı - Etkili sonuç için can yenilenmesini tamamen kilitleyen (Petrify gibi) veya iyileşmeyi hasara çeviren mekanikler gerekir; aksi halde uzun süren bir hasar yarışına girilir."
+    ],
+    "idealCounters": [
+      "void",
+      "apocalypse",
+      "sandman",
+      "warlock"
+    ]
+  }
+}

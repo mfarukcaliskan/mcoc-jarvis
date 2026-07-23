@@ -1,0 +1,52 @@
+{
+  "name": "9.2.4 - Emici Kalkan",
+  "globalNodes": [
+    "Scourge / Proliferate / Clarify Sistemi - Act 9'un imza küresel mekaniği: Proliferate düğümlü karolarda savunmacı dövüş boyunca kademeli olarak Scourge Şarjı biriktirir ve bu şarjlar arttıkça savunmacının statları ve yetenekleri kalıcı olarak güçlenir. Clarify düğümlü karolarda Saldırgan isabetleriyle bu şarjları azaltabilir; bu düğümleri erken temizlemek sonraki karşılaşmaları kolaylaştırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Zorba Güç Kazanımı Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Crossbones ve Winter Soldier gibi savunmacılar isabet aldıkça hızlı güç kazanır (Bully tarzı düğüm); bu da erken özel saldırı tehdidi yaratır ama yol kısa ve doğrusaldır.",
+        "• Strateji: Düşman özel saldırılarını baitleyip parry sonrası ağır vuruş yapın; savunmacının güç kazanımını yavaşlatmak için Power Lock/Power Drain yeteneği olan şampiyonlar tercih edin."
+      ],
+      "defenders": [
+        "crossbones",
+        "winter_soldier",
+        "punisher",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kaba Kuvvet Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Juggernaut ve Unstoppable Colossus gibi savunmacılar ters kontrol (Reverse Controls) uygulayan düğümlerle birleşir; bu yol bazen alternatif bir mini-boss olarak Titania ile karşılaşmaya çıkar.",
+        "• Strateji: Ters kontrol karolarında sakin ve yavaş girdilerle ilerleyin; yüksek blok sağlamlığına sahip, Kızdırma/Sersemletmeye dirençli şampiyonlarla kaynaklarınızı Absorbing Man dövüşü için koruyun."
+      ],
+      "defenders": [
+        "juggernaut",
+        "unstoppable_colossus",
+        "thing",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "absorbing_man",
+    "bossNodes": [
+      "Çoklu Formlar - Absorbing Man'in Özel Saldırıları onu güçlü alternatif Formlara dönüştürür; aynı anda tek bir Formda kalabilir ve varsayılan olarak Kara Uru (Black Uru) Formuyla başlar; Form değişimleri Yetenek İsabeti düşürücü etkilerden bağımsız her zaman başarılı olur.",
+      "Güç Emilimi (Power Absorption) - Absorbing Man blok yaparken Saldırganın Güç Kazanım Oranını %72 azaltır ve engellenen bu güç kendisine aktarılır; bu yüzden onu bloğa zorlamak Saldırgan için risklidir.",
+      "Bağışıklıkta Duraklama ve Kırılganlık - Rakibin bir Buff'ı sona erdiğinde ya da Absorbing Man bir Debuff'a bağışıklık gösterdiğinde mevcut Form 3 saniye duraklar; rakibin temel saldırısını bir hafif vuruşla kesmek Formu 6 saniye durdurur ve 15 saniyelik, 5 kata kadar yığılabilen bir Kırılganlık (Vulnerability) Debuff'ı uygular."
+    ],
+    "idealCounters": [
+      "valkyrie",
+      "hulkling",
+      "scorpion",
+      "mole_man"
+    ]
+  }
+}

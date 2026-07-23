@@ -1,0 +1,53 @@
+{
+  "name": "8.4.1 - Çapraz Ateş",
+  "globalNodes": [
+    "Karanlık Şafak (Darkest Dawn) Bölümü: Act 8 Chapter 4'ün resmi adı 'Darkest Dawn'dır; bölüm boyunca haritanın çoğu karosunda düşmanlar maça agresif bir Güç Yüklenmesiyle başlar, bu yüzden karşılaşmanın ilk saniyelerinde ani özel saldırı riski yüksektir.",
+    "3 Alternatif Final Yolu: '8.4.1 - The More You Know' haritasında birden fazla final güzergahı bulunur; bu rehber, topluluk tarafından en çok tercih edilen ve doğrulanmış America Chavez finaline giden güzergahı kapsar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısa Yol - Gambit Başlangıçlı Cheese Hattı):",
+        "• Karo Açıklaması: Topluluk tarafından 8.4.1'in en kısa ve en az riskli güzergahı olarak doğrulanmıştır; yol Gambit ile başlayan görece hafif bir ara-boss dizisine sahiptir ve tam keşif hattına kıyasla çok daha az karşılaşma içerir.",
+        "• Strateji: Gambit'in Kinetik Yük tabanlı patlamalarını Mükemmel Blok ile karşılayın; Silk veya Miles Morales gibi temassız (non-contact) parry yapabilen şampiyonlarla bu yol neredeyse hasarsız tamamlanabilir."
+      ],
+      "defenders": [
+        "gambit",
+        "taskmaster",
+        "bullseye",
+        "sabretooth"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Uzun Yol - Tam Keşif Hattı):",
+        "• Karo Açıklaması: Haritadaki tüm karşılaşmalar aktiftir; mutant ağırlıklı güçlü savunmacılar art arda gelir ve Ability Accuracy düşüren düğümler daha sık tetiklenir.",
+        "• Strateji: Geniş debuff bağışıklığı olan ve kendi gücünü hızlı toplayan şampiyonlar tercih edin; Apocalypse gibi güç hırsızlığı yapan savunmacılara karşı düşük bar bağımlı special'lardan kaçının."
+      ],
+      "defenders": [
+        "apocalypse",
+        "omega_red",
+        "colossus",
+        "juggernaut"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "america_chavez",
+    "bossNodes": [
+      "Paralel Boyutlar: America Chavez, Heavy Attack sırasında Special başlatarak Ütopik Paralel, Karanlık Boyut veya Negatif Bölge boyutlarından birini 30 saniyeliğine aktive eder; sırasıyla düşmanın Fury/Armor Up/Precision/Cruelty potency'sini %70 azaltır, alınan hasarın %40'ını enerji hasarı olarak geri yansıtır veya düşmanın güç kazanım hızını %60 düşürür.",
+      "Buff Tersine Çevirme: Saldırgan üzerindeki her aktif buff, America Chavez'in Attack Rating ve Enerji Direncini artırır; eğer bu buff'lar Fury, Armor Up, Precision veya Cruelty ise etkileri tamamen tersine çevrilip onun lehine işler - kendi kendine buff veren şampiyonlar bu boss'ta risklidir.",
+      "Yıldız Portalı (Star Portal): Special 2'nin son 3 vuruşunda ek bir Big Bang Boyutu portalı açılır ve vuruş hasarının %50'si kadar ekstra enerji patlama hasarı uygular; 3'ten fazla benzersiz boyut aktifse 'Supercharged' duruma geçip bonus yığın kazanır."
+    ],
+    "idealCounters": [
+      "shuri",
+      "nick_fury",
+      "ghost",
+      "warlock"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "thing",
+    "name": "Thing",
+    "abilityDetails": {
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Protection yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Thing için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Thing Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,54 @@
+{
+  "name": "8.3.6 - Cerastes Sınavı",
+  "globalNodes": [
+    "Kozmos Sınav Alanı: Bu bölüm, görev boyunca biriken Kozmos Enerjisi kaynaklarının patrona aktarıldığı özel bir sınav haritasıdır; standart Sahne 8 global karoları burada devre dışıdır.",
+    "Yetenek Doğruluğu Kilidi: Patron alanına yaklaştıkça saldırganın Yetenek Doğruluğu düşürme (Ability Accuracy Reduction) etkileri kademeli olarak zayıflar; debuff bağımlı stratejilerin güvenilirliği azalır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Venom Yolu - Daha Kolay Yol):",
+        "• Karo Açıklaması: Ezici Vurucu (Crushing Striker) ve Altıncı His (Sixth Sense) düğümleri aktiftir; savunmacılar vurucu saldırılarla ek hasar kazanır, saldırgan ise özel saldırı öncesi kısa süreli bir sezinleme hissi yaşar.",
+        "• Strateji: 'Su Gibi Ol' prensibiyle blok/kaçınma zamanlamasını değişken tutun; sembiyot savunmacılara karşı sembiyot karşıtı etiketli şampiyonlar tercih edin."
+      ],
+      "defenders": [
+        "venom",
+        "agent_venom",
+        "carnage",
+        "green_goblin"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Tech sınıfı savunmacılar ağırlıklıdır; ek Güç Kilidi (Power Lock) ve Yavaşlatma (Slow) düğümleri saldırganın temposunu düşürür.",
+        "• Strateji: Güç Kilidi/Yavaşlatma bağışıklığı yüksek şampiyonlarla ilerleyin; sabit, kesintisiz temel saldırı hasarına güvenen bir ekip kurun."
+      ],
+      "defenders": [
+        "ultron",
+        "sentinel",
+        "nimrod",
+        "ghost"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "cerastes",
+    "bossNodes": [
+      "Bacak Zırhı (Leg Armor): Cerastes yere düştüğünde 100 birim Bacak Zırhı kazanır (saldırgandaki her benzersiz buff için +5 ek); zırh dolduğunda 12 saniye boyunca Durdurulamaz olur ve gelen Özel 1/2/Ağır saldırıların son isabetine karşı Sersemleme bağışıklığı kazanır.",
+      "Kalkan Zırhı (Shield Armor): Blok yapan Cerastes'e vurulduğunda Kalkan Zırhı birikir; zırh dolduğunda bloğa vuran saldırgana Repulsor Patlaması ile deviren ve uzun süreli Plazma yanık hasarı işleyen bir pasif uygulanır.",
+      "Ruh Zırhı (Spirit Armor): Bir Vurucu (Striker) serisinin son isabeti Cerastes'e değdiğinde Ruh Zırhı birikir; zırh dolduğunda Cerastes 12 saniye boyunca Bloklanamaz, Durdurulamaz hale gelir ve Gerçek Sezgi (True Sense) kazanır.",
+      "Bozulmaz Bağışıklıklar: Cerastes; Yavaşlatma, Etkisizleştirme (Neutralize), Güç Çalma ve Güç Kilidi etkilerine tamamen bağışıklıdır ve Yetenek Doğruluğu değiştirilemez."
+    ],
+    "idealCounters": [
+      "hercules",
+      "odin",
+      "gamora",
+      "hyperion"
+    ]
+  }
+}

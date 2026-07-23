@@ -1,0 +1,17 @@
+{
+    "id": "captainbritain",
+    "name": "Captain Britain",
+    "abilityDetails": {
+        "Safeguard": "Şampiyonun dövüş sırasında avantaj sağlayan özel Safeguard yeteneği.",
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Neuroshock": "Rakibe zamanla yüksek elektrik tabanlı hasar verir.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Power Efficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Efficiency yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Captain Britain için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Captain Britain Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

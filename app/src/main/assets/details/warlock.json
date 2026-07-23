@@ -1,0 +1,19 @@
+{
+    "id": "warlock",
+    "name": "Warlock",
+    "abilityDetails": {
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Warlock için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Warlock Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

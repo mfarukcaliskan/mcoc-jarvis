@@ -1,0 +1,54 @@
+{
+  "name": "8.2.4 - Akrep'in Zehri",
+  "globalNodes": [
+    "Silah Düğümü - Kafes Sarsıcı (Cage Rattler) ve Tırmanan Saldırı (Escalating Assault): Savunmacı sürekli artan saldırı gücü kazanır ve saldırganı köşeye sıkıştırma eğilimindedir.",
+    "Öngörü (Foresight) ve Karşı Duruş (Make a Stand) Düğümleri: Savunmacı gelen özel saldırıları önceden sezip otomatik blok veya kaçınma şansı kazanabilir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Morningstar Yolu - Daha Kolay Yol):",
+        "• Karo Açıklaması: Morningstar mini-boss karşılaşmasında Günah (Sin) debuff biriktirme mekaniği aktiftir; belirli sayıda Günah biriktiğinde rakibe ek doğrudan hasar patlaması uygulanır.",
+        "• Strateji: Debuff temizleyen (Purify) şampiyonlarla Günah birikimini düşük tutun, uzun kombo zincirlerinden ve gereksiz bloktan kaçının."
+      ],
+      "defenders": [
+        "morningstar",
+        "electro",
+        "green_goblin",
+        "vulture",
+        "mysterio"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Massacre Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Çift Debuff Düğümü aktif - hem Zehir hem Kanama etkileri aynı anda işlenebilir; Massacre'ın vahşi saldırıları yüksek Kanama potansiyeli taşır.",
+        "• Strateji: Çifte bağışıklığa (Zehir + Kanama) sahip şampiyonlar zorunludur; blok sağlamlığı yüksek, tank tipi şampiyonlar tercih edilmelidir."
+      ],
+      "defenders": [
+        "massacre",
+        "venom",
+        "carnage",
+        "spider_man_symbiote"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "scorpion",
+    "bossNodes": [
+      "Sokma (Sting) Debuff'ları: Orta saldırılarda öntanımlı olarak Zehir, seçime göre Şok veya Yırtılma (Rupture) debuff'larından biri işlenir; her aktif Sokma debuff'u için Scorpion %10 Saldırı Gücü artışı (Fury) kazanır.",
+      "Akrep Sezgisi (Scorpion-Sense): Rakip kaçındığında veya özel saldırısının sonunda Scorpion 15 saniyeliğine %20 Kaçınma şansı kazanır; ağır saldırısı 10 saniyelik Yavaşlatma (Slow) debuff'u uygular, ancak Doğal Sınıf Avantajına sahip rakipler yavaşlatılamaz."
+    ],
+    "idealCounters": [
+      "bullseye",
+      "nick_fury",
+      "okoye",
+      "shang_chi",
+      "mole_man"
+    ]
+  }
+}

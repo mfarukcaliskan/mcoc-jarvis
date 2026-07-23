@@ -1,0 +1,18 @@
+{
+    "id": "medusa",
+    "name": "Medusa",
+    "abilityDetails": {
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Armor Shattered": "Şampiyonun dövüş sırasında avantaj sağlayan özel Armor Shattered yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Fervor": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fervor yeteneği.",
+        "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
+        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Medusa için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Medusa Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

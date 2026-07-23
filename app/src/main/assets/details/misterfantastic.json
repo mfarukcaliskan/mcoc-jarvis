@@ -1,0 +1,22 @@
+{
+    "id": "misterfantastic",
+    "name": "Mister Fantastic",
+    "abilityDetails": {
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Mister Fantastic için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Mister Fantastic Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

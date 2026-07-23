@@ -1,0 +1,21 @@
+{
+    "id": "blackcat",
+    "name": "Black Cat",
+    "abilityDetails": {
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
+        "Sabotage": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sabotage yeteneği.",
+        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Infuriate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Infuriate yeteneği.",
+        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
+    },
+    "synergies": [],
+    "howToPlay": "Black Cat için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Black Cat Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,18 @@
+{
+    "id": "magnetomarvelnow",
+    "name": "Magneto (House of X)",
+    "abilityDetails": {
+        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Magneto (House of X) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Magneto (House of X) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

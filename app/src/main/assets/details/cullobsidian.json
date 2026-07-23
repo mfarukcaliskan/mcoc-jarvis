@@ -1,0 +1,17 @@
+{
+    "id": "cullobsidian",
+    "name": "Cull Obsidian",
+    "abilityDetails": {
+        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Cull Obsidian için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Cull Obsidian Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

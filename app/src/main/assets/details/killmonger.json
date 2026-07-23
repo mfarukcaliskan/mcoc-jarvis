@@ -1,0 +1,18 @@
+{
+    "id": "killmonger",
+    "name": "Killmonger",
+    "abilityDetails": {
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "True Strike": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Strike yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Counterpunch": "Şampiyonun dövüş sırasında avantaj sağlayan özel Counterpunch yeteneği.",
+        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
+        "Reverberation": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reverberation yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Killmonger için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Killmonger Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

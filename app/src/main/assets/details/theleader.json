@@ -1,0 +1,19 @@
+{
+    "id": "theleader",
+    "name": "The Leader",
+    "abilityDetails": {
+        "Disable Willpower": "Rakibin İrade Gücü ustalık yenilenmesini devre dışı bırakır.",
+        "Spectre": "Şampiyonun dövüş sırasında avantaj sağlayan özel Spectre yeteneği.",
+        "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Instant Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Power Dissolve": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Dissolve yeteneği.",
+        "Degen Vunlnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Degen Vunlnerability yeteneği.",
+        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "The Leader için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "The Leader Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

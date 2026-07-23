@@ -1,0 +1,62 @@
+{
+  "name": "6.4.6 - Büyük Koleksiyoncu",
+  "globalNodes": [
+    "Grandmaster Kuralları (6 Devre Dışı Düğüm) - Opportunist, Technique, Liability, Inflation, Evolution ve Uncertainty adlı altı özel kural düğümü varsayılan olarak kapalıdır; bunlar yalnızca haritadaki bağlı düğümler kaldırılarak hem boss hem saldırgan için aktif hale gelir ve her biri hem avantaj hem dezavantaj getirir. Aksiyon 6 Bölüm 4 standart güçlendirmesi (+%600 Saldırı/Can) etkindir.",
+    "Not: Bu bölümün Türkçe başlığı 'Büyük Koleksiyoncu' olsa da, gerçek oyun verilerine göre 6.4.6'nın (Thronebreaker unvanını açan) gerçek boss'u The Collector değil, The Grandmaster'dır; aşağıdaki içerik gerçek boss olan Grandmaster'a göre hazırlanmıştır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısa Sol Yol - En Kolay Yol):",
+        "• Karo Açıklaması: En az sayıda dövüşle doğrudan Grandmaster'a ulaşılan tamamlama yoludur; yol üzerinde kozmik/güç temalı savunmacılar ve Angela mini-boss olarak bulunur.",
+        "• Strateji: Yol dövüşleri Phoenix → Heimdall → Groot → Hela → Vision (Aarkus) → Angela (Mini-Boss) sırasındadır. Kaynaklarınızı (revive/can iksiri, sinerji) Grandmaster dövüşü için saklayıp bu yolu olabildiğince hızlı geçin."
+      ],
+      "defenders": [
+        "phoenix",
+        "heimdall",
+        "groot",
+        "hela",
+        "visionaarkus",
+        "angela"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Uzun Yol - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Daha uzun ve daha fazla dövüş içeren bu yolda Sentinel ve Annihilus gibi yüksek bağışıklıklı teknoloji/kozmik savunmacılar ile Carnage yer alır.",
+        "• Strateji: Karşılık gelen bağışıklık ve direnç setine sahip şampiyonlarla ilerleyip her dövüşte gereksiz can kaybından kaçının; bu yolu yalnızca haritanın %100'ünü hedefliyorsanız tercih edin."
+      ],
+      "defenders": [
+        "sentinel",
+        "annihilus",
+        "carnage",
+        "corvusglaive"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "grandmaster",
+    "bossNodes": [
+      "Usta Yarışmacı (Master of the Contest) - Grandmaster sadece doğrudan vuruş aldığında hasar alır ve tek bir kaynaktan gelen hasar can payının %5'i ile sınırlıdır; gücü ve yetenek isabeti düşürülemez, saldırıları kaçırılamaz veya otomatik bloklanamaz.",
+      "Rekabet/Yanılgı Jetonları (Tokens of Competence/Blunder) - Periyodik olarak çıkan bir 'Challenge' (ör. bloğa vuruş, geri dash, hareketsiz kalma) başarıyla tamamlanırsa Rekabet Jetonu, başarısız olunursa Yanılgı Jetonu kazanılır; 5 Yanılgı Jetonu Grandmaster'a anında Özel 3 hakkı verir.",
+      "4 Evre Sistemi - Can %100-80 arasında güç kazanımı yoktur (10 saniyede bir temas şart, aksi halde Degen); %79-30 arasında sersemletme bağışıklığı devreye girer ve Challenge döngüsü başlar; %29-2 arasında kontrolleriniz periyodik olarak ters döner; %1-0 arasında Grandmaster 18 saniye boyunca Öfkelenir (Infuriated) ve kalıcı Durdurulamaz (Unstoppable) olur - intercept saldırıları bunu 1.2 saniyeliğine keser -, ardından kalıcı Yaralı (Wounded) hâle gelip yalnızca Özel 3 hasarı kabul eder.",
+      "Strateji: Güçlü bir intercept ve ters-kontrol bağışıklığına sahip şampiyon şarttır (Juggernaut bu dövüş için özellikle güçlüdür); Özel 1 saldırısında eller geriye giderken dex yaparak kaçının, eller öne gelene kadar beklemeyin. Spider-Man (Stealth Suit), Captain America (IW), She-Hulk ve Symbiote Supreme en çok önerilen karşıtlardır. Ters Kontrol Bağışıklığı Olan Şampiyonlar: Juggernaut, Profesör X veya Mister Sinister 3. Aşama (Reverse Controls) için şarttır - özellikle Juggernaut hem yüksek hasarı hem de ters kontrol bağışıklığıyla en popüler ve en basit çözümdür. Yol Counterları (Koridor): Hercules (tüm yolu tek başına temizleyebilir), Doktor Doom (Annihilus, Phoenix ve Vision Aarkus takviyelerini sıfırlar), CGR veya Corvus Glaive."
+    ],
+    "idealCounters": [
+      "juggernaut",
+      "professorx",
+      "mistersinister",
+      "spidermanstealthsuit",
+      "captainamericaiw",
+      "shehulk",
+      "symbiotesupreme",
+      "hercules",
+      "doctordoom",
+      "cosmicghostrider"
+    ]
+  }
+}

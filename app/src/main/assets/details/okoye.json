@@ -1,0 +1,18 @@
+{
+    "id": "okoye",
+    "name": "Okoye",
+    "abilityDetails": {
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Ensnare": "Şampiyonun dövüş sırasında avantaj sağlayan özel Ensnare yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Endurance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Endurance yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Okoye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Okoye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

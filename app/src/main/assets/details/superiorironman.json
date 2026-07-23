@@ -1,0 +1,22 @@
+{
+    "id": "superiorironman",
+    "name": "Superior Iron Man",
+    "abilityDetails": {
+        "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Amplify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Amplify yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Instinct": "Şampiyonun dövüş sırasında avantaj sağlayan özel Instinct yeteneği.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Superior Iron Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Superior Iron Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

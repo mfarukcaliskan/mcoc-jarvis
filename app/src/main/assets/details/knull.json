@@ -1,0 +1,19 @@
+{
+    "id": "knull",
+    "name": "Knull",
+    "abilityDetails": {
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Reverse Controls": "Rakibin yön tuşlarını tersine çevirerek hareketlerini karıştırır.",
+        "Living Abyss": "Şampiyonun dövüş sırasında avantaj sağlayan özel Living Abyss yeteneği.",
+        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Unblockable": "Saldırıların bloklanmasını engeller."
+    },
+    "synergies": [],
+    "howToPlay": "Knull için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Knull Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

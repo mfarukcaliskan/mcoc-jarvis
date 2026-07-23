@@ -1,0 +1,63 @@
+{
+  "name": "6.2.1 - Gücün Amacı",
+  "globalNodes": [
+    "Yaşam Döngüsü (Lifecycle) - Savunmacı, hasar veren debuff'lara karşı bağışıklıdır ve KO olmasını engelleyen bir kalkana sahiptir; her sersemletme/kontrol denemesi bu kalkanın açık kalma süresini artırarak maksimum 3.5 saniyeye çıkarır. Kalkan aktifken gelen KO edici darbeler Savunmacının canının %10'unu iyileştirir. Standart Aksiyon 6 Bölüm 2 küresel güçlendirmeleri (+%250 Saldırı/Can ve Özel 3 aktif) de geçerlidir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (En Alt Kozmik Yol - Kamala Khan Rotalı - En Kolay Yol):",
+        "• Karo Açıklaması: Bu yolda ekstra düğüm yoktur, sadece küresel Yaşam Döngüsü etkindir. Yol, Kozmik Kapısı (Cosmic Gate) üzerinden Kamala Khan ile başlayıp bir portaldan geçerek mini-boss Dormammu'ya bağlanır.",
+        "• Strateji: Kamala Khan, Ms. Marvel, Captain Marvel (Klasik), Captain Marvel (Sinematik Evren) ve Ronan gibi dengeli savunmacılara karşı standart parry/ağır vuruş döngüsü yeterlidir. Dormammu'da Burden of Might (ağır vuruş gücünü düşürür) ve Soft Guard (blok gücü zayıf) nedeniyle dexterity/kaçışı kısıtlı tutup buff tetiklemeyen bir şampiyonla (örn. Blade) ilerleyin."
+      ],
+      "defenders": [
+        "msmarvelkamalakhan",
+        "msmarvel",
+        "captainmarvel",
+        "captainmarvelmcu",
+        "ronan",
+        "dormammu"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Guardians Yolu - Alternatif Zor Yol):",
+        "• Karo Açıklaması: Kozmik temalı savunmacılar (Star-Lord, Drax, Gamora, Yondu, Groot) art arda dizilidir; bu yol da aynı şekilde mini-boss Dormammu'ya çıkar.",
+        "• Strateji: Enerji hasarına dayanıklı ve debuff bağışıklığı olan şampiyonlarla ilerleyip Dormammu'ya kadar can kaybını minimumda tutun; Yaşam Döngüsü düğümü boss karşısında hata payını azalttığından kaynaklarınızı Symbiote Supreme dövüşü için saklayın."
+      ],
+      "defenders": [
+        "starlord",
+        "drax",
+        "groot",
+        "gamora",
+        "yondu"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "symbiotesupreme",
+    "bossNodes": [
+      "Yaşam Döngüsü (Lifecycle) - Kalkanı aktifken KO edilemez; kalkan sırasında gelen KO edici darbeler Symbiote Supreme'i canının %10'u kadar iyileştirir. Sürekli takviye (buff) üretir ve bu takviyeleri hasara/güce çevirir.",
+      "Prey on the Weak - Düşük canlı Saldırgana karşı hasarı artar.",
+      "Pilfer - Vuruşlarıyla Saldırgandan güç çalar.",
+      "Force of Will / Opportunist - Saldırganın hataları (blok kırma, kaçırılan parry) ekstra cezalandırılır.",
+      "İyileşme Engelleyiciler (Heal Block): Kalkan açık olsa bile rakip 1 canda kalır; yere yıktığınız an en ufak bir dokunuşla ölür. Warlock, Mysterio, Magneto veya Void bu iş için mükemmeldir. Saldırı/Ağır Saldırı şampiyonları: Hercules yüksek hasarı ve ölümsüzlüğü ile tüm yolu tek başına geçebilir, Archangel nörotoksinleri ile iyileşmeyi keser, Doctor Doom sürekli yere yıkma döngüsüyle (Siper + Ağır) harikadır. Boss karşıtları: Human Torch, Spider-Ham veya Cosmic Ghost Rider (CGR) takviye üretmedikleri/takviyeleri kontrol edebildikleri için boss döngüsünü rahat kırar."
+    ],
+    "idealCounters": [
+      "warlock",
+      "mysterio",
+      "magneto",
+      "void",
+      "hercules",
+      "archangel",
+      "doctordoom",
+      "humantorch",
+      "spiderham",
+      "cosmicghostrider"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "8.3.1 - Kasap ve Kurban",
+  "globalNodes": [
+    "Silah Düğümü - Eternals Engine: Bazı savunmacılar Eternals teknolojisinden ilham alan bir silah yeteneği taşır; isabet aldıkça artan bir Güç Yükü biriktirir ve dolduğunda alan hasarı patlatır. İyi Zamanlı Blok ile yük birikim hızı düşürülebilir.",
+    "Vurucu Zafiyeti (Striker Vulnerability): Vurucu (Striker) tabanlı yeteneklere sahip saldırganlar bu bölgedeki karşılaşmalarda ekstra hasar alır; vurucu içermeyen ekip seçimi önerilir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Night Thrasher Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Beceri (Skill) ve Bilim (Science) sınıfı savunmacılar ağırlıklıdır; Night Thrasher ve Morningstar karşılaşmaları öne çıkar. 'Asla Durma' düğümü savunmacıya kalıcı, kaldırılamayan bir hız/saldırı artışı buff'ı verir.",
+        "• Strateji: Beceri savunmacılarına karşı Apocalypse gibi mutant temelli yüksek hasarlı şampiyonlar, Bilim savunmacılarına karşı Nick Fury kullanın; Morningstar karşısında yanma/enerji hasarı veren Human Torch tipi şampiyonlar hızlı temizlik sağlar."
+      ],
+      "defenders": [
+        "night_thrasher",
+        "morningstar",
+        "agent_venom",
+        "crossbones"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Ant-Man Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Mutant sınıfı savunmacılar ve karşılaşmalar arası artan güç kazanımı içeren daha uzun bir güzergahtır.",
+        "• Strateji: Nick Fury ve Kingpin gibi debuff temizleme ve sabit hasar üretebilen şampiyonlarla ilerleyin; Hulk'ın kırılma potansiyeli de bu yolu hızlandırır."
+      ],
+      "defenders": [
+        "ant_man",
+        "iceman",
+        "emma_frost",
+        "bishop"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "gorr",
+    "bossNodes": [
+      "Heresy Yığınları ve Yenilenme: Gorr isabet aldığında eksik canının %16'sı kadarını 12 saniyede geri kazandıran, kaldırılamayan bir Yenilenme buff'ı kazanır; bu iyileşme Tanrı/Elder sınıfı şampiyonlara karşı ve her Heresy yığınıyla birlikte artar.",
+      "Debuff Odaklı SP3: Gorr'un Özel 3 saldırısı, saldırgan üzerindeki her hasar veren debuff için ek hasar kazanır; ağır debuff yığınlayan ekiplerle SP3 öncesi debuff temizlemek kritik önem taşır.",
+      "İyileştirme Engeli Bağışıklığı: Gorr, İyileştirme Engeli (Heal Block) etkisine tamamen bağışıklıdır; yenilenmesini durdurmak için doğrudan hasar ve blok baskısına güvenilmelidir."
+    ],
+    "idealCounters": [
+      "longshot",
+      "hercules",
+      "human_torch",
+      "hyperion"
+    ]
+  }
+}

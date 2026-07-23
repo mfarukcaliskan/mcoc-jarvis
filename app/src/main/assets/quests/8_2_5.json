@@ -1,0 +1,54 @@
+{
+  "name": "8.2.5 - Peni Parker'ın Robotu",
+  "globalNodes": [
+    "Silah Düğümü - Teknolojik Zırh: Savunmacılar SP//dr temalı otomatik savunma ve enerji kalkanı yetenekleri taşır; İyi Zamanlı Blok/Kesişme ile geçici olarak etkisiz bırakılabilir.",
+    "Kritik Bağımsız Hasar Düğümleri: Bazı karşılaşmalarda hasar, kritik vuruş şansından bağımsız olarak sabitlenir; bu da salt kritik odaklı yapıları zayıflatır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Sersi Yolu - Daha Kolay Yol):",
+        "• Karo Açıklaması: Sersi mini-boss karşılaşmasında elementel dönüşüm temalı buff/debuff değişim mekaniği aktiftir; rastgele elementel etkiler tetiklenebilir.",
+        "• Strateji: Esnek bağışıklık listesine sahip şampiyonlar tercih edin; buff/debuff dönüşümlerinden etkilenmeyen, kritik bağımsız hasar kaynakları avantajlıdır."
+      ],
+      "defenders": [
+        "sersi",
+        "cosmic_ghost_rider",
+        "vulture",
+        "phoenix",
+        "colossus"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kitty Pryde Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Faz Geçişi (Phasing) düğümü aktif - savunmacı periyodik olarak Elmas Cilt (Diamond Form) ile fiziksel hasara karşı bağışıklık kazanır.",
+        "• Strateji: Enerji hasarı veren veya Blok Delme'ye sahip şampiyonlar getirin; salt fiziksel-ağırlıklı saldırılara güvenmeyin."
+      ],
+      "defenders": [
+        "kitty_pryde",
+        "heimdall",
+        "green_goblin",
+        "doctor_octopus",
+        "iron_man_iw"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "peni_parker",
+    "bossNodes": [
+      "Senkron Kalkan (Sync-Shield): Peni, rakibin saldırı gücüne bağlı bir kalkanla fighta başlar; bloklanan veya oto-bloklanan darbelerde hasarın %100'üne kadarını kalkan emer.",
+      "Örümcek Sezgisi (Spider-Sense) ve Kızdırma Hasarı: Vuruş yediğinde şarj tüketerek Sersemletme debuff'larını temizler ve 2 saniyeliğine %100 oto-blok kazanır; hasarının büyük kısmı SP2'deki Kızdırma (Incinerate) patlamalarından gelir, bu yüzden Blok Edilemez saldırılar oto-bloğu bypass eder."
+    ],
+    "idealCounters": [
+      "ghost",
+      "quake",
+      "human_torch",
+      "warlock"
+    ]
+  }
+}

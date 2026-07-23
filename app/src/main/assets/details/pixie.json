@@ -1,0 +1,16 @@
+{
+    "id": "pixie",
+    "name": "Pixie",
+    "abilityDetails": {
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Neuroshock": "Rakibe zamanla yüksek elektrik tabanlı hasar verir.",
+        "Sleep": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sleep yeteneği.",
+        "Power Efficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Efficiency yeteneği.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Pixie için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Pixie Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

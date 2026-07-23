@@ -1,0 +1,13 @@
+{
+    "id": "iceman",
+    "name": "Iceman",
+    "abilityDetails": {
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Frostbite": "Şampiyonun dövüş sırasında avantaj sağlayan özel Frostbite yeteneği.",
+        "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır."
+    },
+    "synergies": [],
+    "howToPlay": "Iceman için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Iceman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,18 @@
+{
+    "id": "lumatrix",
+    "name": "Lumatrix",
+    "abilityDetails": {
+        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
+        "Endurance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Endurance yeteneği.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Tracking": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tracking yeteneği.",
+        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Lumatrix için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Lumatrix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

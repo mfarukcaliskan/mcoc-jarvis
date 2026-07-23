@@ -1,0 +1,69 @@
+{
+  "name": "6.2.3 - Kafa Belası",
+  "globalNodes": [
+    "İkarus (Icarus) - Savunmacı bir saldırıyla vurulduğunda veya parry ile sersemletildiğinde, Saldırgan 10 saniyeliğine +%10 Saldırı Gücü veren bir Hiddet (Fury) buff'ı kazanır. 8'den fazla Fury yığını birikmesi veya bir Fury'nin süresinin dolması, Savunmacının Saldırı Gücünün %100'ü kadar 4 saniyede hasar veren bir Bozunma (Degeneration) tetikler. Ağır saldırılar cezasız şekilde tüm Fury yığınlarını temizler."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Sol Kapısız Yol - Captain Marvel ile Başlayan Rota - En Kolay Yol):",
+        "• Karo Açıklaması: Hiçbir sınıf kapısına takılmadan ilerleyebileceğiniz, sol taraftan başlayıp Kaptan Amerika (WWII) yönüne sağa sapan en zahmetsiz yoldur; küresel İkarus düğümü aktiftir, her vuruş/parry Fury yığını verir ve yığınlar kontrolsüz birikirse Bozunma tetiklenir.",
+        "• Strateji: Ağır vuruşlarla Fury yığınlarını düzenli olarak temizleyin. Captain Marvel (Movie) ve Medusa gibi enerji/kanama bağışıklığı sunan şampiyonlarla dövüşleri hızlı bitirip Fury sayacının 8'e ulaşmasına izin vermeyin. Sıra: Captain Marvel (Movie), Ronan, Medusa, Emma Frost, Masacre, Captain America (WWII), Doctor Voodoo, Thor."
+      ],
+      "defenders": [
+        "captainmarvelmcu",
+        "ronan",
+        "medusa",
+        "emmafrost",
+        "masacre",
+        "captainamericawwii",
+        "doctorvoodoo",
+        "thor"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Sağ Yol - Alternatif Zor Yol):",
+        "• Karo Açıklaması: Aynı İkarus düğümü burada da etkindir; ayrıca yüksek hasarlı savunmacılar (Hulk, Crossbones, Green Goblin) bulunur.",
+        "• Strateji: Fury birikimine dayanıklı ve yanma/patlama bağışıklığı olan şampiyonlar getirin (Human Torch, Doctor Strange); MODOK'un uzaktan saldırılarına karşı bloklama disiplinini koruyun ve ağır vuruşlarla Fury'yi düzenli sıfırlayın."
+      ],
+      "defenders": [
+        "modok",
+        "hulk",
+        "crossbones",
+        "doctorstrange",
+        "greengoblin",
+        "humantorch"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "omegared",
+    "bossNodes": [
+      "İyileşme (Recovery) - Omega Red pasif olarak sürekli can yeniler.",
+      "Gelişmiş Özel 1 / Özel 2 - Standarttan çok daha güçlü özel saldırılar kullanır.",
+      "Debilitate - Saldırganın stat'larını düşüren bir debuff uygular.",
+      "Limber - Parry sersemletmeleri tükendiğinde güvenli saldırı penceresi daralır.",
+      "Yaydığı ölüm alanı (Death Field) ve sporları yüzünden tehlikelidir, kanama tetikler.",
+      "Ghost (Mekanik Çözücü): Üzerindeki dejenere debuff'larını faza (phase) geçerek Hiddet (Fury) pasiflerine dönüştürür, karoyu kendi avantajına kullanır. Corvus Glaive & Colossus: Siper + Ağır saldırı döngüsüyle dejenere almadan çok yüksek hasarlara ulaşırlar. Kingpin: Negatif etkileri hızlıca silkeleme (shrug off) yeteneğiyle yolu rahat geçer. Boss Karşıtları (Robotlar): Omega Red'in sporlarından hasar almamak için Guillotine 2099, Warlock veya Sentinel gibi kanama bağışıklığı olan robotları tercih edin; Mister Sinister, Hercules veya CGR da yüksek hasarlarıyla boss'u çok hızlı eritebilir."
+    ],
+    "idealCounters": [
+      "ghost",
+      "corvusglaive",
+      "colossus",
+      "kingpin",
+      "guillotine2099",
+      "warlock",
+      "sentinel",
+      "mistersinister",
+      "hercules",
+      "cosmicghostrider",
+      "killmonger",
+      "void"
+    ]
+  }
+}

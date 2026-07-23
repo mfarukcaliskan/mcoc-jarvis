@@ -1,0 +1,19 @@
+{
+    "id": "spidermansupreme",
+    "name": "Spider-Man (Supreme)",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
+        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler."
+    },
+    "synergies": [],
+    "howToPlay": "Spider-Man (Supreme) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Spider-Man (Supreme) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

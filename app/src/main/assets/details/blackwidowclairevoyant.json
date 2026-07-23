@@ -1,0 +1,19 @@
+{
+    "id": "blackwidowclairevoyant",
+    "name": "Black Widow (Claire Voyant)",
+    "abilityDetails": {
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Buff Immunity": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Immunity yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Death Immunity": "Şampiyonun dövüş sırasında avantaj sağlayan özel Death Immunity yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Black Widow (Claire Voyant) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Black Widow (Claire Voyant) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

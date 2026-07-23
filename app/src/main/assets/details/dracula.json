@@ -1,0 +1,18 @@
+{
+    "id": "dracula",
+    "name": "Dracula",
+    "abilityDetails": {
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Dracula için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Dracula Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

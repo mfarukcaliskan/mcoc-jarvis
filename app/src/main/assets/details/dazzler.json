@@ -1,0 +1,21 @@
+{
+    "id": "dazzler",
+    "name": "Dazzler",
+    "abilityDetails": {
+        "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Resonance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resonance yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Damage Reflect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damage Reflect yeteneği.",
+        "Pursuit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pursuit yeteneği.",
+        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Dazzler için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Dazzler Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

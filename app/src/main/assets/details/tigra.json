@@ -1,0 +1,15 @@
+{
+    "id": "tigra",
+    "name": "Tigra",
+    "abilityDetails": {
+        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "Tigra için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Tigra Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

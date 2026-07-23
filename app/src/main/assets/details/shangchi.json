@@ -1,0 +1,17 @@
+{
+    "id": "shangchi",
+    "name": "Shang-Chi",
+    "abilityDetails": {
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Shang-Chi için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Shang-Chi Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

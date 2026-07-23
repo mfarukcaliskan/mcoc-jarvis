@@ -1,0 +1,20 @@
+{
+    "id": "gladiator",
+    "name": "Gladiator",
+    "abilityDetails": {
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Embolden": "Şampiyonun dövüş sırasında avantaj sağlayan özel Embolden yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
+        "Vigilance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vigilance yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
+    },
+    "synergies": [],
+    "howToPlay": "Gladiator için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Gladiator Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

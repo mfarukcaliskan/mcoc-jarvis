@@ -1,0 +1,51 @@
+{
+  "name": "7.3.6 - Fatih Kang",
+  "globalNodes": [
+    "Paradoks (Paradox) - Bölüm 7.3'ün imza mekaniğidir ve final görevinde en yoğun haliyle karşımıza çıkar: Saldırgan her Özel saldırıda bir Paradoks Yükü kazanır ve bu yükler dövüşten dövüşe taşınır. Bu görevde Paradoks, Entropic Prowess (yük başına Saldırı artışı), Quantum Control (rastgele lane'lerde güç manipülasyonu) ve Make a Stand / Shatter karolarıyla birlikte çalışarak Kang'ın zaman teması etrafında dönen bölüm final mekaniğini tamamlar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kararlılık Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Redoubled Determination karosu - Savunmacı üzerindeki her debuff için %50 Saldırı ve %15 Güç Kazanım Oranı bonusu alır (Kanama, Zehir ve Zırh Kırma debuff'ları çift sayılır). Right Back At It karosu - savunmacıyı yere düşürmek ona 6 saniyelik Debuff Bağışıklığı kazandırır.",
+        "• Strateji: Yol dövüşleri: Luke Cage → Sabretooth → Thor (Ragnarok). Debuff yığmaktan kaçının ve yere düşürme sonrası 6 saniye boyunca yeni debuff atmanın işe yaramayacağını unutmayın; sade parry/ağır vuruş ritmiyle ilerleyin."
+      ],
+      "defenders": [
+        "lukecage",
+        "sabretooth",
+        "thorragnarok"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zehir Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Poison Vulnerability karosu - savunmacı Zehirliyken saldırganın hasarı belirgin şekilde artar. Acid Wash karosu - Zehir debuff'larının etkinliğini yükseltir, bu da Zehir bağışıklığı olmayan saldırganları hızla eritir. Right Back At It burada da geçerlidir.",
+        "• Strateji: Yol dövüşleri: Nightcrawler → Green Goblin → Emma Frost. Zehir bağışıklığı yüksek şampiyonlar getirin ya da Zehir tetiklendiği anda agresif vurarak Poison Vulnerability'den faydalanıp dövüşü kısaltın."
+      ],
+      "defenders": [
+        "nightcrawler",
+        "greengoblin",
+        "emmafrost"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "kang",
+    "bossNodes": [
+      "Güç Döngüsü (Power Loop) - Dövüş başında Kang 10 saniyelik bir geri sayım başlatır ve rastgele 0-3 arası bir Güç Barı hedefi belirler; süre dolduğunda rakip o an tam olarak hedeflenen bar sayısına sahipse bir Güç Yükü kazanır, değilse doğrudan hasar alır - bu yüzden güç barınızı döngü bitmeden hedeflenen değere denk getirmeye çalışmak riskli bir kumar olabilir.",
+      "Zaman Çöküşü (Time Collapse) - Rakip 3 Güç Yüküne ulaştığında Kang 10 saniyeliğine Zaman Çöküşüne girer: bu süre boyunca pasif olarak Sersemler, Güç kazanamaz ve Neuro-Kinetik Kıyafetinin hasar azaltımı %0'a düşer - bu, saldırının en yüksek hasarı vurulacağı penceredir.",
+      "4 Faz Sistemi - Kang, dövüş için 4 faz hazırlamıştır; her fazın tamamlanması hem saldırganın hem Kang'ın Gücünü sıfırlar, bu yüzden faz geçişlerinden hemen önce özel saldırı kullanmak güç israfını önler.",
+      "Bağışıklıklar - Kang; Iska (Miss), Güç Kilidi (Power Lock), Güç Çalma (Power Steal), Güç Drenajı (Power Drain) ve Yanma (Burn) etkilerine tamamen bağışıklıdır."
+    ],
+    "idealCounters": [
+      "nickfury",
+      "colossus",
+      "hyperion",
+      "doctordoom"
+    ]
+  }
+}

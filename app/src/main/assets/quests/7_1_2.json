@@ -1,0 +1,57 @@
+{
+  "name": "7.1.2 - Yeşil Terör",
+  "globalNodes": [
+    "Yıldız Gücü / Adrenalin Hücumu / Hattı Koru (Star Power / Adrenaline Rush / Hold The Line) - Bölüm boyunca saldırgan tarafında aktif üç karo birden çalışır: Yıldız Gücü 6 yıldızlı saldırganlara kalıcı +700 Saldırı Öfkesi (Fury) verir; Adrenalin Hücumu, saldırgan vuruş yedikçe artan ve saldırgana anlık %100'e kadar Hasar Azaltma sağlayan bir Adrenalin ölçeği oluşturur; Hattı Koru ise aynı Adrenalin ölçeğine bağlı olarak saldırgana %80'e kadar Blok Yeterliliği kazandırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Typhoon Hattı - En Kolay Yol):",
+        "• Karo Açıklaması: Typhoon karosu periyodik olarak alan hasarı yayar; Spite karosu saldırgan hata yaptığında (blok kaçırma/iska) savunmacıyı güçlendirir; Güç Ekseni 2 (Power Axis 2) savunmacının güç kazanımını hızlandırır.",
+        "• Strateji: Yol dövüşleri: Venom the Duck → Hit Monkey → Magneto → Sorcerer Supreme → Human Torch → Vision (AoU). Spite'ı tetiklememek için temiz blok/parry disiplinine sadık kalın; Typhoon'un periyodik hasarına karşı yüksek can yenileme veya direnç götürün."
+      ],
+      "defenders": [
+        "venomtheduck",
+        "hitmonkey",
+        "magneto",
+        "sorcerersupreme",
+        "humantorch",
+        "visionaou"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Mix Master Hattı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Özel Teslimat (Special Delivery) ve Kozmik Çığ (Cosmic Avalanche) karoları özel saldırılar sonrası ek debuff paketleri bırakır; Mix Master karosu her karşılaşmada rastgele bir debuff türünü devreye sokarak bağışıklık planlamayı zorlaştırır.",
+        "• Strateji: Yol dövüşleri: Red Skull → Black Panther → Doctor Octopus → Silver Surfer → Guillotine 2099 → Emma Frost. Mix Master'ın rastgeleliğine karşı geniş debuff bağışıklığı/direnci olan şampiyonlar (Ghost, Quake, Nick Fury, Mole Man) tercih edin; özel saldırı sonrası anlık savunma önceliklendirin."
+      ],
+      "defenders": [
+        "redskull",
+        "blackpanther",
+        "doctoroctopus",
+        "silversurfer",
+        "guillotine2099",
+        "emmafrost"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "greengoblin",
+    "bossNodes": [
+      "Redlining - Green Goblin'in özel saldırı maliyeti düşüktür, bu yüzden özel saldırılarını sık sık ve beklenenden erken kullanabilir.",
+      "Güç Rezervi (Power Reserve) - Boşa harcanan güç bir rezerve aktarılır ve bu rezerv daha sonra ekstra güç kazanımı olarak geri döner.",
+      "Zayıflatma (Debilitate) - Saldırgana uygulanan Zayıflık (Weakness) debuff'ı, Green Goblin'in mevcut güç seviyesiyle orantılı olarak artan hasar verir; güç yüksekken bu debuff ölümcül hale gelir.",
+      "Cramping - Saldırganın yetenek isabeti (ability accuracy) periyodik olarak düşürülür, bu da debuff tabanlı stratejileri zayıflatır."
+    ],
+    "idealCounters": [
+      "corvusglaive",
+      "captainmarvelmcu",
+      "blade",
+      "archangel"
+    ]
+  }
+}

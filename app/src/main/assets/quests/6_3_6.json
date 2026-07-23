@@ -1,0 +1,71 @@
+{
+  "name": "6.3.6 - Kalkan Savaşı",
+  "globalNodes": [
+    "Aggression: Fury, Counterstrike & Unblockable Düğümleri (Fury Path / Hiddet Yolu) - Savunmacılar vurulduklarında kendilerine Fury (saldırı artışı) buff'ı kazanabilir; saldırgan Çeviklik (Dexterity) ile kaçtığında savunmacı geçici olarak Durdurulamaz hale gelir ve bazı saldırılar bloklanamaz. Yoldaki düz dövüşleri kayıpsız geçmek için güçlü koridor temizleyiciler seçilmelidir; bu da bölümü Act 6.3'ün en agresif kapanışlarından biri yapar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Fury Path / Colossus Yolu, En Kolay Yol):",
+        "• Karo Açıklaması: Colossus (ısınma dövüşü), Rhino (kritik dövüş, siper/ağır saldırı ile oynanmalı), Vulture, Ms. Marvel, Magneto (Marvel Now), She-Hulk, Beast ve Aegon sırasıyla karşınıza çıkar; doğru şampiyonlarla diğer yollara kıyasla çok daha rahat geçilen, en popüler bitirme yoludur.",
+        "• Strateji: Rhino dövüşünde siper-ağır rutinine sadık kalın; koridoru Kırmızı Magneto, Ghost, Cosmic Ghost Rider (CGR) veya Hercules gibi güçlü bir temizleyiciyle hasarsız geçip Captain America Infinity War'a temiz sağlıkla ulaşın."
+      ],
+      "defenders": [
+        "colossus",
+        "rhino",
+        "vulture",
+        "msmarvel",
+        "magnetomarvelnow",
+        "shehulk",
+        "beast",
+        "aegon"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Sembiyot Yolu - Alternatif Zor Yol):",
+        "• Karo Açıklaması: Black Panther, Drax, Yondu, Gwenpool ve Carnage sırasıyla karşınıza çıkar; yol mini-boss Symbiote Supreme üzerinden geçer, Caltrops (geri kaçışta kanama) ve Coolant Leak (güç kazanımını düşüren düğüm) etkindir.",
+        "• Strateji: Geri kaçışı (retreat dexterity) minimuma indirin; Symbiote Supreme'in Yaşam Döngüsü kalkanına karşı kaynaklarınızı harcamadan Captain America Infinity War'a geçin."
+      ],
+      "defenders": [
+        "blackpanther",
+        "drax",
+        "yondu",
+        "gwenpool",
+        "carnage",
+        "symbiotesupreme"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "captainamericaiw",
+    "bossNodes": [
+      "Crit Me With Your Best Shot - Kritik olmayan saldırılardan neredeyse hiç hasar almaz.",
+      "Destructive Feedback - Her 15 saniyede bir 10 saniye süren Kinetik Kalkan kazanır; kalkan aktifken saldırganın yaptığı hasar depolanır ve kalkan bittiğinde saldırgana geri döner (Özel 3 hariç); kalkan aktifken saldırgana vurursa (blok dahil) bu hasar saldırgana yansır.",
+      "Unlimited Power - Kendine uygulanan debufflara karşı Fury buff'ları kazanır.",
+      "Surging Vengeance - Özel saldırılarını sırasıyla 1'den 3'e doğru art arda kullanır, bu yüzden SP3 zamanlaması tahmin edilebilir hale gelir.",
+      "Heimdall Sinerjisi - Takımda durması yeterlidir; Kaptan SP3 attığında ölümcül darbeyi engelleyip yenilmezlik vererek hayatta tutar, bu sinerji bu dövüş için gereklidir.",
+      "Hit-Monkey & Shang-Chi - Garantili kritik vurma şansları çok yüksek olduğundan en çok hasar veren şampiyonlardandır.",
+      "Bullseye - Kaptan'ın bloklarını kırarak çok rahat kritik hasarlar çıkarır.",
+      "Ghost (+ Hood Sinerjisi) - Ghost ile faz (hafifsizlik) modundayken Kaptan SP3 atarsa hasar almazsınız.",
+      "Kırmızı Magneto (Koridor) - Metal rakipleri eritir, koridoru hızlıca ve hasarsız temizler.",
+      "Özet Taktik: Takıma bir güçlü koridor temizleyici (örn. Kırmızı Magneto veya Hercules) alın; geri kalan 4 slotu Kaptan boss'unu alt edecek şampiyonlar (Hit-Monkey, Shang-Chi, Stark Enhanced Spider-Man vb.) ve Heimdall sinerjisi ile doldurun."
+    ],
+    "idealCounters": [
+      "heimdall",
+      "hitmonkey",
+      "shangchi",
+      "spidermanstarkenhanced",
+      "ghost",
+      "bullseye",
+      "magnetomarvelnow",
+      "ronan",
+      "gwenpool",
+      "domino"
+    ]
+  }
+}

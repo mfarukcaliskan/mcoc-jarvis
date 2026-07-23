@@ -1,0 +1,52 @@
+{
+  "name": "7.4.3 - Mangog'un Öfkesi",
+  "globalNodes": [
+    "Kangdom Come Adrenalin Sistemi: Bu bölümdeki 6 Yıldızlı saldırganlar kalıcı olarak +700 Öfke (Fury) kazanır (Star Power); ayrıca saldırganın mevcut Adrenalin seviyesine bağlı olarak zaman zaman %100'e varan Hasar Azaltma (Adrenaline Rush) ve her an +80 Blok Yeterliliğine kadar bonus (Hold The Line) uygulanır.",
+    "Burnout Karosu: Savunmacı bir Özel Saldırı başlattığında 1 Burnout Yığını kazanır ve bu yığın başına kendi Özel Saldırı hasarını %10 artırır; 10 veya daha fazla yığına ulaştığında 10 yığın silinir ve savunmacı 10 saniyeliğine pasif olarak Güç Kilitlenir (Power Locked)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kozmik Kırılma Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Cosmic Fracture karosu bulunur - Hafif saldırılar temas ettiğinde saldırgana Zırh Kırma (Armor Break) uygular; zırha bağımlı savunma stratejileri burada işe yaramaz.",
+        "• Strateji: Yol dövüşleri: Ghost → She-Hulk → Peni Parker. Zırhtan bağımsız savunma yeteneklerine (evade, kaçınma, yüksek can havuzu) sahip şampiyonlar getirin; hafif saldırı alışverişini minimumda tutup ağırlıklı olarak orta/ağır saldırı ile ilerleyin."
+      ],
+      "defenders": [
+        "ghost",
+        "shehulk",
+        "peniparker"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (İlahi Zırh Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Divine Barrier 3 karosu, savunmacıya periyodik Nullify Bağışıklığı penceresi verir; Ionized Armor 2 karosu, Özel Saldırı bitişlerinde savunmacıya Zırh Artışı kazandırır; Tactical Recycling karosu ise devrilme (knockdown) anlarında biriken Zırh Kırma etkilerini savunmacı için buff'a çevirir.",
+        "• Strateji: Yol dövüşleri: Emma Frost → Psycho-Man → Hulk Ragnarok. Nullify pencerelerini bekleyip debuff'larınızı bu pencereler dışında uygulayın; devrilme/knockdown saldırılarını gereksiz kullanmaktan kaçının ki Tactical Recycling'i tetiklemeyin."
+      ],
+      "defenders": [
+        "emmafrost",
+        "psychoman",
+        "hulkragnarok"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "mangog",
+    "bossNodes": [
+      "Empowered by Sin (İmza Yeteneği): Rakip üzerinde doğal yoldan biten her Stagger (Sersemletme) için Mangog'a %25,01 ihtimalle +1 Hiddet (Hatred) verir; Yenilmez (Unstoppable) iken gelen hasarın %20'sini anında pasif olarak iyileştirir.",
+      "Stagger Yığılması: Temas eden Temel saldırılar %70 ihtimalle rakibe 14 saniyelik bir Stagger debuff'ı uygular; bu debuff doğal süresi dolduğunda Mangog'a Hiddet kazandırdığı için sürekli bir döngü oluşturur.",
+      "Hiddet (Hatred) Ölçeklemesi: Her Hiddet yığını Mangog'a ek Saldırı Gücü ve Kritik Hasarı kazandırır; 10 yığın Hiddet ile bir Özel Saldırı başlatıldığında Enrage (Kudurma) tetiklenir ve Mangog, Enrage bitene veya bir Özel Saldırı ile vurulana kadar süresiz Yenilmez olur.",
+      "Kudurma (Enrage) Anındaki Mesafe: Enrage aktifken Mangog'a yakın kalmak sürekli Stagger yemek anlamına gelir; Captain America (IW) gibi Unstoppable'ı geçersiz kılabilen şampiyonlar bu fazı büyük ölçüde güvenli hale getirir."
+    ],
+    "idealCounters": [
+      "humantorch",
+      "captainamericaiw",
+      "spidergwen",
+      "void"
+    ]
+  }
+}

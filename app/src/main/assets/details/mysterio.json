@@ -1,0 +1,15 @@
+{
+    "id": "mysterio",
+    "name": "Mysterio",
+    "abilityDetails": {
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Damage Reflect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damage Reflect yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler."
+    },
+    "synergies": [],
+    "howToPlay": "Mysterio için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Mysterio Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

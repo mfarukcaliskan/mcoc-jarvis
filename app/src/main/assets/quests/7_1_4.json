@@ -1,0 +1,56 @@
+{
+  "name": "7.1.4 - Ölüm Tanrıçası",
+  "globalNodes": [
+    "Yıldız Gücü / Adrenalin Hücumu / Hattı Koru (Star Power / Adrenaline Rush / Hold The Line) - Bölüm boyunca saldırgan tarafında aktif üç karo birden çalışır: Yıldız Gücü 6 yıldızlı saldırganlara kalıcı +700 Saldırı Öfkesi verir; Adrenalin Hücumu, saldırgan vuruş yedikçe artan ve saldırgana anlık %100'e kadar Hasar Azaltma sağlayan bir Adrenalin ölçeği oluşturur; Hattı Koru ise aynı ölçeğe bağlı olarak saldırgana %80'e kadar Blok Yeterliliği kazandırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Brute Force Hattı - En Kolay Yol):",
+        "• Karo Açıklaması: Kaba Kuvvet (Brute Force) karosu savunmacının vuruş hasarını artırır; Renk Körlüğü (Colorblind) sınıf üstünlüğünü tüm yol boyunca geçersiz kılar; her savunmacı ayrıca sınıf avantajlı saldırganlara ekstra saldırı bonusu veren bir Hiddet (Wrath) düğümü taşır.",
+        "• Strateji: Yol dövüşleri: Hulk Ragnarok → Storm (Piramit-X) → Nick Fury → Thor (Jane Foster) → Sentinel → The Champion. Colorblind aktifken sınıf avantajına güvenmeyin; Wrath düğümünü tetiklememek için sınıf avantajlı şampiyon getirmekten kaçının ya da hasar penceresini kısa tutun."
+      ],
+      "defenders": [
+        "hulkragnarok",
+        "stormpyramidx",
+        "nickfury",
+        "thorjanefoster",
+        "sentinel",
+        "thechampion"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Mystic Wrath Hattı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Basınç Göstergesi 1 (Pressure Gauge 1) biriken hasarla orantılı ek etki tetikler; Mystic Odak (Mystic Focus) ve Mystic Wrath karoları Mystic sınıfı savunmacılara ekstra güç kazanımı ve saldırı artışı sağlar; Rage karosu düşük canda savunmacıyı güçlendirir.",
+        "• Strateji: Yol dövüşleri: Ms. Marvel (Kamala Khan) → Spider-Man (Stark) → Proxima Midnight → Psylocke → Medusa → Red Skull. Basınç Göstergesi'ni tetiklememek için hasar birikimini kontrollü tutun; savunmacıyı düşük cana indirmeden önce Rage'i tetiklememeye özen gösterin."
+      ],
+      "defenders": [
+        "msmarvelkamalakhan",
+        "spidermanstarkenhanced",
+        "proximamidnight",
+        "psylocke",
+        "medusa",
+        "redskull"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "hela",
+    "bossNodes": [
+      "Lazarus - Hela dövüşe bir dizi Yeniden Doğuş (Revival) şarjı ile başlar; saldırganın kombo sayacındaki her X vuruş bu şarjlardan X tanesini düşürür, ancak saldırgan kombosunu kaybettiğinde Hela yeni bir Yeniden Doğuş şarjı kazanır - şarjlar bitmeden Hela'yı düşürmek onu öldürmez.",
+      "Karşı Saldırı (Counterstrike) - Saldırganın Beceri (Dexterity) ile kaçınma yapması Hela'ya bir Öfke (Fury) şarjı kazandırır; belirli sayıda şarj birikince tüm şarjlar sıfırlanır ve Hela'nın bir sonraki saldırısı Bloklanamaz (Unblockable) hale gelir.",
+      "Rust & Run / Gelişmiş Öfke (Enhanced Fury) - Ağır Saldırı (Heavy Assault) sonrası Hela'nın saldırı gücü kademeli olarak artar ve bu öfke birikimi zamanla azalmadan sürer."
+    ],
+    "idealCounters": [
+      "doctordoom",
+      "symbiotesupreme",
+      "blackwidowclairevoyant",
+      "sorcerersupreme"
+    ]
+  }
+}

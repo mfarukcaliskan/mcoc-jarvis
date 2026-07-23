@@ -1,0 +1,13 @@
+{
+    "id": "agentvenom",
+    "name": "Agent Venom",
+    "abilityDetails": {
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar."
+    },
+    "synergies": [],
+    "howToPlay": "Agent Venom için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Agent Venom Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

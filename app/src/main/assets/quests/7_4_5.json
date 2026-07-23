@@ -1,0 +1,53 @@
+{
+  "name": "7.4.5 - İntikam",
+  "globalNodes": [
+    "Kangdom Come Adrenalin Sistemi: Bu bölümdeki 6 Yıldızlı saldırganlar kalıcı olarak +700 Öfke (Fury) kazanır (Star Power); ayrıca saldırganın mevcut Adrenalin seviyesine bağlı olarak zaman zaman %100'e varan Hasar Azaltma (Adrenaline Rush) ve her an +80 Blok Yeterliliğine kadar bonus (Hold The Line) uygulanır.",
+    "Burnout Karosu: Savunmacı bir Özel Saldırı başlattığında 1 Burnout Yığını kazanır ve bu yığın başına kendi Özel Saldırı hasarını %10 artırır; 10 veya daha fazla yığına ulaştığında 10 yığın silinir ve savunmacı 10 saniyeliğine pasif olarak Güç Kilitlenir (Power Locked)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Eşit Şartlar Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Superiority: Even Footing karosu bulunur - saldırgan savunmacıyla aynı sınıftan olduğunda her ikisi de karşılıklı bonus buff kazanır; bu yüzden sınıf avantajı burada geleneksel önemini kısmen kaybeder.",
+        "• Strateji: Yol dövüşleri: Stark Örümcek-Adam (Spider-Man) → Angela → Mysterio. Sınıf eşleşmesinden bağımsız olarak yüksek çıkış hasarına sahip saldırganlar tercih edin; parry sonrası ağır vuruş güvenli bir açılıştır."
+      ],
+      "defenders": [
+        "spidermanstarkenhanced",
+        "angela",
+        "mysterio"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kafa Karışıklığı Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Entry Fee karosu, savunmacı üzerindeki her debuff'ı %100 ihtimalle Purify eder (bu oran saldırganın kendi buff sayısına göre azalır); her 12. Purify edilen debuff (Superiority aktifse her 6.) 1,5 saniyelik bir Stun Pasifine dönüşür ve Stun Vulnerability karosu nedeniyle sersemlemiş saldırgan bu sırada çok daha fazla hasar alır.",
+        "• Strateji: Yol dövüşleri: Captain Marvel (Movie) → Psycho-Man → Cosmic Ghost Rider. Debuff'larınızı gereksiz yere yığmayın; kendi üzerinizde buff bulundurarak Purify oranını düşürün ve Stun anlarında saldırıdan kaçının."
+      ],
+      "defenders": [
+        "captainmarvelmcu",
+        "psychoman",
+        "cosmicghostrider"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "killmonger",
+    "bossNodes": [
+      "Vibranium Zırhı: Killmonger dövüşe 750 Zırh Puanı ile başlar ve kendisine bir debuff uygulandığında Eksik Gücünün %15'ini kazanır; bu zırh bir Zırh Kırma (Armor Break) etkisiyle karşılaştığında geçici olarak devre dışı kalır.",
+      "True Strike Penceresi: Özel Saldırıdan toparlanma anındaki rakibe vurmak Killmonger'a 16 saniyelik True Strike kazandırır; bu süre boyunca Zırh, Direnç ve Kaçınma etkilerini görmezden gelir, bu yüzden evade tabanlı savunma bu pencerede işe yaramaz.",
+      "Kanama: Kritik vuruşlarının %80'i rakibe 1,5 saniyelik bir Kanama (Bleed) debuff'ı uygular (bu Kanama yığılmaz); ayrıca 2 kalıcı Counterpunch Yükü taşır - blok yaptığında bu yüklerden biri harcanarak 0,75 saniyeliğine gelen hasarı görmezden gelip anında karşı saldırı yapar.",
+      "İmza Yeteneği - Reverberation: Uyanmış Killmonger, vurulduğunda veya blokladığında 8 saniye boyunca aktif olan Reverberation ile gelen hasarın bir kısmını rakibe geri yansıtır; Reverberation ve True Strike aynı anda aktifken Saldırı Gücü ek olarak artar, bu yüzden dövüşü uzatmak Killmonger'ı giderek tehlikeli hale getirir."
+    ],
+    "idealCounters": [
+      "corvusglaive",
+      "gamora",
+      "magik",
+      "doctorvoodoo",
+      "professorx"
+    ]
+  }
+}

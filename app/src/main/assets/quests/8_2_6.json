@@ -1,0 +1,54 @@
+{
+  "name": "8.2.6 - Bahamut Savaşı",
+  "globalNodes": [
+    "Silah Düğümü - Taktiksel Kaykay ve Kinetik Aktarım: Bazı savunmacılar hareket temelli güç kazanımı sağlayan silah yetenekleri taşır; İyi Zamanlı Blok/Duvara Sıkıştırma/Kesişme ile etkisiz bırakılabilir.",
+    "Kararsız Uçuculuk (Unstable Volatility) Yolu: Bu global düğüm, saldırganın mesafesine göre biriken enerji yüklerini tetikler; yakın mesafede kalmak ya da uzakta beklemek farklı yük türleri biriktirir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısa Yol - Daha Kolay Yol):",
+        "• Karo Açıklaması: Daha az karşılaşma içerir; Champion ve Immortal Abomination gibi güçlü ara-bosslarla karşılaşma riski taşır, Tükenmez Dayanıklılık düğümleri savunmacının pasif iyileşmesini hızlandırır.",
+        "• Strateji: Hızlı ve doğrudan hasar veren şampiyonlarla temposu yüksek geçin; ara-boss karşılaşmalarında büyük hasar alma riskine karşı blok sağlamlığı yüksek yapılar tercih edin."
+      ],
+      "defenders": [
+        "thanos",
+        "champion",
+        "immortal_abomination",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Uzun Yol - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Tüm düğümler etkindir; Corvus Glaive'in Ölümsüzlük Mızrağı ve Proxima Midnight'ın zehirli mızrak saldırıları art arda gelir, Hela'nın Ölüm temalı etkileri ek doğrudan hasar riski taşır.",
+        "• Strateji: Geniş bağışıklık listesine (Zehir/Kanama/Şok/Kızdırma) sahip, uzun maç dayanıklılığı yüksek şampiyonlar getirin."
+      ],
+      "defenders": [
+        "corvus_glaive",
+        "proxima_midnight",
+        "hela",
+        "black_dwarf"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "bahamut",
+    "bossNodes": [
+      "X-Gama ve Uçuculuk Yükleri: Her 8 saniyede bir, saldırgan uzak mesafedeyse X-Gamma Yükü, yakın mesafedeyse Uçuculuk (Volatility) Yükü kazanılır; bu yükler faz geçişlerinde büyük patlama hasarına dönüşür.",
+      "Bozulmuş Zırh (Corrupted Armor): Her faz başında Bahamut Bozulmuş Zırh kazanır ve saldırgan üzerindeki tüm Kesin İsabet/Kesin Sezgi etkileri silinir; zırhı kaldırmak için doğru zamanlamayla bir Kaldırma Şarjı (Removal Charge) kullanmak gerekir.",
+      "Temel Saldırı Patlaması ve Kızdırma: Temel saldırılar son isabetin %70'i kadar Enerji Patlama hasarı verir; saldırgan 1,5 saniye yakın mesafede kalırsa Blok Yeterliliğini %50 azaltan bir Kızdırma (Incinerate) debuff'u işlenir."
+    ],
+    "idealCounters": [
+      "aegon",
+      "kingpin",
+      "guillotine_2099",
+      "mole_man",
+      "cheeilth"
+    ]
+  }
+}

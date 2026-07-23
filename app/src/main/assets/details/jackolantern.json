@@ -1,0 +1,19 @@
+{
+    "id": "jackolantern",
+    "name": "Jack O'Lantern",
+    "abilityDetails": {
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Plasma yeteneği.",
+        "Cowardice": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cowardice yeteneği.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "Jack O'Lantern için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Jack O'Lantern Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

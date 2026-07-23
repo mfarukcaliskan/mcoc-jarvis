@@ -1,0 +1,21 @@
+{
+    "id": "bishop",
+    "name": "Bishop",
+    "abilityDetails": {
+        "Persistent Power Meter": "Şampiyonun dövüş sırasında avantaj sağlayan özel Persistent Power Meter yeteneği.",
+        "Start With Power": "Şampiyonun dövüş sırasında avantaj sağlayan özel Start With Power yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Bishop için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Bishop Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

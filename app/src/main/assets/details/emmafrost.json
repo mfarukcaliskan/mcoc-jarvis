@@ -1,0 +1,19 @@
+{
+    "id": "emmafrost",
+    "name": "Emma Frost",
+    "abilityDetails": {
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
+        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği.",
+        "Reverse Controls": "Rakibin yön tuşlarını tersine çevirerek hareketlerini karıştırır."
+    },
+    "synergies": [],
+    "howToPlay": "Emma Frost için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Emma Frost Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,54 @@
+{
+  "name": "8.3.5 - Plazma Fırtınası",
+  "globalNodes": [
+    "Plazma Sıçraması Düğümü: Belirli karşılaşmalarda alınan hasarın bir kısmı yakındaki bir sonraki isabete Plazma hasarı olarak yayılır; enerji hasarına dirençli şampiyonlar avantajlıdır.",
+    "Zırh Kırma Düğümü: Savunmacıların zırh yeteneklerini artıran bir global etki aktiftir; zırh delme/kırma (armor break/shatter/pierce) mekaniği taşıyan şampiyonlar önerilir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Doom Rotasyonu - Daha Kolay Yol):",
+        "• Karo Açıklaması: Doctor Doom, Mordo ve Symbiote Supreme gibi enerji/mistik temelli savunmacılar bulunur; karşılaşmalar arasında Zırh Kırma düğümü sürekli aktiftir.",
+        "• Strateji: Doom'un enerji kalkanını parry ile kırın; Symbiote Supreme'e karşı sembiyot karşıtı etiketi olan şampiyonlar tercih edin."
+      ],
+      "defenders": [
+        "doctor_doom",
+        "mordo",
+        "symbiote_supreme",
+        "sentinel"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Peni Parker'ın SP hasarına karşı Kızdırma (Incinerate) bağışıklığı gereklidir; Ultron'un dron çağırma pasifi ek isabet riskleri oluşturur.",
+        "• Strateji: Kızdırma bağışıklığı olan şampiyonlarla girin; Ultron karşısında hızlı, kesintisiz kombo yaparak dron çağırmasını engelleyin."
+      ],
+      "defenders": [
+        "peni_parker",
+        "ultron",
+        "sentinel",
+        "viv_vision"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "havok",
+    "bossNodes": [
+      "Plazma Detonasyonu: Havok belirli aralıklarla saldırgan üzerinde patlayan bir Plazma Pasifi biriktirir; patlama anında yakın mesafede kalmak ek alan hasarı getirir.",
+      "Zırh Aşındırma: Havok'un temel ve özel saldırıları saldırganın zırhını her isabetle kademeli olarak aşındırır; yüksek zırh bağımlılığı olan tanklar bu düğümde dezavantajlıdır.",
+      "Enerji Emilimi: Havok, enerji tabanlı hasara karşı kısmi direnç kazanabilen bir pasif taşır; fiziksel hasar veren şampiyonlar bazı evrelerde daha güvenilirdir."
+    ],
+    "idealCounters": [
+      "colossus",
+      "viv_vision",
+      "red_skull",
+      "ironheart",
+      "warlock"
+    ]
+  }
+}

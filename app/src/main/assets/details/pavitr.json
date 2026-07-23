@@ -1,0 +1,19 @@
+{
+    "id": "pavitr",
+    "name": "Spider-Man (Pavitr Prabhakar)",
+    "abilityDetails": {
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Marked": "Şampiyonun dövüş sırasında avantaj sağlayan özel Marked yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "Spider-Man (Pavitr Prabhakar) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Spider-Man (Pavitr Prabhakar) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

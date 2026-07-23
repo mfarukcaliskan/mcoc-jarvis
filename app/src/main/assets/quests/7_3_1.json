@@ -1,0 +1,53 @@
+{
+  "name": "7.3.1 - Özel Teslimat",
+  "globalNodes": [
+    "Paradoks (Paradox) - Bölüm 7.3'ün imza mekaniğidir: Saldırgan her Özel saldırı kullandığında bir Paradoks Yükü kazanır ve bu yükler sahne içindeki dövüşten dövüşe taşınır (cross-fight); Entropic Prowess karosu bu yüklerin her biri için Saldırganın Saldırı Gücünü kalıcı olarak artırır, bu yüzden gereksiz özel saldırı spamlemek yerine yükleri kritik anlar için biriktirmek daha güvenlidir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Güç Kalkanı Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Power Shield (Güç Kalkanı) karosu - Saldırganın normal vuruşları hiç hasar vermez (ancak güç üretmeye devam eder) ve buna karşılık Özel saldırılar %400 daha fazla hasar verir. Special 1 Bias karosu savunmacının SP1 atmaya daha meyilli olmasını sağlar.",
+        "• Strateji: Yol dövüşleri: Thor (Jane Foster) → Tigra → Hyperion → Magneto (Beyaz Kostüm). Normal vuruşlar boşa gittiği için güç dolana kadar blok/parry döngüsünde kalıp gücü doğrudan özel saldırılara aktarın; SP1 bias nedeniyle sık gelecek SP1'leri parry ile karşılayıp ağır vuruşla cezalandırın."
+      ],
+      "defenders": [
+        "thorjanefoster",
+        "tigra",
+        "hyperion",
+        "magnetomarvelnow"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Matador Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Matador karosu - Saldırgan güç barını yalnızca savunmacı bir Özel saldırı başlattığında kazanır, başka hiçbir yoldan güç üretilemez. Hurt Locker karosu - aynı tip Özel saldırıyı art arda kullanmak 5 saniyelik bir Gecikmeli Patlama yükü verir; bu yük bir Ağır vuruşla temizlenmezse saldırgan Maksimum Canının %50'si kadar doğrudan hasar alır.",
+        "• Strateji: Yol dövüşleri: Massacre → Ultron → Magneto (Beyaz Kostüm) → Thor (Jane Foster). Güç sadece savunmacının özel saldırısıyla geldiği için sabırlı oynayın; farklı özel saldırı tiplerini sırayla kullanarak Hurt Locker'ı tetiklemeyin ve her seferinde bir Ağır vuruşla yükü boşaltın."
+      ],
+      "defenders": [
+        "massacre",
+        "ultron",
+        "magnetomarvelnow",
+        "thorjanefoster"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "redgoblin",
+    "bossNodes": [
+      "Carnage Bombası Debuff'ları - Red Goblin'in SP2 veya Ağır vuruşları, üzerindeki aktif buff'lara göre debuff uygular: her Energize buff'ı Saldırganın Maksimum Gücünün %10'unu 15 saniyede boşaltan bir Güç Drenajı; her Fury buff'ı bir Zırh Kırma (Armor Break); diğer tüm buff'lar ise Yanma (Incinerate) hasarı tetikler.",
+      "Frenzy (Çılgınlık) - Rakip düşmeye yaklaştığında Red Goblin Frenzy'ye girip önemli ölçüde güçlenir; bu eşik ve etkinin şiddeti sahne boyunca yenilen her rakiple birlikte artar, bu yüzden dövüşü hızlı bitirmek önemlidir.",
+      "Symbiotic Empowerment (İmza Yeteneği) - Frenzy aktifken her Özel saldırı, %35 azaltılmış güçte ekstra bir Symbiote buff'ı daha üretir; bu da bir sonraki Carnage Bombası'nın debuff yoğunluğunu katlayarak artırır.",
+      "Özel Teslimat / Matador Düğümleri - Boss karosunda da saldırganın 15 Kombo Yükü ile başladığı ve normal vuruşla azalıp özel saldırıyla sıfırlandığı Özel Teslimat mekaniği ile güç sadece Red Goblin'in özel saldırısından gelen Matador etkisi birlikte çalışır."
+    ],
+    "idealCounters": [
+      "ronan",
+      "tigra",
+      "magik",
+      "doctordoom"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "8.4.2 - Korku Taktikleri",
+  "globalNodes": [
+    "Tell No Tales Bölüm Karosu: 8.4.2'nin resmi adı 'Tell No Tales'dir; harita üç ayrı final güzergahına ayrılır (Black Cat, Professor X, Ikaris) - bu rehber topluluk tarafından en çok tercih edilen Ikaris finaline giden güzergahı kapsar.",
+    "Kartopu Etkisi (Snowballing) Düğümü: Bu bölümde düşmanlar art arda gelen karşılaşmalarda kademeli olarak güç ve buff yığını biriktirerek daha tehlikeli hale gelir; uzun kombolardan kaçınıp kısa-orta vuruş dizileriyle ilerlemek yığılmayı sınırlar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısa Yol - Ronan Başlangıçlı Cheese Hattı):",
+        "• Karo Açıklaması: Topluluk videolarında doğrulanan en kısa güzergah; yol Ronan ile başlar ve diğer güzergahlara kıyasla çok daha az karşılaşma içerir.",
+        "• Strateji: Ronan'ın Evrensel Silah özel saldırılarını bait'leyip parry sonrası ağır vuruşla temposunu kırın; enerji hasarına dirençli şampiyonlar bu yolu hızlandırır."
+      ],
+      "defenders": [
+        "ronan",
+        "corvus_glaive",
+        "sersi",
+        "thena"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Uzun Yol - Mutant Kapısı Hattı):",
+        "• Karo Açıklaması: Tüm karşılaşmalar aktiftir; mutant ağırlıklı savunmacılar ve Radiance temalı ışık hasarı düğümleri sıkça tetiklenir.",
+        "• Strateji: Şok ve Kızdırma bağışıklığı yüksek şampiyonlar getirin; Magneto gibi metal bazlı savunmacılara karşı silah temelli özel saldırılardan kaçının."
+      ],
+      "defenders": [
+        "apocalypse",
+        "magneto",
+        "cyclops",
+        "colossus"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "ikaris",
+    "bossNodes": [
+      "Meteor Yağmuru (Special 1): Kozmik enerjiyle yüklenen yumruk serisinin her vuruşu düşmana 3 ayrı Kızdırma (Incinerate) debuff'ı uygular; Ikaris'in kendisi Kızdırma ve Şok'a bağışıklıdır ve Zehir hasarını %20 azaltır.",
+      "Enerjilenme (Energize) Yığınları ve Engellenemezlik: 10 Enerjilenme buff'ına ulaştığında Special 2 sırasında 8 saniyeliğine Engellenemez (Unblockable) buff kazanır; bu pencerede bloklama işe yaramaz, dodge/parry zamanlaması şarttır.",
+      "Ebedi Yıkım (Special 3 - Eternal Destruction): Saldırganı havaya sürükleyip yere çakan bir Gerçek Hasar (True Damage) saldırısıdır; Ikaris üzerindeki her benzersiz buff için ek Attack Rating bonusu kazanarak hasarını katlar."
+    ],
+    "idealCounters": [
+      "rintrah",
+      "wiccan",
+      "kushala",
+      "doctor_voodoo"
+    ]
+  }
+}

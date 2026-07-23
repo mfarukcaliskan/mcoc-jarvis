@@ -1,0 +1,19 @@
+{
+    "id": "wolverinex23",
+    "name": "Wolverine (X-23)",
+    "abilityDetails": {
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Eviscerating Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Pursuit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pursuit yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Marked": "Şampiyonun dövüş sırasında avantaj sağlayan özel Marked yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Wolverine (X-23) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Wolverine (X-23) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

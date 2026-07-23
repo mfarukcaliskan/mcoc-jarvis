@@ -1,0 +1,52 @@
+{
+  "name": "9.2.1 - Kurbağa Bataklığı",
+  "globalNodes": [
+    "Scourge / Proliferate / Clarify Sistemi - Act 9'un imza küresel mekaniği: Proliferate düğümlü karolarda savunmacı dövüş boyunca kademeli olarak Scourge Şarjı biriktirir ve bu şarjlar arttıkça savunmacının statları ve yetenekleri kalıcı olarak güçlenir. Clarify düğümlü karolarda ise Saldırgan, isabetleriyle savunmacının biriken Scourge Şarjlarını azaltabilir; bu nedenle Clarify karolarını erken temizlemek sonraki karşılaşmaları kolaylaştırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Elsa Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Yol boyunca Prowess (Güç Artışı) temalı düğümler bulunur; savunmacılar güç kazandıkça Prowess yığınları biriktirir ve bu yığınlar özel saldırı hasarını artırır. Ayrıca Proliferate karoları Scourge Şarjı biriktirdiğinden yolun ilerleyen kısımlarındaki savunmacılar başlangıca göre belirgin şekilde güçlenir.",
+        "• Strateji: Kendi Prowess mekaniğine sahip ya da hızlı bitiren şampiyonlarla (Bishop, Storm, Dust, Gambit) ilerleyin; dövüşleri uzatmadan bitirmek hem sizin hem savunmacının Prowess/Scourge birikimini sınırlı tutar. Clarify karolarını atlamayın, boss öncesi şarj biriktirmemek kritik önemdedir."
+      ],
+      "defenders": [
+        "elsa_bloodstone",
+        "crossbones",
+        "kingpin",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Bataklık Bozunumu Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Sürekli Zehir (Poison) ve Kanama (Bleed) bozunum hasarı uygulayan karolar art arda dizilidir; Yellowjacket ve Abomination gibi savunmacılar temas anında ek debuff yığınları uygular ve Proliferate karoları bu debuff potansiyelini dövüş ilerledikçe artırır.",
+        "• Strateji: Geniş debuff bağışıklık listesine (Zehir/Kanama/Şok) sahip, kendi kendini iyileştirebilen şampiyonlar getirin; Korg gibi taş/enerji temelli savunmacılara karşı blok sağlamlığı yüksek yapılarla ilerleyip kaynaklarınızı Toad dövüşü için saklayın."
+      ],
+      "defenders": [
+        "yellowjacket",
+        "abomination",
+        "spider_man",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "toad",
+    "bossNodes": [
+      "Felç Edici Zehir (Paralytic Poison) - Toad'ın dil saldırıları Saldırgana kolayca Zehir Debuff'ı bulaştırır; dövüş boyunca büyük miktarda zehir hasarı birikir.",
+      "Arınmadan Prowess (Prowess on Purify) - Saldırgan, Toad'ın uyguladığı Felç Edici Zehiri arındırdığında (Purify) Toad bir Prowess kazanır; bu Prowess'lar Özel Saldırı hasarını ciddi oranda artırır, dolayısıyla zehri arındırmak tehlikelidir.",
+      "Duvar Rejenerasyonu - Toad bir duvara yakınken isabet alırsa, kendini paralize edici toksinler salgılayarak eksik canının %5'ini 8 saniyede iyileştiren bir Rejenerasyon Pasifi kazanır; bu iyileşme, Saldırganın kombo sayacındaki her vuruş için ek olarak artar (en fazla 15 vuruşa kadar)."
+    ],
+    "idealCounters": [
+      "bishop",
+      "storm",
+      "dust",
+      "gambit"
+    ]
+  }
+}

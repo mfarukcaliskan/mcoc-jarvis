@@ -1,0 +1,50 @@
+{
+  "name": "7.3.5 - Teknoloji Savaşı",
+  "globalNodes": [
+    "Paradoks (Paradox) - Bölüm 7.3'ün imza mekaniğidir: Saldırgan her Özel saldırıda bir Paradoks Yükü kazanır ve bu yükler dövüşten dövüşe taşınır; Entropic Prowess bu yüklerin her biri için Saldırı Gücünü kalıcı olarak artırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Baskı Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Technical Suppression karosu - Teknoloji sınıfı saldırganlar Özel saldırı kullandığında %100 ihtimalle savunmacıya 8 saniyelik Isı Engeli (Heal Block) uygular; savunmacı zaten Isı Engelliyse bunun yerine o özel saldırının süresince %70 Saldırı artışı veren bir Fury kazanılır. Grudge karosu - savunmacı Isı Engeli veya Güç Kilidi altındayken saldırgan %100 fazla Güç Kazanım Oranı kazanır; bu debuff'lar sona erdiğinde savunmacı 5 saniyelik pasif Debuff Bağışıklığı kazanır.",
+        "• Strateji: Yol dövüşleri: Jubilee → Ronin → Mr. Sinister. Teknoloji şampiyonlarıyla Isı Engeli zincirleyerek hem savunmacının rejenerasyonunu kesin hem de bonus güç kazanın; debuff'lar bitmeden hemen yeniden uygulayarak bağışıklık penceresini minimize edin."
+      ],
+      "defenders": [
+        "jubilee",
+        "ronin",
+        "mistersinister"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Dayanıklılık Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Picture of Health karosu - savunmacı Rejenerasyon Oranı Değişikliğine karşı tamamen bağışıktır (degen/regen düşürme işe yaramaz). Aggression karosu - savunmacı her 2 saniyede bir, saniyede Maksimum Canının %0.25'ini iyileştiren bir Rejenerasyon pasifi kazanır (yığılabilir); vurulduğunda süre sıfırlanır ve bir yığın kaldırılır.",
+        "• Strateji: Yol dövüşleri: Rhino → Black Widow (Klasik) → Apocalypse. Rejenerasyonu azaltmaya çalışmak yerine sürekli baskı kurup vurarak Aggression yığınlarını düşürün; kesintisiz saldırı ritmi tutmak rejenerasyonu bağışıklık sayesinde etkisiz kılan tek yoldur."
+      ],
+      "defenders": [
+        "rhino",
+        "blackwidow",
+        "apocalypse"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "cable",
+    "bossNodes": [
+      "Teknoorganik Virüs - Virüsün gücü zayıfladıkça, Cable bir güç barını her doldurduğunda %16.5 oranında 10 saniye boyunca ekstra Güç kazanma şansı elde eder; bu da onu dövüşün ilerleyen safhalarında beklenmedik şekilde güçlendirir.",
+      "Picture of Health / Aggression - Boss, Rejenerasyon Oranı Değişikliğine tamamen bağışıktır ve her 2 saniyede bir Maksimum Canının %0.25'i kadar iyileşen yığılabilir bir Rejenerasyon pasifi taşır; bu yığınları düşürmenin tek yolu onu sürekli vurarak sayacı sıfırlamaktır.",
+      "Grudge - Cable Isı Engeli veya Güç Kilidi altındayken saldırgan %100 fazla Güç Kazanım Oranı elde eder, ancak bu debuff'lar sona erdiğinde Cable 5 saniyelik Debuff Bağışıklığına kavuşur."
+    ],
+    "idealCounters": [
+      "magik",
+      "doctordoom",
+      "magneto",
+      "cosmicghostrider"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "6.1.6 - Çapraz Ateş",
+  "globalNodes": [
+    "Emanet Dolabı (Hurt Locker) - Aynı özel saldırıyı (SP) üst üste iki kez kullanırsanız doğrudan büyük hasar alırsınız. Sürekli döngü yapın: önce SP1, sonra SP2, ardından tekrar SP1 atarak ilerleyin."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Arc Aşırı Yüklemesi / X-23 Yolu - Sol Yol - En Kolay Yol):",
+        "• Karo Açıklaması: Bu yoldaki rakipler düzenli olarak can yeniler ve can yenilerken durdurulamaz (unblockable) olabilirler; takıma mutlaka Mistik veya İyileşme Engelleyici şampiyonlar alın.",
+        "• Strateji: Yol dövüşleri: Moon Knight & Heimdall (ısınma dövüşleri, ekstra zor bir karosu yoktur) → Havok (en tehlikeli rakiplerden biri; plazma patlamalarından hasar almamak için sürekli zırh takviyesi/Armor Up bulunduran Colossus, Warlock veya Iceman kullanın) → X-23 & Wolverine (sürekli can yenilerler; Dr. Doom, Claire Voyant, Symbiote Supreme veya Archangel ile - nörotoksin ile iyileşmeyi engelleyerek - geçin) → Groot & Superior Iron Man (özel saldırılarını boşa çıkararak/bait rahatça geçebilirsiniz)."
+      ],
+      "defenders": [
+        "moonknight",
+        "heimdall",
+        "havok",
+        "wolverinex23",
+        "wolverine",
+        "groot",
+        "superiorironman"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Sağ Yol - Doğrulanmamış Alternatif Rota):",
+        "• Karo Açıklaması: Bu yol, .md rehberinde en kolay rota olarak doğrulanmamıştır; küresel karo 'Emanet Dolabı' burada da geçerlidir.",
+        "• Strateji: Yenilenmeyi bloke edecek şampiyonlar (Warlock, Archangel) getirin ve yenilenme tetiklenmeden önce burst hasar uygulayın. Mümkünse Yol A'yı (Arc Aşırı Yüklemesi) tercih edin."
+      ],
+      "defenders": [
+        "captainamericaiw",
+        "spiderman",
+        "corvusglaive"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "sentinel",
+    "bossNodes": [
+      "Karolar: Kozmik Avantajı - Sentinel, Kozmik dışındaki tüm sınıflara karşı ekstra avantajlar kazanır (örneğin Mistiklere karşı güç barı emer). Fisticuffs - Dövüşün ilk 30 saniyesinde bu karo aktifken siper (parry) atamazsınız ve rakip sersemlemez.",
+      "Mekanik: İlk 30 saniye boyunca sadece geriye kaçarak (dash back) darbelerinden sıyrılın; ardından sürekli SP1'ini doldurup boşa çıkararak (bait) güvenli şekilde canını indirin. Kozmik sınıf şampiyonlar bu avantajdan etkilenmediği için en iyi seçimdir."
+    ],
+    "idealCounters": [
+      "hyperion",
+      "medusa",
+      "corvusglaive",
+      "captainmarvelmcu",
+      "cosmicghostrider"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "valkyrie",
+    "name": "Valkyrie",
+    "abilityDetails": {
+        "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
+        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Grit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Grit yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Valkyrie için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Valkyrie Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

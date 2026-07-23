@@ -1,0 +1,19 @@
+{
+    "id": "mantis",
+    "name": "Mantis",
+    "abilityDetails": {
+        "Tranquilize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tranquilize yeteneği.",
+        "Infuriate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Infuriate yeteneği.",
+        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
+        "Sleep": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sleep yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Mantis için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Mantis Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

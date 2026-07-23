@@ -1,0 +1,62 @@
+{
+  "name": "6.3.4 - Kurnazlık",
+  "globalNodes": [
+    "Biohazard (Biyolojik Tehlike) Düğümü - Bloklara vurduğunuzda zehir, normal vurduğunuzda ise kanama alırsınız; Zehir ve Kanama bağışıklığı olan şampiyonlar (örn. Warlock, Ultron veya Captain Marvel (Movie)) bu bölüm için en kritik ihtiyaçtır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Portal B Sağ Yol / Winter Morning, En Kolay Yol):",
+        "• Karo Açıklaması: Başlangıçta Portal B seçilip sağa (Right) ilerlenince açılan bu Zehir/Biohazard yolunda Abomination, Iron Patriot, Rhino, Falcon, Superior Iron Man, Groot, Hulkbuster, Punisher ve Spider-Man (Klasik) sırasıyla karşınıza çıkar; Rhino sersemlemeye (Stun) bağışıklıdır ve bloklanamaz saldırı potansiyeli yüksek kritik bir dövüştür.",
+        "• Strateji: Zehir bağışıklığı olan Warlock, Ultron veya Captain Marvel (Movie) ile başlayıp Abomination dövüşünü rahat geçin; ardından kombo biriktirmiş bir Ægon, Hulkbuster, Colossus veya Hulkling ile devam ederek Iron Man Infinity War'a temiz sağlıkla ulaşın."
+      ],
+      "defenders": [
+        "abomination",
+        "ironpatriot",
+        "rhino",
+        "falcon",
+        "superiorironman",
+        "groot",
+        "hulkbuster",
+        "punisher",
+        "spiderman"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alternatif Zor Yol):",
+        "• Karo Açıklaması: Moon Knight, Gambit, Thor (Jane Foster), King Groot ve Storm sırasıyla karşınıza çıkar; yol nispeten sade debuff/kontrol düğümleri içerir.",
+        "• Strateji: Moon Knight'ın faz geçişli özel saldırılarına ve Gambit'in kart patlamalarına karşı mesafeli oynayın; parry/ağır vuruş rutinini koruyup İyileşmeyi Engelleyen (Heal Block) bir şampiyonu Iron Man Infinity War için saklayın."
+      ],
+      "defenders": [
+        "moonknight",
+        "gambit",
+        "thorjanefoster",
+        "kinggroot",
+        "storm"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "ironmaninfinitywar",
+    "bossNodes": [
+      "Armor Break Immune - Iron Man Infinity War, Zırh Kırma etkilerine bağışıklıdır.",
+      "Enhanced Armor Up - Kendi Zırhlanma (Armor Up) yetenekleri %40 daha etkilidir.",
+      "Arc Overload 2.0 - Her 20 saniyede bir canının %25'ini iyileştirir ve %25 zırh kazanır.",
+      "Indomitable - Bu iyileşme etkisi tersine çevrilemez, sadece Heal Block ile kısmen azaltılabilir.",
+      "Kırmızı Magneto (Red Magneto) Taktiği - IMIW bir Metal şampiyon olduğu için Kırmızı Magneto onu felç eder ve otomatik bloklarını engeller; ağır saldırı (Heavy) ile hiddet (Prowess) biriktirip SP3 attığınızda dövüşü tek seferde bitirebilirsiniz. Dövüşün mutlak kralı olarak kabul edilir."
+    ],
+    "idealCounters": [
+      "magnetomarvelnow",
+      "humantorch",
+      "hyperion",
+      "corvusglaive",
+      "aegon",
+      "starlord"
+    ]
+  }
+}

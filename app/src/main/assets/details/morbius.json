@@ -1,0 +1,19 @@
+{
+    "id": "morbius",
+    "name": "Morbius",
+    "abilityDetails": {
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Fervor": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fervor yeteneği.",
+        "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Undying": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undying yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Morbius için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Morbius Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

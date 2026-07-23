@@ -1,0 +1,51 @@
+{
+  "name": "9.3.4 - Negatif Enerji",
+  "globalNodes": [
+    "Kapı Sistemi (Gate): Yol A, Bilim (Science) Kapısı ile açılır ve Bilim sınıfına giriş avantajı sağlar; Yol B, Kozmik (Cosmic) Kapısı ile açılır ve Kozmik sınıfına avantaj tanır.",
+    "Negatif Bölge Sızıntısı: Doom'un deneyleri sırasında açılan yarıklardan sızan kozmik/negatif enerji temalı savunmacılar (Ronan, Thanos, Ebony Maw) bulunur; bu savunmacıların çoğu güç kazanımını hızlandıran veya saldırganın gücünü çalan düğümlere sahiptir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Bilim Kapısı - En Kolay Yol):",
+        "• Karo Açıklaması: Daha az güç-çalma temalı, doğrudan hasar odaklı kozmik savunmacılardan oluşur (Ronan, Korg, Terrax); büyük tehlike Ronan'ın Evrensel Adalet güçlendirmesidir.",
+        "• Strateji: Kapıyı Bilim sınıfıyla açıp bonus alın; Ronan'ın güçlendirme aşamasına girmeden önce hasarını maksimize edin, Terrax'ın toprak temelli alan saldırılarına karşı mesafe kontrolü yapın."
+      ],
+      "defenders": [
+        "ronan",
+        "korg",
+        "terrax"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kozmik Kapı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Thanos, Ebony Maw ve Proxima Midnight gibi Kara Nizam üyeleri art arda dizilmiştir; Ebony Maw'ın zihin temelli debuff'ları ve Thanos'un Kader Taşı benzeri güç patlamaları can kaybını hızlandırır.",
+        "• Strateji: Debuff bağışıklığı geniş (özellikle Korku/Kontrol Tersine Çevirme) bir yapı getirin; Thanos'ta özel saldırı öncesi güç barını düşük tutup Proxima Midnight'ın zehirli mızrağına karşı bağışıklık veya erken blok kırma stratejisi izleyin."
+      ],
+      "defenders": [
+        "thanos",
+        "ebony_maw",
+        "proxima_midnight"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "namor",
+    "bossNodes": [
+      "Öfke Birikimi (Outrage): Namor her 3 saniyede bir 1 Öfke Yığını kazanır (maksimum 30); saldırgan Namor'a Sersemletme uygularsa yığın kazanım hızı artar, bu yüzden sersemletici saldırılar riskli hale gelir.",
+      "Imperius Rex: 15 yığında geri çekilip blok tutarak 1 güç barı kazanıp Imperius Rex'i tetikleyebilir, 30 yığında ise gücünün %95'ine kadarını anında doldurup art arda özel saldırı zincirleyebilir; bu sırada saniyede güç barının %15'ini tüketir ve Özel Saldırı hasarı %240'a kadar artar.",
+      "Neptün'ün Gücü (Special 3): Kalıcı bir Öfke (Fury) pasifi kazandırır; bu pasif aktifken saldırgan Namor'un özel saldırılarından güç kazanamaz."
+    ],
+    "idealCounters": [
+      "mephisto",
+      "quake",
+      "doctor_doom",
+      "scarlet_witch"
+    ]
+  }
+}

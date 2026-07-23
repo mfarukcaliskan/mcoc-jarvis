@@ -1,0 +1,16 @@
+{
+    "id": "spidermanstarkenhanced",
+    "name": "Spider-Man (Stark Enhanced)",
+    "abilityDetails": {
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Ensnare": "Şampiyonun dövüş sırasında avantaj sağlayan özel Ensnare yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Spider-Man (Stark Enhanced) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Spider-Man (Stark Enhanced) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

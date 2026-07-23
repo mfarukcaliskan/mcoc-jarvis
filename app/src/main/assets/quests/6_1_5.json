@@ -1,0 +1,57 @@
+{
+  "name": "6.1.5 - Karşı Koyma",
+  "globalNodes": [
+    "Güç Mücadelesi (Power Struggle) - Normal yollarla güç kazanamazsınız; rakip 1 bar güç kazandığında siz de otomatik olarak 1 bar kazanırsınız, ancak rakip özel saldırı (SP) kullandığında sizin gücünüz sıfırlanır. Rakip 1 bar güce ulaştığı an vakit kaybetmeden kendi SP1'inizi indirin; güç biriktirmeye çalışmak işe yaramaz."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Superior Iron Man Yolu - No-Bane Rotası - En Kolay Yol):",
+        "• Karo Açıklaması: Bu yol Venom dövüşünü içerir; Venom, bölüm sonu canavarı Crossbones'un üzerindeki ölümcül Bane (Yıkım) karosunu tamamen devre dışı bırakır. (Not: Sabretooth dövüşünden sonra Stark Spidey yoluna saparsanız daha az şampiyonla dövüşürsünüz ama boss dövüşünde Bane karosu açık kalır; boss'u rahat geçmek için Venom üzerinden gitmek en iyisidir.)",
+        "• Strateji: Yol dövüşleri: Superior Iron Man → Falcon → Sabretooth → Venom (Crossbones'un Bane karosunu kaldıran kritik şampiyon) → She-Hulk → Old Man Logan → Winter Soldier."
+      ],
+      "defenders": [
+        "superiorironman",
+        "falcon",
+        "sabretooth",
+        "venom",
+        "shehulk",
+        "oldmanlogan",
+        "wintersoldier"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Stark Spidey Rotası - Bane Açık Kalır):",
+        "• Karo Açıklaması: Sabretooth dövüşünden sonra bu yola sapıldığında daha az şampiyonla ilerlenir, ancak Crossbones'un Bane (Yıkım) karosu boss dövüşünde etkin kalır.",
+        "• Strateji: Kısa yoldan ilerleyin, ancak boss dövüşünde Bane karosuna karşı ekstra dikkatli olun; mümkünse Venom yolunu (Yol A) tercih edin."
+      ],
+      "defenders": [
+        "greengoblin",
+        "electro",
+        "yondu",
+        "nebula"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "crossbones",
+    "bossNodes": [
+      "Karolar: Yıkım (Bane) - Venom yolundan geçilmediyse bu karo boss dövüşünde aktif kalır ve ekstra ağır hasar tehdidi oluşturur. Biyolojik Tehlike (Biohazard) - Saldırılarınız rakibin engellemesine gelse bile zehir veya kanama alabilirsiniz. Zindelik (Vigor) - Crossbones her 15 saniyede bir %50 can yeniler.",
+      "Mekanik: Venom yolundan geçerek Bane'i kapatın; Biohazard'a karşı kanama/zehir bağışıklığı, Vigor'a karşı iyileşme engelleyiciler getirin."
+    ],
+    "idealCounters": [
+      "warlock",
+      "omegared",
+      "guillotine2099",
+      "archangel",
+      "hulkling",
+      "ghost",
+      "captainmarvelmcu"
+    ]
+  }
+}

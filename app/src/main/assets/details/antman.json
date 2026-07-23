@@ -1,0 +1,16 @@
+{
+    "id": "antman",
+    "name": "Ant-Man",
+    "abilityDetails": {
+        "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
+        "Unsteady": "Şampiyonun dövüş sırasında avantaj sağlayan özel Unsteady yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Fatigue": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fatigue yeteneği.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır."
+    },
+    "synergies": [],
+    "howToPlay": "Ant-Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Ant-Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

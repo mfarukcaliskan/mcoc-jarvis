@@ -1,0 +1,18 @@
+{
+    "id": "silvercenturion",
+    "name": "Silver Centurion",
+    "abilityDetails": {
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Plasma yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Silver Centurion için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Silver Centurion Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

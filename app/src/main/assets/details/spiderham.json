@@ -1,0 +1,15 @@
+{
+    "id": "spiderham",
+    "name": "Spider-Ham",
+    "abilityDetails": {
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller."
+    },
+    "synergies": [],
+    "howToPlay": "Spider-Ham için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Spider-Ham Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

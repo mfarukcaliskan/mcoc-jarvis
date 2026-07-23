@@ -1,0 +1,18 @@
+{
+    "id": "sersi",
+    "name": "Sersi",
+    "abilityDetails": {
+        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
+    },
+    "synergies": [],
+    "howToPlay": "Sersi için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Sersi Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

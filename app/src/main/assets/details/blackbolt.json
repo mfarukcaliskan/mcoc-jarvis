@@ -1,0 +1,15 @@
+{
+    "id": "blackbolt",
+    "name": "Black Bolt",
+    "abilityDetails": {
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Black Bolt için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Black Bolt Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

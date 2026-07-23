@@ -1,0 +1,15 @@
+{
+    "id": "blackwidow",
+    "name": "Black Widow",
+    "abilityDetails": {
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Black Widow için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Black Widow Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

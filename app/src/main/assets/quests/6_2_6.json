@@ -1,0 +1,60 @@
+{
+  "name": "6.2.6 - Şampiyonun Yükselişi",
+  "globalNodes": [
+    "Standart Aksiyon 6 Bölüm 2 harita modifikatörleri dışında bu bölümde ekstra bir küresel düğüm bulunmuyor; zorluk tamamen boss dövüşündeki Kalıcı Yük (Persistent Charge) ve Güç İlkeli (Power Primordial) mekaniklerinden kaynaklanır. Rota seçerken bağlantı (link) düğümü içermeyen yolları tercih etmek gereksiz ceza karolarından kaçınmayı sağlar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Bağlantı Düğümsüz Yol - Portal B - Sol Alt Rota - En Kolay Yol):",
+        "• Karo Açıklaması: Link düğümü içermeyen, en soldan başlayan ve en az birim (unit) harcayacağınız rota seçilir; bu yolda savunmacı dövüşleri dışında ekstra bir ceza karosu yoktur.",
+        "• Strateji: Spider-Man (Stark Enhanced) ve Iceman (soğuk ısırma bağışıklığı olan bir şampiyon seçin) ile başlayıp, Hyperion'u mistik karakterlere karşı buff'larını uçurarak kullanın, Blade, Magik, Void, Hulk (Ragnarok) ve Corvus Glaive ile hızlı ilerleyin; gereksiz can kaybından kaçınıp kaynaklarınızı The Champion dövüşü için saklayın."
+      ],
+      "defenders": [
+        "spidermanstarkenhanced",
+        "hyperion",
+        "iceman",
+        "blade",
+        "magik",
+        "void",
+        "hulkragnarok",
+        "corvusglaive"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kozmik Güç Yolu - Alternatif Zor Yol):",
+        "• Karo Açıklaması: Yine link düğümsüz ama daha güçlü savunmacılar (Void, Hulk Ragnarok, Corvus Glaive) içeren bir rotadır.",
+        "• Strateji: Bozunma/Unstoppable bağışıklığı yüksek şampiyonlarla girin; Corvus Glaive'in yığınlı güçlenme mekaniğine ve Hulk Ragnarok'un dexterity tetiklemeli saldırılarına dikkat edin."
+      ],
+      "defenders": [
+        "void",
+        "hulkragnarok",
+        "corvusglaive"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "thechampion",
+    "bossNodes": [
+      "Güç İlkeli (Power Primordial) - Her 13 saniyede 1 Kalıcı Yük (Persistent Charge) kazanır ve o anki yük sayısı kadar Hiddet (Fury) buff'ı aktive eder.",
+      "2 veya daha fazla Fury buff'ı aktifken Durdurulamaz (Unstoppable) olur ve 5 saniye boyunca temel saldırılardan etkilenmez; tüm hafif saldırıları blocklanamaz hale gelir.",
+      "Dövüş başında canı %100 ise 3 Fury kazanır, değilse eksik canının %30'u kadar aniden iyileşir.",
+      "Fate Seal, Heal Block, Petrify ve rejenerasyonu değiştiren efektlere (Zehir hariç) bağışıklıdır. Saldırganın kombo sayacında her 20 vuruşta veya Nullify ile Fury buff'larından biri kaldırıldığında 1 Kalıcı Yük kaybeder.",
+      "KRİTİK 2 EVRELİ STRATEJİ - %100-%10 Arası (Normal Evre): Şampiyon'un durdurulamaz (Unstoppable) ve Hiddet (Fury) bufflarını engellemek ya da silmek gerekir. Doctor Doom, Symbiote Supreme, Tigra veya She-Hulk ile sürekli sendeletme (stagger) veya yavaşlatma (slow) uygulayarak bu evreyi sıfır hasarla tamamlayabilirsiniz.",
+      "Son %10 Aşaması (Yenilmezlik Evresi): Şampiyon bu aşamada hasar almaz (indestructible/tamamen kırılmaz olur). Bu kalkanı kırmak için Şampiyon'un 1. Özel Saldırısının (SP1) son vuruşuna (kafa attığı/headbutt attığı an) tam zamanında El Becerisi (Dexterity) yapmanız gerekir. Toplamda 3 kez bu şekilde zamanında el becerisi (dodge) yaptığınızda üstündeki tüm yenilmezlik yükleri kalkar; ardından herhangi bir özel saldırınızı (SP1, SP2 veya SP3) fırlatarak dövüşü doğrudan bitirebilirsiniz. İpucu: SP1'den kaçarken ilk darbeleri bloka alın, Şampiyon tam kafa atacakken geriye doğru kaydırıp el becerisini tetikleyin - bu, ıskalama riskinizi en aza indirir."
+    ],
+    "idealCounters": [
+      "doctordoom",
+      "symbiotesupreme",
+      "tigra",
+      "shehulk",
+      "captainamericaiw",
+      "morningstar"
+    ]
+  }
+}

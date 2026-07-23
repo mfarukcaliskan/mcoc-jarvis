@@ -1,0 +1,54 @@
+{
+  "name": "7.2.4 - Bataklik Canavarı",
+  "globalNodes": [
+    "Uyku Hali (Slumber) - Dövüş başında saldırganın gücü kilitlenir ve kısa süreliğine sersemletilir; bu mekanik dövüşün ilk saniyelerinde saldırganın güç toplamasını geciktirir.",
+    "Alev (Flare) - Savunmacı periyodik olarak kendi hasarını artıran ama karşılığında kendine Yıpranma (Degeneration) uygulayan bir buff kazanır; savunmacı bu süre zarfında hem daha tehlikeli hem de kendini yiyip bitiren bir haldedir.",
+    "Boyut Meselesi (Size Matters) - Savunmacının saldırılarını sıyırma (glance) muafiyeti saldırganın şampiyon boyutuna göre değişir; büyük boyutlu şampiyonlar bu karo karşısında dezavantajlıdır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Ördek Devriyesi Yolu - En Kolay Yol, Abomination (Immortal) Ara Patronu):",
+        "• Karo Açıklaması: Howard the Duck, Cull Obsidian ve Rocket Raccoon ile karşılaşılır; yol sonunda ara patron Abomination (Immortal) bulunur. Zehir bağışıklığı şarttır; ayrıca Meltdown (Erime) debuff'ının doğru zamanlamayla uygulanması Abomination'ın kalıcı yeniden dirilme mekaniğini aşmak için kritik önemdedir.",
+        "• Strateji: Yol dövüşleri: Howard the Duck → Cull Obsidian → Rocket Raccoon → Abomination (Immortal). Zehir bağışıklığı yüksek (Guillotine 2099, Red Hulk) şampiyonlar getirin; Abomination'a karşı Meltdown'ı can barı sıfıra yaklaşırken tetikleyerek kalıcı ölümünü garantileyin."
+      ],
+      "defenders": [
+        "howardtheduck",
+        "cullobsidian",
+        "rocketraccoon",
+        "abominationimmortal"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Enerji Fırtınası Yolu - Zorlu Alternatif Yol, Nova Ara Patronu):",
+        "• Karo Açıklaması: Beast, Warlock ve Falcon ile karşılaşılır; yol sonunda ara patron Nova bulunur. Nova Metal sınıfı bir şampiyondur ve güç kazancına bağlı buff mekanizmaları taşır; saldırganın kendi güç birikimini kontrol etmesi gerekir.",
+        "• Strateji: Yol dövüşleri: Beast → Warlock → Falcon → Nova. Metal sınıfı şampiyon getirmekten kaçının; Doctor Doom, Magneto veya Human Torch gibi güç yönetimini iyi kontrol eden şampiyonlarla ilerleyin."
+      ],
+      "defenders": [
+        "beast",
+        "warlock",
+        "falcon",
+        "nova"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "manthing",
+    "bossNodes": [
+      "Korku Besler (Fear Feeds) - Sınıf avantajı olmayan şampiyonlar için Man-Thing'in yanında geçirilen her 60 saniyede canın %100'ü boşalır; sadece doğru sınıf avantajına sahip (Bilim sınıfı, Zehir bağışık) şampiyonlar bu erimeden etkilenmez.",
+      "Uyku Hali (Slumber) - Dövüş başında saldırganın gücü kısa süreliğine kilitlenir, bu da erken özel saldırı planlamasını zorlaştırır.",
+      "Boyut Meselesi (Size Matters) - Man-Thing'in saldırılarına karşı sıyırma muafiyeti saldırganın boyutuna bağlıdır; yanlış boyutta bir şampiyon getirmek ekstra hasar riskini artırır."
+    ],
+    "idealCounters": [
+      "redhulk",
+      "abominationimmortal",
+      "shehulk",
+      "hulkimmortal"
+    ]
+  }
+}

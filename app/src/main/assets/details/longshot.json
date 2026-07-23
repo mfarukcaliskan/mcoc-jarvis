@@ -1,0 +1,16 @@
+{
+    "id": "longshot",
+    "name": "Longshot",
+    "abilityDetails": {
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Fateseal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fateseal yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Longshot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Longshot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

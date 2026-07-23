@@ -1,0 +1,23 @@
+{
+    "id": "scream",
+    "name": "Scream",
+    "abilityDetails": {
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Impact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Impact yeteneği.",
+        "Undermine": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undermine yeteneği.",
+        "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
+        "Infuriate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Infuriate yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Fervor": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fervor yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Scream için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Scream Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

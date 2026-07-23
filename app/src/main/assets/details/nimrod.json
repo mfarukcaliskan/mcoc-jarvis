@@ -1,0 +1,21 @@
+{
+    "id": "nimrod",
+    "name": "Nimrod",
+    "abilityDetails": {
+        "Special Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Lock yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Cowardice": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cowardice yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Invalidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invalidate yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Unblockable": "Saldırıların bloklanmasını engeller."
+    },
+    "synergies": [],
+    "howToPlay": "Nimrod için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Nimrod Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

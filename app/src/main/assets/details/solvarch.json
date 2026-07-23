@@ -1,0 +1,22 @@
+{
+    "id": "solvarch",
+    "name": "Solvarch",
+    "abilityDetails": {
+        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
+        "Reverb": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reverb yeteneği.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Solvarch için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Solvarch Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

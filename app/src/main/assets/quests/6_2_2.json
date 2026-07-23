@@ -1,0 +1,61 @@
+{
+  "name": "6.2.2 - Koparılmış",
+  "globalNodes": [
+    "Geri Tepme (Backblast) - Saldırganın Kritik Hasarı iki katına çıkar; ancak bir kritik vuruşun hasarı Savunmacının maksimum canının %5'ini aşarsa veya dövüş boyunca 4 veya daha fazla garanti kritik iniş yapılırsa, Saldırgan son kritik vuruşuna eşit hasar veren bir Yakma (Incinerate) debuff'ına maruz kalır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Teleporter 6 Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Sağ taraftaki Işınlayıcı 6'yı (Teleporter 6) kullanıp yukarı doğru ilerleyen 'Freezer Burn' yoludur; küresel Geri Tepme (Backblast) düğümü etkindir, kritik vuruş şansı yüksek şampiyonlarla gereksiz kritik yığmak riskli olur.",
+        "• Strateji: Kritik şansı düşük/kontrollü şampiyonlarla (Punisher 2099, Ultron, X-23) ilerleyip 4'ten fazla garanti kritik atmaktan kaçının. Punisher 2099'un otomatik engelleme (auto-block) mekanizmalarına dikkat edin, X-23 kritik vuruş aldıkça kanama uygulayıp can yeniler, Old Man Logan döndükçe zayıflatıcıları hızlıca üzerinden atar, Goldpool sürekli yenilenme ve ani iyileşme kazanır, yolun en kritik dövüşü olan Emma Frost'un elmas formundaki yüksek zırhına ve stun almamasına, telepatik formdaki ters yönlendirmesine karşı hazırlıklı olun."
+      ],
+      "defenders": [
+        "punisher2099",
+        "ultron",
+        "wolverinex23",
+        "oldmanlogan",
+        "goldpool",
+        "emmafrost"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Havok Yolu - Alternatif Zor Yol):",
+        "• Karo Açıklaması: Biyotehlike (Biohazard) ve Kanamaya Açıklık (Bleed Vulnerability) karoları Gwenpool/Carnage dövüşlerinde etkindir; yolun sonundaki Havok'ta ise Çürüyen Zırh (Crumbling Armor) düğümü vardır - 6 saniye saldırmadan beklerseniz zırh kırılma debuffı alırsınız.",
+        "• Strateji: Havok karşısında Colossus gibi zırhı kırılamayan bir şampiyon şart; Archangel dövüşünde nörotoksin yığılmasına, Carnage'da ise kanama karolarına dikkat edin."
+      ],
+      "defenders": [
+        "falcon",
+        "gwenpool",
+        "archangel",
+        "blade",
+        "carnage",
+        "havok"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "mistersinister",
+    "bossNodes": [
+      "Caustic Temper - Sinister'a uygulanan hasarlı debuff'lar kendisine geri transfer edilir; bu karo nedeniyle üzerinde Hiddet (Fury) takviyesi aktif olmayan hiçbir şampiyon boss'a hasar veremez.",
+      "Genetic Perfection - Kombo sayacı 30'u geçtiğinde moleküler rejenerasyonuyla can kazanmaya başlar; boss ayrıca sürekli zehir tetikler ve yenilenme (regen) kazanır.",
+      "Prey on the Weak - Düşük canlı Saldırgana karşı hasarı artar.",
+      "Warlock + Heimdall + Angela/Hela Sinerjisi (En Güvenli MVP): Warlock zehre bağışıktır ve enfeksiyonuyla Sinister'ın yenilenmesini tamamen kapatır. Heimdall + Angela/Hela sinerjisi sayesinde Warlock her zehir bağışıklığı tetiklendiğinde kalıcı Hiddet takviyesi kazanır, böylece boss'u çok rahat eritebilirsiniz.",
+      "Hyperion (Solo): Zehre bağışıktır ve Ağır Saldırı (Heavy) yaparak kendi hiddet takviyelerini kolayca kazanabilir; 4-6 hiddet biriktirdikten sonra Sinister'ı doğrudan alt edebilirsiniz."
+    ],
+    "idealCounters": [
+      "hyperion",
+      "warlock",
+      "heimdall",
+      "angela",
+      "hela",
+      "colossus",
+      "void"
+    ]
+  }
+}

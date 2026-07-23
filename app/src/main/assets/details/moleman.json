@@ -1,0 +1,18 @@
+{
+    "id": "moleman",
+    "name": "Mole Man",
+    "abilityDetails": {
+        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Unblockable": "Saldırıların bloklanmasını engeller."
+    },
+    "synergies": [],
+    "howToPlay": "Mole Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Mole Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

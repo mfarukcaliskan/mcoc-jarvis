@@ -1,0 +1,16 @@
+{
+    "id": "sasquatch",
+    "name": "Sasquatch",
+    "abilityDetails": {
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar."
+    },
+    "synergies": [],
+    "howToPlay": "Sasquatch için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Sasquatch Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

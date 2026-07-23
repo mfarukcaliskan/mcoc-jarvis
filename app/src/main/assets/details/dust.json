@@ -1,0 +1,18 @@
+{
+    "id": "dust",
+    "name": "Dust",
+    "abilityDetails": {
+        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
+        "Disable Willpower": "Rakibin İrade Gücü ustalık yenilenmesini devre dışı bırakır.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Power Efficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Efficiency yeteneği.",
+        "Grit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Grit yeteneği.",
+        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Dust için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Dust Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

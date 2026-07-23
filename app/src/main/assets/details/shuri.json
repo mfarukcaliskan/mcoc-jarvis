@@ -1,0 +1,16 @@
+{
+    "id": "shuri",
+    "name": "Shuri",
+    "abilityDetails": {
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Critical Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Shuri için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Shuri Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

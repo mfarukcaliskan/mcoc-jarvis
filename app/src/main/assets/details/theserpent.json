@@ -1,0 +1,21 @@
+{
+    "id": "theserpent",
+    "name": "The Serpent",
+    "abilityDetails": {
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Resistance Up": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resistance Up yeteneği.",
+        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
+        "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir.",
+        "Inexorable": "Şampiyonun dövüş sırasında avantaj sağlayan özel Inexorable yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "True Focus": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Focus yeteneği.",
+        "Instant Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
+        "Death Immunity": "Şampiyonun dövüş sırasında avantaj sağlayan özel Death Immunity yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "The Serpent için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "The Serpent Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

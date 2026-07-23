@@ -1,0 +1,20 @@
+{
+    "id": "vox",
+    "name": "Vox",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Intensify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intensify yeteneği.",
+        "Undermine": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undermine yeteneği.",
+        "Vigilance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vigilance yeteneği.",
+        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Vox için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Vox Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

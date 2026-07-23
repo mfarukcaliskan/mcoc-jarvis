@@ -1,0 +1,17 @@
+{
+    "id": "oldmanlogan",
+    "name": "Old Man Logan",
+    "abilityDetails": {
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Old Man Logan için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Old Man Logan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

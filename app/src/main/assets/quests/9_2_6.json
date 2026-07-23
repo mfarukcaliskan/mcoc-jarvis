@@ -1,0 +1,52 @@
+{
+  "name": "9.2.6 - Lotan Yüzleşmesi",
+  "globalNodes": [
+    "Scourge / Proliferate / Clarify Sistemi - Act 9'un imza küresel mekaniği: Proliferate düğümlü karolarda savunmacı dövüş boyunca kademeli olarak Scourge Şarjı biriktirir ve bu şarjlar arttıkça savunmacının statları ve yetenekleri kalıcı olarak güçlenir. Clarify düğümlü karolarda Saldırgan isabetleriyle bu şarjları azaltabilir; bu düğümleri erken temizlemek sonraki karşılaşmaları kolaylaştırır.",
+    "Bozulmuş Mühürler (Corrupted Seals) - Lotan dövüşe en az 1 Bozulmuş Mühür ile başlar; bu mühür(ler) kalıcıdır ve her biri Maelstrom alanını küçültür, Bozunum Zamanlayıcısının süresini kısaltır, Lotan'ın Güç Çalma potansiyelini artırır ve maksimum Desecrated Şarj sayısını azaltır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Scourge Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Sentry gibi savunmacıların bulunduğu bu yolda kritik ihtimalini artıran skill-lane düğümleri ile birlikte Scourge/Proliferate karoları yoğun biçimde bulunur; Sersemletmeye Bağışıklık, Delici (Pierce) hasar ve Güç Kazanımı temalı ek düğümler eşlik eder.",
+        "• Strateji: Scourge Şarjlarını erken Clarify karolarıyla temizleyip savunmacıların güçlenmesini engelleyin; Hulk ve She-Hulk gibi yüksek can/hasar dengesine sahip şampiyonlarla itemless ilerlemeyi hedefleyin ve kaynaklarınızı Lotan için saklayın."
+      ],
+      "defenders": [
+        "sentry",
+        "hulk",
+        "she_hulk",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kara Nizam Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Corvus Glaive'in Ölümsüzlük Mızrağı, Proxima Midnight'ın zehirli mızrak saldırıları ve Hela'nın Ölüm temalı doğrudan hasar etkileri art arda gelir; tüm zorlayıcı Act 9 karoları (yüksek Scourge birikimi dahil) bu yolda etkindir.",
+        "• Strateji: Geniş debuff bağışıklık listesine (Zehir/Kanama/Şok/Ölüm-temelli doğrudan hasar) sahip, uzun maç dayanıklılığı yüksek şampiyonlar getirin; can yönetimini önceliklendirip Lotan'a mümkün olduğunca dolu can ve kaynakla girin."
+      ],
+      "defenders": [
+        "corvus_glaive",
+        "proxima_midnight",
+        "hela"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "jane_foster_lotan",
+    "bossNodes": [
+      "Maelstrom ve Bozunum Zamanlayıcısı - Dövüş başında sahne ortasında bir Maelstrom belirir; içindeyken Lotan'ın temel saldırıları Enerji hasarı verir ve Kombo Güç Oranı %50 artar. Saldırgan Maelstrom'a girdiğinde 5 saniyelik bir Bozunum Zamanlayıcısı başlar; bu süre Lotan her temel saldırı başlattığında 0,5 saniye durur, Lotan blok/şarj/özel saldırı yaparken tamamen duraklar.",
+      "Desecrated Şarjları ve Sanctified Durumu - Lotan dövüşe 20 Desecrated Şarjı ile başlar; herhangi bir şarj varken %80 daha az hasar alır. Şarjlar her fazda belirli 'Smite' girdileriyle (örn. ikinci Orta Saldırının ilk vuruşu 4 şarj, İyi Zamanlı Blok 2 şarj düşürür) kaldırılabilir. Şarjlar sıfırlandığında Lotan 10 saniyeliğine Sanctified olur; bu sürede hareket edemez, güç kazanamaz, Desecrated Şarjı kazanamaz ve Saldırgan bu süre boyunca Özel Saldırı 3 kullanamaz, Maelstrom ile etkileşemez ve hasar alamaz.",
+      "Gerçek Etkilerin Yasaklanması - Lotan, Ağır Saldırısıyla vururken pasif olarak Durdurulamaz (Unstoppable) hale gelir ve bu fazlarda True Damage, True Strike, True Accuracy, True Sense ve True Focus gibi anlık olmayan 'Gerçek' etkiler geçici olarak yasaklanır."
+    ],
+    "idealCounters": [
+      "aegon",
+      "mister_sinister",
+      "nova",
+      "guardian"
+    ]
+  }
+}

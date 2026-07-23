@@ -1,0 +1,16 @@
+{
+    "id": "archangel",
+    "name": "Archangel",
+    "abilityDetails": {
+        "Neurotoxin": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neurotoxin yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Archangel için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Archangel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,54 @@
+{
+  "name": "8.3.2 - Dikenlerin Altında",
+  "globalNodes": [
+    "Diken (Thorns) Düğümü: Blok yapan savunmacıya vurulduğunda saldırgan otomatik olarak Kanama hasarı alır; temas süresini kısa tutan parry-vur-çekil ritmi tercih edilmelidir.",
+    "Üçlü Karanlık Kapı: Görev sonunda Dormammu, Attuma ve Mephisto arasından seçilen bir patronla karşılaşılır; bu rehber en sık tercih edilen Attuma kapısını esas alır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Attuma Kapısı - Daha Kolay Yol):",
+        "• Karo Açıklaması: Mutant ağırlıklı bir savunmacı dizilimi içerir; Gambit'in kart patlamaları ve Rogue'un güç/buff çalma mekaniği öne çıkar.",
+        "• Strateji: Kritik Hasar Direnci yüksek, kendi buff'larını koruyabilen şampiyonlarla ilerleyin; Rogue karşısında buff bağımlılığı düşük saldırganlar tercih edilmelidir."
+      ],
+      "defenders": [
+        "gambit",
+        "rogue",
+        "beast",
+        "iceman"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Teknolojik/mutant karışık savunmacılar ve Diken düğümünün en yoğun hissedildiği bölümdür; Nimrod'un mutant avcısı pasifi buff temizler.",
+        "• Strateji: Nimrod'un buff temizleme etkisine karşı buff bağımlılığı düşük ekip kurun; Omega Red'in zehir/yaşam çalma kombosuna karşı zehir bağışıklığı faydalıdır."
+      ],
+      "defenders": [
+        "nimrod",
+        "omega_red",
+        "sentinel",
+        "ultron"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "attuma",
+    "bossNodes": [
+      "Şok Zafiyeti: Attuma şok (Shock) hasarına karşı belirgin şekilde savunmasızdır; şok debuff'ı uygulayabilen şampiyonlar önemli ölçüde ekstra hasar potansiyeli sunar.",
+      "Derinlerin Hükümdarı Öfkesi: Özel saldırılar kullandıkça biriken bir Öfke (Fury) buff'ı ile saldırı gücünü artırır; uzun süren maçlarda saf hasar tehlikeli boyutlara ulaşabilir.",
+      "Kırılmaz Silah: Attuma'nın mızrağı Yetenek Doğruluğu düşürme (nullify) etkilerine karşı bağışıklıdır; silah temelli debuff kaldırma stratejileri işe yaramaz."
+    ],
+    "idealCounters": [
+      "shuri",
+      "negasonic_teenage_warhead",
+      "storm",
+      "onslaught",
+      "dazzler"
+    ]
+  }
+}

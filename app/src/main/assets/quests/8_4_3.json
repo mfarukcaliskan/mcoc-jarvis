@@ -1,0 +1,53 @@
+{
+  "name": "8.4.3 - Valkürlerin Dansı",
+  "globalNodes": [
+    "Bite the Hand Bölüm Karosu: 8.4.3'ün resmi adı 'Bite the Hand'dir; önceki müttefiklerin birbirine döndüğü ihanet temalı bir harita sunar, karşılaşmaların çoğunda Skill ve Cosmic sınıf savunmacılar ağırlıktadır.",
+    "Sayaç Bozucu (Counter-Evade) Düğümü: Bazı karşılaşmalarda düşmanlar saldırganın kombo sayacını bozan Counter-Evade tetikleyicileri taşır; bu, Valkyrie tarzı kombo-yönetimli şampiyonları büyük ölçüde zayıflatır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısa Yol - Daha Az Karşılaşma):",
+        "• Karo Açıklaması: Diğer güzergaha göre daha az karşılaşma içerir; Asgard temalı savunmacılarla karşılaşma riski taşır.",
+        "• Strateji: Blok Yeterliliği yüksek şampiyonlarla düşman özel saldırılarını karşılayın; parry sonrası ağır vuruş penceresini kaçırmayın."
+      ],
+      "defenders": [
+        "thor_jane_foster",
+        "loki",
+        "black_widow",
+        "winter_soldier"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Uzun Yol - Güç Tipi Savunmacılar):",
+        "• Karo Açıklaması: Tüm karşılaşmalar aktiftir; Hyperion ve Sentry gibi yüksek dayanıklılıklı güç tipi savunmacılar art arda gelir.",
+        "• Strateji: Gerçek Hasar (True Damage) veya zırh delme yeteneği olan şampiyonlar getirin; uzun maçlara dayanıklı yapılar tercih edin."
+      ],
+      "defenders": [
+        "hyperion",
+        "sentry",
+        "gladiator",
+        "thing"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "valkyrie",
+    "bossNodes": [
+      "Kombo Sayacı Kontrolü: Valkyrie kendi Kombo Sayacının yönünü kontrol edebilir ve sayaç her 10'un katına ulaştığında Pierce (Blok ve Zırh Delme artışı) ile Bulwark (Blok Yeterliliği artışı) buff'ları kazanır.",
+      "Ters Kombo (Light Combo Ender): Light Combo Ender kullanıldığında Kombo Kazanımı tersine döner; bu süre boyunca sayaç normalde artması gereken her durumda azalır, azalması gereken her durumda artar - saldırgan için öngörüyü zorlaştırır.",
+      "Grit ve Stun Bağışıklığı: Yeterli Pierce yığınıyla Ability Accuracy'den etkilenmeyen kalıcı bir Grit pasifi kazanır; yeterli Bulwark yığınıyla Stun debuff'larına tamamen bağışıklık kazanır. Heavy Attack'in son vuruşu tüm Pierce/Bulwark'ı tüketip düşmana Blok Yeterliliğini azaltan bir Intimidate debuff'ı uygular."
+    ],
+    "idealCounters": [
+      "domino",
+      "bishop",
+      "hulkling",
+      "hercules"
+    ]
+  }
+}

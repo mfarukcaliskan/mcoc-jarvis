@@ -1,0 +1,16 @@
+{
+    "id": "spiderman",
+    "name": "Spider-Man (Classic)",
+    "abilityDetails": {
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
+        "Decelerate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Decelerate yeteneği.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
+    },
+    "synergies": [],
+    "howToPlay": "Spider-Man (Classic) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Spider-Man (Classic) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

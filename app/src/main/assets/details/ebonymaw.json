@@ -1,0 +1,16 @@
+{
+    "id": "ebonymaw",
+    "name": "Ebony Maw",
+    "abilityDetails": {
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
+    },
+    "synergies": [],
+    "howToPlay": "Ebony Maw için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Ebony Maw Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

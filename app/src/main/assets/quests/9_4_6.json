@@ -1,0 +1,58 @@
+{
+  "name": "9.4.6 - Chronoserpent (Carina) Hesaplaşması",
+  "globalNodes": [
+    "Sınıf Kapısı Sistemi: Act 9'un final görevi 3 alternatif giriş kapısına ayrılır (Teknoloji+Bilim / Mutant+Kozmik / Yetenek+Mistik); her kapı çifti Chronoserpent'in ele geçirdiği Carina'nın farklı bir versiyonuna açılır ve her versiyonun yetenek seti farklıdır. Bu rehber en kolay kabul edilen Teknoloji+Bilim Kapısı'nı (A) ve Mutant+Kozmik Kapısı'nı (B) kapsar; üçüncü seçenek olan Yetenek+Mistik Kapısı da mevcuttur.",
+    "Elder Direnci: Kapıya göre saldırgan sınıfına özel pasif bir can yenileme bonusu uygulanır (Bilim/Teknoloji saldırganları +%5, Mutant/Mistik saldırganları +%5 düz can yenileme); Mistik saldırganlar ayrıca %150 Yetenek Güç Kazanım Oranı cezasına maruz kalır.",
+    "Kron Yolsuzluğu (Chrono Corruption) Ön Koşulu: Carina tüm hasar kaynaklarına karşı %90 dirençlidir; yalnızca Kron Yolsuzluğu debuff'ı bu direnci aşabilir. Yol üzerindeki tuzaklara Ağır saldırı veya Reversal ile itilmesi Carina'ya Kron Yolsuzluğu uygular."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Teknoloji+Bilim Kapısı - En Kolay Yol):",
+        "• Karo Açıklaması: Kapı yalnızca Teknoloji veya Bilim sınıfı şampiyonların geçişine izin verir. Bu versiyondaki Carina, rakip İyi Zamanlanmış Blok yaptığında Patlama Enerjisi biriktirir; 100 Patlama Enerjisine ulaştığında Bozulmuş ISO Patlaması fırlatır.",
+        "• Strateji: Teknoloji veya Bilim sınıfından güçlü bir saldırganla (ör. Ironheart, Guardian) yolu geçin; savunmacıları tuzakların üzerine iterek ön hazırlık yapın, boss dövüşünde İyi Zamanlanmış Blok kullanımını sınırlı tutarak Patlama Enerjisi birikimini yavaşlatın."
+      ],
+      "defenders": [
+        "ironheart",
+        "guardian",
+        "iron_man",
+        "sentinel",
+        "ultron"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Mutant+Kozmik Kapısı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Kapı yalnızca Mutant veya Kozmik sınıfı şampiyonların geçişine izin verir. Bu versiyondaki Carina daha agresif bir Özel saldırı rotasyonuna sahiptir ve Özel saldırıları sırasında Güç Emme'ye (Power Drain) tam bağışıklıdır.",
+        "• Strateji: Kozmik sınıfından bir saldırganla (ör. Hyperion, Void) ilerleyin; Özel Kilitleme ve Nötrleme'ye bağışıklığı olduğundan güç kontrolüne güvenmeyin, bunun yerine Ağır saldırı odaklı tuzağa itme rotasyonu kurun."
+      ],
+      "defenders": [
+        "hyperion",
+        "void",
+        "magneto",
+        "colossus",
+        "gladiator"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "chronoserpent",
+    "bossNodes": [
+      "%90 Hasar Direnci: Carina, Kron Yolsuzluğu debuff'ı dışındaki tüm hasar kaynaklarına karşı %90 dirençlidir; etkili hasar vermenin tek yolu bu debuff'ı biriktirip sürdürmektir.",
+      "Kron Yolsuzluğu Eşikleri: 15 Yolsuzluğun altındayken Carina Özel 2'yi kullanamaz; 15 ve üzerindeyken Özel 1'i kullanamaz, bu da savunma rotasyonunu doğrudan etkiler.",
+      "Tuzağa İtme Mekaniği: Ağır saldırı veya Reversal ile Carina bir tuzağın üzerine itildiğinde Kron Yolsuzluğu debuff'ı uygulanır; dövüş boyunca hasar vermenin ana yöntemi budur.",
+      "Bağışıklıklar: Özel Kilitleme ve Nötrleme'ye tam bağışıklıdır; ayrıca Özel saldırıları sırasında Güç Emme'ye bağışıklıdır."
+    ],
+    "idealCounters": [
+      "guardian",
+      "ironheart",
+      "hyperion",
+      "doctor_doom",
+      "colossus"
+    ]
+  }
+}

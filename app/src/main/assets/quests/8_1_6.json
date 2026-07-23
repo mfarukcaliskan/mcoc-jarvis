@@ -1,0 +1,52 @@
+{
+  "name": "8.1.6 - Scytalis",
+  "globalNodes": [
+    "Kafes Sarsıcı (Cage Rattler) - Yetenek sınıfı saldırganlar bloklandığında %50 ihtimalle savunmacıya pasif olarak 2 saniyelik Sersemletme uygular; bu ihtimal saldırganın kombo sayacındaki her 5 vuruş için %10 artar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Zırhlı Saldırı Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Armored Assault ve Turtling karoları; savunmacılar Zırh Artışı (Armor Up) taşırken saldırıları Bloklanamaz olur ve Saldırı Gücü %65 artar, Turtling ise savunmacının blok yaparken Zırh Artışı biriktirmesini sağlar. Parry Vulnerability, saldırganın parry sonrası aldığı hasarı artırır.",
+        "• Strateji: Yol dövüşleri: Sentinel → Ultron → Warlock → Captain America. Zırh Kırma (Armor Break) yeteneği olan şampiyonlarla savunmacının Zırh Artışını sürekli temizleyin; Parry Vulnerability aktifken art arda parry yapmak yerine ölçülü saldırın."
+      ],
+      "defenders": [
+        "sentinel",
+        "ultron",
+        "warlock",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Tuzak Yılanı Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Power to Cover ve Trap Serpent karoları; savunmacı belirli Güç eşiklerinde ekstra buff kazanır ve karo, saldırgana rastgele tetiklenen tuzak temelli Yanma hasarı uygular.",
+        "• Strateji: Yol dövüşleri: Iron Man Infinity War → Doctor Octopus → Nimrod → Korg. Yanık bağışıklığı yüksek (Warlock, Sentinel, Nick Fury) ve Güç yönetimi iyi olan şampiyonlar tercih edin; Power to Cover aktifken gereksiz Özel Saldırı biriktirmeyin."
+      ],
+      "defenders": [
+        "iron_man_iw",
+        "doctor_octopus",
+        "nimrod",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "scytalis",
+    "bossNodes": [
+      "Widow'ın Pusu Tuzakları - Saldırgan bir tuzağa bastığında Scytalis %100 ihtimalle 4.5 saniyelik Köklenme (Root) pasifi uygular; Köklenmişken Özel Saldırı başlatmak Kök etkisini kırar ve saldırgana süresiz bir Prowess pasifi kazandırır. Tuzaklar Scytalis blok yaparken tetiklenmez.",
+      "Bozuk Zırh (Corrupted Armor) - Gerçek Vuruş (True Strike) ve Gerçek İsabet (True Accuracy) bu zırhı etkilemez, üstelik saldırgan bu ikisinde %200 Yetenek İsabeti cezası yaşar; Scytalis kendi tuzağını tetiklerse 7 saniye Sersemler, Bozuk Zırh'ı 15 saniyeliğine kaybeder ve saldırgan süresiz %10 Özel Hasar Prowess'ı kazanır.",
+      "Dört Evreli Yükseliş - Target Acquired, Commence Operation, Agent Provocateur ve Final Phase evrelerinde tuzakların silahlanma süresi (1.5s'den 7.5s'ye kadar) uzar ve can barı tek vuruşta belirli bir yüzdenin altına düşemez (%80 → %40 → %5 → sınırsız); son evrede Bozuk Zırh artık tuzaklarla kaldırılamaz."
+    ],
+    "idealCounters": [
+      "juggernaut",
+      "apocalypse",
+      "magneto",
+      "doctor_doom"
+    ]
+  }
+}

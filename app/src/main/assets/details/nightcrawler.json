@@ -1,0 +1,17 @@
+{
+    "id": "nightcrawler",
+    "name": "Nightcrawler",
+    "abilityDetails": {
+        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Bleed Vulnerability": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar."
+    },
+    "synergies": [],
+    "howToPlay": "Nightcrawler için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Nightcrawler Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

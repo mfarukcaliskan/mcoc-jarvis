@@ -1,0 +1,15 @@
+{
+    "id": "deathlesskinggroot",
+    "name": "King Groot (Deathless)",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "King Groot (Deathless) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "King Groot (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

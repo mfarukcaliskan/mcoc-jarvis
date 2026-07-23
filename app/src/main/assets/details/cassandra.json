@@ -1,0 +1,19 @@
+{
+    "id": "cassandra",
+    "name": "Cassandra Nova",
+    "abilityDetails": {
+        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Marked": "Şampiyonun dövüş sırasında avantaj sağlayan özel Marked yeteneği.",
+        "Daunted": "Rakibin özel saldırılar sonrasında hasar almasını kolaylaştırır.",
+        "Neuroshock": "Rakibe zamanla yüksek elektrik tabanlı hasar verir.",
+        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Reverse Controls": "Rakibin yön tuşlarını tersine çevirerek hareketlerini karıştırır.",
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Cassandra Nova için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Cassandra Nova Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

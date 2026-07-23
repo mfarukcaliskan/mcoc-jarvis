@@ -1,0 +1,53 @@
+{
+  "name": "9.1.2 - Fırtına Öncesi",
+  "globalNodes": [
+    "Adrenalin Artışı (Adrenaline Rush) - Vuruş yediğinizde biriken Adrenalin ile saldırgan olarak aldığınız hasarı %100'e kadar azaltabilirsiniz.",
+    "Hattı Koru (Hold the Line) - Adrenalin ile ölçeklenerek blok etkinliğinizi %80'e kadar artırır. Sahne 9.1'in tüm bölümlerinde standarttır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A ('Muscle Wizard' Güzergahı - En Kolay Yol):",
+        "• Karo Açıklaması: Güç (Strength) ve Mistik hibrit düşmanların bulunduğu, ağır vuruş odaklı bir lane; düşmanlar bloklandığında geri tepme (thorns) hasarı verebilir.",
+        "• Strateji: Parry-ağır vuruş rutinini koruyun, uzun kombo zincirlerinden kaçının ve blok yerine mümkün olduğunda tam kaçış (dexterity) kullanın."
+      ],
+      "defenders": [
+        "thing",
+        "colossus",
+        "doctor_doom",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Metal/Enerji Güzergahı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Enerji hasarına yüksek direnç gösteren robotik ve metal temalı düşmanlar; bazıları Güç (Power) kazancınızı izleyip karşı debuff uygular.",
+        "• Strateji: Fiziksel hasar ağırlıklı şampiyonlar tercih edin; Güç Kontrolü (Power Control) yeteneği olan karakterler düşmanın buff birikimini keser."
+      ],
+      "defenders": [
+        "ultron",
+        "sentinel",
+        "bishop",
+        "cable"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "storm_pyramid_x",
+    "bossNodes": [
+      "Fırtına Öncesi (Tempest) - Ön dövüş yeteneğiyle sürekli Prowess buff'ı biriktirir; Güç Kilidi (Power Lock) veya Güç Boşaltma (Power Drain) uygulanırsa Tempest'leri 8 saniyeliğine kaybeder ve Prowess kazanamaz.",
+      "Yıldırım Fırtınası (Lightning Tempest) - Gelen Şok (Shock) hasarının etkisini %100 azaltır, bu yüzden saf Şok temelli takımlar zayıf kalır.",
+      "Özel Saldırı 1 - 4 vuruşluk bir saldırıdır; ilk vuruşta geri kaçış (dash-back) çeviklik tetikler, kalan üç vuruş buz silahı fırlatmalarıdır ve pratikle kolayca kaçılabilir."
+    ],
+    "idealCounters": [
+      "symbiote_supreme",
+      "corvus_glaive",
+      "human_torch",
+      "captain_america_iw"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "id": "phylavell",
+    "name": "Phyla-Vell",
+    "abilityDetails": {
+        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Undermine": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undermine yeteneği.",
+        "Resonance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resonance yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
+    },
+    "synergies": [],
+    "howToPlay": "Phyla-Vell için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Phyla-Vell Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

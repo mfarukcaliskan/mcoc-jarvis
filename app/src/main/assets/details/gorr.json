@@ -1,0 +1,19 @@
+{
+    "id": "gorr",
+    "name": "Gorr",
+    "abilityDetails": {
+        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Undermine": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undermine yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Gorr için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Gorr Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

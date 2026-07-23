@@ -1,0 +1,52 @@
+{
+  "name": "9.2.5 - Odaklanma Alanı",
+  "globalNodes": [
+    "Scourge / Proliferate / Clarify Sistemi - Act 9'un imza küresel mekaniği: Proliferate düğümlü karolarda savunmacı dövüş boyunca kademeli olarak Scourge Şarjı biriktirir ve bu şarjlar arttıkça savunmacının statları ve yetenekleri kalıcı olarak güçlenir. Clarify düğümlü karolarda Saldırgan isabetleriyle bu şarjları azaltabilir; bu düğümleri erken temizlemek sonraki karşılaşmaları kolaylaştırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Enerji Yükü Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Shocker ve Electro gibi enerji temelli savunmacılar art arda dizilidir; karolar enerji hasarı biriktiren yük (Charge) mekaniklerine sahiptir ve Sentinel gibi bir mini-boss ile sonlanır.",
+        "• Strateji: Enerji hasarına dirençli, Kozmik/nuke tarzı yüksek doğrudan hasar veren şampiyonlarla ilerleyin; yükleri patlamadan önce dövüşü bitirecek tempo tutturun."
+      ],
+      "defenders": [
+        "shocker",
+        "electro",
+        "sentinel",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Dar Zamanlama Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Hulkbuster ve Iron Man (Infinity War) gibi savunmacılar parry penceresini daraltan düğümlerle korunur; yanlış zamanlanan parry denemeleri ağır ceza hasarına yol açar.",
+        "• Strateji: Parry'ye bağımlı olmayan, güvenli blok/kaçış temelli şampiyonlar tercih edin; Ultron'un enerji temelli saldırılarına karşı debuff bağışıklığı yüksek yapılarla kaynaklarınızı Karnak dövüşü için saklayın."
+      ],
+      "defenders": [
+        "hulkbuster",
+        "iron_man_iw",
+        "ultron",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "karnak",
+    "bossNodes": [
+      "Odak Şarjları (Focus Charges) - Karnak her 12 saniyede bir, en fazla 3'e kadar Odak Şarjı kazanır; bu şarjlar Kritik Vuruş Oranını artırır ve blok arkasından bile kritik hasar vermesini sağlar.",
+      "Gerçek Vuruş (True Strike) - Özel Saldırı 1, 15 saniye boyunca süren bir True Strike Pasifi kazandırır; bu süre boyunca saldırıları Zırh, Direnç, Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
+      "Kırılganlık ve Öfke - Ağır Saldırısı 20 saniyelik bir Kırılganlık (Fragility) Debuff'ı uygulayarak kritik hasarını artırır; Özel Saldırı 2 ise 30 saniyelik pasif bir Öfke (Fury) kazandırır. Uyanmış (Awakened) Karnak, İmza Yeteneğiyle Fiziksel Direncin %100'üne kadarını yok sayabilir."
+    ],
+    "idealCounters": [
+      "magneto",
+      "havok",
+      "bishop",
+      "hercules"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "id": "nicominoru",
+    "name": "Nico Minoru",
+    "abilityDetails": {
+        "Adrenaline": "Şampiyonun dövüş sırasında avantaj sağlayan özel Adrenaline yeteneği.",
+        "Flourish": "Şampiyonun dövüş sırasında avantaj sağlayan özel Flourish yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Pentacle": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pentacle yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Buff Immunity": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Immunity yeteneği.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Stimulate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stimulate yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Zeal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Zeal yeteneği.",
+        "Halt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Halt yeteneği.",
+        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Acid Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Acid Burn yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Nico Minoru için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Nico Minoru Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

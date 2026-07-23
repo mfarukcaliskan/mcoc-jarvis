@@ -1,0 +1,12 @@
+{
+    "id": "abomination",
+    "name": "Abomination",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır."
+    },
+    "synergies": [],
+    "howToPlay": "Abomination için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Abomination Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

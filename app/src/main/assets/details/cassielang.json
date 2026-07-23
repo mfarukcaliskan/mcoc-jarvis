@@ -1,0 +1,20 @@
+{
+    "id": "cassielang",
+    "name": "Cassie Lang",
+    "abilityDetails": {
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
+        "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Crush": "Blokları kırarak yüksek hasar vermeyi sağlar.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Combo Detonation": "Belirli sayıda kombo sonrasında rakip üzerinde yüksek patlama hasarı verir."
+    },
+    "synergies": [],
+    "howToPlay": "Cassie Lang için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Cassie Lang Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

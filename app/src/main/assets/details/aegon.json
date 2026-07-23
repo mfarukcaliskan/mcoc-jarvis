@@ -1,0 +1,20 @@
+{
+    "id": "aegon",
+    "name": "Aegon",
+    "abilityDetails": {
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği.",
+        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
+    },
+    "synergies": [],
+    "howToPlay": "Aegon için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Aegon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

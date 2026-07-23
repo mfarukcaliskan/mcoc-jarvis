@@ -1,0 +1,57 @@
+{
+  "name": "7.1.6 - Buz Anka Kuşu",
+  "globalNodes": [
+    "Yıldız Gücü / Adrenalin Hücumu / Hattı Koru (Star Power / Adrenaline Rush / Hold The Line) - Bölüm boyunca saldırgan tarafında aktif üç karo birden çalışır: Yıldız Gücü 6 yıldızlı saldırganlara kalıcı +700 Saldırı Öfkesi verir; Adrenalin Hücumu, saldırgan vuruş yedikçe artan ve saldırgana anlık %100'e kadar Hasar Azaltma sağlayan bir Adrenalin ölçeği oluşturur; Hattı Koru ise aynı ölçeğe bağlı olarak saldırgana %80'e kadar Blok Yeterliliği kazandırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Particle Protector Hattı - En Kolay Yol):",
+        "• Karo Açıklaması: Particle Protector ve Micro-Reflect karoları savunmacıya vuruş başına geçici bir enerji kalkanı ve hasar yansıtması sağlar; Size Matters ve Bulk Up karoları savunmacının can/saldırı değerlerini kademeli olarak büyütür.",
+        "• Strateji: Yol dövüşleri: Ant-Man → Kingpin → King Groot → Sabretooth → Howard the Duck → Sasquatch. Micro-Reflect aktifken ağır saldırı yerine güvenli hafif kombo tercih edin; Bulk Up biriktirmeden önce hızlı bitirme planlayın."
+      ],
+      "defenders": [
+        "antman",
+        "kingpin",
+        "kinggroot",
+        "sabretooth",
+        "howardtheduck",
+        "sasquatch"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Destructive Feedback Hattı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Yıkıcı Geri Bildirim (Destructive Feedback) karosu belirli saldırılarda hasarı saldırgana geri yansıtır; Impatience ve Small Arms karoları zamanla savunmacının saldırı hızını/gücünü artırır; Kozmik Öfke (Cosmic Wrath) Kozmik sınıfı saldırganlara ekstra ceza uygular.",
+        "• Strateji: Yol dövüşleri: Darkhawk → Gambit → Warlock → Thor (Ragnarok) → Punisher 2099 → Killmonger. Destructive Feedback riskini azaltmak için ağır saldırıdan kaçının; Kozmik sınıfı şampiyon kullanıyorsanız Cosmic Wrath cezasını hesaba katın."
+      ],
+      "defenders": [
+        "darkhawk",
+        "gambit",
+        "warlock",
+        "thorragnarok",
+        "punisher2099",
+        "killmonger"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "icephoenix",
+    "bossNodes": [
+      "Soğuk Füzyon (Cold Fusion) & Açılış Dondurma Çarpması - Ice Phoenix dövüşün en başında saldırgana bir Dondurma Çarpması (Coldsnap) debuff'ı uygular; Coldsnap bağışıklığı olmayan şampiyonlar bu ilk hasar dalgasında ciddi can kaybeder.",
+      "Yaklaşan Sersemletme (Encroaching Stun) - Saldırgan üzerinde sürekli işleyen bir sersemletme sayacı vardır; bu sayaç dolmadan önce Ice Phoenix'i sersemletip vurmak gerekir, aksi halde saldırgan kendisi sersemler.",
+      "Buz Zırhı Yenilenmesi - Ice Phoenix'in Buz Zırhı (Ice Armor) periyodik olarak geri gelir; zırh aktifken yapılan sersemletme girişimleri boşa gider, bu yüzden zırhın açık olduğu pencereleri gözlemlemek kritik önemdedir.",
+      "Güç Ekseni 1 & Güç Taşması (Power Axis 1 / Power Overflow) - Biriken güç belirli bir eşiği aştığında taşarak Ice Phoenix'e ani ekstra güç kazandırır."
+    ],
+    "idealCounters": [
+      "colossus",
+      "corvusglaive",
+      "warlock",
+      "silversurfer"
+    ]
+  }
+}

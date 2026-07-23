@@ -1,0 +1,52 @@
+{
+  "name": "7.4.4 - Mojo Şovu",
+  "globalNodes": [
+    "Kangdom Come Adrenalin Sistemi: Bu bölümdeki 6 Yıldızlı saldırganlar kalıcı olarak +700 Öfke (Fury) kazanır (Star Power); ayrıca saldırganın mevcut Adrenalin seviyesine bağlı olarak zaman zaman %100'e varan Hasar Azaltma (Adrenaline Rush) ve her an +80 Blok Yeterliliğine kadar bonus (Hold The Line) uygulanır.",
+    "Burnout Karosu: Savunmacı bir Özel Saldırı başlattığında 1 Burnout Yığını kazanır ve bu yığın başına kendi Özel Saldırı hasarını %10 artırır; 10 veya daha fazla yığına ulaştığında 10 yığın silinir ve savunmacı 10 saniyeliğine pasif olarak Güç Kilitlenir (Power Locked)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Şarj Stüdyosu Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Recharge karosu bulunur - savunmacı blok yaptığında Güç kazanır; Enhanced Parry karosu ise saldırganın parry yapması savunmacıya ek Güç Kazanımı sağlar, bu yüzden aşırı parry spam'i savunmacıyı besler.",
+        "• Strateji: Yol dövüşleri: Cyclops → Punisher 2099 → Odin. Parry kullanımını gerekli anlarla sınırlı tutun, savunmacıyı bloğa zorlamak yerine sürekli baskı ile Güç kazanımını en aza indirin."
+      ],
+      "defenders": [
+        "cyclops",
+        "punisher2099",
+        "odin"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Yayın Kontrolü Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Power Shield karosu, savunmacının temel saldırılara karşı aldığı hasarı büyük oranda azaltır; Spite karosu, saldırgan üzerinde tetiklenen her buff savunmacıya ani bir Güç akışı (Power Flood) sağlar; Special 2 Bias karosu ise savunmacının Özel 2 kullanma olasılığını artırır.",
+        "• Strateji: Yol dövüşleri: Gambit → Gwenpool → Knull. Kendinize gereksiz buff tetiklemekten kaçının ki Spite'ı beslemeyin; hasarınızın büyük kısmını Özel Saldırılardan alın çünkü Power Shield temel vuruşları büyük ölçüde etkisizleştirir."
+      ],
+      "defenders": [
+        "gambit",
+        "gwenpool",
+        "knull"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "mojo",
+    "bossNodes": [
+      "Prompts (İzleyici İstekleri) Sistemi: Dövüş sırasında periyodik olarak bir Prompt (görev) belirir; ya saldırgan ya da Mojo izleyicinin istediğini yaparsa Prompt tamamlanır ve Mojo 1 Milyon Takipçi (Followers) kazanır; Prompt süresi dolarsa Mojo 5 Milyon Takipçi kaybeder.",
+      "Anti-Life Field: Bir Prompt tamamlandığında Mojo 7 saniyeliğine Anti-Life Field'ı aktive eder; bu süre zarfında rakip üzerindeki her buff %90 azaltılmış süreyle çalışır ve bir buff Nullify edildiğinde veya süresi dolduğunda rakip 6 saniye boyunca Yıpranma (Degeneration) hasarı alır; bu alan Özel Saldırılar sırasında duraklar.",
+      "Takipçi (Followers) Eşiği: Mojo 5 Milyon veya üzeri Takipçiye sahipken Anti-Life Field'ı her aktive ettiğinde ayrıca kendine bir Öfke (Fury) buff'ı uygulayarak Saldırı Gücünü artırır; bu yüzden Prompt'ları izleyicinin istediği yönde bırakmak Mojo'yu giderek güçlendirir."
+    ],
+    "idealCounters": [
+      "archangel",
+      "magneto",
+      "humantorch",
+      "captainamericaiw",
+      "misternegative"
+    ]
+  }
+}

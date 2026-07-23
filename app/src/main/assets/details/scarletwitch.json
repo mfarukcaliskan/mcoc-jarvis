@@ -1,0 +1,24 @@
+{
+    "id": "scarletwitch",
+    "name": "Scarlet Witch (Classic)",
+    "abilityDetails": {
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Fatigue": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fatigue yeteneği.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır."
+    },
+    "synergies": [],
+    "howToPlay": "Scarlet Witch (Classic) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Scarlet Witch (Classic) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

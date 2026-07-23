@@ -1,0 +1,61 @@
+{
+  "name": "6.4.4 - Yıldız Gücü",
+  "globalNodes": [
+    "Energy Sensitive (küresel) - Savunmacılar enerji hasarına karşı ekstra güç şarjı kazanır ve enerji temelli saldırılara direnç gösterir. Aksiyon 6 Bölüm 4 standart güçlendirmesi (+%600 Saldırı/Can, savunmacı özel saldırıları bloklanamaz) haritanın tamamında etkindir.",
+    "Icarus (İkarus) (küresel) - Saldırı yaptıkça Öfke (Fury) yükü kazanıp uçuk hasarlara ulaşırsınız; ancak periyodik olarak Ağır Saldırı (Heavy) yapmazsanız biriken yükler doğrudan size hasar verir. Kombolarınızın arasına düzenli olarak Ağır Saldırı sıkıştırarak yükleri sıfırlamalısınız."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Sabretooth Koridoru - En Kolay Yol / Enerji Alımı Yakma Yolu):",
+        "• Karo Açıklaması: Crumbling Armor düğümü - saldırgan art arda vuruş indiremezse savunmacının zırh/direnç bonusları kırılır; bu da agresif, kesintisiz saldırıyı teşvik eder. Elinizde Yakma (Incinerate) bağışıklığı olan şampiyonlar varsa bu yol adeta bir çocuk oyuncağına dönüşür.",
+        "• Strateji: Yol dövüşleri Sabretooth → Hela → Hulk (Ragnarok) → Spider-Man (Stealth Suit) → Phoenix → Wasp (Mini-Boss) sırasındadır. Sürekli temas halinde kalıp Crumbling Armor'ı tetikleyerek savunmacıların direncini erkenden kırın."
+      ],
+      "defenders": [
+        "sabretooth",
+        "hela",
+        "hulkragnarok",
+        "spidermanstealthsuit",
+        "phoenix",
+        "wasp"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kozmik Teknoloji Koridoru - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Close Encounters düğümü - savunmacıya yakın durursanız o yavaşça iyileşir, geri çekilip mesafe açarsanız Degen (Bozunma) hasarı alırsınız; bu da kaçış temelli oyun tarzını cezalandırır.",
+        "• Strateji: Yol dövüşleri Ghost → Spider-Man (Classic) → Spider-Gwen → Darkhawk → M.O.D.O.K. → Guillotine 2099 (Mini-Boss) sırasındadır. Close Encounters nedeniyle sürekli temas halinde kalın, gereksiz geri dash atmaktan kaçının."
+      ],
+      "defenders": [
+        "ghost",
+        "spiderman",
+        "spidergwen",
+        "darkhawk",
+        "modok",
+        "guillotine2099"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "captainmarvelmcu",
+    "bossNodes": [
+      "Binary Ignition (İkili Ateşlenme) - Captain Marvel yeterli güç topladığında Binary moda girer; bu moddayken engellenemez (unstoppable) ve yerinden oynatılamaz (unmoveable) olur.",
+      "Energy Sensitive - Enerji hasarına karşı dirençlidir ve enerji temelli vuruşlardan ekstra güç şarjı kazanabilir.",
+      "Close Encounters - Saldırgan uzak durursa Degen hasarı alır, yakın kalırsa Captain Marvel yavaşça iyileşir. Ayrıca yakın dövüş mesafesinde kalmanız gerekir; uzaklaşırsanız saniyede %3 can kaybedersiniz. Şampiyon blok halindeyken enerji hasarı vurmak çok önemlidir.",
+      "Strateji: Doctor Doom ile güç çalarak Binary moda geçişi geciktirin, ya da Quake/Symbiote Supreme ile temassız/güç-azaltma odaklı oynayarak Binary tetiklenmeden dövüşü bitirin. Mistik Şampiyonlar (Doctor Doom, Kushala, Claire Voyant, Symbiote Supreme, Diablo) en iyi boss karşıtlarıdır - Captain Marvel'ın gücünü sürekli kontrol altında tutup çılgınlık (Frenzy) moduna girmesini engelleyin; Doom gibi şampiyonlarla rakip blok yaparken bile saldırarak enerji hasarıyla canını hızla eritebilirsiniz. Yol Counterları (Koridor): CGR (devasa hasar), Colossus (yakma bağışıklığı ve tanklığı ile en güvenlisi), Human Torch, Red Hulk, Sunspot, Kitty Pryde veya Ghost."
+    ],
+    "idealCounters": [
+      "doctordoom",
+      "kushala",
+      "blackwidowclairevoyant",
+      "symbiotesupreme",
+      "diablo",
+      "quake",
+      "magik"
+    ]
+  }
+}

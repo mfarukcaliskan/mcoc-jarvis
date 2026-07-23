@@ -1,0 +1,22 @@
+{
+    "id": "ironheart",
+    "name": "Ironheart",
+    "abilityDetails": {
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Tracking": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tracking yeteneği.",
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Invalidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invalidate yeteneği.",
+        "Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vulnerability yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Ironheart için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Ironheart Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

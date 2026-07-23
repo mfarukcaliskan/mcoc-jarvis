@@ -1,0 +1,19 @@
+{
+    "id": "gentle",
+    "name": "Gentle",
+    "abilityDetails": {
+        "Daunted": "Rakibin özel saldırılar sonrasında hasar almasını kolaylaştırır.",
+        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
+        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Pursuit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pursuit yeteneği.",
+        "Reinforce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reinforce yeteneği.",
+        "Reverb": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reverb yeteneği.",
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar."
+    },
+    "synergies": [],
+    "howToPlay": "Gentle için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Gentle Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

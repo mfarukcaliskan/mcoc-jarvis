@@ -1,0 +1,12 @@
+{
+    "id": "electro",
+    "name": "Electro",
+    "abilityDetails": {
+        "Static Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
+    },
+    "synergies": [],
+    "howToPlay": "Electro için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Electro Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

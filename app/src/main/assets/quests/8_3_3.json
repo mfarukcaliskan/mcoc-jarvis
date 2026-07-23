@@ -1,0 +1,54 @@
+{
+  "name": "8.3.3 - Karanlık Hükümran",
+  "globalNodes": [
+    "Zırhlı Çekirdek (Armored Core) Düğümü: Savunmacılar ek bir Zırh Aşınma Payı kazanır; bu zırh belirli sayıda isabetten sonra kırılana kadar gelen hasarı azaltır.",
+    "Güç Oyunu (Powerplay) Düğümü: Güç barı kazanım oranı savunmacının son gerçekleştirdiği eyleme göre değişkenlik gösterir; özel saldırı sonrası kısa süreliğine saldırganın güç kazanımı yavaşlar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Doom Yolu - Daha Kolay Yol):",
+        "• Karo Açıklaması: Doctor Doom'un enerji kalkanı ve Kingpin'in kırılma mekaniği öne çıkan, göreceli olarak daha kısa bir güzergahtır.",
+        "• Strateji: Doom'un kalkanını parry ile kırıp ağır vuruşla cezalandırın; Kingpin karşısında kritik hasar payını düşük tutan savunma temelli şampiyonlar tercih edin."
+      ],
+      "defenders": [
+        "doctor_doom",
+        "kingpin",
+        "hood",
+        "joe_fixit"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Doctor Octopus'un çoklu kol saldırıları ve Green Goblin'in Korku (Fear) debuff zinciri art arda gelir; Electro'nun enerji transferi ek güç kazanımı sağlar.",
+        "• Strateji: Korku debuff'larına karşı geniş bağışıklık listesine sahip şampiyonlar getirin; Electro'nun güç transferini kesmek için hızlı, düşük hasarlı vuruş serileri kullanın."
+      ],
+      "defenders": [
+        "doctor_octopus",
+        "green_goblin",
+        "electro",
+        "ultron"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "knull",
+    "bossNodes": [
+      "Karanlığın Yayılması: Ekranın belirli bölgeleri Karanlık'a bürünür; karanlıkta kalan saldırgan isabet şansı ve blok yeteneği düşüşü yaşar, ışık/enerji temelli şampiyonlar bu alandan daha az etkilenir.",
+      "Sembiyot Yaşam Çalma: Knull, verdiği hasarın bir kısmını cana çevirir; sembiyot karşıtı (symbiote resistant) etiketine sahip şampiyonlar bu emmeyi büyük ölçüde azaltır.",
+      "Kral Tacı (Abyss Yığınları): Belirli aralıklarla biriken Abyss yığınları patronun gücünü kalıcı olarak artırır; yığınlar tamamlanmadan önce agresif oynamak gerekir."
+    ],
+    "idealCounters": [
+      "wiccan",
+      "rintrah",
+      "tigra",
+      "human_torch",
+      "sasquatch"
+    ]
+  }
+}

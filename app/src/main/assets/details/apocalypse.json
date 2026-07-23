@@ -1,0 +1,19 @@
+{
+    "id": "apocalypse",
+    "name": "Apocalypse",
+    "abilityDetails": {
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "Apocalypse için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Apocalypse Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

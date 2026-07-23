@@ -1,0 +1,21 @@
+{
+    "id": "guillotine2099",
+    "name": "Guillotine 2099",
+    "abilityDetails": {
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
+        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Spectre": "Şampiyonun dövüş sırasında avantaj sağlayan özel Spectre yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Guillotine 2099 için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Guillotine 2099 Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

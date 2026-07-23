@@ -1,0 +1,17 @@
+{
+    "id": "lukecage",
+    "name": "Luke Cage",
+    "abilityDetails": {
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Sunder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sunder yeteneği.",
+        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği.",
+        "Trauma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Trauma yeteneği.",
+        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Luke Cage için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Luke Cage Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,20 @@
+{
+    "id": "howardtheduck",
+    "name": "Howard The Duck",
+    "abilityDetails": {
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Howard The Duck için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Howard The Duck Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

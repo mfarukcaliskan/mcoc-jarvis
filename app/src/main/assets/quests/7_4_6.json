@@ -1,0 +1,56 @@
+{
+  "name": "7.4.6 - Kang'ın Dönüşü",
+  "globalNodes": [
+    "Kangdom Come Finali: 7.4.6'nın resmi İngilizce adı 'No Tomorrow'dır ve Act 7 Chapter 4 'Kangdom Come'ın (Book 2 Act 1: The Union'ın son bölümü) tek final karşılaşmasıdır; burada Kang, Act 7'nin genelinde karşılaşılan versiyonlardan çok daha gelişmiş 'Superior Kang' formunda savaşır.",
+    "Kangdom Come Adrenalin Sistemi: 6 Yıldızlı saldırganlar kalıcı olarak +700 Öfke (Fury) kazanır (Star Power); ayrıca saldırganın mevcut Adrenalin seviyesine bağlı olarak zaman zaman %100'e varan Hasar Azaltma (Adrenaline Rush) ve her an +80 Blok Yeterliliğine kadar bonus (Hold The Line) uygulanır.",
+    "Burnout Karosu: Savunmacı bir Özel Saldırı başlattığında 1 Burnout Yığını kazanır ve bu yığın başına kendi Özel Saldırı hasarını %10 artırır; 10 veya daha fazla yığına ulaştığında 10 yığın silinir ve savunmacı 10 saniyeliğine pasif olarak Güç Kilitlenir (Power Locked)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Ziyafet Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Smorgasbord karosu bulunur - savunmacı periyodik olarak üzerindeki tüm debuff'ları Purify eder ve karşılığında bir 'Atıştırmalık' yüğü kazanır; bu yükler zaman zaman savunmacıya Can Yenileme, zaman zaman da saldırgana Yıpranma (Degeneration) olarak yansır.",
+        "• Strateji: Yol dövüşleri: Hercules → Doctor Octopus → Odin. Uzun süreli debuff'lara güvenmek yerine ham hasar ve burst damage'a odaklanın; Smorgasbord'un Purify etkisinden en az etkilenen anlık hasar kaynaklarını tercih edin."
+      ],
+      "defenders": [
+        "hercules",
+        "doctoroctopus",
+        "odin"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Öngörü Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Bubble Shield 1 karosu, saldırgan blok yaptığında Blok Yeterliliğini geçici olarak düşürür ve savunmacının bir sonraki saldırısını Bloklanamaz yapar; Foresight karosu ise saldırgan bir dash'i intercept ettiğinde savunmacıya Öfke (Fury) buff'ı kazandırır.",
+        "• Strateji: Yol dövüşleri: Yondu → Silver Surfer → Warlock. Intercept yerine parry ve geri çekilme temelli oynayın; Bloklanamaz saldırıdan önce mutlaka kaçının çünkü blok bu düğümde güvenilir değildir."
+      ],
+      "defenders": [
+        "yondu",
+        "silversurfer",
+        "warlock"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "kang",
+    "bossNodes": [
+      "Conqueror of Time (Faz Sistemi): Kang nakavt olacağı anda zamanı geri sarar, %100 Can'ını geri kazanır, Güç Barını sıfırlar ve toplam 4 fazdan bir sonrakine geçer; ayrıca gelen hasar vuruş başına Max Health'inin %3'ü ile sınırlıdır (damage cap), Neurokinetic Armor sayesinde %75 Hasar Azaltmasına sahiptir, Güç Kilidi ve Özel Kilitlemeye tam bağışıklıdır ve rakibin True Strike isabetini %200 azaltır.",
+      "Archive Sistemi: Her 15 saniyede bir Kang rastgele 1 Archive buff'ı kazanır (Energize, Indestructible, Stun Immunity gibi önceden yüklenmiş ve Fury/Cruelty/Bleed/Poison gibi rastgele eklenen yeteneklerden biri) ve rakibe rastgele 1 Archive debuff'ı uygular; bu sayaç Kang her Karşı Saldırı (Counter-Attack) yaptığında 2 saniyeliğine duraklar.",
+      "Counter-Attack ve Slipstream: Kang Sersemlemiş, Dash yapıyor, Ağır Saldırı uyguluyor veya Özel Saldırıdan toparlanıyorken vurulursa geri sıçrayıp kaçınılabilir bir ışın saldırısı (Beam Attack) ile Karşı Saldırı yapar; bu ışını İyi Zamanlanmış Blok ile karşılamak veya kaçınmak rakibe 1 kalıcı Slipstream Yükü kazandırır.",
+      "Wounded (Yaralı) Durumu: Rakip 10 Slipstream Yüküne ulaştığında bir sonraki Karşı Saldırı yerine tüm yükler harcanır ve Kang 20 saniye boyunca Wounded durumuna girer - bu sırada Sersemlemiş kalır, Neurokinetic Armor'ı devre dışı kalır ve Bloklayamaz/Karşı Saldıramaz; rakip bu pencerede %25 ek Güç Kazanım Oranı elde eder, bu yüzden asıl hasar patlaması bu 20 saniyede yapılmalıdır.",
+      "Faz Bazlı Farklılıklar: 1. Fazda rakip üzerindeki her benzersiz buff için (8'e kadar) %30 ek hasar kazanır; 2. Fazda Karşı Saldırıları hız manipülasyonu ile güçlenir; 3. Fazda dövüşün ilk iki açılış saldırısını otomatik bloklar ve Nullify/Stagger etkilerine tam bağışıklık kazanır; 4. Fazda rakip üzerindeki her hasar veren debuff için ek hasar kazanır ve Özel 3'ü doğru anda isabet ederse rakibi anında nakavt edebilecek kadar yıkıcıdır."
+    ],
+    "idealCounters": [
+      "humantorch",
+      "ultron",
+      "hercules",
+      "odin",
+      "venompool",
+      "silversurfer"
+    ]
+  }
+}

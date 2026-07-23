@@ -1,0 +1,19 @@
+{
+    "id": "theoverseer",
+    "name": "The Overseer",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Special Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Concussion yeteneği.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "The Overseer için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "The Overseer Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

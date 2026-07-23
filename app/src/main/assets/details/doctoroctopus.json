@@ -1,0 +1,16 @@
+{
+    "id": "doctoroctopus",
+    "name": "Doctor Octopus",
+    "abilityDetails": {
+        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "Doctor Octopus için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Doctor Octopus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

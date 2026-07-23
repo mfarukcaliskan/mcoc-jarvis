@@ -1,0 +1,14 @@
+{
+    "id": "omegared",
+    "name": "Omega Red",
+    "abilityDetails": {
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller."
+    },
+    "synergies": [],
+    "howToPlay": "Omega Red için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Omega Red Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,21 @@
+{
+    "id": "thehood",
+    "name": "The Hood",
+    "abilityDetails": {
+        "Hex": "Şampiyonun dövüş sırasında avantaj sağlayan özel Hex yeteneği.",
+        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
+        "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Fateseal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fateseal yeteneği.",
+        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "The Hood için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "The Hood Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,23 @@
+{
+    "id": "themaker",
+    "name": "The Maker",
+    "abilityDetails": {
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Special Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Power Drain yeteneği.",
+        "Instants Siphon": "Şampiyonun dövüş sırasında avantaj sağlayan özel Instants Siphon yeteneği.",
+        "Cowardice": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cowardice yeteneği.",
+        "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Instant Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Instant Plasma yeteneği.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Power Reroute": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Reroute yeteneği.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
+    },
+    "synergies": [],
+    "howToPlay": "The Maker için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "The Maker Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

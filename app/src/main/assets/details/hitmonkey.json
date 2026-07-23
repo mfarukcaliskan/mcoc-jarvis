@@ -1,0 +1,18 @@
+{
+    "id": "hitmonkey",
+    "name": "Hit-Monkey",
+    "abilityDetails": {
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Vigilance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vigilance yeteneği.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Hit-Monkey için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Hit-Monkey Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,18 @@
+{
+    "id": "baronzemo",
+    "name": "Baron Zemo",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Resistance Up": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resistance Up yeteneği.",
+        "Decelerate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Decelerate yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Sunder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sunder yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Baron Zemo için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Baron Zemo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

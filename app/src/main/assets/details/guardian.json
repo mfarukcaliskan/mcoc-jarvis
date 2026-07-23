@@ -1,0 +1,20 @@
+{
+    "id": "guardian",
+    "name": "Guardian",
+    "abilityDetails": {
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Guardian için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Guardian Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,21 @@
+{
+    "id": "domino",
+    "name": "Domino",
+    "abilityDetails": {
+        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Domino için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Domino Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

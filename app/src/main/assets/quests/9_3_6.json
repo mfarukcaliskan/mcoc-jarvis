@@ -1,0 +1,51 @@
+{
+  "name": "9.3.6 - Dread Emperor Doom",
+  "globalNodes": [
+    "Kapı Sistemi (Gate): Yol A, Bilim (Science) Kapısı ile açılır ve Bilim sınıfına giriş avantajı sağlar; Yol B, Mistik (Mystic) Kapısı ile açılır ve Mistik sınıfına avantaj tanır.",
+    "Chronoserpent'ın İzi: Doctor Doom, Chronoserpent'ın yozlaştırıcı gücünü kontrol altına almaya çalışırken bilinci parçalanmış ve kendi hırslarıyla birleşerek Dread Emperor Doom'a dönüşmüştür; bu yüzden final öncesi tüm karolarda Doom'un hem bilimsel hem mistik güçlerinin izleri (enerji kalkanları, illüzyon klonları) bir arada görülür."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Bilim Kapısı - En Kolay Yol):",
+        "• Karo Açıklaması: Doom'un teknik/bilimsel müttefikleri ve klonlarından oluşur (Doctor Doom, Mephisto, Morgan Le Fay); asıl tehlike bu karolardaki güç çalma ve enerji kalkanı düğümleridir.",
+        "• Strateji: Kapıyı Bilim sınıfıyla açıp bonus alın; Doctor Doom klonlarına karşı özel saldırı sonrası dönen Latveria alan hasarına dikkat edin, Mephisto'nun ruh çalma mekaniğine karşı düşük riskli, kombo bitirmeyen vuruş dizileri tercih edin."
+      ],
+      "defenders": [
+        "doctor_doom",
+        "mephisto",
+        "morgan_le_fay"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Mistik Kapı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Mistik büyücü savunmacılar (Mordo, Magik, Nightmare) art arda dizilmiştir; her karşılaşma sonrası biriken bir yozlaşma debuff'ı boss dövüşüne kadar taşınır.",
+        "• Strateji: Mistik hasara dayanıklı, debuff bağışıklığı geniş bir yapı getirin; Magik'in Limbo alan geçişlerine karşı sabit tempo koruyun, Nightmare'in korku temelli debuff'larına bağışık şampiyonları önceliklendirin."
+      ],
+      "defenders": [
+        "mordo",
+        "magik",
+        "nightmare"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "dread_emperor_doom",
+    "bossNodes": [
+      "Ouroboros Auraı: Aktive olduğunda 9 saniyeliğine devreye girer; bu süre boyunca Doom'un saldırıları Bloklanamaz, Kaçılamaz ve Iskalayamaz hale gelir, Durdurulamaz saldırganlara karşı bile tepki zorunlu hale gelir ve Doom Özel Saldırı 3 dışında yere düşürülemez. Aura süresi, Doom Yavaşlatma (Slow) altındayken 1 saniye, Taşlaşma (Petrify) altındayken 1 saniye daha kısalır.",
+      "Geri Sayım Yükleri (Countdown Charges): Doom her dövüşe ve her faza 5 Geri Sayım Yükü ile başlar; Özel Saldırı 2 kullandıkça yük kaybeder, son yük tükendiğinde anında 3 bar güç kazanır.",
+      "Güçlendirme Pasifleri (Amplify): Doom her Özel Saldırı aktive ettiğinde 2 Güçlendirme Pasifi kazanır (hiç yoksa +1 ekstra); bu pasifler biriktikçe sonraki özel saldırıların hasarı katlanarak artar."
+    ],
+    "idealCounters": [
+      "she_hulk",
+      "img_void",
+      "spider_gwen",
+      "human_torch"
+    ]
+  }
+}

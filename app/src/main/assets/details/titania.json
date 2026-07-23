@@ -1,0 +1,30 @@
+{
+    "id": "titania",
+    "name": "Titania",
+    "abilityDetails": {
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
+        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Fatigue": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fatigue yeteneği.",
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Decelerate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Decelerate yeteneği.",
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
+        "Stifle": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stifle yeteneği.",
+        "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
+        "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
+        "Cowardice": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cowardice yeteneği.",
+        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Titania için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Titania Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

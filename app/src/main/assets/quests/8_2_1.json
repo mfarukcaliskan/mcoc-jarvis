@@ -1,0 +1,53 @@
+{
+  "name": "8.2.1 - Vizyonun Dönüşü",
+  "globalNodes": [
+    "Silah (Weapon) Düğümü: Bu bölümdeki bazı savunmacılara benzersiz ve tehlikeli bir pasif yetenek kazandırır; İyi Zamanlı Blok, Duvara Sıkıştırma veya Kesişme (Intercept) ile düğüm geçici olarak 'Etkisiz Bırakılır' (Disarm) ve kısa süreliğine bekleme süresine girer.",
+    "Silahsızlandırma (Unarmed) ve Yakalama (Capture) Düğümleri: Savunmacı silahsızken SP1 fırlatma veya bloğa vurma gibi doğru eylemi yapan saldırgan ekstra hasar kazanır ya da Silah Düğümünün yeteneğini geçici olarak kendi üzerine alabilir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Scarlet Witch Yolu - Daha Kolay Yol):",
+        "• Karo Açıklaması: Yol boyunca Kaos büyüsü temalı debuff düğümleri bulunur; Scarlet Witch mini-boss karşılaşmasında rastgele Hastalık, Yavaşlatma veya Güç Yakma etkileri tetiklenebilir.",
+        "• Strateji: Güce bağımlı olmayan, doğrudan hasar veren şampiyonlar tercih edin; Scarlet Witch'in özel saldırılarını bait'leyip parry sonrası ağır vuruşla cezalandırın."
+      ],
+      "defenders": [
+        "scarlet_witch",
+        "iron_man",
+        "war_machine",
+        "sentinel",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Black Panther Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Enerji Direnci ve Kinetik Enerji Emme temalı düğümler; Black Panther mini-boss karşılaşmasında vibranyum zırhı sayesinde enerji hasarı büyük ölçüde azaltılır.",
+        "• Strateji: Fiziksel/doğrudan hasar ağırlıklı şampiyonlar getirin, enerji tabanlı özel saldırılara güvenmeyin; bağışıklık listesi (Zehir/Kanama/Şok) yüksek şampiyonlar önerilir."
+      ],
+      "defenders": [
+        "black_panther",
+        "ultron",
+        "darkhawk",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "vision",
+    "bossNodes": [
+      "Güç Yakma (Power Burn): Vision özel saldırı fırlattığında rakibin gücünün bir kısmını yakarak orantılı doğrudan hasar verir; SP2 rakibin gücünün tamamına, SP3 ise %33'üne kadarını yakabilir.",
+      "Yoğunluk ve Güç Kazanımı: Vision periyodik olarak Güç Kazanımı (Power Gain) pasifi kazanır; gücü kilitlenir, çalınır veya tüketilirse bu pasif yeniden tetiklenir ve sonraki kazanımlar %33,33 daha az etkili olur."
+    ],
+    "idealCounters": [
+      "spiral",
+      "odin",
+      "hercules",
+      "cosmic_ghost_rider"
+    ]
+  }
+}

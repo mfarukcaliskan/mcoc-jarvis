@@ -1,0 +1,17 @@
+{
+    "id": "kushala",
+    "name": "Kushala",
+    "abilityDetails": {
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Soul Barb": "Şampiyonun dövüş sırasında avantaj sağlayan özel Soul Barb yeteneği.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Kushala için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Kushala Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

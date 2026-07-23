@@ -1,0 +1,54 @@
+{
+  "name": "7.2.3 - Enerji Kabulu",
+  "globalNodes": [
+    "Enerji Kabulü (Energy Adoption) - Savunmacılar bir Ateş veya Buz debuff'ına maruz kaldığında bunu emip kalıcı bir dirence çevirir; aynı elementten ikinci kez etkilenmeye çalışıldığında tam bağışıklık kazanırlar, bu yüzden tek bir element debuff'ına aşırı bağımlı kalmak verimsizdir.",
+    "Paslanma ve Yıkım (Rust and Ruin) - Saldırgan temiz vuruş her yaptığında savunmacıya Zırh Kırma (Armor Break) uygulanır; bu debuff yığınlandıkça savunmacının kritik direnci düşer ve saldırgana kritik hasar penceresi açılır.",
+    "İtici Güç (Repulsive) - Savunmacı blok yaptığında saldırgana orta düzeyde geri tepme (Thorns) hasarı yansıtır; sürekli bloklamaya dayalı oyun tarzı yerine parry ve kaçınma önceliklidir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kızıl Kaplan Yolu - En Kolay Yol, Hit-Monkey Ara Patronu):",
+        "• Karo Açıklaması: Hulk (Ragnarok), Proxima Midnight ve Squirrel Girl ile karşılaşılır; yol sonunda ara patron Hit-Monkey bulunur. Hit-Monkey'nin ağır vuruşu hem kendi hem saldırganın Saldırı Gücünü %500 artırır ve ağır vuruş sonrası bir sonraki parry'yi silkeler.",
+        "• Strateji: Yol dövüşleri: Hulk (Ragnarok) → Proxima Midnight → Squirrel Girl → Hit-Monkey. Hit-Monkey'nin ağır vuruşundan hemen sonra parry denemeyin (silkelenir); onun yerine bekleyip normal blok/parry döngüsüne dönün, güçlü vurucu şampiyonlarla hızlı bitirin."
+      ],
+      "defenders": [
+        "hulkragnarok",
+        "proximamidnight",
+        "squirrelgirl",
+        "hitmonkey"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Örümcek Çetesi Yolu - Zorlu Alternatif Yol, Punisher 2099 Ara Patronu):",
+        "• Karo Açıklaması: Spider-Gwen, Corvus Glaive ve Night Thrasher ile karşılaşılır; yol sonunda ara patron Punisher 2099 bulunur. Punisher 2099'a karşı en verimli yaklaşım sürekli Özel Saldırı 1 spamlamaktır, ancak bloklanan vuruşlarının blok hasarı yüksektir ve iyi yönetilmezse can kaybı hızlanır.",
+        "• Strateji: Yol dövüşleri: Spider-Gwen → Corvus Glaive → Night Thrasher → Punisher 2099. Punisher 2099'a karşı Özel Saldırı 1'i mümkün olduğunca sık kullanın, blok hasarını azaltmak için Gerçek Vuruş veya yüksek blok yeteneği olan şampiyonlar (Guardian, Guillotine 2099, Nick Fury) tercih edin."
+      ],
+      "defenders": [
+        "spidergwen",
+        "corvusglaive",
+        "nightthrasher",
+        "punisher2099"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "venomtheduck",
+    "bossNodes": [
+      "Bloklanamaz Saldırı - Venom the Duck'ın tüm saldırıları bloklanamaz; ancak Özel Saldırı 1'i oyunun en kolay kaçınılabilir saldırılarından biridir, bu yüzden zamanlamalı kaçınma dövüşün anahtarıdır.",
+      "Parçacık Koruyucusu (Particle Protector) - Savunmacının gelen saldırıyı sıyırma (glance) ihtimali %85'tir; sıyırılan vuruşlar kritik olamaz ve %100 yetenek isabet oranı kaybına uğrar, bu yüzden yetenek tetikleyen (debuff uygulayan) şampiyonlar büyük verim kaybı yaşar.",
+      "Öfke (Rage) - Savunmacının tek seferde alabileceği maksimum hasar can tavanının %2.5'i ile sınırlıdır; bu sınıra ulaşıldığında %50 kalıcı Öfke (Fury) kazanır, 5 kalıcı Öfke yığınına ulaştığında ise kalıcı olarak bloklanamaz hale gelir."
+    ],
+    "idealCounters": [
+      "elsabloodstone",
+      "moleman",
+      "hitmonkey",
+      "corvusglaive"
+    ]
+  }
+}

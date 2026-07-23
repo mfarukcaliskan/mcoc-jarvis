@@ -1,0 +1,23 @@
+{
+    "id": "kraven",
+    "name": "Kraven",
+    "abilityDetails": {
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Endurance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Endurance yeteneği.",
+        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Trample": "Şampiyonun dövüş sırasında avantaj sağlayan özel Trample yeteneği.",
+        "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir."
+    },
+    "synergies": [],
+    "howToPlay": "Kraven için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Kraven Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,19 @@
+{
+    "id": "hulkbuster",
+    "name": "Hulkbuster",
+    "abilityDetails": {
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
+        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "Hulkbuster için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Hulkbuster Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,53 @@
+{
+  "name": "9.1.5 - Şok Dalgası",
+  "globalNodes": [
+    "Adrenalin Artışı (Adrenaline Rush) - Vuruş yediğinizde biriken Adrenalin ile saldırgan olarak aldığınız hasarı %100'e kadar azaltabilirsiniz.",
+    "Hattı Koru (Hold the Line) - Adrenalin ile ölçeklenerek blok etkinliğinizi %80'e kadar artırır. Sahne 9.1'in tüm bölümlerinde standarttır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A ('Pain Train' Güzergahı - En Kolay Yol, Sandman alternatif boss'u):",
+        "• Karo Açıklaması: Ağır vuruşlu, yüksek fiziksel hasarlı düşmanlardan oluşan bir lane; uzun kombo zincirleri risklidir.",
+        "• Strateji: Parry sonrası kısa ağır vuruş rutinini koruyun, düşman özel saldırılarını erken baitleyin ve Adrenalin karosundan faydalanın."
+      ],
+      "defenders": [
+        "thing",
+        "colossus",
+        "korg",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Şok Güzergahı - Zorlu Alternatif Yol, Kraven alternatif boss'u):",
+        "• Karo Açıklaması: Temas halinde ve blok sırasında yüksek Şok (Shock) hasarı veren elektrik temalı düşmanlar.",
+        "• Strateji: Şok bağışıklığı yüksek şampiyonlar getirin; düşman özel saldırılarını kaçışla (evade/dexterity) atlatmayı önceliklendirin."
+      ],
+      "defenders": [
+        "electro",
+        "thor",
+        "storm",
+        "havok"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "shocker",
+    "bossNodes": [
+      "Parry Edilebilir Vuruşlar - Temel saldırıları parry edilebilir; başarılı parry sonrası büyük bir açık pencere doğar.",
+      "Özel Saldırı 1 - Kaçışla (evade) tamamen atlatılabilir; kaçırılmazsa ciddi hasar ve Şok debuff'ı verir.",
+      "Özel Saldırı 2 - İsabet ettiğinde Sersemletme (Stun) uygular; hafif kombo ile baitleyip anında kaçmak gerekir."
+    ],
+    "idealCounters": [
+      "silk",
+      "shang_chi",
+      "kate_bishop",
+      "hercules"
+    ]
+  }
+}

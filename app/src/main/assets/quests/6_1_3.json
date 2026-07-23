@@ -1,0 +1,62 @@
+{
+  "name": "6.1.3 - Bir Babanın Kaygısı",
+  "globalNodes": [
+    "Uzak Mesafe İlişkisi (Long Distance Relationship) - Rakibe yakın durduğunuzda her 3 saniyede saldırı gücünüzün %10'unu azaltan bir zayıflatıcı (weakness) alırsınız; geriye kaçıp rakipten uzaklaştığınızda bu zayıflatıcılar hızla temizlenir. Bu zayıflatıcılar İrade Gücü (Willpower) ustalığını tetikleyerek dövüş boyunca sürekli can kazandırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Sol Dış Döngü - Old Man Logan ile Başlayan Rota - En Kolay Yol):",
+        "• Karo Açıklaması: Bu rotada hiçbir yerel (local) karo bulunmaz; sadece küresel karo 'Uzak Mesafe İlişkisi' geçerlidir. Doğrudan Ghost boss dövüşüne bağlanan en zahmetsiz ilerleme yoludur.",
+        "• Strateji: Yol dövüşleri (sırasıyla): Old Man Logan → Vision (AOU) veya OG Vision → Deadpool veya Magneto (Marvel Now) → Agent Venom veya Ant-Man → Crossbones veya Juggernaut → Kingpin veya Mordo → Rogue veya Scarlet Witch → Ghost Rider → Thing (patrondan önceki son ve en hileli dövüş; Kaya Kalkanı/Rock Shield yükleri ~15 civarına gelince ona vurmayı kesin, aksi halde Durdurulamaz/Unstoppable olur - Siper-Ağır Saldırı/Parry-Heavy taktiği veya siper alıp özel saldırılarını boşa çıkararak ilerleyin)."
+      ],
+      "defenders": [
+        "oldmanlogan",
+        "visionaou",
+        "vision",
+        "deadpool",
+        "magneto",
+        "agentvenom",
+        "antman",
+        "crossbones",
+        "juggernaut",
+        "kingpin",
+        "mordo",
+        "rogue",
+        "scarletwitch",
+        "ghostrider",
+        "thing"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zırh Kırma Yolu - Doğrulanmamış Alternatif Rota):",
+        "• Karo Açıklaması: Bu yol, .md rehberinde en kolay rota olarak doğrulanmamıştır ve ekstra yerel karolar içerebilir. Zırhı kırılan rakipler ekstra hasar alır; zırh kırma yeteneğine sahip şampiyonlar (Medusa, Corvus Glaive, Cosmic Ghost Rider) avantaj sağlar.",
+        "• Strateji: Mümkünse Yol A'yı (Sol Dış Döngü) tercih edin; bu alternatif rotada da Old Man Logan, Vision (AOU), Crossbones ve Thing ile karşılaşabilirsiniz."
+      ],
+      "defenders": [
+        "oldmanlogan",
+        "visionaou",
+        "crossbones",
+        "thing"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "ghost",
+    "bossNodes": [
+      "Karolar: Tanrı Katili (Godslayer), Gerçek Vuruş (True Strike).",
+      "Mekanik: Sahne 6.1'deki en kolay patrondur; neredeyse hiçbir özel yeteneği veya can sıkıcı karosu yoktur, klasik dövüş taktikleriyle çok rahat alt edilir."
+    ],
+    "idealCounters": [
+      "magneto",
+      "corvusglaive",
+      "archangel",
+      "kingpin"
+    ]
+  }
+}

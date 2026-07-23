@@ -1,0 +1,20 @@
+{
+    "id": "stormpyramidx",
+    "name": "Storm (Pyramid X)",
+    "abilityDetails": {
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Instant Shock": "Zamanla elektrik tabanlı şok hasarı verir."
+    },
+    "synergies": [],
+    "howToPlay": "Storm (Pyramid X) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Storm (Pyramid X) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,16 @@
+{
+    "id": "americachavez",
+    "name": "America Chavez",
+    "abilityDetails": {
+        "Damage Reflect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damage Reflect yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Unblockable": "Saldırıların bloklanmasını engeller."
+    },
+    "synergies": [],
+    "howToPlay": "America Chavez için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "America Chavez Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

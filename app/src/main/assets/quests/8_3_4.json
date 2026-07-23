@@ -1,0 +1,54 @@
+{
+  "name": "8.3.4 - Kaya Gibi",
+  "globalNodes": [
+    "Özel Bağımlılık (Special Connoisseur) Düğümü: Savunmacı her özel saldırı kullanışında kalıcı bir güç artışı buff'ı biriktirir; saldırganın özel saldırı sıklığı da bu birikimi hızlandırabilir.",
+    "Kan Nöbeti (Blood Drive) Düğümü: Karşılaşmalarda Kanama tabanlı can emme etkin hale gelir; Kanama bağışıklığı olmayan şampiyonlar hızla can kaybeder."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Hulk Ailesi Yolu - Daha Kolay Yol):",
+        "• Karo Açıklaması: Hulk, Abomination ve She-Hulk gibi yüksek fiziksel hasarlı savunmacılar art arda gelir; Kızgınlık (Enrage) tabanlı buff'lar savunmacıların saldırı gücünü artırır.",
+        "• Strateji: Kritik İsabet Direnci ve blok sağlamlığı yüksek şampiyonlarla ilerleyin; Enrage yığınları tamamlanmadan patron öncesi karşılaşmaları hızlıca bitirin."
+      ],
+      "defenders": [
+        "hulk",
+        "abomination",
+        "she_hulk",
+        "red_hulk"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Massacre'ın ön-savaş Rüptür (Rupture) etkisi maç başlamadan hasar verir; Ronan'ın evrensel çekici ve Medusa'nın saç kırbaç saldırıları Kan Nöbeti düğümüyle birleşir.",
+        "• Strateji: Rüptür hasarını karşılamak için maça tam can ile girin; Kanama bağışıklığı yüksek, hızlı temizleyen şampiyonlar tercih edin."
+      ],
+      "defenders": [
+        "massacre",
+        "ronan",
+        "medusa",
+        "sentinel"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "thing",
+    "bossNodes": [
+      "Kaya Gibi Zırh: Thing, isabet aldıkça artan kalıcı bir Zırh buff'ı biriktirir; bu zırh yalnızca Özel 3 sonrası kısa bir pencerede sıfırlanır.",
+      "Yumruk Serisi Sersemletmesi: Ardışık temel saldırılar belirli bir sayıya ulaştığında saldırganı Sersemletme (Stun) riskiyle karşı karşıya bırakır; blok zamanlaması kritik önem taşır.",
+      "Fiziksel Hasar Direnci: Thing, fiziksel hasara karşı doğal bir direnç taşır; enerji/element tabanlı hasar veren şampiyonlar bu direnci by-pass eder."
+    ],
+    "idealCounters": [
+      "quake",
+      "immortal_abomination",
+      "arcade",
+      "ironheart",
+      "onslaught"
+    ]
+  }
+}

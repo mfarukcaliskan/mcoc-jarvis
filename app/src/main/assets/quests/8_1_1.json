@@ -1,0 +1,52 @@
+{
+  "name": "8.1.1 - Kırmızı Kurukafa",
+  "globalNodes": [
+    "Kozmik Saldırgan (Cosmic Attacker) - Kozmik sınıf saldırganlar, kendi üzerlerindeki her benzersiz buff için saldırı başına %15 ihtimalle 5 saniyelik Uyanıklık (Vigilance) kazanır ve bu süre Gerçek Vuruş/Gerçek Algı/Gerçek İsabet buff'larından biri varsa 5 saniye daha uzar; Özel saldırı başlattıklarında ise üzerlerindeki her benzersiz buff için %40 Öfke (Fury) kazanırlar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kan Dökücüler Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Bu yoldaki savunmacıların çoğu Kanama (Bleed) temelli özel saldırılara sahiptir. Ayrıca Buffet karosu bulunur: saldırgan bir buff tetiklediğinde bu buff anında yok edilir ve savunmacı %15 canını iyileştirir (7 saniyede bir tetiklenebilir).",
+        "• Strateji: Yol dövüşleri: Winter Soldier → Crossbones → Taskmaster → Captain America. Kanama bağışıklığı yüksek (Guillotine 2099, Human Torch, King Groot) şampiyonlar getirin; Buffet karosu aktifken gereksiz buff tetiklemekten kaçının, parry sonrası ağır vuruş güvenli bir açılıştır."
+      ],
+      "defenders": [
+        "winter_soldier",
+        "crossbones",
+        "taskmaster",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zehirli Vadi - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Green Goblin ve Abomination gibi Zehir (Poison) uygulayan savunmacılar bulunur. True Focus karosu, savunmacının saldırılarının saldırganın Kaçınma/Iska etkilerini görmezden gelmesini sağlar, bu yüzden evade tabanlı oyun tarzı burada işe yaramaz.",
+        "• Strateji: Yol dövüşleri: Green Goblin → Abomination → Red Guardian → Titania. Zehir bağışıklığı yüksek (Warlock, Sentinel, Nick Fury) şampiyonlar tercih edin; True Focus karosu aktifken kaçınmaya güvenmek yerine blok/parry döngüsüne odaklanın."
+      ],
+      "defenders": [
+        "green_goblin",
+        "abomination",
+        "red_guardian",
+        "titania"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "red_skull",
+    "bossNodes": [
+      "Kalıcı Zırh Yığını (Armor Up Stack) - Red Skull dövüşe 5 kalıcı Zırh Artışı ile başlar ve iki savaşçıdan biri Güç Barını her doldurduğunda bir yenisini kazanır (10 yığına kadar); her yığın Kritik ve Enerji Direncini büyük oranda artırır.",
+      "Şok Yığınları - Hasarının büyük bölümü 5 kata kadar istiflenen Şok debuff'larından gelir; Şok bağışıklığı veya yüksek direnci olmayan şampiyonlar hızla erir.",
+      "Kneel Before Me! (SP3) - Rakibin Gücünün tamamını boşaltır ve boşalttığı her %10 Güç için bir Zırh Artışı daha kazanır; rakibi Güçten mahrum bırakmak Red Skull'u giderek güçlendirir."
+    ],
+    "idealCounters": [
+      "cosmic_ghost_rider",
+      "nick_fury",
+      "mole_man",
+      "guillotine_2099"
+    ]
+  }
+}

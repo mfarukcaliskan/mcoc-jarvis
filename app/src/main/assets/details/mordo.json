@@ -1,0 +1,20 @@
+{
+    "id": "mordo",
+    "name": "Mordo",
+    "abilityDetails": {
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Soul Barb": "Şampiyonun dövüş sırasında avantaj sağlayan özel Soul Barb yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Detonate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Detonate yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Mordo için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Mordo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

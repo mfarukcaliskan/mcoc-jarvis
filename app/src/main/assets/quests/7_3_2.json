@@ -1,0 +1,50 @@
+{
+  "name": "7.3.2 - Güçlendirilmiş",
+  "globalNodes": [
+    "Paradoks (Paradox) - Bölüm 7.3'ün imza mekaniğidir: Saldırgan Özel saldırı kullandıkça dövüşten dövüşe taşınan Paradoks Yükleri biriktirir ve Entropic Prowess bu yükler için Saldırı Gücünü artırır. Bu görevde ayrıca Quantum Entangle ve Power Reserve karoları eşlik eder: Quantum Entangle rastgele lane'lerde saldırgan ile savunmacının Gücünü birbirine bağlarken, Power Reserve ölen savunmacıların kalan gücünü bir sonraki savunmacıya aktarır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Güçlendirilmiş Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Buffed Up (Güçlendirilmiş) karosu - Savunmacı, saldırganın üzerinde 3'ten az buff olduğu sürece %100 daha az hasar alır (aynı tip buff'lar da sayılır). Impatience karosu - Kozmik sınıf saldırganlar şans eseri bir buff tetiklemeyi başaramazsa bunun yerine %100 ihtimalle 7 saniyelik %80 Saldırı artışı veren bir Fury buff'ı kazanır.",
+        "• Strateji: Yol dövüşleri: Ultron → Jubilee → Hulkbuster. Vurmadan önce üzerinizde en az 3 buff biriktirin (bekleme/kombo ile), aksi halde hasarınız neredeyse sıfırlanır; kozmik şampiyonlar burada Impatience sayesinde güvenli bir Fury alternatifine sahiptir."
+      ],
+      "defenders": [
+        "ultron",
+        "jubilee",
+        "hulkbuster"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Av Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Prey on the Feeble karosu - Saldırganın buff'ları etkisiz hale getirilir, süresi dolar ya da düşük Yetenek Doğruluğu nedeniyle tetiklenemezse savunmacı bir sonraki Özel saldırısına kadar %70 Özel saldırı hasarı veren bir Prowess kazanır. Shake and Bake karosu - saldırgan her 10 saniyede bir, en fazla 5 kata kadar istiflenen ve Yetenek Doğruluğunu %20 azaltan bir Sersemletme (Concussion) alır; savunmacıyı yere düşürmek tüm yığınları temizler.",
+        "• Strateji: Yol dövüşleri: Black Panther (Civil War) → Emma Frost → Old Man Logan. Buff'larınızın nullify/expire olmasına izin vermeyin, aksi halde savunmacı güçlenir; saldırılarınızı art arda getirip yere düşürerek Concussion yığınlarını sıfırlamaya odaklanın."
+      ],
+      "defenders": [
+        "blackpanthercivilwar",
+        "emmafrost",
+        "oldmanlogan"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "hulkimmortal",
+    "bossNodes": [
+      "Gamma Radyasyonu ve Petrify - Dövüş başında Immortal Hulk, rakibine 8 saniye boyunca Rejenerasyon ve Yetenek Gücü Oranını %40 azaltan bir Petrify debuff'ı uygular; Gamma Radyasyonu %75'e ulaştığında ise bu kez kalıcı olarak %75 azaltan bir Petrify debuff'ı tetiklenir.",
+      "Kırılmaz Rejenerasyon - Immortal Hulk'ın Rejenerasyon Oranı dışarıdan hiçbir kaynakla artırılamaz veya azaltılamaz; İmmortalite fazı sona erdiğinde bu süre boyunca aldığı tüm hasarı geri kazanır - bu yüzden Isı Engeli (Heal Block) olmadan onu düşürmek neredeyse imkansızdır.",
+      "Buffed Up / Prey on the Feeble - Boss dövüşünde de saldırganın 3'ten az buff'ı varken alınan hasarın %100 azalması ve buff'ların bozulması durumunda savunmacının Prowess kazanması geçerlidir; bu yüzden buff yönetimi kritik önem taşır."
+    ],
+    "idealCounters": [
+      "nickfury",
+      "kingpin",
+      "hitmonkey",
+      "moleman"
+    ]
+  }
+}

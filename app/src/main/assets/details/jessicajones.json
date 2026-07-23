@@ -1,0 +1,26 @@
+{
+    "id": "jessicajones",
+    "name": "Jessica Jones",
+    "abilityDetails": {
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Resistance Up": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resistance Up yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Crush": "Blokları kırarak yüksek hasar vermeyi sağlar.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
+        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Jessica Jones için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Jessica Jones Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

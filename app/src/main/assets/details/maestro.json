@@ -1,0 +1,16 @@
+{
+    "id": "maestro",
+    "name": "Maestro",
+    "abilityDetails": {
+        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
+        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
+    },
+    "synergies": [],
+    "howToPlay": "Maestro için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Maestro Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

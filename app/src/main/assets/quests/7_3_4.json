@@ -1,0 +1,49 @@
+{
+  "name": "7.3.4 - Karıştırıcı Usta",
+  "globalNodes": [
+    "Paradoks (Paradox) - Bölüm 7.3'ün imza mekaniğidir: Saldırgan her Özel saldırıda bir Paradoks Yükü kazanır ve bu yükler dövüşten dövüşe taşınır; Entropic Prowess bu yüklerin her biri için Saldırı Gücünü kalıcı olarak artırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kararlılık Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Redoubled Determination karosu - Savunmacı üzerindeki her debuff için %50 Saldırı ve %15 Güç Kazanım Oranı bonusu alır (Kanama, Zehir ve Zırh Kırma debuff'ları çift sayılır). Right Back At It karosu - savunmacıyı yere düşürmek ona 6 saniyelik Debuff Bağışıklığı kazandırır.",
+        "• Strateji: Yol dövüşleri: Stryfe → Guillotine 2099 → Punisher. Gereksiz debuff yığmaktan kaçının, aksi halde savunmacı hem daha çok hasar verir hem daha hızlı güç toplar; yere düşürme sonrası debuff atmak için 6 saniye beklemeniz gerektiğini unutmayın."
+      ],
+      "defenders": [
+        "stryfe",
+        "guillotine2099",
+        "punisher"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Elektrikli Yol - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Live Wire karosu - Hem saldırganın hem savunmacının vuruşları %20 ihtimalle 10 saniye boyunca Saldırının %50'si kadar Enerji hasarı veren bir Şok (Shock) debuff'ı uygular. Thunderstruck karosu - savunmacı Şoklanmadığı sürece tüm kaynaklardan %90 daha az hasar alır, ama Şok debuff/pasifleri %25 daha fazla hasar verir. Shock Vulnerability karosu - savunmacı Şoklanmışken saldırganın Saldırı Gücü vuruş başına %200 artar.",
+        "• Strateji: Yol dövüşleri: Dragon Man → Psycho Man → Mr. Negative. Şok uygulayabilen şampiyonlar getirin; savunmacıyı Şoklamadan hasar vermeye çalışmak neredeyse imkansızdır, bu yüzden Şok tetiklenene kadar sabırlı blok/parry yapın."
+      ],
+      "defenders": [
+        "dragonman",
+        "psychoman",
+        "misternegative"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "symbiotesupreme",
+    "bossNodes": [
+      "Genetik Potansiyel - Rakip üzerindeki bir buff veya Stagger etkisi her sona erdiğinde Symbiote Supreme 25 Genetik Potansiyel kazanır (maksimum 100); bu son eğer bir Nullify veya Stagger etkisiyle gerçekleşirse ekstra 50 Genetik Potansiyel daha kazanır.",
+      "Karıştırıcı Usta (Mix Master) - Her 15 saniyede bir sırayla değişen 3 Genetik Kutsama arasında döner: Chthon's Cunning (dövüş başında saldırganın tüm buff'larını söküp hasar verir), Null's Shadow (%100 ihtimalle 10 saniyeliğine vuruş başına alınan hasarı Maksimum Canının %15'i ile sınırlayan bir Koruma kazanır; saldırganın aktif buff'ı varsa bu eşik yarıya iner), Set's Fangs (Genetik Potansiyele bağlı olarak ölçeklenen bir Fury buff'ı ve her vuruşta yine Potansiyele bağlı ölçekte Kanama debuff'ı uygular).",
+      "Strateji Notu - Blessing rotasyonu tahmin edilebilir olduğu için Chthon's Cunning aktifken buff biriktirmemek, Null's Shadow aktifken büyük tek vuruşlardan kaçınmak ve Set's Fangs aktifken Kanama bağışıklığı ile girmek en güvenli yaklaşımdır."
+    ],
+    "idealCounters": [
+      "magik",
+      "humantorch",
+      "redhulk"
+    ]
+  }
+}

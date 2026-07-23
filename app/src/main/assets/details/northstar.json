@@ -1,0 +1,18 @@
+{
+    "id": "northstar",
+    "name": "Northstar",
+    "abilityDetails": {
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Reverb": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reverb yeteneği.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Reinforce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reinforce yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Northstar için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Northstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

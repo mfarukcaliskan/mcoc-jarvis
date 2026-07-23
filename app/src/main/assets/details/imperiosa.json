@@ -1,0 +1,17 @@
+{
+    "id": "imperiosa",
+    "name": "Imperiosa",
+    "abilityDetails": {
+        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
+        "Start With Power": "Şampiyonun dövüş sırasında avantaj sağlayan özel Start With Power yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Corrosion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Corrosion yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Imperiosa için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Imperiosa Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

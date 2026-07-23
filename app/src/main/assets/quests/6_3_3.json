@@ -1,0 +1,58 @@
+{
+  "name": "6.3.3 - Plazma Tehlikesi",
+  "globalNodes": [
+    "Unblockable Finale Düğümü - Bu bölümdeki savunmacıların canı %25'in altına düştüğünde tüm saldırıları bloklanamaz (Unblockable) hale gelir ve bu aşamada siper (parry) yapamazsınız; rakibin özel saldırılarını dexterity ile boşa çıkarmalı veya canı %25'e düşmeden önce güçlü bir SP3/ağır hasarla rakibi tek seferde bitirmelisiniz."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (En Kolay Yol):",
+        "• Karo Açıklaması: Vulture, She-Hulk, Joe Fixit, Kang, Ronin ve Cull Obsidian sırasıyla karşınıza çıkar; Joe Fixit'in 1. Özel Saldırısı (SP1) bloklanamaz olduğundan onu sürekli 2. Özel Saldırısına (SP2) zorlamalısınız, Kang ise Metal şampiyondur ve Kırmızı Magneto ile SP3 doldurup tek seferde bitirilebilir; Cull Obsidian karosunda ekstra Armor Break ve ağır vuruş temelli düğümler bulunur.",
+        "• Strateji: Unblockable Finale nedeniyle kombonuzu 4. vuruşta kesip parry ile sıfırlayın; Joe Fixit'i SP2'ye zorlayıp Kang'a karşı Kırmızı Magneto ile hızlı bitiriş yapın, Cull Obsidian'ın ağır saldırılarını bekleyip Havok'a temiz sağlıkla ulaşın."
+      ],
+      "defenders": [
+        "vulture",
+        "shehulk",
+        "joefixit",
+        "kang",
+        "ronin",
+        "cullobsidian"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alternatif Zor Yol):",
+        "• Karo Açıklaması: Spider-Man (Stark Enhanced), Human Torch ve Goldpool gibi enerji/yanma temelli savunmacılarla ilerlenir.",
+        "• Strateji: Human Torch karşısında Incinerate (Yanma) bağışıklığı taşıyan bir şampiyon getirin; Goldpool'un şans temelli debuff'larına karşı temkinli parry-ağır vuruş rutini uygulayın."
+      ],
+      "defenders": [
+        "spidermanstarkenhanced",
+        "humantorch",
+        "goldpool"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "havok",
+    "bossNodes": [
+      "Cornered - Saldırgan Havok'a debuff uyguladıkça Havok'un saldırısı %300 oranında artar.",
+      "Extinction Protocol - Havok, saldırganın güç barının doluluk oranına bağlı olarak saldırısına %200'e varan ekstra artış kazanır ve her özel saldırı sonrası güç kazanım hızı %15 yükselir.",
+      "Crumbling Armor - Saldırgan 6 saniye boyunca saldırmazsa Zırh Kırılması (Armor Break) debuff'ı alır.",
+      "Ability Accuracy Immune - Havok, yetenek isabet düşürme etkilerine bağışıklıdır.",
+      "Not: Warlock bu dövüş için tavsiye edilmez; Havok'un plazma yüklerini hızlandırabilir."
+    ],
+    "idealCounters": [
+      "colossus",
+      "antmanfuture",
+      "nimrod",
+      "ironmaninfamous",
+      "cyclops",
+      "vision",
+      "corvusglaive"
+    ]
+  }
+}

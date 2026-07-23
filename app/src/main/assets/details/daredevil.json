@@ -1,0 +1,13 @@
+{
+    "id": "daredevil",
+    "name": "Daredevil (Classic)",
+    "abilityDetails": {
+        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
+    },
+    "synergies": [],
+    "howToPlay": "Daredevil (Classic) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Daredevil (Classic) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

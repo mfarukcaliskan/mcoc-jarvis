@@ -1,0 +1,17 @@
+{
+    "id": "angela",
+    "name": "Angela",
+    "abilityDetails": {
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Aptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Aptitude yeteneği.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Angela için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Angela Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,55 @@
+{
+  "name": "9.4.5 - Çelik Zırh",
+  "globalNodes": [
+    "Sınıf Kapısı Sistemi: Görevde 3 alternatif giriş kapısı bulunur (Teknoloji+Mistik / Mutant+Bilim / Yetenek+Kozmik); her kapı çifti yalnızca ilgili iki sınıftan şampiyonların geçişine izin verir ve üç farklı zırhlı boss'a açılır (Guillotine / Aegon / Civil Warrior). Bu rehber Guillotine'e götüren Teknoloji+Mistik Kapısı'nı (A) ve Civil Warrior'a götüren Yetenek+Kozmik Kapısı'nı (B) kapsar.",
+    "Zırh Güçlendirme Düğümleri: Yol boyunca savunmacılar periyodik olarak ek Zırh Yukarı (Armor Up) buff'ı kazanır; bu buff'lar temizlenmeden bırakılırsa savunmacının saldırı gücü kümülatif olarak artar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Teknoloji+Mistik Kapısı - En Kolay Yol):",
+        "• Karo Açıklaması: Kapı yalnızca Teknoloji veya Mistik sınıfı şampiyonların geçişine izin verir. Savunmacılar Guillotine'in Ruh Yükü (Soul Charge) mekaniğiyle güçlenir; her %5 can kaybı veya Kanama debuff'ı savunmacıya ek yük kazandırır.",
+        "• Strateji: Mistik sınıfından bir saldırganla (ör. Doctor Doom, Scarlet Witch) kapıyı geçin; Kanama arındırma (purify) yeteneği olan şampiyonlarla savunmacının can yenilenmesini ve Ruh Yükü birikimini engelleyin."
+      ],
+      "defenders": [
+        "doctor_doom",
+        "scarlet_witch",
+        "mordo",
+        "ghost_rider",
+        "symbiote_supreme"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Yetenek+Kozmik Kapısı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Kapı yalnızca Yetenek veya Kozmik sınıfı şampiyonların geçişine izin verir ve Civil Warrior'ın Zırh Yukarı/Öfke dönüşüm zincirine sahip savunmacılara açılır.",
+        "• Strateji: Kozmik sınıfından bir saldırganla (Civil Warrior'a karşı sınıf avantajı için, ör. Hyperion, Silver Surfer) ilerleyin; savunmacının Özel saldırısı sırasında blok yaparak Pasif Zayıflık uygulayın ve gereksiz Zırh Yukarı yığını birikmesine izin vermeyin."
+      ],
+      "defenders": [
+        "hyperion",
+        "silver_surfer",
+        "gladiator",
+        "quasar",
+        "void"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "guillotine",
+    "bossNodes": [
+      "Ruh Yükleri (Soul Charges): İki taraftan biri %5 can kaybettiğinde veya Kanama debuff'ı aldığında Guillotine 1 Ruh Yükü kazanır; ilk 10 yük kalıcıdır, sonraki yükler 10'ar saniye sürer ve saldırı gücünü artırır.",
+      "Acı Bağlantısı (Pain Link): Özel 1'in son vuruşu 10 saniye süren bir Acı Bağlantısı debuff'ı uygular; bu süre boyunca Guillotine'in aldığı Fiziksel olmayan hasar, rakibe Fiziksel hasar olarak da yansıtılır.",
+      "Yırtılma Dönüşümü: Rakip Guillotine'in kişisel Kanama efektlerine bağışıklıysa, bunun yerine eşdeğer bir Yırtılma (Rupture) debuff'ı uygulanır ve bu da ona ek Ruh Yükü kazandırır."
+    ],
+    "idealCounters": [
+      "magneto",
+      "colossus",
+      "ultron",
+      "sentinel"
+    ]
+  }
+}

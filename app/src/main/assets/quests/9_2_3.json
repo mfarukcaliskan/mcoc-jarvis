@@ -1,0 +1,51 @@
+{
+  "name": "9.2.3 - Engellenemez Fırtına",
+  "globalNodes": [
+    "Scourge / Proliferate / Clarify Sistemi - Act 9'un imza küresel mekaniği: Proliferate düğümlü karolarda savunmacı dövüş boyunca kademeli olarak Scourge Şarjı biriktirir ve bu şarjlar arttıkça savunmacının statları ve yetenekleri kalıcı olarak güçlenir. Clarify düğümlü karolarda Saldırgan isabetleriyle bu şarjları azaltabilir; bu düğümleri erken temizlemek sonraki karşılaşmaları kolaylaştırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kanamalı Barikat Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Immortal Hulk ile başlayan, Kanama (Bleed) geçişlerinin nispeten kolay yönetildiği bir düzen içerir; She-Hulk ve Abomination gibi kalın gövdeli savunmacılar art arda gelir.",
+        "• Strateji: Yüksek doğrudan hasar veren, Kanama/Şok bağışıklığı olan şampiyonlarla itemless ilerlemeyi hedefleyin; Captain America'nın blok kırma cezalarına dikkat edip parry sonrası ağır vuruş döngüsünü koruyun."
+      ],
+      "defenders": [
+        "immortal_hulk",
+        "abomination",
+        "she_hulk",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Engellenemez Kale Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Juggernaut ve Thing gibi savunmacılar dövüşün büyük bölümünde Engellenemez (Unblockable) hale gelir; Proliferate karoları bu düğümlerin etkinlik süresini dövüş uzadıkça artırır.",
+        "• Strateji: Evade/kaçış temelli şampiyonlar ya da yüksek can havuzuna sahip tank yapılarla ilerleyin; engellenemez pencerelerde geri çekilip güvenli mesafeden hasar biriktirin, kaynaklarınızı Storm dövüşü için saklayın."
+      ],
+      "defenders": [
+        "juggernaut",
+        "thing",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "storm",
+    "bossNodes": [
+      "Prowess'lı Engellenemez Özel Saldırı - Storm bir Özel Saldırı başlattığında üzerinde 6 adet Prowess etkisi varsa 1,8 saniye boyunca Engellenemez Pasif kazanır; güç kazanımını kısıtlamak bu düğümü etkisiz kılmanın anahtarıdır.",
+      "Yıldırım Fırtınası (Lightning Tempest) - Her isabet 9 saniyelik bir Şok Debuff'ı uygular; varsayılan Tempest olarak seçildiğinde Şok potansiyeli, rakibin mevcut gücüne bağlı olarak çok büyük oranda artar.",
+      "Buz Fırtınası (Ice Tempest) - Her isabet Özel Saldırının kalan süresi boyunca hasarını artıran bir Prowess üretir ve son vuruş 14 saniye boyunca Enerji hasarı veren pasif bir Donma (Coldsnap) etkisi uygular."
+    ],
+    "idealCounters": [
+      "she_hulk",
+      "spider_gwen",
+      "nick_fury",
+      "ultron"
+    ]
+  }
+}

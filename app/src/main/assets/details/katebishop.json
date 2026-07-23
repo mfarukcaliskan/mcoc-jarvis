@@ -1,0 +1,23 @@
+{
+    "id": "katebishop",
+    "name": "Kate Bishop",
+    "abilityDetails": {
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
+        "Tranquilize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tranquilize yeteneği.",
+        "Caltrops": "Şampiyonun dövüş sırasında avantaj sağlayan özel Caltrops yeteneği.",
+        "Fragility": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fragility yeteneği.",
+        "Sunder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sunder yeteneği.",
+        "Crush": "Blokları kırarak yüksek hasar vermeyi sağlar.",
+        "Tracking": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tracking yeteneği.",
+        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Precision": "Kritik vuruş şansını artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Kate Bishop için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Kate Bishop Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,22 @@
+{
+    "id": "betaraybill",
+    "name": "Beta Ray Bill",
+    "abilityDetails": {
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Steady": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steady yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Intensify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intensify yeteneği.",
+        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
+        "Infuriate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Infuriate yeteneği.",
+        "Grit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Grit yeteneği.",
+        "Pulverize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pulverize yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Resonance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resonance yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Beta Ray Bill için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Beta Ray Bill Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

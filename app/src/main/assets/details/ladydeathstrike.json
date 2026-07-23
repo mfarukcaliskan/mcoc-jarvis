@@ -1,0 +1,17 @@
+{
+    "id": "ladydeathstrike",
+    "name": "Lady Deathstrike",
+    "abilityDetails": {
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Torment": "Şampiyonun dövüş sırasında avantaj sağlayan özel Torment yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Lady Deathstrike için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Lady Deathstrike Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

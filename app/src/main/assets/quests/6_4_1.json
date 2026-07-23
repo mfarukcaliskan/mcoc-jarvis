@@ -1,0 +1,59 @@
+{
+  "name": "6.4.1 - Buzlu Cehennem",
+  "globalNodes": [
+    "Matador - Saldırgan güç barını SADECE savunmacı bir Özel Saldırı kullandığında kazanır; pasif güç kazanımı yoktur. Ayrıca Aksiyon 6 Bölüm 4 standart güçlendirmesi (+%600 Saldırı/Can ve savunmacı özel saldırıları bloklanamaz) haritanın tamamında etkindir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Rocket Koridoru - En Kolay Yol):",
+        "• Karo Açıklaması: Protection Shielding-2 düğümü etkindir - savunmacı tek bir kaynaktan can kaybının %4'ünden fazlasını kaybetmez; hasar bu sınıra ulaştığında kalkan 8 saniyeliğine devre dışı kalır ve o pencerede tam hasar girer.",
+        "• Strateji: Yol dövüşleri Thor → Spider-Man (Stealth Suit) → Rocket Raccoon → Vulture → Juggernaut → Green Goblin (Mini-Boss) sırasındadır. Kalkan kapandığı anları yakalayıp yüksek hasarlı comboları o pencerede patlatın; Matador nedeniyle özel saldırı biriktirmek yavaş olacağından sabırlı parry/ağır vuruş döngüsü izleyin."
+      ],
+      "defenders": [
+        "thor",
+        "spidermanstealthsuit",
+        "rocketraccoon",
+        "vulture",
+        "juggernaut",
+        "greengoblin"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Sol Koridor - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Aynı küresel Matador kısıtlaması geçerlidir; bu koridorda fiziksel/kanama temalı savunmacılar art arda dizilidir ve Morningstar mini-boss olarak karşınıza çıkar.",
+        "• Strateji: Yol dövüşleri Punisher → Storm → Colossus → The Hood → Sabretooth → Venom → Morningstar (Mini-Boss) şeklindedir. Kanama/Zehir bağışıklığı olan bir şampiyonla (Warlock gibi) ilerleyip parry sonrası ağır vuruşla güç kaybını telafi edin."
+      ],
+      "defenders": [
+        "punisher",
+        "storm",
+        "colossus",
+        "thehood",
+        "sabretooth",
+        "venom",
+        "morningstar"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "iceman",
+    "bossNodes": [
+      "Ice Armor & Coldsnap - Dövüş başlar başlamaz kaçınılmaz bir soğuk hasarı darbesi alırsınız; Ice Armor aktifken Iceman'e Özel Saldırı atmak zırhını güçlendirir.",
+      "Soğuk (Cold) Yığınları - Iceman'in vuruşları saldırganda Soğuk yığınları biriktirir; yığınlar arttıkça saldırı hızı ve isabet oranı düşer.",
+      "Matador (küresel) - Güç sadece Iceman özel saldırı attığında kazanılır.",
+      "Strateji: Soğuk bağışıklığı olan (Ghost, Colossus, Warlock, Human Torch) şampiyonlar Coldsnap darbesini ve Soğuk yığınlarını etkisiz kılar; Gwenpool da 'Do You Bleed' ve Clapback mekanikleriyle bu dövüşte güçlü bir alternatiftir. Ice Armor aktifken gereksiz Özel Saldırı atmaktan kaçının."
+    ],
+    "idealCounters": [
+      "ghost",
+      "colossus",
+      "warlock",
+      "humantorch",
+      "gwenpool"
+    ]
+  }
+}

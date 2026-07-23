@@ -1,0 +1,18 @@
+{
+    "id": "vulture",
+    "name": "Vulture",
+    "abilityDetails": {
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Siphon": "Şampiyonun dövüş sırasında avantaj sağlayan özel Siphon yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
+    },
+    "synergies": [],
+    "howToPlay": "Vulture için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Vulture Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

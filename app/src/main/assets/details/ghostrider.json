@@ -1,0 +1,21 @@
+{
+    "id": "ghostrider",
+    "name": "Ghost Rider",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
+        "Hinder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Hinder yeteneği.",
+        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Genesis": "Şampiyonun dövüş sırasında avantaj sağlayan özel Genesis yeteneği.",
+        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Damnation": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damnation yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Ghost Rider için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Ghost Rider Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

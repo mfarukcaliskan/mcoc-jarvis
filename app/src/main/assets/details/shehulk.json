@@ -1,0 +1,18 @@
+{
+    "id": "shehulk",
+    "name": "She-Hulk",
+    "abilityDetails": {
+        "Provoke Specials": "Şampiyonun dövüş sırasında avantaj sağlayan özel Provoke Specials yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "She-Hulk için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "She-Hulk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,19 @@
+{
+    "id": "captainmarvelmcu",
+    "name": "Captain Marvel",
+    "abilityDetails": {
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Start With Power": "Şampiyonun dövüş sırasında avantaj sağlayan özel Start With Power yeteneği.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Captain Marvel için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Captain Marvel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

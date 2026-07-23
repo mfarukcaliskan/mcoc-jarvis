@@ -1,0 +1,74 @@
+{
+  "user_roster": {
+    "7_star": [
+      {
+        "name": "Jean Grey",
+        "class": "Mutant",
+        "power_index": 17360,
+        "key_utilities": ["Energy Damage", "Telepathy", "Bypass Defenses"]
+      }
+    ],
+    "6_star": [
+      {
+        "name": "Doctor Doom",
+        "class": "Mystic",
+        "power_index": 16289,
+        "key_utilities": ["Power Control", "Stagger", "Shock"]
+      },
+      {
+        "name": "Black Panther",
+        "class": "Skill",
+        "power_index": 16250,
+        "key_utilities": ["Bleed", "Intercept", "Purify Stun"]
+      },
+      {
+        "name": "Storm (Pyramid X)",
+        "class": "Mutant",
+        "power_index": 15481,
+        "key_utilities": ["Energy Damage", "Prowess"]
+      },
+      {
+        "name": "Nimrod",
+        "class": "Tech",
+        "power_index": 15250,
+        "key_utilities": ["Regen Block", "Mutant Counter", "Shock"]
+      },
+      {
+        "name": "Karolina Dean",
+        "class": "Cosmic",
+        "power_index": 13540,
+        "key_utilities": ["Energy Damage", "Light Attacks"]
+      },
+      {
+        "name": "Warlock",
+        "class": "Tech",
+        "power_index": 12910,
+        "key_utilities": ["Heal Block", "Triple Immune", "Power Drain"]
+      },
+      {
+        "name": "Absorbing Man",
+        "class": "Mystic",
+        "power_index": 11547,
+        "key_utilities": ["Resistances", "Regen", "Morph"]
+      },
+      {
+        "name": "Shang-Chi",
+        "class": "Skill",
+        "power_index": 11270,
+        "key_utilities": ["Cleanse", "Unblockable", "Burst Damage"]
+      },
+      {
+        "name": "Titania",
+        "class": "Science",
+        "power_index": 5698,
+        "key_utilities": ["Unstoppable", "Indestructible", "Debuffs"]
+      },
+      {
+        "name": "Heimdall",
+        "class": "Cosmic",
+        "power_index": 5171,
+        "key_utilities": ["Cheat Death Synergy", "True Strike"]
+      }
+    ]
+  }
+}

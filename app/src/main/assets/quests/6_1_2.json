@@ -1,0 +1,54 @@
+{
+  "name": "6.1.2 - Aşırı Güç",
+  "globalNodes": [
+    "Özel Teslimat (Special Delivery) - Dövüşe 15 yükle başlarsınız; her normal vuruşta bu yük azalır. Sayaç 0'a inmeden mutlaka bir Özel Saldırı (SP) atmalısınız, yoksa ciddi Dejenerasyon hasarı alırsınız (SP attığınızda sayaç yeniden 15'e döner).",
+    "Kombo Partisi (Combo Party) - Kombo sayacınızdaki her 10 vuruş için kritik hasarınız artar; ancak darbe alırsanız kombonuz sıfırlanır ve yüksek hasar yersiniz."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Teknoloji Hattı - B Kapısı - En Kolay Yol):",
+        "• Karo Açıklaması: Haritaya girince B Kapısı portalını seçin; ilk dövüşten sonra teknoloji ağırlıklı rakiplerin olduğu en popüler tamamlanma rotasına bağlanırsınız. 'Özel Teslimat' sayacına dikkat ederek düzenli SP atın.",
+        "• Strateji: Yol dövüşleri: Captain America (Klasik) (15 vuruş sayacına dikkat edip SP atın; Corvus Glaive'iniz varsa #Avengers etiketiyle çok hızlı biter) → Punisher 2099 (Patlayıcı Kişilik karosu var, bloğuna vurmayın, siper-kombo oynayın) → Ultron (standart dövüş) → Nebula (özel saldırılarını erken tetikleyin) → Vulture (el becerisi/dexterity saldırılarından blok arkasında kaçının) → Spider-Man (Stark Geliştirilmiş) (özel saldırılarından kaçması kolaydır, Sıyrılma/Evade mekaniğine dikkat edin). Ara Boss (Mini Boss) olarak Biyolojik Tehlike (Biohazard) karosuna sahip Sentinel çıkar (normal yol dövüşü değildir); bu dövüş için Ghost veya Red Magneto (Magneto) idealdir."
+      ],
+      "defenders": [
+        "captainamerica",
+        "punisher2099",
+        "ultron",
+        "nebula",
+        "vulture",
+        "spidermanstarkenhanced"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Bıçak Çukuru Yolu):",
+        "• Karo Açıklaması: Geri kaçış yaptığınızda şampiyonunuz Kanama debuffı alır.",
+        "• Strateji: Kanama bağışıklığı şarttır; geri kaçışı minimumda tutup blok/parry odaklı oynayın."
+      ],
+      "defenders": [
+        "yellowjacket",
+        "spidermanstarkenhanced",
+        "wintersoldier",
+        "hawkeye"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "ultron",
+    "bossNodes": [
+      "Karolar: Ultron Prime dövüşünde belli aralıklarla Kaçış (Evade) yeteneği tetiklenir; ayrıca üzerindeki zayıflatıcıları güce veya cana çevirebilir.",
+      "Mekanik: Ultron Prime robotik yetenekleriyle sürekli kaçar veya yenilenir; Nebula'nın şok yükleriyle yetenek doğruluğunu sıfırlayın veya Warlock kullanın."
+    ],
+    "idealCounters": [
+      "magneto",
+      "medusa",
+      "heimdall",
+      "nebula"
+    ]
+  }
+}

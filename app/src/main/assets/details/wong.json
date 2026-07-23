@@ -1,0 +1,17 @@
+{
+    "id": "wong",
+    "name": "Wong",
+    "abilityDetails": {
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Fateseal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fateseal yeteneği.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Wong için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Wong Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

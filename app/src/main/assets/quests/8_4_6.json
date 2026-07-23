@@ -1,0 +1,55 @@
+{
+  "name": "8.4.6 - Glykhan Hesaplaşması",
+  "globalNodes": [
+    "The Bell Tolls Bölüm Karosu: 8.4.6'nın resmi adı 'The Bell Tolls'dir ve Act 8 Chapter 4 'Darkest Dawn'ın tek, alternatifsiz final karşılaşmasıdır; Glykhan bu bölüme özgü, başka hiçbir görevde karşılaşılmayan özgün (unplayable/exclusive) bir boss'tur.",
+    "Ouroboros Bozulması: Haritanın genelinde Glykhan'ın etkisiyle bozulmuş savunmacılar bulunur; bu savunmacılar normalden daha agresif özel saldırı döngüleri ve artırılmış Blok Yeterliliği taşır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısa Yol - Az Karşılaşmalı Hat):",
+        "• Karo Açıklaması: Daha az karşılaşma içerir; Thanos ve Champion gibi güçlü kozmik ara-bosslarla karşılaşma riski taşır.",
+        "• Strateji: Ara-boss özel saldırılarını bait'leyip güvenli parry pencerelerinde ağır vuruş uygulayın; blok sağlamlığı yüksek yapılar tercih edin."
+      ],
+      "defenders": [
+        "thanos",
+        "champion",
+        "corvus_glaive",
+        "proxima_midnight"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Uzun Yol - Tüm Karoların Aktif Olduğu Hat):",
+        "• Karo Açıklaması: Tüm zorlayıcı karolar aktiftir; Hela'nın ölüm temalı etkileri ve Black Dwarf'ın ağır vuruşları art arda gelir.",
+        "• Strateji: Geniş debuff bağışıklığına (Zehir/Kanama/Şok/Kızdırma) sahip, uzun maç dayanıklılığı yüksek şampiyonlar getirin."
+      ],
+      "defenders": [
+        "hela",
+        "black_dwarf",
+        "ebony_maw",
+        "collector"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "glykhan",
+    "bossNodes": [
+      "Bozulmuş Zırh (Corrupted Armor): Glykhan, bir Kombo'nun Heavy Attack veya Special Attack'ini cezalandırmasından zincirlenen vuruşlar dışında hiçbir kaynaktan hasar almaz; rastgele hasar vermeye çalışmak tamamen etkisizdir.",
+      "Meydan Okuma Yarası (Wound of Defiance): Glykhan'ın her Special Attack vuruşu, Blok üzerinden bile tetiklenebilen ve saldırganın Max Health'inin %3,5'i kadar 2 saniyede Direkt Hasar veren bir Wound of Defiance pasifi uygular.",
+      "İlahi Ceza (Divine Punishment) Sistemi: Farklı oyuncu hareketleriyle tetiklenen ve maç boyunca (fight'lar arası dahil) en fazla 3 yığın biriken 4 ayrı İlahi Ceza vardır - Banality (Light Attack ile bloğa vurma), Frustration (art arda 2 kez intercept), Tedium (Striker'ın ilk vuruşuyla hasar verme; Spirit Gauge'ün %50'sini yığın başına 5 saniyede boşaltır) ve Obliqueness (Special'in ilk vuruşuyla hasar verme; 1 Güç Barının %50'sini yığın başına 3 saniyede boşaltır); bir Ceza'yı aktive etmek saldırgana faz sonuna kadar süren %40 Prowess pasifi kazandırır.",
+      "Faz Geçişi ve Zırh Yenileme: Glykhan nakavt olacağı anda zırhını parçalayıp yeniden kurar, tüm sağlığını geri kazanır, kişisel olmayan tüm buff/debuff/pasifleri siler ve üçüncü faza kadar bir sonraki faza geçer."
+    ],
+    "idealCounters": [
+      "emma_frost",
+      "storm",
+      "bishop",
+      "domino",
+      "kitty_pryde"
+    ]
+  }
+}

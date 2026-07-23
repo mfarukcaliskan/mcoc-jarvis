@@ -1,0 +1,17 @@
+{
+    "id": "gamora",
+    "name": "Gamora",
+    "abilityDetails": {
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "True Strike": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Strike yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Gamora için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Gamora Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

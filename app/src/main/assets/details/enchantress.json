@@ -1,0 +1,26 @@
+{
+    "id": "enchantress",
+    "name": "Enchantress",
+    "abilityDetails": {
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
+        "Frostbite": "Şampiyonun dövüş sırasında avantaj sağlayan özel Frostbite yeteneği.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Untouchable": "Şampiyonun dövüş sırasında avantaj sağlayan özel Untouchable yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Damage Reflect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damage Reflect yeteneği.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
+        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
+        "Charm": "Şampiyonun dövüş sırasında avantaj sağlayan özel Charm yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Enchantress için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Enchantress Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

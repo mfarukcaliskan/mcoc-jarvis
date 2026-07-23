@@ -1,0 +1,17 @@
+{
+    "id": "shatterstar",
+    "name": "Shatterstar",
+    "abilityDetails": {
+        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
+        "Daunted": "Rakibin özel saldırılar sonrasında hasar almasını kolaylaştırır.",
+        "Reckless": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reckless yeteneği.",
+        "Pursuit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pursuit yeteneği.",
+        "Uncanny": "Şampiyonun dövüş sırasında avantaj sağlayan özel Uncanny yeteneği.",
+        "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Shatterstar için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Shatterstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

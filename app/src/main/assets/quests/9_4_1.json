@@ -1,0 +1,56 @@
+{
+  "name": "9.4.1 - Kozmik Parazit",
+  "globalNodes": [
+    "Sınıf Kapısı Sistemi: Görevde 3 alternatif giriş kapısı bulunur (Bilim / Mistik / Yetenek); her kapı yalnızca ilgili sınıftan şampiyonların geçişine izin verir ve üç farklı boss'a açılır (Shathra / Joe Fixit / Moondragon). Bu rehber Shathra'ya götüren Bilim Kapısı'nı (A) ve Joe Fixit'e götüren Mistik Kapısı'nı (B) kapsar.",
+    "Boss Öncesi Seçim Düğümü: Kapıyı geçtikten sonra, boss dövüşünden hemen önce ek bir zorluk/ödül dengesi seçimi sunan düğüm bulunur."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Bilim Kapısı - En Kolay Yol):",
+        "• Karo Açıklaması: Bilim Kapısı yalnızca Bilim sınıfı şampiyonların geçişine izin verir; yanlış sınıfla girmeye çalışan şampiyon ağır bir güç/saldırı cezası alır. Yol üzerindeki savunmacılar, Shathra öncesi hafif/orta vuruşlarla Astral Yumurta bırakan ısınma dövüşleridir.",
+        "• Strateji: Kapıyı Bilim sınıfından güçlü bir saldırganla (ör. Iron Man, Warlock) geçin; parry sonrası ağır vuruş rutinine devam edin, biriken Zehir/Şok debuff'larını temizlemek için düzenli blok yapın."
+      ],
+      "defenders": [
+        "iron_man",
+        "nick_fury",
+        "ultron",
+        "warlock",
+        "sentinel"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Mistik Kapısı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Mistik Kapısı yalnızca Mistik sınıfı şampiyonların geçişine izin verir ve Joe Fixit'in poker kartı mekaniğiyle güçlenen savunmacılara açılır; Kupa/Maça/Sinek/Karo kartları rastgele buff dağıtır ve belirli kombinasyonlar (Üçlü, Floş) güçlü debuff'lara dönüşür.",
+        "• Strateji: Mistik sınıfından dirençli bir tank getirin (ör. Doctor Doom, Ghost Rider); savunmacıların Ağır saldırılarını gereksiz yere bloklamayın, kart yığınının tehlikeli kombinasyonlara ulaşmasını önlemek için saldırıyı kesintiye uğratın."
+      ],
+      "defenders": [
+        "doctor_doom",
+        "ghost_rider",
+        "scarlet_witch",
+        "mordo"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "shathra",
+    "bossNodes": [
+      "Astral Yaban Arısı Yumurtaları: Hafif/Orta saldırılar rakibe Astral Yumurta bırakır; Shathra bir Özel Saldırı kullandığında tüm yumurtalar açılıp kalıcı Astral Arı'ya dönüşür ve Özel 1/2 sırasında bu arılar da saldırıya katılır.",
+      "Güç Hırsızlığı (Power Steal): Ağır saldırı şarj edilirken saniyede çok sayıda arı öldürülerek rakipten %35'e varan oranda güç çalınır; bu çalma Shathra Ağır saldırıyı bıraktığında, arıları tükendiğinde, 3 bar güce ulaştığında veya rakibin gücü tükendiğinde sona erer.",
+      "Pasif Solma (Wither): Rakip 2 bardan fazla güce sahip olduğu sürece Shathra'nın vuruşları %65 potansiyelli pasif Solma hasarı uygular; ayrıca Ağır saldırı şarj/bırakma sırasında gelen ilk temel saldırıyı 20 saniye bekleme süresiyle kaçar (evade).",
+      "Sınıf Zayıflığı: Shathra Mistik sınıfı bir şampiyon olduğundan Bilim sınıfına karşı zayıftır; Bilim sınıfı saldırganlar hem sınıf hasar bonusu hem de enerji direnciyle arı hasarını hafifletme avantajı sağlar."
+    ],
+    "idealCounters": [
+      "warlock",
+      "hulkling",
+      "medusa",
+      "cosmic_ghost_rider",
+      "ghost"
+    ]
+  }
+}

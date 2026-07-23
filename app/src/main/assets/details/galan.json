@@ -1,0 +1,21 @@
+{
+    "id": "galan",
+    "name": "Galan",
+    "abilityDetails": {
+        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği.",
+        "Intensify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intensify yeteneği.",
+        "True Sense": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Sense yeteneği.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Galan için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Galan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

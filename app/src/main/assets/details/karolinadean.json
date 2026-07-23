@@ -1,0 +1,22 @@
+{
+    "id": "karolinadean",
+    "name": "Karolina Dean",
+    "abilityDetails": {
+        "Instinct": "Şampiyonun dövüş sırasında avantaj sağlayan özel Instinct yeteneği.",
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
+        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Instant Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Intensify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intensify yeteneği.",
+        "Pulverize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pulverize yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Karolina Dean için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Karolina Dean Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

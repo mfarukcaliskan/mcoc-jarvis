@@ -1,0 +1,17 @@
+{
+    "id": "havok",
+    "name": "Havok",
+    "abilityDetails": {
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Feedback": "Şampiyonun dövüş sırasında avantaj sağlayan özel Feedback yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Special Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Protection yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Havok için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Havok Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

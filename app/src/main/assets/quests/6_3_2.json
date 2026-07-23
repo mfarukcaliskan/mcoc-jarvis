@@ -1,0 +1,61 @@
+{
+  "name": "6.3.2 - Gizli Operasyon",
+  "globalNodes": [
+    "Caltrops (Dikenler) Düğümü - Geriye doğru her dash attığınızda (Dash back) üzerinize ciddi bir Kanama (Bleed) zayıflatıcısı bulaşır; bu yüzden geri kaçışları sınırlı tutmalı ya da Ghost, Colossus, Kitty Pryde veya Omega Red gibi kanamaya bağışık ya da kanamayı avantaja çeviren şampiyonlar getirmelisiniz."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Caltrops Yolu, En Kolay Yol):",
+        "• Karo Açıklaması: Deadpool (X-Force), Captain Marvel (Klasik), Darkhawk, Nightcrawler, Medusa, Heimdall ve MODOK sırasıyla karşınıza çıkar; Nightcrawler'ın kaçış (evade) mekaniklerine dikkat edilmesi gereken, kanama bağışıklığıyla hasarsız geçilebilen en popüler tamamlanma yoludur.",
+        "• Strateji: Caltrops düğümü nedeniyle gereksiz geri dash atmaktan kaçının; Ghost, Colossus, Kitty Pryde veya Omega Red gibi kanamaya bağışık bir şampiyonla ilerleyip Nick Fury'ye temiz sağlıkla ulaşın."
+      ],
+      "defenders": [
+        "deadpoolxforce",
+        "captainmarvel",
+        "darkhawk",
+        "nightcrawler",
+        "medusa",
+        "heimdall",
+        "modok"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alternatif Zor Yol):",
+        "• Karo Açıklaması: Punisher, Daredevil, Kingpin, Gwenpool, Killmonger ve mini-boss Red Skull sırasıyla karşınıza çıkar; Red Skull'a siper (parry) yaptığınızda gücünüzü çalar, ek olarak Aggressive Armor ve Unblockable Special Attack düğümleri bulunur.",
+        "• Strateji: Red Skull'a karşı Kırmızı Magneto (Red Magneto) en iyi counterdır, Metal etiketi sayesinde dövüşü saniyeler içinde bitirir; diğer şampiyonlarla oynarken Red Skull'a parry yapmaktan kaçının ve dexterity ile kaçışı tercih edin, Nick Fury'ye kadar sağlık kaybını minimumda tutun."
+      ],
+      "defenders": [
+        "punisher",
+        "daredevil",
+        "kingpin",
+        "gwenpool",
+        "killmonger",
+        "redskull"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "nickfury",
+    "bossNodes": [
+      "İki Aşamalı Dövüş (LMD) - Nick Fury'nin canı bittiğinde bir LMD (Sahte Model / Life Model Decoy) tetiklenir; bu ikinci aşamada pasif olarak can kaybetmeye başlar ama çok daha agresifleşir ve engellenemez hiddetler kazanır. Bu aşamada siper yapmayı bırakıp yalnızca geriye dash atarak (dexterity) kaçının, kendi kendine kanayarak ölmesini bekleyin.",
+      "Shank - Fury bloke edildiğinde saldırgana %40 ihtimalle Kanama (Bleed) debuff'ı bulaşır.",
+      "Debuff Immune & Empowered Immunity - Nick Fury çoğu debuff'a bağışıklıdır.",
+      "Tactical Adjustment - Saldırgan debuff uygulamaya çalıştıkça Fury bir taktik yükü ve bir güç barının %33'ü kadar güç kazanır.",
+      "Bloodletting - Saldırganın uyguladığı kanama sürelerini %100 uzatır."
+    ],
+    "idealCounters": [
+      "archangel",
+      "hercules",
+      "domino",
+      "omegared",
+      "colossus",
+      "namor"
+    ]
+  }
+}

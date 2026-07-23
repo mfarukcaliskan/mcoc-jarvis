@@ -1,0 +1,12 @@
+{
+    "id": "ironfistimmortal",
+    "name": "Iron Fist (Immortal)",
+    "abilityDetails": {
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Iron Fist (Immortal) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Iron Fist (Immortal) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

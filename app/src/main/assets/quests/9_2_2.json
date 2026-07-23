@@ -1,0 +1,52 @@
+{
+  "name": "9.2.2 - Karınca Yuvası",
+  "globalNodes": [
+    "Scourge / Proliferate / Clarify Sistemi - Act 9'un imza küresel mekaniği: Proliferate düğümlü karolarda savunmacı dövüş boyunca kademeli olarak Scourge Şarjı biriktirir ve bu şarjlar arttıkça savunmacının statları ve yetenekleri kalıcı olarak güçlenir. Clarify düğümlü karolarda Saldırgan isabetleriyle bu şarjları azaltabilir; bu düğümleri erken temizlemek sonraki karşılaşmaları kolaylaştırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Agent Venom Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Ağır saldırı sonrası zırh kıran (Armor Break) mutant temalı düğümler içerir; Agent Venom ve Taskmaster gibi savunmacılar isabet sonrası Saldırganın savunma statlarını düşüren debuff'lar uygular.",
+        "• Strateji: Düşman özel saldırılarını baitleyip parry sonrası ağır vuruş uygulayın; zırh kırma debuff'larına karşı savunma düşüşü telafisi olan ya da debuff bağışıklığı yüksek şampiyonlar tercih edin."
+      ],
+      "defenders": [
+        "agent_venom",
+        "crossbones",
+        "taskmaster",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Arındırma Yuvası Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Cleanse düğümleri savunmacının üzerindeki debuff'ları çok kısa sürede temizler; Colossus ve Thing gibi kalın zırhlı savunmacılar bu sayede uzun süre debuff etkisi altında kalmaz ve Proliferate karoları ek olarak Scourge Şarjı biriktirir.",
+        "• Strateji: Debuff'a bel bağlamayan, doğrudan (direkt) hasar veren şampiyonlar getirin; tekrarlanan debuff denemeleriyle güç israf etmeyin, bunun yerine parry/ağır vuruş döngüsüne ve zırh kırma yeteneklerine güvenin."
+      ],
+      "defenders": [
+        "colossus",
+        "korg",
+        "thing"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "cassie_lang",
+    "bossNodes": [
+      "Güç İğnesi (Power Sting) - Cassie'nin Ağır Saldırısı Saldırgana Power Sting debuff'ları uygular; Saldırgan özel saldırı kullandığında bu iğneler patlar ve Cassie onları yeniden uygulamaya çalışır, bu da güç yönetimini zorlaştırır.",
+      "Küçülme Kaçınması (Shrink Evade) - Ağır Saldırı şarj edilirken Cassie küçülür ve gelen tüm saldırıların %100 ıskalamasını sağlar; bu durum Pym Yakıtı tüketir, yakıt bittiğinde küçülme sona erer.",
+      "Pym Parçacıkları - Cassie bir Buff'ı bağışıklıkla engellediğinde ya da küçülerek Saldırganın özel saldırısını ıskalattığında Pym Parçacığı kazanır; hafif kombo bitirişiyle bu parçacıkları tüketip Saldırgana can yenilenmesini azaltan bir Zehir Debuff'ı uygular.",
+      "Sınıf Zayıflığı - Cassie Lang Bilim (Science) sınıfıdır ve Yetenek (Skill) sınıfı şampiyonlara karşı doğal olarak zayıftır; bu yüzden Skill sınıfı sınıf avantajı önemli bir hasar artışı sağlar."
+    ],
+    "idealCounters": [
+      "nick_fury",
+      "blade",
+      "shang_chi",
+      "guillotine_2099"
+    ]
+  }
+}

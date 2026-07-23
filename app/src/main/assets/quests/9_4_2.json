@@ -1,0 +1,58 @@
+{
+  "name": "9.4.2 - Gen Laboratuvarı",
+  "globalNodes": [
+    "Sınıf Kapısı Sistemi: Görevde 3 alternatif giriş kapısı bulunur (Kozmik / Mutant / Teknoloji); her kapı yalnızca ilgili sınıftan şampiyonların geçişine izin verir ve üç farklı boss'a açılır (Arnim Zola / Crossbones / Spider-Woman). Bu rehber Arnim Zola'ya götüren Kozmik Kapı'yı (A) ve Crossbones'a götüren Mutant Kapı'yı (B) kapsar.",
+    "Gen Örnekleme Düğümleri: Yol boyunca HYDRA'nın Gen Laboratuvarı deneylerinden kaçan mutasyona uğramış savunmacılarla karşılaşılır; bu düğümler giriş anında rastgele ekstra Zehir veya Kanama debuff'ı uygulayabilir.",
+    "Boss Öncesi Seçim Düğümü: Kapıyı geçtikten sonra, boss dövüşünden hemen önce ek bir zorluk/ödül dengesi seçimi sunan düğüm bulunur."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kozmik Kapı - En Kolay Yol):",
+        "• Karo Açıklaması: Kozmik Kapı yalnızca Kozmik sınıfı şampiyonların geçişine izin verir; yanlış sınıfla girmeye çalışan şampiyon ağır bir güç/saldırı cezası alır. Yoldaki savunmacılar HYDRA'nın kozmik enerjiyle güçlendirilmiş deney nesneleridir ve Enerji hasarına karşı dirençlidir.",
+        "• Strateji: Kozmik sınıfından güçlü bir saldırganla (ör. Thanos, Hyperion) kapıyı geçin; Zola'nın Disintegrasyon rotasyonunu tetiklemeden önce güç biriktirin, parry sonrası Ağır vuruş rutinine devam edin."
+      ],
+      "defenders": [
+        "thanos",
+        "hyperion",
+        "quasar",
+        "silver_surfer",
+        "gladiator"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Mutant Kapı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Mutant Kapı yalnızca Mutant sınıfı şampiyonların geçişine izin verir ve Crossbones'un patlayıcı mayınlarıyla döşenmiş savunmacılara açılır; yanlış blok zamanlaması ekstra Sersemletme riski taşır.",
+        "• Strateji: Mutant sınıfından dayanıklı bir saldırganla (ör. Magneto, Sabretooth) ilerleyin; savunmacıların Özel saldırılarını parry'leyip Ağır vuruşla cezalandırın, patlama tetikleyen karolarda gereksiz Ağır saldırı şarj etmeyin."
+      ],
+      "defenders": [
+        "magneto",
+        "sabretooth",
+        "mystique",
+        "x_23",
+        "rogue"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "arnim_zola",
+    "bossNodes": [
+      "Korkaklık (Cowardice): Zola'nın Özel saldırıları sırasında rakip %30 Korkaklık debuff'ı ile cezalandırılır (savunmacı olarak bu oran %90'a çıkar); bu debuff rakibin saldırı gücünü ciddi oranda düşürür.",
+      "Biyo-Organik Silah - Disintegrasyon: Zola'nın Ağır saldırısının ilk vuruşu rakibe Direkt hasar veren bir Disintegrasyon debuff'ı uygular; imza yeteneği bu debuff'lar Özel saldırılarla temizlendiğinde ekstra bir Direkt hasar patlaması tetikler.",
+      "ESP Yükleri ve Uyku: Zola, Ağır saldırı dışında bir vuruş aldığında ESP Yükü kazanır, blokladığında 3 yük kazanır (maksimum 30 yük); 20+ yükte %10 ihtimalle tüm yükleri tüketip 3 saniyelik Uyku pasifiyle rakibin saldırısını durdurur.",
+      "Kendini Değiştirme: Zola'nın Yetenek İsabeti ve Güç Kazanım Oranı yalnızca kendisi tarafından değiştirilebilir; bu da klasik Yetenek İsabeti Düşürme (AAR) efektlerini büyük ölçüde etkisiz kılar, dolayısıyla ham hasara ve Ağır saldırı rotasyonuna dayalı bir yaklaşım gerekir."
+    ],
+    "idealCounters": [
+      "guardian",
+      "photon",
+      "punk",
+      "deathless_thanos",
+      "beta_ray_bill"
+    ]
+  }
+}

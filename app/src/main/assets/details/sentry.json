@@ -1,0 +1,18 @@
+{
+    "id": "sentry",
+    "name": "Sentry",
+    "abilityDetails": {
+        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Halt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Halt yeteneği.",
+        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Sentry için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Sentry Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

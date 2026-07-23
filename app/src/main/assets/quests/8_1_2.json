@@ -1,0 +1,52 @@
+{
+  "name": "8.1.2 - Savaş Makinesi",
+  "globalNodes": [
+    "Teknik Baskı (Technical Suppression) - Teknoloji sınıfı saldırganlar bir Özel Saldırı başlattığında savunmacıya %100 ihtimalle 8 saniyelik İyileşme Engeli (Heal Block) uygular; savunmacı zaten İyileşme Engelliyse saldırgan bunun yerine bir Öfke (Fury) buff'ı kazanır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kanlı Kargaşa Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Bloody Mess karosu kritik vuruşları Kanama'ya çevirirken Bleed Vulnerability savunmacıya uygulanan kanama hasarını artırır; Redoubled Determination savunmacının ıskalanan/bloklanan saldırılardan Güç kazanmasını sağlar, Limber ise savunmacının kaçınma (evade) şansını yükseltir.",
+        "• Strateji: Yol dövüşleri: Iron Man → Vision → Sentinel → Captain America. Kanama bağışıklığı yüksek (Guillotine 2099, King Groot, Human Torch) şampiyonlar getirin; Limber karosu aktifken kaçınmaya güvenmek yerine blok/parry döngüsünü tercih edin."
+      ],
+      "defenders": [
+        "iron_man",
+        "vision",
+        "sentinel",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Tahkimat Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Fortification ve Enhanced Parry Armor Up karoları savunmacıya sürekli Zırh Artışı (Armor Up) kazandırır; Chitinous Thorns aktifken zırhlı savunmacıya temas eden saldırgan %50 Kanama debuff'ı ile cezalandırılır. Be Like Water savunmacının kaçınma şansını artırır.",
+        "• Strateji: Yol dövüşleri: Iron Man Infinity War → Hulkbuster → Ultron → Korg. Zırh Kırma (Armor Break) yeteneği olan veya kanama bağışıklığı yüksek şampiyonlar tercih edin; Chitinous Thorns aktifken gereksiz temas saldırılarından kaçının."
+      ],
+      "defenders": [
+        "iron_man_iw",
+        "hulkbuster",
+        "ultron",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "war_machine",
+    "bossNodes": [
+      "Blast Barrage (SP1) - 250'den fazla mermi yağdırır; her mermi %100 ihtimalle Bastırma (Suppression - Güç kazanım oranı %10 azalır) uygular ve savunmacı üzerindeki her Zırh Kırma için artan ihtimalle Yırtılma (Rupture) uygular.",
+      "Heavy Ordnance (SP3) - %100 ihtimalle 3.5 saniyelik Sersemletme uygular ve savunmacı üzerindeki her Zırh Kırma başına War Machine'e ek bir Öfke (Fury) yığını kazandırır; rakibi Zırh Kırma ile ne kadar çok debuff'larsanız War Machine o kadar güçlenir.",
+      "Zırh Yığını Sinerjisi - War Machine'in tüm kiti Zırh Kırma sayısına endekslidir; Zırh Kırma uygulamayan takımlar karşısında görece zayıf, sürekli Zırh Kırma spam eden takımlar karşısında ise çok tehlikeli hale gelir."
+    ],
+    "idealCounters": [
+      "kingpin",
+      "warlock",
+      "nick_fury",
+      "ghost"
+    ]
+  }
+}

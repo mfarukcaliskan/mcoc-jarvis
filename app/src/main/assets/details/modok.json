@@ -1,0 +1,21 @@
+{
+    "id": "modok",
+    "name": "M.O.D.O.K.",
+    "abilityDetails": {
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
+        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Fatigue": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fatigue yeteneği.",
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "M.O.D.O.K. için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "M.O.D.O.K. Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

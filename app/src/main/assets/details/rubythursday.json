@@ -1,0 +1,20 @@
+{
+    "id": "rubythursday",
+    "name": "Ruby Thursday",
+    "abilityDetails": {
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Instant Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Instant Rupture yeteneği.",
+        "Disintegration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disintegration yeteneği.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
+        "Instant Disintegration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Instant Disintegration yeteneği.",
+        "Special 2 Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special 2 Lock yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Reduce Stun AA": "Rakibi sersemleterek tamamen hareketsiz bırakır."
+    },
+    "synergies": [],
+    "howToPlay": "Ruby Thursday için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Ruby Thursday Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

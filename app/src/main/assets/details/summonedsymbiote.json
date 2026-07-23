@@ -1,0 +1,24 @@
+{
+    "id": "summonedsymbiote",
+    "name": "Summoned Symbiote",
+    "abilityDetails": {
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Fortitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fortitude yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Shrivel": "Şampiyonun dövüş sırasında avantaj sağlayan özel Shrivel yeteneği.",
+        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Summoned Symbiote için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Superior sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Summoned Symbiote Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

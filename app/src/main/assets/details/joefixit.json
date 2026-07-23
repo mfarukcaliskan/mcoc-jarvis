@@ -1,0 +1,17 @@
+{
+    "id": "joefixit",
+    "name": "Joe Fixit",
+    "abilityDetails": {
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
+    },
+    "synergies": [],
+    "howToPlay": "Joe Fixit için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Joe Fixit Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,52 @@
+{
+  "name": "8.1.4 - Proxima'nın Mızrağı",
+  "globalNodes": [
+    "Kozmik Sabırsızlık (Cosmic Impatience) - Kozmik sınıfı saldırganlar şans eseri bir buff tetiklemeyi başaramadığında bunun yerine %100 ihtimalle 7 saniyelik Öfke (Fury) buff'ı kazanır (Saldırı Gücü %80 artar)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kozmik Güç Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Kozmik Sınıf Bonusu karosu; Kozmik sınıf saldırganlar bu yolda ekstra Saldırı Gücü ve Güç kazanım oranı bonusu alır, bu da yolu Kozmik takımlar için belirgin şekilde kolaylaştırır.",
+        "• Strateji: Yol dövüşleri: Corvus Glaive → Medusa → Venom → Captain America. Kozmik sınıf şampiyonları önceliklendirin (Cosmic Ghost Rider, Silver Surfer, Nova); Corvus Glaive'in ölümsüzlük mızrağına karşı SP3 biriktirmekten kaçının."
+      ],
+      "defenders": [
+        "corvus_glaive",
+        "medusa",
+        "venom",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Durdurulamaz Ordu Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Düşman Durdurulamaz (Unstoppable) Düğümü; savunmacılar dövüşün belirli anlarında geçici olarak Durdurulamaz olur ve bu sırada uygulanan debuff'lar (Sersemletme, Kaçınma dahil) işe yaramaz hale gelir.",
+        "• Strateji: Yol dövüşleri: Proxima Midnight → Hela → Captain Marvel → Korg. Durdurulamaz penceresinde saf hasar biriktirin, debuff'a güvenmeyin; doğrudan hasar veren şampiyonlar (She-Hulk, Doctor Doom) tercih edin."
+      ],
+      "defenders": [
+        "proxima_midnight",
+        "hela",
+        "captain_marvel_movie",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "proxima_midnight",
+    "bossNodes": [
+      "Üç Görev Sistemi - Proxima sırasıyla Parry Savunması (6 zamanlı blok), Araya Girme Saldırısı (4 intercept) ve Etkisiz Hale Getirme (5 knockdown) görevlerini tamamlar; her görev tamamlandığında geçici %250 Özel Hasar Prowess'ı, görev sonunda ise kalıcı %200 Özel Hasar Prowess'ı kazanır - dövüş uzadıkça çok daha tehlikelidir.",
+      "Multi-Arcing Strike (SP2/SP3) - SP2 %100 ihtimalle 2 saniyelik Sersemletme, SP3 %100 ihtimalle 6 saniyelik Sersemletme ve Zırh Kırma (2000 Zırh Puanı azaltma, 6 saniye) uygular; Proxima Sersemletmeye bağışıklı değildir ama rakibi sersemletmede çok güçlüdür.",
+      "Combo Sayacı Cezası - SP1'i İyileşme Engeli uygular; kombo sayacı 50'yi geçtiyse bu sürenin iki katına çıkar, bu yüzden dövüşü uzatmak yerine hızlı bitirmek daha güvenlidir."
+    ],
+    "idealCounters": [
+      "sorcerer_supreme",
+      "spider_gwen",
+      "she_hulk",
+      "doctor_doom"
+    ]
+  }
+}

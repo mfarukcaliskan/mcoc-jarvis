@@ -1,0 +1,21 @@
+{
+    "id": "ironmaninfinitywar",
+    "name": "Iron Man (Infinity War)",
+    "abilityDetails": {
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
+        "Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Plasma yeteneği.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
+    },
+    "synergies": [],
+    "howToPlay": "Iron Man (Infinity War) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Iron Man (Infinity War) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

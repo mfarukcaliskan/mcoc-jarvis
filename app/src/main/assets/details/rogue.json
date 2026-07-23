@@ -1,0 +1,22 @@
+{
+    "id": "rogue",
+    "name": "Rogue",
+    "abilityDetails": {
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Aptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Aptitude yeteneği.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Rogue için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Rogue Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

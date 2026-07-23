@@ -1,0 +1,52 @@
+{
+  "name": "7.4.1 - Mekanik Düşman",
+  "globalNodes": [
+    "Kangdom Come Adrenalin Sistemi: Bu bölümdeki 6 Yıldızlı saldırganlar kalıcı olarak +700 Öfke (Fury) kazanır (Star Power); ayrıca saldırganın mevcut Adrenalin seviyesine bağlı olarak zaman zaman %100'e varan Hasar Azaltma (Adrenaline Rush) ve her an +80 Blok Yeterliliğine kadar bonus (Hold The Line) uygulanır.",
+    "Burnout Karosu: Savunmacı bir Özel Saldırı başlattığında 1 Burnout Yığını kazanır ve bu yığın başına kendi Özel Saldırı hasarını %10 artırır; 10 veya daha fazla yığına ulaştığında 10 yığın silinir ve savunmacı 10 saniyeliğine pasif olarak Güç Kilitlenir (Power Locked)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Sihir Ustaları Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Kinetik Aktarım (Kinetic Transference) karosu bulunur - saldırganın bloklanan saldırıları savunmacıya Güç kazandırır, bu yüzden gereksiz blok bozma denemeleri savunmacıyı besler.",
+        "• Strateji: Yol dövüşleri: Sorcerer Supreme → Jubilee → Doctor Doom. Parry odaklı oynayın, blok yerine kaçınma/iptal tercih edin ki savunmacı gereksiz Güç kazanmasın; Doctor Doom karşısında Enerji Direnci yüksek şampiyonlar getirin."
+      ],
+      "defenders": [
+        "sorcerersupreme",
+        "jubilee",
+        "doctordoom"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Kahraman Blok Kırıcılar Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Time to Strike karosu bulunur - Şifa Engeli (Heal Block) altındaki saldırganlar ayrıca zamanla ek Yıpranma (Degeneration) hasarı alır; bu yüzden Heal Block bağışıklığı olmayan şampiyonlar hızla erir.",
+        "• Strateji: Yol dövüşleri: The Champion → Sasquatch → Captain Marvel (Movie). Heal Block bağışıklığı/direnci yüksek şampiyonlar tercih edin ve uzun süre Heal Block altında kalmaktan kaçının; ağır vuruş fırsatlarını parry sonrası kullanın."
+      ],
+      "defenders": [
+        "thechampion",
+        "sasquatch",
+        "captainmarvelmcu"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "guillotine2099",
+    "bossNodes": [
+      "Assault Function: Combo Meter 99'un üzerindeyken Orta saldırılar rakibin Mevcut Gücünün %5'ini yakar (Power Burn); bu yüzden uzun kombolar Guillotine 2099'un Güç yakma etkisini tetikler.",
+      "Özel 1 - Soul Slash: Saldırının son vuruşu her Digi-Soul için rakibin Mevcut Gücünün %20'sini boşaltır; saldırı temas etmezse bu oran %40'a çıkar, bu yüzden Özel 1'i kaçırmaya çalışmak cezalandırılır.",
+      "Özel 2 - LFM 99 Soulsplitter: Aktive edildiğinde %100 ihtimalle Spectre debuff'ı uygular ve bu, rakibin Can Yenileme Oranını 12 saniye boyunca %120 azaltır; Heal Block'a bağışıklığı olmayan can yenileme temelli şampiyonlar bu pencerede neredeyse hiç iyileşemez.",
+      "Digi-Soul Birikimi: Guillotine 2099 dövüş ilerledikçe Digi-Soul biriktirir ve bu, hem Güç yakma hem de Soul Slash'in gücünü katlayarak artırır; dövüşü uzatmak onu güçlendirir."
+    ],
+    "idealCounters": [
+      "nebula",
+      "bwdo",
+      "doctordoom",
+      "moleman"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "id": "jabaripanther",
+    "name": "Jabari Panther",
+    "abilityDetails": {
+        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Ensnare": "Şampiyonun dövüş sırasında avantaj sağlayan özel Ensnare yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Counterpunch": "Şampiyonun dövüş sırasında avantaj sağlayan özel Counterpunch yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Jabari Panther için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Jabari Panther Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

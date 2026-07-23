@@ -1,0 +1,52 @@
+{
+  "name": "8.1.5 - Ölümsüz Savaşçı",
+  "globalNodes": [
+    "Güç Bastırma (Power Suppression) - Bilim sınıfı saldırganlar bir Özel Saldırı başlattığında savunmacıya 6 saniyelik Zayıflatma (Enervate) debuff'ı uygular ve bu sırada savunmacı vurulduğunda Güç kazanamaz; ayrıca saldırgan bir Kaçınma veya Zamanlı Blok yaptığında üzerindeki tüm Zehir debuff/pasifleri temizlenir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Amansız Güç Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Araya Girme (Intercept) Katlaması karosu; saldırgan başarılı bir araya girme gerçekleştirdiğinde bu vuruşun hasarı katlanarak artar, bu da yolu agresif intercept oyunu bilen oyuncular için hızlandırır.",
+        "• Strateji: Yol dövüşleri: Hulk → Thing → Champion → Captain America. Yüksek fiziksel dayanıklılığı olan şampiyonlar getirin, düşman özel saldırılarını dash-back yerine intercept ile karşılayın; Hulk'ın Öfke biriktirme mekaniğine karşı dövüşü uzun tutmayın."
+      ],
+      "defenders": [
+        "hulk",
+        "thing",
+        "champion",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Ölümsüz Muhafızlar Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Ölümsüzlük (Immortality) karosu; bu yoldaki savunmacılar can barları sıfırlandığında bir kez ölümü reddedip kısa süreliğine Bloklanamaz hale gelir, bu yüzden düşük hasarlı sürekli saldırılar yerine tek seferde büyük hasar vermek daha az verimlidir.",
+        "• Strateji: Yol dövüşleri: Immortal Abomination → Hercules → Nick Fury → Korg. Ölümsüzlük penceresini tetikleyip boşa harcatacak yüksek DoT (Kanama/Zehir/Yanma) hasarına sahip şampiyonlar tercih edin; Nick Fury'nin İkinci Can (LMD) mekaniğine karşı SP3'ünüzü doğru zamanlayın."
+      ],
+      "defenders": [
+        "immortal_abomination",
+        "hercules",
+        "nick_fury",
+        "korg"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "hercules",
+    "bossNodes": [
+      "Ölümsüzlük Buff'ı (Immortality) - Hercules dövüş başına bir kez, kendisini bayıltacak bir hasar aldığında ölmeyi reddeder ve 9 saniyeliğine Bloklanamaz (Unblockable) hale gelir; bu buff kendi Özel Saldırısı sırasında veya temel saldırı isabet ettiğinde duraklar, SP3 ile vurulursa tamamen kaybolur.",
+      "Bloklanamaz Saldırganlık - Ölümsüzlük aktifken Hercules bloklanamadığı için savunma değil saf hasar alma/verme yarışına girilir; bu pencerede hata yapma toleransı düşüktür.",
+      "Zeus'un Oğlu (İmza) - Prowess/Öfke yığınları biriktirdikçe hem hasarı hem hayatta kalma şansı artar, bu yüzden dövüşü uzattıkça Hercules güçlenir; hızlı bitirmek tercih edilmelidir."
+    ],
+    "idealCounters": [
+      "nick_fury",
+      "cosmic_ghost_rider",
+      "warlock",
+      "kitty_pryde"
+    ]
+  }
+}

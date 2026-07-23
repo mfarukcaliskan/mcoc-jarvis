@@ -1,0 +1,20 @@
+{
+    "id": "darkphoenix",
+    "name": "Dark Phoenix",
+    "abilityDetails": {
+        "Safeguard": "Şampiyonun dövüş sırasında avantaj sağlayan özel Safeguard yeteneği.",
+        "Immortality": "Şampiyonun dövüş sırasında avantaj sağlayan özel Immortality yeteneği.",
+        "Nova Flame": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nova Flame yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Pulverize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pulverize yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller."
+    },
+    "synergies": [],
+    "howToPlay": "Dark Phoenix için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Dark Phoenix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

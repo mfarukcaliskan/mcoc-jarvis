@@ -1,0 +1,53 @@
+{
+  "name": "9.1.1 - Öfke ve Kan",
+  "globalNodes": [
+    "Adrenalin Artışı (Adrenaline Rush) - Vuruş yediğinizde Adrenalin biriktirirsiniz; bu Adrenalin ile saldırgan olarak aldığınız hasarı %100'e kadar azaltabilirsiniz.",
+    "Hattı Koru (Hold the Line) - Adrenalin ile ölçeklenir; blok yaparken savunma etkinliğinizi %80'e kadar artırır. Bu iki karo Sahne 9.1 (Party Crashers) boyunca tüm yollarda aktiftir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Hulk (Ragnarok) Güzergahı - En Kolay Yol):",
+        "• Karo Açıklaması: Yoldaki düşmanlar vurdukça 'Kalabalık Coşkusu' benzeri öfke mekanikleriyle saldırı gücü kazanır; bu yüzden uzun kombolardan kaçının.",
+        "• Strateji: Parry sonrası kısa kombo-ağır vuruş rutini kullanın, düşman özel saldırılarını erken baitleyip Adrenalin karosundan faydalanarak hasarı azaltın."
+      ],
+      "defenders": [
+        "crossbones",
+        "juggernaut",
+        "rhino",
+        "winter_soldier",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Sentinel Güzergahı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: 'Sentinel Yenilmezliği' Düğümü - Sentinel ve robotik düşmanlar vuruldukça kademeli olarak Zırh (Armor Up) buff'ı biriktirir; zırh kırma olmadan neredeyse öldürülemez hale gelir.",
+        "• Strateji: Zırh kırma (Armor Break) veya gerçek hasar (True Damage) uygulayabilen şampiyonlar getirin; Killmonger veya Doom tarzı buff yok edici karakterler tercih edilir."
+      ],
+      "defenders": [
+        "sentinel",
+        "omega_sentinel",
+        "ultron",
+        "ghost"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "hulk_ragnarok",
+    "bossNodes": [
+      "Kalabalık Coşkusu (Crowd Excitement) - Değer 100'e ulaştığında Hulk %55 Saldırı Gücü veren bir Öfke (Fury) buff'ı kazanır ve size 15 saniyeliğine %30 Saldırı Gücü azaltan Zayıflık (Weakness) debuff'ı uygular.",
+      "SMASH Saldırıları - Özel saldırılarının SMASH varyantlarını kullandığında Durdurulamaz (Unstoppable) olur ve ek saldırı gücü kazanır; bu sırada bloklamak işe yaramaz."
+    ],
+    "idealCounters": [
+      "agent_venom",
+      "ghost_rider",
+      "guillotine_2099",
+      "hyperion"
+    ]
+  }
+}

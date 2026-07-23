@@ -1,0 +1,20 @@
+{
+    "id": "jjj",
+    "name": "Spider-Slayer (J. Jonah Jameson)",
+    "abilityDetails": {
+        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Instant Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Obfuscate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Obfuscate yeteneği.",
+        "Austere Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
+        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
+        "Cowardice": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cowardice yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Spider-Slayer (J. Jonah Jameson) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Spider-Slayer (J. Jonah Jameson) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

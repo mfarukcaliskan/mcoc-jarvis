@@ -1,0 +1,22 @@
+{
+    "id": "purgatory",
+    "name": "Purgatory",
+    "abilityDetails": {
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
+        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Purgatory için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Purgatory Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

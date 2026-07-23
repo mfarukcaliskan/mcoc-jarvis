@@ -1,0 +1,18 @@
+{
+    "id": "daredevilnetflix",
+    "name": "Daredevil (Hell's Kitchen)",
+    "abilityDetails": {
+        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Daredevil (Hell's Kitchen) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Daredevil (Hell's Kitchen) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

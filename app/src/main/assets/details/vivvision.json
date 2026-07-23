@@ -1,0 +1,22 @@
+{
+    "id": "vivvision",
+    "name": "Viv Vision",
+    "abilityDetails": {
+        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Phasing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Phasing yeteneği.",
+        "Invalidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invalidate yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Plasma yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Viv Vision için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Viv Vision Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,16 @@
+{
+    "id": "abominationimmortal",
+    "name": "Abomination (Immortal)",
+    "abilityDetails": {
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Acid Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Acid Burn yeteneği.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Abomination (Immortal) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Abomination (Immortal) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

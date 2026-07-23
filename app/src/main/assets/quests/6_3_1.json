@@ -1,0 +1,58 @@
+{
+  "name": "6.3.1 - Tehlikeli Arayış",
+  "globalNodes": [
+    "Biohazard & Clapback Düğümleri - Haritadaki birçok karo Biohazard (Tehlikeli Madde) temas noktalarıyla doludur; bu karolara değildiğinde saldırgana Zehirlenme bulutu bulaşır. Clapback etkisi ise saldırganın düşmana uyguladığı debuff'ların bir kısmını anında kendisine yansıtır, bu yüzden aşırı debuff stack'lemek risklidir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Port B - Sağ Yol, En Kolay Yol):",
+        "• Karo Açıklaması: Forced Field, Pilfer Regen ve Masochism düğümleriyle dolu ama Biohazard temasları daha seyrek bir güzergah; Invisible Woman, Ghost ve Doctor Octopus gibi faz/kontrol şampiyonlarıyla karşılaşılır, yol mini-boss Black Bolt üzerinden Medusa'ya bağlanır.",
+        "• Strateji: Faz (Invisibility/Phase) yeteneğine sahip savunmacılara karşı temas gerektirmeyen True Strike hasarı olan şampiyonlar getirin; Black Bolt'un ses temelli özel saldırılarını blokta karşılamak yerine dexterity ile kaçının."
+      ],
+      "defenders": [
+        "invisiblewoman",
+        "ghost",
+        "doctoroctopus",
+        "yellowjacket",
+        "blackbolt"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Port A - Sol Yol, Alternatif Zor Yol):",
+        "• Karo Açıklaması: Cornered, Power Sting 3.0 ve Singularity düğümleri bu yolda daha yoğundur; Hulk, Green Goblin, MODOK ve Mysterio gibi ağır vuruşlu ve debuff temelli savunmacılarla karşılaşılır, yol da yine mini-boss Black Bolt üzerinden Medusa'ya çıkar.",
+        "• Strateji: Power Sting düğümü güç kullanımını cezalandırdığından güç birikimini kontrollü tutun; Mysterio'nun sis/yanılsama özel saldırılarına karşı güçlü blok gücü taşıyan bir şampiyon tercih edin."
+      ],
+      "defenders": [
+        "hulk",
+        "greengoblin",
+        "modok",
+        "mysterio",
+        "blackbolt"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "medusa",
+    "bossNodes": [
+      "Do You Bleed? - Medusa'ya neredeyse yalnızca Kanama (Bleed) hasarı işler; kanama dışı hasar büyük oranda etkisizleştirilir.",
+      "5% Buffet & Fury - Saçlarıyla yaptığı vuruşlar saldırgana sürekli hasar verir ve kendisine Fury (saldırı artışı) kazandırır.",
+      "Counterstrike - Saldırgan Çeviklik (Dexterity) ile kaçtığında Medusa geçici olarak Durdurulamaz (Unstoppable) hale gelir.",
+      "Explosive Personality & Bleed Vulnerability - Medusa aldığı kanama hasarına karşı %200 daha savunmasızdır ama biriken buff'ları 7 saniyede bir sıfırlayıp canının %5'ini yeniler.",
+      "Archangel Taktiği - Medusa zehir bağışıklısıdır, bu yüzden Archangel'in kanamaları nörotoksine dönüşmez ve ekranda onlarca kanama birikerek Medusa'yı saniyeler içinde eritir; sadece siper-ağır saldırı yapmanız yeterlidir."
+    ],
+    "idealCounters": [
+      "archangel",
+      "nickfury",
+      "symbiotesupreme",
+      "gwenpool",
+      "killmonger",
+      "blade"
+    ]
+  }
+}

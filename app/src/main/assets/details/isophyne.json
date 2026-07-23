@@ -1,0 +1,21 @@
+{
+    "id": "isophyne",
+    "name": "Isophyne",
+    "abilityDetails": {
+        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Marked": "Şampiyonun dövüş sırasında avantaj sağlayan özel Marked yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Isophyne için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Isophyne Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,17 @@
+{
+    "id": "masacre",
+    "name": "Masacre",
+    "abilityDetails": {
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler."
+    },
+    "synergies": [],
+    "howToPlay": "Masacre için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Masacre Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

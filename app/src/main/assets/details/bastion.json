@@ -1,0 +1,18 @@
+{
+    "id": "bastion",
+    "name": "Bastion",
+    "abilityDetails": {
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Disintegration Vunlnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disintegration Vunlnerability yeteneği.",
+        "Power Reroute": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Reroute yeteneği.",
+        "Pursuit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pursuit yeteneği.",
+        "Disintegration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disintegration yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Bastion için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Bastion Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

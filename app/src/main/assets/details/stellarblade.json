@@ -1,0 +1,18 @@
+{
+    "id": "stellarblade",
+    "name": "Blade (Stellar-Forged)",
+    "abilityDetails": {
+        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Torment": "Şampiyonun dövüş sırasında avantaj sağlayan özel Torment yeteneği.",
+        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "Blade (Stellar-Forged) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Blade (Stellar-Forged) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

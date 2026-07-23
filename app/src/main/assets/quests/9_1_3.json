@@ -1,0 +1,53 @@
+{
+  "name": "9.1.3 - Gözcü",
+  "globalNodes": [
+    "Adrenalin Artışı (Adrenaline Rush) - Vuruş yediğinizde biriken Adrenalin ile saldırgan olarak aldığınız hasarı %100'e kadar azaltabilirsiniz.",
+    "Hattı Koru (Hold the Line) - Adrenalin ile ölçeklenerek blok etkinliğinizi %80'e kadar artırır. Sahne 9.1'in tüm bölümlerinde standarttır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kaçış/Evade Güzergahı - En Kolay Yol):",
+        "• Karo Açıklaması: Yüksek kaçış (evade) oranlı Örümcek-Ailesi düşmanlar; saldırılarınız sık sık kaçışla boşa çıkar ve düşman kaçış sonrası güç kazanır.",
+        "• Strateji: Kaçışı azaltan (Ability Accuracy Reduction) veya kaçış engelleyici (Anti-Evade) şampiyonlar getirin; kısa mesafeli hızlı kombolar tercih edin."
+      ],
+      "defenders": [
+        "spider_man",
+        "spider_gwen",
+        "spider_man_stark",
+        "captain_america"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B ('Go for the Throat' Güç Güzergahı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Scourge'un da bulunduğu, Güç (Power) tabanlı saldırı düğümleri; düşmanlar özel saldırılarını sıkça kullanır ve blok kırma riski yüksektir.",
+        "• Strateji: Bağışıklık listesi (Zehir/Kanama/Şok) yüksek şampiyonlar ve parry-ağır vuruş rutinini koruyan agresif karakterler getirin."
+      ],
+      "defenders": [
+        "scourge",
+        "hulk",
+        "rhino",
+        "juggernaut"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "overseer",
+    "bossNodes": [
+      "Otomatik Blok - İki kez vurulduğunda 7 saniye süren veya tetiklenene kadar geçerli %100 Otomatik Blok pasifi kazanır; bu süre boyunca Sersemletme (Stun) etkilerine bağışıktır.",
+      "Gama Gücü - Siz her güç barı kazandığınızda Overseer bir Gama Gücü stack'i alır; 3 stack'e ulaştığında özel saldırıyla Kozmik Küp'ü aktive ederek kozmik yetenekler kazanır.",
+      "Özel Saldırı 2 - İsabet ettiğinde 12 saniyeliğine %40 Savunma Yetenek İsabeti ve %50 Blok Yeterliliği azaltan Şaşkınlık (Disorient) debuff'ı uygular."
+    ],
+    "idealCounters": [
+      "apocalypse",
+      "vision_aou",
+      "killmonger",
+      "ghost"
+    ]
+  }
+}

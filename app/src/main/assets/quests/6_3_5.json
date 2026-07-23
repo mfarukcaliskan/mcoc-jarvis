@@ -1,0 +1,63 @@
+{
+  "name": "6.3.5 - Zehirli Bataklık",
+  "globalNodes": [
+    "Kimyasal Tepkime Düğümleri (Safeguard, Clapback & Cornered) - Savunmacılar Safeguard ile korunur, Clapback ile üzerlerine uygulanan zayıflatıcıların bir kısmını anında yansıtır ve Cornered ile köşeye sıkıştığınızda ekstra tehlike yaratır; bu yüzden debuff vermeyen veya yansıtıcı hasardan etkilenmeyen şampiyonlar tercih edilmelidir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Sağ Yol / Hood Rotası, En Kolay Yol):",
+        "• Karo Açıklaması: Hood, Electro, Guillotine, Void, Ghost Rider, Captain Marvel (Movie) ve Annihilus sırasıyla karşınıza çıkar; haritanın sağ tarafına yönelen, Completion için en az zorlayıcı olan rotadır.",
+        "• Strateji: Electro ve Void'in yansıtıcı/enerji temelli saldırılarına karşı Omega Red veya Namor gibi bağışıklığı yüksek şampiyonlar getirin; Human Torch enerji hasarı verenlere karşı, Quake veya Ghost ise karoları kapatmak için iyi seçeneklerdir; Captain America IW ağır saldırı odaklı ilerlemek isteyenler için uygundur, Mysterio'ya temiz sağlıkla ulaşın."
+      ],
+      "defenders": [
+        "thehood",
+        "electro",
+        "guillotine",
+        "void",
+        "ghostrider",
+        "captainmarvelmcu",
+        "annihilus"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alternatif Zor Yol):",
+        "• Karo Açıklaması: Civil Warrior, Venom (The Duck), Angela, Green Goblin ve Electro gibi enerji/zehir temelli savunmacılarla ilerlenir.",
+        "• Strateji: Zehir (Poison) bağışıklığı yüksek bir şampiyon getirin; Electro'nun şok temelli özel saldırılarına karşı blok gücünüzü yüksek tutup Mysterio'ya temiz sağlıkla ulaşın."
+      ],
+      "defenders": [
+        "civilwarrior",
+        "venomtheduck",
+        "angela",
+        "greengoblin",
+        "electro"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "mysterio",
+    "bossNodes": [
+      "Tunnel Vision - Saldırgan art arda aynı tür saldırıyı (örn. iki kez orta vuruş) kullanırsa Falter (sersemleme) debuff'ı alır.",
+      "Matador - Saldırgan yalnızca Mysterio özel saldırı kullandığında güç kazanır; kask (helmet) aktifken bu güç kazanımı %50 artar.",
+      "Toxic Behavior - Mysterio 8 saniye boyunca 3 kat Kimyasal Gaz (Chemical Gas) biriktirirse saldırgana Zehirlenme (Poison) debuff'ı uygular.",
+      "Armor Break Immune - Zırh Kırma etkilerine bağışıklıdır.",
+      "Captain America IW (Uyanmış - Sig 200) + Beceri (Skill) Sinerjisi - Dövüşün mutlak hilesidir: takımda bir Beceri şampiyonu varken Kaptan üzerindeki tüm Zehir, Güç Kilidi ve Iskalama zayıflatıcılarını kinetik yük harcayarak anında siler.",
+      "Kırmızı Magneto (Red Magneto) - Mysterio bir Metal şampiyon olduğu için onun tüm yetenek doğruluğunu düşürür ve dövüşü çok kolaylaştırır.",
+      "Strateji: Mysterio'nun zehir yüklerini harcaması için onu sürekli SP1/SP2 atmaya zorlayın (baitleyin); siper sonrası sadece Orta + Ağır Saldırı (Medium + Heavy) kombosu yapın, böylece Iskalama mekaniğine yakalanmazsınız."
+    ],
+    "idealCounters": [
+      "captainamericaiw",
+      "magnetomarvelnow",
+      "warlock",
+      "humantorch",
+      "domino",
+      "nickfury",
+      "redhulk"
+    ]
+  }
+}

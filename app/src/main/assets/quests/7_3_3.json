@@ -1,0 +1,50 @@
+{
+  "name": "7.3.3 - Gizli Örümcek",
+  "globalNodes": [
+    "Paradoks (Paradox) - Bölüm 7.3'ün imza mekaniğidir: Saldırgan her Özel saldırıda bir Paradoks Yükü kazanır ve bu yükler dövüşten dövüşe taşınır; Entropic Prowess bu yüklerin her biri için Saldırı Gücünü kalıcı olarak artırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Uyum Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Acclimation karosu - Mutant sınıf saldırganlar, kombo sayaçlarında her 5 vuruşta bir üzerlerindeki tüm Kanama, Yanma ve Soğuk Isırığı debuff'larını arındırır ve arındırılan her debuff için Güç Barının %10'unu kazanır. Power Shield karosu da eşlik eder: normal vuruşlar hasarsızdır ama Özel saldırılar %400 daha güçlüdür.",
+        "• Strateji: Yol dövüşleri: Black Panther (Klasik) → Wasp → Taskmaster. Mutant şampiyonlarla oynarken kombo sayacını 5'in katlarında tutmaya çalışın; normal vuruş hasarı olmadığı için gücü doğrudan özel saldırılara yönlendirin."
+      ],
+      "defenders": [
+        "blackpanther",
+        "wasp",
+        "taskmaster"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Üçlü Tehdit Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Triple Threat karosu - Savunmacı normal vuruşla vurulduğunda %50 ihtimalle saldırgana rastgele bir Yanma, Soğuk Isırığı ya da Kanama debuff'ı uygular (20 saniyede Saldırının %50'si kadar hasar); bu debuff'ların şiddeti saldırganın kombo sayacındaki her 10 vuruşta bir %5 azalır (maksimum %90). Use It or Lose It karosu - saldırgan bir güç barını doldurduktan sonra 8 saniye içinde özel saldırı kullanmazsa Maksimum Gücünün %20'si anında boşalır.",
+        "• Strateji: Yol dövüşleri: America Chavez → Korg → Thing. Güç dolar dolmaz 8 saniye içinde özel saldırıyı kullanın; kombo sayacınızı yüksek tutarak Triple Threat debuff'larının şiddetini azaltın, bağışıklığı yüksek şampiyonlar tercih edin."
+      ],
+      "defenders": [
+        "americachavez",
+        "korg",
+        "thing"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "spidermanstealthsuit",
+    "bossNodes": [
+      "Örümcek Sezgisi (Spider-Sense Evade) - Spider-Man (Stealth Suit), gelen normal vuruşları yüksek ihtimalle Kaçınır (Evade); bu yetenek bir kullanımdan sonra bekleme süresine girer ama SP1 kullanımıyla anında yeniden aktive edilebilir, bu yüzden basic-vuruş odaklı oyun tarzları burada verimsizdir.",
+      "Gelişmiş Güç Drenajı - Bu bölümdeki Enhanced Power Drain karosu sayesinde boss, saldırganın gücünü normalden daha agresif şekilde çalar; Güç Kilidi (Power Lock) veya Güç Çalma bağışıklığı olmayan şampiyonlar güç biriktirmekte zorlanır.",
+      "Karşı Strateji - Gerçek Vuruş/Gerçek İsabet (True Strike/True Accuracy) yeteneğine sahip şampiyonlar Kaçınmayı görmezden gelebilir; ayrıca uygun Web Cartridge (Web-Foam) getirmek Kaçınma temelli savunmayı büyük ölçüde etkisiz kılar."
+    ],
+    "idealCounters": [
+      "falcon",
+      "magneto",
+      "venom",
+      "apocalypse"
+    ]
+  }
+}

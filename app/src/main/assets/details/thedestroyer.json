@@ -1,0 +1,20 @@
+{
+    "id": "thedestroyer",
+    "name": "The Destroyer",
+    "abilityDetails": {
+        "Destroy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Destroy yeteneği.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Protection yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Hinder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Hinder yeteneği.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "The Destroyer için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "The Destroyer Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

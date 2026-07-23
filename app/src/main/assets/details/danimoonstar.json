@@ -1,0 +1,18 @@
+{
+    "id": "danimoonstar",
+    "name": "Dani Moonstar",
+    "abilityDetails": {
+        "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
+        "Neuroshock": "Rakibe zamanla yüksek elektrik tabanlı hasar verir.",
+        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Marked": "Şampiyonun dövüş sırasında avantaj sağlayan özel Marked yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Dani Moonstar için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Dani Moonstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

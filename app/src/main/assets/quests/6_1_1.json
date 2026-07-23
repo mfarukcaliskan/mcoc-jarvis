@@ -1,0 +1,53 @@
+{
+  "name": "6.1.1 - Kara Düzen",
+  "globalNodes": [
+    "Geri Adım Yok (No Retreat) - 1.2 sn içinde iki kez geri kaçmak pasif Degen (Bozunma) hasarı verir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Agent Venom Yolu - Sağ Yol - En Kolay Yol):",
+        "• Karo Açıklaması: Global Karo 'Geri Adım Yok' etkindir; yolda ekstra can sıkıcı yerel karo yoktur, sadece düz dövüşlerden oluşur. Geriye kaçışları spamlamayın; geri kaçtıktan sonra yeşil zamanlayıcı simgesi bitene kadar blokta bekleyin veya durun.",
+        "• Strateji: Yol dövüşleri: Agent Venom (ısınma) → Red Skull (Ölüm Dokunuşu karosu var, bloğuna asla vurma; siper-kombo veya ağır saldırı kullan) → Iron Patriot (SP1 engellenemez, doğru zamanda geri kaç) → Punisher 2099 (standart dövüş) → Nebula (%100 Güç Kazanımı vardır, özel saldırılarını erken tetikle) → Gambit (Saldırgan Yenilenme karosu var, agresif oynayarak hızlı indir)."
+      ],
+      "defenders": [
+        "agentvenom",
+        "redskull",
+        "ironpatriot",
+        "punisher2099",
+        "nebula",
+        "gambit"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Biyotehlike Yolu):",
+        "• Karo Açıklaması: Biyotehlike karosu etkindir. Vurulduğunda Kanama, bloğa vurulduğunda Zehir debuffı riski taşır.",
+        "• Strateji: Çift bağışıklığa sahip (Kanama + Zehir) şampiyonlar (Warlock, Nimrod, Sentinel) zorunludur."
+      ],
+      "defenders": [
+        "blackpanther",
+        "ultron",
+        "ironman",
+        "vision"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "sabretooth",
+    "bossNodes": [
+      "Karolar: Emphatic Recovery ve Ağır İyileşme (Regeneration).",
+      "Mekanik: Sabretooth sürekli ve çok agresif bir şekilde can yeniler; can yenilemesini durduramazsan dövüş hiç bitmez."
+    ],
+    "idealCounters": [
+      "archangel",
+      "warlock",
+      "nimrod",
+      "doctordoom"
+    ]
+  }
+}

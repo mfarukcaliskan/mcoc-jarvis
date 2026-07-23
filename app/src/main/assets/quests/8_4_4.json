@@ -1,0 +1,53 @@
+{
+  "name": "8.4.4 - Kaya ve Toz",
+  "globalNodes": [
+    "Heads or Tails Bölüm Karosu: 8.4.4'ün resmi adı 'Heads or Tails'dir; üç alternatif final güzergahı sunar (Spot, Terrax, Omega Red) - bu rehber Terrax finaline giden güzergahı kapsar.",
+    "Kaya Alanı (Rock Field) Etkisi: Terrax'a özgü pasif alan etkisi bu bölümün son karosunda devreye girer; yakın mesafede beklemek sürekli enerji hasarı biriktirir, bu yüzden mesafe yönetimi tüm yol boyunca önemlidir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısa Yol - Güç Tipi Az Karşılaşma):",
+        "• Karo Açıklaması: Daha az karşılaşma içerir; Absorbing Man gibi yetenek emen bir ara-bossla karşılaşma riski taşır.",
+        "• Strateji: Absorbing Man'in yetenek emme penceresinde debuff uygulamaktan kaçının; ham hasara dayalı ilerleme tercih edin."
+      ],
+      "defenders": [
+        "absorbing_man",
+        "sandman",
+        "rhino",
+        "hulk"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Uzun Yol - Zırh ve Dayanıklılık Ağırlıklı):",
+        "• Karo Açıklaması: Tüm karşılaşmalar aktiftir; yüksek dayanıklılıklı ve zırhlı savunmacılar art arda gelir.",
+        "• Strateji: Zırh delme (Armor Penetration) yeteneği yüksek şampiyonlarla ilerleyin; uzun maç toleransı olan yapılar getirin."
+      ],
+      "defenders": [
+        "colossus",
+        "juggernaut",
+        "thing",
+        "red_hulk"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "terrax",
+    "bossNodes": [
+      "Kaya Alanı (Rock Field): Terrax maça %33-66 arası güçle ve aktif Kaya Alanıyla başlar; alan aktifken saldırganlar her 0,5 saniyede artan enerji hasarı alır ve Terrax'ın saldırıları ek Attack Rating kazanır.",
+      "Zırh Kırma ve Yok Edilemezlik: Her 0,5 saniyede %35 ihtimalle düşmana 15 saniyelik, en fazla 10 yığın Zırh Kırma (Armor Break) debuff'ı uygular; Kaya Alanı aktifken art arda Yok Edilemezlik (Indestructible) şarjları kazanarak bazı vuruşları tamamen etkisiz bırakır.",
+      "Kozmik Güç (Power Cosmic): 50 Saldırı Şarjı biriktiğinde bunları 1 Kozmik Güç'e çevirir (maçta en fazla 2 kez); her Kozmik Güç, Yok Edilemez durumdayken isabet alındığında Terrax'a ekstra %10 Güç Kazanım Hızı sağlar."
+    ],
+    "idealCounters": [
+      "magik",
+      "captain_marvel",
+      "claire_voyant",
+      "absorbing_man"
+    ]
+  }
+}

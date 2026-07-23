@@ -1,0 +1,16 @@
+{
+    "id": "toad",
+    "name": "Toad",
+    "abilityDetails": {
+        "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Instant Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder."
+    },
+    "synergies": [],
+    "howToPlay": "Toad için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Toad Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

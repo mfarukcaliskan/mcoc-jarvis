@@ -1,0 +1,51 @@
+{
+  "name": "9.3.5 - Zihin Oyunları",
+  "globalNodes": [
+    "Kapı Sistemi (Gate): Yol A, Kozmik (Cosmic) Kapısı ile açılır ve Kozmik sınıfına giriş avantajı sağlar; Yol B, Bilim (Science) Kapısı ile açılır ve Bilim sınıfına avantaj tanır.",
+    "Yeşil Kapı Yankısı: Bu bölüm, Leader'ın 'Yeşil Kapı' deneylerinin haritaya sızan yankılarını içerir; gama/psişik temalı savunmacılar saldırgan üzerindeki her debuff ile daha hızlı güçlenir, bu yüzden gereksiz debuff biriktirmek riskli hale gelir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kozmik Kapı - En Kolay Yol):",
+        "• Karo Açıklaması: Enerji/gama temalı kozmik savunmacılardan oluşur (Sentry, Red Hulk, Abomination); Sentry'nin Void kişiliği açığa çıkma riski dışında düz hasar temposu daha yönetilebilirdir.",
+        "• Strateji: Kapıyı Kozmik sınıfıyla açıp bonus alın; Sentry'de kombo sayacını düşük tutarak Void tetiklenme riskini azaltın, Red Hulk'un öfke birikimine karşı uzun bekletmeli maçlardan kaçının."
+      ],
+      "defenders": [
+        "sentry",
+        "red_hulk",
+        "abomination"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Bilim Kapısı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Ağır dayanıklılık ve debuff üretimi yüksek bilim savunmacıları (Immortal Abomination, Hulk, Mister Fantastic) art arda gelir; Immortal Abomination'ın ölümsüzlük mekaniği kaynak tüketimini artırır.",
+        "• Strateji: Debuff bağışıklığı ve blok sağlamlığı yüksek bir yapı getirin; Immortal Abomination'ın gerçek zayıf noktasını (geçici ölümsüzlük kırılma penceresi) bekleyip büyük hasarı o ana saklayın."
+      ],
+      "defenders": [
+        "immortal_abomination",
+        "hulk",
+        "mister_fantastic"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "leader",
+    "bossNodes": [
+      "Yeşil Kapı (Green Door): Arenanın ortasında açık/kapalı iki durumu olan bir bölge bulunur; Leader, saldırgan üzerindeki her aktif debuff ile Gama Radyasyonunu %15'e kadar daha hızlı biriktirir (saniyede temel 2 birim).",
+      "Kapı Açılınca: Gama Radyasyonu 100'e ulaştığında Kapı açılır, Leader saldırgan üzerindeki her debuff için Öfke (Fury) kazanır ve saldırgan Kapı üzerinde durursa periyodik Dejenerasyon hasarı alır; açık kapı saniyede 6 birim Gama tüketir (özel saldırılar sırasında durur).",
+      "Planın Bir Parçası (Special 3): Yoğun hasar sonrası ek destek çağırarak saldırıyı pekiştirir."
+    ],
+    "idealCounters": [
+      "sentinel",
+      "colossus",
+      "corvus_glaive",
+      "magik"
+    ]
+  }
+}

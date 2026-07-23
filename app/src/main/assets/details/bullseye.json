@@ -1,0 +1,23 @@
+{
+    "id": "bullseye",
+    "name": "Bullseye",
+    "abilityDetails": {
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "Impact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Impact yeteneği.",
+        "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Bullseye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Bullseye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,17 @@
+{
+    "id": "elsabloodstone",
+    "name": "Elsa Bloodstone",
+    "abilityDetails": {
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır."
+    },
+    "synergies": [],
+    "howToPlay": "Elsa Bloodstone için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Elsa Bloodstone Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,63 @@
+{
+  "name": "6.4.2 - Gök Gürültüsü",
+  "globalNodes": [
+    "Aspect of Death (küresel) - Bir savunmacı Özel Saldırı attığında, sonraki 4 saniye boyunca onun başarılı vuruşları ölümcül hale gelir (saldırganı tek vuruşta bitirebilir); bu pencerede kesintisiz blok şarttır. Aksiyon 6 Bölüm 4 standart güçlendirmesi (+%600 Saldırı/Can, savunmacı özel saldırıları bloklanamaz) haritanın tamamında etkindir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Domino Koridoru - En Kolay Yol):",
+        "• Karo Açıklaması: Combo Shield düğümü savunmacıya kombo sayısı arttıkça güçlenen bir blok-kırma direnç kalkanı verir; Prove Yourself düğümü ise 15 kombo altındaki savunmacıyı yok edilemez (unkillable) kılar.",
+        "• Strateji: Yol dövüşleri Domino → Angela → Black Panther (Classic) → Blade → Crossbones → Gambit → Drax → Rogue (Mini-Boss) sırasındadır. (Not: İlk sıradaki Domino can sıkıcıdır; şanssızlık yaşarsanız yol başında olduğunuz için restart atabilirsiniz.) Prove Yourself'i tetiklememek için düzenli parry ile kombonuzu sıfırlamayın; Aspect of Death penceresinde daima blokta kalın."
+      ],
+      "defenders": [
+        "domino",
+        "angela",
+        "blackpanther",
+        "blade",
+        "crossbones",
+        "gambit",
+        "drax",
+        "rogue"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Teknoloji Koridoru - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Aynı Aspect of Death ve Combo Shield mekanikleri geçerlidir; bu yol enerji/teknoloji temalı savunmacılardan geçip Doctor Octopus mini-boss'una çıkar.",
+        "• Strateji: Yol dövüşleri Invisible Woman → Psylocke → Punisher 2099 → She-Hulk → Iron Patriot → Doctor Octopus (Mini-Boss) sırasındadır. Enerji hasarına dayanıklı şampiyonlarla ilerleyip Thor Ragnarok öncesinde kaynaklarınızı (revive/potion) koruyun."
+      ],
+      "defenders": [
+        "invisiblewoman",
+        "psylocke",
+        "punisher2099",
+        "shehulk",
+        "ironpatriot",
+        "doctoroctopus"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "thorragnarok",
+    "bossNodes": [
+      "One-Eyed Slugger (Tek Gözlü Vurucu) - Thor'a Ağır Saldırı (Heavy) indirdiğinizde 15 saniyeliğine bir koruma kazanır; bu koruma aktifken kendi Özel Saldırılarınız (SP) ona %400 daha fazla hasar verir. Doğru strateji: dövüş boyunca sadece düz/orta vuruşlarla güç barınızı SP2 veya SP3'e kadar doldurun, gücünüz dolduğunda Thor'u siper ile sersemletip Ağır Darbe indirin ve hemen ardından en güçlü Özel Saldırınızı yapıştırın.",
+      "Şok Bağışıklığı Yok - Thor Ragnarok'un vuruşları saldırgana Şok yükleri uygular; yığınlar arttıkça alınan hasar oranı yükselir.",
+      "Aspect of Death - Boss'un özel saldırısından sonraki 4 saniye içindeki başarılı vuruşları ölümcüldür, bu yüzden pencere boyunca blok zorunludur.",
+      "Strateji: Şok direnci/bağışıklığı olan (Aegon, Magik) ya da çok yüksek burst hasarlı (Doctor Doom, Namor, Spider-Man Stark) şampiyonlarla dövüşü hızlı bitirmek en güvenli yoldur. Boss Karşıtları: Doctor Doom (güç kontrolü ve devasa SP2 hasarı), Cosmic Ghost Rider (CGR - SP2 hasar patlaması), Hulkling veya Hercules. Yol Counterları: Hulkling, CGR, Galan (zayıflatıcıdan etkilenmeyen yüksek hasar), Archangel (Crossbones ve diğerleri için nörotoksin), Kingpin & Shang-Chi (zayıflatıcıları temizler)."
+    ],
+    "idealCounters": [
+      "doctordoom",
+      "cosmicghostrider",
+      "hulkling",
+      "hercules",
+      "aegon",
+      "magik",
+      "spidermanstarkenhanced",
+      "namor"
+    ]
+  }
+}

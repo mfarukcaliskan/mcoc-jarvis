@@ -1,0 +1,19 @@
+{
+    "id": "ronin",
+    "name": "Ronin",
+    "abilityDetails": {
+        "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
+        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
+    },
+    "synergies": [],
+    "howToPlay": "Ronin için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Ronin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

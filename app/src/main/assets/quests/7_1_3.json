@@ -1,0 +1,56 @@
+{
+  "name": "7.1.3 - Buzlu Vizyon",
+  "globalNodes": [
+    "Yıldız Gücü / Adrenalin Hücumu / Hattı Koru (Star Power / Adrenaline Rush / Hold The Line) - Bölüm boyunca saldırgan tarafında aktif üç karo birden çalışır: Yıldız Gücü 6 yıldızlı saldırganlara kalıcı +700 Saldırı Öfkesi verir; Adrenalin Hücumu, saldırgan vuruş yedikçe artan ve saldırgana anlık %100'e kadar Hasar Azaltma sağlayan bir Adrenalin ölçeği oluşturur; Hattı Koru ise aynı ölçeğe bağlı olarak saldırgana %80'e kadar Blok Yeterliliği kazandırır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Blaze Hattı - En Kolay Yol):",
+        "• Karo Açıklaması: Blaze karosu saldırgana zamanla artan bir yanma tipi degen hasarı biriktirir; Güç Ekseni 2 savunmacının güç kazanımını hızlandırır; Güç Kalkanı (Power Shield) savunmacıya güç doldukça geçici bir kalkan verir.",
+        "• Strateji: Yol dövüşleri: Gambit → Karnak → Captain America → Falcon → Sorcerer Supreme → Joe Fixit. Blaze'in birikimli hasarını sıfırlamak için düzenli aralıklarla geri çekilin veya yüksek yanma direnci götürün; Güç Kalkanı aktifken özel saldırı yerine temiz kombo/parry tercih edin."
+      ],
+      "defenders": [
+        "gambit",
+        "karnak",
+        "captainamerica",
+        "falcon",
+        "sorcerersupreme",
+        "joefixit"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Backfire Hattı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: O Acıtacak (That's Gonna Sting) karosu isabetli vuruşlara karşılık verir; Backfire karosu belirli saldırılarda hasarı saldırgana geri yansıtır; Güç Alternatörü (Power Alternator) ve Güç Atıştırması (Power Snack 1) savunmacının güç akışını saldırgan aleyhine çevirir.",
+        "• Strateji: Yol dövüşleri: Doctor Strange → Cable → Hyperion → Vision (Klasik) → Phoenix → Loki. Backfire riskini azaltmak için ağır saldırı yerine hafif kombo tercih edin; güç yönetimini sıkı tutup gereksiz özel saldırı kullanmaktan kaçının."
+      ],
+      "defenders": [
+        "doctorstrange",
+        "cable",
+        "hyperion",
+        "vision",
+        "phoenix",
+        "loki"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "visionaarkus",
+    "bossNodes": [
+      "Özel Patlama Kilidi 2 (Special Burst Lock Down 2) - Vision Aarkus'un özel saldırıları belirli bir eşiğin üzerinde saldırganın özel saldırı kullanımını geçici olarak kilitler.",
+      "Güç Tersine Çevirme (Power Reversal) & Fissure - Saldırganın güç kazanımı zaman zaman tersine çevrilir; Fissure aktif olduğunda büyük tek seferlik enerji hasarı verir.",
+      "Zırh Kırma / Dondurma Zinciri - Vision Aarkus Güç Kazanımı (Power Gain) buff'ı aktifken ona yaklaşmak saldırgana 2.3 saniyelik, 10 kata kadar istiflenen bir Zırh Kırma (Armor Break) süresi uygular; Zırh Kırma aktifken tekrar yaklaşmak ek olarak Dondurma Çarpması (Coldsnap) debuff'ı tetikler - Zırh Kırma veya Coldsnap bağışıklığı olmayan şampiyonlar açılış anında büyük hasar alır."
+    ],
+    "idealCounters": [
+      "doctordoom",
+      "colossus",
+      "humantorch",
+      "corvusglaive"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "6.2.5 - Güvensizlik",
+  "globalNodes": [
+    "Nazikçe Gitme Yok (Do Not Go Gentle) - Saldırgan, kombo sayacındaki her 5 vuruş için 1 yük kazanır. Savunmacıdan gelen ve Saldırganı KO edecek bir hasar isabet ettiğinde, Saldırganın 1 veya daha fazla yükü varsa KO gerçekleşmez; bunun yerine 1 yük harcanır ve Saldırgan Savunmacının Saldırı Gücüne eşit hasar alır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Portal C Yolu - Hela ile Başlayan Rota - En Kolay Yol):",
+        "• Karo Açıklaması: Girişte Portal C (Teleporter 9) seçimini yapıp Hela üzerinden ilerleyen en basit ve az canlandırıcı (revive) harcayacağınız yoldur; küresel Nazikçe Gitme Yok düğümü etkindir - kombo bozulmadan uzun süre devam ederse birikin yükler sizi öldürücü hasardan bir kez koruyup ardından size ciddi hasar verir.",
+        "• Strateji: Komboyu bilinçli olarak zaman zaman bozup gereksiz yük biriktirmeyin; Gwenpool'un aşırı hızlı güç kazanmasına karşı Doom veya Magik gibi güç kontrolü yapan şampiyonlar gerekir, Karnak'ın zayıf nokta tespitine ve Colossus'un kırılmaz zırhına (sersemletme bağışıklığı - ağır saldırısını boşa çıkarın) dikkat ederek ilerleyin, yükleri boss dövüşünden önce tüketmeye çalışın. Sıra: Hela, Moon Knight, Gwenpool, Dr. Voodoo, Gamora, Cosmic Spider-Man, Karnak, Colossus."
+      ],
+      "defenders": [
+        "hela",
+        "moonknight",
+        "gwenpool",
+        "doctorvoodoo",
+        "gamora",
+        "spidermansupreme",
+        "karnak",
+        "colossus"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Cehennem Yolu - Alternatif Zor Yol):",
+        "• Karo Açıklaması: Aynı Do Not Go Gentle global düğümü geçerlidir; mistik/cehennem temalı savunmacılar (Ghost Rider, Mephisto, Dormammu, Loki) ile ilerlenir, bu şampiyonların debuff ve buff manipülasyonlarına dikkat gerekir.",
+        "• Strateji: Debuff bağışıklığı yüksek ve gereksiz buff üretmeyen bir takımla girin; bu disiplin, boss Mordo'nun Spite mekaniğine karşı da alışkanlık kazandırır."
+      ],
+      "defenders": [
+        "ghostrider",
+        "mephisto",
+        "dormammu",
+        "loki"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "mordo",
+    "bossNodes": [
+      "Spite (Kötü Niyet) - Saldırganın üzerinde aktif bir buff varken Mordo çok hızlı güç kazanır.",
+      "Hurt Locker - Aynı özel saldırıyı art arda iki kez kullanmak ağır şekilde cezalandırılır.",
+      "Gelişmiş Hiddet (Enhanced Fury) ve Gelişmiş Özel 1 - güç kazanımı aktifken vurulursa bu kazanım kesintiye uğrar.",
+      "Siper aldığınızda Mordo doğrudan karşı saldırı (Astral Evade) yapar ve pasif güç kazanır.",
+      "Doctor Doom (Solo): Mordo siperliyken (Stun altındayken) Doom'un hafif ve orta saldırıları Astral Evade tetiklemez; ayrıca SP3 çevrimi ile gücünü sürekli çalabilirsiniz. White Magneto (Dövüş Öncesi/Pre-fight): Dövüş öncesi yeteneği aktif edilirse Mordo'ya atılan Siperler 'Pasif Sersemletme'ye dönüşür ve Astral Evade yeteneği tamamen devre dışı kalır. Diğer alternatifler: Human Torch (alev yükleriyle eritir), Spider-Ham (özel saldırı attıkça kendini patlatır) ve Hercules (ölümsüzlük)."
+    ],
+    "idealCounters": [
+      "doctordoom",
+      "magneto",
+      "humantorch",
+      "spiderham",
+      "hercules",
+      "spidergwen",
+      "shehulk",
+      "archangel",
+      "void"
+    ]
+  }
+}

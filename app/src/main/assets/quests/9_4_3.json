@@ -1,0 +1,56 @@
+{
+  "name": "9.4.3 - Arcade Dünyası",
+  "globalNodes": [
+    "Sınıf Kapısı Sistemi: Görevde 3 alternatif giriş kapısı bulunur (Kozmik+Mistik / Teknoloji+Mutant / Yetenek+Bilim); her kapı çifti yalnızca ilgili iki sınıftan şampiyonların geçişine izin verir ve üç farklı boss'a açılır (Arcade / Apocalypse / Count Nefaria). Bu rehber Arcade'a götüren Kozmik+Mistik Kapısı'nı (A) ve Apocalypse'a götüren Teknoloji+Mutant Kapısı'nı (B) kapsar.",
+    "Murderworld Tuzak Düğümleri: Arcade'ın Murderworld temalı düğümleri haritaya rastgele bir Bubi Tuzağı yerleştirir; rakip bu tuzağın üzerindeyken Özel saldırı başlatma ihtimali %60 artar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kozmik+Mistik Kapısı - En Kolay Yol):",
+        "• Karo Açıklaması: Kapı yalnızca Kozmik veya Mistik sınıfı şampiyonların geçişine izin verir. Yol üzerindeki savunmacılar Arcade'ın Murderworld robotlarıdır ve Zehir/Şok bağışıklığına sahiptir.",
+        "• Strateji: Kozmik sınıfından bir saldırganla (ör. Hyperion, Sersi) kapıyı geçin; Undermine veya Ağır saldırılarla Auto-Block mekaniklerini kırın, Bubi Tuzağı üzerindeyken gereksiz Ağır saldırı şarj etmeyin."
+      ],
+      "defenders": [
+        "hyperion",
+        "sersi",
+        "void",
+        "gladiator",
+        "quasar"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Teknoloji+Mutant Kapısı - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Kapı yalnızca Teknoloji veya Mutant sınıfı şampiyonların geçişine izin verir ve Apocalypse'ın Sonsuz Bağışıklıklarıyla (Kanama/Şaşkınlık/Yanma) güçlenen savunmacılara açılır.",
+        "• Strateji: Teknoloji sınıfından bir saldırganla (Apocalypse'a karşı sınıf avantajı için, ör. Ultron, Ironheart) ilerleyin; Apocalypse rakibin debuff'ını arındırdığında 2 saniyeliğine Bloklanamaz hale geldiğinden bu pencerede saldırıyı kesin ve geri çekilin."
+      ],
+      "defenders": [
+        "ultron",
+        "ironheart",
+        "sentinel",
+        "iron_man",
+        "war_machine"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "arcade",
+    "bossNodes": [
+      "Bubi Tuzağı: Dövüş başında savunmacının köşesine bir tuzak yerleştirilir; rakip tuzağın üzerindeyken Özel saldırı ihtimali %60 artar, Arcade Ağır saldırı şarj ederken veya bırakırken tuzak patlayıp rakibi 3 saniye pasif olarak Sersemletir.",
+      "Zehirli Bulut: İkinci vuruştan sonra rakibin bulunduğu yere bir Zehirli Bulut bırakılır; elektrik temaslı vuruşlar 10 saniye boyunca enerji hasarı veren Şok debuff'ı uygular.",
+      "Kapı Seçimi (Özel 3): Rastgele bir kapı seçilerek kalıcı Kanama, Yırtılma veya Şok debuff'larından biri rakibe uygulanır.",
+      "Sebatkâr Auto-Block: Arcade bir saldırıyı otomatik bloklamadan hemen önce, Ağır saldırılar hariç, yığılmayan bir Sebatkâr (Steadfast) buff'ı kazanır; bu Auto-Block ancak Undermine, Gerçek İsabet veya Ağır saldırılarla kırılabilir."
+    ],
+    "idealCounters": [
+      "vox",
+      "gorr",
+      "super_skrull",
+      "hyperion"
+    ]
+  }
+}

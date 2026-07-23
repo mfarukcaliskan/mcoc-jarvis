@@ -1,0 +1,19 @@
+{
+    "id": "magneto",
+    "name": "Magneto",
+    "abilityDetails": {
+        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Magneto için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Magneto Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

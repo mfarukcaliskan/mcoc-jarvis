@@ -1,0 +1,12 @@
+{
+    "id": "beast",
+    "name": "Beast",
+    "abilityDetails": {
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
+        "Regeneration": "Can barını zamanla yeniler."
+    },
+    "synergies": [],
+    "howToPlay": "Beast için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Beast Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

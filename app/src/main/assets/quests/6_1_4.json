@@ -1,0 +1,50 @@
+{
+  "name": "6.1.4 - Oyundaki Taşlar",
+  "globalNodes": [
+    "Yakın Dövüş (Close Encounters) - Savunmacıya yakınken saniyede %1 iyileşir, uzakken saniyede %3 Degen alırsınız."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Phoenix Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Global Karo 'Yakın Dövüş' etkindir; düşmana yakın durduğunuzda iyileşir, uzaklaştığınızda Degen alırsınız.",
+        "• Strateji: Yol dövüşleri: Phoenix → Sabretooth → Wolverine → Guillotine → The Hood. Dövüş boyunca düşmanın üstüne yürüyün, agresif oynayın ve köşede sıkıştırın."
+      ],
+      "defenders": [
+        "phoenix",
+        "sabretooth",
+        "wolverine",
+        "guillotine",
+        "thehood"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Güç Kalkanı Yolu):",
+        "• Karo Açıklaması: Normal saldırılar hasar vermez; sadece Özel Saldırılar (SP1, SP2, SP3) %400 hasar çarpanıyla vurur.",
+        "• Strateji: Hızlı güç üreten ve güvenilir SP1'e sahip şampiyonlar tercih edin, gereksiz normal saldırı zincirlerinden kaçının."
+      ],
+      "defenders": [
+        "thehood",
+        "dormammu",
+        "mordo",
+        "magik"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "loki",
+    "bossNodes": [
+      "Karolar: Esneklik (Limber) - Loki'nin üzerinde bu karo bulunur; her siper (parry) attığınızda sersemletme (stun) süresi kısalır.",
+      "Mekanik: Siper sonrası uzun kombolar yerine kısa ve verimli kombolarla ilerleyin; kısıtlı sersemleme süresini en iyi şekilde değerlendirin."
+    ],
+    "idealCounters": [
+      "magneto",
+      "humantorch"
+    ]
+  }
+}

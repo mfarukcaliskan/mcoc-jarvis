@@ -1,0 +1,18 @@
+{
+    "id": "morningstar",
+    "name": "Morningstar",
+    "abilityDetails": {
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
+        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Morningstar için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Morningstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

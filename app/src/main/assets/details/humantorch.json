@@ -1,0 +1,15 @@
+{
+    "id": "humantorch",
+    "name": "Human Torch",
+    "abilityDetails": {
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
+        "Nova Flame": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nova Flame yeteneği.",
+        "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
+        "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
+    },
+    "synergies": [],
+    "howToPlay": "Human Torch için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Human Torch Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

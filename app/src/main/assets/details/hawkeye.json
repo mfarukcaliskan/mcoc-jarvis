@@ -1,0 +1,17 @@
+{
+    "id": "hawkeye",
+    "name": "Hawkeye",
+    "abilityDetails": {
+        "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Fragility": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fragility yeteneği.",
+        "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir."
+    },
+    "synergies": [],
+    "howToPlay": "Hawkeye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Hawkeye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

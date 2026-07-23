@@ -1,0 +1,20 @@
+{
+    "id": "arnimzola",
+    "name": "Arnim Zola",
+    "abilityDetails": {
+        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Special Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Lock yeteneği.",
+        "Cowardice": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cowardice yeteneği.",
+        "Sleep": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sleep yeteneği.",
+        "Disintegration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disintegration yeteneği.",
+        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Unblockable": "Saldırıların bloklanmasını engeller."
+    },
+    "synergies": [],
+    "howToPlay": "Arnim Zola için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Arnim Zola Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

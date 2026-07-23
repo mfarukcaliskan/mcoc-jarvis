@@ -1,0 +1,17 @@
+{
+    "id": "cyclopsblueteam",
+    "name": "Cyclops (Blue Team)",
+    "abilityDetails": {
+        "True Focus": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Focus yeteneği.",
+        "Precision": "Kritik vuruş şansını artırır.",
+        "Unblockable": "Saldırıların bloklanmasını engeller.",
+        "Prowess": "Özel saldırıların (SP) hasarını artırır.",
+        "Power Efficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Efficiency yeteneği.",
+        "Special Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Protection yeteneği.",
+        "Adrenaline": "Şampiyonun dövüş sırasında avantaj sağlayan özel Adrenaline yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Cyclops (Blue Team) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Cyclops (Blue Team) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

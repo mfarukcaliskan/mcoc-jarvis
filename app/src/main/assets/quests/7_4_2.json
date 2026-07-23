@@ -1,0 +1,52 @@
+{
+  "name": "7.4.2 - Çapraz Kemikler",
+  "globalNodes": [
+    "Kangdom Come Adrenalin Sistemi: Bu bölümdeki 6 Yıldızlı saldırganlar kalıcı olarak +700 Öfke (Fury) kazanır (Star Power); ayrıca saldırganın mevcut Adrenalin seviyesine bağlı olarak zaman zaman %100'e varan Hasar Azaltma (Adrenaline Rush) ve her an +80 Blok Yeterliliğine kadar bonus (Hold The Line) uygulanır.",
+    "Burnout Karosu: Savunmacı bir Özel Saldırı başlattığında 1 Burnout Yığını kazanır ve bu yığın başına kendi Özel Saldırı hasarını %10 artırır; 10 veya daha fazla yığına ulaştığında 10 yığın silinir ve savunmacı 10 saniyeliğine pasif olarak Güç Kilitlenir (Power Locked)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Mistik Rüzgarlar Yolu - En Kolay Yol):",
+        "• Karo Açıklaması: Arcane Zeal karosu bulunur - Mistik sınıf saldırganlar üzerlerinde Prowess pasifi kazanır. Savunmacılar ayrıca Zırh Kırma Bağışıklığına (Armor Break Immunity) sahiptir, bu yüzden zırh kırma temelli oyun tarzı burada işe yaramaz.",
+        "• Strateji: Yol dövüşleri: Cosmic Ghost Rider → Sersi → Terrax. Mistik sınıfından bir saldırganla (ör. Doctor Doom, Magik) ilerleyin ki Arcane Zeal'in Prowess bonusundan faydalanın; zırh kırmaya güvenmek yerine ham hasar ve parry döngüsüne odaklanın."
+      ],
+      "defenders": [
+        "cosmicghostrider",
+        "sersi",
+        "terrax"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Zırh Fırtınası Yolu - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Turtling karosu bulunur - saldırgan belirli bir süre vuruş yapmazsa savunmacı Zırh Artışı kazanır; Power Shield 2.0 karosu, Özel Saldırılar hariç tüm hasarı büyük oranda azaltır; Static Defence 3 karosu ise savunmacının Zırh Artışı buff'larını Şok debuff'larına dönüştürür.",
+        "• Strateji: Yol dövüşleri: Magneto → Yondu → Apocalypse. Sürekli baskı kurup Turtling'i tetiklememeye çalışın; hasarınızın büyük kısmını Özel Saldırılardan alın çünkü Power Shield temel vuruşları büyük ölçüde etkisizleştirir; Şok bağışıklığı olan şampiyonlar Static Defence 3'ü güvenle görmezden gelir."
+      ],
+      "defenders": [
+        "magneto",
+        "yondu",
+        "apocalypse"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "crossbones",
+    "bossNodes": [
+      "Overrun: Crossbones geriye doğru dashleyip 1,2 saniye blok tutarak Overrun'ı aktive eder; aktif olduğunda 12 saniye sürer (8 saniye bekleme süresiyle) ve aktivasyonda tüm kişisel Öfke (Fury) buff'larının süresini yeniler ve 2 yeni Öfke buff'ı kazandırır.",
+      "Kritik Yapamama ve Öfke Dönüşümü: Hidrolik eldivenleri Kritik vuruş yapmasını engeller; kritik vuruş yapacağı her an bunun yerine bir Öfke buff'ı kazanır, bu da onu sürekli güçlenen bir savunmacı yapar.",
+      "Savunma Yeteneği İsabeti Düşürme: Her aktif Öfke buff'ı için rakibin Savunma Yeteneği İsabetini (Defensive Ability Accuracy) %20 azaltır; rakip #Hero etiketli bir şampiyonsa bu oran %25'e çıkar, bu yüzden blok/evade temelli savunma yetenekleri güvenilmez hale gelir."
+    ],
+    "idealCounters": [
+      "magneto",
+      "hercules",
+      "corvusglaive",
+      "havok",
+      "doctordoom"
+    ]
+  }
+}

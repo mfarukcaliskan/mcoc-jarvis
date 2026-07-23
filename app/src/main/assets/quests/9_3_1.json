@@ -1,0 +1,54 @@
+{
+  "name": "9.3.1 - İllüzyon Savaşları",
+  "globalNodes": [
+    "Kapı Sistemi (Gate): Her iki yol da bir sınıf 'kapısı' ile başlar; Yol A'daki Bilim Kapısı (Science Gate) Bilim sınıfı saldırganlara giriş bonusu (kısa süreli hasar/güç avantajı) verirken diğer sınıfları hafif dezavantajlı başlatır. Kapı seçimini yanlış sınıfla açmak savunmacılara ekstra Öfke (Fury) kazandırır.",
+    "Doom'un Çatlamış Bilinci: Act 9.3 boyunca haritada Doctor Doom'un Chronoserpent deneyi sonucu parçalanan bilincinin izleri bulunur; bu nedenle bölüm genelinde illüzyon/zihin temalı savunmacılar (Loki, Mysterio, Nightmare, Enchantress) ve onların Kandırma/Kopya mekanikleri yoğunlaşır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Ruhsal Terazi / Spiritual Scale - Bilim Kapısı, En Kolay Yol):",
+        "• Karo Açıklaması: Bu şeritte 'Precision' (Kesinlik) ve 'Root' (Kökleme) düğümleri bulunur; savunmacılar iniş vuruşlarında Kesin İsabet kazanır ve başarılı vuruşlarında saldırganı kısa süreliğine yere sabitleyebilir (kaçış/gerileme engellenir). İllüzyon/aldatmaca temalı savunmacılar sahte açık bırakıp karşı saldırı tetikler.",
+        "• Strateji: Bilim Kapısını Bilim sınıfı bir şampiyonla açarak giriş avantajını alın; Root düğümüne karşı sabit duruşta bekleyip parry sonrası tam kombo yerine kısa vuruş dizileri kullanın, kökleme sırasında gelen karşı saldırıyı bloklayın. Mysterio ve Nightmare gibi illüzyon üreten savunmacılarda gerçek saldırı ile sahte animasyonu ayırt etmek için düşük riskli, öngörülebilir kombolar tercih edin."
+      ],
+      "defenders": [
+        "mysterio",
+        "nightmare",
+        "enchantress",
+        "mephisto"
+      ]
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Aslan Yürek Yolu / Lionheart Path - Zorlu Alternatif Yol):",
+        "• Karo Açıklaması: Mistik büyücü temalı savunmacılar art arda dizilmiştir; her karşılaşma sonrası kısa süreli bir Aşınma (Erosion) debuff'ı sonraki dövüşe taşınır, bu nedenle kümülatif can kaybı riski Yol A'ya göre çok daha yüksektir.",
+        "• Strateji: Geniş debuff bağışıklığına (Şaşkınlık/Kontrol Tersine Çevirme, Kanama) sahip ve kendi kendini iyileştirebilen şampiyonlarla ilerleyin; Aşınma birikimini yönetmek için yol boyunca sağlık iksiri/takım desteğini boss öncesine değil, ilk yarıda kullanmaktan kaçının."
+      ],
+      "defenders": [
+        "doctor_voodoo",
+        "scarlet_witch",
+        "magik",
+        "mordo"
+      ]
+    }
+  ],
+  "boss": {
+    "championId": "loki",
+    "bossNodes": [
+      "Lanet (Curse): Loki'nin vuruşları saldırganı Lanetler; Lanetliyken saldırganın aktif Buff'ları çalınıp Loki'ye aktarılır ve saldırganın vuruşları bu süre boyunca garantili Kritik Vuruş haline gelir (kendi aleyhine).",
+      "İllüzyon (Illusion): Loki, kombo bitirmeyen bir vuruşun ardından geri kaçarken bir İllüzyon Pasifi kazanır; İllüzyon aktifken saldırganın vuruşları %100 ıska geçer.",
+      "Kaos (Special 3 - Mayhem): Loki saldırganı kendi illüzyonlarına saldırtıp gerçek darbeyi son anda indirir; bu özel saldırı sırasında hem Lanet hem de Buff çalma tetiklenir."
+    ],
+    "idealCounters": [
+      "img_void",
+      "doctor_doom",
+      "human_torch",
+      "killmonger",
+      "ghost_rider"
+    ]
+  }
+}

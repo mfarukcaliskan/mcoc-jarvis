@@ -1,0 +1,19 @@
+{
+    "id": "misternegative",
+    "name": "Mister Negative",
+    "abilityDetails": {
+        "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
+        "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
+        "Delirium": "Rakibin özel saldırı zamanlamalarını bozar.",
+        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
+        "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
+        "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
+        "Regeneration": "Can barını zamanla yeniler.",
+        "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir."
+    },
+    "synergies": [],
+    "howToPlay": "Mister Negative için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Mister Negative Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}

@@ -1,0 +1,16 @@
+{
+    "id": "squirrelgirl",
+    "name": "Squirrel Girl",
+    "abilityDetails": {
+        "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
+        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Distraction": "Şampiyonun dövüş sırasında avantaj sağlayan özel Distraction yeteneği.",
+        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği."
+    },
+    "synergies": [],
+    "howToPlay": "Squirrel Girl için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "signatureAbility": "Squirrel Girl Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+}
