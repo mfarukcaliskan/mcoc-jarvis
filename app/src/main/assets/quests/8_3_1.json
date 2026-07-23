@@ -14,9 +14,9 @@
         "• Strateji: Beceri savunmacılarına karşı Apocalypse gibi mutant temelli yüksek hasarlı şampiyonlar, Bilim savunmacılarına karşı Nick Fury kullanın; Morningstar karşısında yanma/enerji hasarı veren Human Torch tipi şampiyonlar hızlı temizlik sağlar."
       ],
       "defenders": [
-        "night_thrasher",
+        "nightthrasher",
         "morningstar",
-        "agent_venom",
+        "agentvenom",
         "crossbones"
       ]
     },
@@ -29,9 +29,9 @@
         "• Strateji: Nick Fury ve Kingpin gibi debuff temizleme ve sabit hasar üretebilen şampiyonlarla ilerleyin; Hulk'ın kırılma potansiyeli de bu yolu hızlandırır."
       ],
       "defenders": [
-        "ant_man",
+        "antman",
         "iceman",
-        "emma_frost",
+        "emmafrost",
         "bishop"
       ]
     }
@@ -46,7 +46,7 @@
     "idealCounters": [
       "longshot",
       "hercules",
-      "human_torch",
+      "humantorch",
       "hyperion"
     ]
   }

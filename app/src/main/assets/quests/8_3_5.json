@@ -14,9 +14,9 @@
         "• Strateji: Doom'un enerji kalkanını parry ile kırın; Symbiote Supreme'e karşı sembiyot karşıtı etiketi olan şampiyonlar tercih edin."
       ],
       "defenders": [
-        "doctor_doom",
+        "doctordoom",
         "mordo",
-        "symbiote_supreme",
+        "symbiotesupreme",
         "sentinel"
       ]
     },
@@ -29,10 +29,10 @@
         "• Strateji: Kızdırma bağışıklığı olan şampiyonlarla girin; Ultron karşısında hızlı, kesintisiz kombo yaparak dron çağırmasını engelleyin."
       ],
       "defenders": [
-        "peni_parker",
+        "peniparker",
         "ultron",
         "sentinel",
-        "viv_vision"
+        "vivvision"
       ]
     }
   ],
@@ -45,8 +45,8 @@
     ],
     "idealCounters": [
       "colossus",
-      "viv_vision",
-      "red_skull",
+      "vivvision",
+      "redskull",
       "ironheart",
       "warlock"
     ]

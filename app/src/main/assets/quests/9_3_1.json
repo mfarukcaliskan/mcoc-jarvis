@@ -29,8 +29,8 @@
         "• Strateji: Geniş debuff bağışıklığına (Şaşkınlık/Kontrol Tersine Çevirme, Kanama) sahip ve kendi kendini iyileştirebilen şampiyonlarla ilerleyin; Aşınma birikimini yönetmek için yol boyunca sağlık iksiri/takım desteğini boss öncesine değil, ilk yarıda kullanmaktan kaçının."
       ],
       "defenders": [
-        "doctor_voodoo",
-        "scarlet_witch",
+        "doctorvoodoo",
+        "scarletwitch",
         "magik",
         "mordo"
       ]
@@ -44,11 +44,11 @@
       "Kaos (Special 3 - Mayhem): Loki saldırganı kendi illüzyonlarına saldırtıp gerçek darbeyi son anda indirir; bu özel saldırı sırasında hem Lanet hem de Buff çalma tetiklenir."
     ],
     "idealCounters": [
-      "img_void",
-      "doctor_doom",
-      "human_torch",
+      "void",
+      "doctordoom",
+      "humantorch",
       "killmonger",
-      "ghost_rider"
+      "ghostrider"
     ]
   }
 }

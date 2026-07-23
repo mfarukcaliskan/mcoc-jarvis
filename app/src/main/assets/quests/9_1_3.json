@@ -14,10 +14,10 @@
         "• Strateji: Kaçışı azaltan (Ability Accuracy Reduction) veya kaçış engelleyici (Anti-Evade) şampiyonlar getirin; kısa mesafeli hızlı kombolar tercih edin."
       ],
       "defenders": [
-        "spider_man",
-        "spider_gwen",
-        "spider_man_stark",
-        "captain_america"
+        "spiderman",
+        "spidergwen",
+        "spidermanstarkenhanced",
+        "captainamerica"
       ]
     },
     {
@@ -37,7 +37,7 @@
     }
   ],
   "boss": {
-    "championId": "overseer",
+    "championId": "theoverseer",
     "bossNodes": [
       "Otomatik Blok - İki kez vurulduğunda 7 saniye süren veya tetiklenene kadar geçerli %100 Otomatik Blok pasifi kazanır; bu süre boyunca Sersemletme (Stun) etkilerine bağışıktır.",
       "Gama Gücü - Siz her güç barı kazandığınızda Overseer bir Gama Gücü stack'i alır; 3 stack'e ulaştığında özel saldırıyla Kozmik Küp'ü aktive ederek kozmik yetenekler kazanır.",
@@ -45,7 +45,7 @@
     ],
     "idealCounters": [
       "apocalypse",
-      "vision_aou",
+      "visionaou",
       "killmonger",
       "ghost"
     ]

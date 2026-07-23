@@ -18,7 +18,7 @@
         "sentinel",
         "warlock",
         "ultron",
-        "doctor_doom"
+        "doctordoom"
       ]
     },
     {
@@ -33,21 +33,21 @@
         "ronan",
         "korg",
         "thanos",
-        "proxima_midnight"
+        "proximamidnight"
       ]
     }
   ],
   "boss": {
-    "championId": "joe_fixit",
+    "championId": "joefixit",
     "bossNodes": [
       "Kumarcının Çekilişi (Gambler's Draw): Temel saldırılar, kombolar ve bloklama ile Sinek/Maça/Karo/Kupa kartları desteye eklenir; aynı türden çok sayıda kart biriktiğinde özel saldırılar Şaşkınlık (Disorient), Zayıflık (Weakness) veya Taşlaşma (Petrify) debuff'ları kazanır.",
       "Kanama Ağırlıklı Hasar: Joe Fixit'in hasarının büyük bölümü Kanama debuff'larından gelir; özel saldırılarını engellemek/kesintiye uğratmak kart yığınını sıfırlar ve debuff gücünü büyük ölçüde düşürür."
     ],
     "idealCounters": [
-      "shang_chi",
+      "shangchi",
       "hercules",
-      "doctor_doom",
-      "mole_man"
+      "doctordoom",
+      "moleman"
     ]
   }
 }

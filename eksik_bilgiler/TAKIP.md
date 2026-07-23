@@ -16,11 +16,33 @@ Rehber veritabanlarında adı geçen ama uygulamanın 325 şampiyonluk `champion
 | Cosmic Spider-Man | Act 6.2.5 yol A | `spidermansupreme` | Tam karşılığı yok, tahmini fallback |
 | Gwenmaster | Act 7.2.6 boss | `gwenmaster` | Boss-only NPC, roster'da olmaması normal olabilir ama teyit edilmeli |
 | Night Carnage / Ice Phoenix | Act 7.1.5, 7.1.6 boss | `nightcarnage`, `icephoenix` | Mash-up bosslar, roster'da olmaması normal olabilir ama teyit edilmeli |
-| Massacre | Act 7.3 (Kang yolu) | id yok, atlandı | Act 6'da da `masacre` yazımıyla geçiyor, doğru id kontrol edilmeli |
+| Massacre | Act 6.3 ve Act 8 (8.2.4, 8.3.4) | id yok, atlandı | `masacre` yazımıyla da geçiyor, doğru id kontrol edilmeli |
+| Bahamut | Act 8.2.6 boss | id yok, atlandı | Boss-only NPC, roster'da olmaması normal olabilir ama teyit edilmeli |
+| Black Dwarf | Act 8.2.6, 8.4.6 | id yok, atlandı | DB'de bu id/isim hiç yok |
+| Cerastes | Act 8.3.6 boss ("Cerastes Sınavı") | id yok, atlandı | Boss-only NPC, quest adıyla aynı |
+| Chronoserpent | Act 9.4.6 boss ("Chronoserpent (Carina) Hesaplaşması") | id yok, atlandı | Boss-only NPC, quest adıyla aynı |
+| Collector | Act 8.4.6 | id yok, atlandı | Act 6.4.6'daki "Büyük Koleksiyoncu" (Grandmaster, hâlâ çözülmedi) ile karıştırılmamalı — farklı bir giriş |
+| Dread Emperor Doom | Act 9.3.6 boss ("Dread Emperor Doom") | id yok, atlandı | Normal `doctordoom`'dan güçlendirilmiş özel bir versiyon olabilir, düz Doom'a düşürmedim çünkü counter önerileri yanıltıcı olurdu |
+| Glykhan | Act 8.4.6 boss ("Glykhan Hesaplaşması") | id yok, atlandı | Boss-only NPC, quest adıyla aynı |
+| Jane Foster (Lotan) | Act 9.2.6 boss ("Lotan Yüzleşmesi") | id yok, atlandı | Boss-only NPC, muhtemelen benzersiz bir amalgam |
+| Morgan le Fay | Act 9.3.6 | id yok, atlandı | DB'de bu id/isim hiç yok |
+| Mystique | Act 9.1.6, 9.3.3, 9.4.2 | id yok, atlandı | DB'de bu id/isim hiç yok |
+| Nightmare | Act 9.3.1, 9.3.6 | id yok, atlandı | DB'de bu id/isim hiç yok |
+| Quasar | Act 9.4.2, 9.4.3, 9.4.5 | id yok, atlandı | DB'de bu id/isim hiç yok (Photon/Monica Rambeau ile karıştırılmamalı, o da yok) |
+| Scourge | Act 9.1.3 | id yok, atlandı | DB'de bu id/isim hiç yok |
+| Scytalis | Act 8.1.6 boss ("Scytalis") | id yok, atlandı | Boss-only NPC, quest adıyla aynı |
+| Thena | Act 8.4.2 | id yok, atlandı | DB'de bu id/isim hiç yok |
+| US Agent | Act 8.4.5 | id yok, atlandı | DB'de bu id/isim hiç yok |
+| X-23 (Orochi) | Act 9.1.6 boss | id yok, atlandı | Normal yol savunmacısı olan X-23, `wolverinex23`'e eşlendi (bkz. aşağı) ama bu benzersiz Orochi boss formu değil |
 
-## 2. Act 8 / Act 9 — henüz id normalizasyonu yapılmadı
+**Act 8/9'da onaylanmış ama yaklaşık (approximate) eşleştirmeler** — id'ler geçerli, teyit edilmesi iyi olur:
+- `x_23` → `wolverinex23` ("Wolverine (X-23)") — DB'de düz "X-23" yok, en yakın karşılık bu.
+- `spider_man_stark` → `spidermanstarkenhanced` ("Spider-Man (Stark Enhanced)") — tam isim eşleşmesi değil, en yakın karşılık.
+- `punk` → `spiderpunk` ("Spider-Punk") — bağlamdan (Arnim Zola boss counter listesi: guardian, photon, punk, deathless_thanos, beta_ray_bill) çıkarıldı, orijinal rehberde muhtemelen kısaltılmış yazılmış.
 
-Act 6 tamamen düzeltildi (snake_case → champions_db.json format). Act 7 zaten doğru formatta yazıldı. **Act 8 ve Act 9 hâlâ eski snake_case id'leri kullanıyor** (örn. `winter_soldier`, `captain_america`) — bu yüzden o iki sahnede "Yoldaki Şampiyonlar" ve "isOwn" rozet özellikleri sessizce bozuk çalışıyor. Diğer sahnelerin .md karşılaştırması bitince Act 8/9 için de aynı id-normalizasyon geçişi yapılmalı.
+## 2. Act 8 / Act 9 — id normalizasyonu tamamlandı (2026-07-23)
+
+Act 6 ve 7 zaten doğru formattaydı. **Act 8 ve Act 9'daki snake_case id'ler (`winter_soldier`, `captain_america` vb.) `champions_db.json` formatına çevrildi** — 202 benzersiz id'den 184'ü otomatik/manuel eşleştirmeyle düzeltildi, 18'i (yukarıdaki tablo) gerçekten DB'de karşılığı olmadığı için olduğu gibi bırakıldı. "Yoldaki Şampiyonlar" ve "isOwn" rozet özellikleri artık bu iki sahnede de doğru çalışıyor.
 
 ## 3. Act 7 araştırma ajanlarının belirttiği belirsizlikler (web'den doğrulanamadı)
 
@@ -34,3 +56,4 @@ Act 6 tamamen düzeltildi (snake_case → champions_db.json format). Act 7 zaten
 ---
 
 *Güncelleme: 2026-07-10 — Act 6 karşılaştırması ve düzeltmesi tamamlandıktan sonra oluşturuldu.*
+*Güncelleme: 2026-07-23 — Act 8/9 id normalizasyonu tamamlandı, yeni tespit edilen 18 roster-dışı isim listeye eklendi.*

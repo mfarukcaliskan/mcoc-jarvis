@@ -16,8 +16,8 @@
       "defenders": [
         "sentry",
         "hulk",
-        "she_hulk",
-        "captain_america"
+        "shehulk",
+        "captainamerica"
       ]
     },
     {
@@ -29,8 +29,8 @@
         "• Strateji: Geniş debuff bağışıklık listesine (Zehir/Kanama/Şok/Ölüm-temelli doğrudan hasar) sahip, uzun maç dayanıklılığı yüksek şampiyonlar getirin; can yönetimini önceliklendirip Lotan'a mümkün olduğunca dolu can ve kaynakla girin."
       ],
       "defenders": [
-        "corvus_glaive",
-        "proxima_midnight",
+        "corvusglaive",
+        "proximamidnight",
         "hela"
       ]
     }
@@ -44,7 +44,7 @@
     ],
     "idealCounters": [
       "aegon",
-      "mister_sinister",
+      "mistersinister",
       "nova",
       "guardian"
     ]

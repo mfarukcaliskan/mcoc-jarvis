@@ -15,9 +15,9 @@
       ],
       "defenders": [
         "thanos",
-        "champion",
-        "immortal_abomination",
-        "captain_america"
+        "thechampion",
+        "abominationimmortal",
+        "captainamerica"
       ]
     },
     {
@@ -29,8 +29,8 @@
         "• Strateji: Geniş bağışıklık listesine (Zehir/Kanama/Şok/Kızdırma) sahip, uzun maç dayanıklılığı yüksek şampiyonlar getirin."
       ],
       "defenders": [
-        "corvus_glaive",
-        "proxima_midnight",
+        "corvusglaive",
+        "proximamidnight",
         "hela",
         "black_dwarf"
       ]
@@ -46,8 +46,8 @@
     "idealCounters": [
       "aegon",
       "kingpin",
-      "guillotine_2099",
-      "mole_man",
+      "guillotine2099",
+      "moleman",
       "cheeilth"
     ]
   }

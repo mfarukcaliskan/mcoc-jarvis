@@ -30,14 +30,14 @@
       ],
       "defenders": [
         "apocalypse",
-        "omega_red",
+        "omegared",
         "colossus",
         "juggernaut"
       ]
     }
   ],
   "boss": {
-    "championId": "america_chavez",
+    "championId": "americachavez",
     "bossNodes": [
       "Paralel Boyutlar: America Chavez, Heavy Attack sırasında Special başlatarak Ütopik Paralel, Karanlık Boyut veya Negatif Bölge boyutlarından birini 30 saniyeliğine aktive eder; sırasıyla düşmanın Fury/Armor Up/Precision/Cruelty potency'sini %70 azaltır, alınan hasarın %40'ını enerji hasarı olarak geri yansıtır veya düşmanın güç kazanım hızını %60 düşürür.",
       "Buff Tersine Çevirme: Saldırgan üzerindeki her aktif buff, America Chavez'in Attack Rating ve Enerji Direncini artırır; eğer bu buff'lar Fury, Armor Up, Precision veya Cruelty ise etkileri tamamen tersine çevrilip onun lehine işler - kendi kendine buff veren şampiyonlar bu boss'ta risklidir.",
@@ -45,7 +45,7 @@
     ],
     "idealCounters": [
       "shuri",
-      "nick_fury",
+      "nickfury",
       "ghost",
       "warlock"
     ]

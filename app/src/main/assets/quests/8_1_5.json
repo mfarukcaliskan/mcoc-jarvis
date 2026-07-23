@@ -15,8 +15,8 @@
       "defenders": [
         "hulk",
         "thing",
-        "champion",
-        "captain_america"
+        "thechampion",
+        "captainamerica"
       ]
     },
     {
@@ -28,9 +28,9 @@
         "• Strateji: Yol dövüşleri: Immortal Abomination → Hercules → Nick Fury → Korg. Ölümsüzlük penceresini tetikleyip boşa harcatacak yüksek DoT (Kanama/Zehir/Yanma) hasarına sahip şampiyonlar tercih edin; Nick Fury'nin İkinci Can (LMD) mekaniğine karşı SP3'ünüzü doğru zamanlayın."
       ],
       "defenders": [
-        "immortal_abomination",
+        "abominationimmortal",
         "hercules",
-        "nick_fury",
+        "nickfury",
         "korg"
       ]
     }
@@ -43,10 +43,10 @@
       "Zeus'un Oğlu (İmza) - Prowess/Öfke yığınları biriktirdikçe hem hasarı hem hayatta kalma şansı artar, bu yüzden dövüşü uzattıkça Hercules güçlenir; hızlı bitirmek tercih edilmelidir."
     ],
     "idealCounters": [
-      "nick_fury",
-      "cosmic_ghost_rider",
+      "nickfury",
+      "cosmicghostrider",
       "warlock",
-      "kitty_pryde"
+      "kittypryde"
     ]
   }
 }

@@ -17,7 +17,7 @@
         "mordo",
         "dormammu",
         "mephisto",
-        "captain_america"
+        "captainamerica"
       ]
     },
     {
@@ -31,13 +31,13 @@
       "defenders": [
         "wolverine",
         "sabretooth",
-        "x_23",
-        "omega_red"
+        "wolverinex23",
+        "omegared"
       ]
     }
   ],
   "boss": {
-    "championId": "black_widow_claire_voyant",
+    "championId": "blackwidowclairevoyant",
     "bossNodes": [
       "Sürekli Can Çalma - İsabet ettirdiği her saldırıdan pasif olarak can yeniler; bu yenilenme standart Heal Block (İyileşme Engeli) tarafından tam olarak durdurulamaz.",
       "İyileşme Tersine Çevirme İhtiyacı - Etkili sonuç için can yenilenmesini tamamen kilitleyen (Petrify gibi) veya iyileşmeyi hasara çeviren mekanikler gerekir; aksi halde uzun süren bir hasar yarışına girilir."

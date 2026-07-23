@@ -16,8 +16,8 @@
       "defenders": [
         "wolverine",
         "sabretooth",
-        "omega_red",
-        "x_23"
+        "omegared",
+        "wolverinex23"
       ]
     },
     {
@@ -46,9 +46,9 @@
     ],
     "idealCounters": [
       "onslaught",
-      "lady_deathstrike",
+      "ladydeathstrike",
       "warlock",
-      "symbiote_supreme"
+      "symbiotesupreme"
     ]
   }
 }

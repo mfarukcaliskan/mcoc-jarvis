@@ -18,7 +18,7 @@
         "thanos",
         "hyperion",
         "quasar",
-        "silver_surfer",
+        "silversurfer",
         "gladiator"
       ]
     },
@@ -34,13 +34,13 @@
         "magneto",
         "sabretooth",
         "mystique",
-        "x_23",
+        "wolverinex23",
         "rogue"
       ]
     }
   ],
   "boss": {
-    "championId": "arnim_zola",
+    "championId": "arnimzola",
     "bossNodes": [
       "Korkaklık (Cowardice): Zola'nın Özel saldırıları sırasında rakip %30 Korkaklık debuff'ı ile cezalandırılır (savunmacı olarak bu oran %90'a çıkar); bu debuff rakibin saldırı gücünü ciddi oranda düşürür.",
       "Biyo-Organik Silah - Disintegrasyon: Zola'nın Ağır saldırısının ilk vuruşu rakibe Direkt hasar veren bir Disintegrasyon debuff'ı uygular; imza yeteneği bu debuff'lar Özel saldırılarla temizlendiğinde ekstra bir Direkt hasar patlaması tetikler.",
@@ -50,9 +50,9 @@
     "idealCounters": [
       "guardian",
       "photon",
-      "punk",
-      "deathless_thanos",
-      "beta_ray_bill"
+      "spiderpunk",
+      "deathlessthanos",
+      "betaraybill"
     ]
   }
 }

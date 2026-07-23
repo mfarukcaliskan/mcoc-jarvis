@@ -14,9 +14,9 @@
         "• Strateji: Bilim sınıfından bir saldırganla (ör. Nick Fury, Warlock) kapıyı geçin; parry sonrası Ağır vuruş rutinine devam edin, Dark Phoenix'e karşı Enerji hasarına dirençli şampiyonları tercih edin."
       ],
       "defenders": [
-        "nick_fury",
+        "nickfury",
         "warlock",
-        "iron_man",
+        "ironman",
         "sentinel",
         "ultron"
       ]
@@ -34,12 +34,12 @@
         "wolverine",
         "colossus",
         "rogue",
-        "x_23"
+        "wolverinex23"
       ]
     }
   ],
   "boss": {
-    "championId": "dark_phoenix",
+    "championId": "darkphoenix",
     "bossNodes": [
       "Kor Yükleri (Ember Charges) ve Koruma: Dövüş başında %5 Koruma (Safeguard) buff'ı kazanır ve bu buff her 10 saniyede yeniden tetiklenir; 5+ Kor Yükünde gelen hasarlı efektlerin ve Güç İğnelerinin potansiyeli %75 azalır.",
       "Nova Alevi: Özel saldırılarını bitirdikten sonra 3 saniye boyunca Phoenix Force'tan enerji emmeye devam eder, süre sonunda rakibe kişisel Nova Alevi hasarı uygular; Özel saldırı bitiminin hemen ardındaki kısa pencerede vurmak bu sürenin kısalmasını sağlar.",
@@ -47,8 +47,8 @@
       "Bağışıklıklar ve Sınırlama: Yanma (Incinerate), Nova Alevi ve Güç Emme'ye (Power Drain) karşı tam bağışıklıdır; Yetenek ve Mücadele Gücü Kazanım Oranı en fazla %50 azaltılabilir."
     ],
     "idealCounters": [
-      "mister_sinister",
-      "symbiote_supreme",
+      "mistersinister",
+      "symbiotesupreme",
       "terrax",
       "sersi"
     ]

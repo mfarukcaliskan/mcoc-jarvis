@@ -14,7 +14,7 @@
         "• Strateji: Absorbing Man'in yetenek emme penceresinde debuff uygulamaktan kaçının; ham hasara dayalı ilerleme tercih edin."
       ],
       "defenders": [
-        "absorbing_man",
+        "absorbingman",
         "sandman",
         "rhino",
         "hulk"
@@ -32,7 +32,7 @@
         "colossus",
         "juggernaut",
         "thing",
-        "red_hulk"
+        "redhulk"
       ]
     }
   ],
@@ -45,9 +45,9 @@
     ],
     "idealCounters": [
       "magik",
-      "captain_marvel",
-      "claire_voyant",
-      "absorbing_man"
+      "captainmarvel",
+      "blackwidowclairevoyant",
+      "absorbingman"
     ]
   }
 }

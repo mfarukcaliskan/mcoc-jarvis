@@ -14,7 +14,7 @@
         "• Strateji: Kapıyı Bilim sınıfıyla açıp bonus alın; Doctor Doom klonlarına karşı özel saldırı sonrası dönen Latveria alan hasarına dikkat edin, Mephisto'nun ruh çalma mekaniğine karşı düşük riskli, kombo bitirmeyen vuruş dizileri tercih edin."
       ],
       "defenders": [
-        "doctor_doom",
+        "doctordoom",
         "mephisto",
         "morgan_le_fay"
       ]
@@ -42,10 +42,10 @@
       "Güçlendirme Pasifleri (Amplify): Doom her Özel Saldırı aktive ettiğinde 2 Güçlendirme Pasifi kazanır (hiç yoksa +1 ekstra); bu pasifler biriktikçe sonraki özel saldırıların hasarı katlanarak artar."
     ],
     "idealCounters": [
-      "she_hulk",
-      "img_void",
-      "spider_gwen",
-      "human_torch"
+      "shehulk",
+      "void",
+      "spidergwen",
+      "humantorch"
     ]
   }
 }

@@ -14,11 +14,11 @@
         "• Strateji: Güce bağımlı olmayan, doğrudan hasar veren şampiyonlar tercih edin; Scarlet Witch'in özel saldırılarını bait'leyip parry sonrası ağır vuruşla cezalandırın."
       ],
       "defenders": [
-        "scarlet_witch",
-        "iron_man",
-        "war_machine",
+        "scarletwitch",
+        "ironman",
+        "warmachine",
         "sentinel",
-        "captain_america"
+        "captainamerica"
       ]
     },
     {
@@ -30,7 +30,7 @@
         "• Strateji: Fiziksel/doğrudan hasar ağırlıklı şampiyonlar getirin, enerji tabanlı özel saldırılara güvenmeyin; bağışıklık listesi (Zehir/Kanama/Şok) yüksek şampiyonlar önerilir."
       ],
       "defenders": [
-        "black_panther",
+        "blackpanther",
         "ultron",
         "darkhawk",
         "korg"
@@ -47,7 +47,7 @@
       "spiral",
       "odin",
       "hercules",
-      "cosmic_ghost_rider"
+      "cosmicghostrider"
     ]
   }
 }

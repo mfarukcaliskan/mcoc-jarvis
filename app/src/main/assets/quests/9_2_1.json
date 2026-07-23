@@ -13,10 +13,10 @@
         "• Strateji: Kendi Prowess mekaniğine sahip ya da hızlı bitiren şampiyonlarla (Bishop, Storm, Dust, Gambit) ilerleyin; dövüşleri uzatmadan bitirmek hem sizin hem savunmacının Prowess/Scourge birikimini sınırlı tutar. Clarify karolarını atlamayın, boss öncesi şarj biriktirmemek kritik önemdedir."
       ],
       "defenders": [
-        "elsa_bloodstone",
+        "elsabloodstone",
         "crossbones",
         "kingpin",
-        "captain_america"
+        "captainamerica"
       ]
     },
     {
@@ -30,7 +30,7 @@
       "defenders": [
         "yellowjacket",
         "abomination",
-        "spider_man",
+        "spiderman",
         "korg"
       ]
     }

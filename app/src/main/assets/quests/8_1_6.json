@@ -16,7 +16,7 @@
         "sentinel",
         "ultron",
         "warlock",
-        "captain_america"
+        "captainamerica"
       ]
     },
     {
@@ -28,8 +28,8 @@
         "• Strateji: Yol dövüşleri: Iron Man Infinity War → Doctor Octopus → Nimrod → Korg. Yanık bağışıklığı yüksek (Warlock, Sentinel, Nick Fury) ve Güç yönetimi iyi olan şampiyonlar tercih edin; Power to Cover aktifken gereksiz Özel Saldırı biriktirmeyin."
       ],
       "defenders": [
-        "iron_man_iw",
-        "doctor_octopus",
+        "ironmaninfinitywar",
+        "doctoroctopus",
         "nimrod",
         "korg"
       ]
@@ -46,7 +46,7 @@
       "juggernaut",
       "apocalypse",
       "magneto",
-      "doctor_doom"
+      "doctordoom"
     ]
   }
 }

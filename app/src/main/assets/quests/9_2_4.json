@@ -14,9 +14,9 @@
       ],
       "defenders": [
         "crossbones",
-        "winter_soldier",
+        "wintersoldier",
         "punisher",
-        "captain_america"
+        "captainamerica"
       ]
     },
     {
@@ -29,14 +29,14 @@
       ],
       "defenders": [
         "juggernaut",
-        "unstoppable_colossus",
+        "unstoppablecolossus",
         "thing",
         "korg"
       ]
     }
   ],
   "boss": {
-    "championId": "absorbing_man",
+    "championId": "absorbingman",
     "bossNodes": [
       "Çoklu Formlar - Absorbing Man'in Özel Saldırıları onu güçlü alternatif Formlara dönüştürür; aynı anda tek bir Formda kalabilir ve varsayılan olarak Kara Uru (Black Uru) Formuyla başlar; Form değişimleri Yetenek İsabeti düşürücü etkilerden bağımsız her zaman başarılı olur.",
       "Güç Emilimi (Power Absorption) - Absorbing Man blok yaparken Saldırganın Güç Kazanım Oranını %72 azaltır ve engellenen bu güç kendisine aktarılır; bu yüzden onu bloğa zorlamak Saldırgan için risklidir.",
@@ -46,7 +46,7 @@
       "valkyrie",
       "hulkling",
       "scorpion",
-      "mole_man"
+      "moleman"
     ]
   }
 }

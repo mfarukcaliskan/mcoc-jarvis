@@ -13,10 +13,10 @@
         "• Strateji: Yüksek doğrudan hasar veren, Kanama/Şok bağışıklığı olan şampiyonlarla itemless ilerlemeyi hedefleyin; Captain America'nın blok kırma cezalarına dikkat edip parry sonrası ağır vuruş döngüsünü koruyun."
       ],
       "defenders": [
-        "immortal_hulk",
+        "hulkimmortal",
         "abomination",
-        "she_hulk",
-        "captain_america"
+        "shehulk",
+        "captainamerica"
       ]
     },
     {
@@ -42,9 +42,9 @@
       "Buz Fırtınası (Ice Tempest) - Her isabet Özel Saldırının kalan süresi boyunca hasarını artıran bir Prowess üretir ve son vuruş 14 saniye boyunca Enerji hasarı veren pasif bir Donma (Coldsnap) etkisi uygular."
     ],
     "idealCounters": [
-      "she_hulk",
-      "spider_gwen",
-      "nick_fury",
+      "shehulk",
+      "spidergwen",
+      "nickfury",
       "ultron"
     ]
   }

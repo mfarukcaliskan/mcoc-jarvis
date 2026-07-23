@@ -13,10 +13,10 @@
         "• Strateji: Düşman özel saldırılarını baitleyip parry sonrası ağır vuruş uygulayın; zırh kırma debuff'larına karşı savunma düşüşü telafisi olan ya da debuff bağışıklığı yüksek şampiyonlar tercih edin."
       ],
       "defenders": [
-        "agent_venom",
+        "agentvenom",
         "crossbones",
         "taskmaster",
-        "captain_america"
+        "captainamerica"
       ]
     },
     {
@@ -35,7 +35,7 @@
     }
   ],
   "boss": {
-    "championId": "cassie_lang",
+    "championId": "cassielang",
     "bossNodes": [
       "Güç İğnesi (Power Sting) - Cassie'nin Ağır Saldırısı Saldırgana Power Sting debuff'ları uygular; Saldırgan özel saldırı kullandığında bu iğneler patlar ve Cassie onları yeniden uygulamaya çalışır, bu da güç yönetimini zorlaştırır.",
       "Küçülme Kaçınması (Shrink Evade) - Ağır Saldırı şarj edilirken Cassie küçülür ve gelen tüm saldırıların %100 ıskalamasını sağlar; bu durum Pym Yakıtı tüketir, yakıt bittiğinde küçülme sona erer.",
@@ -43,10 +43,10 @@
       "Sınıf Zayıflığı - Cassie Lang Bilim (Science) sınıfıdır ve Yetenek (Skill) sınıfı şampiyonlara karşı doğal olarak zayıftır; bu yüzden Skill sınıfı sınıf avantajı önemli bir hasar artışı sağlar."
     ],
     "idealCounters": [
-      "nick_fury",
+      "nickfury",
       "blade",
-      "shang_chi",
-      "guillotine_2099"
+      "shangchi",
+      "guillotine2099"
     ]
   }
 }

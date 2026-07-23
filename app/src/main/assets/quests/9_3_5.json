@@ -15,7 +15,7 @@
       ],
       "defenders": [
         "sentry",
-        "red_hulk",
+        "redhulk",
         "abomination"
       ]
     },
@@ -28,14 +28,14 @@
         "• Strateji: Debuff bağışıklığı ve blok sağlamlığı yüksek bir yapı getirin; Immortal Abomination'ın gerçek zayıf noktasını (geçici ölümsüzlük kırılma penceresi) bekleyip büyük hasarı o ana saklayın."
       ],
       "defenders": [
-        "immortal_abomination",
+        "abominationimmortal",
         "hulk",
-        "mister_fantastic"
+        "misterfantastic"
       ]
     }
   ],
   "boss": {
-    "championId": "leader",
+    "championId": "theleader",
     "bossNodes": [
       "Yeşil Kapı (Green Door): Arenanın ortasında açık/kapalı iki durumu olan bir bölge bulunur; Leader, saldırgan üzerindeki her aktif debuff ile Gama Radyasyonunu %15'e kadar daha hızlı biriktirir (saniyede temel 2 birim).",
       "Kapı Açılınca: Gama Radyasyonu 100'e ulaştığında Kapı açılır, Leader saldırgan üzerindeki her debuff için Öfke (Fury) kazanır ve saldırgan Kapı üzerinde durursa periyodik Dejenerasyon hasarı alır; açık kapı saniyede 6 birim Gama tüketir (özel saldırılar sırasında durur).",
@@ -44,7 +44,7 @@
     "idealCounters": [
       "sentinel",
       "colossus",
-      "corvus_glaive",
+      "corvusglaive",
       "magik"
     ]
   }

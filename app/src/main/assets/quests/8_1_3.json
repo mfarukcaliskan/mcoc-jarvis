@@ -14,9 +14,9 @@
       ],
       "defenders": [
         "mysterio",
-        "symbiote_supreme",
-        "doctor_strange",
-        "captain_america"
+        "symbiotesupreme",
+        "doctorstrange",
+        "captainamerica"
       ]
     },
     {
@@ -36,7 +36,7 @@
     }
   ],
   "boss": {
-    "championId": "psycho_man",
+    "championId": "psychoman",
     "bossNodes": [
       "Kontrol Kutusu (Control Box) - Nefret (Hate/Ağır Vuruş), Korku (Fear/Özel Saldırı) ve Şüphe (Doubt/Blok) olmak üzere üç mod arasında geçiş yapar; rakip o moda bağlı eylemi gerçekleştirdiğinde Sersemletme İptali (Concussion) debuff'ı ile cezalandırılır ve Psycho-Man o vuruşlardan Güç kazanır.",
       "Microverse Overlord (İmza Yeteneği) - Rakip Concussion etkisi altındayken bir yeteneği tetiklenemezse 9.51 saniyelik İyileşme Engeli (Heal Block) ile cezalandırılır; pasif tetiklenen buff'lara güvenen şampiyonlar bu yüzden risklidir.",

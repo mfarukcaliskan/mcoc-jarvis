@@ -15,9 +15,9 @@
       ],
       "defenders": [
         "elektra",
-        "black_widow",
+        "blackwidow",
         "taskmaster",
-        "winter_soldier",
+        "wintersoldier",
         "punisher"
       ]
     },
@@ -32,21 +32,21 @@
       "defenders": [
         "domino",
         "cable",
-        "x_23",
+        "wolverinex23",
         "gambit"
       ]
     }
   ],
   "boss": {
-    "championId": "deadpool_x_force",
+    "championId": "deadpoolxforce",
     "bossNodes": [
       "Güç Bazlı Direnç: 1 bar altı güçte özel saldırı fırlatamaz ve tüm hasarı %95 azaltır; 1 barda +2100 Blok Delme kazanır; 2 barda tüm saldırıları Blok Edilemez olur; 3 barda ağır saldırı şarjı rakibin saldırı gücünün %50'si kadar doğrudan hasar verir.",
       "Ölümsüz Rejenerasyon: Orta mesafe kaçış saldırıları sırasında Debuff ve Durdurulamaz (Unstoppable) bağışıklığı kazanır; her Sersemletme (Stun) debuff'u aldığında sonraki stunların süresi %10 azalır, hızlı iyileşmesi onu neredeyse öldürülemez kılar."
     ],
     "idealCounters": [
       "wolverine",
-      "black_panther",
-      "guillotine_2099",
+      "blackpanther",
+      "guillotine2099",
       "warlock"
     ]
   }

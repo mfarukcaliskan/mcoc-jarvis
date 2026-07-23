@@ -14,10 +14,10 @@
         "• Strateji: Doom'un kalkanını parry ile kırıp ağır vuruşla cezalandırın; Kingpin karşısında kritik hasar payını düşük tutan savunma temelli şampiyonlar tercih edin."
       ],
       "defenders": [
-        "doctor_doom",
+        "doctordoom",
         "kingpin",
-        "hood",
-        "joe_fixit"
+        "thehood",
+        "joefixit"
       ]
     },
     {
@@ -29,8 +29,8 @@
         "• Strateji: Korku debuff'larına karşı geniş bağışıklık listesine sahip şampiyonlar getirin; Electro'nun güç transferini kesmek için hızlı, düşük hasarlı vuruş serileri kullanın."
       ],
       "defenders": [
-        "doctor_octopus",
-        "green_goblin",
+        "doctoroctopus",
+        "greengoblin",
         "electro",
         "ultron"
       ]
@@ -47,7 +47,7 @@
       "wiccan",
       "rintrah",
       "tigra",
-      "human_torch",
+      "humantorch",
       "sasquatch"
     ]
   }

@@ -16,8 +16,8 @@
       "defenders": [
         "hulk",
         "abomination",
-        "she_hulk",
-        "red_hulk"
+        "shehulk",
+        "redhulk"
       ]
     },
     {
@@ -45,7 +45,7 @@
     ],
     "idealCounters": [
       "quake",
-      "immortal_abomination",
+      "abominationimmortal",
       "arcade",
       "ironheart",
       "onslaught"

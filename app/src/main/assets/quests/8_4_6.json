@@ -15,9 +15,9 @@
       ],
       "defenders": [
         "thanos",
-        "champion",
-        "corvus_glaive",
-        "proxima_midnight"
+        "thechampion",
+        "corvusglaive",
+        "proximamidnight"
       ]
     },
     {
@@ -31,7 +31,7 @@
       "defenders": [
         "hela",
         "black_dwarf",
-        "ebony_maw",
+        "ebonymaw",
         "collector"
       ]
     }
@@ -45,11 +45,11 @@
       "Faz Geçişi ve Zırh Yenileme: Glykhan nakavt olacağı anda zırhını parçalayıp yeniden kurar, tüm sağlığını geri kazanır, kişisel olmayan tüm buff/debuff/pasifleri siler ve üçüncü faza kadar bir sonraki faza geçer."
     ],
     "idealCounters": [
-      "emma_frost",
+      "emmafrost",
       "storm",
       "bishop",
       "domino",
-      "kitty_pryde"
+      "kittypryde"
     ]
   }
 }

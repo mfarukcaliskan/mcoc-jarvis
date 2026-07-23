@@ -14,11 +14,11 @@
         "• Strateji: Mistik sınıfından bir saldırganla (ör. Doctor Doom, Scarlet Witch) kapıyı geçin; Kanama arındırma (purify) yeteneği olan şampiyonlarla savunmacının can yenilenmesini ve Ruh Yükü birikimini engelleyin."
       ],
       "defenders": [
-        "doctor_doom",
-        "scarlet_witch",
+        "doctordoom",
+        "scarletwitch",
         "mordo",
-        "ghost_rider",
-        "symbiote_supreme"
+        "ghostrider",
+        "symbiotesupreme"
       ]
     },
     {
@@ -31,7 +31,7 @@
       ],
       "defenders": [
         "hyperion",
-        "silver_surfer",
+        "silversurfer",
         "gladiator",
         "quasar",
         "void"

@@ -16,7 +16,7 @@
       "defenders": [
         "morningstar",
         "electro",
-        "green_goblin",
+        "greengoblin",
         "vulture",
         "mysterio"
       ]
@@ -33,7 +33,7 @@
         "massacre",
         "venom",
         "carnage",
-        "spider_man_symbiote"
+        "spidermansymbiote"
       ]
     }
   ],
@@ -45,10 +45,10 @@
     ],
     "idealCounters": [
       "bullseye",
-      "nick_fury",
+      "nickfury",
       "okoye",
-      "shang_chi",
-      "mole_man"
+      "shangchi",
+      "moleman"
     ]
   }
 }

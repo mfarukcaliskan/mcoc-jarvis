@@ -29,8 +29,8 @@
       ],
       "defenders": [
         "thanos",
-        "ebony_maw",
-        "proxima_midnight"
+        "ebonymaw",
+        "proximamidnight"
       ]
     }
   ],
@@ -44,8 +44,8 @@
     "idealCounters": [
       "mephisto",
       "quake",
-      "doctor_doom",
-      "scarlet_witch"
+      "doctordoom",
+      "scarletwitch"
     ]
   }
 }

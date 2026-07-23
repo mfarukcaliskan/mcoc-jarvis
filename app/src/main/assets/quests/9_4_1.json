@@ -14,8 +14,8 @@
         "• Strateji: Kapıyı Bilim sınıfından güçlü bir saldırganla (ör. Iron Man, Warlock) geçin; parry sonrası ağır vuruş rutinine devam edin, biriken Zehir/Şok debuff'larını temizlemek için düzenli blok yapın."
       ],
       "defenders": [
-        "iron_man",
-        "nick_fury",
+        "ironman",
+        "nickfury",
         "ultron",
         "warlock",
         "sentinel"
@@ -30,9 +30,9 @@
         "• Strateji: Mistik sınıfından dirençli bir tank getirin (ör. Doctor Doom, Ghost Rider); savunmacıların Ağır saldırılarını gereksiz yere bloklamayın, kart yığınının tehlikeli kombinasyonlara ulaşmasını önlemek için saldırıyı kesintiye uğratın."
       ],
       "defenders": [
-        "doctor_doom",
-        "ghost_rider",
-        "scarlet_witch",
+        "doctordoom",
+        "ghostrider",
+        "scarletwitch",
         "mordo"
       ]
     }
@@ -49,7 +49,7 @@
       "warlock",
       "hulkling",
       "medusa",
-      "cosmic_ghost_rider",
+      "cosmicghostrider",
       "ghost"
     ]
   }

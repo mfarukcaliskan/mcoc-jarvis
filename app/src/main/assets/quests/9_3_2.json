@@ -2,7 +2,7 @@
   "name": "9.3.2 - Optik Patlama",
   "globalNodes": [
     "Kapı Sistemi (Gate): Yol A, Beceri (Skill) Kapısı ile başlar ve Beceri sınıfı saldırganlara giriş avantajı verir; Yol B ise Mutant Kapısı ile başlayıp Mutant sınıfına avantaj tanır, diğer sınıflar için savunmacılara ekstra Doğruluk/Prowess kazandırır.",
-      "X-Men Kalıntıları: Bu bölümde Cyclops'un komuta zincirinden kopan X-Men temalı savunmacılar bulunur; art arda Özel Saldırı kullanan savunmacılar Prowess Pasifleri biriktirerek saldırı güçlerini kademeli artırır."
+    "X-Men Kalıntıları: Bu bölümde Cyclops'un komuta zincirinden kopan X-Men temalı savunmacılar bulunur; art arda Özel Saldırı kullanan savunmacılar Prowess Pasifleri biriktirerek saldırı güçlerini kademeli artırır."
   ],
   "paths": [
     {
@@ -16,7 +16,7 @@
       "defenders": [
         "rogue",
         "gambit",
-        "x_23",
+        "wolverinex23",
         "storm"
       ]
     },
@@ -45,10 +45,10 @@
     ],
     "idealCounters": [
       "sersi",
-      "nick_fury",
-      "mister_fantastic",
+      "nickfury",
+      "misterfantastic",
       "warlock",
-      "professor_x"
+      "professorx"
     ]
   }
 }

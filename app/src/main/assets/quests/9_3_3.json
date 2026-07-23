@@ -16,7 +16,7 @@
       "defenders": [
         "sabretooth",
         "wolverine",
-        "x_23"
+        "wolverinex23"
       ]
     },
     {
@@ -28,7 +28,7 @@
         "• Strateji: Zehir/kanama bağışıklığı yüksek ve blok gücü sağlam bir yapı getirin; Omega Red'de can emişini kesmek için hızlı blok kırma, Mystique'in taklit mekaniğine karşı ise öngörülebilir, düşük riskli saldırı düzeni kullanın."
       ],
       "defenders": [
-        "omega_red",
+        "omegared",
         "apocalypse",
         "mystique",
         "juggernaut"
@@ -36,17 +36,17 @@
     }
   ],
   "boss": {
-    "championId": "mister_sinister",
+    "championId": "mistersinister",
     "bossNodes": [
       "Moleküler Yenilenme: Mister Sinister, saldırganın Kritik Vuruşlarıyla aldığı hasarın %70'ini 0,5 saniye içinde geri kazanır; bu oran saldırganın kombo sayacı arttıkça (50 vuruşa kadar) daha da yükselir.",
       "Genetik Kod Çıkarımı: Sinister her rakibi yendiğinde onun sınıfına göre farklı bir Pasif yetenek kazanır (her sınıftan en fazla 3, toplamda 10 Pasif'e kadar); dövüş uzadıkça giderek güçlenir.",
       "Genetik Bozulma (Special 1): Kendi üzerindeki hasar veren debuff'ları saldırgana Dejenerasyon olarak aktarır; ayrıca Telepatik Ustalığı sayesinde Sersemletme'ye ve Kontrol Tersine Çevirme'ye bağışıktır, Kanama etkisinin gücünü %100 azaltır ve Telekinetik gücüyle Engellenemez özel saldırıları bile bloklayabilir."
     ],
     "idealCounters": [
-      "guillotine_2099",
+      "guillotine2099",
       "killmonger",
       "venom",
-      "nick_fury"
+      "nickfury"
     ]
   }
 }

@@ -13,10 +13,10 @@
         "• Strateji: Yol dövüşleri: Winter Soldier → Crossbones → Taskmaster → Captain America. Kanama bağışıklığı yüksek (Guillotine 2099, Human Torch, King Groot) şampiyonlar getirin; Buffet karosu aktifken gereksiz buff tetiklemekten kaçının, parry sonrası ağır vuruş güvenli bir açılıştır."
       ],
       "defenders": [
-        "winter_soldier",
+        "wintersoldier",
         "crossbones",
         "taskmaster",
-        "captain_america"
+        "captainamerica"
       ]
     },
     {
@@ -28,25 +28,25 @@
         "• Strateji: Yol dövüşleri: Green Goblin → Abomination → Red Guardian → Titania. Zehir bağışıklığı yüksek (Warlock, Sentinel, Nick Fury) şampiyonlar tercih edin; True Focus karosu aktifken kaçınmaya güvenmek yerine blok/parry döngüsüne odaklanın."
       ],
       "defenders": [
-        "green_goblin",
+        "greengoblin",
         "abomination",
-        "red_guardian",
+        "redguardian",
         "titania"
       ]
     }
   ],
   "boss": {
-    "championId": "red_skull",
+    "championId": "redskull",
     "bossNodes": [
       "Kalıcı Zırh Yığını (Armor Up Stack) - Red Skull dövüşe 5 kalıcı Zırh Artışı ile başlar ve iki savaşçıdan biri Güç Barını her doldurduğunda bir yenisini kazanır (10 yığına kadar); her yığın Kritik ve Enerji Direncini büyük oranda artırır.",
       "Şok Yığınları - Hasarının büyük bölümü 5 kata kadar istiflenen Şok debuff'larından gelir; Şok bağışıklığı veya yüksek direnci olmayan şampiyonlar hızla erir.",
       "Kneel Before Me! (SP3) - Rakibin Gücünün tamamını boşaltır ve boşalttığı her %10 Güç için bir Zırh Artışı daha kazanır; rakibi Güçten mahrum bırakmak Red Skull'u giderek güçlendirir."
     ],
     "idealCounters": [
-      "cosmic_ghost_rider",
-      "nick_fury",
-      "mole_man",
-      "guillotine_2099"
+      "cosmicghostrider",
+      "nickfury",
+      "moleman",
+      "guillotine2099"
     ]
   }
 }

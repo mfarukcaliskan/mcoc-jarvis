@@ -33,8 +33,8 @@
         "ultron",
         "ironheart",
         "sentinel",
-        "iron_man",
-        "war_machine"
+        "ironman",
+        "warmachine"
       ]
     }
   ],
@@ -49,7 +49,7 @@
     "idealCounters": [
       "vox",
       "gorr",
-      "super_skrull",
+      "superskrull",
       "hyperion"
     ]
   }
