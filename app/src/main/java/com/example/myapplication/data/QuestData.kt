@@ -171,7 +171,7 @@ object QuestRepository {
 
     fun loadQuestMap(context: Context, questId: String): QuestMap? {
         return try {
-            val jsonString = context.assets.open("quests/$questId.json").bufferedReader().use { it.readText() }
+            val jsonString = DataSource.openText(context, "quests/$questId.json")
             val obj = JSONObject(jsonString)
             
             val globalNodesArr = obj.optJSONArray("globalNodes")

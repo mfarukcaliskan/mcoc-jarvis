@@ -165,8 +165,17 @@ object ChampionRepository {
 
     fun initialize(context: Context) {
         if (champions.isNotEmpty()) return
+        loadFromDataSource(context)
+    }
+
+    /** RemoteDataUpdater yeni veri indirdiğinde çağrılır; listeyi baştan okur. */
+    fun reload(context: Context) {
+        loadFromDataSource(context)
+    }
+
+    private fun loadFromDataSource(context: Context) {
         try {
-            val jsonString = context.assets.open("champions_db.json").bufferedReader().use { it.readText() }
+            val jsonString = DataSource.openText(context, "champions_db.json")
             val jsonArray = JSONArray(jsonString)
             val list = mutableListOf<Champion>()
             for (i in 0 until jsonArray.length()) {
@@ -249,7 +258,7 @@ object ChampionRepository {
 
     fun loadChampionDetails(context: android.content.Context, champId: String): ChampionDetails? {
         return try {
-            val jsonString = context.assets.open("details/$champId.json").bufferedReader().use { it.readText() }
+            val jsonString = DataSource.openText(context, "details/$champId.json")
             val obj = org.json.JSONObject(jsonString)
             
             val synergiesList = mutableListOf<Synergy>()

@@ -23,6 +23,9 @@ import androidx.compose.ui.window.Dialog
 import com.example.myapplication.data.Champion
 import com.example.myapplication.data.ChampionClass
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.RemoteDataUpdater
+import com.example.myapplication.data.UpdateResult
+import kotlinx.coroutines.launch
 
 @Composable
 fun HomeScreen(modifier: Modifier = Modifier) {
@@ -41,6 +44,8 @@ fun HomeScreen(modifier: Modifier = Modifier) {
             color = Color(0xFF00BFFF),
             modifier = Modifier.padding(start = 16.dp, top = 16.dp, bottom = 12.dp)
         )
+
+        DataUpdateStatusRow()
 
         TabRow(
             selectedTabIndex = selectedTab,
@@ -62,6 +67,51 @@ fun HomeScreen(modifier: Modifier = Modifier) {
         when (selectedTab) {
             0 -> MatchupCounterScreen()
             1 -> PrestigeCalculatorScreen()
+        }
+    }
+}
+
+@Composable
+fun DataUpdateStatusRow() {
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    var isChecking by remember { mutableStateOf(false) }
+    var version by remember { mutableIntStateOf(RemoteDataUpdater.currentVersion(context)) }
+    var statusText by remember { mutableStateOf<String?>(null) }
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 4.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        Text(
+            text = statusText ?: "Veri sürümü: v$version",
+            color = Color.Gray,
+            fontSize = 11.sp
+        )
+        TextButton(
+            enabled = !isChecking,
+            contentPadding = PaddingValues(horizontal = 8.dp),
+            onClick = {
+                isChecking = true
+                statusText = "Kontrol ediliyor..."
+                scope.launch {
+                    when (val result = RemoteDataUpdater.checkForUpdates(context, force = true)) {
+                        is UpdateResult.Updated -> {
+                            ChampionRepository.reload(context)
+                            version = result.newVersion
+                            statusText = "Güncellendi: v${result.newVersion} (${result.changedFiles} dosya)"
+                        }
+                        is UpdateResult.NoUpdate -> statusText = "Veri güncel (v$version)"
+                        is UpdateResult.Error -> statusText = "Bağlantı hatası: ${result.message}"
+                    }
+                    isChecking = false
+                }
+            }
+        ) {
+            Text(if (isChecking) "..." else "Şimdi Güncelle", color = Color(0xFF00BFFF), fontSize = 11.sp)
         }
     }
 }
