@@ -6,17 +6,18 @@ Bu klasör, quest veri düzeltme sürecinde karşılaşılan ama o an çözülem
 
 ## 1. champions_db.json'da hiç olmayan şampiyon/varyantlar
 
-Rehber veritabanlarında adı geçen ama uygulamanın 325 şampiyonluk `champions_db.json` dosyasında karşılığı bulunamayan isimler. Şu an en yakın gerçek id'ye düşürülmüş durumdalar (yanlış/eksik sayılır):
+### 1a. ÇÖZÜLDÜ (2026-07-24, web araştırmasıyla doğrulandı)
 
-| Rehberdeki isim | Geçtiği yer | Şu an kullanılan (yanlış/eksik) fallback | Not |
+- **Red Magneto / White Magneto**: Bunlar ayrı şampiyon DEĞİL — MCOC topluluğunun kostüm rengine göre kullandığı takma adlar. "Red/Kırmızı Magneto" = klasik `magneto` (kırmızı pelerinli), "White Magneto" = `magnetomarvelnow` (House of X, beyaz kostüm — id tarihsel "Marvel Now" isminden geliyor, Kabam sonradan "House of X" olarak yeniden markaladı, aynı champion). Kaynak: [forums.playcontestofchampions.com/.../magneto-hox-white-mags](https://forums.playcontestofchampions.com/en/discussion/350766/magneto-hox-white-mags-question-about-abilities), House of X kostümünün beyaz olduğu YouTube/eBay referanslarıyla teyit edildi. Bu netleşince dosyalar tek tek kontrol edildi ve id'lerin **Red/White ile ters düştüğü 5 gerçek hata** bulunup düzeltildi: `6_1_3.json` (defender, marvelnow olmalıydı), `6_2_5.json` (idealCounter, marvelnow olmalıydı), `6_3_4.json`, `6_3_5.json`, `6_3_6.json` (idealCounters, üçü de klasik `magneto` olmalıydı ama `magnetomarvelnow` yazılmıştı).
+- **Hydra Adaptoid** (Act 6.4.5 boss) ve **Grandmaster** (Act 6.4.6 boss): Web araştırmasıyla doğrulandı — ikisi de MCOC'ta **resmi olarak oynanamaz (unplayable) hikaye bossu**, roster'da hiçbir zaman yer almıyor. DB'de id olmaması hata değil, doğru davranış. Kaynak: [forums.playcontestofchampions.com/.../act-6-4-5-hydra-adaptoid](https://forums.playcontestofchampions.com/en/discussion/306415/act-6-4-5-hydra-adaptoid), [forums.playcontestofchampions.com/.../grandmaster-act-6-4-6](https://forums.playcontestofchampions.com/en/discussion/359198/grandmaster-act-6-4-6).
+- **Gwenmaster** (Act 7.2.6), **Night Carnage** (7.1.5), **Ice Phoenix** (7.1.6): Web araştırmasıyla doğrulandı — üçü de M.O.D.O.K. laboratuvarı temalı, resmi olarak oynanamaz "Mashup/Combined Champion" bosslar, roster'da olmaması normal ve beklenen. Kaynak: [marvel-contestofchampions.fandom.com/wiki/Gwenmaster](https://marvel-contestofchampions.fandom.com/wiki/Gwenmaster), [frontlinemcoc.home.blog/.../act-7-1-6](https://frontlinemcoc.home.blog/tag/act-7-1-6/).
+- **Massacre** (Act 6.3, Act 8.2.4/8.3.4): DB'de gerçekten var, sadece `masacre` (tek s) yazımıyla kayıtlı. Yanlış yazılan `massacre` id'lerinin hepsi (`7_3_1.json`, `8_2_4.json`, `8_3_4.json`) `masacre`'ye düzeltildi.
+
+### 1b. Hâlâ belirsiz
+
+| Rehberdeki isim | Geçtiği yer | Şu an kullanılan fallback | Not |
 |---|---|---|---|
-| Red Magneto / White Magneto | Act 6 (6.1.2, 6.1.3, 6.2.5, 6.3.2, 6.3.4, 6.3.5, 6.3.6, 6.4.3), Act 7 ajan raporlarında da bahsedildi | `magneto` veya `magnetomarvelnow` | DB'de bu iki özel varyant hiç yok, sadece klasik `magneto` ve `magnetomarvelnow` var |
-| Hydra Adaptoid | Act 6.4.5 boss | `adaptoid` | DB'de `adaptoid` veya `hydraadaptoid` hiç yok — boss id'si sahipsiz |
-| Grandmaster | Act 6.4.6 boss | `grandmaster` | DB'de bu id hiç yok — boss id'si sahipsiz |
-| Cosmic Spider-Man | Act 6.2.5 yol A | `spidermansupreme` | Tam karşılığı yok, tahmini fallback |
-| Gwenmaster | Act 7.2.6 boss | `gwenmaster` | Boss-only NPC, roster'da olmaması normal olabilir ama teyit edilmeli |
-| Night Carnage / Ice Phoenix | Act 7.1.5, 7.1.6 boss | `nightcarnage`, `icephoenix` | Mash-up bosslar, roster'da olmaması normal olabilir ama teyit edilmeli |
-| Massacre | Act 6.3 ve Act 8 (8.2.4, 8.3.4) | id yok, atlandı | `masacre` yazımıyla da geçiyor, doğru id kontrol edilmeli |
+| Cosmic Spider-Man | Act 6.2.5 yol A | `spidermansupreme` | Araştırma net sonuç vermedi: "Spider-Man (Supreme)" (Mystic sınıf) mi yoksa "Spider-Man (Symbiote)" (Cosmic sınıf, adı gibi kozmik kökenli siyah kostüm) mi kastediliyor belirsiz kaldı — id değiştirilmedi, teyit gerekiyor. |
 | Bahamut | Act 8.2.6 boss | id yok, atlandı | Boss-only NPC, roster'da olmaması normal olabilir ama teyit edilmeli |
 | Black Dwarf | Act 8.2.6, 8.4.6 | id yok, atlandı | DB'de bu id/isim hiç yok |
 | Cerastes | Act 8.3.6 boss ("Cerastes Sınavı") | id yok, atlandı | Boss-only NPC, quest adıyla aynı |
