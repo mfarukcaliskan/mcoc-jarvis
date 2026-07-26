@@ -1,6 +1,6 @@
 {
-  "dataVersion": 4,
-  "generatedAt": "2026-07-26T13:34:52Z",
+  "dataVersion": 5,
+  "generatedAt": "2026-07-26T13:38:47Z",
   "files": {
     "champions_db.json": "c23c61699f25bd7b9ef0c6287f08d102e5e95ae63021e12cee426b311151af61",
     "details/abomination.json": "9308002f0a5fdfba120f71fe0b307c6752356221ff587339065d36301475bf87",
