@@ -39,6 +39,78 @@
         "emmafrost"
       ],
       "leadsToBoss": "greengoblin"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Daredevil Hattı - Venom Yolu):",
+        "• Karo Açıklaması: Destructive Feedback, Evolutionary Advantage ve Overreach Fury 3 karoları etkindir.",
+        "• Strateji: Yol dövüşleri: Daredevil (Hell's Kitchen) → Invisible Woman → Masacre → Doctor Voodoo → Daredevil (Klasik) → Miles Morales."
+      ],
+      "defenders": [
+        "daredevilnetflix",
+        "invisiblewoman",
+        "masacre",
+        "doctorvoodoo",
+        "daredevil",
+        "spidermanmilesmorales"
+      ],
+      "leadsToBoss": "venom"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol D (Omega Red Hattı - Venom En Kolay Yolu):",
+        "• Karo Açıklaması: Encroaching Stun, Hurt Locker, Güç Ekseni 2 (Power Axis 2) ve Specialist 1 karoları etkindir; bu yol genel olarak oldukça kolay kabul edilir.",
+        "• Strateji: Yol dövüşleri: Omega Red → Stealth Örümcek-Adam → Man-Thing → Colossus → Squirrel Girl → Captain America Infinity War. Void ve Sentinel gibi geniş bağışıklığa sahip şampiyonlarla malzeme harcamadan (item-free) tamamlanabilir."
+      ],
+      "defenders": [
+        "omegared",
+        "spidermanstealthsuit",
+        "manthing",
+        "colossus",
+        "squirrelgirl",
+        "captainamericaiw"
+      ],
+      "leadsToBoss": "venom"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Red Guardian Hattı - Rhino Yolu):",
+        "• Karo Açıklaması: Static Blast, Extinction Protocol ve Specialist 2 karoları etkindir.",
+        "• Strateji: Yol dövüşleri: Red Guardian → Rogue → Guardian → Magneto (House of X) → Hawkeye → Bishop."
+      ],
+      "defenders": [
+        "redguardian",
+        "rogue",
+        "guardian",
+        "magnetomarvelnow",
+        "hawkeye",
+        "bishop"
+      ],
+      "leadsToBoss": "rhino"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol F (Jane Foster Hattı - Rhino Yolu):",
+        "• Karo Açıklaması: Vivified, Power Suppression, Power Alternator ve Unblockable Specials karoları etkindir.",
+        "• Strateji: Yol dövüşleri: Jane Foster → Heimdall → Longshot → Ghost → Tigra → Phoenix."
+      ],
+      "defenders": [
+        "thorjanefoster",
+        "heimdall",
+        "longshot",
+        "ghost",
+        "tigra",
+        "phoenix"
+      ],
+      "leadsToBoss": "rhino"
     }
   ],
   "bosses": [
@@ -55,6 +127,36 @@
         "captainmarvelmcu",
         "blade",
         "archangel"
+      ]
+    },
+    {
+      "championId": "venom",
+      "bossNodes": [
+        "+%150 Saldırı, +%500 Can - Venom diğer 7.1.2 bosslarına göre çok daha yüksek temel istatistiklerle başlar; topluluk kaynaklarına göre üç boss arasında en kolayı kabul edilir.",
+        "Chitinous Thorns - Zırh Artışı (Armor Up) buff'ları kırılmadıkça veya Kanama (Bleed) bağışıklığı olmadıkça hızlı can kaybına yol açar.",
+        "Cutting Wires & Foresight - Buff temizleme temelli stratejileri zorlaştıran ek karolar."
+      ],
+      "idealCounters": [
+        "doctordoom",
+        "sorcerersupreme",
+        "symbiotesupreme",
+        "blackwidowclairevoyant",
+        "manthing",
+        "morningstar"
+      ]
+    },
+    {
+      "championId": "rhino",
+      "bossNodes": [
+        "+%150 Saldırı, +%500 Can - Rhino diğer 7.1.2 bosslarına göre çok daha yüksek temel istatistiklerle başlar.",
+        "Tantrum, Power Shield, Bubble Shield, Matador - Matador karosu sayesinde Nick Fury gibi SP1 spam'i yapabilen şampiyonlar için elverişlidir; sürekli Sersemletme (Concussion), Şaşkınlık (Disorient), Zayıflatma (Enervate) veya Kışkırtma (Taunt) debuff'ları uygulamak dövüşü kolaylaştırır."
+      ],
+      "idealCounters": [
+        "nickfury",
+        "quake",
+        "spiderham",
+        "spidergwen",
+        "nightthrasher"
       ]
     }
   ]
