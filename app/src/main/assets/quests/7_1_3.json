@@ -6,9 +6,9 @@
   "paths": [
     {
       "pathLetter": "A",
-      "isEasiest": true,
+      "isEasiest": false,
       "pathNodes": [
-        "Yol A (Blaze Hattı - En Kolay Yol):",
+        "Yol A (Blaze Hattı - Zorlu Alternatif Yol):",
         "• Karo Açıklaması: Blaze karosu saldırgana zamanla artan bir yanma tipi degen hasarı biriktirir; Güç Ekseni 2 savunmacının güç kazanımını hızlandırır; Güç Kalkanı (Power Shield) savunmacıya güç doldukça geçici bir kalkan verir.",
         "• Strateji: Yol dövüşleri: Gambit → Karnak → Captain America → Falcon → Sorcerer Supreme → Joe Fixit. Blaze'in birikimli hasarını sıfırlamak için düzenli aralıklarla geri çekilin veya yüksek yanma direnci götürün; Güç Kalkanı aktifken özel saldırı yerine temiz kombo/parry tercih edin."
       ],
@@ -23,9 +23,9 @@
     },
     {
       "pathLetter": "B",
-      "isEasiest": false,
+      "isEasiest": true,
       "pathNodes": [
-        "Yol B (Backfire Hattı - Zorlu Alternatif Yol):",
+        "Yol B (Backfire Hattı - En Kolay Yol):",
         "• Karo Açıklaması: O Acıtacak (That's Gonna Sting) karosu isabetli vuruşlara karşılık verir; Backfire karosu belirli saldırılarda hasarı saldırgana geri yansıtır; Güç Alternatörü (Power Alternator) ve Güç Atıştırması (Power Snack 1) savunmacının güç akışını saldırgan aleyhine çevirir.",
         "• Strateji: Yol dövüşleri: Doctor Strange → Cable → Hyperion → Vision (Klasik) → Phoenix → Loki. Backfire riskini azaltmak için ağır saldırı yerine hafif kombo tercih edin; güç yönetimini sıkı tutup gereksiz özel saldırı kullanmaktan kaçının."
       ],
