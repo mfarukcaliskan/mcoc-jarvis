@@ -39,6 +39,78 @@
         "colossus"
       ],
       "leadsToBoss": "yondu"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Iron Man Hattı - Claire Voyant Zorlu Yolu):",
+        "• Karo Açıklaması: Oscillate 1, Invade ve Kinetic Instigator karoları etkindir; Invade karosu bloğa alınan vuruşların temas eden vuruşlardan daha fazla hasar vermesini sağlar, bu yüzden bloğa saldırmak burada tersine daha güvenlidir.",
+        "• Strateji: Yol dövüşleri: Iron Man → Yellowjacket → X-23 → Nova → Morningstar → Gwenpool. Corvus Glaive yükleri bu yolda değerlidir ancak agresif YZ davranışına karşı dikkatli olun; Nova dövüşü zorlayıcı olabilir, gerekirse can yenileme/revive kullanın."
+      ],
+      "defenders": [
+        "ironman",
+        "yellowjacket",
+        "wolverinex23",
+        "nova",
+        "morningstar",
+        "gwenpool"
+      ],
+      "leadsToBoss": "blackwidowclairevoyant"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol D (Nebula Hattı - Claire Voyant En Kolay Yolu):",
+        "• Karo Açıklaması: Masochism, Double Down ve Power Focus 2 karoları etkindir; Masochism'i aşmak için debuff ağırlıklı şampiyonlar (örn. Sunspot) tercih edilmeli, yüksek imza seviyesi etkinliği korumak için önemlidir.",
+        "• Strateji: Yol dövüşleri: Nebula → Luke Cage → Vision (Age of Ultron) → Ghost Rider → Ultron (Klasik) → King Groot. Sunspot, Human Torch veya Stark Örümcek-Adam gibi debuff/yanma temelli şampiyonlar tüm yolu rahat temizler."
+      ],
+      "defenders": [
+        "nebula",
+        "lukecage",
+        "visionaou",
+        "ghostrider",
+        "ultron",
+        "kinggroot"
+      ],
+      "leadsToBoss": "blackwidowclairevoyant"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Mysterio Hattı - Black Widow Zorlu Yolu):",
+        "• Karo Açıklaması: Turtling, Chitinous Thorns ve Cosmic Fracture karoları etkindir; savunmacıların Zırh Artışı (Armor Up) buff'larını kırmak veya Kanama (Bleed) bağışıklığı taşımak gerekir, aksi halde hızlı can kaybedilir.",
+        "• Strateji: Yol dövüşleri: Mysterio → Stealth Örümcek-Adam → Sentinel → Emma Frost → Darkhawk → Archangel. Corvus Glaive (Mysterio/Emma Frost), Captain Marvel (Movie) (Sentinel), Venom (Stealth Spider-Man) ve The Champion (Darkhawk/Archangel) etkili seçeneklerdir; Sunspot da Perfect Block ve Solar Charge avantajıyla güçlü bir alternatiftir."
+      ],
+      "defenders": [
+        "mysterio",
+        "spidermanstealthsuit",
+        "sentinel",
+        "emmafrost",
+        "darkhawk",
+        "archangel"
+      ],
+      "leadsToBoss": "bwdo"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol F (Cyclops Hattı - Black Widow En Kolay Yolu):",
+        "• Karo Açıklaması: Pleasure to Burn, Got a Light ve Mighty Charge karoları etkindir; 'Got a Light?' karosu, Pleasure to Burn kısıtlamasına rağmen Yanma (Incinerate) hasarı veren şampiyonların kullanılmasına izin verir.",
+        "• Strateji: Yol dövüşleri: Cyclops (Blue Team) → Hulk → Thor (Ragnarok) → Diablo → Gamora → Corvus Glaive. Sunspot ve Human Torch (Iceman/Thing/Mephisto sinerjileriyle) yolu hızla temizler; çoğu savunmacının SP1'i cezalandırılabilir olduğu için güç rotasyonu stratejisi de işe yarar."
+      ],
+      "defenders": [
+        "cyclopsblueteam",
+        "hulk",
+        "thorragnarok",
+        "diablo",
+        "gamora",
+        "corvusglaive"
+      ],
+      "leadsToBoss": "bwdo"
     }
   ],
   "bosses": [
@@ -53,6 +125,37 @@
         "corvusglaive",
         "starlord",
         "hyperion",
+        "cosmicghostrider"
+      ]
+    },
+    {
+      "championId": "blackwidowclairevoyant",
+      "bossNodes": [
+        "Footloose - Claire Voyant sersemletildiğinde (stun) bu sersemletmeyi anında iptal eder ve süresiz Durdurulamaz (Unstoppable) kazanır; bu süreyi bitirmek için tekrar sersemletip Durdurulamaz sayacının doğal olarak dolmasını beklemek gerekir.",
+        "Robot etiketli şampiyonlardan kaçının - bu dövüşte robot temalı saldırganlar ciddi dezavantajlı."
+      ],
+      "idealCounters": [
+        "humantorch",
+        "thing",
+        "shehulk",
+        "lukecage",
+        "void"
+      ]
+    },
+    {
+      "championId": "bwdo",
+      "bossNodes": [
+        "+%150 Saldırı, +%500 Can - Black Widow (Deadly Origin), diğer 7.1.1 bosslarına göre çok daha yüksek temel istatistiklerle başlar; 7.1.1'in en zorlu boss dövüşü kabul edilir.",
+        "Bullet Time - Sersemletildiğinde (stun) sersemlemeyi anında iptal eder, %100 ihtimalli bir Kaçınma (Evade) Yükü kazanır ve her başarılı kaçınmada bir yük harcar; saldırgan Çeviklik (Dexterity) ile kaçınırsa tüm yükler anında tükenir ve harcanan her yük başına 1,5 saniyelik pasif sersemletme uygulanır.",
+        "Stun Vulnerability, Tenacity 3, Enhanced Shock - kazanmak için parry (Kaçınma Yükü verir) → ardından temel saldırısına Çeviklik ile kaçınıp pasif sersemletmeyi tetikleme → ağır hasar verme sıralaması izlenmeli."
+      ],
+      "idealCounters": [
+        "sunspot",
+        "corvusglaive",
+        "captainmarvelmcu",
+        "medusa",
+        "visionaarkus",
+        "morningstar",
         "cosmicghostrider"
       ]
     }
