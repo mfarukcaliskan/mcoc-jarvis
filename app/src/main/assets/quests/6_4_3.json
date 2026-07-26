@@ -21,7 +21,8 @@
         "elektra",
         "drax",
         "annihilus"
-      ]
+      ],
+      "leadsToBoss": "darkhawk"
     },
     {
       "pathLetter": "B",
@@ -37,28 +38,31 @@
         "ghost",
         "doctoroctopus",
         "nova"
-      ]
+      ],
+      "leadsToBoss": "darkhawk"
     }
   ],
-  "boss": {
-    "championId": "darkhawk",
-    "bossNodes": [
-      "Teknolojik ve Metal Patron - Darkhawk teknolojik ve Metal sınıflı bir boss'tur; kalkan modlarında hasar yansıtır ve unblockable olur.",
-      "Raptor Zırhı Yükseltmesi - Darkhawk dövüşe Null Mode'da başlar; bu mod aktifken Hafif ve Orta saldırıları bloklanamaz.",
-      "Mod Değiştirme (Mode Shift) - Darkhawk periyodik olarak görünmezlik veya kalkan moduna geçer.",
-      "True Strike & Aggressive Cruelty (küresel) - Haritanın geri kalanındaki karo mekanikleri karmaşık değildir, düz rotasyonlarla ilerlenebilir.",
-      "Strateji: Kırmızı Magneto (Red Magneto), Darkhawk Metal sınıfı olduğu için onun yeteneklerini kilitler; ağır saldırıyla beceri (prowess) biriktirip SP3 attığınızda dövüşü tek seferde bitirebilir - bu dövüşün en net çözümüdür. Hulkling ve Hercules, yüksek hasarları ve zırh kırma bağışıklıklarıyla güçlü alternatiflerdir. Quake ile temassız oynayarak Null Mode'un bloklanamaz saldırılarından kaçının, ya da Human Torch/Doctor Doom gibi yüksek süregelen (DOT) hasarı olan şampiyonlarla dövüşü hızlandırın; Captain Marvel (Movie) de güçlü bir alternatiftir. Yol Counterları (Koridor): Hercules, CGR (Cosmic Ghost Rider) veya Corvus Glaive gibi zehir bağışıklığı veya yüksek hasarı olan şampiyonlar King Groot gibi can sıkan rakipleri hızla geçer."
-    ],
-    "idealCounters": [
-      "magneto",
-      "hulkling",
-      "hercules",
-      "quake",
-      "captainmarvelmcu",
-      "humantorch",
-      "doctordoom",
-      "cosmicghostrider",
-      "corvusglaive"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "darkhawk",
+      "bossNodes": [
+        "Teknolojik ve Metal Patron - Darkhawk teknolojik ve Metal sınıflı bir boss'tur; kalkan modlarında hasar yansıtır ve unblockable olur.",
+        "Raptor Zırhı Yükseltmesi - Darkhawk dövüşe Null Mode'da başlar; bu mod aktifken Hafif ve Orta saldırıları bloklanamaz.",
+        "Mod Değiştirme (Mode Shift) - Darkhawk periyodik olarak görünmezlik veya kalkan moduna geçer.",
+        "True Strike & Aggressive Cruelty (küresel) - Haritanın geri kalanındaki karo mekanikleri karmaşık değildir, düz rotasyonlarla ilerlenebilir.",
+        "Strateji: Kırmızı Magneto (Red Magneto), Darkhawk Metal sınıfı olduğu için onun yeteneklerini kilitler; ağır saldırıyla beceri (prowess) biriktirip SP3 attığınızda dövüşü tek seferde bitirebilir - bu dövüşün en net çözümüdür. Hulkling ve Hercules, yüksek hasarları ve zırh kırma bağışıklıklarıyla güçlü alternatiflerdir. Quake ile temassız oynayarak Null Mode'un bloklanamaz saldırılarından kaçının, ya da Human Torch/Doctor Doom gibi yüksek süregelen (DOT) hasarı olan şampiyonlarla dövüşü hızlandırın; Captain Marvel (Movie) de güçlü bir alternatiftir. Yol Counterları (Koridor): Hercules, CGR (Cosmic Ghost Rider) veya Corvus Glaive gibi zehir bağışıklığı veya yüksek hasarı olan şampiyonlar King Groot gibi can sıkan rakipleri hızla geçer."
+      ],
+      "idealCounters": [
+        "magneto",
+        "hulkling",
+        "hercules",
+        "quake",
+        "captainmarvelmcu",
+        "humantorch",
+        "doctordoom",
+        "cosmicghostrider",
+        "corvusglaive"
+      ]
+    }
+  ]
 }

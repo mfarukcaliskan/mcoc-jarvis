@@ -19,7 +19,8 @@
         "falcon",
         "sorcerersupreme",
         "joefixit"
-      ]
+      ],
+      "leadsToBoss": "visionaarkus"
     },
     {
       "pathLetter": "B",
@@ -36,21 +37,24 @@
         "vision",
         "phoenix",
         "loki"
-      ]
+      ],
+      "leadsToBoss": "visionaarkus"
     }
   ],
-  "boss": {
-    "championId": "visionaarkus",
-    "bossNodes": [
-      "Özel Patlama Kilidi 2 (Special Burst Lock Down 2) - Vision Aarkus'un özel saldırıları belirli bir eşiğin üzerinde saldırganın özel saldırı kullanımını geçici olarak kilitler.",
-      "Güç Tersine Çevirme (Power Reversal) & Fissure - Saldırganın güç kazanımı zaman zaman tersine çevrilir; Fissure aktif olduğunda büyük tek seferlik enerji hasarı verir.",
-      "Zırh Kırma / Dondurma Zinciri - Vision Aarkus Güç Kazanımı (Power Gain) buff'ı aktifken ona yaklaşmak saldırgana 2.3 saniyelik, 10 kata kadar istiflenen bir Zırh Kırma (Armor Break) süresi uygular; Zırh Kırma aktifken tekrar yaklaşmak ek olarak Dondurma Çarpması (Coldsnap) debuff'ı tetikler - Zırh Kırma veya Coldsnap bağışıklığı olmayan şampiyonlar açılış anında büyük hasar alır."
-    ],
-    "idealCounters": [
-      "doctordoom",
-      "colossus",
-      "humantorch",
-      "corvusglaive"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "visionaarkus",
+      "bossNodes": [
+        "Özel Patlama Kilidi 2 (Special Burst Lock Down 2) - Vision Aarkus'un özel saldırıları belirli bir eşiğin üzerinde saldırganın özel saldırı kullanımını geçici olarak kilitler.",
+        "Güç Tersine Çevirme (Power Reversal) & Fissure - Saldırganın güç kazanımı zaman zaman tersine çevrilir; Fissure aktif olduğunda büyük tek seferlik enerji hasarı verir.",
+        "Zırh Kırma / Dondurma Zinciri - Vision Aarkus Güç Kazanımı (Power Gain) buff'ı aktifken ona yaklaşmak saldırgana 2.3 saniyelik, 10 kata kadar istiflenen bir Zırh Kırma (Armor Break) süresi uygular; Zırh Kırma aktifken tekrar yaklaşmak ek olarak Dondurma Çarpması (Coldsnap) debuff'ı tetikler - Zırh Kırma veya Coldsnap bağışıklığı olmayan şampiyonlar açılış anında büyük hasar alır."
+      ],
+      "idealCounters": [
+        "doctordoom",
+        "colossus",
+        "humantorch",
+        "corvusglaive"
+      ]
+    }
+  ]
 }

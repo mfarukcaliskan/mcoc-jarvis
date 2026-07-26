@@ -19,7 +19,8 @@
         "void",
         "gladiator",
         "quasar"
-      ]
+      ],
+      "leadsToBoss": "arcade"
     },
     {
       "pathLetter": "B",
@@ -35,22 +36,25 @@
         "sentinel",
         "ironman",
         "warmachine"
-      ]
+      ],
+      "leadsToBoss": "arcade"
     }
   ],
-  "boss": {
-    "championId": "arcade",
-    "bossNodes": [
-      "Bubi Tuzağı: Dövüş başında savunmacının köşesine bir tuzak yerleştirilir; rakip tuzağın üzerindeyken Özel saldırı ihtimali %60 artar, Arcade Ağır saldırı şarj ederken veya bırakırken tuzak patlayıp rakibi 3 saniye pasif olarak Sersemletir.",
-      "Zehirli Bulut: İkinci vuruştan sonra rakibin bulunduğu yere bir Zehirli Bulut bırakılır; elektrik temaslı vuruşlar 10 saniye boyunca enerji hasarı veren Şok debuff'ı uygular.",
-      "Kapı Seçimi (Özel 3): Rastgele bir kapı seçilerek kalıcı Kanama, Yırtılma veya Şok debuff'larından biri rakibe uygulanır.",
-      "Sebatkâr Auto-Block: Arcade bir saldırıyı otomatik bloklamadan hemen önce, Ağır saldırılar hariç, yığılmayan bir Sebatkâr (Steadfast) buff'ı kazanır; bu Auto-Block ancak Undermine, Gerçek İsabet veya Ağır saldırılarla kırılabilir."
-    ],
-    "idealCounters": [
-      "vox",
-      "gorr",
-      "superskrull",
-      "hyperion"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "arcade",
+      "bossNodes": [
+        "Bubi Tuzağı: Dövüş başında savunmacının köşesine bir tuzak yerleştirilir; rakip tuzağın üzerindeyken Özel saldırı ihtimali %60 artar, Arcade Ağır saldırı şarj ederken veya bırakırken tuzak patlayıp rakibi 3 saniye pasif olarak Sersemletir.",
+        "Zehirli Bulut: İkinci vuruştan sonra rakibin bulunduğu yere bir Zehirli Bulut bırakılır; elektrik temaslı vuruşlar 10 saniye boyunca enerji hasarı veren Şok debuff'ı uygular.",
+        "Kapı Seçimi (Özel 3): Rastgele bir kapı seçilerek kalıcı Kanama, Yırtılma veya Şok debuff'larından biri rakibe uygulanır.",
+        "Sebatkâr Auto-Block: Arcade bir saldırıyı otomatik bloklamadan hemen önce, Ağır saldırılar hariç, yığılmayan bir Sebatkâr (Steadfast) buff'ı kazanır; bu Auto-Block ancak Undermine, Gerçek İsabet veya Ağır saldırılarla kırılabilir."
+      ],
+      "idealCounters": [
+        "vox",
+        "gorr",
+        "superskrull",
+        "hyperion"
+      ]
+    }
+  ]
 }

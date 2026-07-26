@@ -18,7 +18,8 @@
         "abomination",
         "shehulk",
         "redhulk"
-      ]
+      ],
+      "leadsToBoss": "thing"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "ronan",
         "medusa",
         "sentinel"
-      ]
+      ],
+      "leadsToBoss": "thing"
     }
   ],
-  "boss": {
-    "championId": "thing",
-    "bossNodes": [
-      "Kaya Gibi Zırh: Thing, isabet aldıkça artan kalıcı bir Zırh buff'ı biriktirir; bu zırh yalnızca Özel 3 sonrası kısa bir pencerede sıfırlanır.",
-      "Yumruk Serisi Sersemletmesi: Ardışık temel saldırılar belirli bir sayıya ulaştığında saldırganı Sersemletme (Stun) riskiyle karşı karşıya bırakır; blok zamanlaması kritik önem taşır.",
-      "Fiziksel Hasar Direnci: Thing, fiziksel hasara karşı doğal bir direnç taşır; enerji/element tabanlı hasar veren şampiyonlar bu direnci by-pass eder."
-    ],
-    "idealCounters": [
-      "quake",
-      "abominationimmortal",
-      "arcade",
-      "ironheart",
-      "onslaught"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "thing",
+      "bossNodes": [
+        "Kaya Gibi Zırh: Thing, isabet aldıkça artan kalıcı bir Zırh buff'ı biriktirir; bu zırh yalnızca Özel 3 sonrası kısa bir pencerede sıfırlanır.",
+        "Yumruk Serisi Sersemletmesi: Ardışık temel saldırılar belirli bir sayıya ulaştığında saldırganı Sersemletme (Stun) riskiyle karşı karşıya bırakır; blok zamanlaması kritik önem taşır.",
+        "Fiziksel Hasar Direnci: Thing, fiziksel hasara karşı doğal bir direnç taşır; enerji/element tabanlı hasar veren şampiyonlar bu direnci by-pass eder."
+      ],
+      "idealCounters": [
+        "quake",
+        "abominationimmortal",
+        "arcade",
+        "ironheart",
+        "onslaught"
+      ]
+    }
+  ]
 }

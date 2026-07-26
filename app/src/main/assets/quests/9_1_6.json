@@ -18,7 +18,8 @@
         "sabretooth",
         "omegared",
         "wolverinex23"
-      ]
+      ],
+      "leadsToBoss": "x_23_orochi"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "magneto",
         "mystique",
         "apocalypse"
-      ]
+      ],
+      "leadsToBoss": "x_23_orochi"
     }
   ],
-  "boss": {
-    "championId": "x_23_orochi",
-    "bossNodes": [
-      "Mükemmel Blok - %100 Mükemmel Blok Şansına sahiptir ve Kaçış (Evade) ile atlatılamaz.",
-      "Anlık İyileşme - Gelen hasarın %95'ini anında geri kazanır; üzerinde aktif olan her ani-olmayan (süreli/DOT) hasar efekti bu oranı %5 azaltır, minimum %50'ye kadar düşer - yani aynı anda birden fazla Kanama/Zehir/Kızdırma etkisi gerekir.",
-      "Şiddetli Arınma (Violent Purge) - Üzerinde 10 veya daha fazla hasar efekti biriktiğinde 10 saniyelik bir sayaç başlar; süre dolduğunda tüm hasar efektlerini temizler ve saldırgana Bozunma (Degeneration) uygular - bu yüzden DOT stack'lerini kontrollü tutmak gerekir.",
-      "Sınıf Bonusu - Mutant sınıfı olduğu için Skill şampiyonlara karşı avantajlıdır, ancak Tech şampiyonlara karşı zayıftır."
-    ],
-    "idealCounters": [
-      "onslaught",
-      "ladydeathstrike",
-      "warlock",
-      "symbiotesupreme"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "x_23_orochi",
+      "bossNodes": [
+        "Mükemmel Blok - %100 Mükemmel Blok Şansına sahiptir ve Kaçış (Evade) ile atlatılamaz.",
+        "Anlık İyileşme - Gelen hasarın %95'ini anında geri kazanır; üzerinde aktif olan her ani-olmayan (süreli/DOT) hasar efekti bu oranı %5 azaltır, minimum %50'ye kadar düşer - yani aynı anda birden fazla Kanama/Zehir/Kızdırma etkisi gerekir.",
+        "Şiddetli Arınma (Violent Purge) - Üzerinde 10 veya daha fazla hasar efekti biriktiğinde 10 saniyelik bir sayaç başlar; süre dolduğunda tüm hasar efektlerini temizler ve saldırgana Bozunma (Degeneration) uygular - bu yüzden DOT stack'lerini kontrollü tutmak gerekir.",
+        "Sınıf Bonusu - Mutant sınıfı olduğu için Skill şampiyonlara karşı avantajlıdır, ancak Tech şampiyonlara karşı zayıftır."
+      ],
+      "idealCounters": [
+        "onslaught",
+        "ladydeathstrike",
+        "warlock",
+        "symbiotesupreme"
+      ]
+    }
+  ]
 }

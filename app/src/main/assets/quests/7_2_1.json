@@ -19,7 +19,8 @@
         "professorx",
         "scarletwitch",
         "moleman"
-      ]
+      ],
+      "leadsToBoss": "modok"
     },
     {
       "pathLetter": "B",
@@ -34,22 +35,25 @@
         "captainmarvelmcu",
         "juggernaut",
         "magneto"
-      ]
+      ],
+      "leadsToBoss": "modok"
     }
   ],
-  "boss": {
-    "championId": "modok",
-    "bossNodes": [
-      "Kuvvet Alanı (Force Field) - MODOK dövüşe 1 Kuvvet Alanı yüküyle başlar; bu yük +174 Blok Yeterliliği ile gelen saldırıyı otomatik bloklar ve bu otomatik blok sırasında parry tetiklenemez. Kuvvet Alanı, sahadaki her canlı müttefik şampiyon için 0.8 saniye daha hızlı yeniden dolar (5 şampiyonun tamamı hayattaysa 3 saniyede dolar).",
-      "Aşırı Yüklenme (Overrun) - Kuvvet Alanı aktifken bloklanan saldırılar Overrun yükü biriktirir; yük belirli bir eşiği aştığında MODOK'un gelecek özel saldırısı ciddi oranda güçlenir, bu yüzden Gerçek Vuruş (True Strike) temelli saldırılarla Kuvvet Alanı'nı tamamen devre dışı bırakmak en güvenli yoldur."
-    ],
-    "idealCounters": [
-      "magneto",
-      "moleman",
-      "killmonger",
-      "falcon",
-      "angela",
-      "corvusglaive"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "modok",
+      "bossNodes": [
+        "Kuvvet Alanı (Force Field) - MODOK dövüşe 1 Kuvvet Alanı yüküyle başlar; bu yük +174 Blok Yeterliliği ile gelen saldırıyı otomatik bloklar ve bu otomatik blok sırasında parry tetiklenemez. Kuvvet Alanı, sahadaki her canlı müttefik şampiyon için 0.8 saniye daha hızlı yeniden dolar (5 şampiyonun tamamı hayattaysa 3 saniyede dolar).",
+        "Aşırı Yüklenme (Overrun) - Kuvvet Alanı aktifken bloklanan saldırılar Overrun yükü biriktirir; yük belirli bir eşiği aştığında MODOK'un gelecek özel saldırısı ciddi oranda güçlenir, bu yüzden Gerçek Vuruş (True Strike) temelli saldırılarla Kuvvet Alanı'nı tamamen devre dışı bırakmak en güvenli yoldur."
+      ],
+      "idealCounters": [
+        "magneto",
+        "moleman",
+        "killmonger",
+        "falcon",
+        "angela",
+        "corvusglaive"
+      ]
+    }
+  ]
 }

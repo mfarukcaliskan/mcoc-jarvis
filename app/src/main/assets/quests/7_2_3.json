@@ -19,7 +19,8 @@
         "proximamidnight",
         "squirrelgirl",
         "hitmonkey"
-      ]
+      ],
+      "leadsToBoss": "venomtheduck"
     },
     {
       "pathLetter": "B",
@@ -34,21 +35,24 @@
         "corvusglaive",
         "nightthrasher",
         "punisher2099"
-      ]
+      ],
+      "leadsToBoss": "venomtheduck"
     }
   ],
-  "boss": {
-    "championId": "venomtheduck",
-    "bossNodes": [
-      "Bloklanamaz Saldırı - Venom the Duck'ın tüm saldırıları bloklanamaz; ancak Özel Saldırı 1'i oyunun en kolay kaçınılabilir saldırılarından biridir, bu yüzden zamanlamalı kaçınma dövüşün anahtarıdır.",
-      "Parçacık Koruyucusu (Particle Protector) - Savunmacının gelen saldırıyı sıyırma (glance) ihtimali %85'tir; sıyırılan vuruşlar kritik olamaz ve %100 yetenek isabet oranı kaybına uğrar, bu yüzden yetenek tetikleyen (debuff uygulayan) şampiyonlar büyük verim kaybı yaşar.",
-      "Öfke (Rage) - Savunmacının tek seferde alabileceği maksimum hasar can tavanının %2.5'i ile sınırlıdır; bu sınıra ulaşıldığında %50 kalıcı Öfke (Fury) kazanır, 5 kalıcı Öfke yığınına ulaştığında ise kalıcı olarak bloklanamaz hale gelir."
-    ],
-    "idealCounters": [
-      "elsabloodstone",
-      "moleman",
-      "hitmonkey",
-      "corvusglaive"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "venomtheduck",
+      "bossNodes": [
+        "Bloklanamaz Saldırı - Venom the Duck'ın tüm saldırıları bloklanamaz; ancak Özel Saldırı 1'i oyunun en kolay kaçınılabilir saldırılarından biridir, bu yüzden zamanlamalı kaçınma dövüşün anahtarıdır.",
+        "Parçacık Koruyucusu (Particle Protector) - Savunmacının gelen saldırıyı sıyırma (glance) ihtimali %85'tir; sıyırılan vuruşlar kritik olamaz ve %100 yetenek isabet oranı kaybına uğrar, bu yüzden yetenek tetikleyen (debuff uygulayan) şampiyonlar büyük verim kaybı yaşar.",
+        "Öfke (Rage) - Savunmacının tek seferde alabileceği maksimum hasar can tavanının %2.5'i ile sınırlıdır; bu sınıra ulaşıldığında %50 kalıcı Öfke (Fury) kazanır, 5 kalıcı Öfke yığınına ulaştığında ise kalıcı olarak bloklanamaz hale gelir."
+      ],
+      "idealCounters": [
+        "elsabloodstone",
+        "moleman",
+        "hitmonkey",
+        "corvusglaive"
+      ]
+    }
+  ]
 }

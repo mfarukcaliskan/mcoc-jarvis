@@ -19,7 +19,8 @@
         "thorjanefoster",
         "sentinel",
         "thechampion"
-      ]
+      ],
+      "leadsToBoss": "hela"
     },
     {
       "pathLetter": "B",
@@ -36,21 +37,24 @@
         "psylocke",
         "medusa",
         "redskull"
-      ]
+      ],
+      "leadsToBoss": "hela"
     }
   ],
-  "boss": {
-    "championId": "hela",
-    "bossNodes": [
-      "Lazarus - Hela dövüşe bir dizi Yeniden Doğuş (Revival) şarjı ile başlar; saldırganın kombo sayacındaki her X vuruş bu şarjlardan X tanesini düşürür, ancak saldırgan kombosunu kaybettiğinde Hela yeni bir Yeniden Doğuş şarjı kazanır - şarjlar bitmeden Hela'yı düşürmek onu öldürmez.",
-      "Karşı Saldırı (Counterstrike) - Saldırganın Beceri (Dexterity) ile kaçınma yapması Hela'ya bir Öfke (Fury) şarjı kazandırır; belirli sayıda şarj birikince tüm şarjlar sıfırlanır ve Hela'nın bir sonraki saldırısı Bloklanamaz (Unblockable) hale gelir.",
-      "Rust & Run / Gelişmiş Öfke (Enhanced Fury) - Ağır Saldırı (Heavy Assault) sonrası Hela'nın saldırı gücü kademeli olarak artar ve bu öfke birikimi zamanla azalmadan sürer."
-    ],
-    "idealCounters": [
-      "doctordoom",
-      "symbiotesupreme",
-      "blackwidowclairevoyant",
-      "sorcerersupreme"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "hela",
+      "bossNodes": [
+        "Lazarus - Hela dövüşe bir dizi Yeniden Doğuş (Revival) şarjı ile başlar; saldırganın kombo sayacındaki her X vuruş bu şarjlardan X tanesini düşürür, ancak saldırgan kombosunu kaybettiğinde Hela yeni bir Yeniden Doğuş şarjı kazanır - şarjlar bitmeden Hela'yı düşürmek onu öldürmez.",
+        "Karşı Saldırı (Counterstrike) - Saldırganın Beceri (Dexterity) ile kaçınma yapması Hela'ya bir Öfke (Fury) şarjı kazandırır; belirli sayıda şarj birikince tüm şarjlar sıfırlanır ve Hela'nın bir sonraki saldırısı Bloklanamaz (Unblockable) hale gelir.",
+        "Rust & Run / Gelişmiş Öfke (Enhanced Fury) - Ağır Saldırı (Heavy Assault) sonrası Hela'nın saldırı gücü kademeli olarak artar ve bu öfke birikimi zamanla azalmadan sürer."
+      ],
+      "idealCounters": [
+        "doctordoom",
+        "symbiotesupreme",
+        "blackwidowclairevoyant",
+        "sorcerersupreme"
+      ]
+    }
+  ]
 }

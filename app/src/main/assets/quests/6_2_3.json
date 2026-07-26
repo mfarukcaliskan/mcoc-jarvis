@@ -21,7 +21,8 @@
         "captainamericawwii",
         "doctorvoodoo",
         "thor"
-      ]
+      ],
+      "leadsToBoss": "omegared"
     },
     {
       "pathLetter": "B",
@@ -38,32 +39,35 @@
         "doctorstrange",
         "greengoblin",
         "humantorch"
-      ]
+      ],
+      "leadsToBoss": "omegared"
     }
   ],
-  "boss": {
-    "championId": "omegared",
-    "bossNodes": [
-      "İyileşme (Recovery) - Omega Red pasif olarak sürekli can yeniler.",
-      "Gelişmiş Özel 1 / Özel 2 - Standarttan çok daha güçlü özel saldırılar kullanır.",
-      "Debilitate - Saldırganın stat'larını düşüren bir debuff uygular.",
-      "Limber - Parry sersemletmeleri tükendiğinde güvenli saldırı penceresi daralır.",
-      "Yaydığı ölüm alanı (Death Field) ve sporları yüzünden tehlikelidir, kanama tetikler.",
-      "Ghost (Mekanik Çözücü): Üzerindeki dejenere debuff'larını faza (phase) geçerek Hiddet (Fury) pasiflerine dönüştürür, karoyu kendi avantajına kullanır. Corvus Glaive & Colossus: Siper + Ağır saldırı döngüsüyle dejenere almadan çok yüksek hasarlara ulaşırlar. Kingpin: Negatif etkileri hızlıca silkeleme (shrug off) yeteneğiyle yolu rahat geçer. Boss Karşıtları (Robotlar): Omega Red'in sporlarından hasar almamak için Guillotine 2099, Warlock veya Sentinel gibi kanama bağışıklığı olan robotları tercih edin; Mister Sinister, Hercules veya CGR da yüksek hasarlarıyla boss'u çok hızlı eritebilir."
-    ],
-    "idealCounters": [
-      "ghost",
-      "corvusglaive",
-      "colossus",
-      "kingpin",
-      "guillotine2099",
-      "warlock",
-      "sentinel",
-      "mistersinister",
-      "hercules",
-      "cosmicghostrider",
-      "killmonger",
-      "void"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "omegared",
+      "bossNodes": [
+        "İyileşme (Recovery) - Omega Red pasif olarak sürekli can yeniler.",
+        "Gelişmiş Özel 1 / Özel 2 - Standarttan çok daha güçlü özel saldırılar kullanır.",
+        "Debilitate - Saldırganın stat'larını düşüren bir debuff uygular.",
+        "Limber - Parry sersemletmeleri tükendiğinde güvenli saldırı penceresi daralır.",
+        "Yaydığı ölüm alanı (Death Field) ve sporları yüzünden tehlikelidir, kanama tetikler.",
+        "Ghost (Mekanik Çözücü): Üzerindeki dejenere debuff'larını faza (phase) geçerek Hiddet (Fury) pasiflerine dönüştürür, karoyu kendi avantajına kullanır. Corvus Glaive & Colossus: Siper + Ağır saldırı döngüsüyle dejenere almadan çok yüksek hasarlara ulaşırlar. Kingpin: Negatif etkileri hızlıca silkeleme (shrug off) yeteneğiyle yolu rahat geçer. Boss Karşıtları (Robotlar): Omega Red'in sporlarından hasar almamak için Guillotine 2099, Warlock veya Sentinel gibi kanama bağışıklığı olan robotları tercih edin; Mister Sinister, Hercules veya CGR da yüksek hasarlarıyla boss'u çok hızlı eritebilir."
+      ],
+      "idealCounters": [
+        "ghost",
+        "corvusglaive",
+        "colossus",
+        "kingpin",
+        "guillotine2099",
+        "warlock",
+        "sentinel",
+        "mistersinister",
+        "hercules",
+        "cosmicghostrider",
+        "killmonger",
+        "void"
+      ]
+    }
+  ]
 }

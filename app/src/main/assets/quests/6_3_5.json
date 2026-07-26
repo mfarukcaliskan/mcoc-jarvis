@@ -20,7 +20,8 @@
         "ghostrider",
         "captainmarvelmcu",
         "annihilus"
-      ]
+      ],
+      "leadsToBoss": "mysterio"
     },
     {
       "pathLetter": "B",
@@ -36,28 +37,31 @@
         "angela",
         "greengoblin",
         "electro"
-      ]
+      ],
+      "leadsToBoss": "mysterio"
     }
   ],
-  "boss": {
-    "championId": "mysterio",
-    "bossNodes": [
-      "Tunnel Vision - Saldırgan art arda aynı tür saldırıyı (örn. iki kez orta vuruş) kullanırsa Falter (sersemleme) debuff'ı alır.",
-      "Matador - Saldırgan yalnızca Mysterio özel saldırı kullandığında güç kazanır; kask (helmet) aktifken bu güç kazanımı %50 artar.",
-      "Toxic Behavior - Mysterio 8 saniye boyunca 3 kat Kimyasal Gaz (Chemical Gas) biriktirirse saldırgana Zehirlenme (Poison) debuff'ı uygular.",
-      "Armor Break Immune - Zırh Kırma etkilerine bağışıklıdır.",
-      "Captain America IW (Uyanmış - Sig 200) + Beceri (Skill) Sinerjisi - Dövüşün mutlak hilesidir: takımda bir Beceri şampiyonu varken Kaptan üzerindeki tüm Zehir, Güç Kilidi ve Iskalama zayıflatıcılarını kinetik yük harcayarak anında siler.",
-      "Kırmızı Magneto (Red Magneto) - Mysterio bir Metal şampiyon olduğu için onun tüm yetenek doğruluğunu düşürür ve dövüşü çok kolaylaştırır.",
-      "Strateji: Mysterio'nun zehir yüklerini harcaması için onu sürekli SP1/SP2 atmaya zorlayın (baitleyin); siper sonrası sadece Orta + Ağır Saldırı (Medium + Heavy) kombosu yapın, böylece Iskalama mekaniğine yakalanmazsınız."
-    ],
-    "idealCounters": [
-      "captainamericaiw",
-      "magneto",
-      "warlock",
-      "humantorch",
-      "domino",
-      "nickfury",
-      "redhulk"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "mysterio",
+      "bossNodes": [
+        "Tunnel Vision - Saldırgan art arda aynı tür saldırıyı (örn. iki kez orta vuruş) kullanırsa Falter (sersemleme) debuff'ı alır.",
+        "Matador - Saldırgan yalnızca Mysterio özel saldırı kullandığında güç kazanır; kask (helmet) aktifken bu güç kazanımı %50 artar.",
+        "Toxic Behavior - Mysterio 8 saniye boyunca 3 kat Kimyasal Gaz (Chemical Gas) biriktirirse saldırgana Zehirlenme (Poison) debuff'ı uygular.",
+        "Armor Break Immune - Zırh Kırma etkilerine bağışıklıdır.",
+        "Captain America IW (Uyanmış - Sig 200) + Beceri (Skill) Sinerjisi - Dövüşün mutlak hilesidir: takımda bir Beceri şampiyonu varken Kaptan üzerindeki tüm Zehir, Güç Kilidi ve Iskalama zayıflatıcılarını kinetik yük harcayarak anında siler.",
+        "Kırmızı Magneto (Red Magneto) - Mysterio bir Metal şampiyon olduğu için onun tüm yetenek doğruluğunu düşürür ve dövüşü çok kolaylaştırır.",
+        "Strateji: Mysterio'nun zehir yüklerini harcaması için onu sürekli SP1/SP2 atmaya zorlayın (baitleyin); siper sonrası sadece Orta + Ağır Saldırı (Medium + Heavy) kombosu yapın, böylece Iskalama mekaniğine yakalanmazsınız."
+      ],
+      "idealCounters": [
+        "captainamericaiw",
+        "magneto",
+        "warlock",
+        "humantorch",
+        "domino",
+        "nickfury",
+        "redhulk"
+      ]
+    }
+  ]
 }

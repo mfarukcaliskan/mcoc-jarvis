@@ -18,7 +18,8 @@
         "thechampion",
         "abominationimmortal",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "bahamut"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "proximamidnight",
         "hela",
         "black_dwarf"
-      ]
+      ],
+      "leadsToBoss": "bahamut"
     }
   ],
-  "boss": {
-    "championId": "bahamut",
-    "bossNodes": [
-      "X-Gama ve Uçuculuk Yükleri: Her 8 saniyede bir, saldırgan uzak mesafedeyse X-Gamma Yükü, yakın mesafedeyse Uçuculuk (Volatility) Yükü kazanılır; bu yükler faz geçişlerinde büyük patlama hasarına dönüşür.",
-      "Bozulmuş Zırh (Corrupted Armor): Her faz başında Bahamut Bozulmuş Zırh kazanır ve saldırgan üzerindeki tüm Kesin İsabet/Kesin Sezgi etkileri silinir; zırhı kaldırmak için doğru zamanlamayla bir Kaldırma Şarjı (Removal Charge) kullanmak gerekir.",
-      "Temel Saldırı Patlaması ve Kızdırma: Temel saldırılar son isabetin %70'i kadar Enerji Patlama hasarı verir; saldırgan 1,5 saniye yakın mesafede kalırsa Blok Yeterliliğini %50 azaltan bir Kızdırma (Incinerate) debuff'u işlenir."
-    ],
-    "idealCounters": [
-      "aegon",
-      "kingpin",
-      "guillotine2099",
-      "moleman",
-      "cheeilth"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "bahamut",
+      "bossNodes": [
+        "X-Gama ve Uçuculuk Yükleri: Her 8 saniyede bir, saldırgan uzak mesafedeyse X-Gamma Yükü, yakın mesafedeyse Uçuculuk (Volatility) Yükü kazanılır; bu yükler faz geçişlerinde büyük patlama hasarına dönüşür.",
+        "Bozulmuş Zırh (Corrupted Armor): Her faz başında Bahamut Bozulmuş Zırh kazanır ve saldırgan üzerindeki tüm Kesin İsabet/Kesin Sezgi etkileri silinir; zırhı kaldırmak için doğru zamanlamayla bir Kaldırma Şarjı (Removal Charge) kullanmak gerekir.",
+        "Temel Saldırı Patlaması ve Kızdırma: Temel saldırılar son isabetin %70'i kadar Enerji Patlama hasarı verir; saldırgan 1,5 saniye yakın mesafede kalırsa Blok Yeterliliğini %50 azaltan bir Kızdırma (Incinerate) debuff'u işlenir."
+      ],
+      "idealCounters": [
+        "aegon",
+        "kingpin",
+        "guillotine2099",
+        "moleman",
+        "cheeilth"
+      ]
+    }
+  ]
 }

@@ -20,7 +20,8 @@
         "hela",
         "visionaarkus",
         "angela"
-      ]
+      ],
+      "leadsToBoss": "grandmaster"
     },
     {
       "pathLetter": "B",
@@ -35,28 +36,31 @@
         "annihilus",
         "carnage",
         "corvusglaive"
-      ]
+      ],
+      "leadsToBoss": "grandmaster"
     }
   ],
-  "boss": {
-    "championId": "grandmaster",
-    "bossNodes": [
-      "Usta Yarışmacı (Master of the Contest) - Grandmaster sadece doğrudan vuruş aldığında hasar alır ve tek bir kaynaktan gelen hasar can payının %5'i ile sınırlıdır; gücü ve yetenek isabeti düşürülemez, saldırıları kaçırılamaz veya otomatik bloklanamaz.",
-      "Rekabet/Yanılgı Jetonları (Tokens of Competence/Blunder) - Periyodik olarak çıkan bir 'Challenge' (ör. bloğa vuruş, geri dash, hareketsiz kalma) başarıyla tamamlanırsa Rekabet Jetonu, başarısız olunursa Yanılgı Jetonu kazanılır; 5 Yanılgı Jetonu Grandmaster'a anında Özel 3 hakkı verir.",
-      "4 Evre Sistemi - Can %100-80 arasında güç kazanımı yoktur (10 saniyede bir temas şart, aksi halde Degen); %79-30 arasında sersemletme bağışıklığı devreye girer ve Challenge döngüsü başlar; %29-2 arasında kontrolleriniz periyodik olarak ters döner; %1-0 arasında Grandmaster 18 saniye boyunca Öfkelenir (Infuriated) ve kalıcı Durdurulamaz (Unstoppable) olur - intercept saldırıları bunu 1.2 saniyeliğine keser -, ardından kalıcı Yaralı (Wounded) hâle gelip yalnızca Özel 3 hasarı kabul eder.",
-      "Strateji: Güçlü bir intercept ve ters-kontrol bağışıklığına sahip şampiyon şarttır (Juggernaut bu dövüş için özellikle güçlüdür); Özel 1 saldırısında eller geriye giderken dex yaparak kaçının, eller öne gelene kadar beklemeyin. Spider-Man (Stealth Suit), Captain America (IW), She-Hulk ve Symbiote Supreme en çok önerilen karşıtlardır. Ters Kontrol Bağışıklığı Olan Şampiyonlar: Juggernaut, Profesör X veya Mister Sinister 3. Aşama (Reverse Controls) için şarttır - özellikle Juggernaut hem yüksek hasarı hem de ters kontrol bağışıklığıyla en popüler ve en basit çözümdür. Yol Counterları (Koridor): Hercules (tüm yolu tek başına temizleyebilir), Doktor Doom (Annihilus, Phoenix ve Vision Aarkus takviyelerini sıfırlar), CGR veya Corvus Glaive."
-    ],
-    "idealCounters": [
-      "juggernaut",
-      "professorx",
-      "mistersinister",
-      "spidermanstealthsuit",
-      "captainamericaiw",
-      "shehulk",
-      "symbiotesupreme",
-      "hercules",
-      "doctordoom",
-      "cosmicghostrider"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "grandmaster",
+      "bossNodes": [
+        "Usta Yarışmacı (Master of the Contest) - Grandmaster sadece doğrudan vuruş aldığında hasar alır ve tek bir kaynaktan gelen hasar can payının %5'i ile sınırlıdır; gücü ve yetenek isabeti düşürülemez, saldırıları kaçırılamaz veya otomatik bloklanamaz.",
+        "Rekabet/Yanılgı Jetonları (Tokens of Competence/Blunder) - Periyodik olarak çıkan bir 'Challenge' (ör. bloğa vuruş, geri dash, hareketsiz kalma) başarıyla tamamlanırsa Rekabet Jetonu, başarısız olunursa Yanılgı Jetonu kazanılır; 5 Yanılgı Jetonu Grandmaster'a anında Özel 3 hakkı verir.",
+        "4 Evre Sistemi - Can %100-80 arasında güç kazanımı yoktur (10 saniyede bir temas şart, aksi halde Degen); %79-30 arasında sersemletme bağışıklığı devreye girer ve Challenge döngüsü başlar; %29-2 arasında kontrolleriniz periyodik olarak ters döner; %1-0 arasında Grandmaster 18 saniye boyunca Öfkelenir (Infuriated) ve kalıcı Durdurulamaz (Unstoppable) olur - intercept saldırıları bunu 1.2 saniyeliğine keser -, ardından kalıcı Yaralı (Wounded) hâle gelip yalnızca Özel 3 hasarı kabul eder.",
+        "Strateji: Güçlü bir intercept ve ters-kontrol bağışıklığına sahip şampiyon şarttır (Juggernaut bu dövüş için özellikle güçlüdür); Özel 1 saldırısında eller geriye giderken dex yaparak kaçının, eller öne gelene kadar beklemeyin. Spider-Man (Stealth Suit), Captain America (IW), She-Hulk ve Symbiote Supreme en çok önerilen karşıtlardır. Ters Kontrol Bağışıklığı Olan Şampiyonlar: Juggernaut, Profesör X veya Mister Sinister 3. Aşama (Reverse Controls) için şarttır - özellikle Juggernaut hem yüksek hasarı hem de ters kontrol bağışıklığıyla en popüler ve en basit çözümdür. Yol Counterları (Koridor): Hercules (tüm yolu tek başına temizleyebilir), Doktor Doom (Annihilus, Phoenix ve Vision Aarkus takviyelerini sıfırlar), CGR veya Corvus Glaive."
+      ],
+      "idealCounters": [
+        "juggernaut",
+        "professorx",
+        "mistersinister",
+        "spidermanstealthsuit",
+        "captainamericaiw",
+        "shehulk",
+        "symbiotesupreme",
+        "hercules",
+        "doctordoom",
+        "cosmicghostrider"
+      ]
+    }
+  ]
 }

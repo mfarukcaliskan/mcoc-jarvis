@@ -19,7 +19,8 @@
         "stormpyramidx",
         "groot",
         "ironmaninfinitywar"
-      ]
+      ],
+      "leadsToBoss": "nightcarnage"
     },
     {
       "pathLetter": "B",
@@ -36,21 +37,24 @@
         "moleman",
         "corvusglaive",
         "quake"
-      ]
+      ],
+      "leadsToBoss": "nightcarnage"
     }
   ],
-  "boss": {
-    "championId": "nightcarnage",
-    "bossNodes": [
-      "Nightcrawler Kaçınması (Evade) - Night Carnage, Nightcrawler'ın kaçınma/ışınlanma mekaniğini taşır; en güvenli yaklaşım yalnızca o sersemlemişken (stunned) vurmaktır, normal saldırı pencerelerinde yakınında kalmak risklidir.",
-      "Enerji Adaptasyonu: Şimşek 1 (Energy Adoption: Lightning 1) - Night Carnage'a uygulanan Şok (Shock) debuff'ları etkisiz hale gelir ve kısmen kendi gücüne dönüştürülür; Şok bağışıklığı olmayan saldırganlar bu karoyla dezavantajlı kalır.",
-      "İyileşme Tersine Çevirme (Heal Reversal) & Güç Taşması (Power Overflow) - Saldırganın can yenilemesi ters etki yaratabilir; Power Buildup ile biriken güç eşiği aşıldığında taşarak Night Carnage'a ekstra güç kazandırır."
-    ],
-    "idealCounters": [
-      "manthing",
-      "abominationimmortal",
-      "thing",
-      "doctordoom"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "nightcarnage",
+      "bossNodes": [
+        "Nightcrawler Kaçınması (Evade) - Night Carnage, Nightcrawler'ın kaçınma/ışınlanma mekaniğini taşır; en güvenli yaklaşım yalnızca o sersemlemişken (stunned) vurmaktır, normal saldırı pencerelerinde yakınında kalmak risklidir.",
+        "Enerji Adaptasyonu: Şimşek 1 (Energy Adoption: Lightning 1) - Night Carnage'a uygulanan Şok (Shock) debuff'ları etkisiz hale gelir ve kısmen kendi gücüne dönüştürülür; Şok bağışıklığı olmayan saldırganlar bu karoyla dezavantajlı kalır.",
+        "İyileşme Tersine Çevirme (Heal Reversal) & Güç Taşması (Power Overflow) - Saldırganın can yenilemesi ters etki yaratabilir; Power Buildup ile biriken güç eşiği aşıldığında taşarak Night Carnage'a ekstra güç kazandırır."
+      ],
+      "idealCounters": [
+        "manthing",
+        "abominationimmortal",
+        "thing",
+        "doctordoom"
+      ]
+    }
+  ]
 }

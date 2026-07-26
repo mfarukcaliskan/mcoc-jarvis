@@ -422,9 +422,11 @@ fun QuestNavigatorScreen() {
                             }
 
                             // Boss Section
-                            item {
-                                val bossChamp = ChampionRepository.champions.firstOrNull { it.id == quest.boss.championId }
-                                val bossName = bossChamp?.name ?: quest.boss.championId.replace("_", " ").capitalize()
+                            val currentBoss = quest.bosses.firstOrNull { it.championId == currentPath?.leadsToBoss }
+                                ?: quest.bosses.firstOrNull()
+                            if (currentBoss != null) item {
+                                val bossChamp = ChampionRepository.champions.firstOrNull { it.id == currentBoss.championId }
+                                val bossName = bossChamp?.name ?: currentBoss.championId.replace("_", " ").capitalize()
                                 val bossClassColor = when (bossChamp?.mcocClass) {
                                     ChampionClass.SCIENCE -> Color(0xFF22C55E)
                                     ChampionClass.MYSTIC -> Color(0xFF8B5CF6)
@@ -473,7 +475,7 @@ fun QuestNavigatorScreen() {
                                             fontWeight = FontWeight.Bold,
                                             fontSize = 14.sp
                                         )
-                                        quest.boss.bossNodes.forEach { node ->
+                                        currentBoss.bossNodes.forEach { node ->
                                             Text(text = "🔥 $node", color = Color(0xFFCBD5E1), fontSize = 13.sp)
                                         }
 
@@ -488,7 +490,7 @@ fun QuestNavigatorScreen() {
                                             horizontalArrangement = Arrangement.spacedBy(8.dp),
                                             modifier = Modifier.fillMaxWidth().padding(top = 4.dp)
                                         ) {
-                                            items(quest.boss.idealCounters) { counterId ->
+                                            items(currentBoss.idealCounters) { counterId ->
                                                 val counterChamp = ChampionRepository.champions.firstOrNull { it.id == counterId }
                                                 val name = counterChamp?.name ?: counterId.replace("_", " ").capitalize()
                                                 val isOwn = userDeck.any { it.id == counterId }
@@ -513,7 +515,7 @@ fun QuestNavigatorScreen() {
                                                 }
                                             }
                                         }
-                                        if (quest.boss.idealCounters.any { id -> userDeck.any { it.id == id } }) {
+                                        if (currentBoss.idealCounters.any { id -> userDeck.any { it.id == id } }) {
                                             Text(
                                                 text = "💡 Harika! Destenizdeki boss karşıtı şampiyonu dövüş sonuna kadar saklamayı unutmayın!",
                                                 color = Color(0xFF22C55E),

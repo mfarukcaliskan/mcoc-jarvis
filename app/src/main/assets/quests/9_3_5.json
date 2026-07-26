@@ -17,7 +17,8 @@
         "sentry",
         "redhulk",
         "abomination"
-      ]
+      ],
+      "leadsToBoss": "theleader"
     },
     {
       "pathLetter": "B",
@@ -31,21 +32,24 @@
         "abominationimmortal",
         "hulk",
         "misterfantastic"
-      ]
+      ],
+      "leadsToBoss": "theleader"
     }
   ],
-  "boss": {
-    "championId": "theleader",
-    "bossNodes": [
-      "Yeşil Kapı (Green Door): Arenanın ortasında açık/kapalı iki durumu olan bir bölge bulunur; Leader, saldırgan üzerindeki her aktif debuff ile Gama Radyasyonunu %15'e kadar daha hızlı biriktirir (saniyede temel 2 birim).",
-      "Kapı Açılınca: Gama Radyasyonu 100'e ulaştığında Kapı açılır, Leader saldırgan üzerindeki her debuff için Öfke (Fury) kazanır ve saldırgan Kapı üzerinde durursa periyodik Dejenerasyon hasarı alır; açık kapı saniyede 6 birim Gama tüketir (özel saldırılar sırasında durur).",
-      "Planın Bir Parçası (Special 3): Yoğun hasar sonrası ek destek çağırarak saldırıyı pekiştirir."
-    ],
-    "idealCounters": [
-      "sentinel",
-      "colossus",
-      "corvusglaive",
-      "magik"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "theleader",
+      "bossNodes": [
+        "Yeşil Kapı (Green Door): Arenanın ortasında açık/kapalı iki durumu olan bir bölge bulunur; Leader, saldırgan üzerindeki her aktif debuff ile Gama Radyasyonunu %15'e kadar daha hızlı biriktirir (saniyede temel 2 birim).",
+        "Kapı Açılınca: Gama Radyasyonu 100'e ulaştığında Kapı açılır, Leader saldırgan üzerindeki her debuff için Öfke (Fury) kazanır ve saldırgan Kapı üzerinde durursa periyodik Dejenerasyon hasarı alır; açık kapı saniyede 6 birim Gama tüketir (özel saldırılar sırasında durur).",
+        "Planın Bir Parçası (Special 3): Yoğun hasar sonrası ek destek çağırarak saldırıyı pekiştirir."
+      ],
+      "idealCounters": [
+        "sentinel",
+        "colossus",
+        "corvusglaive",
+        "magik"
+      ]
+    }
+  ]
 }

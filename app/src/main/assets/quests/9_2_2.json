@@ -17,7 +17,8 @@
         "crossbones",
         "taskmaster",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "cassielang"
     },
     {
       "pathLetter": "B",
@@ -31,22 +32,25 @@
         "colossus",
         "korg",
         "thing"
-      ]
+      ],
+      "leadsToBoss": "cassielang"
     }
   ],
-  "boss": {
-    "championId": "cassielang",
-    "bossNodes": [
-      "Güç İğnesi (Power Sting) - Cassie'nin Ağır Saldırısı Saldırgana Power Sting debuff'ları uygular; Saldırgan özel saldırı kullandığında bu iğneler patlar ve Cassie onları yeniden uygulamaya çalışır, bu da güç yönetimini zorlaştırır.",
-      "Küçülme Kaçınması (Shrink Evade) - Ağır Saldırı şarj edilirken Cassie küçülür ve gelen tüm saldırıların %100 ıskalamasını sağlar; bu durum Pym Yakıtı tüketir, yakıt bittiğinde küçülme sona erer.",
-      "Pym Parçacıkları - Cassie bir Buff'ı bağışıklıkla engellediğinde ya da küçülerek Saldırganın özel saldırısını ıskalattığında Pym Parçacığı kazanır; hafif kombo bitirişiyle bu parçacıkları tüketip Saldırgana can yenilenmesini azaltan bir Zehir Debuff'ı uygular.",
-      "Sınıf Zayıflığı - Cassie Lang Bilim (Science) sınıfıdır ve Yetenek (Skill) sınıfı şampiyonlara karşı doğal olarak zayıftır; bu yüzden Skill sınıfı sınıf avantajı önemli bir hasar artışı sağlar."
-    ],
-    "idealCounters": [
-      "nickfury",
-      "blade",
-      "shangchi",
-      "guillotine2099"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "cassielang",
+      "bossNodes": [
+        "Güç İğnesi (Power Sting) - Cassie'nin Ağır Saldırısı Saldırgana Power Sting debuff'ları uygular; Saldırgan özel saldırı kullandığında bu iğneler patlar ve Cassie onları yeniden uygulamaya çalışır, bu da güç yönetimini zorlaştırır.",
+        "Küçülme Kaçınması (Shrink Evade) - Ağır Saldırı şarj edilirken Cassie küçülür ve gelen tüm saldırıların %100 ıskalamasını sağlar; bu durum Pym Yakıtı tüketir, yakıt bittiğinde küçülme sona erer.",
+        "Pym Parçacıkları - Cassie bir Buff'ı bağışıklıkla engellediğinde ya da küçülerek Saldırganın özel saldırısını ıskalattığında Pym Parçacığı kazanır; hafif kombo bitirişiyle bu parçacıkları tüketip Saldırgana can yenilenmesini azaltan bir Zehir Debuff'ı uygular.",
+        "Sınıf Zayıflığı - Cassie Lang Bilim (Science) sınıfıdır ve Yetenek (Skill) sınıfı şampiyonlara karşı doğal olarak zayıftır; bu yüzden Skill sınıfı sınıf avantajı önemli bir hasar artışı sağlar."
+      ],
+      "idealCounters": [
+        "nickfury",
+        "blade",
+        "shangchi",
+        "guillotine2099"
+      ]
+    }
+  ]
 }

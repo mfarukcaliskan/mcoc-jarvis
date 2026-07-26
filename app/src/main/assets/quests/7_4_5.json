@@ -17,7 +17,8 @@
         "spidermanstarkenhanced",
         "angela",
         "mysterio"
-      ]
+      ],
+      "leadsToBoss": "killmonger"
     },
     {
       "pathLetter": "B",
@@ -31,23 +32,26 @@
         "captainmarvelmcu",
         "psychoman",
         "cosmicghostrider"
-      ]
+      ],
+      "leadsToBoss": "killmonger"
     }
   ],
-  "boss": {
-    "championId": "killmonger",
-    "bossNodes": [
-      "Vibranium Zırhı: Killmonger dövüşe 750 Zırh Puanı ile başlar ve kendisine bir debuff uygulandığında Eksik Gücünün %15'ini kazanır; bu zırh bir Zırh Kırma (Armor Break) etkisiyle karşılaştığında geçici olarak devre dışı kalır.",
-      "True Strike Penceresi: Özel Saldırıdan toparlanma anındaki rakibe vurmak Killmonger'a 16 saniyelik True Strike kazandırır; bu süre boyunca Zırh, Direnç ve Kaçınma etkilerini görmezden gelir, bu yüzden evade tabanlı savunma bu pencerede işe yaramaz.",
-      "Kanama: Kritik vuruşlarının %80'i rakibe 1,5 saniyelik bir Kanama (Bleed) debuff'ı uygular (bu Kanama yığılmaz); ayrıca 2 kalıcı Counterpunch Yükü taşır - blok yaptığında bu yüklerden biri harcanarak 0,75 saniyeliğine gelen hasarı görmezden gelip anında karşı saldırı yapar.",
-      "İmza Yeteneği - Reverberation: Uyanmış Killmonger, vurulduğunda veya blokladığında 8 saniye boyunca aktif olan Reverberation ile gelen hasarın bir kısmını rakibe geri yansıtır; Reverberation ve True Strike aynı anda aktifken Saldırı Gücü ek olarak artar, bu yüzden dövüşü uzatmak Killmonger'ı giderek tehlikeli hale getirir."
-    ],
-    "idealCounters": [
-      "corvusglaive",
-      "gamora",
-      "magik",
-      "doctorvoodoo",
-      "professorx"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "killmonger",
+      "bossNodes": [
+        "Vibranium Zırhı: Killmonger dövüşe 750 Zırh Puanı ile başlar ve kendisine bir debuff uygulandığında Eksik Gücünün %15'ini kazanır; bu zırh bir Zırh Kırma (Armor Break) etkisiyle karşılaştığında geçici olarak devre dışı kalır.",
+        "True Strike Penceresi: Özel Saldırıdan toparlanma anındaki rakibe vurmak Killmonger'a 16 saniyelik True Strike kazandırır; bu süre boyunca Zırh, Direnç ve Kaçınma etkilerini görmezden gelir, bu yüzden evade tabanlı savunma bu pencerede işe yaramaz.",
+        "Kanama: Kritik vuruşlarının %80'i rakibe 1,5 saniyelik bir Kanama (Bleed) debuff'ı uygular (bu Kanama yığılmaz); ayrıca 2 kalıcı Counterpunch Yükü taşır - blok yaptığında bu yüklerden biri harcanarak 0,75 saniyeliğine gelen hasarı görmezden gelip anında karşı saldırı yapar.",
+        "İmza Yeteneği - Reverberation: Uyanmış Killmonger, vurulduğunda veya blokladığında 8 saniye boyunca aktif olan Reverberation ile gelen hasarın bir kısmını rakibe geri yansıtır; Reverberation ve True Strike aynı anda aktifken Saldırı Gücü ek olarak artar, bu yüzden dövüşü uzatmak Killmonger'ı giderek tehlikeli hale getirir."
+      ],
+      "idealCounters": [
+        "corvusglaive",
+        "gamora",
+        "magik",
+        "doctorvoodoo",
+        "professorx"
+      ]
+    }
+  ]
 }

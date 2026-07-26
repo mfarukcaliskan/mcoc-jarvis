@@ -18,7 +18,8 @@
         "mordo",
         "symbiotesupreme",
         "sentinel"
-      ]
+      ],
+      "leadsToBoss": "havok"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "ultron",
         "sentinel",
         "vivvision"
-      ]
+      ],
+      "leadsToBoss": "havok"
     }
   ],
-  "boss": {
-    "championId": "havok",
-    "bossNodes": [
-      "Plazma Detonasyonu: Havok belirli aralıklarla saldırgan üzerinde patlayan bir Plazma Pasifi biriktirir; patlama anında yakın mesafede kalmak ek alan hasarı getirir.",
-      "Zırh Aşındırma: Havok'un temel ve özel saldırıları saldırganın zırhını her isabetle kademeli olarak aşındırır; yüksek zırh bağımlılığı olan tanklar bu düğümde dezavantajlıdır.",
-      "Enerji Emilimi: Havok, enerji tabanlı hasara karşı kısmi direnç kazanabilen bir pasif taşır; fiziksel hasar veren şampiyonlar bazı evrelerde daha güvenilirdir."
-    ],
-    "idealCounters": [
-      "colossus",
-      "vivvision",
-      "redskull",
-      "ironheart",
-      "warlock"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "havok",
+      "bossNodes": [
+        "Plazma Detonasyonu: Havok belirli aralıklarla saldırgan üzerinde patlayan bir Plazma Pasifi biriktirir; patlama anında yakın mesafede kalmak ek alan hasarı getirir.",
+        "Zırh Aşındırma: Havok'un temel ve özel saldırıları saldırganın zırhını her isabetle kademeli olarak aşındırır; yüksek zırh bağımlılığı olan tanklar bu düğümde dezavantajlıdır.",
+        "Enerji Emilimi: Havok, enerji tabanlı hasara karşı kısmi direnç kazanabilen bir pasif taşır; fiziksel hasar veren şampiyonlar bazı evrelerde daha güvenilirdir."
+      ],
+      "idealCounters": [
+        "colossus",
+        "vivvision",
+        "redskull",
+        "ironheart",
+        "warlock"
+      ]
+    }
+  ]
 }

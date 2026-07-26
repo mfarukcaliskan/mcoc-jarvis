@@ -20,7 +20,8 @@
         "wolverine",
         "groot",
         "superiorironman"
-      ]
+      ],
+      "leadsToBoss": "sentinel"
     },
     {
       "pathLetter": "B",
@@ -34,21 +35,24 @@
         "captainamericaiw",
         "spiderman",
         "corvusglaive"
-      ]
+      ],
+      "leadsToBoss": "sentinel"
     }
   ],
-  "boss": {
-    "championId": "sentinel",
-    "bossNodes": [
-      "Karolar: Kozmik Avantajı - Sentinel, Kozmik dışındaki tüm sınıflara karşı ekstra avantajlar kazanır (örneğin Mistiklere karşı güç barı emer). Fisticuffs - Dövüşün ilk 30 saniyesinde bu karo aktifken siper (parry) atamazsınız ve rakip sersemlemez.",
-      "Mekanik: İlk 30 saniye boyunca sadece geriye kaçarak (dash back) darbelerinden sıyrılın; ardından sürekli SP1'ini doldurup boşa çıkararak (bait) güvenli şekilde canını indirin. Kozmik sınıf şampiyonlar bu avantajdan etkilenmediği için en iyi seçimdir."
-    ],
-    "idealCounters": [
-      "hyperion",
-      "medusa",
-      "corvusglaive",
-      "captainmarvelmcu",
-      "cosmicghostrider"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "sentinel",
+      "bossNodes": [
+        "Karolar: Kozmik Avantajı - Sentinel, Kozmik dışındaki tüm sınıflara karşı ekstra avantajlar kazanır (örneğin Mistiklere karşı güç barı emer). Fisticuffs - Dövüşün ilk 30 saniyesinde bu karo aktifken siper (parry) atamazsınız ve rakip sersemlemez.",
+        "Mekanik: İlk 30 saniye boyunca sadece geriye kaçarak (dash back) darbelerinden sıyrılın; ardından sürekli SP1'ini doldurup boşa çıkararak (bait) güvenli şekilde canını indirin. Kozmik sınıf şampiyonlar bu avantajdan etkilenmediği için en iyi seçimdir."
+      ],
+      "idealCounters": [
+        "hyperion",
+        "medusa",
+        "corvusglaive",
+        "captainmarvelmcu",
+        "cosmicghostrider"
+      ]
+    }
+  ]
 }

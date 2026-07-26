@@ -17,7 +17,8 @@
         "cyclops",
         "punisher2099",
         "odin"
-      ]
+      ],
+      "leadsToBoss": "mojo"
     },
     {
       "pathLetter": "B",
@@ -31,22 +32,25 @@
         "gambit",
         "gwenpool",
         "knull"
-      ]
+      ],
+      "leadsToBoss": "mojo"
     }
   ],
-  "boss": {
-    "championId": "mojo",
-    "bossNodes": [
-      "Prompts (İzleyici İstekleri) Sistemi: Dövüş sırasında periyodik olarak bir Prompt (görev) belirir; ya saldırgan ya da Mojo izleyicinin istediğini yaparsa Prompt tamamlanır ve Mojo 1 Milyon Takipçi (Followers) kazanır; Prompt süresi dolarsa Mojo 5 Milyon Takipçi kaybeder.",
-      "Anti-Life Field: Bir Prompt tamamlandığında Mojo 7 saniyeliğine Anti-Life Field'ı aktive eder; bu süre zarfında rakip üzerindeki her buff %90 azaltılmış süreyle çalışır ve bir buff Nullify edildiğinde veya süresi dolduğunda rakip 6 saniye boyunca Yıpranma (Degeneration) hasarı alır; bu alan Özel Saldırılar sırasında duraklar.",
-      "Takipçi (Followers) Eşiği: Mojo 5 Milyon veya üzeri Takipçiye sahipken Anti-Life Field'ı her aktive ettiğinde ayrıca kendine bir Öfke (Fury) buff'ı uygulayarak Saldırı Gücünü artırır; bu yüzden Prompt'ları izleyicinin istediği yönde bırakmak Mojo'yu giderek güçlendirir."
-    ],
-    "idealCounters": [
-      "archangel",
-      "magneto",
-      "humantorch",
-      "captainamericaiw",
-      "misternegative"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "mojo",
+      "bossNodes": [
+        "Prompts (İzleyici İstekleri) Sistemi: Dövüş sırasında periyodik olarak bir Prompt (görev) belirir; ya saldırgan ya da Mojo izleyicinin istediğini yaparsa Prompt tamamlanır ve Mojo 1 Milyon Takipçi (Followers) kazanır; Prompt süresi dolarsa Mojo 5 Milyon Takipçi kaybeder.",
+        "Anti-Life Field: Bir Prompt tamamlandığında Mojo 7 saniyeliğine Anti-Life Field'ı aktive eder; bu süre zarfında rakip üzerindeki her buff %90 azaltılmış süreyle çalışır ve bir buff Nullify edildiğinde veya süresi dolduğunda rakip 6 saniye boyunca Yıpranma (Degeneration) hasarı alır; bu alan Özel Saldırılar sırasında duraklar.",
+        "Takipçi (Followers) Eşiği: Mojo 5 Milyon veya üzeri Takipçiye sahipken Anti-Life Field'ı her aktive ettiğinde ayrıca kendine bir Öfke (Fury) buff'ı uygulayarak Saldırı Gücünü artırır; bu yüzden Prompt'ları izleyicinin istediği yönde bırakmak Mojo'yu giderek güçlendirir."
+      ],
+      "idealCounters": [
+        "archangel",
+        "magneto",
+        "humantorch",
+        "captainamericaiw",
+        "misternegative"
+      ]
+    }
+  ]
 }

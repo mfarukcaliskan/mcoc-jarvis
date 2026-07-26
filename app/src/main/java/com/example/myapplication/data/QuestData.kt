@@ -9,14 +9,15 @@ data class QuestMap(
     val name: String,               // Örn: "Kara Düzen"
     val globalNodes: List<String> = emptyList(),
     val paths: List<QuestPath> = emptyList(),
-    val boss: QuestBoss
+    val bosses: List<QuestBoss> = emptyList()
 )
 
 data class QuestPath(
     val pathLetter: String,         // Örn: "A", "B"
     val isEasiest: Boolean,
     val pathNodes: List<String> = emptyList(),
-    val defenders: List<String> = emptyList() // Şampiyon ID'leri
+    val defenders: List<String> = emptyList(), // Şampiyon ID'leri
+    val leadsToBoss: String? = null // Bu yolun çıktığı boss'un championId'si
 )
 
 data class QuestBoss(
@@ -208,38 +209,48 @@ object QuestRepository {
                         pathLetter = pathObj.getString("pathLetter"),
                         isEasiest = pathObj.getBoolean("isEasiest"),
                         pathNodes = pathNodes,
-                        defenders = defenders
+                        defenders = defenders,
+                        leadsToBoss = if (pathObj.has("leadsToBoss") && !pathObj.isNull("leadsToBoss")) pathObj.getString("leadsToBoss") else null
                     )
                 )
             }
-            
-            val bossObj = obj.getJSONObject("boss")
-            val bossNodesArr = bossObj.optJSONArray("bossNodes")
-            val bossNodes = mutableListOf<String>()
-            if (bossNodesArr != null) {
-                for (i in 0 until bossNodesArr.length()) {
-                    bossNodes.add(bossNodesArr.getString(i))
+
+            val bossesArr = obj.getJSONArray("bosses")
+            val bosses = mutableListOf<QuestBoss>()
+            for (i in 0 until bossesArr.length()) {
+                val bossObj = bossesArr.getJSONObject(i)
+
+                val bossNodesArr = bossObj.optJSONArray("bossNodes")
+                val bossNodes = mutableListOf<String>()
+                if (bossNodesArr != null) {
+                    for (j in 0 until bossNodesArr.length()) {
+                        bossNodes.add(bossNodesArr.getString(j))
+                    }
                 }
-            }
-            
-            val idealCountersArr = bossObj.optJSONArray("idealCounters")
-            val idealCounters = mutableListOf<String>()
-            if (idealCountersArr != null) {
-                for (i in 0 until idealCountersArr.length()) {
-                    idealCounters.add(idealCountersArr.getString(i))
+
+                val idealCountersArr = bossObj.optJSONArray("idealCounters")
+                val idealCounters = mutableListOf<String>()
+                if (idealCountersArr != null) {
+                    for (j in 0 until idealCountersArr.length()) {
+                        idealCounters.add(idealCountersArr.getString(j))
+                    }
                 }
+
+                bosses.add(
+                    QuestBoss(
+                        championId = bossObj.getString("championId"),
+                        bossNodes = bossNodes,
+                        idealCounters = idealCounters
+                    )
+                )
             }
-            
+
             QuestMap(
                 id = questId,
                 name = obj.getString("name"),
                 globalNodes = globalNodes,
                 paths = paths,
-                boss = QuestBoss(
-                    championId = bossObj.getString("championId"),
-                    bossNodes = bossNodes,
-                    idealCounters = idealCounters
-                )
+                bosses = bosses
             )
         } catch (e: Exception) {
             e.printStackTrace()

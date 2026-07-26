@@ -17,7 +17,8 @@
         "cosmicghostrider",
         "sersi",
         "terrax"
-      ]
+      ],
+      "leadsToBoss": "crossbones"
     },
     {
       "pathLetter": "B",
@@ -31,22 +32,25 @@
         "magneto",
         "yondu",
         "apocalypse"
-      ]
+      ],
+      "leadsToBoss": "crossbones"
     }
   ],
-  "boss": {
-    "championId": "crossbones",
-    "bossNodes": [
-      "Overrun: Crossbones geriye doğru dashleyip 1,2 saniye blok tutarak Overrun'ı aktive eder; aktif olduğunda 12 saniye sürer (8 saniye bekleme süresiyle) ve aktivasyonda tüm kişisel Öfke (Fury) buff'larının süresini yeniler ve 2 yeni Öfke buff'ı kazandırır.",
-      "Kritik Yapamama ve Öfke Dönüşümü: Hidrolik eldivenleri Kritik vuruş yapmasını engeller; kritik vuruş yapacağı her an bunun yerine bir Öfke buff'ı kazanır, bu da onu sürekli güçlenen bir savunmacı yapar.",
-      "Savunma Yeteneği İsabeti Düşürme: Her aktif Öfke buff'ı için rakibin Savunma Yeteneği İsabetini (Defensive Ability Accuracy) %20 azaltır; rakip #Hero etiketli bir şampiyonsa bu oran %25'e çıkar, bu yüzden blok/evade temelli savunma yetenekleri güvenilmez hale gelir."
-    ],
-    "idealCounters": [
-      "magneto",
-      "hercules",
-      "corvusglaive",
-      "havok",
-      "doctordoom"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "crossbones",
+      "bossNodes": [
+        "Overrun: Crossbones geriye doğru dashleyip 1,2 saniye blok tutarak Overrun'ı aktive eder; aktif olduğunda 12 saniye sürer (8 saniye bekleme süresiyle) ve aktivasyonda tüm kişisel Öfke (Fury) buff'larının süresini yeniler ve 2 yeni Öfke buff'ı kazandırır.",
+        "Kritik Yapamama ve Öfke Dönüşümü: Hidrolik eldivenleri Kritik vuruş yapmasını engeller; kritik vuruş yapacağı her an bunun yerine bir Öfke buff'ı kazanır, bu da onu sürekli güçlenen bir savunmacı yapar.",
+        "Savunma Yeteneği İsabeti Düşürme: Her aktif Öfke buff'ı için rakibin Savunma Yeteneği İsabetini (Defensive Ability Accuracy) %20 azaltır; rakip #Hero etiketli bir şampiyonsa bu oran %25'e çıkar, bu yüzden blok/evade temelli savunma yetenekleri güvenilmez hale gelir."
+      ],
+      "idealCounters": [
+        "magneto",
+        "hercules",
+        "corvusglaive",
+        "havok",
+        "doctordoom"
+      ]
+    }
+  ]
 }

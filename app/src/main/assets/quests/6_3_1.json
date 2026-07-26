@@ -18,7 +18,8 @@
         "doctoroctopus",
         "yellowjacket",
         "blackbolt"
-      ]
+      ],
+      "leadsToBoss": "medusa"
     },
     {
       "pathLetter": "B",
@@ -34,25 +35,28 @@
         "modok",
         "mysterio",
         "blackbolt"
-      ]
+      ],
+      "leadsToBoss": "medusa"
     }
   ],
-  "boss": {
-    "championId": "medusa",
-    "bossNodes": [
-      "Do You Bleed? - Medusa'ya neredeyse yalnızca Kanama (Bleed) hasarı işler; kanama dışı hasar büyük oranda etkisizleştirilir.",
-      "5% Buffet & Fury - Saçlarıyla yaptığı vuruşlar saldırgana sürekli hasar verir ve kendisine Fury (saldırı artışı) kazandırır.",
-      "Counterstrike - Saldırgan Çeviklik (Dexterity) ile kaçtığında Medusa geçici olarak Durdurulamaz (Unstoppable) hale gelir.",
-      "Explosive Personality & Bleed Vulnerability - Medusa aldığı kanama hasarına karşı %200 daha savunmasızdır ama biriken buff'ları 7 saniyede bir sıfırlayıp canının %5'ini yeniler.",
-      "Archangel Taktiği - Medusa zehir bağışıklısıdır, bu yüzden Archangel'in kanamaları nörotoksine dönüşmez ve ekranda onlarca kanama birikerek Medusa'yı saniyeler içinde eritir; sadece siper-ağır saldırı yapmanız yeterlidir."
-    ],
-    "idealCounters": [
-      "archangel",
-      "nickfury",
-      "symbiotesupreme",
-      "gwenpool",
-      "killmonger",
-      "blade"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "medusa",
+      "bossNodes": [
+        "Do You Bleed? - Medusa'ya neredeyse yalnızca Kanama (Bleed) hasarı işler; kanama dışı hasar büyük oranda etkisizleştirilir.",
+        "5% Buffet & Fury - Saçlarıyla yaptığı vuruşlar saldırgana sürekli hasar verir ve kendisine Fury (saldırı artışı) kazandırır.",
+        "Counterstrike - Saldırgan Çeviklik (Dexterity) ile kaçtığında Medusa geçici olarak Durdurulamaz (Unstoppable) hale gelir.",
+        "Explosive Personality & Bleed Vulnerability - Medusa aldığı kanama hasarına karşı %200 daha savunmasızdır ama biriken buff'ları 7 saniyede bir sıfırlayıp canının %5'ini yeniler.",
+        "Archangel Taktiği - Medusa zehir bağışıklısıdır, bu yüzden Archangel'in kanamaları nörotoksine dönüşmez ve ekranda onlarca kanama birikerek Medusa'yı saniyeler içinde eritir; sadece siper-ağır saldırı yapmanız yeterlidir."
+      ],
+      "idealCounters": [
+        "archangel",
+        "nickfury",
+        "symbiotesupreme",
+        "gwenpool",
+        "killmonger",
+        "blade"
+      ]
+    }
+  ]
 }

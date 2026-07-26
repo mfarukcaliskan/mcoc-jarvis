@@ -17,7 +17,8 @@
         "medusa",
         "venom",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "proximamidnight"
     },
     {
       "pathLetter": "B",
@@ -32,21 +33,24 @@
         "hela",
         "captainmarvelmcu",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "proximamidnight"
     }
   ],
-  "boss": {
-    "championId": "proximamidnight",
-    "bossNodes": [
-      "Üç Görev Sistemi - Proxima sırasıyla Parry Savunması (6 zamanlı blok), Araya Girme Saldırısı (4 intercept) ve Etkisiz Hale Getirme (5 knockdown) görevlerini tamamlar; her görev tamamlandığında geçici %250 Özel Hasar Prowess'ı, görev sonunda ise kalıcı %200 Özel Hasar Prowess'ı kazanır - dövüş uzadıkça çok daha tehlikelidir.",
-      "Multi-Arcing Strike (SP2/SP3) - SP2 %100 ihtimalle 2 saniyelik Sersemletme, SP3 %100 ihtimalle 6 saniyelik Sersemletme ve Zırh Kırma (2000 Zırh Puanı azaltma, 6 saniye) uygular; Proxima Sersemletmeye bağışıklı değildir ama rakibi sersemletmede çok güçlüdür.",
-      "Combo Sayacı Cezası - SP1'i İyileşme Engeli uygular; kombo sayacı 50'yi geçtiyse bu sürenin iki katına çıkar, bu yüzden dövüşü uzatmak yerine hızlı bitirmek daha güvenlidir."
-    ],
-    "idealCounters": [
-      "sorcerersupreme",
-      "spidergwen",
-      "shehulk",
-      "doctordoom"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "proximamidnight",
+      "bossNodes": [
+        "Üç Görev Sistemi - Proxima sırasıyla Parry Savunması (6 zamanlı blok), Araya Girme Saldırısı (4 intercept) ve Etkisiz Hale Getirme (5 knockdown) görevlerini tamamlar; her görev tamamlandığında geçici %250 Özel Hasar Prowess'ı, görev sonunda ise kalıcı %200 Özel Hasar Prowess'ı kazanır - dövüş uzadıkça çok daha tehlikelidir.",
+        "Multi-Arcing Strike (SP2/SP3) - SP2 %100 ihtimalle 2 saniyelik Sersemletme, SP3 %100 ihtimalle 6 saniyelik Sersemletme ve Zırh Kırma (2000 Zırh Puanı azaltma, 6 saniye) uygular; Proxima Sersemletmeye bağışıklı değildir ama rakibi sersemletmede çok güçlüdür.",
+        "Combo Sayacı Cezası - SP1'i İyileşme Engeli uygular; kombo sayacı 50'yi geçtiyse bu sürenin iki katına çıkar, bu yüzden dövüşü uzatmak yerine hızlı bitirmek daha güvenlidir."
+      ],
+      "idealCounters": [
+        "sorcerersupreme",
+        "spidergwen",
+        "shehulk",
+        "doctordoom"
+      ]
+    }
+  ]
 }

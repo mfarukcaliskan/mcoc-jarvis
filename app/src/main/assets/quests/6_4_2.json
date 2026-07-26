@@ -21,7 +21,8 @@
         "gambit",
         "drax",
         "rogue"
-      ]
+      ],
+      "leadsToBoss": "thorragnarok"
     },
     {
       "pathLetter": "B",
@@ -38,26 +39,29 @@
         "shehulk",
         "ironpatriot",
         "doctoroctopus"
-      ]
+      ],
+      "leadsToBoss": "thorragnarok"
     }
   ],
-  "boss": {
-    "championId": "thorragnarok",
-    "bossNodes": [
-      "One-Eyed Slugger (Tek Gözlü Vurucu) - Thor'a Ağır Saldırı (Heavy) indirdiğinizde 15 saniyeliğine bir koruma kazanır; bu koruma aktifken kendi Özel Saldırılarınız (SP) ona %400 daha fazla hasar verir. Doğru strateji: dövüş boyunca sadece düz/orta vuruşlarla güç barınızı SP2 veya SP3'e kadar doldurun, gücünüz dolduğunda Thor'u siper ile sersemletip Ağır Darbe indirin ve hemen ardından en güçlü Özel Saldırınızı yapıştırın.",
-      "Şok Bağışıklığı Yok - Thor Ragnarok'un vuruşları saldırgana Şok yükleri uygular; yığınlar arttıkça alınan hasar oranı yükselir.",
-      "Aspect of Death - Boss'un özel saldırısından sonraki 4 saniye içindeki başarılı vuruşları ölümcüldür, bu yüzden pencere boyunca blok zorunludur.",
-      "Strateji: Şok direnci/bağışıklığı olan (Aegon, Magik) ya da çok yüksek burst hasarlı (Doctor Doom, Namor, Spider-Man Stark) şampiyonlarla dövüşü hızlı bitirmek en güvenli yoldur. Boss Karşıtları: Doctor Doom (güç kontrolü ve devasa SP2 hasarı), Cosmic Ghost Rider (CGR - SP2 hasar patlaması), Hulkling veya Hercules. Yol Counterları: Hulkling, CGR, Galan (zayıflatıcıdan etkilenmeyen yüksek hasar), Archangel (Crossbones ve diğerleri için nörotoksin), Kingpin & Shang-Chi (zayıflatıcıları temizler)."
-    ],
-    "idealCounters": [
-      "doctordoom",
-      "cosmicghostrider",
-      "hulkling",
-      "hercules",
-      "aegon",
-      "magik",
-      "spidermanstarkenhanced",
-      "namor"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "thorragnarok",
+      "bossNodes": [
+        "One-Eyed Slugger (Tek Gözlü Vurucu) - Thor'a Ağır Saldırı (Heavy) indirdiğinizde 15 saniyeliğine bir koruma kazanır; bu koruma aktifken kendi Özel Saldırılarınız (SP) ona %400 daha fazla hasar verir. Doğru strateji: dövüş boyunca sadece düz/orta vuruşlarla güç barınızı SP2 veya SP3'e kadar doldurun, gücünüz dolduğunda Thor'u siper ile sersemletip Ağır Darbe indirin ve hemen ardından en güçlü Özel Saldırınızı yapıştırın.",
+        "Şok Bağışıklığı Yok - Thor Ragnarok'un vuruşları saldırgana Şok yükleri uygular; yığınlar arttıkça alınan hasar oranı yükselir.",
+        "Aspect of Death - Boss'un özel saldırısından sonraki 4 saniye içindeki başarılı vuruşları ölümcüldür, bu yüzden pencere boyunca blok zorunludur.",
+        "Strateji: Şok direnci/bağışıklığı olan (Aegon, Magik) ya da çok yüksek burst hasarlı (Doctor Doom, Namor, Spider-Man Stark) şampiyonlarla dövüşü hızlı bitirmek en güvenli yoldur. Boss Karşıtları: Doctor Doom (güç kontrolü ve devasa SP2 hasarı), Cosmic Ghost Rider (CGR - SP2 hasar patlaması), Hulkling veya Hercules. Yol Counterları: Hulkling, CGR, Galan (zayıflatıcıdan etkilenmeyen yüksek hasar), Archangel (Crossbones ve diğerleri için nörotoksin), Kingpin & Shang-Chi (zayıflatıcıları temizler)."
+      ],
+      "idealCounters": [
+        "doctordoom",
+        "cosmicghostrider",
+        "hulkling",
+        "hercules",
+        "aegon",
+        "magik",
+        "spidermanstarkenhanced",
+        "namor"
+      ]
+    }
+  ]
 }

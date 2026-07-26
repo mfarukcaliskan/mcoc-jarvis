@@ -18,7 +18,8 @@
         "sandman",
         "rhino",
         "hulk"
-      ]
+      ],
+      "leadsToBoss": "terrax"
     },
     {
       "pathLetter": "B",
@@ -33,21 +34,24 @@
         "juggernaut",
         "thing",
         "redhulk"
-      ]
+      ],
+      "leadsToBoss": "terrax"
     }
   ],
-  "boss": {
-    "championId": "terrax",
-    "bossNodes": [
-      "Kaya Alanı (Rock Field): Terrax maça %33-66 arası güçle ve aktif Kaya Alanıyla başlar; alan aktifken saldırganlar her 0,5 saniyede artan enerji hasarı alır ve Terrax'ın saldırıları ek Attack Rating kazanır.",
-      "Zırh Kırma ve Yok Edilemezlik: Her 0,5 saniyede %35 ihtimalle düşmana 15 saniyelik, en fazla 10 yığın Zırh Kırma (Armor Break) debuff'ı uygular; Kaya Alanı aktifken art arda Yok Edilemezlik (Indestructible) şarjları kazanarak bazı vuruşları tamamen etkisiz bırakır.",
-      "Kozmik Güç (Power Cosmic): 50 Saldırı Şarjı biriktiğinde bunları 1 Kozmik Güç'e çevirir (maçta en fazla 2 kez); her Kozmik Güç, Yok Edilemez durumdayken isabet alındığında Terrax'a ekstra %10 Güç Kazanım Hızı sağlar."
-    ],
-    "idealCounters": [
-      "magik",
-      "captainmarvel",
-      "blackwidowclairevoyant",
-      "absorbingman"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "terrax",
+      "bossNodes": [
+        "Kaya Alanı (Rock Field): Terrax maça %33-66 arası güçle ve aktif Kaya Alanıyla başlar; alan aktifken saldırganlar her 0,5 saniyede artan enerji hasarı alır ve Terrax'ın saldırıları ek Attack Rating kazanır.",
+        "Zırh Kırma ve Yok Edilemezlik: Her 0,5 saniyede %35 ihtimalle düşmana 15 saniyelik, en fazla 10 yığın Zırh Kırma (Armor Break) debuff'ı uygular; Kaya Alanı aktifken art arda Yok Edilemezlik (Indestructible) şarjları kazanarak bazı vuruşları tamamen etkisiz bırakır.",
+        "Kozmik Güç (Power Cosmic): 50 Saldırı Şarjı biriktiğinde bunları 1 Kozmik Güç'e çevirir (maçta en fazla 2 kez); her Kozmik Güç, Yok Edilemez durumdayken isabet alındığında Terrax'a ekstra %10 Güç Kazanım Hızı sağlar."
+      ],
+      "idealCounters": [
+        "magik",
+        "captainmarvel",
+        "blackwidowclairevoyant",
+        "absorbingman"
+      ]
+    }
+  ]
 }

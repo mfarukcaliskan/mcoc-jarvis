@@ -18,7 +18,8 @@
         "nightmare",
         "enchantress",
         "mephisto"
-      ]
+      ],
+      "leadsToBoss": "loki"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "scarletwitch",
         "magik",
         "mordo"
-      ]
+      ],
+      "leadsToBoss": "loki"
     }
   ],
-  "boss": {
-    "championId": "loki",
-    "bossNodes": [
-      "Lanet (Curse): Loki'nin vuruşları saldırganı Lanetler; Lanetliyken saldırganın aktif Buff'ları çalınıp Loki'ye aktarılır ve saldırganın vuruşları bu süre boyunca garantili Kritik Vuruş haline gelir (kendi aleyhine).",
-      "İllüzyon (Illusion): Loki, kombo bitirmeyen bir vuruşun ardından geri kaçarken bir İllüzyon Pasifi kazanır; İllüzyon aktifken saldırganın vuruşları %100 ıska geçer.",
-      "Kaos (Special 3 - Mayhem): Loki saldırganı kendi illüzyonlarına saldırtıp gerçek darbeyi son anda indirir; bu özel saldırı sırasında hem Lanet hem de Buff çalma tetiklenir."
-    ],
-    "idealCounters": [
-      "void",
-      "doctordoom",
-      "humantorch",
-      "killmonger",
-      "ghostrider"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "loki",
+      "bossNodes": [
+        "Lanet (Curse): Loki'nin vuruşları saldırganı Lanetler; Lanetliyken saldırganın aktif Buff'ları çalınıp Loki'ye aktarılır ve saldırganın vuruşları bu süre boyunca garantili Kritik Vuruş haline gelir (kendi aleyhine).",
+        "İllüzyon (Illusion): Loki, kombo bitirmeyen bir vuruşun ardından geri kaçarken bir İllüzyon Pasifi kazanır; İllüzyon aktifken saldırganın vuruşları %100 ıska geçer.",
+        "Kaos (Special 3 - Mayhem): Loki saldırganı kendi illüzyonlarına saldırtıp gerçek darbeyi son anda indirir; bu özel saldırı sırasında hem Lanet hem de Buff çalma tetiklenir."
+      ],
+      "idealCounters": [
+        "void",
+        "doctordoom",
+        "humantorch",
+        "killmonger",
+        "ghostrider"
+      ]
+    }
+  ]
 }

@@ -16,7 +16,8 @@
         "stryfe",
         "guillotine2099",
         "punisher"
-      ]
+      ],
+      "leadsToBoss": "symbiotesupreme"
     },
     {
       "pathLetter": "B",
@@ -30,20 +31,23 @@
         "dragonman",
         "psychoman",
         "misternegative"
-      ]
+      ],
+      "leadsToBoss": "symbiotesupreme"
     }
   ],
-  "boss": {
-    "championId": "symbiotesupreme",
-    "bossNodes": [
-      "Genetik Potansiyel - Rakip üzerindeki bir buff veya Stagger etkisi her sona erdiğinde Symbiote Supreme 25 Genetik Potansiyel kazanır (maksimum 100); bu son eğer bir Nullify veya Stagger etkisiyle gerçekleşirse ekstra 50 Genetik Potansiyel daha kazanır.",
-      "Karıştırıcı Usta (Mix Master) - Her 15 saniyede bir sırayla değişen 3 Genetik Kutsama arasında döner: Chthon's Cunning (dövüş başında saldırganın tüm buff'larını söküp hasar verir), Null's Shadow (%100 ihtimalle 10 saniyeliğine vuruş başına alınan hasarı Maksimum Canının %15'i ile sınırlayan bir Koruma kazanır; saldırganın aktif buff'ı varsa bu eşik yarıya iner), Set's Fangs (Genetik Potansiyele bağlı olarak ölçeklenen bir Fury buff'ı ve her vuruşta yine Potansiyele bağlı ölçekte Kanama debuff'ı uygular).",
-      "Strateji Notu - Blessing rotasyonu tahmin edilebilir olduğu için Chthon's Cunning aktifken buff biriktirmemek, Null's Shadow aktifken büyük tek vuruşlardan kaçınmak ve Set's Fangs aktifken Kanama bağışıklığı ile girmek en güvenli yaklaşımdır."
-    ],
-    "idealCounters": [
-      "magik",
-      "humantorch",
-      "redhulk"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "symbiotesupreme",
+      "bossNodes": [
+        "Genetik Potansiyel - Rakip üzerindeki bir buff veya Stagger etkisi her sona erdiğinde Symbiote Supreme 25 Genetik Potansiyel kazanır (maksimum 100); bu son eğer bir Nullify veya Stagger etkisiyle gerçekleşirse ekstra 50 Genetik Potansiyel daha kazanır.",
+        "Karıştırıcı Usta (Mix Master) - Her 15 saniyede bir sırayla değişen 3 Genetik Kutsama arasında döner: Chthon's Cunning (dövüş başında saldırganın tüm buff'larını söküp hasar verir), Null's Shadow (%100 ihtimalle 10 saniyeliğine vuruş başına alınan hasarı Maksimum Canının %15'i ile sınırlayan bir Koruma kazanır; saldırganın aktif buff'ı varsa bu eşik yarıya iner), Set's Fangs (Genetik Potansiyele bağlı olarak ölçeklenen bir Fury buff'ı ve her vuruşta yine Potansiyele bağlı ölçekte Kanama debuff'ı uygular).",
+        "Strateji Notu - Blessing rotasyonu tahmin edilebilir olduğu için Chthon's Cunning aktifken buff biriktirmemek, Null's Shadow aktifken büyük tek vuruşlardan kaçınmak ve Set's Fangs aktifken Kanama bağışıklığı ile girmek en güvenli yaklaşımdır."
+      ],
+      "idealCounters": [
+        "magik",
+        "humantorch",
+        "redhulk"
+      ]
+    }
+  ]
 }

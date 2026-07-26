@@ -18,7 +18,8 @@
         "gambit",
         "wolverinex23",
         "storm"
-      ]
+      ],
+      "leadsToBoss": "cyclops"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "magneto",
         "apocalypse",
         "sabretooth"
-      ]
+      ],
+      "leadsToBoss": "cyclops"
     }
   ],
-  "boss": {
-    "championId": "cyclops",
-    "bossNodes": [
-      "Doğruluk Yığınları (Prowess): Cyclops her Özel Saldırı kullandığında Prowess Pasifleri biriktirir; bu yığınlar arttıkça Özel Saldırı hasarı katlanarak büyür.",
-      "Gerçek Odak (True Focus): Cyclops dövüşe karşı-Tech olmayan rakiplere 10 saniyelik Gerçek Odak ile başlar; bu buff aktifken kendi vuruşları asla Iskalamaz/Kaçırılamaz ve her Kesinlik kazanımında yenilenir.",
-      "Güç Verimliliği: Özel saldırı maliyetini düşüren pasifleri sayesinde art arda birden fazla Özel Saldırı zincirleyebilir; bu da Engellenemez (Unblockable) optik ışın patlamalarının sıklığını artırır."
-    ],
-    "idealCounters": [
-      "sersi",
-      "nickfury",
-      "misterfantastic",
-      "warlock",
-      "professorx"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "cyclops",
+      "bossNodes": [
+        "Doğruluk Yığınları (Prowess): Cyclops her Özel Saldırı kullandığında Prowess Pasifleri biriktirir; bu yığınlar arttıkça Özel Saldırı hasarı katlanarak büyür.",
+        "Gerçek Odak (True Focus): Cyclops dövüşe karşı-Tech olmayan rakiplere 10 saniyelik Gerçek Odak ile başlar; bu buff aktifken kendi vuruşları asla Iskalamaz/Kaçırılamaz ve her Kesinlik kazanımında yenilenir.",
+        "Güç Verimliliği: Özel saldırı maliyetini düşüren pasifleri sayesinde art arda birden fazla Özel Saldırı zincirleyebilir; bu da Engellenemez (Unblockable) optik ışın patlamalarının sıklığını artırır."
+      ],
+      "idealCounters": [
+        "sersi",
+        "nickfury",
+        "misterfantastic",
+        "warlock",
+        "professorx"
+      ]
+    }
+  ]
 }

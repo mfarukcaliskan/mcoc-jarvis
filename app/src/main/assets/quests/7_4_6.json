@@ -18,7 +18,8 @@
         "hercules",
         "doctoroctopus",
         "odin"
-      ]
+      ],
+      "leadsToBoss": "kang"
     },
     {
       "pathLetter": "B",
@@ -32,25 +33,28 @@
         "yondu",
         "silversurfer",
         "warlock"
-      ]
+      ],
+      "leadsToBoss": "kang"
     }
   ],
-  "boss": {
-    "championId": "kang",
-    "bossNodes": [
-      "Conqueror of Time (Faz Sistemi): Kang nakavt olacağı anda zamanı geri sarar, %100 Can'ını geri kazanır, Güç Barını sıfırlar ve toplam 4 fazdan bir sonrakine geçer; ayrıca gelen hasar vuruş başına Max Health'inin %3'ü ile sınırlıdır (damage cap), Neurokinetic Armor sayesinde %75 Hasar Azaltmasına sahiptir, Güç Kilidi ve Özel Kilitlemeye tam bağışıklıdır ve rakibin True Strike isabetini %200 azaltır.",
-      "Archive Sistemi: Her 15 saniyede bir Kang rastgele 1 Archive buff'ı kazanır (Energize, Indestructible, Stun Immunity gibi önceden yüklenmiş ve Fury/Cruelty/Bleed/Poison gibi rastgele eklenen yeteneklerden biri) ve rakibe rastgele 1 Archive debuff'ı uygular; bu sayaç Kang her Karşı Saldırı (Counter-Attack) yaptığında 2 saniyeliğine duraklar.",
-      "Counter-Attack ve Slipstream: Kang Sersemlemiş, Dash yapıyor, Ağır Saldırı uyguluyor veya Özel Saldırıdan toparlanıyorken vurulursa geri sıçrayıp kaçınılabilir bir ışın saldırısı (Beam Attack) ile Karşı Saldırı yapar; bu ışını İyi Zamanlanmış Blok ile karşılamak veya kaçınmak rakibe 1 kalıcı Slipstream Yükü kazandırır.",
-      "Wounded (Yaralı) Durumu: Rakip 10 Slipstream Yüküne ulaştığında bir sonraki Karşı Saldırı yerine tüm yükler harcanır ve Kang 20 saniye boyunca Wounded durumuna girer - bu sırada Sersemlemiş kalır, Neurokinetic Armor'ı devre dışı kalır ve Bloklayamaz/Karşı Saldıramaz; rakip bu pencerede %25 ek Güç Kazanım Oranı elde eder, bu yüzden asıl hasar patlaması bu 20 saniyede yapılmalıdır.",
-      "Faz Bazlı Farklılıklar: 1. Fazda rakip üzerindeki her benzersiz buff için (8'e kadar) %30 ek hasar kazanır; 2. Fazda Karşı Saldırıları hız manipülasyonu ile güçlenir; 3. Fazda dövüşün ilk iki açılış saldırısını otomatik bloklar ve Nullify/Stagger etkilerine tam bağışıklık kazanır; 4. Fazda rakip üzerindeki her hasar veren debuff için ek hasar kazanır ve Özel 3'ü doğru anda isabet ederse rakibi anında nakavt edebilecek kadar yıkıcıdır."
-    ],
-    "idealCounters": [
-      "humantorch",
-      "ultron",
-      "hercules",
-      "odin",
-      "venompool",
-      "silversurfer"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "kang",
+      "bossNodes": [
+        "Conqueror of Time (Faz Sistemi): Kang nakavt olacağı anda zamanı geri sarar, %100 Can'ını geri kazanır, Güç Barını sıfırlar ve toplam 4 fazdan bir sonrakine geçer; ayrıca gelen hasar vuruş başına Max Health'inin %3'ü ile sınırlıdır (damage cap), Neurokinetic Armor sayesinde %75 Hasar Azaltmasına sahiptir, Güç Kilidi ve Özel Kilitlemeye tam bağışıklıdır ve rakibin True Strike isabetini %200 azaltır.",
+        "Archive Sistemi: Her 15 saniyede bir Kang rastgele 1 Archive buff'ı kazanır (Energize, Indestructible, Stun Immunity gibi önceden yüklenmiş ve Fury/Cruelty/Bleed/Poison gibi rastgele eklenen yeteneklerden biri) ve rakibe rastgele 1 Archive debuff'ı uygular; bu sayaç Kang her Karşı Saldırı (Counter-Attack) yaptığında 2 saniyeliğine duraklar.",
+        "Counter-Attack ve Slipstream: Kang Sersemlemiş, Dash yapıyor, Ağır Saldırı uyguluyor veya Özel Saldırıdan toparlanıyorken vurulursa geri sıçrayıp kaçınılabilir bir ışın saldırısı (Beam Attack) ile Karşı Saldırı yapar; bu ışını İyi Zamanlanmış Blok ile karşılamak veya kaçınmak rakibe 1 kalıcı Slipstream Yükü kazandırır.",
+        "Wounded (Yaralı) Durumu: Rakip 10 Slipstream Yüküne ulaştığında bir sonraki Karşı Saldırı yerine tüm yükler harcanır ve Kang 20 saniye boyunca Wounded durumuna girer - bu sırada Sersemlemiş kalır, Neurokinetic Armor'ı devre dışı kalır ve Bloklayamaz/Karşı Saldıramaz; rakip bu pencerede %25 ek Güç Kazanım Oranı elde eder, bu yüzden asıl hasar patlaması bu 20 saniyede yapılmalıdır.",
+        "Faz Bazlı Farklılıklar: 1. Fazda rakip üzerindeki her benzersiz buff için (8'e kadar) %30 ek hasar kazanır; 2. Fazda Karşı Saldırıları hız manipülasyonu ile güçlenir; 3. Fazda dövüşün ilk iki açılış saldırısını otomatik bloklar ve Nullify/Stagger etkilerine tam bağışıklık kazanır; 4. Fazda rakip üzerindeki her hasar veren debuff için ek hasar kazanır ve Özel 3'ü doğru anda isabet ederse rakibi anında nakavt edebilecek kadar yıkıcıdır."
+      ],
+      "idealCounters": [
+        "humantorch",
+        "ultron",
+        "hercules",
+        "odin",
+        "venompool",
+        "silversurfer"
+      ]
+    }
+  ]
 }

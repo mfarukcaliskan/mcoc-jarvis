@@ -19,7 +19,8 @@
         "oldmanlogan",
         "goldpool",
         "emmafrost"
-      ]
+      ],
+      "leadsToBoss": "mistersinister"
     },
     {
       "pathLetter": "B",
@@ -36,26 +37,29 @@
         "blade",
         "carnage",
         "havok"
-      ]
+      ],
+      "leadsToBoss": "mistersinister"
     }
   ],
-  "boss": {
-    "championId": "mistersinister",
-    "bossNodes": [
-      "Caustic Temper - Sinister'a uygulanan hasarlı debuff'lar kendisine geri transfer edilir; bu karo nedeniyle üzerinde Hiddet (Fury) takviyesi aktif olmayan hiçbir şampiyon boss'a hasar veremez.",
-      "Genetic Perfection - Kombo sayacı 30'u geçtiğinde moleküler rejenerasyonuyla can kazanmaya başlar; boss ayrıca sürekli zehir tetikler ve yenilenme (regen) kazanır.",
-      "Prey on the Weak - Düşük canlı Saldırgana karşı hasarı artar.",
-      "Warlock + Heimdall + Angela/Hela Sinerjisi (En Güvenli MVP): Warlock zehre bağışıktır ve enfeksiyonuyla Sinister'ın yenilenmesini tamamen kapatır. Heimdall + Angela/Hela sinerjisi sayesinde Warlock her zehir bağışıklığı tetiklendiğinde kalıcı Hiddet takviyesi kazanır, böylece boss'u çok rahat eritebilirsiniz.",
-      "Hyperion (Solo): Zehre bağışıktır ve Ağır Saldırı (Heavy) yaparak kendi hiddet takviyelerini kolayca kazanabilir; 4-6 hiddet biriktirdikten sonra Sinister'ı doğrudan alt edebilirsiniz."
-    ],
-    "idealCounters": [
-      "hyperion",
-      "warlock",
-      "heimdall",
-      "angela",
-      "hela",
-      "colossus",
-      "void"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "mistersinister",
+      "bossNodes": [
+        "Caustic Temper - Sinister'a uygulanan hasarlı debuff'lar kendisine geri transfer edilir; bu karo nedeniyle üzerinde Hiddet (Fury) takviyesi aktif olmayan hiçbir şampiyon boss'a hasar veremez.",
+        "Genetic Perfection - Kombo sayacı 30'u geçtiğinde moleküler rejenerasyonuyla can kazanmaya başlar; boss ayrıca sürekli zehir tetikler ve yenilenme (regen) kazanır.",
+        "Prey on the Weak - Düşük canlı Saldırgana karşı hasarı artar.",
+        "Warlock + Heimdall + Angela/Hela Sinerjisi (En Güvenli MVP): Warlock zehre bağışıktır ve enfeksiyonuyla Sinister'ın yenilenmesini tamamen kapatır. Heimdall + Angela/Hela sinerjisi sayesinde Warlock her zehir bağışıklığı tetiklendiğinde kalıcı Hiddet takviyesi kazanır, böylece boss'u çok rahat eritebilirsiniz.",
+        "Hyperion (Solo): Zehre bağışıktır ve Ağır Saldırı (Heavy) yaparak kendi hiddet takviyelerini kolayca kazanabilir; 4-6 hiddet biriktirdikten sonra Sinister'ı doğrudan alt edebilirsiniz."
+      ],
+      "idealCounters": [
+        "hyperion",
+        "warlock",
+        "heimdall",
+        "angela",
+        "hela",
+        "colossus",
+        "void"
+      ]
+    }
+  ]
 }

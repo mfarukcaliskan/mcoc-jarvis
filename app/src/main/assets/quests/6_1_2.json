@@ -20,7 +20,8 @@
         "nebula",
         "vulture",
         "spidermanstarkenhanced"
-      ]
+      ],
+      "leadsToBoss": "ultron"
     },
     {
       "pathLetter": "B",
@@ -35,20 +36,23 @@
         "spidermanstarkenhanced",
         "wintersoldier",
         "hawkeye"
-      ]
+      ],
+      "leadsToBoss": "ultron"
     }
   ],
-  "boss": {
-    "championId": "ultron",
-    "bossNodes": [
-      "Karolar: Ultron Prime dövüşünde belli aralıklarla Kaçış (Evade) yeteneği tetiklenir; ayrıca üzerindeki zayıflatıcıları güce veya cana çevirebilir.",
-      "Mekanik: Ultron Prime robotik yetenekleriyle sürekli kaçar veya yenilenir; Nebula'nın şok yükleriyle yetenek doğruluğunu sıfırlayın veya Warlock kullanın."
-    ],
-    "idealCounters": [
-      "magneto",
-      "medusa",
-      "heimdall",
-      "nebula"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "ultron",
+      "bossNodes": [
+        "Karolar: Ultron Prime dövüşünde belli aralıklarla Kaçış (Evade) yeteneği tetiklenir; ayrıca üzerindeki zayıflatıcıları güce veya cana çevirebilir.",
+        "Mekanik: Ultron Prime robotik yetenekleriyle sürekli kaçar veya yenilenir; Nebula'nın şok yükleriyle yetenek doğruluğunu sıfırlayın veya Warlock kullanın."
+      ],
+      "idealCounters": [
+        "magneto",
+        "medusa",
+        "heimdall",
+        "nebula"
+      ]
+    }
+  ]
 }

@@ -18,7 +18,8 @@
         "wolverine",
         "guillotine",
         "thehood"
-      ]
+      ],
+      "leadsToBoss": "loki"
     },
     {
       "pathLetter": "B",
@@ -33,18 +34,21 @@
         "dormammu",
         "mordo",
         "magik"
-      ]
+      ],
+      "leadsToBoss": "loki"
     }
   ],
-  "boss": {
-    "championId": "loki",
-    "bossNodes": [
-      "Karolar: Esneklik (Limber) - Loki'nin üzerinde bu karo bulunur; her siper (parry) attığınızda sersemletme (stun) süresi kısalır.",
-      "Mekanik: Siper sonrası uzun kombolar yerine kısa ve verimli kombolarla ilerleyin; kısıtlı sersemleme süresini en iyi şekilde değerlendirin."
-    ],
-    "idealCounters": [
-      "magneto",
-      "humantorch"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "loki",
+      "bossNodes": [
+        "Karolar: Esneklik (Limber) - Loki'nin üzerinde bu karo bulunur; her siper (parry) attığınızda sersemletme (stun) süresi kısalır.",
+        "Mekanik: Siper sonrası uzun kombolar yerine kısa ve verimli kombolarla ilerleyin; kısıtlı sersemleme süresini en iyi şekilde değerlendirin."
+      ],
+      "idealCounters": [
+        "magneto",
+        "humantorch"
+      ]
+    }
+  ]
 }

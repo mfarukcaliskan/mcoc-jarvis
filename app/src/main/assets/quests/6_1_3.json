@@ -28,7 +28,8 @@
         "scarletwitch",
         "ghostrider",
         "thing"
-      ]
+      ],
+      "leadsToBoss": "ghost"
     },
     {
       "pathLetter": "B",
@@ -43,20 +44,23 @@
         "visionaou",
         "crossbones",
         "thing"
-      ]
+      ],
+      "leadsToBoss": "ghost"
     }
   ],
-  "boss": {
-    "championId": "ghost",
-    "bossNodes": [
-      "Karolar: Tanrı Katili (Godslayer), Gerçek Vuruş (True Strike).",
-      "Mekanik: Sahne 6.1'deki en kolay patrondur; neredeyse hiçbir özel yeteneği veya can sıkıcı karosu yoktur, klasik dövüş taktikleriyle çok rahat alt edilir."
-    ],
-    "idealCounters": [
-      "magneto",
-      "corvusglaive",
-      "archangel",
-      "kingpin"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "ghost",
+      "bossNodes": [
+        "Karolar: Tanrı Katili (Godslayer), Gerçek Vuruş (True Strike).",
+        "Mekanik: Sahne 6.1'deki en kolay patrondur; neredeyse hiçbir özel yeteneği veya can sıkıcı karosu yoktur, klasik dövüş taktikleriyle çok rahat alt edilir."
+      ],
+      "idealCounters": [
+        "magneto",
+        "corvusglaive",
+        "archangel",
+        "kingpin"
+      ]
+    }
+  ]
 }

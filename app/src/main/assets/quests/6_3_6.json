@@ -21,7 +21,8 @@
         "shehulk",
         "beast",
         "aegon"
-      ]
+      ],
+      "leadsToBoss": "captainamericaiw"
     },
     {
       "pathLetter": "B",
@@ -38,34 +39,37 @@
         "gwenpool",
         "carnage",
         "symbiotesupreme"
-      ]
+      ],
+      "leadsToBoss": "captainamericaiw"
     }
   ],
-  "boss": {
-    "championId": "captainamericaiw",
-    "bossNodes": [
-      "Crit Me With Your Best Shot - Kritik olmayan saldırılardan neredeyse hiç hasar almaz.",
-      "Destructive Feedback - Her 15 saniyede bir 10 saniye süren Kinetik Kalkan kazanır; kalkan aktifken saldırganın yaptığı hasar depolanır ve kalkan bittiğinde saldırgana geri döner (Özel 3 hariç); kalkan aktifken saldırgana vurursa (blok dahil) bu hasar saldırgana yansır.",
-      "Unlimited Power - Kendine uygulanan debufflara karşı Fury buff'ları kazanır.",
-      "Surging Vengeance - Özel saldırılarını sırasıyla 1'den 3'e doğru art arda kullanır, bu yüzden SP3 zamanlaması tahmin edilebilir hale gelir.",
-      "Heimdall Sinerjisi - Takımda durması yeterlidir; Kaptan SP3 attığında ölümcül darbeyi engelleyip yenilmezlik vererek hayatta tutar, bu sinerji bu dövüş için gereklidir.",
-      "Hit-Monkey & Shang-Chi - Garantili kritik vurma şansları çok yüksek olduğundan en çok hasar veren şampiyonlardandır.",
-      "Bullseye - Kaptan'ın bloklarını kırarak çok rahat kritik hasarlar çıkarır.",
-      "Ghost (+ Hood Sinerjisi) - Ghost ile faz (hafifsizlik) modundayken Kaptan SP3 atarsa hasar almazsınız.",
-      "Kırmızı Magneto (Koridor) - Metal rakipleri eritir, koridoru hızlıca ve hasarsız temizler.",
-      "Özet Taktik: Takıma bir güçlü koridor temizleyici (örn. Kırmızı Magneto veya Hercules) alın; geri kalan 4 slotu Kaptan boss'unu alt edecek şampiyonlar (Hit-Monkey, Shang-Chi, Stark Enhanced Spider-Man vb.) ve Heimdall sinerjisi ile doldurun."
-    ],
-    "idealCounters": [
-      "heimdall",
-      "hitmonkey",
-      "shangchi",
-      "spidermanstarkenhanced",
-      "ghost",
-      "bullseye",
-      "magneto",
-      "ronan",
-      "gwenpool",
-      "domino"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "captainamericaiw",
+      "bossNodes": [
+        "Crit Me With Your Best Shot - Kritik olmayan saldırılardan neredeyse hiç hasar almaz.",
+        "Destructive Feedback - Her 15 saniyede bir 10 saniye süren Kinetik Kalkan kazanır; kalkan aktifken saldırganın yaptığı hasar depolanır ve kalkan bittiğinde saldırgana geri döner (Özel 3 hariç); kalkan aktifken saldırgana vurursa (blok dahil) bu hasar saldırgana yansır.",
+        "Unlimited Power - Kendine uygulanan debufflara karşı Fury buff'ları kazanır.",
+        "Surging Vengeance - Özel saldırılarını sırasıyla 1'den 3'e doğru art arda kullanır, bu yüzden SP3 zamanlaması tahmin edilebilir hale gelir.",
+        "Heimdall Sinerjisi - Takımda durması yeterlidir; Kaptan SP3 attığında ölümcül darbeyi engelleyip yenilmezlik vererek hayatta tutar, bu sinerji bu dövüş için gereklidir.",
+        "Hit-Monkey & Shang-Chi - Garantili kritik vurma şansları çok yüksek olduğundan en çok hasar veren şampiyonlardandır.",
+        "Bullseye - Kaptan'ın bloklarını kırarak çok rahat kritik hasarlar çıkarır.",
+        "Ghost (+ Hood Sinerjisi) - Ghost ile faz (hafifsizlik) modundayken Kaptan SP3 atarsa hasar almazsınız.",
+        "Kırmızı Magneto (Koridor) - Metal rakipleri eritir, koridoru hızlıca ve hasarsız temizler.",
+        "Özet Taktik: Takıma bir güçlü koridor temizleyici (örn. Kırmızı Magneto veya Hercules) alın; geri kalan 4 slotu Kaptan boss'unu alt edecek şampiyonlar (Hit-Monkey, Shang-Chi, Stark Enhanced Spider-Man vb.) ve Heimdall sinerjisi ile doldurun."
+      ],
+      "idealCounters": [
+        "heimdall",
+        "hitmonkey",
+        "shangchi",
+        "spidermanstarkenhanced",
+        "ghost",
+        "bullseye",
+        "magneto",
+        "ronan",
+        "gwenpool",
+        "domino"
+      ]
+    }
+  ]
 }

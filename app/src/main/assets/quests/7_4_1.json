@@ -17,7 +17,8 @@
         "sorcerersupreme",
         "jubilee",
         "doctordoom"
-      ]
+      ],
+      "leadsToBoss": "guillotine2099"
     },
     {
       "pathLetter": "B",
@@ -31,22 +32,25 @@
         "thechampion",
         "sasquatch",
         "captainmarvelmcu"
-      ]
+      ],
+      "leadsToBoss": "guillotine2099"
     }
   ],
-  "boss": {
-    "championId": "guillotine2099",
-    "bossNodes": [
-      "Assault Function: Combo Meter 99'un üzerindeyken Orta saldırılar rakibin Mevcut Gücünün %5'ini yakar (Power Burn); bu yüzden uzun kombolar Guillotine 2099'un Güç yakma etkisini tetikler.",
-      "Özel 1 - Soul Slash: Saldırının son vuruşu her Digi-Soul için rakibin Mevcut Gücünün %20'sini boşaltır; saldırı temas etmezse bu oran %40'a çıkar, bu yüzden Özel 1'i kaçırmaya çalışmak cezalandırılır.",
-      "Özel 2 - LFM 99 Soulsplitter: Aktive edildiğinde %100 ihtimalle Spectre debuff'ı uygular ve bu, rakibin Can Yenileme Oranını 12 saniye boyunca %120 azaltır; Heal Block'a bağışıklığı olmayan can yenileme temelli şampiyonlar bu pencerede neredeyse hiç iyileşemez.",
-      "Digi-Soul Birikimi: Guillotine 2099 dövüş ilerledikçe Digi-Soul biriktirir ve bu, hem Güç yakma hem de Soul Slash'in gücünü katlayarak artırır; dövüşü uzatmak onu güçlendirir."
-    ],
-    "idealCounters": [
-      "nebula",
-      "bwdo",
-      "doctordoom",
-      "moleman"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "guillotine2099",
+      "bossNodes": [
+        "Assault Function: Combo Meter 99'un üzerindeyken Orta saldırılar rakibin Mevcut Gücünün %5'ini yakar (Power Burn); bu yüzden uzun kombolar Guillotine 2099'un Güç yakma etkisini tetikler.",
+        "Özel 1 - Soul Slash: Saldırının son vuruşu her Digi-Soul için rakibin Mevcut Gücünün %20'sini boşaltır; saldırı temas etmezse bu oran %40'a çıkar, bu yüzden Özel 1'i kaçırmaya çalışmak cezalandırılır.",
+        "Özel 2 - LFM 99 Soulsplitter: Aktive edildiğinde %100 ihtimalle Spectre debuff'ı uygular ve bu, rakibin Can Yenileme Oranını 12 saniye boyunca %120 azaltır; Heal Block'a bağışıklığı olmayan can yenileme temelli şampiyonlar bu pencerede neredeyse hiç iyileşemez.",
+        "Digi-Soul Birikimi: Guillotine 2099 dövüş ilerledikçe Digi-Soul biriktirir ve bu, hem Güç yakma hem de Soul Slash'in gücünü katlayarak artırır; dövüşü uzatmak onu güçlendirir."
+      ],
+      "idealCounters": [
+        "nebula",
+        "bwdo",
+        "doctordoom",
+        "moleman"
+      ]
+    }
+  ]
 }

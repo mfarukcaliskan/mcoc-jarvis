@@ -17,7 +17,8 @@
         "doctordoom",
         "mephisto",
         "morgan_le_fay"
-      ]
+      ],
+      "leadsToBoss": "dread_emperor_doom"
     },
     {
       "pathLetter": "B",
@@ -31,21 +32,24 @@
         "mordo",
         "magik",
         "nightmare"
-      ]
+      ],
+      "leadsToBoss": "dread_emperor_doom"
     }
   ],
-  "boss": {
-    "championId": "dread_emperor_doom",
-    "bossNodes": [
-      "Ouroboros Auraı: Aktive olduğunda 9 saniyeliğine devreye girer; bu süre boyunca Doom'un saldırıları Bloklanamaz, Kaçılamaz ve Iskalayamaz hale gelir, Durdurulamaz saldırganlara karşı bile tepki zorunlu hale gelir ve Doom Özel Saldırı 3 dışında yere düşürülemez. Aura süresi, Doom Yavaşlatma (Slow) altındayken 1 saniye, Taşlaşma (Petrify) altındayken 1 saniye daha kısalır.",
-      "Geri Sayım Yükleri (Countdown Charges): Doom her dövüşe ve her faza 5 Geri Sayım Yükü ile başlar; Özel Saldırı 2 kullandıkça yük kaybeder, son yük tükendiğinde anında 3 bar güç kazanır.",
-      "Güçlendirme Pasifleri (Amplify): Doom her Özel Saldırı aktive ettiğinde 2 Güçlendirme Pasifi kazanır (hiç yoksa +1 ekstra); bu pasifler biriktikçe sonraki özel saldırıların hasarı katlanarak artar."
-    ],
-    "idealCounters": [
-      "shehulk",
-      "void",
-      "spidergwen",
-      "humantorch"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "dread_emperor_doom",
+      "bossNodes": [
+        "Ouroboros Auraı: Aktive olduğunda 9 saniyeliğine devreye girer; bu süre boyunca Doom'un saldırıları Bloklanamaz, Kaçılamaz ve Iskalayamaz hale gelir, Durdurulamaz saldırganlara karşı bile tepki zorunlu hale gelir ve Doom Özel Saldırı 3 dışında yere düşürülemez. Aura süresi, Doom Yavaşlatma (Slow) altındayken 1 saniye, Taşlaşma (Petrify) altındayken 1 saniye daha kısalır.",
+        "Geri Sayım Yükleri (Countdown Charges): Doom her dövüşe ve her faza 5 Geri Sayım Yükü ile başlar; Özel Saldırı 2 kullandıkça yük kaybeder, son yük tükendiğinde anında 3 bar güç kazanır.",
+        "Güçlendirme Pasifleri (Amplify): Doom her Özel Saldırı aktive ettiğinde 2 Güçlendirme Pasifi kazanır (hiç yoksa +1 ekstra); bu pasifler biriktikçe sonraki özel saldırıların hasarı katlanarak artar."
+      ],
+      "idealCounters": [
+        "shehulk",
+        "void",
+        "spidergwen",
+        "humantorch"
+      ]
+    }
+  ]
 }

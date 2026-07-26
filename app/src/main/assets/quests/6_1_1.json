@@ -19,7 +19,8 @@
         "punisher2099",
         "nebula",
         "gambit"
-      ]
+      ],
+      "leadsToBoss": "sabretooth"
     },
     {
       "pathLetter": "B",
@@ -34,20 +35,23 @@
         "ultron",
         "ironman",
         "vision"
-      ]
+      ],
+      "leadsToBoss": "sabretooth"
     }
   ],
-  "boss": {
-    "championId": "sabretooth",
-    "bossNodes": [
-      "Karolar: Emphatic Recovery ve Ağır İyileşme (Regeneration).",
-      "Mekanik: Sabretooth sürekli ve çok agresif bir şekilde can yeniler; can yenilemesini durduramazsan dövüş hiç bitmez."
-    ],
-    "idealCounters": [
-      "archangel",
-      "warlock",
-      "nimrod",
-      "doctordoom"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "sabretooth",
+      "bossNodes": [
+        "Karolar: Emphatic Recovery ve Ağır İyileşme (Regeneration).",
+        "Mekanik: Sabretooth sürekli ve çok agresif bir şekilde can yeniler; can yenilemesini durduramazsan dövüş hiç bitmez."
+      ],
+      "idealCounters": [
+        "archangel",
+        "warlock",
+        "nimrod",
+        "doctordoom"
+      ]
+    }
+  ]
 }

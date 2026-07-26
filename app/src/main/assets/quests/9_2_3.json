@@ -17,7 +17,8 @@
         "abomination",
         "shehulk",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "storm"
     },
     {
       "pathLetter": "B",
@@ -31,21 +32,24 @@
         "juggernaut",
         "thing",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "storm"
     }
   ],
-  "boss": {
-    "championId": "storm",
-    "bossNodes": [
-      "Prowess'lı Engellenemez Özel Saldırı - Storm bir Özel Saldırı başlattığında üzerinde 6 adet Prowess etkisi varsa 1,8 saniye boyunca Engellenemez Pasif kazanır; güç kazanımını kısıtlamak bu düğümü etkisiz kılmanın anahtarıdır.",
-      "Yıldırım Fırtınası (Lightning Tempest) - Her isabet 9 saniyelik bir Şok Debuff'ı uygular; varsayılan Tempest olarak seçildiğinde Şok potansiyeli, rakibin mevcut gücüne bağlı olarak çok büyük oranda artar.",
-      "Buz Fırtınası (Ice Tempest) - Her isabet Özel Saldırının kalan süresi boyunca hasarını artıran bir Prowess üretir ve son vuruş 14 saniye boyunca Enerji hasarı veren pasif bir Donma (Coldsnap) etkisi uygular."
-    ],
-    "idealCounters": [
-      "shehulk",
-      "spidergwen",
-      "nickfury",
-      "ultron"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "storm",
+      "bossNodes": [
+        "Prowess'lı Engellenemez Özel Saldırı - Storm bir Özel Saldırı başlattığında üzerinde 6 adet Prowess etkisi varsa 1,8 saniye boyunca Engellenemez Pasif kazanır; güç kazanımını kısıtlamak bu düğümü etkisiz kılmanın anahtarıdır.",
+        "Yıldırım Fırtınası (Lightning Tempest) - Her isabet 9 saniyelik bir Şok Debuff'ı uygular; varsayılan Tempest olarak seçildiğinde Şok potansiyeli, rakibin mevcut gücüne bağlı olarak çok büyük oranda artar.",
+        "Buz Fırtınası (Ice Tempest) - Her isabet Özel Saldırının kalan süresi boyunca hasarını artıran bir Prowess üretir ve son vuruş 14 saniye boyunca Enerji hasarı veren pasif bir Donma (Coldsnap) etkisi uygular."
+      ],
+      "idealCounters": [
+        "shehulk",
+        "spidergwen",
+        "nickfury",
+        "ultron"
+      ]
+    }
+  ]
 }

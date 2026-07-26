@@ -16,7 +16,8 @@
         "ultron",
         "jubilee",
         "hulkbuster"
-      ]
+      ],
+      "leadsToBoss": "hulkimmortal"
     },
     {
       "pathLetter": "B",
@@ -30,21 +31,24 @@
         "blackpanthercivilwar",
         "emmafrost",
         "oldmanlogan"
-      ]
+      ],
+      "leadsToBoss": "hulkimmortal"
     }
   ],
-  "boss": {
-    "championId": "hulkimmortal",
-    "bossNodes": [
-      "Gamma Radyasyonu ve Petrify - Dövüş başında Immortal Hulk, rakibine 8 saniye boyunca Rejenerasyon ve Yetenek Gücü Oranını %40 azaltan bir Petrify debuff'ı uygular; Gamma Radyasyonu %75'e ulaştığında ise bu kez kalıcı olarak %75 azaltan bir Petrify debuff'ı tetiklenir.",
-      "Kırılmaz Rejenerasyon - Immortal Hulk'ın Rejenerasyon Oranı dışarıdan hiçbir kaynakla artırılamaz veya azaltılamaz; İmmortalite fazı sona erdiğinde bu süre boyunca aldığı tüm hasarı geri kazanır - bu yüzden Isı Engeli (Heal Block) olmadan onu düşürmek neredeyse imkansızdır.",
-      "Buffed Up / Prey on the Feeble - Boss dövüşünde de saldırganın 3'ten az buff'ı varken alınan hasarın %100 azalması ve buff'ların bozulması durumunda savunmacının Prowess kazanması geçerlidir; bu yüzden buff yönetimi kritik önem taşır."
-    ],
-    "idealCounters": [
-      "nickfury",
-      "kingpin",
-      "hitmonkey",
-      "moleman"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "hulkimmortal",
+      "bossNodes": [
+        "Gamma Radyasyonu ve Petrify - Dövüş başında Immortal Hulk, rakibine 8 saniye boyunca Rejenerasyon ve Yetenek Gücü Oranını %40 azaltan bir Petrify debuff'ı uygular; Gamma Radyasyonu %75'e ulaştığında ise bu kez kalıcı olarak %75 azaltan bir Petrify debuff'ı tetiklenir.",
+        "Kırılmaz Rejenerasyon - Immortal Hulk'ın Rejenerasyon Oranı dışarıdan hiçbir kaynakla artırılamaz veya azaltılamaz; İmmortalite fazı sona erdiğinde bu süre boyunca aldığı tüm hasarı geri kazanır - bu yüzden Isı Engeli (Heal Block) olmadan onu düşürmek neredeyse imkansızdır.",
+        "Buffed Up / Prey on the Feeble - Boss dövüşünde de saldırganın 3'ten az buff'ı varken alınan hasarın %100 azalması ve buff'ların bozulması durumunda savunmacının Prowess kazanması geçerlidir; bu yüzden buff yönetimi kritik önem taşır."
+      ],
+      "idealCounters": [
+        "nickfury",
+        "kingpin",
+        "hitmonkey",
+        "moleman"
+      ]
+    }
+  ]
 }

@@ -19,7 +19,8 @@
         "sorcerersupreme",
         "humantorch",
         "visionaou"
-      ]
+      ],
+      "leadsToBoss": "greengoblin"
     },
     {
       "pathLetter": "B",
@@ -36,22 +37,25 @@
         "silversurfer",
         "guillotine2099",
         "emmafrost"
-      ]
+      ],
+      "leadsToBoss": "greengoblin"
     }
   ],
-  "boss": {
-    "championId": "greengoblin",
-    "bossNodes": [
-      "Redlining - Green Goblin'in özel saldırı maliyeti düşüktür, bu yüzden özel saldırılarını sık sık ve beklenenden erken kullanabilir.",
-      "Güç Rezervi (Power Reserve) - Boşa harcanan güç bir rezerve aktarılır ve bu rezerv daha sonra ekstra güç kazanımı olarak geri döner.",
-      "Zayıflatma (Debilitate) - Saldırgana uygulanan Zayıflık (Weakness) debuff'ı, Green Goblin'in mevcut güç seviyesiyle orantılı olarak artan hasar verir; güç yüksekken bu debuff ölümcül hale gelir.",
-      "Cramping - Saldırganın yetenek isabeti (ability accuracy) periyodik olarak düşürülür, bu da debuff tabanlı stratejileri zayıflatır."
-    ],
-    "idealCounters": [
-      "corvusglaive",
-      "captainmarvelmcu",
-      "blade",
-      "archangel"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "greengoblin",
+      "bossNodes": [
+        "Redlining - Green Goblin'in özel saldırı maliyeti düşüktür, bu yüzden özel saldırılarını sık sık ve beklenenden erken kullanabilir.",
+        "Güç Rezervi (Power Reserve) - Boşa harcanan güç bir rezerve aktarılır ve bu rezerv daha sonra ekstra güç kazanımı olarak geri döner.",
+        "Zayıflatma (Debilitate) - Saldırgana uygulanan Zayıflık (Weakness) debuff'ı, Green Goblin'in mevcut güç seviyesiyle orantılı olarak artan hasar verir; güç yüksekken bu debuff ölümcül hale gelir.",
+        "Cramping - Saldırganın yetenek isabeti (ability accuracy) periyodik olarak düşürülür, bu da debuff tabanlı stratejileri zayıflatır."
+      ],
+      "idealCounters": [
+        "corvusglaive",
+        "captainmarvelmcu",
+        "blade",
+        "archangel"
+      ]
+    }
+  ]
 }

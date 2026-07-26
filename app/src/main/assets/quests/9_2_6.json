@@ -18,7 +18,8 @@
         "hulk",
         "shehulk",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "jane_foster_lotan"
     },
     {
       "pathLetter": "B",
@@ -32,21 +33,24 @@
         "corvusglaive",
         "proximamidnight",
         "hela"
-      ]
+      ],
+      "leadsToBoss": "jane_foster_lotan"
     }
   ],
-  "boss": {
-    "championId": "jane_foster_lotan",
-    "bossNodes": [
-      "Maelstrom ve Bozunum Zamanlayıcısı - Dövüş başında sahne ortasında bir Maelstrom belirir; içindeyken Lotan'ın temel saldırıları Enerji hasarı verir ve Kombo Güç Oranı %50 artar. Saldırgan Maelstrom'a girdiğinde 5 saniyelik bir Bozunum Zamanlayıcısı başlar; bu süre Lotan her temel saldırı başlattığında 0,5 saniye durur, Lotan blok/şarj/özel saldırı yaparken tamamen duraklar.",
-      "Desecrated Şarjları ve Sanctified Durumu - Lotan dövüşe 20 Desecrated Şarjı ile başlar; herhangi bir şarj varken %80 daha az hasar alır. Şarjlar her fazda belirli 'Smite' girdileriyle (örn. ikinci Orta Saldırının ilk vuruşu 4 şarj, İyi Zamanlı Blok 2 şarj düşürür) kaldırılabilir. Şarjlar sıfırlandığında Lotan 10 saniyeliğine Sanctified olur; bu sürede hareket edemez, güç kazanamaz, Desecrated Şarjı kazanamaz ve Saldırgan bu süre boyunca Özel Saldırı 3 kullanamaz, Maelstrom ile etkileşemez ve hasar alamaz.",
-      "Gerçek Etkilerin Yasaklanması - Lotan, Ağır Saldırısıyla vururken pasif olarak Durdurulamaz (Unstoppable) hale gelir ve bu fazlarda True Damage, True Strike, True Accuracy, True Sense ve True Focus gibi anlık olmayan 'Gerçek' etkiler geçici olarak yasaklanır."
-    ],
-    "idealCounters": [
-      "aegon",
-      "mistersinister",
-      "nova",
-      "guardian"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "jane_foster_lotan",
+      "bossNodes": [
+        "Maelstrom ve Bozunum Zamanlayıcısı - Dövüş başında sahne ortasında bir Maelstrom belirir; içindeyken Lotan'ın temel saldırıları Enerji hasarı verir ve Kombo Güç Oranı %50 artar. Saldırgan Maelstrom'a girdiğinde 5 saniyelik bir Bozunum Zamanlayıcısı başlar; bu süre Lotan her temel saldırı başlattığında 0,5 saniye durur, Lotan blok/şarj/özel saldırı yaparken tamamen duraklar.",
+        "Desecrated Şarjları ve Sanctified Durumu - Lotan dövüşe 20 Desecrated Şarjı ile başlar; herhangi bir şarj varken %80 daha az hasar alır. Şarjlar her fazda belirli 'Smite' girdileriyle (örn. ikinci Orta Saldırının ilk vuruşu 4 şarj, İyi Zamanlı Blok 2 şarj düşürür) kaldırılabilir. Şarjlar sıfırlandığında Lotan 10 saniyeliğine Sanctified olur; bu sürede hareket edemez, güç kazanamaz, Desecrated Şarjı kazanamaz ve Saldırgan bu süre boyunca Özel Saldırı 3 kullanamaz, Maelstrom ile etkileşemez ve hasar alamaz.",
+        "Gerçek Etkilerin Yasaklanması - Lotan, Ağır Saldırısıyla vururken pasif olarak Durdurulamaz (Unstoppable) hale gelir ve bu fazlarda True Damage, True Strike, True Accuracy, True Sense ve True Focus gibi anlık olmayan 'Gerçek' etkiler geçici olarak yasaklanır."
+      ],
+      "idealCounters": [
+        "aegon",
+        "mistersinister",
+        "nova",
+        "guardian"
+      ]
+    }
+  ]
 }

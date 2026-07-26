@@ -16,7 +16,8 @@
         "blackpanther",
         "wasp",
         "taskmaster"
-      ]
+      ],
+      "leadsToBoss": "spidermanstealthsuit"
     },
     {
       "pathLetter": "B",
@@ -30,21 +31,24 @@
         "americachavez",
         "korg",
         "thing"
-      ]
+      ],
+      "leadsToBoss": "spidermanstealthsuit"
     }
   ],
-  "boss": {
-    "championId": "spidermanstealthsuit",
-    "bossNodes": [
-      "Örümcek Sezgisi (Spider-Sense Evade) - Spider-Man (Stealth Suit), gelen normal vuruşları yüksek ihtimalle Kaçınır (Evade); bu yetenek bir kullanımdan sonra bekleme süresine girer ama SP1 kullanımıyla anında yeniden aktive edilebilir, bu yüzden basic-vuruş odaklı oyun tarzları burada verimsizdir.",
-      "Gelişmiş Güç Drenajı - Bu bölümdeki Enhanced Power Drain karosu sayesinde boss, saldırganın gücünü normalden daha agresif şekilde çalar; Güç Kilidi (Power Lock) veya Güç Çalma bağışıklığı olmayan şampiyonlar güç biriktirmekte zorlanır.",
-      "Karşı Strateji - Gerçek Vuruş/Gerçek İsabet (True Strike/True Accuracy) yeteneğine sahip şampiyonlar Kaçınmayı görmezden gelebilir; ayrıca uygun Web Cartridge (Web-Foam) getirmek Kaçınma temelli savunmayı büyük ölçüde etkisiz kılar."
-    ],
-    "idealCounters": [
-      "falcon",
-      "magneto",
-      "venom",
-      "apocalypse"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "spidermanstealthsuit",
+      "bossNodes": [
+        "Örümcek Sezgisi (Spider-Sense Evade) - Spider-Man (Stealth Suit), gelen normal vuruşları yüksek ihtimalle Kaçınır (Evade); bu yetenek bir kullanımdan sonra bekleme süresine girer ama SP1 kullanımıyla anında yeniden aktive edilebilir, bu yüzden basic-vuruş odaklı oyun tarzları burada verimsizdir.",
+        "Gelişmiş Güç Drenajı - Bu bölümdeki Enhanced Power Drain karosu sayesinde boss, saldırganın gücünü normalden daha agresif şekilde çalar; Güç Kilidi (Power Lock) veya Güç Çalma bağışıklığı olmayan şampiyonlar güç biriktirmekte zorlanır.",
+        "Karşı Strateji - Gerçek Vuruş/Gerçek İsabet (True Strike/True Accuracy) yeteneğine sahip şampiyonlar Kaçınmayı görmezden gelebilir; ayrıca uygun Web Cartridge (Web-Foam) getirmek Kaçınma temelli savunmayı büyük ölçüde etkisiz kılar."
+      ],
+      "idealCounters": [
+        "falcon",
+        "magneto",
+        "venom",
+        "apocalypse"
+      ]
+    }
+  ]
 }

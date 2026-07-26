@@ -19,7 +19,8 @@
         "redguardian",
         "gwenpool",
         "ultron"
-      ]
+      ],
+      "leadsToBoss": "yondu"
     },
     {
       "pathLetter": "B",
@@ -36,21 +37,24 @@
         "beast",
         "venomtheduck",
         "colossus"
-      ]
+      ],
+      "leadsToBoss": "yondu"
     }
   ],
-  "boss": {
-    "championId": "yondu",
-    "bossNodes": [
-      "Aşırı Mazoşizm (Super-Masochism) - Her 5 saniyede bir, savunmacı üzerinde tetiklenecek sıradaki Sersemletme/Kanama/Zehir/Şok/Yanma/Dondurma/Yırtılma debuff'ı anında arındırılır ve doğrudan saldırgana uygulanır; her tetiklenmede Yondu canının %5'ini iyileştirir. Yondu'yu yere düşürmek bekleme süresini sıfırlar ve bir sonraki bekleme süresini 1 saniye uzatır.",
-      "Zenginin Zenginliği (Feats of Power - Rich Get Richer) - Yondu'nun güç kazanım hızı, üzerindeki mevcut avantajlarla katlanarak artar.",
-      "Öngörü (Foresight) - Yondu üzerindeki buff'lar bir süreliğine nötrleştirilemez; buff temizleme temelli stratejiler bu pencere boyunca işe yaramaz."
-    ],
-    "idealCounters": [
-      "corvusglaive",
-      "starlord",
-      "hyperion",
-      "cosmicghostrider"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "yondu",
+      "bossNodes": [
+        "Aşırı Mazoşizm (Super-Masochism) - Her 5 saniyede bir, savunmacı üzerinde tetiklenecek sıradaki Sersemletme/Kanama/Zehir/Şok/Yanma/Dondurma/Yırtılma debuff'ı anında arındırılır ve doğrudan saldırgana uygulanır; her tetiklenmede Yondu canının %5'ini iyileştirir. Yondu'yu yere düşürmek bekleme süresini sıfırlar ve bir sonraki bekleme süresini 1 saniye uzatır.",
+        "Zenginin Zenginliği (Feats of Power - Rich Get Richer) - Yondu'nun güç kazanım hızı, üzerindeki mevcut avantajlarla katlanarak artar.",
+        "Öngörü (Foresight) - Yondu üzerindeki buff'lar bir süreliğine nötrleştirilemez; buff temizleme temelli stratejiler bu pencere boyunca işe yaramaz."
+      ],
+      "idealCounters": [
+        "corvusglaive",
+        "starlord",
+        "hyperion",
+        "cosmicghostrider"
+      ]
+    }
+  ]
 }

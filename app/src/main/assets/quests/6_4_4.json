@@ -20,7 +20,8 @@
         "spidermanstealthsuit",
         "phoenix",
         "wasp"
-      ]
+      ],
+      "leadsToBoss": "captainmarvelmcu"
     },
     {
       "pathLetter": "B",
@@ -37,25 +38,28 @@
         "darkhawk",
         "modok",
         "guillotine2099"
-      ]
+      ],
+      "leadsToBoss": "captainmarvelmcu"
     }
   ],
-  "boss": {
-    "championId": "captainmarvelmcu",
-    "bossNodes": [
-      "Binary Ignition (İkili Ateşlenme) - Captain Marvel yeterli güç topladığında Binary moda girer; bu moddayken engellenemez (unstoppable) ve yerinden oynatılamaz (unmoveable) olur.",
-      "Energy Sensitive - Enerji hasarına karşı dirençlidir ve enerji temelli vuruşlardan ekstra güç şarjı kazanabilir.",
-      "Close Encounters - Saldırgan uzak durursa Degen hasarı alır, yakın kalırsa Captain Marvel yavaşça iyileşir. Ayrıca yakın dövüş mesafesinde kalmanız gerekir; uzaklaşırsanız saniyede %3 can kaybedersiniz. Şampiyon blok halindeyken enerji hasarı vurmak çok önemlidir.",
-      "Strateji: Doctor Doom ile güç çalarak Binary moda geçişi geciktirin, ya da Quake/Symbiote Supreme ile temassız/güç-azaltma odaklı oynayarak Binary tetiklenmeden dövüşü bitirin. Mistik Şampiyonlar (Doctor Doom, Kushala, Claire Voyant, Symbiote Supreme, Diablo) en iyi boss karşıtlarıdır - Captain Marvel'ın gücünü sürekli kontrol altında tutup çılgınlık (Frenzy) moduna girmesini engelleyin; Doom gibi şampiyonlarla rakip blok yaparken bile saldırarak enerji hasarıyla canını hızla eritebilirsiniz. Yol Counterları (Koridor): CGR (devasa hasar), Colossus (yakma bağışıklığı ve tanklığı ile en güvenlisi), Human Torch, Red Hulk, Sunspot, Kitty Pryde veya Ghost."
-    ],
-    "idealCounters": [
-      "doctordoom",
-      "kushala",
-      "blackwidowclairevoyant",
-      "symbiotesupreme",
-      "diablo",
-      "quake",
-      "magik"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "captainmarvelmcu",
+      "bossNodes": [
+        "Binary Ignition (İkili Ateşlenme) - Captain Marvel yeterli güç topladığında Binary moda girer; bu moddayken engellenemez (unstoppable) ve yerinden oynatılamaz (unmoveable) olur.",
+        "Energy Sensitive - Enerji hasarına karşı dirençlidir ve enerji temelli vuruşlardan ekstra güç şarjı kazanabilir.",
+        "Close Encounters - Saldırgan uzak durursa Degen hasarı alır, yakın kalırsa Captain Marvel yavaşça iyileşir. Ayrıca yakın dövüş mesafesinde kalmanız gerekir; uzaklaşırsanız saniyede %3 can kaybedersiniz. Şampiyon blok halindeyken enerji hasarı vurmak çok önemlidir.",
+        "Strateji: Doctor Doom ile güç çalarak Binary moda geçişi geciktirin, ya da Quake/Symbiote Supreme ile temassız/güç-azaltma odaklı oynayarak Binary tetiklenmeden dövüşü bitirin. Mistik Şampiyonlar (Doctor Doom, Kushala, Claire Voyant, Symbiote Supreme, Diablo) en iyi boss karşıtlarıdır - Captain Marvel'ın gücünü sürekli kontrol altında tutup çılgınlık (Frenzy) moduna girmesini engelleyin; Doom gibi şampiyonlarla rakip blok yaparken bile saldırarak enerji hasarıyla canını hızla eritebilirsiniz. Yol Counterları (Koridor): CGR (devasa hasar), Colossus (yakma bağışıklığı ve tanklığı ile en güvenlisi), Human Torch, Red Hulk, Sunspot, Kitty Pryde veya Ghost."
+      ],
+      "idealCounters": [
+        "doctordoom",
+        "kushala",
+        "blackwidowclairevoyant",
+        "symbiotesupreme",
+        "diablo",
+        "quake",
+        "magik"
+      ]
+    }
+  ]
 }

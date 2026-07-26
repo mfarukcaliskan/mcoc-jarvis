@@ -18,7 +18,8 @@
         "colossus",
         "korg",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "shocker"
     },
     {
       "pathLetter": "B",
@@ -33,21 +34,24 @@
         "thor",
         "storm",
         "havok"
-      ]
+      ],
+      "leadsToBoss": "shocker"
     }
   ],
-  "boss": {
-    "championId": "shocker",
-    "bossNodes": [
-      "Parry Edilebilir Vuruşlar - Temel saldırıları parry edilebilir; başarılı parry sonrası büyük bir açık pencere doğar.",
-      "Özel Saldırı 1 - Kaçışla (evade) tamamen atlatılabilir; kaçırılmazsa ciddi hasar ve Şok debuff'ı verir.",
-      "Özel Saldırı 2 - İsabet ettiğinde Sersemletme (Stun) uygular; hafif kombo ile baitleyip anında kaçmak gerekir."
-    ],
-    "idealCounters": [
-      "silk",
-      "shangchi",
-      "katebishop",
-      "hercules"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "shocker",
+      "bossNodes": [
+        "Parry Edilebilir Vuruşlar - Temel saldırıları parry edilebilir; başarılı parry sonrası büyük bir açık pencere doğar.",
+        "Özel Saldırı 1 - Kaçışla (evade) tamamen atlatılabilir; kaçırılmazsa ciddi hasar ve Şok debuff'ı verir.",
+        "Özel Saldırı 2 - İsabet ettiğinde Sersemletme (Stun) uygular; hafif kombo ile baitleyip anında kaçmak gerekir."
+      ],
+      "idealCounters": [
+        "silk",
+        "shangchi",
+        "katebishop",
+        "hercules"
+      ]
+    }
+  ]
 }

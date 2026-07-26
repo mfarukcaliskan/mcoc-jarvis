@@ -18,7 +18,8 @@
         "morningstar",
         "agentvenom",
         "crossbones"
-      ]
+      ],
+      "leadsToBoss": "gorr"
     },
     {
       "pathLetter": "B",
@@ -33,21 +34,24 @@
         "iceman",
         "emmafrost",
         "bishop"
-      ]
+      ],
+      "leadsToBoss": "gorr"
     }
   ],
-  "boss": {
-    "championId": "gorr",
-    "bossNodes": [
-      "Heresy Yığınları ve Yenilenme: Gorr isabet aldığında eksik canının %16'sı kadarını 12 saniyede geri kazandıran, kaldırılamayan bir Yenilenme buff'ı kazanır; bu iyileşme Tanrı/Elder sınıfı şampiyonlara karşı ve her Heresy yığınıyla birlikte artar.",
-      "Debuff Odaklı SP3: Gorr'un Özel 3 saldırısı, saldırgan üzerindeki her hasar veren debuff için ek hasar kazanır; ağır debuff yığınlayan ekiplerle SP3 öncesi debuff temizlemek kritik önem taşır.",
-      "İyileştirme Engeli Bağışıklığı: Gorr, İyileştirme Engeli (Heal Block) etkisine tamamen bağışıklıdır; yenilenmesini durdurmak için doğrudan hasar ve blok baskısına güvenilmelidir."
-    ],
-    "idealCounters": [
-      "longshot",
-      "hercules",
-      "humantorch",
-      "hyperion"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "gorr",
+      "bossNodes": [
+        "Heresy Yığınları ve Yenilenme: Gorr isabet aldığında eksik canının %16'sı kadarını 12 saniyede geri kazandıran, kaldırılamayan bir Yenilenme buff'ı kazanır; bu iyileşme Tanrı/Elder sınıfı şampiyonlara karşı ve her Heresy yığınıyla birlikte artar.",
+        "Debuff Odaklı SP3: Gorr'un Özel 3 saldırısı, saldırgan üzerindeki her hasar veren debuff için ek hasar kazanır; ağır debuff yığınlayan ekiplerle SP3 öncesi debuff temizlemek kritik önem taşır.",
+        "İyileştirme Engeli Bağışıklığı: Gorr, İyileştirme Engeli (Heal Block) etkisine tamamen bağışıklıdır; yenilenmesini durdurmak için doğrudan hasar ve blok baskısına güvenilmelidir."
+      ],
+      "idealCounters": [
+        "longshot",
+        "hercules",
+        "humantorch",
+        "hyperion"
+      ]
+    }
+  ]
 }

@@ -19,7 +19,8 @@
         "longshot",
         "spidermanmilesmorales",
         "tigra"
-      ]
+      ],
+      "leadsToBoss": "guardian"
     },
     {
       "pathLetter": "B",
@@ -34,21 +35,24 @@
         "blackpanthercivilwar",
         "medusa",
         "magneto"
-      ]
+      ],
+      "leadsToBoss": "guardian"
     }
   ],
-  "boss": {
-    "championId": "guardian",
-    "bossNodes": [
-      "Güç Kalkanı (Power Shield) - Guardian'a karşı normal vuruşlar hasar vermez, sadece güç doldurur; özel saldırılar ise %400 fazladan hasar verir, bu yüzden dövüş güç biriktirip doğru anda özel saldırı patlatmaya dayanır.",
-      "Yaşam Transferi (Life Transfer) - Guardian saniyede %2 Yıpranma ile can kaybeder ama verdiği hasarın %125'ini yaşam çalma olarak geri kazanır; saldırganın kendi hasarını iyi zamanlaması gerekir, aksi halde Guardian dövüşü uzattıkça güçlenir.",
-      "Hastalık Hayaleti (Spectre of Ailment) - Debuff kaynaklı rejenerasyon azaltma etkisi %50 zayıflatılmıştır, bu yüzden sadece debuff'a güvenerek Guardian'ın kendini iyileştirmesini engellemek yetersiz kalır."
-    ],
-    "idealCounters": [
-      "magneto",
-      "ghost",
-      "doctordoom",
-      "hyperion"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "guardian",
+      "bossNodes": [
+        "Güç Kalkanı (Power Shield) - Guardian'a karşı normal vuruşlar hasar vermez, sadece güç doldurur; özel saldırılar ise %400 fazladan hasar verir, bu yüzden dövüş güç biriktirip doğru anda özel saldırı patlatmaya dayanır.",
+        "Yaşam Transferi (Life Transfer) - Guardian saniyede %2 Yıpranma ile can kaybeder ama verdiği hasarın %125'ini yaşam çalma olarak geri kazanır; saldırganın kendi hasarını iyi zamanlaması gerekir, aksi halde Guardian dövüşü uzattıkça güçlenir.",
+        "Hastalık Hayaleti (Spectre of Ailment) - Debuff kaynaklı rejenerasyon azaltma etkisi %50 zayıflatılmıştır, bu yüzden sadece debuff'a güvenerek Guardian'ın kendini iyileştirmesini engellemek yetersiz kalır."
+      ],
+      "idealCounters": [
+        "magneto",
+        "ghost",
+        "doctordoom",
+        "hyperion"
+      ]
+    }
+  ]
 }

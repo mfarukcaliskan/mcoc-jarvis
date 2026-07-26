@@ -18,7 +18,8 @@
         "agentvenom",
         "carnage",
         "greengoblin"
-      ]
+      ],
+      "leadsToBoss": "cerastes"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "sentinel",
         "nimrod",
         "ghost"
-      ]
+      ],
+      "leadsToBoss": "cerastes"
     }
   ],
-  "boss": {
-    "championId": "cerastes",
-    "bossNodes": [
-      "Bacak Zırhı (Leg Armor): Cerastes yere düştüğünde 100 birim Bacak Zırhı kazanır (saldırgandaki her benzersiz buff için +5 ek); zırh dolduğunda 12 saniye boyunca Durdurulamaz olur ve gelen Özel 1/2/Ağır saldırıların son isabetine karşı Sersemleme bağışıklığı kazanır.",
-      "Kalkan Zırhı (Shield Armor): Blok yapan Cerastes'e vurulduğunda Kalkan Zırhı birikir; zırh dolduğunda bloğa vuran saldırgana Repulsor Patlaması ile deviren ve uzun süreli Plazma yanık hasarı işleyen bir pasif uygulanır.",
-      "Ruh Zırhı (Spirit Armor): Bir Vurucu (Striker) serisinin son isabeti Cerastes'e değdiğinde Ruh Zırhı birikir; zırh dolduğunda Cerastes 12 saniye boyunca Bloklanamaz, Durdurulamaz hale gelir ve Gerçek Sezgi (True Sense) kazanır.",
-      "Bozulmaz Bağışıklıklar: Cerastes; Yavaşlatma, Etkisizleştirme (Neutralize), Güç Çalma ve Güç Kilidi etkilerine tamamen bağışıklıdır ve Yetenek Doğruluğu değiştirilemez."
-    ],
-    "idealCounters": [
-      "hercules",
-      "odin",
-      "gamora",
-      "hyperion"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "cerastes",
+      "bossNodes": [
+        "Bacak Zırhı (Leg Armor): Cerastes yere düştüğünde 100 birim Bacak Zırhı kazanır (saldırgandaki her benzersiz buff için +5 ek); zırh dolduğunda 12 saniye boyunca Durdurulamaz olur ve gelen Özel 1/2/Ağır saldırıların son isabetine karşı Sersemleme bağışıklığı kazanır.",
+        "Kalkan Zırhı (Shield Armor): Blok yapan Cerastes'e vurulduğunda Kalkan Zırhı birikir; zırh dolduğunda bloğa vuran saldırgana Repulsor Patlaması ile deviren ve uzun süreli Plazma yanık hasarı işleyen bir pasif uygulanır.",
+        "Ruh Zırhı (Spirit Armor): Bir Vurucu (Striker) serisinin son isabeti Cerastes'e değdiğinde Ruh Zırhı birikir; zırh dolduğunda Cerastes 12 saniye boyunca Bloklanamaz, Durdurulamaz hale gelir ve Gerçek Sezgi (True Sense) kazanır.",
+        "Bozulmaz Bağışıklıklar: Cerastes; Yavaşlatma, Etkisizleştirme (Neutralize), Güç Çalma ve Güç Kilidi etkilerine tamamen bağışıklıdır ve Yetenek Doğruluğu değiştirilemez."
+      ],
+      "idealCounters": [
+        "hercules",
+        "odin",
+        "gamora",
+        "hyperion"
+      ]
+    }
+  ]
 }

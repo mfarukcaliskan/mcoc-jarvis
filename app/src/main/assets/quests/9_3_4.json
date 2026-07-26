@@ -17,7 +17,8 @@
         "ronan",
         "korg",
         "terrax"
-      ]
+      ],
+      "leadsToBoss": "namor"
     },
     {
       "pathLetter": "B",
@@ -31,21 +32,24 @@
         "thanos",
         "ebonymaw",
         "proximamidnight"
-      ]
+      ],
+      "leadsToBoss": "namor"
     }
   ],
-  "boss": {
-    "championId": "namor",
-    "bossNodes": [
-      "Öfke Birikimi (Outrage): Namor her 3 saniyede bir 1 Öfke Yığını kazanır (maksimum 30); saldırgan Namor'a Sersemletme uygularsa yığın kazanım hızı artar, bu yüzden sersemletici saldırılar riskli hale gelir.",
-      "Imperius Rex: 15 yığında geri çekilip blok tutarak 1 güç barı kazanıp Imperius Rex'i tetikleyebilir, 30 yığında ise gücünün %95'ine kadarını anında doldurup art arda özel saldırı zincirleyebilir; bu sırada saniyede güç barının %15'ini tüketir ve Özel Saldırı hasarı %240'a kadar artar.",
-      "Neptün'ün Gücü (Special 3): Kalıcı bir Öfke (Fury) pasifi kazandırır; bu pasif aktifken saldırgan Namor'un özel saldırılarından güç kazanamaz."
-    ],
-    "idealCounters": [
-      "mephisto",
-      "quake",
-      "doctordoom",
-      "scarletwitch"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "namor",
+      "bossNodes": [
+        "Öfke Birikimi (Outrage): Namor her 3 saniyede bir 1 Öfke Yığını kazanır (maksimum 30); saldırgan Namor'a Sersemletme uygularsa yığın kazanım hızı artar, bu yüzden sersemletici saldırılar riskli hale gelir.",
+        "Imperius Rex: 15 yığında geri çekilip blok tutarak 1 güç barı kazanıp Imperius Rex'i tetikleyebilir, 30 yığında ise gücünün %95'ine kadarını anında doldurup art arda özel saldırı zincirleyebilir; bu sırada saniyede güç barının %15'ini tüketir ve Özel Saldırı hasarı %240'a kadar artar.",
+        "Neptün'ün Gücü (Special 3): Kalıcı bir Öfke (Fury) pasifi kazandırır; bu pasif aktifken saldırgan Namor'un özel saldırılarından güç kazanamaz."
+      ],
+      "idealCounters": [
+        "mephisto",
+        "quake",
+        "doctordoom",
+        "scarletwitch"
+      ]
+    }
+  ]
 }

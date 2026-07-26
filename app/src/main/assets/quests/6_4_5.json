@@ -23,7 +23,8 @@
         "greengoblin",
         "sabretooth",
         "guillotine2099"
-      ]
+      ],
+      "leadsToBoss": "adaptoid"
     },
     {
       "pathLetter": "B",
@@ -37,25 +38,28 @@
         "domino",
         "hyperion",
         "void"
-      ]
+      ],
+      "leadsToBoss": "adaptoid"
     }
   ],
-  "boss": {
-    "championId": "adaptoid",
-    "bossNodes": [
-      "Hidra Adaptoid (Teknoloji Sınıfı) - Iron Man (OG) tarzı davranan, Hydra tarafından ele geçirilmiş bir Adaptoid; karşısındaki saldırganın sınıfına göre ek bağışıklıklar kazanır. Zırh Kırma bağışıklığı vardır, çok hızlı güç kazanır ve özel saldırı kullandığında hem Siper Alınamaz (Unblockable) hem de Durdurulamaz (Unstoppable) olur. Ayrıca 10 yüklük Limber karosu vardır.",
-      "Matador - Güç sadece boss Özel Saldırı attığında kazanılır.",
-      "Vigor - Dövüş başladıktan sonra her 15 saniyede canının %50'si kadar iyileşir; bu pencereler arasında yüksek hasar patlatmak gerekir.",
-      "Strateji: She-Hulk bu kulvarın ve boss'un mutlak kraliçesidir - karolar sayesinde rakip sürekli özel saldırı doldurur ve She-Hulk'ın Pasif Hiddet yükleri bitmez; ağır saldırısıyla Yavaşlatma (Slow) uygulayarak boss'un Durdurulamaz olmasını engeller. Shang-Chi Slow etkisini kolayca yeniler, mazoşizmi ve boss'un durdurulamaz olmasını engeller. Doktor Doom blokta karşılayıp güç çalma döngüsüne sokarak dövüşü kontrol altında tutabilir. Captain America (IW) (+Mistik Sinerji) rakibin Durdurulamaz takviyesini anında siler ve kinetik yük kazanır. Black Widow (Claire Voyant) Yakma (Incinerate) moduna geçerek mazoşizmi aşabilir. Yol Counterları (Koridor): Stealth Suit Spider-Man (yenilenmeyi engeller), Hercules (yüksek hasar ve ölümsüzlük). Dövüş Stratejisi: Dövüş başlar başlamaz rakibin SP1 saldırmasını bekleyin (yemleyin); özel saldırısı bitene kadar arkaya kaçın, Durdurulamaz süresi bittiğinde agresif oynayarak kendi özel saldırılarınızı zincirleyin."
-    ],
-    "idealCounters": [
-      "shehulk",
-      "shangchi",
-      "doctordoom",
-      "captainamericaiw",
-      "blackwidowclairevoyant",
-      "spidermanstealthsuit",
-      "hercules"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "adaptoid",
+      "bossNodes": [
+        "Hidra Adaptoid (Teknoloji Sınıfı) - Iron Man (OG) tarzı davranan, Hydra tarafından ele geçirilmiş bir Adaptoid; karşısındaki saldırganın sınıfına göre ek bağışıklıklar kazanır. Zırh Kırma bağışıklığı vardır, çok hızlı güç kazanır ve özel saldırı kullandığında hem Siper Alınamaz (Unblockable) hem de Durdurulamaz (Unstoppable) olur. Ayrıca 10 yüklük Limber karosu vardır.",
+        "Matador - Güç sadece boss Özel Saldırı attığında kazanılır.",
+        "Vigor - Dövüş başladıktan sonra her 15 saniyede canının %50'si kadar iyileşir; bu pencereler arasında yüksek hasar patlatmak gerekir.",
+        "Strateji: She-Hulk bu kulvarın ve boss'un mutlak kraliçesidir - karolar sayesinde rakip sürekli özel saldırı doldurur ve She-Hulk'ın Pasif Hiddet yükleri bitmez; ağır saldırısıyla Yavaşlatma (Slow) uygulayarak boss'un Durdurulamaz olmasını engeller. Shang-Chi Slow etkisini kolayca yeniler, mazoşizmi ve boss'un durdurulamaz olmasını engeller. Doktor Doom blokta karşılayıp güç çalma döngüsüne sokarak dövüşü kontrol altında tutabilir. Captain America (IW) (+Mistik Sinerji) rakibin Durdurulamaz takviyesini anında siler ve kinetik yük kazanır. Black Widow (Claire Voyant) Yakma (Incinerate) moduna geçerek mazoşizmi aşabilir. Yol Counterları (Koridor): Stealth Suit Spider-Man (yenilenmeyi engeller), Hercules (yüksek hasar ve ölümsüzlük). Dövüş Stratejisi: Dövüş başlar başlamaz rakibin SP1 saldırmasını bekleyin (yemleyin); özel saldırısı bitene kadar arkaya kaçın, Durdurulamaz süresi bittiğinde agresif oynayarak kendi özel saldırılarınızı zincirleyin."
+      ],
+      "idealCounters": [
+        "shehulk",
+        "shangchi",
+        "doctordoom",
+        "captainamericaiw",
+        "blackwidowclairevoyant",
+        "spidermanstealthsuit",
+        "hercules"
+      ]
+    }
+  ]
 }

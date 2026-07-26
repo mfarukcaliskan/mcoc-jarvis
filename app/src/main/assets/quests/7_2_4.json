@@ -19,7 +19,8 @@
         "cullobsidian",
         "rocketraccoon",
         "abominationimmortal"
-      ]
+      ],
+      "leadsToBoss": "manthing"
     },
     {
       "pathLetter": "B",
@@ -34,21 +35,24 @@
         "warlock",
         "falcon",
         "nova"
-      ]
+      ],
+      "leadsToBoss": "manthing"
     }
   ],
-  "boss": {
-    "championId": "manthing",
-    "bossNodes": [
-      "Korku Besler (Fear Feeds) - Sınıf avantajı olmayan şampiyonlar için Man-Thing'in yanında geçirilen her 60 saniyede canın %100'ü boşalır; sadece doğru sınıf avantajına sahip (Bilim sınıfı, Zehir bağışık) şampiyonlar bu erimeden etkilenmez.",
-      "Uyku Hali (Slumber) - Dövüş başında saldırganın gücü kısa süreliğine kilitlenir, bu da erken özel saldırı planlamasını zorlaştırır.",
-      "Boyut Meselesi (Size Matters) - Man-Thing'in saldırılarına karşı sıyırma muafiyeti saldırganın boyutuna bağlıdır; yanlış boyutta bir şampiyon getirmek ekstra hasar riskini artırır."
-    ],
-    "idealCounters": [
-      "redhulk",
-      "abominationimmortal",
-      "shehulk",
-      "hulkimmortal"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "manthing",
+      "bossNodes": [
+        "Korku Besler (Fear Feeds) - Sınıf avantajı olmayan şampiyonlar için Man-Thing'in yanında geçirilen her 60 saniyede canın %100'ü boşalır; sadece doğru sınıf avantajına sahip (Bilim sınıfı, Zehir bağışık) şampiyonlar bu erimeden etkilenmez.",
+        "Uyku Hali (Slumber) - Dövüş başında saldırganın gücü kısa süreliğine kilitlenir, bu da erken özel saldırı planlamasını zorlaştırır.",
+        "Boyut Meselesi (Size Matters) - Man-Thing'in saldırılarına karşı sıyırma muafiyeti saldırganın boyutuna bağlıdır; yanlış boyutta bir şampiyon getirmek ekstra hasar riskini artırır."
+      ],
+      "idealCounters": [
+        "redhulk",
+        "abominationimmortal",
+        "shehulk",
+        "hulkimmortal"
+      ]
+    }
+  ]
 }

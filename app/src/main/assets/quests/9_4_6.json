@@ -20,7 +20,8 @@
         "ironman",
         "sentinel",
         "ultron"
-      ]
+      ],
+      "leadsToBoss": "chronoserpent"
     },
     {
       "pathLetter": "B",
@@ -36,23 +37,26 @@
         "magneto",
         "colossus",
         "gladiator"
-      ]
+      ],
+      "leadsToBoss": "chronoserpent"
     }
   ],
-  "boss": {
-    "championId": "chronoserpent",
-    "bossNodes": [
-      "%90 Hasar Direnci: Carina, Kron Yolsuzluğu debuff'ı dışındaki tüm hasar kaynaklarına karşı %90 dirençlidir; etkili hasar vermenin tek yolu bu debuff'ı biriktirip sürdürmektir.",
-      "Kron Yolsuzluğu Eşikleri: 15 Yolsuzluğun altındayken Carina Özel 2'yi kullanamaz; 15 ve üzerindeyken Özel 1'i kullanamaz, bu da savunma rotasyonunu doğrudan etkiler.",
-      "Tuzağa İtme Mekaniği: Ağır saldırı veya Reversal ile Carina bir tuzağın üzerine itildiğinde Kron Yolsuzluğu debuff'ı uygulanır; dövüş boyunca hasar vermenin ana yöntemi budur.",
-      "Bağışıklıklar: Özel Kilitleme ve Nötrleme'ye tam bağışıklıdır; ayrıca Özel saldırıları sırasında Güç Emme'ye bağışıklıdır."
-    ],
-    "idealCounters": [
-      "guardian",
-      "ironheart",
-      "hyperion",
-      "doctordoom",
-      "colossus"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "chronoserpent",
+      "bossNodes": [
+        "%90 Hasar Direnci: Carina, Kron Yolsuzluğu debuff'ı dışındaki tüm hasar kaynaklarına karşı %90 dirençlidir; etkili hasar vermenin tek yolu bu debuff'ı biriktirip sürdürmektir.",
+        "Kron Yolsuzluğu Eşikleri: 15 Yolsuzluğun altındayken Carina Özel 2'yi kullanamaz; 15 ve üzerindeyken Özel 1'i kullanamaz, bu da savunma rotasyonunu doğrudan etkiler.",
+        "Tuzağa İtme Mekaniği: Ağır saldırı veya Reversal ile Carina bir tuzağın üzerine itildiğinde Kron Yolsuzluğu debuff'ı uygulanır; dövüş boyunca hasar vermenin ana yöntemi budur.",
+        "Bağışıklıklar: Özel Kilitleme ve Nötrleme'ye tam bağışıklıdır; ayrıca Özel saldırıları sırasında Güç Emme'ye bağışıklıdır."
+      ],
+      "idealCounters": [
+        "guardian",
+        "ironheart",
+        "hyperion",
+        "doctordoom",
+        "colossus"
+      ]
+    }
+  ]
 }

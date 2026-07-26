@@ -18,7 +18,8 @@
         "wintersoldier",
         "ironman",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "samwilson"
     },
     {
       "pathLetter": "B",
@@ -33,21 +34,24 @@
         "us_agent",
         "blackwidow",
         "punisher"
-      ]
+      ],
+      "leadsToBoss": "samwilson"
     }
   ],
-  "boss": {
-    "championId": "samwilson",
-    "bossNodes": [
-      "Zırh Yığınları (Armor Up): Sam Wilson her yığında 300 Armor Rating sağlayan Armor Up buff'ını en fazla 5 yığın biriktirir; yeterli yığınla Engellenemez (Unblockable) özel saldırıları bile otomatik olarak bloklayabilir.",
-      "Alçakgönüllülük (Cowardice) ve Otomatik Blok: Özel saldırılara karşı şansa bağlı Otomatik Blok tetikler ve bu otomatik blok bir Parry sayılır; ayrıca düşmana uyguladığı Rupture (kritik yerine) vuruşları klasik kritik karşı-önlemlerini devre dışı bırakır.",
-      "Kilitlenme (Lock-On): Blok veya dodge sonrası 1,2 saniye içinde Lock-On'a girer ve düşmana özel saldırı hasarını %40 azaltan bir Alçakgönüllülük debuff'ı uygular; Gerçek Hasar (True Damage) bu Otomatik Blok'u ve ekstra zırhı tamamen by-pass eder."
-    ],
-    "idealCounters": [
-      "captainmarvel",
-      "nova",
-      "hyperion",
-      "sersi"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "samwilson",
+      "bossNodes": [
+        "Zırh Yığınları (Armor Up): Sam Wilson her yığında 300 Armor Rating sağlayan Armor Up buff'ını en fazla 5 yığın biriktirir; yeterli yığınla Engellenemez (Unblockable) özel saldırıları bile otomatik olarak bloklayabilir.",
+        "Alçakgönüllülük (Cowardice) ve Otomatik Blok: Özel saldırılara karşı şansa bağlı Otomatik Blok tetikler ve bu otomatik blok bir Parry sayılır; ayrıca düşmana uyguladığı Rupture (kritik yerine) vuruşları klasik kritik karşı-önlemlerini devre dışı bırakır.",
+        "Kilitlenme (Lock-On): Blok veya dodge sonrası 1,2 saniye içinde Lock-On'a girer ve düşmana özel saldırı hasarını %40 azaltan bir Alçakgönüllülük debuff'ı uygular; Gerçek Hasar (True Damage) bu Otomatik Blok'u ve ekstra zırhı tamamen by-pass eder."
+      ],
+      "idealCounters": [
+        "captainmarvel",
+        "nova",
+        "hyperion",
+        "sersi"
+      ]
+    }
+  ]
 }

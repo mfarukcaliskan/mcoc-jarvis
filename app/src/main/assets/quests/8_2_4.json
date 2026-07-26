@@ -19,7 +19,8 @@
         "greengoblin",
         "vulture",
         "mysterio"
-      ]
+      ],
+      "leadsToBoss": "scorpion"
     },
     {
       "pathLetter": "B",
@@ -34,21 +35,24 @@
         "venom",
         "carnage",
         "spidermansymbiote"
-      ]
+      ],
+      "leadsToBoss": "scorpion"
     }
   ],
-  "boss": {
-    "championId": "scorpion",
-    "bossNodes": [
-      "Sokma (Sting) Debuff'ları: Orta saldırılarda öntanımlı olarak Zehir, seçime göre Şok veya Yırtılma (Rupture) debuff'larından biri işlenir; her aktif Sokma debuff'u için Scorpion %10 Saldırı Gücü artışı (Fury) kazanır.",
-      "Akrep Sezgisi (Scorpion-Sense): Rakip kaçındığında veya özel saldırısının sonunda Scorpion 15 saniyeliğine %20 Kaçınma şansı kazanır; ağır saldırısı 10 saniyelik Yavaşlatma (Slow) debuff'u uygular, ancak Doğal Sınıf Avantajına sahip rakipler yavaşlatılamaz."
-    ],
-    "idealCounters": [
-      "bullseye",
-      "nickfury",
-      "okoye",
-      "shangchi",
-      "moleman"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "scorpion",
+      "bossNodes": [
+        "Sokma (Sting) Debuff'ları: Orta saldırılarda öntanımlı olarak Zehir, seçime göre Şok veya Yırtılma (Rupture) debuff'larından biri işlenir; her aktif Sokma debuff'u için Scorpion %10 Saldırı Gücü artışı (Fury) kazanır.",
+        "Akrep Sezgisi (Scorpion-Sense): Rakip kaçındığında veya özel saldırısının sonunda Scorpion 15 saniyeliğine %20 Kaçınma şansı kazanır; ağır saldırısı 10 saniyelik Yavaşlatma (Slow) debuff'u uygular, ancak Doğal Sınıf Avantajına sahip rakipler yavaşlatılamaz."
+      ],
+      "idealCounters": [
+        "bullseye",
+        "nickfury",
+        "okoye",
+        "shangchi",
+        "moleman"
+      ]
+    }
+  ]
 }

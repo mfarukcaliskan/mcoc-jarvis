@@ -19,7 +19,8 @@
         "captainmarvelmcu",
         "ronan",
         "dormammu"
-      ]
+      ],
+      "leadsToBoss": "symbiotesupreme"
     },
     {
       "pathLetter": "B",
@@ -35,29 +36,32 @@
         "groot",
         "gamora",
         "yondu"
-      ]
+      ],
+      "leadsToBoss": "symbiotesupreme"
     }
   ],
-  "boss": {
-    "championId": "symbiotesupreme",
-    "bossNodes": [
-      "Yaşam Döngüsü (Lifecycle) - Kalkanı aktifken KO edilemez; kalkan sırasında gelen KO edici darbeler Symbiote Supreme'i canının %10'u kadar iyileştirir. Sürekli takviye (buff) üretir ve bu takviyeleri hasara/güce çevirir.",
-      "Prey on the Weak - Düşük canlı Saldırgana karşı hasarı artar.",
-      "Pilfer - Vuruşlarıyla Saldırgandan güç çalar.",
-      "Force of Will / Opportunist - Saldırganın hataları (blok kırma, kaçırılan parry) ekstra cezalandırılır.",
-      "İyileşme Engelleyiciler (Heal Block): Kalkan açık olsa bile rakip 1 canda kalır; yere yıktığınız an en ufak bir dokunuşla ölür. Warlock, Mysterio, Magneto veya Void bu iş için mükemmeldir. Saldırı/Ağır Saldırı şampiyonları: Hercules yüksek hasarı ve ölümsüzlüğü ile tüm yolu tek başına geçebilir, Archangel nörotoksinleri ile iyileşmeyi keser, Doctor Doom sürekli yere yıkma döngüsüyle (Siper + Ağır) harikadır. Boss karşıtları: Human Torch, Spider-Ham veya Cosmic Ghost Rider (CGR) takviye üretmedikleri/takviyeleri kontrol edebildikleri için boss döngüsünü rahat kırar."
-    ],
-    "idealCounters": [
-      "warlock",
-      "mysterio",
-      "magneto",
-      "void",
-      "hercules",
-      "archangel",
-      "doctordoom",
-      "humantorch",
-      "spiderham",
-      "cosmicghostrider"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "symbiotesupreme",
+      "bossNodes": [
+        "Yaşam Döngüsü (Lifecycle) - Kalkanı aktifken KO edilemez; kalkan sırasında gelen KO edici darbeler Symbiote Supreme'i canının %10'u kadar iyileştirir. Sürekli takviye (buff) üretir ve bu takviyeleri hasara/güce çevirir.",
+        "Prey on the Weak - Düşük canlı Saldırgana karşı hasarı artar.",
+        "Pilfer - Vuruşlarıyla Saldırgandan güç çalar.",
+        "Force of Will / Opportunist - Saldırganın hataları (blok kırma, kaçırılan parry) ekstra cezalandırılır.",
+        "İyileşme Engelleyiciler (Heal Block): Kalkan açık olsa bile rakip 1 canda kalır; yere yıktığınız an en ufak bir dokunuşla ölür. Warlock, Mysterio, Magneto veya Void bu iş için mükemmeldir. Saldırı/Ağır Saldırı şampiyonları: Hercules yüksek hasarı ve ölümsüzlüğü ile tüm yolu tek başına geçebilir, Archangel nörotoksinleri ile iyileşmeyi keser, Doctor Doom sürekli yere yıkma döngüsüyle (Siper + Ağır) harikadır. Boss karşıtları: Human Torch, Spider-Ham veya Cosmic Ghost Rider (CGR) takviye üretmedikleri/takviyeleri kontrol edebildikleri için boss döngüsünü rahat kırar."
+      ],
+      "idealCounters": [
+        "warlock",
+        "mysterio",
+        "magneto",
+        "void",
+        "hercules",
+        "archangel",
+        "doctordoom",
+        "humantorch",
+        "spiderham",
+        "cosmicghostrider"
+      ]
+    }
+  ]
 }

@@ -19,7 +19,8 @@
         "kang",
         "ronin",
         "cullobsidian"
-      ]
+      ],
+      "leadsToBoss": "havok"
     },
     {
       "pathLetter": "B",
@@ -33,26 +34,29 @@
         "spidermanstarkenhanced",
         "humantorch",
         "goldpool"
-      ]
+      ],
+      "leadsToBoss": "havok"
     }
   ],
-  "boss": {
-    "championId": "havok",
-    "bossNodes": [
-      "Cornered - Saldırgan Havok'a debuff uyguladıkça Havok'un saldırısı %300 oranında artar.",
-      "Extinction Protocol - Havok, saldırganın güç barının doluluk oranına bağlı olarak saldırısına %200'e varan ekstra artış kazanır ve her özel saldırı sonrası güç kazanım hızı %15 yükselir.",
-      "Crumbling Armor - Saldırgan 6 saniye boyunca saldırmazsa Zırh Kırılması (Armor Break) debuff'ı alır.",
-      "Ability Accuracy Immune - Havok, yetenek isabet düşürme etkilerine bağışıklıdır.",
-      "Not: Warlock bu dövüş için tavsiye edilmez; Havok'un plazma yüklerini hızlandırabilir."
-    ],
-    "idealCounters": [
-      "colossus",
-      "antmanfuture",
-      "nimrod",
-      "ironmaninfamous",
-      "cyclops",
-      "vision",
-      "corvusglaive"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "havok",
+      "bossNodes": [
+        "Cornered - Saldırgan Havok'a debuff uyguladıkça Havok'un saldırısı %300 oranında artar.",
+        "Extinction Protocol - Havok, saldırganın güç barının doluluk oranına bağlı olarak saldırısına %200'e varan ekstra artış kazanır ve her özel saldırı sonrası güç kazanım hızı %15 yükselir.",
+        "Crumbling Armor - Saldırgan 6 saniye boyunca saldırmazsa Zırh Kırılması (Armor Break) debuff'ı alır.",
+        "Ability Accuracy Immune - Havok, yetenek isabet düşürme etkilerine bağışıklıdır.",
+        "Not: Warlock bu dövüş için tavsiye edilmez; Havok'un plazma yüklerini hızlandırabilir."
+      ],
+      "idealCounters": [
+        "colossus",
+        "antmanfuture",
+        "nimrod",
+        "ironmaninfamous",
+        "cyclops",
+        "vision",
+        "corvusglaive"
+      ]
+    }
+  ]
 }

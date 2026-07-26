@@ -19,7 +19,8 @@
         "mordo",
         "ghostrider",
         "symbiotesupreme"
-      ]
+      ],
+      "leadsToBoss": "guillotine"
     },
     {
       "pathLetter": "B",
@@ -35,21 +36,24 @@
         "gladiator",
         "quasar",
         "void"
-      ]
+      ],
+      "leadsToBoss": "guillotine"
     }
   ],
-  "boss": {
-    "championId": "guillotine",
-    "bossNodes": [
-      "Ruh Yükleri (Soul Charges): İki taraftan biri %5 can kaybettiğinde veya Kanama debuff'ı aldığında Guillotine 1 Ruh Yükü kazanır; ilk 10 yük kalıcıdır, sonraki yükler 10'ar saniye sürer ve saldırı gücünü artırır.",
-      "Acı Bağlantısı (Pain Link): Özel 1'in son vuruşu 10 saniye süren bir Acı Bağlantısı debuff'ı uygular; bu süre boyunca Guillotine'in aldığı Fiziksel olmayan hasar, rakibe Fiziksel hasar olarak da yansıtılır.",
-      "Yırtılma Dönüşümü: Rakip Guillotine'in kişisel Kanama efektlerine bağışıklıysa, bunun yerine eşdeğer bir Yırtılma (Rupture) debuff'ı uygulanır ve bu da ona ek Ruh Yükü kazandırır."
-    ],
-    "idealCounters": [
-      "magneto",
-      "colossus",
-      "ultron",
-      "sentinel"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "guillotine",
+      "bossNodes": [
+        "Ruh Yükleri (Soul Charges): İki taraftan biri %5 can kaybettiğinde veya Kanama debuff'ı aldığında Guillotine 1 Ruh Yükü kazanır; ilk 10 yük kalıcıdır, sonraki yükler 10'ar saniye sürer ve saldırı gücünü artırır.",
+        "Acı Bağlantısı (Pain Link): Özel 1'in son vuruşu 10 saniye süren bir Acı Bağlantısı debuff'ı uygular; bu süre boyunca Guillotine'in aldığı Fiziksel olmayan hasar, rakibe Fiziksel hasar olarak da yansıtılır.",
+        "Yırtılma Dönüşümü: Rakip Guillotine'in kişisel Kanama efektlerine bağışıklıysa, bunun yerine eşdeğer bir Yırtılma (Rupture) debuff'ı uygulanır ve bu da ona ek Ruh Yükü kazandırır."
+      ],
+      "idealCounters": [
+        "magneto",
+        "colossus",
+        "ultron",
+        "sentinel"
+      ]
+    }
+  ]
 }

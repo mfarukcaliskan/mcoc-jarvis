@@ -19,7 +19,8 @@
         "rhino",
         "wintersoldier",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "hulkragnarok"
     },
     {
       "pathLetter": "B",
@@ -34,20 +35,23 @@
         "omegasentinel",
         "ultron",
         "ghost"
-      ]
+      ],
+      "leadsToBoss": "hulkragnarok"
     }
   ],
-  "boss": {
-    "championId": "hulkragnarok",
-    "bossNodes": [
-      "Kalabalık Coşkusu (Crowd Excitement) - Değer 100'e ulaştığında Hulk %55 Saldırı Gücü veren bir Öfke (Fury) buff'ı kazanır ve size 15 saniyeliğine %30 Saldırı Gücü azaltan Zayıflık (Weakness) debuff'ı uygular.",
-      "SMASH Saldırıları - Özel saldırılarının SMASH varyantlarını kullandığında Durdurulamaz (Unstoppable) olur ve ek saldırı gücü kazanır; bu sırada bloklamak işe yaramaz."
-    ],
-    "idealCounters": [
-      "agentvenom",
-      "ghostrider",
-      "guillotine2099",
-      "hyperion"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "hulkragnarok",
+      "bossNodes": [
+        "Kalabalık Coşkusu (Crowd Excitement) - Değer 100'e ulaştığında Hulk %55 Saldırı Gücü veren bir Öfke (Fury) buff'ı kazanır ve size 15 saniyeliğine %30 Saldırı Gücü azaltan Zayıflık (Weakness) debuff'ı uygular.",
+        "SMASH Saldırıları - Özel saldırılarının SMASH varyantlarını kullandığında Durdurulamaz (Unstoppable) olur ve ek saldırı gücü kazanır; bu sırada bloklamak işe yaramaz."
+      ],
+      "idealCounters": [
+        "agentvenom",
+        "ghostrider",
+        "guillotine2099",
+        "hyperion"
+      ]
+    }
+  ]
 }

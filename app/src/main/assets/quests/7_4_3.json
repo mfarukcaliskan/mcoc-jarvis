@@ -17,7 +17,8 @@
         "ghost",
         "shehulk",
         "peniparker"
-      ]
+      ],
+      "leadsToBoss": "mangog"
     },
     {
       "pathLetter": "B",
@@ -31,22 +32,25 @@
         "emmafrost",
         "psychoman",
         "hulkragnarok"
-      ]
+      ],
+      "leadsToBoss": "mangog"
     }
   ],
-  "boss": {
-    "championId": "mangog",
-    "bossNodes": [
-      "Empowered by Sin (İmza Yeteneği): Rakip üzerinde doğal yoldan biten her Stagger (Sersemletme) için Mangog'a %25,01 ihtimalle +1 Hiddet (Hatred) verir; Yenilmez (Unstoppable) iken gelen hasarın %20'sini anında pasif olarak iyileştirir.",
-      "Stagger Yığılması: Temas eden Temel saldırılar %70 ihtimalle rakibe 14 saniyelik bir Stagger debuff'ı uygular; bu debuff doğal süresi dolduğunda Mangog'a Hiddet kazandırdığı için sürekli bir döngü oluşturur.",
-      "Hiddet (Hatred) Ölçeklemesi: Her Hiddet yığını Mangog'a ek Saldırı Gücü ve Kritik Hasarı kazandırır; 10 yığın Hiddet ile bir Özel Saldırı başlatıldığında Enrage (Kudurma) tetiklenir ve Mangog, Enrage bitene veya bir Özel Saldırı ile vurulana kadar süresiz Yenilmez olur.",
-      "Kudurma (Enrage) Anındaki Mesafe: Enrage aktifken Mangog'a yakın kalmak sürekli Stagger yemek anlamına gelir; Captain America (IW) gibi Unstoppable'ı geçersiz kılabilen şampiyonlar bu fazı büyük ölçüde güvenli hale getirir."
-    ],
-    "idealCounters": [
-      "humantorch",
-      "captainamericaiw",
-      "spidergwen",
-      "void"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "mangog",
+      "bossNodes": [
+        "Empowered by Sin (İmza Yeteneği): Rakip üzerinde doğal yoldan biten her Stagger (Sersemletme) için Mangog'a %25,01 ihtimalle +1 Hiddet (Hatred) verir; Yenilmez (Unstoppable) iken gelen hasarın %20'sini anında pasif olarak iyileştirir.",
+        "Stagger Yığılması: Temas eden Temel saldırılar %70 ihtimalle rakibe 14 saniyelik bir Stagger debuff'ı uygular; bu debuff doğal süresi dolduğunda Mangog'a Hiddet kazandırdığı için sürekli bir döngü oluşturur.",
+        "Hiddet (Hatred) Ölçeklemesi: Her Hiddet yığını Mangog'a ek Saldırı Gücü ve Kritik Hasarı kazandırır; 10 yığın Hiddet ile bir Özel Saldırı başlatıldığında Enrage (Kudurma) tetiklenir ve Mangog, Enrage bitene veya bir Özel Saldırı ile vurulana kadar süresiz Yenilmez olur.",
+        "Kudurma (Enrage) Anındaki Mesafe: Enrage aktifken Mangog'a yakın kalmak sürekli Stagger yemek anlamına gelir; Captain America (IW) gibi Unstoppable'ı geçersiz kılabilen şampiyonlar bu fazı büyük ölçüde güvenli hale getirir."
+      ],
+      "idealCounters": [
+        "humantorch",
+        "captainamericaiw",
+        "spidergwen",
+        "void"
+      ]
+    }
+  ]
 }

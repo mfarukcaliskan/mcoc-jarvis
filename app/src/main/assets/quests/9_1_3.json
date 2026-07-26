@@ -18,7 +18,8 @@
         "spidergwen",
         "spidermanstarkenhanced",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "theoverseer"
     },
     {
       "pathLetter": "B",
@@ -33,21 +34,24 @@
         "hulk",
         "rhino",
         "juggernaut"
-      ]
+      ],
+      "leadsToBoss": "theoverseer"
     }
   ],
-  "boss": {
-    "championId": "theoverseer",
-    "bossNodes": [
-      "Otomatik Blok - İki kez vurulduğunda 7 saniye süren veya tetiklenene kadar geçerli %100 Otomatik Blok pasifi kazanır; bu süre boyunca Sersemletme (Stun) etkilerine bağışıktır.",
-      "Gama Gücü - Siz her güç barı kazandığınızda Overseer bir Gama Gücü stack'i alır; 3 stack'e ulaştığında özel saldırıyla Kozmik Küp'ü aktive ederek kozmik yetenekler kazanır.",
-      "Özel Saldırı 2 - İsabet ettiğinde 12 saniyeliğine %40 Savunma Yetenek İsabeti ve %50 Blok Yeterliliği azaltan Şaşkınlık (Disorient) debuff'ı uygular."
-    ],
-    "idealCounters": [
-      "apocalypse",
-      "visionaou",
-      "killmonger",
-      "ghost"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "theoverseer",
+      "bossNodes": [
+        "Otomatik Blok - İki kez vurulduğunda 7 saniye süren veya tetiklenene kadar geçerli %100 Otomatik Blok pasifi kazanır; bu süre boyunca Sersemletme (Stun) etkilerine bağışıktır.",
+        "Gama Gücü - Siz her güç barı kazandığınızda Overseer bir Gama Gücü stack'i alır; 3 stack'e ulaştığında özel saldırıyla Kozmik Küp'ü aktive ederek kozmik yetenekler kazanır.",
+        "Özel Saldırı 2 - İsabet ettiğinde 12 saniyeliğine %40 Savunma Yetenek İsabeti ve %50 Blok Yeterliliği azaltan Şaşkınlık (Disorient) debuff'ı uygular."
+      ],
+      "idealCounters": [
+        "apocalypse",
+        "visionaou",
+        "killmonger",
+        "ghost"
+      ]
+    }
+  ]
 }

@@ -16,7 +16,8 @@
         "jubilee",
         "ronin",
         "mistersinister"
-      ]
+      ],
+      "leadsToBoss": "cable"
     },
     {
       "pathLetter": "B",
@@ -30,21 +31,24 @@
         "rhino",
         "blackwidow",
         "apocalypse"
-      ]
+      ],
+      "leadsToBoss": "cable"
     }
   ],
-  "boss": {
-    "championId": "cable",
-    "bossNodes": [
-      "Teknoorganik Virüs - Virüsün gücü zayıfladıkça, Cable bir güç barını her doldurduğunda %16.5 oranında 10 saniye boyunca ekstra Güç kazanma şansı elde eder; bu da onu dövüşün ilerleyen safhalarında beklenmedik şekilde güçlendirir.",
-      "Picture of Health / Aggression - Boss, Rejenerasyon Oranı Değişikliğine tamamen bağışıktır ve her 2 saniyede bir Maksimum Canının %0.25'i kadar iyileşen yığılabilir bir Rejenerasyon pasifi taşır; bu yığınları düşürmenin tek yolu onu sürekli vurarak sayacı sıfırlamaktır.",
-      "Grudge - Cable Isı Engeli veya Güç Kilidi altındayken saldırgan %100 fazla Güç Kazanım Oranı elde eder, ancak bu debuff'lar sona erdiğinde Cable 5 saniyelik Debuff Bağışıklığına kavuşur."
-    ],
-    "idealCounters": [
-      "magik",
-      "doctordoom",
-      "magneto",
-      "cosmicghostrider"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "cable",
+      "bossNodes": [
+        "Teknoorganik Virüs - Virüsün gücü zayıfladıkça, Cable bir güç barını her doldurduğunda %16.5 oranında 10 saniye boyunca ekstra Güç kazanma şansı elde eder; bu da onu dövüşün ilerleyen safhalarında beklenmedik şekilde güçlendirir.",
+        "Picture of Health / Aggression - Boss, Rejenerasyon Oranı Değişikliğine tamamen bağışıktır ve her 2 saniyede bir Maksimum Canının %0.25'i kadar iyileşen yığılabilir bir Rejenerasyon pasifi taşır; bu yığınları düşürmenin tek yolu onu sürekli vurarak sayacı sıfırlamaktır.",
+        "Grudge - Cable Isı Engeli veya Güç Kilidi altındayken saldırgan %100 fazla Güç Kazanım Oranı elde eder, ancak bu debuff'lar sona erdiğinde Cable 5 saniyelik Debuff Bağışıklığına kavuşur."
+      ],
+      "idealCounters": [
+        "magik",
+        "doctordoom",
+        "magneto",
+        "cosmicghostrider"
+      ]
+    }
+  ]
 }

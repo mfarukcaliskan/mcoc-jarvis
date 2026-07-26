@@ -18,7 +18,8 @@
         "rogue",
         "beast",
         "iceman"
-      ]
+      ],
+      "leadsToBoss": "attuma"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "omegared",
         "sentinel",
         "ultron"
-      ]
+      ],
+      "leadsToBoss": "attuma"
     }
   ],
-  "boss": {
-    "championId": "attuma",
-    "bossNodes": [
-      "Şok Zafiyeti: Attuma şok (Shock) hasarına karşı belirgin şekilde savunmasızdır; şok debuff'ı uygulayabilen şampiyonlar önemli ölçüde ekstra hasar potansiyeli sunar.",
-      "Derinlerin Hükümdarı Öfkesi: Özel saldırılar kullandıkça biriken bir Öfke (Fury) buff'ı ile saldırı gücünü artırır; uzun süren maçlarda saf hasar tehlikeli boyutlara ulaşabilir.",
-      "Kırılmaz Silah: Attuma'nın mızrağı Yetenek Doğruluğu düşürme (nullify) etkilerine karşı bağışıklıdır; silah temelli debuff kaldırma stratejileri işe yaramaz."
-    ],
-    "idealCounters": [
-      "shuri",
-      "negasonic",
-      "storm",
-      "onslaught",
-      "dazzler"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "attuma",
+      "bossNodes": [
+        "Şok Zafiyeti: Attuma şok (Shock) hasarına karşı belirgin şekilde savunmasızdır; şok debuff'ı uygulayabilen şampiyonlar önemli ölçüde ekstra hasar potansiyeli sunar.",
+        "Derinlerin Hükümdarı Öfkesi: Özel saldırılar kullandıkça biriken bir Öfke (Fury) buff'ı ile saldırı gücünü artırır; uzun süren maçlarda saf hasar tehlikeli boyutlara ulaşabilir.",
+        "Kırılmaz Silah: Attuma'nın mızrağı Yetenek Doğruluğu düşürme (nullify) etkilerine karşı bağışıklıdır; silah temelli debuff kaldırma stratejileri işe yaramaz."
+      ],
+      "idealCounters": [
+        "shuri",
+        "negasonic",
+        "storm",
+        "onslaught",
+        "dazzler"
+      ]
+    }
+  ]
 }

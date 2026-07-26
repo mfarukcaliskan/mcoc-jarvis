@@ -17,7 +17,8 @@
         "crossbones",
         "kingpin",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "toad"
     },
     {
       "pathLetter": "B",
@@ -32,21 +33,24 @@
         "abomination",
         "spiderman",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "toad"
     }
   ],
-  "boss": {
-    "championId": "toad",
-    "bossNodes": [
-      "Felç Edici Zehir (Paralytic Poison) - Toad'ın dil saldırıları Saldırgana kolayca Zehir Debuff'ı bulaştırır; dövüş boyunca büyük miktarda zehir hasarı birikir.",
-      "Arınmadan Prowess (Prowess on Purify) - Saldırgan, Toad'ın uyguladığı Felç Edici Zehiri arındırdığında (Purify) Toad bir Prowess kazanır; bu Prowess'lar Özel Saldırı hasarını ciddi oranda artırır, dolayısıyla zehri arındırmak tehlikelidir.",
-      "Duvar Rejenerasyonu - Toad bir duvara yakınken isabet alırsa, kendini paralize edici toksinler salgılayarak eksik canının %5'ini 8 saniyede iyileştiren bir Rejenerasyon Pasifi kazanır; bu iyileşme, Saldırganın kombo sayacındaki her vuruş için ek olarak artar (en fazla 15 vuruşa kadar)."
-    ],
-    "idealCounters": [
-      "bishop",
-      "storm",
-      "dust",
-      "gambit"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "toad",
+      "bossNodes": [
+        "Felç Edici Zehir (Paralytic Poison) - Toad'ın dil saldırıları Saldırgana kolayca Zehir Debuff'ı bulaştırır; dövüş boyunca büyük miktarda zehir hasarı birikir.",
+        "Arınmadan Prowess (Prowess on Purify) - Saldırgan, Toad'ın uyguladığı Felç Edici Zehiri arındırdığında (Purify) Toad bir Prowess kazanır; bu Prowess'lar Özel Saldırı hasarını ciddi oranda artırır, dolayısıyla zehri arındırmak tehlikelidir.",
+        "Duvar Rejenerasyonu - Toad bir duvara yakınken isabet alırsa, kendini paralize edici toksinler salgılayarak eksik canının %5'ini 8 saniyede iyileştiren bir Rejenerasyon Pasifi kazanır; bu iyileşme, Saldırganın kombo sayacındaki her vuruş için ek olarak artar (en fazla 15 vuruşa kadar)."
+      ],
+      "idealCounters": [
+        "bishop",
+        "storm",
+        "dust",
+        "gambit"
+      ]
+    }
+  ]
 }

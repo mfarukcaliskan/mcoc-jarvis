@@ -20,7 +20,8 @@
         "shehulk",
         "oldmanlogan",
         "wintersoldier"
-      ]
+      ],
+      "leadsToBoss": "crossbones"
     },
     {
       "pathLetter": "B",
@@ -35,23 +36,26 @@
         "electro",
         "yondu",
         "nebula"
-      ]
+      ],
+      "leadsToBoss": "crossbones"
     }
   ],
-  "boss": {
-    "championId": "crossbones",
-    "bossNodes": [
-      "Karolar: Yıkım (Bane) - Venom yolundan geçilmediyse bu karo boss dövüşünde aktif kalır ve ekstra ağır hasar tehdidi oluşturur. Biyolojik Tehlike (Biohazard) - Saldırılarınız rakibin engellemesine gelse bile zehir veya kanama alabilirsiniz. Zindelik (Vigor) - Crossbones her 15 saniyede bir %50 can yeniler.",
-      "Mekanik: Venom yolundan geçerek Bane'i kapatın; Biohazard'a karşı kanama/zehir bağışıklığı, Vigor'a karşı iyileşme engelleyiciler getirin."
-    ],
-    "idealCounters": [
-      "warlock",
-      "omegared",
-      "guillotine2099",
-      "archangel",
-      "hulkling",
-      "ghost",
-      "captainmarvelmcu"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "crossbones",
+      "bossNodes": [
+        "Karolar: Yıkım (Bane) - Venom yolundan geçilmediyse bu karo boss dövüşünde aktif kalır ve ekstra ağır hasar tehdidi oluşturur. Biyolojik Tehlike (Biohazard) - Saldırılarınız rakibin engellemesine gelse bile zehir veya kanama alabilirsiniz. Zindelik (Vigor) - Crossbones her 15 saniyede bir %50 can yeniler.",
+        "Mekanik: Venom yolundan geçerek Bane'i kapatın; Biohazard'a karşı kanama/zehir bağışıklığı, Vigor'a karşı iyileşme engelleyiciler getirin."
+      ],
+      "idealCounters": [
+        "warlock",
+        "omegared",
+        "guillotine2099",
+        "archangel",
+        "hulkling",
+        "ghost",
+        "captainmarvelmcu"
+      ]
+    }
+  ]
 }

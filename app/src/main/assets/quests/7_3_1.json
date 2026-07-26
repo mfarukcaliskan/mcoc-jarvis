@@ -17,7 +17,8 @@
         "tigra",
         "hyperion",
         "magnetomarvelnow"
-      ]
+      ],
+      "leadsToBoss": "redgoblin"
     },
     {
       "pathLetter": "B",
@@ -32,22 +33,25 @@
         "ultron",
         "magnetomarvelnow",
         "thorjanefoster"
-      ]
+      ],
+      "leadsToBoss": "redgoblin"
     }
   ],
-  "boss": {
-    "championId": "redgoblin",
-    "bossNodes": [
-      "Carnage Bombası Debuff'ları - Red Goblin'in SP2 veya Ağır vuruşları, üzerindeki aktif buff'lara göre debuff uygular: her Energize buff'ı Saldırganın Maksimum Gücünün %10'unu 15 saniyede boşaltan bir Güç Drenajı; her Fury buff'ı bir Zırh Kırma (Armor Break); diğer tüm buff'lar ise Yanma (Incinerate) hasarı tetikler.",
-      "Frenzy (Çılgınlık) - Rakip düşmeye yaklaştığında Red Goblin Frenzy'ye girip önemli ölçüde güçlenir; bu eşik ve etkinin şiddeti sahne boyunca yenilen her rakiple birlikte artar, bu yüzden dövüşü hızlı bitirmek önemlidir.",
-      "Symbiotic Empowerment (İmza Yeteneği) - Frenzy aktifken her Özel saldırı, %35 azaltılmış güçte ekstra bir Symbiote buff'ı daha üretir; bu da bir sonraki Carnage Bombası'nın debuff yoğunluğunu katlayarak artırır.",
-      "Özel Teslimat / Matador Düğümleri - Boss karosunda da saldırganın 15 Kombo Yükü ile başladığı ve normal vuruşla azalıp özel saldırıyla sıfırlandığı Özel Teslimat mekaniği ile güç sadece Red Goblin'in özel saldırısından gelen Matador etkisi birlikte çalışır."
-    ],
-    "idealCounters": [
-      "ronan",
-      "tigra",
-      "magik",
-      "doctordoom"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "redgoblin",
+      "bossNodes": [
+        "Carnage Bombası Debuff'ları - Red Goblin'in SP2 veya Ağır vuruşları, üzerindeki aktif buff'lara göre debuff uygular: her Energize buff'ı Saldırganın Maksimum Gücünün %10'unu 15 saniyede boşaltan bir Güç Drenajı; her Fury buff'ı bir Zırh Kırma (Armor Break); diğer tüm buff'lar ise Yanma (Incinerate) hasarı tetikler.",
+        "Frenzy (Çılgınlık) - Rakip düşmeye yaklaştığında Red Goblin Frenzy'ye girip önemli ölçüde güçlenir; bu eşik ve etkinin şiddeti sahne boyunca yenilen her rakiple birlikte artar, bu yüzden dövüşü hızlı bitirmek önemlidir.",
+        "Symbiotic Empowerment (İmza Yeteneği) - Frenzy aktifken her Özel saldırı, %35 azaltılmış güçte ekstra bir Symbiote buff'ı daha üretir; bu da bir sonraki Carnage Bombası'nın debuff yoğunluğunu katlayarak artırır.",
+        "Özel Teslimat / Matador Düğümleri - Boss karosunda da saldırganın 15 Kombo Yükü ile başladığı ve normal vuruşla azalıp özel saldırıyla sıfırlandığı Özel Teslimat mekaniği ile güç sadece Red Goblin'in özel saldırısından gelen Matador etkisi birlikte çalışır."
+      ],
+      "idealCounters": [
+        "ronan",
+        "tigra",
+        "magik",
+        "doctordoom"
+      ]
+    }
+  ]
 }

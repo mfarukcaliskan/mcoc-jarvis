@@ -17,7 +17,8 @@
         "ultron",
         "warlock",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "scytalis"
     },
     {
       "pathLetter": "B",
@@ -32,21 +33,24 @@
         "doctoroctopus",
         "nimrod",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "scytalis"
     }
   ],
-  "boss": {
-    "championId": "scytalis",
-    "bossNodes": [
-      "Widow'ın Pusu Tuzakları - Saldırgan bir tuzağa bastığında Scytalis %100 ihtimalle 4.5 saniyelik Köklenme (Root) pasifi uygular; Köklenmişken Özel Saldırı başlatmak Kök etkisini kırar ve saldırgana süresiz bir Prowess pasifi kazandırır. Tuzaklar Scytalis blok yaparken tetiklenmez.",
-      "Bozuk Zırh (Corrupted Armor) - Gerçek Vuruş (True Strike) ve Gerçek İsabet (True Accuracy) bu zırhı etkilemez, üstelik saldırgan bu ikisinde %200 Yetenek İsabeti cezası yaşar; Scytalis kendi tuzağını tetiklerse 7 saniye Sersemler, Bozuk Zırh'ı 15 saniyeliğine kaybeder ve saldırgan süresiz %10 Özel Hasar Prowess'ı kazanır.",
-      "Dört Evreli Yükseliş - Target Acquired, Commence Operation, Agent Provocateur ve Final Phase evrelerinde tuzakların silahlanma süresi (1.5s'den 7.5s'ye kadar) uzar ve can barı tek vuruşta belirli bir yüzdenin altına düşemez (%80 → %40 → %5 → sınırsız); son evrede Bozuk Zırh artık tuzaklarla kaldırılamaz."
-    ],
-    "idealCounters": [
-      "juggernaut",
-      "apocalypse",
-      "magneto",
-      "doctordoom"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "scytalis",
+      "bossNodes": [
+        "Widow'ın Pusu Tuzakları - Saldırgan bir tuzağa bastığında Scytalis %100 ihtimalle 4.5 saniyelik Köklenme (Root) pasifi uygular; Köklenmişken Özel Saldırı başlatmak Kök etkisini kırar ve saldırgana süresiz bir Prowess pasifi kazandırır. Tuzaklar Scytalis blok yaparken tetiklenmez.",
+        "Bozuk Zırh (Corrupted Armor) - Gerçek Vuruş (True Strike) ve Gerçek İsabet (True Accuracy) bu zırhı etkilemez, üstelik saldırgan bu ikisinde %200 Yetenek İsabeti cezası yaşar; Scytalis kendi tuzağını tetiklerse 7 saniye Sersemler, Bozuk Zırh'ı 15 saniyeliğine kaybeder ve saldırgan süresiz %10 Özel Hasar Prowess'ı kazanır.",
+        "Dört Evreli Yükseliş - Target Acquired, Commence Operation, Agent Provocateur ve Final Phase evrelerinde tuzakların silahlanma süresi (1.5s'den 7.5s'ye kadar) uzar ve can barı tek vuruşta belirli bir yüzdenin altına düşemez (%80 → %40 → %5 → sınırsız); son evrede Bozuk Zırh artık tuzaklarla kaldırılamaz."
+      ],
+      "idealCounters": [
+        "juggernaut",
+        "apocalypse",
+        "magneto",
+        "doctordoom"
+      ]
+    }
+  ]
 }

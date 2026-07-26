@@ -19,7 +19,8 @@
         "vulture",
         "juggernaut",
         "greengoblin"
-      ]
+      ],
+      "leadsToBoss": "iceman"
     },
     {
       "pathLetter": "B",
@@ -37,23 +38,26 @@
         "sabretooth",
         "venom",
         "morningstar"
-      ]
+      ],
+      "leadsToBoss": "iceman"
     }
   ],
-  "boss": {
-    "championId": "iceman",
-    "bossNodes": [
-      "Ice Armor & Coldsnap - Dövüş başlar başlamaz kaçınılmaz bir soğuk hasarı darbesi alırsınız; Ice Armor aktifken Iceman'e Özel Saldırı atmak zırhını güçlendirir.",
-      "Soğuk (Cold) Yığınları - Iceman'in vuruşları saldırganda Soğuk yığınları biriktirir; yığınlar arttıkça saldırı hızı ve isabet oranı düşer.",
-      "Matador (küresel) - Güç sadece Iceman özel saldırı attığında kazanılır.",
-      "Strateji: Soğuk bağışıklığı olan (Ghost, Colossus, Warlock, Human Torch) şampiyonlar Coldsnap darbesini ve Soğuk yığınlarını etkisiz kılar; Gwenpool da 'Do You Bleed' ve Clapback mekanikleriyle bu dövüşte güçlü bir alternatiftir. Ice Armor aktifken gereksiz Özel Saldırı atmaktan kaçının."
-    ],
-    "idealCounters": [
-      "ghost",
-      "colossus",
-      "warlock",
-      "humantorch",
-      "gwenpool"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "iceman",
+      "bossNodes": [
+        "Ice Armor & Coldsnap - Dövüş başlar başlamaz kaçınılmaz bir soğuk hasarı darbesi alırsınız; Ice Armor aktifken Iceman'e Özel Saldırı atmak zırhını güçlendirir.",
+        "Soğuk (Cold) Yığınları - Iceman'in vuruşları saldırganda Soğuk yığınları biriktirir; yığınlar arttıkça saldırı hızı ve isabet oranı düşer.",
+        "Matador (küresel) - Güç sadece Iceman özel saldırı attığında kazanılır.",
+        "Strateji: Soğuk bağışıklığı olan (Ghost, Colossus, Warlock, Human Torch) şampiyonlar Coldsnap darbesini ve Soğuk yığınlarını etkisiz kılar; Gwenpool da 'Do You Bleed' ve Clapback mekanikleriyle bu dövüşte güçlü bir alternatiftir. Ice Armor aktifken gereksiz Özel Saldırı atmaktan kaçının."
+      ],
+      "idealCounters": [
+        "ghost",
+        "colossus",
+        "warlock",
+        "humantorch",
+        "gwenpool"
+      ]
+    }
+  ]
 }

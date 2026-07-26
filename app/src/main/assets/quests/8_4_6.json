@@ -18,7 +18,8 @@
         "thechampion",
         "corvusglaive",
         "proximamidnight"
-      ]
+      ],
+      "leadsToBoss": "glykhan"
     },
     {
       "pathLetter": "B",
@@ -33,23 +34,26 @@
         "black_dwarf",
         "ebonymaw",
         "collector"
-      ]
+      ],
+      "leadsToBoss": "glykhan"
     }
   ],
-  "boss": {
-    "championId": "glykhan",
-    "bossNodes": [
-      "Bozulmuş Zırh (Corrupted Armor): Glykhan, bir Kombo'nun Heavy Attack veya Special Attack'ini cezalandırmasından zincirlenen vuruşlar dışında hiçbir kaynaktan hasar almaz; rastgele hasar vermeye çalışmak tamamen etkisizdir.",
-      "Meydan Okuma Yarası (Wound of Defiance): Glykhan'ın her Special Attack vuruşu, Blok üzerinden bile tetiklenebilen ve saldırganın Max Health'inin %3,5'i kadar 2 saniyede Direkt Hasar veren bir Wound of Defiance pasifi uygular.",
-      "İlahi Ceza (Divine Punishment) Sistemi: Farklı oyuncu hareketleriyle tetiklenen ve maç boyunca (fight'lar arası dahil) en fazla 3 yığın biriken 4 ayrı İlahi Ceza vardır - Banality (Light Attack ile bloğa vurma), Frustration (art arda 2 kez intercept), Tedium (Striker'ın ilk vuruşuyla hasar verme; Spirit Gauge'ün %50'sini yığın başına 5 saniyede boşaltır) ve Obliqueness (Special'in ilk vuruşuyla hasar verme; 1 Güç Barının %50'sini yığın başına 3 saniyede boşaltır); bir Ceza'yı aktive etmek saldırgana faz sonuna kadar süren %40 Prowess pasifi kazandırır.",
-      "Faz Geçişi ve Zırh Yenileme: Glykhan nakavt olacağı anda zırhını parçalayıp yeniden kurar, tüm sağlığını geri kazanır, kişisel olmayan tüm buff/debuff/pasifleri siler ve üçüncü faza kadar bir sonraki faza geçer."
-    ],
-    "idealCounters": [
-      "emmafrost",
-      "storm",
-      "bishop",
-      "domino",
-      "kittypryde"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "glykhan",
+      "bossNodes": [
+        "Bozulmuş Zırh (Corrupted Armor): Glykhan, bir Kombo'nun Heavy Attack veya Special Attack'ini cezalandırmasından zincirlenen vuruşlar dışında hiçbir kaynaktan hasar almaz; rastgele hasar vermeye çalışmak tamamen etkisizdir.",
+        "Meydan Okuma Yarası (Wound of Defiance): Glykhan'ın her Special Attack vuruşu, Blok üzerinden bile tetiklenebilen ve saldırganın Max Health'inin %3,5'i kadar 2 saniyede Direkt Hasar veren bir Wound of Defiance pasifi uygular.",
+        "İlahi Ceza (Divine Punishment) Sistemi: Farklı oyuncu hareketleriyle tetiklenen ve maç boyunca (fight'lar arası dahil) en fazla 3 yığın biriken 4 ayrı İlahi Ceza vardır - Banality (Light Attack ile bloğa vurma), Frustration (art arda 2 kez intercept), Tedium (Striker'ın ilk vuruşuyla hasar verme; Spirit Gauge'ün %50'sini yığın başına 5 saniyede boşaltır) ve Obliqueness (Special'in ilk vuruşuyla hasar verme; 1 Güç Barının %50'sini yığın başına 3 saniyede boşaltır); bir Ceza'yı aktive etmek saldırgana faz sonuna kadar süren %40 Prowess pasifi kazandırır.",
+        "Faz Geçişi ve Zırh Yenileme: Glykhan nakavt olacağı anda zırhını parçalayıp yeniden kurar, tüm sağlığını geri kazanır, kişisel olmayan tüm buff/debuff/pasifleri siler ve üçüncü faza kadar bir sonraki faza geçer."
+      ],
+      "idealCounters": [
+        "emmafrost",
+        "storm",
+        "bishop",
+        "domino",
+        "kittypryde"
+      ]
+    }
+  ]
 }

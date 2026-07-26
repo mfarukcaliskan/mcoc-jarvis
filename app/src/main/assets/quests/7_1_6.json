@@ -19,7 +19,8 @@
         "sabretooth",
         "howardtheduck",
         "sasquatch"
-      ]
+      ],
+      "leadsToBoss": "icephoenix"
     },
     {
       "pathLetter": "B",
@@ -36,22 +37,25 @@
         "thorragnarok",
         "punisher2099",
         "killmonger"
-      ]
+      ],
+      "leadsToBoss": "icephoenix"
     }
   ],
-  "boss": {
-    "championId": "icephoenix",
-    "bossNodes": [
-      "Soğuk Füzyon (Cold Fusion) & Açılış Dondurma Çarpması - Ice Phoenix dövüşün en başında saldırgana bir Dondurma Çarpması (Coldsnap) debuff'ı uygular; Coldsnap bağışıklığı olmayan şampiyonlar bu ilk hasar dalgasında ciddi can kaybeder.",
-      "Yaklaşan Sersemletme (Encroaching Stun) - Saldırgan üzerinde sürekli işleyen bir sersemletme sayacı vardır; bu sayaç dolmadan önce Ice Phoenix'i sersemletip vurmak gerekir, aksi halde saldırgan kendisi sersemler.",
-      "Buz Zırhı Yenilenmesi - Ice Phoenix'in Buz Zırhı (Ice Armor) periyodik olarak geri gelir; zırh aktifken yapılan sersemletme girişimleri boşa gider, bu yüzden zırhın açık olduğu pencereleri gözlemlemek kritik önemdedir.",
-      "Güç Ekseni 1 & Güç Taşması (Power Axis 1 / Power Overflow) - Biriken güç belirli bir eşiği aştığında taşarak Ice Phoenix'e ani ekstra güç kazandırır."
-    ],
-    "idealCounters": [
-      "colossus",
-      "corvusglaive",
-      "warlock",
-      "silversurfer"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "icephoenix",
+      "bossNodes": [
+        "Soğuk Füzyon (Cold Fusion) & Açılış Dondurma Çarpması - Ice Phoenix dövüşün en başında saldırgana bir Dondurma Çarpması (Coldsnap) debuff'ı uygular; Coldsnap bağışıklığı olmayan şampiyonlar bu ilk hasar dalgasında ciddi can kaybeder.",
+        "Yaklaşan Sersemletme (Encroaching Stun) - Saldırgan üzerinde sürekli işleyen bir sersemletme sayacı vardır; bu sayaç dolmadan önce Ice Phoenix'i sersemletip vurmak gerekir, aksi halde saldırgan kendisi sersemler.",
+        "Buz Zırhı Yenilenmesi - Ice Phoenix'in Buz Zırhı (Ice Armor) periyodik olarak geri gelir; zırh aktifken yapılan sersemletme girişimleri boşa gider, bu yüzden zırhın açık olduğu pencereleri gözlemlemek kritik önemdedir.",
+        "Güç Ekseni 1 & Güç Taşması (Power Axis 1 / Power Overflow) - Biriken güç belirli bir eşiği aştığında taşarak Ice Phoenix'e ani ekstra güç kazandırır."
+      ],
+      "idealCounters": [
+        "colossus",
+        "corvusglaive",
+        "warlock",
+        "silversurfer"
+      ]
+    }
+  ]
 }

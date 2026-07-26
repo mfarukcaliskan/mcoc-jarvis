@@ -19,7 +19,8 @@
         "ironman",
         "sentinel",
         "ultron"
-      ]
+      ],
+      "leadsToBoss": "darkphoenix"
     },
     {
       "pathLetter": "B",
@@ -35,22 +36,25 @@
         "colossus",
         "rogue",
         "wolverinex23"
-      ]
+      ],
+      "leadsToBoss": "darkphoenix"
     }
   ],
-  "boss": {
-    "championId": "darkphoenix",
-    "bossNodes": [
-      "Kor Yükleri (Ember Charges) ve Koruma: Dövüş başında %5 Koruma (Safeguard) buff'ı kazanır ve bu buff her 10 saniyede yeniden tetiklenir; 5+ Kor Yükünde gelen hasarlı efektlerin ve Güç İğnelerinin potansiyeli %75 azalır.",
-      "Nova Alevi: Özel saldırılarını bitirdikten sonra 3 saniye boyunca Phoenix Force'tan enerji emmeye devam eder, süre sonunda rakibe kişisel Nova Alevi hasarı uygular; Özel saldırı bitiminin hemen ardındaki kısa pencerede vurmak bu sürenin kısalmasını sağlar.",
-      "Ölümsüzlük: Bir dövüşte ilk kez 10+ Kor Yüküne ulaşıldığında Phoenix'in Yeniden Doğuşu Yükü kazanılır; Dark Phoenix nakavt olacağı anda bu yük tüketilerek 12 saniyelik Ölümsüzlük buff'ı devreye girer.",
-      "Bağışıklıklar ve Sınırlama: Yanma (Incinerate), Nova Alevi ve Güç Emme'ye (Power Drain) karşı tam bağışıklıdır; Yetenek ve Mücadele Gücü Kazanım Oranı en fazla %50 azaltılabilir."
-    ],
-    "idealCounters": [
-      "mistersinister",
-      "symbiotesupreme",
-      "terrax",
-      "sersi"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "darkphoenix",
+      "bossNodes": [
+        "Kor Yükleri (Ember Charges) ve Koruma: Dövüş başında %5 Koruma (Safeguard) buff'ı kazanır ve bu buff her 10 saniyede yeniden tetiklenir; 5+ Kor Yükünde gelen hasarlı efektlerin ve Güç İğnelerinin potansiyeli %75 azalır.",
+        "Nova Alevi: Özel saldırılarını bitirdikten sonra 3 saniye boyunca Phoenix Force'tan enerji emmeye devam eder, süre sonunda rakibe kişisel Nova Alevi hasarı uygular; Özel saldırı bitiminin hemen ardındaki kısa pencerede vurmak bu sürenin kısalmasını sağlar.",
+        "Ölümsüzlük: Bir dövüşte ilk kez 10+ Kor Yüküne ulaşıldığında Phoenix'in Yeniden Doğuşu Yükü kazanılır; Dark Phoenix nakavt olacağı anda bu yük tüketilerek 12 saniyelik Ölümsüzlük buff'ı devreye girer.",
+        "Bağışıklıklar ve Sınırlama: Yanma (Incinerate), Nova Alevi ve Güç Emme'ye (Power Drain) karşı tam bağışıklıdır; Yetenek ve Mücadele Gücü Kazanım Oranı en fazla %50 azaltılabilir."
+      ],
+      "idealCounters": [
+        "mistersinister",
+        "symbiotesupreme",
+        "terrax",
+        "sersi"
+      ]
+    }
+  ]
 }

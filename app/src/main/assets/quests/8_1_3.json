@@ -17,7 +17,8 @@
         "symbiotesupreme",
         "doctorstrange",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "psychoman"
     },
     {
       "pathLetter": "B",
@@ -32,21 +33,24 @@
         "mephisto",
         "mordo",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "psychoman"
     }
   ],
-  "boss": {
-    "championId": "psychoman",
-    "bossNodes": [
-      "Kontrol Kutusu (Control Box) - Nefret (Hate/Ağır Vuruş), Korku (Fear/Özel Saldırı) ve Şüphe (Doubt/Blok) olmak üzere üç mod arasında geçiş yapar; rakip o moda bağlı eylemi gerçekleştirdiğinde Sersemletme İptali (Concussion) debuff'ı ile cezalandırılır ve Psycho-Man o vuruşlardan Güç kazanır.",
-      "Microverse Overlord (İmza Yeteneği) - Rakip Concussion etkisi altındayken bir yeteneği tetiklenemezse 9.51 saniyelik İyileşme Engeli (Heal Block) ile cezalandırılır; pasif tetiklenen buff'lara güvenen şampiyonlar bu yüzden risklidir.",
-      "Şüphe Modu Pasif Cezası - Doubt modundayken blok yapan rakip pasif olarak Concussion alır (Yetenek İsabeti %25 azalır); bu mod aktifken kör bloklamak yerine parry zamanlamasına odaklanılmalıdır."
-    ],
-    "idealCounters": [
-      "hyperion",
-      "odin",
-      "angela",
-      "knull"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "psychoman",
+      "bossNodes": [
+        "Kontrol Kutusu (Control Box) - Nefret (Hate/Ağır Vuruş), Korku (Fear/Özel Saldırı) ve Şüphe (Doubt/Blok) olmak üzere üç mod arasında geçiş yapar; rakip o moda bağlı eylemi gerçekleştirdiğinde Sersemletme İptali (Concussion) debuff'ı ile cezalandırılır ve Psycho-Man o vuruşlardan Güç kazanır.",
+        "Microverse Overlord (İmza Yeteneği) - Rakip Concussion etkisi altındayken bir yeteneği tetiklenemezse 9.51 saniyelik İyileşme Engeli (Heal Block) ile cezalandırılır; pasif tetiklenen buff'lara güvenen şampiyonlar bu yüzden risklidir.",
+        "Şüphe Modu Pasif Cezası - Doubt modundayken blok yapan rakip pasif olarak Concussion alır (Yetenek İsabeti %25 azalır); bu mod aktifken kör bloklamak yerine parry zamanlamasına odaklanılmalıdır."
+      ],
+      "idealCounters": [
+        "hyperion",
+        "odin",
+        "angela",
+        "knull"
+      ]
+    }
+  ]
 }

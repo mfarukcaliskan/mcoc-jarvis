@@ -17,7 +17,8 @@
         "electro",
         "sentinel",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "karnak"
     },
     {
       "pathLetter": "B",
@@ -32,21 +33,24 @@
         "ironmaninfinitywar",
         "ultron",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "karnak"
     }
   ],
-  "boss": {
-    "championId": "karnak",
-    "bossNodes": [
-      "Odak Şarjları (Focus Charges) - Karnak her 12 saniyede bir, en fazla 3'e kadar Odak Şarjı kazanır; bu şarjlar Kritik Vuruş Oranını artırır ve blok arkasından bile kritik hasar vermesini sağlar.",
-      "Gerçek Vuruş (True Strike) - Özel Saldırı 1, 15 saniye boyunca süren bir True Strike Pasifi kazandırır; bu süre boyunca saldırıları Zırh, Direnç, Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
-      "Kırılganlık ve Öfke - Ağır Saldırısı 20 saniyelik bir Kırılganlık (Fragility) Debuff'ı uygulayarak kritik hasarını artırır; Özel Saldırı 2 ise 30 saniyelik pasif bir Öfke (Fury) kazandırır. Uyanmış (Awakened) Karnak, İmza Yeteneğiyle Fiziksel Direncin %100'üne kadarını yok sayabilir."
-    ],
-    "idealCounters": [
-      "magneto",
-      "havok",
-      "bishop",
-      "hercules"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "karnak",
+      "bossNodes": [
+        "Odak Şarjları (Focus Charges) - Karnak her 12 saniyede bir, en fazla 3'e kadar Odak Şarjı kazanır; bu şarjlar Kritik Vuruş Oranını artırır ve blok arkasından bile kritik hasar vermesini sağlar.",
+        "Gerçek Vuruş (True Strike) - Özel Saldırı 1, 15 saniye boyunca süren bir True Strike Pasifi kazandırır; bu süre boyunca saldırıları Zırh, Direnç, Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
+        "Kırılganlık ve Öfke - Ağır Saldırısı 20 saniyelik bir Kırılganlık (Fragility) Debuff'ı uygulayarak kritik hasarını artırır; Özel Saldırı 2 ise 30 saniyelik pasif bir Öfke (Fury) kazandırır. Uyanmış (Awakened) Karnak, İmza Yeteneğiyle Fiziksel Direncin %100'üne kadarını yok sayabilir."
+      ],
+      "idealCounters": [
+        "magneto",
+        "havok",
+        "bishop",
+        "hercules"
+      ]
+    }
+  ]
 }

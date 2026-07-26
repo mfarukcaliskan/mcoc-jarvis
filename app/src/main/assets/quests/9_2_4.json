@@ -17,7 +17,8 @@
         "wintersoldier",
         "punisher",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "absorbingman"
     },
     {
       "pathLetter": "B",
@@ -32,21 +33,24 @@
         "unstoppablecolossus",
         "thing",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "absorbingman"
     }
   ],
-  "boss": {
-    "championId": "absorbingman",
-    "bossNodes": [
-      "Çoklu Formlar - Absorbing Man'in Özel Saldırıları onu güçlü alternatif Formlara dönüştürür; aynı anda tek bir Formda kalabilir ve varsayılan olarak Kara Uru (Black Uru) Formuyla başlar; Form değişimleri Yetenek İsabeti düşürücü etkilerden bağımsız her zaman başarılı olur.",
-      "Güç Emilimi (Power Absorption) - Absorbing Man blok yaparken Saldırganın Güç Kazanım Oranını %72 azaltır ve engellenen bu güç kendisine aktarılır; bu yüzden onu bloğa zorlamak Saldırgan için risklidir.",
-      "Bağışıklıkta Duraklama ve Kırılganlık - Rakibin bir Buff'ı sona erdiğinde ya da Absorbing Man bir Debuff'a bağışıklık gösterdiğinde mevcut Form 3 saniye duraklar; rakibin temel saldırısını bir hafif vuruşla kesmek Formu 6 saniye durdurur ve 15 saniyelik, 5 kata kadar yığılabilen bir Kırılganlık (Vulnerability) Debuff'ı uygular."
-    ],
-    "idealCounters": [
-      "valkyrie",
-      "hulkling",
-      "scorpion",
-      "moleman"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "absorbingman",
+      "bossNodes": [
+        "Çoklu Formlar - Absorbing Man'in Özel Saldırıları onu güçlü alternatif Formlara dönüştürür; aynı anda tek bir Formda kalabilir ve varsayılan olarak Kara Uru (Black Uru) Formuyla başlar; Form değişimleri Yetenek İsabeti düşürücü etkilerden bağımsız her zaman başarılı olur.",
+        "Güç Emilimi (Power Absorption) - Absorbing Man blok yaparken Saldırganın Güç Kazanım Oranını %72 azaltır ve engellenen bu güç kendisine aktarılır; bu yüzden onu bloğa zorlamak Saldırgan için risklidir.",
+        "Bağışıklıkta Duraklama ve Kırılganlık - Rakibin bir Buff'ı sona erdiğinde ya da Absorbing Man bir Debuff'a bağışıklık gösterdiğinde mevcut Form 3 saniye duraklar; rakibin temel saldırısını bir hafif vuruşla kesmek Formu 6 saniye durdurur ve 15 saniyelik, 5 kata kadar yığılabilen bir Kırılganlık (Vulnerability) Debuff'ı uygular."
+      ],
+      "idealCounters": [
+        "valkyrie",
+        "hulkling",
+        "scorpion",
+        "moleman"
+      ]
+    }
+  ]
 }

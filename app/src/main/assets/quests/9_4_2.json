@@ -20,7 +20,8 @@
         "quasar",
         "silversurfer",
         "gladiator"
-      ]
+      ],
+      "leadsToBoss": "arnimzola"
     },
     {
       "pathLetter": "B",
@@ -36,23 +37,26 @@
         "mystique",
         "wolverinex23",
         "rogue"
-      ]
+      ],
+      "leadsToBoss": "arnimzola"
     }
   ],
-  "boss": {
-    "championId": "arnimzola",
-    "bossNodes": [
-      "Korkaklık (Cowardice): Zola'nın Özel saldırıları sırasında rakip %30 Korkaklık debuff'ı ile cezalandırılır (savunmacı olarak bu oran %90'a çıkar); bu debuff rakibin saldırı gücünü ciddi oranda düşürür.",
-      "Biyo-Organik Silah - Disintegrasyon: Zola'nın Ağır saldırısının ilk vuruşu rakibe Direkt hasar veren bir Disintegrasyon debuff'ı uygular; imza yeteneği bu debuff'lar Özel saldırılarla temizlendiğinde ekstra bir Direkt hasar patlaması tetikler.",
-      "ESP Yükleri ve Uyku: Zola, Ağır saldırı dışında bir vuruş aldığında ESP Yükü kazanır, blokladığında 3 yük kazanır (maksimum 30 yük); 20+ yükte %10 ihtimalle tüm yükleri tüketip 3 saniyelik Uyku pasifiyle rakibin saldırısını durdurur.",
-      "Kendini Değiştirme: Zola'nın Yetenek İsabeti ve Güç Kazanım Oranı yalnızca kendisi tarafından değiştirilebilir; bu da klasik Yetenek İsabeti Düşürme (AAR) efektlerini büyük ölçüde etkisiz kılar, dolayısıyla ham hasara ve Ağır saldırı rotasyonuna dayalı bir yaklaşım gerekir."
-    ],
-    "idealCounters": [
-      "guardian",
-      "photon",
-      "spiderpunk",
-      "deathlessthanos",
-      "betaraybill"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "arnimzola",
+      "bossNodes": [
+        "Korkaklık (Cowardice): Zola'nın Özel saldırıları sırasında rakip %30 Korkaklık debuff'ı ile cezalandırılır (savunmacı olarak bu oran %90'a çıkar); bu debuff rakibin saldırı gücünü ciddi oranda düşürür.",
+        "Biyo-Organik Silah - Disintegrasyon: Zola'nın Ağır saldırısının ilk vuruşu rakibe Direkt hasar veren bir Disintegrasyon debuff'ı uygular; imza yeteneği bu debuff'lar Özel saldırılarla temizlendiğinde ekstra bir Direkt hasar patlaması tetikler.",
+        "ESP Yükleri ve Uyku: Zola, Ağır saldırı dışında bir vuruş aldığında ESP Yükü kazanır, blokladığında 3 yük kazanır (maksimum 30 yük); 20+ yükte %10 ihtimalle tüm yükleri tüketip 3 saniyelik Uyku pasifiyle rakibin saldırısını durdurur.",
+        "Kendini Değiştirme: Zola'nın Yetenek İsabeti ve Güç Kazanım Oranı yalnızca kendisi tarafından değiştirilebilir; bu da klasik Yetenek İsabeti Düşürme (AAR) efektlerini büyük ölçüde etkisiz kılar, dolayısıyla ham hasara ve Ağır saldırı rotasyonuna dayalı bir yaklaşım gerekir."
+      ],
+      "idealCounters": [
+        "guardian",
+        "photon",
+        "spiderpunk",
+        "deathlessthanos",
+        "betaraybill"
+      ]
+    }
+  ]
 }

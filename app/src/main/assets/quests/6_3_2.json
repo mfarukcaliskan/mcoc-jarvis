@@ -20,7 +20,8 @@
         "medusa",
         "heimdall",
         "modok"
-      ]
+      ],
+      "leadsToBoss": "nickfury"
     },
     {
       "pathLetter": "B",
@@ -37,25 +38,28 @@
         "gwenpool",
         "killmonger",
         "redskull"
-      ]
+      ],
+      "leadsToBoss": "nickfury"
     }
   ],
-  "boss": {
-    "championId": "nickfury",
-    "bossNodes": [
-      "İki Aşamalı Dövüş (LMD) - Nick Fury'nin canı bittiğinde bir LMD (Sahte Model / Life Model Decoy) tetiklenir; bu ikinci aşamada pasif olarak can kaybetmeye başlar ama çok daha agresifleşir ve engellenemez hiddetler kazanır. Bu aşamada siper yapmayı bırakıp yalnızca geriye dash atarak (dexterity) kaçının, kendi kendine kanayarak ölmesini bekleyin.",
-      "Shank - Fury bloke edildiğinde saldırgana %40 ihtimalle Kanama (Bleed) debuff'ı bulaşır.",
-      "Debuff Immune & Empowered Immunity - Nick Fury çoğu debuff'a bağışıklıdır.",
-      "Tactical Adjustment - Saldırgan debuff uygulamaya çalıştıkça Fury bir taktik yükü ve bir güç barının %33'ü kadar güç kazanır.",
-      "Bloodletting - Saldırganın uyguladığı kanama sürelerini %100 uzatır."
-    ],
-    "idealCounters": [
-      "archangel",
-      "hercules",
-      "domino",
-      "omegared",
-      "colossus",
-      "namor"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "nickfury",
+      "bossNodes": [
+        "İki Aşamalı Dövüş (LMD) - Nick Fury'nin canı bittiğinde bir LMD (Sahte Model / Life Model Decoy) tetiklenir; bu ikinci aşamada pasif olarak can kaybetmeye başlar ama çok daha agresifleşir ve engellenemez hiddetler kazanır. Bu aşamada siper yapmayı bırakıp yalnızca geriye dash atarak (dexterity) kaçının, kendi kendine kanayarak ölmesini bekleyin.",
+        "Shank - Fury bloke edildiğinde saldırgana %40 ihtimalle Kanama (Bleed) debuff'ı bulaşır.",
+        "Debuff Immune & Empowered Immunity - Nick Fury çoğu debuff'a bağışıklıdır.",
+        "Tactical Adjustment - Saldırgan debuff uygulamaya çalıştıkça Fury bir taktik yükü ve bir güç barının %33'ü kadar güç kazanır.",
+        "Bloodletting - Saldırganın uyguladığı kanama sürelerini %100 uzatır."
+      ],
+      "idealCounters": [
+        "archangel",
+        "hercules",
+        "domino",
+        "omegared",
+        "colossus",
+        "namor"
+      ]
+    }
+  ]
 }

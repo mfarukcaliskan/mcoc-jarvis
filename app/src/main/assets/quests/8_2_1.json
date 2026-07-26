@@ -19,7 +19,8 @@
         "warmachine",
         "sentinel",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "vision"
     },
     {
       "pathLetter": "B",
@@ -34,20 +35,23 @@
         "ultron",
         "darkhawk",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "vision"
     }
   ],
-  "boss": {
-    "championId": "vision",
-    "bossNodes": [
-      "Güç Yakma (Power Burn): Vision özel saldırı fırlattığında rakibin gücünün bir kısmını yakarak orantılı doğrudan hasar verir; SP2 rakibin gücünün tamamına, SP3 ise %33'üne kadarını yakabilir.",
-      "Yoğunluk ve Güç Kazanımı: Vision periyodik olarak Güç Kazanımı (Power Gain) pasifi kazanır; gücü kilitlenir, çalınır veya tüketilirse bu pasif yeniden tetiklenir ve sonraki kazanımlar %33,33 daha az etkili olur."
-    ],
-    "idealCounters": [
-      "spiral",
-      "odin",
-      "hercules",
-      "cosmicghostrider"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "vision",
+      "bossNodes": [
+        "Güç Yakma (Power Burn): Vision özel saldırı fırlattığında rakibin gücünün bir kısmını yakarak orantılı doğrudan hasar verir; SP2 rakibin gücünün tamamına, SP3 ise %33'üne kadarını yakabilir.",
+        "Yoğunluk ve Güç Kazanımı: Vision periyodik olarak Güç Kazanımı (Power Gain) pasifi kazanır; gücü kilitlenir, çalınır veya tüketilirse bu pasif yeniden tetiklenir ve sonraki kazanımlar %33,33 daha az etkili olur."
+      ],
+      "idealCounters": [
+        "spiral",
+        "odin",
+        "hercules",
+        "cosmicghostrider"
+      ]
+    }
+  ]
 }

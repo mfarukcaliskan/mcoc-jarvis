@@ -18,7 +18,8 @@
         "kingpin",
         "thehood",
         "joefixit"
-      ]
+      ],
+      "leadsToBoss": "knull"
     },
     {
       "pathLetter": "B",
@@ -33,22 +34,25 @@
         "greengoblin",
         "electro",
         "ultron"
-      ]
+      ],
+      "leadsToBoss": "knull"
     }
   ],
-  "boss": {
-    "championId": "knull",
-    "bossNodes": [
-      "Karanlığın Yayılması: Ekranın belirli bölgeleri Karanlık'a bürünür; karanlıkta kalan saldırgan isabet şansı ve blok yeteneği düşüşü yaşar, ışık/enerji temelli şampiyonlar bu alandan daha az etkilenir.",
-      "Sembiyot Yaşam Çalma: Knull, verdiği hasarın bir kısmını cana çevirir; sembiyot karşıtı (symbiote resistant) etiketine sahip şampiyonlar bu emmeyi büyük ölçüde azaltır.",
-      "Kral Tacı (Abyss Yığınları): Belirli aralıklarla biriken Abyss yığınları patronun gücünü kalıcı olarak artırır; yığınlar tamamlanmadan önce agresif oynamak gerekir."
-    ],
-    "idealCounters": [
-      "wiccan",
-      "rintrah",
-      "tigra",
-      "humantorch",
-      "sasquatch"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "knull",
+      "bossNodes": [
+        "Karanlığın Yayılması: Ekranın belirli bölgeleri Karanlık'a bürünür; karanlıkta kalan saldırgan isabet şansı ve blok yeteneği düşüşü yaşar, ışık/enerji temelli şampiyonlar bu alandan daha az etkilenir.",
+        "Sembiyot Yaşam Çalma: Knull, verdiği hasarın bir kısmını cana çevirir; sembiyot karşıtı (symbiote resistant) etiketine sahip şampiyonlar bu emmeyi büyük ölçüde azaltır.",
+        "Kral Tacı (Abyss Yığınları): Belirli aralıklarla biriken Abyss yığınları patronun gücünü kalıcı olarak artırır; yığınlar tamamlanmadan önce agresif oynamak gerekir."
+      ],
+      "idealCounters": [
+        "wiccan",
+        "rintrah",
+        "tigra",
+        "humantorch",
+        "sasquatch"
+      ]
+    }
+  ]
 }

@@ -16,7 +16,8 @@
         "lukecage",
         "sabretooth",
         "thorragnarok"
-      ]
+      ],
+      "leadsToBoss": "kang"
     },
     {
       "pathLetter": "B",
@@ -30,22 +31,25 @@
         "nightcrawler",
         "greengoblin",
         "emmafrost"
-      ]
+      ],
+      "leadsToBoss": "kang"
     }
   ],
-  "boss": {
-    "championId": "kang",
-    "bossNodes": [
-      "Güç Döngüsü (Power Loop) - Dövüş başında Kang 10 saniyelik bir geri sayım başlatır ve rastgele 0-3 arası bir Güç Barı hedefi belirler; süre dolduğunda rakip o an tam olarak hedeflenen bar sayısına sahipse bir Güç Yükü kazanır, değilse doğrudan hasar alır - bu yüzden güç barınızı döngü bitmeden hedeflenen değere denk getirmeye çalışmak riskli bir kumar olabilir.",
-      "Zaman Çöküşü (Time Collapse) - Rakip 3 Güç Yüküne ulaştığında Kang 10 saniyeliğine Zaman Çöküşüne girer: bu süre boyunca pasif olarak Sersemler, Güç kazanamaz ve Neuro-Kinetik Kıyafetinin hasar azaltımı %0'a düşer - bu, saldırının en yüksek hasarı vurulacağı penceredir.",
-      "4 Faz Sistemi - Kang, dövüş için 4 faz hazırlamıştır; her fazın tamamlanması hem saldırganın hem Kang'ın Gücünü sıfırlar, bu yüzden faz geçişlerinden hemen önce özel saldırı kullanmak güç israfını önler.",
-      "Bağışıklıklar - Kang; Iska (Miss), Güç Kilidi (Power Lock), Güç Çalma (Power Steal), Güç Drenajı (Power Drain) ve Yanma (Burn) etkilerine tamamen bağışıklıdır."
-    ],
-    "idealCounters": [
-      "nickfury",
-      "colossus",
-      "hyperion",
-      "doctordoom"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "kang",
+      "bossNodes": [
+        "Güç Döngüsü (Power Loop) - Dövüş başında Kang 10 saniyelik bir geri sayım başlatır ve rastgele 0-3 arası bir Güç Barı hedefi belirler; süre dolduğunda rakip o an tam olarak hedeflenen bar sayısına sahipse bir Güç Yükü kazanır, değilse doğrudan hasar alır - bu yüzden güç barınızı döngü bitmeden hedeflenen değere denk getirmeye çalışmak riskli bir kumar olabilir.",
+        "Zaman Çöküşü (Time Collapse) - Rakip 3 Güç Yüküne ulaştığında Kang 10 saniyeliğine Zaman Çöküşüne girer: bu süre boyunca pasif olarak Sersemler, Güç kazanamaz ve Neuro-Kinetik Kıyafetinin hasar azaltımı %0'a düşer - bu, saldırının en yüksek hasarı vurulacağı penceredir.",
+        "4 Faz Sistemi - Kang, dövüş için 4 faz hazırlamıştır; her fazın tamamlanması hem saldırganın hem Kang'ın Gücünü sıfırlar, bu yüzden faz geçişlerinden hemen önce özel saldırı kullanmak güç israfını önler.",
+        "Bağışıklıklar - Kang; Iska (Miss), Güç Kilidi (Power Lock), Güç Çalma (Power Steal), Güç Drenajı (Power Drain) ve Yanma (Burn) etkilerine tamamen bağışıklıdır."
+      ],
+      "idealCounters": [
+        "nickfury",
+        "colossus",
+        "hyperion",
+        "doctordoom"
+      ]
+    }
+  ]
 }

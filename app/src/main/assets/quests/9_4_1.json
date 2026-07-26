@@ -19,7 +19,8 @@
         "ultron",
         "warlock",
         "sentinel"
-      ]
+      ],
+      "leadsToBoss": "shathra"
     },
     {
       "pathLetter": "B",
@@ -34,23 +35,26 @@
         "ghostrider",
         "scarletwitch",
         "mordo"
-      ]
+      ],
+      "leadsToBoss": "shathra"
     }
   ],
-  "boss": {
-    "championId": "shathra",
-    "bossNodes": [
-      "Astral Yaban Arısı Yumurtaları: Hafif/Orta saldırılar rakibe Astral Yumurta bırakır; Shathra bir Özel Saldırı kullandığında tüm yumurtalar açılıp kalıcı Astral Arı'ya dönüşür ve Özel 1/2 sırasında bu arılar da saldırıya katılır.",
-      "Güç Hırsızlığı (Power Steal): Ağır saldırı şarj edilirken saniyede çok sayıda arı öldürülerek rakipten %35'e varan oranda güç çalınır; bu çalma Shathra Ağır saldırıyı bıraktığında, arıları tükendiğinde, 3 bar güce ulaştığında veya rakibin gücü tükendiğinde sona erer.",
-      "Pasif Solma (Wither): Rakip 2 bardan fazla güce sahip olduğu sürece Shathra'nın vuruşları %65 potansiyelli pasif Solma hasarı uygular; ayrıca Ağır saldırı şarj/bırakma sırasında gelen ilk temel saldırıyı 20 saniye bekleme süresiyle kaçar (evade).",
-      "Sınıf Zayıflığı: Shathra Mistik sınıfı bir şampiyon olduğundan Bilim sınıfına karşı zayıftır; Bilim sınıfı saldırganlar hem sınıf hasar bonusu hem de enerji direnciyle arı hasarını hafifletme avantajı sağlar."
-    ],
-    "idealCounters": [
-      "warlock",
-      "hulkling",
-      "medusa",
-      "cosmicghostrider",
-      "ghost"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "shathra",
+      "bossNodes": [
+        "Astral Yaban Arısı Yumurtaları: Hafif/Orta saldırılar rakibe Astral Yumurta bırakır; Shathra bir Özel Saldırı kullandığında tüm yumurtalar açılıp kalıcı Astral Arı'ya dönüşür ve Özel 1/2 sırasında bu arılar da saldırıya katılır.",
+        "Güç Hırsızlığı (Power Steal): Ağır saldırı şarj edilirken saniyede çok sayıda arı öldürülerek rakipten %35'e varan oranda güç çalınır; bu çalma Shathra Ağır saldırıyı bıraktığında, arıları tükendiğinde, 3 bar güce ulaştığında veya rakibin gücü tükendiğinde sona erer.",
+        "Pasif Solma (Wither): Rakip 2 bardan fazla güce sahip olduğu sürece Shathra'nın vuruşları %65 potansiyelli pasif Solma hasarı uygular; ayrıca Ağır saldırı şarj/bırakma sırasında gelen ilk temel saldırıyı 20 saniye bekleme süresiyle kaçar (evade).",
+        "Sınıf Zayıflığı: Shathra Mistik sınıfı bir şampiyon olduğundan Bilim sınıfına karşı zayıftır; Bilim sınıfı saldırganlar hem sınıf hasar bonusu hem de enerji direnciyle arı hasarını hafifletme avantajı sağlar."
+      ],
+      "idealCounters": [
+        "warlock",
+        "hulkling",
+        "medusa",
+        "cosmicghostrider",
+        "ghost"
+      ]
+    }
+  ]
 }

@@ -17,7 +17,8 @@
         "thing",
         "thechampion",
         "captainamerica"
-      ]
+      ],
+      "leadsToBoss": "hercules"
     },
     {
       "pathLetter": "B",
@@ -32,21 +33,24 @@
         "hercules",
         "nickfury",
         "korg"
-      ]
+      ],
+      "leadsToBoss": "hercules"
     }
   ],
-  "boss": {
-    "championId": "hercules",
-    "bossNodes": [
-      "Ölümsüzlük Buff'ı (Immortality) - Hercules dövüş başına bir kez, kendisini bayıltacak bir hasar aldığında ölmeyi reddeder ve 9 saniyeliğine Bloklanamaz (Unblockable) hale gelir; bu buff kendi Özel Saldırısı sırasında veya temel saldırı isabet ettiğinde duraklar, SP3 ile vurulursa tamamen kaybolur.",
-      "Bloklanamaz Saldırganlık - Ölümsüzlük aktifken Hercules bloklanamadığı için savunma değil saf hasar alma/verme yarışına girilir; bu pencerede hata yapma toleransı düşüktür.",
-      "Zeus'un Oğlu (İmza) - Prowess/Öfke yığınları biriktirdikçe hem hasarı hem hayatta kalma şansı artar, bu yüzden dövüşü uzattıkça Hercules güçlenir; hızlı bitirmek tercih edilmelidir."
-    ],
-    "idealCounters": [
-      "nickfury",
-      "cosmicghostrider",
-      "warlock",
-      "kittypryde"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "hercules",
+      "bossNodes": [
+        "Ölümsüzlük Buff'ı (Immortality) - Hercules dövüş başına bir kez, kendisini bayıltacak bir hasar aldığında ölmeyi reddeder ve 9 saniyeliğine Bloklanamaz (Unblockable) hale gelir; bu buff kendi Özel Saldırısı sırasında veya temel saldırı isabet ettiğinde duraklar, SP3 ile vurulursa tamamen kaybolur.",
+        "Bloklanamaz Saldırganlık - Ölümsüzlük aktifken Hercules bloklanamadığı için savunma değil saf hasar alma/verme yarışına girilir; bu pencerede hata yapma toleransı düşüktür.",
+        "Zeus'un Oğlu (İmza) - Prowess/Öfke yığınları biriktirdikçe hem hasarı hem hayatta kalma şansı artar, bu yüzden dövüşü uzattıkça Hercules güçlenir; hızlı bitirmek tercih edilmelidir."
+      ],
+      "idealCounters": [
+        "nickfury",
+        "cosmicghostrider",
+        "warlock",
+        "kittypryde"
+      ]
+    }
+  ]
 }

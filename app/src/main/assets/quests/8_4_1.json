@@ -18,7 +18,8 @@
         "taskmaster",
         "bullseye",
         "sabretooth"
-      ]
+      ],
+      "leadsToBoss": "americachavez"
     },
     {
       "pathLetter": "B",
@@ -33,21 +34,24 @@
         "omegared",
         "colossus",
         "juggernaut"
-      ]
+      ],
+      "leadsToBoss": "americachavez"
     }
   ],
-  "boss": {
-    "championId": "americachavez",
-    "bossNodes": [
-      "Paralel Boyutlar: America Chavez, Heavy Attack sırasında Special başlatarak Ütopik Paralel, Karanlık Boyut veya Negatif Bölge boyutlarından birini 30 saniyeliğine aktive eder; sırasıyla düşmanın Fury/Armor Up/Precision/Cruelty potency'sini %70 azaltır, alınan hasarın %40'ını enerji hasarı olarak geri yansıtır veya düşmanın güç kazanım hızını %60 düşürür.",
-      "Buff Tersine Çevirme: Saldırgan üzerindeki her aktif buff, America Chavez'in Attack Rating ve Enerji Direncini artırır; eğer bu buff'lar Fury, Armor Up, Precision veya Cruelty ise etkileri tamamen tersine çevrilip onun lehine işler - kendi kendine buff veren şampiyonlar bu boss'ta risklidir.",
-      "Yıldız Portalı (Star Portal): Special 2'nin son 3 vuruşunda ek bir Big Bang Boyutu portalı açılır ve vuruş hasarının %50'si kadar ekstra enerji patlama hasarı uygular; 3'ten fazla benzersiz boyut aktifse 'Supercharged' duruma geçip bonus yığın kazanır."
-    ],
-    "idealCounters": [
-      "shuri",
-      "nickfury",
-      "ghost",
-      "warlock"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "americachavez",
+      "bossNodes": [
+        "Paralel Boyutlar: America Chavez, Heavy Attack sırasında Special başlatarak Ütopik Paralel, Karanlık Boyut veya Negatif Bölge boyutlarından birini 30 saniyeliğine aktive eder; sırasıyla düşmanın Fury/Armor Up/Precision/Cruelty potency'sini %70 azaltır, alınan hasarın %40'ını enerji hasarı olarak geri yansıtır veya düşmanın güç kazanım hızını %60 düşürür.",
+        "Buff Tersine Çevirme: Saldırgan üzerindeki her aktif buff, America Chavez'in Attack Rating ve Enerji Direncini artırır; eğer bu buff'lar Fury, Armor Up, Precision veya Cruelty ise etkileri tamamen tersine çevrilip onun lehine işler - kendi kendine buff veren şampiyonlar bu boss'ta risklidir.",
+        "Yıldız Portalı (Star Portal): Special 2'nin son 3 vuruşunda ek bir Big Bang Boyutu portalı açılır ve vuruş hasarının %50'si kadar ekstra enerji patlama hasarı uygular; 3'ten fazla benzersiz boyut aktifse 'Supercharged' duruma geçip bonus yığın kazanır."
+      ],
+      "idealCounters": [
+        "shuri",
+        "nickfury",
+        "ghost",
+        "warlock"
+      ]
+    }
+  ]
 }

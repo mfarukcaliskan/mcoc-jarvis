@@ -21,7 +21,8 @@
         "spidermansupreme",
         "karnak",
         "colossus"
-      ]
+      ],
+      "leadsToBoss": "mordo"
     },
     {
       "pathLetter": "B",
@@ -36,28 +37,31 @@
         "mephisto",
         "dormammu",
         "loki"
-      ]
+      ],
+      "leadsToBoss": "mordo"
     }
   ],
-  "boss": {
-    "championId": "mordo",
-    "bossNodes": [
-      "Spite (Kötü Niyet) - Saldırganın üzerinde aktif bir buff varken Mordo çok hızlı güç kazanır.",
-      "Hurt Locker - Aynı özel saldırıyı art arda iki kez kullanmak ağır şekilde cezalandırılır.",
-      "Gelişmiş Hiddet (Enhanced Fury) ve Gelişmiş Özel 1 - güç kazanımı aktifken vurulursa bu kazanım kesintiye uğrar.",
-      "Siper aldığınızda Mordo doğrudan karşı saldırı (Astral Evade) yapar ve pasif güç kazanır.",
-      "Doctor Doom (Solo): Mordo siperliyken (Stun altındayken) Doom'un hafif ve orta saldırıları Astral Evade tetiklemez; ayrıca SP3 çevrimi ile gücünü sürekli çalabilirsiniz. White Magneto (Dövüş Öncesi/Pre-fight): Dövüş öncesi yeteneği aktif edilirse Mordo'ya atılan Siperler 'Pasif Sersemletme'ye dönüşür ve Astral Evade yeteneği tamamen devre dışı kalır. Diğer alternatifler: Human Torch (alev yükleriyle eritir), Spider-Ham (özel saldırı attıkça kendini patlatır) ve Hercules (ölümsüzlük)."
-    ],
-    "idealCounters": [
-      "doctordoom",
-      "magnetomarvelnow",
-      "humantorch",
-      "spiderham",
-      "hercules",
-      "spidergwen",
-      "shehulk",
-      "archangel",
-      "void"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "mordo",
+      "bossNodes": [
+        "Spite (Kötü Niyet) - Saldırganın üzerinde aktif bir buff varken Mordo çok hızlı güç kazanır.",
+        "Hurt Locker - Aynı özel saldırıyı art arda iki kez kullanmak ağır şekilde cezalandırılır.",
+        "Gelişmiş Hiddet (Enhanced Fury) ve Gelişmiş Özel 1 - güç kazanımı aktifken vurulursa bu kazanım kesintiye uğrar.",
+        "Siper aldığınızda Mordo doğrudan karşı saldırı (Astral Evade) yapar ve pasif güç kazanır.",
+        "Doctor Doom (Solo): Mordo siperliyken (Stun altındayken) Doom'un hafif ve orta saldırıları Astral Evade tetiklemez; ayrıca SP3 çevrimi ile gücünü sürekli çalabilirsiniz. White Magneto (Dövüş Öncesi/Pre-fight): Dövüş öncesi yeteneği aktif edilirse Mordo'ya atılan Siperler 'Pasif Sersemletme'ye dönüşür ve Astral Evade yeteneği tamamen devre dışı kalır. Diğer alternatifler: Human Torch (alev yükleriyle eritir), Spider-Ham (özel saldırı attıkça kendini patlatır) ve Hercules (ölümsüzlük)."
+      ],
+      "idealCounters": [
+        "doctordoom",
+        "magnetomarvelnow",
+        "humantorch",
+        "spiderham",
+        "hercules",
+        "spidergwen",
+        "shehulk",
+        "archangel",
+        "void"
+      ]
+    }
+  ]
 }

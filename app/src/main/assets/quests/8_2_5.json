@@ -19,7 +19,8 @@
         "vulture",
         "phoenix",
         "colossus"
-      ]
+      ],
+      "leadsToBoss": "peniparker"
     },
     {
       "pathLetter": "B",
@@ -35,20 +36,23 @@
         "greengoblin",
         "doctoroctopus",
         "ironmaninfinitywar"
-      ]
+      ],
+      "leadsToBoss": "peniparker"
     }
   ],
-  "boss": {
-    "championId": "peniparker",
-    "bossNodes": [
-      "Senkron Kalkan (Sync-Shield): Peni, rakibin saldırı gücüne bağlı bir kalkanla fighta başlar; bloklanan veya oto-bloklanan darbelerde hasarın %100'üne kadarını kalkan emer.",
-      "Örümcek Sezgisi (Spider-Sense) ve Kızdırma Hasarı: Vuruş yediğinde şarj tüketerek Sersemletme debuff'larını temizler ve 2 saniyeliğine %100 oto-blok kazanır; hasarının büyük kısmı SP2'deki Kızdırma (Incinerate) patlamalarından gelir, bu yüzden Blok Edilemez saldırılar oto-bloğu bypass eder."
-    ],
-    "idealCounters": [
-      "ghost",
-      "quake",
-      "humantorch",
-      "warlock"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "peniparker",
+      "bossNodes": [
+        "Senkron Kalkan (Sync-Shield): Peni, rakibin saldırı gücüne bağlı bir kalkanla fighta başlar; bloklanan veya oto-bloklanan darbelerde hasarın %100'üne kadarını kalkan emer.",
+        "Örümcek Sezgisi (Spider-Sense) ve Kızdırma Hasarı: Vuruş yediğinde şarj tüketerek Sersemletme debuff'larını temizler ve 2 saniyeliğine %100 oto-blok kazanır; hasarının büyük kısmı SP2'deki Kızdırma (Incinerate) patlamalarından gelir, bu yüzden Blok Edilemez saldırılar oto-bloğu bypass eder."
+      ],
+      "idealCounters": [
+        "ghost",
+        "quake",
+        "humantorch",
+        "warlock"
+      ]
+    }
+  ]
 }

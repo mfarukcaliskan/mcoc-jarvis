@@ -18,7 +18,8 @@
         "corvusglaive",
         "sersi",
         "thena"
-      ]
+      ],
+      "leadsToBoss": "ikaris"
     },
     {
       "pathLetter": "B",
@@ -33,21 +34,24 @@
         "magneto",
         "cyclops",
         "colossus"
-      ]
+      ],
+      "leadsToBoss": "ikaris"
     }
   ],
-  "boss": {
-    "championId": "ikaris",
-    "bossNodes": [
-      "Meteor Yağmuru (Special 1): Kozmik enerjiyle yüklenen yumruk serisinin her vuruşu düşmana 3 ayrı Kızdırma (Incinerate) debuff'ı uygular; Ikaris'in kendisi Kızdırma ve Şok'a bağışıklıdır ve Zehir hasarını %20 azaltır.",
-      "Enerjilenme (Energize) Yığınları ve Engellenemezlik: 10 Enerjilenme buff'ına ulaştığında Special 2 sırasında 8 saniyeliğine Engellenemez (Unblockable) buff kazanır; bu pencerede bloklama işe yaramaz, dodge/parry zamanlaması şarttır.",
-      "Ebedi Yıkım (Special 3 - Eternal Destruction): Saldırganı havaya sürükleyip yere çakan bir Gerçek Hasar (True Damage) saldırısıdır; Ikaris üzerindeki her benzersiz buff için ek Attack Rating bonusu kazanarak hasarını katlar."
-    ],
-    "idealCounters": [
-      "rintrah",
-      "wiccan",
-      "kushala",
-      "doctorvoodoo"
-    ]
-  }
+  "bosses": [
+    {
+      "championId": "ikaris",
+      "bossNodes": [
+        "Meteor Yağmuru (Special 1): Kozmik enerjiyle yüklenen yumruk serisinin her vuruşu düşmana 3 ayrı Kızdırma (Incinerate) debuff'ı uygular; Ikaris'in kendisi Kızdırma ve Şok'a bağışıklıdır ve Zehir hasarını %20 azaltır.",
+        "Enerjilenme (Energize) Yığınları ve Engellenemezlik: 10 Enerjilenme buff'ına ulaştığında Special 2 sırasında 8 saniyeliğine Engellenemez (Unblockable) buff kazanır; bu pencerede bloklama işe yaramaz, dodge/parry zamanlaması şarttır.",
+        "Ebedi Yıkım (Special 3 - Eternal Destruction): Saldırganı havaya sürükleyip yere çakan bir Gerçek Hasar (True Damage) saldırısıdır; Ikaris üzerindeki her benzersiz buff için ek Attack Rating bonusu kazanarak hasarını katlar."
+      ],
+      "idealCounters": [
+        "rintrah",
+        "wiccan",
+        "kushala",
+        "doctorvoodoo"
+      ]
+    }
+  ]
 }
