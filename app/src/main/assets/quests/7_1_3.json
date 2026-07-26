@@ -39,6 +39,78 @@
         "loki"
       ],
       "leadsToBoss": "visionaarkus"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Star-Lord Hattı - Hulkbuster Yolu):",
+        "• Karo Açıklaması: Mesmerize, Dizzy ve Stun Vulnerability karoları etkindir; yol Kaçınma (Evade) mekaniğine dayalı savunmacılardan oluşur.",
+        "• Strateji: Yol dövüşleri: Star-Lord → Spider-Man → Elsa Bloodstone → Spider-Man (Symbiote) → Ronin → Namor. Venom, Spider-Man'e karşı etkilidir; Elsa Bloodstone'a karşı Iceman gibi bir mutant (Coldsnap ile kaçınmayı engeller) önerilir; diğer dövüşlerde parry-kombo ile True Strike'ı tetikleyene kadar ilerleyen Killmonger iyi çalışır."
+      ],
+      "defenders": [
+        "starlord",
+        "spiderman",
+        "elsabloodstone",
+        "spidermansymbiote",
+        "ronin",
+        "namor"
+      ],
+      "leadsToBoss": "hulkbuster"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Black Widow Hattı - Hulkbuster Yolu):",
+        "• Karo Açıklaması: Crumbling Armor, The Gloves Are Off, Kinetic Transference 1 ve Heal Block karoları etkindir.",
+        "• Strateji: Yol dövüşleri: Black Widow → Cyclops (New Xavier School) → Spider-Gwen → Rogue → Spider-Man (Stark Enhanced) → Hit-Monkey. Archangel, ağır saldırı spam'iyle Black Widow/Cyclops/Hit-Monkey'e karşı üstündür; Venom örümcek temalı savunmacıları halleder; Rogue'a karşı Hulkbuster'ın kendisi eşleşme avantajı sayesinde iyi bir seçimdir."
+      ],
+      "defenders": [
+        "blackwidow",
+        "cyclops",
+        "spidergwen",
+        "rogue",
+        "spidermanstarkenhanced",
+        "hitmonkey"
+      ],
+      "leadsToBoss": "hulkbuster"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Black Bolt Hattı - Red Hulk Yolu):",
+        "• Karo Açıklaması: Life Transfer, Gimme, Redouble Determination ve Spectre karoları etkindir; Gimme karosu doğru kullanıldığında can yenileme avantajı sağlayabilir, Spectre debuff'ını görmezden gelebilen şampiyonlar İyileşmeyi Tersine Çevirme (Heal Reversal) komplikasyonlarından kurtulur.",
+        "• Strateji: Yol dövüşleri: Black Bolt → Aegon → Rocket Raccoon → Nova → Squirrel Girl → Mojo. Void, Doctor Strange ve Cable gibi rakiplerin gücünü etkili şekilde kilitler."
+      ],
+      "defenders": [
+        "blackbolt",
+        "aegon",
+        "rocketraccoon",
+        "nova",
+        "squirrelgirl",
+        "mojo"
+      ],
+      "leadsToBoss": "redhulk"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol F (Sentry Hattı - Red Hulk Yolu):",
+        "• Karo Açıklaması: Special Connoisseur, Mutant Mastery ve Shifting Immunity (Kanama & Zehir) karoları etkindir.",
+        "• Strateji: Yol dövüşleri: Sentry → Black Panther (Civil War) → She-Hulk → Thor (Ragnarok) → Jane Foster → Venompool. Kanama/Zehir dışı debuff'lar uygulayan mutant şampiyonlara öncelik verin; Sunspot, sürekli Yanma (Incinerate) debuff'ları ve yüksek özel saldırı hasarıyla yolu domine eder."
+      ],
+      "defenders": [
+        "sentry",
+        "blackpanthercivilwar",
+        "shehulk",
+        "thorragnarok",
+        "thorjanefoster",
+        "venompool"
+      ],
+      "leadsToBoss": "redhulk"
     }
   ],
   "bosses": [
@@ -55,6 +127,29 @@
         "humantorch",
         "corvusglaive"
       ]
+    },
+    {
+      "championId": "hulkbuster",
+      "bossNodes": [
+        "+%150 Saldırı, +%500 Can - Hulkbuster diğer 7.1.3 bosslarına göre çok daha yüksek temel istatistiklerle başlar.",
+        "Hit Me I Dare You & Spiked Armor - Kritik vuruşlar Şok (Shock) debuff'ı tetikler ve bu debuff'lar ilk uygulamadan sonra katlanarak artar, zırh etkileşimleriyle birleşince ciddi hasara yol açar.",
+        "Shockingly Brilliant & Dulled - Dulled karosu saldırganın kritik ihtimalini düşürür, bu da beklenmedik şekilde Şok yığılmasını yavaşlatarak bir avantaja dönüşebilir."
+      ],
+      "idealCounters": [
+        "void",
+        "venom",
+        "hyperion",
+        "angela",
+        "medusa"
+      ]
+    },
+    {
+      "championId": "redhulk",
+      "bossNodes": [
+        "+%150 Saldırı, +%500 Can - Red Hulk yüksek temel istatistiklerle başlasa da 7.1.3'ün en kolay bossu kabul edilir.",
+        "Defective Defense, Buffet, Power Focus 1, Foresight - Bloklanan vuruşları en aza indirip özel saldırı döngüsüyle ilerlemek gerekir; Buffet karosu gereksiz buff biriktiren şampiyonları cezalandırdığı için buff ağırlıklı şampiyonlardan kaçının."
+      ],
+      "idealCounters": []
     }
   ]
 }
