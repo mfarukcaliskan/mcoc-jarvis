@@ -10,33 +10,31 @@
       "pathLetter": "A",
       "isEasiest": true,
       "pathNodes": [
-        "Yol A (Kadraj Yolu - En Kolay Yol, Void Ara Patronu):",
-        "• Karo Açıklaması: Spider-Man (Miles Morales), Psylocke ve Quake ile karşılaşılır; yol sonunda ara patron Void bulunur. Void'in hasar patlamaları saldırgan üzerindeki Kanama yığın sayısına göre ölçeklenir ve her 10 vuruşta bir üzerindeki debuff'ları temizler.",
+        "Yol A (Kadraj Yolu - En Kolay Yol, Void Boss'una Çıkar):",
+        "• Karo Açıklaması: Spider-Man (Miles Morales), Psylocke ve Quake ile karşılaşılır; yolun sonunda bu quest'in 3 alternatif final boss'undan biri olan Void beklemektedir. Void'in hasar patlamaları saldırgan üzerindeki Kanama yığın sayısına göre ölçeklenir ve her 10 vuruşta bir üzerindeki debuff'ları temizler.",
         "• Strateji: Yol dövüşleri: Spider-Man (Miles Morales) → Psylocke → Quake → Void. Kanama yığınlarını gereksiz büyütmeyin (Void'in patlama hasarını artırır); Nick Fury veya Mole Man gibi debuff temizlenmesinden bağımsız çalışan şampiyonlarla ilerleyin."
       ],
       "defenders": [
         "spidermanmilesmorales",
         "psylocke",
-        "quake",
-        "void"
+        "quake"
       ],
-      "leadsToBoss": "dragonman"
+      "leadsToBoss": "void"
     },
     {
       "pathLetter": "B",
       "isEasiest": false,
       "pathNodes": [
-        "Yol B (Kalıcılık Yolu - Zorlu Alternatif Yol, Platinumpool Ara Patronu):",
-        "• Karo Açıklaması: Ghost Rider, Captain America (Infinity War) ve Aegon ile karşılaşılır; yol sonunda ara patron Platinumpool bulunur. Platinumpool, 30 saniye içinde 10 veya daha fazla debuff uygulanmadığı veya saf (True) hasar alınmadığı sürece kendini sürekli yeniler.",
+        "Yol B (Kalıcılık Yolu - Zorlu Alternatif Yol, Platinumpool Boss'una Çıkar):",
+        "• Karo Açıklaması: Ghost Rider, Captain America (Infinity War) ve Aegon ile karşılaşılır; yolun sonunda bu quest'in 3 alternatif final boss'undan biri olan Platinumpool beklemektedir. Platinumpool, 30 saniye içinde 10 veya daha fazla debuff uygulanmadığı veya saf (True) hasar alınmadığı sürece kendini sürekli yeniler.",
         "• Strateji: Yol dövüşleri: Ghost Rider → Captain America (Infinity War) → Aegon → Platinumpool. Kısa sürede çok sayıda debuff uygulayabilen (Guillotine 2099, Human Torch, Abomination Immortal) veya saf hasar veren şampiyonlarla yenilenme döngüsünü kırın."
       ],
       "defenders": [
         "ghostrider",
         "captainamericaiw",
-        "aegon",
-        "platinumpool"
+        "aegon"
       ],
-      "leadsToBoss": "dragonman"
+      "leadsToBoss": "platinumpool"
     }
   ],
   "bosses": [
@@ -51,6 +49,31 @@
         "blackwidowclairevoyant",
         "sunspot",
         "doctordoom"
+      ]
+    },
+    {
+      "championId": "void",
+      "bossNodes": [
+        "Kanama Ölçekli Patlama: Void'in hasar patlamaları saldırgan üzerindeki Kanama yığın sayısına göre ölçeklenir - Kanama yığınlarını gereksiz büyütmek boss'u tehlikeli hale getirir.",
+        "Debuff Temizleme: Her 10 vuruşta bir üzerindeki debuff'ları temizler; debuff temizlenmesinden bağımsız çalışan (True Strike tabanlı) şampiyonlar tercih edilmelidir."
+      ],
+      "idealCounters": [
+        "nickfury",
+        "moleman",
+        "elsabloodstone"
+      ]
+    },
+    {
+      "championId": "platinumpool",
+      "bossNodes": [
+        "Sürekli Yenilenme: 30 saniye içinde 10 veya daha fazla debuff uygulanmadığı ya da saf (True) hasar alınmadığı sürece kendini sürekli yeniler; kısa sürede çok sayıda debuff uygulayabilen veya saf hasar veren şampiyonlarla bu döngü kırılmalıdır."
+      ],
+      "idealCounters": [
+        "nickfury",
+        "abominationimmortal",
+        "sunspot",
+        "humantorch",
+        "captainamericaiw"
       ]
     }
   ]

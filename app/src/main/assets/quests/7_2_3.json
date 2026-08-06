@@ -10,33 +10,31 @@
       "pathLetter": "A",
       "isEasiest": true,
       "pathNodes": [
-        "Yol A (Kızıl Kaplan Yolu - En Kolay Yol, Hit-Monkey Ara Patronu):",
-        "• Karo Açıklaması: Hulk (Ragnarok), Proxima Midnight ve Squirrel Girl ile karşılaşılır; yol sonunda ara patron Hit-Monkey bulunur. Hit-Monkey'nin ağır vuruşu hem kendi hem saldırganın Saldırı Gücünü %500 artırır ve ağır vuruş sonrası bir sonraki parry'yi silkeler.",
+        "Yol A (Kızıl Kaplan Yolu - En Kolay Yol, Hit-Monkey Boss'una Çıkar):",
+        "• Karo Açıklaması: Hulk (Ragnarok), Proxima Midnight ve Squirrel Girl ile karşılaşılır; yolun sonunda bu quest'in 3 alternatif final boss'undan biri olan Hit-Monkey beklemektedir.",
         "• Strateji: Yol dövüşleri: Hulk (Ragnarok) → Proxima Midnight → Squirrel Girl → Hit-Monkey. Hit-Monkey'nin ağır vuruşundan hemen sonra parry denemeyin (silkelenir); onun yerine bekleyip normal blok/parry döngüsüne dönün, güçlü vurucu şampiyonlarla hızlı bitirin."
       ],
       "defenders": [
         "hulkragnarok",
         "proximamidnight",
-        "squirrelgirl",
-        "hitmonkey"
+        "squirrelgirl"
       ],
-      "leadsToBoss": "venomtheduck"
+      "leadsToBoss": "hitmonkey"
     },
     {
       "pathLetter": "B",
       "isEasiest": false,
       "pathNodes": [
-        "Yol B (Örümcek Çetesi Yolu - Zorlu Alternatif Yol, Punisher 2099 Ara Patronu):",
-        "• Karo Açıklaması: Spider-Gwen, Corvus Glaive ve Night Thrasher ile karşılaşılır; yol sonunda ara patron Punisher 2099 bulunur. Punisher 2099'a karşı en verimli yaklaşım sürekli Özel Saldırı 1 spamlamaktır, ancak bloklanan vuruşlarının blok hasarı yüksektir ve iyi yönetilmezse can kaybı hızlanır.",
-        "• Strateji: Yol dövüşleri: Spider-Gwen → Corvus Glaive → Night Thrasher → Punisher 2099. Punisher 2099'a karşı Özel Saldırı 1'i mümkün olduğunca sık kullanın, blok hasarını azaltmak için Gerçek Vuruş veya yüksek blok yeteneği olan şampiyonlar (Guardian, Guillotine 2099, Nick Fury) tercih edin."
+        "Yol B (Örümcek Çetesi Yolu - Zorlu Alternatif Yol, Punisher 2099 Boss'una Çıkar):",
+        "• Karo Açıklaması: Spider-Gwen, Corvus Glaive ve Night Thrasher ile karşılaşılır; yolun sonunda bu quest'in 3 alternatif final boss'undan biri olan Punisher 2099 beklemektedir.",
+        "• Strateji: Yol dövüşleri: Spider-Gwen → Corvus Glaive → Night Thrasher → Punisher 2099. Özel Saldırı 1'i mümkün olduğunca sık kullanın, blok hasarını azaltmak için Gerçek Vuruş veya yüksek blok yeteneği olan şampiyonlar (Guardian, Guillotine 2099, Nick Fury) tercih edin."
       ],
       "defenders": [
         "spidergwen",
         "corvusglaive",
-        "nightthrasher",
-        "punisher2099"
+        "nightthrasher"
       ],
-      "leadsToBoss": "venomtheduck"
+      "leadsToBoss": "punisher2099"
     }
   ],
   "bosses": [
@@ -52,6 +50,31 @@
         "moleman",
         "hitmonkey",
         "corvusglaive"
+      ]
+    },
+    {
+      "championId": "hitmonkey",
+      "bossNodes": [
+        "Saldırı Paylaşımı: Ağır vuruşu hem kendi hem saldırganın Saldırı Gücünü %500 artırır.",
+        "Parry Silkeleme: Ağır vuruş sonrası bir sonraki parry girişimi silkelenir - hemen parry denemek yerine normal blok/parry döngüsüne dönmek gerekir."
+      ],
+      "idealCounters": [
+        "void",
+        "apocalypse",
+        "stormpyramidx"
+      ]
+    },
+    {
+      "championId": "punisher2099",
+      "bossNodes": [
+        "Özel Saldırı 1 Baskısı: En verimli yaklaşımı sürekli Özel Saldırı 1 spamlamaktır; ancak bloklanan vuruşlarının blok hasarı yüksektir ve iyi yönetilmezse saldırganın canı hızla erir."
+      ],
+      "idealCounters": [
+        "guardian",
+        "guillotine2099",
+        "nickfury",
+        "spidermanstarkenhanced",
+        "archangel"
       ]
     }
   ]

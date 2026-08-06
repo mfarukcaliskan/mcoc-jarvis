@@ -10,33 +10,31 @@
       "pathLetter": "A",
       "isEasiest": true,
       "pathNodes": [
-        "Yol A (Ördek Devriyesi Yolu - En Kolay Yol, Abomination (Immortal) Ara Patronu):",
-        "• Karo Açıklaması: Howard the Duck, Cull Obsidian ve Rocket Raccoon ile karşılaşılır; yol sonunda ara patron Abomination (Immortal) bulunur. Zehir bağışıklığı şarttır; ayrıca Meltdown (Erime) debuff'ının doğru zamanlamayla uygulanması Abomination'ın kalıcı yeniden dirilme mekaniğini aşmak için kritik önemdedir.",
-        "• Strateji: Yol dövüşleri: Howard the Duck → Cull Obsidian → Rocket Raccoon → Abomination (Immortal). Zehir bağışıklığı yüksek (Guillotine 2099, Red Hulk) şampiyonlar getirin; Abomination'a karşı Meltdown'ı can barı sıfıra yaklaşırken tetikleyerek kalıcı ölümünü garantileyin."
+        "Yol A (Ördek Devriyesi Yolu - En Kolay Yol, Abomination (Immortal) Boss'una Çıkar):",
+        "• Karo Açıklaması: Howard the Duck, Cull Obsidian ve Rocket Raccoon ile karşılaşılır; yolun sonunda bu quest'in 3 alternatif final boss'undan biri olan Abomination (Immortal) beklemektedir. Zehir bağışıklığı şarttır; Meltdown (Erime) debuff'ının doğru zamanlamayla uygulanması kalıcı yeniden dirilme mekaniğini aşmak için kritik önemdedir.",
+        "• Strateji: Yol dövüşleri: Howard the Duck → Cull Obsidian → Rocket Raccoon → Abomination (Immortal). Zehir bağışıklığı yüksek (Guillotine 2099, Red Hulk) şampiyonlar getirin; Meltdown'ı can barı sıfıra yaklaşırken tetikleyerek kalıcı ölümü garantileyin."
       ],
       "defenders": [
         "howardtheduck",
         "cullobsidian",
-        "rocketraccoon",
-        "abominationimmortal"
+        "rocketraccoon"
       ],
-      "leadsToBoss": "manthing"
+      "leadsToBoss": "abominationimmortal"
     },
     {
       "pathLetter": "B",
       "isEasiest": false,
       "pathNodes": [
-        "Yol B (Enerji Fırtınası Yolu - Zorlu Alternatif Yol, Nova Ara Patronu):",
-        "• Karo Açıklaması: Beast, Warlock ve Falcon ile karşılaşılır; yol sonunda ara patron Nova bulunur. Nova Metal sınıfı bir şampiyondur ve güç kazancına bağlı buff mekanizmaları taşır; saldırganın kendi güç birikimini kontrol etmesi gerekir.",
+        "Yol B (Enerji Fırtınası Yolu - Zorlu Alternatif Yol, Nova Boss'una Çıkar):",
+        "• Karo Açıklaması: Beast, Warlock ve Falcon ile karşılaşılır; yolun sonunda bu quest'in 3 alternatif final boss'undan biri olan Nova beklemektedir. Nova Metal sınıfı bir şampiyondur ve güç kazancına bağlı buff mekanizmaları taşır.",
         "• Strateji: Yol dövüşleri: Beast → Warlock → Falcon → Nova. Metal sınıfı şampiyon getirmekten kaçının; Doctor Doom, Magneto veya Human Torch gibi güç yönetimini iyi kontrol eden şampiyonlarla ilerleyin."
       ],
       "defenders": [
         "beast",
         "warlock",
-        "falcon",
-        "nova"
+        "falcon"
       ],
-      "leadsToBoss": "manthing"
+      "leadsToBoss": "nova"
     }
   ],
   "bosses": [
@@ -52,6 +50,32 @@
         "abominationimmortal",
         "shehulk",
         "hulkimmortal"
+      ]
+    },
+    {
+      "championId": "abominationimmortal",
+      "bossNodes": [
+        "Zehir Zorunluluğu: Zehir bağışıklığı olmayan saldırganlar ciddi dezavantajlıdır.",
+        "Meltdown (Erime): Bu debuff'ın can barı sıfıra yaklaşırken doğru zamanlamayla uygulanması, Abomination'ın kalıcı yeniden dirilme (revival) mekaniğini aşmak için kritik önemdedir - zamanlaması yanlış yapılırsa boss kendini diriltebilir."
+      ],
+      "idealCounters": [
+        "guillotine2099",
+        "redhulk",
+        "hulkimmortal",
+        "ghost"
+      ]
+    },
+    {
+      "championId": "nova",
+      "bossNodes": [
+        "Metal Sınıfı: Nova bu dövüşte Metal sınıfı bir şampiyon olarak karşılaşılır.",
+        "Güç Bağımlı Buff'lar: Saldırganın kendi güç birikimini kontrol etmesini gerektiren buff mekanizmaları taşır; kontrolsüz güç toplama Nova'yı güçlendirebilir."
+      ],
+      "idealCounters": [
+        "doctordoom",
+        "magneto",
+        "humantorch",
+        "void"
       ]
     }
   ]
