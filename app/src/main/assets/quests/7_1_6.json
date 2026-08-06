@@ -39,6 +39,78 @@
         "killmonger"
       ],
       "leadsToBoss": "icephoenix"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Spider-Sense Hattı - Spider-Witch Yolu):",
+        "• Karo Açıklaması: Spider-Witch boss'una çıkan iki hattan biri; Staggering Beauty karosu savunmacıya yaklaşan saldırganı periyodik olarak bir sonraki buff'ını etkisizleştiren bir Stagger debuff'ıyla cezalandırır.",
+        "• Strateji: Yol dövüşleri: Ebony Maw → Mister Sinister → Scarlet Witch → Venompool → Doctor Doom → Archangel. Savunmacıya çok yakın durmaktan kaçının, Stagger birikimini uzak mesafede eritin."
+      ],
+      "defenders": [
+        "ebonymaw",
+        "mistersinister",
+        "scarletwitch",
+        "venompool",
+        "doctordoom",
+        "archangel"
+      ],
+      "leadsToBoss": "spiderwitch"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Zorlu Alternatif - Spider-Witch Diğer Yolu):",
+        "• Karo Açıklaması: Yol C ile aynı Spider-Witch mekanikleri geçerlidir (Spider-Sense şarjları, Power Buildup/Overflow, kritik vuruşta rastgele buff/debuff tetikleme).",
+        "• Strateji: Yol dövüşleri: Sunspot → Ms. Marvel (Carol Danvers) → She-Hulk → Aegon → Nebula → Doctor Strange. Bilim (Science) sınıfı saldırganlar Spider-Witch'in Mystic sınıf zayıflığından faydalanır."
+      ],
+      "defenders": [
+        "sunspot",
+        "msmarvel",
+        "shehulk",
+        "aegon",
+        "nebula",
+        "doctorstrange"
+      ],
+      "leadsToBoss": "spiderwitch"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Selective Timestream Hattı - Gwenperion Yolu):",
+        "• Karo Açıklaması: Gwenperion boss'una çıkan iki hattan biri; +%150 Saldırı, +%500 Can ile başlar, High Energy Diet karosu enerji tipi saldırılara karşı savunmacıyı neredeyse bağışık kılar (hatta bazı durumlarda iyileştirir).",
+        "• Strateji: Yol dövüşleri: Drax → Blade → Hulk → Guillotine → Night Thrasher → Captain America. Enerji hasarına aşırı güvenmeyin; fiziksel/temas tabanlı hasar tercih edin."
+      ],
+      "defenders": [
+        "drax",
+        "blade",
+        "hulk",
+        "guillotine",
+        "nightthrasher",
+        "captainamerica"
+      ],
+      "leadsToBoss": "gwenperion"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol F (Zorlu Alternatif - Gwenperion Diğer Yolu):",
+        "• Karo Açıklaması: Yol E ile aynı Gwenperion mekanikleri geçerlidir (Selective Timestream, Indomitable, Power Buildup/Overflow).",
+        "• Strateji: Yol dövüşleri: Ronan → Longshot → Nick Fury → Human Torch → Elsa Bloodstone → Morningstar. Şok (Shock) veya Yanma (Incinerate) tipi debuff'lar Selective Timestream'in can yenilemesini engelleyebilir."
+      ],
+      "defenders": [
+        "ronan",
+        "longshot",
+        "nickfury",
+        "humantorch",
+        "elsabloodstone",
+        "morningstar"
+      ],
+      "leadsToBoss": "gwenperion"
     }
   ],
   "bosses": [
@@ -55,6 +127,41 @@
         "corvusglaive",
         "warlock",
         "silversurfer"
+      ]
+    },
+    {
+      "championId": "spiderwitch",
+      "bossNodes": [
+        "Spider-Sense: Dövüşe 1 şarj Spider-Sense ile başlar (azami 5); her şarj Saldırı Gücü artışı ve %7 Kaçınma (Evade) şansı verir; saldırgan 5 kez vurduğunda savunmacı 1 şarj daha kazanır.",
+        "Staggering Beauty: Savunmacıya yakın kalan saldırgan her 3 saniyede bir sonraki buff'ını etkisizleştiren bir Stagger debuff'ı kazanır; uzak durulduğunda bu yığınlar zamanla düşer.",
+        "Güç Birikimi / Taşması (Power Buildup/Overflow): Savunmacı 2 güç barına ulaştığında her 2 saniyede bir kalıcı Prowess buff'ı (özel saldırı hasarını %100 artıran) kazanır; 10 veya daha fazla Prowess biriktiğinde özel saldırılar Bloklanamaz hale gelir.",
+        "Kaos Büyüsü: Her iki taraf için de kritik vuruş gerçekleştiğinde belirli bir ihtimalle rastgele 0-8 buff/debuff üretir - bu yüzden dövüş öngörülemez hale gelebilir."
+      ],
+      "idealCounters": [
+        "ghost",
+        "redhulk",
+        "humantorch",
+        "void",
+        "captainamerica"
+      ]
+    },
+    {
+      "championId": "gwenperion",
+      "bossNodes": [
+        "+%150 Saldırı, +%500 Can - Gwenperion diğer 7.1.6 bosslarına göre çok daha yüksek temel istatistiklerle başlar.",
+        "Selective Timestream: Her 20 saniyede bir savunmacının canı anında tamamen yenilenir ve üzerindeki tüm debuff'lar temizlenir; bu etki Şok (Shock) veya Yanma (Incinerate) debuff'ları aktifken durdurulabilir.",
+        "High Energy Diet: Savunmacı enerji tipi saldırılardan %99 daha az hasar alır, hatta bu saldırılar savunmacıyı iyileştirebilir; Şok/Yanma/Donma (Coldsnap) debuff'ı altındayken her 10 saniyede bir güç barının tamamını kazanır.",
+        "Güç Birikimi / Taşması (Power Buildup/Overflow): 2 güç barına ulaştığında her 2 saniyede bir kalıcı Prowess buff'ı kazanır (özel saldırı hasarını %100 artırır); 10 veya daha fazla Prowess biriktiğinde özel saldırılar Bloklanamaz hale gelir."
+      ],
+      "idealCounters": [
+        "ronan",
+        "magneto",
+        "humantorch",
+        "sunspot",
+        "dragonman",
+        "sentinel",
+        "hyperion",
+        "warlock"
       ]
     }
   ]

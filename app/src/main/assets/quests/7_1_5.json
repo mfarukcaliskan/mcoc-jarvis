@@ -39,6 +39,78 @@
         "quake"
       ],
       "leadsToBoss": "nightcarnage"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Falter Hattı - Electro Luke Yolu):",
+        "• Karo Açıklaması: Arrogance karosu, saldırganın kombo sayacı her 10 vuruşta bir Falter (isabetsizlik) pasifiyle cezalandırır; Combo Party ise yine her 10 vuruşta saldırgana kalıcı Cruelty buff'ı (+500 Kritik Hasar) verir, ancak kombo kaybedilirse tüm Cruelty buff'ları silinir ve her biri için savunmacının saldırı gücünün %40'ı kadar direkt hasar alınır.",
+        "• Strateji: Yol dövüşleri: Mister Sinister → Ultron → Old Man Logan → Guillotine → Sabretooth → Guillotine 2099. Kombo sayacını 10'un katlarında kaybetmemeye dikkat edin; Falter penceresinde saldırıya geçmeyin."
+      ],
+      "defenders": [
+        "mistersinister",
+        "ultron",
+        "oldmanlogan",
+        "guillotine",
+        "sabretooth",
+        "guillotine2099"
+      ],
+      "leadsToBoss": "electroluke"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Zorlu Alternatif - Electro Luke Diğer Yolu):",
+        "• Karo Açıklaması: Yol C ile aynı Arrogance/Combo Party mekanikleri geçerlidir; ek olarak sınıf avantajı ve buff temizleme temelli savunmacılar bulunur.",
+        "• Strateji: Yol dövüşleri: Heimdall → Magneto → Tigra → War Machine → Magneto (House of X) → Ebony Maw. Can yenileme engelleme (Heal Block/Reversal) yeteneği olan saldırganlar (Magneto, Warlock, Archangel, Void, Doctor Voodoo, Human Torch) bu hatta özellikle etkilidir."
+      ],
+      "defenders": [
+        "heimdall",
+        "magneto",
+        "tigra",
+        "warmachine",
+        "magnetomarvelnow",
+        "ebonymaw"
+      ],
+      "leadsToBoss": "electroluke"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Energy Adoption: Ateş Hattı - Punishing Angel Yolu):",
+        "• Karo Açıklaması: Enerji Adaptasyonu: Ateş (Energy Adoption: Fire) karosu savunmacıya uygulanan yanma tipi hasarı kısmen kendi gücüne çevirir; bu yol Punishing Angel boss'una çıkan iki hattan biridir.",
+        "• Strateji: Yol dövüşleri: The Hood → Invisible Woman → Vulture → Abomination → Symbiote Supreme → Yellowjacket. Ateş tipi debuff'lara aşırı güvenmeyin, güç kazandırabilir."
+      ],
+      "defenders": [
+        "thehood",
+        "invisiblewoman",
+        "vulture",
+        "abomination",
+        "symbiotesupreme",
+        "yellowjacket"
+      ],
+      "leadsToBoss": "punishingangel"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol F (Spite Hattı - Punishing Angel Diğer Yolu):",
+        "• Karo Açıklaması: Spite karosu saldırgan hata yaptığında (blok kaçırma/iska) savunmacıyı güçlendirir.",
+        "• Strateji: Yol dövüşleri: Guardian → Hulk (Ragnarok) → Magik → Captain America (Infinity War) → Omega Red → Dormammu. Spite'ı tetiklememek için temiz blok/parry disiplinine sadık kalın."
+      ],
+      "defenders": [
+        "guardian",
+        "hulkragnarok",
+        "magik",
+        "captainamericaiw",
+        "omegared",
+        "dormammu"
+      ],
+      "leadsToBoss": "punishingangel"
     }
   ],
   "bosses": [
@@ -54,6 +126,36 @@
         "abominationimmortal",
         "thing",
         "doctordoom"
+      ]
+    },
+    {
+      "championId": "electroluke",
+      "bossNodes": [
+        "Arrogance: Saldırganın kombo sayacı her 10 vuruşta bir 3 saniyelik Falter (isabetsizlik) pasifiyle cezalandırılır; vurulduğunda Falter kalkar.",
+        "Combo Party: Yine her 10 vuruşta saldırgan kalıcı bir Cruelty buff'ı (+500 Kritik Hasar Puanı) kazanır; ancak kombo sayacı kaybedilirse tüm Cruelty buff'ları silinir ve her biri için savunmacının saldırı gücünün %40'ı kadar direkt hasar alınır."
+      ],
+      "idealCounters": [
+        "magneto",
+        "warlock",
+        "archangel",
+        "void",
+        "doctorvoodoo",
+        "humantorch"
+      ]
+    },
+    {
+      "championId": "punishingangel",
+      "bossNodes": [
+        "Merhamet (Mercy) Sistemi: Saldırgan Beceri (Dexterity) ile bir vuruştan kaçındığında sonsuz yığılabilen bir Mercy şarjı kazanır; Parry yaptığında tüm Mercy şarjları harcanır ve şarj başına 1,5 saniye boyunca savunmacı üzerine 'Mercy' etkisi yerleştirilir.",
+        "Merhametsiz Ceza: Üzerinde aktif bir Mercy etkisi olmadığı sürece Punishing Angel'a uygulanan tüm hasar %90 azalır; Mercy aktifken ise saldırganın özel saldırı hasarı %80 artar - yani stratejinin özü doğru anda büyük özel saldırı vurmaktır.",
+        "İleri Atılma Bağışıklığı: İleri atılırken (dashing forward) debuff bağışıklığı kazanır; buff ve debuff süreleri %150 daha uzun sürer."
+      ],
+      "idealCounters": [
+        "spidermanstarkenhanced",
+        "gambit",
+        "namor",
+        "quake",
+        "domino"
       ]
     }
   ]

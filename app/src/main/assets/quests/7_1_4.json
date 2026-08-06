@@ -39,6 +39,78 @@
         "redskull"
       ],
       "leadsToBoss": "hela"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Arc Overload Hattı - Weapon X Yolu):",
+        "• Karo Açıklaması: Arc Overload 2.2 karosu Tech sınıfı savunmacıya periyodik güç patlaması sağlar; Armored Assault ve Boost Buff: Armor Up 3 karoları savunmacının zırhını düzenli olarak tazeler; Critical Setup, saldırganın kritik vuruşlarını belirli bir pencerede cezalandırır.",
+        "• Strateji: Yol dövüşleri: Iron Man → Heimdall → Iron Patriot → Black Panther (Civil War) → Civil Warrior → Superior Iron Man. Armor Up tazelenmeden önce zırh kırma (armor break) uygulayın; Critical Setup'ı tetiklememek için kritik şansı düşürülmüş bir rotasyon tercih edin."
+      ],
+      "defenders": [
+        "ironman",
+        "heimdall",
+        "ironpatriot",
+        "blackpanthercivilwar",
+        "civilwarrior",
+        "superiorironman"
+      ],
+      "leadsToBoss": "weaponx"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Aspect of War Hattı - Weapon X Diğer Yolu):",
+        "• Karo Açıklaması: Aspect of War karosu savunmacıya rastgele bir savaş bonusu (saldırı/zırh/can yenileme) verir; Cage Rattler saldırganı belirli aralıklarla sersemletmeye çalışır; Stun Vulnerability sersemlemiş saldırganın aldığı hasarı artırır.",
+        "• Strateji: Yol dövüşleri: Captain America (WWII) → Iron Fist → Hulk → Captain Marvel → M.O.D.O.K. → Unstoppable Colossus. Cage Rattler'ın sersemletme girişimlerini parry ile kesin; sersemlemiş durumdayken saldırıdan kaçının."
+      ],
+      "defenders": [
+        "captainamericawwii",
+        "ironfist",
+        "hulk",
+        "captainmarvel",
+        "modok",
+        "unstoppablecolossus"
+      ],
+      "leadsToBoss": "weaponx"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Polka Dot Power Hattı - Juggernaut Yolu):",
+        "• Karo Açıklaması: Polka Dot Power karosu periyodik olarak savunmacıya rastgele bir buff paketi verir; Bleed Immunity/Highly Flammable/Poison Vulnerability karoları farklı debuff türlerine karşı savunmacıyı ya bağışık kılar ya da savunmasız bırakır.",
+        "• Strateji: Yol dövüşleri: Mordo → Moon Knight → Thing → Deadpool → Rocket Raccoon → Thor. Poison Vulnerability'den faydalanan zehir uygulayabilen saldırganlar tercih edin; Bleed/Flammable bağışıklığı olan savunmacılara karşı o debuff türlerine güvenmeyin."
+      ],
+      "defenders": [
+        "mordo",
+        "moonknight",
+        "thing",
+        "deadpool",
+        "rocketraccoon",
+        "thor"
+      ],
+      "leadsToBoss": "juggernaut"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol F (Energy Adoption Hattı - Juggernaut En Kolay Yolu):",
+        "• Karo Açıklaması: Enerji Adaptasyonu: Buz 2 (Energy Adoption: Ice 2) karosu savunmacıya uygulanan donma tipi hasarı kısmen kendi gücüne çevirir; Fortification ve Fissure karoları savunmacının zırhını/hasar direncini artırır; Armor Break Immunity zırh kırma etkilerini geçersiz kılar.",
+        "• Strateji: Yol dövüşleri: Havok → Morningstar → Iceman → Abomination → Cyclops (New Xavier School) → Mysterio. Bu yol topluluk tarafından genel olarak en yönetilebilir savunmacı kadrosuna sahip kabul edilir; Armor Break Immunity nedeniyle zırh kırma yerine ham hasara güvenin."
+      ],
+      "defenders": [
+        "havok",
+        "morningstar",
+        "iceman",
+        "abomination",
+        "cyclops",
+        "mysterio"
+      ],
+      "leadsToBoss": "juggernaut"
     }
   ],
   "bosses": [
@@ -54,6 +126,35 @@
         "symbiotesupreme",
         "blackwidowclairevoyant",
         "sorcerersupreme"
+      ]
+    },
+    {
+      "championId": "weaponx",
+      "bossNodes": [
+        "Zehir Kazancı: Wolverine (Weapon X) rakibe zehir (Poison) uyguladığında kendi Saldırı Gücünü geçici olarak büyük ölçüde artırır (topluluk kaynaklarına göre %200'e kadar) - bu yüzden zehir bağışıklığı olmayan saldırganlarla dövüşmek boss'u giderek tehlikeli hale getirir.",
+        "Bloklanamaz Hale Gelme: Belirli bir öfke/güç eşiğine ulaştığında bir sonraki özel saldırısı Bloklanamaz (Unblockable) olur; bu pencereyi intercept ile kesmek veya bağışıklıkla karşılamak gerekir.",
+        "Regenerasyon: Pençeleriyle vurduğunda can yeniler; sürekli hasar (Bleed/Poison) baskısı bu yenilenmeyi dengelemekte önemlidir."
+      ],
+      "idealCounters": [
+        "archangel",
+        "blackwidowclairevoyant",
+        "abominationimmortal",
+        "manthing",
+        "symbiotesupreme"
+      ]
+    },
+    {
+      "championId": "juggernaut",
+      "bossNodes": [
+        "Caustic Temper: Vurulduğunda %50 ihtimalle saldırgana Zehir (Poison) uygular (10 saniyede saldırganın azami canının %15'i kadar hasar); saldırganın aktif buff'ı yoksa bu durumda Juggernaut'un aldığı hasar %90 azalır - bu yüzden buff'sız oynamak felaketle sonuçlanabilir.",
+        "Rising Sun & Juke: Rising Sun periyodik olarak savunmacıyı güçlendirir; Juke saldırganın isabet oranını zaman zaman düşürür.",
+        "Bloklanamaz Özel Saldırılar (Unblockable Specials): Özel saldırıları bloklanamaz - bu yüzden intercept veya evade tabanlı savunma tercih edilmelidir."
+      ],
+      "idealCounters": [
+        "hyperion",
+        "captainamericaiw",
+        "shehulk",
+        "redhulk"
       ]
     }
   ]
