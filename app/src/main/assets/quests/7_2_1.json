@@ -10,33 +10,31 @@
       "pathLetter": "A",
       "isEasiest": true,
       "pathNodes": [
-        "Yol A (Kozmik Konsey Yolu - En Kolay Yol, Mole Man Ara Patronu):",
-        "• Karo Açıklaması: Black Bolt, Professor X ve Scarlet Witch ile karşılaşılır; yol sonunda ara patron Mole Man bulunur. Mole Man Kanama ve Sersemleme dahil tüm debuff'ları silkeleyip her silkelemede bir 'Canavar Maskesi' yığını kazanır; 20 yığına ulaştığında Çılgınlık (Frenzy) moduna girer ve bu modda Kanama'ya karşı savunmasız hale gelir.",
+        "Yol A (Kozmik Konsey Yolu - En Kolay Yol, Mole Man Boss'una Çıkar):",
+        "• Karo Açıklaması: Black Bolt, Professor X ve Scarlet Witch ile karşılaşılır; yolun sonunda bu quest'in 3 alternatif final boss'undan biri olan Mole Man beklemektedir (Not: bu quest'te MODOK tek final boss değildir - Mole Man, Magneto ve MODOK olmak üzere 3 farklı boss'a çıkan toplam 6 yol vardır; MODOK'a çıkan diğer 2 yol henüz bu veri setine eklenmemiştir).",
         "• Strateji: Yol dövüşleri: Black Bolt → Professor X → Scarlet Witch → Mole Man. Mole Man'e karşı debuff denemekten kaçının (silkeleme yığınını büyütmemek için), sadece temiz vuruşlarla hasar verin; Frenzy moduna girince Kanama uygulayabilen bir şampiyonla (Guillotine 2099, Wolverine) bitirin."
       ],
       "defenders": [
         "blackbolt",
         "professorx",
-        "scarletwitch",
-        "moleman"
+        "scarletwitch"
       ],
-      "leadsToBoss": "modok"
+      "leadsToBoss": "moleman"
     },
     {
       "pathLetter": "B",
       "isEasiest": false,
       "pathNodes": [
-        "Yol B (Manyetik Ayaklanma Yolu - Zorlu Alternatif Yol, Magneto Ara Patronu):",
-        "• Karo Açıklaması: Stryfe, Captain Marvel (Movie) ve Juggernaut ile karşılaşılır; yol sonunda ara patron Magneto bulunur. Magneto, saldırgan bir buff tetiklediğinde 'Kin (Spite)' yığını kazanır ve bu yığınlar saldırganın hasarını düşürür; ayrıca Petrifikasyon (Petrify) debuff'ı ile saldırganın Kaçınma yeteneğini geçici olarak iptal eder. Metal sınıfı şampiyonlar bu yolda ekstra dezavantajlıdır.",
+        "Yol B (Manyetik Ayaklanma Yolu - Zorlu Alternatif Yol, Magneto Boss'una Çıkar):",
+        "• Karo Açıklaması: Stryfe, Captain Marvel (Movie) ve Juggernaut ile karşılaşılır; yolun sonunda bu quest'in 3 alternatif final boss'undan biri olan Magneto beklemektedir.",
         "• Strateji: Yol dövüşleri: Stryfe → Captain Marvel (Movie) → Juggernaut → Magneto. Buff'a bağımlı olmayan (Human Torch, Captain America Infinity War gibi) şampiyonlarla ilerleyin; Metal sınıfı şampiyon getirmekten kaçının, Petrifikasyon aktifken kaçınmaya güvenmeyin."
       ],
       "defenders": [
         "stryfe",
         "captainmarvelmcu",
-        "juggernaut",
-        "magneto"
+        "juggernaut"
       ],
-      "leadsToBoss": "modok"
+      "leadsToBoss": "magneto"
     }
   ],
   "bosses": [
@@ -53,6 +51,31 @@
         "falcon",
         "angela",
         "corvusglaive"
+      ]
+    },
+    {
+      "championId": "moleman",
+      "bossNodes": [
+        "Canavar Maskesi (Monster Mass): Mole Man, üzerine uygulanan Kanama ve Sersemletme dahil tüm debuff'ları silker ve her silkelemede bir Canavar Maskesi yığını kazanır; 5 yığının altındayken veya Çılgınlık (Frenzy) aktifken parry/saldırı için en güvenli andır.",
+        "Çılgınlık (Frenzy): Canavar Maskesi yığını belirli bir eşiği (bilinen kaynaklara göre 20) aştığında bir Bloklanamaz etkisi tetiklenip Frenzy moduna girer; bu modda gelen tüm vuruşlar Garanti Kritik olur ve Mole Man artık Kanama'ya karşı savunmasızdır, ancak yığınlar 2 saniyede bir kendiliğinden düşer."
+      ],
+      "idealCounters": [
+        "guillotine2099",
+        "wolverine"
+      ]
+    },
+    {
+      "championId": "magneto",
+      "bossNodes": [
+        "Kin (Spite): Saldırgan herhangi bir buff'a sahipken Magneto saniyede %18 oranında güç kazanır (Power Flood); bu yüzden buff'a bağımlı saldırı tarzı Magneto'yu hızla güçlendirir.",
+        "Moth to the Flame & Petrifikasyon (Petrify): Vurdukça yük biriktirir, özel saldırı başlattığında bu yükler silinir; Petrify debuff'ı saldırganın Kaçınma (Evade) yeteneğini geçici olarak iptal eder.",
+        "Metal Sınıfı Cezası: Metal sınıfı saldırganlar bu dövüşte ekstra dezavantajlıdır."
+      ],
+      "idealCounters": [
+        "void",
+        "captainamericaiw",
+        "redguardian",
+        "humantorch"
       ]
     }
   ]

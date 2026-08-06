@@ -1,6 +1,6 @@
 {
-  "dataVersion": 11,
-  "generatedAt": "2026-08-06T06:21:56Z",
+  "dataVersion": 12,
+  "generatedAt": "2026-08-06T06:51:01Z",
   "files": {
     "champions_db.json": "c23c61699f25bd7b9ef0c6287f08d102e5e95ae63021e12cee426b311151af61",
     "details/abomination.json": "9308002f0a5fdfba120f71fe0b307c6752356221ff587339065d36301475bf87",
@@ -358,7 +358,7 @@
     "quests/7_1_4.json": "aa3d83953e6d7f7a58be10d156df3315cb3dc28fc383fd0d6d23cc28b6d6c62d",
     "quests/7_1_5.json": "0db69da3dbdfb61ab998d168440a47caa625a00140228d6c7637656173a6221e",
     "quests/7_1_6.json": "024de150502f0333ee93f6e279079738fd64bbdb3a9c1cd7bf3ebbbfbe3c9154",
-    "quests/7_2_1.json": "e5d38056b556afdfc134352a4855675d846706cc6a5981f68d6d4177d76df24e",
+    "quests/7_2_1.json": "0a5875cd67d832e8a2ecedd1d296fb230d8749ccc3bd6b542ac1a1ad56c9d959",
     "quests/7_2_2.json": "66d49fe3096325d54617fe7141f63193a2196ab39a4056c679141024b5e2c41a",
     "quests/7_2_3.json": "0bc8af912e0672e7b0699d2af6e54cbe3fd539292cfad114ca0df86946160ff3",
     "quests/7_2_4.json": "ef230c6cc803d1b1cc7ef3269405335693cb12c3ae38a789b49f4bb624da6db6",
