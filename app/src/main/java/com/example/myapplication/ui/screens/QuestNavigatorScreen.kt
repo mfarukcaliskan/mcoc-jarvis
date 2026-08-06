@@ -5,7 +5,9 @@ import androidx.compose.animation.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
@@ -243,43 +245,78 @@ fun QuestNavigatorScreen() {
                                 )
                                 Spacer(modifier = Modifier.height(8.dp))
 
-                                Row(
-                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
-                                ) {
-                                    quest.paths.forEach { path ->
-                                        val isSelected = path.pathLetter == selectedPathLetter
-                                        val isEasiest = path.isEasiest
-                                        
-                                        Box(
-                                            modifier = Modifier
-                                                .clip(RoundedCornerShape(12.dp))
-                                                .background(
-                                                    if (isSelected) Color(0xFFEC4899)
-                                                    else Color(0xFF334155)
-                                                )
-                                                .clickable { selectedPathLetter = path.pathLetter }
-                                                .padding(horizontal = 16.dp, vertical = 8.dp)
-                                        ) {
-                                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                val pathButton: @Composable (QuestPath) -> Unit = { path ->
+                                    val isSelected = path.pathLetter == selectedPathLetter
+                                    val isEasiest = path.isEasiest
+
+                                    Box(
+                                        modifier = Modifier
+                                            .clip(RoundedCornerShape(12.dp))
+                                            .background(
+                                                if (isSelected) Color(0xFFEC4899)
+                                                else Color(0xFF334155)
+                                            )
+                                            .clickable { selectedPathLetter = path.pathLetter }
+                                            .padding(horizontal = 16.dp, vertical = 8.dp)
+                                    ) {
+                                        Row(verticalAlignment = Alignment.CenterVertically) {
+                                            Text(
+                                                text = "Yol ${path.pathLetter}",
+                                                color = Color.White,
+                                                fontWeight = FontWeight.Bold
+                                            )
+                                            if (isEasiest) {
+                                                Spacer(modifier = Modifier.width(4.dp))
+                                                Box(
+                                                    modifier = Modifier
+                                                        .background(Color(0xFF22C55E), RoundedCornerShape(6.dp))
+                                                        .padding(horizontal = 4.dp, vertical = 2.dp)
+                                                ) {
+                                                    Text(
+                                                        text = "En Kolay",
+                                                        color = Color.White,
+                                                        fontSize = 9.sp,
+                                                        fontWeight = FontWeight.Black
+                                                    )
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                if (quest.bosses.size <= 1) {
+                                    // Tek boss'lu quest: mevcut sade tek satır görünüm, değişiklik yok.
+                                    Row(
+                                        modifier = Modifier.horizontalScroll(rememberScrollState()),
+                                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                    ) {
+                                        quest.paths.forEach { path -> pathButton(path) }
+                                    }
+                                } else {
+                                    // Çoklu boss'lu quest: yolları hangi boss'a çıktıklarına göre grupla,
+                                    // her grubun üstünde hangi boss'a gittiğini gösteren bir başlık olsun.
+                                    val grouped = quest.paths.groupBy {
+                                        it.leadsToBoss ?: quest.bosses.firstOrNull()?.championId
+                                    }
+                                    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                                        grouped.forEach { (bossId, pathsForBoss) ->
+                                            val bossChamp = ChampionRepository.champions.firstOrNull { it.id == bossId }
+                                            val bossName = bossChamp?.name
+                                                ?: bossId?.replace("_", " ")?.capitalize()
+                                                ?: "Bilinmeyen Boss"
+                                            Column {
                                                 Text(
-                                                    text = "Yol ${path.pathLetter}",
-                                                    color = Color.White,
-                                                    fontWeight = FontWeight.Bold
+                                                    text = "→ $bossName",
+                                                    color = Color(0xFF94A3B8),
+                                                    fontSize = 12.sp,
+                                                    fontWeight = FontWeight.Bold,
+                                                    modifier = Modifier.padding(bottom = 4.dp)
                                                 )
-                                                if (isEasiest) {
-                                                    Spacer(modifier = Modifier.width(4.dp))
-                                                    Box(
-                                                        modifier = Modifier
-                                                            .background(Color(0xFF22C55E), RoundedCornerShape(6.dp))
-                                                            .padding(horizontal = 4.dp, vertical = 2.dp)
-                                                    ) {
-                                                        Text(
-                                                            text = "En Kolay",
-                                                            color = Color.White,
-                                                            fontSize = 9.sp,
-                                                            fontWeight = FontWeight.Black
-                                                        )
-                                                    }
+                                                Row(
+                                                    modifier = Modifier.horizontalScroll(rememberScrollState()),
+                                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                                ) {
+                                                    pathsForBoss.forEach { path -> pathButton(path) }
                                                 }
                                             }
                                         }
