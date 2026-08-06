@@ -33,6 +33,9 @@ fun QuestNavigatorScreen() {
     var selectedActId by remember { mutableStateOf(6) }
     var selectedQuestId by remember { mutableStateOf<String?>(null) }
     var selectedPathLetter by remember { mutableStateOf("A") }
+    // Bazı yollarda (Sahne 7 Bölüm 2+) boss yola bağlı değil, oyuncu dövüşten hemen önce
+    // 3 boss arasından kendi seçer; bu durumda seçili boss'u ayrıca tutuyoruz.
+    var selectedBossChampionId by remember { mutableStateOf<String?>(null) }
     var questDetail by remember { mutableStateOf<QuestMap?>(null) }
     var isLoadingDetail by remember { mutableStateOf(false) }
 
@@ -52,9 +55,10 @@ fun QuestNavigatorScreen() {
             val result = QuestRepository.loadQuestMap(context, selectedQuestId!!)
             questDetail = result
             // Reset selected path to Easiest path or A
-            selectedPathLetter = result?.paths?.firstOrNull { it.isEasiest }?.pathLetter 
-                ?: result?.paths?.firstOrNull()?.pathLetter 
+            selectedPathLetter = result?.paths?.firstOrNull { it.isEasiest }?.pathLetter
+                ?: result?.paths?.firstOrNull()?.pathLetter
                 ?: "A"
+            selectedBossChampionId = null
             isLoadingDetail = false
         } else {
             questDetail = null
@@ -458,9 +462,50 @@ fun QuestNavigatorScreen() {
                                 }
                             }
 
+                            // Boss Seçimi - sadece yol boss'u belirlemiyorsa (leadsToBoss == null)
+                            // ve quest'te birden fazla boss varsa gösterilir (Sahne 7 Bölüm 2+ deseni).
+                            val bossIsPathIndependent = currentPath != null && currentPath.leadsToBoss == null && quest.bosses.size > 1
+                            if (bossIsPathIndependent) item {
+                                Text(
+                                    text = "Boss Seçimi",
+                                    color = Color.White,
+                                    fontSize = 16.sp,
+                                    fontWeight = FontWeight.Bold
+                                )
+                                Spacer(modifier = Modifier.height(4.dp))
+                                Text(
+                                    text = "Bu haritada boss yola bağlı değil; dövüşten hemen önce 3 boss arasından siz seçersiniz.",
+                                    color = Color(0xFF94A3B8),
+                                    fontSize = 12.sp
+                                )
+                                Spacer(modifier = Modifier.height(8.dp))
+                                Row(
+                                    modifier = Modifier.horizontalScroll(rememberScrollState()),
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                ) {
+                                    quest.bosses.forEach { boss ->
+                                        val isSelected = boss.championId == (selectedBossChampionId ?: quest.bosses.first().championId)
+                                        val bossChampChip = ChampionRepository.champions.firstOrNull { it.id == boss.championId }
+                                        val chipName = bossChampChip?.name ?: boss.championId.replace("_", " ").capitalize()
+                                        Box(
+                                            modifier = Modifier
+                                                .clip(RoundedCornerShape(12.dp))
+                                                .background(if (isSelected) Color(0xFFEC4899) else Color(0xFF334155))
+                                                .clickable { selectedBossChampionId = boss.championId }
+                                                .padding(horizontal = 16.dp, vertical = 8.dp)
+                                        ) {
+                                            Text(text = chipName, color = Color.White, fontWeight = FontWeight.Bold, fontSize = 13.sp)
+                                        }
+                                    }
+                                }
+                            }
+
                             // Boss Section
-                            val currentBoss = quest.bosses.firstOrNull { it.championId == currentPath?.leadsToBoss }
-                                ?: quest.bosses.firstOrNull()
+                            val currentBoss = if (bossIsPathIndependent) {
+                                quest.bosses.firstOrNull { it.championId == selectedBossChampionId } ?: quest.bosses.firstOrNull()
+                            } else {
+                                quest.bosses.firstOrNull { it.championId == currentPath?.leadsToBoss } ?: quest.bosses.firstOrNull()
+                            }
                             if (currentBoss != null) item {
                                 val bossChamp = ChampionRepository.champions.firstOrNull { it.id == currentBoss.championId }
                                 val bossName = bossChamp?.name ?: currentBoss.championId.replace("_", " ").capitalize()

@@ -11,14 +11,15 @@
       "pathNodes": [
         "Yol A (Eşit Şartlar Yolu - En Kolay Yol):",
         "• Karo Açıklaması: Superiority: Even Footing karosu bulunur - saldırgan savunmacıyla aynı sınıftan olduğunda her ikisi de karşılıklı bonus buff kazanır; bu yüzden sınıf avantajı burada geleneksel önemini kısmen kaybeder.",
-        "• Strateji: Yol dövüşleri: Stark Örümcek-Adam (Spider-Man) → Angela → Mysterio. Sınıf eşleşmesinden bağımsız olarak yüksek çıkış hasarına sahip saldırganlar tercih edin; parry sonrası ağır vuruş güvenli bir açılıştır."
+        "• Strateji: Yol dövüşleri: Stark Örümcek-Adam (Spider-Man) → Angela → Mysterio. Sınıf eşleşmesinden bağımsız olarak yüksek çıkış hasarına sahip saldırganlar tercih edin; parry sonrası ağır vuruş güvenli bir açılıştır.",
+        "• Not: Sahne 7 Bölüm 2'den itibaren boss yola bağlı değildir — hangi yolu seçerseniz seçin, dövüşten hemen önce Killmonger / Mister Negative / Namor arasından siz seçim yaparsınız."
       ],
       "defenders": [
         "spidermanstarkenhanced",
         "angela",
         "mysterio"
       ],
-      "leadsToBoss": "killmonger"
+      "leadsToBoss": null
     },
     {
       "pathLetter": "B",
@@ -33,7 +34,7 @@
         "psychoman",
         "cosmicghostrider"
       ],
-      "leadsToBoss": "killmonger"
+      "leadsToBoss": null
     }
   ],
   "bosses": [
@@ -51,6 +52,35 @@
         "magik",
         "doctorvoodoo",
         "professorx"
+      ]
+    },
+    {
+      "championId": "misternegative",
+      "bossNodes": [
+        "Zayıflatılmış Degen (Debuff Direnci): Mister Negative üzerindeki her benzersiz debuff, ona uygulanan Bozunma (Degeneration) tipi hasarların (Kanama/Zehir/Yanma vb.) etkisini %40 azaltır — bu yüzden tek bir DOT debuff'ına dayalı stratejiler dövüş ilerledikçe giderek zayıflar.",
+        "Kaçınma Karşı Saldırısı: Kaçındığında (Evade) rakibe orta saldırı büyüklüğünde güç kazandıran ani bir hasar darbesi vurur; bu yüzden kaçınma tetikleyen (evade-bait) oyun tarzı riskli olabilir."
+      ],
+      "idealCounters": [
+        "nickfury",
+        "doctordoom",
+        "apocalypse",
+        "elsabloodstone",
+        "kittypryde"
+      ]
+    },
+    {
+      "championId": "namor",
+      "bossNodes": [
+        "Öfke (Outrage) Birikimi: Kanama veya Sersemletme debuff'ını bağışıklık ya da şans nedeniyle uygulayamadığında, ya da rakip üzerindeki bir debuff'ı arındırdığında (Purify) Namor Öfke yükü kazanır; bu yığınlar dövüş ilerledikçe onu giderek güçlendirir.",
+        "Çifte bağışıklık (Kanama + Sersemletme) taşıyan veya debuff'larını arındırmayan şampiyonlar Öfke birikimini büyük ölçüde yavaşlatır."
+      ],
+      "idealCounters": [
+        "nimrod",
+        "guillotine2099",
+        "ultron",
+        "kinggroot",
+        "professorx",
+        "humantorch"
       ]
     }
   ]
