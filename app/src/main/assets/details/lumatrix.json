@@ -2,17 +2,18 @@
     "id": "lumatrix",
     "name": "Lumatrix",
     "abilityDetails": {
-        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
-        "Endurance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Endurance yeteneği.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Fractured Power Bar": "Şampiyon, elindeki güç barına göre farklı özel saldırı türlerini belirli olasılıklarla kullanır.",
+        "Endurance": "Aktifken, etkilenen şampiyon üzerindeki yeni hasarsız debuff'ların süresini azaltır.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Tracking": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tracking yeteneği.",
-        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Tracking": "Gelen saldırılar ıskalayamaz.",
+        "Invisible": "Saldırıların ıskalama (Miss) şansı %100'dür.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },
     "synergies": [],
-    "howToPlay": "Lumatrix için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Ağır saldırı yüklerken 2sn'lik kaçış yükü kazanır; kaçarsa görünmez olur ve pasif sersemletir — kaçış-karşıtı şampiyon şart. Güç barları kırık olduğu için 2 bar dolu olsa bile E1 kullanabilir (öngörülemez). E1 kullanırsa pasif görünmezlik kazanır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Lumatrix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Lumatrix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yırtılma Bağışıklığı ☣️"
 }

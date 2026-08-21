@@ -2,17 +2,18 @@
     "id": "silk",
     "name": "Silk",
     "abilityDetails": {
-        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği.",
+        "Dodge": "Gelen bir temel saldırıdan veya temaslı özel saldırıdan geriye kaçarak kaçınma; Çeviklik ustalığı bu pencereyi genişletir.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
         "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Sunder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sunder yeteneği.",
+        "Sunder": "Kritik Direncini sıfıra indirir ve artmasını engeller.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder."
     },
     "synergies": [],
     "howToPlay": "Silk için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Silk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Silk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yırtılma debuff'ları süresini %90 azaltır ☣️⏰\n• Buff Bağışıklığı (sadece isabet buff'ına bağışık) 🗡️🚫\n• %30 Dejenerasyon direnci (ile sinerji: Spider-Gwen ve Miles) ☠️"
 }

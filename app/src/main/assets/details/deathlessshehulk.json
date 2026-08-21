@@ -2,18 +2,19 @@
     "id": "deathlessshehulk",
     "name": "She-Hulk (Deathless)",
     "abilityDetails": {
-        "Trauma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Trauma yeteneği.",
-        "Provoke Specials": "Şampiyonun dövüş sırasında avantaj sağlayan özel Provoke Specials yeteneği.",
-        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
-        "Spectre": "Şampiyonun dövüş sırasında avantaj sağlayan özel Spectre yeteneği.",
+        "Trauma": "Alınan vuruşlar, yakın zamanda verilen hasarın bir kısmını ek fiziksel hasar patlaması olarak verdirir.",
+        "Provoke Specials": "Rakibi özel saldırı kullanmaya kışkırtır.",
+        "Fear": "Unblockable yetenek doğruluğunu sabit %100 azaltır ve Mükemmel Blok Şansını kaldırır.",
+        "Spectre": "İyileşme oranını belirtilen güçte azaltır.",
         "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
-        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
-        "Special Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Concussion yeteneği.",
-        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği."
+        "Debilitate": "Debilitate dışında yeni uygulanan debuff'ların süresini uzatır.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
+        "Special Concussion": "Etkilenen şampiyonların özel saldırı sırasındaki yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Bulwark": "Hedefin blok yeterliliğini artırır."
     },
     "synergies": [],
     "howToPlay": "She-Hulk (Deathless) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "She-Hulk (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "She-Hulk (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Yırtılma Bağışıklığı (ile sinerji: Thanos Deathless) ☣️"
 }

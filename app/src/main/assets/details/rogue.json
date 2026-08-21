@@ -7,16 +7,17 @@
         "Precision": "Kritik vuruş şansını artırır.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
-        "Aptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Aptitude yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği."
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
+        "Aptitude": "Fury, Armor Up ve Precision etkilerinin gücünü artırır.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır."
     },
     "synergies": [],
     "howToPlay": "Rogue için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Rogue Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Rogue Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• TÜM olumsuz etkilerin süresini %70 azaltır ⏰"
 }

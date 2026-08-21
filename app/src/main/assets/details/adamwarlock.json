@@ -3,16 +3,17 @@
     "name": "Adam Warlock",
     "abilityDetails": {
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "True Damage": "Zırh ve dirençleri yok sayar.",
         "Precision": "Kritik vuruş şansını artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği."
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır."
     },
     "synergies": [],
-    "howToPlay": "Adam Warlock için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Birçok mistik yeteneği yok sayar, nötralize ve yetenek-azaltmaya immün. Vuruşları ve özel saldırıları engellenemez hale gelir. Güç çalan şampiyon kullan; stasis odasına vurma, vurursan sersemlersin.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Adam Warlock Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Adam Warlock Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• Şok Bağışıklığı (Durağanlık Odası) ⚡️\n• Yakma Bağışıklığı (Durağanlık Odası) 🔥\n• Ani Soğuk Bağışıklığı (Durağanlık Odası) 🧊"
 }

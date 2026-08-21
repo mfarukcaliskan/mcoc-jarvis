@@ -2,7 +2,7 @@
     "id": "platinumpool",
     "name": "Platinumpool",
     "abilityDetails": {
-        "Fast Forward": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fast Forward yeteneği.",
+        "Fast Forward": "Bu şampiyonun otomatik dövüş hızını artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
@@ -13,7 +13,7 @@
         "Precision": "Kritik vuruş şansını artırır.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği."
+        "Indestructible": "Gelen hasarı yok sayar."
     },
     "synergies": [],
     "howToPlay": "Platinumpool için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

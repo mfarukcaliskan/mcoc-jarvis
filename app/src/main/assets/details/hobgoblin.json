@@ -1,0 +1,19 @@
+{
+    "id": "hobgoblin",
+    "name": "Hobgoblin",
+    "abilityDetails": {
+        "Incinerate": "While active, deals Energy Damage, reduces Block Proficiency by 50%, and removes Perfect Block chance.",
+        "Instinct": "Allows the Parry Mastery to trigger its Stun against non-contact attacks.",
+        "Parry Non-Contact": "Allows the Parry Mastery to trigger its Stun against non-contact attacks.",
+        "Heal Block": "Prevents Health gain.",
+        "Steadfast": "While active, Unblockable Attacks can be blocked as though they weren't.",
+        "Energy Vulnerability": "Reduces Energy Resistance by the given potency, which increases incoming Energy Damage from Attacks and Abilities.",
+        "Unblockable": "Attacks cannot be blocked. Note that some attacks cannot be blocked, despite not having the actual Unblockable status.",
+        "Stun": "Prevent a champion from moving, attacking or defending, leaving them vulnerable to an attack."
+    },
+    "synergies": [],
+    "howToPlay": "",
+    "bestUse": "",
+    "signatureAbility": "",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Deliryum süresini %90 azaltır 🧠⏰"
+}

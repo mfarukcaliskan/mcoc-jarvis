@@ -4,9 +4,9 @@
     "abilityDetails": {
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
-        "Start With Power": "Şampiyonun dövüş sırasında avantaj sağlayan özel Start With Power yeteneği.",
-        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği."
+        "Heal Block": "Can kazanımını tamamen engeller.",
+        "Start With Power": "Dövüşe belirli miktarda güçle başlar.",
+        "True Damage": "Zırh ve dirençleri yok sayar."
     },
     "synergies": [],
     "howToPlay": "Thanos için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

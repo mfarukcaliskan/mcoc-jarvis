@@ -5,15 +5,16 @@
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
-        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği.",
+        "Concussion": "Etkilenen şampiyonların yetenek doğruluğunu belirtilen güçte azaltır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği.",
+        "Cross-Fight Ability": "Saldıran veya savunan şampiyona uygulanabilen ve bir görev içinde birden fazla dövüş boyunca süren yetenek.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Apocalypse için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): En iyi seçenek prowess kaldıranlar. Genetik kodu beslememek için Robot şampiyon kullan, onu E1'de tut. Asla mutant şampiyon kullanma.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Apocalypse Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Apocalypse Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı (8 saniye sonra) 🔥\n• Kanama Bağışıklığı (8 saniye sonra) 🩸"
 }

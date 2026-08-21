@@ -2,17 +2,18 @@
     "id": "kingpin",
     "name": "Kingpin",
     "abilityDetails": {
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
+        "Reduce Defensive AA": "Savunma yetenek doğruluğunu belirtilen güçte azaltır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
     },
     "synergies": [],
-    "howToPlay": "Kingpin için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Ana kural 2 güç barına ulaşmasına izin vermemek — E2 uzun süreli durdurulamazlık verir. Negatif efektler de tavsiye edilmez (%60 purify şansı var) — purify-karşıtı mekanikli şampiyon veya White Magneto ön-dövüş kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kingpin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Kingpin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %120 Arındırma (ile sinerji: Hood) 💪🏼\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
 }

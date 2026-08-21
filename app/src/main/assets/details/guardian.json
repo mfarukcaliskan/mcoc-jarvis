@@ -2,19 +2,20 @@
     "id": "guardian",
     "name": "Guardian",
     "abilityDetails": {
-        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Cannot Crit": "Bu saldırılar kritik vuruş olamaz.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Parry Non-Contact": "Siper (Parry) ustalığının temassız saldırılara karşı da Stun tetiklemesini sağlar.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Perfect Block": "Bloklarken gelen tüm hasarı sıfıra indirir.",
         "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği."
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır."
     },
     "synergies": [],
-    "howToPlay": "Guardian için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Kanama veya enerji hasarına bağımlı şampiyon kullanma. Zırhını kırmıyorsan/nötralize etmiyorsan özel saldırı kullanma — otomatik bloklar. Vigilance de otomatik bloğu önler.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Guardian Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Guardian Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %80 Kanama direnci (imza 200) 🩸\n• %81,8 Şok direnci (imza 200) ⚡️\n• %81,8 Ani Soğuk direnci (imza 200) 🧊\n• %81,8 Plazma direnci (imza 200) ⚗️\n• %81,8 Yakma direnci (imza 200) 🔥"
 }

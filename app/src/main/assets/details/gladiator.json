@@ -2,19 +2,20 @@
     "id": "gladiator",
     "name": "Gladiator",
     "abilityDetails": {
-        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Increased AA": "Yetenek doğruluğunu artırır.",
         "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
+        "Intimidate": "Blok şansını artırır, blok yeterliliğini belirtilen güçte azaltır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Embolden": "Şampiyonun dövüş sırasında avantaj sağlayan özel Embolden yeteneği.",
+        "Embolden": "Rakibin Nullify, Stagger ve Fate Seal etkilerine karşı bağışıklık sağlar.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
-        "Vigilance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vigilance yeteneği.",
+        "Vigilance": "Saldırılar ıskalayamaz.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
     },
     "synergies": [],
-    "howToPlay": "Gladiator için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): E1 kullanınca 4sn durdurulamaz olur. Özel saldırıları bloklansa bile debuff uygular (E1 onda-i-soğuk, E2 bloktan yakma). Yakma ve onda-i-soğuğa immün şampiyon veya güçlü güç kontrolcüsü kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Gladiator Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Gladiator Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Güç Emme/Yakma Bağışıklığı 🔋\n• Silme (Nullify) Bağışıklığı (Teşvik Buff'ı) 🔮"
 }

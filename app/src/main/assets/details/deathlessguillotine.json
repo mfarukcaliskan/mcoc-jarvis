@@ -3,7 +3,7 @@
     "name": "Guillotine (Deathless)",
     "abilityDetails": {
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Spectre": "Şampiyonun dövüş sırasında avantaj sağlayan özel Spectre yeteneği.",
+        "Spectre": "İyileşme oranını belirtilen güçte azaltır.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],

@@ -2,14 +2,15 @@
     "id": "moondragon",
     "name": "Moondragon",
     "abilityDetails": {
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği."
+        "Pre-Fight": "Dövüş başlamadan önce Pre-Fight ekranından değiştirilebilen yetenek."
     },
     "synergies": [],
-    "howToPlay": "Moondragon için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Bloktan vurulunca enerji hasarı verir, E1'de 3sn görünmez olur, purify erişimi var. Onu duvara sıkıştırıp E1'e zorlamak işe yarar; enerji dirençli şampiyonlar avantajlı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Moondragon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Moondragon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠\n• %30-%80 Kanama direnci 🩸\n• %30-%80 Zehir direnci 🧪\n• %30-%80 Dejenerasyon direnci ☠️\n• %30-%80 İğne (Power Sting) direnci 🐝\n• %100 Arındırma (20 Psi yüküyle) 💪🏼\n• %75 Yakma direnci (ile sinerji: Nico Minoru) 🔥"
 }

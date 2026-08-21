@@ -2,18 +2,18 @@
     "id": "cassandra",
     "name": "Cassandra Nova",
     "abilityDetails": {
-        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
+        "Fear": "Unblockable yetenek doğruluğunu sabit %100 azaltır ve Mükemmel Blok Şansını kaldırır.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
-        "Marked": "Şampiyonun dövüş sırasında avantaj sağlayan özel Marked yeteneği.",
+        "Marked": "Regeneration, Immortality, Indestructible ve Death Immunity etkilerinin yetenek doğruluğunu %100 azaltır.",
         "Daunted": "Rakibin özel saldırılar sonrasında hasar almasını kolaylaştırır.",
         "Neuroshock": "Rakibe zamanla yüksek elektrik tabanlı hasar verir.",
-        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Root": "Köklenen şampiyonlar hareket edemez ama saldırabilir, bloklayabilir ve kaçabilir; özel saldırı Root'u kaldırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Reverse Controls": "Rakibin yön tuşlarını tersine çevirerek hareketlerini karıştırır.",
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği."
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir."
     },
     "synergies": [],
-    "howToPlay": "Cassandra Nova için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Ağır saldırısını temel vuruşla kesmeye çalışırsan pasif sersemlersin; özel saldırılarını siperle (yoksa bloktan nörşok alırsın). Nörşoku 3 yolla önle: immün/dirençli şampiyon (The Maker immün; Jack O'Lantern, Bastion azaltır), yüksek enerji direnci (Guardian x200, Solvarch), veya Tech şampiyonla ona şok uygulamak (bloktan nörşok yeteneğini kapatır).",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
     "signatureAbility": "Cassandra Nova Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
 }

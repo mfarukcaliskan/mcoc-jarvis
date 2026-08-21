@@ -4,18 +4,19 @@
     "abilityDetails": {
         "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
-        "Resonance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resonance yeteneği.",
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
+        "Resonance": "Bu şampiyonun vuruşları, verilen hasara dayalı ek enerji hasarı patlaması verir.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Precision": "Kritik vuruş şansını artırır.",
-        "Damage Reflect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damage Reflect yeteneği.",
-        "Pursuit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pursuit yeteneği.",
-        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği."
+        "Damage Reflect": "Engellenen hasarın belirtilen kısmı, doğrudan hasar olarak rakibe geri gönderilir.",
+        "Pursuit": "Aktifken saldırılar Kaçış (Evade) ile önlenemez.",
+        "Dodge": "Gelen bir temel saldırıdan veya temaslı özel saldırıdan geriye kaçarak kaçınma; Çeviklik ustalığı bu pencereyi genişletir."
     },
     "synergies": [],
-    "howToPlay": "Dazzler için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Man-Thing gibi kritik hasarı sıfırlar (Tech hariç) — ikincil hasar efektli şampiyon kullan. Her 10 vuruşta koşarken görünmez olur.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dazzler Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Dazzler Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• Yakma Bağışıklığı (ile sinerji: Kitty Pryde) 🔥"
 }

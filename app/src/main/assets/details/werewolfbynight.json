@@ -2,16 +2,17 @@
     "id": "werewolfbynight",
     "name": "Werewolf By Night",
     "abilityDetails": {
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Rupture": "Aktifken fiziksel hasar verir.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
     },
     "synergies": [],
-    "howToPlay": "Werewolf By Night için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Pasif güç kazanımı ve korkunç uluma ile gelen durdurulamazlık var. Özel saldırıları ekranı çok kaplar, bloklarsan rupture alırsın. Güç kontrolcüsü ve rupture'a dirençli şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Werewolf By Night Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Werewolf By Night Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir süresini %90 azaltır 🧪⏰\n• İyileşme Engeli Bağışıklığı 💚🚫"
 }

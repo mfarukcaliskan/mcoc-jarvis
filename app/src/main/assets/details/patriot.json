@@ -2,20 +2,21 @@
     "id": "patriot",
     "name": "Patriot",
     "abilityDetails": {
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
-        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
-        "Vigilance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vigilance yeteneği.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
+        "Combo Shield": "Aktifken, vurulduğunda combo metre sıfırlanmaz.",
+        "Vigilance": "Saldırılar ıskalayamaz.",
         "Precision": "Kritik vuruş şansını artırır.",
-        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği.",
-        "Reversal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reversal yeteneği.",
+        "Critical into Block": "Blok sırasında alınan vuruşlar kritik olabilir.",
+        "Reversal": "Uygulayan şampiyondaki Stun etkilerini kaldırır, gelen saldırıyı durdurur ve rakibi yere seren sert bir karşı vuruşla misilleme yapar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
-        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği."
+        "Rupture": "Aktifken fiziksel hasar verir.",
+        "Steadfast": "Aktifken, Unblockable saldırılar sanki değillermiş gibi bloklanabilir."
     },
     "synergies": [],
     "howToPlay": "Patriot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Patriot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Patriot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
 }

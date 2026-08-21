@@ -2,7 +2,7 @@
     "id": "captainamericawwii",
     "name": "Captain America (WWII)",
     "abilityDetails": {
-        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Perfect Block": "Bloklarken gelen tüm hasarı sıfıra indirir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir."
     },

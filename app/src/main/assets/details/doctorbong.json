@@ -3,16 +3,17 @@
     "name": "Doctor Bong",
     "abilityDetails": {
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
-        "Heavy Proficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heavy Proficiency yeteneği.",
-        "Reverb": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reverb yeteneği.",
-        "Panic": "Şampiyonun dövüş sırasında avantaj sağlayan özel Panic yeteneği.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
+        "Heavy Proficiency": "Ağır saldırılar sırasında saldırı gücünü belirtilen güçte artırır.",
+        "Reverb": "Bu şampiyonun vuruşları, verilen hasara dayalı ek fiziksel hasar patlaması verir.",
+        "Panic": "Etkilenen şampiyonlar Kaçış (Evade) yapamaz veya saldırıları ıskalatamaz.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Reversal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reversal yeteneği."
+        "Reversal": "Uygulayan şampiyondaki Stun etkilerini kaldırır, gelen saldırıyı durdurur ve rakibi yere seren sert bir karşı vuruşla misilleme yapar."
     },
     "synergies": [],
-    "howToPlay": "Doctor Bong için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Combo'yu orta/hafif vuruşla bitirirsen ters çevirme (inversion) uygular ve seni yere serer — kimse buna immün değil, asla combo bitirme. %20 şansla hasar debuff'larını purify eder, pasif efektli şampiyon tercih et.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Doctor Bong Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Doctor Bong Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• İğne (Power Sting) Bağışıklığı 🐝\n• %20 Arındırma 💪🏼"
 }

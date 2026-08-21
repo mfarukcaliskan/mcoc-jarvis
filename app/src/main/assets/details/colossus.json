@@ -6,11 +6,12 @@
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Fatigue": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fatigue yeteneği.",
+        "Fatigue": "Kritik oranını belirtilen miktarda azaltır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar."
     },
     "synergies": [],
     "howToPlay": "Colossus için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Colossus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Colossus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Zırh Kırma Bağışıklığı (tech'ler hariç) 🛡️"
 }

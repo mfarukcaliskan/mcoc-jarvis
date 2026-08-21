@@ -2,21 +2,22 @@
     "id": "solvarch",
     "name": "Solvarch",
     "abilityDetails": {
-        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
-        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
-        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Fractured Power Bar": "Şampiyon, elindeki güç barına göre farklı özel saldırı türlerini belirli olasılıklarla kullanır.",
+        "Parry Non-Contact": "Siper (Parry) ustalığının temassız saldırılara karşı da Stun tetiklemesini sağlar.",
+        "Cannot Crit": "Bu saldırılar kritik vuruş olamaz.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
-        "Reverb": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reverb yeteneği.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Reverb": "Bu şampiyonun vuruşları, verilen hasara dayalı ek fiziksel hasar patlaması verir.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
-        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği."
+        "Heal Block": "Can kazanımını tamamen engeller.",
+        "Steadfast": "Aktifken, Unblockable saldırılar sanki değillermiş gibi bloklanabilir."
     },
     "synergies": [],
-    "howToPlay": "Solvarch için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Devasa kritik direnci ve enerji hasarı yansıtması var, iyileşme tersine çevirmeye immün. Enerji olmayan doğrudan hasar tercih et. Pasif zırhı aktifken kritik gücünü %80 azaltır — zırh kıran şampiyon şart, zırhsız kalırsa savunma potansiyeli çöker. Enerji hasarının %50'sini iyileştirir ve (Cosmic değilsen) %50'sini yansıtır — rupture/degeneration/disintegration/güçlü iğne efektleri de iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Solvarch Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Solvarch Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
 }

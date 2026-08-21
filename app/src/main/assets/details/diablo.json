@@ -2,16 +2,17 @@
     "id": "diablo",
     "name": "Diablo",
     "abilityDetails": {
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
-        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Pre-Fight": "Dövüş başlamadan önce Pre-Fight ekranından değiştirilebilen yetenek.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Detonate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Detonate yeteneği."
+        "Detonate": "Süresi dolduğunda veya Nullify edildiğinde enerji hasarı patlaması verir."
     },
     "synergies": [],
     "howToPlay": "Diablo için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Diablo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Diablo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Zehir direnci 🧪\n• Zırh Kırma Bağışıklığı (dövüş öncesi hazırlıkla) 🛡️"
 }

@@ -2,7 +2,7 @@
     "id": "goldpool",
     "name": "Goldpool",
     "abilityDetails": {
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",

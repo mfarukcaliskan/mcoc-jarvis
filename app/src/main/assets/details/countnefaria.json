@@ -3,15 +3,16 @@
     "name": "Count Nefaria",
     "abilityDetails": {
         "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Plasma yeteneği.",
+        "Plasma": "Aktifken enerji hasarı verir, blok yeterliliğini %50 azaltır ve Mükemmel Blok şansını kaldırır.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Count Nefaria için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Fiziksel ve enerji hasarına, degeneration'a çok dirençli — pasif güç kazanan şampiyon kullanma (dirençlerini hızlandırır). Zırh kıran ve fury'li şampiyonlar en iyisi. Zehire karşı tamamen savunmasız.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Count Nefaria Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Count Nefaria Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• %90 Şok direnci ⚡️\n• %90 Yakma direnci 🔥\n• Güç Çalma Bağışıklığı 🔋🔽\n• %90 Dejenerasyon direnci (100 İyonik yükle) ☠️\n• %76 Yırtılma direnci (100 İyonik yükle) ☣️"
 }

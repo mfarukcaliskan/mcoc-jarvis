@@ -3,7 +3,7 @@
     "name": "Blade",
     "abilityDetails": {
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Reduce AA": "Yetenek doğruluğunu belirtilen güçte azaltır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Regeneration": "Can barını zamanla yeniler."
@@ -11,5 +11,6 @@
     "synergies": [],
     "howToPlay": "Blade için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Blade Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Blade Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• TÜM olumsuz etkilerin süresini %95 azaltır (3 dolu bar ile) ⏰"
 }

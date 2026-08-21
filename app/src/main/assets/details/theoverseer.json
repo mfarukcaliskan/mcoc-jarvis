@@ -3,17 +3,18 @@
     "name": "The Overseer",
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Special Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Concussion yeteneği.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Special Concussion": "Etkilenen şampiyonların özel saldırı sırasındaki yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
         "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği."
+        "Disorient": "Savunma yetenek doğruluğunu ve blok yeterliliğini belirtilen güçte azaltır.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır."
     },
     "synergies": [],
-    "howToPlay": "The Overseer için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Sersemletmeye immündür ve herhangi bir özel saldırıdan hemen sonra otomatik bloklar. İsabetli saldırılı veya yetenek azaltıcı şampiyon en iyi cevap.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "The Overseer Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "The Overseer Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı 🔮\n• Kontrolleri Tersine Çevirme Bağışıklığı (Hulks XL ile sinerji) 🧠\n• Nötralize Bağışıklığı (ile sinerji: Spider-Man Supreme) 🗡️❌"
 }

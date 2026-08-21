@@ -2,11 +2,11 @@
     "id": "shathra",
     "name": "Shathra",
     "abilityDetails": {
-        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği.",
-        "Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vulnerability yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
-        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
+        "Cross-Fight Ability": "Saldıran veya savunan şampiyona uygulanabilen ve bir görev içinde birden fazla dövüş boyunca süren yetenek.",
+        "Vulnerability": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte azaltır.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
+        "Atrophy": "Buff'ların süresini kısaltır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."

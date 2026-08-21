@@ -4,12 +4,13 @@
     "abilityDetails": {
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Enervate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Enervate yeteneği."
+        "Enervate": "Rakibin vurulduğunda güç kazanmasını engeller."
     },
     "synergies": [],
     "howToPlay": "Hulk (Ragnarok) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulk (Ragnarok) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hulk (Ragnarok) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Pasif Dejenerasyon hasarının %81'ini geri kazanır ☠️\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠"
 }

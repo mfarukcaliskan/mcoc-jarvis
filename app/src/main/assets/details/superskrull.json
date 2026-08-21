@@ -3,20 +3,21 @@
     "name": "Super Skrull",
     "abilityDetails": {
         "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
-        "Vigilance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vigilance yeteneği.",
+        "Vigilance": "Saldırılar ıskalayamaz.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Undermine": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undermine yeteneği.",
+        "Undermine": "Aktifken saldırılar Otomatik Blok ile engellenemez.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Aptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Aptitude yeteneği.",
+        "Aptitude": "Fury, Armor Up ve Precision etkilerinin gücünü artırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Nova Flame": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nova Flame yeteneği.",
+        "Nova Flame": "Aktifken enerji hasarı verir, blok yeterliliğini %50 azaltır ve Mükemmel Blok şansını kaldırır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
     },
     "synergies": [],
-    "howToPlay": "Super Skrull için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Nötralize en iyi cevap. Güç kazanımına ve 25sn'de bir gelen vacilo efektine dikkat et. Güç kontrolcüleri iyi çalışır. E2 kullanmasına izin verme — bloklansa bile ölümcül olabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Super Skrull Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Super Skrull Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Yakma Bağışıklığı 🔥"
 }

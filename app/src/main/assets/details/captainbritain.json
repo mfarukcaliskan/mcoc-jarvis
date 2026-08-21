@@ -2,16 +2,17 @@
     "id": "captainbritain",
     "name": "Captain Britain",
     "abilityDetails": {
-        "Safeguard": "Şampiyonun dövüş sırasında avantaj sağlayan özel Safeguard yeteneği.",
+        "Safeguard": "Vurulurken veya bloklarken herhangi bir kaynaktan alınabilecek can kaybını belirli bir yüzdeyle sınırlar.",
         "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
         "Neuroshock": "Rakibe zamanla yüksek elektrik tabanlı hasar verir.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
-        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
-        "Power Efficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Efficiency yeteneği."
+        "Bulwark": "Hedefin blok yeterliliğini artırır.",
+        "Power Efficiency": "Özel saldırıların güç maliyetini belirtilen güçte azaltır."
     },
     "synergies": [],
-    "howToPlay": "Captain Britain için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Kritik vurma, kanama/şok uygulama, herhangi bir negatif efekti purify etme veya exhaustion altındayken vurma — bunların hepsi ona ölümcül nörşok tetikler. Kritik vuramayan şampiyonlar avantajlı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Captain Britain Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Captain Britain Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠"
 }

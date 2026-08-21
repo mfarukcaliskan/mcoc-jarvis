@@ -2,16 +2,17 @@
     "id": "cheeilth",
     "name": "Chee'ilth",
     "abilityDetails": {
-        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Cleanse": "Bu etkiye sahip şampiyon bir debuff aldığında, debuff anında arındırılır ve Cleanse kaldırılır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Grit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Grit yeteneği.",
-        "Tranquilize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tranquilize yeteneği.",
-        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
+        "Grit": "Unstoppable rakipler, vuruşlara sanki Unstoppable değillermiş gibi tepki verir.",
+        "Tranquilize": "Debuff yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Vicious": "Hasar veren debuff'ların gücünü belirtilen miktarda artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Precision": "Kritik vuruş şansını artırır."
     },
     "synergies": [],
-    "howToPlay": "Chee'ilth için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Periyodik sanar bonusuyla sık purify eder, blok-nüfuzu var ve bloktan kritik vurabilir. Bloktan kanama da uygulayabilir — kanamaya immün/dirençli şampiyon önemli.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Chee'ilth Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Chee'ilth Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼"
 }

@@ -6,10 +6,10 @@
         "Incinerate Vulnerability": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
         "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Start With Power": "Şampiyonun dövüş sırasında avantaj sağlayan özel Start With Power yeteneği."
+        "Start With Power": "Dövüşe belirli miktarda güçle başlar."
     },
     "synergies": [],
-    "howToPlay": "Negasonic Teenage Warhead için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Vuruşları temas etmediği için normal şampiyonlar siperleyemez — Jack O'Lantern, Photon, Angela, Ironheart gibi temassız vuruş siperleyebilenler gerekli. Ayrıca sık sık yere sermek kaçışını kapatır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
     "signatureAbility": "Negasonic Teenage Warhead Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
 }

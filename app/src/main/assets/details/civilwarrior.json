@@ -4,14 +4,15 @@
     "abilityDetails": {
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
-        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
-        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği."
+        "Heal Block": "Can kazanımını tamamen engeller.",
+        "Power Burn": "Hedeften belirli miktarda güç alır, ardından alınan güçle orantılı doğrudan hasar verir.",
+        "Power Lock": "Hedefin herhangi bir yolla güç kazanmasını engeller.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez."
     },
     "synergies": [],
     "howToPlay": "Civil Warrior için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Civil Warrior Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Civil Warrior Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• 4 zırhla Kanama almaz 🩸\n• Silme (Nullify) Bağışıklığı 🔮"
 }

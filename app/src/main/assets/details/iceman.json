@@ -3,11 +3,12 @@
     "name": "Iceman",
     "abilityDetails": {
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
-        "Frostbite": "Şampiyonun dövüş sırasında avantaj sağlayan özel Frostbite yeteneği.",
+        "Frostbite": "Süresi dolduğunda enerji hasarı verir.",
         "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır."
     },
     "synergies": [],
-    "howToPlay": "Iceman için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): x200'de ölümcül olan onda-i-soğuk hasarına karşı mutlaka onda-i-soğuk immün şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Iceman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Iceman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Nova Alevi Bağışıklığı 🔥"
 }

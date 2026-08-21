@@ -2,15 +2,16 @@
     "id": "sasquatch",
     "name": "Sasquatch",
     "abilityDetails": {
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
-        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Rupture": "Aktifken fiziksel hasar verir.",
+        "Stagger": "Sendeletilen (Staggered) şampiyonlar bir sonraki kazandıkları buff'ı Nullify eder.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar."
     },
     "synergies": [],
-    "howToPlay": "Sasquatch için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Oyunun en çok canı olan şampiyonu, ağır iyileşir ve dövüş uzadıkça artan hasar önleme mekaniği var. Pasif durdurulamaz da olabiliyor. Zehir hasarlı, petrify'lı veya yetenek azaltıcı şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sasquatch Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Sasquatch Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %90 Ani Soğuk direnci 🧊\n• Zırh Kırma Bağışıklığı 🛡️\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
 }

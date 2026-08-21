@@ -5,16 +5,17 @@
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
-        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
-        "Heavy Proficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heavy Proficiency yeteneği.",
-        "Untouchable": "Şampiyonun dövüş sırasında avantaj sağlayan özel Untouchable yeteneği.",
-        "Tracking": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tracking yeteneği.",
-        "Battered": "Şampiyonun dövüş sırasında avantaj sağlayan özel Battered yeteneği.",
+        "Debilitate": "Debilitate dışında yeni uygulanan debuff'ların süresini uzatır.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
+        "Heavy Proficiency": "Ağır saldırılar sırasında saldırı gücünü belirtilen güçte artırır.",
+        "Untouchable": "Gelen saldırıların belirtilen olasılıkla ıskalama (Miss) şansı vardır.",
+        "Tracking": "Gelen saldırılar ıskalayamaz.",
+        "Battered": "Alınan vuruşlar, o anki saldırı gücüne dayalı ek fiziksel hasar patlaması verdirir.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
     "howToPlay": "Wave için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Wave Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Wave Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir süresini %75 azaltır 🧪⏰\n• Yakma süresini %75 azaltır 🔥⏰"
 }

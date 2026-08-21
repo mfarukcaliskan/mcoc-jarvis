@@ -2,21 +2,22 @@
     "id": "deathlessthanos",
     "name": "Thanos (Deathless)",
     "abilityDetails": {
-        "Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Protection yeteneği.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
-        "Counterpunch": "Şampiyonun dövüş sırasında avantaj sağlayan özel Counterpunch yeteneği.",
+        "Protection": "Tüm kaynaklardan alınan hasarı belirtilen güçte azaltır.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
+        "Counterpunch": "Bir saldırıyı bloklarken şarj harcayarak kısa süreli Unstoppable kazanır ve anında karşı saldırı yapılabilir.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Panic": "Şampiyonun dövüş sırasında avantaj sağlayan özel Panic yeteneği.",
+        "Panic": "Etkilenen şampiyonlar Kaçış (Evade) yapamaz veya saldırıları ıskalatamaz.",
         "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Pulverize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pulverize yeteneği.",
-        "Corrosion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Corrosion yeteneği.",
+        "Pulverize": "Bir Armor Up etkisini kaldırır ve doğrudan hasar verir.",
+        "Corrosion": "Aktifken fiziksel hasar verir; hedefin zırhı azaldıkça bu hasar %100'e kadar artar.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Armor Shattered": "Şampiyonun dövüş sırasında avantaj sağlayan özel Armor Shattered yeteneği.",
+        "Armor Shattered": "Yeni Zırh Kırma etkilerini engeller ve Armor Up etkilerinin yetenek doğruluğunu %200 azaltır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Genesis": "Şampiyonun dövüş sırasında avantaj sağlayan özel Genesis yeteneği."
+        "Genesis": "Bu şampiyon, rakibin aldığı hasarın belirtilen kısmını pasif olarak kendine can olarak kazanır."
     },
     "synergies": [],
-    "howToPlay": "Thanos (Deathless) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Bloğuna vurma — pasif durdurulamaz kazanıp anında karşılık verir. Savaş gücü oranı kalıcı +%15 artmış (nekrotik enerjiyle daha da artar, +%75'e kadar), özel saldırıları çok hızlı doldurur. E2 bloklanamaz (blok yeterliliğini %80 azaltır), 0,75sn'de 2 kaçış anlık corrosion tetikler. Durdurulamaza dirençli şampiyonlar (Dust, Beta Ray Bill, Chee'ilth) en iyisi; güç kontrolcüleri E2'sini önler; nötralize energize bonusunu kaldırır; sık özel saldırı kullandığı için iğne (sting) efektli şampiyonlar da iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Thanos (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Thanos (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊\n• Zehir Bağışıklığı 🧪"
 }

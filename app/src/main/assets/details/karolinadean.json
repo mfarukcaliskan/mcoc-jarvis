@@ -2,21 +2,22 @@
     "id": "karolinadean",
     "name": "Karolina Dean",
     "abilityDetails": {
-        "Instinct": "Şampiyonun dövüş sırasında avantaj sağlayan özel Instinct yeteneği.",
-        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Instinct": "Siper (Parry) ustalığının temassız saldırılara karşı da Stun tetiklemesini sağlar.",
+        "Parry Non-Contact": "Siper (Parry) ustalığının temassız saldırılara karşı da Stun tetiklemesini sağlar.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
-        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Glancing": "Sıyırma vuruşları kritik olamaz, %50 azalmış hasar verir ve saldırı yetenek doğruluğu %100 düşer.",
+        "Reduce AA": "Yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Instant Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Intensify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intensify yeteneği.",
-        "Pulverize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pulverize yeteneği."
+        "Intensify": "Yeni oluşturulan tüm buff'ların gücünü bir yüzde artırır.",
+        "Pulverize": "Bir Armor Up etkisini kaldırır ve doğrudan hasar verir."
     },
     "synergies": [],
-    "howToPlay": "Karolina Dean için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Işık alanındayken engellenemez saldırı ve pasif güç kazanımı kazanır — engellenemez özel saldırıları bloklayan şampiyon avantajlı. Nötralize, nötrleştirme, bonus immünitesi ve fate-seal'a immün değil, bu yeteneklere sahip herhangi bir şampiyon iyi çalışır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Karolina Dean Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Karolina Dean Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Yakma direnci 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Güç Kilidi Bağışıklığı 🔋⛔"
 }

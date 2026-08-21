@@ -3,18 +3,19 @@
     "name": "Sentinel",
     "abilityDetails": {
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
+        "Intimidate": "Blok şansını artırır, blok yeterliliğini belirtilen güçte azaltır.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Critical Resistance": "Gelen kritik vuruşların hasarını azaltır.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
     },
     "synergies": [],
-    "howToPlay": "Sentinel için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Dövüş uzadıkça analiz yükü kazanır (zırh + %57,6 kritik direnci); 100 yükte özel saldırılar %30 daha az güce mal olur; %20 canda 3,5sn süren 3 zırh bonusu kazanır, süresi dolarsa max gücünün %89'unu kazanır; E3 kullanırsa canının tamamını yeniler (2. can). İkincil hasar efektleri (şok, yakma, güçlü iğne, degeneration, rupture) şart; kritik direncini sıfırlayan (fragmentation) efektler büyük avantaj. Güç kontrolü (petrify, çalma, çekme) de faydalı. E2 yakma uygulayabildiği için onu E1'de tutmak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sentinel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Sentinel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊\n• Zırh Kırma Bağışıklığı 🛡️"
 }

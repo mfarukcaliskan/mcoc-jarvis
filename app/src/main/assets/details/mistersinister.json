@@ -2,20 +2,21 @@
     "id": "mistersinister",
     "name": "Mister Sinister",
     "abilityDetails": {
-        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Bulwark": "Hedefin blok yeterliliğini artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
+        "Vicious": "Hasar veren debuff'ların gücünü belirtilen miktarda artırır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği.",
+        "Concussion": "Etkilenen şampiyonların yetenek doğruluğunu belirtilen güçte azaltır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
         "Precision": "Kritik vuruş şansını artırır.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },
     "synergies": [],
-    "howToPlay": "Mister Sinister için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Garanti kritik vuruşlu veya immün olunmayan hasarlı efekt uygulayan şampiyon kullanma. Kritik vuramayan şampiyonlar iyi seçenek. En güvenli yöntem: iyileşme engeli veya petrify.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mister Sinister Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Mister Sinister Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
 }

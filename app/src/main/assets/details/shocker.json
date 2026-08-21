@@ -2,17 +2,18 @@
     "id": "shocker",
     "name": "Shocker",
     "abilityDetails": {
-        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
+        "Cannot Crit": "Bu saldırılar kritik vuruş olamaz.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
-        "Invalidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invalidate yeteneği.",
+        "Invalidate": "Belirtilen sayıda Prowess etkisini kaldırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği."
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır."
     },
     "synergies": [],
-    "howToPlay": "Shocker için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): E1 ve E2 kullanma — özel saldırıları otomatik bloklar. Koşarken engellenemez olur, dikkat et. E1 bazen engellenemez olup sersemletebilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Shocker Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Shocker Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Sarsıntı Bağışıklığı 🧠🔽"
 }

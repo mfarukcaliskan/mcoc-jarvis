@@ -2,18 +2,19 @@
     "id": "annihilus",
     "name": "Annihilus",
     "abilityDetails": {
-        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "True Accuracy": "Bu saldırılar Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
-        "Stifle": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stifle yeteneği.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
+        "Stifle": "Saldırı Muharebe Güç Oranını belirtilen güçte azaltır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Aptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Aptitude yeteneği.",
-        "Block Penetration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Block Penetration yeteneği."
+        "Aptitude": "Fury, Armor Up ve Precision etkilerinin gücünü artırır.",
+        "Block Penetration": "Saldırılar, rakibin blok yeterliliğinin belirli bir kısmını yok sayar."
     },
     "synergies": [],
-    "howToPlay": "Annihilus için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Kozmik asasını kaldırmayan şampiyon kullanma. Asayı nötralize etmek durdurulamazlığını ve güç çekme immünitesini kaldırır. Nötralize dışında durdurulamaz süresini kısaltan şampiyonlar da işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Annihilus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Annihilus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Güç Emme/Yakma Bağışıklığı 🔋"
 }

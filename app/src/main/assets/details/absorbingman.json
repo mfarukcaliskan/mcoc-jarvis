@@ -2,18 +2,19 @@
     "id": "absorbingman",
     "name": "Absorbing Man",
     "abilityDetails": {
-        "Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vulnerability yeteneği.",
+        "Vulnerability": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte azaltır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Critical Resistance": "Gelen kritik vuruşların hasarını azaltır.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği.",
+        "Critical into Block": "Blok sırasında alınan vuruşlar kritik olabilir.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar."
     },
     "synergies": [],
-    "howToPlay": "Absorbing Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): İyileşmesi çok yoğun, özel counter şart. E2'yi 2 kez kullanmasına izin verme — yakma uygular. Özel saldırılarından sonra ağır saldırı kullan, zehirli veya petrify'lı şampiyon tercih et.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Absorbing Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Absorbing Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Zehir Bağışıklığı (ile sinerji: Abomination (Immortal)) 🧪\n• Kanama Bağışıklığı (Karanlık Uru modunda) 🩸\n• Şok Bağışıklığı (Karanlık Uru modunda) ⚡️\n• Yakma Bağışıklığı (Magma modunda) 🔥\n• Ani Soğuk Bağışıklığı (Magma modunda) 🧊\n• %81,8 Yırtılma direnci (Karanlık Uru modunda) ☣️\n• %81,8 Plazma direnci (Magma modunda) ⚗️"
 }

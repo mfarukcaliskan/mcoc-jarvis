@@ -2,12 +2,13 @@
     "id": "visionaou",
     "name": "Vision (Age of Ultron)",
     "abilityDetails": {
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
-        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği."
+        "Heal Block": "Can kazanımını tamamen engeller.",
+        "Power Burn": "Hedeften belirli miktarda güç alır, ardından alınan güçle orantılı doğrudan hasar verir.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır."
     },
     "synergies": [],
     "howToPlay": "Vision (Age of Ultron) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Vision (Age of Ultron) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Vision (Age of Ultron) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪"
 }

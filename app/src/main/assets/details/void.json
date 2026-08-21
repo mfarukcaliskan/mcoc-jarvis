@@ -2,16 +2,17 @@
     "id": "void",
     "name": "Void",
     "abilityDetails": {
-        "Agility": "Şampiyonun dövüş sırasında avantaj sağlayan özel Agility yeteneği.",
-        "Fatigue": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fatigue yeteneği.",
+        "Agility": "Kaçış (Evade) ve Çeviklik (Dexterity) ustalığının yetenek doğruluğunu belirtilen miktarda azaltır.",
+        "Fatigue": "Kritik oranını belirtilen miktarda azaltır.",
         "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
         "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },
     "synergies": [],
-    "howToPlay": "Void için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Rakip herhangi bir negatif efekt yaşarsa doğrudan hasar verir — purify eden veya yetenek azaltan şampiyon kullan. Negatif efekt süresini kısaltan şampiyonlar da iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Void Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Void Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥"
 }

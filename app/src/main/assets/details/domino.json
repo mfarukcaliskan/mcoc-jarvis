@@ -2,20 +2,21 @@
     "id": "domino",
     "name": "Domino",
     "abilityDetails": {
-        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
-        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Reduce AA": "Yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Increased AA": "Yetenek doğruluğunu artırır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Perfect Block": "Bloklarken gelen tüm hasarı sıfıra indirir.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği."
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir."
     },
     "synergies": [],
-    "howToPlay": "Domino için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Yetenek doğruluğu azaltma immünitesi olanlar en iyisi. Şansa dayalı yetenekler kullanan şampiyon riskli. Tech şampiyon kullan, güç barı dolarken kaçışa dikkat et.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Domino Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Domino Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanamaya karşı %50 Arındırma 🩸"
 }

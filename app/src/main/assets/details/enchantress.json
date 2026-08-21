@@ -2,25 +2,26 @@
     "id": "enchantress",
     "name": "Enchantress",
     "abilityDetails": {
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
-        "Frostbite": "Şampiyonun dövüş sırasında avantaj sağlayan özel Frostbite yeteneği.",
+        "Frostbite": "Süresi dolduğunda enerji hasarı verir.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Untouchable": "Şampiyonun dövüş sırasında avantaj sağlayan özel Untouchable yeteneği.",
+        "Untouchable": "Gelen saldırıların belirtilen olasılıkla ıskalama (Miss) şansı vardır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Damage Reflect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damage Reflect yeteneği.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
-        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
-        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
-        "Charm": "Şampiyonun dövüş sırasında avantaj sağlayan özel Charm yeteneği."
+        "Damage Reflect": "Engellenen hasarın belirtilen kısmı, doğrudan hasar olarak rakibe geri gönderilir.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
+        "Neutralize": "Buff yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Atrophy": "Buff'ların süresini kısaltır.",
+        "Charm": "Gelen Power Steal, Power Drain ve Power Burn etkilerinin gücünü artırır; Power Gain ve Energize etkilerinin gücünü azaltır."
     },
     "synergies": [],
-    "howToPlay": "Enchantress için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Oyunun en iyi mistik savunmacısı. Aktifken taşıdığı her büyü aldığı hasarın %20'sini engeller; özel saldırı kullandığında büyü aktifse engellenen tüm hasar doğrudan hasar olarak sana döner (dövüşe 3 büyüyle başlar = %60 hasar birikmiş olabilir). Özel saldırıları bloktan bile yakma/onda-i-soğuk/şok uygulayabilir. Kazanmanın sırrı büyülerini kaldırmak: Evocation büyüsü (koşarken durdurulamaz) intercept ile kalkar, Transmutation (pasif vacilo) ağır saldırısını kesmekle kalkar, Enchantment (nötralize+zayıflatma) onu yere sererek kalkar. E1'i kullanmadan önce büyülerini kaldırmak şart.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Enchantress Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Enchantress Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
 }

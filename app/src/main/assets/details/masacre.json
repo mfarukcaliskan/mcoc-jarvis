@@ -2,11 +2,11 @@
     "id": "masacre",
     "name": "Masacre",
     "abilityDetails": {
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
-        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Reduce AA": "Yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Disorient": "Savunma yetenek doğruluğunu ve blok yeterliliğini belirtilen güçte azaltır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler."
     },

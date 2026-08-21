@@ -3,9 +3,9 @@
     "name": "Hela",
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği."
+        "Indestructible": "Gelen hasarı yok sayar."
     },
     "synergies": [],
     "howToPlay": "Hela için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

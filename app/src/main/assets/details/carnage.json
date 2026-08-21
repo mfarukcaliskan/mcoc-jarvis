@@ -2,8 +2,8 @@
     "id": "carnage",
     "name": "Carnage",
     "abilityDetails": {
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Bulwark": "Hedefin blok yeterliliğini artırır.",
         "Precision": "Kritik vuruş şansını artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",

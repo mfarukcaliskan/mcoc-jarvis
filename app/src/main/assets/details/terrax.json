@@ -2,14 +2,15 @@
     "id": "terrax",
     "name": "Terrax",
     "abilityDetails": {
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
+        "Indestructible": "Gelen hasarı yok sayar.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
     },
     "synergies": [],
-    "howToPlay": "Terrax için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Kayalık aurası aktifken enerji hasarı çok yoğun — enerji dirençli ve zırh-kırmaya immün şampiyon kullan. Metal olmayan güç-çekici şampiyonlar da iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Terrax Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Terrax Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Şok Bağışıklığı ⚡️\n• Güç Emme/Yakma Bağışıklığı (Metal şampiyonlara karşı) 🔋"
 }

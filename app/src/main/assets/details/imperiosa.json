@@ -2,16 +2,17 @@
     "id": "imperiosa",
     "name": "Imperiosa",
     "abilityDetails": {
-        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
-        "Start With Power": "Şampiyonun dövüş sırasında avantaj sağlayan özel Start With Power yeteneği.",
+        "Fractured Power Bar": "Şampiyon, elindeki güç barına göre farklı özel saldırı türlerini belirli olasılıklarla kullanır.",
+        "Start With Power": "Dövüşe belirli miktarda güçle başlar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
+        "Pierce": "Blok Nüfuzunu ve Zırh Nüfuzunu belirtilen güçte artırır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
-        "Corrosion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Corrosion yeteneği."
+        "Root": "Köklenen şampiyonlar hareket edemez ama saldırabilir, bloklayabilir ve kaçabilir; özel saldırı Root'u kaldırır.",
+        "Corrosion": "Aktifken fiziksel hasar verir; hedefin zırhı azaldıkça bu hasar %100'e kadar artar."
     },
     "synergies": [],
-    "howToPlay": "Imperiosa için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Dövüşe %75 güçle başlar ama güç kilidi altındadır (combo bitirme/ağır saldırı/intercept ile 4sn açılır). E3'ü corrosion uygular, ondan kaçın. Bloktan çok can gider (fury+penetrasyon), nötralize edilirse pasife döner. E2'si etrafına tuzak koyar (6sn köklenme, siperlenemez) — asla E2 kullanmasına izin verme. Güç kontrolcüleri en önemlisi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Imperiosa Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Imperiosa Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Dağılma Bağışıklığı 🪚\n• Güç Emme Bağışıklığı 🔋"
 }

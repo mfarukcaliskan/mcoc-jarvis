@@ -3,8 +3,8 @@
     "name": "Kang",
     "abilityDetails": {
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır."
     },
     "synergies": [],

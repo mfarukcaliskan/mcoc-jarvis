@@ -4,12 +4,13 @@
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "True Damage": "Zırh ve dirençleri yok sayar.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği."
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez."
     },
     "synergies": [],
     "howToPlay": "Ronan için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ronan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Ronan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪"
 }

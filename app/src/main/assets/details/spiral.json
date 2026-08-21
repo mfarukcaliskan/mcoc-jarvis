@@ -2,19 +2,20 @@
     "id": "spiral",
     "name": "Spiral",
     "abilityDetails": {
-        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
-        "Fervor": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fervor yeteneği.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Destroy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Destroy yeteneği.",
+        "Increased AA": "Yetenek doğruluğunu artırır.",
+        "Rupture": "Aktifken fiziksel hasar verir.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
+        "Fervor": "Giden hasar veren etkilerin yetenek doğruluğunu artırır.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Destroy": "Hedeften belirli sayıda buff kaldırıp yerine etkisiz bir Rubble buff'ı koyar.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vulnerability yeteneği.",
-        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği."
+        "Vulnerability": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte azaltır.",
+        "Dodge": "Gelen bir temel saldırıdan veya temaslı özel saldırıdan geriye kaçarak kaçınma; Çeviklik ustalığı bu pencereyi genişletir."
     },
     "synergies": [],
-    "howToPlay": "Spiral için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırı sonrası 10sn'lik dans eden bıçaklar aktive eder — bu sürede hafif vuruşla vurursan 2sn pasif sersemlersin. Ona vurmaktan kaçın ya da orta/ağır vuruş kullan. Sersemlemeye immün şampiyonlar da iyi çözüm.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spiral Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Spiral Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Şok süresini %100 azaltır ⚡️\n• Yakma süresini %100 azaltır 🔥\n• Zehir süresini %100 azaltır 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (ile sinerji: Rogue) 🧠"
 }

@@ -4,18 +4,19 @@
     "abilityDetails": {
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
-        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
-        "Sabotage": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sabotage yeteneği.",
-        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
-        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Vicious": "Hasar veren debuff'ların gücünü belirtilen miktarda artırır.",
+        "Sabotage": "Savunma yetenek doğruluğunu belirtilen miktarda azaltır; rakibin savunma yetenekleri tetiklenemediğinde doğrudan hasar verir.",
+        "Reduce Defensive AA": "Savunma yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
+        "Cleanse": "Bu etkiye sahip şampiyon bir debuff aldığında, debuff anında arındırılır ve Cleanse kaldırılır.",
         "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Infuriate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Infuriate yeteneği.",
-        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Infuriate": "Rakip daha saldırgan hale gelir ve saldırı yetenek doğruluğu azalır.",
+        "Combo Shield": "Aktifken, vurulduğunda combo metre sıfırlanmaz.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
     },
     "synergies": [],
     "howToPlay": "Black Cat için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Cat Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Black Cat Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Özel 1'de 3 olumsuz etkiyi arındırır 💪🏼"
 }

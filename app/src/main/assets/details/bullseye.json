@@ -2,22 +2,23 @@
     "id": "bullseye",
     "name": "Bullseye",
     "abilityDetails": {
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
-        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
+        "Critical into Block": "Blok sırasında alınan vuruşlar kritik olabilir.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
-        "Impact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Impact yeteneği.",
+        "True Accuracy": "Bu saldırılar Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
+        "Impact": "Blok Nüfuzunu (Block Penetration) belirtilen güçte artırır.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
-        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği."
+        "Disorient": "Savunma yetenek doğruluğunu ve blok yeterliliğini belirtilen güçte azaltır.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır."
     },
     "synergies": [],
-    "howToPlay": "Bullseye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Kaçışı yetenek azaltmayla önlenemez (yavaşlatma da işe yaramaz). Özel saldırılarında ve rakip kaçınca kanama uygular — kanamaya immün/dirençli şampiyon şart. Kaçışını isabetli saldırı veya pasif kaçış-karşıtı şampiyonlarla (Professor X, Cyclops, Bastion, Apocalypse) önle; onda-i-soğuk erişimi olan şampiyonlar da işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Bullseye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Bullseye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %50 Arındırma 💪🏼"
 }

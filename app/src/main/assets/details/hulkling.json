@@ -3,17 +3,18 @@
     "name": "Hulkling",
     "abilityDetails": {
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
-        "Aptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Aptitude yeteneği.",
-        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Pierce": "Blok Nüfuzunu ve Zırh Nüfuzunu belirtilen güçte artırır.",
+        "Aptitude": "Fury, Armor Up ve Precision etkilerinin gücünü artırır.",
+        "Bulwark": "Hedefin blok yeterliliğini artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
-        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
+        "Indestructible": "Gelen hasarı yok sayar.",
+        "Intimidate": "Blok şansını artırır, blok yeterliliğini belirtilen güçte azaltır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },
     "synergies": [],
-    "howToPlay": "Hulkling için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Indestructible, engellenemez, iyileşme ve blok-nüfuzu — hepsi bonus, nötralize/nötrleştirici şampiyonlar kolayca kapatır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulkling Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hulkling Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️\n• Güç Emme/Yakma Bağışıklığı 🔋"
 }

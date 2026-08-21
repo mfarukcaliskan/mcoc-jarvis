@@ -3,13 +3,14 @@
     "name": "Kitty Pryde",
     "abilityDetails": {
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
-        "Phasing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Phasing yeteneği.",
-        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
+        "Phasing": "Saldırıların ıskalama (Miss) şansı %100'dür.",
+        "Reduce AA": "Yetenek doğruluğunu belirtilen güçte azaltır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Unblockable": "Saldırıların bloklanmasını engeller."
     },
     "synergies": [],
-    "howToPlay": "Kitty Pryde için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Prowess'lere dikkat — 3 prowess ile koşu saldırılarında görünmez olur ve görünmezken aldığı hasarı yansıtır. Prowess kaldıran veya kritik vuramayan şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kitty Pryde Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Kitty Pryde Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Kontrolleri Tersine Çevirme Bağışıklığı (Emma Frost ile sinerji) 🧠"
 }

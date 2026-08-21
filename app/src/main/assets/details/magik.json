@@ -2,18 +2,19 @@
     "id": "magik",
     "name": "Magik",
     "abilityDetails": {
-        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği.",
-        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
+        "Dodge": "Gelen bir temel saldırıdan veya temaslı özel saldırıdan geriye kaçarak kaçınma; Çeviklik ustalığı bu pencereyi genişletir.",
+        "Neutralize": "Buff yetenek doğruluğunu belirtilen güçte azaltır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
-        "Buff Deceleration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Deceleration yeteneği.",
+        "Buff Deceleration": "Etkilenen şampiyondaki buff'ların tik hızını azaltır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Buff Acceleration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Acceleration yeteneği.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği."
+        "Buff Acceleration": "Etkilenen şampiyondaki buff'ların tik hızını artırır.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır."
     },
     "synergies": [],
-    "howToPlay": "Magik için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Güç barı dolunca 2,5sn'lik Limbo bonusu uygular (özel saldırılarında duraklar) — Limbo aktifken süresi dolan her bonus degeneration tetikler. Limbo bitince bloktan aldığı hasarın %100'ünü ve toplam hasarın %50'sini anında iyileştirir. Bonus immün şampiyon Limbo'yu tamamen engeller. İyileşme bloğu/tersine çevirme + bonus immünitesi olan şampiyon yok denecek kadar az; bazı bonus-immün Science şampiyonlar (Titania, Ant-Man, Spider-Man 2099, Cassie Lang) despair yeterliliğiyle iyileşmesini güçlü şekilde azaltabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Magik Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Magik Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı (ile sinerji: Purgatory) 🩸"
 }

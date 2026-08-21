@@ -2,20 +2,21 @@
     "id": "wiccan",
     "name": "Wiccan",
     "abilityDetails": {
-        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
+        "Neutralize": "Buff yetenek doğruluğunu belirtilen güçte azaltır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Resistance Up": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resistance Up yeteneği.",
+        "Resistance Up": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte artırır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Plasma yeteneği.",
-        "Power Efficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Efficiency yeteneği.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
+        "Plasma": "Aktifken enerji hasarı verir, blok yeterliliğini %50 azaltır ve Mükemmel Blok şansını kaldırır.",
+        "Power Efficiency": "Özel saldırıların güç maliyetini belirtilen güçte azaltır.",
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir."
     },
     "synergies": [],
-    "howToPlay": "Wiccan için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Bonusları yakmaya çevirir — yakmaya immün şampiyon kullan. Asla ona şok uygulama, degeneration ile karşılık verir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Wiccan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Wiccan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
 }

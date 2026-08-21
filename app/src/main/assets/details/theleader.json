@@ -3,17 +3,17 @@
     "name": "The Leader",
     "abilityDetails": {
         "Disable Willpower": "Rakibin İrade Gücü ustalık yenilenmesini devre dışı bırakır.",
-        "Spectre": "Şampiyonun dövüş sırasında avantaj sağlayan özel Spectre yeteneği.",
+        "Spectre": "İyileşme oranını belirtilen güçte azaltır.",
         "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Instant Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Power Dissolve": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Dissolve yeteneği.",
-        "Degen Vunlnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Degen Vunlnerability yeteneği.",
-        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği."
+        "Power Dissolve": "Aktifken, etkilenen şampiyon özel saldırı dışında bir sebeple güç kaybettiğinde, kaybedilen güç oranıyla orantılı doğrudan hasar alır.",
+        "Degen Vunlnerability": "Gelen Dejenerasyon (Degeneration) etkilerinin gücünü artırır.",
+        "Steadfast": "Aktifken, Unblockable saldırılar sanki değillermiş gibi bloklanabilir."
     },
     "synergies": [],
-    "howToPlay": "The Leader için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Hafif vuruşla vurulunca spectre+çürütme debuff'ı uygular (purify/sanar ile temizlenemez); rakipteki her debuff için aldığı hasarı %3-4 azaltır. 100 yükte yeşil kapıyı açar, yakınındaki rakip degeneration alır (debuff sayısına göre güçlenir). Dövüşü uzatma — kanama uygulayan veya zırh kıran şampiyon tercih et.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
     "signatureAbility": "The Leader Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
 }

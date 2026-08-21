@@ -3,13 +3,14 @@
     "name": "Silver Samurai",
     "abilityDetails": {
         "Daunted": "Rakibin özel saldırılar sonrasında hasar almasını kolaylaştırır.",
-        "Reinforce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reinforce yeteneği.",
-        "Overload": "Şampiyonun dövüş sırasında avantaj sağlayan özel Overload yeteneği.",
+        "Reinforce": "Gelen saldırılar kritik vuruş olamaz.",
+        "Overload": "Vuruşlar, yakın zamanda verilen hasarın bir kısmını ek enerji hasarı olarak verir.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Power Efficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Efficiency yeteneği."
+        "Power Efficiency": "Özel saldırıların güç maliyetini belirtilen güçte azaltır."
     },
     "synergies": [],
     "howToPlay": "Silver Samurai için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Silver Samurai Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Silver Samurai Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Kanama direnci 🩸"
 }

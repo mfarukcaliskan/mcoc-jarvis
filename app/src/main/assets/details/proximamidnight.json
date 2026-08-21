@@ -2,12 +2,12 @@
     "id": "proximamidnight",
     "name": "Proxima Midnight",
     "abilityDetails": {
-        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "True Accuracy": "Bu saldırılar Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
-        "Safeguard": "Şampiyonun dövüş sırasında avantaj sağlayan özel Safeguard yeteneği.",
-        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği.",
-        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Safeguard": "Vurulurken veya bloklarken herhangi bir kaynaktan alınabilecek can kaybını belirli bir yüzdeyle sınırlar.",
+        "Reduce AA": "Yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Parry Non-Contact": "Siper (Parry) ustalığının temassız saldırılara karşı da Stun tetiklemesini sağlar.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."

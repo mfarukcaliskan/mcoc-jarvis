@@ -3,13 +3,13 @@
     "name": "Okoye",
     "abilityDetails": {
         "Precision": "Kritik vuruş şansını artırır.",
-        "Ensnare": "Şampiyonun dövüş sırasında avantaj sağlayan özel Ensnare yeteneği.",
+        "Ensnare": "Kaçış (Evade) etkinleşmesini engeller ve yetenek doğruluğunu azaltır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
-        "Vicious": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vicious yeteneği.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
-        "Endurance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Endurance yeteneği."
+        "Combo Shield": "Aktifken, vurulduğunda combo metre sıfırlanmaz.",
+        "Vicious": "Hasar veren debuff'ların gücünü belirtilen miktarda artırır.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
+        "Endurance": "Aktifken, etkilenen şampiyon üzerindeki yeni hasarsız debuff'ların süresini azaltır."
     },
     "synergies": [],
     "howToPlay": "Okoye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

@@ -2,11 +2,11 @@
     "id": "redgoblin",
     "name": "Red Goblin",
     "abilityDetails": {
-        "True Sense": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Sense yeteneği.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "True Sense": "Bu saldırılar Otomatik Blok ve Miss etkilerini yok sayar.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Aptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Aptitude yeteneği.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Aptitude": "Fury, Armor Up ve Precision etkilerinin gücünü artırır.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir."
@@ -14,5 +14,6 @@
     "synergies": [],
     "howToPlay": "Red Goblin için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Red Goblin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Red Goblin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Güç Emme/Yakma Bağışıklığı 🔋"
 }

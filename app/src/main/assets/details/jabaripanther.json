@@ -2,17 +2,18 @@
     "id": "jabaripanther",
     "name": "Jabari Panther",
     "abilityDetails": {
-        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Cleanse": "Bu etkiye sahip şampiyon bir debuff aldığında, debuff anında arındırılır ve Cleanse kaldırılır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Precision": "Kritik vuruş şansını artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Ensnare": "Şampiyonun dövüş sırasında avantaj sağlayan özel Ensnare yeteneği.",
+        "Ensnare": "Kaçış (Evade) etkinleşmesini engeller ve yetenek doğruluğunu azaltır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Counterpunch": "Şampiyonun dövüş sırasında avantaj sağlayan özel Counterpunch yeteneği."
+        "Counterpunch": "Bir saldırıyı bloklarken şarj harcayarak kısa süreli Unstoppable kazanır ve anında karşı saldırı yapılabilir."
     },
     "synergies": [],
-    "howToPlay": "Jabari Panther için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Sanar bonusu kazanır ve sürekli purify eder. 10 avcı yükünde destreza'yı kapatır ve sersemlemeye immün olur. Prowess'li şampiyon (avcı yüklerini siler) veya White Magneto ön-dövüşü kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Jabari Panther Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Jabari Panther Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼"
 }

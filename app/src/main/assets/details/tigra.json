@@ -2,8 +2,8 @@
     "id": "tigra",
     "name": "Tigra",
     "abilityDetails": {
-        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Neutralize": "Buff yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Rupture": "Aktifken fiziksel hasar verir.",
         "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Regeneration": "Can barını zamanla yeniler."

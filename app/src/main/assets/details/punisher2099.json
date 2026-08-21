@@ -2,13 +2,13 @@
     "id": "punisher2099",
     "name": "Punisher 2099",
     "abilityDetails": {
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Disintegration": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disintegration yeteneği.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
-        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği."
+        "Disintegration": "Aktifken doğrudan hasar verir; etkilenen şampiyonun güç kazanım oranını azaltır.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
+        "Power Lock": "Hedefin herhangi bir yolla güç kazanmasını engeller."
     },
     "synergies": [],
     "howToPlay": "Punisher 2099 için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

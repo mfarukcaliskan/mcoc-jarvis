@@ -4,15 +4,16 @@
     "abilityDetails": {
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Invisible": "Saldırıların ıskalama (Miss) şansı %100'dür.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
-        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği."
+        "Fear": "Unblockable yetenek doğruluğunu sabit %100 azaltır ve Mükemmel Blok Şansını kaldırır.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır."
     },
     "synergies": [],
-    "howToPlay": "Dracula için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Bloğuna vurursan 2sn görünmez olup karşılık verir — bloğuna vurma ya da görünmezlik-karşıtı şampiyon kullan. Bonusunu nötralize edersen pasif kanama uygular. Özel saldırılarında pasif iyileşir — iyileşme oranını azaltan şampiyon tercih et.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dracula Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Dracula Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• İyileşme Engeli Bağışıklığı 💚🚫"
 }

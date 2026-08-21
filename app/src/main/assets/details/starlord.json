@@ -5,8 +5,8 @@
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği."
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
+        "Heal Block": "Can kazanımını tamamen engeller."
     },
     "synergies": [],
     "howToPlay": "Star-Lord için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

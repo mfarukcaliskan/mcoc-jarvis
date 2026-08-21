@@ -2,17 +2,18 @@
     "id": "moleman",
     "name": "Mole Man",
     "abilityDetails": {
-        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "True Accuracy": "Bu saldırılar Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Unblockable": "Saldırıların bloklanmasını engeller."
     },
     "synergies": [],
-    "howToPlay": "Mole Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): İlk 20 negatif efekt purify edilir ve bu ona canavarsı kütle verir — kütle varken bloktan vurulunca durdurulamaz olur. Ana kural: bloğuna vurma, purify-karşıtı mekanikli şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mole Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Mole Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Dövüş başına 20 olumsuz etkiyi arındırır 💪🏼\n• Şok Bağışıklığı ⚡️"
 }

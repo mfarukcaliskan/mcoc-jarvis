@@ -10,7 +10,8 @@
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder."
     },
     "synergies": [],
-    "howToPlay": "Toad için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Zehire immün, prowess kaldıran veya iyileşme engelleyen şampiyon kullan. İyileşme engeli olmadan da yenilebilir ama o zaman duvara sıkıştırma. Asla Skill şampiyon kullanma.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Toad Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Toad Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
 }

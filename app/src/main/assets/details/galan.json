@@ -2,11 +2,11 @@
     "id": "galan",
     "name": "Galan",
     "abilityDetails": {
-        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği.",
-        "Intensify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intensify yeteneği.",
-        "True Sense": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Sense yeteneği.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Cross-Fight Ability": "Saldıran veya savunan şampiyona uygulanabilen ve bir görev içinde birden fazla dövüş boyunca süren yetenek.",
+        "Intensify": "Yeni oluşturulan tüm buff'ların gücünü bir yüzde artırır.",
+        "True Sense": "Bu saldırılar Otomatik Blok ve Miss etkilerini yok sayar.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
@@ -15,7 +15,8 @@
         "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir."
     },
     "synergies": [],
-    "howToPlay": "Galan için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Hasat patlaması tehlikeli, nötralize'ye immün. Asla zırh bonuslu şampiyon kullanma — hasadı besler. En iyi kontrol: nötrleştirme veya güç çalma.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Galan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Galan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• Güç Emme/Yakma Bağışıklığı 🔋\n• Kanama Bağışıklığı (ile sinerji: Purgatory) 🩸"
 }

@@ -3,12 +3,12 @@
     "name": "Falcon (Joaquin Torres)",
     "abilityDetails": {
         "Regeneration": "Can barını zamanla yeniler.",
-        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
-        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Debilitate": "Debilitate dışında yeni uygulanan debuff'ların süresini uzatır.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
+        "Bulwark": "Hedefin blok yeterliliğini artırır.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
-        "Trauma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Trauma yeteneği.",
-        "Special Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Weakness yeteneği.",
+        "Trauma": "Alınan vuruşlar, yakın zamanda verilen hasarın bir kısmını ek fiziksel hasar patlaması olarak verdirir.",
+        "Special Weakness": "Özel saldırılar sırasında saldırı gücünü azaltır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },
     "synergies": [],

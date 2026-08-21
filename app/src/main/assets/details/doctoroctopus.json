@@ -2,11 +2,11 @@
     "id": "doctoroctopus",
     "name": "Doctor Octopus",
     "abilityDetails": {
-        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Power Lock": "Hedefin herhangi bir yolla güç kazanmasını engeller.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],

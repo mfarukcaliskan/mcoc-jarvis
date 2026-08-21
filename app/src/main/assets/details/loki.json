@@ -3,10 +3,10 @@
     "name": "Loki",
     "abilityDetails": {
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Buff Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Steal yeteneği.",
+        "Buff Steal": "Rakibin buff'larını çalarak kendine aktarır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
     },
     "synergies": [],

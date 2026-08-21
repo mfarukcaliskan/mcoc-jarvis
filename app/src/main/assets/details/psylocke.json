@@ -2,12 +2,12 @@
     "id": "psylocke",
     "name": "Psylocke",
     "abilityDetails": {
-        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
+        "Power Lock": "Hedefin herhangi bir yolla güç kazanmasını engeller.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
-        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
+        "Power Burn": "Hedeften belirli miktarda güç alır, ardından alınan güçle orantılı doğrudan hasar verir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği."
+        "Reduce Defensive AA": "Savunma yetenek doğruluğunu belirtilen güçte azaltır."
     },
     "synergies": [],
     "howToPlay": "Psylocke için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

@@ -2,11 +2,11 @@
     "id": "spiderman",
     "name": "Spider-Man (Classic)",
     "abilityDetails": {
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
-        "Decelerate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Decelerate yeteneği.",
-        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Debilitate": "Debilitate dışında yeni uygulanan debuff'ların süresini uzatır.",
+        "Decelerate": "Unstoppable ve Kaçış (Evade) yetenek doğruluğunu sabit bir miktarda azaltır.",
+        "Suppression": "Muharebe Güç Oranını belirtilen güçte azaltır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
     },
     "synergies": [],

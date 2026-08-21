@@ -2,13 +2,14 @@
     "id": "spidermansymbiote",
     "name": "Spider-Man (Symbiote)",
     "abilityDetails": {
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
     },
     "synergies": [],
-    "howToPlay": "Spider-Man (Symbiote) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlike özel saldırı sonrası 1,1sn'lik kaçış bonusu — kaçış-karşıtı yeteneği olmadan özel saldırılarına karşılık verme. Kaçtığında zırh kırar ve %4 can yeniler. Bonus kontrolü veya kaçışı kapatan şampiyonlar en iyi cevap.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man (Symbiote) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Spider-Man (Symbiote) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• İyileşme Engeli Bağışıklığı 💚🚫\n• Güç Emme/Yakma Bağışıklığı 🔋"
 }

@@ -2,14 +2,14 @@
     "id": "stellarstarlord",
     "name": "Star-Lord (Stellar-Forged)",
     "abilityDetails": {
-        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
-        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
+        "Fractured Power Bar": "Şampiyon, elindeki güç barına göre farklı özel saldırı türlerini belirli olasılıklarla kullanır.",
+        "Combo Shield": "Aktifken, vurulduğunda combo metre sıfırlanmaz.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Precision": "Kritik vuruş şansını artırır.",
-        "Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vulnerability yeteneği.",
+        "Vulnerability": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte azaltır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Combo Wave": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Wave yeteneği.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği."
+        "Combo Wave": "Her vuruş +1 combo metre kazandırır; kritik vuruşlar ek +5 combo metre verir.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur."
     },
     "synergies": [],
     "howToPlay": "Star-Lord (Stellar-Forged) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

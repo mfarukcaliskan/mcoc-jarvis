@@ -8,7 +8,7 @@
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
         "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
@@ -16,7 +16,7 @@
         "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği."
+        "Heal Block": "Can kazanımını tamamen engeller."
     },
     "synergies": [],
     "howToPlay": "Scarlet Witch için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

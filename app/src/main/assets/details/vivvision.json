@@ -2,21 +2,22 @@
     "id": "vivvision",
     "name": "Viv Vision",
     "abilityDetails": {
-        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Increased AA": "Yetenek doğruluğunu artırır.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
-        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
-        "Phasing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Phasing yeteneği.",
-        "Invalidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invalidate yeteneği.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
+        "Suppression": "Muharebe Güç Oranını belirtilen güçte azaltır.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
+        "Phasing": "Saldırıların ıskalama (Miss) şansı %100'dür.",
+        "Invalidate": "Belirtilen sayıda Prowess etkisini kaldırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Plasma yeteneği.",
+        "Plasma": "Aktifken enerji hasarı verir, blok yeterliliğini %50 azaltır ve Mükemmel Blok şansını kaldırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği."
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır."
     },
     "synergies": [],
-    "howToPlay": "Viv Vision için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Sürekli güç çeker — güç çekmeye immün şampiyon şart. E1'i ağır yakma hasarı verir, bunu önlemek için E2'ye zorla veya zırh kıran şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Viv Vision Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Viv Vision Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı 🔮\n• Kontrolleri Tersine Çevirme Bağışıklığı (Özel 3'ten sonra) 🧠"
 }

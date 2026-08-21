@@ -3,10 +3,10 @@
     "name": "Green Goblin",
     "abilityDetails": {
         "Regeneration": "Can barını zamanla yeniler.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği."
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez."
     },
     "synergies": [],
     "howToPlay": "Green Goblin için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

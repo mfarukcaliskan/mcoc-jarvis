@@ -3,12 +3,12 @@
     "name": "Spider-Man (Miles Morales)",
     "abilityDetails": {
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Invisible": "Saldırıların ıskalama (Miss) şansı %100'dür.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
+        "Rupture": "Aktifken fiziksel hasar verir.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
         "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },

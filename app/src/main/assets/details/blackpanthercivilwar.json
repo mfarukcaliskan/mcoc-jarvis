@@ -3,13 +3,14 @@
     "name": "Black Panther (Civil War)",
     "abilityDetails": {
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
+        "Cleanse": "Bu etkiye sahip şampiyon bir debuff aldığında, debuff anında arındırılır ve Cleanse kaldırılır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar."
     },
     "synergies": [],
-    "howToPlay": "Black Panther (Civil War) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): En büyük tehlikeler sersemletme yansıması ve hasar yansıması — hiçbir koşulda sersemletme. Ağır saldırı da kullanma, pasif durdurulamaz olup karşılık verir. Pasif sersemletme erişimi olan şampiyon (yansımayı devre dışı bırakır) veya durdurulamaz-karşıtı şampiyon en iyisi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Panther (Civil War) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Black Panther (Civil War) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Özel 1'de 4 olumsuz etkiyi arındırır 💪🏼"
 }

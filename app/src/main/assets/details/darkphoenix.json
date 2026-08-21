@@ -2,19 +2,20 @@
     "id": "darkphoenix",
     "name": "Dark Phoenix",
     "abilityDetails": {
-        "Safeguard": "Şampiyonun dövüş sırasında avantaj sağlayan özel Safeguard yeteneği.",
-        "Immortality": "Şampiyonun dövüş sırasında avantaj sağlayan özel Immortality yeteneği.",
-        "Nova Flame": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nova Flame yeteneği.",
+        "Safeguard": "Vurulurken veya bloklarken herhangi bir kaynaktan alınabilecek can kaybını belirli bir yüzdeyle sınırlar.",
+        "Immortality": "Şampiyonun elenmesini engeller.",
+        "Nova Flame": "Aktifken enerji hasarı verir, blok yeterliliğini %50 azaltır ve Mükemmel Blok şansını kaldırır.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Pulverize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pulverize yeteneği.",
+        "Pulverize": "Bir Armor Up etkisini kaldırır ve doğrudan hasar verir.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Root": "Köklenen şampiyonlar hareket edemez ama saldırabilir, bloklayabilir ve kaçabilir; özel saldırı Root'u kaldırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller."
     },
     "synergies": [],
-    "howToPlay": "Dark Phoenix için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Nova alevi (sadece Iceman ve kendisi immün), ölümsüzlük, koruma ve kök salan özel saldırıları var. Zehir uygulamak (Mystic ise) nova alevi süresini tamamen sıfırlayabilir — bu en önemli tehlikeyi giderir. Fate-seal, bonus immünitesi ve zayıflatma (Mojo, Kindred, Absorbing Man, Shathra, The Hood, Claire) korumasını/ölümsüzlüğünü engeller. Yüksek enerji direnci (en az %60) avantaj sağlar. Isophyne, Spiral ve Absorbing Man ölümsüzlüğü tamamen önleyebilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dark Phoenix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Dark Phoenix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Güç Emme Bağışıklığı 🔋\n• Nova Alevi Bağışıklığı 🐦‍🔥"
 }

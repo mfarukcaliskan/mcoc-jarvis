@@ -3,13 +3,13 @@
     "name": "Purgatory",
     "abilityDetails": {
         "Regeneration": "Can barını zamanla yeniler.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
-        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
-        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği.",
+        "Neutralize": "Buff yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Cross-Fight Ability": "Saldıran veya savunan şampiyona uygulanabilen ve bir görev içinde birden fazla dövüş boyunca süren yetenek.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
@@ -18,5 +18,6 @@
     "synergies": [],
     "howToPlay": "Purgatory için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Purgatory Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Purgatory Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Kanama Bağışıklığı (ile sinerji: Hood) 🩸"
 }

@@ -2,7 +2,7 @@
     "id": "daredevil",
     "name": "Daredevil (Classic)",
     "abilityDetails": {
-        "Perfect Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Perfect Block yeteneği.",
+        "Perfect Block": "Bloklarken gelen tüm hasarı sıfıra indirir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
     },

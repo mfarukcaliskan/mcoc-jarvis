@@ -13,7 +13,8 @@
         "Aspect of Evolution": "Dövüş ilerledikçe şampiyonun genel istatistiklerini artırır."
     },
     "synergies": [],
-    "howToPlay": "High Evolutionary için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Aynı vuruşu tekrarlarsan 3 pasif otomatik-blok yükü kazanır (yetenek azaltma veya isabetli saldırı bunu önlemez, ama siperlemeyi tetiklemez) — vuruş tekrarından kaçın. Güç barı kazanınca 16 vuruşluk pasif combo patlaması tetiklenir, 18sn içinde 16 kez vurmazsan savunmacının saldırısının %280'i kadar doğrudan hasar alırsın. E2/E3'ünde 12sn'lik alan kontrolleri tersine çevirir ve combo patlaması hasarını artırır — E2 kullanmasına ASLA izin verme.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "High Evolutionary Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "High Evolutionary Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Nötralize Bağışıklığı 🗡️❌"
 }

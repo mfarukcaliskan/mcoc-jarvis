@@ -2,16 +2,17 @@
     "id": "havok",
     "name": "Havok",
     "abilityDetails": {
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
-        "Feedback": "Şampiyonun dövüş sırasında avantaj sağlayan özel Feedback yeteneği.",
+        "Feedback": "Rakip üzerindeki her Plasma birikimi için enerji hasarı verir.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Special Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Protection yeteneği."
+        "Special Protection": "Özel saldırılar sırasında ek hasar koruması sağlar."
     },
     "synergies": [],
-    "howToPlay": "Havok için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Aktif zırh bonusu olan şampiyon şart. Onu ağır saldırı ve E2 kullanmaya zorla (plazma yükünü kontrol eder). Enerji hasarlı veya kanama yapan şampiyon kullanma.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Havok Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Havok Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• %52,9 Şok direnci ⚡️\n• %52,9 Ani Soğuk direnci 🧊\n• %52,9 Plazma direnci ⚗️"
 }

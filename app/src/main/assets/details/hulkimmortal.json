@@ -2,15 +2,16 @@
     "id": "hulkimmortal",
     "name": "Hulk (Immortal)",
     "abilityDetails": {
-        "Immortality": "Şampiyonun dövüş sırasında avantaj sağlayan özel Immortality yeteneği.",
+        "Immortality": "Şampiyonun elenmesini engeller.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
+        "Suppression": "Muharebe Güç Oranını belirtilen güçte azaltır.",
         "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği."
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez."
     },
     "synergies": [],
-    "howToPlay": "Hulk (Immortal) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlike ilk canın sonunda gelen devasa iyileşme. Petrify ve iyileşme-azaltmaya immün — iyileşme engeli veya savunma yeteneği azaltan şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulk (Immortal) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hulk (Immortal) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠"
 }

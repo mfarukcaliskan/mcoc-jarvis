@@ -2,15 +2,16 @@
     "id": "maestro",
     "name": "Maestro",
     "abilityDetails": {
-        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
-        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
-        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Glancing": "Sıyırma vuruşları kritik olamaz, %50 azalmış hasar verir ve saldırı yetenek doğruluğu %100 düşer.",
+        "Pierce": "Blok Nüfuzunu ve Zırh Nüfuzunu belirtilen güçte artırır.",
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir.",
+        "Root": "Köklenen şampiyonlar hareket edemez ama saldırabilir, bloklayabilir ve kaçabilir; özel saldırı Root'u kaldırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
     },
     "synergies": [],
-    "howToPlay": "Maestro için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): 10 nötronda tüm kritik ve ofansif yetenekleri engelleyen kaçış bonusu kazanır; 30'da yakındaki rakibe enerji hasarı verir; 40'ta (Superior Fury) kaçış pasif olur ve özel saldırılarında rakibi köklendirir. 40 nötrona ulaşmadan öldürmek şart — hiçbir şampiyon kaçışına immün değil. Özel saldırılar kaçışa takılmaz, bu yüzden özel hasarı yüksek şampiyonlar iyi. Bonus süresini kısaltan (Mojo, Kindred) veya pasif güç kazanan/çalan şampiyonlar (Sorcerer Supreme, America Chavez, Tigra, The Hood, Wong, Symbiote Supreme) da iyi seçenek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Maestro Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Maestro Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️\n• Yakma Bağışıklığı 🔥"
 }

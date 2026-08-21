@@ -3,19 +3,20 @@
     "name": "The Serpent",
     "abilityDetails": {
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
+        "Fear": "Unblockable yetenek doğruluğunu sabit %100 azaltır ve Mükemmel Blok Şansını kaldırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Resistance Up": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resistance Up yeteneği.",
-        "Pierce": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pierce yeteneği.",
+        "Resistance Up": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte artırır.",
+        "Pierce": "Blok Nüfuzunu ve Zırh Nüfuzunu belirtilen güçte artırır.",
         "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir.",
-        "Inexorable": "Şampiyonun dövüş sırasında avantaj sağlayan özel Inexorable yeteneği.",
+        "Inexorable": "Temel saldırılarla geri itilemez ve temel saldırılardan kazanılan güç artar.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "True Focus": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Focus yeteneği.",
+        "True Focus": "Bu saldırılar Kaçış (Evade) ve Miss etkilerini yok sayar.",
         "Instant Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
-        "Death Immunity": "Şampiyonun dövüş sırasında avantaj sağlayan özel Death Immunity yeteneği."
+        "Death Immunity": "Şampiyon normalde elenecekken elenmez sayılır; bazı yetenekler için bağışıklık olarak kabul edilir."
     },
     "synergies": [],
-    "howToPlay": "The Serpent için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Güç kazanımı, zırh delme, ölümsüzlük, kaçılamaz özel saldırılar ve çok yüksek direnç — güvenli cevap az. Nötrleştirme, fate-seal ve güç çekme onda işe yaramaz. Güç çalma en etkili yöntem (ona immün değil); nötralize bonuslarını kapatır; bonus süresini kısaltan (Mojo, Kindred) şampiyonlar tehlikeyi %90'a kadar azaltır; Claire Voyant onu kendi bonuslarına immün yapabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "The Serpent Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "The Serpent Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊\n• Kanama süresini %90 azaltır 🩸⏰\n• İyileşme Engeli Bağışıklığı 💚🚫\n• Kader Mührü Bağışıklığı 🔮\n• %60 Güç Emme/Yakma direnci 🔋"
 }

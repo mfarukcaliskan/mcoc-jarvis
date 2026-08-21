@@ -3,17 +3,17 @@
     "name": "Wasp",
     "abilityDetails": {
         "Mid-Combo Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
         "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği.",
+        "Concussion": "Etkilenen şampiyonların yetenek doğruluğunu belirtilen güçte azaltır.",
         "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
         "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır."
     },
     "synergies": [],
-    "howToPlay": "Wasp için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Kaçışını isabetli saldırı veya yetenek azaltmayla önle. Ağır saldırıya zorlamak da kaçışını cooldown'a sokar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
     "signatureAbility": "Wasp Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
 }

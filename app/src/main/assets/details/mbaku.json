@@ -5,15 +5,16 @@
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği.",
-        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Combo Shield": "Aktifken, vurulduğunda combo metre sıfırlanmaz.",
+        "True Accuracy": "Bu saldırılar Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
         "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir.",
-        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
-        "Adrenaline": "Şampiyonun dövüş sırasında avantaj sağlayan özel Adrenaline yeteneği."
+        "Cleanse": "Bu etkiye sahip şampiyon bir debuff aldığında, debuff anında arındırılır ve Cleanse kaldırılır.",
+        "Adrenaline": "Zamanla azalan beyaz bir can barı olarak depolanır. Saldırılarla verilen hasar, depolanan Adrenaline'i cana çevirir; bu dönüşüm İyileşme Engeli gibi etkilerden etkilenmez."
     },
     "synergies": [],
     "howToPlay": "M'Baku için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "M'Baku Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "M'Baku Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Ani Soğuk direnci 🧊"
 }

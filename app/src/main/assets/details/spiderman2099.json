@@ -2,17 +2,18 @@
     "id": "spiderman2099",
     "name": "Spider-Man 2099",
     "abilityDetails": {
-        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği.",
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği.",
+        "Dodge": "Gelen bir temel saldırıdan veya temaslı özel saldırıdan geriye kaçarak kaçınma; Çeviklik ustalığı bu pencereyi genişletir.",
+        "Rupture": "Aktifken fiziksel hasar verir.",
         "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
-        "Resistance Up": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resistance Up yeteneği.",
+        "Resistance Up": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte artırır.",
         "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder."
     },
     "synergies": [],
     "howToPlay": "Spider-Man 2099 için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man 2099 Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Spider-Man 2099 Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Buff Bağışıklığı 🗡️🚫"
 }

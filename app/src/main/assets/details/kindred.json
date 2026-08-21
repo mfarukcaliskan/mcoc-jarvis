@@ -2,14 +2,15 @@
     "id": "kindred",
     "name": "Kindred",
     "abilityDetails": {
-        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
+        "Atrophy": "Buff'ların süresini kısaltır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
-        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği."
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
+        "Root": "Köklenen şampiyonlar hareket edemez ama saldırabilir, bloklayabilir ve kaçabilir; özel saldırı Root'u kaldırır."
     },
     "synergies": [],
-    "howToPlay": "Kindred için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırıdan toparlanırken hızlı vur — istila yüklerini 8sn duraklatır. 50 yükte kabus dalgası aktive olur (yakınken degeneration verir). Spider-Verse şampiyonları yükleri daha uzun duraklatır. %5 canda ölümsüz olur ve köklendirir — bunu kapatmak için özel saldırı kullan. Degeneration dirençli veya temassız vuruşlu şampiyonlar en iyi cevap.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kindred Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Kindred Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥\n• İyileşme Engeli Bağışıklığı 💚🚫"
 }

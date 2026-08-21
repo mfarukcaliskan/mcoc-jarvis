@@ -3,14 +3,14 @@
     "name": "Sorcerer Supreme",
     "abilityDetails": {
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
-        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği."
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
+        "Increased AA": "Yetenek doğruluğunu artırır."
     },
     "synergies": [],
     "howToPlay": "Sorcerer Supreme için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

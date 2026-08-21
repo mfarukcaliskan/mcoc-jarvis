@@ -3,7 +3,7 @@
     "name": "Iron Fist",
     "abilityDetails": {
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği."
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır."
     },
     "synergies": [],
     "howToPlay": "Iron Fist için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

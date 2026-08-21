@@ -6,10 +6,11 @@
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği."
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır."
     },
     "synergies": [],
     "howToPlay": "Groot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Groot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Groot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• TÜM olumsuz etkilerin süresini %55 azaltır ⏰"
 }

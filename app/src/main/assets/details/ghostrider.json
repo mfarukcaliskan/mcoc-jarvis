@@ -3,19 +3,20 @@
     "name": "Ghost Rider",
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Stagger": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stagger yeteneği.",
-        "Hinder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Hinder yeteneği.",
-        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Stagger": "Sendeletilen (Staggered) şampiyonlar bir sonraki kazandıkları buff'ı Nullify eder.",
+        "Hinder": "Yeni oluşturulan tüm buff'ların gücünü belirli bir yüzde azaltır.",
+        "Atrophy": "Buff'ların süresini kısaltır.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Genesis": "Şampiyonun dövüş sırasında avantaj sağlayan özel Genesis yeteneği.",
-        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
+        "Genesis": "Bu şampiyon, rakibin aldığı hasarın belirtilen kısmını pasif olarak kendine can olarak kazanır.",
+        "Fear": "Unblockable yetenek doğruluğunu sabit %100 azaltır ve Mükemmel Blok Şansını kaldırır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
-        "Damnation": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damnation yeteneği."
+        "Root": "Köklenen şampiyonlar hareket edemez ama saldırabilir, bloklayabilir ve kaçabilir; özel saldırı Root'u kaldırır.",
+        "Damnation": "Süresi boyunca doğrudan hasar verir; aktifken rakip ayrıca İyileşme Engeli, Güç Kilidi ve Fate Seal altındadır."
     },
     "synergies": [],
     "howToPlay": "Ghost Rider için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ghost Rider Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Ghost Rider Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥"
 }

@@ -2,13 +2,13 @@
     "id": "stellarblade",
     "name": "Blade (Stellar-Forged)",
     "abilityDetails": {
-        "Fractured Power Bar": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fractured Power Bar yeteneği.",
+        "Fractured Power Bar": "Şampiyon, elindeki güç barına göre farklı özel saldırı türlerini belirli olasılıklarla kullanır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
+        "Atrophy": "Buff'ların süresini kısaltır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Torment": "Şampiyonun dövüş sırasında avantaj sağlayan özel Torment yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
+        "Torment": "Gelen tüm hasar veren debuff'ların süresini uzatır.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],

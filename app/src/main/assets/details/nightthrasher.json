@@ -2,20 +2,21 @@
     "id": "nightthrasher",
     "name": "Night Thrasher",
     "abilityDetails": {
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "True Accuracy": "Bu saldırılar Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
+        "Disorient": "Savunma yetenek doğruluğunu ve blok yeterliliğini belirtilen güçte azaltır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Precision": "Kritik vuruş şansını artırır.",
-        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Debilitate": "Debilitate dışında yeni uygulanan debuff'ların süresini uzatır.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği."
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır."
     },
     "synergies": [],
     "howToPlay": "Night Thrasher için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Night Thrasher Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Night Thrasher Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• %50 Arındırma (yere düşürüldüğünde) 💪🏼"
 }

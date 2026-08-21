@@ -3,19 +3,20 @@
     "name": "Spider-Woman",
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Debilitate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Debilitate yeteneği.",
+        "Debilitate": "Debilitate dışında yeni uygulanan debuff'ların süresini uzatır.",
         "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Fumble": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fumble yeteneği.",
+        "Fumble": "Özel saldırılar sırasında Çeviklik ustalığının etkinleşmesini engeller.",
         "Instant Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Retribution": "Şampiyonun dövüş sırasında avantaj sağlayan özel Retribution yeteneği.",
+        "Retribution": "Etkilenen şampiyon özel saldırı kullandığında, özel saldırı bitene kadar tüm kaynaklardan artan hasar alır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği."
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır."
     },
     "synergies": [],
-    "howToPlay": "Spider-Woman için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırılarda destreza'yı kapatan, purify edilemeyen bir debuff uygulayabilir. E1'i daha sık tetikler ve bloklanırsa güçlü iğne uygular (özel saldırı kullanmanı engeller). Rakipteki her debuff için %2 kaçış şansı kazanır — kaçış-karşıtı şampiyon şart.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Woman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Spider-Woman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Güç Çalma Bağışıklığı 🔋🔽\n• Nötralize Bağışıklığı 🗡️❌"
 }

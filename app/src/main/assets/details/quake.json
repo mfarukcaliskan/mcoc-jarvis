@@ -2,10 +2,10 @@
     "id": "quake",
     "name": "Quake",
     "abilityDetails": {
-        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği.",
+        "Concussion": "Etkilenen şampiyonların yetenek doğruluğunu belirtilen güçte azaltır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Damage Reflect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damage Reflect yeteneği."
+        "Damage Reflect": "Engellenen hasarın belirtilen kısmı, doğrudan hasar olarak rakibe geri gönderilir."
     },
     "synergies": [],
     "howToPlay": "Quake için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

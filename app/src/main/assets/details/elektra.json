@@ -2,8 +2,8 @@
     "id": "elektra",
     "name": "Elektra",
     "abilityDetails": {
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
-        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
+        "Reduce Defensive AA": "Savunma yetenek doğruluğunu belirtilen güçte azaltır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır."
     },

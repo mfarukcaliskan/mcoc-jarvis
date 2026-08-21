@@ -3,18 +3,19 @@
     "name": "Madelyne Pryor",
     "abilityDetails": {
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Force Field": "Şampiyonun dövüş sırasında avantaj sağlayan özel Force Field yeteneği.",
-        "Hinder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Hinder yeteneği.",
-        "Fear": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fear yeteneği.",
-        "Inexorable": "Şampiyonun dövüş sırasında avantaj sağlayan özel Inexorable yeteneği.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
-        "Uncanny": "Şampiyonun dövüş sırasında avantaj sağlayan özel Uncanny yeteneği.",
-        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
-        "Infuriate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Infuriate yeteneği."
+        "Force Field": "Gelen hasara karşı geçici bir koruma kalkanı oluşturur.",
+        "Hinder": "Yeni oluşturulan tüm buff'ların gücünü belirli bir yüzde azaltır.",
+        "Fear": "Unblockable yetenek doğruluğunu sabit %100 azaltır ve Mükemmel Blok Şansını kaldırır.",
+        "Inexorable": "Temel saldırılarla geri itilemez ve temel saldırılardan kazanılan güç artar.",
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
+        "Uncanny": "Özel saldırıların harcadığı gücü belirtilen miktarda azaltır ve düşük güç seviyesinde etkinleştirilmesine izin verir.",
+        "Pre-Fight": "Dövüş başlamadan önce Pre-Fight ekranından değiştirilebilen yetenek.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
+        "Infuriate": "Rakip daha saldırgan hale gelir ve saldırı yetenek doğruluğu azalır."
     },
     "synergies": [],
-    "howToPlay": "Madelyne Pryor için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): E2'si 15sn'lik bir alan açar, o alanda bonus aktive edersen pasif degeneration alırsın — E2'ye ulaşmasına izin verme veya bonus immün şampiyon kullan. Dexterity bonusu tetiklemeyen şampiyonlar (Shuri, Silk, Blue Marvel) da iyi seçenek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Madelyne Pryor Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Madelyne Pryor Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Kanama Bağışıklığı 🩸"
 }

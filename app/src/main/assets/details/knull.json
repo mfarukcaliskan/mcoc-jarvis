@@ -4,8 +4,8 @@
     "abilityDetails": {
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Reverse Controls": "Rakibin yön tuşlarını tersine çevirerek hareketlerini karıştırır.",
-        "Living Abyss": "Şampiyonun dövüş sırasında avantaj sağlayan özel Living Abyss yeteneği.",
-        "True Accuracy": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Accuracy yeteneği.",
+        "Living Abyss": "Rakibi zamanla tüketen özel bir etki uygular.",
+        "True Accuracy": "Bu saldırılar Otomatik Blok ve Kaçış (Evade) etkilerini yok sayar.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
@@ -13,7 +13,8 @@
         "Unblockable": "Saldırıların bloklanmasını engeller."
     },
     "synergies": [],
-    "howToPlay": "Knull için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): En büyük sorun kontrol tersine çevirmesi — E2'ye zorla, E1 kullanmasına izin verme. En güvenlisi kontrol-tersine-çevirmeye immün şampiyon. Zırha immün şampiyonlar da avantajlı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Knull Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Knull Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %60 Kanama direnci 🩸\n• %60 Zehir direnci 🧪\n• %40 Dejenerasyon direnci ☠️"
 }

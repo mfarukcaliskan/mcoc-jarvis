@@ -12,7 +12,8 @@
         "Delirium": "Rakibin özel saldırı zamanlamalarını bozar."
     },
     "synergies": [],
-    "howToPlay": "Onslaught için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Oyunun en iyi mutant savunmacısı, güvenli cevap az. Dövüşü uzatma — nörşok hasarı ölümcül olabilir. İlk hafif/orta vuruş temas etmez (siperlenemez), her 10 vuruşta koşu saldırısı 3sn engellenemez olur, her vurulduğunda %15 (kritikte daha fazla) pasif nörşok uygular (hiç kimse buna immün değil), E2 kontrolleri tersine çevirir. Dövüşü hızlı bitir, hep E1'e zorla, kritik vuramayan şampiyonlar ve yüksek enerji direnci olanlar (en iyisi Havok) iyi seçenek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Onslaught Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Onslaught Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %150 Yakma direnci 🔥\n• %150 Kanama direnci 🩸\n• %150 Şok direnci ⚡"
 }

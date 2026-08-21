@@ -2,21 +2,22 @@
     "id": "heimdall",
     "name": "Heimdall",
     "abilityDetails": {
-        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
+        "Increased AA": "Yetenek doğruluğunu artırır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Precision": "Kritik vuruş şansını artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
-        "True Strike": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Strike yeteneği.",
-        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "True Strike": "Saldırılar Zırh, Direnç, Otomatik Blok ve Kaçışı (Evade) yok sayar.",
+        "Parry Non-Contact": "Siper (Parry) ustalığının temassız saldırılara karşı da Stun tetiklemesini sağlar.",
         "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Resonance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resonance yeteneği.",
+        "Resonance": "Bu şampiyonun vuruşları, verilen hasara dayalı ek enerji hasarı patlaması verir.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği."
+        "Indestructible": "Gelen hasarı yok sayar."
     },
     "synergies": [],
-    "howToPlay": "Heimdall için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Nötrleştirme, fate-seal ve bonus immünitesine immün ama nötralize'ye tam açık — nötralize eden şampiyon bonuslarını kolayca kapatır. Güç kontrolcüleri (çalma/kilit/çekme) özel saldırı kullanmasını engeller. Bonus süresi kısaltan şampiyonlar da yardımcı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Heimdall Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Heimdall Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %60 Kanama direnci 🩸\n• %60 Zehir direnci 🧪"
 }

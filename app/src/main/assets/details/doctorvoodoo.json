@@ -2,14 +2,14 @@
     "id": "doctorvoodoo",
     "name": "Doctor Voodoo",
     "abilityDetails": {
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
-        "Power Dissolve": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Dissolve yeteneği.",
-        "Increased AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Increased AA yeteneği.",
-        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği."
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
+        "Power Dissolve": "Aktifken, etkilenen şampiyon özel saldırı dışında bir sebeple güç kaybettiğinde, kaybedilen güç oranıyla orantılı doğrudan hasar alır.",
+        "Increased AA": "Yetenek doğruluğunu artırır.",
+        "Reduce AA": "Yetenek doğruluğunu belirtilen güçte azaltır."
     },
     "synergies": [],
     "howToPlay": "Doctor Voodoo için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

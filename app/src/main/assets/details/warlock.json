@@ -3,17 +3,18 @@
     "name": "Warlock",
     "abilityDetails": {
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
+        "Power Burn": "Hedeften belirli miktarda güç alır, ardından alınan güçle orantılı doğrudan hasar verir.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir."
     },
     "synergies": [],
-    "howToPlay": "Warlock için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): 3 etkili yol var: en az 3 farklı bonus taşıyan şampiyon, şok+zırh-kırmaya immün şampiyon veya Robot, ya da will-power yeterliliğini kaldırarak degeneration'ı önlemek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Warlock Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Warlock Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊"
 }

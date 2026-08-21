@@ -3,16 +3,17 @@
     "name": "Killmonger",
     "abilityDetails": {
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
-        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Critical Resistance": "Gelen kritik vuruşların hasarını azaltır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "True Strike": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Strike yeteneği.",
+        "True Strike": "Saldırılar Zırh, Direnç, Otomatik Blok ve Kaçışı (Evade) yok sayar.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Counterpunch": "Şampiyonun dövüş sırasında avantaj sağlayan özel Counterpunch yeteneği.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
-        "Reverberation": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reverberation yeteneği."
+        "Counterpunch": "Bir saldırıyı bloklarken şarj harcayarak kısa süreli Unstoppable kazanır ve anında karşı saldırı yapılabilir.",
+        "Indestructible": "Gelen hasarı yok sayar.",
+        "Reverberation": "Vurulduğunda veya bir saldırıyı bloklarken rakibe hasar geri verir."
     },
     "synergies": [],
-    "howToPlay": "Killmonger için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): %20 kritik direnci var, negatif efekt uygulanınca güç kazanır ve vurulduğunda hasarı geri verir. Zırh kıran veya yetenek azaltıcı şampiyon en iyisi — zırhını kırmak yansıtmayı ve güç kazanımını engeller.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Killmonger Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Killmonger Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %35 Arındırma (ile sinerji: Void) 💪🏼"
 }

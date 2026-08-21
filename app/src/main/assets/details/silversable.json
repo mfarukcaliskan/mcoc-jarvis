@@ -5,11 +5,11 @@
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Instant Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Critical Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
-        "Fervor": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fervor yeteneği.",
-        "Tracking": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tracking yeteneği.",
+        "Disorient": "Savunma yetenek doğruluğunu ve blok yeterliliğini belirtilen güçte azaltır.",
+        "Fervor": "Giden hasar veren etkilerin yetenek doğruluğunu artırır.",
+        "Tracking": "Gelen saldırılar ıskalayamaz.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği."
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır."
     },
     "synergies": [],
     "howToPlay": "Silver Sable için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

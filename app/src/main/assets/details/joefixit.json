@@ -3,8 +3,8 @@
     "name": "Joe Fixit",
     "abilityDetails": {
         "Regeneration": "Can barını zamanla yeniler.",
-        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Disorient": "Savunma yetenek doğruluğunu ve blok yeterliliğini belirtilen güçte azaltır.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
         "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
@@ -13,5 +13,6 @@
     "synergies": [],
     "howToPlay": "Joe Fixit için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Joe Fixit Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Joe Fixit Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠"
 }

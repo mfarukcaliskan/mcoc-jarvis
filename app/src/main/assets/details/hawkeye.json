@@ -4,14 +4,15 @@
     "abilityDetails": {
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği.",
-        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
-        "Fragility": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fragility yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
+        "Power Drain": "Hedeften belirli miktarda güç alır.",
+        "Suppression": "Muharebe Güç Oranını belirtilen güçte azaltır.",
+        "Fragility": "Gelen saldırıların kritik hasar oranını artırır ve blok yeterliliğini %50 azaltır.",
         "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir."
     },
     "synergies": [],
     "howToPlay": "Hawkeye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hawkeye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hawkeye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı (ile sinerji: Nick Fury) 🧪"
 }

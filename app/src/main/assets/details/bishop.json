@@ -2,20 +2,21 @@
     "id": "bishop",
     "name": "Bishop",
     "abilityDetails": {
-        "Persistent Power Meter": "Şampiyonun dövüş sırasında avantaj sağlayan özel Persistent Power Meter yeteneği.",
-        "Start With Power": "Şampiyonun dövüş sırasında avantaj sağlayan özel Start With Power yeteneği.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Persistent Power Meter": "Güç barının dövüşler arasında kalıcı olmasını sağlar.",
+        "Start With Power": "Dövüşe belirli miktarda güçle başlar.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
-        "Reduce AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce AA yeteneği."
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
+        "Reduce AA": "Yetenek doğruluğunu belirtilen güçte azaltır."
     },
     "synergies": [],
-    "howToPlay": "Bishop için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Kanama, şok veya yakma hasarlı şampiyon kullanma. Tech sınıfından yakmaya immün şampiyonlar ideal. Hem E1 hem E2 kaçılması zor, bloklamak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Bishop Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Bishop Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanamayı arındırır (blokta) 🩸\n• %71,2 Şok direnci ⚡️\n• %71,2 Ani Soğuk direnci 🧊\n• %71,2 Plazma direnci ⚗️"
 }

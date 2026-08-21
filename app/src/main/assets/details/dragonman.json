@@ -4,17 +4,18 @@
     "abilityDetails": {
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Cornered": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cornered yeteneği.",
+        "Cornered": "Sırtı duvara dayalıyken bir şampiyon köşeye sıkışmış sayılır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
-        "Ineptitude": "Şampiyonun dövüş sırasında avantaj sağlayan özel Ineptitude yeteneği.",
+        "Ineptitude": "Yeni Fury, Armor Up, Precision ve Cruelty etkilerinin gücünü azaltır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği."
+        "Critical Resistance": "Gelen kritik vuruşların hasarını azaltır."
     },
     "synergies": [],
-    "howToPlay": "Dragon Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Dövüşün büyük kısmında pasif güç kazanır; E3 kullanırsa köşeye sıkıştırır ve durdurulamaz+engellenemez olur. Petrify veya güç kontrolü olan şampiyon kullan. Zırh kıran şampiyon kullanma — degeneration uygular.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dragon Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Dragon Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪"
 }

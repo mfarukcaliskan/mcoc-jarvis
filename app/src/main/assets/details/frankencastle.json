@@ -3,16 +3,17 @@
     "name": "Franken-Castle",
     "abilityDetails": {
         "Regeneration": "Can barını zamanla yeniler.",
-        "Berserk": "Şampiyonun dövüş sırasında avantaj sağlayan özel Berserk yeteneği.",
+        "Berserk": "Unstoppable iken saldırı gücünü artırır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
         "Crush": "Blokları kırarak yüksek hasar vermeyi sağlar.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
-        "Undying": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undying yeteneği."
+        "Undying": "Hasar veren etkiler ve Power Sting ile elenmeyi engeller."
     },
     "synergies": [],
-    "howToPlay": "Franken-Castle için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Ana tehlike pasif durdurulamaz olması (ileri yürürken) — durdurulamaz-karşıtı şampiyon kullan. Zehir, spectre ve petrify'a immün, iyileşmesi tersine çevrilemez — sadece iyileşme engeli işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Franken-Castle Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Franken-Castle Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
 }

@@ -5,10 +5,10 @@
         "Regeneration": "Can barını zamanla yeniler.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Damage Reflect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Damage Reflect yeteneği.",
-        "Spectre": "Şampiyonun dövüş sırasında avantaj sağlayan özel Spectre yeteneği.",
+        "Damage Reflect": "Engellenen hasarın belirtilen kısmı, doğrudan hasar olarak rakibe geri gönderilir.",
+        "Spectre": "İyileşme oranını belirtilen güçte azaltır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği."
+        "Rupture": "Aktifken fiziksel hasar verir."
     },
     "synergies": [],
     "howToPlay": "Guillotine için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

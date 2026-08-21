@@ -2,17 +2,18 @@
     "id": "dust",
     "name": "Dust",
     "abilityDetails": {
-        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
+        "Glancing": "Sıyırma vuruşları kritik olamaz, %50 azalmış hasar verir ve saldırı yetenek doğruluğu %100 düşer.",
         "Disable Willpower": "Rakibin İrade Gücü ustalık yenilenmesini devre dışı bırakır.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
-        "Power Efficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Efficiency yeteneği.",
-        "Grit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Grit yeteneği.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Power Efficiency": "Özel saldırıların güç maliyetini belirtilen güçte azaltır.",
+        "Grit": "Unstoppable rakipler, vuruşlara sanki Unstoppable değillermiş gibi tepki verir.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
         "Passive Stun": "Belirli şartlarda rakibi tetikleme olmadan sersemletir.",
-        "Steadfast": "Şampiyonun dövüş sırasında avantaj sağlayan özel Steadfast yeteneği."
+        "Steadfast": "Aktifken, Unblockable saldırılar sanki değillermiş gibi bloklanabilir."
     },
     "synergies": [],
-    "howToPlay": "Dust için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Bloğa veya orta vuruşlara fazla vurma — kum debuff'ı biriktirir, 4 dolunca can kaybettiren bir moda girer. E1'i mutlaka kaçır (bloklanırsa 2 kum debuff'ı ekler). Yakma veya plazma efekti bir kum debuff'ını siler — sık yakma/plazma erişimi olan şampiyonlar tam kontra. Fiziksel dirençli şampiyonlar (en iyisi Absorbing Man) da iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dust Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Dust Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️"
 }

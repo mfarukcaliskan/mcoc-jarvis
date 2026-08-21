@@ -1,0 +1,21 @@
+{
+    "id": "blacktarantula",
+    "name": "Black Tarantula",
+    "abilityDetails": {
+        "Cunning": "Increases Critial Rating and Critical Damage Rating by the given potency.",
+        "Combo Shield": "While active, the Combo Meter is not reset when struck.",
+        "Evade": "Avoid incoming attacks by the given chance.",
+        "Fury": "Increases Attack Rating by the given potency.",
+        "Passive Stun": "Passively prevent a champion from moving, attacking or defending, leaving them vulnerable to an attack.",
+        "Regeneration": "Regains Health.",
+        "Purify": "Removes a given number of Debuffs from the Champion.",
+        "Vulnerability": "Reduces Physical Resistance and Energy Resistance by the given potency.",
+        "Energy Damage Effect": "Deals Direct Energy Damage.",
+        "Halt": "Unstoppable Champions react to hits as though they weren't."
+    },
+    "synergies": [],
+    "howToPlay": "Bu şampiyona karşı (savunmada): Orta olmayan vuruşlara %5 kaçış şansı var (orta vuruşlar hiç kaçılmaz — en güvenli yöntem) ve özel saldırı sonrası 2sn kaçış aktive eder (o sürede orta dışı vuruşla karşılık verme); kaçışında 2sn pasif sersemletir. Kaçışı isabetli saldırı, üçüncül odak, onda-i-soğuk, yetenek azaltma (Mutant) veya tuzak ile yok sayılabilir. Her 5sn pasif iyileşir, iyileşme azaltma/tersine çevirmeye immün — sadece iyileşme engeli işe yarar. Bloklanan E2'si her ışından enerji patlaması verir (tam kaçmıyorsan zorlama); bloktan da kritik vurabilir. Hasarsız debuff'ları %80 şansla purify eder (siper kaynaklı sersemletmede sadece %40).",
+    "bestUse": "",
+    "signatureAbility": "",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı (ile sinerji: White Tiger) 🔮\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+}

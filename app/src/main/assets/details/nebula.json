@@ -4,11 +4,12 @@
     "abilityDetails": {
         "Regeneration": "Can barını zamanla yeniler.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
-        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
-        "Power Drain": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Drain yeteneği."
+        "Power Lock": "Hedefin herhangi bir yolla güç kazanmasını engeller.",
+        "Power Drain": "Hedeften belirli miktarda güç alır."
     },
     "synergies": [],
     "howToPlay": "Nebula için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Nebula Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Nebula Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️"
 }

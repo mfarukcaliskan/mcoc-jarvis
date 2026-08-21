@@ -4,14 +4,15 @@
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
-        "Trauma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Trauma yeteneği.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
+        "Trauma": "Alınan vuruşlar, yakın zamanda verilen hasarın bir kısmını ek fiziksel hasar patlaması olarak verdirir.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği."
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Critical Resistance": "Gelen kritik vuruşların hasarını azaltır."
     },
     "synergies": [],
     "howToPlay": "Hulk için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hulk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠\n• Silme (Nullify) Bağışıklığı (Hulkbuster ile sinerji) 🔮\n• Buff Bağışıklığı (ile sinerji: Silver Surfer) 🗡️🚫\n• En fazla %90 Dejenerasyon direnci (imza 200) ☠️"
 }

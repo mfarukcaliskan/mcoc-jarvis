@@ -3,17 +3,18 @@
     "name": "Black Widow (Claire Voyant)",
     "abilityDetails": {
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Buff Immunity": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Immunity yeteneği.",
+        "Buff Immunity": "Etkilenen şampiyonlar buff'lara bağışıklık kazanır; mevcut buff'lar kaldırılır ve yenileri kazanılamaz.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Power Steal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Steal yeteneği.",
-        "Death Immunity": "Şampiyonun dövüş sırasında avantaj sağlayan özel Death Immunity yeteneği."
+        "Power Steal": "Hedefin gücünü azaltıp aynı miktarı kendine kazandırır.",
+        "Death Immunity": "Şampiyon normalde elenecekken elenmez sayılır; bazı yetenekler için bağışıklık olarak kabul edilir."
     },
     "synergies": [],
     "howToPlay": "Black Widow (Claire Voyant) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Widow (Claire Voyant) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Black Widow (Claire Voyant) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥"
 }

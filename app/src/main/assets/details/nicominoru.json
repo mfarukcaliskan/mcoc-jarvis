@@ -2,23 +2,24 @@
     "id": "nicominoru",
     "name": "Nico Minoru",
     "abilityDetails": {
-        "Adrenaline": "Şampiyonun dövüş sırasında avantaj sağlayan özel Adrenaline yeteneği.",
-        "Flourish": "Şampiyonun dövüş sırasında avantaj sağlayan özel Flourish yeteneği.",
+        "Adrenaline": "Zamanla azalan beyaz bir can barı olarak depolanır. Saldırılarla verilen hasar, depolanan Adrenaline'i cana çevirir; bu dönüşüm İyileşme Engeli gibi etkilerden etkilenmez.",
+        "Flourish": "Muharebe Güç Oranını ve Yetenek Güç Oranını belirtilen güçte artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Pentacle": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pentacle yeteneği.",
+        "Pentacle": "Doğal dünyanın uyumunu temsil eder ancak oyun içi bir etkisi yoktur.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Buff Immunity": "Şampiyonun dövüş sırasında avantaj sağlayan özel Buff Immunity yeteneği.",
-        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
-        "Stimulate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Stimulate yeteneği.",
+        "Buff Immunity": "Etkilenen şampiyonlar buff'lara bağışıklık kazanır; mevcut buff'lar kaldırılır ve yenileri kazanılamaz.",
+        "Pre-Fight": "Dövüş başlamadan önce Pre-Fight ekranından değiştirilebilen yetenek.",
+        "Stimulate": "Combat Adrenaline'i sabit bir miktar artırır.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Zeal": "Şampiyonun dövüş sırasında avantaj sağlayan özel Zeal yeteneği.",
-        "Halt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Halt yeteneği.",
-        "Invisible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Invisible yeteneği.",
+        "Zeal": "Aktifken Adrenaline'in azalmasını engeller.",
+        "Halt": "Unstoppable şampiyonlar, vuruşlara sanki Unstoppable değillermiş gibi tepki verir.",
+        "Invisible": "Saldırıların ıskalama (Miss) şansı %100'dür.",
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
-        "Acid Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Acid Burn yeteneği."
+        "Acid Burn": "Aktifken doğrudan hasar verir."
     },
     "synergies": [],
-    "howToPlay": "Nico Minoru için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Dövüşe 11sn'lik bonus immünitesiyle başlar (bonus tetiklenirse zehir/asit yakma uygular — kozmik olmayan zehir-immün şampiyon en iyisi). E1'i mutlaka kaçır (son vuruşu bloktan bile doğrudan enerji hasarı verir); E2'ye zorlamak daha güvenli (bonus immünitesini yeniler ama kaçması kolay). E1 sonrası 4sn görünmez olur.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Nico Minoru Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Nico Minoru Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Yırtılma Bağışıklığı ☣️"
 }

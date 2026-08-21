@@ -2,22 +2,22 @@
     "id": "mistyknight",
     "name": "Misty Knight",
     "abilityDetails": {
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
         "Precision": "Kritik vuruş şansını artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Coldsnap": "Ani soğuk hasarı verir ve düşmanın Kaçış yeteneğini kapatır.",
-        "Frostbite": "Şampiyonun dövüş sırasında avantaj sağlayan özel Frostbite yeteneği.",
+        "Frostbite": "Süresi dolduğunda enerji hasarı verir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
-        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği."
+        "Disorient": "Savunma yetenek doğruluğunu ve blok yeterliliğini belirtilen güçte azaltır.",
+        "Suppression": "Muharebe Güç Oranını belirtilen güçte azaltır."
     },
     "synergies": [],
-    "howToPlay": "Misty Knight için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Kriyojenik yüklerle purify eder, antimetal yüklerle kaçış kazanır. Kaçış-karşıtı ve purify-karşıtı mekanikli şampiyon kullan. Engellenemez de olur, hep E1'e zorlamak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
     "signatureAbility": "Misty Knight Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
 }

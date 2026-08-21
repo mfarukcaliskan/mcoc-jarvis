@@ -2,18 +2,19 @@
     "id": "hercules",
     "name": "Hercules",
     "abilityDetails": {
-        "Infuriate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Infuriate yeteneği.",
-        "True Sense": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Sense yeteneği.",
+        "Infuriate": "Rakip daha saldırgan hale gelir ve saldırı yetenek doğruluğu azalır.",
+        "True Sense": "Bu saldırılar Otomatik Blok ve Miss etkilerini yok sayar.",
         "Precision": "Kritik vuruş şansını artırır.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
+        "Indestructible": "Gelen hasarı yok sayar.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Immortality": "Şampiyonun dövüş sırasında avantaj sağlayan özel Immortality yeteneği.",
+        "Immortality": "Şampiyonun elenmesini engeller.",
         "Unblockable": "Saldırıların bloklanmasını engeller."
     },
     "synergies": [],
     "howToPlay": "Hercules için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hercules Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hercules Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %50 Kanama direnci 🩸\n• %15 Zehir direnci 🧪"
 }

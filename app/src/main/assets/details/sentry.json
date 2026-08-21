@@ -2,17 +2,18 @@
     "id": "sentry",
     "name": "Sentry",
     "abilityDetails": {
-        "Bulwark": "Şampiyonun dövüş sırasında avantaj sağlayan özel Bulwark yeteneği.",
+        "Bulwark": "Hedefin blok yeterliliğini artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Exhaustion": "Rakibin kritik vuruş gücünü ve tetiklenme oranını azaltır.",
         "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
-        "Halt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Halt yeteneği.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği."
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
+        "Halt": "Unstoppable şampiyonlar, vuruşlara sanki Unstoppable değillermiş gibi tepki verir.",
+        "Indestructible": "Gelen hasarı yok sayar."
     },
     "synergies": [],
     "howToPlay": "Sentry için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sentry Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Sentry Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Silme (Nullify) Bağışıklığı 🔮"
 }

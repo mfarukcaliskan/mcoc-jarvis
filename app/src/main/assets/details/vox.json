@@ -6,15 +6,16 @@
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Intensify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intensify yeteneği.",
-        "Undermine": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undermine yeteneği.",
-        "Vigilance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vigilance yeteneği.",
-        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
-        "Neutralize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Neutralize yeteneği.",
-        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği."
+        "Intensify": "Yeni oluşturulan tüm buff'ların gücünü bir yüzde artırır.",
+        "Undermine": "Aktifken saldırılar Otomatik Blok ile engellenemez.",
+        "Vigilance": "Saldırılar ıskalayamaz.",
+        "True Damage": "Zırh ve dirençleri yok sayar.",
+        "Neutralize": "Buff yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Pre-Fight": "Dövüş başlamadan önce Pre-Fight ekranından değiştirilebilen yetenek."
     },
     "synergies": [],
     "howToPlay": "Vox için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Vox Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Vox Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Güç Emme/Yakma Bağışıklığı 🔋"
 }

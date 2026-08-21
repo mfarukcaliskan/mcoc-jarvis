@@ -2,16 +2,17 @@
     "id": "shatterstar",
     "name": "Shatterstar",
     "abilityDetails": {
-        "Glancing": "Şampiyonun dövüş sırasında avantaj sağlayan özel Glancing yeteneği.",
+        "Glancing": "Sıyırma vuruşları kritik olamaz, %50 azalmış hasar verir ve saldırı yetenek doğruluğu %100 düşer.",
         "Daunted": "Rakibin özel saldırılar sonrasında hasar almasını kolaylaştırır.",
-        "Reckless": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reckless yeteneği.",
-        "Pursuit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pursuit yeteneği.",
-        "Uncanny": "Şampiyonun dövüş sırasında avantaj sağlayan özel Uncanny yeteneği.",
+        "Reckless": "Ağır saldırı kullanma şansını artırır, blok vuran saldırılarda saldırı gücünü azaltır.",
+        "Pursuit": "Aktifken saldırılar Kaçış (Evade) ile önlenemez.",
+        "Uncanny": "Özel saldırıların harcadığı gücü belirtilen miktarda azaltır ve düşük güç seviyesinde etkinleştirilmesine izin verir.",
         "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Cross-Fight Ability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cross-Fight Ability yeteneği."
+        "Cross-Fight Ability": "Saldıran veya savunan şampiyona uygulanabilen ve bir görev içinde birden fazla dövüş boyunca süren yetenek."
     },
     "synergies": [],
     "howToPlay": "Shatterstar için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Shatterstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Shatterstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Kanama direnci 🩸\n• %40 Zehir direnci (Savaş'ta %80) 🧪\n• %40 Yakma direnci (Savaş'ta %80) 🔥"
 }

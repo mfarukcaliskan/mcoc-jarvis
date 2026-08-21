@@ -2,19 +2,20 @@
     "id": "sandman",
     "name": "Sandman",
     "abilityDetails": {
-        "Heavy Proficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heavy Proficiency yeteneği.",
-        "Resistance Up": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resistance Up yeteneği.",
+        "Heavy Proficiency": "Ağır saldırılar sırasında saldırı gücünü belirtilen güçte artırır.",
+        "Resistance Up": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte artırır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği.",
-        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
+        "Suppression": "Muharebe Güç Oranını belirtilen güçte azaltır.",
+        "Indestructible": "Gelen hasarı yok sayar.",
+        "Root": "Köklenen şampiyonlar hareket edemez ama saldırabilir, bloklayabilir ve kaçabilir; özel saldırı Root'u kaldırır.",
         "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
-        "Decelerate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Decelerate yeteneği.",
-        "Physical Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Vulnerability yeteneği.",
+        "Decelerate": "Unstoppable ve Kaçış (Evade) yetenek doğruluğunu sabit bir miktarda azaltır.",
+        "Physical Vulnerability": "Fiziksel Direnci azaltarak saldırı ve yeteneklerden gelen fiziksel hasarı artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },
     "synergies": [],
-    "howToPlay": "Sandman için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Enerji ve fiziksel hasara çok dirençli, ana tehlike pasif durdurulamaz olması (bloğa vurunca 3, E1'de 5, E2'de 10, E3'te 20 yük — 20 yükte 20sn durdurulamaz olur). Yavaşlatma/momentum/deceleration/frenleme efektli şampiyonlar durdurulamazı yok sayar. Garanti kritik vuruş bir yük siler, Skill şampiyonun kanama/yakma/şok uygulaması da bir yük siler.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sandman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Sandman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️"
 }

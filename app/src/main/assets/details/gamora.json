@@ -6,7 +6,7 @@
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "True Strike": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Strike yeteneği.",
+        "True Strike": "Saldırılar Zırh, Direnç, Otomatik Blok ve Kaçışı (Evade) yok sayar.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir."
     },

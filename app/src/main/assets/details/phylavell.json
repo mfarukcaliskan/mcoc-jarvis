@@ -2,14 +2,15 @@
     "id": "phylavell",
     "name": "Phyla-Vell",
     "abilityDetails": {
-        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
+        "True Damage": "Zırh ve dirençleri yok sayar.",
         "Precision": "Kritik vuruş şansını artırır.",
-        "Undermine": "Şampiyonun dövüş sırasında avantaj sağlayan özel Undermine yeteneği.",
-        "Resonance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resonance yeteneği.",
+        "Undermine": "Aktifken saldırılar Otomatik Blok ile engellenemez.",
+        "Resonance": "Bu şampiyonun vuruşları, verilen hasara dayalı ek enerji hasarı patlaması verir.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
     },
     "synergies": [],
-    "howToPlay": "Phyla-Vell için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): 100 unutma yükünde anında 2 güç barı kazanır (bonus aktive etmek, güç çekilmek/yakılmak veya E1 kullanmak yük verir). Sadece Mystic çürütme (fade) yetenekli şampiyonlar (en iyisi Doctor Strange, Isophyne) güç kazanımını kontrol edebilir. Güç çalma ona tam işler (yük vermez). Nötralize, zayıflatma veya nötrleştirme de güç kazanımını tamamen keser.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Phyla-Vell Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Phyla-Vell Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Moondragon ile sinerji) 🧠 / %100 Güç Yakma direnci 🔋"
 }

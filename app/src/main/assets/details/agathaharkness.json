@@ -1,0 +1,26 @@
+{
+    "id": "agathaharkness",
+    "name": "Agatha Harkness",
+    "abilityDetails": {
+        "Steadfast": "While active, Unblockable Attacks can be blocked as though they weren't.",
+        "Amplify": "Increase Ability Power Rate by the given potency.",
+        "Power Gain": "Gain a certain amount of Power.",
+        "Power Steal": "Reduce the target's Power and gain the same amount, unless specified otherwise.",
+        "Fury": "Increases Attack Rating by the given potency.",
+        "Precision": "Increases Critical Rating by the given potency, causing Critical Hits to occur more often.",
+        "Cruelty": "Increases Critical Damage Rating by the given potency, causing Critical Hits to deal more damage.",
+        "Armor Up": "Increases Armor Rating by the given potency, reducing damage taken from hits.",
+        "Destroy": "Removes a given number of Buffs from the target and replace them with a Rubble Buff that has no effect and lasts for described duration.",
+        "Atrophy": "Reduces the duration of Buffs.",
+        "Root": "Rooted Champions cannot move, but can still Attack, Block, and Dodge. Activating a Special Attack removes Root and prevents it from applying. Rooted Defenders are more likely to throw Heavy Attacks, and cannot activate Special Attack 1 or 2 unless otherwise indicated.",
+        "Energy Damage Effect": "Deals Direct Energy Damage.",
+        "Energy Vulnerability": "Reduces Energy Resistance by the given potency, which increases incoming Energy Damage from Attacks and Abilities.",
+        "Regeneration": "Regains Health.",
+        "Combo Interruption": "The Champion that activates this effect is knocked down, breaking out of their Opponent's combo."
+    },
+    "synergies": [],
+    "howToPlay": "Bu şampiyona karşı (savunmada): E1'i 15sn'lik bir rün hapsi açar, kaçmaya çalışırsan 5sn pasif köklenirsin (orta vuruşları siperlenemez, kaçmak zor). Vurulunca rakibin max gücünün %1'ini çalar — özel saldırıya bağımlı şampiyonlar zorlanır, güç-çalmaya immün şampiyon kullan. Bloklanan E2'si ağır hasar patlaması yapar — otomatik özel-saldırı-kaçışı olan şampiyon (Silk gibi) olmadan E2'ye zorlama. Intercept edilirse kendini yere serip combo'nu keser — intercept gerektiren node'larda bu işi zorlaştırır.",
+    "bestUse": "",
+    "signatureAbility": "",
+    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Yakma hasarının %85'ini geri kazanır 🔥\n• Nova Alevi hasarının %85'ini geri kazanır 🐦‍🔥"
+}

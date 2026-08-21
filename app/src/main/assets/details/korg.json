@@ -2,19 +2,20 @@
     "id": "korg",
     "name": "Korg",
     "abilityDetails": {
-        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği.",
+        "Critical Resistance": "Gelen kritik vuruşların hasarını azaltır.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Rock Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rock Shield yeteneği.",
+        "Rock Shield": "Geçici olarak ek koruma sağlayan taş bir kalkan oluşturur.",
         "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Bleed Vulnerability": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Thorns": "Şampiyonun dövüş sırasında avantaj sağlayan özel Thorns yeteneği.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği."
+        "Thorns": "Vurulduğunda saldırana geri hasar verir.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır."
     },
     "synergies": [],
-    "howToPlay": "Korg için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Hasar önleme mekaniği, yüksek purify şansı, durdurulamaz+engellenemez erişimi var; orta vuruş veya özel saldırıyla vurulunca rakibe hasar verir. Enerji hasarlı veya fiziksel dirençli şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Korg Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Korg Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Şok Bağışıklığı ⚡️\n• %70 Arındırma (kayalarla) 💪🏼"
 }

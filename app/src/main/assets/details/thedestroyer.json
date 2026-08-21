@@ -2,19 +2,20 @@
     "id": "thedestroyer",
     "name": "The Destroyer",
     "abilityDetails": {
-        "Destroy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Destroy yeteneği.",
+        "Destroy": "Hedeften belirli sayıda buff kaldırıp yerine etkisiz bir Rubble buff'ı koyar.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Protection yeteneği.",
+        "Protection": "Tüm kaynaklardan alınan hasarı belirtilen güçte azaltır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Hinder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Hinder yeteneği.",
+        "Hinder": "Yeni oluşturulan tüm buff'ların gücünü belirli bir yüzde azaltır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
-        "Rupture": "Şampiyonun dövüş sırasında avantaj sağlayan özel Rupture yeteneği."
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
+        "Rupture": "Aktifken fiziksel hasar verir."
     },
     "synergies": [],
-    "howToPlay": "The Destroyer için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Rakibe koşarken durdurulamaz olur. Özel 1 ve 2'nin son vuruşları pasif engellenemez. Rakip bonus kazanırsa vurulunca rupture ile karşılık verir. Bonus immün ve mümkünse güç kontrolcüsü şampiyon kullan; E2'si engellenemez ve siperlemesi zor olduğundan E1'de tutmak tercih edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "The Destroyer Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "The Destroyer Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪"
 }

@@ -2,9 +2,9 @@
     "id": "cyclops",
     "name": "Cyclops (New Xavier School)",
     "abilityDetails": {
-        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği.",
+        "Critical into Block": "Blok sırasında alınan vuruşlar kritik olabilir.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Special Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Protection yeteneği."
+        "Special Protection": "Özel saldırılar sırasında ek hasar koruması sağlar."
     },
     "synergies": [],
     "howToPlay": "Cyclops (New Xavier School) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

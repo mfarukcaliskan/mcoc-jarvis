@@ -7,11 +7,12 @@
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
         "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar."
     },
     "synergies": [],
     "howToPlay": "Darkhawk için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Darkhawk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Darkhawk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪"
 }

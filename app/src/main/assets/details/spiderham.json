@@ -2,14 +2,15 @@
     "id": "spiderham",
     "name": "Spider-Ham",
     "abilityDetails": {
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
         "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller."
     },
     "synergies": [],
-    "howToPlay": "Spider-Ham için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Sık kaçar, E1'in kışkırtmasıyla saldırı gücünü azaltır, iğneleriyle özel saldırı kullanımını engeller. Kaçışı önleyen veya yetenek azaltan şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Ham Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Spider-Ham Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %15 Dejenerasyon direnci (Örümcek Çılgınlığı ile) ☠️"
 }

@@ -4,14 +4,15 @@
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
-        "Enervate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Enervate yeteneği.",
+        "Pre-Fight": "Dövüş başlamadan önce Pre-Fight ekranından değiştirilebilen yetenek.",
+        "Enervate": "Rakibin vurulduğunda güç kazanmasını engeller.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
-        "Fragility": "Şampiyonun dövüş sırasında avantaj sağlayan özel Fragility yeteneği.",
+        "Fragility": "Gelen saldırıların kritik hasar oranını artırır ve blok yeterliliğini %50 azaltır.",
         "Precision": "Kritik vuruş şansını artırır."
     },
     "synergies": [],
     "howToPlay": "Spider-Man (Stealth Suit) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man (Stealth Suit) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Spider-Man (Stealth Suit) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Arındırma (ile sinerji: Spider-Man Supreme) 💪🏼"
 }

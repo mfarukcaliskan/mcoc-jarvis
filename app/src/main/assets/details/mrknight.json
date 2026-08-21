@@ -3,18 +3,18 @@
     "name": "Mr. Knight",
     "abilityDetails": {
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
-        "Critical into Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical into Block yeteneği.",
-        "Light Proficiency": "Şampiyonun dövüş sırasında avantaj sağlayan özel Light Proficiency yeteneği.",
-        "Tranquilize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tranquilize yeteneği.",
-        "Injury": "Şampiyonun dövüş sırasında avantaj sağlayan özel Injury yeteneği.",
-        "Panic": "Şampiyonun dövüş sırasında avantaj sağlayan özel Panic yeteneği.",
-        "Reckless": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reckless yeteneği.",
-        "Sleep": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sleep yeteneği.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
+        "Critical into Block": "Blok sırasında alınan vuruşlar kritik olabilir.",
+        "Light Proficiency": "Hafif saldırılar sırasında saldırı gücünü belirtilen güçte artırır.",
+        "Tranquilize": "Debuff yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Injury": "Yaralı bir rakibe vurmak, onun fiziksel direncini belirtilen yüzdede azaltır.",
+        "Panic": "Etkilenen şampiyonlar Kaçış (Evade) yapamaz veya saldırıları ıskalatamaz.",
+        "Reckless": "Ağır saldırı kullanma şansını artırır, blok vuran saldırılarda saldırı gücünü azaltır.",
+        "Sleep": "Uyuyan şampiyonlar saldıramaz, bloklayamaz veya hareket edemez; vurulduklarında bu etki kalkar.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Mr. Knight için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Rakip negatif efekt uygularsa acımasızca cezalandırır. 12sn'de bir tranquilize uygular (4 debuff engellenirse pasif uyku uygular, 3sn tamamen savunmasız kalırsın). Onu siperleme de — sersemletme debuff'ı uygular. Kimse tranquilize'a immün değil; pasif sersemletme erişimi olan ve negatif efekt uygulamayan şampiyon en iyisi — çoğu durumda onu hiç siperlememek tercih edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
     "signatureAbility": "Mr. Knight Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
 }

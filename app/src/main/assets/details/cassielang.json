@@ -5,16 +5,17 @@
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
         "Miss": "Düşmanın tüm saldırılarının ıskalamasını tetikler.",
         "Power Sting": "Rakip özel saldırı attığında yüksek şok hasarı almasını sağlar.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur.",
         "Crush": "Blokları kırarak yüksek hasar vermeyi sağlar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
         "Combo Detonation": "Belirli sayıda kombo sonrasında rakip üzerinde yüksek patlama hasarı verir."
     },
     "synergies": [],
-    "howToPlay": "Cassie Lang için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Sık kaçar; E1'inde 12sn'de 14 vuruş yapamazsan doğrudan hasar alırsın. E2'ye zorlamak ve purify eden veya yetenek azaltan şampiyon kullanmak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cassie Lang Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Cassie Lang Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Zehir Bağışıklığı 🧪\n• Buff Bağışıklığı 🗡️🚫\n• Güç Çalma Bağışıklığı 🔋🔽"
 }

@@ -5,9 +5,9 @@
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Precision": "Kritik vuruş şansını artırır.",
-        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği.",
+        "Reduce Defensive AA": "Savunma yetenek doğruluğunu belirtilen güçte azaltır.",
         "Counter-Attack Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Sabotage": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sabotage yeteneği.",
+        "Sabotage": "Savunma yetenek doğruluğunu belirtilen miktarda azaltır; rakibin savunma yetenekleri tetiklenemediğinde doğrudan hasar verir.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır."
     },
     "synergies": [],

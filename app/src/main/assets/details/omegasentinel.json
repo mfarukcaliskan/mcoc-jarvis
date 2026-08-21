@@ -3,18 +3,19 @@
     "name": "Omega Sentinel",
     "abilityDetails": {
         "Regeneration": "Can barını zamanla yeniler.",
-        "Plasma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Plasma yeteneği.",
-        "Pre-Fight": "Şampiyonun dövüş sırasında avantaj sağlayan özel Pre-Fight yeteneği.",
+        "Plasma": "Aktifken enerji hasarı verir, blok yeterliliğini %50 azaltır ve Mükemmel Blok şansını kaldırır.",
+        "Pre-Fight": "Dövüş başlamadan önce Pre-Fight ekranından değiştirilebilen yetenek.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Cowardice": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cowardice yeteneği.",
-        "Heal Block": "Şampiyonun dövüş sırasında avantaj sağlayan özel Heal Block yeteneği.",
-        "Tracking": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tracking yeteneği.",
+        "Cowardice": "Özel saldırı hasarını belirtilen güçte azaltır.",
+        "Heal Block": "Can kazanımını tamamen engeller.",
+        "Tracking": "Gelen saldırılar ıskalayamaz.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Auto-Block": "Şampiyonun kombo alırken bile otomatik olarak siper/blok yapmasını sağlar.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği."
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır."
     },
     "synergies": [],
-    "howToPlay": "Omega Sentinel için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): 5 zırhla otomatik bloklar — en büyük tehlike bu. Nötralize işe yaramaz; zırh kıran, savunma yeteneğini azaltan veya vigilance'lı şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Omega Sentinel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Omega Sentinel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Kanama direnci 🩸\n• %100 Zehir direnci 🧪\n• Silme (Nullify) Bağışıklığı 🔮\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️"
 }

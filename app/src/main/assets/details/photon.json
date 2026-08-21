@@ -2,21 +2,22 @@
     "id": "photon",
     "name": "Photon",
     "abilityDetails": {
-        "Untouchable": "Şampiyonun dövüş sırasında avantaj sağlayan özel Untouchable yeteneği.",
-        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
+        "Untouchable": "Gelen saldırıların belirtilen olasılıkla ıskalama (Miss) şansı vardır.",
+        "Parry Non-Contact": "Siper (Parry) ustalığının temassız saldırılara karşı da Stun tetiklemesini sağlar.",
         "Petrify": "Düşmanın iyileşme ve güç kazanım hızını azaltır.",
         "Disable Willpower": "Rakibin İrade Gücü ustalık yenilenmesini devre dışı bırakır.",
-        "Suppression": "Şampiyonun dövüş sırasında avantaj sağlayan özel Suppression yeteneği.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği.",
-        "Sunder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sunder yeteneği.",
+        "Suppression": "Muharebe Güç Oranını belirtilen güçte azaltır.",
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır.",
+        "Sunder": "Kritik Direncini sıfıra indirir ve artmasını engeller.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Overload": "Şampiyonun dövüş sırasında avantaj sağlayan özel Overload yeteneği.",
+        "Overload": "Vuruşlar, yakın zamanda verilen hasarın bir kısmını ek enerji hasarı olarak verir.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Photon için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Rakipteki her negatif efekt için blok yeterliliğini %27,3 azaltır — bloklamak ÖLÜMCÜL olabilir. Siperlenirken görünmez olur, vacilo önleyen şampiyon şart. 15 elektromanyetik yükte Saf Işık Formuna girer (özel saldırıları engellenemez ve destreza kapanır) — yük kazanımını savunma yeteneği azaltma veya tranquilize ile engelle. Engellenemez özel saldırıları bloklayan veya destreza olmadan kaçabilen şampiyonlar (Silk, Dazzler) da işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Photon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Photon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Çalma Bağışıklığı 🔋🔽\n• Nötralize Bağışıklığı 🗡️❌"
 }

@@ -2,18 +2,19 @@
     "id": "mantis",
     "name": "Mantis",
     "abilityDetails": {
-        "Tranquilize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Tranquilize yeteneği.",
-        "Infuriate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Infuriate yeteneği.",
-        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
-        "Sleep": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sleep yeteneği.",
+        "Tranquilize": "Debuff yetenek doğruluğunu belirtilen güçte azaltır.",
+        "Infuriate": "Rakip daha saldırgan hale gelir ve saldırı yetenek doğruluğu azalır.",
+        "Intimidate": "Blok şansını artırır, blok yeterliliğini belirtilen güçte azaltır.",
+        "Sleep": "Uyuyan şampiyonlar saldıramaz, bloklayamaz veya hareket edemez; vurulduklarında bu etki kalkar.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
-        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
-        "Guaranteed Crits": "Şampiyonun dövüş sırasında avantaj sağlayan özel Guaranteed Crits yeteneği."
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
+        "Cleanse": "Bu etkiye sahip şampiyon bir debuff aldığında, debuff anında arındırılır ve Cleanse kaldırılır.",
+        "Guaranteed Crits": "Tüm vuruşlar garanti kritik vuruş olur."
     },
     "synergies": [],
-    "howToPlay": "Mantis için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlike E1'in uyguladığı pasif uyku istilası. Prowess aktifken özel saldırı kullanarak kaldırılabilir; sadece E2'ye zorlarsan bu efektle hiç karşılaşmazsın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mantis Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Mantis Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Özel 1'de 2 olumsuz etkiyi arındırır 💪🏼"
 }

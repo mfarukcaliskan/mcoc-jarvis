@@ -2,19 +2,20 @@
     "id": "bluemarvel",
     "name": "Blue Marvel",
     "abilityDetails": {
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Crush": "Blokları kırarak yüksek hasar vermeyi sağlar.",
-        "Weakness": "Şampiyonun dövüş sırasında avantaj sağlayan özel Weakness yeteneği.",
+        "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez.",
         "Cruelty": "Kritik vuruşların verdiği hasarı artırır.",
-        "Overload": "Şampiyonun dövüş sırasında avantaj sağlayan özel Overload yeteneği.",
-        "Provoke": "Şampiyonun dövüş sırasında avantaj sağlayan özel Provoke yeteneği.",
+        "Overload": "Vuruşlar, yakın zamanda verilen hasarın bir kısmını ek enerji hasarı olarak verir.",
+        "Provoke": "Etkilenen şampiyon, vuruş mesafesi dışındayken %40 daha saldırgan hale gelir.",
         "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
         "Precision": "Kritik vuruş şansını artırır.",
         "Regeneration": "Can barını zamanla yeniler.",
-        "Indestructible": "Şampiyonun dövüş sırasında avantaj sağlayan özel Indestructible yeteneği."
+        "Indestructible": "Gelen hasarı yok sayar."
     },
     "synergies": [],
     "howToPlay": "Blue Marvel için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Blue Marvel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Blue Marvel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Çalma Bağışıklığı 🔋🔽"
 }

@@ -6,12 +6,13 @@
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Concussion": "Şampiyonun dövüş sırasında avantaj sağlayan özel Concussion yeteneği.",
-        "True Strike": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Strike yeteneği.",
+        "Concussion": "Etkilenen şampiyonların yetenek doğruluğunu belirtilen güçte azaltır.",
+        "True Strike": "Saldırılar Zırh, Direnç, Otomatik Blok ve Kaçışı (Evade) yok sayar.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
     },
     "synergies": [],
-    "howToPlay": "Cable için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlikesi güç barı dolunca %25 şansla max canının %20'sini pasif iyileşmesi — iyileşme engeli veya petrify ile kontrol et. Asla kanatma, kanarsa rakibe degeneration uygular.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cable Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Cable Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Zehir direnci 🧪\n• Kanama hasarının %100'ünü geri kazanır 🩸"
 }

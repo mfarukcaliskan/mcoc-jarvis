@@ -2,15 +2,15 @@
     "id": "mojo",
     "name": "Mojo",
     "abilityDetails": {
-        "Atrophy": "Şampiyonun dövüş sırasında avantaj sağlayan özel Atrophy yeteneği.",
+        "Atrophy": "Buff'ların süresini kısaltır.",
         "Degeneration": "Rakibe zamanla doğrudan, engellenemez hasar verir.",
         "Regeneration": "Can barını zamanla yeniler.",
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur.",
-        "Nullify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Nullify yeteneği.",
+        "Nullify": "Hedeften belirtilen sayıda buff kaldırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },
     "synergies": [],
-    "howToPlay": "Mojo için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Bonusları degeneration'a çevirirken pasif güç kazanır. Bonus immün veya yüksek yetenek azaltmalı şampiyon kullan. Petrify erişimi olan şampiyon önerilir, onu E1'de tut.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
     "signatureAbility": "Mojo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
 }

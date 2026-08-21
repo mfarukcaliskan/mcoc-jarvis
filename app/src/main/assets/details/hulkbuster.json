@@ -3,17 +3,18 @@
     "name": "Hulkbuster",
     "abilityDetails": {
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
-        "Energy Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Resistance yeteneği.",
+        "Energy Resistance": "Enerji hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
         "Shock": "Zamanla elektrik tabanlı şok hasarı verir.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Power Burn": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Burn yeteneği.",
-        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
+        "Power Burn": "Hedeften belirli miktarda güç alır, ardından alınan güçle orantılı doğrudan hasar verir.",
+        "Power Lock": "Hedefin herhangi bir yolla güç kazanmasını engeller.",
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Hulkbuster için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Zırh kıran şampiyon kullan, yoksa yetenek azaltma ve şok hasarı ölümcül olabilir. Bonus-nötralize edenler de iyi. Sadece şok immün ama zırh kırma/nötralize'siz şampiyon kullanma.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulkbuster Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hulkbuster Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %25 Kanama direnci (her aktif zırh için) 🩸\n• %25 Zehir direnci (her aktif zırh için) 🧪"
 }

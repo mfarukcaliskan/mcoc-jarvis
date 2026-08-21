@@ -5,9 +5,9 @@
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Instant Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
-        "Distraction": "Şampiyonun dövüş sırasında avantaj sağlayan özel Distraction yeteneği.",
-        "Combo Shield": "Şampiyonun dövüş sırasında avantaj sağlayan özel Combo Shield yeteneği."
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
+        "Distraction": "Kaçış (Evade) ve Otomatik Blok yeteneklerini engeller.",
+        "Combo Shield": "Aktifken, vurulduğunda combo metre sıfırlanmaz."
     },
     "synergies": [],
     "howToPlay": "Squirrel Girl için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

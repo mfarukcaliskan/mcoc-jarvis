@@ -3,16 +3,17 @@
     "name": "Quicksilver",
     "abilityDetails": {
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar.",
-        "Dodge": "Şampiyonun dövüş sırasında avantaj sağlayan özel Dodge yeteneği.",
+        "Dodge": "Gelen bir temel saldırıdan veya temaslı özel saldırıdan geriye kaçarak kaçınma; Çeviklik ustalığı bu pencereyi genişletir.",
         "Wither": "Rakibin güç kazanma ve iyileşme etkilerini zayıflatır.",
-        "Whiplash": "Şampiyonun dövüş sırasında avantaj sağlayan özel Whiplash yeteneği.",
+        "Whiplash": "Doğal olarak süresi dolduğunda fiziksel hasar verir.",
         "Slow": "Düşmanın Durdurulamaz (Unstoppable) ve Kaçış (Evade) yeteneklerini iptal eder.",
-        "Parry Non-Contact": "Şampiyonun dövüş sırasında avantaj sağlayan özel Parry Non-Contact yeteneği.",
-        "Trauma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Trauma yeteneği.",
+        "Parry Non-Contact": "Siper (Parry) ustalığının temassız saldırılara karşı da Stun tetiklemesini sağlar.",
+        "Trauma": "Alınan vuruşlar, yakın zamanda verilen hasarın bir kısmını ek fiziksel hasar patlaması olarak verdirir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
     },
     "synergies": [],
-    "howToPlay": "Quicksilver için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Animasyonları öngörülemez, sık kaçar ve kırbaç hasarı uygular. Kaçış-karşıtı mekanikli veya purify eden şampiyon en iyi kontrol.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Quicksilver Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Quicksilver Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %8,3 Dejenerasyon direnci (her 100 yük için, ile sinerji: Wiccan) ☠️\n• Buff Bağışıklığı (sadece isabet buff'ına bağışık) 🗡️🚫"
 }

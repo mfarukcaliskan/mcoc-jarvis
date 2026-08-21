@@ -3,7 +3,7 @@
     "name": "King Groot",
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Purify": "Şampiyonun dövüş sırasında avantaj sağlayan özel Purify yeteneği.",
+        "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
         "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir.",
         "Poison": "Zamanla zehir hasarı verir ve iyileşme etkilerini %30 azaltır.",
@@ -12,5 +12,6 @@
     "synergies": [],
     "howToPlay": "King Groot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "King Groot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "King Groot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Emme/Yakma Bağışıklığı 🔋\n• %100 Arındırma (Fury'lerle) 💪🏼\n• Kanama Bağışıklığı 🩸\n• Güç Emme/Yakma Bağışıklığı 🔋\n• %100 Arındırma (Fury'lerle) 💪🏼"
 }

@@ -2,19 +2,19 @@
     "id": "rhino",
     "name": "Rhino",
     "abilityDetails": {
-        "Cannot Crit": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cannot Crit yeteneği.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "Trauma": "Şampiyonun dövüş sırasında avantaj sağlayan özel Trauma yeteneği.",
+        "Cannot Crit": "Bu saldırılar kritik vuruş olamaz.",
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "Trauma": "Alınan vuruşlar, yakın zamanda verilen hasarın bir kısmını ek fiziksel hasar patlaması olarak verdirir.",
         "Unstoppable": "Saldırılar sırasında sersemleme ve geri itilmeye karşı bağışıklık sağlar.",
-        "Taunt": "Şampiyonun dövüş sırasında avantaj sağlayan özel Taunt yeteneği.",
+        "Taunt": "Saldırı gücünü %40 azaltır ve özel saldırı etkinleştirme şansını %70 artırır.",
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Breach": "Şampiyonun dövüş sırasında avantaj sağlayan özel Breach yeteneği.",
+        "Breach": "Etki altındayken gelen saldırılar sadece Well-Timed Block ile bloklanabilir.",
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
-        "Intimidate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Intimidate yeteneği.",
-        "Critical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Critical Resistance yeteneği."
+        "Intimidate": "Blok şansını artırır, blok yeterliliğini belirtilen güçte azaltır.",
+        "Critical Resistance": "Gelen kritik vuruşların hasarını azaltır."
     },
     "synergies": [],
-    "howToPlay": "Rhino için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Koşarken ve E1'de pasif durdurulamaz olur; koşarken ayrıca kısa süreli engellenemez olur (siperlenebilir ama kaçırırsan ağır bedeli olur) — durdurulamaz-karşıtı şampiyon önemli. Kanama isabet hassasiyetini %75 azaltır (kanama şampiyonlar artık iyi seçim değil). 20 pasif fiziksel direnç yükü kazanabilir — hasar efektli veya yüksek kritik şanslı şampiyon gerekli.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
     "signatureAbility": "Rhino Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
 }

@@ -2,19 +2,20 @@
     "id": "ikaris",
     "name": "Ikaris",
     "abilityDetails": {
-        "Power Detonation": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Detonation yeteneği.",
-        "Energize": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energize yeteneği.",
-        "Energy Damage Effect": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Damage Effect yeteneği.",
+        "Power Detonation": "Doğal olarak süresi dolduğunda enerji hasarı verir; şampiyon özel saldırı kullanırsa bu etki kaldırılır.",
+        "Energize": "Muharebe Güç Oranını belirtilen güçte artırır.",
+        "Energy Damage Effect": "Doğrudan enerji hasarı verir.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Protection": "Şampiyonun dövüş sırasında avantaj sağlayan özel Protection yeteneği.",
+        "Protection": "Tüm kaynaklardan alınan hasarı belirtilen güçte azaltır.",
         "Armor Up": "Zırh değerini artırarak alınan fiziksel hasarı azaltır.",
         "Unblockable": "Saldırıların bloklanmasını engeller.",
-        "Physical Resistance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Physical Resistance yeteneği.",
-        "True Damage": "Şampiyonun dövüş sırasında avantaj sağlayan özel True Damage yeteneği.",
-        "Energy Vulnerability": "Şampiyonun dövüş sırasında avantaj sağlayan özel Energy Vulnerability yeteneği."
+        "Physical Resistance": "Fiziksel hasarlı saldırı ve yeteneklerden gelen hasarı azaltır.",
+        "True Damage": "Zırh ve dirençleri yok sayar.",
+        "Energy Vulnerability": "Enerji Direncini azaltarak saldırı ve yeteneklerden gelen enerji hasarını artırır."
     },
     "synergies": [],
-    "howToPlay": "Ikaris için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): E2 kullanmasına izin verme — engellenemez olabilir. Energize bonuslarını nötralize/nötrleştirerek kontrol et. Diğer sınıflar sık enerji hasarı aldığı için sadece Mystic kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ikaris Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Ikaris Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Şok Bağışıklığı ⚡️\n• %20 Zehir direnci 🧪"
 }

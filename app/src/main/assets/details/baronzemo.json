@@ -3,16 +3,17 @@
     "name": "Baron Zemo",
     "abilityDetails": {
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır.",
-        "Cleanse": "Şampiyonun dövüş sırasında avantaj sağlayan özel Cleanse yeteneği.",
-        "Root": "Şampiyonun dövüş sırasında avantaj sağlayan özel Root yeteneği.",
-        "Resistance Up": "Şampiyonun dövüş sırasında avantaj sağlayan özel Resistance Up yeteneği.",
-        "Decelerate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Decelerate yeteneği.",
+        "Cleanse": "Bu etkiye sahip şampiyon bir debuff aldığında, debuff anında arındırılır ve Cleanse kaldırılır.",
+        "Root": "Köklenen şampiyonlar hareket edemez ama saldırabilir, bloklayabilir ve kaçabilir; özel saldırı Root'u kaldırır.",
+        "Resistance Up": "Fiziksel Direnci ve Enerji Direncini belirtilen güçte artırır.",
+        "Decelerate": "Unstoppable ve Kaçış (Evade) yetenek doğruluğunu sabit bir miktarda azaltır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
-        "Disorient": "Şampiyonun dövüş sırasında avantaj sağlayan özel Disorient yeteneği.",
-        "Sunder": "Şampiyonun dövüş sırasında avantaj sağlayan özel Sunder yeteneği."
+        "Disorient": "Savunma yetenek doğruluğunu ve blok yeterliliğini belirtilen güçte azaltır.",
+        "Sunder": "Kritik Direncini sıfıra indirir ve artmasını engeller."
     },
     "synergies": [],
-    "howToPlay": "Baron Zemo için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): Ona negatif efekt uygulama — 5 tanesini purify edince köklendirir. E1'e zorla, hiç negatif efekt uygulama. Pasif yetenek azaltıcı şampiyonlar da iyi çözüm.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Baron Zemo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Baron Zemo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼"
 }

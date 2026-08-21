@@ -5,9 +5,9 @@
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır.",
         "Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir.",
         "Incinerate": "Zamanla enerji tabanlı yakma hasarı verir ve zırhı yok sayar.",
-        "Enervate": "Şampiyonun dövüş sırasında avantaj sağlayan özel Enervate yeteneği.",
+        "Enervate": "Rakibin vurulduğunda güç kazanmasını engeller.",
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır.",
-        "Reduce Defensive AA": "Şampiyonun dövüş sırasında avantaj sağlayan özel Reduce Defensive AA yeteneği."
+        "Reduce Defensive AA": "Savunma yetenek doğruluğunu belirtilen güçte azaltır."
     },
     "synergies": [],
     "howToPlay": "Gwenpool için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",

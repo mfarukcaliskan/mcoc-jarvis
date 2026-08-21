@@ -3,14 +3,15 @@
     "name": "Professor X",
     "abilityDetails": {
         "Falter": "Rakibin bir sonraki saldırısının ıskalamasına sebep olur.",
-        "Vigilance": "Şampiyonun dövüş sırasında avantaj sağlayan özel Vigilance yeteneği.",
+        "Vigilance": "Saldırılar ıskalayamaz.",
         "Prowess": "Özel saldırıların (SP) hasarını artırır.",
-        "Power Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Power Lock yeteneği.",
-        "Special Lock": "Şampiyonun dövüş sırasında avantaj sağlayan özel Special Lock yeteneği.",
+        "Power Lock": "Hedefin herhangi bir yolla güç kazanmasını engeller.",
+        "Special Lock": "Özel saldırıların kullanılmasını engeller.",
         "Unblockable": "Saldırıların bloklanmasını engeller."
     },
     "synergies": [],
-    "howToPlay": "Professor X için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
+    "howToPlay": "Bu şampiyona karşı (savunmada): En büyük tehlike vacilo (hata) efekti. Vigilance/monitoring yeteneği olan şampiyonlarla bu kolayca önlenir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Professor X Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Professor X Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
 }
