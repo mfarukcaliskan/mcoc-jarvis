@@ -1,0 +1,3912 @@
+[
+    {
+        "id": "relic1",
+        "name": "Storm Battlecast",
+        "relicClass": "MUTANT",
+        "relicType": "Battlecast",
+        "image": "storm",
+        "innateAbilities": [
+            "Storm Force Winds"
+        ],
+        "abilityRunes": [
+            "Tempest's Fury",
+            "Gale Force Pressure"
+        ],
+        "attributeRunes": [
+            "Prowess Duration",
+            "Unblockable Duration",
+            "Energy Resist Down"
+        ],
+        "recommendedChampions": [
+            "Bishop",
+            "Cyclops (Blue Team)",
+            "Dazzler",
+            "Emma Frost",
+            "Havok",
+            "Kitty Pryde",
+            "Magneto",
+            "Pixie",
+            "Professor X",
+            "Sauron",
+            "Storm",
+            "Storm (Pyramid X)"
+        ],
+        "description": "Storm: Gain a Rampage Buff, increasing Attack Rating while Unblockable for 9 seconds.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic2",
+        "name": "Wolverine Battlecast",
+        "relicClass": "MUTANT",
+        "relicType": "Battlecast",
+        "image": "wolverine",
+        "innateAbilities": [
+            "Advanced X-Gene"
+        ],
+        "abilityRunes": [
+            "Regenerative Frenzy",
+            "Metabolic Adaptation"
+        ],
+        "attributeRunes": [
+            "Regen Duration Up",
+            "Bleed Potency Up",
+            "Regen Rate Up"
+        ],
+        "recommendedChampions": [
+            "Cable",
+            "Deadpool",
+            "Old Man Logan",
+            "Platinumpool",
+            "Sabretooth",
+            "Wolverine",
+            "Wolverine (Weapon X)",
+            "Wolverine (X-23)"
+        ],
+        "description": "Wolverine: Gain a Rejuvenate Buff increasing Regeneration Rate for 7 seconds.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic3",
+        "name": "Gambit Battlecast",
+        "relicClass": "MUTANT",
+        "relicType": "Battlecast",
+        "image": "gambit",
+        "innateAbilities": [
+            "L'As Dans La Manche"
+        ],
+        "abilityRunes": [
+            "High Stakes Game",
+            "Prends Ma Savate"
+        ],
+        "attributeRunes": [
+            "Physical Resist Up",
+            "Bleed Potency Down",
+            "Crit Resist Up"
+        ],
+        "recommendedChampions": [
+            "Beast",
+            "Colossus",
+            "Dani Moonstar",
+            "Dust",
+            "Gambit",
+            "Gentle",
+            "Goldpool",
+            "Namor",
+            "Nightcrawler",
+            "Northstar",
+            "Rogue",
+            "Toad"
+        ],
+        "description": "Gambit: The final hit grants a non-stacking Physical Resistance Passive for 8s. Rogue: On Striker activation, pause the Replicated Buff timer. The final hit grants a Prowess Passive for 9s.",
+        "releaseDate": "09-03-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic4",
+        "name": "Mister Sinister Battlecast",
+        "relicClass": "MUTANT",
+        "relicType": "Battlecast",
+        "image": "mistersinister",
+        "innateAbilities": [
+            "Genetic Experiment"
+        ],
+        "abilityRunes": [
+            "Precision Cuts",
+            "Blunt Scalpel"
+        ],
+        "attributeRunes": [
+            "Bleed Potency Down",
+            "Attack While Bleeding",
+            "Prowess Potency Up"
+        ],
+        "recommendedChampions": [
+            "Apocalypse",
+            "Cable",
+            "Cassandra Nova",
+            "Domino",
+            "Gentle",
+            "Mister Sinister",
+            "Omega Red",
+            "Shatterstar",
+            "Silver Samurai"
+        ],
+        "description": "Mister Sinister: When the Striker exits, inflict a Bleed Debuff on this Champion, dealing 0 Direct Damage over 4s.",
+        "releaseDate": "14-07-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic25",
+        "name": "Armoured Mutant Relic of Blocking",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "colossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Block Proficiency"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Archangel"
+        ],
+        "description": "Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic26",
+        "name": "Armoured Mutant Relic of Ferocity",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "colossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic27",
+        "name": "Armoured Mutant Relic of Insulation",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "colossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic28",
+        "name": "Armoured Mutant Relic of Penetration",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "colossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Armor Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic29",
+        "name": "Armoured Mutant Relic of Toughness",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "colossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic30",
+        "name": "Expert Mutant Relic of Blocking",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "magneto",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Special Damage",
+            "Block Proficiency"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Cable",
+            "Gentle",
+            "Negasonic Teenage Warhead",
+            "Stryfe"
+        ],
+        "description": "Magneto: Primary Attribute: Special Damage",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic31",
+        "name": "Expert Mutant Relic of Ferocity",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "magneto",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Special Damage",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Cyclops (New Xavier School)",
+            "Gentle",
+            "Magneto (House of X)",
+            "Psylocke",
+            "Shatterstar",
+            "Sunspot"
+        ],
+        "description": "Magneto: Primary Attribute: Special Damage",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic32",
+        "name": "Expert Mutant Relic of Insulation",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "magneto",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Special Damage",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Gentle"
+        ],
+        "description": "Magneto: Primary Attribute: Special Damage",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic33",
+        "name": "Expert Mutant Relic of Penetration",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "magneto",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Special Damage",
+            "Armor Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Captain Britain",
+            "Deadpool (X-Force)",
+            "Jubilee"
+        ],
+        "description": "Magneto: Primary Attribute: Special Damage",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic34",
+        "name": "Expert Mutant Relic of Toughness",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "magneto",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Special Damage",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Gentle",
+            "Pixie"
+        ],
+        "description": "Magneto: Primary Attribute: Special Damage",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic85",
+        "name": "Sturdy Mutant Relic of Ferocity",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "apocalypse",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Apocalypse: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic86",
+        "name": "Sturdy Mutant Relic of Impact",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "apocalypse",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Physical Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Apocalypse: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic87",
+        "name": "Sturdy Mutant Relic of Insulation",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "apocalypse",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Apocalypse: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic88",
+        "name": "Sturdy Mutant Relic of Protection",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "apocalypse",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Apocalypse: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic89",
+        "name": "Sturdy Mutant Relic of Toughness",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "apocalypse",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Apocalypse: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic90",
+        "name": "Conductive Mutant Relic of Ferocity",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "domino",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Jean Grey"
+        ],
+        "description": "Domino: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic91",
+        "name": "Conductive Mutant Relic of Impact",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "domino",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Physical Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Iceman"
+        ],
+        "description": "Domino: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic92",
+        "name": "Conductive Mutant Relic of Insulation",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "domino",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Domino: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic93",
+        "name": "Conductive Mutant Relic of Protection",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "domino",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Domino: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic94",
+        "name": "Conductive Mutant Relic of Toughness",
+        "relicClass": "MUTANT",
+        "relicType": "Statcast",
+        "image": "domino",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Onslaught"
+        ],
+        "description": "Domino: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic5",
+        "name": "Black Panther Battlecast",
+        "relicClass": "SKILL",
+        "relicType": "Battlecast",
+        "image": "blackpanther",
+        "innateAbilities": [
+            "Pride of Wakanda"
+        ],
+        "abilityRunes": [
+            "Vibranium Strikes",
+            "Adaptive Targeting"
+        ],
+        "attributeRunes": [
+            "Crit Resist Down",
+            "Burst Physical",
+            "Special 2 Finisher"
+        ],
+        "recommendedChampions": [
+            "Black Panther",
+            "Black Tarantula",
+            "Bullseye",
+            "Doctor Bong",
+            "Hit-Monkey",
+            "Lumatrix",
+            "Mantis",
+            "Mole Man",
+            "Okoye",
+            "Shang-Chi",
+            "Star-Lord (Stellar-Forged)"
+        ],
+        "description": "Black Panther: The last hit grants a Cruelty Buff, increasing Critical Damage Rating by over 10 seconds.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic6",
+        "name": "Winter Soldier Battlecast",
+        "relicClass": "SKILL",
+        "relicType": "Battlecast",
+        "image": "wintersoldier",
+        "innateAbilities": [
+            "Mercenary's Delight"
+        ],
+        "abilityRunes": [
+            "Extreme Atmospheric Conditioning",
+            "Thermal Ordnance Upgrades"
+        ],
+        "attributeRunes": [
+            "DOT Potency Up",
+            "Block Penetration Up",
+            "Energy Resist Down"
+        ],
+        "recommendedChampions": [
+            "Agent Venom",
+            "Elsa Bloodstone",
+            "Franken-Castle",
+            "Gwenpool",
+            "Kate Bishop",
+            "Misty Knight",
+            "Night Thrasher",
+            "Star-Lord (Stellar-Forged)",
+            "Winter Soldier"
+        ],
+        "description": "Winter Soldier: Inflict an Energy Vulnerability Debuff, lowering Energy Resistance for 15 seconds.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic7",
+        "name": "Valkyrie Battlecast",
+        "relicClass": "SKILL",
+        "relicType": "Battlecast",
+        "image": "valkyrie",
+        "innateAbilities": [
+            "Dragonfang Piercer"
+        ],
+        "abilityRunes": [
+            "Scrapper of Sakaar",
+            "Elite Warrior of Asgard"
+        ],
+        "attributeRunes": [
+            "Block Proficiency Down",
+            "Disorient Duration Up",
+            "Intimidation Duration Up"
+        ],
+        "recommendedChampions": [
+            "Baron Zemo",
+            "Karnak",
+            "M'Baku",
+            "Masacre",
+            "Nick Fury",
+            "Valkyrie"
+        ],
+        "description": "Valkyrie: The first hit grants a 12s Pierce Passive increasing Block Penetration and Armor Penetration. This ability can trigger through Block and makes Opponents more defensive for 1.7s.",
+        "releaseDate": "13-01-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic8",
+        "name": "Black Widow Battlecast",
+        "relicClass": "SKILL",
+        "relicType": "Battlecast",
+        "image": "blackwidow",
+        "innateAbilities": [
+            "Widow's Bite"
+        ],
+        "abilityRunes": [
+            "Learned Intelligence",
+            "Guerilla Tactics"
+        ],
+        "attributeRunes": [
+            "Sabotage Duration",
+            "Evade AA Up",
+            "Defensive AA Down"
+        ],
+        "recommendedChampions": [
+            "Black Cat",
+            "Black Widow",
+            "Black Widow (Deadly Origin)",
+            "Crossbones",
+            "Elektra",
+            "Falcon",
+            "Kingpin",
+            "Ronin",
+            "Silver Sable",
+            "Taskmaster"
+        ],
+        "description": "Black Widow: The final hit inflicts a Beeper Debuff that has a 100% chance to Passively do Nothing whenever its owner is struck. When it fails, it beeps.",
+        "releaseDate": "03-05-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic36",
+        "name": "Precise Skill Relic of Blunting",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "bullseye",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Rating",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Bullseye: Primary Attribute: Critical Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic37",
+        "name": "Precise Skill Relic of Ferocity",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "bullseye",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Rating",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Black Panther (Civil War)",
+            "Black Tarantula",
+            "Daredevil (Classic)",
+            "Daredevil (Hell's Kitchen)",
+            "Hawkeye",
+            "Jabari Panther",
+            "Kraven",
+            "M'Baku",
+            "Moon Knight",
+            "Okoye",
+            "Patriot",
+            "Spider-Man (Stealth Suit)",
+            "Squirrel Girl",
+            "Star-Lord (Stellar-Forged)"
+        ],
+        "description": "Bullseye: Primary Attribute: Critical Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic38",
+        "name": "Precise Skill Relic of Insulation",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "bullseye",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Rating",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Bullseye: Primary Attribute: Critical Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic39",
+        "name": "Precise Skill Relic of Protection",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "bullseye",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Rating",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "M'Baku"
+        ],
+        "description": "Bullseye: Primary Attribute: Critical Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic40",
+        "name": "Precise Skill Relic of Talent",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "bullseye",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Rating",
+            "Special Damage"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Black Tarantula",
+            "Blade",
+            "Moondragon",
+            "Punisher",
+            "Star-Lord (Stellar-Forged)"
+        ],
+        "description": "Bullseye: Primary Attribute: Critical Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic41",
+        "name": "Tough Skill Relic of Blunting",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "punisher",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Punisher: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic42",
+        "name": "Tough Skill Relic of Ferocity",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "punisher",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Mr. Knight"
+        ],
+        "description": "Punisher: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic43",
+        "name": "Tough Skill Relic of Insulation",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "punisher",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Punisher: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic44",
+        "name": "Tough Skill Relic of Protection",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "punisher",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Punisher: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic45",
+        "name": "Tough Skill Relic of Talent",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "punisher",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Special Damage"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Chee'ilth"
+        ],
+        "description": "Punisher: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic95",
+        "name": "Cruel Skill Relic of Conduction",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "karnak",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Energy Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Aegon",
+            "Okoye",
+            "Thor (Ragnarok)"
+        ],
+        "description": "Karnak: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic96",
+        "name": "Cruel Skill Relic of Finesse",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "karnak",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Black Tarantula"
+        ],
+        "description": "Karnak: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic97",
+        "name": "Cruel Skill Relic of Impact",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "karnak",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Physical Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Okoye"
+        ],
+        "description": "Karnak: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic98",
+        "name": "Cruel Skill Relic of Protection",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "karnak",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Karnak: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic99",
+        "name": "Cruel Skill Relic of Toughness",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "karnak",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Karnak: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic100",
+        "name": "Insulated Skill Relic of Conduction",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "moondragon",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Energy Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Moondragon: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic101",
+        "name": "Insulated Skill Relic of Finesse",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "moondragon",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Attuma",
+            "Killmonger"
+        ],
+        "description": "Moondragon: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic102",
+        "name": "Insulated Skill Relic of Impact",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "moondragon",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Physical Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Yelena Belova"
+        ],
+        "description": "Moondragon: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic103",
+        "name": "Insulated Skill Relic of Protection",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "moondragon",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Moondragon: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic104",
+        "name": "Insulated Skill Relic of Toughness",
+        "relicClass": "SKILL",
+        "relicType": "Statcast",
+        "image": "moondragon",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Korg"
+        ],
+        "description": "Moondragon: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic9",
+        "name": "Ant-Man Battlecast",
+        "relicClass": "SCIENCE",
+        "relicType": "Battlecast",
+        "image": "antman",
+        "innateAbilities": [
+            "Nanotech Upgrade"
+        ],
+        "abilityRunes": [
+            "Twin Stinger",
+            "Spite Stinger"
+        ],
+        "attributeRunes": [
+            "Power Sting Potency",
+            "Power Sting Duration",
+            "Special Damage Down"
+        ],
+        "recommendedChampions": [
+            "Ant-Man",
+            "Cassie Lang",
+            "Spider-Ham",
+            "Spider-Woman",
+            "Wasp",
+            "Yellowjacket"
+        ],
+        "description": "Ant-Man: The last hit inflicts a Power Sting Debuff for 16s. An Opponent with Power Sting takes Direct Damage if they activate a Special Attack.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic10",
+        "name": "Hulk Battlecast",
+        "relicClass": "SCIENCE",
+        "relicType": "Battlecast",
+        "image": "hulk",
+        "innateAbilities": [
+            "Blunt Force Trauma"
+        ],
+        "abilityRunes": [
+            "Clobber",
+            "Stubborn"
+        ],
+        "attributeRunes": [
+            "Regen Potency Up",
+            "Physical Resist Up",
+            "Physical Resist Down"
+        ],
+        "recommendedChampions": [
+            "Anti-Venom",
+            "Hulk (Immortal)",
+            "Jessica Jones",
+            "Morbius",
+            "Quicksilver",
+            "Red Hulk",
+            "Scorpion",
+            "Silk",
+            "The Overseer",
+            "Titania",
+            "Wave"
+        ],
+        "description": "Hulk: The first hit inflicts a Physical Vulnerability Debuff, lowering Physical Resistance for 16s.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic11",
+        "name": "Captain America (WWII) Battlecast",
+        "relicClass": "SCIENCE",
+        "relicType": "Battlecast",
+        "image": "captainamericawwii",
+        "innateAbilities": [
+            "Vintage Avenger"
+        ],
+        "abilityRunes": [
+            "Forthright Defender",
+            "Counter-Puncher"
+        ],
+        "attributeRunes": [
+            "Physical Resist Down",
+            "Block Proficiency Up",
+            "Perfect Block Chance"
+        ],
+        "recommendedChampions": [
+            "Captain America",
+            "Captain America (Infinity War)",
+            "Captain America (WWII)",
+            "Human Torch",
+            "Luke Cage",
+            "She-Hulk",
+            "Spot"
+        ],
+        "description": "Captain America (WWII): The last hit grants a 18s Bulwark Passive increasing Block Proficiency.",
+        "releaseDate": "13-01-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic12",
+        "name": "Spider-Man 2099 Battlecast",
+        "relicClass": "SCIENCE",
+        "relicType": "Battlecast",
+        "image": "spiderman2099",
+        "innateAbilities": [
+            "Spider-Totem"
+        ],
+        "abilityRunes": [
+            "Vulnerability Dispersal",
+            "Accelerated Dexterity"
+        ],
+        "attributeRunes": [
+            "Physical Vuln Up",
+            "Taunt & Enervate",
+            "Ability Power Down"
+        ],
+        "recommendedChampions": [
+            "Lizard",
+            "Red Guardian",
+            "Spider-Gwen",
+            "Spider-Man (Classic)",
+            "Spider-Man (Miles Morales)",
+            "Spider-Man 2099",
+            "Void"
+        ],
+        "description": "Spider-Man 2099: The first hit inflicts a Physical Vulnerability Debuff for 16s.",
+        "releaseDate": "14-07-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic46",
+        "name": "Shielded Science Relic of Blunting",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "captainamericaiw",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "High Evolutionary",
+            "M.O.D.O.K.",
+            "Quake",
+            "Sandman",
+            "Thing"
+        ],
+        "description": "Captain America (Infinity War): Primary Attribute: Block Proficiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic47",
+        "name": "Shielded Science Relic of Ferocity",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "captainamericaiw",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Captain America (Infinity War): Primary Attribute: Block Proficiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic48",
+        "name": "Shielded Science Relic of Finesse",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "captainamericaiw",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Blue Marvel",
+            "Falcon (Joaquin Torres)",
+            "Mister Fantastic",
+            "Photon",
+            "She-Hulk (Deathless)"
+        ],
+        "description": "Captain America (Infinity War): Primary Attribute: Block Proficiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic49",
+        "name": "Shielded Science Relic of Insulation",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "captainamericaiw",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "The Leader"
+        ],
+        "description": "Captain America (Infinity War): Primary Attribute: Block Proficiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic50",
+        "name": "Shielded Science Relic of Protection",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "captainamericaiw",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Captain America (Infinity War): Primary Attribute: Block Proficiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic51",
+        "name": "Tough Science Relic of Blunting",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "thing",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Thing: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic52",
+        "name": "Tough Science Relic of Ferocity",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "thing",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Thing: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic53",
+        "name": "Tough Science Relic of Finesse",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "thing",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Abomination",
+            "Abomination (Immortal)",
+            "Blue Marvel",
+            "Electro",
+            "Hulk",
+            "Hulk (Ragnarok)",
+            "Invisible Woman",
+            "Joe Fixit",
+            "Sentry",
+            "Spider-Punk"
+        ],
+        "description": "Thing: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic54",
+        "name": "Tough Science Relic of Insulation",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "thing",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Mister Negative"
+        ],
+        "description": "Thing: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic55",
+        "name": "Tough Science Relic of Protection",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "thing",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Thing: Primary Attribute: Physical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic105",
+        "name": "Impactful Science Relic of Blocking",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "morbius",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Block Proficiency"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Morbius: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic106",
+        "name": "Impactful Science Relic of Blunting",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "morbius",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Rhino"
+        ],
+        "description": "Morbius: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic107",
+        "name": "Impactful Science Relic of Conduction",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "morbius",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Energy Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Morbius: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic108",
+        "name": "Impactful Science Relic of Protection",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "morbius",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Morbius: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic109",
+        "name": "Impactful Science Relic of Toughness",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "morbius",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Morbius: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic110",
+        "name": "Insulated Science Relic of Blocking",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "humantorch",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Block Proficiency"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Human Torch: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic111",
+        "name": "Insulated Science Relic of Blunting",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "humantorch",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Human Torch: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic112",
+        "name": "Insulated Science Relic of Conduction",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "humantorch",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Energy Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Blue Marvel",
+            "Count Nefaria"
+        ],
+        "description": "Human Torch: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic113",
+        "name": "Insulated Science Relic of Protection",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "humantorch",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Human Torch: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic114",
+        "name": "Insulated Science Relic of Toughness",
+        "relicClass": "SCIENCE",
+        "relicType": "Statcast",
+        "image": "humantorch",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Human Torch: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic13",
+        "name": "Scarlet Witch Battlecast",
+        "relicClass": "MYSTIC",
+        "relicType": "Battlecast",
+        "image": "scarletwitch",
+        "innateAbilities": [
+            "Darkhold's Secrets"
+        ],
+        "abilityRunes": [
+            "Blessing of Amplification",
+            "Blessing of Rejuvenation"
+        ],
+        "attributeRunes": [
+            "Armor Break Potency",
+            "Special Damage Up",
+            "Special AA Up"
+        ],
+        "recommendedChampions": [
+            "Agatha Harkness",
+            "Doctor Strange",
+            "Kushala",
+            "Sorcerer Supreme",
+            "Spider-Man (Supreme)",
+            "Symbiote Supreme"
+        ],
+        "description": "Scarlet Witch: The first hit grants an Amplify Buff, increasing Ability Power Rate for 6s.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic14",
+        "name": "Juggernaut Battlecast",
+        "relicClass": "MYSTIC",
+        "relicType": "Battlecast",
+        "image": "juggernaut",
+        "innateAbilities": [
+            "The Crimson Avatar"
+        ],
+        "abilityRunes": [
+            "Exemplar of Intensity",
+            "Exemplar of Vitality"
+        ],
+        "attributeRunes": [
+            "Fury Potency Up",
+            "Regen Potency Up",
+            "Combat Power Rate Up"
+        ],
+        "recommendedChampions": [
+            "Dragon Man",
+            "Juggernaut",
+            "Man-Thing",
+            "Rintrah",
+            "Sasquatch",
+            "The Destroyer",
+            "Unstoppable Colossus",
+            "Wong"
+        ],
+        "description": "Juggernaut: The first hit grants a Berserk Buff, increasing Attack Rating while Unstoppable for 16s.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic15",
+        "name": "Iron Fist Battlecast",
+        "relicClass": "MYSTIC",
+        "relicType": "Battlecast",
+        "image": "ironfist",
+        "innateAbilities": [
+            "Burning Palm Strike"
+        ],
+        "abilityRunes": [
+            "Brooklyn Headbutt",
+            "K'un Lun Lotus Whip"
+        ],
+        "attributeRunes": [
+            "Heavy Finisher",
+            "Buff Potency Down",
+            "Block Proficiency Up"
+        ],
+        "recommendedChampions": [
+            "Absorbing Man",
+            "America Chavez",
+            "Doctor Doom",
+            "Iron Fist",
+            "Iron Fist (Immortal)",
+            "Longshot",
+            "Madelyne Pryor",
+            "Spider-Man (Pavitr Prabhakar)",
+            "Thor (Jane Foster)"
+        ],
+        "description": "Iron Fist: The first hit inflicts a 9s Ineptitude Passive reducing the potency of new Fury, Armor Up, Precision, and Cruelty Buffs.",
+        "releaseDate": "13-01-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic16",
+        "name": "Ghost Rider Battlecast",
+        "relicClass": "MYSTIC",
+        "relicType": "Battlecast",
+        "image": "ghostrider",
+        "innateAbilities": [
+            "Honorary Emissary of Hell"
+        ],
+        "abilityRunes": [
+            "Vicious Judgment",
+            "Ample Iniquity"
+        ],
+        "attributeRunes": [
+            "Direct Damage Up",
+            "Stagger Duration Up",
+            "Power Gain Potency Up"
+        ],
+        "recommendedChampions": [
+            "Blade (Stellar-Forged)",
+            "Dormammu",
+            "Dracula",
+            "Ebony Maw",
+            "Ghost Rider",
+            "Guillotine (Deathless)",
+            "Kindred",
+            "Madelyne Pryor",
+            "Magik",
+            "Mojo",
+            "Mordo",
+            "Purgatory",
+            "Scarlet Witch"
+        ],
+        "description": "Ghost Rider: The final hit inflicts a Degemeration Vulnerability Debuff for 12s.",
+        "releaseDate": "14-07-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic35",
+        "name": "Insulated Mystic Relic of Blunting",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "kushala",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Kushala: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic56",
+        "name": "Insulated Mystic Relic of Ferocity",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "kushala",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Mangog",
+            "Mephisto"
+        ],
+        "description": "Kushala: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic57",
+        "name": "Insulated Mystic Relic of Finesse",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "kushala",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Isophyne",
+            "White Tiger"
+        ],
+        "description": "Kushala: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic58",
+        "name": "Insulated Mystic Relic of Protection",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "kushala",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Kushala: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic59",
+        "name": "Insulated Mystic Relic of Toughness",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "kushala",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Agatha Harkness",
+            "Morningstar",
+            "The Hood"
+        ],
+        "description": "Kushala: Primary Attribute: Energy Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic60",
+        "name": "Shielded Mystic Relic of Blunting",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "thedestroyer",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Agatha Harkness",
+            "Diablo",
+            "Madelyne Pryor"
+        ],
+        "description": "The Destroyer: Primary Attribute: Block Profiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic61",
+        "name": "Shielded Mystic Relic of Ferocity",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "thedestroyer",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "The Destroyer: Primary Attribute: Block Profiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic62",
+        "name": "Shielded Mystic Relic of Finesse",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "thedestroyer",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Doctor Voodoo",
+            "Guillotine",
+            "Scarlet Witch (Classic)",
+            "Tigra"
+        ],
+        "description": "The Destroyer: Primary Attribute: Block Profiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic63",
+        "name": "Shielded Mystic Relic of Insulation",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "thedestroyer",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Agatha Harkness"
+        ],
+        "description": "The Destroyer: Primary Attribute: Block Profiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic64",
+        "name": "Shielded Mystic Relic of Protection",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "thedestroyer",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Agatha Harkness",
+            "Loki"
+        ],
+        "description": "The Destroyer: Primary Attribute: Block Profiency",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic115",
+        "name": "Armoured Mystic Relic of Blocking",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "unstoppablecolossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Block Proficiency"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Unstoppable Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic116",
+        "name": "Armoured Mystic Relic of Blunting",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "unstoppablecolossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Unstoppable Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic117",
+        "name": "Armoured Mystic Relic of Ferocity",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "unstoppablecolossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Unstoppable Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic118",
+        "name": "Armoured Mystic Relic of Impact",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "unstoppablecolossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Physical Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Spiral",
+            "Werewolf By Night"
+        ],
+        "description": "Unstoppable Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic119",
+        "name": "Armoured Mystic Relic of Talent",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "unstoppablecolossus",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Special Damage"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Unstoppable Colossus: Primary Attribute: Armor",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic120",
+        "name": "Conductive Mystic Relic of Blocking",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "doctordoom",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Block Proficiency"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Doctor Doom: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic121",
+        "name": "Conductive Mystic Relic of Blunting",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "doctordoom",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Doctor Doom: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic122",
+        "name": "Conductive Mystic Relic of Ferocity",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "doctordoom",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Doctor Doom: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic123",
+        "name": "Conductive Mystic Relic of Impact",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "doctordoom",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Physical Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Shathra"
+        ],
+        "description": "Doctor Doom: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic124",
+        "name": "Conductive Mystic Relic of Talent",
+        "relicClass": "MYSTIC",
+        "relicType": "Statcast",
+        "image": "doctordoom",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Penetration",
+            "Special Damage"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Black Widow (Claire Voyant)",
+            "Enchantress",
+            "Nico Minoru",
+            "Wiccan"
+        ],
+        "description": "Doctor Doom: Primary Attribute: Energy Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic17",
+        "name": "Venom Battlecast",
+        "relicClass": "COSMIC",
+        "relicType": "Battlecast",
+        "image": "venom",
+        "innateAbilities": [
+            "Symbiotic Bond"
+        ],
+        "abilityRunes": [
+            "Ravenous Strike",
+            "Merciless Strike"
+        ],
+        "attributeRunes": [
+            "Fury, Precision, and Cruelty Up",
+            "Bleed Potency Up",
+            "Mutation and Cookin' Duration Down"
+        ],
+        "recommendedChampions": [
+            "Carnage",
+            "Gorr",
+            "Scream",
+            "Venom",
+            "Venompool"
+        ],
+        "description": "Venom: The last hit inflicts a Bleed Vulnerability Debuff, increasing the potency of future Bleed Effects for 16s.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic18",
+        "name": "Thor Battlecast",
+        "relicClass": "COSMIC",
+        "relicType": "Battlecast",
+        "image": "thor",
+        "innateAbilities": [
+            "Asgardian Aptitudes"
+        ],
+        "abilityRunes": [
+            "Ragnarok's Vigor",
+            "Valhallan Fortitude"
+        ],
+        "attributeRunes": [
+            "Fury Potency Up",
+            "Precision Potency Up",
+            "Armor Potency Up"
+        ],
+        "recommendedChampions": [
+            "Air-Walker",
+            "Angela",
+            "Annihilus",
+            "Beta Ray Bill",
+            "Groot",
+            "Heimdall",
+            "Hela",
+            "Hulkling",
+            "King Groot (Deathless)",
+            "Medusa",
+            "Ms. Marvel (Kamala Khan)",
+            "Odin",
+            "Phoenix",
+            "Silver Surfer",
+            "Super Skrull",
+            "Thanos (Deathless)",
+            "The Serpent",
+            "Vox"
+        ],
+        "description": "Thor: The last hit grants an Aptitude Buff, increasing the potency of Fury, Armor Up and Precision Buffs for 16s.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic19",
+        "name": "Ms. Marvel Battlecast",
+        "relicClass": "COSMIC",
+        "relicType": "Battlecast",
+        "image": "msmarvel",
+        "innateAbilities": [
+            "Marvelous Kree Warrior"
+        ],
+        "abilityRunes": [
+            "Stellar Defender",
+            "Air Force Dynamo"
+        ],
+        "attributeRunes": [
+            "True Damage Duration Up",
+            "True Strike Duration Up",
+            "Crit Damage Up"
+        ],
+        "recommendedChampions": [
+            "Black Bolt",
+            "Captain Marvel",
+            "Captain Marvel (Classic)",
+            "Ikaris",
+            "Nova",
+            "Phyla-Vell",
+            "Sersi"
+        ],
+        "description": "Ms. Marvel: The final hit grants a 12s Precision Buff increasing Critical Rating.",
+        "releaseDate": "09-03-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic20",
+        "name": "Gamora Battlecast",
+        "relicClass": "COSMIC",
+        "relicType": "Battlecast",
+        "image": "gamora",
+        "innateAbilities": [
+            "Artificially Enhanced Physiology"
+        ],
+        "abilityRunes": [
+            "Master Of 83.4%",
+            "Godslayer Proficiency"
+        ],
+        "attributeRunes": [
+            "Fury & Cruelty Duration Up",
+            "Fury & Cruelty AA Up",
+            "Fury & Cruelty Potency Up"
+        ],
+        "recommendedChampions": [
+            "Drax",
+            "Gamora",
+            "Hyperion",
+            "King Groot",
+            "Ms. Marvel",
+            "Ronan",
+            "Spider-Man (Symbiote)",
+            "Thanos",
+            "Thanos (Deathless)",
+            "Thor"
+        ],
+        "description": "Gamora: Final hit grants a Stoicism Buff, increasing the Ability Accuracy of other Buffs by for 10s.",
+        "releaseDate": "03-05-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic145",
+        "name": "The Cosmic Egg",
+        "relicClass": "COSMIC",
+        "relicType": "Battlecast",
+        "image": "howardtheduck",
+        "innateAbilities": [
+            "RNA Mutation"
+        ],
+        "abilityRunes": [
+            "Toxic Armor Chance"
+        ],
+        "attributeRunes": [
+            "RNA Fury",
+            "RNA Precison",
+            "RNA Power Rate",
+            "RNA Armor Up",
+            "RNA Regeneration",
+            "RNA Perfect Block"
+        ],
+        "recommendedChampions": [
+            "Venom the Duck"
+        ],
+        "description": "Howard the Duck: The first hit activates all of the Symbiote Buffs locked in the RNA Bank, but the RNA Bank can only store 6 Buffs.",
+        "releaseDate": "03-11-2025",
+        "rarity": [
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic65",
+        "name": "Armoured Cosmic Relic of Blocking",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "superiorironman",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Block Proficiency"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Galan"
+        ],
+        "description": "Superior Iron Man: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic66",
+        "name": "Armoured Cosmic Relic of Ferocity",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "superiorironman",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Superior Iron Man: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic67",
+        "name": "Armoured Cosmic Relic of Finesse",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "superiorironman",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Superior Iron Man: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic68",
+        "name": "Armoured Cosmic Relic of Insulation",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "superiorironman",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Terrax"
+        ],
+        "description": "Superior Iron Man: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic69",
+        "name": "Armoured Cosmic Relic of Talent",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "superiorironman",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor",
+            "Special Damage"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Superior Iron Man"
+        ],
+        "description": "Superior Iron Man: Primary Attribute: Armor",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic70",
+        "name": "Piercing Cosmic Relic of Blocking",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "hulkling",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor Penetration",
+            "Block Proficiency"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Hulking: Primary Attribute: Armor Penetration",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic71",
+        "name": "Piercing Cosmic Relic of Ferocity",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "hulkling",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor Penetration",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Cosmic Ghost Rider"
+        ],
+        "description": "Hulking: Primary Attribute: Armor Penetration",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic72",
+        "name": "Piercing Cosmic Relic of Finesse",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "hulkling",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor Penetration",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Adam Warlock",
+            "Hercules",
+            "Imperiosa",
+            "Maestro",
+            "Red Goblin",
+            "Scream",
+            "Thanos (Deathless)",
+            "The Champion"
+        ],
+        "description": "Hulking: Primary Attribute: Armor Penetration",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic73",
+        "name": "Piercing Cosmic Relic of Insulation",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "hulkling",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor Penetration",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Gladiator",
+            "Vision (Aarkus)"
+        ],
+        "description": "Hulking: Primary Attribute: Armor Penetration",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic74",
+        "name": "Piercing Cosmic Relic of Talent",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "hulkling",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Armor Penetration",
+            "Special Damage"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Karolina Dean",
+            "Proxima Midnight",
+            "Scream"
+        ],
+        "description": "Hulking: Primary Attribute: Armor Penetration",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic125",
+        "name": "Shielded Cosmic Relic of Conduction",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "heimdall",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Energy Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Heimdall: Primary Attribute: Block Proficiency",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic126",
+        "name": "Shielded Cosmic Relic of Ferocity",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "heimdall",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Corvus Glaive",
+            "Scream",
+            "Spider-Man (Symbiote)"
+        ],
+        "description": "Heimdall: Primary Attribute: Block Proficiency",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic127",
+        "name": "Shielded Cosmic Relic of Impact",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "heimdall",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Physical Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Cull Obsidian",
+            "Spider-Man (Symbiote)"
+        ],
+        "description": "Heimdall: Primary Attribute: Block Proficiency",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic128",
+        "name": "Shielded Cosmic Relic of Penetration",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "heimdall",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Armor Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Heimdall: Primary Attribute: Block Proficiency",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic129",
+        "name": "Shielded Cosmic Relic of Protection",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "heimdall",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Block Proficiency",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Heimdall: Primary Attribute: Block Proficiency",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic130",
+        "name": "Sturdy Cosmic Relic of Conduction",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "terrax",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Energy Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Dark Phoenix"
+        ],
+        "description": "Terrax: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic131",
+        "name": "Sturdy Cosmic Relic of Ferocity",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "terrax",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Critical Damage Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Terrax: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic132",
+        "name": "Sturdy Cosmic Relic of Impact",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "terrax",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Physical Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Thanos (Deathless)"
+        ],
+        "description": "Terrax: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic133",
+        "name": "Sturdy Cosmic Relic of Penetration",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "terrax",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Armor Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Knull"
+        ],
+        "description": "Terrax: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic134",
+        "name": "Sturdy Cosmic Relic of Protection",
+        "relicClass": "COSMIC",
+        "relicType": "Statcast",
+        "image": "terrax",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Terrax: Primary Attribute: Critical Resistance",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic21",
+        "name": "Vision Battlecast",
+        "relicClass": "TECH",
+        "relicType": "Battlecast",
+        "image": "vision",
+        "innateAbilities": [
+            "Android Avenger"
+        ],
+        "abilityRunes": [
+            "Cauterizing Strikes",
+            "A.I. Tactician"
+        ],
+        "attributeRunes": [
+            "Heal Block Duration",
+            "DOT Potency Up",
+            "Block Proficiency Up"
+        ],
+        "recommendedChampions": [
+            "Civil Warrior",
+            "Darkhawk",
+            "Howard The Duck",
+            "Lady Deathstrike",
+            "Mysterio",
+            "Ultron (Classic)",
+            "Vision",
+            "Vision (Age of Ultron)",
+            "Vision (Deathless)",
+            "Viv Vision",
+            "Yondu"
+        ],
+        "description": "Vision: Inflict a Smother Debuff lasting 12 seconds. Whenever a Smothered Opponent heals while Heal Blocked, deal a burst of Energy Damage.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic22",
+        "name": "Hulkbuster Battlecast",
+        "relicClass": "TECH",
+        "relicType": "Battlecast",
+        "image": "hulkbuster",
+        "innateAbilities": [
+            "High Voltage Upgrades"
+        ],
+        "abilityRunes": [
+            "Shock Repulsors",
+            "Hulk Inhibitor"
+        ],
+        "attributeRunes": [
+            "Shock Potency Up",
+            "Unstoppable Duration Up",
+            "Armor Potency Up"
+        ],
+        "recommendedChampions": [
+            "Guardian",
+            "Hulkbuster",
+            "Nebula",
+            "Red Skull",
+            "Shuri",
+            "Silver Centurion"
+        ],
+        "description": "Hulkbuster: Inflict a Shock Vulnerability Debuff, increasing the potency of Shock Effects for 12 seconds.",
+        "releaseDate": "23-11-2022",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic23",
+        "name": "Sentinel Battlecast",
+        "relicClass": "TECH",
+        "relicType": "Battlecast",
+        "image": "sentinel",
+        "innateAbilities": [
+            "Mutant Hunter Prototype"
+        ],
+        "abilityRunes": [
+            "Experimental ISO Armaments",
+            "We Are Sentinel"
+        ],
+        "attributeRunes": [
+            "Energy Resist Down",
+            "Incinerate Duration Up",
+            "Mutant Protocol"
+        ],
+        "recommendedChampions": [
+            "Arcade",
+            "Hobgoblin",
+            "Ironheart",
+            "Omega Sentinel",
+            "Peni Parker",
+            "Prowler",
+            "Sentinel"
+        ],
+        "description": "Sentinel: The final hit inflicts a Incinerate Vulnerability Passive for 14s.",
+        "releaseDate": "09-03-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic24",
+        "name": "Green Goblin Battlecast",
+        "relicClass": "TECH",
+        "relicType": "Battlecast",
+        "image": "greengoblin",
+        "innateAbilities": [
+            "Arsenal Of Tricks"
+        ],
+        "abilityRunes": [
+            "Joy In One's Work",
+            "Attack The Heart"
+        ],
+        "attributeRunes": [
+            "Special Attack Down",
+            "DOT Potency Up",
+            "Regen Rate Up"
+        ],
+        "recommendedChampions": [
+            "Ant-Man (Future)",
+            "Arnim Zola",
+            "Doctor Octopus",
+            "Green Goblin",
+            "Guillotine 2099",
+            "Iron Man (Infamous)",
+            "Rocket Raccoon",
+            "Solvarch",
+            "Vulture"
+        ],
+        "description": "Green Goblin: Grants a Power Efficiency Passive for 5s, decreasing the cost of Special Attacks.",
+        "releaseDate": "03-05-2023",
+        "rarity": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": "relic75",
+        "name": "Cruel Tech Relic of Finesse",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "prowler",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Hobgoblin",
+            "Iron Patriot",
+            "Ruby Thursday",
+            "Spider-Slayer (J. Jonah Jameson)",
+            "Star-Lord",
+            "Ultron",
+            "Warlock"
+        ],
+        "description": "Prowler: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic76",
+        "name": "Cruel Tech Relic of Insulation",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "prowler",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Prowler: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic77",
+        "name": "Cruel Tech Relic of Protection",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "prowler",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Prowler: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic78",
+        "name": "Cruel Tech Relic of Talent",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "prowler",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Special Damage"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Bastion",
+            "Ghost",
+            "Iron Man",
+            "Punisher 2099",
+            "Spider-Man (Stark Enhanced)"
+        ],
+        "description": "Prowler: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic79",
+        "name": "Cruel Tech Relic of Toughness",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "prowler",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Damage Rating",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Prowler: Primary Attribute: Critical Damage Rating",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic80",
+        "name": "Sturdy Tech Relic of Finesse",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "ironmaninfinitywar",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Critical Rating"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Captain America (Sam Wilson)",
+            "Kang",
+            "Shocker",
+            "War Machine"
+        ],
+        "description": "Iron Man (Infinity War): Primary Attribute: Critical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic81",
+        "name": "Sturdy Tech Relic of Insulation",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "ironmaninfinitywar",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Energy Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Arnim Zola",
+            "Psycho-Man"
+        ],
+        "description": "Iron Man (Infinity War): Primary Attribute: Critical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic82",
+        "name": "Sturdy Tech Relic of Protection",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "ironmaninfinitywar",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Iron Man (Infinity War)"
+        ],
+        "description": "Iron Man (Infinity War): Primary Attribute: Critical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic83",
+        "name": "Sturdy Tech Relic of Talent",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "ironmaninfinitywar",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Special Damage"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Nimrod"
+        ],
+        "description": "Iron Man (Infinity War): Primary Attribute: Critical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic84",
+        "name": "Sturdy Tech Relic of Toughness",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "ironmaninfinitywar",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Critical Resistance",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Arnim Zola"
+        ],
+        "description": "Iron Man (Infinity War): Primary Attribute: Critical Resistance",
+        "releaseDate": "13-08-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic135",
+        "name": "Impactful Tech Relic of Blunting",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "spidermanstarkenhanced",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Spider-Man (Stark Enhanced): Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic136",
+        "name": "Impactful Tech Relic of Conduction",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "spidermanstarkenhanced",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Energy Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Jack O'Lantern",
+            "The Maker"
+        ],
+        "description": "Spider-Man (Stark Enhanced): Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic137",
+        "name": "Impactful Tech Relic of Penetration",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "spidermanstarkenhanced",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Armor Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Spider-Man (Stark Enhanced): Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic138",
+        "name": "Impactful Tech Relic of Protection",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "spidermanstarkenhanced",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Spider-Man (Stark Enhanced): Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic139",
+        "name": "Impactful Tech Relic of Toughness",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "spidermanstarkenhanced",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Physical Penetration",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Spider-Man (Stark Enhanced): Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic140",
+        "name": "Insulated Tech Relic of Blunting",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "redskull",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Critical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Red Skull: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic141",
+        "name": "Insulated Tech Relic of Conduction",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "redskull",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Energy Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Red Skull: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic142",
+        "name": "Insulated Tech Relic of Penetration",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "redskull",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Armor Penetration"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Red Skull: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic143",
+        "name": "Insulated Tech Relic of Protection",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "redskull",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Armor"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [],
+        "description": "Red Skull: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    },
+    {
+        "id": "relic144",
+        "name": "Insulated Tech Relic of Toughness",
+        "relicClass": "TECH",
+        "relicType": "Statcast",
+        "image": "redskull",
+        "innateAbilities": [
+            "Statcast Innate Ability"
+        ],
+        "abilityRunes": [
+            "Energy Resistance",
+            "Physical Resistance"
+        ],
+        "attributeRunes": [],
+        "recommendedChampions": [
+            "Arnim Zola"
+        ],
+        "description": "Red Skull: Primary Attribute: Physical Penetration",
+        "releaseDate": "13-10-2025",
+        "rarity": [
+            5,
+            6,
+            7
+        ]
+    }
+]
