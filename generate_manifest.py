@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 
 ASSETS_DIR = "app/src/main/assets"
 MANIFEST_PATH = os.path.join(ASSETS_DIR, "data_manifest.json")
-TRACKED_TOP_LEVEL_FILES = ["champions_db.json", "roster.json"]
+TRACKED_TOP_LEVEL_FILES = ["champions_db.json", "relics.json"]
 TRACKED_DIRS = ["details", "quests"]
 
 
@@ -33,14 +33,15 @@ def collect_files():
     return sorted(files)
 
 
-def load_previous_version():
+def load_previous_manifest():
     if not os.path.isfile(MANIFEST_PATH):
-        return 0
+        return {"dataVersion": 0, "files": {}}
     try:
         with open(MANIFEST_PATH, "r", encoding="utf-8") as f:
-            return json.load(f).get("dataVersion", 0)
+            data = json.load(f)
+            return {"dataVersion": data.get("dataVersion", 0), "files": data.get("files", {})}
     except (json.JSONDecodeError, OSError):
-        return 0
+        return {"dataVersion": 0, "files": {}}
 
 
 def generate_manifest():
@@ -50,8 +51,12 @@ def generate_manifest():
         for rel_path in relative_paths
     }
 
+    previous = load_previous_manifest()
+    content_changed = file_hashes != previous["files"]
+    new_version = previous["dataVersion"] + 1 if content_changed else previous["dataVersion"]
+
     manifest = {
-        "dataVersion": load_previous_version() + 1,
+        "dataVersion": new_version,
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "files": file_hashes,
     }
@@ -59,7 +64,10 @@ def generate_manifest():
     with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
 
-    print(f"data_manifest.json guncellendi -> dataVersion={manifest['dataVersion']}, {len(file_hashes)} dosya")
+    if content_changed:
+        print(f"data_manifest.json guncellendi -> dataVersion={manifest['dataVersion']}, {len(file_hashes)} dosya")
+    else:
+        print(f"data_manifest.json degismedi (icerik ayni) -> dataVersion={manifest['dataVersion']}, {len(file_hashes)} dosya")
 
 
 if __name__ == "__main__":
