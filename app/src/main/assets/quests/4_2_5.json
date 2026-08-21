@@ -1,0 +1,206 @@
+{
+  "name": "4.2.5 - Dark Presence (Karanlık Varlık)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 15.544. Kaynaklar: MCOC Fandom Wiki (RTR/boss) + Frontline: MCOC blog rehberi (frontlinemcoc.home.blog, 21 Mart 2021) - yol/rakip verisi wiki'de eksik olduğu için bu ikinci kaynaktan alındı.",
+    "Global Karo: Gambler's Fate (Kumarbazın Kaderi) - Rastgele bir mekanik; ne olacağını önceden bilemezsin. Rastgele debuff'lardan iyileşebilmek için İrade Gücü (Willpower) mastery'sini aktif tutmak önerilir. Çok zorlayıcı bir karo değil ama öngörülemez.",
+    "Bu quest 7 ayrı şerit (lane) sunuyor; hepsinin Gate (sınıf kapısı) durumu 'None' yani hiçbiri sınıf kısıtlaması içermiyor. Şeritler haritada Far Left / Left-Left-Right / Center Left / Center / Center Right / Right-Right-Left / Far Right şeklinde diziliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Şerit 1 - Far Left, En Sol), Gate: Yok:",
+        "• Sıra: Rocket Raccoon → Captain Marvel (Classic) → Elektra → Hawkeye → Spider-Man (Classic) → Juggernaut → Star-Lord → Unstoppable Colossus → Daredevil (Classic) → War Machine → Captain America → Magik → Iron Man → Captain America.",
+        "• Karolar: Stun, +%25 Saldırı & Can (Captain America, Magik, Iron Man düğümlerinde), +%50 Saldırı & Can, +%100 Saldırı, +%100 Can, Stun, +%25 Saldırı & Can (Captain America düğümünde).",
+        "• İpucu: Bu şeritteki gizli Spider-Man 'duplike' (sig seviyesi yükseltilmiş, daha güçlü)."
+      ],
+      "defenders": [
+        "rocketraccoon",
+        "captainmarvel",
+        "elektra",
+        "hawkeye",
+        "spiderman",
+        "juggernaut",
+        "starlord",
+        "unstoppablecolossus",
+        "daredevil",
+        "warmachine",
+        "captainamerica",
+        "magik",
+        "ironman",
+        "captainamerica"
+      ],
+      "leadsToBoss": "scarletwitch"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol B (Şerit 2 - Left Twice then Right), Gate: Yok:",
+        "• Sıra: Rocket Raccoon → Captain Marvel (Classic) → Elektra → Ronan → Star-Lord → Rocket Raccoon → Star-Lord → Unstoppable Colossus → Daredevil (Classic) → War Machine → Captain America → Magik → Iron Man → Captain America.",
+        "• Karolar: Stun, +%25 Saldırı & Can (Captain America, Magik, Iron Man düğümlerinde), +%50 Saldırı & Can, +%100 Saldırı, +%100 Can, Stun, +%25 Saldırı & Can (Captain America düğümünde).",
+        "• İpucu: Oldukça düz bir şerit, gizli dövüşlerin hiçbiri zorlayıcı değil - en kolay şerit olarak önerilir."
+      ],
+      "defenders": [
+        "rocketraccoon",
+        "captainmarvel",
+        "elektra",
+        "ronan",
+        "starlord",
+        "rocketraccoon",
+        "starlord",
+        "unstoppablecolossus",
+        "daredevil",
+        "warmachine",
+        "captainamerica",
+        "magik",
+        "ironman",
+        "captainamerica"
+      ],
+      "leadsToBoss": "scarletwitch"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Şerit 3 - Center Left), Gate: Yok:",
+        "• Sıra: Rocket Raccoon → Star-Lord → Black Panther → Hulk → Black Bolt → Ronan → Unstoppable Colossus → Black Bolt → Black Panther → Captain America → Magik → Hulk → Captain America.",
+        "• Karolar: +%100 Can, +%100 Saldırı, +%100 Can (Captain America düğümünde).",
+        "• İpucu: Bu şeritte dikkat edilmesi gereken özel bir durum yok."
+      ],
+      "defenders": [
+        "rocketraccoon",
+        "starlord",
+        "blackpanther",
+        "hulk",
+        "blackbolt",
+        "ronan",
+        "unstoppablecolossus",
+        "blackbolt",
+        "blackpanther",
+        "captainamerica",
+        "magik",
+        "hulk",
+        "captainamerica"
+      ],
+      "leadsToBoss": "scarletwitch"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Şerit 4 - Center, Orta), Gate: Yok:",
+        "• Sıra: Rocket Raccoon → Star-Lord → Black Panther → Hulk → Magik → Storm → Black Panther → Captain America → Magik → Hulk → Captain America.",
+        "• Karolar: +%100 Can, +%100 Saldırı, +%100 Can (Captain America düğümünde).",
+        "• İpucu: Bu şeritte dikkat edilmesi gereken özel bir durum yok."
+      ],
+      "defenders": [
+        "rocketraccoon",
+        "starlord",
+        "blackpanther",
+        "hulk",
+        "magik",
+        "storm",
+        "blackpanther",
+        "captainamerica",
+        "magik",
+        "hulk",
+        "captainamerica"
+      ],
+      "leadsToBoss": "scarletwitch"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Şerit 5 - Center Right), Gate: Yok:",
+        "• Sıra: Iron Man → Wolverine → Black Panther → Hulk → Magneto → Scarlet Witch (Classic) → Vision (OG) → Black Panther → Daredevil (Classic) → Scarlet Witch (Classic) → Hulk → Captain America.",
+        "• Karolar: +%100 Can, +%100 Saldırı, +%100 Saldırı (Captain America düğümünde).",
+        "• İpucu: Bu şeritte dikkat edilmesi gereken özel bir durum yok."
+      ],
+      "defenders": [
+        "ironman",
+        "wolverine",
+        "blackpanther",
+        "hulk",
+        "magneto",
+        "scarletwitch",
+        "vision",
+        "blackpanther",
+        "daredevil",
+        "scarletwitch",
+        "hulk",
+        "captainamerica"
+      ],
+      "leadsToBoss": "scarletwitch"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol F (Şerit 6 - Right Twice Then Left), Gate: Yok:",
+        "• Sıra: Iron Man → Hawkeye → Rocket Raccoon → Star-Lord → Magneto → Captain Marvel (Classic) → Spider-Man (Classic) → Black Bolt → Elektra → Juggernaut → Daredevil (Classic) → Scarlet Witch (Classic) → Vision (OG) → Captain America.",
+        "• Karolar: Stun, +%50 Saldırı & Can (Daredevil, Scarlet Witch, Vision düğümlerinde), +%100 Can, +%100 Saldırı, +%50 Saldırı & Can, Stun, +%50 Saldırı & Can (Captain America düğümünde).",
+        "• İpucu: Gizli bir Magneto ve duplike bir Spider-Man var. Juggernaut da duplike - Durdurulamaz (Unstoppable) etkisine karşı Yavaşlatma (Slow) veya Güç Emme (Power Drain) yetenekli bir şampiyon işe yarayabilir."
+      ],
+      "defenders": [
+        "ironman",
+        "hawkeye",
+        "rocketraccoon",
+        "starlord",
+        "magneto",
+        "captainmarvel",
+        "spiderman",
+        "blackbolt",
+        "elektra",
+        "juggernaut",
+        "daredevil",
+        "scarletwitch",
+        "vision",
+        "captainamerica"
+      ],
+      "leadsToBoss": "scarletwitch"
+    },
+    {
+      "pathLetter": "G",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol G (Şerit 7 - Far Right, En Sağ), Gate: Yok:",
+        "• Sıra: Iron Man → Hawkeye → Rocket Raccoon → Star-Lord → Unstoppable Colossus → Ronan → Iron Patriot → Deadpool → Black Bolt → Elektra → Juggernaut → Daredevil (Classic) → Scarlet Witch (Classic) → Vision (OG) → Captain America.",
+        "• Karolar: Stun, +%50 Saldırı & Can (Daredevil, Scarlet Witch, Vision düğümlerinde), +%100 Can, +%100 Saldırı, +%50 Saldırı & Can, Stun, +%50 Saldırı & Can (Captain America düğümünde).",
+        "• İpucu: Gizli, duplike bir Unstoppable Colossus var."
+      ],
+      "defenders": [
+        "ironman",
+        "hawkeye",
+        "rocketraccoon",
+        "starlord",
+        "unstoppablecolossus",
+        "ronan",
+        "ironpatriot",
+        "deadpool",
+        "blackbolt",
+        "elektra",
+        "juggernaut",
+        "daredevil",
+        "scarletwitch",
+        "vision",
+        "captainamerica"
+      ],
+      "leadsToBoss": "scarletwitch"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "scarletwitch",
+      "bossNodes": [
+        "Resonance Cascade, Shatter, Critical, Health - Frontline: MCOC rehberine göre bu dövüşte etkili olan karo/mekanik etiketleri (tam açıklamaları kaynakta detaylandırılmamış).",
+        "Strateji (kaynak önerisi): Ağır vuruşlu (heavy-hitter) bir şampiyonla hızlı bitirmek veya Zehir (Poison) bağışıklığı olan bir şampiyon tercih edilmeli; Thing, Nullify bağışıklığı sayesinde iyi bir alternatif olarak önerilmiş."
+      ],
+      "idealCounters": [
+        "thing"
+      ]
+    }
+  ]
+}

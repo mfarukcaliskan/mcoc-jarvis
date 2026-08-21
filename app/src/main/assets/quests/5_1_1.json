@@ -1,0 +1,27 @@
+{
+  "name": "5.1.1 - Fair Play (Adil Oyun)",
+  "globalNodes": [
+    "Boss: Kang the Conqueror (12.980 prestij). Yapi: 4 yol, yol basina 7-13 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 4 yol, yol basina 7-13 rakip. Quest, Kang the Conqueror boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "kang"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "kang",
+      "bossNodes": [
+        "12.980 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "4.1.3 - Incognito (Gizli)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 13.022. Kaynak: MCOC Fandom Wiki. Bu quest 2 ana yol sunuyor; Alt Yol kendi içinde alt-dallanmalara ve sınıf kapılarına ayrılıyor. Hikaye: Battleworld rakiplerin bilgilerini gizlemeye başlıyor, Koleksiyoncu yakında bir 'ittifak' seçimi yapman gerekeceğini ima ediyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Ms. Marvel → Hulk → Daredevil → Elektra → Captain Marvel → Star-Lord → [Rocket Raccoon / War Machine (hesaba göre değişen alternatif)] → Superior Iron Man (boss)."
+      ],
+      "defenders": [
+        "msmarvel",
+        "hulk",
+        "daredevil",
+        "elektra",
+        "captainmarvelmcu",
+        "starlord",
+        "rocketraccoon",
+        "warmachine"
+      ],
+      "leadsToBoss": "superiorironman"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch, alt-dallanmalı):",
+        "• Giriş: Black Bolt.",
+        "• Alt-Üst: Captain Marvel → Drax → Scarlet Witch (Classic).",
+        "• Alt-Alt: War Machine → [No gate: Spider-Man (Classic), Gamora / Cosmic gate: Black Panther, Captain Marvel, Daredevil].",
+        "• Ara: [Captain America / Hulk (alternatif)].",
+        "• Sol-sub: Hawkeye → [Rocket Raccoon / War Machine (alternatif)].",
+        "• Sağ-sub: Punisher → Ronan.",
+        "• Çıkış: Superior Iron Man (boss)."
+      ],
+      "defenders": [
+        "blackbolt",
+        "captainmarvelmcu",
+        "drax",
+        "scarletwitch",
+        "warmachine",
+        "spiderman",
+        "gamora",
+        "blackpanther",
+        "daredevil",
+        "captainamerica",
+        "hulk",
+        "hawkeye",
+        "rocketraccoon",
+        "punisher",
+        "ronan"
+      ],
+      "leadsToBoss": "superiorironman"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "superiorironman",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 13.022 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

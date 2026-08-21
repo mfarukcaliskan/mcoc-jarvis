@@ -1,0 +1,27 @@
+{
+  "name": "5.3.3 - Dire Warning (Ciddi Uyari)",
+  "globalNodes": [
+    "Boss: Rogue (19.360 prestij). Yapi: 5 yol, yol basina 6-14 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 5 yol, yol basina 6-14 rakip. Quest, Rogue boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "rogue"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "rogue",
+      "bossNodes": [
+        "19.360 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

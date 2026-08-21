@@ -1,0 +1,85 @@
+{
+  "name": "3.2.3 - The Rocket (Roket)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 6.000. Kaynak: MCOC Fandom Wiki. Bu quest 4 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Path 1):",
+        "• Sıra: Dormammu → Sorcerer Supreme → Ultron (Classic) → Bishop → Phoenix → Masacre → Elsa Bloodstone (boss)."
+      ],
+      "defenders": [
+        "dormammu",
+        "sorcerersupreme",
+        "ultronclassic",
+        "bishop",
+        "phoenix",
+        "masacre"
+      ],
+      "leadsToBoss": "elsabloodstone"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Path 2):",
+        "• Sıra: Mister Negative → Cable → Green Goblin → Ebony Maw → Black Widow (Deadly Origin) → Guillotine → Elsa Bloodstone (boss)."
+      ],
+      "defenders": [
+        "misternegative",
+        "cable",
+        "greengoblin",
+        "ebonymaw",
+        "bwdo",
+        "guillotine"
+      ],
+      "leadsToBoss": "elsabloodstone"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Path 3):",
+        "• Sıra: Venom the Duck → Vulture → The Hood → Gwenpool → Omega Red → Silver Surfer → Elsa Bloodstone (boss)."
+      ],
+      "defenders": [
+        "venomtheduck",
+        "vulture",
+        "thehood",
+        "gwenpool",
+        "omegared",
+        "silversurfer"
+      ],
+      "leadsToBoss": "elsabloodstone"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Path 4):",
+        "• Sıra: Apocalypse → Spider-Man (Stark Enhanced) → Captain Marvel → Agent Venom → Dragon Man → Iceman → Elsa Bloodstone (boss)."
+      ],
+      "defenders": [
+        "apocalypse",
+        "spidermanstarkenhanced",
+        "captainmarvelmcu",
+        "agentvenom",
+        "dragonman",
+        "iceman"
+      ],
+      "leadsToBoss": "elsabloodstone"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "elsabloodstone",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 6.000 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

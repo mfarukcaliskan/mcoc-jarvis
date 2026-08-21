@@ -1,0 +1,47 @@
+{
+  "name": "1.1.4 - Sneak Attack (Ani Baskın)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 450. Kaynak: MCOC Fandom Wiki. Bu quest ilk kez 2 ayrı yol (upper/lower branch) sunuyor; wiki kaynağında iki yol arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Gamora → Sentry → Daredevil (Classic) → Star-Lord → Iron Fist (boss). Koleksiyoncu, yol ayrımının artık daha büyük ödül ama daha büyük zorluk getirdiğini belirtir."
+      ],
+      "defenders": [
+        "gamora",
+        "sentry",
+        "daredevil",
+        "starlord"
+      ],
+      "leadsToBoss": "ironfist"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch):",
+        "• Sıra: Cyclops (New Xavier School) → Spider-Man (Classic) → Rocket Raccoon → Elektra → Iron Fist (boss). Kang, bu yolda Immortal Iron Fist Danny Rand'ı ISO-Spell ile Summoner'a karşı kullanır."
+      ],
+      "defenders": [
+        "cyclops",
+        "spiderman",
+        "rocketraccoon",
+        "elektra"
+      ],
+      "leadsToBoss": "ironfist"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "ironfist",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 450 seviyesinde standart bir erken oyun karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

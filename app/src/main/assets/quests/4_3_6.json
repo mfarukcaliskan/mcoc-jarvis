@@ -1,0 +1,27 @@
+{
+  "name": "4.3.6 - Stand Resolute (Kararli Durus)",
+  "globalNodes": [
+    "Onerilen Takim Gucu (Recommended Team Rating): 18.578. Boss: Venom (14.700 prestij). Kaynak: MCOC Fandom Wiki. Bu quest'in kendi sayfasinda 'Battles' bolumu bos ('To be added') - path/ara-dusman detayi wiki'de belgelenmemis. Asagidaki bilgiler (boss, RTR, yol sayisi) sayfanin infobox/aciklama kismindan dogrulanmis gercek veridir; path'lerdeki ara-dusman siralamasi bilinmedigi icin uydurulmamistir.",
+    "Bolum anlatisi: Maestro geri dondu ve Collector'in yoklugunda neler yaptigiyla yakindan ilgileniyor. Black Widow, Maestro'nun ISO-8'i bir tur silaha donusturdugunu ortaya cikarir. Collector'in arkasindan is cevirmesinden hic hosnut degil."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol detayi kaynakta belirtilmemis - bu quest'in wiki sayfasinda 'Battles' bolumu bos. Bilinen tek bilgi: quest Venom boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "venom"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "venom",
+      "bossNodes": [
+        "RTR 18.578, 14.700 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

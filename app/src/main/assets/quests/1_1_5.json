@@ -1,0 +1,49 @@
+{
+  "name": "1.1.5 - Pathways (Yol Ayrımları)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 600. Kaynak: MCOC Fandom Wiki. 2 yol (upper/lower branch), her yolda 6 rakip; wiki kaynağında iki yol arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Sorcerer Supreme → Psylocke → Iron Patriot → Vision → Doctor Voodoo → Loki (boss). Kang'ın giderek artan öfkesiyle Koleksiyoncu'dan yeni şampiyonlar talep ettiği bölümdür."
+      ],
+      "defenders": [
+        "sorcerersupreme",
+        "psylocke",
+        "ironpatriot",
+        "vision",
+        "doctorvoodoo"
+      ],
+      "leadsToBoss": "loki"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch):",
+        "• Sıra: Deadpool (X-Force) → Night Thrasher → Blade → Carnage → Cyclops (Blue Team) → Loki (boss). Bu yolda da aynı şekilde Kang'ın kontrolündeki şampiyonlarla mücadele edilir, sonunda Loki bossu bekler."
+      ],
+      "defenders": [
+        "deadpoolxforce",
+        "nightthrasher",
+        "blade",
+        "carnage",
+        "cyclopsblueteam"
+      ],
+      "leadsToBoss": "loki"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "loki",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 600 seviyesinde standart bir erken oyun karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

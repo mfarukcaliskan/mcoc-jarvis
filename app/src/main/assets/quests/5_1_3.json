@@ -1,0 +1,27 @@
+{
+  "name": "5.1.3 - Back and Forth (Karsilikli)",
+  "globalNodes": [
+    "Boss: Iron Patriot (14.499 prestij). Yapi: 4 yol, yol basina 9-12 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 4 yol, yol basina 9-12 rakip. Quest, Iron Patriot boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "ironpatriot"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "ironpatriot",
+      "bossNodes": [
+        "14.499 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

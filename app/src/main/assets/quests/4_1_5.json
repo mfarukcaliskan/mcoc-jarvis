@@ -1,0 +1,77 @@
+{
+  "name": "4.1.5 - Dark Times (Karanlık Zamanlar)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 14.079. Kaynak: MCOC Fandom Wiki. Bu quest 2 ana yol sunuyor, ikisi de kendi içinde alt-dallanmalara ve sınıf kapılarına ayrılıyor. Hikaye: Koleksiyoncu, Maestro'nun yokluğunun çok multiverse çapında bir tehlikeye işaret edebileceğinden endişe ediyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch, alt-dallanmalı):",
+        "• Giriş: War Machine.",
+        "• Alt-Üst: Wolverine → Daredevil → Star-Lord → Hawkeye → Elektra → Ronan → AMBUSH (bonus düğüm): Adaptoid → Rocket Raccoon → Iron Man.",
+        "• Alt-Alt: Rhino → Hawkeye → Black Bolt → Daredevil → Vision → Magneto.",
+        "• Çıkış: Punisher → Iron Patriot (tüm yollar birleştikten sonra ortak) → Hulkbuster (boss)."
+      ],
+      "defenders": [
+        "warmachine",
+        "wolverine",
+        "daredevil",
+        "starlord",
+        "hawkeye",
+        "elektra",
+        "ronan",
+        "adaptoid",
+        "rocketraccoon",
+        "ironman",
+        "rhino",
+        "blackbolt",
+        "vision",
+        "magneto",
+        "punisher",
+        "ironpatriot"
+      ],
+      "leadsToBoss": "hulkbuster"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch, alt-dallanmalı):",
+        "• Giriş: Hawkeye.",
+        "• Alt-Üst: Rocket Raccoon → Star-Lord → Ronan → Unstoppable Colossus.",
+        "• Alt-Alt: Black Bolt → Elektra → [No gate: War Machine, Captain America / Tech gate: Juggernaut, Magik, Daredevil, Scarlet Witch (Classic), Vision].",
+        "• Çıkış: Punisher → Iron Patriot (tüm yollar birleştikten sonra ortak) → Hulkbuster (boss)."
+      ],
+      "defenders": [
+        "hawkeye",
+        "rocketraccoon",
+        "starlord",
+        "ronan",
+        "unstoppablecolossus",
+        "blackbolt",
+        "elektra",
+        "warmachine",
+        "captainamerica",
+        "juggernaut",
+        "magik",
+        "daredevil",
+        "scarletwitch",
+        "vision",
+        "punisher",
+        "ironpatriot"
+      ],
+      "leadsToBoss": "hulkbuster"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "hulkbuster",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 14.079 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

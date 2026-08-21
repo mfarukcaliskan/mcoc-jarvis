@@ -1,0 +1,66 @@
+{
+  "name": "4.2.1 - Linked Might (Bağlı Güç)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 13.567. Kaynak: MCOC Fandom Wiki. Bu quest 'bağlı düğümler' (linked nodes) mekaniğini tanıtıyor: aynı segment içindeki düğümler birbirine bağlı çalışıyor. Hikaye: Iron Man, Summoner'a Battleworld'ün yeni bir parçası olan bağlı düğümleri tanıtıyor. NOT: Wiki kaynağında 'İkinci segment - Orta Yol' ve 'İkinci segment - Alt Yol'daki bazı rakipler '?' olarak işaretlenmiş, yani kaynağın kendisinde bu düğümler için isim bilgisi eksik/açıklanmamış - fabrikasyon yapılmadı, bu düğümler defenders listesine dahil edilmedi."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Birinci Segment):",
+        "• Üst Yol: [Science gate: Abomination]. Alt Yol: Thor. → Ronin (ortak).",
+        "Not: İkinci ve üçüncü segmentteki tüm dallar bu quest'in devamı; aşağıdaki B ve C yolları o segmentleri temsil ediyor."
+      ],
+      "defenders": [
+        "abomination",
+        "thor",
+        "ronin"
+      ],
+      "leadsToBoss": "symbioid"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (İkinci Segment - Üst Yol):",
+        "• Sıra: Gamora → Unstoppable Colossus → Juggernaut → Captain Marvel (Classic) → Punisher.",
+        "Not: Aynı segmentin Orta Yolu ('?','?','?') ve Alt Yolu ('?','?','?','?' + Iron Fist) wiki kaynağında isimsiz bırakılmış, dahil edilmedi."
+      ],
+      "defenders": [
+        "gamora",
+        "unstoppablecolossus",
+        "juggernaut",
+        "captainmarvel",
+        "punisher",
+        "ironfist"
+      ],
+      "leadsToBoss": "symbioid"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Üçüncü Segment):",
+        "• Üst Yol: Captain America → Cyclops (New Xavier School). Alt Yol: Hawkeye → Ronin.",
+        "• Çıkış: Cosmic Symbioid (boss, resmi listede 'Symbioid' olarak geçiyor)."
+      ],
+      "defenders": [
+        "captainamerica",
+        "cyclops",
+        "hawkeye",
+        "ronin"
+      ],
+      "leadsToBoss": "symbioid"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "symbioid",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; battle listesinde 'Cosmic Symbioid' olarak geçiyor. Önerilen Takım Gücü 13.567 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

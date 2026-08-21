@@ -1,0 +1,68 @@
+{
+  "name": "3.1.3 - Power Source (Güç Kaynağı)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 2.475. Kaynak: MCOC Fandom Wiki. Bu quest 3 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Hikaye: Thanos, Battlerealm'in gerçek gücünün ISO-Sphere değil, her yerdeki ISO-8 olduğunu fark eder."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Sol Yol - Left Branch):",
+        "• Sıra: Jubilee → Mister Fantastic → Storm (Pyramid X) → Spider-Man (Stealth Suit) → Dragon Man → Purgatory → She-Hulk (boss)."
+      ],
+      "defenders": [
+        "jubilee",
+        "misterfantastic",
+        "stormpyramidx",
+        "spidermanstealthsuit",
+        "dragonman",
+        "purgatory"
+      ],
+      "leadsToBoss": "shehulk"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Orta Yol - Middle Branch):",
+        "• Sıra: Doctor Voodoo → Shang-Chi → Silver Centurion → Apocalypse → Red Guardian → Guardian → She-Hulk (boss)."
+      ],
+      "defenders": [
+        "doctorvoodoo",
+        "shangchi",
+        "silvercenturion",
+        "apocalypse",
+        "redguardian",
+        "guardian"
+      ],
+      "leadsToBoss": "shehulk"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Sağ Yol - Right Branch):",
+        "• Sıra: Joe Fixit → Luke Cage → Doctor Strange → Spider-Gwen → Howard The Duck → Green Goblin → She-Hulk (boss)."
+      ],
+      "defenders": [
+        "joefixit",
+        "lukecage",
+        "doctorstrange",
+        "spidergwen",
+        "howardtheduck",
+        "greengoblin"
+      ],
+      "leadsToBoss": "shehulk"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "shehulk",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 2.475 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

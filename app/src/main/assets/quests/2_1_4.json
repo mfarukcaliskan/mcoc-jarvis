@@ -1,0 +1,68 @@
+{
+  "name": "2.1.4 - Adaptation (Adaptasyon)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 1.350. Kaynak: MCOC Fandom Wiki. Bu quest 3 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Hikaye: Thanos, Kang'a karşı Summoner'a ittifak teklif eder. Bu quest, Super Adaptoid'lerin diğer şampiyonların gücünü kopyalayabildiği ilk bölümdür (Trivia: 3-Star rakiplerin boss dışında ilk kez göründüğü quest)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Sol Yol - Left Branch):",
+        "• Sıra: Jubilee → Silver Centurion → Green Goblin → Cosmic Ghost Rider → Masacre → Red Goblin → Phoenix (boss)."
+      ],
+      "defenders": [
+        "jubilee",
+        "silvercenturion",
+        "greengoblin",
+        "cosmicghostrider",
+        "masacre",
+        "redgoblin"
+      ],
+      "leadsToBoss": "phoenix"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Sağ Üst Yol - Upper-right Branch):",
+        "• Sıra: Super Skrull → Apocalypse → Winter Soldier → Blade → Colossus → Dragon Man → Phoenix (boss)."
+      ],
+      "defenders": [
+        "superskrull",
+        "apocalypse",
+        "wintersoldier",
+        "blade",
+        "colossus",
+        "dragonman"
+      ],
+      "leadsToBoss": "phoenix"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Sağ Alt Yol - Lower-right Branch):",
+        "• Sıra: Night Thrasher → Agent Venom → Red Hulk → Vulture → Gwenpool → Sunspot → Phoenix (boss)."
+      ],
+      "defenders": [
+        "nightthrasher",
+        "agentvenom",
+        "redhulk",
+        "vulture",
+        "gwenpool",
+        "sunspot"
+      ],
+      "leadsToBoss": "phoenix"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "phoenix",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 1.350 seviyesinde standart bir Act 2 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

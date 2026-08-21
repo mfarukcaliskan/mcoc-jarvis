@@ -1,0 +1,30 @@
+{
+  "name": "1.1.1 - Surrender (Teslim Ol)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 150. Kaynak: MCOC Fandom Wiki. Bu bölüm için wiki kaynağında özel bir global karo/mekanik belirtilmemiştir; erken Act 1 içeriğinde bu normaldir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Tek Yol - Kang'ın Şampiyonları):",
+        "• Sıra: Iron Man → Doctor Strange → Doctor Octopus (boss). Kang the Conqueror, Koleksiyoncu'nun (Collector) çemberinde Iron Man ve Doctor Strange'i ISO-Sphere'in etkisiyle Summoner'a karşı savaştırır; bölüm sonunda Doctor Octopus bossu bekler."
+      ],
+      "defenders": [
+        "ironman",
+        "doctorstrange"
+      ],
+      "leadsToBoss": "doctoroctopus"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "doctoroctopus",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 150 seviyesinde standart bir erken oyun karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

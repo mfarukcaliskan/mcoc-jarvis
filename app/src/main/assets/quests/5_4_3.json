@@ -1,0 +1,27 @@
+{
+  "name": "5.4.3 - Calculations (Hesaplamalar)",
+  "globalNodes": [
+    "Boss: Hela (26.529 prestij). Yapi: 6 yol, yol basina 10-13 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 6 yol, yol basina 10-13 rakip. Quest, Hela boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "hela"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "hela",
+      "bossNodes": [
+        "26.529 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

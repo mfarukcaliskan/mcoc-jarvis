@@ -1,0 +1,27 @@
+{
+  "name": "5.4.6 - Fight the Power (Guce Karsi Savas)",
+  "globalNodes": [
+    "Boss: Ultron (Classic) (40.050 prestij). Yapi: 8 yol, yol basina 8-12 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 8 yol, yol basina 8-12 rakip. Quest, Ultron (Classic) boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "ultronclassic"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "ultronclassic",
+      "bossNodes": [
+        "40.050 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

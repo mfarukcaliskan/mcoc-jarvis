@@ -1,0 +1,51 @@
+{
+  "name": "2.1.2 - The Mad Titan (Çılgın Titan)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 900. Kaynak: MCOC Fandom Wiki. Bu quest 2 yol sunuyor; wiki kaynağında iki yol arasında bir zorluk farkı belirtilmemiştir. Hikaye: Kang, Thanos'u Summoner'a karşı kullanmaya çalışır ama Thanos ISO-Spell'e bağışıklıdır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Rocket Raccoon → Gwenpool → Deadpool (X-Force) → Elektra → Ghost Rider → Beast → Black Panther (boss)."
+      ],
+      "defenders": [
+        "rocketraccoon",
+        "gwenpool",
+        "deadpoolxforce",
+        "elektra",
+        "ghostrider",
+        "beast"
+      ],
+      "leadsToBoss": "blackpanther"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch):",
+        "• Sıra: Captain America (WWII) → Drax → Punisher → Venom the Duck → Guillotine → Falcon → Black Panther (boss)."
+      ],
+      "defenders": [
+        "captainamericawwii",
+        "drax",
+        "punisher",
+        "venomtheduck",
+        "guillotine",
+        "falcon"
+      ],
+      "leadsToBoss": "blackpanther"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "blackpanther",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 900 seviyesinde standart bir Act 2 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

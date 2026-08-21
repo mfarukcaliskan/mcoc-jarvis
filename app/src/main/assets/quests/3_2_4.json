@@ -1,0 +1,102 @@
+{
+  "name": "3.2.4 - The Creator (Yaratıcı)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 6.400. Kaynak: MCOC Fandom Wiki. Bu quest 5 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Hikaye: Thanos, Maestro ile bir bahse girer - kaybederse tüm ISO-8'ini verip Contest'ten çekilecektir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Path 1):",
+        "• Sıra: Professor X → Doctor Octopus → Venom → Ant-Man → Symbiote Supreme → Stryfe → Ebony Maw (boss)."
+      ],
+      "defenders": [
+        "professorx",
+        "doctoroctopus",
+        "venom",
+        "antman",
+        "symbiotesupreme",
+        "stryfe"
+      ],
+      "leadsToBoss": "ebonymaw"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Path 2):",
+        "• Sıra: Quake → Nebula → The Hood → Vulture → Rogue → Ghost Rider → Ebony Maw (boss)."
+      ],
+      "defenders": [
+        "quake",
+        "nebula",
+        "thehood",
+        "vulture",
+        "rogue",
+        "ghostrider"
+      ],
+      "leadsToBoss": "ebonymaw"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Path 3):",
+        "• Sıra: Diablo → Silver Surfer → Magik → Howard The Duck → Captain America (Infinity War) → Green Goblin → Ebony Maw (boss)."
+      ],
+      "defenders": [
+        "diablo",
+        "silversurfer",
+        "magik",
+        "howardtheduck",
+        "captainamericaiw",
+        "greengoblin"
+      ],
+      "leadsToBoss": "ebonymaw"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Path 4):",
+        "• Sıra: Invisible Woman → Sorcerer Supreme → Vision → Star-Lord → Doctor Voodoo → Super Skrull → Ebony Maw (boss)."
+      ],
+      "defenders": [
+        "invisiblewoman",
+        "sorcerersupreme",
+        "vision",
+        "starlord",
+        "doctorvoodoo",
+        "superskrull"
+      ],
+      "leadsToBoss": "ebonymaw"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Path 5):",
+        "• Sıra: Dormammu → Omega Red → Silver Centurion → Purgatory → Ghost → Punisher 2099 → Ebony Maw (boss)."
+      ],
+      "defenders": [
+        "dormammu",
+        "omegared",
+        "silvercenturion",
+        "purgatory",
+        "ghost",
+        "punisher2099"
+      ],
+      "leadsToBoss": "ebonymaw"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "ebonymaw",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 6.400 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

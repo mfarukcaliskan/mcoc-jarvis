@@ -1,0 +1,32 @@
+{
+  "name": "1.1.3 - Pursuit (Kovalamaca)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 375. Kaynak: MCOC Fandom Wiki. Bu bölüm için wiki kaynağında özel bir global karo/mekanik belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Tek Yol - Angela'nın Gelişi):",
+        "• Sıra: Rocket Raccoon → Iron Man → Rhino → Colossus → Angela (boss). Kang, Koleksiyoncu'dan daha güçlü bir şampiyon ister ve karşılığında Asgardlı savaşçı Angela'yı ISO-Spell ile kontrolü altına alır."
+      ],
+      "defenders": [
+        "rocketraccoon",
+        "ironman",
+        "rhino",
+        "colossus"
+      ],
+      "leadsToBoss": "angela"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "angela",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 375 seviyesinde standart bir erken oyun karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

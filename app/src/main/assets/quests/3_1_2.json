@@ -1,0 +1,68 @@
+{
+  "name": "3.1.2 - Introduction (Tanıtım)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 2.250. Kaynak: MCOC Fandom Wiki. Bu quest 3 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Hikaye: Thanos, Kara Düzen'i (Black Order) Summoner'a karşı rakip olarak sunar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Sol Yol - Left Branch):",
+        "• Sıra: Electro → Groot → Night Thrasher → Sentry → Hit-Monkey → Scarlet Witch (Classic) → Cull Obsidian (boss)."
+      ],
+      "defenders": [
+        "electro",
+        "groot",
+        "nightthrasher",
+        "sentry",
+        "hitmonkey",
+        "scarletwitch"
+      ],
+      "leadsToBoss": "cullobsidian"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Orta Yol - Middle Branch):",
+        "• Sıra: Captain America (Infinity War) → Falcon → The Hood → Carnage → Black Widow (Deadly Origin) → Old Man Logan → Cull Obsidian (boss)."
+      ],
+      "defenders": [
+        "captainamericaiw",
+        "falcon",
+        "thehood",
+        "carnage",
+        "bwdo",
+        "oldmanlogan"
+      ],
+      "leadsToBoss": "cullobsidian"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Sağ Yol - Right Branch):",
+        "• Sıra: Wolverine (X-23) → Black Bolt → Magneto → Elsa Bloodstone → Psylocke → Black Widow → Cull Obsidian (boss)."
+      ],
+      "defenders": [
+        "wolverinex23",
+        "blackbolt",
+        "magneto",
+        "elsabloodstone",
+        "psylocke",
+        "blackwidow"
+      ],
+      "leadsToBoss": "cullobsidian"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "cullobsidian",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 2.250 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

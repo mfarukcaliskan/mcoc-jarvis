@@ -1,0 +1,27 @@
+{
+  "name": "4.4.1 - Allegiances (Baglliklar)",
+  "globalNodes": [
+    "Onerilen Takim Gucu (Recommended Team Rating): 18.466. Boss: Storm (12.570 prestij). Kaynak: MCOC Fandom Wiki. Bu quest'in kendi sayfasinda 'Battles' bolumu bos ('To be added') - path/ara-dusman detayi wiki'de belgelenmemis. Asagidaki bilgiler (boss, RTR, yol sayisi) sayfanin infobox/aciklama kismindan dogrulanmis gercek veridir; path'lerdeki ara-dusman siralamasi bilinmedigi icin uydurulmamistir.",
+    "Bolum anlatisi: Sen ve Collector, Maestro'yu zamaninda durdurabilecek misiniz?"
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol detayi kaynakta belirtilmemis - bu quest'in wiki sayfasinda 'Battles' bolumu bos. Bilinen tek bilgi: quest Storm boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "storm"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "storm",
+      "bossNodes": [
+        "RTR 18.466, 12.570 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

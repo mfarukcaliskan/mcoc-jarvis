@@ -1,0 +1,76 @@
+{
+  "name": "4.2.2 - The Guillotine Drops (Giyotin Düşüyor)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 14.066. Kaynak: MCOC Fandom Wiki. Bu quest çok seviyeli alt-dallanmalara sahip (segment > branch > group > path). AMBUSH bonus düğümlerinde Adaptoid, farklı sınıf görünümleriyle (Skill/Tech/Cosmic Adaptoid) çıkıyor - hepsi aynı 'Adaptoid' NPC'sinin sınıf uyarlamalı hali, DB'de tek 'adaptoid' kaydına karşılık geliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Birinci Segment - Sol Yol):",
+        "• 1. grup: Ronin → [Sol yol: Abomination → AMBUSH (Skill Adaptoid) / Sağ yol: Vision → Hulk].",
+        "• 2. grup: [Sol yol: dövüş yok / Sağ yol: Elektra → Iron Man] → Hawkeye → AMBUSH (Tech Adaptoid) → Daredevil (Classic)."
+      ],
+      "defenders": [
+        "ronin",
+        "abomination",
+        "adaptoid",
+        "vision",
+        "hulk",
+        "elektra",
+        "ironman",
+        "hawkeye",
+        "daredevil"
+      ],
+      "leadsToBoss": "cyclops"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Birinci Segment - Sağ Yol):",
+        "• Giriş: Hawkeye.",
+        "• 1. grup: [Sol yol: Elektra / Sağ yol: Spider-Man (Classic) → Yellowjacket] → Hulk.",
+        "• 2. grup: [Sol yol: Ronin / Sağ yol: Abomination → Hulk] → Vision."
+      ],
+      "defenders": [
+        "hawkeye",
+        "elektra",
+        "spiderman",
+        "yellowjacket",
+        "hulk",
+        "ronin",
+        "abomination",
+        "vision"
+      ],
+      "leadsToBoss": "cyclops"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (İkinci Segment):",
+        "• [Sol yol: Juggernaut → Storm / Orta yol: dövüş yok / Sağ yol: Unstoppable Colossus → Magneto → AMBUSH (Cosmic Adaptoid)].",
+        "• Çıkış: Cyclops (New Xavier School) (boss)."
+      ],
+      "defenders": [
+        "juggernaut",
+        "storm",
+        "unstoppablecolossus",
+        "magneto",
+        "adaptoid"
+      ],
+      "leadsToBoss": "cyclops"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "cyclops",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 14.066 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

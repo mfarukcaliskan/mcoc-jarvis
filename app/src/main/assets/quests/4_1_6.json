@@ -1,0 +1,93 @@
+{
+  "name": "4.1.6 - Trust (Güven)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 14.579. Kaynak: MCOC Fandom Wiki. Act 4 Chapter 1'in son quest'i, 3 ana yol, hepsi çok seviyeli alt-dallanmalara sahip. Hikaye: Doctor Strange, ileride bazı kapıların yalnızca belirli şampiyonlara açılacağı konusunda Summoner'ı uyarıyor - Koleksiyoncu'ya güvenip güvenmemek gerektiği sorgulanıyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Sol Yol - Left Branch, çok seviyeli alt-dallanmalı):",
+        "• Giriş: Spider-Man (Classic) → Winter Soldier.",
+        "• Sol-alt: Rocket Raccoon → [Üst-alt-alt: Vision, War Machine, Hawkeye, Deadpool, Storm / Sağ-alt-alt: War Machine, Punisher, Magneto, Gamora].",
+        "• Sağ-alt: Iron Man → Hulk → Electro → Magneto → Gamora → AMBUSH (bonus düğüm): Adaptoid → Black Panther → Punisher → Elektra.",
+        "• Çıkış: Black Widow (boss)."
+      ],
+      "defenders": [
+        "spiderman",
+        "wintersoldier",
+        "rocketraccoon",
+        "vision",
+        "warmachine",
+        "hawkeye",
+        "deadpool",
+        "storm",
+        "punisher",
+        "magneto",
+        "gamora",
+        "ironman",
+        "hulk",
+        "electro",
+        "adaptoid",
+        "blackpanther",
+        "elektra"
+      ],
+      "leadsToBoss": "blackwidow"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Orta Yol - Middle Branch):",
+        "• Sıra: Iron Man → Magneto → Black Bolt → Hawkeye → Punisher → Winter Soldier → Iron Man → Black Widow (boss)."
+      ],
+      "defenders": [
+        "ironman",
+        "magneto",
+        "blackbolt",
+        "hawkeye",
+        "punisher",
+        "wintersoldier"
+      ],
+      "leadsToBoss": "blackwidow"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Sağ Yol - Right Branch, alt-dallanmalı):",
+        "• Giriş: Elektra.",
+        "• Üst-alt: Black Panther → Winter Soldier → Rocket Raccoon → Hulk → Magneto → Wolverine → Iron Man.",
+        "• Sağ-alt: Electro → Black Bolt → Deadpool → Spider-Man (Classic) → Punisher → Elektra → Colossus → Spider-Man (Classic).",
+        "• Çıkış: Black Widow (boss)."
+      ],
+      "defenders": [
+        "elektra",
+        "blackpanther",
+        "wintersoldier",
+        "rocketraccoon",
+        "hulk",
+        "magneto",
+        "wolverine",
+        "ironman",
+        "electro",
+        "blackbolt",
+        "deadpool",
+        "spiderman",
+        "punisher",
+        "colossus"
+      ],
+      "leadsToBoss": "blackwidow"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "blackwidow",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 14.579 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

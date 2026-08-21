@@ -1,0 +1,51 @@
+{
+  "name": "2.1.1 - New Recruits (Yeni Askerler)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 825. Kaynak: MCOC Fandom Wiki. Bu quest 2 yol sunuyor; wiki kaynağında iki yol arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Angela → Howard The Duck → Sentry → Iron Man → Nebula → Green Goblin → Deadpool (boss). Koleksiyoncu, Kang'a karşı Contest'e yeni bir unsur olarak Thanos'u (Mad Titan) tanıtır."
+      ],
+      "defenders": [
+        "angela",
+        "howardtheduck",
+        "sentry",
+        "ironman",
+        "nebula",
+        "greengoblin"
+      ],
+      "leadsToBoss": "deadpool"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch):",
+        "• Sıra: Superior Iron Man → Wolverine → Doctor Voodoo → Red Hulk → Blade → Venom the Duck → Deadpool (boss). Bu yolda da aynı şekilde Kang'ın kontrolündeki şampiyonlarla mücadele edilir."
+      ],
+      "defenders": [
+        "superiorironman",
+        "wolverine",
+        "doctorvoodoo",
+        "redhulk",
+        "blade",
+        "venomtheduck"
+      ],
+      "leadsToBoss": "deadpool"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "deadpool",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 825 seviyesinde standart bir Act 2 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

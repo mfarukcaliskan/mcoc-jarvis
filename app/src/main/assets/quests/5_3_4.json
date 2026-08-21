@@ -1,0 +1,27 @@
+{
+  "name": "5.3.4 - Foul Conclusion (Kirli Sonuc)",
+  "globalNodes": [
+    "Boss: Hyperion (21.390 prestij). Yapi: 5 yol, yol basina 10-15 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 5 yol, yol basina 10-15 rakip. Quest, Hyperion boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "hyperion"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "hyperion",
+      "bossNodes": [
+        "21.390 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

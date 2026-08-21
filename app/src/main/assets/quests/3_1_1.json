@@ -1,0 +1,68 @@
+{
+  "name": "3.1.1 - A New Foe (Yeni Bir Düşman)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 2.025. Kaynak: MCOC Fandom Wiki. Bu quest 3 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Hikaye: Kang yenilir, Thanos ile ittifak sona erer ve Thanos artık doğrudan rakip olur."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Sol Yol - Left Branch):",
+        "• Sıra: Cosmic Ghost Rider → Yellowjacket → Cyclops (Blue Team) → Yondu → Iron Fist (Immortal) → Ronin → Spider-Man (Stealth Suit) (boss)."
+      ],
+      "defenders": [
+        "cosmicghostrider",
+        "yellowjacket",
+        "cyclopsblueteam",
+        "yondu",
+        "ironfistimmortal",
+        "ronin"
+      ],
+      "leadsToBoss": "spidermanstealthsuit"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Sağ Üst Yol - Upper-right Branch):",
+        "• Sıra: Moon Knight → Iron Fist → Venom → Spider-Gwen → Rocket Raccoon → Cyclops (New Xavier School) → Spider-Man (Stealth Suit) (boss)."
+      ],
+      "defenders": [
+        "moonknight",
+        "ironfist",
+        "venom",
+        "spidergwen",
+        "rocketraccoon",
+        "cyclops"
+      ],
+      "leadsToBoss": "spidermanstealthsuit"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Sağ Alt Yol - Lower-right Branch):",
+        "• Sıra: Ghost → Wolverine (X-23) → Black Panther → Gamora → Angela → Spider-Man (Classic) → Spider-Man (Stealth Suit) (boss)."
+      ],
+      "defenders": [
+        "ghost",
+        "wolverinex23",
+        "blackpanther",
+        "gamora",
+        "angela",
+        "spiderman"
+      ],
+      "leadsToBoss": "spidermanstealthsuit"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "spidermanstealthsuit",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 2.025 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

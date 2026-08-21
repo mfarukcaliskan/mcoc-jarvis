@@ -1,0 +1,60 @@
+{
+  "name": "4.1.2 - A Little Help (Küçük Bir Yardım)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 12.582. Kaynak: MCOC Fandom Wiki. Bu quest 2 ana yol sunuyor; Alt Yol kendi içinde alt-dallanmalara ve sınıf kapılarına ayrılıyor (detaylar path metninde). Hikaye: Ant-Man, Maestro'yu mikro boyutta gözetlerken Iso-Spell'in etkisi altına giriyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Rhino → War Machine → Abomination → AMBUSH (bonus düğüm): Adaptoid → Vision → Spider-Man (Classic) → Ant-Man (boss)."
+      ],
+      "defenders": [
+        "rhino",
+        "warmachine",
+        "abomination",
+        "adaptoid",
+        "vision",
+        "spiderman"
+      ],
+      "leadsToBoss": "antman"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch, alt-dallanmalı):",
+        "• Alt-Üst: Magneto → Black Panther → Ronan.",
+        "• Alt-Alt: Scarlet Witch (Classic) → Magneto → [No gate: Storm, Iron Man, Hawkeye / Science gate: Juggernaut, Hulk, Captain America].",
+        "• Çıkış: Wolverine → Yellowjacket → Iron Patriot → Ant-Man (boss)."
+      ],
+      "defenders": [
+        "magneto",
+        "blackpanther",
+        "ronan",
+        "scarletwitch",
+        "storm",
+        "ironman",
+        "hawkeye",
+        "juggernaut",
+        "hulk",
+        "captainamerica",
+        "wolverine",
+        "yellowjacket",
+        "ironpatriot"
+      ],
+      "leadsToBoss": "antman"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "antman",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 12.582 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

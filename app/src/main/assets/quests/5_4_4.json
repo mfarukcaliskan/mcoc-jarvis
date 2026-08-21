@@ -1,0 +1,27 @@
+{
+  "name": "5.4.4 - Do the Impossible (Imkansizi Yap)",
+  "globalNodes": [
+    "Boss: M.O.D.O.K. (37.550 prestij). Yapi: 6 yol, yol basina 8-13 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 6 yol, yol basina 8-13 rakip. Quest, M.O.D.O.K. boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "modok"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "modok",
+      "bossNodes": [
+        "37.550 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

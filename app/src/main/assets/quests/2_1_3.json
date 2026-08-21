@@ -1,0 +1,51 @@
+{
+  "name": "2.1.3 - Evolution (Evrim)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 1.125. Kaynak: MCOC Fandom Wiki. Bu quest 2 yol sunuyor; wiki kaynağında iki yol arasında bir zorluk farkı belirtilmemiştir. Hikaye: Adaptoid'ler ISO-8'e uzun süre maruz kalarak 'Super Adaptoid' formuna evrilir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Doctor Voodoo → Civil Warrior → Green Goblin → Ultron (Classic) → Apocalypse → Karnak → Abomination (boss)."
+      ],
+      "defenders": [
+        "doctorvoodoo",
+        "civilwarrior",
+        "greengoblin",
+        "ultronclassic",
+        "apocalypse",
+        "karnak"
+      ],
+      "leadsToBoss": "abomination"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch):",
+        "• Sıra: Scarlet Witch (Classic) → Hulk → Ms. Marvel (Kamala Khan) → Ant-Man → Archangel → Captain Marvel → Abomination (boss)."
+      ],
+      "defenders": [
+        "scarletwitch",
+        "hulk",
+        "msmarvelkamalakhan",
+        "antman",
+        "archangel",
+        "captainmarvelmcu"
+      ],
+      "leadsToBoss": "abomination"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "abomination",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 1.125 seviyesinde standart bir Act 2 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

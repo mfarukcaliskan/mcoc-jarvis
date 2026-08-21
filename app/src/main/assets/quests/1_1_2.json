@@ -1,0 +1,31 @@
+{
+  "name": "1.1.2 - The Prize (Ödül)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 200. Kaynak: MCOC Fandom Wiki. Bu bölüm için wiki kaynağında özel bir global karo/mekanik belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Tek Yol - ISO-Sphere Hattı):",
+        "• Sıra: Scarlet Witch (Classic) → Spider-Man (Stark Enhanced) → Captain America → Ant-Man (boss). Koleksiyoncu, Contest'in ödülü ISO-Sphere'i ortaya çıkarır; Kang bu yolda daha fazla şampiyonunu Summoner'a karşı gönderir."
+      ],
+      "defenders": [
+        "scarletwitch",
+        "spidermanstarkenhanced",
+        "captainamerica"
+      ],
+      "leadsToBoss": "antman"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "antman",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 200 seviyesinde standart bir erken oyun karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "3.2.6 - Thanos Enters (Thanos Sahneye Çıkıyor)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 8.000. Kaynak: MCOC Fandom Wiki. Act 3'ün son quest'i, 6 yol; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Tamamlanması Proven unvanı ve Story Milestone ödülünü verir. Hikaye: Maestro, Thanos'u küçümser; Thanos artık şampiyonları yerine bizzat kendisi arenaya girer."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Path A):",
+        "• Sıra: Air-Walker → Thor → Red Goblin → Captain Marvel → Ronan → Black Bolt → Thanos (boss)."
+      ],
+      "defenders": [
+        "airwalker",
+        "thor",
+        "redgoblin",
+        "captainmarvelmcu",
+        "ronan",
+        "blackbolt"
+      ],
+      "leadsToBoss": "thanos"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Path B):",
+        "• Sıra: Magneto → Beast → Archangel → Namor → Colossus → Storm (Pyramid X) → Thanos (boss)."
+      ],
+      "defenders": [
+        "magneto",
+        "beast",
+        "archangel",
+        "namor",
+        "colossus",
+        "stormpyramidx"
+      ],
+      "leadsToBoss": "thanos"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Path C):",
+        "• Sıra: Scarlet Witch (Classic) → Juggernaut → Purgatory → Ghost Rider → Sorcerer Supreme → Doctor Strange → Thanos (boss)."
+      ],
+      "defenders": [
+        "scarletwitch",
+        "juggernaut",
+        "purgatory",
+        "ghostrider",
+        "sorcerersupreme",
+        "doctorstrange"
+      ],
+      "leadsToBoss": "thanos"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Path D):",
+        "• Sıra: Mister Negative → Red Hulk → Abomination → Hulk (Immortal) → The Overseer → Red Guardian → Thanos (boss)."
+      ],
+      "defenders": [
+        "misternegative",
+        "redhulk",
+        "abomination",
+        "hulkimmortal",
+        "theoverseer",
+        "redguardian"
+      ],
+      "leadsToBoss": "thanos"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Path E):",
+        "• Sıra: Hit-Monkey → Agent Venom → Jabari Panther → Winter Soldier → Taskmaster → Elsa Bloodstone → Thanos (boss)."
+      ],
+      "defenders": [
+        "hitmonkey",
+        "agentvenom",
+        "jabaripanther",
+        "wintersoldier",
+        "taskmaster",
+        "elsabloodstone"
+      ],
+      "leadsToBoss": "thanos"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol F (Path F):",
+        "• Sıra: Star-Lord → Doctor Octopus → Yondu → Punisher 2099 → Howard The Duck → Civil Warrior → Thanos (boss)."
+      ],
+      "defenders": [
+        "starlord",
+        "doctoroctopus",
+        "yondu",
+        "punisher2099",
+        "howardtheduck",
+        "civilwarrior"
+      ],
+      "leadsToBoss": "thanos"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "thanos",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 8.000 seviyesinde Act 3'ün en yüksek zorluklu karşılaşmasıdır. Bu quest, Act 3'ün genel bossu olan Thanos ile doğrudan karşılaşmadır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

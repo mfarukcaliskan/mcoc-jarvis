@@ -1,0 +1,69 @@
+{
+  "name": "4.2.4 - Asgard's Champion (Asgard'ın Şampiyonu)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): bilgi yok (wiki kaynağında bu quest için RTR değeri belirtilmemiş). Kaynak: MCOC Fandom Wiki. Bu quest 'kısa yol / uzun yol' (short path / long path) yapısına sahip; kısayollar uzun yoldaki belirli bir dövüşe geri bağlanıyor (rejoin noktaları metinde belirtildi)."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısa Yol - Short Path):",
+        "• Sıra: Magneto → Rocket Raccoon → Unstoppable Colossus → Juggernaut → (Uzun Yol'daki 3. kısayoldan gelenlerle burada birleşir: Storm dövüşünde) → Moon Knight (boss)."
+      ],
+      "defenders": [
+        "magneto",
+        "rocketraccoon",
+        "unstoppablecolossus",
+        "juggernaut",
+        "storm"
+      ],
+      "leadsToBoss": "moonknight"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Uzun Yol - Long Path, kısayollu):",
+        "• Giriş: Magik.",
+        "• 1. Kısayol (Unstoppable Colossus dövüşünde Kısa Yol'a katılır): Spider-Man (Classic) → Magneto.",
+        "• 2. Kısayol (Juggernaut sonrasında Kısa Yol'a katılır): Iron Man → Captain America → Cyclops (New Xavier School) → Drax → Gamora → Punisher.",
+        "• Devam: Elektra → Wolverine.",
+        "• 3. Kısayol (Storm dövüşünde ana yola katılır): Hulk → Magneto → Iron Patriot → Ronan → Iron Patriot.",
+        "• 4. Kısayol (Storm dövüşünde ana yola katılır): Captain America → Rocket Raccoon → Magneto → Black Panther → Daredevil → Cyclops (New Xavier School) → Thor.",
+        "• Çıkış: Storm → Moon Knight (boss)."
+      ],
+      "defenders": [
+        "magik",
+        "spiderman",
+        "magneto",
+        "ironman",
+        "captainamerica",
+        "cyclops",
+        "drax",
+        "gamora",
+        "punisher",
+        "elektra",
+        "wolverine",
+        "hulk",
+        "ironpatriot",
+        "ronan",
+        "rocketraccoon",
+        "blackpanther",
+        "daredevil",
+        "thor",
+        "storm"
+      ],
+      "leadsToBoss": "moonknight"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "moonknight",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

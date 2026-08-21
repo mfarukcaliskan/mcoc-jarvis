@@ -1,0 +1,27 @@
+{
+  "name": "5.1.2 - Weaponized (Silahlandirildi)",
+  "globalNodes": [
+    "Boss: Moon Knight (13.030 prestij). Yapi: 4 yol, yol basina 7-11 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 4 yol, yol basina 7-11 rakip. Quest, Moon Knight boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "moonknight"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "moonknight",
+      "bossNodes": [
+        "13.030 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "3.1.6 - The Automaton (Otomat)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 4.800. Kaynak: MCOC Fandom Wiki. Act 3 Chapter 1'in son quest'i, 4 yol; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Path A):",
+        "• Sıra: Quake → Civil Warrior → Daredevil (Classic) → Guillotine → Spider-Man (Symbiote) → Heimdall → Ultron (Classic) (boss)."
+      ],
+      "defenders": [
+        "quake",
+        "civilwarrior",
+        "daredevil",
+        "guillotine",
+        "spidermansymbiote",
+        "heimdall"
+      ],
+      "leadsToBoss": "ultronclassic"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Path B):",
+        "• Sıra: Ronin → Tigra → Mister Fantastic → Spider-Man (Stark Enhanced) → Hulkbuster → Rhino → Ultron (Classic) (boss)."
+      ],
+      "defenders": [
+        "ronin",
+        "tigra",
+        "misterfantastic",
+        "spidermanstarkenhanced",
+        "hulkbuster",
+        "rhino"
+      ],
+      "leadsToBoss": "ultronclassic"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Path C):",
+        "• Sıra: Howard The Duck → Black Widow → Spider-Man (Stealth Suit) → Iron Man → Spider-Gwen → Unstoppable Colossus → Ultron (Classic) (boss)."
+      ],
+      "defenders": [
+        "howardtheduck",
+        "blackwidow",
+        "spidermanstealthsuit",
+        "ironman",
+        "spidergwen",
+        "unstoppablecolossus"
+      ],
+      "leadsToBoss": "ultronclassic"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Path D):",
+        "• Sıra: Spider-Man (Miles Morales) → Silver Surfer → Howard The Duck → Juggernaut → Moon Knight → Silver Centurion → Ultron (Classic) (boss)."
+      ],
+      "defenders": [
+        "spidermanmilesmorales",
+        "silversurfer",
+        "howardtheduck",
+        "juggernaut",
+        "moonknight",
+        "silvercenturion"
+      ],
+      "leadsToBoss": "ultronclassic"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "ultronclassic",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 4.800 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

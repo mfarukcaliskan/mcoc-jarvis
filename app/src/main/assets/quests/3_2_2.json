@@ -1,0 +1,85 @@
+{
+  "name": "3.2.2 - The Captain (Kaptan)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 5.600. Kaynak: MCOC Fandom Wiki. Bu quest 4 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Path 1):",
+        "• Sıra: Colossus → Vision (Age of Ultron) → Luke Cage → King Groot → Nebula → Dormammu → Corvus Glaive (boss)."
+      ],
+      "defenders": [
+        "colossus",
+        "visionaou",
+        "lukecage",
+        "kinggroot",
+        "nebula",
+        "dormammu"
+      ],
+      "leadsToBoss": "corvusglaive"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Path 2):",
+        "• Sıra: Red Goblin → Night Thrasher → Purgatory → Red Hulk → Sunspot → Guardian → Corvus Glaive (boss)."
+      ],
+      "defenders": [
+        "redgoblin",
+        "nightthrasher",
+        "purgatory",
+        "redhulk",
+        "sunspot",
+        "guardian"
+      ],
+      "leadsToBoss": "corvusglaive"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Path 3):",
+        "• Sıra: Electro → Thor (Jane Foster) → Super Skrull → Storm → Silver Centurion → Thor (Ragnarok) → Corvus Glaive (boss)."
+      ],
+      "defenders": [
+        "electro",
+        "thorjanefoster",
+        "superskrull",
+        "storm",
+        "silvercenturion",
+        "thorragnarok"
+      ],
+      "leadsToBoss": "corvusglaive"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Path 4):",
+        "• Sıra: Abomination → Karnak → Diablo → Ronan → Ultron (Classic) → Cable → Corvus Glaive (boss)."
+      ],
+      "defenders": [
+        "abomination",
+        "karnak",
+        "diablo",
+        "ronan",
+        "ultronclassic",
+        "cable"
+      ],
+      "leadsToBoss": "corvusglaive"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "corvusglaive",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 5.600 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

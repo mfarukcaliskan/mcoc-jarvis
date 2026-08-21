@@ -1,0 +1,68 @@
+{
+  "name": "2.1.6 - Conquered (Boyun Eğdirildi)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 1.800. Kaynak: MCOC Fandom Wiki. Act 2'nin son quest'i, 3 yol; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Tamamlanması Contender unvanı ve Story Milestone ödülünü verir. Hikaye: Koleksiyoncu, Kang'ı doğrudan Summoner'ın şampiyonlarına karşı dövüşe zorlar; kazanılırsa Iron Man serbest kalır."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Daredevil (Classic) → Ronan → Spider-Man (Stark Enhanced) → Scarlet Witch (Classic) → Black Bolt → Loki → Kang the Conqueror (boss)."
+      ],
+      "defenders": [
+        "daredevil",
+        "ronan",
+        "spidermanstarkenhanced",
+        "scarletwitch",
+        "blackbolt",
+        "loki"
+      ],
+      "leadsToBoss": "kang"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Orta Yol - Middle Branch):",
+        "• Sıra: Gambit → Ronin → Ultron (Classic) → Psylocke → Namor → Luke Cage → Kang the Conqueror (boss)."
+      ],
+      "defenders": [
+        "gambit",
+        "ronin",
+        "ultronclassic",
+        "psylocke",
+        "namor",
+        "lukecage"
+      ],
+      "leadsToBoss": "kang"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Alt Yol - Lower Branch):",
+        "• Sıra: The Hood → Gwenpool → Hulk → Iron Patriot → Spider-Gwen → Heimdall → Kang the Conqueror (boss)."
+      ],
+      "defenders": [
+        "thehood",
+        "gwenpool",
+        "hulk",
+        "ironpatriot",
+        "spidergwen",
+        "heimdall"
+      ],
+      "leadsToBoss": "kang"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "kang",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 1.800 seviyesinde Act 2'nin en yüksek zorluklu karşılaşmasıdır. Bu quest, Act 2'nin genel bossu olan Kang the Conqueror ile doğrudan karşılaşmadır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

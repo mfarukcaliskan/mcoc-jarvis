@@ -1,0 +1,85 @@
+{
+  "name": "3.1.4 - Transcended (Aşkınlaşmış)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 3.000. Kaynak: MCOC Fandom Wiki. Bu quest 4 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Hikaye: Battlerealm'in gerçek efendisi Maestro sahneye çıkar ve Thanos'un burada bulunmasına öfkelenir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Sol Alt Yol - Lower-left Branch):",
+        "• Sıra: Sunspot → Star-Lord → Captain America (Infinity War) → Scarlet Witch (Classic) → Elsa Bloodstone → Bishop → Proxima Midnight (boss)."
+      ],
+      "defenders": [
+        "sunspot",
+        "starlord",
+        "captainamericaiw",
+        "scarletwitch",
+        "elsabloodstone",
+        "bishop"
+      ],
+      "leadsToBoss": "proximamidnight"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Sol Üst Yol - Upper-left Branch):",
+        "• Sıra: Archangel → Red Hulk → Night Thrasher → Super Skrull → Venompool → Punisher 2099 → Proxima Midnight (boss)."
+      ],
+      "defenders": [
+        "archangel",
+        "redhulk",
+        "nightthrasher",
+        "superskrull",
+        "venompool",
+        "punisher2099"
+      ],
+      "leadsToBoss": "proximamidnight"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Sağ Üst Yol - Upper-right Branch):",
+        "• Sıra: Ultron (Classic) → Hit-Monkey → Purgatory → Gambit → She-Hulk → Cosmic Ghost Rider → Proxima Midnight (boss)."
+      ],
+      "defenders": [
+        "ultronclassic",
+        "hitmonkey",
+        "purgatory",
+        "gambit",
+        "shehulk",
+        "cosmicghostrider"
+      ],
+      "leadsToBoss": "proximamidnight"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Sağ Alt Yol - Lower-right Branch):",
+        "• Sıra: Ghost Rider → Hulk → Moon Knight → Vision → Doctor Strange → Thor → Proxima Midnight (boss)."
+      ],
+      "defenders": [
+        "ghostrider",
+        "hulk",
+        "moonknight",
+        "vision",
+        "doctorstrange",
+        "thor"
+      ],
+      "leadsToBoss": "proximamidnight"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "proximamidnight",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 3.000 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

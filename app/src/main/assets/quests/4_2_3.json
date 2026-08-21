@@ -1,0 +1,68 @@
+{
+  "name": "4.2.3 - Straight Outta Queens (Doğrudan Queens'ten)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 14.598. Kaynak: MCOC Fandom Wiki. Bu quest 'kısayol / yan yol' (shortcut / side path) yapısına sahip; yan yollara girmek için belirli sınıftan bir şampiyon takımda bulunmalı (gerçek sınıf kapısı - Mutant, Skill, Cosmic, Science). Kısayollar bu gereksinim olmadan devam etmeyi sağlıyor ama daha az rakip/ödül içeriyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol A (Kısayollar - Shortcuts, sınıf şartı yok):",
+        "• Giriş: Black Bolt.",
+        "• 1. Kısayol: Rocket Raccoon.",
+        "• 2. Kısayol: Spider-Man (Classic) → AMBUSH (Science Adaptoid).",
+        "• Gamora (ortak) → 3. Kısayol: Captain America → Punisher → 4. Kısayol: Ronan → Yellowjacket (boss)."
+      ],
+      "defenders": [
+        "blackbolt",
+        "rocketraccoon",
+        "spiderman",
+        "adaptoid",
+        "gamora",
+        "captainamerica",
+        "punisher",
+        "ronan"
+      ],
+      "leadsToBoss": "yellowjacket"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Yan Yollar - Side Paths, sınıf kapılı, daha zorlu):",
+        "• 1. Yan Yol [Gate: Mutant - takımda Mutant şampiyon şart]: Drax → Scarlet Witch (Classic) → Black Panther → Elektra.",
+        "• 2. Yan Yol [Gate: Skill - takımda Skill şampiyon şart]: Hawkeye → Ms. Marvel → Hulk → Thor.",
+        "• 3. Yan Yol [Gate: Cosmic - takımda Cosmic şampiyon şart]: Iron Patriot → Cyclops (New Xavier School) → Rhino → Star-Lord → Vision → Juggernaut.",
+        "• 4. Yan Yol [Gate: Science - takımda Science şampiyon şart]: Black Panther → Elektra → Thor → Iron Patriot → Rhino.",
+        "• Çıkış: Yellowjacket (boss)."
+      ],
+      "defenders": [
+        "drax",
+        "scarletwitch",
+        "blackpanther",
+        "elektra",
+        "hawkeye",
+        "msmarvel",
+        "hulk",
+        "thor",
+        "ironpatriot",
+        "cyclops",
+        "rhino",
+        "starlord",
+        "vision",
+        "juggernaut"
+      ],
+      "leadsToBoss": "yellowjacket"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "yellowjacket",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 14.598 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

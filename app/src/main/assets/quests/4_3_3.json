@@ -1,0 +1,27 @@
+{
+  "name": "4.3.3 - Threats (Tehditler)",
+  "globalNodes": [
+    "Onerilen Takim Gucu (Recommended Team Rating): 17.023. Boss: War Machine (9.608 prestij). Kaynak: MCOC Fandom Wiki. Bu quest'in kendi sayfasinda 'Battles' bolumu bos ('To be added') - path/ara-dusman detayi wiki'de belgelenmemis. Asagidaki bilgiler (boss, RTR, yol sayisi) sayfanin infobox/aciklama kismindan dogrulanmis gercek veridir; path'lerdeki ara-dusman siralamasi bilinmedigi icin uydurulmamistir.",
+    "Bolum anlatisi: Maestro geri dondu ve Collector'in yoklugunda neler yaptigiyla yakindan ilgileniyor. Black Widow, Maestro'nun ISO-8'i bir tur silaha donusturdugunu ortaya cikarir. Collector'in arkasindan is cevirmesinden hic hosnut degil."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol detayi kaynakta belirtilmemis - bu quest'in wiki sayfasinda 'Battles' bolumu bos. Bilinen tek bilgi: quest War Machine boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "warmachine"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "warmachine",
+      "bossNodes": [
+        "RTR 17.023, 9.608 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

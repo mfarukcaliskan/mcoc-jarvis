@@ -1,0 +1,89 @@
+{
+  "name": "4.1.4 - Symbioids (Symbioidler)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 14.081. Kaynak: MCOC Fandom Wiki. Bu quest 3 ana yol sunuyor (Üst/Orta/Alt); Orta Yol kendi içinde sınıf kapılı alt-bölünmelere (split) ayrılıyor. Hikaye: Adaptoid'ler, Venom'un eliyle sembiyotlarla birleşerek 'Symbioid'lere dönüşmüş."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Giriş: AMBUSH (bonus düğüm): Symbioid (tüm yollarda ortak).",
+        "• Sıra: Magneto → Wolverine → Black Panther → Spider-Man (Classic) → Hawkeye → Daredevil → Yellowjacket → Unstoppable Colossus.",
+        "• Çıkış: Punisher (tüm yollar birleştikten sonra ortak) → Colossus (boss)."
+      ],
+      "defenders": [
+        "symbioid",
+        "magneto",
+        "wolverine",
+        "blackpanther",
+        "spiderman",
+        "hawkeye",
+        "daredevil",
+        "yellowjacket",
+        "unstoppablecolossus",
+        "punisher"
+      ],
+      "leadsToBoss": "colossus"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Orta Yol - Middle Branch, alt-bölünmeli):",
+        "• Giriş: AMBUSH (bonus düğüm): Symbioid (tüm yollarda ortak) → Hulk.",
+        "• Split 1: [Tech gate: Iron Patriot, Gamora / No gate: Deadpool, Rocket Raccoon].",
+        "• Split 2: [No gate: Magneto (House of X), Magik / Mutant gate: Magneto, Spider-Man (Classic)] → Ronan.",
+        "• Çıkış: Punisher (tüm yollar birleştikten sonra ortak) → Colossus (boss)."
+      ],
+      "defenders": [
+        "symbioid",
+        "hulk",
+        "ironpatriot",
+        "gamora",
+        "deadpool",
+        "rocketraccoon",
+        "magnetomarvelnow",
+        "magik",
+        "magneto",
+        "spiderman",
+        "ronan",
+        "punisher"
+      ],
+      "leadsToBoss": "colossus"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Alt Yol - Lower Branch):",
+        "• Giriş: AMBUSH (bonus düğüm): Symbioid (tüm yollarda ortak).",
+        "• Sıra: Spider-Man (Classic) → Black Panther → Daredevil → Cyclops (New Xavier School) → Iron Man → Iron Patriot → Gamora → Storm.",
+        "• Çıkış: Punisher (tüm yollar birleştikten sonra ortak) → Colossus (boss)."
+      ],
+      "defenders": [
+        "symbioid",
+        "spiderman",
+        "blackpanther",
+        "daredevil",
+        "cyclops",
+        "ironman",
+        "ironpatriot",
+        "gamora",
+        "storm",
+        "punisher"
+      ],
+      "leadsToBoss": "colossus"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "colossus",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 14.081 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "3.2.1 - The Doctor (Doktor)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 5.200. Kaynak: MCOC Fandom Wiki. Bu quest 4 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Path 1):",
+        "• Sıra: Venom → Shang-Chi → Rocket Raccoon → War Machine → Hulk (Immortal) → Diablo → Old Man Logan (boss)."
+      ],
+      "defenders": [
+        "venom",
+        "shangchi",
+        "rocketraccoon",
+        "warmachine",
+        "hulkimmortal",
+        "diablo"
+      ],
+      "leadsToBoss": "oldmanlogan"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Path 2):",
+        "• Sıra: Loki → Rhino → Groot → Gwenpool → Cable → Star-Lord → Old Man Logan (boss)."
+      ],
+      "defenders": [
+        "loki",
+        "rhino",
+        "groot",
+        "gwenpool",
+        "cable",
+        "starlord"
+      ],
+      "leadsToBoss": "oldmanlogan"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Path 3):",
+        "• Sıra: Spider-Ham → Super Skrull → Yondu → Professor X → Nick Fury → Purgatory → Old Man Logan (boss)."
+      ],
+      "defenders": [
+        "spiderham",
+        "superskrull",
+        "yondu",
+        "professorx",
+        "nickfury",
+        "purgatory"
+      ],
+      "leadsToBoss": "oldmanlogan"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Path 4):",
+        "• Sıra: Namor → Punisher → Tigra → Sentry → Carnage → Bishop → Old Man Logan (boss)."
+      ],
+      "defenders": [
+        "namor",
+        "punisher",
+        "tigra",
+        "sentry",
+        "carnage",
+        "bishop"
+      ],
+      "leadsToBoss": "oldmanlogan"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "oldmanlogan",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 5.200 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

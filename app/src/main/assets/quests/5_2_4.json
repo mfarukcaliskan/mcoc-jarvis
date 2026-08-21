@@ -1,0 +1,27 @@
+{
+  "name": "5.2.4 - Lines in the Sand (Sinir Cizgileri)",
+  "globalNodes": [
+    "Boss: Storm (prestij bilgisi kaynakta yok). Yapi: 5 yol, yol basina 10-14 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 5 yol, yol basina 10-14 rakip. Quest, Storm boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "storm"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "storm",
+      "bossNodes": [
+        "prestij bilgisi kaynakta yok. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

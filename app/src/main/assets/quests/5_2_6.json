@@ -1,0 +1,27 @@
+{
+  "name": "5.2.6 - Abrogation (Feshetme)",
+  "globalNodes": [
+    "Boss: The Collector (28.020 prestij). Yapi: 6 yol, yol basina 10-14 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 6 yol, yol basina 10-14 rakip. Quest, The Collector boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "collector"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "collector",
+      "bossNodes": [
+        "28.020 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

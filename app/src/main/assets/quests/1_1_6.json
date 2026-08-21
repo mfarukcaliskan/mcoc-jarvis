@@ -1,0 +1,51 @@
+{
+  "name": "1.1.6 - Malice (Hınç)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 750. Kaynak: MCOC Fandom Wiki. Act 1'in son quest'i, 2 yol, her yolda 7 rakip; wiki kaynağında iki yol arasında bir zorluk farkı belirtilmemiştir. Tamamlanması Challenger unvanı ve Story Milestone ödülünü verir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Ghost Rider → Mephisto → Nebula → Guardian → Civil Warrior → Spider-Man (Stark Enhanced) → Red Skull (boss). Act 1'in final çatışması; Koleksiyoncu, Summoner'ın üstünlüğüne karşı Kang'ı giderek daha fazla kızdırır."
+      ],
+      "defenders": [
+        "ghostrider",
+        "mephisto",
+        "nebula",
+        "guardian",
+        "civilwarrior",
+        "spidermanstarkenhanced"
+      ],
+      "leadsToBoss": "redskull"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch):",
+        "• Sıra: Doctor Octopus → Winter Soldier → Hawkeye → Red Goblin → Scarlet Witch (Classic) → Howard the Duck → Red Skull (boss). Kang, bu son yolda da Summoner'ı durdurmak için elindeki tüm şampiyonları kullanır; sonunda Kang'ın en güçlü müttefiki Red Skull bekler."
+      ],
+      "defenders": [
+        "doctoroctopus",
+        "wintersoldier",
+        "hawkeye",
+        "redgoblin",
+        "scarletwitch",
+        "howardtheduck"
+      ],
+      "leadsToBoss": "redskull"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "redskull",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 750 seviyesinde Act 1'in en yüksek zorluklu erken oyun karşılaşmasıdır. Kang, Red Skull'un ekipmanına elektrik yüklemesi yaparak onu güçlendirir (hikaye diyaloğu, oynanışa yansıyan bir node olarak belirtilmemiştir)."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

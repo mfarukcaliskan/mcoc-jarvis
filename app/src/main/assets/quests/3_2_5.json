@@ -1,0 +1,102 @@
+{
+  "name": "3.2.5 - The Original (Orijinal)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 7.000. Kaynak: MCOC Fandom Wiki. Bu quest 5 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir. Not: Wiki kaynağındaki yol numaralandırması 'Path 2' ile başlıyor ('Path 1' wiki sayfasında hiç listelenmemiş, muhtemelen eski bir oyun güncellemesinden kalan bir boşluk); burada A-E harfleriyle yeniden etiketlendi, wiki'deki orijinal numaralar parantez içinde belirtildi."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Wiki: Path 2):",
+        "• Sıra: Captain Marvel → Nebula → Unstoppable Colossus → Dormammu → Iceman → Captain America (Infinity War) → Luke Cage (boss)."
+      ],
+      "defenders": [
+        "captainmarvelmcu",
+        "nebula",
+        "unstoppablecolossus",
+        "dormammu",
+        "iceman",
+        "captainamericaiw"
+      ],
+      "leadsToBoss": "lukecage"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Wiki: Path 3):",
+        "• Sıra: Apocalypse → Dragon Man → King Groot → Rhino → Vision → Night Thrasher → Luke Cage (boss)."
+      ],
+      "defenders": [
+        "apocalypse",
+        "dragonman",
+        "kinggroot",
+        "rhino",
+        "vision",
+        "nightthrasher"
+      ],
+      "leadsToBoss": "lukecage"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Wiki: Path 4):",
+        "• Sıra: Carnage → Red Hulk → Ultron (Classic) → Karnak → Phoenix → Gambit → Luke Cage (boss)."
+      ],
+      "defenders": [
+        "carnage",
+        "redhulk",
+        "ultronclassic",
+        "karnak",
+        "phoenix",
+        "gambit"
+      ],
+      "leadsToBoss": "lukecage"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Wiki: Path 5):",
+        "• Sıra: Vision (Age of Ultron) → Sentry → Punisher → Corvus Glaive → Rocket Raccoon → Colossus → Luke Cage (boss)."
+      ],
+      "defenders": [
+        "visionaou",
+        "sentry",
+        "punisher",
+        "corvusglaive",
+        "rocketraccoon",
+        "colossus"
+      ],
+      "leadsToBoss": "lukecage"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Wiki: Path 6):",
+        "• Sıra: Mister Fantastic → Daredevil (Classic) → Hela → Venom → Silver Centurion → Ghost Rider → Luke Cage (boss)."
+      ],
+      "defenders": [
+        "misterfantastic",
+        "daredevil",
+        "hela",
+        "venom",
+        "silvercenturion",
+        "ghostrider"
+      ],
+      "leadsToBoss": "lukecage"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "lukecage",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 7.000 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

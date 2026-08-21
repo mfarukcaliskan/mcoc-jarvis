@@ -1,0 +1,234 @@
+{
+  "name": "4.2.6 - Defiance (Meydan Okuma)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 16.050. Kaynaklar: MCOC Fandom Wiki (RTR/boss) + Frontline: MCOC blog rehberi (frontlinemcoc.home.blog, 11 Nisan 2021) - yol/rakip verisi wiki'de eksik olduğu için bu ikinci kaynaktan alındı.",
+    "Global Karolar: Stun (Ronan üzerinde), Gambler's Fate (Kumarbazın Kaderi - rastgele), Double or Nothing (Iron Man üzerinde), Fury (Colossus üzerinde) - bu karolar ilgili şampiyon savunmacı olarak çıktığında tetikleniyor.",
+    "Bu quest 8 ayrı şerit (lane) sunuyor; hepsinin Gate (sınıf kapısı) durumu 'None'. ÖNEMLİ UYARI (kaynak): Lane 7'de gizli bir Magneto kalıcı Regenerasyon (Regeneration) ile çıkıyor - bu şeridi seçersen mutlaka Void gibi bir 'heal reversal' şampiyonu takımda bulundur, aksi halde ciddi bir tıkanma noktası (roadblock) olabilir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Şerit 1 - Far Left, En Sol), Gate: Yok:",
+        "• Sıra: Ronan → Winter Soldier → War Machine → Deadpool → Hawkeye → Hulk → Colossus → Iron Patriot → Iron Man → Hawkeye → Hawkeye → Deadpool → War Machine → Vision (OG) → Hulk → War Machine → Iron Man.",
+        "• Karolar: Yok.",
+        "• İpucu: Gerçekten zor bir dövüş yok ama çok uzun bir şerit."
+      ],
+      "defenders": [
+        "ronan",
+        "wintersoldier",
+        "warmachine",
+        "deadpool",
+        "hawkeye",
+        "hulk",
+        "colossus",
+        "ironpatriot",
+        "ironman",
+        "hawkeye",
+        "hawkeye",
+        "deadpool",
+        "warmachine",
+        "vision",
+        "hulk",
+        "warmachine",
+        "ironman"
+      ],
+      "leadsToBoss": "joefixit"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Şerit 2 - Left, Right to Hidden Nodes), Gate: Yok:",
+        "• Sıra: Ronan → Winter Soldier → Storm → Deadpool → Hulk → Colossus → Iron Patriot → Moon Knight → Elektra → Colossus → Iron Fist → Punisher → Gamora → Iron Man.",
+        "• Karolar: +%300 Saldırı, +%100 Kritik Hasar, +%28 Kritik Oranı (Storm düğümünde).",
+        "• İpucu: Gizli Storm 12.7K PI'a sahip; canı az ama vurulmamaya dikkat et."
+      ],
+      "defenders": [
+        "ronan",
+        "wintersoldier",
+        "storm",
+        "deadpool",
+        "hulk",
+        "colossus",
+        "ironpatriot",
+        "moonknight",
+        "elektra",
+        "colossus",
+        "ironfist",
+        "punisher",
+        "gamora",
+        "ironman"
+      ],
+      "leadsToBoss": "joefixit"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Şerit 3 - Left, First Right to Punisher), Gate: Yok:",
+        "• Sıra: Ronan → Punisher → Punisher → Black Bolt → Colossus → Iron Patriot → Iron Man → Hawkeye → Colossus → Iron Fist → Punisher → Gamora → Iron Man.",
+        "• Karolar: Yok.",
+        "• İpucu: Çift Punisher'dan gelen birikimli (chip) hasara dikkat et."
+      ],
+      "defenders": [
+        "ronan",
+        "punisher",
+        "punisher",
+        "blackbolt",
+        "colossus",
+        "ironpatriot",
+        "ironman",
+        "hawkeye",
+        "colossus",
+        "ironfist",
+        "punisher",
+        "gamora",
+        "ironman"
+      ],
+      "leadsToBoss": "joefixit"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Şerit 4 - Center Left), Gate: Yok:",
+        "• Sıra: Ms. Marvel → Black Bolt → Rocket Raccoon → Black Panther → Spider-Man (Classic) → Iron Man → Hawkeye → Colossus → Iron Fist → Punisher → Gamora → Iron Man.",
+        "• Karolar: +%50 Saldırı & Can, +%200 Saldırı, Gelişmiş Özel 2 (Enhanced Special 2), Energize 2 (Spider-Man düğümünde).",
+        "• İpucu: Ortadan gitmek Global Karoları Iron Man mini-boss'a kadar aktif bırakıyor; Spider-Man'e bağlı dövüş, onu SP2 kullanmaya zorlarsan daha kolay."
+      ],
+      "defenders": [
+        "msmarvel",
+        "blackbolt",
+        "rocketraccoon",
+        "blackpanther",
+        "spiderman",
+        "ironman",
+        "hawkeye",
+        "colossus",
+        "ironfist",
+        "punisher",
+        "gamora",
+        "ironman"
+      ],
+      "leadsToBoss": "joefixit"
+    },
+    {
+      "pathLetter": "E",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol E (Şerit 5 - Center Right), Gate: Yok:",
+        "• Sıra: Cyclops (New Xavier School) → Deadpool → Hawkeye → Vision (OG) → Rhino → Iron Man → Hawkeye → Ronan → Wolverine → Black Bolt → Iron Patriot → Iron Man.",
+        "• Karolar: +%50 Saldırı & Can, +%200 Can, Gelişmiş Özel 1 (Enhanced Special 1), Power Drain (Rhino düğümünde).",
+        "• İpucu: Bağlı dövüş Spider-Man ve Rhino arasında değişiyor; Spider-Man çıkarsa Bloklanamaz (Unblockable) SP1'ine dikkat et."
+      ],
+      "defenders": [
+        "cyclops",
+        "deadpool",
+        "hawkeye",
+        "vision",
+        "rhino",
+        "ironman",
+        "hawkeye",
+        "ronan",
+        "wolverine",
+        "blackbolt",
+        "ironpatriot",
+        "ironman"
+      ],
+      "leadsToBoss": "joefixit"
+    },
+    {
+      "pathLetter": "F",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol F (Şerit 6 - Right, 1st Left to Gamora), Gate: Yok:",
+        "• Sıra: Colossus → Iron Fist → Gamora → Wolverine → Black Bolt → Punisher → Iron Man → Hawkeye → Ronan → Wolverine → Black Bolt → Iron Patriot → Iron Man.",
+        "• Karolar: Yok.",
+        "• İpucu: Endişelenecek büyük bir şey yok - kaynağa göre bu şeritte dikkat çeken bir zorluk belirtilmemiş."
+      ],
+      "defenders": [
+        "colossus",
+        "ironfist",
+        "gamora",
+        "wolverine",
+        "blackbolt",
+        "punisher",
+        "ironman",
+        "hawkeye",
+        "ronan",
+        "wolverine",
+        "blackbolt",
+        "ironpatriot",
+        "ironman"
+      ],
+      "leadsToBoss": "joefixit"
+    },
+    {
+      "pathLetter": "G",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol G (Şerit 7 - Right, 2nd Left Hidden Lane), Gate: Yok:",
+        "• Sıra: Colossus → Iron Fist → Black Panther → Magneto → Hawkeye → Winter Soldier → Punisher → Iron Man → Hawkeye → Ronan → Wolverine → Black Bolt → Iron Patriot → Iron Man.",
+        "• Karolar: +%300 Can, Regenerasyon (Magneto düğümünde).",
+        "• ÖNEMLİ İpucu: Bu şeritteki gizli Magneto'nun devasa bir Regenerasyonu var; Void gibi iyileşmeyi tersine çeviren bir şampiyon getirmek çok önemli. Heal Block da alternatif olabilir ama çoğu Heal Block şampiyonu #Metal etiketli olduğundan Magneto'ya karşı sorun yaratabilir. Hazırlıksız girilirse bu dövüş ciddi bir tıkanma noktası olabilir."
+      ],
+      "defenders": [
+        "colossus",
+        "ironfist",
+        "blackpanther",
+        "magneto",
+        "hawkeye",
+        "wintersoldier",
+        "punisher",
+        "ironman",
+        "hawkeye",
+        "ronan",
+        "wolverine",
+        "blackbolt",
+        "ironpatriot",
+        "ironman"
+      ],
+      "leadsToBoss": "joefixit"
+    },
+    {
+      "pathLetter": "H",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol H (Şerit 8 - Far Right, En Sağ), Gate: Yok:",
+        "• Sıra: Colossus → Iron Fist → Black Panther → Rocket Raccoon → Vision (OG) → Hulk → Winter Soldier → Punisher → Iron Man → Hawkeye → Star-Lord → Winter Soldier → Black Panther → Rocket Raccoon → Deadpool → Iron Man.",
+        "• Karolar: Yok.",
+        "• İpucu: Endişelenecek büyük bir şey yok."
+      ],
+      "defenders": [
+        "colossus",
+        "ironfist",
+        "blackpanther",
+        "rocketraccoon",
+        "vision",
+        "hulk",
+        "wintersoldier",
+        "punisher",
+        "ironman",
+        "hawkeye",
+        "starlord",
+        "wintersoldier",
+        "blackpanther",
+        "rocketraccoon",
+        "deadpool",
+        "ironman"
+      ],
+      "leadsToBoss": "joefixit"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "joefixit",
+      "bossNodes": [
+        "Stacked Deck, +%50 Saldırı & Can, Heavy-Hitter - Frontline: MCOC rehberine göre bu dövüşte etkili olan karo/mekanik etiketleri (tam açıklamaları kaynakta detaylandırılmamış)."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

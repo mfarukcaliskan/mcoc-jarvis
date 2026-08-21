@@ -1,0 +1,27 @@
+{
+  "name": "5.2.1 - Weird Science (Tuhaf Bilim)",
+  "globalNodes": [
+    "Boss: Psylocke (14.280 prestij). Yapi: 4 yol, yol basina 6-14 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 4 yol, yol basina 6-14 rakip. Quest, Psylocke boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "psylocke"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "psylocke",
+      "bossNodes": [
+        "14.280 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

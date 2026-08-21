@@ -1,0 +1,27 @@
+{
+  "name": "5.2.5 - Insurrection (Ayaklanma)",
+  "globalNodes": [
+    "Boss: Daredevil (Hell's Kitchen) (21.930 prestij). Yapi: 5 yol, yol basina 10-15 rakip. Kaynak: MCOC Fandom Wiki. Act 5 sayfalari 'Battles' sablonu yerine sadece Nodes/Boss bilgisi icerir - hangi sampiyonun hangi yolda ara-dusman oldugu wiki'de hic belgelenmemis (butun Act 5 icin sistematik bir bosluk). Asagidaki yol sayisi/rakip araligi ve boss bilgisi sayfanin kendisinden dogrulanmis gercek veridir.",
+    "Act anlatisi: Grandmaster gelmistir, Contest of Champions'i alt ust etmeyi hedefliyor."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": true,
+      "pathNodes": [
+        "Yol/ara-dusman detayi kaynakta belirtilmemis - Act 5 sayfalari bu bilgiyi icermiyor. Bilinen yapi: 5 yol, yol basina 10-15 rakip. Quest, Daredevil (Hell's Kitchen) boss dovusuyle sona eriyor."
+      ],
+      "defenders": [],
+      "leadsToBoss": "daredevilnetflix"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "daredevilnetflix",
+      "bossNodes": [
+        "21.930 prestij. Ozel buff/debuff node bilgisi kaynakta belirtilmemis."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "3.1.5 - Manipulator (Manipülatör)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 4.400. Kaynak: MCOC Fandom Wiki. Bu quest 4 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Sol Yol - Left Branch):",
+        "• Sıra: War Machine → Rhino → Silver Surfer → Super Skrull → The Hood → Hulkbuster → Juggernaut (boss)."
+      ],
+      "defenders": [
+        "warmachine",
+        "rhino",
+        "silversurfer",
+        "superskrull",
+        "thehood",
+        "hulkbuster"
+      ],
+      "leadsToBoss": "juggernaut"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Üst Yol - Upper Branch):",
+        "• Sıra: Unstoppable Colossus → Angela → Scarlet Witch (Classic) → Odin → Superior Iron Man → Doctor Octopus → Juggernaut (boss)."
+      ],
+      "defenders": [
+        "unstoppablecolossus",
+        "angela",
+        "scarletwitch",
+        "odin",
+        "superiorironman",
+        "doctoroctopus"
+      ],
+      "leadsToBoss": "juggernaut"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Sağ Yol - Right Branch):",
+        "• Sıra: Venom the Duck → Mister Fantastic → Sorcerer Supreme → Vulture → Cosmic Ghost Rider → Dragon Man → Juggernaut (boss)."
+      ],
+      "defenders": [
+        "venomtheduck",
+        "misterfantastic",
+        "sorcerersupreme",
+        "vulture",
+        "cosmicghostrider",
+        "dragonman"
+      ],
+      "leadsToBoss": "juggernaut"
+    },
+    {
+      "pathLetter": "D",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol D (Alt Yol - Lower Branch):",
+        "• Sıra: Jabari Panther → Heimdall → Thor (Jane Foster) → Colossus → Guardian → Doctor Strange → Juggernaut (boss)."
+      ],
+      "defenders": [
+        "jabaripanther",
+        "heimdall",
+        "thorjanefoster",
+        "colossus",
+        "guardian",
+        "doctorstrange"
+      ],
+      "leadsToBoss": "juggernaut"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "juggernaut",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 4.400 seviyesinde standart bir Act 3 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

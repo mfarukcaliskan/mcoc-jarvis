@@ -1,0 +1,68 @@
+{
+  "name": "4.1.1 - Realm Reborn (Diyar Yeniden Doğuyor)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 12.062. Kaynak: MCOC Fandom Wiki. Act 4'ten itibaren 'sınıf kapısı' (class gate) mekaniği başlıyor: bazı düğümlerde birden fazla alternatif rakip bulunur (örn. 'Science gate: Juggernaut' / 'No gate: Hawkeye') ve oyuncu haritadaki paralel düğümlerden birini seçerek ilerler; her iki alternatif de bu quest'in defenders listesine dahil edilmiştir. Hikaye: Maestro ortadan kaybolur, Battlerealm 'Battleworld'e dönüşmeye başlar."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Giriş: Abomination (her iki dalda da karşılaşılır).",
+        "• Path 1: [Science gate: Juggernaut / No gate: Hawkeye] → Drax → AMBUSH (bonus düğüm): Adaptoid.",
+        "• Path 2: [Tech gate: Unstoppable Colossus / Tech gate: Gamora / No gate: Superior Iron Man] (üç alternatiften biri).",
+        "• Path 3: [Cosmic gate: Magik / No gate: Black Bolt].",
+        "• Çıkış: Spider-Man (Classic) → Doctor Strange (boss)."
+      ],
+      "defenders": [
+        "abomination",
+        "juggernaut",
+        "hawkeye",
+        "drax",
+        "adaptoid",
+        "unstoppablecolossus",
+        "gamora",
+        "superiorironman",
+        "magik",
+        "blackbolt",
+        "spiderman"
+      ],
+      "leadsToBoss": "doctorstrange"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Alt Yol - Lower Branch):",
+        "• Giriş: Abomination (her iki dalda da karşılaşılır).",
+        "• Path 1: [Mutant gate: Ms. Marvel / No gate: Hulk] → Cyclops (New Xavier School).",
+        "• Path 2: [Mystic gate: Daredevil / Mystic gate: Ronan / No gate: Captain Marvel] (üç alternatiften biri).",
+        "• Path 3: [Skill gate: Elektra / No gate: Deadpool].",
+        "• Çıkış: Spider-Man (Classic) → Doctor Strange (boss)."
+      ],
+      "defenders": [
+        "abomination",
+        "msmarvel",
+        "hulk",
+        "cyclops",
+        "daredevil",
+        "ronan",
+        "captainmarvelmcu",
+        "elektra",
+        "deadpool",
+        "spiderman"
+      ],
+      "leadsToBoss": "doctorstrange"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "doctorstrange",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 12.062 seviyesinde standart bir Act 4 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}

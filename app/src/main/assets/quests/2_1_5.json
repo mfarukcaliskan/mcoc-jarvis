@@ -1,0 +1,68 @@
+{
+  "name": "2.1.5 - Unstoppable (Durdurulamaz)",
+  "globalNodes": [
+    "Önerilen Takım Gücü (Recommended Team Rating): 1.575. Kaynak: MCOC Fandom Wiki. Bu quest 3 yol sunuyor; wiki kaynağında yollar arasında bir zorluk farkı belirtilmemiştir."
+  ],
+  "paths": [
+    {
+      "pathLetter": "A",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol A (Üst Yol - Upper Branch):",
+        "• Sıra: Thor (Ragnarok) → Storm → Storm (Pyramid X) → Star-Lord → Odin → Silver Centurion → Electro (boss)."
+      ],
+      "defenders": [
+        "thorragnarok",
+        "storm",
+        "stormpyramidx",
+        "starlord",
+        "odin",
+        "silvercenturion"
+      ],
+      "leadsToBoss": "electro"
+    },
+    {
+      "pathLetter": "B",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol B (Orta Yol - Middle Branch):",
+        "• Sıra: Thor → Spider-Man (Stark Enhanced) → Guardian → Jubilee → Super Skrull → Nebula → Electro (boss)."
+      ],
+      "defenders": [
+        "thor",
+        "spidermanstarkenhanced",
+        "guardian",
+        "jubilee",
+        "superskrull",
+        "nebula"
+      ],
+      "leadsToBoss": "electro"
+    },
+    {
+      "pathLetter": "C",
+      "isEasiest": false,
+      "pathNodes": [
+        "Yol C (Alt Yol - Lower Branch):",
+        "• Sıra: Night Thrasher → Rocket Raccoon → Hulkbuster → Thor (Jane Foster) → Stryfe → Black Widow (Deadly Origin) → Electro (boss)."
+      ],
+      "defenders": [
+        "nightthrasher",
+        "rocketraccoon",
+        "hulkbuster",
+        "thorjanefoster",
+        "stryfe",
+        "bwdo"
+      ],
+      "leadsToBoss": "electro"
+    }
+  ],
+  "bosses": [
+    {
+      "championId": "electro",
+      "bossNodes": [
+        "Wiki kaynağında bu boss dövüşü için özel buff/debuff node bilgisi belirtilmemiştir; Önerilen Takım Gücü 1.575 seviyesinde standart bir Act 2 karşılaşmasıdır."
+      ],
+      "idealCounters": []
+    }
+  ]
+}
