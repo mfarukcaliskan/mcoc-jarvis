@@ -528,6 +528,20 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                             InfoCard("Oynanış Rehberi", championDetails?.howToPlay ?: "Oynanış rehberi bulunamadı.")
                         }
                     }
+                    item { SectionTitle("Bağışıklık ve Direnç Detayları") }
+                    item {
+                        if (isDetailsLoading) {
+                            Box(modifier = Modifier.fillMaxWidth().height(100.dp), contentAlignment = Alignment.Center) {
+                                CircularProgressIndicator(color = Color(0xFF00BFFF))
+                            }
+                        } else {
+                            InfoCard(
+                                "Bağışıklıklar",
+                                championDetails?.immunityDetails?.ifBlank { null }
+                                    ?: "Bu şampiyon için detaylı bağışıklık bilgisi bulunamadı."
+                            )
+                        }
+                    }
                     item { SectionTitle("En İyi Kullanım Alanı") }
                     item {
                         if (isDetailsLoading) {

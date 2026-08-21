@@ -20,6 +20,7 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.RelicRepository
 import com.example.myapplication.data.RemoteDataUpdater
 import com.example.myapplication.data.UpdateResult
 import com.example.myapplication.navigation.Screen
@@ -31,6 +32,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         ChampionRepository.initialize(applicationContext)
+        RelicRepository.initialize(applicationContext)
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
@@ -44,6 +46,7 @@ class MainActivity : ComponentActivity() {
             val result = RemoteDataUpdater.checkForUpdates(applicationContext)
             if (result is UpdateResult.Updated) {
                 ChampionRepository.reload(applicationContext)
+                RelicRepository.reload(applicationContext)
             }
         }
     }

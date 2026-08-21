@@ -30,7 +30,7 @@ import com.example.myapplication.data.*
 @Composable
 fun QuestNavigatorScreen() {
     val context = LocalContext.current
-    var selectedActId by remember { mutableStateOf(6) }
+    var selectedActId by remember { mutableStateOf(1) }
     var selectedQuestId by remember { mutableStateOf<String?>(null) }
     var selectedPathLetter by remember { mutableStateOf("A") }
     // Bazı yollarda (Sahne 7 Bölüm 2+) boss yola bağlı değil, oyuncu dövüşten hemen önce
@@ -145,7 +145,7 @@ fun QuestNavigatorScreen() {
                                         fontSize = 18.sp,
                                         modifier = Modifier.padding(bottom = 8.dp)
                                     )
-                                    Divider(color = Color(0xFF334155), thickness = 1.dp, modifier = Modifier.padding(bottom = 8.dp))
+                                    HorizontalDivider(color = Color(0xFF334155), thickness = 1.dp, modifier = Modifier.padding(bottom = 8.dp))
                                     
                                     chapter.quests.forEach { quest ->
                                         Row(
@@ -306,7 +306,7 @@ fun QuestNavigatorScreen() {
                                         grouped.forEach { (bossId, pathsForBoss) ->
                                             val bossChamp = ChampionRepository.champions.firstOrNull { it.id == bossId }
                                             val bossName = bossChamp?.name
-                                                ?: bossId?.replace("_", " ")?.capitalize()
+                                                ?: bossId?.replace("_", " ")?.replaceFirstChar { it.uppercase() }
                                                 ?: "Bilinmeyen Boss"
                                             Column {
                                                 Text(
@@ -367,7 +367,7 @@ fun QuestNavigatorScreen() {
                                             ) {
                                                 items(currentPath.defenders) { defId ->
                                                     val matchedChamp = ChampionRepository.champions.firstOrNull { it.id == defId }
-                                                    val name = matchedChamp?.name ?: defId.replace("_", " ").capitalize()
+                                                    val name = matchedChamp?.name ?: defId.replace("_", " ").replaceFirstChar { it.uppercase() }
                                                     val color = when (matchedChamp?.mcocClass) {
                                                         ChampionClass.SCIENCE -> Color(0xFF22C55E)
                                                         ChampionClass.MYSTIC -> Color(0xFF8B5CF6)
@@ -440,6 +440,7 @@ fun QuestNavigatorScreen() {
                                                             ChampionClass.TECH -> Color(0xFF0EA5E9)
                                                             ChampionClass.MUTANT -> Color(0xFFEAB308)
                                                             ChampionClass.SKILL -> Color(0xFFEF4444)
+                                                            ChampionClass.SUPERIOR -> Color(0xFFFFA726)
                                                         }
                                                         Box(
                                                             modifier = Modifier
@@ -486,7 +487,7 @@ fun QuestNavigatorScreen() {
                                     quest.bosses.forEach { boss ->
                                         val isSelected = boss.championId == (selectedBossChampionId ?: quest.bosses.first().championId)
                                         val bossChampChip = ChampionRepository.champions.firstOrNull { it.id == boss.championId }
-                                        val chipName = bossChampChip?.name ?: boss.championId.replace("_", " ").capitalize()
+                                        val chipName = bossChampChip?.name ?: boss.championId.replace("_", " ").replaceFirstChar { it.uppercase() }
                                         Box(
                                             modifier = Modifier
                                                 .clip(RoundedCornerShape(12.dp))
@@ -508,7 +509,7 @@ fun QuestNavigatorScreen() {
                             }
                             if (currentBoss != null) item {
                                 val bossChamp = ChampionRepository.champions.firstOrNull { it.id == currentBoss.championId }
-                                val bossName = bossChamp?.name ?: currentBoss.championId.replace("_", " ").capitalize()
+                                val bossName = bossChamp?.name ?: currentBoss.championId.replace("_", " ").replaceFirstChar { it.uppercase() }
                                 val bossClassColor = when (bossChamp?.mcocClass) {
                                     ChampionClass.SCIENCE -> Color(0xFF22C55E)
                                     ChampionClass.MYSTIC -> Color(0xFF8B5CF6)
@@ -574,7 +575,7 @@ fun QuestNavigatorScreen() {
                                         ) {
                                             items(currentBoss.idealCounters) { counterId ->
                                                 val counterChamp = ChampionRepository.champions.firstOrNull { it.id == counterId }
-                                                val name = counterChamp?.name ?: counterId.replace("_", " ").capitalize()
+                                                val name = counterChamp?.name ?: counterId.replace("_", " ").replaceFirstChar { it.uppercase() }
                                                 val isOwn = userDeck.any { it.id == counterId }
                                                 
                                                 Box(

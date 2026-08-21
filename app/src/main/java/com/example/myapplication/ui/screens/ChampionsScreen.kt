@@ -74,7 +74,7 @@ fun ChampionsScreen(onChampionClick: (String) -> Unit = {}) {
         searchQuery = searchQuery,
         sortBy = sortBy
     )
-    val filteredChampions = FilterEngine.applyFilter(ChampionRepository.champions, filter)
+    val filteredChampions = FilterEngine.applyFilter(ChampionRepository.playableChampions, filter)
 
     Column(
         modifier = Modifier
@@ -90,7 +90,7 @@ fun ChampionsScreen(onChampionClick: (String) -> Unit = {}) {
             modifier = Modifier.padding(start = 16.dp, top = 16.dp, bottom = 4.dp)
         )
         Text(
-            text = "${filteredChampions.size} / ${ChampionRepository.champions.size} şampiyon",
+            text = "${filteredChampions.size} / ${ChampionRepository.playableChampions.size} şampiyon",
             fontSize = 13.sp,
             color = Color.Gray,
             modifier = Modifier.padding(start = 16.dp, bottom = 8.dp)

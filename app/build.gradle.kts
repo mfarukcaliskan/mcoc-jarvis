@@ -64,6 +64,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 }
 
-tasks.withType<Test> {
+tasks.withType<Test>().configureEach {
+    systemProperty("file.encoding", "UTF-8")
     jvmArgs("-Dfile.encoding=UTF-8", "-Dsun.jnu.encoding=UTF-8")
 }

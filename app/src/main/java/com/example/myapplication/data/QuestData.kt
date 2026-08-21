@@ -32,6 +32,112 @@ object QuestRepository {
     data class QuestItem(val id: String, val name: String)
 
     val acts = listOf(
+        Act(id = 1, name = "Sahne 1: The Contest (Yarışma)", chapters = listOf(
+            Chapter(id = 1, name = "Bölüm 1", quests = listOf(
+                QuestItem(id = "1_1_1", name = "1.1.1 - Surrender (Teslim Ol)"),
+                QuestItem(id = "1_1_2", name = "1.1.2 - The Prize (Ödül)"),
+                QuestItem(id = "1_1_3", name = "1.1.3 - Pursuit (Kovalamaca)"),
+                QuestItem(id = "1_1_4", name = "1.1.4 - Sneak Attack (Ani Baskın)"),
+                QuestItem(id = "1_1_5", name = "1.1.5 - Pathways (Yol Ayrımları)"),
+                QuestItem(id = "1_1_6", name = "1.1.6 - Malice (Hınç)")
+            ))
+        )),
+        Act(id = 2, name = "Sahne 2: Escalation (Tırmanış)", chapters = listOf(
+            Chapter(id = 1, name = "Bölüm 1", quests = listOf(
+                QuestItem(id = "2_1_1", name = "2.1.1 - New Recruits (Yeni Askerler)"),
+                QuestItem(id = "2_1_2", name = "2.1.2 - The Mad Titan (Çılgın Titan)"),
+                QuestItem(id = "2_1_3", name = "2.1.3 - Evolution (Evrim)"),
+                QuestItem(id = "2_1_4", name = "2.1.4 - Adaptation (Adaptasyon)"),
+                QuestItem(id = "2_1_5", name = "2.1.5 - Unstoppable (Durdurulamaz)"),
+                QuestItem(id = "2_1_6", name = "2.1.6 - Conquered (Boyun Eğdirildi)")
+            ))
+        )),
+        Act(id = 3, name = "Sahne 3: End Game (Son Oyun)", chapters = listOf(
+            Chapter(id = 1, name = "Bölüm 1", quests = listOf(
+                QuestItem(id = "3_1_1", name = "3.1.1 - A New Foe (Yeni Bir Düşman)"),
+                QuestItem(id = "3_1_2", name = "3.1.2 - Introduction (Tanıtım)"),
+                QuestItem(id = "3_1_3", name = "3.1.3 - Power Source (Güç Kaynağı)"),
+                QuestItem(id = "3_1_4", name = "3.1.4 - Transcended (Aşkınlaşmış)"),
+                QuestItem(id = "3_1_5", name = "3.1.5 - Manipulator (Manipülatör)"),
+                QuestItem(id = "3_1_6", name = "3.1.6 - The Automaton (Otomat)")
+            )),
+            Chapter(id = 2, name = "Bölüm 2", quests = listOf(
+                QuestItem(id = "3_2_1", name = "3.2.1 - The Doctor (Doktor)"),
+                QuestItem(id = "3_2_2", name = "3.2.2 - The Captain (Kaptan)"),
+                QuestItem(id = "3_2_3", name = "3.2.3 - The Rocket (Roket)"),
+                QuestItem(id = "3_2_4", name = "3.2.4 - The Creator (Yaratıcı)"),
+                QuestItem(id = "3_2_5", name = "3.2.5 - The Original (Orijinal)"),
+                QuestItem(id = "3_2_6", name = "3.2.6 - Thanos Enters (Thanos Sahneye Çıkıyor)")
+            ))
+        )),
+        Act(id = 4, name = "Sahne 4: Rebellion (İsyan)", chapters = listOf(
+            Chapter(id = 1, name = "Bölüm 1", quests = listOf(
+                QuestItem(id = "4_1_1", name = "4.1.1 - Realm Reborn (Diyar Yeniden Doğuyor)"),
+                QuestItem(id = "4_1_2", name = "4.1.2 - A Little Help (Küçük Bir Yardım)"),
+                QuestItem(id = "4_1_3", name = "4.1.3 - Incognito (Gizli)"),
+                QuestItem(id = "4_1_4", name = "4.1.4 - Symbioids (Symbioidler)"),
+                QuestItem(id = "4_1_5", name = "4.1.5 - Dark Times (Karanlık Zamanlar)"),
+                QuestItem(id = "4_1_6", name = "4.1.6 - Trust (Güven)")
+            )),
+            Chapter(id = 2, name = "Bölüm 2", quests = listOf(
+                QuestItem(id = "4_2_1", name = "4.2.1 - Linked Might (Bağlı Güç)"),
+                QuestItem(id = "4_2_2", name = "4.2.2 - The Guillotine Drops (Giyotin Düşüyor)"),
+                QuestItem(id = "4_2_3", name = "4.2.3 - Straight Outta Queens (Doğrudan Queens'ten)"),
+                QuestItem(id = "4_2_4", name = "4.2.4 - Asgard's Champion (Asgard'ın Şampiyonu)"),
+                QuestItem(id = "4_2_5", name = "4.2.5 - Dark Presence (Karanlık Varlık)"),
+                QuestItem(id = "4_2_6", name = "4.2.6 - Defiance (Meydan Okuma)")
+            )),
+            Chapter(id = 3, name = "Bölüm 3", quests = listOf(
+                QuestItem(id = "4_3_1", name = "4.3.1 - Triumphant Return (Muzaffer Dönüş)"),
+                QuestItem(id = "4_3_2", name = "4.3.2 - Dark Omen (Karanlık Alamet)"),
+                QuestItem(id = "4_3_3", name = "4.3.3 - Threats (Tehditler)"),
+                QuestItem(id = "4_3_4", name = "4.3.4 - Inscrutable (Anlaşılmaz)"),
+                QuestItem(id = "4_3_5", name = "4.3.5 - Ace in the Hole (Son Koz)"),
+                QuestItem(id = "4_3_6", name = "4.3.6 - Stand Resolute (Kararlı Duruş)")
+            )),
+            Chapter(id = 4, name = "Bölüm 4", quests = listOf(
+                QuestItem(id = "4_4_1", name = "4.4.1 - Allegiances (Bağlılıklar)"),
+                QuestItem(id = "4_4_2", name = "4.4.2 - Plan in Action (Harekete Geçen Plan)"),
+                QuestItem(id = "4_4_3", name = "4.4.3 - Dauntless (Yılmaz)"),
+                QuestItem(id = "4_4_4", name = "4.4.4 - Known Unknowns (Bilinen Bilinmeyenler)"),
+                QuestItem(id = "4_4_5", name = "4.4.5 - Surge of Power (Güç Dalgası)"),
+                QuestItem(id = "4_4_6", name = "4.4.6 - Culmination (Doruk Nokta)")
+            ))
+        )),
+        Act(id = 5, name = "Sahne 5: Elder's War (Yaşlının Savaşı)", chapters = listOf(
+            Chapter(id = 1, name = "Bölüm 1", quests = listOf(
+                QuestItem(id = "5_1_1", name = "5.1.1 - Fair Play (Adil Oyun)"),
+                QuestItem(id = "5_1_2", name = "5.1.2 - Weaponized (Silahlandırıldı)"),
+                QuestItem(id = "5_1_3", name = "5.1.3 - Back and Forth (Karşılıklı)"),
+                QuestItem(id = "5_1_4", name = "5.1.4 - Taunted (Kışkırtıldı)"),
+                QuestItem(id = "5_1_5", name = "5.1.5 - Overloaded (Aşırı Yüklendi)"),
+                QuestItem(id = "5_1_6", name = "5.1.6 - Dark Angel (Kara Melek)")
+            )),
+            Chapter(id = 2, name = "Bölüm 2", quests = listOf(
+                QuestItem(id = "5_2_1", name = "5.2.1 - Weird Science (Tuhaf Bilim)"),
+                QuestItem(id = "5_2_2", name = "5.2.2 - Strange Bedfellows (Garip Müttefikler)"),
+                QuestItem(id = "5_2_3", name = "5.2.3 - The Don (Patron)"),
+                QuestItem(id = "5_2_4", name = "5.2.4 - Lines in the Sand (Sınır Çizgileri)"),
+                QuestItem(id = "5_2_5", name = "5.2.5 - Insurrection (Ayaklanma)"),
+                QuestItem(id = "5_2_6", name = "5.2.6 - Abrogation (Feshetme)")
+            )),
+            Chapter(id = 3, name = "Bölüm 3", quests = listOf(
+                QuestItem(id = "5_3_1", name = "5.3.1 - Game Begins Anew (Oyun Yeniden Başlıyor)"),
+                QuestItem(id = "5_3_2", name = "5.3.2 - Light in the Tunnel (Tünelin Ucundaki Işık)"),
+                QuestItem(id = "5_3_3", name = "5.3.3 - Dire Warning (Ciddi Uyarı)"),
+                QuestItem(id = "5_3_4", name = "5.3.4 - Foul Conclusion (Kirli Sonuç)"),
+                QuestItem(id = "5_3_5", name = "5.3.5 - Force of Will (İrade Gücü)"),
+                QuestItem(id = "5_3_6", name = "5.3.6 - Fitting Punishment (Layık Ceza)")
+            )),
+            Chapter(id = 4, name = "Bölüm 4", quests = listOf(
+                QuestItem(id = "5_4_1", name = "5.4.1 - Contact (Temas)"),
+                QuestItem(id = "5_4_2", name = "5.4.2 - Friends and Foes (Dostlar ve Düşmanlar)"),
+                QuestItem(id = "5_4_3", name = "5.4.3 - Calculations (Hesaplamalar)"),
+                QuestItem(id = "5_4_4", name = "5.4.4 - Do the Impossible (İmkansızı Yap)"),
+                QuestItem(id = "5_4_5", name = "5.4.5 - Break the Unbreakable (Kırılmazı Kır)"),
+                QuestItem(id = "5_4_6", name = "5.4.6 - Fight the Power (Güce Karşı Savaş)")
+            ))
+        )),
         Act(id = 6, name = "Sahne 6: Yıkım", chapters = listOf(
             Chapter(id = 1, name = "Bölüm 1 - Cavalier Yolu", quests = listOf(
                 QuestItem(id = "6_1_1", name = "6.1.1 - Kara Düzen"),

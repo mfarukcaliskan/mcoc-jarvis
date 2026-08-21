@@ -27,15 +27,8 @@ import com.example.myapplication.data.MetaSeason
 @Composable
 fun MetaScreen() {
     var selectedMode by remember { mutableStateOf("Battlegrounds") }
-    var seasonsList by remember { mutableStateOf<List<MetaSeason>>(emptyList()) }
-    var isLoading by remember { mutableStateOf(true) }
-
-    LaunchedEffect(Unit) {
-        MetaRepository.fetchRemoteSeasons { loaded ->
-            seasonsList = loaded
-            isLoading = false
-        }
-    }
+    var seasonsList by remember { mutableStateOf<List<MetaSeason>>(MetaRepository.seasons) }
+    var isLoading by remember { mutableStateOf(false) }
 
     val filteredSeasons = seasonsList.filter { it.mode == selectedMode }
 

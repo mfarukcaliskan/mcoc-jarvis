@@ -11,7 +11,8 @@ enum class ChampionClass(val displayName: String, val color: Long) {
     MUTANT("Mutant", 0xFFFFEB3B),
     SKILL("Beceri", 0xFFF44336),
     SCIENCE("Bilim", 0xFF4CAF50),
-    MYSTIC("Mistik", 0xFF9C27B0)
+    MYSTIC("Mistik", 0xFF9C27B0),
+    SUPERIOR("Üstün", 0xFFFF9800)
 }
 
 enum class SortOption(val displayName: String) {
@@ -50,7 +51,8 @@ data class ChampionDetails(
     val synergies: List<Synergy> = emptyList(),
     val howToPlay: String = "",
     val bestUse: String = "",
-    val signatureAbility: String = ""
+    val signatureAbility: String = "",
+    val immunityDetails: String = ""
 )
 
 data class Champion(
@@ -92,7 +94,8 @@ data class Champion(
     val blockProficiencyRank: Int = 0,
     // === Phase 2 dynamic fields ===
     val progressions: List<StarProgression> = emptyList(),
-    val abilityDetails: Map<String, String> = emptyMap()
+    // === NPC / boss-only marker ===
+    val isPlayable: Boolean = true
 )
 
 // ==================== REPOSITORY ====================
@@ -100,6 +103,10 @@ data class Champion(
 object ChampionRepository {
     var champions: List<Champion> = emptyList()
         private set
+
+    /** Oynanabilir (kullanıcının roster'ına alabileceği) şampiyonlar — NPC/boss-only kayıtlar hariç. */
+    val playableChampions: List<Champion>
+        get() = champions.filter { it.isPlayable }
 
     private fun parseStringArray(obj: org.json.JSONObject, key: String): List<String> {
         if (!obj.has(key)) return emptyList()
@@ -246,7 +253,7 @@ object ChampionRepository {
                         blockProficiencyRank = parseIntSafe(obj, "blockProficiencyRank"),
                         // Phase 2 fields
                         progressions = parseProgressions(obj),
-                        abilityDetails = parseAbilityDetails(obj)
+                        isPlayable = obj.optBoolean("isPlayable", true)
                     )
                 )
             }
@@ -282,7 +289,8 @@ object ChampionRepository {
                 synergies = synergiesList,
                 howToPlay = parseStringSafe(obj, "howToPlay"),
                 bestUse = parseStringSafe(obj, "bestUse"),
-                signatureAbility = parseStringSafe(obj, "signatureAbility")
+                signatureAbility = parseStringSafe(obj, "signatureAbility"),
+                immunityDetails = parseStringSafe(obj, "immunityDetails")
             )
         } catch (e: Exception) {
             e.printStackTrace()

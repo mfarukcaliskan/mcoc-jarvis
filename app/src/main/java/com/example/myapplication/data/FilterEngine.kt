@@ -187,7 +187,38 @@ object FilterEngine {
         "Slow" to "Yavaşlatma",
         "Stagger" to "Sendeletme",
         "Stun" to "Sersemletme",
-        "Weakness" to "Zayıflık"
+        "Weakness" to "Zayıflık",
+        "Cleanse" to "Temizleme",
+        "Damaging Debuffs" to "Hasar Veren Zayıflatıcılar",
+        "Damaging Effects" to "Hasar Veren Etkiler",
+        "Debuffs" to "Zayıflatıcılar",
+        "Disintegrate" to "Dağılma",
+        "Endurance" to "Dayanıklılık",
+        "Energy Damage Effects" to "Enerji Hasarı Etkileri",
+        "Enervate" to "Güçsüzleştirme",
+        "Falter" to "Sendeleme",
+        "Fatigue" to "Yorgunluk",
+        "Frostbite" to "Donma",
+        "Infuriate" to "Öfkelendirme",
+        "Neuroshock" to "Nörşok",
+        "Non-DOT Debuffs" to "Zamanla Hasar Vermeyen Zayıflatıcılar",
+        "Nova Flame" to "Nova Alevi",
+        "Power Burn Damage" to "Güç Yakma Hasarı",
+        "Power Sting" to "Güç İğnesi",
+        "Purify" to "Arındırma",
+        "Purify Bleed" to "Kanamayı Arındırma",
+        "Purify DOT" to "Zamanla Hasarı Arındırma",
+        "Purify Stun" to "Sersemlemeyi Arındırma",
+        "Regen Rate Mod." to "Yenilenme Oranı Değişimi",
+        "Reversed Controls" to "Kontrolleri Tersine Çevirme",
+        "Special Lock" to "Özel Saldırı Kilidi",
+        "Spectre" to "Hayalet",
+        "Suppression" to "Baskılama",
+        "Taunt" to "Kışkırtma",
+        "Tranquilize" to "Sakinleştirme",
+        "Trauma" to "Travma",
+        "Whiplash" to "Kamçılama",
+        "Wither" to "Solma"
     )
 
     // === Sitedeki tüm abilities listesi ===
@@ -231,11 +262,24 @@ object FilterEngine {
 
     // === Tags listesi ===
     val allTags = listOf(
-        "Villain", "Hero", "Mercenary", "Metal", "Robot", 
-        "Size: S", "Size: M", "Size: L", "Size: XL", 
+        "Villain", "Hero", "Mercenary", "Metal", "Robot",
+        "Size: S", "Size: M", "Size: L", "Size: XL",
         "Offensive: Burst", "Offensive: DOT", "Offensive: Raw Damage",
         "Defensive: Guard", "Defensive: Tank", "Defensive: Utility",
         "Psychic Shielding", "Dimensional Being", "X-Men", "Avengers",
-        "Saga Champions", "Symbiote", "Spider-Verse"
+        "Saga Champions", "Symbiote", "Spider-Verse Heroes",
+        "1000% Awesome", "A-Force", "Alpha Flight", "Blessed",
+        "Brotherhood of Mutants", "Cabal", "Canadian", "Champions",
+        "Chronos Corps", "Control: Counter", "Control: Denial",
+        "Cul's Worthy", "Deathless", "Defenders", "Devilishly Handsome",
+        "EQ: It's Complicated", "EQ: Romance", "Eidol", "Elder",
+        "Fantastic Four", "Flying", "Gamma", "Goals", "God",
+        "Guardians of the Galaxy", "Hydra", "Illuminati", "Inhuman",
+        "Inhuman Royal Family", "Kree", "Legion of Monsters",
+        "Midnight Sons", "Mighty Avengers", "New Avengers", "Noexcuses",
+        "Nofilter", "Rising Power", "S.H.I.E.L.D", "Silver",
+        "Sinister Six", "Stark Tech", "Stellar-Forged", "Thanos's Army",
+        "Thunderbolts", "Valentine's", "Villain of the Contest",
+        "Wakandan", "Winning", "X-Force", "Young Avengers"
     )
 }

@@ -104,7 +104,7 @@ fun DeckAnalyzerScreen() {
 
                     Spacer(modifier = Modifier.height(12.dp))
 
-                    val filteredChamps = ChampionRepository.champions.filter { champ ->
+                    val filteredChamps = ChampionRepository.playableChampions.filter { champ ->
                         champ.name.lowercase().contains(dialogSearchQuery.lowercase()) &&
                                 champ !in deckList.filterNotNull() // prevent duplicate picks
                     }
@@ -439,17 +439,21 @@ fun DeckAnalyzerScreen() {
                     colors = CardDefaults.cardColors(containerColor = Color(0xFF1C2333))
                 ) {
                     Column(modifier = Modifier.padding(16.dp)) {
+                        // Guncel Battlegrounds sezonu: sabit id yerine en yuksek seasonNumber'a gore bulunur,
+                        // boylece MetaData.kt'deki sezon listesi guncellendiginde burasi kirilmaz.
+                        val currentBgSeason = MetaRepository.seasons
+                            .filter { it.mode == "Battlegrounds" }
+                            .maxByOrNull { it.seasonNumber }
+
                         Text(
-                            "🏆 Sezon 40 Meta Uyumluluk Raporu",
+                            "🏆 Sezon ${currentBgSeason?.seasonNumber ?: "-"} Meta Uyumluluk Raporu",
                             fontWeight = FontWeight.Bold,
                             color = Color(0xFFFF9800),
                             fontSize = 14.sp
                         )
                         Spacer(modifier = Modifier.height(12.dp))
 
-                        // Match recomended attackers from Season 40
-                        val s40Season = MetaRepository.seasons.find { it.id == "bg_s40" }
-                        val recommendedIds = s40Season?.nodes?.flatMap { it.bestAttackers }?.distinct() ?: emptyList()
+                        val recommendedIds = currentBgSeason?.nodes?.flatMap { it.bestAttackers }?.distinct() ?: emptyList()
                         
                         val matchedAttackerCount = nonNullDeck.count { it.id in recommendedIds }
                         val matchRatio = if (recommendedIds.isNotEmpty()) {
@@ -493,7 +497,7 @@ fun DeckAnalyzerScreen() {
                                 Spacer(modifier = Modifier.height(4.dp))
                                 Text(
                                     text = if (matchPercent >= 70) {
-                                        "Harika! Desteniz Sezon 40 karolarına (I Am Root, Daunting Doom) karşı mükemmel cevaplara sahip."
+                                        "Harika! Desteniz Sezon ${currentBgSeason?.seasonNumber ?: "-"} karolarına (I Am Root, Daunting Doom) karşı mükemmel cevaplara sahip."
                                     } else if (matchPercent >= 40) {
                                         "Orta Seviye. Sezon meta şampiyonlarından (Hercules, Doom, Torch) birkaçını daha destenize eklemenizi öneririz."
                                     } else {

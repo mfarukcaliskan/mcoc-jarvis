@@ -22,10 +22,10 @@ data class MetaNode(
 object MetaRepository {
     val seasons = listOf(
         MetaSeason(
-            id = "bg_s40", mode = "Battlegrounds", seasonNumber = 40,
-            title = "Savaş Alanları Sezon 40",
+            id = "bg_s41", mode = "Battlegrounds", seasonNumber = 41,
+            title = "Savaş Alanları Sezon 41",
             weekRange = "Hafta 1-4",
-            dateRange = "24 Haziran - 21 Temmuz 2026",
+            dateRange = "5 Ağustos - 9 Eylül 2026",
             nodes = listOf(
                 MetaNode(
                     name = "I Am Root!", 
@@ -62,10 +62,10 @@ object MetaRepository {
             description = "Bu sezon Fury ve güç kontrolü mekanikleri ön planda. Doom ve Groot özel güçlendirilmiş."
         ),
         MetaSeason(
-            id = "bg_s39", mode = "Battlegrounds", seasonNumber = 39,
-            title = "Savaş Alanları Sezon 39",
+            id = "bg_s40", mode = "Battlegrounds", seasonNumber = 40,
+            title = "Savaş Alanları Sezon 40",
             weekRange = "Hafta 1-4",
-            dateRange = "27 Mayıs - 23 Haziran 2026",
+            dateRange = "1 Temmuz - 5 Ağustos 2026",
             nodes = listOf(
                 MetaNode(
                     name = "Buffet", 
@@ -96,130 +96,21 @@ object MetaRepository {
             description = "Fury ve buff bazlı savaş mekanikleri. Buff silme yeteneği olan şampiyonlar kritik."
         ),
         MetaSeason(
-            id = "aw_s28", mode = "Alliance War", seasonNumber = 28,
-            title = "İttifak Savaşı Sezon 28",
-            weekRange = "Hafta 1-8",
-            dateRange = "1 Haziran - 28 Temmuz 2026",
+            id = "aw_s69", mode = "Alliance War", seasonNumber = 69,
+            title = "İttifak Savaşı Sezon 69",
+            weekRange = "Hafta 1-4",
+            // Bitiş tarihi resmi kaynaklarda henüz yayınlanmamıştı; başlangıç
+            // (bir önceki sezonun bittiği gün) doğrulandı, bitiş S68'in 28
+            // günlük döngüsünden çıkarıldı — kesin teyit edilirse güncellenmeli.
+            dateRange = "12 Ağustos - 9 Eylül 2026 (tahmini)",
             nodes = listOf(
                 MetaNode(
-                    name = "Flow", 
-                    effect = "Düşman 10 vuruştan sonra Durdurulamaz olur",
-                    bestAttackers = listOf("shang_chi", "void", "spiderman2099"),
-                    bestDefenders = listOf("hercules", "doctordoom", "onslaught")
-                ),
-                MetaNode(
-                    name = "Aggression: Fury", 
-                    effect = "Düşmanın saldırısı zamanla artar",
-                    bestAttackers = listOf("void", "spiderman2099", "ghost"),
-                    bestDefenders = listOf("kingpin", "onslaught", "doctordoom")
-                ),
-                MetaNode(
-                    name = "Unblockable Finale", 
-                    effect = "SP3 engellenemez",
-                    bestAttackers = listOf("magik", "doctordoom", "warlock"),
-                    bestDefenders = listOf("onslaught", "rintrah", "hercules")
-                ),
-                MetaNode(
-                    name = "Enhanced Armor Up", 
-                    effect = "Zırh buff'ları %200 güçlenir",
-                    bestAttackers = listOf("hulkling", "hercules", "void"),
-                    bestDefenders = listOf("doctordoom", "onslaught", "warlock")
-                ),
-                MetaNode(
-                    name = "Debuff Immune", 
-                    effect = "Düşman tüm debuff'lara bağışık",
-                    bestAttackers = listOf("hercules", "shang_chi", "ghost"),
-                    bestDefenders = listOf("onslaught", "doctordoom", "kingpin")
+                    name = "Ricochet (Defans) / Stabilize (Saldırı)",
+                    effect = "Savunmacı her 12 saniyede saldırgana %10 Şiddetli Dengesizlik (Unsteady) debuff'ı uygular (15sn, en fazla 3 yığın, saldırgan uzaktayken durur). Saldırgan her 15 komboda %20 Dayanıklılık (Endurance) pasifi kazanarak buna karşı koyar."
                 )
             ),
             bannedChampions = listOf(),
-            description = "Savunma ağırlıklı sezon. Durdurulamaz ve Zırh mekanikleri kritik. Debuff immune yollar çok."
+            description = "Ricochet/Stabilize taktiği — bu taktiğin ikinci sezonu, güncellenmiş bir kara liste ile. Dengesizlik debuff'ını yönetebilen veya Dayanıklılık pasifinden faydalanan şampiyonlar öne çıkıyor."
         )
     )
-
-    fun fetchRemoteSeasons(onComplete: (List<MetaSeason>) -> Unit) {
-        Thread {
-            try {
-                val url = java.net.URL("https://raw.githubusercontent.com/FarukMCOC/mcoc-meta/main/seasons.json")
-                val connection = url.openConnection() as java.net.HttpURLConnection
-                connection.requestMethod = "GET"
-                connection.connectTimeout = 5000
-                connection.readTimeout = 5000
-                
-                if (connection.responseCode == 200) {
-                    val reader = java.io.BufferedReader(java.io.InputStreamReader(connection.inputStream))
-                    val jsonString = reader.use { it.readText() }
-                    
-                    val parsedSeasons = mutableListOf<MetaSeason>()
-                    val jsonArray = org.json.JSONArray(jsonString)
-                    for (i in 0 until jsonArray.length()) {
-                        val obj = jsonArray.getJSONObject(i)
-                        val id = obj.getString("id")
-                        val mode = obj.getString("mode")
-                        val seasonNumber = obj.getInt("seasonNumber")
-                        val title = obj.getString("title")
-                        val weekRange = obj.getString("weekRange")
-                        val dateRange = obj.getString("dateRange")
-                        val description = obj.getString("description")
-                        
-                        val nodesArray = obj.getJSONArray("nodes")
-                        val nodes = mutableListOf<MetaNode>()
-                        for (j in 0 until nodesArray.length()) {
-                            val nodeObj = nodesArray.getJSONObject(j)
-                            
-                            val bestAttackers = mutableListOf<String>()
-                            if (nodeObj.has("bestAttackers")) {
-                                val attArr = nodeObj.getJSONArray("bestAttackers")
-                                for (k in 0 until attArr.length()) {
-                                    bestAttackers.add(attArr.getString(k))
-                                }
-                            }
-                            
-                            val bestDefenders = mutableListOf<String>()
-                            if (nodeObj.has("bestDefenders")) {
-                                val defArr = nodeObj.getJSONArray("bestDefenders")
-                                for (k in 0 until defArr.length()) {
-                                    bestDefenders.add(defArr.getString(k))
-                                }
-                            }
-                            
-                            nodes.add(
-                                MetaNode(
-                                    name = nodeObj.getString("name"),
-                                    effect = nodeObj.getString("effect"),
-                                    bestAttackers = bestAttackers,
-                                    bestDefenders = bestDefenders
-                                )
-                            )
-                        }
-                        
-                        val bannedArray = obj.getJSONArray("bannedChampions")
-                        val banned = mutableListOf<String>()
-                        for (j in 0 until bannedArray.length()) {
-                            banned.add(bannedArray.getString(j))
-                        }
-                        
-                        parsedSeasons.add(
-                            MetaSeason(
-                                id = id,
-                                mode = mode,
-                                seasonNumber = seasonNumber,
-                                title = title,
-                                weekRange = weekRange,
-                                dateRange = dateRange,
-                                nodes = nodes,
-                                bannedChampions = banned,
-                                description = description
-                            )
-                        )
-                    }
-                    onComplete(parsedSeasons)
-                    return@Thread
-                }
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-            onComplete(seasons)
-        }.start()
-    }
 }

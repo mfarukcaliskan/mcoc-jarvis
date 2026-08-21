@@ -21,7 +21,7 @@ sealed class UpdateResult {
 }
 
 /**
- * champions_db.json, details ve quests klasörlerindeki json dosyaları ile roster.json'ı
+ * champions_db.json, relics.json ile details ve quests klasörlerindeki json dosyalarını
  * GitHub'daki mcoc-jarvis reposundan (raw.githubusercontent.com) kontrol edip,
  * data_manifest.json'daki sürüm daha yeniyse indirir. Tüm dosyalar SHA-256 ile
  * doğrulanmadan hiçbiri diske yazılmaz (all-or-nothing) — yarım/bozuk güncelleme
