@@ -1,8 +1,8 @@
 {
-  "dataVersion": 33,
-  "generatedAt": "2026-08-21T12:55:24Z",
+  "dataVersion": 34,
+  "generatedAt": "2026-09-28T00:23:36Z",
   "files": {
-    "champions_db.json": "d1fcac86bf76fd7d5711fa96254faba2c46ffcc8a6abd5893effb58798c5db62",
+    "champions_db.json": "4b4a7f6c10816af38f744cb5d4da8e8b2f2b10436f9f18ffd4386e40563166cc",
     "details/abomination.json": "bb234ce04a88166581e2e24c81820e4edba8284d2c70fe6cf76da658f06794e4",
     "details/abominationimmortal.json": "ef731f78c732ed48b646567f0ab79d78d87f15baf8e74fdc090811471629bcdb",
     "details/absorbingman.json": "62fc1a36311a375b227d2ff44bdf92c3450aa458be76d56d3ef91bf5eb1b5258",
