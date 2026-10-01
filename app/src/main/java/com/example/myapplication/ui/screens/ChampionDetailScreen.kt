@@ -27,6 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.myapplication.data.Champion
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.GuiaTierRepository
 
 fun calculateDetailDynamicPrestige(champion: Champion, star: Int, rank: Int, sig: Int): Int {
     val starProg = champion.progressions.find { it.starRating == star } ?: champion.progressions.firstOrNull()
@@ -344,6 +345,21 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                     item { SectionTitle("Relative Max Base Stats") }
                     item {
                         StatsCardWithRanks(champion, dynamicPrestige, dynamicAttack, dynamicHealth)
+                    }
+                    // GuiaMTC: yazarın kişisel tier/derece değerlendirmesi (oyun verisi değil)
+                    val guiaOffense = GuiaTierRepository.offenseTier(champion.id)
+                    val guiaDefense = GuiaTierRepository.defenseTier(champion.id)
+                    val guiaProfile = GuiaTierRepository.profile(champion.id)
+                    if (guiaOffense != null || guiaDefense != null || guiaProfile != null) {
+                        item { SectionTitle("GuiaMTC Değerlendirmesi (Eylül 2026, yazarın görüşü)") }
+                        item {
+                            val lines = buildList {
+                                guiaOffense?.let { add("Saldırı tier: ${it.tier}" + (it.signature?.let { s -> "  ($s)" } ?: "")) }
+                                guiaDefense?.let { add("Savunma tier: ${it.tier}" + (it.signature?.let { s -> "  ($s)" } ?: "")) }
+                                guiaProfile?.let { add("Genel puan: ${it.rating} / 10") }
+                            }
+                            InfoCard("Kaynak: guiamtc.com", lines.joinToString("\n"))
+                        }
                     }
                     item { SectionTitle("Stat Focus") }
                     item {

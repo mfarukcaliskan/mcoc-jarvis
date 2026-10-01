@@ -29,8 +29,8 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 | Best Defenders (6 sınıf) | Savunmacı başına Portekizce ipucu + counter portreleri | **Alındı** → `guia_counters.json` (152 savunmacı, 1.154 counter, haftalık otomatik güncellenir) |
 | Globais AW (15 sayfa) + Ricochet | Taktik mekaniği (PT) + savunmacı/saldırgan listeleri | **Alındı** → `guia_aw_globals.json` (16 taktik). Etiketsiz yardımcı şerit listeleri kısmi (aşağıya bakın) |
 | Raids [September 2026] | 3 rol × 4 amplifikatör, şampiyon listeleri | **Alındı** → `guia_raids.json` |
-| Campeões & Rotação (6 sınıf) | Şampiyon profili: ad, 1-10 yıldız, yetenek/bağışıklık maddeleri (PT) | Metin okunabilir; ayrıştırma sırada |
-| Tier Lists (Offense/Defense, Eylül 2026) | 3 görsel, sınıf sütunlu tier tablosu + imza seviyesi etiketleri | Özel ayrıştırıcı gerekiyor; sırada |
+| Campeões & Rotação (6 sınıf) | Şampiyon profili: ad, 1-10 yıldız, yetenek/bağışıklık maddeleri (PT) | **Alındı** → `guia_champions.json` (327 profil, 0 sınıf uyuşmazlığı). Derece = yazarın görüşü. 6 profilde yıldız sayısı ile yazılı derece çelişiyor (`ratingConflict`), 21 profilde bir bağışıklık maddesi mcoc.gg verisinde yok (`immunityNotInMcocgg`) |
+| Tier Lists (Offense/Defense, Eylül 2026) | 3 görsel, sınıf sütunlu tier tablosu + imza seviyesi etiketleri | **Alındı** → `guia_tiers.json` (ofansif 330, defansif 167 şampiyon; 497 karonun hepsi gözle doğrulandı). Savunma listesi sitede yalnızca 10-8 derece satırlarını içeriyor |
 | AW - Season 69 | 44 görsel: yol/düğüm/savunmacı/saldırgan tabloları | Tablo ayrıştırıcı gerekiyor; sırada |
 | AW - BIG THING (Ekim 2026) | Yeni AW modu, 94 görsel | Sırada |
 | Immunities / Abilities / DOT | Bağışıklık, yetenek, DOT listeleri | mcoc.gg ile çapraz doğrulanacak; mcoc.gg birincil kaynak |
@@ -45,6 +45,9 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 | Eventos / Contacts, Home | Hizmet/iletişim/duyuru | **Alınmadı** (uygulama verisi değil) |
 
 ## Bilinen eksikler (bu turda alınmayanlar)
+
+- Tier listesinde Summoned Symbiote yok (sitede de yok); Wolverine (7-7.5) karosunun imza etiketi kırpılmış, `signature: null`.
+- 5 oynanabilir şampiyon GuiaMTC profilinde yok: Weapon X, Summoned Symbiote, Gwenom, Spider-Man Noir, Green Goblin (Stellar Forged) (çoğu sitenin son güncellemesinden sonra çıktı).
 
 - **Etiketsiz yardımcı şerit listeleri:** Wrath "Unstoppable Counters" (kısmi), Poder de Proeza "Remove Prowess Effects" (kısmi), Desviar "Evade & Autoblock Counters", "Atacantes necessários (Hazard Shift)". Küçük, etiketsiz ve farklı çizim sürümlü portrelerde güvenilir eşleşme alınamadı.
 - **Disp-ERR-são Mística savunmacıları:** 25'ten 7'si tanımlanamadı (`unidentified: 7`).

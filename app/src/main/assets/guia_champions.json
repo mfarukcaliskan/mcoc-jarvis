@@ -1,0 +1,7122 @@
+{
+ "source": "https://www.guiamtc.com/campeões-rotação (6 sınıf sayfası)",
+ "capturedAt": "2026-10-01",
+ "note": "rating: GuiaMTC yazarının 1-10 değerlendirmesi (görüş, oyun verisi değil). abilitiesPt/immunitiesPt sitedeki madde işaretleridir (Portekizce, aynen). immunityKeys yalnızca \"Imune a <tek terim>\" biçimindeki açık maddelerden türetildi; immunityNotInMcocgg o maddenin mcoc.gg verisinde bulunmadığını gösterir (koşullu bağışıklık ya da eski/yanlış bilgi olabilir). Prestij sayıları alınmadı (eskimiş).",
+ "champions": [
+  {
+   "id": "adamwarlock",
+   "name": "Adam Warlock",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria",
+    "Tem acesso a Provocação"
+   ],
+   "immunitiesPt": [
+    "Imune a Anulação",
+    "Imune a Choque (Câmara de Estase)",
+    "Imune a Incinerar (Câmara de Estase)",
+    "Imune a Onda de Frio ( Câmara de Estase)"
+   ],
+   "immunityKeys": [
+    "Nullify",
+    "Shock",
+    "Incinerate",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "airwalker",
+   "name": "Air Walker",
+   "mcocClass": "COSMIC",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Fúria",
+    "Tem acesso a Insuperável (depois do Especial 3)",
+    "Tem acesso a Inbloqueável (pausa durante os especiais)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "angela",
+   "name": "Angela",
+   "mcocClass": "COSMIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Apara golpes que não fazem contacto",
+    "Evita Autobloco",
+    "Tem acesso a Armadura",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração em 100% de TODOS os efeitos negativos",
+    "35% Resistente a Anulação (por cada bónus)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "annihilus",
+   "name": "Annihilus",
+   "mcocClass": "COSMIC",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Autobloco (Precisão Certeira, quando é provocado)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Armadura (sinergia com o Hulk Ragnarok)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável (quando é provocado)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Onda de Frio",
+    "Imune a Drenagem / Queima de poder",
+    "Imune a Bloqueio de Poder"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Coldsnap",
+    "Power Lock"
+   ]
+  },
+  {
+   "id": "betaraybill",
+   "name": "Beta Ray Bill",
+   "mcocClass": "COSMIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Evita Insuperável (quando tem o Passivo de Ímpeto)",
+    "Aplica Choque",
+    "Remove Armadura (Pulverização)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Pulverização de Armadura"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Drenagem de Poder",
+    "Imune a Evasão",
+    "50% Resistente a Sangramento",
+    "50% Resistente a Veneno"
+   ],
+   "immunityKeys": [
+    "Shock",
+    "Power Drain"
+   ]
+  },
+  {
+   "id": "blackbolt",
+   "name": "Black Bolt",
+   "mcocClass": "COSMIC",
+   "rating": 3.0,
+   "stars": 3,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem Golpes Críticos Garantidos (sinergia com o Quicksilver)",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "captainmarvelmcu",
+   "name": "Cap . Marvel Movie",
+   "mcocClass": "COSMIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Fúria",
+    "Tem acesso a Insuperável (sinergia com a Rogue)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "captainmarvel",
+   "name": "Cap . Marvel",
+   "mcocClass": "COSMIC",
+   "rating": 3.0,
+   "stars": 3,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "carnage",
+   "name": "Carnage",
+   "mcocClass": "COSMIC",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Sangramento",
+    "Tem acesso a Quebra de Armadura (contra imunes a sangramento)",
+    "Tem acesso a Insuperável (sinergia com a Rogue)",
+    "Tem acesso a Inbloqueável (Durante os Especiais)",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Knull)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "corvusglaive",
+   "name": "Corvus Glaive",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (25%, contra Tecnológicos)",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, sinergia com Proxima M.)",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Inbloqueável (Durante o Especial 2)",
+    "Tem Golpes Críticos Garantidos",
+    "Tem acesso a Drenagem de Poder (Especial 2)",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "100% Resistente a Sangramento",
+    "100% Resistente a Choque",
+    "100% Resistente a Onda de Frio"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "cosmicghostrider",
+   "name": "Cosmic Ghost Rider",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Inbloqueável",
+    "Evita Invisibilidade (Bónus de Vigilância)",
+    "Tem acesso a Bloqueio d e Poder",
+    "Bloqueia a Cura (a cada 5 julgamentos)",
+    "Tem acesso a Anulação (Selar Destino)",
+    "Tem acesso a Armadura",
+    "Aplica Incinerar",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Incinerar"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "cullobsidian",
+   "name": "Cull Obsidian",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Autobloco (com 5 cargas de Thanos)",
+    "Apara golpes que não fazem contacto",
+    "Tem acesso a Fúria",
+    "Tem acesso a Quebra de Armadura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "darkphoenix",
+   "name": "Dark Phoenix",
+   "mcocClass": "COSMIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Chama Nova",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem acesso a Pulverização de Armadura",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Fúria",
+    "Tem acesso a Enraizar",
+    "Tem acesso a Inbloqueável"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Drenagem de poder",
+    "Imune a Chama Nova"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Power Drain"
+   ]
+  },
+  {
+   "id": "drax",
+   "name": "Drax",
+   "mcocClass": "COSMIC",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Sangramento",
+    "Apara golpes que não fazem contacto (sinergia com Mantis)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "galan",
+   "name": "Galan",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade e Autobloco (Sentido Certeiro, nos Especiais, com 3 Intensidade Solar)",
+    "Tem acesso a Fúria",
+    "Aplica Incinerar",
+    "Tem acesso a Inbloqueável (Nos Especiais)",
+    "Tem acesso a Insuperável (Quando a colheita está ativa)"
+   ],
+   "immunitiesPt": [
+    "Imune a Anulação",
+    "Imune a Drenagem & Queima de poder",
+    "Imune a Bloqueio de Poder"
+   ],
+   "immunityKeys": [
+    "Nullify",
+    "Power Lock"
+   ]
+  },
+  {
+   "id": "gamora",
+   "name": "Gamora",
+   "mcocClass": "COSMIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Sangramento",
+    "Evita Invisibilidade (se tiver mais de 8 bónus)",
+    "Reduz Todas as Habilidades (10% por cada bónus contra os Robots, sinergia com Nebula)",
+    "Tem acesso a Quebra de Armadura",
+    "Tem Golpes Críticos Garantidos (Especial 2)",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, Especial 3)",
+    "Aplica Choque",
+    "Tem acesso a Inbloqueável (E2, sinergia com a Mantis)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "gladiator",
+   "name": "Gladiator",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Insuperável",
+    "Aplica Onda de Frio",
+    "Aplica Incinerar",
+    "Evita Invisibilidade",
+    "Tem acesso a Enraizar (Sinergia com Isophyne)",
+    "Tem acesso a Atordoamento Passivo (pesado)"
+   ],
+   "immunitiesPt": [
+    "Imune a Drenagem & Queima de poder",
+    "Imune a Anulação (Bónus de incentivo)"
+   ],
+   "immunityKeys": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "gorr",
+   "name": "Gorr",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Aplica Veneno",
+    "Evita Autobloco",
+    "Aplica Choque",
+    "Aplica Degeneração",
+    "Tem acesso a Fúria (Especial 2)",
+    "Tem acesso a Inbloqueável"
+   ],
+   "immunitiesPt": [
+    "Imune a Bloqueio de Cura"
+   ],
+   "immunityKeys": [
+    "Heal Block"
+   ]
+  },
+  {
+   "id": "groot",
+   "name": "Groot",
+   "mcocClass": "COSMIC",
+   "rating": 1.5,
+   "stars": 1,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento (Especial 3)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável (Especial 2)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Reduz a Duração em 55% de TODOS os efeitos negativos"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "heimdall",
+   "name": "Heimdall",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Fúria",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, Especiais)",
+    "Apara golpes que não fazem contacto",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "60% Resistente a Incinerar",
+    "60% Resistente a Veneno",
+    "Imune a Selar Destino"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "hela",
+   "name": "Hela",
+   "mcocClass": "COSMIC",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Inbloqueável (sinergia com Purgatory)",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "hercules",
+   "name": "Hercules",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz as Habilidades Ofensivas (60%, bónus de enfurecimento)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Quebra de Armadura (sinergia com o Cap IW)",
+    "Evita Invisibilidade e Autobloco (Sentido Certeiro, no E1)",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "50% Resistente a Sangramento",
+    "15% Resistente ao Veneno"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "hulkling",
+   "name": "Hulkling",
+   "mcocClass": "COSMIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem acesso a Quebra de Armadura (Sinergia com Squirrel Girl)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria",
+    "Tem acesso a Perfuração"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Choque",
+    "Imune a Drenagem & Queima de poder"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Shock"
+   ]
+  },
+  {
+   "id": "hyperion",
+   "name": "Hyperion",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Tem acesso a Fúria",
+    "Tem acesso a Quebra de Armadura (Especial 2)",
+    "Tem acesso a Insuperável (sinergia com Gladiator)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "ikaris",
+   "name": "Ikaris",
+   "mcocClass": "COSMIC",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável (Especial 2)",
+    "Aplica Incinerar",
+    "Tem acesso a Armadura",
+    "Tem acesso a Insuperável (sinergia com Gladiator)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Choque",
+    "20% Resistente ao Veneno"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Shock"
+   ]
+  },
+  {
+   "id": "imperiosa",
+   "name": "Imperiosa",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Enraizar",
+    "Aplica Corrosão",
+    "Tem acesso a Perfuração"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Desintegração",
+    "Imune a Drenagem de poder"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Power Drain"
+   ]
+  },
+  {
+   "id": "msmarvelkamalakhan",
+   "name": "Kamala Khan",
+   "mcocClass": "COSMIC",
+   "rating": 5.5,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Quebra de Armadura (sinergia com Cap. Marvel)",
+    "Tem acesso a Anulação"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "karolinadean",
+   "name": "Karolina Dean",
+   "mcocClass": "COSMIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Apara golpes que não fazem contacto",
+    "Tem acesso a Atordoamento Passivo (pesado)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Evasão",
+    "Aplica Incinerar",
+    "Tem acesso a Pulverização de Armadura"
+   ],
+   "immunitiesPt": [
+    "100% Resistência a Incineração",
+    "Imune a Onda de Frio",
+    "Imune a Bloqueio de Poder"
+   ],
+   "immunityKeys": [
+    "Coldsnap",
+    "Power Lock"
+   ]
+  },
+  {
+   "id": "kinggroot",
+   "name": "King Groot",
+   "mcocClass": "COSMIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza (sinergia com Groxo)",
+    "Aplica Veneno",
+    "Tem acesso a Fúria",
+    "Tem acesso a Quebra de Armadura"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Drenagem & Queima de poder",
+    "Purificação de 100% (com as fúrias)"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "deathlesskinggroot",
+   "name": "King Groot (Deathless)",
+   "mcocClass": "COSMIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Tem acesso a Fúria",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Insuperável (Apenas na Nec ropolis )"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Drenagem / Queima de poder",
+    "Purificação de 100% (com as fúrias)"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "knull",
+   "name": "Knull",
+   "mcocClass": "COSMIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, nos médios, pesados e E 1 )",
+    "Aplica Sangramento (passivo)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria (sinergia com Venom)",
+    "Tem acesso a Insuperável",
+    "Aplica Degeneração",
+    "Tem acesso a Reversão de Controlos"
+   ],
+   "immunitiesPt": [
+    "60% Resistente ao Sangramento",
+    "60% Resistente ao Veneno",
+    "40% Resistente a Degeneração"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "maestro",
+   "name": "Maestro",
+   "mcocClass": "COSMIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Perfuração",
+    "Tem acesso a Enraizar",
+    "Tem acesso a Fúria",
+    "Tem acesso a Evasão"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Choque",
+    "Imune a Incinerar"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Shock",
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "medusa",
+   "name": "Medusa",
+   "mcocClass": "COSMIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Evita Esquiva e Autobloco (Precisão Certeira )",
+    "Tem acesso a Fúria",
+    "Reduz Todas as Habilidades (em 100%, contra Robots)",
+    "Tem acesso a Autobloco",
+    "Aplica Sangramento"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "msmarvel",
+   "name": "Miss Marvel",
+   "mcocClass": "COSMIC",
+   "rating": 2.0,
+   "stars": 3,
+   "ratingConflict": true,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável (sinergia com Cap. Marvel)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "nova",
+   "name": "Nova",
+   "mcocClass": "COSMIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Autobloco",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, Especial 1)",
+    "Tem acesso a Quebra de Armadura (contra tecnológicos)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "odin",
+   "name": "Odin",
+   "mcocClass": "COSMIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Armadura",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, E1)",
+    "50% Resistente a Choque (sinergia com Future Ant-Man)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "phylavell",
+   "name": "Phyla-Vell",
+   "mcocClass": "COSMIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "100% Resistente a Queima de poder",
+    "Evita Autobloco (Abalo)",
+    "Tem Golpes Críticos Garantidos"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Controlos Invertidos (sinergia com Moondragron)",
+    "100% Resistente a Queima de Poder Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "phoenix",
+   "name": "Phoenix",
+   "mcocClass": "COSMIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Atordoamento Passivo (pesado)",
+    "Aplica Incinerar",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Evita Autobloco (com 3 Fúrias)",
+    "Tem acesso a Invisibilidade (sinergia com Madelyne Pryor)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Drenagem / Queima de poder",
+    "Imune a Bloqueio de Poder",
+    "Imune a Bloqueio de Cura"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Power Lock",
+    "Heal Block"
+   ]
+  },
+  {
+   "id": "proximamidnight",
+   "name": "Proxima Midnight",
+   "mcocClass": "COSMIC",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Evita Esquiva e Autobloco (Precisão Certeira, quando completa as missões de Thanos)",
+    "Tem acesso a Fúria",
+    "Apara golpes que não fazem contacto",
+    "Bloqueia a Cura",
+    "Tem acesso a Quebra de Armadura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "redgoblin",
+   "name": "Red Goblin",
+   "mcocClass": "COSMIC",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade e Autobloco (quando o frenzy está ativo)",
+    "Evita Esquiva (contra heróis do aranha-verso)",
+    "Tem acesso a Drenagem de Poder (com as bombas)",
+    "Tem acesso a Quebra de Armadura",
+    "Aplica Incinerar",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Drenagem / Queima de poder"
+   ],
+   "immunityKeys": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "ronan",
+   "name": "Ronan",
+   "mcocClass": "COSMIC",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Imune a Veneno",
+    "Tem acesso a Quebra de Armadura (apenas aplica quebra de armadura se o inimigo tiver armadura ativa)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Fraqueza (apenas aplica fraqueza se o inimigo tiver fúria ativa)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "scream",
+   "name": "Scream",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Quebra de Armadura",
+    "Evita Autobloco",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Autobloco"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "sersi",
+   "name": "Sersi",
+   "mcocClass": "COSMIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Insuperável (sinergia com o Porco Aranha)",
+    "Tem Golpes Críticos Garantidos (Ataques Especiais, sinergia com o Hercules)",
+    "Aplica Incinerar (E3)",
+    "Tem acesso a Armadura (sinergia com Cap IW)",
+    "Tem acesso a Evasão"
+   ],
+   "immunitiesPt": [
+    "90% Resistente a Sangramento",
+    "90% Resistente ao Choque",
+    "90% Resistente a Incinerar (com 3 transmutações)",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "silversurfer",
+   "name": "Silver Surfer",
+   "mcocClass": "COSMIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável",
+    "Evita Esquiva e Autobloco ( Ataque Certeiro, sinergia com o Galan)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Armadura",
+    "Tem acesso a Quebra de Armadura",
+    "Evita Invisibilidade (Bónus de Vigilância)"
+   ],
+   "immunitiesPt": [
+    "100% Resistente ao Choque",
+    "100% Resistente a Incinerar",
+    "100% Resistente a Onda de Frio"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "spidermansymbiote",
+   "name": "Spider-Man (Symbiote)",
+   "mcocClass": "COSMIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Esquiva",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, sinergia com Shocker)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Provocação (sinergia com Spider-Man)",
+    "Tem acesso a Insuperável ( sinergia com Baron Zemo )"
+   ],
+   "immunitiesPt": [
+    "Imune a Bloqueio de Cura",
+    "Imune a Drenagem / Queima de poder Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": [
+    "Heal Block"
+   ]
+  },
+  {
+   "id": "superskrull",
+   "name": "Super Skrull",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade (Bónus de Vigilância)",
+    "Evita Autobloco",
+    "Aplica Chama Nova",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Quebra de Armadura (sinergia com Iron Fist)",
+    "Tem acesso a Armadura",
+    "Tem acesso a Fúria",
+    "Tem acesso a Invisibilidade",
+    "Aplica Incinerar"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Incinerar"
+   ],
+   "immunityKeys": [
+    "Shock",
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "superiorironman",
+   "name": "Superior Iron Man",
+   "mcocClass": "COSMIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Autobloco",
+    "Tem acesso a Fúria",
+    "Apara golpes que não fazem contacto",
+    "Tem acesso a Quebra de Armadura"
+   ],
+   "immunitiesPt": [
+    "50 a 100% Resistência a Sangramento",
+    "50 a 100% Resistência a Incineração",
+    "50 a 100% Resistência a Choque"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "terrax",
+   "name": "Terrax",
+   "mcocClass": "COSMIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem Golpes Críticos Garantidos (ataque pesado durante enquanto o campo rochoso está ativo)",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem acesso a Insuperável (sinergia com Supervisor)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Choque",
+    "Imune a Drenagem / Queima de poder (contra os Metais)",
+    "Imune a Bloqueio de Poder (contra os Metais)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Shock",
+    "Power Lock"
+   ]
+  },
+  {
+   "id": "thanos",
+   "name": "Thanos",
+   "mcocClass": "COSMIC",
+   "rating": 4.0,
+   "stars": 4,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Fúria",
+    "Bloqueia a Cura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "deathlessthanos",
+   "name": "Thanos (Deathless)",
+   "mcocClass": "COSMIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Evita Esquiva",
+    "Evita Invisibilidade",
+    "Tem acesso a Fúria",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Pulverização de Armadura",
+    "Aplica Corrosão",
+    "Tem acesso a Atordoamento Passivo (pesado)"
+   ],
+   "immunitiesPt": [
+    "Imune a Onda de Frio",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Coldsnap",
+    "Poison"
+   ]
+  },
+  {
+   "id": "thechampion",
+   "name": "The Champion",
+   "mcocClass": "COSMIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Evita Esquiva e Autobloco (Precisão Certeira, intercetando o inimigo com leve)",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Sentry)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "theserpent",
+   "name": "The Serpent",
+   "mcocClass": "COSMIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Bloqueia Golpes Não Bloqueáveis (Debuff de Medo)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Perfuração",
+    "Tem acesso a Inbloqueável",
+    "Evita Esquiva e Invisibilidade (Foco Certeiro)",
+    "Aplica Onda de Frio"
+   ],
+   "immunitiesPt": [
+    "Imune a Onda de Frio",
+    "Reduz a Duração do Sangramento em 90%",
+    "Imune a Bloqueio de Cura",
+    "Imune a Selar Destino",
+    "Imune a Bloqueio de Poder",
+    "60% Resistente a Drenagem / Queima de poder"
+   ],
+   "immunityKeys": [
+    "Coldsnap",
+    "Heal Block",
+    "Power Lock"
+   ]
+  },
+  {
+   "id": "thor",
+   "name": "Thor (OG)",
+   "mcocClass": "COSMIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque (sinergia com Centurion)",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "40% Resistente ao Choque"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "venom",
+   "name": "Venom",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Fúria",
+    "Tem acesso a Armadura",
+    "Tem acesso a Anulação",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Knull)",
+    "Evita Esquiva (contra heróis do aranha-verso)",
+    "Tem acesso a Quebra de Armadura (pesado)",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, abaixo de 18% de vida)",
+    "Tem acesso a Inbloqueável"
+   ],
+   "immunitiesPt": [
+    "Imune a Drenagem / Queima de poder (contra os tecnológicos)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "venomtheduck",
+   "name": "Venom The Duck",
+   "mcocClass": "COSMIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Fúria",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Knull)",
+    "Aplica Degeneração (contra os imunes a sangramento)",
+    "Tem acesso a Armadura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "venompool",
+   "name": "Venompool",
+   "mcocClass": "COSMIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Knull)",
+    "Evita Esquiva (contra heróis do aranha-verso)",
+    "Aplica Degeneração (contra os imunes a sangramento)",
+    "Tem acesso a Anulação",
+    "Tem acesso a Fúria",
+    "Tem acesso a Armadura (sinergia com Ice Man)"
+   ],
+   "immunitiesPt": [
+    "Imune a Drenagem / Queima de poder (contra os tecnológicos)",
+    "Imune a choque",
+    "Imune a Incinerar",
+    "Imune a Quebra de Armadura (contra os tecnológicos)"
+   ],
+   "immunityKeys": [
+    "Shock",
+    "Incinerate",
+    "Armor Break"
+   ],
+   "immunityNotInMcocgg": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "visionaarkus",
+   "name": "Vision (Aarkus)",
+   "mcocClass": "COSMIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Fúria",
+    "Reduz Todas as Habilidades (em 100%, contra Robots ou Metais se tiver sinergia com Vision)",
+    "Aplica Onda de Frio",
+    "Evita Esquiva"
+   ],
+   "immunitiesPt": [
+    "90% Resistente a Drenagem / Queima de poder"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "vox",
+   "name": "Vox",
+   "mcocClass": "COSMIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Armadura",
+    "Aplica Degeneração",
+    "Tem acesso a Inbloqueável",
+    "Evita Invisibilidade",
+    "Tem acesso a Neutralizar (contra inumanos)",
+    "Evita Autobloco"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Drenagem / Queima de poder",
+    "Imune a Bloqueio de Poder"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Power Lock"
+   ]
+  },
+  {
+   "id": "antmanfuture",
+   "name": "Ant-Man (Future)",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Desintegração",
+    "Tem acesso a Drenagem de Poder",
+    "Evita Invisibilidade (sinergia com Ant-Man)",
+    "Tem acesso a Evasão"
+   ],
+   "immunitiesPt": [
+    "Reduz em 9 0% a Duração do Sangramento (x200)",
+    "Reduz em 9 0% a Duração do Incinerar (x200)",
+    "Reduz em 60% a Duração do Choque (sinergia com Odin)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "arcade",
+   "name": "Arcade",
+   "mcocClass": "TECH",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Autobloco",
+    "Aplica Choque",
+    "Aplica Veneno",
+    "Aplica Sangramento",
+    "Aplica Incinerar",
+    "Aplica Ruptura",
+    "Bloqueia Golpes Não Bloqueáveis",
+    "Tem acesso a Fúria (sinergia com Kraven)",
+    "Tem acesso a Atordoamento Passivo (pesado)",
+    "Bloqueia Golpes Não Bloqueáveis"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar (exceto cósmicos)",
+    "Imune a Veneno (exceto cósmicos)",
+    "Imune a Choque (exceto cósmicos)"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Poison",
+    "Shock"
+   ]
+  },
+  {
+   "id": "arnimzola",
+   "name": "Arnim Zola",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Covardia",
+    "Tem acesso a Desintegração",
+    "Tem acesso a Fúria",
+    "Tem acesso a Passivo de Sono",
+    "Tem acesso a Bloqueio de Especial",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Armadura (sinergia com Arnim Zola)",
+    "Tem acesso a Inbloqueável"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Redução de Habilidades"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "bastion",
+   "name": "Bastion",
+   "mcocClass": "TECH",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura (Passiva)",
+    "Apara golpes que não fazem Contacto",
+    "Evita Esquiva",
+    "Tem acesso a Desintegração",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "100% Resistente ao Veneno",
+    "100% Resistente ao Sangramento"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "samwilson",
+   "name": "Captain Wilson",
+   "mcocClass": "TECH",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Apara golpes que não fazem contacto (Se tiver armadura ativa)",
+    "Não Acerta Golpes Críticos",
+    "Tem acesso a Autobloco",
+    "Evita Invisibilidade (Quando a trava está ativa)",
+    "Bloqueia a Cura (com sinergia do War Machine)",
+    "Tem acesso a Fúria (com sinergia do Cap. IW)",
+    "Aplica Ruptura",
+    "Bloqueia Especiais Não Bloqueáveis (Mutantes)",
+    "Tem acesso a Covardia"
+   ],
+   "immunitiesPt": [
+    "Com 4 armaduras não recebe Sangramento"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "civilwarrior",
+   "name": "Civil Warrior",
+   "mcocClass": "TECH",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Roubo e Drenagem de Poder (Especial 2 e 3)",
+    "Tem acesso a Armadura",
+    "Bloqueia a Cura"
+   ],
+   "immunitiesPt": [
+    "Com 4 armaduras não recebe Sangramento",
+    "Imune a Anulação"
+   ],
+   "immunityKeys": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "darkhawk",
+   "name": "Darkhawk",
+   "mcocClass": "TECH",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque",
+    "Tem acesso a Autobloco",
+    "Tem acesso a Armadura (sinergia com o Nova)",
+    "Bloqueia a Cura (no Especial 3)",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "doctoroctopus",
+   "name": "Doctor Octopus",
+   "mcocClass": "TECH",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Bloqueio de Poder (é possível ser permanente)",
+    "Bloqueia a Cura",
+    "Tem acesso a Esquiva (sinergia com Spider-Man)",
+    "Tem acesso a Drenagem de Poder (se for duplicado)",
+    "Tem acesso a Armadura",
+    "Tem acesso a Ferrão (sinergia com Mr. Fantastic)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "ghost",
+   "name": "Ghost",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem Golpes Críticos Garantidos (E2, e quando tem Precisão Passiva Ativa)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável (Nos Ataques Especiais, sinergia com a Vespa)",
+    "Evita Esquiva (quando tem Precisão Passiva Ativa)",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Converte todos os efeitos negativos de dano em fúrias quando fica intangível"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "greengoblin",
+   "name": "Green Goblin",
+   "mcocClass": "TECH",
+   "rating": 4.0,
+   "stars": 4,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz o Ganho de Poder Passivo (em até 40%)",
+    "Aplica Veneno",
+    "Aplica Incinerar",
+    "Tem acesso a Drenagem de Poder (Especiais e Ataque Pesado)",
+    "Tem acesso a Fraqueza"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "guardian",
+   "name": "Guardian",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Apara golpes que não fazem contacto",
+    "Não Acerta Golpes Críticos",
+    "Bloqueia Especiais Não Bloqueáveis (Mutantes)",
+    "Tem acesso a Armadura",
+    "Tem acesso a Drenagem de Poder (combo terminado em leve)",
+    "Tem acesso a Provocação",
+    "Aplica Choque",
+    "Tem acesso a Autobloco"
+   ],
+   "immunitiesPt": [
+    "80% Resistente ao Sangramento",
+    "8 4 % Resistente a Incinerar",
+    "8 4 % Resistente a Choque",
+    "8 4 % Resistente a Onda de Frio",
+    "Não Acerta Golpes Críticos"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "guillotine2099",
+   "name": "Guillotine 2099",
+   "mcocClass": "TECH",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Não Acerta Golpes Críticos",
+    "Tem acesso a Drenagem e Queima de Poder",
+    "Tem acesso a Armadura",
+    "Aplica Degeneração",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "hobgoblin",
+   "name": "Hobgoblin",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia Golpes Não Bloqueáveis (Todas as Classes)",
+    "Aplica Incinerar",
+    "Bloqueia a Cura",
+    "Apara golpes que não fazem contacto",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Enraizar (sinergia com Kingpin)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Reduz a Duração de Delírio em 90% Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "howardtheduck",
+   "name": "Howard, o Pato",
+   "mcocClass": "TECH",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Fúria",
+    "Tem acesso a Quebra de Armadura (pesados)",
+    "Bloqueia a Cura (Especial 1)",
+    "Remove Efeitos de Proeza (sinergia com Bishop)",
+    "Tem acesso a Atordoamento Passivo ( depois do E3 )"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "hulkbuster",
+   "name": "Hulkbuster",
+   "mcocClass": "TECH",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Aplica Choque",
+    "Tem acesso a Quebra de Armadura",
+    "Reduz as Habilidades Ofensivas (20%, por cada armadura)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Drenagem e Queima de Poder",
+    "Tem acesso a Bloqueio de Poder (Especial 2)",
+    "Tem acesso a Fúria (sinergia com Yellowjacket)"
+   ],
+   "immunitiesPt": [
+    "25% Resistente a Sangramento por cada armadura ativa",
+    "25% Resistente ao Veneno por cada armadura ativa"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "ironheart",
+   "name": "Ironheart",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Aplica Ruptura",
+    "Evita Invisibilidade",
+    "Tem acesso a Armadura",
+    "Apara golpes que não fazem contacto",
+    "Remove Efeitos de Proeza",
+    "Tem acesso a Drenagem de Poder",
+    "Tem acesso a Insuperável (sinergia com Shuri)",
+    "Bloqueia Especiais Não Bloqueáveis (Mutantes)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Onda de Frio",
+    "Imune a Controlos Invertidos"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "ironmaninfamous",
+   "name": "Iron Man (Infamous)",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Covardia",
+    "Tem acesso a Armadura",
+    "Aplica Choque",
+    "Aplica Incineração (sinergia)",
+    "Remove Efeitos de Proeza",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Queima de Poder",
+    "Não Acerta Golpes Críticos",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Shuri )",
+    "Tem acesso a Atordoamento Passivo (pesado)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Choque",
+    "Imune a Anulação (apenas as armaduras)"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Shock",
+    "Nullify"
+   ],
+   "immunityNotInMcocgg": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "ironman",
+   "name": "Iron Man (OG)",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Quebra de Armadura",
+    "Remove Efeitos de Proeza",
+    "Aplica Incinerar",
+    "Bloqueia Especiais Não Bloqueáveis (Mutantes)",
+    "Tem acesso a Fúria (sinergia com o Mangog)",
+    "Aplica Incinerar (sinergia com Ikaris)",
+    "Aplica Plasma (sinergia com o Centurion)",
+    "Tem acesso a Drenagem de Poder (sinergia com Spidey 2099 ou com o Capitão América IW)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Onda de Frio",
+    "Imune a Anulação (exceto contra cósmicos)"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Coldsnap",
+    "Nullify"
+   ],
+   "immunityNotInMcocgg": [
+    "Incinerate",
+    "Coldsnap",
+    "Nullify"
+   ]
+  },
+  {
+   "id": "ironmaninfinitywar",
+   "name": "Iron Man (Infinity War)",
+   "mcocClass": "TECH",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura (passiva)",
+    "Evita Esquiva (golpes com repulsores)",
+    "Aplica Incinerar",
+    "Aplica Choque",
+    "Aplica Plasma",
+    "Bloqueia a Cura",
+    "Tem acesso a Drenagem de Poder (golpes com repulsores)",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Autobloco",
+    "Tem acesso a Covardia (sinergia com Quicksilver )"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Onda de Frio",
+    "18% Resistente a Drenagem / Queima de poder (por cada armadura)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "ironpatriot",
+   "name": "Iron Patriot",
+   "mcocClass": "TECH",
+   "rating": 3.0,
+   "stars": 3,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria (sinergia com o Red Goblin)",
+    "Tem acesso a Armadura",
+    "Tem acesso a Quebra de Armadura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "jackolantern",
+   "name": "Jack O'Lantern",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Covardia",
+    "Apara golpes que não fazem contacto",
+    "Não Acerta Golpes Críticos",
+    "Aplica Incineração",
+    "Aplica Plasma",
+    "Aplica Veneno"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Controlos Invertidos"
+   ],
+   "immunityKeys": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "kang",
+   "name": "Kang",
+   "mcocClass": "TECH",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia a Cura",
+    "Tem acesso a Drenagem de Poder (Especial 2)",
+    "Tem acesso a Fúria (sinergia com Apocalypse)",
+    "Tem acesso a Armadura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "ladydeathstrike",
+   "name": "Lady Deathstrike",
+   "mcocClass": "TECH",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Ruptura",
+    "Tem acesso a Armadura",
+    "Tem acesso a Inbloqueável (Ataques Especiais)",
+    "Tem acesso a Insuperável",
+    "Bloqueia a Cura",
+    "Evita Insuperável (contra mutantes)",
+    "Evita Não Bloqueável (contra mutantes)",
+    "Tem acesso a Fúria (sinergia com Wolverine)",
+    "Imune a Redução de Habilidades (contra mutantes)"
+   ],
+   "immunitiesPt": [
+    "90% Resistente ao Veneno",
+    "90% Resistente ao Sangramento",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "mysterio",
+   "name": "Mysterio",
+   "mcocClass": "TECH",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Veneno",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Drenagem de Poder (Especial 2)",
+    "Bloqueia a Cura (combo acabado em Leve)",
+    "Imune a Redução de Habilidades"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno (quando tem o capacete)",
+    "Imune a Controlos Invertidos (+Emma Frost)"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "nebula",
+   "name": "Nebula",
+   "mcocClass": "TECH",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (em 20% por cada carga de choque contra os Robots)",
+    "Tem acesso a Drenagem de Poder (Especial 1)",
+    "Tem acesso a Bloqueio de Poder (Especial 1)",
+    "Tem Golpes Críticos Garantidos (Especial 1 e 2, sinergia com a Gamora)",
+    "Aplica Choque"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Choque"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Shock"
+   ]
+  },
+  {
+   "id": "nimrod",
+   "name": "Nimrod",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Drenagem de Poder (no modo Blitz)",
+    "Tem acesso a Insuperável (Especial 2)",
+    "Tem acesso a Inbloqueável",
+    "Aplica Incinerar (contra imunes a choque, sinergia com Omega Sentinel)",
+    "Aplica Choque",
+    "Remove Efeitos de Proeza",
+    "Imune a Redução de Habilidades (contra mutantes)",
+    "Tem acesso a Bloqueio de Especial",
+    "Tem acesso a Covardia"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "100% Resistente a Quebra de Armadura"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "omegasentinel",
+   "name": "Omega Sentinel",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Plasma (apenas em mutantes)",
+    "Bloqueia a Cura",
+    "Imune a Redução de Habilidades (contra mutantes)",
+    "Tem acesso a Quebra de Armadura (sinergia com Omega Red)",
+    "Aplica Incinerar",
+    "Aplica Choque (sinergia com Nimrod)",
+    "Tem acesso a Drenagem de Poder (sinergia com Sentinel)",
+    "Remove Efeitos de Proeza (sinergia com Cap. Britain)",
+    "Evita Invisibilidade (com Monitoramento)",
+    "Tem acesso a Armadura",
+    "Tem acesso a Autobloco",
+    "Tem acesso a Covardia"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Anulação"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Nullify"
+   ]
+  },
+  {
+   "id": "peniparker",
+   "name": "Peni Parker",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Queima de Poder (Especiais e quando bloqueia)",
+    "Aplica Incinerar",
+    "Bloqueia a Cura",
+    "Apara golpes que não fazem contacto (sinergia com Mysterio)",
+    "Aplica Choque (sinergia com Infamous Iron Man)",
+    "Tem acesso a Autobloco"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Incinerar"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "prowler",
+   "name": "Prowler",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": true,
+   "abilitiesPt": [
+    "Evita Esquiva",
+    "Não Acerta Golpes Críticos",
+    "Aplica Ruptura",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Drenagem de Poder",
+    "Tem acesso a Bloqueio de Poder",
+    "Tem acesso a Fúria",
+    "Aplica Incinerar",
+    "Tem acesso a Provocação",
+    "Tem acesso a Inbloqueável"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Incinerar",
+    "Imune a Vacilo"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "psychoman",
+   "name": "Psycho-Man",
+   "mcocClass": "TECH",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (durante especiais, ataque pesado ou enquanto o oponente bloqueia)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Drenagem de Poder (Especiais)",
+    "Aplica Choque",
+    "Tem acesso a Covardia",
+    "Bloqueia a Cura",
+    "Tem acesso a Inbloqueável (Especial 2)",
+    "Tem acesso a Fraqueza (passiva, depois do E3)",
+    "Tem acesso a Armadura (sinergia com Vespa)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "punisher2099",
+   "name": "Punisher 2099",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Drenagem de Poder (precisa ser duplicado)",
+    "Tem acesso a Bloqueio de Poder (precisa ser duplicado)",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Fúria (sinergia com o Cosmic Rider)",
+    "Bloqueia a Cura",
+    "Tem acesso a Desintegração"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "redskull",
+   "name": "Red Skull",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia a Cura",
+    "Aplica Choque",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Armadura",
+    "Tem acesso a Drenagem de Poder (Especial 1 e 3)",
+    "Tem acesso a Autobloco"
+   ],
+   "immunitiesPt": [
+    "Imune a Anulação (de campeões)",
+    "Imune a Redução de Habilidades (contra mutantes)"
+   ],
+   "immunityKeys": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "rocketraccoon",
+   "name": "Rocket Raccoon",
+   "mcocClass": "TECH",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Armadura (sinergia com Soldado Invernal)",
+    "Bloqueia Especiais Não Bloqueáveis (Mutantes)",
+    "Tem acesso a Drenagem de Poder",
+    "Aplica Sangramento",
+    "Bloqueia a Cura",
+    "Aplica Ruptura (Especial 1)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "rubythursday",
+   "name": "Ruby Thursday",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Desintegração",
+    "Aplica Ruptura",
+    "Tem acesso a Autobloco",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Armadura (sinergia com Bullseye)"
+   ],
+   "immunitiesPt": [
+    "Imune a Delírio"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "sentinel",
+   "name": "Sentinel",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia a Cura",
+    "Aplica Choque",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Quebra de Armadura",
+    "Aplica Incinerar",
+    "Remove Efeitos de Proeza (ataque pesado, sinergia com Omega Sentinel)",
+    "Tem acesso a Armadura",
+    "Tem acesso a Covardia (sinergia com Lady X)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Onda de Frio",
+    "Imune a Quebra de Armadura"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Coldsnap",
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "shocker",
+   "name": "Shocker",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Não Acerta Golpes Críticos",
+    "Tem acesso a A utobloco",
+    "Remove Efeitos de Proeza",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Atordoamento Passivo ( depois do E2 )",
+    "Tem acesso a Covardia (sinergia com Spider Symbiote )"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Concussão"
+   ],
+   "immunityKeys": [
+    "Shock"
+   ]
+  },
+  {
+   "id": "shuri",
+   "name": "Shuri",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem Golpes Críticos Garantidos ( depois do E1)",
+    "Aplica Choque",
+    "Tem acesso a Invisibilidade",
+    "Nenhum Golpe faz Contacto",
+    "Tem acesso a Armadura",
+    "Não ativa bónus de precisão quando usa destreza",
+    "Bloqueia Especiais Não Bloqueáveis (Todas as Classes)",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Mr. Fantastic)"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Redução de Habilidades"
+   ],
+   "immunityKeys": [
+    "Shock"
+   ]
+  },
+  {
+   "id": "silvercenturion",
+   "name": "Silver Centurion",
+   "mcocClass": "TECH",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Aplica Plasma",
+    "Bloqueia a Cura",
+    "Tem acesso a Drenagem de Poder (Especial 3)",
+    "Não Acerta Golpes Críticos",
+    "Aplica Choque",
+    "Tem acesso a Armadura",
+    "Evita Esquiva e Insuperável (Lentidão, pesado e E3)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento (quando tem a armadura)",
+    "Imune a Choque (quando tem a armadura)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Shock"
+   ]
+  },
+  {
+   "id": "solvarch",
+   "name": "Solvarch",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Apara golpes que não fazem contacto",
+    "Não Acerta Golpes Críticos",
+    "Tem acesso a Armadura (Passiva)",
+    "Aplica Onda de Frio",
+    "Tem acesso a Drenagem de Poder",
+    "Bloqueia a Cura",
+    "Bloqueia Golpes Não Bloqueáveis"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Regenera 50% do Dano de Incinerar",
+    "Regenera 50% do Dano de Choque",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "spidermanstarkenhanced",
+   "name": "Spider-Man (Stark Enhanced )",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Provocação",
+    "Tem acesso a Roubo e Drenagem de Poder (Pesado)",
+    "Aplica Choque",
+    "Aplica Degeneração (sinergia com Mr. Negative)",
+    "Tem acesso a Esquiva",
+    "Evita Esquiva (Depois do Especial 3)",
+    "Reduz Todas as Habilidades (em 30%, depois do E3)",
+    "Tem acesso a Quebra de Armadura (sinergia com Mr. Negative)",
+    "Tem acesso a Fraqueza (sinergia com Mr. Negative)",
+    "Aplica Ruptura (sinergia com Shocker)",
+    "Tem acesso a Covardia (sinergia com Scorpion )"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "jjj",
+   "name": "Spider-Slayer (J. Johan Jameson )",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque",
+    "Não Acerta Golpes Críticos",
+    "Tem acesso a Fúria",
+    "Reduz as Habilidades Ofensivas",
+    "Tem acesso a Queima de Poder",
+    "Tem acesso a Armadura",
+    "Imune a Anulação (apenas as armaduras)",
+    "Evita Esquiva e Insuperável (Lentidão)",
+    "Evita Invisibilidade",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Covardia",
+    "Aplica Degeneração (sinergia com Mojo)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "starlord",
+   "name": "Star-Lord",
+   "mcocClass": "TECH",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Reduz as Habilidades Defensivas (Desorientar, sinergia com o Night Trasher)",
+    "Aplica Choque",
+    "Tem acesso a Fúria",
+    "Bloqueia a Cura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "themaker",
+   "name": "The Maker",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Não Acerta Golpes Críticos",
+    "Tem acesso a Drenagem de Poder",
+    "Tem acesso a Covardia",
+    "Tem acesso a Esquiva",
+    "Bloqueia a Cura",
+    "Aplica Plasma",
+    "Evita Esquiva (Armadilha, sinergia com Doctor Doom)"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos",
+    "Imune a Neurochoque"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "ultronclassic",
+   "name": "Ultron (Classic)",
+   "mcocClass": "TECH",
+   "rating": 3.5,
+   "stars": 3,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Veneno",
+    "Bloqueia a Cura",
+    "Tem acesso a Fúria",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Armadura"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "ultron",
+   "name": "Ultron (Prime)",
+   "mcocClass": "TECH",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem Golpes Críticos Garantidos (a cada 5 golpes)",
+    "Bloqueia a Cura (sinergia com Hulkbuster)",
+    "Tem acesso a Fúria",
+    "Aplica Degeneração (contra mutantes)",
+    "Tem acesso a Queima de Poder (Especial 3)",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Armadura",
+    "Tem acesso a Bloqueio de Poder (sinergia com Mr. Sinister)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Reduz em 80% a Duração do Choque",
+    "Reduz em 80% a Duração do Incinerar"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "visionaou",
+   "name": "Vision (Age of Ultron)",
+   "mcocClass": "TECH",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia a Cura",
+    "Tem acesso a Fúria (sinergia com Vision Aarkus)",
+    "Tem acesso a Queima de Poder (todos os especiais)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "vision",
+   "name": "Vision (Classic)",
+   "mcocClass": "TECH",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia a Cura",
+    "Tem acesso a Fúria (sinergia com Vision Aarkus)",
+    "Tem acesso a Queima de Poder (todos os especiais)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "deathlessvision",
+   "name": "Vision (Deathless)",
+   "mcocClass": "TECH",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia a Cura",
+    "Aplica Degeneração",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Queima de Poder (Todos os especiais)",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Onda de Frio",
+    "Imune a Controlos Invertidos ( Sinergia com Thanos Deathless )"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "vivvision",
+   "name": "Viv Vision",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Drenagem de Poder",
+    "Bloqueia a Cura",
+    "Tem acesso a Invisibilidade",
+    "Remove Efeitos de Proeza",
+    "Tem acesso a Inbloqueável (Especial 1)",
+    "Aplica Incinerar",
+    "Aplica Plasma (apenas em mutantes)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Esquiva (sinergia com Mysterio)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Anulação",
+    "Imune a Controlos Invertidos (depois do Especial 3)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Nullify"
+   ]
+  },
+  {
+   "id": "vulture",
+   "name": "Vulture",
+   "mcocClass": "TECH",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Ferrão (sinergia com Mr. Fantastic)",
+    "Aplica Incinerar",
+    "Tem acesso a Drenagem de Poder (Golpe de Rapina)",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Desvio"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Veneno (sinergia com Ultron)",
+    "Imune a C hoque (sinergia com Kingpin)"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Poison",
+    "Shock"
+   ],
+   "immunityNotInMcocgg": [
+    "Poison",
+    "Shock"
+   ]
+  },
+  {
+   "id": "warmachine",
+   "name": "War Machine",
+   "mcocClass": "TECH",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Aplica Ruptura (E1)",
+    "Tem acesso a Fúria",
+    "Remove Efeitos de Proeza (Especial 1)",
+    "Tem acesso a Quebra de Armadura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "warlock",
+   "name": "Warlock",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Bloqueia a Cura",
+    "Tem acesso a Drenagem e Queima de Poder",
+    "Reduz as Habilidades Ofensivas (30% por infeção)",
+    "Aplica Sangramento",
+    "Aplica Choque",
+    "Tem acesso a Quebra de Armadura",
+    "Aplica Degeneração",
+    "Tem acesso a Fúria (sinergia com Ultron)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Onda de Frio"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "yondu",
+   "name": "Yondu",
+   "mcocClass": "TECH",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Ruptura",
+    "Tem acesso a Fraqueza",
+    "Remove Efeitos de Proeza",
+    "Tem acesso a Armadura (se o inimigo também tiver bónus de armadura)",
+    "Bloqueia a Cura",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "abomination",
+   "name": "Abomination (Original )",
+   "mcocClass": "SCIENCE",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Veneno",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "abominationimmortal",
+   "name": "Abomination (Immortal)",
+   "mcocClass": "SCIENCE",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Veneno",
+    "Aplica Queimadura Ácida",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Petrificar",
+    "Tem acesso a Fraqueza",
+    "Aplica Queimadura Ácida",
+    "Tem acesso a Quebra de Armadura (sinergia com Venom Duck)"
+   ],
+   "immunitiesPt": [
+    "100% Resistente ao Veneno"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "antman",
+   "name": "Ant-Man",
+   "mcocClass": "SCIENCE",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Ferrão",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Cansaço",
+    "Tem acesso a Petrificar",
+    "Evita Invisibilidade",
+    "Tem acesso a Evasão"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Veneno",
+    "Não ativa bónus"
+   ],
+   "immunityKeys": [
+    "Shock",
+    "Poison"
+   ]
+  },
+  {
+   "id": "antivenom",
+   "name": "Anti-Venom",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Insuperável (Desaceleração)",
+    "Reduz as Habilidades Defensivas a 50% (Desorientar)",
+    "Tem acesso a Anulação (ataque pesado)",
+    "Tem acesso a Petrificar",
+    "Aplica Ruptura (Especial 3)",
+    "Tem acesso a Fúria (passiva)",
+    "Reverte a Cura",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Knull)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Poison"
+   ]
+  },
+  {
+   "id": "bluemarvel",
+   "name": "Blue Marvel",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade",
+    "Nenhum Golpe faz Contacto (exceto classe Skill)",
+    "Não ativa bónus de precisão quando usa destreza",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fraqueza",
+    "Reduz o Ganho de Poder Passivo (Desvanecer)",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Roubo de Poder"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "captainamerica",
+   "name": "Captain America (Original )",
+   "mcocClass": "SCIENCE",
+   "rating": 3.0,
+   "stars": 3,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Cansaço",
+    "Tem acesso a Fúria (sinergia com o Mangog ou Supervisor)",
+    "Reduz o Ganho de Poder Passivo (em 110%, sinergia com Longshot)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "captainamericaiw",
+   "name": "Captain America (Infinity War)",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria (passiva)",
+    "Aplica Sangramento",
+    "Tem acesso a Anulação (+ Cap. Wilson)",
+    "Tem acesso a Evasão",
+    "Tem acesso a Petrificar (+ Herói Tecnológico)",
+    "Tem acesso a Fraqueza (+ Herói Científico)",
+    "Tem acesso a Quebra de Armadura (+ Herói Cósmico )",
+    "Reduz as Habilidades Defensivas (Desorientar, sinergia com o Night Trasher)"
+   ],
+   "immunitiesPt": [
+    "Purificação de 100% (com herói skill na equipa)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "captainamericawwii",
+   "name": "Captain America (World War II )",
+   "mcocClass": "SCIENCE",
+   "rating": 3.0,
+   "stars": 3,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Fúria (com sinergia Red Skull ou Supervisor)",
+    "Tem acesso a Anulação (+ Cap. Wilson)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "cassielang",
+   "name": "Cassie Lang",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Provocação",
+    "Tem acesso a Invisibilidade",
+    "Tem Golpes Críticos Garantidos (E2)",
+    "Tem acesso a Fúria (passiva)",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Ferrão",
+    "Aplica Veneno"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Veneno",
+    "Imune a Roubo de Poder",
+    "Não ativa bónus"
+   ],
+   "immunityKeys": [
+    "Shock",
+    "Poison"
+   ]
+  },
+  {
+   "id": "countnefaria",
+   "name": "Count Nefaria",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Esquiva",
+    "Nenhum Golpe faz Contacto (com 100 cargas Iónicas)",
+    "Reduz a Taxa de Regeneração e Ganho de Poder em 95%",
+    "Tem acesso a Fúria",
+    "Aplica Incinerar",
+    "Aplica Plasma",
+    "Evita Esquiva e Insuperável (Desaceleração, sinergia com Iron Man)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "90% Resistente a Choque",
+    "90% Resistente a Incinerar",
+    "90% Resistente a Degeneração (com 100 cargas Iónicas)",
+    "76% Resistente a Ruptura (com 100 cargas Iónicas)",
+    "Imune a Roubo de Poder"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "electro",
+   "name": "Electro",
+   "mcocClass": "SCIENCE",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque (sinergia com o Aranha Furtivo)"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque"
+   ],
+   "immunityKeys": [
+    "Shock"
+   ]
+  },
+  {
+   "id": "falcontorres",
+   "name": "Falcon (Joaquin Torres)",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Insuperável (Lentidão)",
+    "Não ativa bónus de precisão quando usa destreza",
+    "Tem acesso a Fúria",
+    "Aplica Sangramento (s inergia com Dracula )"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "highevolutionary",
+   "name": "High Evolutionary",
+   "mcocClass": "SCIENCE",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz o Ganho de Poder",
+    "Tem acesso a Autobloco",
+    "Tem acesso a Reversão de Controlos",
+    "Evita Esquiva e Insuperável (Lentidão)"
+   ],
+   "immunitiesPt": [
+    "Imune a Ruptura",
+    "Imune a Neutralizar"
+   ],
+   "immunityKeys": [
+    "Rupture"
+   ]
+  },
+  {
+   "id": "hulk",
+   "name": "Hulk",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Thor Ragnarok)",
+    "Até 90% Resistente a Degeneração (sig 200)",
+    "Não ativa bónus (sinergia com Silver Surfer)",
+    "Tem acesso a Fúria (passiva)",
+    "Tem acesso a Insuperável"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Controlos Invertidos (+Supervisor)",
+    "Imune a Anulação (+Hulkbuster)"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Nullify"
+   ],
+   "immunityNotInMcocgg": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "hulkimmortal",
+   "name": "Hulk (Immortal)",
+   "mcocClass": "SCIENCE",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Petrificar",
+    "Tem acesso a Fraqueza",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Resistente a Reversão de Cura",
+    "Imune a Controlos Invertidos (+Supervisor)"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "hulkragnarok",
+   "name": "Hulk (Ragnarok)",
+   "mcocClass": "SCIENCE",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Tem acesso a Fraqueza (sinergia com Hercules)",
+    "Tem acesso a Bloqueio de Poder (Especial 2, apenas bloqueia o poder defensivo)",
+    "Tem acesso a Inbloqueável (sinergia com Thor Ragnarok)",
+    "Tem acesso a Fúria",
+    "Bloqueia a Cura (Especial 1)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Regenera 81% do dano de Degeneração Passiva",
+    "Imune a Controlos Invertidos (+Supervisor)"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "humantorch",
+   "name": "Human Torch",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 8,
+   "ratingConflict": true,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Evita Invisibilidade (acima de 10 de Temperatura)",
+    "Tem acesso a Ferrão",
+    "Evita Esquiva e Insuperável (Lentidão, sinergia com Claire Voyant)",
+    "Aplica Chama Nova"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Onda de Frio"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "invisiblewoman",
+   "name": "Invisible Woman",
+   "mcocClass": "SCIENCE",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz o Ganho de Poder Passivo (25% por cada exaustão)",
+    "Tem acesso a Fúria (Especial 2)",
+    "Aplica Incinerar (sinergia com Tocha Humana)",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Desvio"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "jessicajones",
+   "name": "Jessica Jones",
+   "mcocClass": "SCIENCE",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fraqueza",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Evita Autobloco (Debuff de Esmagamento)",
+    "Aplica Ruptura",
+    "Aplica Incinerar",
+    "Tem acesso a Fúria",
+    "Tem acesso a Anulação (sinergia com Iron Fist)"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos (condicional)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "joefixit",
+   "name": "Joe Fixit",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Petrificar",
+    "Tem acesso a Fraqueza",
+    "Reduz as Habilidades Defensivas a 40% (Desorientar)",
+    "Aplica Sangramento"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Controlos Invertidos (+Supervisor)"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "lizard",
+   "name": "Lizard",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Ruptura",
+    "Evita Invisibilidade (com Monitoramento)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Bloqueio de Cura (enquanto tem um Bónus ou Insuperável)",
+    "Resistente a Reversão de Cura",
+    "Não ativa bónus (durante os especiais)"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Heal Block"
+   ]
+  },
+  {
+   "id": "lukecage",
+   "name": "Luke Cage",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz o Ganho de Poder Passivo (25% por cada exaustão)",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem acesso a Fúria (sinergia com a Squirrel Girl)",
+    "Reduz Todas as Habilidades (em até 100%, Especial 2)",
+    "Tem acesso a Fragmentação (reduz a resistência crítica para 0)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "misterfantastic",
+   "name": "Mister Fantastic",
+   "mcocClass": "SCIENCE",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável (quando não seleciona a pré luta, nos golpes especiais)",
+    "Tem acesso a Anulação",
+    "Tem acesso a Provocação",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Shuri )",
+    "Aplica Choque",
+    "Tem acesso a Fúria",
+    "Tem acesso a Petrificar",
+    "Tem acesso a Ferrão (sinergia com a She Hulk)",
+    "Aplica Incinerar (sinergia com Super Skrull)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "misternegative",
+   "name": "Mister Negative",
+   "mcocClass": "SCIENCE",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Petrificar",
+    "Aplica Degeneração",
+    "Tem acesso a Cansaço (sinergia com o Spot)",
+    "Tem acesso a Esquiva",
+    "Evita Esquiva e Insuperável (sinergia com Photon)"
+   ],
+   "immunitiesPt": [
+    "Imune a Anulação",
+    "40% Resistente a Degeneração por cada efeito negativo no oponente"
+   ],
+   "immunityKeys": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "modok",
+   "name": "M.O.D.O.K.",
+   "mcocClass": "SCIENCE",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem Golpes Críticos Garantidos (a cada 7 Golpes)",
+    "Tem acesso a Bloqueio de Poder (sinergia com Mr. Sinister)",
+    "Aplica Sangramento",
+    "Aplica Incinerar",
+    "Tem acesso a Autobloco"
+   ],
+   "immunitiesPt": [
+    "50% Resistente a Veneno (+Abominável)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "morbius",
+   "name": "Morbius",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Inbloqueável",
+    "Aplica Sangramento",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem acesso a Petrificar",
+    "Tem Golpes Críticos Garantidos (Especial 2)",
+    "Aplica Ruptura",
+    "Tem acesso a Fraqueza (sinergia com Jack O'Lantern)"
+   ],
+   "immunitiesPt": [
+    "Até 75% Resistência a Incinerar (sinergia com Nico Minoru)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "quake",
+   "name": "Quake",
+   "mcocClass": "SCIENCE",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (em 100% enquanto carrega pesado)",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "quicksilver",
+   "name": "Quicksilver",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz o Ganho de Poder Passivo (Desvanecer, 35%, sempre que desvia de um golpe)",
+    "Não ativa bónus de precisão quando usa destreza",
+    "Evita Esquiva e Insuperável (Lentidão, acima de 300 cargas momentum)",
+    "Tem acesso a Desvio",
+    "Apara golpes que não fazem contacto (acima de 600 cargas)",
+    "Tem acesso a Esquiva",
+    "Evita Invisibilidade (acima de 300 carga)",
+    "Tem acesso a Fúria (sinergia com Wave)"
+   ],
+   "immunitiesPt": [
+    "8,3% Resistente a Degeneração por cada 100 cargas (sinergia com Wiccan)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "photon",
+   "name": "Photon",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Apara golpes que não fazem contacto",
+    "Tem acesso a Petrificar",
+    "Evita Invisibilidade",
+    "Tem acesso a Invisibilidade (quando é atordoada)",
+    "Tem acesso a Fragmentação (reduz a resistência crítica para 0)",
+    "Tem acesso a Fúria (passiva)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Provocação",
+    "20% Resistência a Degeneração por cada debuff único no oponente (sinergia com Mr. Negative)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Roubo de Poder",
+    "Imune a Neutralizar"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "redguardian",
+   "name": "Red Guardian",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Insuperável (Lentidão, Especial 1)",
+    "Bloqueia Golpes Não Bloqueáveis (Todas as Classes)",
+    "Tem acesso a Insuperável (ataques pesados, sinergia com Viúva Branca)",
+    "Tem acesso a Fúria (sinergia com o Sabretooth)"
+   ],
+   "immunitiesPt": [
+    "Não ativa bónus"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "redhulk",
+   "name": "Red Hulk",
+   "mcocClass": "SCIENCE",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Tem acesso a Quebra de Armadura (sinergia com Terrax)"
+   ],
+   "immunitiesPt": [
+    "Purifica o Veneno",
+    "Purifica o Incinerar"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "rhino",
+   "name": "Rhino",
+   "mcocClass": "SCIENCE",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Não Acerta Golpes Críticos",
+    "Tem acesso a Fúria",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Provocação",
+    "Evita Esquiva e Insuperável (Lentidão, sinergia com o Red Guardian)",
+    "Tem acesso a Inbloqueável"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "sandman",
+   "name": "Sandman",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Tem acesso a Petrificar",
+    "Evita Esquiva e Insuperável (Desaceleração)",
+    "Tem acesso a Fúria (passiva)",
+    "Tem acesso a Enraizar"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Choque"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Shock"
+   ]
+  },
+  {
+   "id": "scorpion",
+   "name": "Scorpion",
+   "mcocClass": "SCIENCE",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Veneno",
+    "Aplica Choque",
+    "Aplica Ruptura",
+    "Tem acesso a Provocação",
+    "Tem acesso a Petrificar",
+    "Tem acesso a Fúria",
+    "Evita Esquiva e Insuperável (Lentidão, ataque pesado, sinergia com Groxo)",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Ferrão",
+    "Bloqueia Especiais Não Bloqueáveis (Todas as Classes)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Choque",
+    "Imune a Ruptura"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Shock",
+    "Rupture"
+   ]
+  },
+  {
+   "id": "sentry",
+   "name": "Sentry",
+   "mcocClass": "SCIENCE",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Evita Insuperável (Travão)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Quebra de Armadura",
+    "Reduz o Ganho de Poder Passivo (Desvanecer)",
+    "Evita Insuperável",
+    "Tem acesso a Ferrão (sinergia com Mr. Fantastic)",
+    "Tem acesso a Insuperável (sinergia com Gladiator)",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Anulação"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Nullify"
+   ]
+  },
+  {
+   "id": "shehulk",
+   "name": "She Hulk",
+   "mcocClass": "SCIENCE",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria (passiva)",
+    "Evita Esquiva e Insuperável (Lentidão, Ataque pesado)",
+    "Reduz o Ganho de Poder Passivo (25% por cada exaustão)",
+    "Tem acesso a Petrificar",
+    "Tem acesso a Fraqueza (Especial 3)",
+    "Tem acesso a Ferrão (sinergia com Mr. Fantastic)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Purificação de 70% (contra científicos)"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "deathlessshehulk",
+   "name": "She Hulk (Immortal)",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade",
+    "Reduz o Ganho de Poder Passivo (Desvanecer)",
+    "Tem acesso a Fraqueza",
+    "Evita Insuperável ( Apenas na Necropolis )",
+    "Evita Insuperável (quando tem o Passivo de Ímpeto , sinergia com Thanos Deathless )"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Ruptura (Sinergia com Thanos Deathless)"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Rupture"
+   ],
+   "immunityNotInMcocgg": [
+    "Rupture"
+   ]
+  },
+  {
+   "id": "silk",
+   "name": "Silk",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria (passiva)",
+    "Tem acesso a Fragmentação (reduz a resistência crítica para 0)",
+    "Evita Esquiva e Insuperável (Lentidão)",
+    "Tem acesso a Desvio",
+    "Reduz a regeneração em 150% (quando o oponente está próximo da parede)",
+    "Aplica Ruptura (sinergia com Shocker)",
+    "Tem acesso a Esquiva (contra especiais)"
+   ],
+   "immunitiesPt": [
+    "Reduz a duração de Debuffs de Ruptura em 90%",
+    "Reduz a duração de Lentidão em 90%",
+    "Não ativa bónus de precisão quando usa destreza",
+    "30% Resistente a Degeneração (sinergia com Spider Gwen)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "spidergwen",
+   "name": "Spider-Gwen",
+   "mcocClass": "SCIENCE",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Bloqueio de Poder (E1, apenas bloqueia o poder defensivo)",
+    "Evita Esquiva e Insuperável (Lentidão, pesado)",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [
+    "30% Resistente a Degeneração (sinergia com Silk)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "spiderham",
+   "name": "Spider-Ham",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Ferrão",
+    "Tem acesso a Inbloqueável",
+    "Reduz Todas as Habilidades (sinergia com o Scorpion)",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Provocação"
+   ],
+   "immunitiesPt": [
+    "15% Resistente a Degeneração por Loucura Aranha"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "spiderman",
+   "name": "Spider-Man",
+   "mcocClass": "SCIENCE",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Esquiva",
+    "Tem acesso a Provocação",
+    "Aplica Choque (sinergia com Silver Sable)",
+    "Evita Esquiva e Insuperável (Desaceleração)",
+    "Aplica Degeneração (sinergia com Mr. Negative)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "spidermanmilesmorales",
+   "name": "Spider-Man (Miles Morales )",
+   "mcocClass": "SCIENCE",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Provocação",
+    "Aplica Ruptura",
+    "Aplica Choque",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Fraqueza (Especial 1)",
+    "Tem acesso a Ferrão (Especial 3)",
+    "Tem acesso a Fúria (passiva)",
+    "30% Resistente a Degeneração (sinergia com Silk)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "spiderman2099",
+   "name": "Spider-Man (2099)",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Insuperável (Lentidão, Especial 3)",
+    "Aplica Ruptura",
+    "Tem acesso a Desvio",
+    "Reduz o Ganho de Poder Passivo (Desvanecer, 125%)",
+    "Aplica Veneno (E3, sinergia com Venom)",
+    "Tem acesso a Esquiva (sinergia com o Spider-Ham)"
+   ],
+   "immunitiesPt": [
+    "Não ativa bónus"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "spiderpunk",
+   "name": "Spider Punk",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Ruptura",
+    "Tem acesso a Atordoamento Passivo (quando esquiva)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Provocação",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [
+    "Imune a Ruptura",
+    "Imune a Controlos Invertidos (sinergia com Prowler)"
+   ],
+   "immunityKeys": [
+    "Rupture"
+   ]
+  },
+  {
+   "id": "spiderwoman",
+   "name": "Spider-Woman",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz o Ganho de Poder Passivo (Desvanecer)",
+    "Evita Esquiva (Armadilha)",
+    "Aplica Choque",
+    "Tem acesso a Ferrão",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Neutralizar",
+    "Imune a Roubo de Poder"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "spot",
+   "name": "Spot",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Ruptura",
+    "Reduz as Habilidades Ofensivas (60%, bónus de enfurecimento)",
+    "Não ativa bónus (depois do Especial 1)",
+    "Tem acesso a Provocação (sinergia com a Black Cat)",
+    "Tem acesso a Invisibilidade",
+    "Bloqueia Golpes Não Bloqueáveis (Todas as Classes)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "theleader",
+   "name": "The Leader",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia Golpes Não Bloqueáveis (Todas as Classes)",
+    "Tem acesso a Fúria",
+    "Reduz o Ganho de Poder Passivo (Desvanecer)",
+    "Reverte a Cura",
+    "Aplica Degeneração"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "theoverseer",
+   "name": "The Overseer",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Autobloco",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Thor Ragnarok)",
+    "Reduz as Habilidades Defensivas a 40% (Desorientar, E2)",
+    "Reduz Todas as Habilidades (em 70%, mas apenas ativa enquanto o inimigo usa especiais)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Provocação"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Anulação",
+    "Imune a Controlos Invertidos (+Hulks XL)",
+    "Imune a Neutralizar (sinergia com Spider-Man Supreme)"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Nullify"
+   ]
+  },
+  {
+   "id": "thing",
+   "name": "Thing",
+   "mcocClass": "SCIENCE",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria (passiva)",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com The Champion)",
+    "Tem acesso a Fraqueza (Especial 1)",
+    "Tem acesso a Inbloqueável",
+    "Aplica Incinerar (sinergia com Tocha Humana)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Anulação (Especial 1 e 2)",
+    "Evita Insuperável (quando tem o Passivo de Ímpeto, sinergia com Maker)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Choque",
+    "Imune a Anulação",
+    "Imune a Quebra de Armadura"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Shock",
+    "Nullify",
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "titania",
+   "name": "Titania",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria",
+    "Tem acesso a Petrificar",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem acesso a Anulação",
+    "Tem acesso a Fraqueza (Especial 1)",
+    "Tem acesso a Cansaço",
+    "Reduz as Habilidades Defensivas a 30% (Desorientar)",
+    "Reduz o Ganho de Poder Passivo (Desvanecer, 30%)",
+    "Tem acesso a Covardia"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento (sinergia com Absorbing Man)",
+    "Não ativa bónus"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ],
+   "immunityNotInMcocgg": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "void",
+   "name": "Void",
+   "mcocClass": "SCIENCE",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Cansaço",
+    "Tem acesso a Petrificar",
+    "Aplica Degeneração",
+    "Tem acesso a Fúria (sinergia com Hulk)",
+    "Tem acesso a Fraqueza"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar"
+   ],
+   "immunityKeys": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "wasp",
+   "name": "Wasp",
+   "mcocClass": "SCIENCE",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque (quando esquiva)",
+    "Tem Golpes Críticos Garantidos (depois de encolher)",
+    "Reduz Todas as Habilidades (em 1% por cada golpe no medidor de combo)",
+    "Tem acesso a Atordoamento Passivo (pesado)",
+    "Tem acesso a Ferrão (no Especial 2)",
+    "Tem acesso a Petrificar",
+    "Tem acesso a Fúria (sinergia com Havok)",
+    "Tem acesso a Fraqueza",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "wave",
+   "name": "Wave",
+   "mcocClass": "SCIENCE",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Não ativa bónus de precisão quando usa destreza",
+    "Tem acesso a Atordoamento Passivo (Pesado)",
+    "Tem acesso a Invisibilidade",
+    "Evita Invisibilidade (com Monitoramento)"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração do Veneno em 75%",
+    "Reduz a Duração do Incinerar em 75% Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "yellowjacket",
+   "name": "Yellowjacket",
+   "mcocClass": "SCIENCE",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Ferrão",
+    "Tem acesso a Petrificar",
+    "Evita Esquiva e Insuperável (Lentidão, ataque pesado)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "apocalypse",
+   "name": "Apocalypse",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva a 100% (Após o oponente esquivar 10x)",
+    "Tem acesso a Proeza",
+    "Evita a Purificação",
+    "Aplica Sangramento",
+    "Aplica Veneno",
+    "Aplica Degeneração",
+    "Tem acesso a Fraqueza",
+    "Reduz Todas as Habilidades (em até 70%)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar ( após 8 segundos)",
+    "Imune a Sangramento (após 8 segundos)"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Bleed"
+   ]
+  },
+  {
+   "id": "archangel",
+   "name": "Archangel",
+   "mcocClass": "MUTANT",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Aplica Veneno",
+    "Reduz Todas as Habilidades (100% ou mais)",
+    "Evita a Purificação ( 25% por cada sangramento )",
+    "Aplica Neurotoxina",
+    "Bloqueia a Cura"
+   ],
+   "immunitiesPt": [
+    "Imune a Redução de Habilidades"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "beast",
+   "name": "Beast",
+   "mcocClass": "MUTANT",
+   "rating": 4.0,
+   "stars": 4,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Evita a Purificação ( sinergia com o Quicksilver )",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Shuri)"
+   ],
+   "immunitiesPt": [
+    "65% Resistente a Sangramento"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "bishop",
+   "name": "Bishop",
+   "mcocClass": "MUTANT",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Reduz Todas as Habilidades (80%, enquanto bloqueia)",
+    "Tem acesso a Inbloqueável (durante os especiais)",
+    "Tem acesso a Petrificar (sinergia com a Psylocke)",
+    "Aplica Incinerar"
+   ],
+   "immunitiesPt": [
+    "Purifica Sangramento (ao bloquear)",
+    "71,2% Resistente a Choque",
+    "71,2% Resistente a Incinerar",
+    "71,2% Resistente a Onda de Frio",
+    "71,2% Resistente a Plasma"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "cable",
+   "name": "Cable",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Degeneração",
+    "Aplica Incinerar",
+    "Tem acesso a Susto (aumenta Dano Especial)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Proeza (sinergia com Magneto X)"
+   ],
+   "immunitiesPt": [
+    "100% Resistente a Veneno",
+    "Regenera 100% do Dano de Sangramento Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "captainbritain",
+   "name": "Captain Britain",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita vacilo",
+    "Evita Esquiva e Insuperável (Lentidão)",
+    "Aplica Neurochoque",
+    "Tem acesso a Proeza"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos (condicional)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "cassandra",
+   "name": "Cassandra Nova",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia Golpes Não Bloqueáveis (Passivo de Medo)",
+    "Tem acesso a Atordoamento Passivo (Pesado)",
+    "Aplica Neurochoque",
+    "Evita Invisibilidade",
+    "Tem acesso a Susto (aumenta Dano Especial)",
+    "Tem acesso a Enraizar",
+    "Tem acesso a Reversão de Controlos",
+    "Tem acesso a E feito de Marcado (contra a Classe Habilidade)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "colossus",
+   "name": "Colossus",
+   "mcocClass": "MUTANT",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Armadura",
+    "Tem acesso a Insuperável (passivo, depois do E3) (Bónus com sinergia do Red Guardian)",
+    "Tem acesso a Inbloqueável (Durante o E2)",
+    "Tem acesso a Fúria (passiva, no pesado)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Incinerar",
+    "Imune a Onda de Frio",
+    "Imune a Quebra de Armadura (exceto os techs)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Incinerate",
+    "Coldsnap",
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "cyclopsblueteam",
+   "name": "Cyclops (Blue)",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Tem acesso a Esquiva (sinergia com Gladiator)",
+    "Evita Esquiva e Invisibilidade (Foco Certeiro)",
+    "Tem acesso a Inbloqueável"
+   ],
+   "immunitiesPt": [
+    "Imune a Redução de Habilidades Defensivas"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "cyclops",
+   "name": "Ciclope (Red )",
+   "mcocClass": "MUTANT",
+   "rating": 2.0,
+   "stars": 2,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Evita Esquiva e Autobloco (sinergia com Mr. Sinister)",
+    "Reduz as Habilidades Defensivas (Desorientar, sinergia com Night Trasher)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "danimoonstar",
+   "name": "Dani Moonstar",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Invisibilidade",
+    "Aplica Neurochoque",
+    "Tem acesso a Proeza",
+    "Evita Esquiva e Insuperável (Lentidão, Especial 2)",
+    "Tem acesso a Inbloqueável",
+    "Evita Invisibilidade",
+    "Tem acesso a Efeito de Marcado (contra a todas as Classes )"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "dazzler",
+   "name": "Dazzler",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Reflete 200% do Dano (a sig 200)",
+    "Evita Esquiva",
+    "Tem acesso a Desvio",
+    "Tem acesso a Fúria",
+    "Tem acesso a Proeza",
+    "Aplica Incinerar (sinergia com Masacre)",
+    "Tem acesso a Inbloqueável",
+    "Tem Acesso a Golpes Críticos Garantidos",
+    "Tem acesso a Insuperável (sinergia com Spiral)",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Imune a Anulação",
+    "Imune a Incinerar (sinergia com Kitty Pryde)",
+    "Não ativa bónus de precisão quando usa destreza"
+   ],
+   "immunityKeys": [
+    "Nullify",
+    "Incinerate"
+   ],
+   "immunityNotInMcocgg": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "deadpool",
+   "name": "Deadpool (OG)",
+   "mcocClass": "MUTANT",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Quebra de Armadura ( sinergia com o Psycho Man)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "deadpoolxforce",
+   "name": "Deadpool (X-Force)",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Provocação",
+    "Tem acesso a Quebra de Armadura ( sinergia com o Psycho Man )"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "domino",
+   "name": "Domino",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (em até 50%)",
+    "Tem acesso a Provocação (depois do Especial 2)",
+    "Tem acesso a Quebra de Armadura ( Especial 3 )",
+    "Aplica Incinerar (sinergia com o Red Hulk)",
+    "Tem acesso a Esquiva",
+    "Aplica Sangramento"
+   ],
+   "immunitiesPt": [
+    "Purifica Sangramento (50%)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "dust",
+   "name": "Dust",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Evasão",
+    "Tem acesso a Proeza",
+    "Evita Insuperável (quando tem o Passivo de Ímpeto)",
+    "Bloqueia Golpes Não Bloqueáveis (Habilidade)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Choque"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Shock"
+   ]
+  },
+  {
+   "id": "emmafrost",
+   "name": "Emma Frost",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Ferrão (no Especial 1 )",
+    "Reduz Todas as Habilidades (em 5 0%, no Especial 2 )",
+    "Tem acesso a Proeza",
+    "Evita Esquiva (no modo telepata)",
+    "Tem acesso a Provocação (no ataque pesado)",
+    "Tem acesso a Reversão de Controlos"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Incinerar",
+    "Imune a Onda de Frio",
+    "Imune a Choque (Modo Diamante)",
+    "Imune a Controlos Invertidos (+Mysterio)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Incinerate",
+    "Coldsnap",
+    "Shock"
+   ]
+  },
+  {
+   "id": "gambit",
+   "name": "Gambit",
+   "mcocClass": "MUTANT",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Reduz Todas as Habilidades (em 8 5 %, no Especial 2)"
+   ],
+   "immunitiesPt": [
+    "150% Resistente ao Sangramento"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "gentle",
+   "name": "Gentle",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva ­",
+    "Evita o Acerto de Golpes Críticos",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem acesso a Insuperável",
+    "Aplica Ruptura",
+    "Bloqueia Golpes Não Bloqueáveis (Debuff de Medo)",
+    "Tem acesso a Susto (aumenta Dano Especial)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento ­"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "goldpool",
+   "name": "Goldpool",
+   "mcocClass": "MUTANT",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Provocação",
+    "Aplica Sangramento",
+    "Tem acesso a Fúria (com sinergia do Porco Aranha)",
+    "Tem acesso a Proeza"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "havok",
+   "name": "Havok",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Plasma",
+    "Tem acesso a Inbloqueável (Especial 1 e 2)",
+    "Tem acesso a Proeza"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "52,9% Resistente a Choque",
+    "52,9% Resistente a Onda de Frio",
+    "52,9% Resistente a Plasma"
+   ],
+   "immunityKeys": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "iceman",
+   "name": "Ice Man",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Queimadura de Gelo",
+    "Tem acesso a Armadura",
+    "Aplica Onda de Frio",
+    "Evita Esquiva"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Incinerar",
+    "Imune a Onda de Frio",
+    "Imune a Chama Nova"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Incinerate",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "jeangrey",
+   "name": "Jean Grey",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Neurochoque",
+    "Evita Invisibilidade",
+    "Tem acesso a Susto (aumenta Dano Especial)",
+    "Tem acesso a Reversão de Controlos"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos",
+    "Não sofre Dano Físico / Espinhos"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "jubilee",
+   "name": "Jubilee",
+   "mcocClass": "MUTANT",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz as Habilidades Defensivas a 50% (modo azul)",
+    "Tem acesso a Proeza",
+    "Aplica Choque",
+    "Evita Esquiva e Insuperável (Lentidão, Especial 1)",
+    "Aplica Incinerar",
+    "Reduz Todas as Habilidades (em até 25%, Especial 2)",
+    "Tem acesso a Provocação",
+    "Aplica Sangramento (sinergia com Dracula)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "kittypryde",
+   "name": "Kitty Pryde",
+   "mcocClass": "MUTANT",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Aplica Incinerar",
+    "Tem acesso a Fúria (sinergia com Magneto)",
+    "Tem Golpes Críticos Garantidos ( Ataques Pesados, sinergia com o Nimrod )",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Controlos Invertidos (+ Emma Frost)"
+   ],
+   "immunityKeys": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "magneto",
+   "name": "Magneto",
+   "mcocClass": "MUTANT",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (em 70%, contra os Metais)",
+    "Evita Invisibilidade e Autobloco (contra os Metais)",
+    "Tem acesso a Proeza",
+    "Tem acesso a Insuperável",
+    "Aplica Sangramento",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Fúria",
+    "Bloqueia a Cura ( sinergia com a Magik )",
+    "Tem acesso a Fraqueza (E1, sinergia com Kitty Pryde)",
+    "Evita a Purificação ( sinergia com o Quicksilver )"
+   ],
+   "immunitiesPt": [
+    "90% Resistente a Sangramento",
+    "90% Resistente ao Choque",
+    "Imune a Controlos Invertidos (condicional)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "magnetomarvelnow",
+   "name": "Magneto (House of X)",
+   "mcocClass": "MUTANT",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (em 70%, contra os Metais)",
+    "Tem acesso a Proeza",
+    "Aplica Sangramento",
+    "Tem acesso a Degeneração (conta Metais )",
+    "Tem acesso a Fúria (sinergia com Sabretooth )",
+    "Tem acesso a Quebra de Armadura"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Controlos Invertidos (condicional)"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "mistersinister",
+   "name": "Mister Sinister",
+   "mcocClass": "MUTANT",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Degeneração",
+    "Reduz Todas as Habilidades (em 100%, Especial 2)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Proeza",
+    "Tem acesso a Bloqueio de Poder (sinergia com Kingpin)",
+    "Tem acesso a Drenagem de Poder (Especial 3)",
+    "Bloqueia Especiais Não Bloqueáveis (Todas as Classes)"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos",
+    "Evita a Purificação",
+    "100% Resistente ao Sangramento",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "namor",
+   "name": "Namor",
+   "mcocClass": "MUTANT",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reflete 100% do Dano (a sig 200)",
+    "Aplica Sangramento",
+    "Tem Golpes Críticos Garantidos ( sinergia com Shuri )",
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável (Especial 2)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "negasonic",
+   "name": "Negasonic TW",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar (passivo)",
+    "Aplica Ruptura (sinergia)",
+    "Nenhum Golpe faz Contacto",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [
+    "Evita Sangramento de Campeões Skill"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "nightcrawler",
+   "name": "Nightcrawler",
+   "mcocClass": "MUTANT",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento (passivo)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Desvio",
+    "Tem acesso a Esquiva",
+    "Aplica Incinerar (depois do E3)",
+    "Tem acesso a Proeza"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "northstar",
+   "name": "Northstar",
+   "mcocClass": "MUTANT",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura (Contra campeões de Habilidade)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Proeza",
+    "Tem acesso a Inbloqueável",
+    "Evita Esquiva e Insuperável (Lentidão, E1)",
+    "Evita o Acerto de Golpes Críticos"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "oldmanlogan",
+   "name": "Old Man Logan",
+   "mcocClass": "MUTANT",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Sangramento",
+    "Tem acesso a Quebra de Armadura ( E1 )",
+    "Tem acesso a Inbloqueável (Especial 1 e 2)"
+   ],
+   "immunitiesPt": [
+    "95% Resistente a Sangramento (enquanto regenera)",
+    "Imune a Redução de Habilidades"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "omegared",
+   "name": "Omega Red",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita a Purificação ( 10% por cada esporo )",
+    "Tem acesso a Roubo de Poder (Especial 3 )",
+    "Tem acesso a Inbloqueável ( Golpes de Tentáculo )",
+    "Aplica Degeneração"
+   ],
+   "immunitiesPt": [
+    "90% Resistente a Sangramento",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "onslaught",
+   "name": "Onslaught",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia Especiais Não Bloqueáveis (Habilidade)",
+    "Tem acesso a Inbloqueável",
+    "Aplica Neurochoque",
+    "Evita Invisibilidade",
+    "Aplica Degeneração",
+    "Tem acesso a Susto (aumenta Dano Especial)",
+    "Tem acesso a Reversão de Controlos"
+   ],
+   "immunitiesPt": [
+    "150% Resistente a Incinerar",
+    "150% Resistente a Sangramento",
+    "150% Resistente a Choque"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "pixie",
+   "name": "Pixie",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Esquiva",
+    "Evita Esquiva (contra os Campeões de Habilidade)",
+    "Aplica Neurochoque",
+    "Evita Invisibilidade",
+    "Tem acesso a Passivo de Sono",
+    "Tem acesso a Proeza",
+    "Tem acesso a Fúria (sinergia com Wave)"
+   ],
+   "immunitiesPt": [
+    "90% Resistente a Sangramento",
+    "90% Resistente a Choque"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "platinumpool",
+   "name": "Platinumpool",
+   "mcocClass": "MUTANT",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Aplica Sangramento",
+    "Tem acesso a Fúria",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "professorx",
+   "name": "Professor X",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Evita Esquiva e Invisibilidade (25+ cargas cerebro)",
+    "Tem acesso a Inbloqueável ( Especial 1 e 2 )",
+    "Evita a Purificação ( sinergia com Quicksilver )",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "psylocke",
+   "name": "Psylocke",
+   "mcocClass": "MUTANT",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Drenagem e Queim a de Poder",
+    "Tem acesso a Bloqueio de Poder ( Especial 2 e 3 )",
+    "Reduz as Habilidades Defensivas a 75% (sig 200)",
+    "Tem acesso a Petrificar (sinergia com o Bishop)",
+    "Aplica Degeneração (com sinergia da Cap. Britânia)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "rogue",
+   "name": "Rogue",
+   "mcocClass": "MUTANT",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Roubo de Poder (Especial 2 e 3)",
+    "Aplica Degeneração (sinergia com Longshot)",
+    "Tem acesso a Anulação ( roubo de bónus no E1 )"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração em 70% de todos os efeitos negativo s"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "sabretooth",
+   "name": "Sabretooth",
+   "mcocClass": "MUTANT",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável (sinergia com Old Man Logan)",
+    "Tem acesso a Quebra de Armadura (apenas contra heróis de habilidade )",
+    "Reduz Todas as Habilidades ( em 100%, apenas por 0,7 segundos após o oponente sofrer um efeito negativo, sinergia com o Killmonger )"
+   ],
+   "immunitiesPt": [
+    "Imune a Onda de Frio"
+   ],
+   "immunityKeys": [
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "sauron",
+   "name": "Sauron",
+   "mcocClass": "MUTANT",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Tem acesso a Inbloqueável",
+    "Aplica Degeneração",
+    "Aplica Sangramento (passivo)",
+    "Tem acesso a Fúria (passiva)",
+    "Tem acesso a Armadura (sinergia com Havok)",
+    "Aplica Incinerar (passiva, sinergia com Kitty Pryde)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "95% Resistente a Sangramento",
+    "Imune a Roubo de Poder",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "shatterstar",
+   "name": "Shatterstar",
+   "mcocClass": "MUTANT",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": true,
+   "abilitiesPt": [
+    "Evita Esquiva",
+    "Tem acesso a Evasão",
+    "Tem acesso a Susto (aumenta Dano Especial)",
+    "Aplica Sangramento"
+   ],
+   "immunitiesPt": [
+    "100% Resistente ao Sangramento",
+    "40% Resistente a Veneno (80% se for na Guerra)",
+    "40% Resistente a Incinerar (80% se for na Guerra) Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "silversamurai",
+   "name": "Silver Samurai",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Susto (aumenta Dano Especial)",
+    "Evita o Acerto de Golpes Críticos",
+    "Tem acesso a Inbloqueável",
+    "Consome Medidor de Combo"
+   ],
+   "immunitiesPt": [
+    "100% Resistente ao Sangramento"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "storm",
+   "name": "Storm",
+   "mcocClass": "MUTANT",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Aplica Choque",
+    "Aplica Sangramento (sinergia com Dracula)"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Incinerar (sinergia com Storm X)",
+    "Imune a Onda de Frio (sinergia com Storm X)"
+   ],
+   "immunityKeys": [
+    "Shock",
+    "Incinerate",
+    "Coldsnap"
+   ],
+   "immunityNotInMcocgg": [
+    "Incinerate",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "stormpyramidx",
+   "name": "Storm Pyramid X",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Proeza",
+    "Tem acesso a Inbloqueável",
+    "Aplica Onda de Frio",
+    "Aplica Choque",
+    "Evita Esquiva e Insuperável (Lentidão, durante o E1)",
+    "Tem acesso a Evasão"
+   ],
+   "immunitiesPt": [
+    "100% Resistente ao Choque",
+    "Imune a Onda de Frio"
+   ],
+   "immunityKeys": [
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "stryfe",
+   "name": "Stryfe",
+   "mcocClass": "MUTANT",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável (sinergia com Apocalypse)",
+    "Aplica Choque",
+    "Bloqueia Golpes Não Bloqueáveis (Todas as Classes)",
+    "Reduz Todas as Habilidades ( em até 30 %)",
+    "Evita Esquiva (nos médios, pesados, E 1 e E2)",
+    "Tem acesso a Evasão",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos (condicional)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "sunspot",
+   "name": "Sunspot",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Evita Esquiva e Insuperável (Lentidão, sinergia com Claire V. )",
+    "Tem acesso a Proeza"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar"
+   ],
+   "immunityKeys": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "toad",
+   "name": "Toad",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Veneno",
+    "Tem acesso a Proeza",
+    "Evita Esquiva e Insuperável (Lentidão, Especial 2)",
+    "Reduz as Habilidades Defensivas a 50% ( sinergia com Scorpion )",
+    "Tem acesso a Insuperável (sinergia com Magneto)",
+    "Tem acesso a Fúria (sinergia com Wave)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "wolverine",
+   "name": "Wolverine",
+   "mcocClass": "MUTANT",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Evita a Purificação ( sinergia com o Quicksilver )",
+    "Tem acesso a Proeza (sinergia com Cap IW)",
+    "Tem acesso a Fúria (sinergia com a Kitty Pryde)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "wolverinexforce",
+   "name": "Wolverine X",
+   "mcocClass": "MUTANT",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Insuperável"
+   ],
+   "immunitiesPt": [
+    "50% Resistente a Sangramento",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "wolverinex23",
+   "name": "Wolverine X-23",
+   "mcocClass": "MUTANT",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva",
+    "Aplica Sangramento",
+    "Aplica Ruptura",
+    "Tem acesso a Efeito de Marcado (contra a todas as Classes)"
+   ],
+   "immunitiesPt": [
+    "Resistente a Reversão de Cura",
+    "Reduz a duração dos efeitos de Sangramento em 90%",
+    "Reduz a duração dos efeitos de Veneno em 60%"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "absorbingman",
+   "name": "Absorbing Man",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz a duração dos bónus de indestrutível, imortalidade, insuperável e não bloqueável em 90%",
+    "Tem acesso a Inbloqueável (ataques especiais)",
+    "Tem acesso a Quebra de Armadura (sinergia com Thor)"
+   ],
+   "immunitiesPt": [
+    "Imune a Quebra de Armadura",
+    "Imune a Sangramento (no modo Uru das Trevas )",
+    "Imune a Choque (no modo Uru das Trevas)",
+    "81,8% Resistente a Ruptura (no modo Uru das Trevas)",
+    "Imune a Incinerar (no modo Magma)",
+    "Imune a Onda de Frio (no modo Magma)",
+    "81,8% de Resistência a Plasma (no modo Magma)",
+    "Imune a Veneno (sinergia com o Abominável Imortal)"
+   ],
+   "immunityKeys": [
+    "Armor Break",
+    "Bleed",
+    "Shock",
+    "Incinerate",
+    "Coldsnap",
+    "Poison"
+   ],
+   "immunityNotInMcocgg": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "agathaharkness",
+   "name": "Agatha Harkness",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Golpes Médios não fazem Contacto",
+    "Bloqueia Golpes Não Bloqueáveis (Classe Cósmica)",
+    "Tem acesso a Roubo de Poder",
+    "Tem acesso a Anulação (Destruição)",
+    "Reduz a duração dos bónus em 50% (Atrofio)"
+   ],
+   "immunitiesPt": [
+    "Imune a Quebra de Armadura",
+    "Regenera 85% do Dano de Incinerar",
+    "Regenera 85% do Dano de Chama Nova Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": [
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "americachavez",
+   "name": "America Chavez",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz o Ganho de Poder Passivo (em até 180%, zona negativa)",
+    "Tem acesso a Inbloqueável (E2, com zona negativa ativa)",
+    "Tem acesso a Atordoamento Passivo (Pesado)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento (sinergia com Purgatory)"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ],
+   "immunityNotInMcocgg": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "stellarblade",
+   "name": "Blade (Stellar Forged )",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 10,
+   "ratingConflict": true,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (40%, contra Cósmicos e Deuses)",
+    "Reduz a duração dos bónus em até 50%",
+    "Aplica Degeneração",
+    "Tem acesso a Roubo de Poder"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "blackwidowclairevoyant",
+   "name": "Black Widow (Claire Voyant )",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Imunidade a Bónus",
+    "Aplica Sangramento",
+    "Aplica Veneno",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Aplica Incinerar",
+    "Tem acesso a Anulação",
+    "Tem acesso a Roubo de Poder (Especial 2)",
+    "Evita Esquiva e Insuperável (Lentidão, sinergia com Human Torch)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Incinerar"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "diablo",
+   "name": "Diablo",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Veneno",
+    "Tem acesso a Inbloqueável (Especial 2)",
+    "Tem acesso a Anulação (com pré luta)"
+   ],
+   "immunitiesPt": [
+    "100% Resistente ao Veneno",
+    "Imune a Quebra de Armadura (com pré luta)"
+   ],
+   "immunityKeys": [
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "doctordoom",
+   "name": "Doctor Doom",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque",
+    "Tem acesso a Inbloqueável (Especial 1 e 2)",
+    "Tem acesso a Quebra de Armadura (sinergia com Mr. Fantastic)",
+    "Tem acesso a Anulação",
+    "Tem acesso a Insuperável (contra especiais)",
+    "Aplica Incinerar",
+    "Tem acesso a Roubo e Drenagem de Poder",
+    "Tem acesso a Fúria (Especial 3)",
+    "Tem Golpes Críticos Garantidos (sinergia com Diablo)"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Quebra de Armadura"
+   ],
+   "immunityKeys": [
+    "Shock",
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "doctorstrange",
+   "name": "Doctor Strange",
+   "mcocClass": "MYSTIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Tem acesso a Atordoamento Passivo (Pesado)",
+    "Reduz o Ganho de Poder Passivo (Desvanecer, 90%)",
+    "Aplica Onda de Frio",
+    "Aplica Incinerar",
+    "Tem acesso a Neutralizar",
+    "Aplica Sangramento (sinergia com Claire Voyant)",
+    "Aplica Veneno (sinergia com Claire Voyant)"
+   ],
+   "immunitiesPt": [
+    "Imune a Onda de Frio (sinergia com Dormammu)"
+   ],
+   "immunityKeys": [
+    "Coldsnap"
+   ],
+   "immunityNotInMcocgg": [
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "doctorvoodoo",
+   "name": "Doctor Voodoo",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Tem acesso a Drenagem e Queima de Poder",
+    "Reduz Todas as Habilidades (50%, combo ímpar)",
+    "Aplica Veneno"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "dormammu",
+   "name": "Dormammu",
+   "mcocClass": "MYSTIC",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Drenagem e Queima de Poder",
+    "Aplica Degeneração",
+    "Tem acesso a Fúria (sinergia com o Mr. Negative)",
+    "Tem acesso a Anulação",
+    "Tem acesso a Bloqueio de Poder (Especial 2)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Incinerar (sinergia com Doctor Strange)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison",
+    "Incinerate"
+   ],
+   "immunityNotInMcocgg": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "dragonman",
+   "name": "Dragon Man",
+   "mcocClass": "MYSTIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Degeneração (se sofrer quebra de armadura)",
+    "Aplica Incinerar",
+    "Reduz as Habilidades Ofensivas (sinergia com Mulher Invisível)",
+    "Tem acesso a Fúria (Especial 2)",
+    "Evita Esquiva e Insuperável (Lentidão, Especial 1)",
+    "Tem acesso a Insuperável",
+    "Reduz Todas as Habilidades (60%, sinergia com o Kraven)",
+    "Tem acesso a Inbloqueável (quando derruba o oponente)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Veneno"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "dracula",
+   "name": "Dracula",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Aplica Degeneração",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Anulação",
+    "Evita Esquiva e Insuperável (Lentidão)",
+    "Bloqueia Golpes Não Bloqueáveis (Debuff de Medo)",
+    "Tem acesso a Roubo de Poder"
+   ],
+   "immunitiesPt": [
+    "Imune a Bloqueio de Cura"
+   ],
+   "immunityKeys": [
+    "Heal Block"
+   ]
+  },
+  {
+   "id": "ebonymaw",
+   "name": "Ebony Maw",
+   "mcocClass": "MYSTIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Degeneração",
+    "Tem acesso a Anulação",
+    "Tem acesso a Invisibilidade",
+    "Reduz o Ganho de Poder Passivo (em 60%, antes do foco)",
+    "Tem acesso a Roubo de Poder (no ataque pesado e E3)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "enchantress",
+   "name": "Enchantress",
+   "mcocClass": "MYSTIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Roubo de Poder",
+    "Aplica Incinerar",
+    "Aplica Onda de Frio",
+    "Aplica Choque",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Anulação",
+    "Tem acesso a Neutralizar",
+    "Reduz a duração dos Bónus em até 30% (Atrofio)",
+    "Tem acesso a Petrificar (sinergia com Loki)",
+    "Aplica Veneno (sinergia com Lady X)"
+   ],
+   "immunitiesPt": [
+    "Imune a Bloqueio de Poder"
+   ],
+   "immunityKeys": [
+    "Power Lock"
+   ]
+  },
+  {
+   "id": "ghostrider",
+   "name": "Ghost Rider",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Anulação",
+    "Tem acesso a Obstáculo (Reduz a Potência de Bónus)",
+    "Reduz a duração dos bónus em 50% (Atrofio)",
+    "Tem acesso a Roubo de Poder",
+    "Aplica Degeneração",
+    "Bloqueia Golpes Não Bloqueáveis (Efeito de Medo)",
+    "Tem acesso a Bloqueio de Poder (Especial 3)",
+    "Bloqueia a Cura (Especial 3)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Incinerar Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "guillotine",
+   "name": "Guillotine",
+   "mcocClass": "MYSTIC",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Inbloqueável (Especial 1 e 2)",
+    "Tem acesso a Ruptura (Especial 3)",
+    "Aplica Degeneração (Especial 3)",
+    "Reverte a Cura"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "deathlessguillotine",
+   "name": "Guillotine (Deathless)",
+   "mcocClass": "MYSTIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Degeneração",
+    "Reverte a Cura",
+    "Tem acesso a Neutralizar (Apenas na Necropolis)",
+    "Tem acesso a Anulação (Sinergia com Deathless Thanos)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "ironfist",
+   "name": "Iron Fist (Original )",
+   "mcocClass": "MYSTIC",
+   "rating": 4.0,
+   "stars": 4,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Anulação",
+    "Tem Golpes Críticos Garantidos (sinergia com Shang Chi)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "ironfistimmortal",
+   "name": "Iron Fist (Immortal)",
+   "mcocClass": "MYSTIC",
+   "rating": 4.0,
+   "stars": 4,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Anulação",
+    "Tem Golpes Críticos Garantidos (sinergia com Shang Chi)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "isophyne",
+   "name": "Isophyne",
+   "mcocClass": "MYSTIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Aplica Degeneração",
+    "Reduz o Ganho de Poder Passivo (Desvanecer, 100%)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria",
+    "Tem acesso a Efeito de Marcado (contra a todas as Classes)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Onda de Frio"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Coldsnap"
+   ]
+  },
+  {
+   "id": "juggernaut",
+   "name": "Juggernaut",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Anulação",
+    "Tem acesso a Fúria",
+    "Reduz o Ganho de Poder Passivo (Desvanecer, 50%)"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "kushala",
+   "name": "Kushala",
+   "mcocClass": "MYSTIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia Golpes Não Bloqueáveis (Todas as Classes, exceto Científico)",
+    "Aplica Incinerar",
+    "Tem acesso a Anulação",
+    "Aplica Degeneração"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Incinerar"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "kindred",
+   "name": "Kindred",
+   "mcocClass": "MYSTIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz a duração dos bónus em até 90% (30% por cada Atrofio)",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Aplica Degeneração",
+    "Tem acesso a Roubo de Poder",
+    "Tem acesso a Enraizar",
+    "Tem acesso a Insuperável (sinergia com Red Goblin)",
+    "Tem acesso a Fraqueza ( sinergia com Jack O'Lantern )"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Incinerar",
+    "Imune a Bloqueio de Cura"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Incinerate",
+    "Heal Block"
+   ]
+  },
+  {
+   "id": "loki",
+   "name": "Loki",
+   "mcocClass": "MYSTIC",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável",
+    "Tem Golpes Críticos Garantidos (Ataques Pesados)",
+    "Tem acesso a Anulação"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "longshot",
+   "name": "Longshot",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade e Autobloco (Durante o E1)",
+    "Aplica Sangramento (passivo)",
+    "Tem acesso a Anulação",
+    "Aplica Incinerar (passivo)",
+    "Aplica Degeneração (passivo, sinergia com Mojo)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "madelynepryor",
+   "name": "Madelyne Pryor",
+   "mcocClass": "MYSTIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Degeneração",
+    "Tem acesso a Anulação",
+    "Tem acesso a Obstáculo (Reduz a Potência de Bónus)",
+    "Bloqueia Golpes Não Bloqueáveis (Debuff de Medo)",
+    "Tem acesso a Roubo e Poder (Especial 3)"
+   ],
+   "immunitiesPt": [
+    "Imune a Ruptura",
+    "Imune a Sangramento"
+   ],
+   "immunityKeys": [
+    "Rupture",
+    "Bleed"
+   ]
+  },
+  {
+   "id": "magik",
+   "name": "Magik",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Neutralizar",
+    "Aplica Degeneração",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Desvio",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Anulação",
+    "Tem acesso a Proeza (sinergia com Dani Moonstar)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento (sinergia com Purgatory)"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ],
+   "immunityNotInMcocgg": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "manthing",
+   "name": "Man-Thing",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Aplica Veneno",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Fúria",
+    "Tem acesso a Proeza (sinergia com Groxo)",
+    "Tem Golpes Críticos Garantidos (sinergia com Mole Man)"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Quebra de Armadura"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "mangog",
+   "name": "Mangog",
+   "mcocClass": "MYSTIC",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Tem acesso a Roubo de Poder (Especial 2)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Insuperável"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Quebra de Armadura",
+    "Imune a Anulação (sinergia com Odin)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Armor Break",
+    "Nullify"
+   ],
+   "immunityNotInMcocgg": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "mephisto",
+   "name": "Mephisto",
+   "mcocClass": "MYSTIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Evita Esquiva e Insuperável (Lentidão, sinergia com Claire Voyant)",
+    "Tem acesso a Drenagem de Poder (Especial 3)",
+    "Tem acesso a Anulação",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Onda de Frio",
+    "100% Resistente a Incinerar",
+    "Imune a Sangramento (sinergia com Purgatory)",
+    "Imune a Redução de Habilidades"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Coldsnap",
+    "Bleed"
+   ],
+   "immunityNotInMcocgg": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "mojo",
+   "name": "Mojo",
+   "mcocClass": "MYSTIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz a duração dos B ónus em 90% (Campo Anti-Vida)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Anulação",
+    "Aplica Degeneração",
+    "Tem acesso a Insuperável (sinergia com Hulk Ragnarok)",
+    "Aplica Incinerar (sinergia com M.O.D.O.K.)",
+    "Tem acesso a Invisibilidade (sinergia com Spider-Slayer)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "mordo",
+   "name": "Mordo",
+   "mcocClass": "MYSTIC",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Degeneração",
+    "Tem acesso a Esquiva",
+    "Bloqueia Especiais Não Bloqueáveis (Todas as Classes)"
+   ],
+   "immunitiesPt": [
+    "Imune a Redução de Habilidades",
+    "Imune a Anulação contra os Místicos (sinergia com Wong)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "nicominoru",
+   "name": "Nico Minoru",
+   "mcocClass": "MYSTIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Imunidade a Bónus",
+    "Evita Insuperável (Travão)",
+    "Tem acesso a Fúria",
+    "Aplica Incinerar",
+    "Aplica Veneno",
+    "Aplica Queimadura Ácida",
+    "Evita Insuperável",
+    "Tem acesso a Invisibilidade",
+    "Tem acesso a Roubo de Poder (sinergia com Karolina Dean)",
+    "Aplica Plasma (sinergia com Karolina Dean)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Ruptura"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Rupture"
+   ]
+  },
+  {
+   "id": "morningstar",
+   "name": "Morningstar",
+   "mcocClass": "MYSTIC",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Inbloqueável (Especial 2)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Anulação",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "purgatory",
+   "name": "Purgatory",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Tem acesso a Fúria",
+    "Evita Esquiva e Insuperável (Lentidão)",
+    "Tem acesso a Anulação",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Roubo de Poder",
+    "Aplica Degeneração",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Neutralizar"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Imune a Sangramento (sinergia com The Hood)"
+   ],
+   "immunityKeys": [
+    "Incinerate",
+    "Bleed"
+   ],
+   "immunityNotInMcocgg": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "rintrah",
+   "name": "Rintrah",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Neutralizar",
+    "Aplica Ruptura",
+    "Tem acesso a Fúria",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Provocação",
+    "Tem acesso a Enraizar"
+   ],
+   "immunitiesPt": [
+    "50% Resistente a Quebra de Armadura"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "sasquatch",
+   "name": "Sasquatch",
+   "mcocClass": "MYSTIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Ruptura",
+    "Tem acesso a Drenagem de Poder (durante a Ira de Tanaraq)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Anulação"
+   ],
+   "immunitiesPt": [
+    "90% Resistente a Onda de Frio",
+    "Imune a Quebra de Armadura",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": [
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "scarletwitchsigil",
+   "name": "Scarlet Sigil",
+   "mcocClass": "MYSTIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Degeneração",
+    "Tem acesso a Fúria",
+    "Tem acesso a Armadura",
+    "Tem acesso a Anulação",
+    "Tem acesso a Petrificar",
+    "Bloqueia a Cura",
+    "Evita Esquiva",
+    "Tem acesso a Proeza",
+    "Tem acesso a Inbloqueável",
+    "Aplica Incinerar",
+    "Aplica Veneno",
+    "Aplica Onda de Frio",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Ferrão"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "scarletwitch",
+   "name": "Scarlet Witch (Original)",
+   "mcocClass": "MYSTIC",
+   "rating": 8.0,
+   "stars": 7,
+   "ratingConflict": true,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Tem acesso a Fúria",
+    "Tem acesso a Bloqueio de Poder (golpes críticos, aleatório)",
+    "Bloqueia a Cura",
+    "Tem acesso a Armadura",
+    "Tem acesso a Roubo de Poder (golpes críticos, aleatório)",
+    "Tem acesso a Fraqueza",
+    "Aplica Veneno (apenas quando é atingida)",
+    "Tem acesso a Proeza (sinergia com Quiksilver)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "shathra",
+   "name": "Shathra",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Roubo de Poder",
+    "Tem acesso a Anulação",
+    "Reduz a duração dos bónus em até 70% (Atrofio)",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Esquiva (sinergia com Spider-Man Pavitr)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "sorcerersupreme",
+   "name": "Sorcerer Supreme",
+   "mcocClass": "MYSTIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Roubo de Poder (modo rosa)",
+    "Tem acesso a Quebra de Armadura",
+    "Tem acesso a Fúria (passiva)",
+    "Evita Esquiva e Insuperável (Lentidão)",
+    "Tem acesso a Anulação",
+    "Tem acesso a Proeza (sinergia com Doctor Strange)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "pavitr",
+   "name": "Spider-Man Pavitr",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Nenhum Golpe faz Contacto (contra a Classe Cósmica)",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Roubo de Poder",
+    "Tem acesso a Neutralizar",
+    "Tem acesso a Fúria",
+    "Tem acesso a Anulação",
+    "Reduz a D uração dos Efeitos de Insuperável em 8 0%",
+    "Tem acesso a Efeito de Marcado (contra a Classe Cósmica)",
+    "Reduz o Ganho de Poder Passivo (Desvanecer, 65%, sinergia com Overseer)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "spidermansupreme",
+   "name": "Spider-Man (Supreme)",
+   "mcocClass": "MYSTIC",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Invisibilidade",
+    "Reduz o Ganho de Poder Passivo (em 33% por bónus único)",
+    "Tem acesso a Roubo de Poder (depois do E3)",
+    "Tem acesso a Anulação",
+    "Tem acesso a Enraizar",
+    "Tem acesso a Esquiva (sinergia com Spider-Man)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "spiral",
+   "name": "Spiral",
+   "mcocClass": "MYSTIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Ruptura",
+    "Tem acesso a Roubo de Poder",
+    "Tem acesso a Anulação (Destruição)"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração do Choque em até 100%",
+    "Reduz a Duração de Incinerar em até 100%",
+    "Reduz a Duração do Veneno em até 100%",
+    "Imune a Vacilo",
+    "Tem acesso a Desvio",
+    "Imune a Controlos Invertidos (sinergia com Rogue)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "symbiotesupreme",
+   "name": "Symbiote Supreme",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Roubo de Poder (E2)",
+    "Tem acesso a Proeza (sinergia com Maga Suprema)",
+    "Tem acesso a Quebra de Armadura (Especial 2)",
+    "Tem acesso a Anulação",
+    "Aplica Sangramento",
+    "Tem acesso a Fraqueza (Especial 2)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "thedestroyer",
+   "name": "The Destroyer",
+   "mcocClass": "MYSTIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação (Destruição)",
+    "Tem acesso a Obstáculo (Reduz a Potência de Bónus)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria",
+    "Aplica Degeneração",
+    "Aplica Ruptura"
+   ],
+   "immunitiesPt": [
+    "Imune a Quebra de Armadura",
+    "Imune a Sangramento",
+    "Imune a Veneno",
+    "Imune a Lentidão"
+   ],
+   "immunityKeys": [
+    "Armor Break",
+    "Bleed",
+    "Poison"
+   ]
+  },
+  {
+   "id": "thehood",
+   "name": "The Hood",
+   "mcocClass": "MYSTIC",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Reduz Todas as Habilidades (em 65%, E2)",
+    "Tem acesso a Roubo de Poder (enquanto está invisível)",
+    "Tem acesso a Invisibilidade",
+    "Aplica Sangramento",
+    "Aplica Choque"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento (sinergia com Purgatory)"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ],
+   "immunityNotInMcocgg": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "thorjanefoster",
+   "name": "Thor (Jane Foster)",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque",
+    "Tem acesso a Anulação",
+    "Reduz o Ganho de Poder Passivo (Desvanecer, 80%)",
+    "Aplica Degeneração (sinergia com o Absorbing Man)"
+   ],
+   "immunitiesPt": [
+    "100% Resistente ao Choque"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "tigra",
+   "name": "Tigra",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Neutralizar",
+    "Aplica Ruptura",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Anulação (sinergia com Jabari Panther)",
+    "Evita Autobloco (enquanto o oponente sofre neutralização, inergia com Dragon Man)",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "unstoppablecolossus",
+   "name": "Unstoppable Colossus",
+   "mcocClass": "MYSTIC",
+   "rating": 2.5,
+   "stars": 2,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Tem acesso a Armadura",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Controlos Invertidos (condicional)"
+   ],
+   "immunityKeys": [
+    "Bleed"
+   ]
+  },
+  {
+   "id": "werewolfbynight",
+   "name": "Werefolf By Night",
+   "mcocClass": "MYSTIC",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Ruptura",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Anulação",
+    "Tem acesso a Fraqueza (sinergia com Jack O'Lantern)",
+    "Tem acesso a Fúria ( sinergia com Dracula )"
+   ],
+   "immunitiesPt": [
+    "Imune a Bloqueio de Cura",
+    "-90% na Duração de Veneno"
+   ],
+   "immunityKeys": [
+    "Heal Block"
+   ]
+  },
+  {
+   "id": "whitetiger",
+   "name": "White Tiger",
+   "mcocClass": "MYSTIC",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Tem acesso a Fúria",
+    "Tem acesso a Roubo de Poder",
+    "Tem acesso a Inbloqueável",
+    "Aplica Sangramento"
+   ],
+   "immunitiesPt": [
+    "Imune a Anulação",
+    "Purificação (20% por Bónus no Oponente)"
+   ],
+   "immunityKeys": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "wiccan",
+   "name": "Wiccan",
+   "mcocClass": "MYSTIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Neutralizar",
+    "Aplica Incinerar",
+    "Aplica Choque",
+    "Aplica Plasma",
+    "Evita Invisibilidade (sinergia com Hulkling)",
+    "Evita Esquiva e Insuperável (Lentidão, sinergia com Loki)",
+    "Tem acesso a Fúria (sinergia com o Quicksilver)",
+    "Aplica Degeneração (se o inimigo for imune a choque)",
+    "Bloqueia Golpes Não Bloqueáveis (Cósmicos)"
+   ],
+   "immunitiesPt": [
+    "Imune a Quebra de Armadura",
+    "Imune a Controlos Invertidos"
+   ],
+   "immunityKeys": [
+    "Armor Break"
+   ]
+  },
+  {
+   "id": "wong",
+   "name": "Wong",
+   "mcocClass": "MYSTIC",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Anulação",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Insuperável",
+    "Aplica Incinerar (sinergia com IMIW)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "aegon",
+   "name": "Aegon",
+   "mcocClass": "SKILL",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Evita Esquiva e Autobloco (Precisão Certeira, combo 150+)",
+    "Reduz as Habilidades Defensivas a 100% (combo 500+)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável (combo 1000+)",
+    "Tem acesso a Insuperável"
+   ],
+   "immunitiesPt": [
+    "Purificação de 100% (a partir do combo 100)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "agentvenom",
+   "name": "Agent Venom",
+   "mcocClass": "SKILL",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Aplica Incinerar"
+   ],
+   "immunitiesPt": [
+    "Purificação (70%)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "attuma",
+   "name": "Attuma",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Aplica Sangramento",
+    "Tem Golpes Críticos Garantidos ( sinergia com Shuri)",
+    "Evita Esquiva e Autobloco (Precisão Certeira, E1)"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar (com 3 cargas de hidratação)",
+    "90% Resistente a Sangramento (sig 200)",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "baronzemo",
+   "name": "Baron Zemo",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Sangramento",
+    "Tem acesso a Armadura",
+    "Aplica Incinerar (sinergia com a Phoenix)",
+    "Tem acesso a Enraizar",
+    "Evita Esquiva e Insuperável (Desaceleração)",
+    "Evita Invisibilidade (enquanto o oponente está enraizado)",
+    "Reduz as Habilidades Defensivas a 25% (Desorientar)"
+   ],
+   "immunitiesPt": [
+    "100% Purificação (via efeito de sanar)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "blackcat",
+   "name": "Black Cat",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Fúria (passiva, sinergia com o Ghost Rider)",
+    "Tem acesso a Esquiva",
+    "Reduz as Habilidades Defensivas em até 100% (Sabotagem + Combo 30+)",
+    "Tem Golpes Críticos Garantidos (sinergia com Shocker)",
+    "Aumenta o Medidor de Combo"
+   ],
+   "immunitiesPt": [
+    "Purifica 3 Efeitos Negativos no Especial 1"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "blackpanther",
+   "name": "Black Panther (Original )",
+   "mcocClass": "SKILL",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem Golpes Críticos Garantidos",
+    "Reduz as Habilidades Defensivas em até 50% (10% por sangramento)",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, sinergia com Killmonger)",
+    "Tem acesso a Inbloqueável (sinergia com a Storm)"
+   ],
+   "immunitiesPt": [
+    "Purifica 1 efeito negativo ao intercetar"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "blackpanthercivilwar",
+   "name": "Black Panther (Civil War)",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Fúria (passiva, sinergia com o Killmonger)"
+   ],
+   "immunitiesPt": [
+    "100% Purificação (via efeito de sanar)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "blacktarantula",
+   "name": "Black Tarantula",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Esquiva",
+    "Evita Insuperável (Travão)",
+    "Tem acesso a Atordoamento Passivo (quando esquiva)",
+    "Tem acesso a Fúria",
+    "Purificação de 80% (efeitos que não causam dano)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Imune a Anulação (sinergia com White Tiger)",
+    "Resistente a Reversão de Cura Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": [
+    "Poison",
+    "Nullify"
+   ],
+   "immunityNotInMcocgg": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "blackwidow",
+   "name": "Black Widow",
+   "mcocClass": "SKILL",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz as Habilidades Defensivas em até 95%",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Fúria (sinergia com o Mangog ou Claire Voyant)"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração de Debuffs Não Danosos em até 35% (Resistência)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "bwdo",
+   "name": "Black Widow (White)",
+   "mcocClass": "SKILL",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque",
+    "Tem acesso a Esquiva",
+    "Reduz as Habilidades Defensivas em 70%"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração de Debuffs Não Danosos em até 35% (Resistência)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "blade",
+   "name": "Blade",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (40%, contra Vilões e Místicos, sinergia com Ghost Rider e Mephisto)",
+    "Aplica Sangramento"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração em 95% de TODOS os efeitos negativos (com 3 barras de poder)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "bullseye",
+   "name": "Bullseye",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade (Em todos os golpes)",
+    "Tem Golpes Críticos Garantidos",
+    "Aplica Sangramento",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Fúria",
+    "Tem acesso a Inbloqueável",
+    "Evita Esquiva e Autobloco (Precisão Certeira)",
+    "Reduz as Habilidades Defensivas a 50% (Desorientar)"
+   ],
+   "immunitiesPt": [
+    "Purificação (50%)",
+    "99% Resistente a Ferrão"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "cheeilth",
+   "name": "Chee'ilth",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Evita Insuperável (quando tem o Passivo de Ímpeto)",
+    "Evita Invisibilidade",
+    "Tem acesso a Insuperável (sinergia com campeões #Gama)",
+    "Bloqueia Especiais Não Bloqueáveis (sinergia com Kushala)"
+   ],
+   "immunitiesPt": [
+    "100% Purificação (via E feito de S anar)",
+    "Aplica Tranquilização (Reduz a precisão de habilidade dos efeitos negativos)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "crossbones",
+   "name": "Crossbones",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Incinerar",
+    "Reduz as Habilidades Defensivas em 100% (com 5 fúrias)",
+    "Não Acerta Golpes Críticos"
+   ],
+   "immunitiesPt": [
+    "90% de Purificação (a % vai descendo)",
+    "Imune a Anulação (sinergia com Punisher 2099)"
+   ],
+   "immunityKeys": [
+    "Nullify"
+   ],
+   "immunityNotInMcocgg": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "daredevil",
+   "name": "Daredevil (Original )",
+   "mcocClass": "SKILL",
+   "rating": 2.0,
+   "stars": 2,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade (Em todos os golpes)",
+    "Tem acesso a Esquiva (durante os especiais)",
+    "Evita Esquiva e Autobloco (sinergia com Jessica Jones)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "daredevilnetflix",
+   "name": "Daredevil (Hells Kitchen )",
+   "mcocClass": "SKILL",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Tem acesso a Fúria",
+    "Evita Invisibilidade (Em todos os golpes)",
+    "Evita Esquiva e Autobloco (sinergia com Jessica Jones)",
+    "Reduz as Habilidades Defensivas (65% ) (Desorientar, sinergia com Elektra)"
+   ],
+   "immunitiesPt": [
+    "100% Resistente a Degeneração passiva (sig. 200)",
+    "Purificação ( efeitos que não causam dano )",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "doctorbong",
+   "name": "Doctor Bong",
+   "mcocClass": "SKILL",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Purificação de 20%",
+    "Tem acesso a Inbloqueável",
+    "Aumenta o Medidor de Combo",
+    "Tem Golpes Críticos Garantidos",
+    "Evita Esquiva",
+    "Evita Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Imune a Anulação",
+    "Imune a Ferrão"
+   ],
+   "immunityKeys": [
+    "Nullify"
+   ]
+  },
+  {
+   "id": "elektra",
+   "name": "Elektra",
+   "mcocClass": "SKILL",
+   "rating": 3.0,
+   "stars": 3,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem Golpes Críticos Garantidos (quando o oponente tem menos de 25% de vida)",
+    "Aplica Sangramento",
+    "Tem acesso a Quebra de Armadura (contra imunes a sangramento)",
+    "Reduz as Habilidades Defensivas a 85% (quando o oponente sofre um efeito negativo)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "elsabloodstone",
+   "name": "Elsa Bloodstone",
+   "mcocClass": "SKILL",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Aplica Degeneração (quando sofre sangramento)",
+    "Reduz as Habilidades Defensivas a 50% (Desorientar, sinergia com Jabari Panther)",
+    "Aplica Onda de Frio",
+    "Tem acesso a Esquiva",
+    "Evita Esquiva",
+    "Evita Esquiva e Insuperável (sinergia com Photon)",
+    "Evita Invisibilidade (sinergia com Photon)"
+   ],
+   "immunitiesPt": [
+    "Purificação (efeitos que não causam dano)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "falcon",
+   "name": "Falcon",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz as Habilidades Defensivas a 100% (durante a trava)",
+    "Aplica Sangramento",
+    "Aplica Incinerar",
+    "Tem Golpes Críticos Garantidos (último golpe do E2)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "frankencastle",
+   "name": "Franken-Castle",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Tem acesso a Inbloqueável",
+    "Aplica Incinerar",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Punisher OG)",
+    "Tem Golpes Críticos Garantidos (sinergia com Punisher OG)",
+    "Aumenta o Medidor de Combo"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "gwenpool",
+   "name": "Gwenpool",
+   "mcocClass": "SKILL",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Aplica Incinerar",
+    "Tem acesso a Bloqueio de Poder (Especial 2, apenas bloqueia o poder defensivo)",
+    "Tem acesso a Fúria (Sinergia com Isophyne)",
+    "Tem acesso a Quebra de Armadura (Especial 3)",
+    "Evita Invisibilidade (sinergia com Porco Aranha)",
+    "Reduz as Habilidades Defensivas a 100% (combo 50+)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "hawkeye",
+   "name": "Hawkeye",
+   "mcocClass": "SKILL",
+   "rating": 7.5,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Drenagem de Poder (Especial 1)",
+    "Tem acesso a Fúria (sinergia com o Mangog ou Hercules)",
+    "Aplica Ruptura (sinergia com o Wiccan)",
+    "Aplica Veneno (sinergia com Tigra)",
+    "Aplica Sangramento",
+    "Evita Esquiva e Insuperável (Lentidão, ataque pesado)",
+    "Tem Golpes Críticos Garantidos (Especial 1 e 2)"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno (sinergia com o Nick Fury)"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ],
+   "immunityNotInMcocgg": [
+    "Poison"
+   ]
+  },
+  {
+   "id": "hitmonkey",
+   "name": "Hit-Monkey",
+   "mcocClass": "SKILL",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem Golpes Críticos Garantidos (Especial 2 e Golpes Nunchaku)",
+    "Reduz as Habilidades Defensivas a 40% (Desorientar)",
+    "Tem acesso a Inbloqueável (Especial 1)",
+    "Evita Invisibilidade (Vigilância, durante o E1)",
+    "Tem acesso a Quebra de Armadura (sinergia com o Squirrel Girl)",
+    "Tem acesso a Esquiva",
+    "Aplica Sangramento"
+   ],
+   "immunitiesPt": [
+    "Purificação de 100% (Raiva Primitiva)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "jabaripanther",
+   "name": "Jabari Panther",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Evita Esquiva e Invisibilidade (no modo caçadora)",
+    "Tem acesso a Fúria",
+    "Aplica Sangramento"
+   ],
+   "immunitiesPt": [
+    "100% Purificação (via efeito de sanar)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "karnak",
+   "name": "Karnak",
+   "mcocClass": "SKILL",
+   "rating": 6.5,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento (passivo)",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, E1)",
+    "Reduz as Habilidades Defensivas a 80% (Desorientar, Especial 3)",
+    "Tem acesso a Fúria (passiva)"
+   ],
+   "immunitiesPt": [
+    "65% Resistente ao Veneno"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "katebishop",
+   "name": "Kate Bishop",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Esquiva",
+    "Aplica Onda de Frio",
+    "Aplica Sangramento",
+    "Aplica Tranquilização (Reduz a precisão de habilidade dos efeitos negativos)",
+    "Evita Invisibilidade (com Monitoramento)",
+    "Evita Esquiva e Autobloco (Precisão Certeira, nos especiais)"
+   ],
+   "immunitiesPt": [
+    "Purificação ( 100%, contra atordoamento)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "killmonger",
+   "name": "Killmonger",
+   "mcocClass": "SKILL",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Evita Esquiva e Autobloco (Ataque Certeiro)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Imortalidade ou Indestrutível"
+   ],
+   "immunitiesPt": [
+    "Purificação de 35% (sinergia com Void)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "kingpin",
+   "name": "Kingpin",
+   "mcocClass": "SKILL",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Tem acesso a Insuperável",
+    "Aplica Degeneração",
+    "Tem acesso a Inbloqueável (Especial 1 e 2)",
+    "Reduz as Habilidades Defensivas a 65% (E1)",
+    "Evita Esquiva (sinergia com Daredevil HK)",
+    "Tem acesso a Bloqueio de Poder (sinergia com Mr. Sinister)"
+   ],
+   "immunitiesPt": [
+    "Purificação de 120% (sinergia com o Hood)",
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "korg",
+   "name": "Korg",
+   "mcocClass": "SKILL",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável",
+    "Aplica Sangramento",
+    "Evita Esquiva (Durante o Especial 1)",
+    "Tem acesso a Insuperável",
+    "Tem acesso a Quebra de Armadura"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Choque",
+    "Purificação de 70% (com as rochas)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Shock"
+   ]
+  },
+  {
+   "id": "kraven",
+   "name": "Kraven",
+   "mcocClass": "SKILL",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Enraizar",
+    "Tem acesso a Inbloqueável",
+    "Aplica Sangramento",
+    "Reduz as Habilidades Defensivas a 40% (Desorientar)",
+    "Imune a Sangramento (sinergia com Arcade)",
+    "Evita Esquiva e Autobloco (Precisão Certeira, E1)",
+    "Aplica Veneno",
+    "Reduz Todas as Habilidades (60%, sinergia com o Sasquatch)",
+    "Evita Invisibilidade (sinergia com Agent Venom)"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração de Debuffs Não Danosos em até 80% (Resistência)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "lumatrix",
+   "name": "Lumatrix",
+   "mcocClass": "SKILL",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Invisibilidade",
+    "Evita Invisibilidade",
+    "Tem Golpes Críticos Garantidos",
+    "Tem acesso a Esquiva",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria"
+   ],
+   "immunitiesPt": [
+    "Imune a Sangramento",
+    "Imune a Ruptura",
+    "Reduz a Duração de Debuffs Não Danosos em até 80% (Resistência)"
+   ],
+   "immunityKeys": [
+    "Bleed",
+    "Rupture"
+   ]
+  },
+  {
+   "id": "mantis",
+   "name": "Mantis",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria (passiva)",
+    "Tem Golpes Críticos Garantidos (Especial 2)",
+    "Tem acesso a Passivo de Sono",
+    "Evita Esquiva e Autobloco (Ataque Certeiro, sinergia com Sandman)",
+    "Reduz as Habilidades Ofensivas (50%, B ónus de E nfurecimento)"
+   ],
+   "immunitiesPt": [
+    "Aplica Tranquilização (Reduz a precisão de habilidade dos efeitos negativos)",
+    "Purifica 2 Efeitos Negativos no Especial 1"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "masacre",
+   "name": "Massacre",
+   "mcocClass": "SKILL",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Aplica Sangramento",
+    "Reduz as Habilidades Defensivas a 50% (Desorientar)",
+    "Tem acesso a Esquiva (sinergia com Daredevil)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "mbaku",
+   "name": "M 'Baku",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Sangramento",
+    "Tem acesso a Insuperável",
+    "Aumenta o Medidor de Combo",
+    "Evita Esquiva e Autobloco (Precisão Certeira)",
+    "100% Purificação (via efeito de sanar)"
+   ],
+   "immunitiesPt": [
+    "100% Resistente a Onda de Frio"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "mistyknight",
+   "name": "Misty Knight",
+   "mcocClass": "SKILL",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável",
+    "Tem Golpes Críticos Garantidos (Em Equilíbrio)",
+    "Tem acesso a Quebra de Armadura",
+    "Evita Esquiva",
+    "Aplica Onda de Frio",
+    "Aplica Queimadura de Gelo",
+    "Tem acesso a Fúria",
+    "Reduz as Habilidades Defensivas (Desorientar, 10% por cada bónus no oponente)",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [
+    "Purificação (até 36%)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "moleman",
+   "name": "Mole Man",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Autobloco (Precisão Certeira)",
+    "Bloqueia Golpes Não Bloqueáveis (Todas as Classes)",
+    "Tem acesso a Insuperável",
+    "Tem Golpes Críticos Garantidos (durante o modo Frenzy)",
+    "Tem acesso a Inbloqueável (Especial 2)",
+    "Aplica Sangramento",
+    "Aplica Choque"
+   ],
+   "immunitiesPt": [
+    "Purifica 20 E feitos N egativos por luta",
+    "Imune a Choque"
+   ],
+   "immunityKeys": [
+    "Shock"
+   ]
+  },
+  {
+   "id": "moondragon",
+   "name": "Moondragon",
+   "mcocClass": "SKILL",
+   "rating": 8.0,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva",
+    "Tem acesso a Invisibilidade",
+    "Aplica Incinerar",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fúria (sinergia com Gorr)",
+    "Tem acesso a Imortalidade ou Indestrutível (sinergia com Phylla-Vell)"
+   ],
+   "immunitiesPt": [
+    "Imune a Controlos Invertidos",
+    "Purificação de 100% (20 Cargas Psi)",
+    "30% a 80% Resistente a Ferrão",
+    "30% a 80% Resistente a Sangramento",
+    "30% a 80% Resistente a Veneno",
+    "30% a 80% Resistente a Degeneração"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "moonknight",
+   "name": "Moonknight",
+   "mcocClass": "SKILL",
+   "rating": 3.0,
+   "stars": 3,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Sangramento",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "mrknight",
+   "name": "Mr. Knight",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Insuperável",
+    "Tem Golpes Críticos Garantidos",
+    "Aplica Tranquilização (Reduz a precisão de habilidade dos efeitos negativos)",
+    "Evita Esquiva",
+    "Evita Invisibilidade",
+    "Tem acesso a Passivo de Sono"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "nickfury",
+   "name": "Nick Fury",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Evita Esquiva e Invisibilidade (acima de 5 cargas táticas)",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem acesso a Fúria",
+    "Reduz as Habilidades Defensivas a 70% (Desorientar, Especial 1)",
+    "Tem acesso a Inbloqueável (acima de 15 cargas táticas)"
+   ],
+   "immunitiesPt": [
+    "Purificação de 100% ( Quando usada Pesado ou Especial )"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "nightthrasher",
+   "name": "Night Trasher",
+   "mcocClass": "SKILL",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Autobloco (Precisão Certeira, golpes com o skate)",
+    "Aplica Choque",
+    "Tem acesso a Fúria",
+    "Reduz as Habilidades Defensivas a 50% (Desorientar, Especial 1)",
+    "Tem acesso a Provocação",
+    "Aplica Sangramento (sinergia com Guillotine)",
+    "Tem acesso a Insuperável (sinergia com Ghost Rider)",
+    "Aplica Incinerar"
+   ],
+   "immunitiesPt": [
+    "Imune a Incinerar",
+    "Purificação de 50% (quando é derrubado ou derruba)"
+   ],
+   "immunityKeys": [
+    "Incinerate"
+   ]
+  },
+  {
+   "id": "okoye",
+   "name": "Okoye",
+   "mcocClass": "SKILL",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva",
+    "Aplica Sangramento",
+    "Aplica Choque",
+    "Tem Golpes Críticos Garantidos",
+    "Tem acesso a Fraqueza (sinergia com Serpent)",
+    "Aumenta o Medidor de Combo"
+   ],
+   "immunitiesPt": [
+    "Reduz a Duração de Debuffs Não Danosos em até 6 0% (Resistência)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "patriot",
+   "name": "Patriot",
+   "mcocClass": "SKILL",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Bloqueia Golpes Não Bloqueáveis (Todas as Classes, exceto Mutante)",
+    "Evita Invisibilidade (Bónus de Vigilância)",
+    "Tem acesso a Fúria",
+    "Aplica Ruptura",
+    "Tem acesso a Inbloqueável",
+    "Tem acesso a Fraqueza",
+    "Aumenta o Medidor de Combo"
+   ],
+   "immunitiesPt": [
+    "Resistente a Reversão de Cura"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "punisher",
+   "name": "Punisher (Original)",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Insuperável (quando tem o Passivo de Ímpeto)",
+    "Aplica Sangramento",
+    "Tem acesso a Fúria",
+    "Tem acesso a Imortalidade ou Indestrutível",
+    "Tem Golpes Críticos Garantidos",
+    "Tem acesso a Insuperável",
+    "Aplica Incinerar (sinergia com Franken-Castle)"
+   ],
+   "immunitiesPt": [
+    "Imune a Desvanecer",
+    "40% Resistência a Sangramento",
+    "Reduz a Duração de Debuffs Não Danosos em até 80%"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "ronin",
+   "name": "Ronin",
+   "mcocClass": "SKILL",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Apara golpes que não fazem contacto",
+    "Reduz as Habilidades Defensivas a 60% (Desorientar, E1)",
+    "Tem acesso a Fúria",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [
+    "Purificação de 10 0% ( Ao entrar na Postura de Guarda )"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "shangchi",
+   "name": "Shang Chi",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Inbloqueável",
+    "Tem Golpes Críticos Garantidos ( E 2)",
+    "Evita Esquiva e Insuperável (Lentidão, combo M+M)"
+   ],
+   "immunitiesPt": [
+    "Purificação de 100% (via efeito de sanar)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "silversable",
+   "name": "Silver Sable",
+   "mcocClass": "SKILL",
+   "rating": 8.5,
+   "stars": 8,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque",
+    "Evita Invisibilidade",
+    "Reduz as Habilidades Defensivas (Desorientar)"
+   ],
+   "immunitiesPt": [
+    "Purificação (1 Debuff a cada armadilha)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "spidermanstealthsuit",
+   "name": "Spider-Man (Stealth Suit)",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Invisibilidade (Lentidão, teia de espuma)",
+    "Tem acesso a Fúria (passiva)",
+    "Evita Esquiva e Insuperável (Lentidão, teia de espuma)",
+    "Tem acesso a Bloqueio de Poder (Teia Calmante, apenas bloqueia o poder defensivo)",
+    "Tem acesso a Quebra de Armadura (sinergia com Mr. Negative)",
+    "Tem acesso a Fraqueza (sinergia com Mr. Negative)",
+    "Aplica Degeneração (sinergia com Mr. Negative)",
+    "Tem acesso a Esquiva"
+   ],
+   "immunitiesPt": [
+    "Purificação de 100% (sinergia com o Spider-Man Supreme)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "squirrelgirl",
+   "name": "Squirrel Girl",
+   "mcocClass": "SKILL",
+   "rating": 6.0,
+   "stars": 6,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Sangramento",
+    "Evita Esquiva e Autobloco (Distração, quando o esquilo está no oponente)",
+    "Aplica Choque (sinergia com o Sentinela) Tem acesso a Fúria (sinergia com Luke Cage)",
+    "Aumenta o Medidor de Combo"
+   ],
+   "immunitiesPt": [
+    "Purificação de 100% (efeitos que não causam dano)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "stellarstarlord",
+   "name": "Star Lord (Stellar Forged )",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Incinerar",
+    "Tem Golpes Críticos Garantidos",
+    "Aumenta o Medidor de Combo"
+   ],
+   "immunitiesPt": [
+    "75% Resistente a Ferrão"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "taskmaster",
+   "name": "Taskmaster",
+   "mcocClass": "SKILL",
+   "rating": 7.0,
+   "stars": 7,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Reduz Todas as Habilidades (em até 100%, mas exige muita cooperação do inimigo para isto ser possível)",
+    "Aplica Sangramento",
+    "Tem acesso a Quebra de Armadura (Especial 2 e 3)",
+    "Tem acesso a Inbloqueável (sinergia com Hawkeye)",
+    "Tem acesso a Esquiva (sinergia com o Moonknight)",
+    "Tem acesso a Invisibilidade"
+   ],
+   "immunitiesPt": [
+    "Imune a todos os efeitos negativos (depois de receber 10 debuffs)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "thorragnarok",
+   "name": "Thor (Ragnarok)",
+   "mcocClass": "SKILL",
+   "rating": 9.0,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Aplica Choque",
+    "Reduz Todas as Habilidades (em 20% por cada choque)",
+    "Reduz as Habilidades Defensivas em até 150%",
+    "Tem acesso a Fúria",
+    "Aplica Choque",
+    "Tem acesso a Quebra de Armadura",
+    "Aumenta o Medidor de Combo",
+    "Tem acesso a Inbloqueável (sinergia com Hulk Ragnarok)"
+   ],
+   "immunitiesPt": [
+    "Imune a Choque",
+    "Imune a Desvanecer",
+    "Purificação (efeitos que não causam dano, sinergia com Quicksilver ) Focos de Atributo + Relíquias"
+   ],
+   "immunityKeys": [
+    "Shock"
+   ]
+  },
+  {
+   "id": "valkyrie",
+   "name": "Valkyrie",
+   "mcocClass": "SKILL",
+   "rating": 10.0,
+   "stars": 10,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Insuperável (quando tem um bónus de perfuração ativo)",
+    "Tem acesso a Insuperável (sinergia com Misty Knight)",
+    "Tem acesso a Esquiva",
+    "Aplica Sangramento (passivo)",
+    "Tem acesso a Fúria (passiva)",
+    "Tem acesso a Perfuração"
+   ],
+   "immunitiesPt": [
+    "Purificação de 9 0% (efeitos que não causam dano)"
+   ],
+   "immunityKeys": []
+  },
+  {
+   "id": "wintersoldier",
+   "name": "Winter Soldier",
+   "mcocClass": "SKILL",
+   "rating": 5.0,
+   "stars": 5,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Tem acesso a Fúria",
+    "Aplica Sangramento",
+    "Aplica Incinerar",
+    "Tem acesso a Drenagem de Poder (se for duplicado)"
+   ],
+   "immunitiesPt": [],
+   "immunityKeys": []
+  },
+  {
+   "id": "yelenabelova",
+   "name": "Yelena Belova",
+   "mcocClass": "SKILL",
+   "rating": 9.5,
+   "stars": 9,
+   "ratingConflict": false,
+   "abilitiesPt": [
+    "Evita Esquiva e Invisibilidade (No Modo Eliminação)",
+    "Aplica Sangramento",
+    "Tem Golpes Críticos Garantidos (No Modo Eliminação)",
+    "Reduz as Habilidades Defensivas em 25% (Sinergia com White Widow)",
+    "Aumenta o Medidor de Combo"
+   ],
+   "immunitiesPt": [
+    "Imune a Veneno",
+    "Reduz a Duração de Debuffs Não Danosos em até 35 % (Resistência)"
+   ],
+   "immunityKeys": [
+    "Poison"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3037 @@
+{
+ "source": "https://www.guiamtc.com/tier-lists",
+ "capturedAt": "2026-10-01",
+ "listTitles": {
+  "offense": "Offensive Tier List - September 2026",
+  "defense": "Defensive Tier List - September 2026"
+ },
+ "note": "Tier derecesi GuiaMTC yazarının kişisel değerlendirmesidir (oyun verisi değil). \"signature\": karonun altındaki etiket; şampiyonun bu derecede değerlendirildiği imza seviyesi (x200/x80/x60/x40/x20) ya da \"undup\" (kopya gerekmez); null = etiket okunamadı. Savunma listesi sitede yalnızca 10-8 derece satırlarını içerir. Her karo portre eşleşmesiyle (sınıf başına bire bir atama) belirlendi ve tek tek gözle doğrulandı.",
+ "tierLegend": {
+  "10": {
+   "en": "Top of the Class",
+   "pt": "Topo da Classe"
+  },
+  "9.5": {
+   "en": "Incredible",
+   "pt": "Incrível"
+  },
+  "9": {
+   "en": "Fantastic",
+   "pt": "Fantástico"
+  },
+  "8.5": {
+   "en": "Great",
+   "pt": "Ótimo"
+  },
+  "8": {
+   "en": "Very Good",
+   "pt": "Muito Bom"
+  },
+  "7-7.5": {
+   "en": "Good",
+   "pt": "Bom"
+  },
+  "5-6.5": {
+   "en": "Mediocre",
+   "pt": "Medíocre"
+  },
+  "1-4": {
+   "en": "Awful",
+   "pt": "Horrível"
+  }
+ },
+ "signatureLegend": {
+  "x200": "Signature seviyesi 200",
+  "x80": "Signature seviyesi 80",
+  "x60": "Signature seviyesi 60",
+  "x40": "Signature seviyesi 40",
+  "x20": "Signature seviyesi 20",
+  "undup": "Kopya gerekmez (signature yok)"
+ },
+ "offense": [
+  {
+   "id": "theserpent",
+   "tier": "10",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "gwenom",
+   "tier": "10",
+   "signature": "x60",
+   "class": "COSMIC"
+  },
+  {
+   "id": "deathlessthanos",
+   "tier": "10",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "hulkling",
+   "tier": "10",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "karolinadean",
+   "tier": "10",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "vox",
+   "tier": "10",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "angela",
+   "tier": "10",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "phylavell",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "knull",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "hyperion",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "darkphoenix",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "spidermansymbiote",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "betaraybill",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "medusa",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "cullobsidian",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "corvusglaive",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "visionaarkus",
+   "tier": "9",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "superiorironman",
+   "tier": "9",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "maestro",
+   "tier": "9",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "imperiosa",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "venom",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "heimdall",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "adamwarlock",
+   "tier": "9",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "gladiator",
+   "tier": "9",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "scream",
+   "tier": "9",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "superskrull",
+   "tier": "9",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "gorr",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "cosmicghostrider",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "hercules",
+   "tier": "9",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "galan",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "phoenix",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "odin",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "venomtheduck",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "deathlesskinggroot",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "sersi",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "gamora",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "nova",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "captainmarvelmcu",
+   "tier": "8",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "terrax",
+   "tier": "8",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "kinggroot",
+   "tier": "8",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "silversurfer",
+   "tier": "8",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "venompool",
+   "tier": "8",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "thechampion",
+   "tier": "8",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "thor",
+   "tier": "8",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "redgoblin",
+   "tier": "7-7.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "annihilus",
+   "tier": "7-7.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "ronan",
+   "tier": "5-6.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "proximamidnight",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "msmarvelkamalakhan",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "carnage",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "hela",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "ikaris",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "airwalker",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "drax",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "captainmarvel",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "blackbolt",
+   "tier": "1-4",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "thanos",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "groot",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "msmarvel",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "bastion",
+   "tier": "10",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "yondu",
+   "tier": "10",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "prowler",
+   "tier": "10",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "warlock",
+   "tier": "10",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "shuri",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "jackolantern",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "sentinel",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "ironheart",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "spidermanstarkenhanced",
+   "tier": "9.5",
+   "signature": "x60",
+   "class": "TECH"
+  },
+  {
+   "id": "themaker",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "vivvision",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "jjj",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "solvarch",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "antmanfuture",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "guardian",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "rubythursday",
+   "tier": "9",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "nimrod",
+   "tier": "9",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "peniparker",
+   "tier": "9",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "omegasentinel",
+   "tier": "9",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "shocker",
+   "tier": "9",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "ghost",
+   "tier": "9",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "redskull",
+   "tier": "9",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "howardtheduck",
+   "tier": "9",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "ironman",
+   "tier": "9",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "ironmaninfamous",
+   "tier": "9",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "arnimzola",
+   "tier": "9",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "ultron",
+   "tier": "9",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "ladydeathstrike",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "starlord",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "arcade",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "hobgoblin",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "hulkbuster",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "punisher2099",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "deathlessvision",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "samwilson",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "rocketraccoon",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "nebula",
+   "tier": "8",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "vision",
+   "tier": "8",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "doctoroctopus",
+   "tier": "8",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "mysterio",
+   "tier": "8",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "visionaou",
+   "tier": "8",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "guillotine2099",
+   "tier": "8",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "silvercenturion",
+   "tier": "7-7.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "civilwarrior",
+   "tier": "7-7.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "ironmaninfinitywar",
+   "tier": "7-7.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "darkhawk",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "psychoman",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "vulture",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "kang",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "warmachine",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "greengoblin",
+   "tier": "1-4",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "ultronclassic",
+   "tier": "1-4",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "ironpatriot",
+   "tier": "1-4",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "scorpion",
+   "tier": "10",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "countnefaria",
+   "tier": "10",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "titania",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderwoman",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "void",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "redguardian",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderham",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderman2099",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "photon",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "humantorch",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "silk",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "antivenom",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "lizard",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "deathlessshehulk",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "lukecage",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spot",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "theleader",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "rhino",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "sandman",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "stellargreengoblin",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "wave",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "hulk",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "cassielang",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "falcontorres",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "captainamericaiw",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderpunk",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "quicksilver",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "theoverseer",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "abominationimmortal",
+   "tier": "9",
+   "signature": "x60",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "misternegative",
+   "tier": "9",
+   "signature": "x60",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "sentry",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "bluemarvel",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "antman",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "morbius",
+   "tier": "8.5",
+   "signature": "x60",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spidermanmilesmorales",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "shehulk",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spidergwen",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "highevolutionary",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "joefixit",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "jessicajones",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "redhulk",
+   "tier": "8",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "quake",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "modok",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "thing",
+   "tier": "8",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "misterfantastic",
+   "tier": "8",
+   "signature": "x80",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderman",
+   "tier": "8",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "hulkimmortal",
+   "tier": "7-7.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "yellowjacket",
+   "tier": "5-6.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "wasp",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "invisiblewoman",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "hulkragnarok",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "abomination",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "electro",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "captainamericawwii",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "captainamerica",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "onslaught",
+   "tier": "10",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "mistersinister",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "jeangrey",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "archangel",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "deadpoolxforce",
+   "tier": "10",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "domino",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "dazzler",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "kittypryde",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "dust",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "colossus",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "cyclopsblueteam",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "shatterstar",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "iceman",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "captainbritain",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "gentle",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "wolverinex23",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "cassandra",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "emmafrost",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "toad",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "professorx",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "silversamurai",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "havok",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "bishop",
+   "tier": "9",
+   "signature": "x60",
+   "class": "MUTANT"
+  },
+  {
+   "id": "pixie",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "negasonic",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "apocalypse",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "storm",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "sunspot",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "stormpyramidx",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "cable",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "omegared",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "namor",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "nightcrawler",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "magneto",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "magnetomarvelnow",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "gambit",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "rogue",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "northstar",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "danimoonstar",
+   "tier": "8.5",
+   "signature": "x60",
+   "class": "MUTANT"
+  },
+  {
+   "id": "stryfe",
+   "tier": "8",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "weaponx",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "sauron",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "sabretooth",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "wolverine",
+   "tier": "7-7.5",
+   "signature": null,
+   "class": "MUTANT"
+  },
+  {
+   "id": "goldpool",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "jubilee",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "psylocke",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "platinumpool",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "deadpool",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "oldmanlogan",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "beast",
+   "tier": "1-4",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "cyclops",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "doctorstrange",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "mojo",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "thehood",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "shathra",
+   "tier": "10",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "nicominoru",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "kushala",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "spiral",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "symbiotesupreme",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "absorbingman",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "pavitr",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "agathaharkness",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "purgatory",
+   "tier": "9.5",
+   "signature": "x60",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "madelynepryor",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "ghostrider",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "werewolfbynight",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "tigra",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "magik",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "manthing",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "doctorvoodoo",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "americachavez",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "whitetiger",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "diablo",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "stellarblade",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "blackwidowclairevoyant",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "longshot",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "thorjanefoster",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "juggernaut",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "rintrah",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "scarletwitchsigil",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "doctordoom",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "wiccan",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "kindred",
+   "tier": "8.5",
+   "signature": "x60",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "wong",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "thedestroyer",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "deathlessguillotine",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "isophyne",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "dracula",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "enchantress",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "scarletwitch",
+   "tier": "8",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "ebonymaw",
+   "tier": "8",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "dragonman",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "spidermansupreme",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "sorcerersupreme",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "mephisto",
+   "tier": "8",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "sasquatch",
+   "tier": "8",
+   "signature": "x60",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "mordo",
+   "tier": "7-7.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "mangog",
+   "tier": "7-7.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "guillotine",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "dormammu",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "morningstar",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "loki",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "ironfistimmortal",
+   "tier": "1-4",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "ironfist",
+   "tier": "1-4",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "unstoppablecolossus",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "okoye",
+   "tier": "10",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "crossbones",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "doctorbong",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "kingpin",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "lumatrix",
+   "tier": "10",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "valkyrie",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "blacktarantula",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "patriot",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "blackcat",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "yelenabelova",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "shangchi",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "falcon",
+   "tier": "9.5",
+   "signature": "x60",
+   "class": "SKILL"
+  },
+  {
+   "id": "baronzemo",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "bullseye",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "cheeilth",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "spidermannoir",
+   "tier": "9.5",
+   "signature": "x40",
+   "class": "SKILL"
+  },
+  {
+   "id": "nickfury",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "moleman",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "blackpanthercivilwar",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "punisher",
+   "tier": "9",
+   "signature": "x60",
+   "class": "SKILL"
+  },
+  {
+   "id": "katebishop",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "thorragnarok",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "jabaripanther",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "mrknight",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "mantis",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "mbaku",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "frankencastle",
+   "tier": "9",
+   "signature": "x80",
+   "class": "SKILL"
+  },
+  {
+   "id": "spidermanstealthsuit",
+   "tier": "9",
+   "signature": "x60",
+   "class": "SKILL"
+  },
+  {
+   "id": "blade",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "attuma",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "masacre",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "stellarstarlord",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "aegon",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "silversable",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "hitmonkey",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "bwdo",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "killmonger",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "moondragon",
+   "tier": "8.5",
+   "signature": "x60",
+   "class": "SKILL"
+  },
+  {
+   "id": "nightthrasher",
+   "tier": "8",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "agentvenom",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "elsabloodstone",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "mistyknight",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "hawkeye",
+   "tier": "7-7.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "gwenpool",
+   "tier": "7-7.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "blackpanther",
+   "tier": "7-7.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "squirrelgirl",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "ronin",
+   "tier": "5-6.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "korg",
+   "tier": "5-6.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "taskmaster",
+   "tier": "5-6.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "daredevilnetflix",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "blackwidow",
+   "tier": "5-6.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "kraven",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "karnak",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "wintersoldier",
+   "tier": "5-6.5",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "elektra",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "moonknight",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "daredevil",
+   "tier": "1-4",
+   "signature": "undup",
+   "class": "SKILL"
+  }
+ ],
+ "defense": [
+  {
+   "id": "theserpent",
+   "tier": "10",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "darkphoenix",
+   "tier": "10",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "maestro",
+   "tier": "10",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "heimdall",
+   "tier": "10",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "deathlessthanos",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "knull",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "gwenom",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "karolinadean",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "hulkling",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "sersi",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "gorr",
+   "tier": "9",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "superskrull",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "medusa",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "imperiosa",
+   "tier": "9",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "nova",
+   "tier": "9",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "phylavell",
+   "tier": "9",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "galan",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "terrax",
+   "tier": "8.5",
+   "signature": "x60",
+   "class": "COSMIC"
+  },
+  {
+   "id": "adamwarlock",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "airwalker",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "visionaarkus",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "gladiator",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "annihilus",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "COSMIC"
+  },
+  {
+   "id": "hercules",
+   "tier": "8",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "hyperion",
+   "tier": "8",
+   "signature": "x20",
+   "class": "COSMIC"
+  },
+  {
+   "id": "spidermansymbiote",
+   "tier": "8",
+   "signature": "x200",
+   "class": "COSMIC"
+  },
+  {
+   "id": "arnimzola",
+   "tier": "10",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "rubythursday",
+   "tier": "10",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "solvarch",
+   "tier": "10",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "antmanfuture",
+   "tier": "10",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "peniparker",
+   "tier": "10",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "sentinel",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "shocker",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "arcade",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "redskull",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "mysterio",
+   "tier": "9",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "yondu",
+   "tier": "9",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "nimrod",
+   "tier": "9",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "jjj",
+   "tier": "9",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "ironmaninfinitywar",
+   "tier": "9",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "warlock",
+   "tier": "9",
+   "signature": "x60",
+   "class": "TECH"
+  },
+  {
+   "id": "prowler",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "ironmaninfamous",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "themaker",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "vivvision",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "shuri",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "ironman",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "TECH"
+  },
+  {
+   "id": "hobgoblin",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "omegasentinel",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "samwilson",
+   "tier": "8",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "guardian",
+   "tier": "8",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "hulkbuster",
+   "tier": "8",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "ladydeathstrike",
+   "tier": "8",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "guillotine2099",
+   "tier": "8",
+   "signature": "undup",
+   "class": "TECH"
+  },
+  {
+   "id": "darkhawk",
+   "tier": "8",
+   "signature": "x20",
+   "class": "TECH"
+  },
+  {
+   "id": "highevolutionary",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "rhino",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "photon",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "stellargreengoblin",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "modok",
+   "tier": "9.5",
+   "signature": "x60",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "void",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "thing",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "lizard",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "jessicajones",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderwoman",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spot",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "countnefaria",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "electro",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "quicksilver",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderham",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "theleader",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "abominationimmortal",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spidergwen",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderpunk",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "cassielang",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "scorpion",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "antman",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "theoverseer",
+   "tier": "8",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "morbius",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "hulkimmortal",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "spiderman",
+   "tier": "8",
+   "signature": "x20",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "bluemarvel",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "wave",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SCIENCE"
+  },
+  {
+   "id": "captainbritain",
+   "tier": "10",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "onslaught",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "jeangrey",
+   "tier": "10",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "domino",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "gentle",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "dust",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "weaponx",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "mistersinister",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "bishop",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "nightcrawler",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "pixie",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "havok",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "negasonic",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "kittypryde",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "cassandra",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "toad",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "MUTANT"
+  },
+  {
+   "id": "northstar",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "sauron",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "dazzler",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "iceman",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "silversamurai",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "MUTANT"
+  },
+  {
+   "id": "shatterstar",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "apocalypse",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "danimoonstar",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "stormpyramidx",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "stryfe",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MUTANT"
+  },
+  {
+   "id": "kindred",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "nicominoru",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "manthing",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "enchantress",
+   "tier": "10",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "sasquatch",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "rintrah",
+   "tier": "9.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "magik",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "mojo",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "madelynepryor",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "pavitr",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "agathaharkness",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "thedestroyer",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "absorbingman",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "dracula",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "stellarblade",
+   "tier": "9",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "doctorstrange",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "americachavez",
+   "tier": "9",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "ebonymaw",
+   "tier": "9",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "werewolfbynight",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "longshot",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "mangog",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "wong",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "spiral",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "spidermansupreme",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "mephisto",
+   "tier": "8.5",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "ghostrider",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "dormammu",
+   "tier": "8",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "kushala",
+   "tier": "8",
+   "signature": "undup",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "wiccan",
+   "tier": "8",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "mordo",
+   "tier": "8",
+   "signature": "x20",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "doctordoom",
+   "tier": "8",
+   "signature": "x200",
+   "class": "MYSTIC"
+  },
+  {
+   "id": "yelenabelova",
+   "tier": "10",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "lumatrix",
+   "tier": "10",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "blacktarantula",
+   "tier": "10",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "punisher",
+   "tier": "10",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "bullseye",
+   "tier": "10",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "attuma",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "nickfury",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "korg",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "blackpanthercivilwar",
+   "tier": "9.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "doctorbong",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "killmonger",
+   "tier": "9.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "thorragnarok",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "baronzemo",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "cheeilth",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "frankencastle",
+   "tier": "9",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "okoye",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "mbaku",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "kingpin",
+   "tier": "9",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "spidermannoir",
+   "tier": "9",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "moleman",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "mantis",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "mistyknight",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "jabaripanther",
+   "tier": "8.5",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "mrknight",
+   "tier": "8.5",
+   "signature": "x200",
+   "class": "SKILL"
+  },
+  {
+   "id": "katebishop",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SKILL"
+  },
+  {
+   "id": "kraven",
+   "tier": "8",
+   "signature": "x20",
+   "class": "SKILL"
+  },
+  {
+   "id": "masacre",
+   "tier": "8",
+   "signature": "undup",
+   "class": "SKILL"
+  }
+ ]
+}
