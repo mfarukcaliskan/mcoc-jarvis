@@ -92,3 +92,7 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 - `guia_guides.json`: Portekizce metin olduğu gibi (64/54/9/3 paragraf); Necropolis'te 15 rakip + önerilen cevaplar ayrıştırıldı. Meta ekranında "GuiaMTC Rehberleri" bölümü.
 - Alınmayanlar (yalnızca görsel): Coliseum tier listesi, AQ Rampant Evolution tier listesi, Awakening Gems (sayfada metin yok), AQ Map 6/7/8 (yüzlerce harita görseli).
 - Hazard Shift ve DOT sekmeleri: şampiyon listeleri mcoc.gg `capabilities.json` içinde zaten yetkili olarak var (abilities: Bleed/Poison/Incinerate/Shock/Degeneration/Coldsnap/Plasma/Rupture/Disintegration/Neuroshock/Corrosion; immunities). Guia görsel listeleri ayrıca okunmadı (mcoc.gg listesi esas alındı).
+
+## Eski `tier` alanı (S/A/B/C) – kaynağı belirsiz
+- champions_db.json `tier` alanı elle verilmiş, kaynağı yok (sync_mcoc "N/A" yazar). GuiaMTC offense/defense puanıyla zayıf korelasyon (ör. 'C' etiketli 6 şampiyon Guia'da 9'un üstünde). Bu yüzden şampiyon detay başlığı ve overlay artık bu etiketi göstermez; yerine GuiaMTC saldırı/savunma puanı (x/10) gösterilir. Filtre/sıralamadaki eski S/A/B/C hâlâ duruyor – karar bekliyor (kaldırma ya da Guia puanından türetme).
+- `howToPlay`/`bestUse` şablon metinleri kaldırıldı (uydurmaydı); gerçek kaynak (mcoc.gg yetenek bölümleri) `abilitySections`'ta.

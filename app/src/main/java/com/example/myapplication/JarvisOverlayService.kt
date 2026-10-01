@@ -360,7 +360,7 @@ class JarvisOverlayService : Service() {
             updateCountersRow(countersList.map { it.first } + nodeAttackersList)
         } else if (detectedChampion != null) {
             hudTitle.text = "🎯 RAKİP: ${detectedChampion.name}"
-            hudDescription.text = "Sınıf: ${detectedChampion.mcocClass.displayName} | Tier: ${detectedChampion.tier}"
+            hudDescription.text = "Sınıf: ${detectedChampion.mcocClass.displayName}" + (com.example.myapplication.data.GuiaTierRepository.defenseTier(detectedChampion.id)?.let { " | Savunma ${it.tier}/10 (GuiaMTC)" } ?: "")
             val countersList = getCountersFor(detectedChampion)
             val champCounters = countersList.joinToString(", ") { it.first.name }
             hudCounters.text = "En İyi Counterlar: $champCounters"

@@ -138,7 +138,7 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                     Column {
                         Text(champion.name, fontSize = 22.sp, fontWeight = FontWeight.Bold, color = Color.White)
                         Text(
-                            "${champion.mcocClass.displayName} • ${champion.tier} Tier • #${champion.prestigeRank}",
+                            "${champion.mcocClass.displayName} • #${champion.prestigeRank}" + (com.example.myapplication.data.GuiaTierRepository.offenseTier(champion.id)?.let { " • Saldırı ${it.tier}/10 (GuiaMTC)" } ?: ""),
                             fontSize = 13.sp,
                             color = Color(champion.mcocClass.color)
                         )
