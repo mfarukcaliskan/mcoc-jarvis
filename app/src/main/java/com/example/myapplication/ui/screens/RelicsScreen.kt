@@ -206,6 +206,13 @@ fun RelicCard(relic: Relic, isExpanded: Boolean, onClick: () -> Unit) {
 
                 Text(relic.description, fontSize = 12.sp, color = Color.LightGray, lineHeight = 16.sp)
 
+                val guia = com.example.myapplication.data.GuiaRelicRepository.ratingFor(relic.id)
+                if (guia != null) {
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text("GuiaMTC puanı: ${guia.rating}/${guia.ratingMax} (Portekizce, yorum)", fontWeight = FontWeight.Bold, color = Color(0xFFFFD700), fontSize = 11.sp)
+                    guia.recommendedUsePt?.let { Text(it, fontSize = 11.sp, color = Color.LightGray) }
+                }
+
                 Spacer(modifier = Modifier.height(8.dp))
                 Text("Doğal Yetenek (mcoc.gg, İngilizce):", fontWeight = FontWeight.Bold, color = Color(0xFFFF9800), fontSize = 11.sp)
                 val innate = relic.innate

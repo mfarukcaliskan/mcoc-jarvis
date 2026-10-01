@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 
 ASSETS_DIR = "app/src/main/assets"
 MANIFEST_PATH = os.path.join(ASSETS_DIR, "data_manifest.json")
-TRACKED_TOP_LEVEL_FILES = ["champions_db.json", "relics.json", "meta.json", "guia_counters.json", "guia_aw_globals.json", "guia_raids.json", "guia_champions.json", "guia_tiers.json", "guia_aw_season69.json", "guia_aw69_helpers.json", "capabilities.json", "prestige.json", "guia_aw_bigthing.json", "relic_statcast.json", "events.json"]
+TRACKED_TOP_LEVEL_FILES = ["champions_db.json", "relics.json", "meta.json", "guia_counters.json", "guia_aw_globals.json", "guia_raids.json", "guia_champions.json", "guia_tiers.json", "guia_aw_season69.json", "guia_aw69_helpers.json", "capabilities.json", "prestige.json", "guia_aw_bigthing.json", "relic_statcast.json", "events.json", "guia_relics.json", "guia_rank7.json"]
 TRACKED_DIRS = ["details", "quests"]
 
 

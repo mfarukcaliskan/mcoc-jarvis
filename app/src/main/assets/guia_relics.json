@@ -1,0 +1,334 @@
+{
+ "source": "https://www.guiamtc.com/relíquias (6 sınıf sayfası)",
+ "capturedAt": "2026-10-01",
+ "note": "rating: GuiaMTC yazarının 1-10 değerlendirmesi (görüş). effectPt/recommendedUsePt/interactionsPt Portekizce, aynen. mentionedChampionIds: \"Em quem usar\" ve etkileşim metninde adı geçen şampiyonlar (ad eşleşmesi; öneri listesi değil). Yalnızca Battlecast andaçları; Statcast ve The Cosmic Egg için GuiaMTC değerlendirmesi yok.",
+ "relics": [
+  {
+   "relicId": "relic1",
+   "relicName": "Storm Battlecast",
+   "namePt": "Storm",
+   "class": "MUTANT",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante um Bónus de Voracidade que aumenta o dano em 12% enquanto o atacante está não bloqueável. Se a relíquia for duplicada então os efeitos de proeza aumentam em 3,3% por cada golpe. Inserir runas aumenta a duração das proezas e não bloqueável e ainda torna o defesa mais vulnerável a dano de energia se este tiver acesso a 5 proezas.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar aqueles mutantes que ativam muitas proezas facilmente. Além disso a relíquia beneficia muito campeões mutantes com dano de energia e que tenham acesso a não bloqueável.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic2",
+   "relicName": "Wolverine Battlecast",
+   "namePt": "Wolverine",
+   "class": "MUTANT",
+   "rating": 6,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante um Bónus de Rejuvenescimento que aumenta a Taxa de Regeneração em 6,90%. Se a relíquia for duplicada então o atacante recebe um efeito de Agressividade Passiva que aumenta o dano dos debuffs de dano em até 60%. Inserir runas aumenta a potência e precisão de habilidade do sangramento, aumenta a duração dos efeitos de regeneração e ainda dá ao atacante uma chance de purificar debuffs de bloco de cura e receber uma fúria passiva.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões mutantes que regeneram e façam sangramento. O problema é que há poucos campeões na classe mutante que tenham estas caraterísticas e que sejam relevantes em todas as áreas do jogo. Portanto o uso desta relíquia é muito limitado.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic3",
+   "relicName": "Gambit Battlecast",
+   "namePt": "Gambit",
+   "class": "MUTANT",
+   "rating": 9,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante um Passivo que aumenta a Resistência Física em 27,61% durante 8 segundos depois de ser ativada. Se a relíquia for duplicada então o atacante recebe também 32% de resistência crítica. Inserir runas faz com que ataques especiais (dano físico) façam 24% de dano adicional. Além disso todos os especiais que causem dano físico recebem +54,5% de chance crítica.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões mutantes que façam Dano Físico nos seus especiais. A parte mais importante desta relíquia é o aumento de chance crítica durante os especiais. Isso altera por completo a eficácia e o dano médio de qualquer mutante com Dano Físico.",
+   "interactionsPt": "Rogue ➜ Pausa o contador de Bónus Replicado Gambit ➜ Dá uma chance de ganhar um Não Bloqueável Passivo Nightcrawler ➜ O oponente sofre Vulnerabilidade a Sangramento",
+   "mentionedChampionIds": [
+    "nightcrawler",
+    "gambit",
+    "rogue"
+   ]
+  },
+  {
+   "relicId": "relic4",
+   "relicName": "Mister Sinister Battlecast",
+   "namePt": "Mr. Sinister",
+   "class": "MUTANT",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Ativar esta relíquia dá ao atacante um sangramento que dura 4 segundos mas que não faz dano. Se a relíquia for duplicada então o sangramento recebe +50% de chance de se ativar novamente, mas se a relíquia estiver a ser usada no Colossus, Namor, Toad ou Storm essa chance é +100%. Inserir runas faz com que o atacante ao sofrer sangramento ganhe uma precisão e uma crueldade passiva por 14 segundos. Isto aumenta a chance crítica e o dano dos críticos. As runas também diminuem a potência do sangramento e aumentam a potência de proezas.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões mutantes imunes ou resistentes a sangramento. Na classe mutante existem alguns campeões que quando sofrem sangramento ganham vantagens: Colossus ➜ Ao sofrer sangramento se for duplicado ganha uma chance de receber armadura. Storm ➜ Ao sofrer sangramento ganha 2 bónus de proeza Toad ➜ Ao sofrer sangramento ganha uma chance de 20% de ativar a Secreção Paralisante Namor ➜ Ao sofrer sangramento ganha uma carga de Indignação Omega Red ➜ Ao sofrer sangramento ativa o Campo da Morte Domino ➜ Ao sofrer sangramento recebe poder e o Especial 2 recebe +90% de ataque. Cable ➜ Ao sofrer sangramento aplica no Oponente um Debuff de Degeneração. Bishop ➜ Ao sofrer sangramento o Oponente perde vida por Dano Direto",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "omegared",
+    "colossus",
+    "bishop",
+    "domino",
+    "namor",
+    "storm",
+    "cable",
+    "toad"
+   ]
+  },
+  {
+   "relicId": "relic21",
+   "relicName": "Vision Battlecast",
+   "namePt": "Visão",
+   "class": "TECH",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante uma Debilitação de Sufocamento. Sempre que o oponente tenta regenerar enquanto sofre bloqueio de cura recebe uma explosão de 3,6% em dano de energia. Se a relíquia for duplicada então o atacante se tentar curar enquanto sofre bloqueio de cura sofre uma Tormenta Passiva. Esse passivo aumenta a duração dos efeitos que causam dano em até 18%. Inserir runas aumenta a duração dos Efeitos de Bloqueio de Cura e dá ao atacante uma Fúria Passiva sempre que este bloquear a cura do oponente. Além disto ao bloquear a cura o atacante ganha os seguintes benefícios: ➜ +4,8% de Potência nos efeitos de Incineração, Veneno, Choque e Plasma ➜ +3,8% de Proficiência de Bloco",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões tecnológicos que tenham acesso a Bloqueio de Cura. Campeões tecnológicos com acesso a incineração, veneno, choque ou plasma são os que mais beneficiam desta relíquia. No entanto o uso desta relíquia é bastante limitado já que a maioria dos efeitos apenas se aplica se o oponente regenerar.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic22",
+   "relicName": "Hulkbuster Battlecast",
+   "namePt": "Hulkbuster",
+   "class": "TECH",
+   "rating": 8,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia coloca no oponente um efeito de Vulnerabilidade a Choque, isto aumenta a potência dos choques em 4,6%. Se a relíquia for duplicada caso o oponente tenha sofrido 10 choques durante a luta sofre um efeito de Vulnerabilidade de Energia isto aumenta o dano energético em 12%. Inserir runas aumenta a duração e potência dos choques em 48%, além disso enquanto o oponente sofre 3 choques em simultâneo sofre uma supressão passiva, isto diminui a taxa de poder em combate.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões tecnológicos que tenham acesso a Choque. A relíquia aumenta a potência e duração do choque e ainda faz o oponente sofrer mais dano energético. O campeão que mais beneficia é sem dúvida alguma o Guardian, porque ele no Especial 2 aplica um choque extremamente potente e esse choque com esta relíquia fica ainda mais insano.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "guardian"
+   ]
+  },
+  {
+   "relicId": "relic23",
+   "relicName": "Sentinel Battlecast",
+   "namePt": "Sentinela",
+   "class": "TECH",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia coloca no oponente um Passivo de Vulnerabilidade a Incineração. Se a relíquia for duplicada então o Duende Verde e Sentinela recebem +40% de potência nos efeitos de Incinerar. Inserir runas diminui o ataque do oponente enquanto estiver incinerado além disso os golpes do atacante ganham uma chance de pausar os efeitos de incineração por 3,5 segundos. Campeões tecnológicos ganham também +9,6% de ataque ao lutar contra mutantes e o oponente sofre -9,6% de resistência a energia.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões tecnológicos que aplicam efeitos de Incineração. A incineração ganha maior potência e duração e o atacante ainda ganha a habilidade de poder pausar os efeitos de incinerar. Infelizmente na classe tech poucos campeões têm acesso a incineração, por causa disso o uso desta relíquia é super limitado.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic24",
+   "relicName": "Green Goblin Battlecast",
+   "namePt": "Green Goblin",
+   "class": "TECH",
+   "rating": 5,
+   "ratingMax": 10,
+   "effectPt": "Ativar esta relíquia dá ao atacante uma Eficiência de Poder Passivo, isto reduz o custo dos especiais em 9,2%. Se a relíquia for duplicada sempre que o atacante drena poder ao oponente este sofre uma Fraqueza que reduz o ataque em 24%. Se o atacante for o Duende Verde, Octopus ou Abutre em vez de colocar uma fraqueza coloca uma incineração ou veneno. Inserir runas reduz o dano dos especiais do oponente e aumenta a potência dos debuffs que fazem dano. As runas também dão vantagens especiais ao Duende Verde, Octopus e Abutre.",
+   "recommendedUsePt": "Esta é uma das piores relíquias do jogo porque beneficia muito 3 campeões mas nenhum deles é relevante o suficiente neste jogo. A única exceção é o Doctor Octopus. Os tecnológicos com esta relíquia têm maior facilidade em spamar especiais já que gastam menos poder ao ativar os especiais. No entanto ao contrário de outras relíquias tech os efeitos desta relíquia não são muito potentes.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "doctoroctopus"
+   ]
+  },
+  {
+   "relicId": "relic17",
+   "relicName": "Venom Battlecast",
+   "namePt": "Venom",
+   "class": "COSMIC",
+   "rating": 8,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia coloca no oponente uma Vulnerabilidade a Sangramento, isto aumenta a potência do sangramento em 18,4%. Se a relíquia for duplicada então o atacante coloca uma Vulnerabilidade a Sangramento por cada bónus único que tiver ativo. Com 6 bónus únicos a potência do sangramento aumenta em até 96%. Inserir runas aumenta a chance de aplicar sangramento e também a chance do atacante acertar golpes críticos enquanto o oponente sangra.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões cósmicos que aplicam sangramento. Atualmente existem poucos cósmicos que apliquem sangramento, mas felizmente os que existem são relevantes neste jogo. Knull, Gorr e Venom são os campeões que mais ganham com esta relíquia.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "knull",
+    "venom",
+    "gorr"
+   ]
+  },
+  {
+   "relicId": "relic18",
+   "relicName": "Thor Battlecast",
+   "namePt": "Thor",
+   "class": "COSMIC",
+   "rating": 10,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante um Bónus de Aptidão. Esse Bónus aumenta a potência dos Bónus de Fúria, Precisão e Armadura em 18,4%. Se a relíquia for duplicada então o Bónus de Aptidão passa a ser permanente e o atacante recebe um Bónus de Intensificação que aumenta a potência de todos os bónus em 28%. Inserir runas faz com que o atacante ao ativar uma Fúria receba um Bónus de Vigor que aumenta o dano causado no oponente por todas as fontes. Além disso se o atacante ativar uma Armadura então recebe um Bónus de Força Moral Passiva, isto diminui o dano recebido por todas as fontes.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões cósmicos que ativem bónus de fúria com facilidade. Campeões com fúrias potentes são os mais beneficiados. Hulkling, Hyperion e Adam Warlock são alguns dos campeões que mais ganham com esta relíquia. O Cosmic Rider tem a rotação facilitada já que a própria relíquia já lhe dá a aptidão sem ser preciso usar o pesado.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "adamwarlock",
+    "hulkling",
+    "hyperion"
+   ]
+  },
+  {
+   "relicId": "relic19",
+   "relicName": "Ms. Marvel Battlecast",
+   "namePt": "Ms. Marvel",
+   "class": "COSMIC",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante um Bónus de Precisão, isto aumenta a chance crítica. Se a relíquia for duplicada então campeões com ataque/dano certeiro ganham a habilidade pausar a precisão da relíquia durante 6 segundos. Inserir runas faz com que o oponente sofra 14,4% de dano direto sempre que o atacante evita uma esquiva ou um bloqueio automático. Além disso campeões com ataque/dano certeiro ganham +9,6% de chance crítica. A Sersi e o Nova recebem vantagens adicionais com esta relíquia.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões cósmicos que tenham acesso a dano/ataque certeiro. Aumentar a chance crítica e a duração dos efeitos de ataque certeiro ajuda campeões bastante populares tais como Adam Warlock, Corvus, Hercules e Galan.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "adamwarlock",
+    "hercules",
+    "galan"
+   ]
+  },
+  {
+   "relicId": "relic20",
+   "relicName": "Gamora Battlecast",
+   "namePt": "Gamora",
+   "class": "COSMIC",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Ativar esta relíquia dá ao atacante um Bónus de Estoicismo, esse efeito aumenta a precisão de habilidade de todos os bónus em 23% por 10 segundos. Se a relíquia for duplicada sempre que alguma fúria ou crueldade falha em ativar os próximos bónus de fúria e precisão ganham uma chance adicional, isto aumenta em até 40% até ao final da luta. Inserir runas faz com que o atacante aumente a potência e duração dos bónus de Fúria e Crueldade. O Hyperion, Gamora e King Groot recebem efeitos com maior potência ao usar esta relíquia.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões cósmicos que dependam de uma chance para ativar bónus de fúria ou crueldade, precisão, etc. Os campeões que mais beneficiam são aqueles que conseguem ativar múltiplos bónus durante a luta.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic13",
+   "relicName": "Scarlet Witch Battlecast",
+   "namePt": "Scarlet Witch",
+   "class": "MYSTIC",
+   "rating": 8,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante um Bónus de Amplificação que aumenta a Taxa de Poder de Habilidade em 4,6%. Se a relíquia for duplicada então sempre que o atacante ganha uma barra de poder de forma passiva então o dano dos ataques especiais aumenta em 6%. Inserir runas aumenta a Taxa de Regeneração e de Poder de Habilidade.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar místicos com acesso a ganho de poder passivo ou que beneficiem de dispersão mística. No entanto os efeitos que esta relíquia oferece não são muito potentes, e não têm grande impacto nas lutas.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic14",
+   "relicName": "Juggernaut Battlecast",
+   "namePt": "Juggernaut",
+   "class": "MYSTIC",
+   "rating": 9,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante +18% de ataque enquanto este estiver insuperável. Se a relíquia for duplicada então o atacante quando ativar insuperável recebe +6% de ataque pelo restante da luta. Inserir runas dá ao atacante um Bónus Intensificador que aumenta a potência dos próximos bónus. Além disso se o atacante ativar insuperável e for #Tanque: Defensivo ganha uma Regeneração Passiva de 1,5%.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões místicos com fácil acesso a insuperável. O aumento de dano junto com regeneração passiva ajudam imensamente o Juggy, Rintrah e Sasquatch.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "sasquatch",
+    "rintrah"
+   ]
+  },
+  {
+   "relicId": "relic15",
+   "relicName": "Iron Fist Battlecast",
+   "namePt": "Iron Fist",
+   "class": "MYSTIC",
+   "rating": 6,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia coloca no oponente uma Inaptidão Passiva que reduz a potência dos Bónus de Fúria, Armadura, Precisão e Crueldade em 22,8%. Se a relíquia for duplicada então quando o atacante usa um ataque pesado o oponente sofre 14% de dano adicional em dano de energia. Inserir runas aumenta o dano de energia ao usar ataque pesado e reduz a taxa de poder do oponente enquanto este sofre um pesado que tenha apenas 1 golpe.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões místicos com a Tag de #Ofensivos: Explosivos. A relíquia enfraquece os bónus do oponente e fortalece o ataque pesado do atacante. No entanto o uso da relíquia é um pouco limitado, porque enfraquecer os bónus é a pior forma de controlo de bónus no jogo. Deve-se usar esta relíquia em místicos que não anulem nem neutralizem.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic16",
+   "relicName": "Ghost Rider Battlecast",
+   "namePt": "Ghost Rider",
+   "class": "MYSTIC",
+   "rating": 8,
+   "ratingMax": 10,
+   "effectPt": "Ativar esta relíquia coloca no oponente uma Vulnerabilidade a Degeneração de 20%. Se a relíquia for duplicada aumenta a potência da degeneração. E se o atacante for a Purgatório, Ebony ou Mojo colocar degeneração também aplica um Debuff de Espanto. Inserir runas aumenta a potência dos efeitos negativos de dano em 10% e a duração dos efeitos de Espanto em 20%.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões místicos que tenham acesso a degeneração. Isto aumenta a potência de degeneração e se o atacante for Mojo, Ebony ou Purgatory ainda ganha a habilidade de aplicar efeitos de espanto.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "purgatory",
+    "mojo"
+   ]
+  },
+  {
+   "relicId": "relic9",
+   "relicName": "Ant-Man Battlecast",
+   "namePt": "Ant-Man",
+   "class": "SCIENCE",
+   "rating": 9,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia coloca no oponente um efeito de Ferrão Poderoso durante 16 segundos. Se a relíquia for duplicada o atacante recebe ataque enquanto o oponente tem um ferrão e a potência do ferrão também é aumentada. Inserir runas faz com que o oponente quando sofre um ferrão sofra um ferrão adicional e um efeito de Provocação por 16 segundos.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar atacantes científicos com acesso a ferrão. Esses atacantes recebem maior potência e duração no ferrão e ainda ganham acesso a provocação o que aumenta a chance do oponente usar especiais. Sendo assim a eficácia destes campeões aumenta imenso.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic10",
+   "relicName": "Hulk Battlecast",
+   "namePt": "Hulk",
+   "class": "SCIENCE",
+   "rating": 10,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia coloca no oponente uma Vulnerabilidade a Dano Físico de 9,2%. Se a relíquia for duplicada se o atacante atordoar, regenerar ou aplicar desorientar o oponente sofre um Passivo de Vulnerabilidade a Dano Físico. Inserir runas aumenta a potência do dano físico que acontece enquanto o atacante não golpeia o oponente. E se o atacante regenerar recebe um aumento de resistência física.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões científicos que tenham dano físico. A classe científica é baseada essencialmente em campeões com dano físico, portanto esta relíquia abrange uma grande percentagem de campeões nesta classe.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic11",
+   "relicName": "Captain America (WWII) Battlecast",
+   "namePt": "Capitão América",
+   "class": "SCIENCE",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante um efeito de Baluarte, isto aumenta a proficiência de bloco em 7,6%. Se a relíquia for duplicada então quando o atacante bloqueia golpes o oponente sofre uma explosão de 16% em dano físico. Inserir runas faz com que a proficiência de bloco aumente quando o atacante ativa debuffs de exaustão e reduz a resistência física do oponente além de dar uma chance de 3,3% de bloco perfeito.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões científicos que precisam de maior proficiência de bloco. Um ótimo exemplo é o Spot e Negative, que dependem de bloquear golpes para acessar o seu dano. No entanto o uso desta relíquia é bastante limitado e tirando algumas exceções o valor desta relíquia não é muito relevante.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "spot"
+   ]
+  },
+  {
+   "relicId": "relic12",
+   "relicName": "Spider-Man 2099 Battlecast",
+   "namePt": "Spidey 2099",
+   "class": "SCIENCE",
+   "rating": 8,
+   "ratingMax": 10,
+   "effectPt": "Ativar esta relíquia dá ao atacante um Debuff de Vulnerabilidade Física de 15%. Se a relíquia for duplicada então os efeitos de vulnerabilidade recebem +10% de potência por cada efeito de desvanecer, provocar e exasperar no oponente. Inserir runas faz com que o atacante fique imune a precisão e aplique um efeito de desvanecer sempre que ativa destreza. Isto tem um cooldown de 8 segundos mas se o atacante for a Gwen Aranha, Miles ou Spider Man não existe cooldown. Além disso aumenta o tempo dos debuffs de Provocação e Exasperar.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar a classe científica no geral, já que dá aos atacantes científicos a oportunidade de ficarem imunes a destreza. Ficando imunes a destreza não têm de lidar com dispersão mística quando desviam de algum ataque. Além disso campeões com dano físico são também altamente beneficiados.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic5",
+   "relicName": "Black Panther Battlecast",
+   "namePt": "Black Panther",
+   "class": "SKILL",
+   "rating": 8,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante um Bónus de Crueldade, isto aumenta o dano crítico em 18,4%. Se a relíquia for duplicada então se o atacante tiver golpes críticos garantidos garantem mais dano crítico. Isto aumenta a cada golpe. Inserir runas dá aos golpes críticos garantidos dano físico adicional e torna o oponente mais vulnerável a dano físico.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar aqueles campeões de habilidade que têm acesso a golpes críticos garantidos. Este tipo de golpes recebem dano adicional, reduzindo o tempo das lutas, isto tem ainda mais importância nos BGS.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic6",
+   "relicName": "Winter Soldier Battlecast",
+   "namePt": "Winter Soldier",
+   "class": "SKILL",
+   "rating": 6,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia coloca no oponente um Debuff de Vulnerabilidade a Energia. Se a relíquia for duplicada então se o atacante colocar uma Incineração ganha uma Crueldade Passiva e se colocar Onda de Frio ganha uma Precisão. Inserir runas dá ao atacante a possibilidade de reiniciar um Debuff de Onda de Frio ao usar pesados e faz com que as Incinerações tenham uma chance de causar uma explosão de dano energético adicional.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões de Habilidade que tenham acesso a Incineração ou Onda de Frio. Estes campeões recebem efeitos adicionais nestes 2 efeitos e portanto aumentam o dano.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic7",
+   "relicName": "Valkyrie Battlecast",
+   "namePt": "Valkyrie",
+   "class": "SKILL",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Esta relíquia dá ao atacante uma Perfuração Passiva, isto dá uma Penetração de Bloqueio de 7,6%. Se a relíquia for duplicada então o atacante recebe uma Fúria Passiva quando acerta no bloco do oponente, isto aumenta o ataque em 6,6%. Inserir runas faz o atacante colocar um Debuff de Vulnerabilidade a Dano Físico e reduz a Precisão de Habilidade Defensiva enquanto o atacante sofre Desorientar ou Intimidação.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões de Habilidade com efeitos de Perfuração ou Desorientar. O Campeão que mais beneficia desta relíquia é a Valquíria, com isto ganha uma fúria passiva e ainda aplica mais dano através do Bloco. O Massacre é outra das melhores opções.",
+   "interactionsPt": null,
+   "mentionedChampionIds": []
+  },
+  {
+   "relicId": "relic8",
+   "relicName": "Black Widow Battlecast",
+   "namePt": "Viúva Negra",
+   "class": "SKILL",
+   "rating": 7,
+   "ratingMax": 10,
+   "effectPt": "Ativar esta relíquia coloca no oponente um Debuff de Bipe, este efeito não faz nada mas tem 100% de chance de ser ativado quando o oponente é atingido. Se a relíquia for duplicada então todos os golpes do atacante que reduzam as habilidades ganham +24% de ataque. Inserir runas dá ao atacante Efeitos de Precisão se o atacante evitar alguma habilidade do oponente. Além disso todos os efeitos de Desorientar ou de Sabotagem ganham +14,4% de duração, e se os atacantes usados forem a Viúva Branca ou o Ronin esses efeitos ficam pausados enquanto o atacante não golpeia o oponente.",
+   "recommendedUsePt": "Esta relíquia foi criada para ajudar campeões de Habilidade que reduzam as habilidades do oponente. A relíquia coloca um Bipe no oponente com a intenção de fazer essa habilidade falhar. Certos campeões se beneficiam quando as habilidades no oponente falham: ➤ Black Cat - Pausa todos os Debuffs quando o oponente falha uma habilidade por meio de redução de precisão. ➤ Viúva Branca - Ao evitar alguma habilidade do oponente causa dano extra.",
+   "interactionsPt": null,
+   "mentionedChampionIds": [
+    "blackcat"
+   ]
+  }
+ ]
+}

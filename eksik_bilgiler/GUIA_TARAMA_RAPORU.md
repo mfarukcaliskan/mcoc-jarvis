@@ -82,3 +82,8 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 ## Telif / kaynak notu
 
 İçerik GuiaMTC yazarının emeğidir. Uygulamada kaynak belirtilir; veri **kişisel kullanım** amaçlı alınmıştır. Yayımlamadan önce site sahibine haber vermek veya izin almak önerilir. Üçüncü kişi oyuncu adları hiçbir yerde saklanmaz.
+
+## Relics (Battlecast puanları) ve 7★ Prestij + Relics + Stat Focus (tamamlandı)
+- `guia_relics.json`: 24 Battlecast relic için GuiaMTC puanı (x/10), Portekizce etki/kullanım/etkileşim metni; relics.json ile eşleşti (yalnızca The Cosmic Egg'in Guia puanı yok). Uygulamada RelicCard'da gösterilir (GuiaRelicRepository).
+- `guia_rank7.json`: 268 şampiyon, 7★ sıralaması; R5/R4 taban ve A1/A2 değerleri. Taban değerler mcoc.gg prestijiyle çapraz doğrulandı (266/268 OCR'dan birebir; Heimdall R5 okunamadı, Archangel R4 OCR 32500 → mcoc.gg değeri kullanıldı, `correctedFromMcocgg` ile işaretli). Ad takma adları değer eşleşmesiyle çözüldü ("White Widow" → Black Widow (Deadly Origin): R5 değeri tekil eşleşti, yine de ad okuması belirsiz).
+- Dahil EDİLMEYENLER: focus (saldırı/savunma) ve Stat/Battle Cast relic ikon sütunları (güvenilir ikon eşleştirmesi yapılmadı).

@@ -1,0 +1,4028 @@
+{
+ "source": "GuiaMTC '7 Star - Prestige + Relics + Stat Focus' (görsel tablo, OCR + görsel doğrulama)",
+ "note": "Sıralama GuiaMTC'den; r5/r4 base değerleri mcoc.gg prestij ile çapraz doğrulandı (matchesMcocgg). a1/a2 = Ascension değerleri (sitenin formülüyle 172/172 uyumlu). Focus ve relic ikonları dahil değil.",
+ "rows": [
+  {
+   "rank": 1,
+   "championId": "highevolutionary",
+   "r5": {
+    "base": 40600,
+    "a1": 43840,
+    "a2": 47350
+   },
+   "r4": {
+    "base": 34230,
+    "a1": 36960,
+    "a2": 39910
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 2,
+   "championId": "bluemarvel",
+   "r5": {
+    "base": 40460,
+    "a1": 43690,
+    "a2": 47180
+   },
+   "r4": {
+    "base": 34110,
+    "a1": 36840,
+    "a2": 39790
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 3,
+   "championId": "blacktarantula",
+   "r5": {
+    "base": 40440,
+    "a1": 43670,
+    "a2": 47160
+   },
+   "r4": {
+    "base": 34100,
+    "a1": 36820,
+    "a2": 39760
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 4,
+   "championId": "ironmaninfamous",
+   "r5": {
+    "base": 40390,
+    "a1": 43620,
+    "a2": 47110
+   },
+   "r4": {
+    "base": 34060,
+    "a1": 36780,
+    "a2": 39720
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 5,
+   "championId": "pavitr",
+   "r5": {
+    "base": 40290,
+    "a1": 43510,
+    "a2": 46990
+   },
+   "r4": {
+    "base": 33970,
+    "a1": 36680,
+    "a2": 39610
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 6,
+   "championId": "danimoonstar",
+   "r5": {
+    "base": 40260,
+    "a1": 43480,
+    "a2": 46960
+   },
+   "r4": {
+    "base": 33940,
+    "a1": 36650,
+    "a2": 39580
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 7,
+   "championId": "shatterstar",
+   "r5": {
+    "base": 40230,
+    "a1": 43440,
+    "a2": 46910
+   },
+   "r4": {
+    "base": 33920,
+    "a1": 36630,
+    "a2": 39560
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 8,
+   "championId": "baronzemo",
+   "r5": {
+    "base": 40150,
+    "a1": 43360,
+    "a2": 46830
+   },
+   "r4": {
+    "base": 33850,
+    "a1": 36550,
+    "a2": 39470
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 9,
+   "championId": "phylavell",
+   "r5": {
+    "base": 40030,
+    "a1": 43230,
+    "a2": 46690
+   },
+   "r4": {
+    "base": 33750,
+    "a1": 36450,
+    "a2": 39360
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 10,
+   "championId": "spidermannoir",
+   "r5": {
+    "base": 40000,
+    "a1": 43200,
+    "a2": 46650
+   },
+   "r4": {
+    "base": 33730,
+    "a1": 36430,
+    "a2": 39340
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 11,
+   "championId": "wave",
+   "r5": {
+    "base": 40000,
+    "a1": 43200,
+    "a2": 46650
+   },
+   "r4": {
+    "base": 33740,
+    "a1": 36440,
+    "a2": 39350
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 12,
+   "championId": "madelynepryor",
+   "r5": {
+    "base": 39990,
+    "a1": 43190,
+    "a2": 46640
+   },
+   "r4": {
+    "base": 33710,
+    "a1": 36400,
+    "a2": 39310
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 13,
+   "championId": "agathaharkness",
+   "r5": {
+    "base": 39890,
+    "a1": 43080,
+    "a2": 46520
+   },
+   "r4": {
+    "base": 33640,
+    "a1": 36330,
+    "a2": 39230
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 14,
+   "championId": "magik",
+   "r5": {
+    "base": 39890,
+    "a1": 43080,
+    "a2": 46520
+   },
+   "r4": {
+    "base": 33640,
+    "a1": 36330,
+    "a2": 39230
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 15,
+   "championId": "doctorbong",
+   "r5": {
+    "base": 39880,
+    "a1": 43070,
+    "a2": 46510
+   },
+   "r4": {
+    "base": 33610,
+    "a1": 36300,
+    "a2": 39200
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 16,
+   "championId": "rubythursday",
+   "r5": {
+    "base": 39850,
+    "a1": 43030,
+    "a2": 46470
+   },
+   "r4": {
+    "base": 33600,
+    "a1": 36280,
+    "a2": 39180
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 17,
+   "championId": "jjj",
+   "r5": {
+    "base": 39850,
+    "a1": 43030,
+    "a2": 46470
+   },
+   "r4": {
+    "base": 33590,
+    "a1": 36270,
+    "a2": 39170
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 18,
+   "championId": "hobgoblin",
+   "r5": {
+    "base": 39830,
+    "a1": 43010,
+    "a2": 46450
+   },
+   "r4": {
+    "base": 33580,
+    "a1": 36260,
+    "a2": 39160
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 19,
+   "championId": "ghostrider",
+   "r5": {
+    "base": 39810,
+    "a1": 42990,
+    "a2": 46430
+   },
+   "r4": {
+    "base": 33560,
+    "a1": 36240,
+    "a2": 39140
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 20,
+   "championId": "pixie",
+   "r5": {
+    "base": 39800,
+    "a1": 42980,
+    "a2": 46420
+   },
+   "r4": {
+    "base": 33570,
+    "a1": 36250,
+    "a2": 39150
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 21,
+   "championId": "cable",
+   "r5": {
+    "base": 39780,
+    "a1": 42960,
+    "a2": 46390
+   },
+   "r4": {
+    "base": 33540,
+    "a1": 36220,
+    "a2": 39120
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 22,
+   "championId": "lizard",
+   "r5": {
+    "base": 39760,
+    "a1": 42940,
+    "a2": 46370
+   },
+   "r4": {
+    "base": 33520,
+    "a1": 36200,
+    "a2": 39090
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 23,
+   "championId": "spiderpunk",
+   "r5": {
+    "base": 39760,
+    "a1": 42940,
+    "a2": 46370
+   },
+   "r4": {
+    "base": 33540,
+    "a1": 36220,
+    "a2": 39120
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 24,
+   "championId": "doctorstrange",
+   "r5": {
+    "base": 39730,
+    "a1": 42900,
+    "a2": 46330
+   },
+   "r4": {
+    "base": 33480,
+    "a1": 36160,
+    "a2": 39050
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 25,
+   "championId": "gwenom",
+   "r5": {
+    "base": 39730,
+    "a1": 42900,
+    "a2": 46330
+   },
+   "r4": {
+    "base": 33510,
+    "a1": 36190,
+    "a2": 39080
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 26,
+   "championId": "spidermansymbiote",
+   "r5": {
+    "base": 39720,
+    "a1": 42890,
+    "a2": 46320
+   },
+   "r4": {
+    "base": 33500,
+    "a1": 36180,
+    "a2": 39070
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 27,
+   "championId": "stellarblade",
+   "r5": {
+    "base": 39700,
+    "a1": 42870,
+    "a2": 46300
+   },
+   "r4": {
+    "base": 33480,
+    "a1": 36160,
+    "a2": 39050
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 28,
+   "championId": "stellarstarlord",
+   "r5": {
+    "base": 39670,
+    "a1": 42840,
+    "a2": 46270
+   },
+   "r4": {
+    "base": 33460,
+    "a1": 36130,
+    "a2": 39020
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 29,
+   "championId": "ironman",
+   "r5": {
+    "base": 39660,
+    "a1": 42830,
+    "a2": 46250
+   },
+   "r4": {
+    "base": 33440,
+    "a1": 36110,
+    "a2": 39000
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 30,
+   "championId": "mbaku",
+   "r5": {
+    "base": 39660,
+    "a1": 42830,
+    "a2": 46250
+   },
+   "r4": {
+    "base": 33440,
+    "a1": 36110,
+    "a2": 39000
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 31,
+   "championId": "thedestroyer",
+   "r5": {
+    "base": 39650,
+    "a1": 42820,
+    "a2": 46240
+   },
+   "r4": {
+    "base": 33420,
+    "a1": 36090,
+    "a2": 38980
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 32,
+   "championId": "kindred",
+   "r5": {
+    "base": 39640,
+    "a1": 42810,
+    "a2": 46230
+   },
+   "r4": {
+    "base": 33430,
+    "a1": 36100,
+    "a2": 38990
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 33,
+   "championId": "mrknight",
+   "r5": {
+    "base": 39630,
+    "a1": 42800,
+    "a2": 46220
+   },
+   "r4": {
+    "base": 33420,
+    "a1": 36090,
+    "a2": 38980
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 34,
+   "championId": "arcade",
+   "r5": {
+    "base": 39620,
+    "a1": 42790,
+    "a2": 46210
+   },
+   "r4": {
+    "base": 33410,
+    "a1": 36080,
+    "a2": 38960
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 35,
+   "championId": "dust",
+   "r5": {
+    "base": 39620,
+    "a1": 42790,
+    "a2": 46210
+   },
+   "r4": {
+    "base": 33410,
+    "a1": 36080,
+    "a2": 38960
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 36,
+   "championId": "omegasentinel",
+   "r5": {
+    "base": 39620,
+    "a1": 42790,
+    "a2": 46210
+   },
+   "r4": {
+    "base": 33430,
+    "a1": 36100,
+    "a2": 38990
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 37,
+   "championId": "whitetiger",
+   "r5": {
+    "base": 39620,
+    "a1": 42790,
+    "a2": 46210
+   },
+   "r4": {
+    "base": 33420,
+    "a1": 36090,
+    "a2": 38980
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 38,
+   "championId": "scream",
+   "r5": {
+    "base": 39600,
+    "a1": 42760,
+    "a2": 46180
+   },
+   "r4": {
+    "base": 33390,
+    "a1": 36060,
+    "a2": 38940
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 39,
+   "championId": "thorragnarok",
+   "r5": {
+    "base": 39580,
+    "a1": 42740,
+    "a2": 46160
+   },
+   "r4": {
+    "base": 33370,
+    "a1": 36040,
+    "a2": 38920
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 40,
+   "championId": "rhino",
+   "r5": {
+    "base": 39570,
+    "a1": 42730,
+    "a2": 46150
+   },
+   "r4": {
+    "base": 33360,
+    "a1": 36030,
+    "a2": 38910
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 41,
+   "championId": "adamwarlock",
+   "r5": {
+    "base": 39560,
+    "a1": 42720,
+    "a2": 46140
+   },
+   "r4": {
+    "base": 33370,
+    "a1": 36040,
+    "a2": 38920
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 42,
+   "championId": "spot",
+   "r5": {
+    "base": 39560,
+    "a1": 42720,
+    "a2": 46140
+   },
+   "r4": {
+    "base": 33350,
+    "a1": 36010,
+    "a2": 38890
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 43,
+   "championId": "gentle",
+   "r5": {
+    "base": 39540,
+    "a1": 42700,
+    "a2": 46110
+   },
+   "r4": {
+    "base": 33330,
+    "a1": 35990,
+    "a2": 38870
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 44,
+   "championId": "ladydeathstrike",
+   "r5": {
+    "base": 39530,
+    "a1": 42690,
+    "a2": 46100
+   },
+   "r4": {
+    "base": 33340,
+    "a1": 36000,
+    "a2": 38880
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 45,
+   "championId": "moondragon",
+   "r5": {
+    "base": 39520,
+    "a1": 42680,
+    "a2": 46090
+   },
+   "r4": {
+    "base": 33310,
+    "a1": 35970,
+    "a2": 38850
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 46,
+   "championId": "stellargreengoblin",
+   "r5": {
+    "base": 39510,
+    "a1": 42670,
+    "a2": 46080
+   },
+   "r4": {
+    "base": 33310,
+    "a1": 35970,
+    "a2": 38850
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 47,
+   "championId": "arnimzola",
+   "r5": {
+    "base": 39480,
+    "a1": 42630,
+    "a2": 46040
+   },
+   "r4": {
+    "base": 33280,
+    "a1": 35940,
+    "a2": 38810
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 48,
+   "championId": "sandman",
+   "r5": {
+    "base": 39480,
+    "a1": 42630,
+    "a2": 46040
+   },
+   "r4": {
+    "base": 33290,
+    "a1": 35950,
+    "a2": 38820
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 49,
+   "championId": "blackpanthercivilwar",
+   "r5": {
+    "base": 39460,
+    "a1": 42610,
+    "a2": 46020
+   },
+   "r4": {
+    "base": 33270,
+    "a1": 35930,
+    "a2": 38800
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 50,
+   "championId": "patriot",
+   "r5": {
+    "base": 39460,
+    "a1": 42610,
+    "a2": 46020
+   },
+   "r4": {
+    "base": 33270,
+    "a1": 35930,
+    "a2": 38800
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 51,
+   "championId": "samwilson",
+   "r5": {
+    "base": 39430,
+    "a1": 42580,
+    "a2": 45980
+   },
+   "r4": {
+    "base": 33250,
+    "a1": 35910,
+    "a2": 38780
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 52,
+   "championId": "maestro",
+   "r5": {
+    "base": 39420,
+    "a1": 42570,
+    "a2": 45970
+   },
+   "r4": {
+    "base": 33230,
+    "a1": 35890,
+    "a2": 38760
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 53,
+   "championId": "sersi",
+   "r5": {
+    "base": 39420,
+    "a1": 42570,
+    "a2": 45970
+   },
+   "r4": {
+    "base": 33230,
+    "a1": 35890,
+    "a2": 38760
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 54,
+   "championId": "spiral",
+   "r5": {
+    "base": 39420,
+    "a1": 42570,
+    "a2": 45970
+   },
+   "r4": {
+    "base": 33240,
+    "a1": 35900,
+    "a2": 38770
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 55,
+   "championId": "americachavez",
+   "r5": {
+    "base": 39400,
+    "a1": 42550,
+    "a2": 45950
+   },
+   "r4": {
+    "base": 33220,
+    "a1": 35870,
+    "a2": 38740
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 56,
+   "championId": "gorr",
+   "r5": {
+    "base": 39400,
+    "a1": 42550,
+    "a2": 45950
+   },
+   "r4": {
+    "base": 33220,
+    "a1": 35870,
+    "a2": 38740
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 57,
+   "championId": "knull",
+   "r5": {
+    "base": 39400,
+    "a1": 42550,
+    "a2": 45950
+   },
+   "r4": {
+    "base": 33220,
+    "a1": 35870,
+    "a2": 38740
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 58,
+   "championId": "abominationimmortal",
+   "r5": {
+    "base": 39390,
+    "a1": 42540,
+    "a2": 45940
+   },
+   "r4": {
+    "base": 33220,
+    "a1": 35870,
+    "a2": 38740
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 59,
+   "championId": "hitmonkey",
+   "r5": {
+    "base": 39380,
+    "a1": 42530,
+    "a2": 45930
+   },
+   "r4": {
+    "base": 33220,
+    "a1": 35870,
+    "a2": 38740
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 60,
+   "championId": "attuma",
+   "r5": {
+    "base": 39370,
+    "a1": 42520,
+    "a2": 45920
+   },
+   "r4": {
+    "base": 33180,
+    "a1": 35830,
+    "a2": 38690
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 61,
+   "championId": "misternegative",
+   "r5": {
+    "base": 39370,
+    "a1": 42520,
+    "a2": 45920
+   },
+   "r4": {
+    "base": 33200,
+    "a1": 35850,
+    "a2": 38720
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 62,
+   "championId": "jabaripanther",
+   "r5": {
+    "base": 39360,
+    "a1": 42500,
+    "a2": 45900
+   },
+   "r4": {
+    "base": 33190,
+    "a1": 35840,
+    "a2": 38710
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 63,
+   "championId": "nova",
+   "r5": {
+    "base": 39360,
+    "a1": 42500,
+    "a2": 45900
+   },
+   "r4": {
+    "base": 33190,
+    "a1": 35840,
+    "a2": 38710
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 64,
+   "championId": "sasquatch",
+   "r5": {
+    "base": 39360,
+    "a1": 42500,
+    "a2": 45900
+   },
+   "r4": {
+    "base": 33170,
+    "a1": 35820,
+    "a2": 38680
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 65,
+   "championId": "scarletwitchsigil",
+   "r5": {
+    "base": 39360,
+    "a1": 42500,
+    "a2": 45900
+   },
+   "r4": {
+    "base": 33190,
+    "a1": 35840,
+    "a2": 38710
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 66,
+   "championId": "toad",
+   "r5": {
+    "base": 39360,
+    "a1": 42500,
+    "a2": 45900
+   },
+   "r4": {
+    "base": 33190,
+    "a1": 35840,
+    "a2": 38710
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 67,
+   "championId": "peniparker",
+   "r5": {
+    "base": 39350,
+    "a1": 42490,
+    "a2": 45890
+   },
+   "r4": {
+    "base": 33180,
+    "a1": 35830,
+    "a2": 38690
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 68,
+   "championId": "dragonman",
+   "r5": {
+    "base": 39340,
+    "a1": 42480,
+    "a2": 45880
+   },
+   "r4": {
+    "base": 33170,
+    "a1": 35820,
+    "a2": 38680
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 69,
+   "championId": "purgatory",
+   "r5": {
+    "base": 39320,
+    "a1": 42460,
+    "a2": 45850
+   },
+   "r4": {
+    "base": 33150,
+    "a1": 35800,
+    "a2": 38660
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 70,
+   "championId": "misterfantastic",
+   "r5": {
+    "base": 39310,
+    "a1": 42450,
+    "a2": 45840
+   },
+   "r4": {
+    "base": 33150,
+    "a1": 35800,
+    "a2": 38660
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 71,
+   "championId": "spiderham",
+   "r5": {
+    "base": 39310,
+    "a1": 42450,
+    "a2": 45840
+   },
+   "r4": {
+    "base": 33160,
+    "a1": 35810,
+    "a2": 38670
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 72,
+   "championId": "stormpyramidx",
+   "r5": {
+    "base": 39300,
+    "a1": 42440,
+    "a2": 45830
+   },
+   "r4": {
+    "base": 33150,
+    "a1": 35800,
+    "a2": 38660
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 73,
+   "championId": "terrax",
+   "r5": {
+    "base": 39290,
+    "a1": 42430,
+    "a2": 45820
+   },
+   "r4": {
+    "base": 33130,
+    "a1": 35780,
+    "a2": 38640
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 74,
+   "championId": "warlock",
+   "r5": {
+    "base": 39280,
+    "a1": 42420,
+    "a2": 45810
+   },
+   "r4": {
+    "base": 33130,
+    "a1": 35780,
+    "a2": 38640
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 75,
+   "championId": "mojo",
+   "r5": {
+    "base": 39260,
+    "a1": 42400,
+    "a2": 45790
+   },
+   "r4": {
+    "base": 33090,
+    "a1": 35730,
+    "a2": 38590
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 76,
+   "championId": "manthing",
+   "r5": {
+    "base": 39170,
+    "a1": 42300,
+    "a2": 45680
+   },
+   "r4": {
+    "base": 32830,
+    "a1": 35450,
+    "a2": 38280
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 77,
+   "championId": "guillotine2099",
+   "r5": {
+    "base": 39160,
+    "a1": 42290,
+    "a2": 45670
+   },
+   "r4": {
+    "base": 33050,
+    "a1": 35690,
+    "a2": 38540
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 78,
+   "championId": "visionaarkus",
+   "r5": {
+    "base": 39140,
+    "a1": 42270,
+    "a2": 45650
+   },
+   "r4": {
+    "base": 33010,
+    "a1": 35650,
+    "a2": 38500
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 79,
+   "championId": "spiderman",
+   "r5": {
+    "base": 39050,
+    "a1": 42170,
+    "a2": 45540
+   },
+   "r4": {
+    "base": 32940,
+    "a1": 35570,
+    "a2": 38410
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 80,
+   "championId": "mysterio",
+   "r5": {
+    "base": 39040,
+    "a1": 42160,
+    "a2": 45530
+   },
+   "r4": {
+    "base": 32940,
+    "a1": 35570,
+    "a2": 38410
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 81,
+   "championId": "bishop",
+   "r5": {
+    "base": 39030,
+    "a1": 42150,
+    "a2": 45520
+   },
+   "r4": {
+    "base": 32910,
+    "a1": 35540,
+    "a2": 38380
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 82,
+   "championId": "korg",
+   "r5": {
+    "base": 38950,
+    "a1": 42060,
+    "a2": 45420
+   },
+   "r4": {
+    "base": 32840,
+    "a1": 35460,
+    "a2": 38300
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 83,
+   "championId": "howardtheduck",
+   "r5": {
+    "base": 38880,
+    "a1": 41990,
+    "a2": 45350
+   },
+   "r4": {
+    "base": 32780,
+    "a1": 35400,
+    "a2": 38230
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 84,
+   "championId": "corvusglaive",
+   "r5": {
+    "base": 38780,
+    "a1": 41880,
+    "a2": 45230
+   },
+   "r4": {
+    "base": 32720,
+    "a1": 35330,
+    "a2": 38150
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 85,
+   "championId": "emmafrost",
+   "r5": {
+    "base": 38600,
+    "a1": 41680,
+    "a2": 45010
+   },
+   "r4": {
+    "base": 32540,
+    "a1": 35140,
+    "a2": 37950
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 86,
+   "championId": "colossus",
+   "r5": {
+    "base": 38590,
+    "a1": 41670,
+    "a2": 45000
+   },
+   "r4": {
+    "base": 32530,
+    "a1": 35130,
+    "a2": 37940
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 87,
+   "championId": "domino",
+   "r5": {
+    "base": 38550,
+    "a1": 41630,
+    "a2": 44960
+   },
+   "r4": {
+    "base": 32510,
+    "a1": 35110,
+    "a2": 37920
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 88,
+   "championId": "hyperion",
+   "r5": {
+    "base": 38180,
+    "a1": 41230,
+    "a2": 44530
+   },
+   "r4": {
+    "base": 32190,
+    "a1": 34760,
+    "a2": 37540
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 89,
+   "championId": "deadpool",
+   "r5": {
+    "base": 37980,
+    "a1": 41010,
+    "a2": 44290
+   },
+   "r4": {
+    "base": 32020,
+    "a1": 34580,
+    "a2": 37340
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 90,
+   "championId": "onslaught",
+   "r5": {
+    "base": 40590,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 34210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 91,
+   "championId": "yelenabelova",
+   "r5": {
+    "base": 40580,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 34210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 92,
+   "championId": "darkphoenix",
+   "r5": {
+    "base": 40370,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 34040,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 93,
+   "championId": "shathra",
+   "r5": {
+    "base": 40360,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 34030,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 94,
+   "championId": "silversurfer",
+   "r5": {
+    "base": 40320,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 34020,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 95,
+   "championId": "quicksilver",
+   "r5": {
+    "base": 40260,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33950,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 96,
+   "championId": "heimdall",
+   "r5": {
+    "base": 40140,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33840,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true,
+   "correctedFromMcocgg": "r5.base (OCR okunamadı)"
+  },
+  {
+   "rank": 97,
+   "championId": "okoye",
+   "r5": {
+    "base": 40060,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33780,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 98,
+   "championId": "theserpent",
+   "r5": {
+    "base": 39960,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33680,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 99,
+   "championId": "photon",
+   "r5": {
+    "base": 39940,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33680,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 100,
+   "championId": "prowler",
+   "r5": {
+    "base": 39760,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33520,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 101,
+   "championId": "imperiosa",
+   "r5": {
+    "base": 39700,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33470,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 102,
+   "championId": "thorjanefoster",
+   "r5": {
+    "base": 39690,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33460,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 103,
+   "championId": "frankencastle",
+   "r5": {
+    "base": 39680,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33440,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 104,
+   "championId": "spidermansupreme",
+   "r5": {
+    "base": 39660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33460,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 105,
+   "championId": "karolinadean",
+   "r5": {
+    "base": 39660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33460,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 106,
+   "championId": "valkyrie",
+   "r5": {
+    "base": 39660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33440,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 107,
+   "championId": "dracula",
+   "r5": {
+    "base": 39660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33440,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 108,
+   "championId": "bullseye",
+   "r5": {
+    "base": 39660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33440,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 109,
+   "championId": "werewolfbynight",
+   "r5": {
+    "base": 39660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33430,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 110,
+   "championId": "lumatrix",
+   "r5": {
+    "base": 39650,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33430,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 111,
+   "championId": "jeangrey",
+   "r5": {
+    "base": 39650,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33430,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 112,
+   "championId": "theleader",
+   "r5": {
+    "base": 39650,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33420,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 113,
+   "championId": "enchantress",
+   "r5": {
+    "base": 39650,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33420,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 114,
+   "championId": "negasonic",
+   "r5": {
+    "base": 39640,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33440,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 115,
+   "championId": "deathlessthanos",
+   "r5": {
+    "base": 39630,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33400,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 116,
+   "championId": "spiderwoman",
+   "r5": {
+    "base": 39620,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33400,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 117,
+   "championId": "punisher",
+   "r5": {
+    "base": 39610,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33390,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 118,
+   "championId": "countnefaria",
+   "r5": {
+    "base": 39610,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33390,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 119,
+   "championId": "gladiator",
+   "r5": {
+    "base": 39600,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33390,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 120,
+   "championId": "cheeilth",
+   "r5": {
+    "base": 39600,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33380,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 121,
+   "championId": "absorbingman",
+   "r5": {
+    "base": 39600,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33380,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 122,
+   "championId": "cassandra",
+   "r5": {
+    "base": 39590,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33380,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 123,
+   "championId": "bastion",
+   "r5": {
+    "base": 39590,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33380,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 124,
+   "championId": "solvarch",
+   "r5": {
+    "base": 39590,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33360,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 125,
+   "championId": "nicominoru",
+   "r5": {
+    "base": 39580,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33370,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 126,
+   "championId": "phoenix",
+   "r5": {
+    "base": 39580,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33370,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 127,
+   "championId": "themaker",
+   "r5": {
+    "base": 39570,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33370,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 128,
+   "championId": "northstar",
+   "r5": {
+    "base": 39570,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33370,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 129,
+   "championId": "captainbritain",
+   "r5": {
+    "base": 39570,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33350,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 130,
+   "championId": "betaraybill",
+   "r5": {
+    "base": 39550,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33340,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 131,
+   "championId": "dazzler",
+   "r5": {
+    "base": 39540,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33340,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 132,
+   "championId": "deathlessshehulk",
+   "r5": {
+    "base": 39540,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33330,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 133,
+   "championId": "silversable",
+   "r5": {
+    "base": 39530,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33340,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 134,
+   "championId": "ironheart",
+   "r5": {
+    "base": 39530,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33340,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 135,
+   "championId": "antmanfuture",
+   "r5": {
+    "base": 39520,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33320,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 136,
+   "championId": "rocketraccoon",
+   "r5": {
+    "base": 39500,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33330,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 137,
+   "championId": "nimrod",
+   "r5": {
+    "base": 39500,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33300,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 138,
+   "championId": "kushala",
+   "r5": {
+    "base": 39500,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33300,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 139,
+   "championId": "namor",
+   "r5": {
+    "base": 39490,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33300,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 140,
+   "championId": "galan",
+   "r5": {
+    "base": 39490,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33290,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 141,
+   "championId": "silversamurai",
+   "r5": {
+    "base": 39480,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33300,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 142,
+   "championId": "theoverseer",
+   "r5": {
+    "base": 39480,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33270,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 143,
+   "championId": "titania",
+   "r5": {
+    "base": 39470,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33270,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 144,
+   "championId": "deathlesskinggroot",
+   "r5": {
+    "base": 39470,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33250,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 145,
+   "championId": "medusa",
+   "r5": {
+    "base": 39460,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33270,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 146,
+   "championId": "falcontorres",
+   "r5": {
+    "base": 39450,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33270,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 147,
+   "championId": "jackolantern",
+   "r5": {
+    "base": 39450,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33270,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 148,
+   "championId": "cassielang",
+   "r5": {
+    "base": 39440,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33250,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 149,
+   "championId": "morbius",
+   "r5": {
+    "base": 39430,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33250,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 150,
+   "championId": "yondu",
+   "r5": {
+    "base": 39420,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33240,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 151,
+   "championId": "hulkling",
+   "r5": {
+    "base": 39420,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33240,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 152,
+   "championId": "mantis",
+   "r5": {
+    "base": 39410,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33240,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 153,
+   "championId": "isophyne",
+   "r5": {
+    "base": 39410,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33240,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 154,
+   "championId": "vox",
+   "r5": {
+    "base": 39410,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33230,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 155,
+   "championId": "sauron",
+   "r5": {
+    "base": 39410,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33230,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 156,
+   "championId": "deathlessguillotine",
+   "r5": {
+    "base": 39410,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33230,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 157,
+   "championId": "wiccan",
+   "r5": {
+    "base": 39400,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33230,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 158,
+   "championId": "shocker",
+   "r5": {
+    "base": 39400,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33230,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 159,
+   "championId": "odin",
+   "r5": {
+    "base": 39400,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33220,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 160,
+   "championId": "apocalypse",
+   "r5": {
+    "base": 39400,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33220,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 161,
+   "championId": "modok",
+   "r5": {
+    "base": 39400,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33200,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 162,
+   "championId": "stryfe",
+   "r5": {
+    "base": 39390,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 163,
+   "championId": "redgoblin",
+   "r5": {
+    "base": 39390,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 164,
+   "championId": "shuri",
+   "r5": {
+    "base": 39380,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 165,
+   "championId": "hulkimmortal",
+   "r5": {
+    "base": 39380,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33200,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 166,
+   "championId": "deadpoolxforce",
+   "r5": {
+    "base": 39380,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33200,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 167,
+   "championId": "rintrah",
+   "r5": {
+    "base": 39380,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33190,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 168,
+   "championId": "professorx",
+   "r5": {
+    "base": 39370,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 169,
+   "championId": "goldpool",
+   "r5": {
+    "base": 39370,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 170,
+   "championId": "platinumpool",
+   "r5": {
+    "base": 39370,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33190,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 171,
+   "championId": "kraven",
+   "r5": {
+    "base": 39370,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33190,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 172,
+   "championId": "spidermanstealthsuit",
+   "r5": {
+    "base": 39360,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 173,
+   "championId": "kittypryde",
+   "r5": {
+    "base": 39360,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33210,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 174,
+   "championId": "tigra",
+   "r5": {
+    "base": 39360,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33200,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 175,
+   "championId": "shangchi",
+   "r5": {
+    "base": 39360,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33190,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 176,
+   "championId": "scorpion",
+   "r5": {
+    "base": 39350,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33190,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 177,
+   "championId": "sorcerersupreme",
+   "r5": {
+    "base": 39350,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33180,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 178,
+   "championId": "mangog",
+   "r5": {
+    "base": 39350,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33180,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 179,
+   "championId": "lukecage",
+   "r5": {
+    "base": 39340,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33190,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 180,
+   "championId": "sunspot",
+   "r5": {
+    "base": 39340,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33180,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 181,
+   "championId": "guardian",
+   "r5": {
+    "base": 39340,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33180,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 182,
+   "championId": "wong",
+   "r5": {
+    "base": 39340,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33170,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 183,
+   "championId": "superskrull",
+   "r5": {
+    "base": 39340,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33170,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 184,
+   "championId": "blackcat",
+   "r5": {
+    "base": 39340,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33170,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 185,
+   "championId": "sentinel",
+   "r5": {
+    "base": 39330,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33160,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 186,
+   "championId": "spiderman2099",
+   "r5": {
+    "base": 39330,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33190,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 187,
+   "championId": "redguardian",
+   "r5": {
+    "base": 39330,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33180,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 188,
+   "championId": "vivvision",
+   "r5": {
+    "base": 39330,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33170,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 189,
+   "championId": "silk",
+   "r5": {
+    "base": 39330,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33170,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 190,
+   "championId": "mistyknight",
+   "r5": {
+    "base": 39330,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33170,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 191,
+   "championId": "antivenom",
+   "r5": {
+    "base": 39320,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33150,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 192,
+   "championId": "blackwidowclairevoyant",
+   "r5": {
+    "base": 39310,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33160,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 193,
+   "championId": "captainmarvelmcu",
+   "r5": {
+    "base": 39310,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33160,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 194,
+   "championId": "diablo",
+   "r5": {
+    "base": 39310,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33150,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 195,
+   "championId": "jessicajones",
+   "r5": {
+    "base": 39280,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33120,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 196,
+   "championId": "sentry",
+   "r5": {
+    "base": 39270,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33120,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 197,
+   "championId": "bwdo",
+   "r5": {
+    "base": 39250,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33120,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 198,
+   "championId": "thing",
+   "r5": {
+    "base": 39240,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33080,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 199,
+   "championId": "nightcrawler",
+   "r5": {
+    "base": 39210,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33080,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 200,
+   "championId": "venompool",
+   "r5": {
+    "base": 39210,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33060,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 201,
+   "championId": "punisher2099",
+   "r5": {
+    "base": 39190,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33050,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 202,
+   "championId": "longshot",
+   "r5": {
+    "base": 39190,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33040,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 203,
+   "championId": "masacre",
+   "r5": {
+    "base": 39170,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33040,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 204,
+   "championId": "gambit",
+   "r5": {
+    "base": 39150,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33020,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 205,
+   "championId": "antman",
+   "r5": {
+    "base": 39140,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33000,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 206,
+   "championId": "falcon",
+   "r5": {
+    "base": 39120,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 33010,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 207,
+   "championId": "superiorironman",
+   "r5": {
+    "base": 39090,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32960,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 208,
+   "championId": "daredevilnetflix",
+   "r5": {
+    "base": 39070,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32950,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 209,
+   "championId": "cyclopsblueteam",
+   "r5": {
+    "base": 39030,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32910,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 210,
+   "championId": "hulk",
+   "r5": {
+    "base": 39030,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32900,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 211,
+   "championId": "crossbones",
+   "r5": {
+    "base": 39020,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32900,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 212,
+   "championId": "elsabloodstone",
+   "r5": {
+    "base": 39010,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32910,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 213,
+   "championId": "ebonymaw",
+   "r5": {
+    "base": 39010,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32910,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 214,
+   "championId": "havok",
+   "r5": {
+    "base": 39010,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32900,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 215,
+   "championId": "storm",
+   "r5": {
+    "base": 39000,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32890,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 216,
+   "championId": "symbiotesupreme",
+   "r5": {
+    "base": 38980,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32870,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 217,
+   "championId": "iceman",
+   "r5": {
+    "base": 38970,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32870,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 218,
+   "championId": "redskull",
+   "r5": {
+    "base": 38960,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32870,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 219,
+   "championId": "nickfury",
+   "r5": {
+    "base": 38950,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32860,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 220,
+   "championId": "humantorch",
+   "r5": {
+    "base": 38940,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32840,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 221,
+   "championId": "sabretooth",
+   "r5": {
+    "base": 38920,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32830,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 222,
+   "championId": "blackpanther",
+   "r5": {
+    "base": 38880,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32790,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 223,
+   "championId": "magnetomarvelnow",
+   "r5": {
+    "base": 38880,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32780,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 224,
+   "championId": "invisiblewoman",
+   "r5": {
+    "base": 38870,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32780,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 225,
+   "championId": "kingpin",
+   "r5": {
+    "base": 38870,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32760,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 226,
+   "championId": "moleman",
+   "r5": {
+    "base": 38790,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32710,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 227,
+   "championId": "mordo",
+   "r5": {
+    "base": 38770,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32700,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 228,
+   "championId": "thanos",
+   "r5": {
+    "base": 38740,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32650,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 229,
+   "championId": "mistersinister",
+   "r5": {
+    "base": 38730,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32650,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 230,
+   "championId": "hawkeye",
+   "r5": {
+    "base": 38700,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32630,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 231,
+   "championId": "angela",
+   "r5": {
+    "base": 38690,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32640,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 232,
+   "championId": "ronin",
+   "r5": {
+    "base": 38670,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32620,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 233,
+   "championId": "killmonger",
+   "r5": {
+    "base": 38670,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32600,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 234,
+   "championId": "gwenpool",
+   "r5": {
+    "base": 38660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32610,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 235,
+   "championId": "weaponx",
+   "r5": {
+    "base": 38660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32600,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 236,
+   "championId": "joefixit",
+   "r5": {
+    "base": 38660,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32590,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 237,
+   "championId": "cullobsidian",
+   "r5": {
+    "base": 38650,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32600,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 238,
+   "championId": "thehood",
+   "r5": {
+    "base": 38650,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32590,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 239,
+   "championId": "blade",
+   "r5": {
+    "base": 38640,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32600,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 240,
+   "championId": "void",
+   "r5": {
+    "base": 38640,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32580,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 241,
+   "championId": "captainamericaiw",
+   "r5": {
+    "base": 38640,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32580,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 242,
+   "championId": "nightthrasher",
+   "r5": {
+    "base": 38630,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32580,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 243,
+   "championId": "civilwarrior",
+   "r5": {
+    "base": 38630,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32570,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 244,
+   "championId": "ultron",
+   "r5": {
+    "base": 38620,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32560,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 245,
+   "championId": "karnak",
+   "r5": {
+    "base": 38620,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32560,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 246,
+   "championId": "ironmaninfinitywar",
+   "r5": {
+    "base": 38600,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32550,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 247,
+   "championId": "gamora",
+   "r5": {
+    "base": 38580,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32550,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 248,
+   "championId": "spidermanmilesmorales",
+   "r5": {
+    "base": 38580,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32540,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 249,
+   "championId": "warmachine",
+   "r5": {
+    "base": 38570,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32530,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 250,
+   "championId": "omegared",
+   "r5": {
+    "base": 38570,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32530,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 251,
+   "championId": "carnage",
+   "r5": {
+    "base": 38560,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32540,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 252,
+   "championId": "archangel",
+   "r5": {
+    "base": 38540,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32510,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true,
+   "correctedFromMcocgg": "r4.base (OCR 32500)"
+  },
+  {
+   "rank": 253,
+   "championId": "doctorvoodoo",
+   "r5": {
+    "base": 38520,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32480,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 254,
+   "championId": "vision",
+   "r5": {
+    "base": 38520,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32470,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 255,
+   "championId": "deathlessvision",
+   "r5": {
+    "base": 38500,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32470,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 256,
+   "championId": "wolverinex23",
+   "r5": {
+    "base": 38470,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32440,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 257,
+   "championId": "redhulk",
+   "r5": {
+    "base": 38370,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32350,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 258,
+   "championId": "juggernaut",
+   "r5": {
+    "base": 38340,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32340,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 259,
+   "championId": "spidergwen",
+   "r5": {
+    "base": 38320,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32320,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 260,
+   "championId": "venomtheduck",
+   "r5": {
+    "base": 38280,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32280,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 261,
+   "championId": "venom",
+   "r5": {
+    "base": 38080,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32100,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 262,
+   "championId": "hulkbuster",
+   "r5": {
+    "base": 38020,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32050,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 263,
+   "championId": "kang",
+   "r5": {
+    "base": 38000,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 32040,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 264,
+   "championId": "spidermanstarkenhanced",
+   "r5": {
+    "base": 37750,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 31850,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 265,
+   "championId": "ultronclassic",
+   "r5": {
+    "base": 37690,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 31780,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 266,
+   "championId": "starlord",
+   "r5": {
+    "base": 37330,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 31480,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 267,
+   "championId": "shehulk",
+   "r5": {
+    "base": 37160,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 31340,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  },
+  {
+   "rank": 268,
+   "championId": "scarletwitch",
+   "r5": {
+    "base": 37070,
+    "a1": null,
+    "a2": null
+   },
+   "r4": {
+    "base": 31260,
+    "a1": null,
+    "a2": null
+   },
+   "matchesMcocgg": true
+  }
+ ]
+}
