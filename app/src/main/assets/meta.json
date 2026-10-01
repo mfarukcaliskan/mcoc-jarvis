@@ -166,7 +166,7 @@
       "nodes": [
         {
           "name": "Ricochet (Defans) / Stabilize (Saldırı)",
-          "effect": "Savunmacı (Ricochet): Her 12 saniyede saldırgana %20 Şiddetli Dengesizlik (Unsteady) debuff'ı uygular (15 sn, en fazla 3 yığın). Saldırgan uzaktayken durur; saldırgan yakındayken özel saldırı başlatırsa saldırı boyunca durmaz. Saldırgan (Stabilize): Dövüşe %20 Dayanıklılık (Endurance) pasifiyle başlar (10 sn, özel saldırılarda durur, en fazla 3 yığın); komboları 15'in katına ulaştığında bir tane daha kazanır. Savunmacının saldırısını bölmek +5 kombo, buff kazanmak +8 kombo verir. Her Dayanıklılık, gelen Dengesizlik debuff'larının süresini %10 kısaltır. Etkilerin yetenek isabeti sabittir. (Kaynak: mcoc.gg)",
+          "effect": "Savunmacı (Ricochet): Her 12 saniyede saldırgana %20 Şiddetli Dengesizlik (Unsteady) debuff'ı uygular (15 sn, en fazla 3 yığın; saldırgan uzaktayken durur). Dengesizlik başına vuruşlar %20 ihtimalle savuşturulur (hasar -%50, kritik yok, yetenek isabeti -%100); özel saldırı 3 savuşturulmaz. Saldırgan (Stabilize): kombo 15'in katına ulaştıkça pasif kazanır (en fazla 3 yığın); buff kazanmak +8 kombo, savunmacının saldırısını bölmek +5 kombo verir. KAYNAKLAR ÇELİŞİYOR (saldırgan pasifi): GuiaMTC (Season 68-69 sayfası) '%30 Direnç pasifi, olumsuz hasarsız etkilerin süresi -%30 (3 yığında -%90)', mcoc.gg '%20 Dayanıklılık, yalnızca Dengesizlik süresi yığın başına -%10'. Oyunda doğrulanana kadar iki sürüm de bilgi amaçlıdır.",
           "bestAttackers": [],
           "bestDefenders": []
         }
