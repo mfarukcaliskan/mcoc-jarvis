@@ -13,6 +13,8 @@ data class GuiaRelicRating(
     val mentionedChampionIds: List<String>
 )
 
+data class GuiaGuide(val id: String, val title: String, val paragraphs: List<String>)
+
 data class Rank7Entry(val rank: Int, val championId: String, val r5: Int, val r5A1: Int, val r5A2: Int, val r4: Int)
 
 /** guia_relics.json (Battlecast puanları, PT metin) ve guia_rank7.json (7★ prestij sıralaması); GuiaMTC. */
@@ -21,6 +23,7 @@ object GuiaRelicRepository {
     private var loaded = false
     private var ratings: Map<String, GuiaRelicRating> = emptyMap()
     private var rank7: List<Rank7Entry> = emptyList()
+    private var guides: List<GuiaGuide> = emptyList()
 
     fun initialize(context: Context) { appContext = context.applicationContext }
     fun reload(context: Context) { appContext = context.applicationContext; loaded = false }
@@ -49,6 +52,12 @@ object GuiaRelicRepository {
                 val r5 = o.getJSONObject("r5"); val r4 = o.getJSONObject("r4")
                 Rank7Entry(o.getInt("rank"), o.getString("championId"), r5.getInt("base"), r5.getInt("a1"), r5.getInt("a2"), r4.getInt("base"))
             }
+            val gs = JSONObject(DataSource.openText(ctx, "guia_guides.json")).getJSONArray("guides")
+            guides = (0 until gs.length()).map { i ->
+                val o = gs.getJSONObject(i)
+                val ps = o.getJSONArray("paragraphs")
+                GuiaGuide(o.getString("id"), o.getString("titlePt"), (0 until ps.length()).map { ps.getJSONObject(it).getString("text") })
+            }
             loaded = true
         } catch (e: Exception) {
             e.printStackTrace()
@@ -56,6 +65,7 @@ object GuiaRelicRepository {
     }
 
     fun ratingFor(relicId: String): GuiaRelicRating? { ensureLoaded(); return ratings[relicId] }
+    fun guides(): List<GuiaGuide> { ensureLoaded(); return guides }
     fun rank7(): List<Rank7Entry> { ensureLoaded(); return rank7 }
     fun rank7For(championId: String): Rank7Entry? { ensureLoaded(); return rank7.firstOrNull { it.championId == championId } }
 }

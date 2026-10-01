@@ -28,6 +28,8 @@ import com.example.myapplication.data.BtNode
 import com.example.myapplication.data.EventsRepository
 import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.GuiaBigThingRepository
+import com.example.myapplication.data.GuiaGuide
+import com.example.myapplication.data.GuiaRelicRepository
 import com.example.myapplication.data.MetaRepository
 import com.example.myapplication.data.MetaSeason
 
@@ -128,6 +130,9 @@ fun MetaScreen() {
                 }
                 if (selectedMode == "Alliance War" && GuiaAwRepository.groups.isNotEmpty()) {
                     item { AwGuideSection() }
+                }
+                if (GuiaRelicRepository.guides().isNotEmpty()) {
+                    item { GuiaGuidesSection() }
                 }
             }
         }
@@ -451,6 +456,28 @@ fun AwTacticCard(t: AwTactic, isExpanded: Boolean, onClick: () -> Unit) {
             if (isExpanded) {
                 t.description?.let { Text(it, color = Color.LightGray, fontSize = 11.sp) }
                 AwPortraitRow("Kadro", t.champions.map { it to false }, roleColor)
+            }
+        }
+    }
+}
+
+
+/** GuiaMTC metin rehberleri (Necropolis, Manopla, Coliseu, AQ Rampant Evolution) - Portekizce, olduğu gibi. */
+@Composable
+fun GuiaGuidesSection() {
+    var open by remember { mutableStateOf<String?>(null) }
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text("GuiaMTC Rehberleri (Portekizce)", fontWeight = FontWeight.Bold, color = Color(0xFFFFD700), fontSize = 16.sp)
+        GuiaRelicRepository.guides().forEach { g: GuiaGuide ->
+            Card(
+                modifier = Modifier.fillMaxWidth().clickable { open = if (open == g.id) null else g.id },
+                colors = CardDefaults.cardColors(containerColor = Color(0xFF161B22))
+            ) {
+                Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(g.title, fontWeight = FontWeight.Bold, color = Color.White, fontSize = 13.sp)
+                    if (open == g.id) g.paragraphs.forEach { Text(it, color = Color.LightGray, fontSize = 11.sp) }
+                    else Text("Okumak için dokunun", color = Color.Gray, fontSize = 10.sp)
+                }
             }
         }
     }

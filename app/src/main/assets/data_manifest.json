@@ -1,6 +1,6 @@
 {
-  "dataVersion": 48,
-  "generatedAt": "2026-10-01T23:23:04Z",
+  "dataVersion": 49,
+  "generatedAt": "2026-10-01T23:26:10Z",
   "files": {
     "capabilities.json": "c1bab93f3ba0d73593d582b4e31adf5f7ee146b4085a32f5c713e77f399168d6",
     "champions_db.json": "b292682385ceec0303e27fc2edf3508723cfb7eb4120dc890b1cc4f79fe0e9d2",
@@ -342,6 +342,7 @@
     "guia_aw_season69.json": "e503d58415331b8be39196884be644e9df42f685e59216dc4e7007dd59f08982",
     "guia_champions.json": "318371d1be63b81ed4c6b3e47bb0b4ef59d10678ec9a779278f0d9b33dd0efa8",
     "guia_counters.json": "f38d6cad346361480171635dad7f2389900b913981a170bc3c6799bb1c281919",
+    "guia_guides.json": "aa2bb153e9dbbfa5c309658f3dd0c2381c9c322071fcb50eeaf258bf62c7e371",
     "guia_raids.json": "750437c0c8a6cdbc33684bbc20088bc8a7da365f12270d9436c99f4a58ce4322",
     "guia_rank7.json": "f1149910f349c2d081dfc51e07172a9910dff25e10b1ba5d549e9f3c35e0f3b7",
     "guia_relics.json": "3edf84f8275c74d6021d3288ffa8ac9bc417ba2cbd271c71d27f3e44434f9a92",

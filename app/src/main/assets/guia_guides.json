@@ -1,0 +1,811 @@
+{
+ "source": "GuiaMTC (guiamtc.com) Necropolis, Manopla, Coliseu, AQ Rampant Evolution sayfaları",
+ "language": "pt",
+ "note": "Metin Portekizce ve olduğu gibi (çeviri/özet yok); mentionedChampionIds yalnızca ad eşleşmesidir. Bu sayfaların görsel kısımları (tier listeleri, harita görselleri) bu dosyada YOK. Oyun güncellemesiyle eskiyebilir; yetkili veri mcoc.gg'dir.",
+ "guides": [
+  {
+   "id": "necropolis",
+   "titlePt": "Necropolis – Linha 2 rehberi",
+   "page": "necropolis",
+   "language": "pt",
+   "paragraphs": [
+    {
+     "text": "Necropolis - Linha 2 (A Linha mais fácil para Completar)",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "⚠️ Se o Jogador não tiver a Shuri e Absorbing então a Linha mais fácil é a Linha 1 ⚠️",
+     "mentionedChampionIds": [
+      "shuri"
+     ]
+    },
+    {
+     "text": "Já tive oportunidade de fazer várias linhas de Necropolis com várias equipas diferentes. Na minha opinião a linha mais fácil para completar é sem dúvida alguma a Linha 2. ➜ No entanto para fazer esta linha com poucos gastos é obrigatório ter na equipa os seguintes campeões:",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O ideal seria estar x200, ou o mais perto possível disso.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Necessita x200 para que as formas durem o suficiente.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Não precisa de ser dup.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Para a Última Fase do Grão Mestre Final",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "➜ O 5º elemento da equipa pode variar de acordo com a necessidade do jogador. Eu aconselho a Proxima Midnight porque torna a construção do Aegon muito mais segura, já que dá uma Proteção de Combo ao Aegon que permite garantir o Combo mesmo que o jogador erre. Ou então o Heimdall que previne a morte, uma vez a cada luta. Outra opção é o Nick Fury, ele dá +20% de ataque adicional.",
+     "mentionedChampionIds": [
+      "proximamidnight",
+      "nickfury",
+      "heimdall",
+      "aegon"
+     ]
+    },
+    {
+     "text": "Nó Global da Linha 2, Parte 1:",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Este Nó Global seria um problema já que força o jogador a não encostar o oponente na parede. No entanto a SHURI ignora por completo este Global já que os Golpes dela não entram em contacto. Portanto ela é imune a este Global.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 1 - Mr. Fantastic Resposta - Aegon / Kate Bishop",
+     "mentionedChampionIds": [
+      "katebishop",
+      "aegon"
+     ]
+    },
+    {
+     "text": "Esta é a luta onde se faz a construção de Combo do Aegon. O Nó Local deste Defensor é pouco relevante, basicamente ele ganha +30% de Taxa de Poder em Combate. O Senhor Fantástico tem 5% chance de esquiva por cada efeito negativo não danoso presente nele ou no oponente, portanto é preciso ter cuidado com esta esquiva ao longo da luta. O Aegon quando atinge Combo de 150 ganha Precisão Certeira, isto evita a esquiva e simplifica muito esta luta. Eu aconselho a manter o Mr. Fantástico no Especial 2, já que o E1 aplica efeitos negativos e isso aumenta a chance de esquiva dele. O Aegon sofre com este global então não se deve encostar ele na parede.",
+     "mentionedChampionIds": [
+      "aegon"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: 3 Revives",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 2 - Namor Resposta - Shuri / Stryfe",
+     "mentionedChampionIds": [
+      "stryfe",
+      "namor",
+      "shuri"
+     ]
+    },
+    {
+     "text": "Nesta luta o Namor tem uma Proteção de 100% e para a remover é preciso aplicar um Efeito Negativo ou um Passivo de Dano. O Namor regenera imenso enquanto usa especiais portanto é também OBRIGATÓRIO o jogador usar a Proficiência de Desespero 3/3. Como este Namor não é duplicado então não reflete o dano de volta ao oponente. Por causa disso a Shuri consegue SOLAR este Namor. De Shuri esta é uma luta bem simples, é apenas seguir a Rotação Comum da Shuri. Loop de E1 + E2 e usar pesados para reiniciar os choques passivos e as debilitações de choque. Quando ele está no Modo onde o Oponente enraiza enquanto usa especiais eu aconselho a forçar o E2 dele.",
+     "mentionedChampionIds": [
+      "namor",
+      "shuri"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 3 - Attuma Resposta - Shuri / Stryfe",
+     "mentionedChampionIds": [
+      "stryfe",
+      "attuma",
+      "shuri"
+     ]
+    },
+    {
+     "text": "O Nó Global deste Defensor é irrelevante se o jogador usar a Shuri, já que ela não sofre os efeitos causados pela Hidratação do Attuma. Eu aconselho a fazer esta luta sem aparar excessivamente o Attuma. Aparar ele alimenta as concussões e isto faz ele ficar insuperável passivamente quando lança especiais. Portanto o ideal nesta luta é manter ele no Especial 1 e depois da construção completa da Shuri (50 choques) usar sempre o E1 da Shuri, isto permite à Shuri controlar as cargas de hidratração do Attuma sem ser necessário aparar. Quando ele está no Modo onde o Oponente enraiza enquanto usa especiais eu aconselho a forçar o E1 dele, este Especial é muito fácil de desviar mesmo quando se está enraizado.",
+     "mentionedChampionIds": [
+      "attuma",
+      "shuri"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: 1 a 2 Revives",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 4 - Air Walker Resposta - Absorbing Man Kate Bishop / Wong",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "katebishop",
+      "wong"
+     ]
+    },
+    {
+     "text": "Nesta luta é necessário respeitar o Nó Global. ⚠️ A cada 15 segundos o Air Walker ganha o Bónus do Galactus por 10 segundos. Este Bónus torna o Air Walker insuperável e faz ele regenerar. Para que este Bónus não seja ativado é necessário derrubar o Air Walker (com pesado ou especial). O jogador também não pode anular ou tentar prevenir este Bónus com Redução de Habilidades, se fizer isto o Air Walker ganha 3 barras de poder e a luta acaba. ⚠️ O Absorbing Man é o counter ideal desta luta, porque o Air Walker quebra a armadura em todos os especiais, isto alimenta de forma grandiosa o dano do Absorbing Man. O Plano para esta luta é usar o Absorbing Man no Modo Uru e spamar o Especial 1 e pesados. O Absorbing é extremamente resistente aos especiais do Air Walker e além disso se o jogador usar combo MLM quando tem 150+ cargas mórficas ativa regeneração. Isto torna o solo nesta luta facilmente atingível.",
+     "mentionedChampionIds": [
+      "absorbingman"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 5 - Captain Britain Resposta - Shuri / Wong",
+     "mentionedChampionIds": [
+      "captainbritain",
+      "shuri",
+      "wong"
+     ]
+    },
+    {
+     "text": "Nesta luta é necessário respeitar o Nó Global. ⚠️ Sempre que a Capitã Britânia purifica um efeito negativo o Oponente fica com Controlos Invertidos por 4 segundos. A Capitã Britânia aplica debuffs no oponente quando é atingida com golpe crítico e ainda purifica esses debuffs quando usa especiais. Sendo assim o ideal é usar campeões que não acertam críticos aqui. A Shuri é a resposta perfeita porque tem a habilidade de não acertar críticos. Para usar a Shuri aqui eu aconselho a usar o E1, e logo depois do E1 usar pesado, isto converte todas as cargas de precisão e previne os críticos da Shuri. Depois é manter o Loop de E1 + E2. Depois da construção completa da Shuri basta ir usando pesado e Especial 3. A Shuri elimina o único problema desta luta (controlos invertidos) portanto o solo é perfeitamente atingível.",
+     "mentionedChampionIds": [
+      "shuri"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 6 - Wiccan Resposta - Shuri / Wong",
+     "mentionedChampionIds": [
+      "wiccan",
+      "shuri",
+      "wong"
+     ]
+    },
+    {
+     "text": "O Nó Global desta luta força o oponente a usar o Especial 1 o máximo possível e nunca permanecer com 2 barras cheias por muito tempo. O Wiccan regenera imenso no Especial 1, felizmente a Shuri com a Proficiência de Desespero 3/3 bloqueia completamente a regeneração. Além disso contra o Wiccan é aconselhado usar campeões que não ativem bónus caso contrário o Wiccan aplica incineração. A Shuri não ativa bónus de precisão e não tem acesso a nenhum outro tipo de Bónus, tornando ela uma resposta perfeita aqui. Eu considero esta uma das lutas mais fáceis de toda a Necropolis. 😋 A Shuri se tiver a Proficiência de Força de Vontade ativa regenera durante toda a luta, já que o Wiccan aplica um Debuff de Neutralizar sempre que é aparado. Portanto esta é mais uma luta comum de Shuri, além disso caso o Wiccan encha 2 barras de poder se a Shuri tiver 10 Cargas de Matriz e usar um pesado, fica intangível por 10 segundos, ou seja o E2 do Wiccan nem lhe vai acertar.",
+     "mentionedChampionIds": [
+      "wiccan",
+      "shuri"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 7 - Psycho Man Resposta - Shuri / Kate Bishop",
+     "mentionedChampionIds": [
+      "katebishop",
+      "shuri"
+     ]
+    },
+    {
+     "text": "O Nó Global dá 5% de poder ao Atacante sempre que este bloqueia um golpe. Além disso durante toda a luta o Atacante é obrigado a respeitar instruções do Psycho Man, caso contrário sofre Dano Direto. São apenas 3 missões diferentes, que vão rotacionando durante a luta: ➜ Usar Ataque Pesado / Usar Especial / Bloquear um Golpe O Jogador tem apenas 12 segundos para efetuar estas instruções. Felizmente as 3 Missões que o Psycho Man ordena são todas fáceis e fazem parte da rotação normal da Shuri. Esta é mais uma luta comum da Shuri, usar E1 + E2 até ter 50 choques passivos e debuffs de choque. Eu aconselho a manter o Psycho Man no Especial 1, já que o E2 pode ficar não bloqueável e não é assim tão fácil de desviar completamente.",
+     "mentionedChampionIds": [
+      "shuri"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Nó Global da Linha 2, Parte 2:",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O Nó Global da Parte 2 da Linha 2 é uma Benção para o Absorbing Man. Se o jogador usar Absorbing Man então vai dominar grande parte das lutas desta Linha. O Global dá um Bónus de Indestrutível ao Defesa, no entanto o Absorbing faz esse Bónus expirar quase instantaneamente, isto facilita a construção dele.",
+     "mentionedChampionIds": [
+      "absorbingman"
+     ]
+    },
+    {
+     "text": "Oponente 8 - Apocalypse Resposta - Absorbing Man / Shuri",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "apocalypse",
+      "shuri"
+     ]
+    },
+    {
+     "text": "O Nó Global deste Defensor dá 1 Carga de Código Genético a cada 20 segundos. Com 4 Cargas de Código Genético o Apocalypse atordoa o oponente quando lhe acerta com golpe leve, além disso os especiais batem muito mais forte. Para remover uma carga o jogador precisa de usar 6 Leves, 6 Médios e 2 Pesados. Tanto o Absorbing Man como a Shuri funcionam muito bem nesta luta, mas eu aconselho a Shuri, ela consegue solar o Apocalypse. Esta é mais uma luta super comum de Shuri, manter os 50 Choques a luta toda. Eu aconselho muito o jogador a aprender a desviar o E2 do Apocalypse, desviar deste especial completamente torna o solo completamente possível.",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "apocalypse",
+      "shuri"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 9 - Tigra Resposta - Absorbing Man Shuri / Aegon",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "shuri",
+      "tigra",
+      "aegon"
+     ]
+    },
+    {
+     "text": "Nesta luta é necessário respeitar o Nó Global. ⚠️ O Global faz a Tigra aplicar um Debuff de Ruptura sempre que acerta no bloco do oponente. Além disto os Golpes Leves do Atacante têm 50% de chance de errar (e se isto acontecer a Tigra contra ataca imediatamente). Esta é sem dúvida alguma a luta mais difícil desta linha, felizmente o Absorbing Man resolve grande parte dos problemas desta luta. 😇 Com o Absorbing Man usa-se Modo Uru nesta luta, nesse modo ele ganha 82% de Resistência a Dano de Ruptura. Usando o Absorbing Man o jogador deve evitar ao máximo usar combos leves, já que 50% chance de errar pode arruinar toda a luta. Portanto aqui o jogador deve usar Especial 1, Ataques Médios e Pesados, o ideal é manter ela no Especial 1. O Global de Indestrutível ainda facilita mais a vida ao Absorbing Man, facilitando a manutenção do Modo Uru.",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "tigra"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: 1 a 2 Revives",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 10 - Hercules Resposta - Absorbing Man Aegon / Wong",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "hercules",
+      "aegon",
+      "wong"
+     ]
+    },
+    {
+     "text": "Nesta luta é necessário respeitar o Nó Global. ⚠️ O Global consome muito tempo nesta luta, já que dá ao Hercules Passivos de Proteção durante toda a luta. Com 3 Proteções o atacante já mal faz dano. Para remover a Proteção o jogador precisa de efetuar uma destas ações: ➜ Usar Pesado quando o Oponente não está Atordoado ➜ Intercetar o Oponente ➜ Interromper o Pesado do Oponente com um Golpe Básico Se o jogador não remover as proteções do Hercules rapidamente esta luta é muito longa e bastante frustrante. Felizmente o Absorbing Man no Modo Uru é muito resistente e permite alguns erros 😅 Além disso o Global da Linha alimenta a construção do Absorbing Man.",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "hercules"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: 1 a 2 Revives",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 11 - Cap. Wilson Resposta - Absorbing Man Aegon / Wong",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "aegon",
+      "wong"
+     ]
+    },
+    {
+     "text": "O Nó Global deste Defensor faz ele aplicar 5 Debuffs de Ruptura sempre que o Atacante acerta no Bloco. O Aegon (Combo 999) e o Absorbing Man (Modo Uru) simplificam imenso esta luta. O Aegon com 999 de Combo está sempre Não bloqueável portanto com ele basta manter o Cap. Wilson no E1. Com o Absorbing é necessário ciclar o Especial 1 e manter o Modo Uru durante toda a luta. Quando ele está no Modo onde o Oponente enraiza enquanto usa especiais eu aconselho a forçar o E1 dele, este Especial é muito fácil de desviar mesmo quando se está enraizado.",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "aegon"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: 1 a 2 Revives",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 12 - Dragon Man Resposta - Shuri",
+     "mentionedChampionIds": [
+      "dragonman",
+      "shuri"
+     ]
+    },
+    {
+     "text": "O Nó Global deste Defensor torna ele Imune a Atordoamento sempre que o Oponente acerta 3 Golpes Críticos. Normalmente os Jogadores impedem o Ganho de Poder do Dragon Man aparando ele, mas aqui isso não é possível, a menos que se use um campeão que não acerte críticos. A Shuri é a resposta perfeita aqui, banaliza completamente esta luta. É uma luta comum de Shuri onde o objetivo é manter os 50 Choques no Dragon Man. Para isso usa-se pesados e especiais. Para garantir o solo eu aconselho a bloquear o E1 dele, isto coloca um Debuff de Inaptidão, isso faz o atacante regenerar com Força de Vontade.",
+     "mentionedChampionIds": [
+      "dragonman",
+      "shuri"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 13 - Cap. IW Resposta - Aegon",
+     "mentionedChampionIds": [
+      "aegon"
+     ]
+    },
+    {
+     "text": "O Nó Global deste Defensor dá a ele as vantagens da sua Habilidade Caraterística, uma classe a cada 8 segundos. O importante a reter é que quando ativa a Classe de Habilidade tem 100% de chance de purificar qualquer efeito negativo. Esta é uma luta bem fácil de Aegon, nenhum dos Especiais do Cap IW é difícil de desviar e o Global tem pouco impacto. Basta ir usando E2 com as Fúrias (carregar pesado) e ele cai bastante rápido.",
+     "mentionedChampionIds": [
+      "aegon"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 14 - Nova Resposta - Absorbing Man / Wong",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "nova",
+      "wong"
+     ]
+    },
+    {
+     "text": "O Nó Global deste Defensor é pouco relevante. Basicamente ele recebe Imunidade a Anulação e se o Defesa estiver 30 segundos (ao longo da luta) próximo do Nova tem todo o seu poder queimado. Usando o Absorbing Man no Modo Magma todos os problemas que este Defesa pode apresentar são eliminados. No Modo Magma o Absorbing é extremamente resistente a energia (82%), e todo o Dano do Nova é energético. Aconselho o jogador a aprender a desviar do E2 do Nova. Com o Absorbing Man eu aconselho usar primeiro 2 E3 e depois disso sempre o E2. O Global de indestrutibilidade alimenta o Absorbing Man e torna possível o solo.",
+     "mentionedChampionIds": [
+      "absorbingman",
+      "nova"
+     ]
+    },
+    {
+     "text": "Gasto Aproximado: SOLO ou 1 Revive",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Oponente 15 - Grandmaster Resposta - Aegon + Juggy",
+     "mentionedChampionIds": [
+      "aegon"
+     ]
+    },
+    {
+     "text": "O Boss Final pode ser um problema enquanto o jogador não compreende perfeitamente as 4 Fases do Grão Mestre. No entanto se o jogador trouxer o Fanático na equipa (para a Fase 4) e compreender bem as 4 Fases esta luta passa a ser bem acessível. Eu aconselho muito o Aegon para a Fase 1 e 2 do Grão Mestre, já que ele com o Combo 999 remove a vida do Grão Mestre extremamente rápido. É também obrigatório usar Relíquia nesta luta, porque isso pausa o Tempo de Ferimento do Grão Mestre.",
+     "mentionedChampionIds": [
+      "aegon"
+     ]
+    },
+    {
+     "text": "Fase 1 (Dos 100 a 60%)",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "➜ Nesta Fase o Grão Mestre ao longo da luta vai banindo Táticas Específicas, as Táticas são: ➤ Aparar um Ataque ➤ Usar Destreza ➤ Acertar um Ataque Leve ➤ Derrubar Assim que o Grão Mestre banir uma destas ações o Jogador não pode mais efetua-las, se o fizer recebe uma Ficha de Impotência (se ganhar 3 o Grão Mestre enche o E3 e a luta acaba). Assim que começa a luta o Jogador deve aparar e usar pesado, a primeira tática a ser banida será a Derrubada. Depois disto o Jogador deve usar ataques leves até eles serem banidos. Com 2 táticas banidas o jogador deve aparar até que esta tática seja também banida. Com a Derrubada, Ataque Leve e Aparar banido o jogador deve usar destreza, isto bane mais uma tática e o Grão Mestre termina este ciclo, fazendo com que o Grão Mestre solte o Especial 1. Logo após o Especial 1 o Grão Mestre fica Ferido. Enquando está Ferido o jogador deve acertar o máximo de golpes possíveis e usar relíquia para Pausar o Ferimento por mais 4 segundos. ➔ Além de tudo isto o jogador tem ainda de respeitar 2 ordens do Grão Mestre: ➤ Sinal Verde (neste modo o jogador pode acertar no oponente) ➤ Sinal Vermelho (neste modo o jogador não pode efetuar nenhuma ação, deve ficar simplesmente parado até o sinal mudar para verde novamente.)",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Fase 2 (Dos 59% a 30%)",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "➜ Nesta Fase o Grão Mestre fica imune a Atordoamento e o jogador terá de cumprir 5 Desafios: ➤ Ameaçar Atacar (soltar um golpe leve ou médio sem acertar o Grão Mestre) ➤ Acertar um Golpe Crítico ➤ Receber um Bónus ➤ Interceptar ➤ Causar um Efeito de Dano ➜ No entanto o Jogador apenas deve cumprir estes Desafios se o Grão Mestre Mandar ➜ Ou seja de x em x segundos aparece na Tela um Desafio, se ao mesmo tempo do Desafio aparecer o texto \"O Grão Mestre Mandou\" então o Jogador deve cumprir esse Desafio. ✅ ➜ Se não aparecer esse texto o jogador não deve de forma alguma fazer esse Desafio porque se o fizer o Grão Mestre vai ganhar Fichas de Impotência (se ganhar 3 o Grão Mestre enche o E3 e a luta acaba). ➜ Ao fim de 5 Desafios Completos o Grão Mestre fica Ferido.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Fase 3 (Dos 29% a 2%)",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "➜ Nesta Fase o Jogador tem os Controlos Invertidos (por isso eu aconselho mesmo a usar o Fanático que é imune). ➜ Além disto o jogador continua a ter a necessidade de cumprir mais 5 Desafios, estes são: ➤ Acertar o Bloco ➤ Correr para Trás ➤ Derrubar o Oponente ➤ Ficar Parado ➤ Executar Bloqueios Sincronizados (Aparar) ➜ No entanto o Jogador apenas deve cumprir estes Desafios se o Grão Mestre Mandar ➜ Ou seja de x em x segundos aparece na Tela um Desafio, se ao mesmo tempo do Desafio aparecer o texto \"O Grão Mestre Mandou\" então o Jogador deve cumprir esse Desafio. ✅ ➜ Se não aparecer esse texto o jogador não deve de forma alguma fazer esse Desafio porque se o fizer o Grão Mestre vai ganhar Fichas de Impotência (se ganhar 3 o Grão Mestre enche o E3 e a luta acaba). ➜ Ao fim de 5 Desafios Completos o Grão Mestre fica Ferido.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Fase 4 (Dos 1% a 0%)",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "➜ Nesta Fase o Jogador continua com os Controlos Invertidos (por isso eu aconselho mesmo a usar o Fanático que é imune). ➜ O Grão Mestre ganha 4 Passivos Indeterminados, estes Passivos precisam de ser obrigatoriamente removidos, caso contrário o Grão Mestre simplesmente NÃO MORRE. Estes são os 4 Passivos e a Forma de os Remover: ➤ Proteção - Para remover é necessário Interceptar uma vez o Grão Mestre. ✅ ➤ Imunidade à Morte - Para remover é necessário usar um Ataque Especial 1 ✅ ➤ Indestrutibilidade - Para remover é necessário usar um Ataque Especial 2 ✅ ➤ Imortalidade - Para remover é necessário usar um Ataque Especial 3 ✅ ➜ Quando o jogador remove estes 4 Efeitos Passivos o Grão Mestre morre. ☠️",
+     "mentionedChampionIds": []
+    }
+   ],
+   "opponents": [
+    {
+     "n": 1,
+     "defenderPt": "Mr. Fantastic",
+     "answersPt": "Aegon / Kate Bishop"
+    },
+    {
+     "n": 2,
+     "defenderPt": "Namor",
+     "answersPt": "Shuri / Stryfe"
+    },
+    {
+     "n": 3,
+     "defenderPt": "Attuma",
+     "answersPt": "Shuri / Stryfe"
+    },
+    {
+     "n": 4,
+     "defenderPt": "Air Walker",
+     "answersPt": "Absorbing Man Kate Bishop / Wong"
+    },
+    {
+     "n": 5,
+     "defenderPt": "Captain Britain",
+     "answersPt": "Shuri / Wong"
+    },
+    {
+     "n": 6,
+     "defenderPt": "Wiccan",
+     "answersPt": "Shuri / Wong"
+    },
+    {
+     "n": 7,
+     "defenderPt": "Psycho Man",
+     "answersPt": "Shuri / Kate Bishop"
+    },
+    {
+     "n": 8,
+     "defenderPt": "Apocalypse",
+     "answersPt": "Absorbing Man / Shuri"
+    },
+    {
+     "n": 9,
+     "defenderPt": "Tigra",
+     "answersPt": "Absorbing Man Shuri / Aegon"
+    },
+    {
+     "n": 10,
+     "defenderPt": "Hercules",
+     "answersPt": "Absorbing Man Aegon / Wong"
+    },
+    {
+     "n": 11,
+     "defenderPt": "Cap. Wilson",
+     "answersPt": "Absorbing Man Aegon / Wong"
+    },
+    {
+     "n": 12,
+     "defenderPt": "Dragon Man",
+     "answersPt": "Shuri"
+    },
+    {
+     "n": 13,
+     "defenderPt": "Cap. IW",
+     "answersPt": "Aegon"
+    },
+    {
+     "n": 14,
+     "defenderPt": "Nova",
+     "answersPt": "Absorbing Man / Wong"
+    },
+    {
+     "n": 15,
+     "defenderPt": "Grandmaster",
+     "answersPt": "Aegon + Juggy"
+    }
+   ]
+  },
+  {
+   "id": "gauntlet",
+   "titlePt": "Grandmaster's Gauntlet (Manopla do Grão Mestre) rehberi",
+   "page": "manopla-do-gr_o-mestre",
+   "language": "pt",
+   "paragraphs": [
+    {
+     "text": "A Kabam decidiu lançar novamente este evento de 2021, mas desta vez de forma permanente. De há 1 ano para cá foram lançados vários heróis que facilitam imenso este desafio. Portanto é correto dizer que agora a Manopla está mais acessível. Fiz várias manoplas, e de todas as equipas que testei esta foi a que fez mais rápido e de forma mais económica....sem necessitar do uso de: Quake, Aegon, Stryfe ou Ghost. Vou mostrar como fiz cada luta e apresentar os meus gastos.",
+     "mentionedChampionIds": [
+      "stryfe",
+      "aegon",
+      "ghost",
+      "quake"
+     ]
+    },
+    {
+     "text": "Equipa que usei na Manopla:",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Apocalypse",
+     "mentionedChampionIds": [
+      "apocalypse"
+     ]
+    },
+    {
+     "text": "Professor X",
+     "mentionedChampionIds": [
+      "professorx"
+     ]
+    },
+    {
+     "text": "Doctor Doom",
+     "mentionedChampionIds": [
+      "doctordoom"
+     ]
+    },
+    {
+     "text": "Nimrod",
+     "mentionedChampionIds": [
+      "nimrod"
+     ]
+    },
+    {
+     "text": "Hercules",
+     "mentionedChampionIds": [
+      "hercules"
+     ]
+    },
+    {
+     "text": "Linha 1: Doom / Terrax / Vision OG / M.O.D.O.K. / Spider-Ham",
+     "mentionedChampionIds": [
+      "modok",
+      "spiderham",
+      "terrax",
+      "vision"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Como o Apocalypse é XL então não sofre o nó de Microrreflexão. Como não levei o Cable a construção do Apoco é bem mais lenta. O objetivo aqui é manter ele no E1, caso ative um choque basta desviar até ele expirar. A Concussão do Apocalypse previne por muitas vezes a aura o que facilita muito a luta. Depois de usar 2x o E1 e 2x o E2 usa-se o E3 para bloquear permanentemente as debilitações. É uma luta longa mas relativamente fácil.",
+     "mentionedChampionIds": [
+      "apocalypse",
+      "cable"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Nesta luta o Terrax vai estar muito tempo com a aura rochosa ativa, felizmente enquanto isso ele também é muito mais agressivo...o que permite construir o Hercules muito rápido. É basicamente intercetar até construir 12 façanhas. Aconselho usarem boost 200% cósmico. Intercetem com o E2 e façam o máximo de dano possível. O Hercules acaba por ativar a imortalidade o que permite solar a luta com tranquilidade.",
+     "mentionedChampionIds": [
+      "hercules",
+      "terrax"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Nesta luta se ele chegar no E3 e usar morrem. No entanto com o Doom basta fazer a rotação mantendo as 2 fúrias e não o deixar usar especiais. Quando estão com aura ativa fechem o bloco, dessa forma obrigam ele a usar pesado e a não usar especiais. Quando ele tem mais ou menos 20% de vida soltem o E2...ele morre com as incinerações.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Gasto na Luta: 1 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O Apocalypse aqui é ideal porque fica imune a desorientar. Depois de ficar imune a luta baseia-se em usar pesados e E3. O E1 dele é não bloqueável, convém não errar a esquiva. Outro truque é que quando estão para usar o E3 aparam primeiro para aproveitar o dano da vulnerabilidade ao atordoamento. Os sangramentos do pesado também são ampliados se forem aplicados durante o atordoamento.",
+     "mentionedChampionIds": [
+      "apocalypse"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Este porquinho pode ser bem chato, mas o Professor X controla ele de forma estupenda. O primeiro passo é chegar nas 25 cargas, depois disso ele nunca mais esquiva. Como ele é imune a efeitos negativos devem usar pesado quando o vacilo está disponível. Aconselho muito usarem boost 200% mutante. O E2 com 4 proezas já permite ciclar vários E2 e a luta termina muito rápido. Evitem puxar ele para E2 e não soltem especiais quando têm o ferrão.",
+     "mentionedChampionIds": [
+      "professorx"
+     ]
+    },
+    {
+     "text": "Linha 2: Weapon X, Thing, Korg, Dragon Man e Pantera Negra CW",
+     "mentionedChampionIds": [
+      "dragonman",
+      "thing",
+      "korg"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Os nós desta luta não têm qualquer impacto. É apenas um Weapon X normal. O Nimrod desliga a regeneração dele e ainda o mata bastante rápido com o choque passivo. Devem ter cuidado quando ele fica não bloqueável. E claro lancem sempre o E2 no modo laranja ou roxo.",
+     "mentionedChampionIds": [
+      "nimrod"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 1 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Nesta luta ele tem oscilar o que o torna muito agressivo algum tempo e super passivo logo depois. O Hercules não tem qualquer mecânica para prevenir as pedras, então é necessário fazer ele lançar especiais quando tem 15 pedras. O dano secundário do Hercules acelera a luta. É preferível usar E1 do que o E2 dessa forma não se ativa a proteção dele.",
+     "mentionedChampionIds": [
+      "hercules"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 1 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Esta é a luta mais difícil da Manopla. Ele tem Mestre das Misturas, então o primeiro passo é fazer ele esquivar propositadamente para construir a mecânica anti-esquiva do Apocalypse. Como sabem que ele esquiva quando repetem os golpes não são apanhados de surpresa e podem bloquear a tempo. Depois devem aparar e usar combos com leve para não ativar os espinhos. Usam 1 E1, 1 E2 e depois com as 4 debilitações ativas usam o E3. Quando têm os 4 debuffs bloqueados permanentemente a luta fica bem mais simples. Já que a redução de habilidades e a fraqueza têm grande impacto aqui.",
+     "mentionedChampionIds": [
+      "apocalypse"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 1 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Esta é uma das lutas mais longas da manopla por causa do nó de Aspeto de Evolução. Aqui a ideia é usar o E1 quando ele está perto de 3 barras e depois o E2. É o dano de incineração que faz a maior parte do trabalho. Jamais o deixem chegar num E3. Ao longo da luta o dano do bloco também fica muito intenso, evitem bloquear em excesso.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Esta luta baseia-se também no Ciclo do Doom. Assim que usam E3 jamais o vão deixar usar um especial. Ele não reflete o atordoamento passivo por isso o Doom funciona muito bem. Tenham cuidado que ele fica não bloqueável quando tem armadura ativa. Ter Dispersão Mística a nível 4 pelo menos ajuda muito nesta luta.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Linha 3: Noturno, Spider-Gwen, Domino, Mojo, Immortal Abom",
+     "mentionedChampionIds": [
+      "spidergwen",
+      "domino",
+      "mojo"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O Professor X inativa a esquiva assim que tem 25 cargas. Assim que ele desviar para trás e já tiverem as 25 cargas batem no bloco dele para mudar o modo. Assim garantem que ele jamais esquiva. Com o boost 200% mutante chegam no E2 e acaba a luta.",
+     "mentionedChampionIds": [
+      "professorx"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Esta luta é bem parecida com a do Noturno. A diferença aqui é que não podem aparar. Assim que chegam nas 25 cargas ganharam a luta. Como não podem aparar usem pesados quando o tempo do vacilo estiver ativo. Dessa forma aceleram o ganho de cargas cerebro.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "A Kabam lançou o melhor counter da Domino, o Nimrod. Ele torna esta luta uma das mais fáceis da manopla. Como tem nó escudo de poder apenas 3 E2 acabam a luta já que o dano do choque também é ampliado. O Nimrod também não sofre falha crítica.",
+     "mentionedChampionIds": [
+      "nimrod",
+      "domino"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Considero esta uma das lutas mais chatas, é fácil solar mas basta ele chegar no E3 para terminar a luta. Ele tem um nó que autocompleta as missões, o que dificulta a luta. O plano é manter ele no E1 e desviar sem ativar destreza. Com o Apoco usa-se 1 E1 e 1 E2 e depois o E3. Depois do E3 a luta fica bem mais tranquila. Caso ele ative campo antivida evitem ao máximo ativar uma destreza. A Concussão muitas vezes também previne a degeneração.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Esta luta apesar de fácil acaba por ser muito longa. Basta manter o Abom no E1. A drenagem de poder do Nimrod garante que o Abom nunca vos vai prender na parede. Esse controlo de poder elimina a única coisa que podia dar chatices na luta. Tirando isso, basta usar E2 no modo laranja ou roxo que ele acaba por morrer.",
+     "mentionedChampionIds": [
+      "nimrod"
+     ]
+    },
+    {
+     "text": "Linha 4: Apocalypse, Sasquatch, Killmonger, Void e Nick Fury",
+     "mentionedChampionIds": [
+      "apocalypse",
+      "killmonger",
+      "sasquatch",
+      "nickfury",
+      "void"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O Nimrod banaliza de uma forma incrível os mutantes. Ele remove as proezas rapidamente e depois disso podem bloquear à vontade qualquer especial do Apocalypse, mal perdem vida... Acaba por ser apenas um Apoco normal. 4/5 E2 e ele está morto.",
+     "mentionedChampionIds": [
+      "apocalypse",
+      "nimrod"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 1 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Esta é outra das lutas mais tensas da manopla. A primeira regra é evitar puxar ele para cima de 2 barras, como tem nó de aperitivo poderoso basta uma destreza na hora errada para ele encher E3. O Apocalypse é imune a desorientar portanto ele elimina logo uma das partes mais chatas da luta. Acima de tudo isto é uma luta de foco. A rotação é a mesma de todas as lutas do Apoco, E1+E2 e depois E3. A concussão de 70% vai prevenir o aperitivo poderoso e ainda vai evitar as regenerações massivas. Para finalizarem a luta precisam de usar um pesado e logo depois usar um especial.",
+     "mentionedChampionIds": [
+      "apocalypse"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O maior perigo desta luta seria o sangramento, mas o Apoco fica imune ao sangramento em 9 segundos. Depois disso é apenas um Killmonger normal. Aqui só ganham poder quando o inimigo tem em si um debuff de dano. Basta usarem ataques pesados, isso vai permitir encherem o E1 e depois o E2. A concussão também evita a reverberação. Boosts de 200% facilitam esta luta.",
+     "mentionedChampionIds": [
+      "killmonger"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 1 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Esta é a luta mais injusta da Manopla...não há muito que possam fazer para evitar o dano massivo do debuff que vos é aplicado quando estão próximos dele. Portanto a estratégia aqui é usar a imortalidade do Hercules como boia de salvamento. Aconselho usarem boost 200% cósmico, mantendo a agressividade e por causa do escudo de poder conseguem spamar o E2.",
+     "mentionedChampionIds": [
+      "hercules"
+     ]
+    },
+    {
+     "text": "Gasto na Luta: 0 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "A regra principal nesta luta é jamais usem o E1...porque aplica veneno e ativa a degeneração do nó \"Coração de Leão\" portanto nesta luta usam um E2 e depois o E3. Depois do E3 só podem usar o E2. Tem nó de transferência cinética portanto evitem que ele solte E1. De qualquer forma a concussão vai prevenir a maioria das vezes todos os nós...por isso acaba por ser uma luta normal.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Gasto na Luta: 2 Reviver",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Nesta luta temos de respeitar as 3 fases dele. Na Fase 1 (95% a 65%) ele ganha uma armadura vermelha e quando é atingido coloca sangramento no inimigo. E ganha também uma armadura azul que o faz autobloquear. Quando ele usa E1 se estiverem a usar um herói imune a sangramento só têm de evitar bater quando aparece a armadura azul. Na Fase 2 (65% a 30%) ele aplica uma degeneração no atacante e durante alguns segundos ganha a habilidade de esquivar...quando esquiva atordoa o atacante. Basta esperar a fase da esquiva expirar e depois bater. Na Fase 3 (30% a 0%) o Thanos ganha um passivo de Toque da Morte, enquanto isso está ativo qualquer toque no atacante mata ele instantaneamente. Nesta fase ele também enche sempre o E3...e para o atacante receber uma proteção necessita de intercetar o Thanos. Caso o Thanos não seja intercetado então o E3 faz dano total.",
+     "mentionedChampionIds": [
+      "thanos"
+     ]
+    },
+    {
+     "text": "Gasto Total com esta equipa: 8 Revives (320 Unidades)",
+     "mentionedChampionIds": []
+    }
+   ],
+   "opponents": null
+  },
+  {
+   "id": "coliseum",
+   "titlePt": "Coliseum – Mr. Negative: nasıl çalışır",
+   "page": "coliseum-mr-negative",
+   "language": "pt",
+   "paragraphs": [
+    {
+     "text": "Tier List - Coliseum - Mr. Negative (Tier List do Coliseu - Mr. Negative) 💬",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Como funciona o Coliseu?",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O objetivo do Coliseu é colocar os 30 Membros a lutar contra um Boss Épico. Porém este Boss tem Barras de Vidas Ilimitadas e o objetivo é Derrubar o máximo número de Barras de Vida! No entanto quantas mais barrras forem eliminadas mais ataque o Boss recebe, tornando a luta cada vez mais difícil! Cada Coliseu tem a duração de 3 Dias, eis o que acontece em cada um desses dias: ➤ Dia 1 No Dia 1 são abertos 3 Pódios, cada Pódio é preenchido com um campeão escolhido pelo jogador. O Objetivo do Jogador é conquistar o máximo de Pontos de Pódio possíveis. Os Pontos do Pódio são calculados com base em 3 Fatores: ➜ Número de Barras de Vida Eliminadas ➜ Bónus de Etiqueta (a cada Dia as Etiquetas mudam, por cada Etiqueta o Jogador ganha +20 Mil Pontos) ➜ Prestígio da Aliança Além disso quantas mais lutas o Jogador fizer mais aumenta o seu Multiplicador de Pódio. Aumentar o Multiplicador de Pódio é ESSENCIAL, portanto neste modo é necessário jogar várias vezes com cada campeão. ➤ Dia 2",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "No Dia 2 é aberto o 4º Pódio, ou seja o Jogador tem acesso ao 4º Campeão. ➤ Dia 3",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "No Dia 3 é aberto o 5º Pódio, ou seja o Jogador tem acesso ao 5º Campeão.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "A Forma mais Fácil de aumentar o Multiplicador de Pódio!",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Este Modo de Jogo tem 3 Dificuldades: Fácil, Médio e Difícil. De acordo com a Dificuldade a Quantidade de Vida e Ataque diminuiu porém os Pontos Totais também. ➔ Dificuldade Fácil Cada Barra de Vida removida rende: 800 Pontos e 1 XP de Pódio ➔ Dificuldade Média Cada Barra de Vida removida rende: 4500 Pontos e 3 XP de Pódio ➔ Dificuldade Difícil Cada Barra de Vida removida rende: 20000 Pontos e 10 XP de Pódio Ou seja removendo 8 Barras de Vida na Dificuldade Difícil ganha-se 80 XP de Pódio, isto é o Máximo de XP de Pódio que se pode ganhar em uma só luta. Para ganhar 80 XP de Pódio na Dificuldade Média é necessário remover 27 Barras de Vida. Para atingir uma pontuação boa o suficiente é necessário atingir o Pódio Nível 3. Portanto o ideal é que: ⮞ O Jogador remova 8 Barras de Vida e desista da luta na Dificuldade Difícil ⮞ E deve fazer isto até atingir pelo menos o Pódio Nível 3 ⮞ Assim que atingir o Pódio Nível 3 o jogador deve tentar Remover o Máximo Número de Barras de Vida.",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O Objetivo da Aliança",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O objetivo de qualquer Aliança é alcançar os 85 Milhões de Pontos. Ou seja, para haver uma justa distribuição de pontos cada jogador deve fazer pelo menos 2,8 Milhões de Pontos. Como cada Jogador pode usar 5 Campeões então em Média cada campeão deve alcançar uma Pontuação de 560 Mil Pontos. Neste Modo as Recompensas de Aliança são realmente incríveis portanto nenhuma aliança deveria ignorar este Modo de Jogo. Se a Aliança fizer 85 Milhões cada Jogador ganha: ➜ 1,5 Catalisador Básica Grau 7 ➜ 10k Fragmentos de Titan ➜ 5% de Alpha Grau 5",
+     "mentionedChampionIds": []
+    }
+   ],
+   "opponents": null
+  },
+  {
+   "id": "rampantEvolution",
+   "titlePt": "AQ Rampant Evolution: nasıl çalışır",
+   "page": "aq-rampant-evolution",
+   "language": "pt",
+   "paragraphs": [
+    {
+     "text": "Tier List - AQ Rampant Evolution (Tier List da AQ Rampant Evolution) 💬",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "Como funciona o novo Modo: AQ Rampant Evolution",
+     "mentionedChampionIds": []
+    },
+    {
+     "text": "O objetivo deste Modo Novo de AQ é colocar os 30 Membros a Explorar um Mapa cheio de Bosses Cada Grupo tem um Mapa e cada Mapa tem 8 Caminhos, ou seja em cada grupo há 2 Reservas. Ao contrário da AQ Comum neste modo todas as semanas os Defensores variam, portanto a dificuldade do Mapa depende sempre do conjunto de Defensores que são selecionados automaticamente pela Kabam. Cada Defensor no Mapa terá uma vida que varia entre 700k a 850k. Além disso o Jogador pode levar 2 Campeões na Equipa, porém esses Campeões apenas podem ser os da Tag #AQ Ramp Aconselho a cada Jogador subir alguns dos melhores atacantes da #AQ Ramp para que possa ter uma boa experiência neste novo Modo de Aliança.",
+     "mentionedChampionIds": []
+    }
+   ],
+   "opponents": null
+  }
+ ]
+}

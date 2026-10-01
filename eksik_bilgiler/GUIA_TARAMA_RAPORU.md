@@ -87,3 +87,8 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 - `guia_relics.json`: 24 Battlecast relic için GuiaMTC puanı (x/10), Portekizce etki/kullanım/etkileşim metni; relics.json ile eşleşti (yalnızca The Cosmic Egg'in Guia puanı yok). Uygulamada RelicCard'da gösterilir (GuiaRelicRepository).
 - `guia_rank7.json`: 268 şampiyon, 7★ sıralaması; R5/R4 taban ve A1/A2 değerleri. Taban değerler mcoc.gg prestijiyle çapraz doğrulandı (266/268 OCR'dan birebir; Heimdall R5 okunamadı, Archangel R4 OCR 32500 → mcoc.gg değeri kullanıldı, `correctedFromMcocgg` ile işaretli). Ad takma adları değer eşleşmesiyle çözüldü ("White Widow" → Black Widow (Deadly Origin): R5 değeri tekil eşleşti, yine de ad okuması belirsiz).
 - Dahil EDİLMEYENLER: focus (saldırı/savunma) ve Stat/Battle Cast relic ikon sütunları (güvenilir ikon eşleştirmesi yapılmadı).
+
+## Metin rehberleri: Necropolis, Manopla, Coliseu, AQ Rampant Evolution (alındı – yalnızca metin)
+- `guia_guides.json`: Portekizce metin olduğu gibi (64/54/9/3 paragraf); Necropolis'te 15 rakip + önerilen cevaplar ayrıştırıldı. Meta ekranında "GuiaMTC Rehberleri" bölümü.
+- Alınmayanlar (yalnızca görsel): Coliseum tier listesi, AQ Rampant Evolution tier listesi, Awakening Gems (sayfada metin yok), AQ Map 6/7/8 (yüzlerce harita görseli).
+- Hazard Shift ve DOT sekmeleri: şampiyon listeleri mcoc.gg `capabilities.json` içinde zaten yetkili olarak var (abilities: Bleed/Poison/Incinerate/Shock/Degeneration/Coldsnap/Plasma/Rupture/Disintegration/Neuroshock/Corrosion; immunities). Guia görsel listeleri ayrıca okunmadı (mcoc.gg listesi esas alındı).
