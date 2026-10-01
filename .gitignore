@@ -18,3 +18,5 @@ local.properties
 
 # mcoc.gg sync cache
 tools/.cache/
+__pycache__/
+*.pyc
