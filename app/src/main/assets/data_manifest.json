@@ -1,6 +1,6 @@
 {
-  "dataVersion": 34,
-  "generatedAt": "2026-09-28T00:23:36Z",
+  "dataVersion": 35,
+  "generatedAt": "2026-10-01T09:44:45Z",
   "files": {
     "champions_db.json": "4b4a7f6c10816af38f744cb5d4da8e8b2f2b10436f9f18ffd4386e40563166cc",
     "details/abomination.json": "bb234ce04a88166581e2e24c81820e4edba8284d2c70fe6cf76da658f06794e4",
@@ -331,6 +331,7 @@
     "details/yelenabelova.json": "474c12198af341e02afb12223bdf72aefb3e2b5826457246b7e19cbc73e85d9b",
     "details/yellowjacket.json": "718f8dfda2028188a8816e0a136ad3c20efefa50edd83ff9cd2c1734d0fd39cc",
     "details/yondu.json": "6622579fc04fafdeea54b66bfbf7bfa1feb83d6859630f99a64a063e29e27278",
+    "meta.json": "2d0e09f30e6546b3cab2018c00781a66df2715368fedb68b1e5036ba80bbe1bb",
     "quests/1_1_1.json": "9c1e85eab6e18ed22c3fcca16ce4c1066c90a41ed6221b60b0fa80db9769ba88",
     "quests/1_1_2.json": "f273ebe2c7f4da76da6d3fe9206d553ee39c8e9f6031cf20bcbba9b265ca8d9e",
     "quests/1_1_3.json": "1b38d7d55be057e9052ec9d49a8f384c7eeaed7152cec5f2504c36d63de91b71",

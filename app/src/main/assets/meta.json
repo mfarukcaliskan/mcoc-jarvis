@@ -1,0 +1,178 @@
+{
+  "seasons": [
+    {
+      "id": "bg_s41",
+      "mode": "Battlegrounds",
+      "seasonNumber": 41,
+      "title": "Savaş Alanları Sezon 41",
+      "weekRange": "Hafta 1-4",
+      "dateRange": "5 Ağustos - 9 Eylül 2026",
+      "nodes": [
+        {
+          "name": "I Am Root!",
+          "effect": "Groot güçlendirilmiş: Tüm Fury buff'ları %50 daha güçlü",
+          "bestAttackers": [
+            "hercules",
+            "hulkling",
+            "shangchi"
+          ],
+          "bestDefenders": [
+            "doctordoom",
+            "onslaught",
+            "rintrah"
+          ]
+        },
+        {
+          "name": "Daunting Doom",
+          "effect": "Doom güçlendirilmiş: Aura hasarı 2 katına çıkar",
+          "bestAttackers": [
+            "humantorch",
+            "spiderman2099",
+            "void"
+          ],
+          "bestDefenders": [
+            "doctordoom",
+            "onslaught",
+            "wong"
+          ]
+        },
+        {
+          "name": "Spite",
+          "effect": "Oyuncunun buff'ları sona erdiğinde hasar alır",
+          "bestAttackers": [
+            "void",
+            "spiderman2099",
+            "warlock"
+          ],
+          "bestDefenders": [
+            "doctordoom",
+            "hercules",
+            "sersi"
+          ]
+        },
+        {
+          "name": "Power Shield",
+          "effect": "Düşmanın güç barı doldukça savunması artar",
+          "bestAttackers": [
+            "magik",
+            "doctordoom",
+            "ghost"
+          ],
+          "bestDefenders": [
+            "onslaught",
+            "rintrah",
+            "void"
+          ]
+        },
+        {
+          "name": "Bane",
+          "effect": "Debuff vurduğunuzda iyileşirsiniz ama debuff bitince hasar alırsınız",
+          "bestAttackers": [
+            "warlock",
+            "archangel",
+            "omegared"
+          ],
+          "bestDefenders": [
+            "kingpin",
+            "doctordoom",
+            "onslaught"
+          ]
+        }
+      ],
+      "bannedChampions": [
+        "Herkül",
+        "Ghost"
+      ],
+      "description": "Bu sezon Fury ve güç kontrolü mekanikleri ön planda. Doom ve Groot özel güçlendirilmiş."
+    },
+    {
+      "id": "bg_s40",
+      "mode": "Battlegrounds",
+      "seasonNumber": 40,
+      "title": "Savaş Alanları Sezon 40",
+      "weekRange": "Hafta 1-4",
+      "dateRange": "1 Temmuz - 5 Ağustos 2026",
+      "nodes": [
+        {
+          "name": "Buffet",
+          "effect": "Düşman buff aldıkça iyileşir",
+          "bestAttackers": [
+            "spiderman2099",
+            "doctordoom",
+            "void"
+          ],
+          "bestDefenders": [
+            "hercules",
+            "hulkling",
+            "sersi"
+          ]
+        },
+        {
+          "name": "Enhanced Fury",
+          "effect": "Tüm Fury buff'ları %100 daha güçlü",
+          "bestAttackers": [
+            "hercules",
+            "shangchi",
+            "nickfury"
+          ],
+          "bestDefenders": [
+            "kingpin",
+            "onslaught",
+            "doctordoom"
+          ]
+        },
+        {
+          "name": "Kinetic Reactor",
+          "effect": "Düşman blok kırdığında güç kazanır",
+          "bestAttackers": [
+            "ghost",
+            "quake",
+            "spiderman2099"
+          ],
+          "bestDefenders": [
+            "onslaught",
+            "doctordoom",
+            "hercules"
+          ]
+        },
+        {
+          "name": "Aspect of Chaos",
+          "effect": "Her 7 saniyede rastgele buff/debuff tetiklenir",
+          "bestAttackers": [
+            "warlock",
+            "void",
+            "archangel"
+          ],
+          "bestDefenders": [
+            "doctordoom",
+            "onslaught",
+            "hulkling"
+          ]
+        }
+      ],
+      "bannedChampions": [
+        "Kitty Pryde",
+        "Quake"
+      ],
+      "description": "Fury ve buff bazlı savaş mekanikleri. Buff silme yeteneği olan şampiyonlar kritik."
+    },
+    {
+      "id": "aw_s69",
+      "mode": "Alliance War",
+      "seasonNumber": 69,
+      "title": "İttifak Savaşı Sezon 69",
+      "weekRange": "Hafta 1-4",
+      "dateRange": "12 Ağustos - 9 Eylül 2026 (tahmini)",
+      "nodes": [
+        {
+          "name": "Ricochet (Defans) / Stabilize (Saldırı)",
+          "effect": "Savunmacı her 12 saniyede saldırgana %10 Şiddetli Dengesizlik (Unsteady) debuff'ı uygular (15sn, en fazla 3 yığın, saldırgan uzaktayken durur). Saldırgan her 15 komboda %20 Dayanıklılık (Endurance) pasifi kazanarak buna karşı koyar.",
+          "bestAttackers": [],
+          "bestDefenders": []
+        }
+      ],
+      "bannedChampions": [],
+      "description": "Ricochet/Stabilize taktiği — bu taktiğin ikinci sezonu, güncellenmiş bir kara liste ile. Dengesizlik debuff'ını yönetebilen veya Dayanıklılık pasifinden faydalanan şampiyonlar öne çıkıyor."
+    }
+  ]
+}

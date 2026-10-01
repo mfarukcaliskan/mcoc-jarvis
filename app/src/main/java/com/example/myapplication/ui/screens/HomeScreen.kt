@@ -23,6 +23,8 @@ import androidx.compose.ui.window.Dialog
 import com.example.myapplication.data.Champion
 import com.example.myapplication.data.ChampionClass
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.MetaRepository
+import com.example.myapplication.data.RelicRepository
 import com.example.myapplication.data.RemoteDataUpdater
 import com.example.myapplication.data.UpdateResult
 import kotlinx.coroutines.launch
@@ -46,6 +48,8 @@ fun HomeScreen(modifier: Modifier = Modifier) {
         )
 
         DataUpdateStatusRow()
+
+        OverlayLauncherCard()
 
         TabRow(
             selectedTabIndex = selectedTab,
@@ -101,6 +105,8 @@ fun DataUpdateStatusRow() {
                     when (val result = RemoteDataUpdater.checkForUpdates(context, force = true)) {
                         is UpdateResult.Updated -> {
                             ChampionRepository.reload(context)
+                            RelicRepository.reload(context)
+                            MetaRepository.reload(context)
                             version = result.newVersion
                             statusText = "Güncellendi: v${result.newVersion} (${result.changedFiles} dosya)"
                         }
@@ -601,5 +607,81 @@ private fun addCounter(list: MutableList<Pair<Champion, String>>, counterId: Str
     val champ = ChampionRepository.champions.find { it.id == counterId }
     if (champ != null) {
         list.add(champ to reason)
+    }
+}
+
+/**
+ * JARVIS ekran asistanını (yüzen widget + ekran okuma) başlatır. Sırayla:
+ * 1) "Diğer uygulamaların üzerinde göster" izni, 2) bildirim izni (Android 13+),
+ * 3) MediaProjection ekran yakalama izni, 4) JarvisOverlayService'i başlatma.
+ */
+@Composable
+fun OverlayLauncherCard() {
+    val context = LocalContext.current
+    var statusText by remember { mutableStateOf<String?>(null) }
+
+    val projectionLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
+        androidx.activity.result.contract.ActivityResultContracts.StartActivityForResult()
+    ) { result ->
+        val data = result.data
+        if (result.resultCode == android.app.Activity.RESULT_OK && data != null) {
+            val intent = android.content.Intent(context, com.example.myapplication.JarvisOverlayService::class.java)
+                .putExtra("RESULT_CODE", result.resultCode)
+                .putExtra("RESULT_DATA", data)
+            androidx.core.content.ContextCompat.startForegroundService(context, intent)
+            statusText = "JARVIS aktif. Oyuna geçip yüzen JARVIS düğmesine dokunun."
+        } else {
+            statusText = "Ekran yakalama izni verilmedi."
+        }
+    }
+
+    fun requestProjection() {
+        val manager = context.getSystemService(android.content.Context.MEDIA_PROJECTION_SERVICE)
+            as android.media.projection.MediaProjectionManager
+        projectionLauncher.launch(manager.createScreenCaptureIntent())
+    }
+
+    val notificationLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
+        androidx.activity.result.contract.ActivityResultContracts.RequestPermission()
+    ) { requestProjection() } // bildirim reddedilse de servis çalışır, sadece bildirim görünmez
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 16.dp, vertical = 4.dp)
+            .clip(RoundedCornerShape(12.dp))
+            .background(Color(0xFF161B22))
+            .padding(12.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        Column(modifier = Modifier.weight(1f)) {
+            Text("Canlı Ekran Asistanı", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 13.sp)
+            Text(
+                statusText ?: "Oyun ekranındaki rakibi ve karoyu okuyup counter önerir.",
+                color = Color.Gray,
+                fontSize = 11.sp
+            )
+        }
+        Button(
+            onClick = {
+                if (!android.provider.Settings.canDrawOverlays(context)) {
+                    statusText = "Önce 'diğer uygulamaların üzerinde göster' iznini verin, sonra tekrar basın."
+                    context.startActivity(
+                        android.content.Intent(
+                            android.provider.Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                            android.net.Uri.parse("package:${context.packageName}")
+                        )
+                    )
+                } else if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+                    notificationLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+                } else {
+                    requestProjection()
+                }
+            },
+            colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF00BFFF), contentColor = Color.Black)
+        ) {
+            Text("Başlat", fontSize = 12.sp)
+        }
     }
 }

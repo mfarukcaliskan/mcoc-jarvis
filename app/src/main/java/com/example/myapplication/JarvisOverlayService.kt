@@ -308,6 +308,11 @@ class JarvisOverlayService : Service() {
             .addOnFailureListener { e ->
                 Toast.makeText(this, "Okuma hatası: ${e.message}", Toast.LENGTH_LONG).show()
             }
+            .addOnCompleteListener {
+                recognizer.close()
+                bitmap.recycle()
+                if (croppedBitmap !== bitmap) croppedBitmap.recycle()
+            }
     }
 
     @SuppressLint("SetTextI18n")
@@ -319,7 +324,7 @@ class JarvisOverlayService : Service() {
         var detectedChampion: Champion? = null
         for (champ in ChampionRepository.champions) {
             val nameLower = champ.name.lowercase()
-            if (lowerText.contains(nameLower) && (detectedChampion == null || nameLower.length > detectedChampion.name.length)) {
+            if (champ.isPlayable && containsWholeTerm(lowerText, nameLower) && (detectedChampion == null || nameLower.length > detectedChampion.name.length)) {
                 detectedChampion = champ
             }
         }
@@ -329,7 +334,7 @@ class JarvisOverlayService : Service() {
         for (season in MetaRepository.seasons) {
             for (node in season.nodes) {
                 val nodeNameLower = node.name.lowercase()
-                if (lowerText.contains(nodeNameLower) && (detectedNode == null || nodeNameLower.length > detectedNode.name.length)) {
+                if (containsWholeTerm(lowerText, nodeNameLower) && (detectedNode == null || nodeNameLower.length > detectedNode.name.length)) {
                     detectedNode = node
                 }
             }
@@ -405,6 +410,20 @@ class JarvisOverlayService : Service() {
                 ChampionRepository.champions.find { it.id == id }
             }
             updateCountersRow(fallbackChamps)
+        }
+    }
+
+    /** "hulk" metni "hulkbuster" içinde yanlış eşleşmesin diye harf/rakam sınırı arar. */
+    private fun containsWholeTerm(text: String, term: String): Boolean {
+        if (term.isBlank()) return false
+        var from = 0
+        while (true) {
+            val idx = text.indexOf(term, from)
+            if (idx < 0) return false
+            val before = if (idx == 0) ' ' else text[idx - 1]
+            val after = if (idx + term.length >= text.length) ' ' else text[idx + term.length]
+            if (!before.isLetterOrDigit() && !after.isLetterOrDigit()) return true
+            from = idx + 1
         }
     }
 
@@ -485,7 +504,11 @@ class JarvisOverlayService : Service() {
         mediaProjection?.stop()
         imageReader?.close()
         if (::rootContainer.isInitialized) {
-            windowManager.removeView(rootContainer)
+            try {
+                windowManager.removeView(rootContainer)
+            } catch (e: IllegalArgumentException) {
+                Log.w("JARVIS", "Overlay zaten kaldırılmış", e)
+            }
         }
     }
 }
