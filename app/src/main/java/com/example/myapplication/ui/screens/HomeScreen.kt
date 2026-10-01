@@ -28,6 +28,7 @@ import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.GuiaRepository
 import com.example.myapplication.data.GuiaTierRepository
 import com.example.myapplication.data.MetaRepository
+import com.example.myapplication.data.PrestigeRepository
 import com.example.myapplication.data.RelicRepository
 import com.example.myapplication.data.RemoteDataUpdater
 import com.example.myapplication.data.UpdateResult
@@ -115,6 +116,7 @@ fun DataUpdateStatusRow() {
                             GuiaTierRepository.reload(context)
                             GuiaAwRepository.reload(context)
                             CapabilityRepository.reload(context)
+                            PrestigeRepository.reload(context)
                             version = result.newVersion
                             statusText = "Güncellendi: v${result.newVersion} (${result.changedFiles} dosya)"
                         }
@@ -205,25 +207,12 @@ fun MatchupCounterScreen() {
 }
 
 @Composable
-fun calculateDynamicPrestige(champion: Champion, star: Int, rank: Int, sig: Int): Int {
-    val starProg = champion.progressions.find { it.starRating == star } ?: champion.progressions.firstOrNull()
-    if (starProg == null) return champion.prestige
-    val rankStat = starProg.ranks.find { it.rank == rank } ?: starProg.ranks.firstOrNull()
-    if (rankStat == null) return champion.prestige
-
-    val maxSig = 200.0
-    val factor = Math.pow(sig.toDouble() / maxSig, 0.8)
-    val dynamicPrestige = rankStat.basePrestige + (rankStat.maxPrestige - rankStat.basePrestige) * factor
-    return dynamicPrestige.toInt()
-}
-
-@Composable
 fun PrestigeCalculatorScreen() {
     var showDialogSlotIndex by remember { mutableIntStateOf(-1) }
     val selectedChampions = remember { mutableStateListOf<Champion?>(null, null, null, null, null) }
-    val selectedStars = remember { mutableStateListOf(6, 6, 6, 6, 6) }
-    val selectedRanks = remember { mutableStateListOf(5, 5, 5, 5, 5) }
-    val selectedSigs = remember { mutableStateListOf(0, 0, 0, 0, 0) }
+    // Kademe indeksi (mcoc.gg gercek tablosu) ve sig noktasi indeksi (sig = indeks x 20)
+    val selectedEntries = remember { mutableStateListOf(0, 0, 0, 0, 0) }
+    val selectedSigIdx = remember { mutableStateListOf(0, 0, 0, 0, 0) }
     val expandedSlots = remember { mutableStateListOf(false, false, false, false, false) }
 
     Column(modifier = Modifier.padding(horizontal = 16.dp)) {
@@ -272,10 +261,14 @@ fun PrestigeCalculatorScreen() {
                                 }
                                 Column {
                                     Text(champ.name, fontWeight = FontWeight.Bold, color = Color.White, fontSize = 13.sp)
-                                    Text("${selectedStars[i]}★ R${selectedRanks[i]} Sig ${selectedSigs[i]}", color = Color.Gray, fontSize = 11.sp)
+                                    val slotEntry = PrestigeRepository.entries(champ.id).getOrNull(selectedEntries[i])
+                                    Text(
+                                        if (slotEntry == null) "Tablo yok" else slotEntry.label + (if (slotEntry.hasSigTable) " Sig ${selectedSigIdx[i] * PrestigeRepository.SIG_STEP}" else ""),
+                                        color = Color.Gray, fontSize = 11.sp
+                                    )
                                 }
                                 Spacer(modifier = Modifier.weight(1f))
-                                val dynamicP = calculateDynamicPrestige(champ, selectedStars[i], selectedRanks[i], selectedSigs[i])
+                                val dynamicP = PrestigeRepository.prestige(champ, selectedEntries[i], selectedSigIdx[i])
                                 Text("$dynamicP", color = Color(0xFFFFD700), fontWeight = FontWeight.Bold, fontSize = 14.sp)
                                 Spacer(modifier = Modifier.width(8.dp))
                                 TextButton(
@@ -292,81 +285,61 @@ fun PrestigeCalculatorScreen() {
                             HorizontalDivider(color = Color(0xFF30363D))
                             Spacer(modifier = Modifier.height(8.dp))
 
-                            // Stars Selection (6★ vs 7★)
-                            Row(
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Text("Yıldız:", color = Color.Gray, fontSize = 11.sp, modifier = Modifier.width(50.dp))
-                                listOf(6, 7).forEach { star ->
-                                    Box(
-                                        modifier = Modifier
-                                            .background(
-                                                if (selectedStars[i] == star) Color(0xFF00BFFF).copy(alpha = 0.2f) else Color(0xFF161B22),
-                                                RoundedCornerShape(6.dp)
-                                            )
-                                            .clickable { selectedStars[i] = star }
-                                            .padding(horizontal = 12.dp, vertical = 4.dp),
-                                        contentAlignment = Alignment.Center
-                                    ) {
-                                        Text("${star}★", color = if (selectedStars[i] == star) Color(0xFF00BFFF) else Color.White, fontSize = 11.sp)
-                                    }
-                                }
-                            }
-
-                            Spacer(modifier = Modifier.height(8.dp))
-
-                            // Ranks Selection (1 to 5)
-                            Row(
-                                verticalAlignment = Alignment.CenterVertically,
-                                horizontalArrangement = Arrangement.spacedBy(6.dp),
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Text("Rütbe:", color = Color.Gray, fontSize = 11.sp, modifier = Modifier.width(50.dp))
-                                (1..5).forEach { r ->
-                                    Box(
-                                        modifier = Modifier
-                                            .background(
-                                                if (selectedRanks[i] == r) Color(0xFFFF6B35).copy(alpha = 0.2f) else Color(0xFF161B22),
-                                                RoundedCornerShape(6.dp)
-                                            )
-                                            .clickable { selectedRanks[i] = r }
-                                            .padding(horizontal = 10.dp, vertical = 4.dp),
-                                        contentAlignment = Alignment.Center
-                                    ) {
-                                        Text("R$r", color = if (selectedRanks[i] == r) Color(0xFFFF6B35) else Color.White, fontSize = 11.sp)
-                                    }
-                                }
-                            }
-
-                            Spacer(modifier = Modifier.height(8.dp))
-
-                            // Sig level Selection (0 to 200)
-                            Column(modifier = Modifier.fillMaxWidth()) {
+                            val slotEntries = PrestigeRepository.entries(champ.id)
+                            if (slotEntries.isEmpty()) {
+                                Text("Bu şampiyon için prestij tablosu yok; üst düzey prestij kullanılıyor.", color = Color.Gray, fontSize = 11.sp)
+                            } else {
                                 Row(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.SpaceBetween
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                                    modifier = Modifier.fillMaxWidth()
                                 ) {
-                                    Text("Kopya (Sig Level):", color = Color.Gray, fontSize = 11.sp)
-                                    Text("${selectedSigs[i]}", color = Color(0xFF00BFFF), fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                                    Text("Kademe:", color = Color.Gray, fontSize = 11.sp, modifier = Modifier.width(56.dp))
+                                    slotEntries.forEachIndexed { idx, e ->
+                                        Box(
+                                            modifier = Modifier
+                                                .background(
+                                                    if (selectedEntries[i] == idx) Color(0xFF00BFFF).copy(alpha = 0.2f) else Color(0xFF161B22),
+                                                    RoundedCornerShape(6.dp)
+                                                )
+                                                .clickable { selectedEntries[i] = idx }
+                                                .padding(horizontal = 10.dp, vertical = 4.dp),
+                                            contentAlignment = Alignment.Center
+                                        ) {
+                                            Text(e.label, color = if (selectedEntries[i] == idx) Color(0xFF00BFFF) else Color.White, fontSize = 11.sp)
+                                        }
+                                    }
                                 }
-                                Slider(
-                                    value = selectedSigs[i].toFloat(),
-                                    onValueChange = { selectedSigs[i] = it.toInt() },
-                                    valueRange = 0f..200f,
-                                    steps = 199,
-                                    colors = SliderDefaults.colors(
-                                        thumbColor = Color(0xFF00BFFF),
-                                        activeTrackColor = Color(0xFF00BFFF),
-                                        inactiveTrackColor = Color(0xFF30363D)
-                                    )
-                                )
+
+                                val slotSel = slotEntries.getOrNull(selectedEntries[i])
+                                if (slotSel != null && slotSel.hasSigTable) {
+                                    Spacer(modifier = Modifier.height(8.dp))
+                                    Column(modifier = Modifier.fillMaxWidth()) {
+                                        Row(
+                                            modifier = Modifier.fillMaxWidth(),
+                                            horizontalArrangement = Arrangement.SpaceBetween
+                                        ) {
+                                            Text("Kopya (Sig Level):", color = Color.Gray, fontSize = 11.sp)
+                                            Text("${selectedSigIdx[i] * PrestigeRepository.SIG_STEP}", color = Color(0xFF00BFFF), fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                                        }
+                                        Slider(
+                                            value = selectedSigIdx[i].toFloat(),
+                                            onValueChange = { selectedSigIdx[i] = it.toInt() },
+                                            valueRange = 0f..(PrestigeRepository.SIG_POINTS - 1).toFloat(),
+                                            steps = PrestigeRepository.SIG_POINTS - 2,
+                                            colors = SliderDefaults.colors(
+                                                thumbColor = Color(0xFF00BFFF),
+                                                activeTrackColor = Color(0xFF00BFFF),
+                                                inactiveTrackColor = Color(0xFF30363D)
+                                            )
+                                        )
+                                    }
+                                }
                             }
                         }
                     }
                 }
-                
+
                 var hasLiquidCourage by remember { mutableStateOf(false) }
                 var hasDoubleEdge by remember { mutableStateOf(false) }
                 var hasClassMastery by remember { mutableStateOf(false) }
@@ -377,7 +350,7 @@ fun PrestigeCalculatorScreen() {
                         .padding(vertical = 8.dp),
                     verticalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
-                    Text("🛡️ Gelişmiş Ustalık (Mastery) Profili:", color = Color.Gray, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                    Text("🛡️ Gelişmiş Ustalık (Mastery) Profili — yaklaşık değerler, doğrulanmadı:", color = Color.Gray, fontSize = 11.sp, fontWeight = FontWeight.Bold)
                     
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Checkbox(
@@ -409,11 +382,11 @@ fun PrestigeCalculatorScreen() {
 
                 Spacer(modifier = Modifier.height(8.dp))
                 
-                // Average Calculation using calculateDynamicPrestige and Mastery modifiers
+                // Ortalama: gercek prestij tablosu + (dogrulanmamis) ustalik carpanlari
                 val validChamps = selectedChampions.indices.filter { selectedChampions[it] != null }
                 val baseAvg = if (validChamps.isNotEmpty()) {
                     validChamps.map { idx ->
-                        calculateDynamicPrestige(selectedChampions[idx]!!, selectedStars[idx], selectedRanks[idx], selectedSigs[idx])
+                        PrestigeRepository.prestige(selectedChampions[idx]!!, selectedEntries[idx], selectedSigIdx[idx])
                     }.average().toInt()
                 } else 0
                 
@@ -438,7 +411,13 @@ fun PrestigeCalculatorScreen() {
     if (showDialogSlotIndex != -1) {
         ChampionSearchDialog(
             onDismiss = { showDialogSlotIndex = -1 },
-            onSelect = { selectedChampions[showDialogSlotIndex] = it; expandedSlots[showDialogSlotIndex] = true; showDialogSlotIndex = -1 }
+            onSelect = {
+                selectedChampions[showDialogSlotIndex] = it
+                selectedEntries[showDialogSlotIndex] = PrestigeRepository.defaultIndex(it.id)
+                selectedSigIdx[showDialogSlotIndex] = 0
+                expandedSlots[showDialogSlotIndex] = true
+                showDialogSlotIndex = -1
+            }
         )
     }
 }

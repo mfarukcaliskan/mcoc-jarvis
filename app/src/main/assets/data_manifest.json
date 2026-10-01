@@ -1,9 +1,9 @@
 {
-  "dataVersion": 43,
-  "generatedAt": "2026-10-01T15:16:57Z",
+  "dataVersion": 44,
+  "generatedAt": "2026-10-01T15:30:40Z",
   "files": {
     "capabilities.json": "c1bab93f3ba0d73593d582b4e31adf5f7ee146b4085a32f5c713e77f399168d6",
-    "champions_db.json": "2aa75a595019c50b0530c614d4294e5ae332c89c2ab9c985816381029f717903",
+    "champions_db.json": "b292682385ceec0303e27fc2edf3508723cfb7eb4120dc890b1cc4f79fe0e9d2",
     "details/abomination.json": "18d7234a30a50e504d680e57dbed80a49f0f9be3412c79061155738444bd6857",
     "details/abominationimmortal.json": "03960ccf78e0a7a90128e3579f35347e30dfc28b9320964a06450d98d30ed316",
     "details/absorbingman.json": "84cf4addc575dd580937432dacc6eda8dddec6df7bad1efab4e73e70e78c239f",
@@ -343,6 +343,7 @@
     "guia_raids.json": "2dc53cc4ccca076b0d846f28d4c7d45405e75df0d0039838b410c540426395c6",
     "guia_tiers.json": "524f5ba2900b0817b435218545ca3b722dfa7f4414e2b7ad94b603d12261f702",
     "meta.json": "f4d50d5b053c7bedce4a169e3a30a76b95d7245d87151b08f6422016993025cd",
+    "prestige.json": "787d2a0a9f20c0bbd1aa2be39db7be8d2eaee06abd3243a4c03ab0d199c412a8",
     "quests/1_1_1.json": "9c1e85eab6e18ed22c3fcca16ce4c1066c90a41ed6221b60b0fa80db9769ba88",
     "quests/1_1_2.json": "f273ebe2c7f4da76da6d3fe9206d553ee39c8e9f6031cf20bcbba9b265ca8d9e",
     "quests/1_1_3.json": "1b38d7d55be057e9052ec9d49a8f384c7eeaed7152cec5f2504c36d63de91b71",

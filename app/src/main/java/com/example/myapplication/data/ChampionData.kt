@@ -26,19 +26,6 @@ enum class SortOption(val displayName: String) {
 
 // ==================== DATA CLASSES ====================
 
-data class RankStats(
-    val rank: Int,
-    val basePrestige: Int,
-    val maxPrestige: Int,
-    val attack: Int,
-    val health: Int
-)
-
-data class StarProgression(
-    val starRating: Int, // 6 veya 7
-    val ranks: List<RankStats>
-)
-
 data class Synergy(
     val partnerName: String,
     val bonus: String
@@ -99,8 +86,6 @@ data class Champion(
     val critDamageRank: Int = 0,
     val armorRank: Int = 0,
     val blockProficiencyRank: Int = 0,
-    // === Phase 2 dynamic fields ===
-    val progressions: List<StarProgression> = emptyList(),
     // === NPC / boss-only marker ===
     val isPlayable: Boolean = true
 )
@@ -129,36 +114,6 @@ object ChampionRepository {
 
     private fun parseStringSafe(obj: org.json.JSONObject, key: String, default: String = ""): String {
         return try { obj.getString(key) } catch (e: Exception) { default }
-    }
-
-    private fun parseProgressions(obj: org.json.JSONObject): List<StarProgression> {
-        if (!obj.has("progressions")) return emptyList()
-        return try {
-            val list = mutableListOf<StarProgression>()
-            val progArr = obj.getJSONArray("progressions")
-            for (i in 0 until progArr.length()) {
-                val progObj = progArr.getJSONObject(i)
-                val starRating = progObj.getInt("starRating")
-                val ranksList = mutableListOf<RankStats>()
-                val ranksArr = progObj.getJSONArray("ranks")
-                for (j in 0 until ranksArr.length()) {
-                    val rankObj = ranksArr.getJSONObject(j)
-                    ranksList.add(
-                        RankStats(
-                            rank = rankObj.getInt("rank"),
-                            basePrestige = rankObj.getInt("basePrestige"),
-                            maxPrestige = rankObj.getInt("maxPrestige"),
-                            attack = rankObj.getInt("attack"),
-                            health = rankObj.getInt("health")
-                        )
-                    )
-                }
-                list.add(StarProgression(starRating, ranksList))
-            }
-            list
-        } catch (e: Exception) {
-            emptyList()
-        }
     }
 
     private fun parseAbilityDetails(obj: org.json.JSONObject): Map<String, String> {
@@ -258,8 +213,6 @@ object ChampionRepository {
                         critDamageRank = parseIntSafe(obj, "critDamageRank"),
                         armorRank = parseIntSafe(obj, "armorRank"),
                         blockProficiencyRank = parseIntSafe(obj, "blockProficiencyRank"),
-                        // Phase 2 fields
-                        progressions = parseProgressions(obj),
                         isPlayable = obj.optBoolean("isPlayable", true)
                     )
                 )

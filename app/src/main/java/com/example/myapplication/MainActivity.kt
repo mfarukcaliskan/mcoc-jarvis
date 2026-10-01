@@ -25,6 +25,7 @@ import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.GuiaRepository
 import com.example.myapplication.data.GuiaTierRepository
 import com.example.myapplication.data.MetaRepository
+import com.example.myapplication.data.PrestigeRepository
 import com.example.myapplication.data.RelicRepository
 import com.example.myapplication.data.RemoteDataUpdater
 import com.example.myapplication.data.UpdateResult
@@ -43,6 +44,7 @@ class MainActivity : ComponentActivity() {
         GuiaTierRepository.initialize(applicationContext)
         GuiaAwRepository.initialize(applicationContext)
         CapabilityRepository.initialize(applicationContext)
+        PrestigeRepository.initialize(applicationContext)
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
@@ -62,6 +64,7 @@ class MainActivity : ComponentActivity() {
                 GuiaTierRepository.reload(applicationContext)
                 GuiaAwRepository.reload(applicationContext)
                 CapabilityRepository.reload(applicationContext)
+                PrestigeRepository.reload(applicationContext)
             }
         }
     }

@@ -28,32 +28,7 @@ import androidx.compose.ui.unit.sp
 import com.example.myapplication.data.Champion
 import com.example.myapplication.data.ChampionRepository
 import com.example.myapplication.data.GuiaTierRepository
-
-fun calculateDetailDynamicPrestige(champion: Champion, star: Int, rank: Int, sig: Int): Int {
-    val starProg = champion.progressions.find { it.starRating == star } ?: champion.progressions.firstOrNull()
-    if (starProg == null) return champion.prestige
-    val rankStat = starProg.ranks.find { it.rank == rank } ?: starProg.ranks.firstOrNull()
-    if (rankStat == null) return champion.prestige
-
-    val maxSig = 200.0
-    val factor = Math.pow(sig.toDouble() / maxSig, 0.8)
-    val dynamicPrestige = rankStat.basePrestige + (rankStat.maxPrestige - rankStat.basePrestige) * factor
-    return dynamicPrestige.toInt()
-}
-
-fun getDetailDynamicAttack(champion: Champion, star: Int, rank: Int): Int {
-    val starProg = champion.progressions.find { it.starRating == star } ?: champion.progressions.firstOrNull()
-    if (starProg == null) return champion.attack
-    val rankStat = starProg.ranks.find { it.rank == rank } ?: starProg.ranks.firstOrNull()
-    return rankStat?.attack ?: champion.attack
-}
-
-fun getDetailDynamicHealth(champion: Champion, star: Int, rank: Int): Int {
-    val starProg = champion.progressions.find { it.starRating == star } ?: champion.progressions.firstOrNull()
-    if (starProg == null) return champion.health
-    val rankStat = starProg.ranks.find { it.rank == rank } ?: starProg.ranks.firstOrNull()
-    return rankStat?.health ?: champion.health
-}
+import com.example.myapplication.data.PrestigeRepository
 
 fun getInboundSynergies(targetChampion: Champion): List<Pair<Champion, String>> {
     val result = mutableListOf<Pair<Champion, String>>()
@@ -95,18 +70,20 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
     var selectedTab by remember { mutableIntStateOf(0) }
     val tabs = listOf("İstatistikler", "Yetenekler", "Sinerjiler", "Rehber")
 
-    // Dynamic stats selection state
-    var selectedStar by remember(championId) { mutableIntStateOf(6) }
-    var selectedRank by remember(championId) { mutableIntStateOf(5) }
-    var selectedSig by remember(championId) { mutableIntStateOf(0) }
+    // Prestij simulatoru: mcoc.gg'nin gercek tablosundan kademe + sig noktasi (sig = indeks x 20)
+    val prestigeEntries = remember(championId) { PrestigeRepository.entries(championId) }
+    var selectedEntry by remember(championId) { mutableIntStateOf(PrestigeRepository.defaultIndex(championId)) }
+    var selectedSigIdx by remember(championId) { mutableIntStateOf(0) }
 
     var hasLiquidCourage by remember { mutableStateOf(false) }
     var hasDoubleEdge by remember { mutableStateOf(false) }
     var hasClassMastery by remember { mutableStateOf(false) }
 
-    val basePrestige = calculateDetailDynamicPrestige(champion, selectedStar, selectedRank, selectedSig)
-    val baseAttack = getDetailDynamicAttack(champion, selectedStar, selectedRank)
-    val baseHealth = getDetailDynamicHealth(champion, selectedStar, selectedRank)
+    val entry = prestigeEntries.getOrNull(selectedEntry)
+    val basePrestige = entry?.prestigeAt(selectedSigIdx) ?: champion.prestige
+    // Saldiri/can yalnizca kaynakta verilen kademe icin var; tablo hic yoksa (NPC) sampiyonun kendi degeri
+    val baseAttack: Int? = if (entry == null) champion.attack else entry.attack
+    val baseHealth: Int? = if (entry == null) champion.health else entry.health
 
     var prestigeMultiplier = 1.0
     if (hasLiquidCourage) prestigeMultiplier += 0.05
@@ -118,8 +95,8 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
     if (hasDoubleEdge) attackMultiplier += 0.30
 
     val dynamicPrestige = (basePrestige * prestigeMultiplier).toInt()
-    val dynamicAttack = (baseAttack * attackMultiplier).toInt()
-    val dynamicHealth = baseHealth
+    val dynamicAttack: Int? = baseAttack?.let { (it * attackMultiplier).toInt() }
+    val dynamicHealth: Int? = baseHealth
 
     Column(
         modifier = Modifier
@@ -189,78 +166,64 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                         Text("MCOC.gg Stat Simülatörü", color = Color(0xFF00BFFF), fontWeight = FontWeight.Bold, fontSize = 12.sp)
                         Spacer(modifier = Modifier.height(8.dp))
                         
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.spacedBy(16.dp),
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            // Star select
+                        if (prestigeEntries.isEmpty()) {
+                            Text("Bu şampiyon için prestij tablosu yok; üst düzey değerler gösteriliyor.", color = Color.Gray, fontSize = 11.sp)
+                        } else {
                             Row(verticalAlignment = Alignment.CenterVertically) {
-                                Text("Yıldız: ", color = Color.Gray, fontSize = 11.sp)
-                                listOf(6, 7).forEach { star ->
+                                Text("Kademe: ", color = Color.Gray, fontSize = 11.sp)
+                                prestigeEntries.forEachIndexed { idx, e ->
                                     Box(
                                         modifier = Modifier
-                                            .padding(horizontal = 4.dp)
+                                            .padding(horizontal = 3.dp)
                                             .background(
-                                                if (selectedStar == star) Color(0xFF00BFFF).copy(alpha = 0.2f) else Color(0xFF161B22),
+                                                if (selectedEntry == idx) Color(0xFF00BFFF).copy(alpha = 0.2f) else Color(0xFF161B22),
                                                 RoundedCornerShape(4.dp)
                                             )
-                                            .clickable { selectedStar = star }
+                                            .clickable { selectedEntry = idx }
                                             .padding(horizontal = 8.dp, vertical = 4.dp)
                                     ) {
-                                        Text("${star}★", color = if (selectedStar == star) Color(0xFF00BFFF) else Color.White, fontSize = 11.sp)
+                                        Text(e.label, color = if (selectedEntry == idx) Color(0xFF00BFFF) else Color.White, fontSize = 11.sp)
                                     }
                                 }
                             }
-                            
-                            // Rank select
-                            Row(verticalAlignment = Alignment.CenterVertically) {
-                                Text("Rütbe: ", color = Color.Gray, fontSize = 11.sp)
-                                (1..5).forEach { r ->
-                                    Box(
-                                        modifier = Modifier
-                                            .padding(horizontal = 2.dp)
-                                            .background(
-                                                if (selectedRank == r) Color(0xFFFF6B35).copy(alpha = 0.2f) else Color(0xFF161B22),
-                                                RoundedCornerShape(4.dp)
-                                            )
-                                            .clickable { selectedRank = r }
-                                            .padding(horizontal = 6.dp, vertical = 4.dp)
+
+                            if (entry != null && entry.hasSigTable) {
+                                Spacer(modifier = Modifier.height(8.dp))
+                                Column(modifier = Modifier.fillMaxWidth()) {
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.SpaceBetween
                                     ) {
-                                        Text("R$r", color = if (selectedRank == r) Color(0xFFFF6B35) else Color.White, fontSize = 10.sp)
+                                        Text("Kopya Seviyesi (Sig):", color = Color.Gray, fontSize = 11.sp)
+                                        Text("${selectedSigIdx * PrestigeRepository.SIG_STEP}", color = Color(0xFFFFD700), fontWeight = FontWeight.Bold, fontSize = 11.sp)
                                     }
+                                    Slider(
+                                        value = selectedSigIdx.toFloat(),
+                                        onValueChange = { selectedSigIdx = it.toInt() },
+                                        valueRange = 0f..(PrestigeRepository.SIG_POINTS - 1).toFloat(),
+                                        steps = PrestigeRepository.SIG_POINTS - 2,
+                                        colors = SliderDefaults.colors(
+                                            thumbColor = Color(0xFF00BFFF),
+                                            activeTrackColor = Color(0xFF00BFFF),
+                                            inactiveTrackColor = Color(0xFF161B22)
+                                        )
+                                    )
                                 }
                             }
-                        }
-                        
-                        Spacer(modifier = Modifier.height(8.dp))
-                        
-                        // Sig level slider
-                        Column(modifier = Modifier.fillMaxWidth()) {
-                            Row(
-                                modifier = Modifier.fillMaxWidth(),
-                                horizontalArrangement = Arrangement.SpaceBetween
-                            ) {
-                                Text("Kopya Seviyesi (Sig):", color = Color.Gray, fontSize = 11.sp)
-                                Text("$selectedSig", color = Color(0xFFFFD700), fontWeight = FontWeight.Bold, fontSize = 11.sp)
+                            val unknown = entry?.prestige?.getOrNull(selectedSigIdx) == null && entry?.hasSigTable == true
+                            if (unknown) {
+                                Text("Bu sig noktasının değeri kaynakta bilinmiyor; üst düzey prestij gösteriliyor.", color = Color(0xFFFF9800), fontSize = 10.sp)
                             }
-                            Slider(
-                                value = selectedSig.toFloat(),
-                                onValueChange = { selectedSig = it.toInt() },
-                                valueRange = 0f..200f,
-                                steps = 199,
-                                colors = SliderDefaults.colors(
-                                    thumbColor = Color(0xFF00BFFF),
-                                    activeTrackColor = Color(0xFF00BFFF),
-                                    inactiveTrackColor = Color(0xFF161B22)
-                                )
+                            Text(
+                                "Kaynak: mcoc.gg gerçek tablosu (sig 20'şer adım). Saldırı/Can yalnızca R5 sig 200 için kaynakta var.",
+                                color = Color.Gray, fontSize = 10.sp
                             )
                         }
 
                         Spacer(modifier = Modifier.height(12.dp))
                         HorizontalDivider(color = Color(0xFF30363D))
                         Spacer(modifier = Modifier.height(8.dp))
-                        Text("🛡️ Ustalık Profili (Mastery):", color = Color.Gray, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+                        Text("🛡️ Ustalık Profili (Mastery) — yaklaşık değerler, doğrulanmadı:", color = Color.Gray, fontSize = 11.sp, fontWeight = FontWeight.Bold)
                         
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Checkbox(
@@ -308,8 +271,8 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                         horizontalArrangement = Arrangement.SpaceEvenly
                     ) {
                         StatBox("Prestij", "$dynamicPrestige", Color(0xFFFFD700))
-                        StatBox("Saldırı", "$dynamicAttack", Color(0xFFF44336))
-                        StatBox("Can", "$dynamicHealth", Color(0xFF4CAF50))
+                        StatBox("Saldırı", dynamicAttack?.toString() ?: "—", Color(0xFFF44336))
+                        StatBox("Can", dynamicHealth?.toString() ?: "—", Color(0xFF4CAF50))
                     }
                 }
             }
@@ -344,7 +307,7 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                     // Stats Tab — MCOC.gg style with ranks
                     item { SectionTitle("Relative Max Base Stats") }
                     item {
-                        StatsCardWithRanks(champion, dynamicPrestige, dynamicAttack, dynamicHealth)
+                        StatsCardWithRanks(champion, champion.prestige, champion.attack, champion.health)
                     }
                     // GuiaMTC: yazarın kişisel tier/derece değerlendirmesi (oyun verisi değil)
                     val guiaOffense = GuiaTierRepository.offenseTier(champion.id)

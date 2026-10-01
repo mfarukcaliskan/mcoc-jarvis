@@ -5,6 +5,7 @@ Kullanim (proje kokunden):
   python tools/sync_mcoc.py fetch    # mcoc.gg JSON'larini tools/.cache/mcoc altina indirir ve dogrular
   python tools/sync_mcoc.py report   # bizim veriyle mcoc.gg arasindaki farklari yazdirir (dosya degistirmez)
   python tools/sync_mcoc.py apply    # yetenek metinlerini ve yeni sampiyonlari assets'e yazar
+  python tools/sync_mcoc.py prestige      # prestige.json (gercek 7 yildiz tablolari) uretir, sentetik progressions'i kaldirir
   python tools/sync_mcoc.py capabilities  # capabilities.json (kim hangi yetenek/bagisikliga sahip) uretir
 Ardindan: python generate_manifest.py && python validate_quest_ids.py
 
@@ -220,7 +221,6 @@ def build_champion(g, lk, known_tags):
         "critDamageRank": rank("critdamage"),
         "armorRank": rank("armor"),
         "blockProficiencyRank": rank("block"),
-        "progressions": [],
     }
 
 
@@ -403,8 +403,76 @@ def cmd_capabilities():
           f"{len(data['counters'])} karsi-yetenek, {len(data['reacts'])} tepki; roster disi atlanan {len(dropped)}")
 
 
+SIG_LEVELS = list(range(0, 201, 20))
+
+
+def cmd_prestige():
+    """mcoc.gg gercek prestij tablolarindan prestige.json uretir ve champions_db.json'daki sentetik
+    'progressions' alanini kaldirir. 7 yildizli sampiyonlar icin kademe basina 11 sig noktasi (0,20..200);
+    ust duzey attack/health/pi degerleri R5 + sig 200 noktasina aittir (mcoc.gg tablolariyla dogrulandi)."""
+    gg = load("champions.json")["data"]
+    ours_list = load_ours()
+    ours = {c["id"] for c in ours_list}
+    champs, flags = {}, {}
+    for g in gg:
+        our_id = gg_to_ours_id(g["image"])
+        if our_id not in ours:
+            continue
+        max_star = max(g.get("rarity", [0]))
+        entries = []
+        table_path = os.path.join(CACHE, "prestige", f"{g['image']}.json")
+        champ_flags = []
+        if os.path.isfile(table_path):
+            rows = load(f"prestige/{g['image']}.json")["data"]
+            for e in sorted(rows, key=lambda e: (e["rarity"], e["rank"])):
+                vals = [int(v) if int(v) > 0 else None for v in e["values"]]
+                entries.append({"star": e["rarity"], "rank": e["rank"], "prestige": vals, "attack": None, "health": None})
+            r5 = [e for e in entries if e["star"] == 7 and e["rank"] == 5]
+            if r5:  # ust duzey degerler R5 sig 200 noktasi
+                r5[0]["attack"], r5[0]["health"] = g["attack"], g["health"]
+                last = r5[0]["prestige"][-1]
+                if last is not None and abs(last - g["pi"]) > 100:
+                    champ_flags.append("pi_vs_table_r5")
+            r4 = [e for e in entries if e["star"] == 7 and e["rank"] == 4]
+            if r4 and g.get("pi_74") and r4[0]["prestige"][-1] is not None and abs(r4[0]["prestige"][-1] - g["pi_74"]) > 100:
+                champ_flags.append("pi74_vs_table_r4")
+            if any(None in e["prestige"] for e in entries):
+                champ_flags.append("table_has_unknown_values")
+        else:
+            entries.append({"star": max_star, "rank": None, "prestige": None, "maxPrestige": g["pi"], "attack": g["attack"], "health": g["health"]})
+        row = {"maxStar": max_star, "ascendable": bool(g.get("ascend")), "entries": entries}
+        if champ_flags:
+            row["flags"] = champ_flags
+        champs[our_id] = row
+    data = {
+        "source": "https://mcoc.gg/json/prestige/*.json ve champions.json",
+        "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "sigLevels": SIG_LEVELS,
+        "note": "prestige: sig 0,20,...,200 icin gercek degerler (mcoc.gg'nin kendi tablosu); null = kaynakta bilinmiyor ('???'). "
+                "attack/health yalnizca R5 sig 200 noktasi icin kaynakta var (diger kademelerde null). Tablosu olmayan "
+                "(en fazla 6 yildiz) sampiyonlarda tek giris vardir: maxPrestige/attack/health en yuksek kademe degeridir, kademe belirtilmemis. "
+                "flags: mcoc.gg'nin kendi alanlari arasinda >100 fark (pi_vs_table_r5, pi74_vs_table_r4) ya da bilinmeyen deger.",
+        "ascension": {"a1": 1.0799, "a2": 1.07995, "note": "Yalnizca ascendable=true sampiyonlar icin. mcoc.gg sitesinin kendi yuvarlama formulu (resmi veri degil): a1=round(v*1.0799/10)*10, a2=round(a1*1.07995/10)*10"},
+        "champions": champs,
+    }
+    target = os.path.join(ASSETS, "prestige.json")
+    with open(target, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    # sentetik progressions alanini kaldir
+    removed = 0
+    for c in ours_list:
+        if "progressions" in c:
+            del c["progressions"]
+            removed += 1
+    with open(os.path.join(ASSETS, "champions_db.json"), "w", encoding="utf-8") as f:
+        json.dump(ours_list, f, ensure_ascii=False, indent=4)
+    nflag = sum(1 for r in champs.values() if r.get("flags"))
+    print(f"prestige.json: {len(champs)} sampiyon ({sum(1 for r in champs.values() if r['maxStar']==7)} adet 7 yildizli), "
+          f"isaretli {nflag}; champions_db'den kaldirilan progressions: {removed}")
+
+
 if __name__ == "__main__":
-    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities}
+    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         sys.exit(__doc__)
     commands[sys.argv[1]]()
