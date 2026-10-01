@@ -24,6 +24,7 @@ jobs:
         run: |
           python tools/sync_mcoc.py fetch
           python tools/sync_mcoc.py apply
+          python tools/sync_mcoc.py capabilities
       - name: GuiaMTC counter verisini uret
         run: python tools/sync_guia.py
       - name: Degisiklik var mi?

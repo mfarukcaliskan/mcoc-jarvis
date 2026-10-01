@@ -44,6 +44,13 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 | AWS69 Stats | Oyuncu sıralamaları | **Alınmadı** (kişisel veri) |
 | Eventos / Contacts, Home | Hizmet/iletişim/duyuru | **Alınmadı** (uygulama verisi değil) |
 
+## mcoc.gg ile tamamlama (capabilities.json)
+
+`tools/sync_mcoc.py capabilities` mcoc.gg'den **kim hangi yeteneğe/bağışıklığa sahip** dizinini üretir (249 yetenek, 65 bağışıklık, 36 karşı-yetenek, 24 tepki). Her kayıtta dayandığı metin bölümü (`via`), sinerji ve yalnızca-imza (`signatureOnly`) bilgisi var. Doğrulama: 14 özellik için ham veriyle bağımsız sayım, 0 fark.
+- GuiaMTC yardımcı listelerinden eşleştirilebilen 10 bölüm (Heal Block, Petrify, Neutralize, Slow, Shock, Nullify, Reverse Controls, Buffs) `guia_aw69_helpers.json` içinde `mcocgg.all` ile **tam kadroya** tamamlandı; GuiaMTC'den okunan ile oyun verisi yan yana (`guiaConfirmed`, `guiaNotInGame`, `gameNotRead`).
+- **Birleştirilmeyenler:** GuiaMTC'nin "Counters" listeleri (Autoblock, Evade, Unstoppable, Invisibility) mcoc.gg'nin karşı-yetenek alanıyla yalnızca %60-75 örtüştü (tanımlar farklı: GuiaMTC Slow gibi mekanikle karşılayanları da sayar). Bu yüzden "tamamlama" olarak eklenmedi.
+- Counter Bulucu artık savunmacının yeteneklerini etkisizleştiren şampiyonları doğrudan bu dizinden öneriyor.
+
 ## Bilinen eksikler (bu turda alınmayanlar)
 
 - **AW Sezon 69 yardımcı listeleri (17 liste, KISMEN alındı):** `guia_aw69_helpers.json` yalnızca iki bağımsız bölütleme yönteminin (sabit ızgara+altyazı ve satır-parçası) aynı karoyu aynı şampiyon olarak bulduğu **315 kesin eşleşmeyi** içerir. Listeler **eksiktir**: kaynak görsellerdeki karo genişlikleri düzensiz (55-63 px, kenarlar örtüşüyor), hiçbir tek bölütleme tüm karoları doğru kutulayamadı. Listede olmayan şampiyon "GuiaMTC'de yok" demek DEĞİLDİR. Çapraz kontrol: mcoc.gg oyun verisine göre Heal Block 27/28, Petrify 10/10, Reverse Controls 11/12, Neutralize 8/8, Nullify 7/7, Shock 17/18 uyumlu; uyumsuzlar (Ghost Rider, Hulk Immortal, Rhino) koşullu yetenek ya da yanlış tanıma olabilir. İkonla başlayan alt gruplar adlandırılamadı. Kalan 29 görselin tamamı için çözüm: karo adımını görsel başına elle kalibre eden bir bölütleme ya da kaynağın düzenli bir sürümü.

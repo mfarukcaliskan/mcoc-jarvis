@@ -5,6 +5,7 @@ Kullanim (proje kokunden):
   python tools/sync_mcoc.py fetch    # mcoc.gg JSON'larini tools/.cache/mcoc altina indirir ve dogrular
   python tools/sync_mcoc.py report   # bizim veriyle mcoc.gg arasindaki farklari yazdirir (dosya degistirmez)
   python tools/sync_mcoc.py apply    # yetenek metinlerini ve yeni sampiyonlari assets'e yazar
+  python tools/sync_mcoc.py capabilities  # capabilities.json (kim hangi yetenek/bagisikliga sahip) uretir
 Ardindan: python generate_manifest.py && python validate_quest_ids.py
 
 Kaynak: https://mcoc.gg/json/*.json (sitenin kendi arayuzunun kullandigi statik dosyalar).
@@ -16,6 +17,7 @@ import os
 import re
 import sys
 import time
+from datetime import datetime, timezone
 import urllib.error
 import urllib.request
 
@@ -273,8 +275,136 @@ def cmd_apply():
     print("eklenen yeni sampiyonlar:", added or "yok")
 
 
+IMM_KIND = {"": "full", "CONDITIONAL": "conditional", "POTENCY": "potency", "DURATION": "duration", "PURIFY": "purify"}
+
+
+def _imm_kind(note):
+    n = (note or "").upper()
+    for key, kind in (("CONDITIONAL", "conditional"), ("POTENCY", "potency"), ("DURATION", "duration"), ("PURIFY", "purify")):
+        if key in n:
+            return kind
+    return "full" if not n else n.lower()
+
+
+def cmd_capabilities():
+    """mcoc.gg verisinden 'hangi sampiyon hangi yetenege/bagisikliga sahip' dizinini uretir
+    (capabilities.json). Her iddia icin kaynak metin bolumu (via) ve sinerji bilgisi tutulur."""
+    gg = load("champions.json")["data"]
+    ours = {c["id"] for c in load_ours()}
+    ab = table(load("abilities.json")["data"])
+    im = table(load("immunities.json")["data"])
+    syn = {str(s["id"]): s for s in load("synergies.json")["data"]}
+
+    def titles(image):
+        path = os.path.join(CACHE, "champions", f"{image}.json")
+        with open(path, encoding="utf-8") as f:
+            return [clean(a["title"]) for a in json.load(f)["abilities"]]
+
+    abilities, immunities, counters, reacts = {}, {}, {}, {}
+    used_syn = {}
+    dropped = []
+    for g in gg:
+        our_id = gg_to_ours_id(g["image"])
+        if our_id not in ours:
+            dropped.append(g["image"])
+            continue
+        tt = titles(g["image"])
+
+        def via(maps, i):
+            out = []
+            if maps and i < len(maps) and maps[i]:
+                for m in maps[i]:
+                    if isinstance(m, dict) and 1 <= m.get("t", 0) <= len(tt):
+                        out.append(tt[m["t"] - 1])
+            return list(dict.fromkeys(out))
+
+        def add(bucket, record, key, name, extra):
+            e = bucket.setdefault(key, {"name": name, "champions": {}})
+            c = e["champions"].setdefault(our_id, {"id": our_id})
+            for k, v in extra.items():
+                if k == "via":
+                    c["via"] = list(dict.fromkeys(c.get("via", []) + v))
+                elif k == "synergy":
+                    c["synergy"] = c.get("synergy", True) and v
+                elif k == "synergyIds":
+                    c["synergyIds"] = sorted(set(c.get("synergyIds", [])) | set(v))
+                elif k == "kinds":
+                    c["kinds"] = sorted(set(c.get("kinds", [])) | set(v))
+            return e
+
+        def feed(bucket, table_, ids, maps, syn_ids, syn_maps, kind_fn=None):
+            for i, aid in enumerate(g.get(ids, [])):
+                rec = table_.get(aid)
+                if not rec or rec.get("hidden"):
+                    continue
+                extra = {"via": via(g.get(maps), i), "synergy": False}
+                if kind_fn:
+                    extra["kinds"] = [kind_fn(rec)]
+                add(bucket, rec, rec["name"], rec["name"], extra)
+            for i, aid in enumerate(g.get(syn_ids, [])):
+                rec = table_.get(aid)
+                if not rec or rec.get("hidden"):
+                    continue
+                sm = g.get(syn_maps, [])
+                sid = str(sm[i]) if i < len(sm) and sm[i] else None
+                extra = {"synergy": True}
+                if sid:
+                    extra["synergyIds"] = [int(sid)] if sid.isdigit() else []
+                    if sid in syn:
+                        used_syn[sid] = {"name": clean(syn[sid]["name"]), "desc": clean(syn[sid]["desc"])}
+                if kind_fn:
+                    extra["kinds"] = [kind_fn(rec)]
+                add(bucket, rec, rec["name"], rec["name"], extra)
+
+        feed(abilities, ab, "ability", "ability_map", "synergy_ability", "synergy_ability_map")
+        feed(immunities, im, "immune", "immune_map", "synergy_immune", "synergy_immune_map", lambda r: _imm_kind(r.get("NOTE")))
+        feed(counters, ab, "xability", "xability_map", "synergy_xability", "synergy_xability_map")
+        feed(reacts, im, "react", "react_map", None, None, lambda r: _imm_kind(r.get("NOTE")))
+
+    gloss = {a["name"]: clean(a.get("glossary", "")) for a in load("abilities.json")["data"]}
+
+    def finish(bucket, with_gloss=False):
+        out = []
+        for key in sorted(bucket):
+            e = bucket[key]
+            champs = sorted(e["champions"].values(), key=lambda c: c["id"])
+            for c in champs:  # yalnizca imza yetenegi (awakened) ile kazanilan ozellik
+                v = c.get("via")
+                if v and all(t.startswith("Signature Ability") for t in v):
+                    c["signatureOnly"] = True
+            row = {"name": e["name"], "champions": champs}
+            if with_gloss and gloss.get(e["name"]):
+                row["glossary"] = gloss[e["name"]]
+            out.append(row)
+        return out
+
+    data = {
+        "source": "https://mcoc.gg/json (champions.json, abilities.json, immunities.json, synergies.json, champions/*.json)",
+        "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "note": "via: iddianin dayandigi sampiyon metin bolumu (mcoc.gg ability_map). synergy=true: yalnizca bir sinerji ile kazanilir. "
+                "signatureOnly=true: yalnizca imza yetenegi (awakening) ile. kinds (bagisiklik/tepki): full tam bagisiklik, conditional kosullu, potency guc azaltma, duration sure kisaltma, purify arindirma.",
+        "abilities": finish(abilities, True),
+        "immunities": finish(immunities),
+        "counters": finish(counters, True),
+        "reacts": finish(reacts),
+        "synergies": {k: used_syn[k] for k in sorted(used_syn, key=int)},
+        "droppedNotInRoster": sorted(dropped),
+    }
+    target = os.path.join(ASSETS, "capabilities.json")
+    if os.path.isfile(target):
+        with open(target, encoding="utf-8") as f:
+            prev = json.load(f)
+        if {k: v for k, v in prev.items() if k != "generatedAt"} == {k: v for k, v in data.items() if k != "generatedAt"}:
+            print("capabilities.json degismedi")
+            return
+    with open(target, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"capabilities.json: {len(data['abilities'])} yetenek, {len(data['immunities'])} bagisiklik, "
+          f"{len(data['counters'])} karsi-yetenek, {len(data['reacts'])} tepki; roster disi atlanan {len(dropped)}")
+
+
 if __name__ == "__main__":
-    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply}
+    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         sys.exit(__doc__)
     commands[sys.argv[1]]()

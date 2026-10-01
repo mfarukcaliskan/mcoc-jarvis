@@ -20,6 +20,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
+import com.example.myapplication.data.CapabilityRepository
 import com.example.myapplication.data.Champion
 import com.example.myapplication.data.ChampionClass
 import com.example.myapplication.data.ChampionRepository
@@ -113,6 +114,7 @@ fun DataUpdateStatusRow() {
                             GuiaRepository.reload(context)
                             GuiaTierRepository.reload(context)
                             GuiaAwRepository.reload(context)
+                            CapabilityRepository.reload(context)
                             version = result.newVersion
                             statusText = "Güncellendi: v${result.newVersion} (${result.changedFiles} dosya)"
                         }
@@ -515,6 +517,30 @@ fun getCountersFor(defender: Champion): List<Pair<Champion, String>> {
         if (champ != null && list.none { it.first.id == champ.id }) {
             list.add(champ to "GuiaMTC önerisi: ${champ.name}, ${defender.name} karşısında tavsiye edilen counter.")
         }
+    }
+
+    // 0b. mcoc.gg verisi: savunmacının yeteneklerini etkisizleştiren şampiyonlar (kodda sabit isim yok).
+    //     Önce daha çok yeteneği karşılayanlar, eşitlikte tier ve prestij.
+    run {
+        val defenderAbilities = defender.abilities.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+        val covered = mutableMapOf<String, MutableList<String>>()
+        for (ability in defenderAbilities) {
+            for (holder in CapabilityRepository.championsCountering(ability)) {
+                if (!holder.synergy && holder.id != defender.id) covered.getOrPut(holder.id) { mutableListOf() }.add(ability)
+            }
+        }
+        val tierRank = mapOf("S" to 0, "A" to 1, "B" to 2, "C" to 3)
+        covered.entries
+            .mapNotNull { (id, abs) -> ChampionRepository.champions.find { it.id == id && it.isPlayable }?.let { it to abs } }
+            .sortedWith(compareByDescending<Pair<Champion, MutableList<String>>> { it.second.size }
+                .thenBy { tierRank[it.first.tier] ?: 4 }
+                .thenByDescending { it.first.prestige })
+            .take(6)
+            .forEach { (champ, abs) ->
+                if (list.none { it.first.id == champ.id }) {
+                    list.add(champ to "mcoc.gg: ${champ.name}, savunmacının ${abs.joinToString(", ")} yeteneğini etkisizleştirir.")
+                }
+            }
     }
 
     // 1. Etiket Tabanlı Dinamik Eşleştirme Kuralları (Metal/Magnetizm, Robot/Robot Counter vb.)
