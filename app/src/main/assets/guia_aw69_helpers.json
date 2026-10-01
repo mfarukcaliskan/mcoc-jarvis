@@ -1,0 +1,587 @@
+{
+ "source": "https://www.guiamtc.com/aw-season-69 (yardımcı tablolar)",
+ "capturedAt": "2026-10-01",
+ "season": 69,
+ "note": "confirmed: iki bağımsız bölütleme yöntemi (sabit ızgara+altyazı ve satır-parçası) aynı karoyu aynı şampiyon olarak buldu ve portre eşleşme güveni yüksek. Bu listeler EKSİKTİR: karo genişlikleri görselde düzensiz olduğundan bölütleme tüm karoları güvenilir çıkaramadı; listede olmayan bir şampiyon, GuiaMTC listesinde yok anlamına GELMEZ. Bölüm adları görsellerden okundu (aynı görselde farklı alt başlıklar olabilir: örn. Buff Immune sayfasında \"Don't Trigger Precision\" ayrı bir bölümdür). Aşağıda sayılan \"2 bağımsız yöntem\" kanıtı oyun verisi değildir. İkonla başlayan alt gruplar (örn. Unstoppable Counters 2-5. satırlar) için satır başlığı yazı değil ikon olduğundan adı okunmadı; yalnızca 'Slow' ve metin başlıklı bölümler adlandırıldı.",
+ "lists": [
+  {
+   "id": "aw69_004",
+   "title": "Heal Block",
+   "titlePt": "Bloqueiam Cura",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "archangel",
+      "cosmicghostrider",
+      "darkhawk",
+      "deathlessvision",
+      "ghostrider",
+      "hulkragnarok",
+      "ironmaninfinitywar",
+      "kang",
+      "ladydeathstrike",
+      "mysterio",
+      "omegasentinel",
+      "proximamidnight",
+      "punisher2099",
+      "rocketraccoon",
+      "scarletwitch",
+      "scarletwitchsigil",
+      "sentinel",
+      "silvercenturion",
+      "solvarch",
+      "starlord",
+      "thanos",
+      "themaker",
+      "ultronclassic",
+      "vision",
+      "visionaou",
+      "vivvision",
+      "warlock",
+      "yondu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_005",
+   "title": "Petrify",
+   "titlePt": "Petrificar",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "abominationimmortal",
+      "antman",
+      "bishop",
+      "joefixit",
+      "misternegative",
+      "morbius",
+      "scarletwitchsigil",
+      "scorpion",
+      "void",
+      "yellowjacket"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_007",
+   "title": "Buff Immune",
+   "titlePt": "Imune a Bónus",
+   "sections": [
+    {
+     "name": "Immune to Buffs",
+     "confirmed": [
+      "antman",
+      "masacre"
+     ]
+    },
+    {
+     "name": "Don't Trigger Precision",
+     "confirmed": [
+      "bluemarvel",
+      "dazzler",
+      "falcontorres",
+      "hulk",
+      "shuri",
+      "silk",
+      "wave"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_008",
+   "title": "Shock Immune",
+   "titlePt": "Imunes a Choque",
+   "sections": [
+    {
+     "name": "Shock Immune",
+     "confirmed": [
+      "absorbingman",
+      "adamwarlock",
+      "antman",
+      "rhino",
+      "sandman",
+      "shocker"
+     ]
+    },
+    {
+     "name": "Resistant or Purify",
+     "confirmed": [
+      "antmanfuture",
+      "corvusglaive",
+      "odin",
+      "onslaught",
+      "sersi",
+      "silversurfer",
+      "spiral",
+      "stormpyramidx",
+      "superiorironman",
+      "thor",
+      "ultron",
+      "vulture"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_010",
+   "title": "Autoblock Counters",
+   "titlePt": "Evitam Autobloco",
+   "sections": [
+    {
+     "name": "True Accuracy or Strike",
+     "confirmed": [
+      "aegon",
+      "annihilus",
+      "attuma",
+      "corvusglaive",
+      "cullobsidian",
+      "gamora",
+      "heimdall",
+      "karnak",
+      "killmonger",
+      "kraven",
+      "mbaku",
+      "medusa",
+      "moleman",
+      "odin",
+      "proximamidnight",
+      "thechampion",
+      "venom"
+     ]
+    },
+    {
+     "name": "True Sense",
+     "confirmed": [
+      "galan",
+      "hercules",
+      "redgoblin"
+     ]
+    },
+    {
+     "name": "Undermine",
+     "confirmed": [
+      "gorr",
+      "vox"
+     ]
+    },
+    {
+     "name": "Crush",
+     "confirmed": [
+      "bluemarvel",
+      "cassielang",
+      "frankencastle",
+      "jessicajones",
+      "katebishop",
+      "onslaught"
+     ]
+    },
+    {
+     "name": "Passive Effect",
+     "confirmed": [
+      "angela",
+      "knull",
+      "nightthrasher",
+      "phoenix"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_012",
+   "title": "Reverse Controls Immune",
+   "titlePt": "Imune a Controlos Invertidos",
+   "sections": [
+    {
+     "name": "Reverse Controls Immune",
+     "confirmed": [
+      "deathlessvision",
+      "emmafrost",
+      "hulk",
+      "hulkimmortal",
+      "hulkragnarok",
+      "juggernaut",
+      "mistersinister",
+      "mysterio",
+      "phylavell",
+      "professorx",
+      "spiderpunk",
+      "theoverseer"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_013",
+   "title": "Anti Unblockable Champions",
+   "titlePt": "Anti-Não Bloqueável",
+   "sections": [
+    {
+     "name": "Special Attacks",
+     "confirmed": [
+      "cheeilth",
+      "guardian",
+      "ironman",
+      "mordo"
+     ]
+    },
+    {
+     "name": "Hits",
+     "confirmed": [
+      "arcade",
+      "deathlessshehulk",
+      "dracula",
+      "gentle",
+      "kushala",
+      "mordo",
+      "patriot",
+      "theserpent"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_016",
+   "title": "Unstoppable Counters",
+   "titlePt": "Evitam Insuperável",
+   "sections": [
+    {
+     "name": "Slow (satır başlığı: SLOW)",
+     "confirmed": [
+      "captainbritain",
+      "danimoonstar",
+      "dracula",
+      "dragonman",
+      "elsabloodstone",
+      "falcontorres",
+      "hawkeye",
+      "highevolutionary",
+      "jjj",
+      "jubilee",
+      "misternegative",
+      "purgatory",
+      "quicksilver",
+      "shangchi",
+      "silvercenturion",
+      "spiderman2099",
+      "spidermanstealthsuit"
+     ]
+    },
+    {
+     "name": "Grup 2 (ikonlu, adı okunmadı)",
+     "confirmed": [
+      "antivenom",
+      "baronzemo",
+      "enchantress",
+      "hercules",
+      "sandman",
+      "spiderman"
+     ]
+    },
+    {
+     "name": "Grup 3 (ikonlu, adı okunmadı)",
+     "confirmed": [
+      "betaraybill",
+      "cheeilth",
+      "dust",
+      "thing"
+     ]
+    },
+    {
+     "name": "Grup 4 (ikonlu, adı okunmadı)",
+     "confirmed": [
+      "blacktarantula",
+      "sentry"
+     ]
+    },
+    {
+     "name": "Grup 5 (ikonlu, adı okunmadı)",
+     "confirmed": [
+      "ladydeathstrike"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_017",
+   "title": "Invisibility Counters",
+   "titlePt": "Evitam Invisibilidade",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "antman",
+      "bullseye",
+      "captainbritain",
+      "cheeilth",
+      "cosmicghostrider",
+      "cyclopsblueteam",
+      "deathlessthanos",
+      "elsabloodstone",
+      "galan",
+      "gamora",
+      "gladiator",
+      "hercules",
+      "ironheart",
+      "jeangrey",
+      "katebishop",
+      "mrknight",
+      "nickfury",
+      "omegasentinel",
+      "onslaught",
+      "professorx",
+      "prowler",
+      "quicksilver",
+      "redgoblin",
+      "spidermanstealthsuit",
+      "theserpent",
+      "vox"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_020",
+   "title": "Remove Prowess Effects",
+   "titlePt": "Removem Efeitos de Proeza",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "howardtheduck",
+      "ironheart",
+      "ironman",
+      "ironmaninfamous",
+      "nimrod",
+      "omegasentinel",
+      "shocker",
+      "warmachine",
+      "yondu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_022",
+   "title": "Non-Contact Basic Attacks",
+   "titlePt": "Ataques Sem Contacto",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "agathaharkness",
+      "arnimzola",
+      "baronzemo",
+      "bluemarvel",
+      "doctorstrange",
+      "dust",
+      "ebonymaw",
+      "havok",
+      "hyperion",
+      "ironmaninfamous",
+      "ironmaninfinitywar",
+      "karolinadean",
+      "korg",
+      "mojo",
+      "nova",
+      "professorx",
+      "prowler",
+      "symbiotesupreme",
+      "theserpent",
+      "yondu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_023",
+   "title": "Ignore Thorns",
+   "titlePt": "Ignoram Espinhos",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "archangel",
+      "dazzler",
+      "domino",
+      "magnetomarvelnow",
+      "masacre",
+      "yondu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_025",
+   "title": "Bonus Removal / Neutralize / Reduce Duration",
+   "titlePt": "Removem Bónus",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "cosmicghostrider",
+      "diablo",
+      "doctorstrange",
+      "doctorvoodoo",
+      "dormammu",
+      "ebonymaw",
+      "enchantress",
+      "ghostrider",
+      "ironfist",
+      "ironfistimmortal",
+      "juggernaut",
+      "kushala",
+      "loki",
+      "longshot",
+      "madelynepryor",
+      "magik",
+      "mangog",
+      "manthing",
+      "mojo",
+      "morningstar",
+      "msmarvelkamalakhan",
+      "purgatory",
+      "sasquatch",
+      "scarletwitch",
+      "scarletwitchsigil",
+      "sorcerersupreme",
+      "spidermansupreme",
+      "symbiotesupreme",
+      "thing",
+      "thorjanefoster",
+      "venom",
+      "venompool",
+      "werewolfbynight",
+      "wong"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_026",
+   "title": "Neutralize",
+   "titlePt": "Neutralizar",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "deathlessguillotine",
+      "doctorstrange",
+      "enchantress",
+      "magik",
+      "purgatory",
+      "rintrah",
+      "tigra",
+      "vox"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_027",
+   "title": "Reduce Bonus Duration",
+   "titlePt": "Reduzem Duração de Bónus",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "enchantress",
+      "ghostrider",
+      "kindred",
+      "mojo",
+      "shathra",
+      "stellarblade"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_037",
+   "title": "Evade Counters",
+   "titlePt": "Evitam Esquiva",
+   "sections": [
+    {
+     "name": "main",
+     "confirmed": [
+      "aegon",
+      "annihilus",
+      "antivenom",
+      "apocalypse",
+      "attuma",
+      "baronzemo",
+      "captainbritain",
+      "crossbones",
+      "cyclopsblueteam",
+      "dazzler",
+      "doctorbong",
+      "dragonman",
+      "elsabloodstone",
+      "emmafrost",
+      "enchantress",
+      "falcon",
+      "ghost",
+      "gladiator",
+      "hawkeye",
+      "iceman",
+      "ironmaninfinitywar",
+      "jjj",
+      "jubilee",
+      "knull",
+      "mistyknight",
+      "moleman",
+      "nickfury",
+      "nightthrasher",
+      "nova",
+      "odin",
+      "okoye",
+      "professorx",
+      "prowler",
+      "quicksilver",
+      "redgoblin",
+      "scarletwitchsigil",
+      "shangchi",
+      "shatterstar",
+      "shehulk",
+      "silk",
+      "silvercenturion",
+      "solvarch",
+      "sorcerersupreme",
+      "stormpyramidx",
+      "themaker",
+      "theserpent",
+      "toad",
+      "visionaarkus"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aw69_039",
+   "title": "Immune to Nullify",
+   "titlePt": "Imunes a Anulação",
+   "sections": [
+    {
+     "name": "Nullify Immune",
+     "confirmed": [
+      "galan",
+      "misternegative"
+     ]
+    },
+    {
+     "name": "Resistant or Purify",
+     "confirmed": [
+      "angela",
+      "blacktarantula",
+      "crossbones",
+      "hulk",
+      "mangog"
+     ]
+    }
+   ]
+  }
+ ]
+}
