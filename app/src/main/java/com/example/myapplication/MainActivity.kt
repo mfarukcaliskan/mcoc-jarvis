@@ -21,6 +21,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.myapplication.data.ChampionRepository
 import com.example.myapplication.data.CapabilityRepository
+import com.example.myapplication.data.EventsRepository
 import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.GuiaBigThingRepository
 import com.example.myapplication.data.GuiaRepository
@@ -44,6 +45,7 @@ class MainActivity : ComponentActivity() {
         GuiaRepository.initialize(applicationContext)
         GuiaTierRepository.initialize(applicationContext)
         GuiaAwRepository.initialize(applicationContext)
+        EventsRepository.initialize(applicationContext)
         GuiaBigThingRepository.initialize(applicationContext)
         CapabilityRepository.initialize(applicationContext)
         PrestigeRepository.initialize(applicationContext)
@@ -65,6 +67,7 @@ class MainActivity : ComponentActivity() {
                 GuiaRepository.reload(applicationContext)
                 GuiaTierRepository.reload(applicationContext)
                 GuiaAwRepository.reload(applicationContext)
+                EventsRepository.reload(applicationContext)
                 GuiaBigThingRepository.reload(applicationContext)
                 CapabilityRepository.reload(applicationContext)
                 PrestigeRepository.reload(applicationContext)

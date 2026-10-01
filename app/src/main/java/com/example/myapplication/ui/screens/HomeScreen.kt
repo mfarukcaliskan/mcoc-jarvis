@@ -24,6 +24,7 @@ import com.example.myapplication.data.CapabilityRepository
 import com.example.myapplication.data.Champion
 import com.example.myapplication.data.ChampionClass
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.EventsRepository
 import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.GuiaBigThingRepository
 import com.example.myapplication.data.GuiaRepository
@@ -116,6 +117,7 @@ fun DataUpdateStatusRow() {
                             GuiaRepository.reload(context)
                             GuiaTierRepository.reload(context)
                             GuiaAwRepository.reload(context)
+                            EventsRepository.reload(context)
                             GuiaBigThingRepository.reload(context)
                             CapabilityRepository.reload(context)
                             PrestigeRepository.reload(context)

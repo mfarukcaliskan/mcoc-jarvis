@@ -23,7 +23,9 @@ import androidx.compose.ui.unit.sp
 import com.example.myapplication.data.AwGroup
 import com.example.myapplication.data.AwNode
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.AwTactic
 import com.example.myapplication.data.BtNode
+import com.example.myapplication.data.EventsRepository
 import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.GuiaBigThingRepository
 import com.example.myapplication.data.MetaRepository
@@ -120,6 +122,9 @@ fun MetaScreen() {
                 }
                 if (selectedMode == "Alliance War" && GuiaBigThingRepository.nodes.isNotEmpty()) {
                     item { BigThingSection() }
+                }
+                if (selectedMode == "Alliance War" && EventsRepository.awTactics().isNotEmpty()) {
+                    item { AwTacticsSection() }
                 }
                 if (selectedMode == "Alliance War" && GuiaAwRepository.groups.isNotEmpty()) {
                     item { AwGuideSection() }
@@ -412,6 +417,41 @@ fun BigThingNodeCard(node: BtNode) {
                 }
             }
             AwPortraitRow("En iyi savunmacılar", node.bestDefenders.map { it to false }, Color(0xFFF44336))
+        }
+    }
+}
+
+
+/** mcoc.gg AW taktikleri: rol, açıklama (İngilizce), kadro. Üyelik verisi mcoc.gg etiketlerinden (güncel). */
+@Composable
+fun AwTacticsSection() {
+    val tactics = EventsRepository.awTactics()
+    var expanded by remember { mutableStateOf<String?>(null) }
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text("AW Taktikleri (mcoc.gg)", fontWeight = FontWeight.Bold, color = Color(0xFF00BFFF), fontSize = 16.sp)
+        Text("Her taktik için hangi şampiyonların faydalandığı oyun verisinden (en yeni önce). Dokunarak aç.", color = Color.Gray, fontSize = 11.sp)
+        tactics.forEach { t -> AwTacticCard(t, expanded == t.tagId) { expanded = if (expanded == t.tagId) null else t.tagId } }
+    }
+}
+
+@Composable
+fun AwTacticCard(t: AwTactic, isExpanded: Boolean, onClick: () -> Unit) {
+    val roleText = if (t.role == "defense") "Savunma taktiği" else "Saldırı taktiği"
+    val roleColor = if (t.role == "defense") Color(0xFFF44336) else Color(0xFF4CAF50)
+    Card(
+        modifier = Modifier.fillMaxWidth().clickable(onClick = onClick),
+        colors = CardDefaults.cardColors(containerColor = if (isExpanded) Color(0xFF1C2333) else Color(0xFF161B22)),
+        shape = RoundedCornerShape(12.dp)
+    ) {
+        Column(modifier = Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
+                Text(t.name.removePrefix("AW: "), color = Color.White, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                Text("$roleText • ${t.champions.size} şampiyon", color = roleColor, fontSize = 11.sp)
+            }
+            if (isExpanded) {
+                t.description?.let { Text(it, color = Color.LightGray, fontSize = 11.sp) }
+                AwPortraitRow("Kadro", t.champions.map { it to false }, roleColor)
+            }
         }
     }
 }

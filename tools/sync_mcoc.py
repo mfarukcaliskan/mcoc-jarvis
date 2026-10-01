@@ -5,6 +5,7 @@ Kullanim (proje kokunden):
   python tools/sync_mcoc.py fetch    # mcoc.gg JSON'larini tools/.cache/mcoc altina indirir ve dogrular
   python tools/sync_mcoc.py report   # bizim veriyle mcoc.gg arasindaki farklari yazdirir (dosya degistirmez)
   python tools/sync_mcoc.py apply    # yetenek metinlerini ve yeni sampiyonlari assets'e yazar
+  python tools/sync_mcoc.py events        # events.json (AW taktikleri, roller, havuzlar, cikislar) uretir
   python tools/sync_mcoc.py relics        # relics.json (tam andac verisi) + relic_statcast.json uretir
   python tools/sync_mcoc.py prestige      # prestige.json (gercek 7 yildiz tablolari) uretir, sentetik progressions'i kaldirir
   python tools/sync_mcoc.py capabilities  # capabilities.json (kim hangi yetenek/bagisikliga sahip) uretir
@@ -13,6 +14,7 @@ Ardindan: python generate_manifest.py && python validate_quest_ids.py
 Kaynak: https://mcoc.gg/json/*.json (sitenin kendi arayuzunun kullandigi statik dosyalar).
 Istekler sirayla yapilir, aralarinda kisa bekleme vardir.
 """
+import difflib
 import html
 import json
 import os
@@ -544,8 +546,169 @@ def cmd_relics():
           f"yetenek aciklamasi olan {sum(1 for o in out if o['abilities'])}; relic_statcast: {len(table)} kademe")
 
 
+def _norm_name(s):
+    s = re.sub(r"^(AW:\s*|Defense:\s*|Attack:\s*)", "", s.strip(), flags=re.I)
+    return re.sub(r"[^a-z0-9]", "", s.lower().replace("wraith", "wrath"))
+
+
+def cmd_events():
+    """mcoc.gg'den oyun ici etkinlik/uyelik verisi (events.json): AW taktikleri, Raid/AQ rolleri, havuz cikislari,
+    kristal havuzlari, saga/yil/evren gruplari. Uyelikler sampiyon 'tags' ve 'pool' alanlarindan, aciklamalar content.json'dan."""
+    gg = load("champions.json")["data"]
+    ours = {c["id"]: c for c in load_ours()}
+    tags = {str(t["id"]): t for t in load("tags.json")["data"]}
+    content = {e["id"]: e for e in load("content.json")["data"]}
+    custom = {e["id"]: e for e in load("custom.json")["data"]}
+    crystals = load("crystals.json")["data"]
+    by_gid = {}
+    for g in gg:
+        oid = gg_to_ours_id(g["image"])
+        if oid in ours:
+            by_gid[g["id"]] = oid
+    members = {}
+    for g in gg:
+        oid = by_gid.get(g["id"])
+        if not oid:
+            continue
+        for t in g["tags"]:
+            members.setdefault(str(t), []).append(oid)
+
+    def ids_of(tag_id):
+        return sorted(members.get(tag_id, []), key=lambda i: ours[i]["name"])
+
+    def tag_row(tid):
+        t = tags[tid]
+        return {"tagId": tid, "name": t["tag"], "hidden": bool(t.get("hidden")), "champions": ids_of(tid)}
+
+    # --- AW taktikleri: content (rol + aciklama) ile etiket adini eslestir
+    tactic_content = {}
+    for cid, e in content.items():
+        titles = [clean(t) for t in e.get("titles", [])]
+        if len(titles) >= 2 and all(re.match(r"^(Defense|Attack):", t) for t in titles[:2]):
+            for i, t in enumerate(titles[:2]):
+                role = "defense" if t.lower().startswith("defense") else "attack"
+                desc = clean(e["descriptions"][i]) if i < len(e.get("descriptions", [])) else ""
+                tactic_content[_norm_name(t)] = {"role": role, "description": desc, "contentId": cid, "title": t}
+    aw = []
+    for tid, t in tags.items():
+        if re.fullmatch(r"AW\d+", tid) and int(tid[2:]) >= 1:
+            row = tag_row(tid)
+            key = _norm_name(t["tag"])
+            if key not in tactic_content:  # kaynaktaki yazim hatalari (orn. "House of Mirros")
+                close = difflib.get_close_matches(key, list(tactic_content), n=1, cutoff=0.85)
+                key = close[0] if close else key
+            info = tactic_content.get(key)
+            row["role"] = info["role"] if info else None
+            row["descriptionEn"] = info["description"] if info else None
+            row["contentTitle"] = info["title"] if info else None
+            aw.append(row)
+    aw.sort(key=lambda r: int(r["tagId"][2:]))
+
+    # --- Raid rolleri ve amplifikatorler
+    raid_boost_text = {}
+    if 3 in content:
+        e = content[3]
+        for i, t in enumerate(e["titles"]):
+            raid_boost_text[_norm_name(t.split(":", 1)[-1])] = {"title": clean(t), "descriptionEn": clean(e["descriptions"][i])}
+    raids = []
+    for rid, rname in (("AQ1", "Assault"), ("AQ2", "Tactician"), ("AQ3", "Vanguard")):
+        boosts = []
+        for tid, t in tags.items():
+            if tid.startswith(rid + "-"):
+                row = tag_row(tid)
+                info = raid_boost_text.get(_norm_name(t["tag"]))
+                row["descriptionEn"] = info["descriptionEn"] if info else None
+                boosts.append(row)
+        raids.append({**tag_row(rid), "role": rname, "boosts": boosts})
+
+    # --- Havuz cikislari (Titan): content 1 basliklari ile custom exit_N sirali eslesir (sitenin pool-titan gorunumu)
+    exits = []
+    if 1 in content:
+        for i, title in enumerate(content[1]["titles"]):
+            key = f"exit_{i + 1}"
+            champs = [by_gid[c] for c in custom.get(key, {}).get("champions", []) if c in by_gid]
+            exits.append({"title": clean(title), "champions": sorted(champs, key=lambda i2: ours[i2]["name"])})
+
+    # --- Kristal havuzlari
+    pools = []
+    for c in crystals:
+        pid = int(c["id"])
+        champs = [by_gid[g["id"]] for g in gg if pid in g.get("pool", []) and g["id"] in by_gid]
+        pools.append({"poolId": pid, "name": c["name"], "image": c["image"], "champions": sorted(champs, key=lambda i: ours[i]["name"])})
+
+    # --- Yukselis (ascension) havuzlari: sitenin 'ascend' gorunumundeki filtre kurallari
+    asc = {"base": [], "superDuper": [], "featured": [], "eventOrOffer": []}
+    for g in gg:
+        oid = by_gid.get(g["id"])
+        if not oid or not g.get("ascend"):
+            continue
+        p = set(g.get("pool", []))
+        if "AVEO" in [str(t) for t in g["tags"]]:
+            asc["eventOrOffer"].append(oid)
+        elif 13 in p:
+            asc["base"].append(oid)
+        elif 14 in p:
+            asc["superDuper"].append(oid)
+        else:
+            asc["featured"].append(oid)
+    titles51 = [clean(t) for t in content.get(51, {}).get("titles", [])]
+    descs51 = [clean(t) for t in content.get(51, {}).get("descriptions", [])]
+    ascension = []
+    for i, key in enumerate(["base", "superDuper", "featured", "eventOrOffer"]):  # content 51 baslik sirasi
+        ascension.append({"title": titles51[i] if i < len(titles51) else key,
+                          "descriptionEn": descs51[i] if i < len(descs51) else "", "key": key,
+                          "champions": sorted(asc[key], key=lambda x: ours[x]["name"])})
+
+    # --- Battlegrounds meta (mcoc.gg'nin guncel kaydi)
+    bg = None
+    if 2 in content:
+        e = content[2]
+        bg = {"titles": [clean(t) for t in e["titles"]], "descriptionsEn": [clean(t) for t in e["descriptions"]],
+              "attackers": [by_gid[c] for c in custom.get("bga", {}).get("champions", []) if c in by_gid],
+              "defenders": [by_gid[c] for c in custom.get("bgd", {}).get("champions", []) if c in by_gid]}
+
+    def group(test):
+        return [tag_row(tid) for tid in tags if test(tid)]
+
+    data = {
+        "source": "https://mcoc.gg/json (champions.json tags/pool, tags.json, content.json, custom.json, crystals.json)",
+        "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "note": "Uyelikler mcoc.gg'nin sampiyon etiketlerinden (guncel). role/descriptionEn content.json'dan; role=null: o taktik icin mcoc.gg'de aciklama kaydi yok. "
+                "ascension: sitenin 'ascend' gorunumunun filtre kurallariyla turetildi. exits: sitenin 'pool-titan' gorunumundeki sirayla (basliklar content.json). "
+                "timelineTags ('Single/Double/Triple - Day N') ve squadBuilder etiketlerinin anlami sitede aciklanmiyor, ham olarak saklandi.",
+        "battlegroundsMeta": bg,
+        "awTactics": aw,
+        "raids": raids,
+        "aqRamp": tag_row("AQ0"),
+        "pools": pools,
+        "exits": exits,
+        "ascension": ascension,
+        "releaseYears": group(lambda t: re.fullmatch(r"R\d+", t) is not None),
+        "affiliations": group(lambda t: re.fullmatch(r"O\d+", t) is not None),
+        "traits": group(lambda t: re.fullmatch(r"A\d+", t) is not None),
+        "roles": group(lambda t: re.fullmatch(r"S\d", t) is not None),
+        "challenges": group(lambda t: t.startswith("CC") or re.fullmatch(r"C[5-8]", t) is not None),
+        "timelineTags": group(lambda t: re.fullmatch(r"C[123][123]", t) is not None),
+        "squadBuilder": group(lambda t: t.startswith("TB")),
+        "other": group(lambda t: t in ("SC1", "7L", "AVEO")),
+        "customGroups": {k: sorted((by_gid[c] for c in v.get("champions", []) if c in by_gid), key=lambda i: ours[i]["name"])
+                         for k, v in custom.items() if k in ("pi", "couples", "box")},
+    }
+    target = os.path.join(ASSETS, "events.json")
+    if os.path.isfile(target):
+        with open(target, encoding="utf-8") as f:
+            prev = json.load(f)
+        if {k: v for k, v in prev.items() if k != "generatedAt"} == {k: v for k, v in data.items() if k != "generatedAt"}:
+            print("events.json degismedi")
+            return
+    with open(target, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"events.json: {len(aw)} AW taktigi ({sum(1 for a in aw if a['role'])} rol/aciklamali), {len(pools)} havuz, "
+          f"{len(exits)} cikis grubu, {sum(len(v['champions']) for v in ascension)} yukselis, {len(data['releaseYears'])} yil grubu")
+
+
 if __name__ == "__main__":
-    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige, "relics": cmd_relics}
+    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige, "relics": cmd_relics, "events": cmd_events}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         sys.exit(__doc__)
     commands[sys.argv[1]]()

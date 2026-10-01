@@ -44,6 +44,13 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 | AWS69 Stats | Oyuncu sıralamaları | **Alınmadı** (kişisel veri) |
 | Eventos / Contacts, Home | Hizmet/iletişim/duyuru | **Alınmadı** (uygulama verisi değil) |
 
+## Etkinlik verisi (events.json) ve GuiaMTC okuma doğruluğu
+
+`tools/sync_mcoc.py events` mcoc.gg'nin şampiyon **etiketlerinden** oyun içi etkinlik üyeliğini çıkarır: AW taktikleri (AW1-AW25, rol + açıklama), Raid rolleri ve amplifikatörleri, AQ Ramp, Titan havuz çıkışları (Jun '27 / Mar '27 / Dec '26), 16 kristal havuzu, yükselme (ascension) havuzları, çıkış yılı/evren/özellik grupları, Battlegrounds meta kaydı. Haftalık otomatik akışa dahil.
+- **GuiaMTC okuma doğruluğu bu yetkili veriyle ölçüldü:** AW taktik listeleri 550/563 = %97,7 doğru. Raid **rol** listeleri 60/60 doğru, ama amplifikatör **alt listeleri** 99/116 (%85): satır→amplifikatör eşlemem kaymıştı. Bu yüzden `guia_aw_globals.json` ve `guia_raids.json` listeleri yetkili etiket verisiyle değiştirildi, eski okuma `guiaReadIds` olarak saklandı.
+- **mcoc.gg Battlegrounds meta kaydı "S.35 (Hafta 3-4)"** ve 20 saldırgan + 22 savunmacı içerir. Bizdeki `meta.json` S40/S41 karo verisinin kaynağı hâlâ doğrulanamadı (çelişki sürüyor).
+- Anlamı sitede açıklanmayan etiketler ham saklandı: `Single/Double/Triple - Day N`, `Squad Builder`/`Grade`/`Faction` etiketleri.
+
 ## mcoc.gg ile tamamlama (capabilities.json)
 
 `tools/sync_mcoc.py capabilities` mcoc.gg'den **kim hangi yeteneğe/bağışıklığa sahip** dizinini üretir (249 yetenek, 65 bağışıklık, 36 karşı-yetenek, 24 tepki). Her kayıtta dayandığı metin bölümü (`via`), sinerji ve yalnızca-imza (`signatureOnly`) bilgisi var. Doğrulama: 14 özellik için ham veriyle bağımsız sayım, 0 fark.
