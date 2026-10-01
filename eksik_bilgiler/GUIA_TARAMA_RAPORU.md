@@ -31,7 +31,7 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 | Raids [September 2026] | 3 rol × 4 amplifikatör, şampiyon listeleri | **Alındı** → `guia_raids.json` |
 | Campeões & Rotação (6 sınıf) | Şampiyon profili: ad, 1-10 yıldız, yetenek/bağışıklık maddeleri (PT) | **Alındı** → `guia_champions.json` (327 profil, 0 sınıf uyuşmazlığı). Derece = yazarın görüşü. 6 profilde yıldız sayısı ile yazılı derece çelişiyor (`ratingConflict`), 21 profilde bir bağışıklık maddesi mcoc.gg verisinde yok (`immunityNotInMcocgg`) |
 | Tier Lists (Offense/Defense, Eylül 2026) | 3 görsel, sınıf sütunlu tier tablosu + imza seviyesi etiketleri | **Alındı** → `guia_tiers.json` (ofansif 330, defansif 167 şampiyon; 497 karonun hepsi gözle doğrulandı). Savunma listesi sitede yalnızca 10-8 derece satırlarını içeriyor |
-| AW - Season 69 | 44 görsel: yol/düğüm/savunmacı/saldırgan tabloları | Tablo ayrıştırıcı gerekiyor; sırada |
+| AW - Season 69 | 44 görsel: yol/düğüm/savunmacı/saldırgan tabloları | **Ana tablolar alındı** → `guia_aw_season69.json`: 9 yol × 4 düğüm + SUBS 1-3 + Boss Island = 50 düğüm, 800 karo (hepsi gözle doğrulandı), düğüm etkileri OCR. Yardımcı tablolar (Heal Block, Petrify, bağışıklık/counter listeleri, Hazard Shift listeleri) **alınmadı**: güvenilir karo ayrıştırması yapılamadı, tahminle veri üretilmedi |
 | AW - BIG THING (Ekim 2026) | Yeni AW modu, 94 görsel | Sırada |
 | Immunities / Abilities / DOT | Bağışıklık, yetenek, DOT listeleri | mcoc.gg ile çapraz doğrulanacak; mcoc.gg birincil kaynak |
 | Hazard Shift 2026 | 9 görsel, karışık yerleşim | İçerik mcoc.gg bağışıklıklarıyla örtüşüyor; ayrıntılı alınmadı |
@@ -45,6 +45,9 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 | Eventos / Contacts, Home | Hizmet/iletişim/duyuru | **Alınmadı** (uygulama verisi değil) |
 
 ## Bilinen eksikler (bu turda alınmayanlar)
+
+- **AW Sezon 69 yardımcı listeleri (≈29 görsel):** karolar bitişik ve arka planları farklı olduğundan sabit adımlı pencere yöntemi 620 pencerenin yalnızca 163'ünü güvenilir eşleştirdi, bazı görsellerde hiç karo bulamadı. Veri uydurmamak için dosyaya eklenmedi. Çözüm: bu görseller için ayrı bir bölütleme (renk bloğu + sinerji işareti ayrımı) gerekiyor.
+- **Vurgulu (sarı) karolar:** GuiaMTC sayfası sarı zeminin anlamını açıklamıyor; yalnızca `highlighted` işareti olarak saklandı, yorum yapılmadı.
 
 - Tier listesinde Summoned Symbiote yok (sitede de yok); Wolverine (7-7.5) karosunun imza etiketi kırpılmış, `signature: null`.
 - 5 oynanabilir şampiyon GuiaMTC profilinde yok: Weapon X, Summoned Symbiote, Gwenom, Spider-Man Noir, Green Goblin (Stellar Forged) (çoğu sitenin son güncellemesinden sonra çıktı).

@@ -20,7 +20,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.myapplication.data.AwGroup
+import com.example.myapplication.data.AwNode
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.MetaRepository
 import com.example.myapplication.data.MetaSeason
 
@@ -112,6 +115,9 @@ fun MetaScreen() {
                     items(filteredSeasons) { season ->
                         SeasonCard(season = season)
                     }
+                }
+                if (selectedMode == "Alliance War" && GuiaAwRepository.groups.isNotEmpty()) {
+                    item { AwGuideSection() }
                 }
             }
         }
@@ -276,6 +282,90 @@ fun SeasonCard(season: MetaSeason) {
                     fontSize = 11.sp,
                     color = Color.Gray
                 )
+            }
+        }
+    }
+}
+
+
+/** GuiaMTC AW Sezon 69 rehberi: yol/bölüm seç, düğüm başına etkileri ve önerilen şampiyonları gör. */
+@Composable
+fun AwGuideSection() {
+    val groups = GuiaAwRepository.groups
+    var selectedId by remember { mutableStateOf(groups.first().id) }
+    val group: AwGroup = groups.firstOrNull { it.id == selectedId } ?: groups.first()
+
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text(
+            "AW Sezon ${GuiaAwRepository.season} Rehberi (GuiaMTC)",
+            fontWeight = FontWeight.Bold, color = Color(0xFF9C27B0), fontSize = 16.sp
+        )
+        Text(
+            "Düğüm başına etkiler (İngilizce) ve savunmacı/saldırgan önerileri. Sarı çerçeve: yazarın öne çıkardığı şampiyon. Kaynak: guiamtc.com",
+            color = Color.Gray, fontSize = 11.sp
+        )
+        LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            items(groups) { g ->
+                FilterChip(
+                    selected = g.id == selectedId,
+                    onClick = { selectedId = g.id },
+                    label = { Text(g.title.substringBefore(" - ").ifBlank { g.title }, fontSize = 11.sp) },
+                    colors = FilterChipDefaults.filterChipColors(
+                        selectedContainerColor = Color(0xFF9C27B0), selectedLabelColor = Color.White,
+                        containerColor = Color(0xFF161B22), labelColor = Color.LightGray
+                    ),
+                    shape = RoundedCornerShape(16.dp)
+                )
+            }
+        }
+        Text(group.title, color = Color.White, fontWeight = FontWeight.Bold, fontSize = 13.sp)
+        group.nodes.forEach { node -> AwNodeCard(node) }
+    }
+}
+
+@Composable
+fun AwNodeCard(node: AwNode) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = Color(0xFF161B22)),
+        shape = RoundedCornerShape(12.dp)
+    ) {
+        Column(modifier = Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("Düğüm ${node.node}", color = Color(0xFF00BFFF), fontWeight = FontWeight.Bold, fontSize = 14.sp)
+            Text(node.effects.joinToString("\n"), color = Color.LightGray, fontSize = 12.sp)
+            AwPortraitRow("Savunmacılar", node.defenders.map { it.id to it.highlighted }, Color(0xFFF44336))
+            AwPortraitRow("Saldırganlar", node.attackers.map { it.id to it.highlighted }, Color(0xFF4CAF50))
+        }
+    }
+}
+
+@Composable
+fun AwPortraitRow(title: String, items: List<Pair<String, Boolean>>, color: Color) {
+    if (items.isEmpty()) return
+    val context = LocalContext.current
+    Column {
+        Text(title, color = color, fontSize = 11.sp, fontWeight = FontWeight.Bold)
+        LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(top = 2.dp)) {
+            items(items) { (id, highlighted) ->
+                val champ = ChampionRepository.champions.find { it.id == id }
+                val drawableName = id.lowercase().replace("-", "_").let { if (it[0].isDigit() || it == "void") "img_$it" else it }
+                val resId = context.resources.getIdentifier(drawableName, "drawable", context.packageName)
+                Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.width(52.dp)) {
+                    if (resId != 0) {
+                        Image(
+                            painter = painterResource(id = resId), contentDescription = champ?.name ?: id,
+                            modifier = Modifier
+                                .size(44.dp)
+                                .clip(CircleShape)
+                                .background(if (highlighted) Color(0xFFFFD700) else Color.Transparent, CircleShape)
+                                .padding(if (highlighted) 2.dp else 0.dp)
+                                .clip(CircleShape)
+                        )
+                    } else {
+                        Box(Modifier.size(44.dp).clip(CircleShape).background(Color.DarkGray))
+                    }
+                    Text(champ?.name ?: id, color = Color.LightGray, fontSize = 8.sp, maxLines = 1)
+                }
             }
         }
     }

@@ -1,0 +1,3917 @@
+{
+ "source": "https://www.guiamtc.com/aw-season-69",
+ "capturedAt": "2026-10-01",
+ "season": 69,
+ "note": "GuiaMTC AW Sezon 69 rehberi: 9 yol x 4 düğüm (numaralar 1-36), SUBS 1-3 (37-45) ve Boss Island (46-50). Her düğüm için etki adları (İngilizce, aynen) ile savunmacı ve saldırgan önerileri. highlighted=true: yazarın görselde sarı zeminle öne çıkardığı karo (anlamı sayfada açıklanmıyor, yalnızca işaret olarak saklandı). Şampiyonlar portre eşleşmesiyle belirlendi; 800 karonun tamamı tek tek gözle doğrulandı. Yardımcı tablolar (Heal Block, Petrify, bağışıklık listeleri vb.) bu dosyada yok: güvenilir ayrıştırma henüz yapılamadı.",
+ "mapLayout": "3 şerit (A,B,C) x 3 yol; yol 1-3 şerit A, 4-6 şerit B, 7-9 şerit C. Düğüm n, yol n, n+9, n+18, n+27 (alttan üste).",
+ "paths": [
+  {
+   "path": 1,
+   "title": "Regeneration + Unblockable",
+   "lane": "A",
+   "nodes": [
+    {
+     "node": 1,
+     "effects": [
+      "Drip Feed - Placebo",
+      "Resistance is Futile",
+      "Personal Space - Regeneration",
+      "Enhanced Recovery"
+     ],
+     "defenders": [
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "darkphoenix",
+       "highlighted": false
+      },
+      {
+       "id": "thing",
+       "highlighted": false
+      },
+      {
+       "id": "magik",
+       "highlighted": false
+      },
+      {
+       "id": "enchantress",
+       "highlighted": false
+      },
+      {
+       "id": "kindred",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "knull",
+       "highlighted": true
+      },
+      {
+       "id": "warlock",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "void",
+       "highlighted": false
+      },
+      {
+       "id": "archangel",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 10,
+     "effects": [
+      "Reinvigorated Fury",
+      "Masochism Over Time",
+      "Vigorous Assault",
+      "Indomitable"
+     ],
+     "defenders": [
+      {
+       "id": "spot",
+       "highlighted": true
+      },
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "enchantress",
+       "highlighted": false
+      },
+      {
+       "id": "modok",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      },
+      {
+       "id": "kindred",
+       "highlighted": false
+      },
+      {
+       "id": "pavitr",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "vivvision",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "theleader",
+       "highlighted": false
+      },
+      {
+       "id": "warlock",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 19,
+     "effects": [
+      "Reinvigorated Unblockable",
+      "High Energy Diet 99%",
+      "Indomitable"
+     ],
+     "defenders": [
+      {
+       "id": "antivenom",
+       "highlighted": true
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      },
+      {
+       "id": "attuma",
+       "highlighted": false
+      },
+      {
+       "id": "korg",
+       "highlighted": false
+      },
+      {
+       "id": "heimdall",
+       "highlighted": false
+      },
+      {
+       "id": "darkphoenix",
+       "highlighted": false
+      },
+      {
+       "id": "gorr",
+       "highlighted": false
+      },
+      {
+       "id": "karolinadean",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "knull",
+       "highlighted": true
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "yondu",
+       "highlighted": false
+      },
+      {
+       "id": "archangel",
+       "highlighted": false
+      },
+      {
+       "id": "werewolfbynight",
+       "highlighted": false
+      },
+      {
+       "id": "void",
+       "highlighted": false
+      },
+      {
+       "id": "warlock",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 28,
+     "effects": [
+      "Reinvigorated Unblockable",
+      "Buffet Over Time",
+      "Arc Overload",
+      "Indomitable"
+     ],
+     "defenders": [
+      {
+       "id": "lizard",
+       "highlighted": true
+      },
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      },
+      {
+       "id": "redskull",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "archangel",
+       "highlighted": false
+      },
+      {
+       "id": "warlock",
+       "highlighted": false
+      },
+      {
+       "id": "sentinel",
+       "highlighted": false
+      },
+      {
+       "id": "shuri",
+       "highlighted": false
+      },
+      {
+       "id": "vivvision",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": 2,
+   "title": "Placebo + Shock + Root",
+   "lane": "A",
+   "nodes": [
+    {
+     "node": 2,
+     "effects": [
+      "Special Burst (Neutralize)",
+      "Combat Déjà vu Placebo",
+      "Prey on the Feeble (Prowess)"
+     ],
+     "defenders": [
+      {
+       "id": "quicksilver",
+       "highlighted": true
+      },
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "punisher",
+       "highlighted": false
+      },
+      {
+       "id": "punisher2099",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      },
+      {
+       "id": "enchantress",
+       "highlighted": false
+      },
+      {
+       "id": "apocalypse",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "lukecage",
+       "highlighted": false
+      },
+      {
+       "id": "redguardian",
+       "highlighted": false
+      },
+      {
+       "id": "spiderman2099",
+       "highlighted": false
+      },
+      {
+       "id": "titania",
+       "highlighted": false
+      },
+      {
+       "id": "silk",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "countnefaria",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 11,
+     "effects": [
+      "Strike Counter (Amplify)",
+      "Encroaching Root"
+     ],
+     "defenders": [
+      {
+       "id": "sentinel",
+       "highlighted": true
+      },
+      {
+       "id": "arcade",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "americachavez",
+       "highlighted": false
+      },
+      {
+       "id": "deathlessthanos",
+       "highlighted": false
+      },
+      {
+       "id": "knull",
+       "highlighted": false
+      },
+      {
+       "id": "phylavell",
+       "highlighted": false
+      },
+      {
+       "id": "visionaarkus",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "phylavell",
+       "highlighted": true
+      },
+      {
+       "id": "spiderman2099",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "karolinadean",
+       "highlighted": false
+      },
+      {
+       "id": "archangel",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 20,
+     "effects": [
+      "Strike Counter (Vitality)",
+      "Never Back Down (Regen)",
+      "Use it Or Lose it"
+     ],
+     "defenders": [
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "blacktarantula",
+       "highlighted": false
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": false
+      },
+      {
+       "id": "attuma",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "theleader",
+       "highlighted": false
+      },
+      {
+       "id": "void",
+       "highlighted": false
+      },
+      {
+       "id": "warlock",
+       "highlighted": false
+      },
+      {
+       "id": "antivenom",
+       "highlighted": false
+      },
+      {
+       "id": "deadpoolxforce",
+       "highlighted": false
+      },
+      {
+       "id": "archangel",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 29,
+     "effects": [
+      "Personal Space - Placebo",
+      "Prey on the Weak",
+      "E.M.P. Modification (Shock)",
+      "Immunity Stun"
+     ],
+     "defenders": [
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "spiderwoman",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "terrax",
+       "highlighted": true
+      },
+      {
+       "id": "scorpion",
+       "highlighted": false
+      },
+      {
+       "id": "havok",
+       "highlighted": false
+      },
+      {
+       "id": "moleman",
+       "highlighted": false
+      },
+      {
+       "id": "titania",
+       "highlighted": false
+      },
+      {
+       "id": "shuri",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": 3,
+   "title": "Armor + Autoblock + Disintegration",
+   "lane": "A",
+   "nodes": [
+    {
+     "node": 3,
+     "effects": [
+      "Sloped Armor (Glancing)",
+      "Chitinous Thorns (Bleed)",
+      "Enhanced Bleed (+80%)"
+     ],
+     "defenders": [
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "jjj",
+       "highlighted": true
+      },
+      {
+       "id": "heimdall",
+       "highlighted": false
+      },
+      {
+       "id": "redskull",
+       "highlighted": false
+      },
+      {
+       "id": "samwilson",
+       "highlighted": false
+      },
+      {
+       "id": "superskrull",
+       "highlighted": false
+      },
+      {
+       "id": "vivvision",
+       "highlighted": false
+      },
+      {
+       "id": "nimrod",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "terrax",
+       "highlighted": true
+      },
+      {
+       "id": "jjj",
+       "highlighted": false
+      },
+      {
+       "id": "corvusglaive",
+       "highlighted": false
+      },
+      {
+       "id": "kushala",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "vivvision",
+       "highlighted": false
+      },
+      {
+       "id": "absorbingman",
+       "highlighted": false
+      },
+      {
+       "id": "sentinel",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 12,
+     "effects": [
+      "Strike Counter:",
+      "Combat Power Rate",
+      "Sixth Sense (Autoblock)"
+     ],
+     "defenders": [
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "knull",
+       "highlighted": false
+      },
+      {
+       "id": "punisher",
+       "highlighted": false
+      },
+      {
+       "id": "kindred",
+       "highlighted": false
+      },
+      {
+       "id": "blackpanthercivilwar",
+       "highlighted": false
+      },
+      {
+       "id": "enchantress",
+       "highlighted": false
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": false
+      },
+      {
+       "id": "korg",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "mbaku",
+       "highlighted": true
+      },
+      {
+       "id": "phylavell",
+       "highlighted": true
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "vox",
+       "highlighted": false
+      },
+      {
+       "id": "moleman",
+       "highlighted": false
+      },
+      {
+       "id": "falcon",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 21,
+     "effects": [
+      "Encroaching Stun (20 secs)",
+      "Reluctant Retaliation:",
+      "Cowardice",
+      "Overwhelming Odds"
+     ],
+     "defenders": [
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "spiderham",
+       "highlighted": true
+      },
+      {
+       "id": "nimrod",
+       "highlighted": false
+      },
+      {
+       "id": "okoye",
+       "highlighted": false
+      },
+      {
+       "id": "mrknight",
+       "highlighted": false
+      },
+      {
+       "id": "spiderwoman",
+       "highlighted": false
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "shangchi",
+       "highlighted": true
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "valkyrie",
+       "highlighted": false
+      },
+      {
+       "id": "moleman",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 30,
+     "effects": [
+      "Combat Déjà Vu:",
+      "Desintegration",
+      "Cold Turkey (Degen)",
+      "Safeguard (1%)"
+     ],
+     "defenders": [
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "void",
+       "highlighted": true
+      },
+      {
+       "id": "jessicajones",
+       "highlighted": false
+      },
+      {
+       "id": "modok",
+       "highlighted": false
+      },
+      {
+       "id": "korg",
+       "highlighted": false
+      },
+      {
+       "id": "sandman",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "blackcat",
+       "highlighted": false
+      },
+      {
+       "id": "falcon",
+       "highlighted": false
+      },
+      {
+       "id": "jackolantern",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": 4,
+   "title": "Unblockable + Reverse Controls + Glancing",
+   "lane": "B",
+   "nodes": [
+    {
+     "node": 4,
+     "effects": [
+      "Steady Buildup:",
+      "Reverse Controls",
+      "Calcify (Petrify)"
+     ],
+     "defenders": [
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "knull",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "darkphoenix",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "kindred",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "themaker",
+       "highlighted": false
+      },
+      {
+       "id": "jeangrey",
+       "highlighted": false
+      },
+      {
+       "id": "ironheart",
+       "highlighted": false
+      },
+      {
+       "id": "jackolantern",
+       "highlighted": false
+      },
+      {
+       "id": "wiccan",
+       "highlighted": false
+      },
+      {
+       "id": "mistersinister",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 13,
+     "effects": [
+      "Steady Now (Glance)",
+      "Intercept (Suppression)"
+     ],
+     "defenders": [
+      {
+       "id": "peniparker",
+       "highlighted": true
+      },
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "spiderham",
+       "highlighted": true
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      },
+      {
+       "id": "korg",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "thing",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "mbaku",
+       "highlighted": true
+      },
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "okoye",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 22,
+     "effects": [
+      "Steady Buildup (Fury)",
+      "Special Burst Trauma",
+      "Daunting Taunting"
+     ],
+     "defenders": [
+      {
+       "id": "spot",
+       "highlighted": true
+      },
+      {
+       "id": "void",
+       "highlighted": true
+      },
+      {
+       "id": "spiderham",
+       "highlighted": true
+      },
+      {
+       "id": "terrax",
+       "highlighted": false
+      },
+      {
+       "id": "theleader",
+       "highlighted": false
+      },
+      {
+       "id": "havok",
+       "highlighted": false
+      },
+      {
+       "id": "sandman",
+       "highlighted": false
+      },
+      {
+       "id": "werewolfbynight",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "shangchi",
+       "highlighted": true
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "moleman",
+       "highlighted": false
+      },
+      {
+       "id": "okoye",
+       "highlighted": false
+      },
+      {
+       "id": "cheeilth",
+       "highlighted": false
+      },
+      {
+       "id": "crossbones",
+       "highlighted": false
+      },
+      {
+       "id": "kingpin",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 31,
+     "effects": [
+      "Steady Buildup (Unblockable)",
+      "Painful Retreat (Power Sting)",
+      "Heal Block"
+     ],
+     "defenders": [
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "dust",
+       "highlighted": false
+      },
+      {
+       "id": "abominationimmortal",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "jeangrey",
+       "highlighted": false
+      },
+      {
+       "id": "knull",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "hobgoblin",
+       "highlighted": false
+      },
+      {
+       "id": "kushala",
+       "highlighted": false
+      },
+      {
+       "id": "moleman",
+       "highlighted": false
+      },
+      {
+       "id": "vivvision",
+       "highlighted": false
+      },
+      {
+       "id": "wiccan",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": 5,
+   "title": "Knock Down + Intercept + Falter",
+   "lane": "B",
+   "nodes": [
+    {
+     "node": 5,
+     "effects": [
+      "Ebb and Flow - Knock Down",
+      "Obstinate Charge",
+      "Bolster Energy (90%)"
+     ],
+     "defenders": [
+      {
+       "id": "sentinel",
+       "highlighted": true
+      },
+      {
+       "id": "captainbritain",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "darkphoenix",
+       "highlighted": false
+      },
+      {
+       "id": "deathlessthanos",
+       "highlighted": false
+      },
+      {
+       "id": "korg",
+       "highlighted": false
+      },
+      {
+       "id": "attuma",
+       "highlighted": false
+      },
+      {
+       "id": "cassandra",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "falcon",
+       "highlighted": false
+      },
+      {
+       "id": "bastion",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 14,
+     "effects": [
+      "Ebb and Flow - Knock Down",
+      "Agression: Precision",
+      "Heavy Hitter (Unstoppable)"
+     ],
+     "defenders": [
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "nickfury",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "redskull",
+       "highlighted": false
+      },
+      {
+       "id": "blackpanthercivilwar",
+       "highlighted": false
+      },
+      {
+       "id": "enchantress",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "silk",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "dust",
+       "highlighted": false
+      },
+      {
+       "id": "cheeilth",
+       "highlighted": false
+      },
+      {
+       "id": "falcon",
+       "highlighted": false
+      },
+      {
+       "id": "jeangrey",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 23,
+     "effects": [
+      "Ebb and Flow - Intercept",
+      "Now You See Me (Falter)"
+     ],
+     "defenders": [
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "pavitr",
+       "highlighted": false
+      },
+      {
+       "id": "modok",
+       "highlighted": false
+      },
+      {
+       "id": "nova",
+       "highlighted": false
+      },
+      {
+       "id": "spiderpunk",
+       "highlighted": false
+      },
+      {
+       "id": "deathlessthanos",
+       "highlighted": false
+      },
+      {
+       "id": "redskull",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 32,
+     "effects": [
+      "Ebb and Flow - Intercept",
+      "Mighty Charge (Purify)"
+     ],
+     "defenders": [
+      {
+       "id": "spot",
+       "highlighted": true
+      },
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "pixie",
+       "highlighted": false
+      },
+      {
+       "id": "thedestroyer",
+       "highlighted": false
+      },
+      {
+       "id": "redskull",
+       "highlighted": false
+      },
+      {
+       "id": "sasquatch",
+       "highlighted": false
+      },
+      {
+       "id": "gentle",
+       "highlighted": false
+      },
+      {
+       "id": "thorragnarok",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "silk",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": 6,
+   "title": "Invisibility + Prowess + Daunted",
+   "lane": "B",
+   "nodes": [
+    {
+     "node": 6,
+     "effects": [
+      "Arrogance (Invisibility)",
+      "Power Thief:",
+      "Power Efficiency"
+     ],
+     "defenders": [
+      {
+       "id": "spot",
+       "highlighted": true
+      },
+      {
+       "id": "quicksilver",
+       "highlighted": true
+      },
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "ebonymaw",
+       "highlighted": false
+      },
+      {
+       "id": "sasquatch",
+       "highlighted": false
+      },
+      {
+       "id": "korg",
+       "highlighted": false
+      },
+      {
+       "id": "blackpanthercivilwar",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "jeangrey",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 15,
+     "effects": [
+      "Phantom Pain (Bleed)",
+      "Spinning Wheels (Exhaustion)",
+      "Dirty Work (Protection)"
+     ],
+     "defenders": [
+      {
+       "id": "void",
+       "highlighted": true
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "bishop",
+       "highlighted": false
+      },
+      {
+       "id": "captainbritain",
+       "highlighted": false
+      },
+      {
+       "id": "dust",
+       "highlighted": false
+      },
+      {
+       "id": "domino",
+       "highlighted": false
+      },
+      {
+       "id": "cassandra",
+       "highlighted": false
+      },
+      {
+       "id": "omegared",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "themaker",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "havok",
+       "highlighted": false
+      },
+      {
+       "id": "okoye",
+       "highlighted": false
+      },
+      {
+       "id": "yondu",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 24,
+     "effects": [
+      "Daunting Doom",
+      "Fisticuffs (30 seconds)",
+      "SSStylish",
+      "Critical Setup"
+     ],
+     "defenders": [
+      {
+       "id": "spot",
+       "highlighted": true
+      },
+      {
+       "id": "jjj",
+       "highlighted": true
+      },
+      {
+       "id": "wong",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "gentle",
+       "highlighted": false
+      },
+      {
+       "id": "arcade",
+       "highlighted": false
+      },
+      {
+       "id": "americachavez",
+       "highlighted": false
+      },
+      {
+       "id": "modok",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "vivvision",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 33,
+     "effects": [
+      "Combat Déjà Vu - Prowess",
+      "Prowess Puncture",
+      "Conflictor (75%)"
+     ],
+     "defenders": [
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "quicksilver",
+       "highlighted": true
+      },
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "blacktarantula",
+       "highlighted": false
+      },
+      {
+       "id": "punisher2099",
+       "highlighted": false
+      },
+      {
+       "id": "punisher",
+       "highlighted": false
+      },
+      {
+       "id": "abominationimmortal",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "jjj",
+       "highlighted": false
+      },
+      {
+       "id": "karolinadean",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": 7,
+   "title": "Damage Reflection + Purify",
+   "lane": "C",
+   "nodes": [
+    {
+     "node": 7,
+     "effects": [
+      "Second Wind:",
+      "Damage Reflection",
+      "Special Burst Lock Down"
+     ],
+     "defenders": [
+      {
+       "id": "visionaarkus",
+       "highlighted": false
+      },
+      {
+       "id": "attuma",
+       "highlighted": false
+      },
+      {
+       "id": "jabaripanther",
+       "highlighted": false
+      },
+      {
+       "id": "korg",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "kingpin",
+       "highlighted": false
+      },
+      {
+       "id": "cheeilth",
+       "highlighted": false
+      },
+      {
+       "id": "moleman",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "gentle",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "negasonic",
+       "highlighted": false
+      },
+      {
+       "id": "dazzler",
+       "highlighted": false
+      },
+      {
+       "id": "jeangrey",
+       "highlighted": false
+      },
+      {
+       "id": "omegared",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 16,
+     "effects": [
+      "Special Burst Tranquilize",
+      "Physical Resistance (+60%)",
+      "Blood in the Water (+150%)"
+     ],
+     "defenders": [
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "sentinel",
+       "highlighted": true
+      },
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "arcade",
+       "highlighted": false
+      },
+      {
+       "id": "sasquatch",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "madelynepryor",
+       "highlighted": false
+      },
+      {
+       "id": "manthing",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "blacktarantula",
+       "highlighted": true
+      },
+      {
+       "id": "shuri",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "humantorch",
+       "highlighted": false
+      },
+      {
+       "id": "archangel",
+       "highlighted": false
+      },
+      {
+       "id": "jjj",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 25,
+     "effects": [
+      "Thorns: Physical (80%)",
+      "Be Like Water (Unblockable)"
+     ],
+     "defenders": [
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      },
+      {
+       "id": "captainbritain",
+       "highlighted": false
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "pavitr",
+       "highlighted": false
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "falcon",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "negasonic",
+       "highlighted": false
+      },
+      {
+       "id": "shuri",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 34,
+     "effects": [
+      "Second Wind (Unblockable)",
+      "Power Creep",
+      "Standing in Fear"
+     ],
+     "defenders": [
+      {
+       "id": "visionaarkus",
+       "highlighted": false
+      },
+      {
+       "id": "cheeilth",
+       "highlighted": false
+      },
+      {
+       "id": "attuma",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "wong",
+       "highlighted": false
+      },
+      {
+       "id": "kingpin",
+       "highlighted": false
+      },
+      {
+       "id": "moleman",
+       "highlighted": false
+      },
+      {
+       "id": "blackpanthercivilwar",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "blacktarantula",
+       "highlighted": true
+      },
+      {
+       "id": "omegared",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "negasonic",
+       "highlighted": false
+      },
+      {
+       "id": "dazzler",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": 8,
+   "title": "Power Gain + Glance",
+   "lane": "C",
+   "nodes": [
+    {
+     "node": 8,
+     "effects": [
+      "Rage (Glance)",
+      "Rise to Power"
+     ],
+     "defenders": [
+      {
+       "id": "peniparker",
+       "highlighted": true
+      },
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "cassielang",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      },
+      {
+       "id": "spidermansupreme",
+       "highlighted": false
+      },
+      {
+       "id": "punisher",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "okoye",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "archangel",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "shathra",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 17,
+     "effects": [
+      "Energetic Exercise",
+      "Immunity (Stun)",
+      "Ability Accuracy +100%",
+      "But a Minor Setback",
+      "(Immune to Nullify)"
+     ],
+     "defenders": [
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "spiderham",
+       "highlighted": true
+      },
+      {
+       "id": "gorr",
+       "highlighted": false
+      },
+      {
+       "id": "scream",
+       "highlighted": false
+      },
+      {
+       "id": "pavitr",
+       "highlighted": false
+      },
+      {
+       "id": "thing",
+       "highlighted": false
+      },
+      {
+       "id": "modok",
+       "highlighted": false
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "mbaku",
+       "highlighted": true
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "valkyrie",
+       "highlighted": false
+      },
+      {
+       "id": "werewolfbynight",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "yondu",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 26,
+     "effects": [
+      "Combat Déjà vu (Intensity)",
+      "Supercharge",
+      "Force of Will:",
+      "Immune to Ability Reduction"
+     ],
+     "defenders": [
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "spot",
+       "highlighted": true
+      },
+      {
+       "id": "lizard",
+       "highlighted": true
+      },
+      {
+       "id": "redskull",
+       "highlighted": false
+      },
+      {
+       "id": "modok",
+       "highlighted": false
+      },
+      {
+       "id": "galan",
+       "highlighted": false
+      },
+      {
+       "id": "thing",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "void",
+       "highlighted": false
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "countnefaria",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 35,
+     "effects": [
+      "Inevitable Power",
+      "Make a Stand (90%)",
+      "One Eye Open",
+      "Overwhelming Odds"
+     ],
+     "defenders": [
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "gorr",
+       "highlighted": false
+      },
+      {
+       "id": "karolinadean",
+       "highlighted": false
+      },
+      {
+       "id": "modok",
+       "highlighted": false
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      },
+      {
+       "id": "northstar",
+       "highlighted": false
+      },
+      {
+       "id": "heimdall",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "shuri",
+       "highlighted": false
+      },
+      {
+       "id": "vox",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "path": 9,
+   "title": "Hazard Shift",
+   "lane": "C",
+   "nodes": [
+    {
+     "node": 9,
+     "effects": [
+      "Hazard Shift:",
+      "Rupture + Bleed",
+      "Blood in the Water",
+      "Power Efficiency"
+     ],
+     "defenders": [
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "sentinel",
+       "highlighted": true
+      },
+      {
+       "id": "spot",
+       "highlighted": true
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "darkphoenix",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "enchantress",
+       "highlighted": false
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "jabaripanther",
+       "highlighted": true
+      },
+      {
+       "id": "kingpin",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "absorbingman",
+       "highlighted": false
+      },
+      {
+       "id": "scorpion",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "countnefaria",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 18,
+     "effects": [
+      "Hazard Shift:",
+      "Shock + Poison",
+      "Feat of Indestructible",
+      "Power Focus 1"
+     ],
+     "defenders": [
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "attuma",
+       "highlighted": false
+      },
+      {
+       "id": "nickfury",
+       "highlighted": false
+      },
+      {
+       "id": "weaponx",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      },
+      {
+       "id": "arcade",
+       "highlighted": false
+      },
+      {
+       "id": "knull",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "jabaripanther",
+       "highlighted": true
+      },
+      {
+       "id": "dust",
+       "highlighted": false
+      },
+      {
+       "id": "scorpion",
+       "highlighted": false
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "hulkling",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 27,
+     "effects": [
+      "Hazard Shift:",
+      "Poison + Coldsnap",
+      "Power Focus 2",
+      "Superior Specials (+50%)"
+     ],
+     "defenders": [
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "darkphoenix",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "madelynepryor",
+       "highlighted": false
+      },
+      {
+       "id": "karolinadean",
+       "highlighted": false
+      },
+      {
+       "id": "punisher",
+       "highlighted": false
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "jabaripanther",
+       "highlighted": true
+      },
+      {
+       "id": "bastion",
+       "highlighted": false
+      },
+      {
+       "id": "warlock",
+       "highlighted": false
+      },
+      {
+       "id": "iceman",
+       "highlighted": false
+      },
+      {
+       "id": "sentinel",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 36,
+     "effects": [
+      "Hazard Shift:",
+      "incinerate + Bleed",
+      "One Eye Open"
+     ],
+     "defenders": [
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      },
+      {
+       "id": "abominationimmortal",
+       "highlighted": false
+      },
+      {
+       "id": "modok",
+       "highlighted": false
+      },
+      {
+       "id": "americachavez",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "jabaripanther",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "kushala",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "ghostrider",
+       "highlighted": false
+      },
+      {
+       "id": "countnefaria",
+       "highlighted": false
+      },
+      {
+       "id": "iceman",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "SUBS1",
+   "title": "SUBS - Section 1",
+   "nodes": [
+    {
+     "node": 37,
+     "effects": [
+      "Root or Rooted",
+      "Personal Space - Regen",
+      "Purified Slate"
+     ],
+     "defenders": [
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "kindred",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "thorragnarok",
+       "highlighted": true
+      },
+      {
+       "id": "archangel",
+       "highlighted": false
+      },
+      {
+       "id": "theleader",
+       "highlighted": false
+      },
+      {
+       "id": "warlock",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "vivvision",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 38,
+     "effects": [
+      "Ebb and Flow - Knock Down",
+      "Right Back At it",
+      "Agression: Prowess"
+     ],
+     "defenders": [
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "absorbingman",
+       "highlighted": false
+      },
+      {
+       "id": "sasquatch",
+       "highlighted": false
+      },
+      {
+       "id": "manthing",
+       "highlighted": false
+      },
+      {
+       "id": "punisher",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "deadpoolxforce",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "vivvision",
+       "highlighted": false
+      },
+      {
+       "id": "karolinadean",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 39,
+     "effects": [
+      "Rich get Richer",
+      "Steady Perseverance",
+      "Footloose",
+      "(Evade + Unstoppable)"
+     ],
+     "defenders": [
+      {
+       "id": "antmanfuture",
+       "highlighted": false
+      },
+      {
+       "id": "shocker",
+       "highlighted": false
+      },
+      {
+       "id": "deathlessthanos",
+       "highlighted": false
+      },
+      {
+       "id": "redskull",
+       "highlighted": false
+      },
+      {
+       "id": "thedestroyer",
+       "highlighted": false
+      },
+      {
+       "id": "gorr",
+       "highlighted": false
+      },
+      {
+       "id": "countnefaria",
+       "highlighted": false
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "angela",
+       "highlighted": false
+      },
+      {
+       "id": "shangchi",
+       "highlighted": false
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": false
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "silk",
+       "highlighted": false
+      },
+      {
+       "id": "symbiotesupreme",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUBS2",
+   "title": "SUBS - Section 2",
+   "nodes": [
+    {
+     "node": 40,
+     "effects": [
+      "Obstinate Charge",
+      "Mix Master (Evade)",
+      "Ticking Soul Bomb"
+     ],
+     "defenders": [
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "rhino",
+       "highlighted": true
+      },
+      {
+       "id": "enchantress",
+       "highlighted": false
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": false
+      },
+      {
+       "id": "arcade",
+       "highlighted": false
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "shangchi",
+       "highlighted": true
+      },
+      {
+       "id": "knull",
+       "highlighted": true
+      },
+      {
+       "id": "shatterstar",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "falcon",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 41,
+     "effects": [
+      "Scared Stiff (Root)",
+      "Power Focus 2",
+      "Bubble Shield"
+     ],
+     "defenders": [
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "quicksilver",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "punisher",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "shangchi",
+       "highlighted": true
+      },
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "kushala",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      },
+      {
+       "id": "ironheart",
+       "highlighted": false
+      },
+      {
+       "id": "deadpoolxforce",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 42,
+     "effects": [
+      "Steady Build Up:",
+      "Unblockable",
+      "Power Snack (750/0)",
+      "One Too Many Hits"
+     ],
+     "defenders": [
+      {
+       "id": "rubythursday",
+       "highlighted": false
+      },
+      {
+       "id": "rhino",
+       "highlighted": false
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": false
+      },
+      {
+       "id": "jeangrey",
+       "highlighted": false
+      },
+      {
+       "id": "abominationimmortal",
+       "highlighted": false
+      },
+      {
+       "id": "dust",
+       "highlighted": false
+      },
+      {
+       "id": "spiderwoman",
+       "highlighted": false
+      },
+      {
+       "id": "knull",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "doctorbong",
+       "highlighted": false
+      },
+      {
+       "id": "shangchi",
+       "highlighted": false
+      },
+      {
+       "id": "patriot",
+       "highlighted": false
+      },
+      {
+       "id": "kushala",
+       "highlighted": false
+      },
+      {
+       "id": "shuri",
+       "highlighted": false
+      },
+      {
+       "id": "crossbones",
+       "highlighted": false
+      },
+      {
+       "id": "silk",
+       "highlighted": false
+      },
+      {
+       "id": "wiccan",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUBS3",
+   "title": "SUBS - Section 3",
+   "nodes": [
+    {
+     "node": 43,
+     "effects": [
+      "Hazard Shift:",
+      "incinerate + Shock",
+      "Empathic Lock",
+      "Agression: Prowess"
+     ],
+     "defenders": [
+      {
+       "id": "void",
+       "highlighted": true
+      },
+      {
+       "id": "sentinel",
+       "highlighted": true
+      },
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "bullseye",
+       "highlighted": true
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "shangchi",
+       "highlighted": true
+      },
+      {
+       "id": "jabaripanther",
+       "highlighted": true
+      },
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "bluemarvel",
+       "highlighted": false
+      },
+      {
+       "id": "bastion",
+       "highlighted": false
+      },
+      {
+       "id": "ironmaninfamous",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 44,
+     "effects": [
+      "Hazard Shift:",
+      "Poison + Rupture",
+      "Immunity (Stun)"
+     ],
+     "defenders": [
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": false
+      },
+      {
+       "id": "jeangrey",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      },
+      {
+       "id": "magik",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "jabaripanther",
+       "highlighted": true
+      },
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "kingpin",
+       "highlighted": false
+      },
+      {
+       "id": "valkyrie",
+       "highlighted": false
+      },
+      {
+       "id": "scorpion",
+       "highlighted": false
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      },
+      {
+       "id": "werewolfbynight",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 45,
+     "effects": [
+      "Hazard Shift:",
+      "Coldsnap + Bleed",
+      "Conflictor (750/0)",
+      "Immunity (Armor Break)"
+     ],
+     "defenders": [
+      {
+       "id": "rubythursday",
+       "highlighted": false
+      },
+      {
+       "id": "spot",
+       "highlighted": false
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      },
+      {
+       "id": "darkphoenix",
+       "highlighted": false
+      },
+      {
+       "id": "manthing",
+       "highlighted": false
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "angela",
+       "highlighted": false
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": false
+      },
+      {
+       "id": "iceman",
+       "highlighted": false
+      },
+      {
+       "id": "bastion",
+       "highlighted": false
+      },
+      {
+       "id": "valkyrie",
+       "highlighted": false
+      },
+      {
+       "id": "warlock",
+       "highlighted": false
+      },
+      {
+       "id": "sentinel",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "BOSS",
+   "title": "Boss Island",
+   "nodes": [
+    {
+     "node": 46,
+     "effects": [
+      "Aspect of Evolution",
+      "Enhanced Special 2",
+      "Steady As She Goes",
+      "Enhanced Power Gain 100%"
+     ],
+     "defenders": [
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "countnefaria",
+       "highlighted": false
+      },
+      {
+       "id": "mangog",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "knull",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "madelynepryor",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "spidermanstealthsuit",
+       "highlighted": true
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "silk",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "symbiotesupreme",
+       "highlighted": false
+      },
+      {
+       "id": "scorpion",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 47,
+     "effects": [
+      "Missing in Action (Falter)",
+      "Return Policy (20%)",
+      "False Confidence",
+      "Fight or Flight (Unstoppable)"
+     ],
+     "defenders": [
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "lizard",
+       "highlighted": true
+      },
+      {
+       "id": "deathlessthanos",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": false
+      },
+      {
+       "id": "baronzemo",
+       "highlighted": false
+      },
+      {
+       "id": "gentle",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "doctorbong",
+       "highlighted": true
+      },
+      {
+       "id": "patriot",
+       "highlighted": true
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      },
+      {
+       "id": "prowler",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "ironheart",
+       "highlighted": false
+      },
+      {
+       "id": "theserpent",
+       "highlighted": false
+      },
+      {
+       "id": "thehood",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 48,
+     "effects": [
+      "Safeguard (1%)",
+      "Stunning Reflection:",
+      "Bleed & Shock",
+      "Bane",
+      "Force of Will"
+     ],
+     "defenders": [
+      {
+       "id": "photon",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "solvarch",
+       "highlighted": true
+      },
+      {
+       "id": "arnimzola",
+       "highlighted": false
+      },
+      {
+       "id": "lumatrix",
+       "highlighted": false
+      },
+      {
+       "id": "highevolutionary",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "yelenabelova",
+       "highlighted": true
+      },
+      {
+       "id": "jabaripanther",
+       "highlighted": true
+      },
+      {
+       "id": "betaraybill",
+       "highlighted": true
+      },
+      {
+       "id": "venom",
+       "highlighted": true
+      },
+      {
+       "id": "shuri",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "deadpoolxforce",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 49,
+     "effects": [
+      "Stunning Reflection:",
+      "Poison & incinerate",
+      "Polka Dot Power (Debuff)",
+      "Brute Force"
+     ],
+     "defenders": [
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "mysterio",
+       "highlighted": true
+      },
+      {
+       "id": "peniparker",
+       "highlighted": true
+      },
+      {
+       "id": "sandman",
+       "highlighted": false
+      },
+      {
+       "id": "kindred",
+       "highlighted": false
+      },
+      {
+       "id": "bullseye",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "maestro",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "venom",
+       "highlighted": true
+      },
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "scorpion",
+       "highlighted": false
+      },
+      {
+       "id": "deadpoolxforce",
+       "highlighted": false
+      },
+      {
+       "id": "ironheart",
+       "highlighted": false
+      },
+      {
+       "id": "okoye",
+       "highlighted": false
+      },
+      {
+       "id": "spiral",
+       "highlighted": false
+      }
+     ]
+    },
+    {
+     "node": 50,
+     "effects": [
+      "Healthy Disposition",
+      "(Stun, Slow, Heal Block",
+      "Immunity)",
+      "Adaptative",
+      "Daunting Taunting"
+     ],
+     "defenders": [
+      {
+       "id": "shocker",
+       "highlighted": true
+      },
+      {
+       "id": "antmanfuture",
+       "highlighted": true
+      },
+      {
+       "id": "rubythursday",
+       "highlighted": true
+      },
+      {
+       "id": "sasquatch",
+       "highlighted": false
+      },
+      {
+       "id": "magik",
+       "highlighted": false
+      },
+      {
+       "id": "jeangrey",
+       "highlighted": false
+      },
+      {
+       "id": "onslaught",
+       "highlighted": false
+      },
+      {
+       "id": "nicominoru",
+       "highlighted": false
+      }
+     ],
+     "attackers": [
+      {
+       "id": "knull",
+       "highlighted": true
+      },
+      {
+       "id": "angela",
+       "highlighted": true
+      },
+      {
+       "id": "blackcat",
+       "highlighted": true
+      },
+      {
+       "id": "shuri",
+       "highlighted": false
+      },
+      {
+       "id": "scorpion",
+       "highlighted": false
+      },
+      {
+       "id": "vox",
+       "highlighted": false
+      },
+      {
+       "id": "doctorstrange",
+       "highlighted": false
+      },
+      {
+       "id": "mojo",
+       "highlighted": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

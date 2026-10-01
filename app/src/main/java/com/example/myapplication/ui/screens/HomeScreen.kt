@@ -23,6 +23,7 @@ import androidx.compose.ui.window.Dialog
 import com.example.myapplication.data.Champion
 import com.example.myapplication.data.ChampionClass
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.GuiaRepository
 import com.example.myapplication.data.GuiaTierRepository
 import com.example.myapplication.data.MetaRepository
@@ -111,6 +112,7 @@ fun DataUpdateStatusRow() {
                             MetaRepository.reload(context)
                             GuiaRepository.reload(context)
                             GuiaTierRepository.reload(context)
+                            GuiaAwRepository.reload(context)
                             version = result.newVersion
                             statusText = "Güncellendi: v${result.newVersion} (${result.changedFiles} dosya)"
                         }

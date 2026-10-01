@@ -1,6 +1,6 @@
 {
-  "dataVersion": 40,
-  "generatedAt": "2026-10-01T14:21:53Z",
+  "dataVersion": 41,
+  "generatedAt": "2026-10-01T14:34:27Z",
   "files": {
     "champions_db.json": "2aa75a595019c50b0530c614d4294e5ae332c89c2ab9c985816381029f717903",
     "details/abomination.json": "18d7234a30a50e504d680e57dbed80a49f0f9be3412c79061155738444bd6857",
@@ -335,6 +335,7 @@
     "details/yellowjacket.json": "3ada6355e4b585cd764a77cf7377dd3ec791f01ae17daa73b8300f4ecce33264",
     "details/yondu.json": "9ef2bb1d576f7502cafa14b66241aa2ae41fa7d3253ff364706de93acaaa0cdf",
     "guia_aw_globals.json": "8cd73d3bdb99b9bb4d5040d95bccaa7aa17a62643a85833b46c002264d36e988",
+    "guia_aw_season69.json": "e503d58415331b8be39196884be644e9df42f685e59216dc4e7007dd59f08982",
     "guia_champions.json": "318371d1be63b81ed4c6b3e47bb0b4ef59d10678ec9a779278f0d9b33dd0efa8",
     "guia_counters.json": "f38d6cad346361480171635dad7f2389900b913981a170bc3c6799bb1c281919",
     "guia_raids.json": "2dc53cc4ccca076b0d846f28d4c7d45405e75df0d0039838b410c540426395c6",
