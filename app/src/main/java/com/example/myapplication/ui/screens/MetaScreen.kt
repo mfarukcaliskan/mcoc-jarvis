@@ -23,7 +23,9 @@ import androidx.compose.ui.unit.sp
 import com.example.myapplication.data.AwGroup
 import com.example.myapplication.data.AwNode
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.BtNode
 import com.example.myapplication.data.GuiaAwRepository
+import com.example.myapplication.data.GuiaBigThingRepository
 import com.example.myapplication.data.MetaRepository
 import com.example.myapplication.data.MetaSeason
 
@@ -115,6 +117,9 @@ fun MetaScreen() {
                     items(filteredSeasons) { season ->
                         SeasonCard(season = season)
                     }
+                }
+                if (selectedMode == "Alliance War" && GuiaBigThingRepository.nodes.isNotEmpty()) {
+                    item { BigThingSection() }
                 }
                 if (selectedMode == "Alliance War" && GuiaAwRepository.groups.isNotEmpty()) {
                     item { AwGuideSection() }
@@ -367,6 +372,46 @@ fun AwPortraitRow(title: String, items: List<Pair<String, Boolean>>, color: Colo
                     Text(champ?.name ?: id, color = Color.LightGray, fontSize = 8.sp, maxLines = 1)
                 }
             }
+        }
+    }
+}
+
+
+/** AW Big Thing (Sezon 70, Ekim 2026) rehberi: resmi düğüm adı, zorluk, güç yükü kuralları, en iyi savunmacılar. */
+@Composable
+fun BigThingSection() {
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text(
+            "AW Big Thing • Sezon ${GuiaBigThingRepository.season} (${GuiaBigThingRepository.startDate})",
+            fontWeight = FontWeight.Bold, color = Color(0xFFFFD700), fontSize = 16.sp
+        )
+        Text(GuiaBigThingRepository.rulesSummary, color = Color.LightGray, fontSize = 12.sp)
+        Text(
+            "Kaynak: guiamtc.com (rehber duyuru niteliğinde; oyunda başlamadan değişebilir). Düğüm adları resmi harita görselinden, açıklamalar Portekizce.",
+            color = Color.Gray, fontSize = 11.sp
+        )
+        GuiaBigThingRepository.nodes.forEach { BigThingNodeCard(it) }
+    }
+}
+
+@Composable
+fun BigThingNodeCard(node: BtNode) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = Color(0xFF161B22)),
+        shape = RoundedCornerShape(12.dp)
+    ) {
+        Column(modifier = Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text("Düğüm ${node.node} • ${node.nameEn}", color = Color(0xFFFFD700), fontWeight = FontWeight.Bold, fontSize = 14.sp)
+            Text("Zorluk (Challenge): ${node.challengeEn}", color = Color(0xFF4CAF50), fontSize = 12.sp, fontWeight = FontWeight.Bold)
+            Text(node.guidePt, color = Color.LightGray, fontSize = 12.sp)
+            if (node.rules.isNotEmpty()) {
+                Text("Güç Yükü kazanma:", color = Color(0xFF00BFFF), fontSize = 12.sp, fontWeight = FontWeight.Bold)
+                node.rules.forEach { r ->
+                    Text("• " + r.textPt, color = Color.LightGray, fontSize = 11.sp)
+                }
+            }
+            AwPortraitRow("En iyi savunmacılar", node.bestDefenders.map { it to false }, Color(0xFFF44336))
         }
     }
 }

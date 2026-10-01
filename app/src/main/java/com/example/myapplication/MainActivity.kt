@@ -22,6 +22,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.myapplication.data.ChampionRepository
 import com.example.myapplication.data.CapabilityRepository
 import com.example.myapplication.data.GuiaAwRepository
+import com.example.myapplication.data.GuiaBigThingRepository
 import com.example.myapplication.data.GuiaRepository
 import com.example.myapplication.data.GuiaTierRepository
 import com.example.myapplication.data.MetaRepository
@@ -43,6 +44,7 @@ class MainActivity : ComponentActivity() {
         GuiaRepository.initialize(applicationContext)
         GuiaTierRepository.initialize(applicationContext)
         GuiaAwRepository.initialize(applicationContext)
+        GuiaBigThingRepository.initialize(applicationContext)
         CapabilityRepository.initialize(applicationContext)
         PrestigeRepository.initialize(applicationContext)
         enableEdgeToEdge()
@@ -63,6 +65,7 @@ class MainActivity : ComponentActivity() {
                 GuiaRepository.reload(applicationContext)
                 GuiaTierRepository.reload(applicationContext)
                 GuiaAwRepository.reload(applicationContext)
+                GuiaBigThingRepository.reload(applicationContext)
                 CapabilityRepository.reload(applicationContext)
                 PrestigeRepository.reload(applicationContext)
             }

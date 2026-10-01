@@ -1,0 +1,1265 @@
+{
+ "source": "https://www.guiamtc.com/aw-big-thing",
+ "capturedAt": "2026-10-01",
+ "season": 70,
+ "startDate": "2026-10-07",
+ "dateNote": "Sayfa 'Temporada 70 (7 Ekim 2026)' diyor; yani oyunda henüz başlamamış, duyuru/ön rehber. Başlamadan önce resmi değişiklik olabilir.",
+ "rules": {
+  "bans": false,
+  "attackersPerFight": 2,
+  "defenders": 10,
+  "defenderHealthMillions": [
+   9,
+   15
+  ],
+  "forceCharge": {
+   "attackBonusPercentPerCharge": 25,
+   "required": true
+  },
+  "noteEn": "Force Charges are gained by completing node-specific missions; without them a defender practically cannot be defeated."
+ },
+ "introPt": "Na Temporada 70 (Dia 7 de Outubro 2026) entra novamente o BIG THING. ➜ Neste Mapa não há BAN algum, portanto todos os campeões estão livres! ✔ ➜ Além disso como podemos levar 2 Atacantes temos sempre espaço para levar uma Sinergia. ➜ São apenas 10 Defensores onde o principal objetivo é ganhar Cargas de Força. 💪🏼 ➜ Para ganhar Cargas de Força o Atacante precisa de cumprir Missões específicas. ➜ Cada carga de Força dá ao Atacante +25% de Ataque. 🚨É OBRIGATÓRIO GANHAR CARGAS DE FORÇA PARA DERRUBAR UM DEFENSOR NESTE MAPA 🚨 ➜ Os Defensores neste Mapa têm uma Vida que varia entre os 9 Milhões a 15 Milhões. 💚 ➜ Logo...é praticamente impossível solar algum dos Defesas sem ganhar Cargas de Força. ⛔ ANÁLISE COMPLETA A CADA NÓ DESTE MAPA DE AW 🔎",
+ "sourceConflicts": [
+  {
+   "node": 9,
+   "issue": "GuiaMTC başlığı 'Imunidade a Atordoamento' (Stun Immunity) diyor ama aynı paragrafın açıklaması 'Özel saldırılar %50 daha az güç harcar' ve resmi harita düğümü 'Power Efficiency'. Başlık büyük olasılıkla kopyala-yapıştır hatası; resmi harita adı esas alındı."
+  }
+ ],
+ "crossChecks": [
+  {
+   "node": 5,
+   "claim": "GuiaMTC: Kate Bishop, Spider-Punk, Elsa Bloodstone, Count Nefaria, Bullseye 'Contra Ataque' (otomatik intercept) mekaniğine sahip.",
+   "result": "mcoc.gg 'Counter-Attack Evade' etiketinde Kate Bishop, Elsa Bloodstone, Count Nefaria, Bullseye var; Spider-Punk yok. Ancak Spider-Punk'ın oyun metni ('Counterculture Counter-Attack': Well-Timed Block yerine %100 Evade) mekaniği doğruluyor; yani mcoc.gg etiket dizini bu şampiyon için eksik, GuiaMTC doğru."
+  }
+ ],
+ "note": "nameEn/challengeEn: GuiaMTC'nin resmi harita görselinden el ile aktarıldı. bestDefenders: portre eşleşmesi (HOG+renk+kompozit), 60/60 gözle doğrulandı; sıra sayfadaki sıradır. helperLists.mcocgg: GuiaMTC'nin görsel listelerinin oyun verisi karşılığı (tam kadro, mcoc.gg); GuiaMTC'nin kendi seçimini birebir yansıtmaz. signatureOnlyIds: yalnızca imza yeteneğiyle; synergyOnlyIds: yalnızca sinerjiyle.",
+ "nodes": [
+  {
+   "node": 1,
+   "nameEn": "Stun Immunity",
+   "challengeEn": "Dexterity",
+   "guidePt": "Imunidade a Atordoamento Neste nó o Defensor é totalmente Imune a Atordoamento.",
+   "bestDefenders": [
+    "arnimzola",
+    "korg",
+    "kindred",
+    "modok",
+    "americachavez",
+    "lumatrix"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "Desviar de um Ataque Básico (+1 Carga de Força)",
+     "charges": [
+      1
+     ]
+    },
+    {
+     "textPt": "Desviar de um Golpe do Ataque Especial (+3 Cargas de Força) Isto dá para executar com qualquer campeão, portanto trata-se do Espaço menos restritivo deste Mapa. No entanto alguns Defensores Desativam a Proficiência de Destreza durante os Especiais, nesse caso é preciso especial atenção.",
+     "charges": [
+      3
+     ]
+    }
+   ],
+   "notesPt": [],
+   "helperLists": []
+  },
+  {
+   "node": 2,
+   "nameEn": "Power Snack + Déjà Vu - Placebo",
+   "challengeEn": "Nullify Immunity",
+   "guidePt": "Aperitivo Poderoso + Déjà Vu de Combate - Placebo Neste Espaço de 7 em 7 segundos se o Atacante ativar um Bónus este é anulado e o Defensor ganha 75% de uma Barra de Poder. Além disso repetir o mesmo tipo de golpe faz o atacante ganhar um Bónus de Placebo.",
+   "bestDefenders": [
+    "captainbritain",
+    "blacktarantula",
+    "yelenabelova",
+    "antmanfuture",
+    "theserpent",
+    "jeangrey"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "Ativar Imunidade a Anulação (+5 Cargas de Força)",
+     "charges": [
+      5
+     ]
+    },
+    {
+     "textPt": "Ativar Imunidade a Bónus (+1 Carga de Força)",
+     "charges": [
+      1
+     ]
+    }
+   ],
+   "notesPt": [],
+   "helperLists": [
+    {
+     "labelPt": "Ativar Imunidade a Anulação",
+     "mcocgg": {
+      "property": "Nullify",
+      "kind": "immunity",
+      "championIds": [
+       "adamwarlock",
+       "civilwarrior",
+       "darkphoenix",
+       "dazzler",
+       "doctorbong",
+       "galan",
+       "gladiator",
+       "misternegative",
+       "omegasentinel",
+       "redskull",
+       "sentry",
+       "summonedsymbiote",
+       "theoverseer",
+       "thing",
+       "vivvision",
+       "whitetiger"
+      ],
+      "signatureOnlyIds": [
+       "angela"
+      ],
+      "synergyOnlyIds": [
+       "blacktarantula",
+       "crossbones",
+       "hulk",
+       "mangog",
+       "mordo",
+       "stormpyramidx",
+       "vulture"
+      ],
+      "idsByKind": {
+       "conditional": [
+        "adamwarlock",
+        "angela",
+        "darkphoenix",
+        "gladiator",
+        "redskull",
+        "summonedsymbiote",
+        "vivvision"
+       ],
+       "full": [
+        "blacktarantula",
+        "civilwarrior",
+        "crossbones",
+        "dazzler",
+        "doctorbong",
+        "galan",
+        "hulk",
+        "mangog",
+        "misternegative",
+        "mordo",
+        "omegasentinel",
+        "sentry",
+        "stormpyramidx",
+        "theoverseer",
+        "thing",
+        "vulture",
+        "whitetiger"
+       ]
+      }
+     }
+    },
+    {
+     "labelPt": "Ativar Imunidade a Bónus",
+     "mcocgg": {
+      "property": "Buff Immunity",
+      "kind": "ability",
+      "championIds": [
+       "blackwidowclairevoyant",
+       "nicominoru"
+      ],
+      "signatureOnlyIds": [],
+      "synergyOnlyIds": []
+     }
+    }
+   ]
+  },
+  {
+   "node": 3,
+   "nameEn": "Regeneration + Always Forward",
+   "challengeEn": "Preventing Heal",
+   "guidePt": "Espaço Pessoal - Regeneração + Avançado Eternamente Neste Espaço se o Atacante estiver perto do Defensor ele recebe um Bónus de Regeneração a cada 3 Segundos. Ficar longe do Defensor faz Diminuir estes Bónus de Regeneração O Defensor nunca poderá recuperar mais vida do que aquela que tinha no começo da luta.",
+   "bestDefenders": [
+    "attuma",
+    "blacktarantula",
+    "stellargreengoblin",
+    "yelenabelova",
+    "lumatrix",
+    "solvarch"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "Aplicar um Efeito de Bloco de Cura e o Defensor tenta Regenerar (1 Carga de Força)",
+     "charges": [
+      1
+     ]
+    },
+    {
+     "textPt": "Aplicar um Efeito de Petrificar e o Defensor tenta Regenerar (1 Carga de Força)",
+     "charges": [
+      1
+     ]
+    },
+    {
+     "textPt": "Aplicar um Efeito de Espectro e o Defensor tenta Regenerar (1 Carga de Força)",
+     "charges": [
+      1
+     ]
+    },
+    {
+     "textPt": "Aplicar um Efeito de Veneno e o Defensor tenta Regenerar. (1 Carga de Força) (É obrigatório usar pré luta do Mr. Fantastic para ganhar cargas de força)",
+     "charges": [
+      1
+     ]
+    }
+   ],
+   "notesPt": [
+    "As Armadilhas do Espaço 3 📢🚨",
+    "O Espaço 3 pode ser a Diferença entre uma Derrota na Guerra e uma Vitória na Guerra. Se o Jogador não levar resposta certa para o Defensor que estiver neste nó então o Defensor simplesmente não vai cair, por mais tentativas que se faça. No jogo existem campeões Imunes a Bloqueio de Cura e Resistentes/Imunes a Reversão de Cura. Portanto abaixo deixo a lista dos campeões que neste nó podem ser uma autêntica armadilha.",
+    "Campeões Imunes / Resistentes a Reversão de Cura 💚🔄❌"
+   ],
+   "helperLists": [
+    {
+     "labelPt": "Efeito de Bloco de Cura",
+     "mcocgg": {
+      "property": "Heal Block",
+      "kind": "ability",
+      "championIds": [
+       "civilwarrior",
+       "danimoonstar",
+       "darkhawk",
+       "deathlessvision",
+       "doctoroctopus",
+       "hobgoblin",
+       "howardtheduck",
+       "hulkragnarok",
+       "ironmaninfinitywar",
+       "kang",
+       "ladydeathstrike",
+       "modok",
+       "mysterio",
+       "omegasentinel",
+       "proximamidnight",
+       "psychoman",
+       "punisher2099",
+       "redskull",
+       "sentinel",
+       "silvercenturion",
+       "solvarch",
+       "starlord",
+       "thanos",
+       "themaker",
+       "ultronclassic",
+       "vision",
+       "visionaou",
+       "vivvision",
+       "warlock",
+       "whitetiger",
+       "yondu"
+      ],
+      "signatureOnlyIds": [
+       "archangel",
+       "cosmicghostrider",
+       "peniparker",
+       "rocketraccoon",
+       "scarletwitch",
+       "scarletwitchsigil"
+      ],
+      "synergyOnlyIds": [
+       "doctorstrange",
+       "invisiblewoman",
+       "magneto",
+       "mistersinister",
+       "samwilson",
+       "sauron",
+       "thing",
+       "ultron"
+      ]
+     }
+    },
+    {
+     "labelPt": "Efeito de Petrificar",
+     "mcocgg": {
+      "property": "Petrify",
+      "kind": "ability",
+      "championIds": [
+       "abominationimmortal",
+       "antivenom",
+       "antman",
+       "hulkimmortal",
+       "joefixit",
+       "misterfantastic",
+       "misternegative",
+       "morbius",
+       "photon",
+       "sandman",
+       "scorpion",
+       "shehulk",
+       "titania",
+       "void",
+       "wasp",
+       "yellowjacket"
+      ],
+      "signatureOnlyIds": [
+       "scarletwitchsigil"
+      ],
+      "synergyOnlyIds": [
+       "bishop",
+       "enchantress",
+       "modok",
+       "psylocke"
+      ]
+     }
+    },
+    {
+     "labelPt": "Efeito de Espectro",
+     "mcocgg": {
+      "property": "Spectre",
+      "kind": "ability",
+      "championIds": [
+       "antivenom",
+       "deathlessguillotine",
+       "deathlessshehulk",
+       "guillotine",
+       "guillotine2099",
+       "theleader"
+      ],
+      "signatureOnlyIds": [],
+      "synergyOnlyIds": [
+       "blackcat",
+       "silk"
+      ]
+     }
+    },
+    {
+     "labelPt": "Efeito de Veneno",
+     "mcocgg": {
+      "property": "Poison",
+      "kind": "ability",
+      "championIds": [
+       "abomination",
+       "abominationimmortal",
+       "antman",
+       "apocalypse",
+       "arcade",
+       "archangel",
+       "blackwidowclairevoyant",
+       "cassielang",
+       "diablo",
+       "doctorvoodoo",
+       "gorr",
+       "greengoblin",
+       "jackolantern",
+       "kinggroot",
+       "kraven",
+       "manthing",
+       "modok",
+       "mysterio",
+       "nicominoru",
+       "scarletwitchsigil",
+       "scorpion",
+       "summonedsymbiote",
+       "toad",
+       "ultronclassic"
+      ],
+      "signatureOnlyIds": [
+       "scarletwitch"
+      ],
+      "synergyOnlyIds": [
+       "doctorstrange",
+       "hawkeye",
+       "spiderman2099"
+      ]
+     }
+    },
+    {
+     "labelPt": "Imunes a Bloqueio de Cura (armadilha)",
+     "mcocgg": {
+      "property": "Heal Block",
+      "kind": "immunity",
+      "championIds": [
+       "dracula",
+       "gorr",
+       "hulkling",
+       "kindred",
+       "ladydeathstrike",
+       "lizard",
+       "phoenix",
+       "sersi",
+       "spidermansymbiote",
+       "theserpent",
+       "werewolfbynight"
+      ],
+      "signatureOnlyIds": [
+       "thechampion"
+      ],
+      "synergyOnlyIds": [],
+      "idsByKind": {
+       "conditional": [
+        "lizard",
+        "thechampion"
+       ],
+       "duration": [
+        "hulkling",
+        "sersi"
+       ],
+       "full": [
+        "dracula",
+        "gorr",
+        "kindred",
+        "ladydeathstrike",
+        "phoenix",
+        "spidermansymbiote",
+        "theserpent",
+        "werewolfbynight"
+       ]
+      }
+     }
+    }
+   ],
+   "unmappedListsPt": [
+    "Campeões Imunes / Resistentes a Reversão de Cura (mcoc.gg'de açık karşılık yok)"
+   ]
+  },
+  {
+   "node": 4,
+   "nameEn": "Power Sting",
+   "challengeEn": "Combo Meter +10",
+   "guidePt": "Retirada Dolorosa A cada 12 segundos o Atacante sofre com um Ferrão Poderoso por 10 Segundos. Se o Atacante usar Especial enquanto tem Ferrão sofre dano. No entanto a cada 10 acertos no Defensor o Atacante remove o Ferrão.",
+   "bestDefenders": [
+    "onslaught",
+    "jeangrey",
+    "peniparker",
+    "solvarch",
+    "captainbritain",
+    "darkphoenix"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "O Medidor de Combo do Atacante passar de um Múltiplo de 10. (+8 Cargas de Força) Isto dá para executar com qualquer campeão, porém campeões com Purificação têm especial vantagem já que removem o Ferrão. Campeões com Tranquilizar também podem prevenir os Debuffs do Nó.",
+     "charges": [
+      8
+     ]
+    }
+   ],
+   "notesPt": [],
+   "helperLists": [
+    {
+     "labelPt": "Purificação de Debuffs",
+     "mcocgg": {
+      "property": "Purify",
+      "kind": "ability",
+      "championIds": [
+       "aegon",
+       "agentvenom",
+       "annihilus",
+       "attuma",
+       "blackcat",
+       "blacktarantula",
+       "captainmarvelmcu",
+       "daredevilnetflix",
+       "deathlesskinggroot",
+       "doctorbong",
+       "elsabloodstone",
+       "hitmonkey",
+       "katebishop",
+       "kinggroot",
+       "kingpin",
+       "mantis",
+       "mbaku",
+       "mistyknight",
+       "moleman",
+       "moondragon",
+       "nickfury",
+       "nightthrasher",
+       "punisher",
+       "ronin",
+       "silversable",
+       "squirrelgirl",
+       "valkyrie",
+       "wasp",
+       "whitetiger"
+      ],
+      "signatureOnlyIds": [
+       "blackpanther",
+       "bullseye",
+       "crossbones",
+       "korg",
+       "shehulk",
+       "visionaarkus"
+      ],
+      "synergyOnlyIds": [
+       "diablo",
+       "doctordoom",
+       "goldpool",
+       "killmonger",
+       "spidermanstealthsuit",
+       "terrax",
+       "thorragnarok"
+      ]
+     }
+    },
+    {
+     "labelPt": "Tranquilizar",
+     "mcocgg": {
+      "property": "Tranquilize",
+      "kind": "ability",
+      "championIds": [
+       "cheeilth",
+       "katebishop",
+       "mantis",
+       "mrknight"
+      ],
+      "signatureOnlyIds": [],
+      "synergyOnlyIds": []
+     }
+    }
+   ],
+   "unmappedListsPt": [
+    "Campeões que Aumentam o Medidor de Combo (mcoc.gg'de açık karşılık yok)"
+   ]
+  },
+  {
+   "node": 5,
+   "nameEn": "Intercept",
+   "challengeEn": "Intercepting",
+   "guidePt": "Fluxo e Refluxo: Interceptar O Defensor tem uma Proteção que reduz todo o Dano que recebe em 60%. A única forma de remover esta Proteção é Interceptando o Oponente, caso o faça ganha também uma Fúria passiva que aumenta o ataque em 40% por 12 segundos.",
+   "bestDefenders": [
+    "rhino",
+    "nicominoru",
+    "thedestroyer",
+    "antmanfuture",
+    "kindred",
+    "theserpent"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "O Atacante Intercepta o Oponente. (7 Cargas de Força)",
+     "charges": [
+      7
+     ]
+    }
+   ],
+   "notesPt": [
+    "Isto dá para executar com qualquer campeão, porém campeões com Acesso a Invisível ou Insuperável têm maior facilidade, já que isto facilita muito a interceptação, dando maior segurança.",
+    "Além disto certos campeões têm acesso a Contra Ataque, uma mecânica que faz o Atacante \"Interceptar Automaticamente\", são eles: ➜ Kate Bishop, Spider-Punk, Elsa Bloodstone, Count Nefaria, Bullseye entre outros!"
+   ],
+   "helperLists": [
+    {
+     "labelPt": "Acesso a Invisibilidade",
+     "mcocgg": {
+      "property": "Invisible",
+      "kind": "ability",
+      "championIds": [
+       "dracula",
+       "invisiblewoman",
+       "lumatrix",
+       "nicominoru",
+       "spidermanmilesmorales",
+       "stryfe",
+       "thehood"
+      ],
+      "signatureOnlyIds": [],
+      "synergyOnlyIds": []
+     }
+    },
+    {
+     "labelPt": "Acesso a Insuperável",
+     "mcocgg": {
+      "property": "Unstoppable",
+      "kind": "ability",
+      "championIds": [
+       "aegon",
+       "airwalker",
+       "annihilus",
+       "attuma",
+       "betaraybill",
+       "colossus",
+       "darkphoenix",
+       "deathlessthanos",
+       "doctordoom",
+       "dragonman",
+       "enchantress",
+       "frankencastle",
+       "galan",
+       "gentle",
+       "gladiator",
+       "heimdall",
+       "hulkragnarok",
+       "ironmaninfamous",
+       "jessicajones",
+       "juggernaut",
+       "kingpin",
+       "korg",
+       "kraven",
+       "ladydeathstrike",
+       "lizard",
+       "magneto",
+       "mangog",
+       "manthing",
+       "mbaku",
+       "moleman",
+       "morningstar",
+       "mrknight",
+       "nimrod",
+       "northstar",
+       "platinumpool",
+       "punisher",
+       "redguardian",
+       "redskull",
+       "rhino",
+       "rintrah",
+       "sandman",
+       "sentinel",
+       "spiderpunk",
+       "summonedsymbiote",
+       "thedestroyer",
+       "thing",
+       "titania",
+       "weaponx",
+       "werewolfbynight",
+       "wong"
+      ],
+      "signatureOnlyIds": [
+       "blackpanthercivilwar",
+       "hulk",
+       "knull",
+       "sasquatch",
+       "thechampion",
+       "unstoppablecolossus"
+      ],
+      "synergyOnlyIds": [
+       "arnimzola",
+       "captainamerica",
+       "captainamericaiw",
+       "captainamericawwii",
+       "captainmarvelmcu",
+       "cheeilth",
+       "cosmicghostrider",
+       "deathlesskinggroot",
+       "doctorstrange",
+       "hyperion",
+       "ikaris",
+       "ironheart",
+       "kindred",
+       "mojo",
+       "nightthrasher",
+       "sauron",
+       "sentry",
+       "sersi",
+       "spidergwen",
+       "spiderham",
+       "spiderman",
+       "spidermanmilesmorales",
+       "terrax",
+       "toad",
+       "valkyrie"
+      ]
+     }
+    },
+    {
+     "labelPt": "Contra Ataque (intercepta otomatik)",
+     "mcocgg": {
+      "property": "Counter-Attack Evade",
+      "kind": "ability",
+      "championIds": [
+       "bullseye",
+       "bwdo",
+       "countnefaria",
+       "elsabloodstone",
+       "katebishop",
+       "misternegative",
+       "mordo",
+       "negasonic",
+       "pixie",
+       "scorpion",
+       "themaker",
+       "wasp"
+      ],
+      "signatureOnlyIds": [],
+      "synergyOnlyIds": [
+       "cyclopsblueteam"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "node": 6,
+   "nameEn": "Cleanse",
+   "challengeEn": "Debuff Purify / Immunity",
+   "guidePt": "Sanação de Paleta + Paralização de Medo Sempre que qualquer 1 dos Campeões atinge uma Barra de Poder o Defensor ganha 1 carga de Sanação Passiva que dura 5 segundos. Além disso ficar próximo do Defensor, faz ele sofrer com um Debuff de Cansaço.",
+   "bestDefenders": [
+    "captainbritain",
+    "sentinel",
+    "maestro",
+    "yelenabelova",
+    "theserpent",
+    "deathlessthanos"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "O Defensor Purificar, Sanar ou for Imune a um Debuff. (2 Cargas de Força)",
+     "charges": [
+      2
+     ]
+    }
+   ],
+   "notesPt": [
+    "Isto dá para executar com qualquer campeão, sendo um dos nós menos restritivos do Mapa. No entanto este é o Espaço onde é mais Difícil acumular muitas Carga de Força, então as lutas tendem a ser bem longas. E há até a possibilidade de Timeout."
+   ],
+   "helperLists": []
+  },
+  {
+   "node": 7,
+   "nameEn": "Root or Rooted",
+   "challengeEn": "Striking a Rooted Opponent",
+   "guidePt": "Enraizar ou ser Enraizado A cada 12 segundos o Atacante é Enraizado Passivamente por 5 segundos. No entanto se o Atacante estiver Distante do Oponente então é o Oponente que fica Enraizado.",
+   "bestDefenders": [
+    "rintrah",
+    "baronzemo",
+    "kindred",
+    "americachavez",
+    "lumatrix",
+    "arnimzola"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "O atacante acerta no Defensor quando ele está Enraizado Passivamente. (+5 Cargas de Força)",
+     "charges": [
+      5
+     ]
+    }
+   ],
+   "notesPt": [
+    "Isto dá para executar com qualquer campeão, porém certos Defensores quando usam Ataques Pesados ativam habilidades adicionais que os tornam um grande problema. Um exemplo disto é o Rintrah, ele quando fica enraizado fica também insuperável passivamente....isto exige que o atacante tenha uma mecânica que ignore o Insuperável."
+   ],
+   "helperLists": [
+    {
+     "labelPt": "Evitam o Insuperável",
+     "mcocgg": {
+      "property": "Unstoppable",
+      "kind": "counter",
+      "championIds": [
+       "absorbingman",
+       "agathaharkness",
+       "betaraybill",
+       "captainamericaiw",
+       "captainbritain",
+       "cheeilth",
+       "danimoonstar",
+       "dracula",
+       "dust",
+       "falcontorres",
+       "gwenom",
+       "jjj",
+       "ladydeathstrike",
+       "nicominoru",
+       "northstar",
+       "punisher",
+       "quicksilver",
+       "redguardian",
+       "sentry",
+       "shangchi",
+       "shehulk",
+       "silvercenturion",
+       "sorcerersupreme",
+       "spidergwen",
+       "spiderman",
+       "spiderman2099",
+       "spidermanstealthsuit",
+       "spidermansupreme",
+       "spiderwoman",
+       "stellargreengoblin",
+       "stryfe",
+       "thing",
+       "toad"
+      ],
+      "signatureOnlyIds": [
+       "blacktarantula",
+       "pavitr",
+       "silk",
+       "valkyrie"
+      ],
+      "synergyOnlyIds": [
+       "americachavez",
+       "blackwidowclairevoyant",
+       "deathlessshehulk",
+       "elsabloodstone",
+       "humantorch",
+       "mephisto",
+       "misternegative",
+       "onslaught",
+       "rhino",
+       "scorpion",
+       "sunspot",
+       "thedestroyer",
+       "tigra",
+       "wiccan",
+       "yellowjacket"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "node": 8,
+   "nameEn": "Energize Buff + Feats of Power",
+   "challengeEn": "Buff Control / Immunity",
+   "guidePt": "Exercício Energético + Demonstração de Poder Sempre que o Defensor ativar um Bónus recebe também um Bónus de Energização que dura 12 segundos. Este Bónus aumenta a Taxa de Poder de Combate em 10%. Além disso o Oponente recebe 1 Bónus de Fúria quando atinge 1 Barra de Poder, 1 Bónus de Precisão quando atinge 2 Barras de Poder e 1 Bónus de Crueldade quando atinge 3 Barras.",
+   "bestDefenders": [
+    "highevolutionary",
+    "thing",
+    "captainbritain",
+    "redskull",
+    "stellargreengoblin",
+    "enchantress"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "Sempre que o Atacante torna o Defensor Imune a um Bónus (3 Cargas de Força)",
+     "charges": [
+      3
+     ]
+    },
+    {
+     "textPt": "Sempre que o Atacante Anular ou Espantar um Bónus do Oponente (3 Cargas de Força)",
+     "charges": [
+      3
+     ]
+    },
+    {
+     "textPt": "O Atacante Neutralizar um Bónus do Oponente (3 Cargas de Força)",
+     "charges": [
+      3
+     ]
+    },
+    {
+     "textPt": "O Bónus do Oponente Expira, campeões com Efeito de Atrofio aceleram o processo. (3 Cargas de Força)",
+     "charges": [
+      3
+     ]
+    }
+   ],
+   "notesPt": [],
+   "helperLists": [
+    {
+     "labelPt": "Neutralizar",
+     "mcocgg": {
+      "property": "Neutralize",
+      "kind": "ability",
+      "championIds": [
+       "enchantress",
+       "magik",
+       "pavitr",
+       "purgatory",
+       "rintrah",
+       "tigra",
+       "vox",
+       "wiccan"
+      ],
+      "signatureOnlyIds": [
+       "doctorstrange"
+      ],
+      "synergyOnlyIds": [
+       "deathlessguillotine"
+      ]
+     }
+    },
+    {
+     "labelPt": "Anular",
+     "mcocgg": {
+      "property": "Nullify",
+      "kind": "ability",
+      "championIds": [
+       "blackwidowclairevoyant",
+       "diablo",
+       "doctordoom",
+       "doctorstrange",
+       "doctorvoodoo",
+       "dormammu",
+       "dracula",
+       "ebonymaw",
+       "enchantress",
+       "ironfist",
+       "ironfistimmortal",
+       "isophyne",
+       "kushala",
+       "magik",
+       "mangog",
+       "manthing",
+       "mojo",
+       "morningstar",
+       "msmarvelkamalakhan",
+       "pavitr",
+       "purgatory",
+       "scarletwitch",
+       "scarletwitchsigil",
+       "shathra",
+       "sorcerersupreme",
+       "spidergwen",
+       "summonedsymbiote",
+       "symbiotesupreme",
+       "venom",
+       "venompool",
+       "werewolfbynight",
+       "whitetiger",
+       "wiccan"
+      ],
+      "signatureOnlyIds": [
+       "juggernaut",
+       "longshot",
+       "madelynepryor",
+       "thorjanefoster"
+      ],
+      "synergyOnlyIds": [
+       "deathlessguillotine",
+       "tigra"
+      ]
+     }
+    },
+    {
+     "labelPt": "Atrofia",
+     "mcocgg": {
+      "property": "Atrophy",
+      "kind": "ability",
+      "championIds": [
+       "agathaharkness",
+       "enchantress",
+       "ghostrider",
+       "kindred",
+       "mojo",
+       "shathra",
+       "stellarblade"
+      ],
+      "signatureOnlyIds": [],
+      "synergyOnlyIds": []
+     }
+    }
+   ]
+  },
+  {
+   "node": 9,
+   "nameEn": "Power Efficiency",
+   "challengeEn": "Punishing Heavy or Special Attack",
+   "guidePt": "Imunidade a Atordoamento Neste nó os Ataques Especiais do Defensor gastam menos 50% de Poder.",
+   "bestDefenders": [
+    "punisher",
+    "enchantress",
+    "onslaught",
+    "lumatrix",
+    "nicominoru",
+    "rubythursday"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "O atacante acerta no Defensor logo depois dele usar Pesado ou Especial. (5 Cargas de Força)",
+     "charges": [
+      5
+     ]
+    }
+   ],
+   "notesPt": [
+    "Isto dá para executar com qualquer campeão, portanto trata-se do Espaço menos restritivo deste Mapa. No entanto por conta da Reserva de Poder é muito importante usar Atacantes que Controlem Poder:"
+   ],
+   "helperLists": [],
+   "unmappedListsPt": [
+    "Campeões que Controlam o Poder (mcoc.gg'de tek bir özellik olarak yok)"
+   ]
+  },
+  {
+   "node": 10,
+   "nameEn": "Incinerate & Shock",
+   "challengeEn": "Incinerate or Shock Immunity / Resistance",
+   "guidePt": "Alternância de Efeitos - Incinerar + Choque 🔥⚡ Sempre que acertar o Defensor existe 40% de Chance do Atacante sofrer Incinerar ou Choque. A potência de cada um destes efeitos corresponde a 30% do Ataque do Defensor.",
+   "bestDefenders": [
+    "rubythursday",
+    "darkphoenix",
+    "antmanfuture",
+    "bullseye",
+    "lumatrix",
+    "theserpent"
+   ],
+   "forceChargeRules": [
+    {
+     "textPt": "O Atacante é Imune, Purifica ou Reduz a Potência dos Efeitos de Incinerar e Choque (2 Cargas de Força)",
+     "charges": [
+      2
+     ]
+    }
+   ],
+   "notesPt": [
+    "Outra forma de tornar qualquer campeão Resistente a Choque é aplicar a Pré Luta do Odin, isto dá 90% de Resistência a Choque. Portanto a lista de atacantes para este Espaço 10 é realmente extensa."
+   ],
+   "helperLists": [
+    {
+     "labelPt": "Imunes ou Resistentes a Incinerar",
+     "mcocgg": {
+      "property": "Incinerate",
+      "kind": "immunity",
+      "championIds": [
+       "absorbingman",
+       "adamwarlock",
+       "annihilus",
+       "antivenom",
+       "apocalypse",
+       "arcade",
+       "attuma",
+       "blackwidowclairevoyant",
+       "colossus",
+       "cosmicghostrider",
+       "countnefaria",
+       "darkphoenix",
+       "emmafrost",
+       "ghostrider",
+       "havok",
+       "heimdall",
+       "humantorch",
+       "iceman",
+       "ikaris",
+       "ironheart",
+       "ironmaninfamous",
+       "jackolantern",
+       "karolinadean",
+       "kindred",
+       "kittypryde",
+       "kushala",
+       "maestro",
+       "mangog",
+       "mephisto",
+       "nightthrasher",
+       "onslaught",
+       "peniparker",
+       "phoenix",
+       "prowler",
+       "purgatory",
+       "redgoblin",
+       "redhulk",
+       "sentry",
+       "sersi",
+       "shatterstar",
+       "silversurfer",
+       "sunspot",
+       "superiorironman",
+       "superskrull",
+       "void",
+       "vulture",
+       "wave"
+      ],
+      "signatureOnlyIds": [
+       "agathaharkness",
+       "antmanfuture",
+       "guardian",
+       "spiral",
+       "ultron"
+      ],
+      "synergyOnlyIds": [
+       "civilwarrior",
+       "dazzler",
+       "dormammu",
+       "ironman",
+       "ironmaninfinitywar",
+       "pixie",
+       "punisher2099",
+       "storm",
+       "venompool"
+      ],
+      "idsByKind": {
+       "conditional": [
+        "absorbingman",
+        "adamwarlock",
+        "annihilus",
+        "apocalypse",
+        "arcade",
+        "attuma",
+        "blackwidowclairevoyant",
+        "emmafrost",
+        "ironheart",
+        "ironmaninfamous",
+        "mangog",
+        "redgoblin",
+        "redhulk",
+        "shatterstar"
+       ],
+       "duration": [
+        "antmanfuture",
+        "sersi",
+        "spiral",
+        "ultron",
+        "wave"
+       ],
+       "full": [
+        "antivenom",
+        "civilwarrior",
+        "colossus",
+        "cosmicghostrider",
+        "darkphoenix",
+        "dazzler",
+        "dormammu",
+        "ghostrider",
+        "havok",
+        "humantorch",
+        "iceman",
+        "ikaris",
+        "ironman",
+        "ironmaninfinitywar",
+        "jackolantern",
+        "kindred",
+        "kittypryde",
+        "kushala",
+        "maestro",
+        "nightthrasher",
+        "peniparker",
+        "phoenix",
+        "pixie",
+        "prowler",
+        "punisher2099",
+        "purgatory",
+        "sentry",
+        "storm",
+        "sunspot",
+        "superskrull",
+        "venompool",
+        "void",
+        "vulture"
+       ],
+       "potency": [
+        "agathaharkness",
+        "countnefaria",
+        "guardian",
+        "heimdall",
+        "karolinadean",
+        "mephisto",
+        "onslaught",
+        "silversurfer",
+        "superiorironman"
+       ]
+      }
+     }
+    },
+    {
+     "labelPt": "Imunes ou Resistentes a Choque",
+     "mcocgg": {
+      "property": "Shock",
+      "kind": "immunity",
+      "championIds": [
+       "absorbingman",
+       "adamwarlock",
+       "antman",
+       "arcade",
+       "betaraybill",
+       "cassielang",
+       "corvusglaive",
+       "countnefaria",
+       "doctordoom",
+       "dust",
+       "electro",
+       "emmafrost",
+       "havok",
+       "hulkling",
+       "ikaris",
+       "ironmaninfamous",
+       "korg",
+       "maestro",
+       "magneto",
+       "mangog",
+       "moleman",
+       "nebula",
+       "onslaught",
+       "pixie",
+       "sandman",
+       "scorpion",
+       "sersi",
+       "shocker",
+       "shuri",
+       "silvercenturion",
+       "silversurfer",
+       "storm",
+       "stormpyramidx",
+       "superiorironman",
+       "superskrull",
+       "terrax",
+       "thing",
+       "thor",
+       "thorjanefoster",
+       "thorragnarok",
+       "venompool"
+      ],
+      "signatureOnlyIds": [
+       "guardian",
+       "spiral",
+       "ultron"
+      ],
+      "synergyOnlyIds": [
+       "antmanfuture",
+       "deadpool",
+       "deadpoolxforce",
+       "odin",
+       "vulture"
+      ],
+      "idsByKind": {
+       "conditional": [
+        "absorbingman",
+        "adamwarlock",
+        "arcade",
+        "betaraybill",
+        "corvusglaive",
+        "emmafrost",
+        "ironmaninfamous",
+        "mangog",
+        "scorpion",
+        "silvercenturion",
+        "stormpyramidx",
+        "venompool"
+       ],
+       "duration": [
+        "sersi",
+        "spiral",
+        "ultron"
+       ],
+       "full": [
+        "antman",
+        "antmanfuture",
+        "cassielang",
+        "deadpool",
+        "deadpoolxforce",
+        "doctordoom",
+        "dust",
+        "hulkling",
+        "ikaris",
+        "korg",
+        "maestro",
+        "moleman",
+        "nebula",
+        "odin",
+        "sandman",
+        "shocker",
+        "shuri",
+        "storm",
+        "superskrull",
+        "terrax",
+        "thing",
+        "thorragnarok",
+        "vulture"
+       ],
+       "potency": [
+        "countnefaria",
+        "electro",
+        "guardian",
+        "havok",
+        "magneto",
+        "onslaught",
+        "pixie",
+        "silversurfer",
+        "superiorironman",
+        "thor",
+        "thorjanefoster"
+       ]
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

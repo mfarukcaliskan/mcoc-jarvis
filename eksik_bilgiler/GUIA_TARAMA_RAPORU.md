@@ -32,7 +32,7 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 | Campeões & Rotação (6 sınıf) | Şampiyon profili: ad, 1-10 yıldız, yetenek/bağışıklık maddeleri (PT) | **Alındı** → `guia_champions.json` (327 profil, 0 sınıf uyuşmazlığı). Derece = yazarın görüşü. 6 profilde yıldız sayısı ile yazılı derece çelişiyor (`ratingConflict`), 21 profilde bir bağışıklık maddesi mcoc.gg verisinde yok (`immunityNotInMcocgg`) |
 | Tier Lists (Offense/Defense, Eylül 2026) | 3 görsel, sınıf sütunlu tier tablosu + imza seviyesi etiketleri | **Alındı** → `guia_tiers.json` (ofansif 330, defansif 167 şampiyon; 497 karonun hepsi gözle doğrulandı). Savunma listesi sitede yalnızca 10-8 derece satırlarını içeriyor |
 | AW - Season 69 | 44 görsel: yol/düğüm/savunmacı/saldırgan tabloları | **Ana tablolar alındı** → `guia_aw_season69.json`: 9 yol × 4 düğüm + SUBS 1-3 + Boss Island = 50 düğüm, 800 karo (hepsi gözle doğrulandı), düğüm etkileri OCR. Yardımcı tablolar (Heal Block, Petrify, bağışıklık/counter listeleri, Hazard Shift listeleri) **alınmadı**: güvenilir karo ayrıştırması yapılamadı, tahminle veri üretilmedi |
-| AW - BIG THING (Ekim 2026) | Yeni AW modu, 94 görsel | Sırada |
+| AW - BIG THING (Ekim 2026) | Yeni AW modu (Sezon 70, 7 Ekim 2026), 95 görsel | **Alındı** → `guia_aw_bigthing.json`: 10 düğüm × (resmi harita adı + zorluk, Portekizce açıklama, Güç Yükü kazanma kuralları ve sayıları, 6 en iyi savunmacı [60/60 gözle doğrulandı]) + oyun kuralları (yasak yok, 2 saldırgan, 10 savunmacı 9-15 milyon can, +%25 saldırı/yük). Yardımcı listelerin 17'si `mcoc.gg` oyun verisiyle tam kadro olarak eklendi. Meta ekranında gösteriliyor |
 | Immunities / Abilities / DOT | Bağışıklık, yetenek, DOT listeleri | mcoc.gg ile çapraz doğrulanacak; mcoc.gg birincil kaynak |
 | Hazard Shift 2026 | 9 görsel, karışık yerleşim | İçerik mcoc.gg bağışıklıklarıyla örtüşüyor; ayrıntılı alınmadı |
 | 7 Star Prestige / Relics | 9 görsel | Sırada; sayısal değerler için mcoc.gg esas |
@@ -50,6 +50,13 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 - GuiaMTC yardımcı listelerinden eşleştirilebilen 10 bölüm (Heal Block, Petrify, Neutralize, Slow, Shock, Nullify, Reverse Controls, Buffs) `guia_aw69_helpers.json` içinde `mcocgg.all` ile **tam kadroya** tamamlandı; GuiaMTC'den okunan ile oyun verisi yan yana (`guiaConfirmed`, `guiaNotInGame`, `gameNotRead`).
 - **Birleştirilmeyenler:** GuiaMTC'nin "Counters" listeleri (Autoblock, Evade, Unstoppable, Invisibility) mcoc.gg'nin karşı-yetenek alanıyla yalnızca %60-75 örtüştü (tanımlar farklı: GuiaMTC Slow gibi mekanikle karşılayanları da sayar). Bu yüzden "tamamlama" olarak eklenmedi.
 - Counter Bulucu artık savunmacının yeteneklerini etkisizleştiren şampiyonları doğrudan bu dizinden öneriyor.
+
+## AW Big Thing bulguları
+
+- **Kaynak çelişkisi:** GuiaMTC'nin 9. düğüm başlığı "Imunidade a Atordoamento" (Stun Immunity), ama aynı paragrafın açıklaması ve resmi harita "Power Efficiency" (özel saldırılar %50 daha az güç harcar) diyor. Başlık kopyala-yapıştır hatası görünüyor; resmi harita adı esas alındı, çelişki `sourceConflicts`'ta.
+- **Çapraz kontrol (düğüm 5):** GuiaMTC'nin "Contra Ataque" listesindeki 5 şampiyondan 4'ü `mcoc.gg` etiketinde var; Spider-Punk yok ama oyun metni ("Counterculture Counter-Attack") mekaniği doğruluyor: etiket dizini eksik, GuiaMTC doğru.
+- **Tarih:** Sayfa "Sezon 70 (7 Ekim 2026)" der; yani rehber oyunda başlamadan önce yazılmış, resmi değişiklik olabilir.
+- Alınamayanlar: "Reversão de Cura", "Aumentam o Medidor de Combo" ve "Controlam o Poder" listelerinin `mcoc.gg`'de açık karşılığı yok; GuiaMTC'nin kendi görsel seçimleri (şampiyon bazlı not) okunmadı.
 
 ## Bilinen eksikler (bu turda alınmayanlar)
 

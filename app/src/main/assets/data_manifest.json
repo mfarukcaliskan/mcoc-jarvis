@@ -1,6 +1,6 @@
 {
-  "dataVersion": 44,
-  "generatedAt": "2026-10-01T15:30:40Z",
+  "dataVersion": 45,
+  "generatedAt": "2026-10-01T16:00:59Z",
   "files": {
     "capabilities.json": "c1bab93f3ba0d73593d582b4e31adf5f7ee146b4085a32f5c713e77f399168d6",
     "champions_db.json": "b292682385ceec0303e27fc2edf3508723cfb7eb4120dc890b1cc4f79fe0e9d2",
@@ -336,6 +336,7 @@
     "details/yellowjacket.json": "3ada6355e4b585cd764a77cf7377dd3ec791f01ae17daa73b8300f4ecce33264",
     "details/yondu.json": "9ef2bb1d576f7502cafa14b66241aa2ae41fa7d3253ff364706de93acaaa0cdf",
     "guia_aw69_helpers.json": "14049f5972805ad75b2571dff14ff69e5ce0fe1f2274bbc07b31fef1567f5119",
+    "guia_aw_bigthing.json": "de15e76d01710f389a90ee85c99f76a9a9d99fc4b7ef47d1702f7d54d823f2f6",
     "guia_aw_globals.json": "8cd73d3bdb99b9bb4d5040d95bccaa7aa17a62643a85833b46c002264d36e988",
     "guia_aw_season69.json": "e503d58415331b8be39196884be644e9df42f685e59216dc4e7007dd59f08982",
     "guia_champions.json": "318371d1be63b81ed4c6b3e47bb0b4ef59d10678ec9a779278f0d9b33dd0efa8",
