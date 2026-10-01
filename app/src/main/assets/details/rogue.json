@@ -18,6 +18,43 @@
     "synergies": [],
     "howToPlay": "Rogue için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Rogue Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• TÜM olumsuz etkilerin süresini %70 azaltır ⏰"
+    "signatureAbility": "Psyche Absorption\nAbsorbing the very fabric of enemy psyche, every Life or Power Steal has a [15 - 40]% chance to be Critical, increasing the amount absorbed.",
+    "immunityDetails": "• TÜM olumsuz etkilerin süresini %70 azaltır ⏰",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "After absorbing the power of Carol Danvers, the original Ms. Marvel, Rogue possessed an amalgamated mutant/Kree physiology, decreasing the duration of Debuffs by 70%."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Replicates 5 of the opponent's active Buffs. Opponents cannot activate those Buffs as long as Rogue holds them. Rogue's Replicate effect does not work on opponents of the Tech Class, or Unstoppable Buffs.",
+                "Rogue can only copy the following Buffs: Regeneration, Fury, Precision, Armor Up, Cruelty, Physical Resistance, Energy Resistance, Power Gain, Prowess, Energize, and Aptitude",
+                "Replicated Buffs last until a 2.5 second timer expires, after which they are Nullified. This timer is refreshed when Rogue strikes the Opponent or their Block.",
+                "The second hit of this Attack deals [2,328.48] Energy Damage, and then Regenerates Rogue for [2,328.48] health.",
+                "Rogue is healed for 100% of the Life Stolen."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% Chance per hit to Power Steal, taking 9% of their Power as your own."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% Chance to Power Steal, taking 27% of their Power as your own.",
+                "Activates 1 Buff per type that was Replicated during the fight. Buffs stay active as long as Rogue keeps touching the opponent. Opponents can not activate those Buffs as long as Rogue holds them."
+            ]
+        },
+        {
+            "title": "Signature Ability - Psyche Absorption",
+            "content": [
+                "Absorbing the very fabric of enemy psyche, every Life or Power Steal has a [15 - 40]% chance to be Critical, increasing the amount absorbed."
+            ]
+        }
+    ]
 }

@@ -10,5 +10,32 @@
     "synergies": [],
     "howToPlay": "Kang için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kang Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Kang Armor\nKang's Power level fuels his neuro-kinetic suit of armor, endowing him with up to [1,178.57 - 8,255.39] Armor Rating based on stored Power.",
+    "abilitySections": [
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to Stun for 2.4 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to Stun for 2 second(s).",
+                "Depletes up to 100% of the target's max Power."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict Heal Block, preventing the target from recovering Health for 12 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Kang Armor",
+            "content": [
+                "Kang's Power level fuels his neuro-kinetic suit of armor, endowing him with up to [1,178.57 - 8,255.39] Armor Rating based on stored Power."
+            ]
+        }
+    ]
 }

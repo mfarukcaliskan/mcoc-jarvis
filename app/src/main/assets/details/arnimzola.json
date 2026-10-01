@@ -16,6 +16,69 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bloklayınca (3) veya ağır olmayan vuruşla vurulunca (1) yük kazanır; 20 yükte %10 şansla 3sn pasif uyku uygular (uyurken tamamen savunmasız kalırsın). Ağır saldırıyla yere serilince 10 yük kaybeder — sık ağır saldırı kullanan şampiyonlar en iyi cevap; ağır saldırı yüklerken pasif sersemletme uygulayanlar direkt kontra. Görünmezlik veya durdurulamazlık olan şampiyonlar da güvenle ağır saldırı kullanabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Arnim Zola Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️"
+    "signatureAbility": "Grasp of Hydra\nUpgrades to his intricate neural network grant Zola the #Psychic Shielding tag while in a fight.\nStriking a Sleeping Opponent grants Zola an Unblockable Passive for [2.8 - 12] seconds.\nWhen Zola's Special Attacks remove his Disintegration Debuffs, each Debuff deals a final burst of [491.27 - 987.5] Direct Damage.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Advanced robotics provides Immunity to Bleed and Poison, and Zola's Ability Accuracy and Combat Power Rate can only be modified by his own effects.",
+                "The Critical Penetration of the Opponent's Basic Attacks is reduced by -80% flat, and Zola cannot lose more than 10% of his Max Health from a single damage source, other than a Special Attack 3.",
+                "Zola's first Medium and first Light Attacks are kinetic pulses that do not make contact."
+            ]
+        },
+        {
+            "title": "Systems of Control",
+            "content": [
+                "Zola can activate a Pre-Fight Ability to select either a Special 1 Lock or a Special 2 Lock. When Zola finishes a Special Attack, he inflicts the selected effect as a Passive for 20 seconds.",
+                "If neither Pre-Fight is selected, during the Opponent's Special Attacks they are inflicted with a 30% Cowardice Debuff. As a Defender, this becomes a 90% Cowardice Passive."
+            ]
+        },
+        {
+            "title": "ESP Box - Sleep",
+            "content": [
+                "When Zola is struck by anything other than a Heavy Attack, he gains an indefinite ESP Charge. When Zola Blocks any hit, he gains 3 Charges. Max stacks: 30.",
+                "20+ Charges: Before being hit by a Basic Attack, Zola has a 10% chance to consume all ESP Charges and inflict a Sleep Passive for 3 seconds. For each Charge over 20, the chance is increased by +5% flat. During a Well-Timed Block, the chance is increased to 100%.",
+                "If Zola is knocked down by a Heavy Attack, he loses 10 ESP Charges."
+            ]
+        },
+        {
+            "title": "Disintegration Gauntlets - Heavy Attacks",
+            "content": [
+                "The first hit of Zola's Heavy Attack inflicts a 0.5% Disintegration Debuff dealing [296.25] Direct Damage over 0.5 seconds. If the Opponent was not Stunned, inflict 5 additional Debuffs.",
+                "While the Opponent is suffering from any of these Disintegration Debuffs, all of Zola's hits inflict another Disintegration Debuff.",
+                "These Disintegration Debuffs are paused while Zola is charging or performing a Heavy or Special Attack, and the final hit of Zola's Special Attacks removes them."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a 10% Energize Passive for 60 seconds. Max stacks: 5.",
+                "The first hit grants a +[2,962.5] Fury Buff for 4 seconds, paused until the start of Zola's next Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, inflict a 40% Disintegration Passive dealing [4,937.5] Direct Damage over 10 seconds.",
+                "Each buzzsaw hit consumes 1 of Zola's personal Energizes to inflict a 10% Disintegration Passive dealing [11,850] Direct Damage over 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict an Armor Break Debuff, reducing Armor Rating by [1,178.57] for 20 seconds. Max stacks: 5.",
+                "Gain a Self-Repair Passive healing 100% of Zola's missing Health over 20 seconds. This Self-Repair is lost if Zola is Stunned.",
+                "For each time this Special Attack has been used previously in the Quest, these effects' base durations are tripled. Zola's anti-exponential algorithms won't let this increase more than 3 times."
+            ]
+        },
+        {
+            "title": "Signature Ability - Grasp of Hydra",
+            "content": [
+                "Upgrades to his intricate neural network grant Zola the #Psychic Shielding tag while in a fight.",
+                "Striking a Sleeping Opponent grants Zola an Unblockable Passive for [2.8 - 12] seconds.",
+                "When Zola's Special Attacks remove his Disintegration Debuffs, each Debuff deals a final burst of [491.27 - 987.5] Direct Damage."
+            ]
+        }
+    ]
 }

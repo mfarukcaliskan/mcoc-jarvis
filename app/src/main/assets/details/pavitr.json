@@ -15,5 +15,89 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlike rakipteki her bonus için %2 kaçış şansı (20 bonusa kadar uygulayabilir, yani %40'a kadar) — bonus immün şampiyon veya kaçış-karşıtı şampiyon şart.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man (Pavitr Prabhakar) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Seshnag\nEach Buff on the Opponent reduces the duration of Inexorable and Unstoppable effects on them by [3 - 10]%, to a maximum of 80%.\nPersonal Energy Vulnerabilities are paused during Pavitr's Special Attacks, and for [2 - 5] seconds after for each level of the Special.\nFor every 25% of the Opponent's missing Health, Pavitr's Marked Passive gains 100% base potency, even if already active.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Pavitr's attacks deal a burst of [569.04] Energy Damage and do not make contact with Cosmic Opponents.",
+                "For each Buff on the Opponent, Pavitr gains a 2% chance to Evade incoming attacks. Pavitr will not Evade while Blocking a Basic Attack.",
+                "Being Spider-Man is so easy that Pavitr does not need to benefit from the Mystic Dispersion Mastery.",
+                "Pavitr can toggle whether he starts to run after idling by double tapping Block during his Heavy and Special Attacks."
+            ]
+        },
+        {
+            "title": "Shape The Battlefield - Mystic Webs",
+            "content": [
+                "At the start of each fight, Pavitr summons three Mystic Webs onto the stage, one at each wall and another in the center.",
+                "When Pavitr's Opponent passes through a Mystic Web, it binds to them, placing a Spider-Seal Buff on them. The webs will then reform after 3 seconds, or instantly when Pavitr activates a Special Attack.",
+                "If Pavitr knocks his Opponent through a Mystic Web during a Special Attack, he places two additional Spider-Seals on them for each level of the Special Attack."
+            ]
+        },
+        {
+            "title": "The Subtle Body - Power Steal",
+            "content": [
+                "When the Opponent gains 1+ Buffs, Pavitr Power Steals 2% of their Max Power or 4% of their current Power, whichever is more.",
+                "This Power Steal's base potency is increased by 125% while the Opponent has an Energize or Power Gain Buff, and it does not trigger when the Opponent has 3 Bars of Power."
+            ]
+        },
+        {
+            "title": "Titan Hunter - Neutralize",
+            "content": [
+                "During the Opponent's Special Attacks, Pavitr inflicts a 35% Neutralize Passive for the duration of the attack and for 2 seconds afterwards. This Neutralize reduces the Ability Accuracy of True Buffs by an additional non-stacking 50%.",
+                "When a Buff is prevented by Neutralize or Marked, Pavitr places a Spider-Seal Buff on the Opponent."
+            ]
+        },
+        {
+            "title": "Seal Away Evil - Spider-Seal Buffs - Max: 20",
+            "content": [
+                "Spider-Seals are indefinite and have no effect on their own. Pavitr gains benefits based on how many are active on his Opponent.",
+                "5+ Seals: The Opponent acts more aggressively when not within striking distance, and Pavitr inflicts a second Neutralize during the Opponent's Special Attacks.",
+                "10+ Seals: Personal bursts of damage gain 400% increased potency.",
+                "15+ Seals: Activating a Special Attack grants a +[1,612.28] Fury Passive for {45} seconds. Reaching 15 Seals for the first time during a Special Attack also grants this Fury. Max stacks: 3."
+            ]
+        },
+        {
+            "title": "Heavy Attack",
+            "content": [
+                "The final hit Nullifies 1 Fury Buff and inflicts a Power Steal Passive, stealing 50% of a Bar of Power over 5 seconds. Cooldown: 25 seconds."
+            ]
+        },
+        {
+            "title": "Waiting to Strike - Special Attacks",
+            "content": [
+                "When Pavitr activates a Special Attack during the Opponent's Dash or immediately upon Dodging, inflict a [687.5] Energy Vulnerability Passive for 18 seconds. Max stacks: 5."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Crab Bow Mount",
+            "content": [
+                "On activation, inflict a 35% Marked Passive for 24 seconds, refreshed when Pavitr performs any Special Attack, unless he is Poisoned.",
+                "The final hit places 2 Spider-Seal Buffs on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Agninrutyam",
+            "content": [
+                "During this attack, Pavitr gains an additional +[2,086.48] Attack Rating for each personal Fury active.",
+                "The final hit consumes all but {5} Spider-Seals on the Opponent to deal a burst of [11,380.8] Energy Damage. Base potency is increased by 10% for each Buff consumed."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Flight of the Chrysilla Volupe",
+            "content": [
+                "Inflict an 80% Neutralize Debuff for 45 seconds",
+                "Gain a Regeneration Passive, healing 15% of missing Health over 15 seconds. Base potency is increased by 5% per Spider-Seal Buff on the Opponent.",
+                "Pavitr finishes this attack in the same place he activated it if he is on the Opponent's side of the field."
+            ]
+        },
+        {
+            "title": "Signature Ability - Seshnag",
+            "content": [
+                "Each Buff on the Opponent reduces the duration of Inexorable and Unstoppable effects on them by [3 - 10]%, to a maximum of 80%.",
+                "Personal Energy Vulnerabilities are paused during Pavitr's Special Attacks, and for [2 - 5] seconds after for each level of the Special.",
+                "For every 25% of the Opponent's missing Health, Pavitr's Marked Passive gains 100% base potency, even if already active."
+            ]
+        }
+    ]
 }

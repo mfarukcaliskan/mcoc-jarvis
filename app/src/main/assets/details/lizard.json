@@ -15,6 +15,70 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Node'a çok bağımlı bir savunmacı. Aldığı hasarın %65'ini pasif iyileştirir (garanti kritikleri iyileştiremez, doğrudan/sürekli hasarı da iyileştiremez) — iyileşme engeli tercih et. Özel saldırılarında 4'e kadar retribution uygular (özel saldırı hasarının %80'ini geri verir) — sürekli hasar veren node'larda bu ciddi sorun. Bonus nötralize eder veya immünse pasif durdurulamaz olur.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Lizard Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Engeli Bağışıklığı (Buff veya Durdurulamaz varken) 💚🚫\n• Özel saldırılar sırasında Buff almaz 🗡️🚫"
+    "signatureAbility": "Reptilian Complex\nIncrease the potency of personal Retributions by [5 - 25]%.\nGain +[70.5 - 485.29] Block Proficiency.\nWhile the Opponent has at least 2 Bars of Power, they are inflicted with a 100% Wither Debuff.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Engeli Bağışıklığı (Buff veya Durdurulamaz varken) 💚🚫\n• Özel saldırılar sırasında Buff almaz 🗡️🚫",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Immune to Poison, and Immune to Heal Block while under the effect of a Buff or an Unstoppable effect.",
+                "Lizard's Regeneration Rate can only be reduced below 50% by Skill Champions."
+            ]
+        },
+        {
+            "title": "Lizard Healing Factor",
+            "content": [
+                "When struck, gain a Regeneration Passive that recovers 60% of the damage taken over 20 seconds. Guaranteed Critical Hits do not trigger this Regeneration.",
+                "When inflicted by an Incinerate, Coldsnap, or Frostbite effect by a Skill Champion, lose one Regeneration effect."
+            ]
+        },
+        {
+            "title": "Rending Claws",
+            "content": [
+                "All of Lizard's attacks have a 25% chance to inflict a [1,007.1] Rupture Debuff for 6 seconds. Max stacks: 20.",
+                "When the Opponent activates a Special Attack, for each Physical or Direct Damage Over Time effect on them (excluding effects from Masteries), deal a burst of [3,826.98] Physical Damage. This damage scales with Base Attack only, but scales up with the level of Special Attack used, and the Opponent's current Power on activation.",
+                "Personal Ruptures have a 50% chance to be removed when they trigger this burst of damage.",
+                "Striking a non-Stunned Opponent with a Heavy Attack pauses all personal Debuffs on the Opponent for 15 seconds. This effect does not trigger if the Opponent was Stunned during any of the hits.",
+                "Intercepting the Opponent or Punishing their Heavy or Special Attacks inflicts a Tracking Debuff for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "For the duration of his own Special Attacks, Lizard is Buff Immune.",
+                "Each Special Attack hit that hits, is Blocked, or Whiffs inflicts a 20% Retribution Passive, lasting 12 seconds per level of the Special Attack, and is paused during Special Attacks. Max stacks: 4.",
+                "If the Opponent Dodges a hit, Retribution is not inflicted.",
+                "While these Retributions are within 6 seconds of expiring, the Opponent is more likely to activate a Special Attack."
+            ]
+        },
+        {
+            "title": "Primal Rage",
+            "content": [
+                "When Immune to a Buff or when a Buff on Lizard is Nullified or Staggered, gain an Unstoppable Passive for 3 seconds, paused during Special Attacks. As an Attacker, if Lizard is struck while this Unstoppable is active, it starts a 10 second cooldown.",
+                "While this Unstoppable is active, gain an Unblockable Passive and +[8,560.35] Attack Rating."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a non-stacking 8.33% Rejuvenate Passive for 20 seconds. While this effect is active gain +[6,042.6] Attack Rating.",
+                "On activation, gain a non-stacking 100% Fervor Passive for 20 seconds, paused during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 2 and 3",
+            "content": [
+                "The final hit deals a burst of Physical Damage equal to 125% of all the damage the Opponent has taken during their own Special Attacks, up to a max of [201,420] damage. Damage counting resets once the damage is dealt.",
+                "Special Attack 3 deals an extra burst of this Physical Damage, equal to 55% of the damage the Opponent has taken."
+            ]
+        },
+        {
+            "title": "Signature Ability - Reptilian Complex",
+            "content": [
+                "Increase the potency of personal Retributions by [5 - 25]%.",
+                "Gain +[70.5 - 485.29] Block Proficiency.",
+                "While the Opponent has at least 2 Bars of Power, they are inflicted with a 100% Wither Debuff."
+            ]
+        }
+    ]
 }

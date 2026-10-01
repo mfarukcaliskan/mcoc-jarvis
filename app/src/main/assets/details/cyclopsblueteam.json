@@ -13,5 +13,64 @@
     "synergies": [],
     "howToPlay": "Cyclops (Blue Team) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cyclops (Blue Team) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "To Me, My X-men\nLeading the charge, Cyclops stores [50 - 90]% of the damage taken from Bleeds and from Physical Thorns as Adrenaline.\nFor each other #X-Men Champion on the team, Cyclops enters his first fight with a Persistent Tactician Charge, each increasing his personal Prowess potency by +[0.2 - 2]% flat, and his personal True Focus and Precision durations by +1 second. Winning a fight grants Cyclops +1 Charge. Max stacks: 10.",
+    "abilitySections": [
+        {
+            "title": "Calm Under Pressure",
+            "content": [
+                "Always at the ready, Cyclops's Defensive Ability Accuracy cannot be reduced.",
+                "As an Attacker, rather than running forward when not performing an action, Cyclops stands still. This stoicism unnerves the Opponent and makes them more aggressive.",
+                "Start each fight against non-Tech Champions with a True Focus Buff for 10 seconds, refreshed when gaining a personal Precision. If not active, it retriggers when Cyclops activates any Special Attack."
+            ]
+        },
+        {
+            "title": "Precision",
+            "content": [
+                "A master marksman, Cyclops's Precision Passives increase his Critical Rating by +[144.74] for 10 seconds. These expire one at a time and are refreshed when he gains a new one. Max stacks: 20.",
+                "The third Basic Attack in a combo grants Cyclops a Precision Passive.",
+                "Intercepting the Opponent grants Cyclops a Precision Passive. Intercepting with a Special Attack grants +4 additional Precisions."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "At 10+ personal Precisions, Cyclops's Special Attacks are Passively Unblockable.",
+                "For each personal Precision, the first hit of a Special Attack that lands grants Cyclops a +20% Prowess Passive for 2 seconds. Max stacks: 100.",
+                "Personal effects are refreshed and paused during Cyclops's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a 20% Power Efficiency Passive for 2 seconds. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a non-stacking 30% Power Efficiency Passive for 2 seconds.",
+                "On activation, gain 5 personal Precision Passives."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "On activation, gain a 5% Power Efficiency Passive for 2 seconds.",
+                "As an Attacker, this Special Attack can only be activated with at least 20 personal Precisions and only once per fight, but it costs 100% less Power."
+            ]
+        },
+        {
+            "title": "Secret Ability - Special Protection",
+            "content": [
+                "All Special Attack damage from Havok is reduced to 0."
+            ]
+        },
+        {
+            "title": "Signature Ability - To Me, My X-men",
+            "content": [
+                "Leading the charge, Cyclops stores [50 - 90]% of the damage taken from Bleeds and from Physical Thorns as Adrenaline.",
+                "For each other #X-Men Champion on the team, Cyclops enters his first fight with a Persistent Tactician Charge, each increasing his personal Prowess potency by +[0.2 - 2]% flat, and his personal True Focus and Precision durations by +1 second. Winning a fight grants Cyclops +1 Charge. Max stacks: 10."
+            ]
+        }
+    ]
 }

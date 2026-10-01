@@ -17,6 +17,79 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Her dövüşe aktif güç alanıyla başlar (%100 otomatik blok+siper, 8sn'de bir), isabetli saldırı ve kesin isabeti engeller. Abalo (impact) efektli şampiyonlar (Vox, Scream, Gorr) otomatik bloğu tamamen yok sayar; kesin-isabetli şampiyonlar (Mole Man, Medusa, Bullseye, Attuma) da yok sayar. Sanar veya sersemletme-immün şampiyonlar (Chee'ilth, Lumatrix, Baron Zemo) sorunu küçültür.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "M.O.D.O.K. Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %50 Zehir direnci (Abomination ile sinerji) 🧪"
+    "signatureAbility": "Master Plan\nM.O.D.O.K.'s personal Debuffs gain [15-60]% increased Ability Accuracy.\nWhen M.O.D.O.K. is attacked while the Force Field is active, he removes all Stun effects on himself. Personal Auto-Blocks are considered Well-Timed Blocks and can trigger the Parry Mastery.\nWhen the Opponent activates a Special Attack, M.O.D.O.K. removes all of their True Strike and True Sense effects.",
+    "immunityDetails": "• %50 Zehir direnci (Abomination ile sinerji) 🧪",
+    "abilitySections": [
+        {
+            "title": "Flux Passive",
+            "content": [
+                "M.O.D.O.K.'s attributes fluctuate throughout the fight in a complex and seemingly unpredictable manner. It would take a super-genius to calculate the pattern…",
+                "Up to +[12,201.6] Attack Rating.",
+                "Up to +[1,069.44] Block Proficiency.",
+                "Up to +[1,685.48] Critical Damage.",
+                "Up to +40% Combat Power Rate.",
+                "Up to 100% increased Defensive Ability Accuracy.",
+                "Reduce the Ability Accuracy of Opponent's True Strike and True Sense effects by 50%, up to 100%."
+            ]
+        },
+        {
+            "title": "Force Field Passive",
+            "content": [
+                "M.O.D.O.K. starts each fight with a Force Field active. When removed or caused to fail, it goes on cooldown for 8 seconds, then reactivates. If fighting a Skill Champion, the Force Field starts on cooldown.",
+                "The Force Field's Ability Accuracy cannot be reduced, unless fighting a Skill Champion.",
+                "While the Force Field is active, M.O.D.O.K. gains +[239.13] Block Proficiency and has a 100% chance to Auto-Block incoming attacks. Triggering this Auto-Block removes the Force Field.",
+                "While the Force Field is active, the Opponent's Ability Power Rate is reduced by up to 100% based on Flux.",
+                "As a Defender, the Force Field also grants a Steadfast Passive."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "M.O.D.O.K.'s Critical Rating is set to 0, and cannot be increased by outside sources.",
+                "Every 7th hit gains +[11,000] Critical Rating. If triggered during a Special Attack, the bonus persists for the rest of the Special."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Each hit has a 50% chance to inflict an Incinerate Debuff dealing [6,100.8] Energy Damage over 4 seconds. Max stacks: 8."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "During each hit, the Opponent's current Combat Power Rate is reduced by 100%.",
+                "During this attack, the Opponent suffers -250% Ability Power Rate and Regeneration Rate."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit has a 60% chance to inflict a Bleed Debuff dealing [6,100.8] Direct Damage over 6 seconds. Max stacks: 3.",
+                "Bleed duration is increased by up to 100% based on Flux."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Each rocket has an 80% chance to inflict one of the following Debuffs:",
+                "Bleed dealing [6,100.8] Direct Damage over 8 seconds.",
+                "Incinerate dealing [6,100.8] Energy Damage over 4 seconds.",
+                "[305.56] Fatigue for 12 seconds.",
+                "[126.57] Exhaustion for 9 seconds.",
+                "A 6 second Weakness with 45% potency.",
+                "Poison dealing [7,626] Direct Damage over 10 seconds.",
+                "Heal Block for 7 seconds.",
+                "85% Concussion for 11 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Master Plan",
+            "content": [
+                "M.O.D.O.K.'s personal Debuffs gain [15-60]% increased Ability Accuracy.",
+                "When M.O.D.O.K. is attacked while the Force Field is active, he removes all Stun effects on himself. Personal Auto-Blocks are considered Well-Timed Blocks and can trigger the Parry Mastery.",
+                "When the Opponent activates a Special Attack, M.O.D.O.K. removes all of their True Strike and True Sense effects."
+            ]
+        }
+    ]
 }

@@ -10,5 +10,73 @@
     "synergies": [],
     "howToPlay": "Captain America (Infinity War) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Captain America (Infinity War) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Leadership\nAn excellent leader, Captain America learns from his teammates gaining a unique effect, while Kinetically Charged, for each class represented on his team, excluding himself.\nMutant: [40 - 100]% chance on triggering a Special Attack to gain +1 Kinetic Potential.\nSkill: [40 - 100]% chance whenever a Debuff is gained, Consume 1 Kinetic Potential to Purify it.\nScience: [40 - 100]% chance on a Well-Timed Block to place a 10% Weakness Debuff on the Opponent for 10 seconds.\nCosmic: [40 - 100]% chance on a Well Timed Block to place an Armor Break Debuff on the Opponent, reducing their Armor by [305.56] for 10 seconds.\nTech: [40 - 100]% chance on a Well Timed Block to place a 25% Petrify Debuff on the Opponent for 10 seconds.\nMystic: [40 - 100]% chance to gain 1 Kinetic Potential each time a Buff Expires or is Nullified on the Opponent.",
+    "abilitySections": [
+        {
+            "title": "Kinetic Potential - Passive",
+            "content": [
+                "Captain America's vibranium vambraces can store up to 5 Kinetic Potential charges. He will not generate any new Kinetic Potential while at this limit.",
+                "15% Chance when Struck to gain 1 Kinetic Potential(s).",
+                "50% Chance when Blocking to gain +1 Kinetic Potential. This chance increases to 100% on a Well Timed Block.",
+                "100% Chance when Stunned to gain +1 Kinetic Potential.",
+                "Kinetic Potential falls off over time, falling off faster the longer its been since it last increased."
+            ]
+        },
+        {
+            "title": "Kinetically Charged - Passive",
+            "content": [
+                "As long as Cap has at least 1 Kinetic Potential, he is considered to be Kinetically Charged, and gains the following bonuses as Passive effects:",
+                "+[4,986.5] Attack",
+                "+[916.67] Physical Resistance",
+                "+[916.67] Energy Resistance",
+                "100% chance to Nullify all Unstoppable Buffs when striking the Opponent.",
+                "+30% chance to cause Opponent's attacks to Glance. This chance increases by 100% against Mystic Champions."
+            ]
+        },
+        {
+            "title": "When Charging a Heavy Attack",
+            "content": [
+                "Beginning to charge a Heavy Attack grants a Passive Fury granting +[4,986.5] Attack per Kinetic Potential, lasting for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "After any special Attack, Cap consumes all Kinetic Potential."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to inflict Bleed, dealing [2,493.25] Direct Damage over 3.5 seconds.",
+                "Reduces Opponent's Defensive Ability Accuracy by 100% if Kinetically Charged."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to Stun for 1 second(s).",
+                "Each Kinetic Potential charge grants +[4,986.5] Attack and +0.5 second(s) Stun Duration."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If Kinetically Charged gain +[9,973] Attack for each different Class on Cap's team, not including himself, up to 2 Classes.",
+                "Gain 1 Non-Consumable Kinetic Potential charge which lasts 30 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Leadership",
+            "content": [
+                "An excellent leader, Captain America learns from his teammates gaining a unique effect, while Kinetically Charged, for each class represented on his team, excluding himself.",
+                "Mutant: [40 - 100]% chance on triggering a Special Attack to gain +1 Kinetic Potential.",
+                "Skill: [40 - 100]% chance whenever a Debuff is gained, Consume 1 Kinetic Potential to Purify it.",
+                "Science: [40 - 100]% chance on a Well-Timed Block to place a 10% Weakness Debuff on the Opponent for 10 seconds.",
+                "Cosmic: [40 - 100]% chance on a Well Timed Block to place an Armor Break Debuff on the Opponent, reducing their Armor by [305.56] for 10 seconds.",
+                "Tech: [40 - 100]% chance on a Well Timed Block to place a 25% Petrify Debuff on the Opponent for 10 seconds.",
+                "Mystic: [40 - 100]% chance to gain 1 Kinetic Potential each time a Buff Expires or is Nullified on the Opponent."
+            ]
+        }
+    ]
 }

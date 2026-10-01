@@ -15,6 +15,71 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Garanti kritik veya 2sn içinde 2 kritikle vurulunca 20sn süren, cooldown'suz bir pasif kazanır (kritik vurmayı tamamen engeller) — hasar efektli şampiyon şart. Her 15 vuruşta 3sn pasif durdurulamaz olur, bu özel saldırı sırasında bile aktif. Yavaşlatma veya durdurulamaz-karşıtı mekanikler (Resilience gibi) iyi ama hasar efekti de taşımalı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Gentle Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸"
+    "signatureAbility": "Vibranium Tattoos\nReduce the health lost when finishing a Special Attack at max stack of Muscle Mass by [5 - 50]%. While Unstoppable this damage reduction is increased by 50%.\nWhile Unstoppable, Special Attacks cost [1 - 10]% less Power. This potency is doubled against Skill Champions.\nGain +[27.78 - 56.11] Block Penetration per Muscle Mass.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Gentle is Immune to Bleed, and while performing a Well-Timed Block he is Immune to Stun.",
+                "When an Immunity triggers, or when the Opponent Purifies or Cleanses a Debuff, gain a Pursuit Passive for 15 seconds.",
+                "When Critically Hit through Block, struck by a Guaranteed Critical Hit, or if struck by 2 Critical Hits within 2 seconds of each other, gain a Reinforce Passive for 20 seconds."
+            ]
+        },
+        {
+            "title": "Unstoppable",
+            "content": [
+                "When either Champion's Combo Meter passes a multiple of 15, gain an Unstoppable Passive for 3 seconds.",
+                "When the Opponent Purifies or Cleanses a Stun Debuff, or triggers a Stun Immunity, gain Unstoppable and Indestructible Passives for 2 seconds. This effect has a 5 seconds cooldown, and the Opponent's Special Attack 3 removes the Indestructible."
+            ]
+        },
+        {
+            "title": "Muscle Mass - Max: 12",
+            "content": [
+                "When striking with or being struck by Basic Attacks, Gentle has a 31.8% chance to gain Muscle Mass, granting +[754.72]. Attack Rating for 15 seconds, paused during Special Attacks.",
+                "For each active Muscle Mass, inflict a 5% Daunted Passive.",
+                "When struck and when starting a Combo against a non-Stunned Opponent, Muscle Mass is paused for the duration of the Combo, plus 4 seconds if it was a 5-Hit Combo.",
+                "Heavy Attacks pause Muscle Mass for 3 seconds. This effect has a 15 second cooldown if striking a Stunned Opponent.",
+                "Gentle's fourth  Light Attack does not grant Muscle Mass but consumes one Muscle Mass to inflict a [8,183.7] Rupture Debuff for 15 seconds. Max: 3.",
+                "At max Muscle Mass, inflict an extra 60% Daunted Passive, but Gentle loses 10% of his Base Health when finishing a Special Attack. Gentle does not benefit from the Recoil Mastery, but each point increases this Daunted's potency by +10% flat."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Pause Unstoppable effects for the duration of the Special Attack. This pause does not trigger against Tech Champions.",
+                "While Unstoppable,gain +[4,546.5] Attack Rating."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final hit inflicts a Fear Passive for 15 seconds.",
+                "When this attack ends, gain 5 Muscle Mass."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "For the duration of this Special Attack gain +[5,500] Critical Rating, but Critical Damage Rating is reduced by 50%.",
+                "On activation, gain a non-stacking 25% Reverb Passive for 15 seconds and refresh any personal Fear Passives",
+                "When this attack ends, gain non-stacking [11,000] Physical Resistance Passive for 20 seconds, or 30 seconds as Defender."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "On activation, gain a non-stacking 35% Reverb Passive for 25 seconds.",
+                "Gain 12 Muscle Mass."
+            ]
+        },
+        {
+            "title": "Signature Ability - Vibranium Tattoos",
+            "content": [
+                "Reduce the health lost when finishing a Special Attack at max stack of Muscle Mass by [5 - 50]%. While Unstoppable this damage reduction is increased by 50%.",
+                "While Unstoppable, Special Attacks cost [1 - 10]% less Power. This potency is doubled against Skill Champions.",
+                "Gain +[27.78 - 56.11] Block Penetration per Muscle Mass."
+            ]
+        }
+    ]
 }

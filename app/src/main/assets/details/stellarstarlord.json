@@ -14,5 +14,75 @@
     "synergies": [],
     "howToPlay": "Star-Lord (Stellar-Forged) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Star-Lord (Stellar-Forged) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "While a Combo Shield is Active\nPrecision Buffs on Star-Lord expire [15 -50]% slower.\nDuring Star-Lord's Special Attacks, he takes [25 - 75]% reduced damage from all sources.",
+    "abilitySections": [
+        {
+            "title": "A Lord Forged in ISO - Always Active",
+            "content": [
+                "Star-Lord's Stellar Enhancement grants him a Fractured Power Bar.",
+                "The hit following a Critical Hit has 10% increased Combat Power Rate.",
+                "The duration of Star-Lord's effects all benefit from Class Advantage. The increased duration for Class Advantage is shown in brackets for each effect."
+            ]
+        },
+        {
+            "title": "Combo Meter",
+            "content": [
+                "At the start of each fight, Star-Lord gains a Combo Shield Passive for 30 (42) seconds.",
+                "Light and Heavy Attacks grant +1 Combo Meter.",
+                "Each time Star-Lord crosses a Combo Meter threshold of 20, he gains an indefinite Persistent Cruelty Charge, increasing Critical Damage Rating by +[493.9]. Max stacks: 20.",
+                "+[127.62] Attack Rating for each Persistent Charge."
+            ]
+        },
+        {
+            "title": "Heavy Attack",
+            "content": [
+                "Each hit grants a Precision Buff, granting +[964.29] Critical Rating for 15 (21) seconds. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Element Gun - Rotation",
+            "content": [
+                "Star-Lord's Element Gun rotates through four elemental modes, starting with Earth, and rotating to the next Element in order each time the Element Gun is fired during Special Attacks 1 or 3.",
+                "The Element is also rotated when Star-Lord lands a second Medium Attack."
+            ]
+        },
+        {
+            "title": "Element Gun Effects - Non-Stacking",
+            "content": [
+                "Earth: Inflict a Vulnerability Debuff for 15 (21) seconds, reducing Physical and Energy Resistance by [1,500].",
+                "Fire: Inflict a Critical Incinerate Debuff dealing [6,381] Energy Damage multiplied by Star-Lord's Critical Damage Multiplier over 15 (21) seconds.",
+                "Water: Gain a Combo Wave Passive for 10 (14) seconds.",
+                "Air: Pause all other Element Gun effects for 10 (14) seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Element Gun",
+            "content": [
+                "The last hit fires the Element Gun in its current elemental mode.",
+                "If this attack is a Well-Timed Special, the next Element in order is also activated."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Rocket Kick",
+            "content": [
+                "On activation, gain a Combo Shield Passive for 20 (28) seconds.",
+                "This attack is a Guaranteed Critical Hit."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Heroic Blast",
+            "content": [
+                "Fire the Element Gun in its current elemental mode.",
+                "Each other Element can also activate with each chance matching Star-Lord's current Critical Hit Chance.",
+                "Refresh all Element Gun effects."
+            ]
+        },
+        {
+            "title": "Signature Ability - While a Combo Shield is Active",
+            "content": [
+                "Precision Buffs on Star-Lord expire [15 -50]% slower.",
+                "During Star-Lord's Special Attacks, he takes [25 - 75]% reduced damage from all sources."
+            ]
+        }
+    ]
 }

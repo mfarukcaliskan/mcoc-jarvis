@@ -16,6 +16,63 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Pasif güç kazanımına dikkat et, sersemlemişken vurma (kaçar). Güç kontrolcüleri veya petrify erişimi olan şampiyonlar en iyisi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mordo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Silme (Nullify) Bağışıklığı (Mystic'lere karşı, Wong ile sinerji) 🔮"
+    "signatureAbility": "Mystical Barrier\nBy conjuring a magical barrier, Mordo gains [7,055.32 - 24,821.12] Energy Resistance while he remains Blocking.\nIf the opponent strikes Mordo's Block while they have a True-Type Buff, he has a [70 - 173.23]% chance to Nullify that Buff and replace it with a Detonate Buff lasting 20 second(s). Detonate deals a burst of [6,981.1] Energy Damage when it's Nullified or Expires.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı (Mystic'lere karşı, Wong ile sinerji) 🔮",
+    "abilitySections": [
+        {
+            "title": "Astral Form - Always Active",
+            "content": [
+                "Mordo is Immune to Passive Ability Accuracy reductions.",
+                "While the opponent has at least 1 Buff, gain +[1,994.6] Attack Rating.",
+                "Every 8 second(s), Mordo gains a Power Gain Buff granting 1 Bar of Power over 5 second(s). This Buff is removed if Mordo is struck. If fighting as a Defender, Mordo will behave less aggressively while this Buff is active."
+            ]
+        },
+        {
+            "title": "While Stunned",
+            "content": [
+                "When attacked by a Basic Attack while suffering from a Stun Debuff, Mordo will Purify the Stun and Evade the hit with a Counter-Attack that inflicts a Degeneration Debuff dealing [7,978.4] Direct Damage over 2.5 seconds.",
+                "Mordo cannot Evade or counter-attack while suffering from a Concussion or Fatigue Debuff."
+            ]
+        },
+        {
+            "title": "Blocking",
+            "content": [
+                "If Mordo holds Block for more than 0.5 second(s), his Block will not be broken by Unblockable Special Attacks."
+            ]
+        },
+        {
+            "title": "While Charging a Heavy Attack",
+            "content": [
+                "Continually gain Fury Buffs, each granting +[1,994.6] Attack Rating for 17 second(s). Max: 15 Buffs. Exponentially gain more Buffs the longer the Heavy Attack is charged.",
+                "If Mordo is below 1 Bar of Power, he will Passively gain 0.5 Bar(s) of Power per second."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "30% chance to inflict a 3 second Stun Debuff.",
+                "100% chance to inflict a Degeneration Debuff, causing [7,978.4] Direct Damage over 2.5 second(s). If the opponent has at least 1 Buff, this effect can be triggered through a Block."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict a [1,196.76] potency Soul Barb Debuff for 14 seconds. Mordo also reduces the Regeneration Rate of Soul Barbed Opponents by 80%."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to gain 3 Fury Buffs, each granting +[4,986.5] Attack Rating for 17 second(s).",
+                "Up to 50% chance based on lost Health to gain a Regeneration Buff in place of a Fury Buff, recovering [20,412.3] Health over 6 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Mystical Barrier",
+            "content": [
+                "By conjuring a magical barrier, Mordo gains [7,055.32 - 24,821.12] Energy Resistance while he remains Blocking.",
+                "If the opponent strikes Mordo's Block while they have a True-Type Buff, he has a [70 - 173.23]% chance to Nullify that Buff and replace it with a Detonate Buff lasting 20 second(s). Detonate deals a burst of [6,981.1] Energy Damage when it's Nullified or Expires."
+            ]
+        }
+    ]
 }

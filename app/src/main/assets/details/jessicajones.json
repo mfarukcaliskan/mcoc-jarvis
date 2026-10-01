@@ -22,6 +22,78 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Rakip özel saldırı kullanırsa durdurulamaz+engellenemez olur. Sanar (heal-adjacent) efektleri yeteneklerini kapatır, yetenek azaltıcı şampiyonlar da işe yarar. Ona karşı özel saldırı kullanmamak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Jessica Jones Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠\n• Buff Bağışıklığı (sadece Daredevil sinerjisiyle isabet buff'ına bağışık) 🗡️🚫"
+    "signatureAbility": "Class Dossier\nWhen Jessica reaches max Investigation, she gains a Dossier on the Opponent's Class, increasing her Combat Power Rate by [1 - 25]% while below 1 Bar of Power.\nDossiers are Cross-Fight, lasting for the rest of the Quest. Once Jessica has a Dossier on 3 different Classes, she also gains one on the Superior Class.\nAt the start of each fight, if Jessica already has her Opponent's Dossier, she gains 1 Investigation for every 50 signature levels obtained.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠\n• Buff Bağışıklığı (sadece Daredevil sinerjisiyle isabet buff'ına bağışık) 🗡️🚫",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Physical and Energy Resistance increased by +[687.5]."
+            ]
+        },
+        {
+            "title": "Investigation - Max: 10",
+            "content": [
+                "Gain 1 Investigation when the Opponent gains a Bar of Power. +1 as a Defender.",
+                "Gain 1 Investigation when the Opponent is inflicted with a non-Stun Debuff.",
+                "As a Defender, gain 1 Investigation every 4 seconds the Opponent spends above 2 Bars of Power.",
+                "Lose 2 Investigation when the Opponent gains or activates a Cleanse effect.",
+                "The ongoing Investigation makes Opponents nervous. Each Investigation increases the Opponent's chance to launch a Special Attack by 18%, and reduces their Ability Power Rate and Regeneration Rate by 7%.",
+                "Once Investigation reaches max, the Investigation is complete and it can no longer be gained or lost."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Pause all non-Stun Debuffs inflicted by Special Attack 1 for 2 seconds."
+            ]
+        },
+        {
+            "title": "Opponent activates a Special Attack",
+            "content": [
+                "For each Investigation, inflict a 2% Weakness Debuff lasting until the end of the attack. This does not grant Investigation. Then, if the Opponent has:",
+                "3+ Debuffs: Gain a [3,361.11] Resistance Up Passive, lasting for 2 seconds after the end of the attack.",
+                "5+ Debuffs: Gain an Unstoppable Passive, lasting for 2 seconds after the end of the attack.",
+                "10+ Debuffs: Gain an Unblockable Passive, lasting for 2 seconds after the end of the attack.",
+                "The duration of these effects is increased by 4 seconds flat when fighting as a Defender.",
+                "While Investigation is at 7 or more, Resistance Up and Unstoppable also activate during Jessica's Special Attacks, regardless of Debuffs on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On the last hit, Jessica randomly picks up whatever's handy and throws it at the Opponent, causing a different effect depending on what was thrown. Effects also trigger when Blocked.",
+                "Box: Inflict a Stun Debuff for 4 seconds.",
+                "Garbage Can: Inflict a Crush Debuff for 9 seconds.",
+                "Fire Hydrant: Inflict a 40% Suppression Debuff for 9 seconds.",
+                "Pallet: Inflict a [4,125] Physical Vulnerability Debuff for 13 seconds.",
+                "Tire: Inflict a Rupture Debuff, dealing [21,119.4] Physical Damage over 9 seconds.",
+                "Propane Tank: Inflict Incinerate, dealing [21,119.4] Energy damage over 9 seconds. Incinerate removes Perfect Block chance, and lowers Block Proficiency by 50%.",
+                "Pizza: Jessica gains a Regeneration Passive, restoring [14,400.9] Health over 9 seconds.",
+                "The Kitchen Sink: Apply the effects from every other item, but potencies are reduced by 50%."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a Fury Passive increasing Attack Rating by [8,213.1] for 10 seconds. Gain an additional Fury for each unique object Jessica has thrown with her Special Attack 1 in this fight. Max Fury Passives: 5.",
+                "These Fury Passives are paused during all Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Stun Debuff for 5 seconds.",
+                "Gain an indefinite non-stacking Indestructible Charge. The next time Jessica would be struck, the Charge is removed and she gains an Indestructible Passive for 2 seconds. Does not trigger against Special Attack 3."
+            ]
+        },
+        {
+            "title": "Signature Ability - Class Dossier",
+            "content": [
+                "When Jessica reaches max Investigation, she gains a Dossier on the Opponent's Class, increasing her Combat Power Rate by [1 - 25]% while below 1 Bar of Power.",
+                "Dossiers are Cross-Fight, lasting for the rest of the Quest. Once Jessica has a Dossier on 3 different Classes, she also gains one on the Superior Class.",
+                "At the start of each fight, if Jessica already has her Opponent's Dossier, she gains 1 Investigation for every 50 signature levels obtained."
+            ]
+        }
+    ]
 }

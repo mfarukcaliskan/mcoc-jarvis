@@ -16,6 +16,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Dövüş uzadıkça analiz yükü kazanır (zırh + %57,6 kritik direnci); 100 yükte özel saldırılar %30 daha az güce mal olur; %20 canda 3,5sn süren 3 zırh bonusu kazanır, süresi dolarsa max gücünün %89'unu kazanır; E3 kullanırsa canının tamamını yeniler (2. can). İkincil hasar efektleri (şok, yakma, güçlü iğne, degeneration, rupture) şart; kritik direncini sıfırlayan (fragmentation) efektler büyük avantaj. Güç kontrolü (petrify, çalma, çekme) de faydalı. E2 yakma uygulayabildiği için onu E1'de tutmak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sentinel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊\n• Zırh Kırma Bağışıklığı 🛡️"
+    "signatureAbility": "Secondary Iso Battery\nPersonal Debuffs other than Intimidate gain [20 - 40]% duration.\nOnce per fight when dropping below 20% Max Health, Sentinel activates 3 Armor Up Buffs granting +[2,750] Armor Rating for 3.5 seconds, expiring one at a time.\nEach time one of these Armor Up Buffs ends for any reason other than being removed, Sentinel Passively gains 90% of a Bar of Power.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊\n• Zırh Kırma Bağışıklığı 🛡️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Sentinel bots are Immune to Poison, Bleed, Armor Break, Coldsnap, and Frostbite effects."
+            ]
+        },
+        {
+            "title": "Analysis Charges - Max: 100",
+            "content": [
+                "Sentinel monitors the target, when they repeat the same action consecutively, Sentinel gains 6 Analysis Charges. Actions include Light Attacks, Medium Attacks, Heavy Attacks, Dashing, Dodging, and Blocking an attack. Analysis Charges stack up to 100 max.",
+                "With its code focused towards the X-Gene, Sentinel gains twice the amount of Analysis Charges while fighting Mutant Champions.",
+                "When the Opponent activates a Special Attack, if it matches their previously activated Special Attack, gain 20 Analysis Charges.",
+                "As a Defender, or in Battlegrounds, Sentinel starts each fight with 25 Analysis Charges. Amount not increased against Mutants."
+            ]
+        },
+        {
+            "title": "Analysis Charges - Effects",
+            "content": [
+                "For every 10 Analysis Charges, Sentinel gains the following:",
+                "+[271.98] Armor Rating and Critical Resistance.",
+                "+[1,075.5] Attack Rating.",
+                "Special Attacks cost 3% less Power.",
+                "The potency of incoming Instant Damaging effects from Champions is reduced by 5%."
+            ]
+        },
+        {
+            "title": "Analysis Complete - Passive",
+            "content": [
+                "At max Analysis Charges, Sentinel gains the following abilities:",
+                "Personal Debuffs can be inflicted through the Opponent's Block.",
+                "Shock, Incinerate, Heal Block, and Armor Break Debuffs gain 50% increased duration and 100% increased Ability Accuracy.",
+                "While charging a Heavy Attack, Sentinel becomes Passively Unstoppable for 1 second. If Sentinel is struck while this Unstoppable is active, it goes on cooldown for 5 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If Analysis Charges are less than 100, inflict a non-stacking [485.29] Intimidate Debuff for 5 seconds.",
+                "The final hit inflicts a Shock Debuff, dealing [14,304.15] Energy Damage over 4 seconds. If Sentinel is at 3 Bars of Power, he consumes 30% of a Bar to inflict an additional Shock Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The first hit inflicts a Heal Block Debuff for 16 seconds.",
+                "Successive hits have a 50% chance to inflict an Armor Break Debuff, reducing Armor Rating by [687.5] for 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts an Incinerate Debuff, dealing [3,764.25] Energy Damage over 4 seconds. Each hit also has a 50% chance to inflict an additional Incinerate."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack destroys the current Sentinel bot and removes all Buffs and Debuffs that were on it. Then a spare Sentinel bot is called in to take its place, which arrives at full Health.",
+                "Spare Sentinel bots are Persistent, with only 1 available per Quest. As a Defender, regain 1 spare Sentinel at the end of the fight. While no spare Sentinel is available, this Special cannot be activated."
+            ]
+        },
+        {
+            "title": "Signature Ability - Secondary Iso Battery",
+            "content": [
+                "Personal Debuffs other than Intimidate gain [20 - 40]% duration.",
+                "Once per fight when dropping below 20% Max Health, Sentinel activates 3 Armor Up Buffs granting +[2,750] Armor Rating for 3.5 seconds, expiring one at a time.",
+                "Each time one of these Armor Up Buffs ends for any reason other than being removed, Sentinel Passively gains 90% of a Bar of Power."
+            ]
+        }
+    ]
 }

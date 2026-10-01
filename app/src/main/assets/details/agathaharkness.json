@@ -21,6 +21,64 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): E1'i 15sn'lik bir rün hapsi açar, kaçmaya çalışırsan 5sn pasif köklenirsin (orta vuruşları siperlenemez, kaçmak zor). Vurulunca rakibin max gücünün %1'ini çalar — özel saldırıya bağımlı şampiyonlar zorlanır, güç-çalmaya immün şampiyon kullan. Bloklanan E2'si ağır hasar patlaması yapar — otomatik özel-saldırı-kaçışı olan şampiyon (Silk gibi) olmadan E2'ye zorlama. Intercept edilirse kendini yere serip combo'nu keser — intercept gerektiren node'larda bu işi zorlaştırır.",
     "bestUse": "",
-    "signatureAbility": "",
-    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Yakma hasarının %85'ini geri kazanır 🔥\n• Nova Alevi hasarının %85'ini geri kazanır 🐦‍🔥"
+    "signatureAbility": "Darkhold Knowledge\nAgatha's Energy Vulnerability gains [9.38 - 33]% increased potency.\nAgainst non-Science Champions, Agatha Passively Regenerates [34.39 - 85]% of all damage taken from Incinerate, Nova Flame, and Blocked hits while suffering from these effects.\nAfter Agatha is Intercepted by a Basic Attack, she activates a Combo Interruption Passive, knocking herself down. Cooldown: 10 seconds.",
+    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Yakma hasarının %85'ini geri kazanır 🔥\n• Nova Alevi hasarının %85'ini geri kazanır 🐦‍🔥",
+    "abilitySections": [
+        {
+            "title": "General Witchcraft",
+            "content": [
+                "Agatha is Immune to Armor Break and her Medium Attacks are non-contact.",
+                "Against Cosmic Opponents, while Agatha or her Opponent have 2 or more Buffs, Agatha gains an indefinite Steadfast Passive.",
+                "When either Champion Intercepts, or Punishes a Special Attack, gain a 5% Amplify Passive for 15 seconds. These are refreshed when gaining a new one. Max stacks: 5.",
+                "Agatha Passively gains 3% of her Max Power when a Buff on the Opponent is Nullified, Staggered or expires naturally. This replaces the Mystic Dispersion Mastery, but each Rank in it increases the potency of personal bursts of Energy Damage by 1%."
+            ]
+        },
+        {
+            "title": "Magical Theft",
+            "content": [
+                "Agatha's Combat Power Rate is reduced by 30%, but when striking with or when struck by Basic Attacks, she Power Steals 1% of the Opponent's Max Power. This effect does not trigger against an Opponent at 3 Bars of Power.",
+                "When an Atrophied Opponent gains a Power Gain, Fury, Precision, Cruelty, or Armor Up Buff, Agatha copies the Buff. The copied Buff scales with her own stats and lasts for the base duration lost to Atrophy, or 15 seconds if the Buff was indefinite. Max stacks: 5 each.",
+                "When Agatha Well-Time Blocks or when she Punishes a Special Attack, she Destroys an Immortality , Unstoppable, or Safeguard Buff, replacing it with a Rubble Buff for 10 seconds."
+            ]
+        },
+        {
+            "title": "Rune Prison - Special Attack 1",
+            "content": [
+                "The Rune Prison is an area of effect placed in the stage by Agatha for 15 seconds, paused during Special Attacks. It cannot be placed in the Opponent's corner. While inside, neither Champion can be pushed by Strikers, Light, Heavy or Special Attacks.",
+                "While the Opponent is inside, they are inflicted with a 20% Atrophy Passive and all other Atrophy effects on them are paused.",
+                "Once per activation, if the Opponent attempts to leave the Rune Prison, it pauses for 5 seconds. As a Defender, the Opponent is also Passively Rooted for 5 seconds.",
+                "While either Champion is inside the Rune Prison, Agatha's Basic Attacks pause personal Amplifies for 0.5 seconds and  deal a burst of [2,375.78] Energy Damage, multiplied by Agatha's Ability Power Rate up to 200%.",
+                "While Agatha is inside, her Buff duration is increased by 45%, and for each active personal Amplify, she gains an additional 5% Amplify Passive."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "The first hit Destroys 3 Unstoppable, Safeguard, or Immortality Buffs replacing them with Rubble Buffs lasting for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Rune Prison",
+            "content": [
+                "On activation, inflict a non-stacking 50% Atrophy Passive for 15 seconds, and place the Rune Prison if it is not already active. As a Defender, if the Rune Prison is not active, Agatha is more likely to activate this Special."
+            ]
+        },
+        {
+            "title": "Special Attack 2 and 3 - Dark Magic and Soul Corruption",
+            "content": [
+                "If Agatha has gained 2 Bars of Power via her Ability Power Rate, these Special Attacks gain Empowered properties and then the Power counter resets. Power gained while inside the Rune Prison counts three times as much.",
+                "Empowered: On activation, inflict a non-stacking [4,583.33] Energy Vulnerability Passive lasting for the duration of the Special plus 6 seconds per level of the Special.",
+                "Each hit deals a burst of damage dealing a combined total of [23,229.8] Energy Damage per level of the Special, multiplied by Agatha's Ability Power Rate up to 200%. As a Defender, this scales with 30% of Agatha's Base Attack. Empowered: This effect triggers through Block.",
+                "The Rune Prison is paused for an additional 10 seconds after these Special Attacks end."
+            ]
+        },
+        {
+            "title": "Signature Ability - Darkhold Knowledge",
+            "content": [
+                "Agatha's Energy Vulnerability gains [9.38 - 33]% increased potency.",
+                "Against non-Science Champions, Agatha Passively Regenerates [34.39 - 85]% of all damage taken from Incinerate, Nova Flame, and Blocked hits while suffering from these effects.",
+                "After Agatha is Intercepted by a Basic Attack, she activates a Combo Interruption Passive, knocking herself down. Cooldown: 10 seconds."
+            ]
+        }
+    ]
 }

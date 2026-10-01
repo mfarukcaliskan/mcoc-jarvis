@@ -13,6 +13,100 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Aktif zırh bonusu olan şampiyon şart. Onu ağır saldırı ve E2 kullanmaya zorla (plazma yükünü kontrol eder). Enerji hasarlı veya kanama yapan şampiyon kullanma.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Havok Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• %52,9 Şok direnci ⚡️\n• %52,9 Ani Soğuk direnci 🧊\n• %52,9 Plazma direnci ⚗️"
+    "signatureAbility": "Plasma Amplification\nEach time Havok gains a Plasma Charge, from any source other than this ability he has a [25 - 55]% chance to gain another one.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• %52,9 Şok direnci ⚡️\n• %52,9 Ani Soğuk direnci 🧊\n• %52,9 Plazma direnci ⚗️",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Havok is Immune to all forms of Incinerate.",
+                "Havok's mutation gives him +[2,750] Energy Resistance.",
+                "Havok Passively generates 2.5% of a Bar of Power each second.",
+                "Havok gains 25% less Power from landing and receiving Hits."
+            ]
+        },
+        {
+            "title": "When Struck by Critical Hits",
+            "content": [
+                "Havok reduces the Opponent's Critical Damage Rating by 50%."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "Havok's Medium Attacks, Heavy Attacks, and Light combo ending attacks do not make Contact, and deal Energy Damage."
+            ]
+        },
+        {
+            "title": "Plasma Charges - Passive",
+            "content": [
+                "Havok generates a Plasma Charge every 5 seconds, and can have a maximum of 10 Plasma Charges.",
+                "While Power Locked Havok's Plasma Charge generation increases to 2 Charges every 5 seconds.",
+                "Each time Havok receives Energy Damage or a Critical Hit he gains +1 Plasma Charge(s).",
+                "If affected by a Power Drain or Power Burn Havok loses all his Plasma Charges."
+            ]
+        },
+        {
+            "title": "Plasma Build Up - Debuff",
+            "content": [
+                "When Havok would generate a Plasma Charge beyond his maximum, he instead places a Plasma Build Up on the Opponent. Plasma Build Ups last until removed by another ability.",
+                "If made to Bleed Havok puts a Plasma Build Up on the Opponent.",
+                "At 11 Stacks all Plasma Build Ups are Removed.",
+                "When a Plasma Build Up is removed, it detonates Passively causing [1,459.2] Energy Damage.",
+                "If a Plasma Build Up is removed due to a Purify effect its Passive Damage is increased to [3,891.2].",
+                "Champions with an Armor Up Buff, and Havok, receive no damage from this ability."
+            ]
+        },
+        {
+            "title": "When Charging a Heavy Attack",
+            "content": [
+                "Convert 2 Plasma Charge(s) to 1 Prowess, each increasing Special Attack Damage by 10% and lasting until Havok's next Special Attack ends. Max 5 stacks."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Places a Feedback Debuff on the Opponent for 10 seconds, causing [486.4] Energy Damage over its duration, for each Plasma Build Up on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "If Havok has +7 Stacks of Prowess all hits of his Special Attacks become Unblockable.",
+                "Converts up to 5 Plasma Charge(s) into Passive Prowess Effects, each increasing Special Attack Damage by 10% and lasting for 13 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activating this Special Attack Havok gains a Overcharge Passive Effect for the next 9 seconds, granting +1 Plasma Charge(s) per second."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "+[17,024] Attack as long as the Opponent doesn't have an active Armor Up Buff."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Convert all Plasma Charges into Prowess Passive Effects.",
+                "+[3,891.2] Attack for each Plasma Charge converted.",
+                "Purifies all Plasma Build Ups on the Opponent."
+            ]
+        },
+        {
+            "title": "Secret Ability - Special Protection",
+            "content": [
+                "All Special Attack damage from Cyclops (Blue Team) and Cyclops (New Xavier School) is reduced to 0."
+            ]
+        },
+        {
+            "title": "Signature Ability - Plasma Amplification",
+            "content": [
+                "Each time Havok gains a Plasma Charge, from any source other than this ability he has a [25 - 55]% chance to gain another one."
+            ]
+        }
+    ]
 }

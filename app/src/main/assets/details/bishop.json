@@ -17,6 +17,89 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kanama, şok veya yakma hasarlı şampiyon kullanma. Tech sınıfından yakmaya immün şampiyonlar ideal. Hem E1 hem E2 kaçılması zor, bloklamak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Bishop Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanamayı arındırır (blokta) 🩸\n• %71,2 Şok direnci ⚡️\n• %71,2 Ani Soğuk direnci 🧊\n• %71,2 Plazma direnci ⚗️"
+    "signatureAbility": "Foresight\nBishop prepares a unique bonus based on how many bars of Power are full at the start of the fight.\nWith 0 Bars: Special Attacks become Unblockable with a stack of [30 - 10] or more Prowess.\nWith 1 Bar: While Blocking, gain Stun Immunity and enemies lose [10 - 80]% ability accuracy.\nWith 2 Bars: Special Attacks leave the target Incinerated for [10 - 70]% of the Special Damage dealt over 10 seconds.\nWith 3 Bars: Start the fight with Steady Release active for [3 - 15] seconds.",
+    "immunityDetails": "• Kanamayı arındırır (blokta) 🩸\n• %71,2 Şok direnci ⚡️\n• %71,2 Ani Soğuk direnci 🧊\n• %71,2 Plazma direnci ⚗️",
+    "abilitySections": [
+        {
+            "title": "Persistent Power Meter",
+            "content": [
+                "Bishop's mastery over energy and time enables him to enter a fight with 100% of the Power he finished his previous fight in the same Quest with.",
+                "Bishop's Special 1 and 2 Attacks cost no Power when activated. Instead, after these Specials end, Bishop immediately loses however many Bars of Power that special would have cost."
+            ]
+        },
+        {
+            "title": "Always Active - Personal Prowess",
+            "content": [
+                "All of Bishop's Personal Passive Prowess effects increase Special Attack Damage by 10%."
+            ]
+        },
+        {
+            "title": "Always Active - Energy Transference",
+            "content": [
+                "+[5,338.24] Energy Resistance.",
+                "Every 1 second(s), on receiving any Energy Damage gain 3 Passive Prowess.",
+                "Absorbing the kinetic energy of Blocking or being Struck generates 1 stack of Prowess, Well Time Blocks gain an additional +6 Prowess.",
+                "All these abilities grant +1 Prowess vs Skill Opponents, and -1 vs Tech."
+            ]
+        },
+        {
+            "title": "Blocking",
+            "content": [
+                "Holding Block for 0.5 seconds, Bishop converts 1 Personal Prowess into a Regeneration Buff every 0.33 seconds, granting [809.06] Health over 5 seconds. Max Stacks: 5.",
+                "Each Prowess converted also has an 100% chance to Purify a Bleed Debuff."
+            ]
+        },
+        {
+            "title": "Always Active - Debuff Feedback",
+            "content": [
+                "Each time the Opponent Purifies a Debuff they instantly receive [8,245.81] Energy Damage.",
+                "Skill Champions also receive a Passive Stun lasting 1.5 second(s) if the Debuff Purified was a Stun."
+            ]
+        },
+        {
+            "title": "Warning: Power Overload!",
+            "content": [
+                "While Bishop has more than 30 Prowess, or if he's Bleeding, Shocked, or Incinerated he Overloads and begins consuming his personal Prowess effects 1 at a time, getting faster the longer he's been Overloading.",
+                "If Bishop is suffering from a Bleed, Shock, or Incinerate, Debuff or Passive, each time he consumes a Prowess this way he also deals [2,063] Energy Damage to his Opponent, scaling with Base Attack."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "After each Special Attack Bishop consumes all his Personal Prowess Passives.",
+                "If Bishop is Overloading go passively Unblockable for the Duration of the Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "After this Special Attack finishes, gain a Steady Release Passive for 10 seconds.",
+                "While active every 0.75 second(s) while near the opponent, inflict an Incinerate Debuff on them, dealing [3,352.38] Energy Damage over 3 seconds.",
+                "Each Prowess consumed by this attack increases the Duration of Steady Release by 2.5%."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The last hit has a 100% chance to inflict an Incinerate Debuff lasting 10 seconds, and dealing 70% of the total damage dealt by this Special."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a non-stacking Energy Vulnerability reducing Energy Resistance by [1,668.38] for 20 seconds.",
+                "Against enemies at full Health, this Energy Vulnerability becomes indefinite."
+            ]
+        },
+        {
+            "title": "Signature Ability - Foresight",
+            "content": [
+                "Bishop prepares a unique bonus based on how many bars of Power are full at the start of the fight.",
+                "With 0 Bars: Special Attacks become Unblockable with a stack of [30 - 10] or more Prowess.",
+                "With 1 Bar: While Blocking, gain Stun Immunity and enemies lose [10 - 80]% ability accuracy.",
+                "With 2 Bars: Special Attacks leave the target Incinerated for [10 - 70]% of the Special Damage dealt over 10 seconds.",
+                "With 3 Bars: Start the fight with Steady Release active for [3 - 15] seconds."
+            ]
+        }
+    ]
 }

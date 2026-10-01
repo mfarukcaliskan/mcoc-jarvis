@@ -16,6 +16,88 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kiti basit — bloğuna vurma, vurursan vacilo (hata) uygular. Görünmezliğe karşı direnç/önleyici yetenekler en iyi cevap.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Slayer (J. Jonah Jameson) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Cowards Hide Behind Masks\nA completed Headline inflicts a [10 - 20]% Cowardice Passive for 12 seconds and refreshes existing ones. These are paused during Special Attacks. Max stacks: 3.\nOnce per fight when J. Jonah takes a picture of the Opponent, he gains an indefinite +[85 - 485.28] Austere Armor Up Buff. This Armor Up persists between fights if J. Jonah defeats the menace with at least one of these Armor Ups active. Max stacks: 8.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "The Spider-Slayer's robotics have thorough protection for J. Jonah's physical body, providing Immunity to Bleed and Poison.",
+                "J. Jonah isn't trained to land Critical Hits. When he would land a Critical Hit, the Spider-Slayer suit instead inflicts Instant Shocks dealing Energy Damage equal to the Critical Damage the hit would have dealt.",
+                "As a Defender, J. Jonah's Shocks and Power Burns have 70% reduced potency.",
+                "All of J. Jonah's personal effects, as well as the Parry and Dexterity Masteries, gain 25% increased Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Anger Management",
+            "content": [
+                "J. Jonah Jameson has a short fuse and doesn't like being manipulated. When he is inflicted with Taunt, Infuriate, Intimidate, or Delirium, he becomes more aggressive and filled with a +[3,950]% Fury Passive for 12 seconds. Max stacks: 10.",
+                "J. Jonah's personal Furies cannot end during his Special Attacks.",
+                "Similarly, J. Jonah is a natural at riling up his detractors. When the Opponent hits J. Jonah's Block, he inflicts them with a 50% Obfuscate Debuff for 5 seconds. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Spider-Slayer Armor",
+            "content": [
+                "Start each fight with an indefinite +[485.29] Austere Armor Up Buff.",
+                "Armor Ups gained after the first have a potency of +[70.51] and duration of 20 seconds, expiring one at a time.",
+                "J. Jonah's Shocks and Power Burns gain 15% increased potency for each active Armor Up effect, up to 20 Armor Ups."
+            ]
+        },
+        {
+            "title": "Front Page Headline",
+            "content": [
+                "J. Jonah Jameson has the best Front Page Headlines in the business. After a fight begins, J. Jonah will improvise a Headline for how he will fight the latest menace and call out an action for the Attacker to complete.",
+                "Front Page Headlines have 7 seconds to be completed, with a 5 second cooldown. As a Defender, these timers are swapped.",
+                "If the Attacker completes a Headline:",
+                "J. Jonah gains a Spider-Slayer Austere Armor Up Buff.",
+                "Inflict a Slow Passive for 12 seconds, paused during Special Attacks. While a #Spider-Verse Hero is suffering from a Slow effect, J. Jonah can't Miss.",
+                "When a Headline fails, J. Jonah loses 1 personal Armor Up.",
+                "No new Headlines are created during any Special Attacks. As an Attacker, Headlines are paused during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Heavy Attack - Headline Rewrite",
+            "content": [
+                "As an Attacker, landing the final hit of a Heavy Attack during a Front Page Headline refreshes the Headline with a new choice."
+            ]
+        },
+        {
+            "title": "Smile for the Camera!",
+            "content": [
+                "As an Attacker holding block, J. Jonah can Swipe Up on his controls to take a picture of the Opponent, causing a blinding flash and Passively Faltering the Opponent for 3 seconds.",
+                "As a Defender, the camera is used automatically once J. Jonah starts to Block an attack. Auto-Block won't trigger this.",
+                "This effect goes on cooldown once used, and becomes available again after 2 Front Page Headlines have started.",
+                "When the Opponent Misses while Faltered, J. Jonah gains a personal Fury Passive. This can only trigger once per Falter.",
+                "J. Jonah and the Opponent have increased aggression while J. Jonah's Opponent is Faltered. While J. Jonah's personal Falter is active, he gains Stun Immunity."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "While the Opponent is below Max Power, each Special Attack hit Power Burns them, up to a combined total of 10%, 20%, or 30% of their Max Power based on the Special Attack used.",
+                "These Power Burns deal up to [1,866.382] Direct Damage for every 1% of Max Power burnt."
+            ]
+        },
+        {
+            "title": "Possible Headlines",
+            "content": [
+                "The Headlines J. Jonah requests can change depending on conditions in the fight, such as the existence of certain effects on a Champion, Power level, or who he is fighting against. Possible Headline actions:",
+                "I require pictures (of Spider-Man)!",
+                "Hit a Light Attack",
+                "Hit a Medium Attack",
+                "Charge a Heavy Attack",
+                "Block an attack",
+                "Inflict a Stun",
+                "Use Dexterity to Dodge an attack"
+            ]
+        },
+        {
+            "title": "Signature Ability - Cowards Hide Behind Masks",
+            "content": [
+                "A completed Headline inflicts a [10 - 20]% Cowardice Passive for 12 seconds and refreshes existing ones. These are paused during Special Attacks. Max stacks: 3.",
+                "Once per fight when J. Jonah takes a picture of the Opponent, he gains an indefinite +[85 - 485.28] Austere Armor Up Buff. This Armor Up persists between fights if J. Jonah defeats the menace with at least one of these Armor Ups active. Max stacks: 8."
+            ]
+        }
+    ]
 }

@@ -12,6 +12,68 @@
     "synergies": [],
     "howToPlay": "Ant-Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ant-Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Zehir Bağışıklığı 🧪\n• Buff Bağışıklığı 🗡️🚫"
+    "signatureAbility": "Close-up Magic\nWhenever Ant-Man Glances an attack, he has a 50% chance to inflict a Fatigue Debuff lowering the opponent's Crit Rating by [144.74 - 2801.78] for 15 second(s).\nWhenever Ant-Man gains a Pym Particle, he pauses the duration of any personal Fatigue, Poison, or Power Sting Debuffs on the opponent for [2 - 4] second(s).",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Zehir Bağışıklığı 🧪\n• Buff Bağışıklığı 🗡️🚫",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Ant-Man is Immune to Poison and Shock effects."
+            ]
+        },
+        {
+            "title": "Pym Particle - Max 9",
+            "content": [
+                "Ant-Man is immune to Buffs. Whenever he would, he instead generates 1 Pym Particle.",
+                "Whenever Ant-Man's basic attacks intercept the opponent, or strikes them when recovering from a Heavy, he consumes 1 Pym Particle to refresh any personal Fatigue, Poison, and Power Sting Debuffs on the opponent."
+            ]
+        },
+        {
+            "title": "Power Sting",
+            "content": [
+                "If Ant-Man has 3 or more Pym Particles, landing a Heavy Attack or being knocked down by a Special Attack consumes 3 Pym Particles to inflict 1 Power Sting Debuff on the opponent lasting 9 second(s). An opponent with Power Sting takes [10,266] Direct Damage if they activate a Special Attack.",
+                "Whenever Ant-Man's personal Power Stings detonate, they also deal a burst of [1,539.9] Physical Damage for each Debuff on the opponent including the Power Sting."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Whenever Ant-Man activates a Special Attack the opponent is inflicted with a non-stacking 100% Unsteady Debuff lasting 15 seconds. Unsteady cannot be activated if the opponent is already under the effect of an Unsteady Debuff.",
+                "When Unsteady expires this ability goes on a 15 second cooldown before it can be activated again."
+            ]
+        },
+        {
+            "title": "Champion Attacks",
+            "content": [
+                "While under the effect of personal Unsteady Debuffs, Ant-Man Cannot Miss his Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation gain 3 Pym Particles. Then, if Ant-Man has 9 Pym Particles, this Special Attack is Unblockable.",
+                "Each hit inflicts a Fatigue Debuff lowering the opponent's Crit Rating by [144.74] for 15 second(s). Max Stacks 12."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each Pym Particle Grants Ant-Man +[2,566.5] Attack Rating for the duration of this Attack. Consume all Pym Particles at the end of the Special Attack.",
+                "On the second hit, consume all Fatigue Debuffs on the opponent. For each Fatigue consumed, the opponent is inflicted with a Poison Debuff that deals [7,699.5] damage over 15 second(s) and reduces their health recovery by 30%. Max Stacks 12."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Petrify Debuff reducing the potency of Power Gain and Regeneration effects by 10% for 20 second(s). The potency of this Petrify increases by 10% for each Debuff active on the opponent."
+            ]
+        },
+        {
+            "title": "Signature Ability - Close-up Magic",
+            "content": [
+                "Whenever Ant-Man Glances an attack, he has a 50% chance to inflict a Fatigue Debuff lowering the opponent's Crit Rating by [144.74 - 2801.78] for 15 second(s).",
+                "Whenever Ant-Man gains a Pym Particle, he pauses the duration of any personal Fatigue, Poison, or Power Sting Debuffs on the opponent for [2 - 4] second(s)."
+            ]
+        }
+    ]
 }

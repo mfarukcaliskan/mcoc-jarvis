@@ -17,6 +17,67 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Garanti kritik vuruşlu veya immün olunmayan hasarlı efekt uygulayan şampiyon kullanma. Kritik vuramayan şampiyonlar iyi seçenek. En güvenli yöntem: iyileşme engeli veya petrify.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mister Sinister Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "Engineered Perfection\nEach time Mister Sinister defeats an opponent, he extracts their genetic code, gaining a different Passive ability for the rest of the quest depending on the defeated Champion's Class. [Max 3 of each Passive, 10 Passives total.]\nMister Sinister starts each fight with 3 of these effects at random. These do not persist between fights and do not count toward the max Passives.\nMutant: Prowess, increasing Special Attack Damage by [10 - 30]%.\nSkill: Precision, increasing Critical Rating by [142.45 - 687.5].\nScience: Regen Rate, increasing Regeneration Rate by [5 - 20]%.\nMystic: Energize, increasing Power Rate by [5 - 20]%.\nCosmic: Fury, increasing Attack Rating by [1,064.64 - 3,226.54].",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Mister Sinister's Telepathic Mastery renders him Immune to Taunt and Reversed Controls.",
+                "Mister Sinister reduces the potency of incoming Bleed effects by 100%.",
+                "Mister Sinister's Telekinetic Powers allow him to Block Unblockable Special Attacks, except against Tech Champions.",
+                "Well-Timed Blocks grant a Bulwark Passive, increasing Block Proficiency by +[305.56] for 10 seconds. Max: 5.",
+                "Whenever a Skill Champion Purifies a Debuff, reduce the Ability Accuracy of their Purify Abilities by 25%, up to -100%."
+            ]
+        },
+        {
+            "title": "Molecular Regeneration - Passive",
+            "content": [
+                "Regeneration Rate is increased by 1% for every hit on the opponent's Combo Meter up to 50 hits.",
+                "Mister Sinister's Regeneration Rate cannot be reduced.",
+                "100% chance to Regenerate 70% of damage dealt by enemy Critical Hits over 0.5 seconds. Abilities cannot modify the Ability Accuracy, Duration, or Potency of this ability, aside from effects that would modify Mister Sinister's Regeneration Rate."
+            ]
+        },
+        {
+            "title": "While Charging a Heavy Attack",
+            "content": [
+                "Pauses the duration of Damaging Debuffs, Stun, Concussion, and Power Steal on the Opponent.",
+                "Charging a Heavy Attack for 1 second grants a Vicious Passive, increasing the potency of Damaging Debuffs by 30% for 8 seconds.",
+                "Charging a Heavy Attack for an additional 1 second triggers Mister Sinister's Genetic Manipulation. For the next 7 seconds, he inflicts a 10 second Bleed Debuff on himself every 0.7 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Transfer all Damaging Debuffs on Mister Sinister to non-#Robot Opponents, converting them into Degeneration Debuffs dealing [9,679.5] Direct Damage over 6 seconds. This ability activates even if this attack is Blocked or avoided.",
+                "Mister Sinister inflicts himself with a non-stacking 0 potency Bleed Debuff for 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict Concussion, reducing the opponent's Ability Accuracy by 100% for 6 seconds. This ability activates even if this attack is Blocked or avoided.",
+                "100% chance to Stun for 2.5 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict Concussion, reducing the opponent's Ability Accuracy by 100% for 12 seconds.",
+                "100% chance to inflict a Power Steal Debuff, stealing 20% of Max Power over 3 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Engineered Perfection",
+            "content": [
+                "Each time Mister Sinister defeats an opponent, he extracts their genetic code, gaining a different Passive ability for the rest of the quest depending on the defeated Champion's Class. [Max 3 of each Passive, 10 Passives total.]",
+                "Mister Sinister starts each fight with 3 of these effects at random. These do not persist between fights and do not count toward the max Passives.",
+                "Mutant: Prowess, increasing Special Attack Damage by [10 - 30]%.",
+                "Skill: Precision, increasing Critical Rating by [142.45 - 687.5].",
+                "Science: Regen Rate, increasing Regeneration Rate by [5 - 20]%.",
+                "Mystic: Energize, increasing Power Rate by [5 - 20]%.",
+                "Cosmic: Fury, increasing Attack Rating by [1,064.64 - 3,226.54]."
+            ]
+        }
+    ]
 }

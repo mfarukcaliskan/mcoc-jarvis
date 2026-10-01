@@ -11,6 +11,77 @@
     "synergies": [],
     "howToPlay": "Hulk (Ragnarok) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulk (Ragnarok) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Pasif Dejenerasyon hasarının %81'ini geri kazanır ☠️\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠"
+    "signatureAbility": "Pollice Verso\nOnce per fight when either Hulk or his Opponent hits 20% Health remaining the crowd judges that fighter's performance. If they feel they fought well they give a Thumbs Up, if they feel they fought poorly a Thumbs Down. Each judgement grants Hulk a Passive effect.\nThumbs Up: Regenerate [5,792.9 - 20,212.58] Health on Hulk over 10 seconds.\nThumbs Down: +[1,890.71 - 4,347.86] Attack for the rest of the fight.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Pasif Dejenerasyon hasarının %81'ini geri kazanır ☠️\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "An enhanced immune system provides full Immunity to Poison."
+            ]
+        },
+        {
+            "title": "Adoration of the Masses - Passive",
+            "content": [
+                "The crowd is out for blood, and cares little about who spills it. Crowd Excitement increases by 5 each time either Hulk or his Opponent land a hit.",
+                "The crowd also loves a champion with a certain special flourish. Each time either Hulk or his Opponent uses a Special Attack, Crowd Excitement increases by 10.",
+                "However the crowd bores easily, and Crowd Excitement falls constantly, falling faster the more excited it is.",
+                "Hulk is a champion of the people, and he gets worked up as the crowd does Passively increasing his Attack by up to +[2,098] based on Crowd Excitement.",
+                "While Crowd Excitement is 100, all of Hulk's attacks SMASH.",
+                "If Crowd Excitement reaches 100 the Crowd works itself into a frenzy, locking Crowd Excitement at 100 for 7 seconds, then resetting it to 70."
+            ]
+        },
+        {
+            "title": "SMASH - Passive",
+            "content": [
+                "Every time Hulk attacks he has a 5% chance to SMASH!",
+                "Additionally every 15 seconds Hulk gets angry and triggers SMASH on his next attack.",
+                "When SMASHing Hulk goes Unstoppable and gains +[2,098] Attack."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If this attack SMASHes it gains an additional +[3,356.8] Attack, and increases the Crowd Excitement by 15."
+            ]
+        },
+        {
+            "title": "Face Me - Passive",
+            "content": [
+                "Hulk becomes Enraged while under the Effects of a cowardly Passive Damage Over Time Effect. While Enraged Hulk gains:",
+                "+[4,196] Attack.",
+                "Chance the Opponent will trigger a Special Attack +70%.",
+                "Instantly Regenerate 70% of Damage taken."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to inflict Heal Block, preventing the target from recovering Health for 10 seconds.",
+                "80% Chance to Stun for 1.75 seconds, if Crowd Excitement is less than 100."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to Enervate target, preventing them from gaining Power when struck for 5 seconds.",
+                "100% Chance to Stun for 2.25 seconds, if Crowd Excitement is 100."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If this Attack SMASHes it gains +[3,566.6] Attack.",
+                "Crowd Excitement goes to 100."
+            ]
+        },
+        {
+            "title": "Signature Ability - Pollice Verso",
+            "content": [
+                "Once per fight when either Hulk or his Opponent hits 20% Health remaining the crowd judges that fighter's performance. If they feel they fought well they give a Thumbs Up, if they feel they fought poorly a Thumbs Down. Each judgement grants Hulk a Passive effect.",
+                "Thumbs Up: Regenerate [5,792.9 - 20,212.58] Health on Hulk over 10 seconds.",
+                "Thumbs Down: +[1,890.71 - 4,347.86] Attack for the rest of the fight."
+            ]
+        }
+    ]
 }

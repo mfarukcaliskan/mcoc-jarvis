@@ -17,6 +17,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Çok dayanıklı — doğrudan hasar veya enerji hasarlı (yakma, şok) şampiyon kullan. E1'de tutmak daha güvenli, E2'de durdurulamaz olur. Zırhı kırılamaz ama nötralize edilebilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Nimrod Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• %100 Zırh Kırma direnci 🛡️\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️"
+    "signatureAbility": "Zero Tolerance\nDuring Eradicate Protocol, Special Attacks are Passively Unblockable. Once Eradicate Protocol triggers, Nimrod's next Special Attack has the potency and duration of its effects increased by [9.85 - 35]%.\nAs an Attacker, against a Mutant, Nimrod gains +1 Armor Up Buff when gaining a personal Armor Up. As a Defender, instead gain +1 Armor Up per Mutant on the Attacker's team.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• %100 Zırh Kırma direnci 🛡️\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️",
+    "abilitySections": [
+        {
+            "title": "As a Defender",
+            "content": [
+                "When the Opponent fills a Bar of Power, inflict a Special Lock Passive for 1.50 seconds."
+            ]
+        },
+        {
+            "title": "Superior Mutant Hunting Robot",
+            "content": [
+                "Advanced Robotics provides Immunity to Bleed & Poison effects.",
+                "Incoming Armor Breaks cannot remove Nimrod's Armor Ups and suffer 100% reduced potency.",
+                "Attacks deal Energy Damage instead of Physical.",
+                "Against Mutants, gain Immunity to Ability Accuracy Modification."
+            ]
+        },
+        {
+            "title": "Adaptive Protocols",
+            "content": [
+                "Nimrod starts each fight in TITAN Protocol, and can swap to BLITZ Protocol. Swap Protocols every 11 seconds or when landing a 4th Light Attack.",
+                "At the start of each fight, and when the Protocol timer expires naturally, gain 1 Armor Up Buff. All personal Armor Ups grant +[687.5] Armor Rating for 20 seconds.",
+                "Gain 1 Protocol Charge for each TITAN or BLITZ effect gained or inflicted during Nimrod's Special Attacks.",
+                "Gain 1 Protocol Charge when gaining an Armor Up effect, or when the Opponent gains a Prowess or Regeneration effect.",
+                "At 10 Protocol Charges, activate a Special Attack to launch ERADICATE Protocol for 16 seconds, combining the effects of both TITAN and BLITZ Protocols."
+            ]
+        },
+        {
+            "title": "Titan Protocol",
+            "content": [
+                "Reduce the damage of incoming Critical Hits by 20%. This potency is increased by 25% per active Armor Up effect.",
+                "When the Opponent activates a Special Attack, inflict a 40% Cowardice Debuff for 15 seconds.",
+                "Well-Timed Blocks grant 1 personal Armor Up Buff."
+            ]
+        },
+        {
+            "title": "BLITZ Protocol",
+            "content": [
+                "Attacks gain +[4,028.4] Attack Rating. This potency is increased by 25% per active Armor Up effect.",
+                "When the Opponent activates a Special Attack, inflict Power Drain Debuff, draining 150% of a Bar of Power over 15 seconds.",
+                "Attacks Invalidate 1 Prowess and remove 1 Regeneration effect, replacing each with a Shock Debuff dealing [2,014.2] Energy Damage over 1.50 seconds. This can trigger through Block."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "TITAN: Gain a non-stacking 54% Energize Buff for 25 seconds.",
+                "BLITZ: On hit, inflict a non-stacking [1,480.77] Energy Vulnerability Passive for 25 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "TITAN: Gain an Unstoppable Buff for 5 seconds, paused until the Special Attack ends.",
+                "BLITZ: Each hit inflicts a Shock Passive, dealing [18,631.35] Energy Damage over 2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "TITAN: Gain non-stacking Self-Repair Passive healing 12.5% of missing Health over 15 seconds. This Self-Repair is lost if Nimrod is Stunned.",
+                "BLITZ: Deal a burst of up to [120,852] Energy Damage based on the Opponent's missing Health."
+            ]
+        },
+        {
+            "title": "Signature Ability - Zero Tolerance",
+            "content": [
+                "During Eradicate Protocol, Special Attacks are Passively Unblockable. Once Eradicate Protocol triggers, Nimrod's next Special Attack has the potency and duration of its effects increased by [9.85 - 35]%.",
+                "As an Attacker, against a Mutant, Nimrod gains +1 Armor Up Buff when gaining a personal Armor Up. As a Defender, instead gain +1 Armor Up per Mutant on the Attacker's team."
+            ]
+        }
+    ]
 }

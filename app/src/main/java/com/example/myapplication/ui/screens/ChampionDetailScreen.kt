@@ -412,14 +412,19 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                             }
                         }
                     }
-                    item { SectionTitle("İmza Yeteneği (Signature Ability)") }
-                    item {
-                        if (isDetailsLoading) {
-                            Box(modifier = Modifier.fillMaxWidth().height(80.dp), contentAlignment = Alignment.Center) {
-                                CircularProgressIndicator(color = Color(0xFF00BFFF))
+                    val sections = championDetails?.abilitySections.orEmpty()
+                    if (!isDetailsLoading && sections.isNotEmpty()) {
+                        item { SectionTitle("Yetenek Detayları (mcoc.gg, İngilizce)") }
+                        items(sections) { section ->
+                            Column(modifier = Modifier.padding(bottom = 8.dp)) {
+                                InfoCard(section.title, section.content.joinToString("\n"))
                             }
-                        } else {
-                            InfoCard("Uyanış Yeteneği", championDetails?.signatureAbility ?: "Uyanış yeteneği bulunamadı.")
+                        }
+                    } else if (!isDetailsLoading) {
+                        val signature = championDetails?.signatureAbility.orEmpty()
+                        if (signature.isNotBlank()) {
+                            item { SectionTitle("İmza Yeteneği (Signature Ability)") }
+                            item { InfoCard("Uyanış Yeteneği", signature) }
                         }
                     }
                     item { SectionTitle("Önerilen Andaçlar") }

@@ -15,6 +15,65 @@
     "synergies": [],
     "howToPlay": "M'Baku için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "M'Baku Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Ani Soğuk direnci 🧊"
+    "signatureAbility": "The Fearless One\nWhile Unstoppable, M'Baku gains +[15 - 35]% Combat Adrenaline.\nWhen an Opponent's Evade or Auto-Block fails due to True Accuracy, M'Baku deals a burst of [10,364 Direct Damage. Cooldown: 5 seconds.\nReaching 50 Combo Meter for the first time each fight indefinitely increases the duration of M'Baku's personal Furies by [10 - 25]%.",
+    "immunityDetails": "• %100 Ani Soğuk direnci 🧊",
+    "abilitySections": [
+        {
+            "title": "Ghekre's Mighty Roar",
+            "content": [
+                "M'Baku has 100% Resistance to Coldsnap along with immunity to Frostbite effects.",
+                "After finishing a Heavy Attack, M'Baku stands still for 0.75 seconds, releasing a Mighty Roar that grants him a non-stacking +[2,591] Fury Passive for 22 seconds, paused during the Opponent's Special Attacks.",
+                "As a Defender, M'Baku has a 60% chance to gain this Fury after performing a Heavy Attack.",
+                "While a personal Fury is active, M'Baku's attacks have a 35% chance to inflict a [2,591] Bleed Debuff for 10 seconds."
+            ]
+        },
+        {
+            "title": "Overwhelming Stampede",
+            "content": [
+                "While a personal Fury is active, Dashing forwards from outside striking distance grants an Unstoppable Passive for 2 seconds, paused for the duration of the Dash.",
+                "This Unstoppable is removed and can't be activated during the Opponent's Special Attacks. After the final hit of their Special, it can be triggered by Dashing forward, or by performing a Medium Attack within striking distance.",
+                "While Unstoppable, M'Baku gains a Combo Shield Passive.",
+                "While Unstoppable, all his hits grant +1 Combo Meter.",
+                "Striking the Opponent with Basic Attacks pauses this Unstoppable for 0.2 seconds."
+            ]
+        },
+        {
+            "title": "Ghekre's Blessings - Combo Meter Abilities",
+            "content": [
+                "M'Baku unlocks additional abilities as his Combo Meter increases.",
+                "Every 10 hits in his Combo Meter, M'Baku gains a True Accuracy Passive for 5 seconds, paused during the Opponent's Special Attacks.",
+                "While at 20 or more Combo Meter, M'Baku's Unstoppable is paused during his Special Attack 1 and Strikers.",
+                "While at 40 or more Combo Meter, all hits while M'Baku's Unstoppable is active gain up to +[22.73] Critical Rating scaling with M'Baku's Combo Meter, maxing at 75 Combo."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Fury of the Jabari",
+            "content": [
+                "On activation, refresh all personal Furies.",
+                "The first and final hits each Purify 2 non-Damaging Debuffs on M'Baku, granting +2 Combo Meter for each Debuff Purified this way."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Hammer's Blow",
+            "content": [
+                "Each hit deals a burst of Direct Damage equal to 15% of all the damage the Opponent has taken prior to this attack while M'Baku's personal Unstoppable is active, up to [75,657.2] damage per hit scaling with his starting Attack. Damage counting resets after the final hit.",
+                "On the final hit, consume 100 Combo Meter to gain M'Baku's Mighty Roar Fury."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Ghekre's Grace",
+            "content": [
+                "Purify all Debuffs and gain a non-stacking +[1,036.4] Fury Passive for 60 seconds with +10% flat potency per Debuff Purified. Max potency increase: +40%.",
+                "Gain +5 Combo Meter and an indefinite Cleanse Passive for each Debuff Purified this way. Max Cleanses: 5."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Fearless One",
+            "content": [
+                "While Unstoppable, M'Baku gains +[15 - 35]% Combat Adrenaline.",
+                "When an Opponent's Evade or Auto-Block fails due to True Accuracy, M'Baku deals a burst of [10,364 Direct Damage. Cooldown: 5 seconds.",
+                "Reaching 50 Combo Meter for the first time each fight indefinitely increases the duration of M'Baku's personal Furies by [10 - 25]%."
+            ]
+        }
+    ]
 }

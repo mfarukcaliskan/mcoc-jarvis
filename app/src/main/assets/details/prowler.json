@@ -17,6 +17,76 @@
     "synergies": [],
     "howToPlay": "Prowler için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Prowler Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥\n• Sendeleme Bağışıklığı 👻🚫"
+    "signatureAbility": "Courtesy of The Prowler\nWhile the Opponent is Faltered, Prowler gains +[687.5 - 4,125] Critical Rating.\nWhile Prowler has at least 30 Fury effects, his Special Attacks are Passively Unblockable.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥\n• Sendeleme Bağışıklığı 👻🚫",
+    "abilitySections": [
+        {
+            "title": "Prowler's Suit - Always Active",
+            "content": [
+                "Custom-made flak armor grants Immunity to Bleed and Incinerate, and increases Prowler's Block Proficiency during the Opponent's Special Attacks by +[1,480.77].",
+                "Unyielding, unrelenting. Prowler is Immune to Falter and has 115% Ability Accuracy.",
+                "Prowler does not benefit from the Collar Tech Mastery. Instead, he gains +[114.58] Critical Damage Rating for each rank invested."
+            ]
+        },
+        {
+            "title": "Pneumatic Gauntlets",
+            "content": [
+                "Medium Attacks are non-contact pneumatic blasts that cannot be Evaded.",
+                "When Prowler would land a Critical Hit, he instead inflicts a Rupture Passive dealing the Critical Damage the hit would have dealt as Physical Damage over 1 second."
+            ]
+        },
+        {
+            "title": "Gas Pellets - Falter",
+            "content": [
+                "Prowler's second Medium Attack inflicts a Falter Passive for 3 seconds, paused during his Special Attacks, which can not be inflicted if the Opponent is already Faltered. If it causes a Miss, it goes on cooldown for 10 seconds.",
+                "If Prowler's Special Attacks would be Punished, he inflicts a Falter Passive for 1 second.",
+                "While the Opponent is Faltered, they are more aggressive."
+            ]
+        },
+        {
+            "title": "Power Creep - Max: 30",
+            "content": [
+                "After the Opponent activates a Special Attack, Power Drain their remaining Power and inflict a Power Lock Passive lasting for 1.5 seconds after the final hit of their attack.",
+                "For every 1.1% of the Opponent's Max Power that is Drained or Burned, gain 1 Power Creep Charge.",
+                "On Prowler's Special Attack activation, each Charge is converted into a Fury Passive granting +[375.44] Attack Rating for 10 seconds, paused during Special Attacks. Max stacks: 30."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Landing a Heavy Attack against an Opponent with 0 Power causes the final 4 hits to inflict a non-stacking Incinerate Debuff dealing [14,079] Energy Damage over 20 seconds.",
+                "If a personal Rupture expires on an Incinerated Opponent, it explodes, dealing a burst of [4,223.7] Physical Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a Pursuit Passive for 30 seconds.",
+                "The final hit inflicts a Taunt Debuff for 4 seconds.",
+                "This Special Attack does not grant Power to the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit refreshes and pauses all personal Ruptures until the final hit of this Special Attack.",
+                "Each hit inflicts a Rupture Passive dealing [1,877.2] Physical Damage over 1 second."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Prowler ditches the niceties and Overcharges his gauntlets until the end of his next Special Attack.",
+                "While Overcharged, Prowler gains +50% Combat Power Rate, but cannot activate Special Attacks 2 or 3. Additionally, Power Creep Charges are not removed on conversion, and new Fury Passives do not count towards the cap.",
+                "As an Attacker, grant the Opponent a 100% Power Efficiency Passive for 30 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Courtesy of The Prowler",
+            "content": [
+                "While the Opponent is Faltered, Prowler gains +[687.5 - 4,125] Critical Rating.",
+                "While Prowler has at least 30 Fury effects, his Special Attacks are Passively Unblockable."
+            ]
+        }
+    ]
 }

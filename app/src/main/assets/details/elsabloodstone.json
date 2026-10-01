@@ -13,6 +13,70 @@
     "synergies": [],
     "howToPlay": "Elsa Bloodstone için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Elsa Bloodstone Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Arındırma (hasar vermeyen etkiler) 💪🏼"
+    "signatureAbility": "Huntress of The Contest\nWhen Fighting Science Champions, Critical Hits with Hellfire Rounds deal an additional [2,639.71 - 15,838.45] damage.\nWhen Fighting #Large or #Extra Large Champions, Critical Hits with Behemoth Busters deal an additional [2,639.71 - 15,838.45] damage.\nElsa's Critical Damage Rating is increased by [144.73 - 1,178.57] when fighting the final node in a Quest.",
+    "immunityDetails": "• Arındırma (hasar vermeyen etkiler) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Bloodgem Protection",
+            "content": [
+                "When Elsa is affected by a Bleed Debuff, Non-Mutant Champions gain a Passive Degeneration dealing [1,267.08] Direct Damage every 0.5 seconds until all Bleed Debuffs on Elsa end. While this Degen is active Opponents will also be passively Heal Blocked.",
+                "While suffering from a Non-Damaging Debuff, Elsa has a 100% chance to Purify 1 of any Debuff every 2.6 seconds.",
+                "After Purifying a Debuff, Elsa gains a Precision Buff increasing Critical Rating by [2,750] for 9 seconds."
+            ]
+        },
+        {
+            "title": "Well Timed Blocks",
+            "content": [
+                "When Elsa would perform a Well-Timed Block against Basic Attacks, she has a 100% chance to Evade instead. This Evade has a cooldown of 11 seconds.",
+                "When performing an Evade, Elsa counter attacks with her Revolver and deals [1,583.85] Physical Damage on Hit. This attack generates no Power for the Opponent."
+            ]
+        },
+        {
+            "title": "Enhanced Munitions",
+            "content": [
+                "Elsa loads her Winchester with Hellfire Rounds and her Revolvers with Behemoth Busters. Each gun can fire 6 rounds before Reloading.",
+                "Reloading lasts 11 seconds. Each stack of Reloading increases Elsa's Offensive Combat Power Rate by 40%."
+            ]
+        },
+        {
+            "title": "Winchester: Hellfire Rounds (Medium Combo Ender and Special 1)",
+            "content": [
+                "On Hit: Inflict an Incinerate Debuff, dealing [5,279.5] Energy Damage over 11 seconds. This also removes Perfect Block Chance and reduces Block Proficiency by 50%. Winchester shots are projectiles and do not make contact.",
+                "If the Opponent has triggered an Evade or they are Immune to Incinerate, a matching Coldsnap Debuff is inflicted instead, which prevents Evade from activating."
+            ]
+        },
+        {
+            "title": "Revolver: Behemoth Busters (Light Combo Ender and Special 2)",
+            "content": [
+                "On Hit: Inflict a Busted Debuff, increasing the Potency of incoming Incinerate or Coldsnap Debuffs by 50% for 21 seconds. Additionally, each time the Opponent is Struck by a Critical Hit, deal [2,639.75] Direct Damage for each Busted Debuff. This Damage scales with base attack only. Revolver shots are projectiles and do not make contact."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On Activation gain a Precision Buff increasing Critical Rating by [4,125] for 9 seconds. This Precision is paused until Elsa activates her next Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "If Elsa runs out of Behemoth Busters she will fire her Hellfire Rounds instead."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain up to 3 Cruelty Buffs, each increasing Elsa's Critical Damage Rating by [305.56] for 22 seconds.",
+                "These Cruelty Buffs expire 1 at a time. Each time Elsa triggers a Reloading effect, she refreshes their duration."
+            ]
+        },
+        {
+            "title": "Signature Ability - Huntress of The Contest",
+            "content": [
+                "When Fighting Science Champions, Critical Hits with Hellfire Rounds deal an additional [2,639.71 - 15,838.45] damage.",
+                "When Fighting #Large or #Extra Large Champions, Critical Hits with Behemoth Busters deal an additional [2,639.71 - 15,838.45] damage.",
+                "Elsa's Critical Damage Rating is increased by [144.73 - 1,178.57] when fighting the final node in a Quest."
+            ]
+        }
+    ]
 }

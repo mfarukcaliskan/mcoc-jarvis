@@ -10,5 +10,39 @@
     "synergies": [],
     "howToPlay": "Iron Patriot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Iron Patriot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Arc Overload\nNorman Osborn overloads the Arc Reactor in his chest if Health drops below 15%, gaining [9,570.8 - 23,916.95] Regeneration, and 50% Power Gain. After that, his suit burns out and cannot trigger Armor Up, Armor Break or Stun and loses all base Armor.\nWhile under Arc Overload Iron Patriot also gains an Armor Up, increasing Armor Rating by [562.5 - 2,248.11].",
+    "abilitySections": [
+        {
+            "title": "When Attacked",
+            "content": [
+                "10% chance to gain an Armor Up Buff for 6 seconds, granting +[4,178.57] Armor Rating."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "70% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [2,537.23] for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "54% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [832.19] for 9 seconds.",
+                "74% chance to Stun for 4 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to Stun for 4.75 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Arc Overload",
+            "content": [
+                "Norman Osborn overloads the Arc Reactor in his chest if Health drops below 15%, gaining [9,570.8 - 23,916.95] Regeneration, and 50% Power Gain. After that, his suit burns out and cannot trigger Armor Up, Armor Break or Stun and loses all base Armor.",
+                "While under Arc Overload Iron Patriot also gains an Armor Up, increasing Armor Rating by [562.5 - 2,248.11]."
+            ]
+        }
+    ]
 }

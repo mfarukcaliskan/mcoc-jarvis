@@ -17,5 +17,72 @@
     "synergies": [],
     "howToPlay": "Jubilee için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Jubilee Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Princess of Pyrotechnics\nEach time one of Jubilee's personal Debuffs expires on the Opponent, deal a burst of [1,754.78 - 3,480] Energy Damage.\nEach time the Opponent Purifies any Debuff, deal a burst of [2,851.51 - 5,655] Energy Damage.",
+    "abilitySections": [
+        {
+            "title": "Mutation - Always Active",
+            "content": [
+                "Jubilee's energy plasmoids cause her Basic Attacks to deal Energy Damage instead of Physical.",
+                "+[1,500] Energy Resistance."
+            ]
+        },
+        {
+            "title": "Fireworks -",
+            "content": [
+                "Jubilee can rotate through Orange, Pink and Blue Fireworks. Throwing Light and Medium Attacks rotates Fireworks.",
+                "If a Firework Surge is selected in the pre-fight screen, at the start of the fight, gain a Firework Surge, preventing Jubilee from rotating Fireworks for 16 second(s).",
+                "While Firework Surge is active, gain bonus effects when landing a hit or striking into a block, based on the active Firework:",
+                "Orange: Deal 55% of hit damage as a burst of Energy Damage.",
+                "Pink: Opponents suffer -30% Defensive Combat Power Rate.",
+                "Blue: Opponents suffer -50% Defensive Ability Accuracy."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "While Firework Surge is not active, being struck, landing a hit or striking into the block has a 50% chance to apply a Prowess Buff, increasing Special Attack Damage by 12.5% until the end of the next Special Attack. Max 12 stack(s).",
+                "When intercepting the Opponent's Dash Attack, this chance is increased to 100%."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "When charging a Heavy Attack while a Firework Surge is active, remove the Firework Surge."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a Firework Surge lasting 6 second(s).",
+                "When the last hit lands or strikes into the block, apply the effects of the active Firework, increasing the duration by 1 second(s) for each Prowess Effect:",
+                "Orange: Inflict a Shock Debuff and consume all Damaging Debuffs on Jubilee. For each Damaging Debuff consumed, inflict another Shock Debuff, dealing [3,915] Energy Damage over 9 second(s).",
+                "Pink: Inflict a Taunt Debuff for 9 seconds.",
+                "Blue: Inflict a Slow Debuff, lasting 9 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a Firework Surge lasting 19 second(s).",
+                "When the last hit lands or strikes into the block, apply the effects of the active Firework:",
+                "Orange: Inflict an Incinerate Debuff, dealing [7,612.5] Energy Damage over 22 second(s). This also removes the target's Perfect Block Chance and reduces their Block Proficiency by 50%.",
+                "Pink: Inflict a Suppression Debuff, reducing Combat Power Rate by 25% for 22 second(s).",
+                "Blue: Inflict a Concussion Debuff, reducing the Opponent's Ability Accuracy by 25% for 22 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "On activation, gain a Firework Surge lasting 16 second(s).",
+                "Consume up to 12 Prowess Buffs and gain an indefinite Prowess Passive for each Prowess that was consumed, increasing Special Attack Damage by 12.5%. Max 12 stack(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Princess of Pyrotechnics",
+            "content": [
+                "Each time one of Jubilee's personal Debuffs expires on the Opponent, deal a burst of [1,754.78 - 3,480] Energy Damage.",
+                "Each time the Opponent Purifies any Debuff, deal a burst of [2,851.51 - 5,655] Energy Damage."
+            ]
+        }
+    ]
 }

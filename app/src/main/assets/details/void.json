@@ -13,6 +13,68 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Rakip herhangi bir negatif efekt yaşarsa doğrudan hasar verir — purify eden veya yetenek azaltan şampiyon kullan. Negatif efekt süresini kısaltan şampiyonlar da iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Void Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥"
+    "signatureAbility": "Fear of The Void\nWhen all Intimidating Presence Debuffs are at max stacks, instead of being removed, those Debuffs are converted into a Passive Fear of the Void that combines their effects and grants Void [2,608.1 - 12,804.35] Attack Rating for 40 seconds.\nWhen Fear of the Void is active, Intimidating Presence generates Debuffs [15 - 60]% faster.\nFear of the Void cannot exceed 2 stacks.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "A suffocating, choking, and all-consuming Void provides full immunity to Incinerate effects.",
+                "Every 10 seconds, Void's Intimidating Presence inflicts 1 random Debuff. +4 seconds on the timer if at least one Intimidating Presence Debuff is already active."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "Opponents can remove one Intimidating Presence Debuff for every 10 hits on their Combo Meter."
+            ]
+        },
+        {
+            "title": "Intimidating Presence",
+            "content": [
+                "For each Champion alive on the opponent's team, Intimidating Presence Debuffs have a 0.6 second delay before fully activating.",
+                "Agility Debuff: Reduces Ability Accuracy of Evade and the Dexterity Mastery by 30%. Max Stacks: 2",
+                "Fatigue Debuff: Reduces Critical Rating by [1,480.77]. Max Stacks: 2",
+                "Petrify Debuff of 50% Potency. Max Stacks: 2",
+                "When all Intimidating Presence Debuffs are at max stacks, those Debuffs will be removed after 5 seconds."
+            ]
+        },
+        {
+            "title": "When Opponents Suffer from a Debuff",
+            "content": [
+                "For each unique Debuff type, the opponent takes [948.4] Direct Damage per second."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Inflicts 1 Intimidating Presence Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Inflicts 2 Dark Stings, each lasting for 12 seconds. An opponent with a Dark Sting gains a Weakness or a Degeneration Debuff per Sting when activating a Special Attack.",
+                "Weakness: Reduces Attack Rating by 25% for 20 seconds.",
+                "Degeneration: Inflicts [15,174.4] Direct Damage over 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "The strength of this Special Attack is increased based on how many unique Debuffs types are currently active on the opponent.",
+                "1 ~ 2 unique Debuffs provide a +20% passive Fury.",
+                "3 ~ 4 unique Debuffs provide a +50% passive Fury.",
+                "5+ unique Debuffs provide a +250% passive Fury."
+            ]
+        },
+        {
+            "title": "Signature Ability - Fear of The Void",
+            "content": [
+                "When all Intimidating Presence Debuffs are at max stacks, instead of being removed, those Debuffs are converted into a Passive Fear of the Void that combines their effects and grants Void [2,608.1 - 12,804.35] Attack Rating for 40 seconds.",
+                "When Fear of the Void is active, Intimidating Presence generates Debuffs [15 - 60]% faster.",
+                "Fear of the Void cannot exceed 2 stacks."
+            ]
+        }
+    ]
 }

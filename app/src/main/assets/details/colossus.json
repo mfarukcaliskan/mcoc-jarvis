@@ -12,6 +12,83 @@
     "synergies": [],
     "howToPlay": "Colossus için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Colossus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Zırh Kırma Bağışıklığı (tech'ler hariç) 🛡️"
+    "signatureAbility": "The Mighty Colossus!\nWhenever one of Colossus' Immunities protects him from an effect, he has a [23 - 52]% chance to gain an Armor Up Buff, lasting 15 seconds.\nColossus has a [16 - 45]% chance to convert an expiring Armor Up Buff into a permanent one.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Zırh Kırma Bağışıklığı (tech'ler hariç) 🛡️",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Colossus is Immune to all Bleed, Incinerate, Coldsnap & Frostbite effects. Additionally, if he's not fighting a Tech Champion, he's also immune to Armor Break and Armor Shattered Debuffs.",
+                "At the start of the fight, Colossus gains a number of indefinite Armor Up Buffs equal to 2 plus the number of X-Men Champions on his team, including himself."
+            ]
+        },
+        {
+            "title": "Personal Armor Up Buffs - Max: 20",
+            "content": [
+                "Unless otherwise stated, Colossus's Armor Up Buffs provide [305.56] Armor Rating.",
+                "Additionally for each Armor Up Buff Colossus has, he gains an additional [85.05] Critical Damage Rating."
+            ]
+        },
+        {
+            "title": "When Attacked or When Attacking",
+            "content": [
+                "If Colossus' Ability Accuracy is below 100%, he gains +100% Combat Power Rate for the duration of the attack."
+            ]
+        },
+        {
+            "title": "Enemy Critical Hits",
+            "content": [
+                "Damage is capped at 150% of the opponent's Attack rating.",
+                "Each time this damage cap is hit, the duration of Colossus' Armor Up Buffs are refreshed. Additionally he has a 50% chance to gain an additional Armor Up Buff lasting 15 seconds."
+            ]
+        },
+        {
+            "title": "Well Timed Blocks",
+            "content": [
+                "100% chance to gain an Armor Up Buff, lasting 15 seconds.",
+                "If contact is made by basic attacks, Colossus has a 100% chance to inflict a Stun Debuff lasting 1 seconds.",
+                "If Colossus has the Parry Mastery, this Stun Debuff is disabled and instead a successful Parry also deals [5,035.5] direct damage."
+            ]
+        },
+        {
+            "title": "Special and Heavy Attacks",
+            "content": [
+                "Attack rating is increased by up to +[20,142], based on Colossus's Armor Rating."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If the Opponent has a Stun Debuff, Colossus's Heavy Attacks have a 100% chance to Purify the Stun and grant a Passive Fury increasing Attack by up to +[35,248.5], based on Colossus's Armor, for 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Gain an indefinite Armor Up Buff.",
+                "Flat 5% chance per Armor Up Buff to inflict a Stun Debuff for 2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack is Unblockable.",
+                "When activated, for each Armor Up Buff, Colossus has a 50% chance to gain another lasting 15 seconds. These Buffs do not count towards the Max Stack limit, allowing Colossus to temporarily go above his Armor Up Buff limit."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict an indefinite Passive Fatigue on the opponent, reducing their Critical Rating by [2,750].",
+                "Colossus activates Organic Steel increasing the amount of Damage reduced by Armor and Resistances by 2% per Armor Up Buff. Additionally while Organic Steel is active, Colossus is Unstoppable while Blocking allowing him to shrug off attacks."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Mighty Colossus!",
+            "content": [
+                "Whenever one of Colossus' Immunities protects him from an effect, he has a [23 - 52]% chance to gain an Armor Up Buff, lasting 15 seconds.",
+                "Colossus has a [16 - 45]% chance to convert an expiring Armor Up Buff into a permanent one."
+            ]
+        }
+    ]
 }

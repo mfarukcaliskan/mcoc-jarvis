@@ -10,5 +10,51 @@
     "synergies": [],
     "howToPlay": "Winter Soldier için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Winter Soldier Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Emp Upgrade\nAn upgrade to Bucky's bionic arm grants his Critical Hits a 15% chance to Power Drain his target for [13 - 28]% of the target's max power. The amount drained increases based on Critical Hit Damage.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "11% chance to gain a Fury Buff for 7 seconds, granting +[1,963.5] Attack."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Winter Soldier begins the fight with one type of Ammo loaded into all his guns. Each time he launches a Special Attack he automatically switches to the next Ammo Type. Winter Soldier can also Dash back and hold Block for 1.5 seconds to manually switch ammo types."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Armor Piercing: Winter Soldier ignores all of the opponent's Armor and Resistance Ratings.",
+                "Incendiary: Winter Soldier Incinerates the opponent, dealing [3,730.65] Energy Damage over 6.5 seconds. This also removes Perfect Block Chance and reduces Block Proficiency by 50%.",
+                "Hollow Point: Any Bleed effect triggered during the attack has its Duration increased by 50%."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "55% chance to inflict Bleed, dealing [3,730.65] Direct Damage over 4 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "85% chance to inflict a Bleed Debuff, dealing [4,516.05] Direct Damage over 4 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a Bleed Debuff, dealing [9,032.1] Direct Damage over 3.5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Emp Upgrade",
+            "content": [
+                "An upgrade to Bucky's bionic arm grants his Critical Hits a 15% chance to Power Drain his target for [13 - 28]% of the target's max power. The amount drained increases based on Critical Hit Damage."
+            ]
+        }
+    ]
 }

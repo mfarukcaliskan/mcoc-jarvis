@@ -9,6 +9,27 @@
     "synergies": [],
     "howToPlay": "Captain America için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Captain America Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Arındırma (takımda Skill kahraman varken) 💪🏼"
+    "signatureAbility": "Last Stand\nThe chance to Perfectly Block all damage increases by up to [9 - 51.44]% based on lost Health, providing hope when the Cap needs it most.",
+    "immunityDetails": "• %100 Arındırma (takımda Skill kahraman varken) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Blocking",
+            "content": [
+                "40% chance that a Block is a Perfect Block, reducing all damage to 0.",
+                "A Perfect Block has a 90% chance to Fatigue the opponent, lowering their Critical Rating by [250] for 12 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "30% chance to Stun opponents for 3 seconds. The chance to Stun is increased by 40% if the target is Fatigued."
+            ]
+        },
+        {
+            "title": "Signature Ability - Last Stand",
+            "content": [
+                "The chance to Perfectly Block all damage increases by up to [9 - 51.44]% based on lost Health, providing hope when the Cap needs it most."
+            ]
+        }
+    ]
 }

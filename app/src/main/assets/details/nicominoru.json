@@ -20,6 +20,81 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Dövüşe 11sn'lik bonus immünitesiyle başlar (bonus tetiklenirse zehir/asit yakma uygular — kozmik olmayan zehir-immün şampiyon en iyisi). E1'i mutlaka kaçır (son vuruşu bloktan bile doğrudan enerji hasarı verir); E2'ye zorlamak daha güvenli (bonus immünitesini yeniler ama kaçması kolay). E1 sonrası 4sn görünmez olur.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Nico Minoru Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Yırtılma Bağışıklığı ☣️"
+    "signatureAbility": "W.I.T.C.H.\nWhenever a Buff or personal effect on the Opponent other than Poison is prevented or removed by Immunity, Nico inflicts a [1,887.37 - 4,791] Poison Passive for 12 seconds. Max stacks: 20.\nPersonal effects on the Opponent are paused during Nico's Special Attacks.\nWhen Nico causes an attack to Miss, she Passively gains [448.17 - 3,038.72] Adrenaline. Cooldown: 0.5 seconds.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Yırtılma Bağışıklığı ☣️",
+    "abilitySections": [
+        {
+            "title": "Blood Mage - Always Active",
+            "content": [
+                "As a Defender, Nico stores 40% of all damage taken as Adrenaline, and while she has more than 5% Adrenaline stored, she gains an indefinite 15% Flourish Passive.",
+                "Each time Nico gains a total of 5% of her Max Adrenaline, gain a +[1,916.4] Fury Passive for 15 seconds. Max stacks: 7.",
+                "When Nico activates any Special Attack, she Passively Converts up to [6,077.44] Adrenaline to Health per level of the Special Attack.",
+                "Nico starts each fight with 100% of the Adrenaline she finished her previous fight in the same Quest with. Personal Furies gained at this time gain 200% increased duration."
+            ]
+        },
+        {
+            "title": "Hex Girl - Buff Hunter",
+            "content": [
+                "Nico's Heavy charge and third Light Attack place an indefinite Pentacle Buff on the Opponent.",
+                "When the Opponent gains a Buff, Nico Passively gains 2% of her Max Power. When one or more Buffs are prevented or removed by Immunity, she gains 3%.",
+                "Nico does not benefit from the Mystic Dispersion Mastery. Instead, each rank increases the base potency of personal Power Gains by 10%.",
+                "Passively gain 1% of missing Health as Adrenaline when a Buff on the Opponent is prevented or removed by Immunity. Cooldown: 1 second.",
+                "Nico can inflict a Buff Immunity Debuff for 11 seconds, refreshed when Nico casts any Special Attack. As a Defender, this is a Passive instead."
+            ]
+        },
+        {
+            "title": "Staff of One -",
+            "content": [
+                "Nico is magically bound to the Staff of One, a powerful artifact that can cast potent spells. Each lasts until the Opponent is defeated and cannot be cast again within the same quest.",
+                "As a Defender, Nico always casts Unworthy."
+            ]
+        },
+        {
+            "title": "Spells of the One - Once Per Quest",
+            "content": [
+                "Unworthy - Nico inflicts her personal Buff Immunity at the start of the fight.",
+                "Absorb - Nico gains a 55% Stimulate Passive while Blocking.",
+                "Ward - Nico gains Immunity to Poison and Rupture effects.",
+                "Burn - Nico's Poison effects are replaced by Incinerates, but deal 30% reduced damage."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "As an Attacker, the first hit consumes 7% of Nico's current Health and stores it as Adrenaline.",
+                "On the final hit, or when canceling this attack with a Special 1 or 2, gain a Zeal Passive for 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a Halt Passive for 13 seconds, refreshed when Nico casts any Special Attack. Does not apply if active.",
+                "The final hit deals a burst of [14,373] Energy Damage, increased by 20% for each Damaging effect on the Opponent, up to 10. This can trigger through Block. As a Defender, the total potency is reduced by 50%.",
+                "After the final hit, Nico gains an Invisibility Passive for 4 seconds. If this causes an attack to Miss, it goes on cooldown for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts a [28,746] Poison Debuff for 30 seconds, paused during the Opponent's Special Attacks.",
+                "If a Cosmic Opponent is Immune to any of Nico's Poisons, she inflicts a matching Acid Burn instead.",
+                "The final hit inflicts Nico's Buff Immunity. As a Defender, this applies on activation. Does not apply if active."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack gains +[3,832.8] Attack for each Damaging effect on the Opponent.",
+                "The first time this attack is used each fight, Nico increases the duration of personal effects by 50% for the rest of the fight."
+            ]
+        },
+        {
+            "title": "Signature Ability - W.I.T.C.H.",
+            "content": [
+                "Whenever a Buff or personal effect on the Opponent other than Poison is prevented or removed by Immunity, Nico inflicts a [1,887.37 - 4,791] Poison Passive for 12 seconds. Max stacks: 20.",
+                "Personal effects on the Opponent are paused during Nico's Special Attacks.",
+                "When Nico causes an attack to Miss, she Passively gains [448.17 - 3,038.72] Adrenaline. Cooldown: 0.5 seconds."
+            ]
+        }
+    ]
 }

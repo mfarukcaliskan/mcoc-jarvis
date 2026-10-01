@@ -13,6 +13,81 @@
     "synergies": [],
     "howToPlay": "Old Man Logan için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Old Man Logan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %95 Kanama direnci (rejenerasyon sırasında) 🩸\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️"
+    "signatureAbility": "Old Scars\nWhenever Logan gains one of his 0 Damage Passive Bleeds, it has a [26 - 61.7]% chance to gain +400% duration.\nLogan's first Special Attack each fight gains +[1,825.8 - 3,580.01] Attack rating.",
+    "immunityDetails": "• %95 Kanama direnci (rejenerasyon sırasında) 🩸\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️",
+    "abilitySections": [
+        {
+            "title": "100% Chance every 20 seconds.",
+            "content": [
+                "Old Man Logan gains a Regeneration Buff which heals [4,473.3] Health over 20 seconds. While this Regeneration Buff is active, incoming Bleed effects gain +50% duration but suffer -95% Potency, giving Logan more time to deal with them."
+            ]
+        },
+        {
+            "title": "Always Active",
+            "content": [
+                "You can't teach an old, stubborn dog new tricks. Logan's Ability Accuracy cannot be decreased or increased."
+            ]
+        },
+        {
+            "title": "While Not Fighting Tech Champions",
+            "content": [
+                "Logan gains +[562.5] base Critical Resistance and his Special Attack 3 ignores Armor Rating."
+            ]
+        },
+        {
+            "title": "Landing Attacks, Blocking Attacks & Being Struck",
+            "content": [
+                "Logan has a 75% chance to gain a Passive Bleed, lasting 5 seconds which deals 0 damage. Max: 15 Stacks."
+            ]
+        },
+        {
+            "title": "Opponent Purifies a Bleed",
+            "content": [
+                "Logan's deep-cutting Adamantium causes the opponent to instantly take [2,685] direct damage for each Bleed they Purified."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "First hit has a 100% chance to Refresh the duration of Logan's 0 damage Passive Bleed effects.",
+                "Second hit has a 100% chance to Pause the duration of all active Fury Buffs for 2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Logan removes all Regeneration Buffs and Bleed effects from himself, gaining 1 Fury Buff for each effect removed this way. These Buffs last 12 seconds and grant +[465.4] Attack. Max Stacks: 15.",
+                "Special Attacks are Unblockable if Logan has 5 or more Fury Buffs."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [750] for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "80% chance per strike to inflict a Bleed Debuff, dealing [2,506] direct damage over 5 seconds.",
+                "Each Critical Hit also has a 80% chance to inflict a Critical Bleed, lasting 5 seconds and dealing [2,506] damage, multiplied by Logan's Critical Damage Multiplier."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a Deep Bleed Debuff which counts as a Bleed effect, lasting 35 seconds and dealing [5,370] direct damage.",
+                "If Logan has 5 or more Fury Buffs, inflict an additional Deep Bleed.",
+                "While Deep Bleed is active, Logan's attacks gain +[750] Critical Rating and ignore Physical Resistance.",
+                "Gain 100% Armor Penetration in this attack. No effect against Tech Champions."
+            ]
+        },
+        {
+            "title": "Signature Ability - Old Scars",
+            "content": [
+                "Whenever Logan gains one of his 0 Damage Passive Bleeds, it has a [26 - 61.7]% chance to gain +400% duration.",
+                "Logan's first Special Attack each fight gains +[1,825.8 - 3,580.01] Attack rating."
+            ]
+        }
+    ]
 }

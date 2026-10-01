@@ -16,6 +16,85 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Orta olmayan vuruşlara %5 kaçış şansı var (orta vuruşlar hiç kaçılmaz — en güvenli yöntem) ve özel saldırı sonrası 2sn kaçış aktive eder (o sürede orta dışı vuruşla karşılık verme); kaçışında 2sn pasif sersemletir. Kaçışı isabetli saldırı, üçüncül odak, onda-i-soğuk, yetenek azaltma (Mutant) veya tuzak ile yok sayılabilir. Her 5sn pasif iyileşir, iyileşme azaltma/tersine çevirmeye immün — sadece iyileşme engeli işe yarar. Bloklanan E2'si her ışından enerji patlaması verir (tam kaçmıyorsan zorlama); bloktan da kritik vurabilir. Hasarsız debuff'ları %80 şansla purify eder (siper kaynaklı sersemletmede sadece %40).",
     "bestUse": "",
-    "signatureAbility": "",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı (ile sinerji: White Tiger) 🔮\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "Our Name Means Death\nWhen Black Tarantula Evades, gain +[2 - 12] Combo.\nWhen Evading, inflict a Halt Passive for [2 - 8] seconds. Critical Hits pause this Passive for 1 seconds.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı (ile sinerji: White Tiger) 🔮\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Black Tarantula is Immune to Poison.",
+                "The Black Tarantula's unerring resolve allows him to land Critical Hits into Block and disables the Opponent's Inequity Mastery.",
+                "The base duration of personal Stun and Regeneration effects is reduced by 25% for each Prowess effect on the Opponent."
+            ]
+        },
+        {
+            "title": "Cunning Adversary",
+            "content": [
+                "When his Combo Meter reaches a multiple of 20, gain an indefinite +24% Cunning Passive. Max stacks: 30.",
+                "When inflicted with one or more non-Damaging Debuffs, gain +3 Combo. As a Defender, this is doubled and he starts each fight with an indefinite Combo Shield Passive."
+            ]
+        },
+        {
+            "title": "Underworld Evasion",
+            "content": [
+                "Black Tarantula has a 5% chance to Evade all non-Medium attacks. As a Defender fighting non-Science Attackers, this ability is not active for the first 15 seconds of the fight. His Evades' Ability Accuracy cannot be modified by non-Mutant Champions.",
+                "When Evading a hit, gain a +[1,935.8] Fury Passive for 20 seconds, paused during personal Special Attacks. Max stacks: 2.",
+                "When Evading Basic Attacks, Black Tarantula inflicts a Stun Passive for 2 seconds, unaffected by Ability Accuracy. While this Stun is active, the Opponent cannot be Untouchable."
+            ]
+        },
+        {
+            "title": "Face First Into Danger - Special Evade",
+            "content": [
+                "Black Tarantula has a 100% chance to Evade when he would be struck by a Special Attack while Dashing forward or Dodging back.",
+                "As an Attacker, this Evade then goes on cooldown for 20 seconds or until Black Tarantula performs 6 Medium Attacks.",
+                "If his Dexterity Mastery is prevented when he would Evade a Special Attack, he Evades the rest of it, ignoring the cooldown.",
+                "As a Defender, Evade the first incoming non-Medium attack for 2 seconds after the final hit of his Special Attacks."
+            ]
+        },
+        {
+            "title": "Storied Resilience",
+            "content": [
+                "Black Tarantula does not benefit from Willpower. Instead, he gains a Regeneration Passive every 5 seconds, recovering [1,519.36] Health plus 50% of his stored Adrenaline over 5 seconds.",
+                "Legends tell of the Black Tarantula's unique longevity. All modifications to his Regeneration Rate have their potencies reversed, to a maximum gain of 400%.",
+                "When inflicted with a non-Damaging Debuff other than Spectre or Petrify, Black Tarantula has a 80% chance to Purify it and gain a 25% Spectre Debuff for 30 seconds. Max stacks: 6. Purify chance is halved for the Parry Mastery's Stun Debuffs."
+            ]
+        },
+        {
+            "title": "Heavy Attack",
+            "content": [
+                "The first hit refreshes personal Spectre Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a personal Spectre Debuff.",
+                "The final hit grants 2 personal Cunning Passives unless it is Well-Timed Blocked."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Black Tarantula starts each fight with this Special Attack on cooldown for 60 seconds. This cooldown's duration is reduced by 5 seconds when a personal Cunning Passive is gained.",
+                "On activation, inflict an indefinite [1,178.57] Vulnerability Passive. Max stacks: 4.",
+                "Each beam hit deals a burst of [14,518.5] Energy Damage. On a Critical Hit, the burst benefits from Black Tarantula's Critical Damage multiplier and can trigger through Block. As a Defender, this burst has 85% reduced base potency."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Black Tarantula can only use this attack 2 times per fight.",
+                "Reduce the max duration of the Special 2 cooldown by 7.5 seconds and increase the stack limit of personal Vulnerabilities by +1.",
+                "Inflict a personal Vulnerability and gain 2 personal Cunning.",
+                "Deal a burst of [14,518.5] Energy Damage. This has a chance equal to Black Tarantula's Critical Hit chance to benefit from his Critical Damage multiplier. As a Defender, this burst has 85% reduced base potency."
+            ]
+        },
+        {
+            "title": "Signature Ability - Our Name Means Death",
+            "content": [
+                "When Black Tarantula Evades, gain +[2 - 12] Combo.",
+                "When Evading, inflict a Halt Passive for [2 - 8] seconds. Critical Hits pause this Passive for 1 seconds."
+            ]
+        }
+    ]
 }

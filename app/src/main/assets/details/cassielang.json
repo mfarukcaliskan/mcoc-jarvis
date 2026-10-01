@@ -16,6 +16,67 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Sık kaçar; E1'inde 12sn'de 14 vuruş yapamazsan doğrudan hasar alırsın. E2'ye zorlamak ve purify eden veya yetenek azaltan şampiyon kullanmak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cassie Lang Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Zehir Bağışıklığı 🧪\n• Buff Bağışıklığı 🗡️🚫\n• Güç Çalma Bağışıklığı 🔋🔽"
+    "signatureAbility": "Pym Suit Upgrade\nCassie's Pym Suit is enhanced, and grants her Immunity to Power Steal.\nPower Stings have their Stack limit increased by [1.44 - 10] (rounded down).\nCassie gains a [2.6 - 9]% chance to Evade her Opponent's attacks.\nWhen Cassie's personal Evade triggers, she inflicts a Power Sting Debuff, lasting 14 seconds and dealing a burst of [3,989.2] Direct Damage if the Opponent launches a Special Attack.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Zehir Bağışıklığı 🧪\n• Buff Bağışıklığı 🗡️🚫\n• Güç Çalma Bağışıklığı 🔋🔽",
+    "abilitySections": [
+        {
+            "title": "Pym Suit Technology - Always Active",
+            "content": [
+                "Cassie's highly advanced Pym Suit provides her with Buff Immunity, as well as Immunity to Poison and Shock effects.",
+                "Unless otherwise stated, Cassie's personal Power Stings last 10 seconds and deal a burst of [3,490.55] Direct Damage if the Opponent launches a Special Attack. These Power Stings are reapplied when the Opponent launches a Special Attack, paused during Cassie's Special Attacks, and scale with Base Attack only. Max: 30."
+            ]
+        },
+        {
+            "title": "Pym Particles - Max: 6",
+            "content": [
+                "As an Attacker, whenever Cassie prevents a Buff via Immunity or causes the Opponent's Special Attacks to Miss by shrinking down, she gains 1 Pym Particle.",
+                "Landing a Light Combo Ender consumes all Pym Particles to inflict a Poison Debuff, dealing [997.3] Damage over 2 seconds and reducing Opponent Health recovery by 30%. This duration is increased by 2 seconds for each Pym Particle consumed. This ability cannot be activated with no Pym Particles.",
+                "While this Poison is active, Cassie's Taunt and Power Stings on the Opponent fall off 80% slower, including effects that are already active."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Cassie's Heavy Attack can be charged for an extended duration. While charging, Cassie shrinks down, causing all incoming attacks to have a 100% chance to Miss.",
+                "Being shrunken consumes Pym Fuel. Cassie starts with her maximum 300 Pym Fuel and consumes 100 Fuel per second while shrunken. Fuel recharges at a rate of 12 Fuel per second while not performing a Heavy Attack. Running out of fuel overexerts Cassie and leaves her Passively Stunned for 2 seconds.",
+                "Cassie generates dormant Power Stings while charging her Heavy Attack. The first hit of her Heavy Attack that lands inflicts 1 Power Sting Debuff for each dormant Power Sting. These are removed when Cassie lands her Heavy Attack or has her Heavy Charge interrupted.",
+                "Whenever the Opponent Misses due to Cassie being shrunken, she generates 2 additional dormant Power Stings."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final hit inflicts a non-stacking 50% Taunt Debuff for 12 seconds.",
+                "During this Special Attack, the Opponent's Combat Power Rate is increased by 300% while under 1.5 Bars of Power.",
+                "As a Defender, inflict a Combo Detonation Debuff on activation for 12 seconds. If the Opponent does not build 14 Combo before this ability expires, they take a burst of [27,924.4] Direct Damage, scaling with Base Attack only.",
+                "This Debuff starts paused until the end of this Special Attack and cannot be inflicted while it's already active."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack gains +[1,495.95] Attack Rating for each Power Sting on the Opponent.",
+                "If activated while Cassie's personal Taunt is active, this Special Attack deals Guaranteed Critical Hits."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Crush Debuff, lasting 10 seconds.",
+                "For the rest of the fight, Cassie becomes furious and grows in size! This cannot be triggered multiple times. Being furious grants Cassie the following abilities:",
+                "An indefinite Fury Passive, increasing her Attack Rating by [3,989.2].",
+                "+[1,833.33] Physical Resistance.",
+                "The duration of all personal Power Stings is increased by 20%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Pym Suit Upgrade",
+            "content": [
+                "Cassie's Pym Suit is enhanced, and grants her Immunity to Power Steal.",
+                "Power Stings have their Stack limit increased by [1.44 - 10] (rounded down).",
+                "Cassie gains a [2.6 - 9]% chance to Evade her Opponent's attacks.",
+                "When Cassie's personal Evade triggers, she inflicts a Power Sting Debuff, lasting 14 seconds and dealing a burst of [3,989.2] Direct Damage if the Opponent launches a Special Attack."
+            ]
+        }
+    ]
 }

@@ -10,5 +10,62 @@
     "synergies": [],
     "howToPlay": "Falcon için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Falcon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Exo-8\nRedwing's Lock On lasts 2 seconds longer and provides an additional [731.01 - 2,437.93] Critical Rating.",
+    "abilitySections": [
+        {
+            "title": "Enhanced Synergy Bonuses",
+            "content": [
+                "Falcon is a master scout and is always ready to lend a hand. His Synergy Bonuses all provide an additional +3% Attack rating each."
+            ]
+        },
+        {
+            "title": "Recon Scan",
+            "content": [
+                "To begin a Recon Scan, dash back and hold Block. If Block is held for 1.2 seconds the opponent gains a Lock On charge for 14 seconds. While Lock On is active, Falcon's attacks Passively reduce the opponent's Defensive Ability Accuracy by 100%.",
+                "Lock On gains +40% duration while fighting Science Champions but suffers -20% duration while fighting Mutants.",
+                "Once Lock On ends, it goes on Cooldown for 8 seconds.",
+                "Falcons Basic Attacks Gain +[13,663] Attack Rating while Locked On to the Opponent."
+            ]
+        },
+        {
+            "title": "On Opponent Evade",
+            "content": [
+                "Falcon's scanning system in his goggles Recalibrates each time the opponent triggers a Passive Evade, increasing Falcon's Critical Damage Rating by [175.53] indefinitely.",
+                "While Redwing is active any Evade that the Opponent Fails to trigger will increase Falcon's Critical Damage Rating by [175.53] indefinitely."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "If Redwing is Locked On, Falcon's Special Attacks gain additional Zeroed In effects."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to inflict a Bleed Debuff, dealing [11,035.5] Direct Damage over 3.5 seconds.",
+                "Zeroed In: 100% chance to inflict an additional Bleed."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Opponent's Physical Resistance is reduced by 100% during this attack.",
+                "Zeroed In: +[1,069.44] Critical Damage Rating during the attack. Additionally the Second hit of this Attack gains 100% Critical Chance."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict an Incinerate Debuff, dealing [16,816] Energy Damage over 10 seconds. Incinerate also removes Perfect Block Chance and reduces Block Proficiency by 50%.",
+                "Zeroed In: 100% chance to inflict a 25 second Fragility Debuff. Attacking a Fragile Opponent grants +[1,178.57] Critical Damage Rating and reduces Block Proficiency by 50%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Exo-8",
+            "content": [
+                "Redwing's Lock On lasts 2 seconds longer and provides an additional [731.01 - 2,437.93] Critical Rating."
+            ]
+        }
+    ]
 }

@@ -17,5 +17,79 @@
     "synergies": [],
     "howToPlay": "Symbiote Supreme için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Symbiote Supreme Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Symbiomancy\nEvery [20 - 10] seconds place a Stagger Passive effect on the Opponent, lasting 10 seconds.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Symbiote Supreme gains 100% less power from Attacking, Blocking, and being Struck. But gains 16.5% of his Max Power every 9 seconds."
+            ]
+        },
+        {
+            "title": "Genetic Potential - Passive",
+            "content": [
+                "Each time a Buff or a Stagger effect on the Opponent ends gain 25 Genetic Potential, to a maximum of 100.",
+                "Gain an additional 50 Genetic Potential if a Buff ends due to a Nullify or Stagger effect."
+            ]
+        },
+        {
+            "title": "Genetic Blessings - Passive",
+            "content": [
+                "Symbiote Supreme can manifest 3 different Genetic Blessings, every 15 seconds he switches to the next in the following order: Chthon's Cunning, Null's Shadow, and Set's Fangs.",
+                "Each time a Blessing triggers 100% of Genetic Potential is consumed to gain up to 100% of a Bar of Power."
+            ]
+        },
+        {
+            "title": "Chthon's Cunning - Passive",
+            "content": [
+                "100% chance when this blessing is triggered to immediately Nullify all Buffs off the Opponent.",
+                "[6,164.6] Direct Damage is Passively dealt to the Opponent for each Buff Nullified, based on Genetic Potential.",
+                "While active gain a 5% chance to place a Stagger Passive on the Opponent lasting 10 seconds on each Basic Attack Hit. Critical Hits increase the Chance to 50%."
+            ]
+        },
+        {
+            "title": "Null's Shadow - Passive",
+            "content": [
+                "100% chance when this Blessing is triggered to gain a Protection Buff preventing Symbiote Supreme from taking more than 15% of his Max Health per hit, lasting for 10 seconds. This Protection threshold is reduced by 50% if the Opponent has an active Buff.",
+                "[1,833.33] Armor and 40% chance to Perfect Block as a Passive effect, based on Genetic Potential.",
+                "While active gain a 15% chance to place a Stagger Passive on the Opponent lasting 10 seconds each time Symbiote Supreme is Struck by or Blocks the Opponent. Well timed blocks increase the Chance to 50%."
+            ]
+        },
+        {
+            "title": "Set's Fangs - Passive",
+            "content": [
+                "100% chance when this Blessing is triggered to gain a Fury Buff increasing Attack by up to [9,721.1] for 10 Seconds, based on Genetic Potential.",
+                "100% chance to cause a Bleed Debuff on every Hit, dealing up to [8,061.4] Direct Damage based on Genetic Potential and lasting 8 seconds.",
+                "Each hit of a Special Attack gains a 50% chance to place a Stagger Passive on the Opponent lasting 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% Chance to Nullify 1 Buff. Gain 50 Genetic Potential if a Buff is Nullified.",
+                "Switch to the next Blessing."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "While Chthon's Cunning is active each hit has a 100% chance to steal 15% of the Opponent's Max Power.",
+                "While Null's Shadow is active each hit has a 100% chance to place a Weakness Debuff on the Opponent reducing their Attack by 33% for 10 seconds.",
+                "While Set's Fangs is active each hit has a 100% chance to place an Armor Break Debuff on the Opponent reducing their Armor by [2,750] for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to reset the Genetic Blessing timer, and activate all 3 Genetic Blessings.",
+                "+100 Genetic Potential."
+            ]
+        },
+        {
+            "title": "Signature Ability - Symbiomancy",
+            "content": [
+                "Every [20 - 10] seconds place a Stagger Passive effect on the Opponent, lasting 10 seconds."
+            ]
+        }
+    ]
 }

@@ -16,6 +16,64 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırı sonrası 10sn'lik dans eden bıçaklar aktive eder — bu sürede hafif vuruşla vurursan 2sn pasif sersemlersin. Ona vurmaktan kaçın ya da orta/ağır vuruş kullan. Sersemlemeye immün şampiyonlar da iyi çözüm.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spiral Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok süresini %100 azaltır ⚡️\n• Yakma süresini %100 azaltır 🔥\n• Zehir süresini %100 azaltır 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (ile sinerji: Rogue) 🧠"
+    "signatureAbility": "Mojoworld Stuntwoman\nWhile Dancing Blades are active, Spiral Instantly Regenerates up to [30 - 60]% of damage taken from Blocked hits.\nFor each Fervor on Spiral, the durations of incoming Shock, Incinerate, and Poison Debuffs are reduced by [5 - 10]%.",
+    "immunityDetails": "• Şok süresini %100 azaltır ⚡️\n• Yakma süresini %100 azaltır 🔥\n• Zehir süresini %100 azaltır 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (ile sinerji: Rogue) 🧠",
+    "abilitySections": [
+        {
+            "title": "Deadly Dancer - Always Active",
+            "content": [
+                "Spiral's magical and martial mastery grants her Immunity to Falter, and increases the Ability Accuracy of Stun effects by 100%.",
+                "All of Spiral's Weapon Attacks have -20% Offensive Combat Power Rate and a 1% chance to inflict a [2,405.2] Rupture Debuff over 10 seconds, paused during Spiral's Special Attacks.",
+                "When a personal Rupture would be inflicted on the Opponent, if they are not at Max Power, Spiral Power Steals 1% of their Max Power, increased by 3% flat while the Opponent has a Power Gain Buff.",
+                "For each Buff on the Opponent, Spiral's personal Rupture potency is increased by 10%.",
+                "Spiral does not benefit from the Mystic Dispersion Mastery. Instead, her personal Ruptures gain +1 second duration for each rank invested."
+            ]
+        },
+        {
+            "title": "Martial Fervor - Max: 15",
+            "content": [
+                "Each time Spiral performs a Light Attack, Medium Attack, Heavy Attack, Dodges back, or Blocks an attack, if it is not the same action as the one performed previously, she gains a 600% Fervor Passive for 13 seconds.",
+                "Fervors are paused during Spiral's Special Attacks and while the Opponent has a Power Gain Buff.",
+                "Fervors are also paused for 10 seconds upon reaching the stack limit. When the pause expires, 10 Fervors are removed. Does not expire while Fervors are paused by another ability.",
+                "Spiral has [16.6] Energy and Physical Resistance for each Fervor she has gained without repeating an action.",
+                "Fervors expire 100% faster for each one past the first two gained consecutively without making contact with the Opponent or Blocking an attack."
+            ]
+        },
+        {
+            "title": "Before The Opponent Lands an Attack",
+            "content": [
+                "While Blocking, Spiral's mystical weapons have a 100% chance to Destroy one of each Fury, Precision, Unblockable, Death Immunity, Immortality, and Indestructible Buff on the Opponent, replacing them with Rubble Buffs lasting 45 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Beam hits gain [2,405.2] Attack Rating for each Rupture on the Opponent, increased by 30% for each Bar of Power Spent.",
+                "Spiral summons her Dancing Blades for 10 seconds per Bar of Power spent, paused during Special Attacks."
+            ]
+        },
+        {
+            "title": "Dancing Blades",
+            "content": [
+                "Against non-Science Opponents, while Dancing Blades are active, Spiral is not struck by attacks while Dodging backwards, and Precisions she would gain from the Dexterity Mastery are granted to the Opponent instead.",
+                "While Spiral is not Blocking an attack or Stunned, Dancing Blades can be fired as a single projectile when Spiral is struck by a Light Attack 2 or swipes up while holding Block. Cannot be fired while Stunned.",
+                "If the Opponent is struck by Dancing Blades, inflict a Stun Passive for 2 seconds as well as a non-stacking [687.5] Vulnerability Debuff for 10 seconds.",
+                "If the Blades strike the Opponent or their Block, Spiral triggers her Destroy.",
+                "As an Attacker, Dancing Blades cannot be fired for 2 seconds after being summoned by Special Attack 1."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack gains Attack Rating based on Fervors instead of Ruptures."
+            ]
+        },
+        {
+            "title": "Signature Ability - Mojoworld Stuntwoman",
+            "content": [
+                "While Dancing Blades are active, Spiral Instantly Regenerates up to [30 - 60]% of damage taken from Blocked hits.",
+                "For each Fervor on Spiral, the durations of incoming Shock, Incinerate, and Poison Debuffs are reduced by [5 - 10]%."
+            ]
+        }
+    ]
 }

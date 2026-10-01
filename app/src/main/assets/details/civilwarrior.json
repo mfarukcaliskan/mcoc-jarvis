@@ -13,6 +13,73 @@
     "synergies": [],
     "howToPlay": "Civil Warrior için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Civil Warrior Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• 4 zırhla Kanama almaz 🩸\n• Silme (Nullify) Bağışıklığı 🔮"
+    "signatureAbility": "Arc Shield\nCivil Warrior begins the fight with 2 indefinite Armor Up Buffs.\nBlocking during the opponent's Special Attack inflicts them with a Passive Weakness, reducing their Attack Rating by [15 - 60]%. This is also true if Civil Warrior was Blocking prior to a Special Attack 3.",
+    "immunityDetails": "• 4 zırhla Kanama almaz 🩸\n• Silme (Nullify) Bağışıklığı 🔮",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Civil Warrior's combination of Super Soldier Serum and advanced Stark Tech renders him Immune to Nullify and Stagger effects.",
+                "For each Armor Up Buff active on Civil Warrior, reduce the opponent's Bleed and Poison Ability Accuracy by 25%."
+            ]
+        },
+        {
+            "title": "Personal Armor Up Buffs",
+            "content": [
+                "Unless otherwise stated, Civil Warrior's Armor Up Buffs provide +[305.56] Armor Rating and last 11 seconds."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "Every 5th basic attack that either Champion throws has a 100% chance to grant 1 Armor Up Buff."
+            ]
+        },
+        {
+            "title": "Dash Back and Hold Block for 1.2 Seconds.",
+            "content": [
+                "Civil Warrior converts all of his Armor Up Buffs into Fury Buffs, with each providing +[1,196.76] Attack Rating for 12 seconds.",
+                "These Fury Buffs have a Max Stack of 50 and are Refreshed each time an Armor Up Buff is converted this way."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "100% chance to inflict a 10 second Heal Block Debuff, preventing the target from recovering Health."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "When launched: Pause all Armor Up Buffs for 20 seconds.",
+                "On hit: Pause all Heal Block Debuffs on the opponent for 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Gain up to 4 Armor Up Buff(s). 100% chance each."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to Power Burn 2 Bar(s) of Power, dealing direct damage proportional to the amount of Power lost."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "The opponent is Passively Power Locked during this attack.",
+                "100% chance to inflict Power Drain, removing 1 Bar(s) of Power. If the target is reduced to 0 Power, they also receive a Power Lock Debuff for 10 seconds, preventing them from gaining Power."
+            ]
+        },
+        {
+            "title": "Signature Ability - Arc Shield",
+            "content": [
+                "Civil Warrior begins the fight with 2 indefinite Armor Up Buffs.",
+                "Blocking during the opponent's Special Attack inflicts them with a Passive Weakness, reducing their Attack Rating by [15 - 60]%. This is also true if Civil Warrior was Blocking prior to a Special Attack 3."
+            ]
+        }
+    ]
 }

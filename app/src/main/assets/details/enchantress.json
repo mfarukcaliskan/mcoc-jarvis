@@ -22,6 +22,91 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Oyunun en iyi mistik savunmacısı. Aktifken taşıdığı her büyü aldığı hasarın %20'sini engeller; özel saldırı kullandığında büyü aktifse engellenen tüm hasar doğrudan hasar olarak sana döner (dövüşe 3 büyüyle başlar = %60 hasar birikmiş olabilir). Özel saldırıları bloktan bile yakma/onda-i-soğuk/şok uygulayabilir. Kazanmanın sırrı büyülerini kaldırmak: Evocation büyüsü (koşarken durdurulamaz) intercept ile kalkar, Transmutation (pasif vacilo) ağır saldırısını kesmekle kalkar, Enchantment (nötralize+zayıflatma) onu yere sererek kalkar. E1'i kullanmadan önce büyülerini kaldırmak şart.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Enchantress Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
+    "signatureAbility": "Take Your Heart\nCharm Champion: ↑, ↓, ↑: Increases the potency of incoming Power Steal, Drain, and Burn effects. Also decreases the potency of Power Gain, Energize, and Inexorable effects.\nEnchantment Spell effects last an additional +[3 - 10] seconds.\nWhenever a Buff fails to activate on the Opponent for a reason other than chance, or they are Immune to a Damaging effect, Enchantress instantly Power Steals [1 - 4]% of their Max Power. As an Attacker, this potency is reduced by 75%.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠",
+    "abilitySections": [
+        {
+            "title": "Artist of Seduction",
+            "content": [
+                "The ultimate thief of hearts, Enchantress's Light and Medium Attacks deal Energy Damage and Power Steal up to 1% of her Opponent's Max Power. This ability can't affect the Opponent if they have their Special Attack 3.",
+                "Enchantress is Immune to Power Lock and her Ability and Combat Power Rates can't be reduced below 50%.",
+                "When inflicted with an Opposing Champion's effect that would cause her to lose Power, Enchantress Passively Gains that same amount of Power over 7 seconds.",
+                "Charging a Heavy Attack after landing any non-Combo Ending Basic Attack inflicts a Stun Passive for 0.75 seconds. The following Heavy Attack grants Enchantress no Power.",
+                "The first and second hits of Enchantress's Heavy Attack prevent her from using her Special Attack 3 and Special Attack 2 respectively until the Heavy Attack finishes.",
+                "Enchantress uses her Special Attack 1 to cast Spells. Casting a Spell inflicts or grants a corresponding temporary effect. Spells themselves are indefinite and unaffected by Ability Accuracy.",
+                "When Enchantress is struck by a Special Attack while 9 or more Spells are active, she loses concentration and all are removed, each dealing a burst of [2,669.1] Direct Damage to the Opponent."
+            ]
+        },
+        {
+            "title": "Abjurative Casting - As a Defender",
+            "content": [
+                "For each active Spell, 20% of all incoming damage is prevented. If any Spells are still active at the start of Enchantress's next Special Attack, the prevented damage is sent back to the Attacker as Direct Damage. This is unaffected by Ability Accuracy.",
+                "Each Debilitate effect on Enchantress counts as a negative Spell for the purposes of this ability.",
+                "At the start of each fight, and when using her Special Attack 1, Enchantress casts a predefined combination of 3 Spells at random. Doing so depletes 60% of her current Power.",
+                "Until she has thrown her Special Attack 1 two times, Enchantress cannot throw her Special Attack 2 and is more likely to throw Special Attacks. This resets after throwing her Special Attack 2.",
+                "Enchantress's Ability and Combat Power Rates are reduced by -20%."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "As an Attacker, after the first hit of this attack, time will slow. Swiping Up, Down, Left, or Right in any combination corresponding to one of the Spells in Enchantress's Spellbook exits slowed time and casts that Spell.",
+                "Tapping the Block input twice or inputting a combination that is not a Spell exits slowed time and casts an Evocation Spell at random."
+            ]
+        },
+        {
+            "title": "Amora's Spellbook - Evocation",
+            "content": [
+                "Fireball: ↓, ↓, →: Inflicts an Incinerate Debuff, as well as an instant Incinerate with double the potency.",
+                "Blizzard: ↑, ↑, →: Inflicts a Coldsnap Debuff and a Frostbite Passive",
+                "Chain Lightning: ↑, ↑, ↓: Inflicts a Shock Debuff. When this Shock expires, it has a 55% chance to reinflict itself.",
+                "Damaging effects are inflicted by the final hit of Enchantress's Special Attacks, including through Block, and deal [4,448.5] damage over 10 seconds.",
+                "As a Defender, these effects are Passives instead of Debuffs.",
+                "Removal Trigger: All active Evocation Spells end if Enchantress is Intercepted while not Unstoppable."
+            ]
+        },
+        {
+            "title": "Amora's Spellbook - Transmutation",
+            "content": [
+                "Levitate: ↑, ↑, ↑: Enchantress will Evade any attack that would knock her down. When doing so she removes any Stuns and recovers from Special Attacks and Strikers. She also instantly Regenerates a portion of damage taken from Blocked hits.",
+                "Haste: →, →, →: Enchantress becomes Passively Unstoppable while Dashing. She is also Immune to Reverse Controls.",
+                "Etherealness: ←, ←, ←: Grants an Untouchable Passive that grants a chance for incoming attacks to Miss, except during Well-Timed Blocks. While this is active Enchantress Regenerates a portion of all Energy Damage taken.",
+                "Effects granted by Transmutation Spells last 20 seconds. If they have a potency or chance, that value is 30%. They do not stack and are removed when Enchantress has no active Transmutation Spells.",
+                "Removal Trigger: All active Transmutation Spells end when Enchantress's Heavy Attack is interrupted or punished."
+            ]
+        },
+        {
+            "title": "Amora's Spellbook - Enchantment",
+            "content": [
+                "Dispel: ↓, ↑, ↓: Nullify 1 Buff from the Opponent every 4 seconds they spend in striking distance.",
+                "Antipathy: →, ←, →: Inflicts a Neutralize Passive.",
+                "Wilt: ←, →, ←: Inflicts an Atrophy Passive",
+                "Effects inflicted by Enchantment Spells last 25 seconds. If they have a potency, that potency is 30%. They do not stack and are removed when Enchantress has no active Enchantment Spells.",
+                "Removal Trigger: All active Enchantment Spells end when Enchantress is knocked down."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack gains +[4,092.62] Attack Rating for each active Spell up to 12, as well as different effects for each category of Spell that has, or is tied for, the highest number of active instances.",
+                "Evocation: Gain +[687.5] Critical Rating for each active Spell. Doubled if the Spell is Evocation.",
+                "Transmutation: Lifesteal 0.15% of damage dealt for each active Spell.  Doubled if the Spell is Transmutation.  Max Lifesteal: 1.8%.",
+                "Enchantment: Reactivate the effect of each active Spell. Double the effect's potency if the Spell is Enchantment."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a non-stacking 25% Charm Debuff for 50 seconds and Power Steal up to 1 Bar of Power."
+            ]
+        },
+        {
+            "title": "Signature Ability - Take Your Heart",
+            "content": [
+                "Charm Champion: ↑, ↓, ↑: Increases the potency of incoming Power Steal, Drain, and Burn effects. Also decreases the potency of Power Gain, Energize, and Inexorable effects.",
+                "Enchantment Spell effects last an additional +[3 - 10] seconds.",
+                "Whenever a Buff fails to activate on the Opponent for a reason other than chance, or they are Immune to a Damaging effect, Enchantress instantly Power Steals [1 - 4]% of their Max Power. As an Attacker, this potency is reduced by 75%."
+            ]
+        }
+    ]
 }

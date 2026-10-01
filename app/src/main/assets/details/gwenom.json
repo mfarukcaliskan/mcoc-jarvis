@@ -1,0 +1,71 @@
+{
+    "id": "gwenom",
+    "name": "Gwenom",
+    "abilityDetails": {},
+    "synergies": [],
+    "howToPlay": "",
+    "bestUse": "",
+    "signatureAbility": "Further Entangled in the Corrupted Web\nArmor Breaks have their base potency increased by [5 - 15]%.\nWhile Gwen has at least 1 Spider-Sense Buff active, her base chance to Evade is increased by +[6 - 12]% flat.",
+    "abilitySections": [
+        {
+            "title": "Trapped in my Own Web - Always Active",
+            "content": [
+                "Gwen's bond with the symbiote grants Power Drain and Special Lock Immunity. However, her Offensive Combat Power Rate is reduced by 25% and cannot be reduced further against Tech Champions."
+            ]
+        },
+        {
+            "title": "Symbiote Buffs - Heavy Attacks",
+            "content": [
+                "Charging a Heavy Attack after landing a non-Combo-Ending Attack inflicts a Stun Passive for 0.75 seconds.",
+                "The first Heavy hit grants a non-stacking 12 second Symbiote Buff based on the most recent Basic Attack landed. Symbiote Buffs are refreshed when one is gained, and paused during Special Attacks.",
+                "First Medium: Undermine Buff. Does not trigger against Mystics.",
+                "First Light: Grit Buff. Does not trigger against Mystics.",
+                "Second Light: +[1,984.8] Fury Buff.",
+                "Third Light: +[916.67] Precision Buff.",
+                "Gaining a Symbiote Buff for the first time grants Gwen a Power Gain Buff, granting 25% of a Bar of Power over 3 seconds."
+            ]
+        },
+        {
+            "title": "Spider-Sense Buffs - Max: 8",
+            "content": [
+                "Gaining a Symbiote Buff for the first time grants an indefinite Spider-Sense Buff, granting Gwen a 1% chance to Evade Basic Attacks unless Blocking non-Unblockable attacks.",
+                "As a Defender, gain a Spider-Sense Buff when struck 5 times."
+            ]
+        },
+        {
+            "title": "Armor Breaks - Max: 12",
+            "content": [
+                "Critical Hits inflict a [244.01]% Armor Break Debuff for 4 seconds. These are paused during Special Attacks and expire one at a time.",
+                "Bypassing an Auto-Block effect while Gwen's Undermine Buff is active or striking an Unstoppable Opponent while Gwen's Grit  Buff is active pauses personal Armor Breaks for 1.2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Pink and Black and Webbed All Over",
+            "content": [
+                "After the final hit, gain 4 Spider-Sense Buffs and a non-stacking indefinite Special Evade Buff. This Special Evade won't trigger its effect while Blocking non-Unblockable Special Attacks. Evading a Special Attack consumes this Buff at the end of it.",
+                "As an Attacker, after performing this Special Attack, it cannot be activated again until Gwen performs her Special 3.",
+                "As a Defender, if the Attacker activates a Special Attack while Gwen is suffering from a Stun effect, her Special Evade Buff is removed."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - It's Your Last Shot",
+            "content": [
+                "As an Attacker, the first hit rapidly consumes all Spider-Sense Buffs and inflicts a [14,886] Corrosion Passive for 2.5 seconds for each Buff consumed.",
+                "As a Defender, on activation, rapidly consume all Spider-Sense Buffs and inflict a [4,962] Corrosion Passive for 2.5 seconds for each Buff consumed, scaling with Base Attack and Class Relationships."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Let the Hate Consume You",
+            "content": [
+                "Consume all active Symbiote Buffs to enable Gwen to regain her personal Power Gain Buffs and Spider-Sense Buffs from Symbiote Buffs."
+            ]
+        },
+        {
+            "title": "Signature Ability - Further Entangled in the Corrupted Web",
+            "content": [
+                "Armor Breaks have their base potency increased by [5 - 15]%.",
+                "While Gwen has at least 1 Spider-Sense Buff active, her base chance to Evade is increased by +[6 - 12]% flat."
+            ]
+        }
+    ]
+}

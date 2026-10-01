@@ -14,6 +14,80 @@
     "synergies": [],
     "howToPlay": "Bastion için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Bastion Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Kanama direnci 🩸\n• %100 Zehir direnci 🧪"
+    "signatureAbility": "The Future Incarnate\nBastion's Offensive Ability Accuracy and Defensive Ability Accuracy reduction is expanded to affect non-personal effects.\nAgainst Mutants, whenever the Opponent gains a Regeneration or Prowess effect, all of Bastion's personal Abilities are paused for [0.3 - 1.2] seconds.\nPersonal Fury potency increased by +[8.6 - 30%].",
+    "immunityDetails": "• %100 Kanama direnci 🩸\n• %100 Zehir direnci 🧪",
+    "abilitySections": [
+        {
+            "title": "The Next Step in Evolution - Always Active",
+            "content": [
+                "Bastion's evolved Sentinel body provides him 100% Resistance against Bleed and Poison effects, and his Regeneration Rate cannot be reduced by Poison.",
+                "When inflicted with a Bleed, Poison, or Crush effect, Bastion gains a 10 second Self-Repair Buff healing 8% of missing Health or 3% of Max Health, whichever is greater. Max stacks: 2.",
+                "The Sentinel Relic increases the potency of personal Disintegration effects by 10%. This effect is doubled when fighting Mutants."
+            ]
+        },
+        {
+            "title": "Mechanical Armor Up Passive",
+            "content": [
+                "Bastion starts each fight with an indefinite Armor Up Passive, granting +[1,650] Armor Rating. If this ends for any reason it returns after 14 seconds. While active it provides the following effects:",
+                "Bastion can trigger the Parry Mastery against non-contact attacks.",
+                "When Bastion's Block is broken due to Unblockable or Crush, he gains an Auto-Repair Passive for 2 seconds, paused during Special Attacks. While active, Bastion Instantly Regenerates 85% of all non-Special 3 damage taken. Cooldown: 24 seconds."
+            ]
+        },
+        {
+            "title": "Techno-Mechanical Virus Charges",
+            "content": [
+                "Bastion can inflict the Opponent with Techno-Mechanical Virus Charges. Virus Charges cannot be inflicted while Bastion's Opponent has more than 3 unique Buffs.",
+                "When either Champion strikes with a Medium Attack, inflict 2 Techno-Mechanical Virus Charges.",
+                "When either Champion strikes with a Light Attack, inflict 1 Techno-Mechanical Virus Charge.",
+                "When Bastion performs a Well-Timed Block, inflict 2 Techno-Mechanical Virus Charges.",
+                "When Bastion hits his Opponent's Block with his first Medium or Light Attack, inflict 1 Techno-Mechanical Virus Charge.",
+                "Each Techno-Mechanical Virus Charge decreases the Offensive Ability Accuracy and Defensive Ability Accuracy of the Opponent's personal non-Instant Energy Damaging effects and Daunted Debuffs by -5% flat, down to -40%, or -60% against Mutants.",
+                "Whenever a non-Instant Energy Damaging effect fails due to Ability Accuracy reduction, inflict a 16% Disintegration Vulnerability Passive for 28 seconds. Potency doubled against Mutants. Max stacks: 2.",
+                "As a Defender, when Bastion's Opponent activates a Special Attack, Techno-Mechanical Virus Charges are removed. Special 1: 5 Charges, Special 2: 12 Charges, Special 3: 24 Charges."
+            ]
+        },
+        {
+            "title": "Techno-Mechanical Infection",
+            "content": [
+                "When the Opponent is inflicted with 30 Techno-Mechanical Virus Charges, they are inflicted with an indefinite Techno-Mechanical Infection. When dropping below 15 Charges, Infection is removed.",
+                "While Infection is active, Virus Charges begin expiring one at a time every 1.2 seconds, paused during Special Attacks. When a Virus Charge expires, remaining Charges expire slightly faster.",
+                "While Techno-Mechanical Infection is active, Bastion's Opponent has their Attack Rating decreased by 35% and they are inflicted with a Power Reroute Passive."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit cannot be Evaded and grants a non-stacking Pursuit Passive for 10 seconds. Against Mutants this becomes 16 seconds.",
+                "The second hit inflicts a non-stacking 30% Disintegration Passive, dealing [10,593.37] Direct Damage over 16 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each beam hit inflicts an Instant 10% Disintegration, dealing [7,098.65] Direct Damage. As a Defender, this damage is halved and scales with Base Attack only.",
+                "If Infection is active: For each personal Disintegration effect on the Opponent, inflict another Instant Disintegration."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, Bastion's inner turmoil grants him a +[3,931.56] Fury Passive for 28 seconds, paused during the Opponent's Special Attacks. Max stacks: 2.",
+                "If Infection is active: Gain an additional Fury Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a 20% Disintegration Debuff, dealing [49,144.5] Direct Damage over 40 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Future Incarnate",
+            "content": [
+                "Bastion's Offensive Ability Accuracy and Defensive Ability Accuracy reduction is expanded to affect non-personal effects.",
+                "Against Mutants, whenever the Opponent gains a Regeneration or Prowess effect, all of Bastion's personal Abilities are paused for [0.3 - 1.2] seconds.",
+                "Personal Fury potency increased by +[8.6 - 30%]."
+            ]
+        }
+    ]
 }

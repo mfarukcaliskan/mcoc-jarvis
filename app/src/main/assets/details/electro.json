@@ -8,6 +8,45 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Aldığı hasarın bir kısmını enerji hasarı olarak geri verir — yüksek enerji direnci veya yetenek azaltıcı şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Electro Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️"
+    "signatureAbility": "Electrostatic\nBuilding Power levels in both players charge the atmosphere, increasing Critical Rating by up to [327.08 - 3,370.17] based on the stored Power in both Electro and his opponent.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Electro takes no damage from Shock effects and each Shock grants Electro +[846.8] Attack and +15% Static Shock damage.",
+                "Incoming Shock effects gain +75% Ability Accuracy and Duration."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "Opponents that make contact with you receive a Static Shock for 38% of the damage they inflicted as Energy Damage. This damage is Science based, dealing increased damage to Mystic Champions and reduced damage to Skill Champions."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "60% chance to Stun for 3 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "70% chance to Stun for 4 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "90% chance to Stun for 4.5 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Electrostatic",
+            "content": [
+                "Building Power levels in both players charge the atmosphere, increasing Critical Rating by up to [327.08 - 3,370.17] based on the stored Power in both Electro and his opponent."
+            ]
+        }
+    ]
 }

@@ -16,6 +16,69 @@
     "synergies": [],
     "howToPlay": "Howard The Duck için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Howard The Duck Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸"
+    "signatureAbility": "Quack-fu\nIf Howard is fighting in any fight with a Class Advantage, he breaks out his legendary Quack-Fu to gain the following:\nCritical Resistance equal to [8 - 40%] of Howard's Armor Rating.\nBase Ability Accuracy of 115% instead of the normal 100%.\nIncoming Debuffs suffer -[0.2 - 1.3] second(s) duration.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "The bulky ISO-Loader suit provides Immunity to Bleed effects.",
+                "Howard's personal Buffs and Debuffs each expire 1 at a time."
+            ]
+        },
+        {
+            "title": "Button Masher Extraordinaire",
+            "content": [
+                "Rapidly pressing the Block button at different times in the fight grants Howard special MASH! bonuses. Each MASH! bonus requires more presses of the Block button than the last within the same window.",
+                "In the Pre-Fight Menu, Howard can activate the Auto-Masher which lasts for the duration of the fight. While Auto-Masher is active, all MASH! bonuses will be handled automatically for Howard.",
+                "While fighting as a Defender, Auto-Masher is always active."
+            ]
+        },
+        {
+            "title": "Before the Fight Starts",
+            "content": [
+                "Gain 1 indefinite Dormant Armor. MASH! Gain additional Dormant Armors. When the fight starts each Dormant Armor is converted into an indefinite Armor Up Buff, increasing Armor Rating by +[339.89]."
+            ]
+        },
+        {
+            "title": "While Either Champion is Stunned",
+            "content": [
+                "100% chance to gain a Fury Buff, increasing Attack Rating by +[1,021.7] for 10 seconds. Max Stacks: 50. MASH! Gain additional Fury Buffs."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "100% chance to inflict an Armor Break Debuff, removing an Armor Up Buff and reducing Armor Rating by [99.74] for 5 seconds. Max Stacks: 20. MASH! Additional hits can inflict additional Armor Break Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to inflict 2 Heal Block Debuffs, each lasting 2.5 seconds. MASH! Inflict additional Heal Block Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "80% chance to inflict a Suppression Debuff, reducing Combat Power Rate by 10% for 4 seconds. MASH! Additional hits can inflict additional Suppression Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a 3 second Stun Debuff.",
+                "If Howard gets a Perfect result in the Special 3 Mini Game, this Stun Debuff becomes Passive and lasts 4 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Quack-fu",
+            "content": [
+                "If Howard is fighting in any fight with a Class Advantage, he breaks out his legendary Quack-Fu to gain the following:",
+                "Critical Resistance equal to [8 - 40%] of Howard's Armor Rating.",
+                "Base Ability Accuracy of 115% instead of the normal 100%.",
+                "Incoming Debuffs suffer -[0.2 - 1.3] second(s) duration."
+            ]
+        }
+    ]
 }

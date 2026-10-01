@@ -15,6 +15,65 @@
     "synergies": [],
     "howToPlay": "She-Hulk (Deathless) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "She-Hulk (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Yırtılma Bağışıklığı (ile sinerji: Thanos Deathless) ☣️"
+    "signatureAbility": "Stare Decisis\nShe-Hulk eats punks like you for breakfast. Her long career of stomping noobs grants her a benefit based on the Opponent's class.\nScience: When the Opponent activates a Special Attack, inflict an indefinite [5 - 15]% Special Concussion Debuff. Max stacks: 4.\nMutant: During the Opponent's Special Attacks, She-Hulk gains a +[181.46- 4,125] Bulwark Passive.\nMystic: While the Opponent is below a Bar of Power, personal Fear and Trauma Debuffs expire [15 - 50]% more slowly.\nCosmic: She-Hulk's personal Debuffs gain [3 - 10]% increased duration per Unique Buff on the Opponent. Max benefit at 5 Buffs.\nTech: While below a Bar of Power, She-Hulk gains +[5 - 15]% Combat Power Rate.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Yırtılma Bağışıklığı (ile sinerji: Thanos Deathless) ☣️",
+    "abilitySections": [
+        {
+            "title": "Aggressive Negotiations - Always Active",
+            "content": [
+                "An enhanced immune system provides full Immunity to Poison.",
+                "When striking the Opponent or when struck, She-Hulk has a 40% chance to inflict a 14% Trauma Debuff for 12 seconds.",
+                "For each Trauma on the Opponent, the chance to inflict is reduced by 2% flat, to a minimum of 10%, and the potency is increased by 1%.",
+                "She-Hulk doesn't share. Her Trauma Debuffs are paused during her Strikers."
+            ]
+        },
+        {
+            "title": "Inspire Fear",
+            "content": [
+                "She-Hulk's voracious appetite for destruction terrifies her victims, increasing their chance to launch a Special Attack by 8% for each of her personal Trauma Debuffs on the Opponent.",
+                "When a non-Skill Opponent activates a Special Attack, She-Hulk refreshes all personal Trauma Debuffs on them."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If the Opponent is Unblockable, She-Hulk's Heavy Attack can not be interrupted by Basic Attacks or the final hit of Special Attacks. If the attack lands, all Unblockable effects are removed and She-Hulk inflicts 2 personal Trauma Debuffs.",
+                "Each hit against a non-Skill Opponent inflicts a non-stacking Fear Debuff for 12 seconds.",
+                "While her personal Fear is active, She-Hulk cannot Miss."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a personal Trauma Debuff.",
+                "Each hit inflicts a 15% Spectre Debuff for 12 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, inflict 2 personal Trauma Debuffs.",
+                "Each hit inflicts a 55% Wither Debuff for 22 seconds. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict an indefinite 20% Debilitate Debuff. Max stacks: 2.",
+                "Reinflict all personal Trauma Debuffs on the Opponent.",
+                "Inflict a 30% Weakness Debuff for 12 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Stare Decisis",
+            "content": [
+                "She-Hulk eats punks like you for breakfast. Her long career of stomping noobs grants her a benefit based on the Opponent's class.",
+                "Science: When the Opponent activates a Special Attack, inflict an indefinite [5 - 15]% Special Concussion Debuff. Max stacks: 4.",
+                "Mutant: During the Opponent's Special Attacks, She-Hulk gains a +[181.46- 4,125] Bulwark Passive.",
+                "Mystic: While the Opponent is below a Bar of Power, personal Fear and Trauma Debuffs expire [15 - 50]% more slowly.",
+                "Cosmic: She-Hulk's personal Debuffs gain [3 - 10]% increased duration per Unique Buff on the Opponent. Max benefit at 5 Buffs.",
+                "Tech: While below a Bar of Power, She-Hulk gains +[5 - 15]% Combat Power Rate."
+            ]
+        }
+    ]
 }

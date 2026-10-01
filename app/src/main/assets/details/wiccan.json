@@ -17,6 +17,64 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bonusları yakmaya çevirir — yakmaya immün şampiyon kullan. Asla ona şok uygulama, degeneration ile karşılık verir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Wiccan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
+    "signatureAbility": "Spell Mastery\nResistance Up also allows Wiccan to block Unblockable attacks from Cosmic Champions.\nIncinerate effects have a [5 - 50]% chance to not consume Shock Debuffs when creating a Plasma.\nIf the Opponent is Shock Immune, Shocks turn into Degeneration with the same Potency and Duration, but counts as Shocks for Wiccan's other abilities.",
+    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Kontrolleri Tersine Çevirme Bağışıklığı 🧠",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Wiccan uses magic on his Basic attacks, causing them to deal Energy Damage instead of Physical.",
+                "Physical Resistance decreased by -[1,178.57].",
+                "Immunity to Reversed Controls and Armor Break due his mastery of the Arcane Arts.",
+                "When struck by True Damage, instantly gain +40% of the Power gained from the Hit.",
+                "If inflicted with a Concussion or Disorient Debuff from a Science Champion, one Personal Passive or Debuff caused by Wiccan is removed."
+            ]
+        },
+        {
+            "title": "Cantrips",
+            "content": [
+                "When Well-Timed Blocked, inflicts a non-stacking Neutralize Debuff of 100% Potency that lasts for 10 second(s).",
+                "When the Opponent's ability fails due to reduced Ability Accuracy or Wiccan's personal Immunities, inflict an Incinerate Debuff, reducing Block Proficiency by 50% and dealing [6,863.4] Energy Damage over 10 second(s)."
+            ]
+        },
+        {
+            "title": "Spells",
+            "content": [
+                "Cast a Spell by performing a specific action. As a Defender Wiccan casts a Spell every 10 second(s) following the order below, but this timer resets and moves to the next Spell in order when Wiccan is knocked down, and pauses on his Specials.",
+                "Shield (Dash back and hold block for 1.2 second(s)): Gain a [687.5] Resistance Up Passive for 10 second(s). Max 3 Stacks.",
+                "Flame (Medium, Light, Light, Light, Medium): Inflicts an Incinerate Passive, reducing Block Proficiency by 50% and dealing [6,863.4] Energy Damage over 10 second(s).",
+                "Silence (Medium, Light, Light, Light, Light): Inflicts a non-stacking Neutralize Passive of 100% Potency that lasts for 5 second(s).",
+                "Arcane Theft (Heavy): Gain a Power Gain Passive, granting 1% of Max power over 10 second(s). Nullifies up to one Fury, Precision, or Power Gain Buff off the Opponent to increase the potency of the Power Gain Passive to 5%.",
+                "Pause all active Spells and Debuffs for 6 second(s) when casting a Spell that does not exist or activating a Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation gain a Regeneration Buff, recovering 7% of missing Health over 6 second(s). Recovers 100% of missing health caused by Energy Damage from Bursts and damaging Debuffs.",
+                "Last 2 hits cast the last casted Spell with duration increased by 8 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "All hits inflict a Shock Debuff, dealing [9,151.2] Energy Damage over 15 second(s). Inflicting an Incinerate into a Shock, or vice versa, will fuse those two effects into a Plasma that has the property of both, lasting 6 second(s). Plasmas do not pause.",
+                "Last hit grants a non-stacking Power Efficiency Buff of 30% Potency, lasting for 3 second(s) plus 3 second(s) per unique Spell active at the beginning of the Special, and pauses during Specials. As a Defender this Buff always lasts 20 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict an Energy Vulnerability Debuff, reducing Energy Resistance by [5,107.14] for 20 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Spell Mastery",
+            "content": [
+                "Resistance Up also allows Wiccan to block Unblockable attacks from Cosmic Champions.",
+                "Incinerate effects have a [5 - 50]% chance to not consume Shock Debuffs when creating a Plasma.",
+                "If the Opponent is Shock Immune, Shocks turn into Degeneration with the same Potency and Duration, but counts as Shocks for Wiccan's other abilities."
+            ]
+        }
+    ]
 }

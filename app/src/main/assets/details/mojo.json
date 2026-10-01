@@ -12,5 +12,95 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bonusları degeneration'a çevirirken pasif güç kazanır. Bonus immün veya yüksek yetenek azaltmalı şampiyon kullan. Petrify erişimi olan şampiyon önerilir, onu E1'de tut.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mojo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Big Mojo Energy\nWhen Mojo activates his Anti-Life Field, if he has at least 5 million Followers, he also gains a Fury Buff for the duration of his Anti-Life Field, increasing Attack Rating by +[10,168 - 20,336].\nAdditionally, Mojo starts each Quest with 1 million Persistent Subscribers, up to 5 million.\nAt the beginning of the fight, each Subscriber gives him a Follower. His Followers can never fall below his Subscribers.\nWhen Mojo wins a fight, if he has more Followers than Subscribers, he gains 1 million Subscribers. When Mojo loses a fight, he loses 1 million Subscribers.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Mojo gains 30% less Power from landing Hits.",
+                "Physical Resistance decreased by -[485.29]."
+            ]
+        },
+        {
+            "title": "Audience Prompts",
+            "content": [
+                "After the start of the fight, Mojo receives a random Prompt from his adoring audience, who want to see certain actions performed. These Prompts last for 8 second(s).",
+                "If either Champion does what the audience wants, the Prompt is completed and Mojo gains 1 million Followers.",
+                "If a Prompt expires without being completed, the Prompt is failed and Mojo loses 5 million Follower(s).",
+                "When a Prompt is completed, Mojo activates his Anti-Life Field for 7 second(s).",
+                "Mojo receives a new Prompt when his Anti-Life Field expires or a Prompt is failed.",
+                "Prompts are paused during any Special Attack.",
+                "Prompts are unaffected by Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Anti-Life Field - Passive",
+            "content": [
+                "The Opponent is inflicted with a 90% Atrophy Passive for the duration of the Field, unaffected by Ability Accuracy.",
+                "Any time a Buff is Nullified or Expires off the Opponent, Mojo Passively Degenerates them for [7,829.36] Damage over 6 second(s).",
+                "The Anti-Life Field is paused during any Special Attack."
+            ]
+        },
+        {
+            "title": "Audience Adoration",
+            "content": [
+                "Mojo gains additional Passive abilities based on how many Followers he has.",
+                "1 million: Any time a Buff expires or is Nullified off the Opponent, Mojo heals for 3% of his Missing Health over 2 second(s). This does not stack.",
+                "3 million: When a Prompt is completed, Mojo gains up to 50% of a Bar of Power based on how many Followers he has.",
+                "5 million: Completing a Prompt has a 100% chance to place a Hater Buff on the Opponent for 20 second(s). Basic Attacks have a 15% chance to place one. Haters have no effect."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If a Prompt is active, Mojo replaces it with a new Prompt. This does not affect his Followers."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance on the first hit to Nullify one Buff from the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "If the Anti-Life Field is not active, trigger its Degeneration.",
+                "If the Anti-Life Field is active, trigger its Degeneration for every million Followers Mojo has, up to 5 million."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Complete the current Prompt.",
+                "Trigger the Anti-Life Field Degeneration for every million Followers Mojo has, up to 5 million."
+            ]
+        },
+        {
+            "title": "Possible Audience Prompts",
+            "content": [
+                "Activate a Special Attack",
+                "Charge a Heavy Attack",
+                "Dash backwards",
+                "Block a Hit",
+                "Use Dexterity to avoid a Hit",
+                "Hold Block for 1.5 second(s)",
+                "Inflict a Stun",
+                "When any Buff expires or is Nullified",
+                "Back into the corner",
+                "Idle for 1 second(s)",
+                "Punish a Special Attack, by striking the Opponent while they're recovering from the Attack",
+                "Knock down a Champion"
+            ]
+        },
+        {
+            "title": "Signature Ability - Big Mojo Energy",
+            "content": [
+                "When Mojo activates his Anti-Life Field, if he has at least 5 million Followers, he also gains a Fury Buff for the duration of his Anti-Life Field, increasing Attack Rating by +[10,168 - 20,336].",
+                "Additionally, Mojo starts each Quest with 1 million Persistent Subscribers, up to 5 million.",
+                "At the beginning of the fight, each Subscriber gives him a Follower. His Followers can never fall below his Subscribers.",
+                "When Mojo wins a fight, if he has more Followers than Subscribers, he gains 1 million Subscribers. When Mojo loses a fight, he loses 1 million Subscribers."
+            ]
+        }
+    ]
 }

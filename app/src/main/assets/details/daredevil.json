@@ -9,5 +9,43 @@
     "synergies": [],
     "howToPlay": "Daredevil (Classic) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Daredevil (Classic) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Radar Sense\nWith acute sensory perception more attuned than even Spider-Man, Daredevil has a [20 - 115]% chance to Evade any attack that does not make contact. No effect against Psychic attacks.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "An enhanced sensory system allows Daredevil to bypass Miss."
+            ]
+        },
+        {
+            "title": "Blocking",
+            "content": [
+                "40% chance that a Block is a Perfect Block, reducing all damage to 0."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "100% chance to boost Critical Rating by [634.62] for 9 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Critical Hits have a 100% chance to Stun opponents for 2.5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Critical Hits have a 100% chance to Stun opponents for 3.5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Radar Sense",
+            "content": [
+                "With acute sensory perception more attuned than even Spider-Man, Daredevil has a [20 - 115]% chance to Evade any attack that does not make contact. No effect against Psychic attacks."
+            ]
+        }
+    ]
 }

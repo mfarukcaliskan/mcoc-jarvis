@@ -13,6 +13,68 @@
     "synergies": [],
     "howToPlay": "Joe Fixit için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Joe Fixit Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠"
+    "signatureAbility": "Stacked Deck\nAfter using cards to play a Dead Man's Hand Debuff, instead of being removed, all slots are randomly assigned 1 matching suit.\nAdditionally, suits gain a stackable bonus during Special Attacks.\nHearts: +[5 - 10]% Debuff Duration.\nSpades: +[304.72 - 914.71] Critical Rating.\nClubs: +[10 - 30]% of a bar of Power over 2 seconds.\nDiamonds: +[10 - 25]% Armor Penetration.\nJackpot: Counts as all 4 Suits.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "An enhanced immune system provides full immunity to the Poisons of the Battlerealm."
+            ]
+        },
+        {
+            "title": "Gamblers Draw",
+            "content": [
+                "Joe Fixit can hold 4 cards at a time. At max capacity, new cards replace old cards in the same order they were acquired.",
+                "Cards are drawn even if the attack was blocked.",
+                "Hearts: End a Combo with Light, +7% Life Steal.",
+                "Spades: End a Combo with Medium, +[4,067.2] Attack Rating.",
+                "Clubs: Heavy Hit, +25% Combat Power Rate.",
+                "Diamonds: Well-Timed Block, +25% Block Penetration.",
+                "When Defending a Quest Node, cards are acquired based on the Attacking Champions actions."
+            ]
+        },
+        {
+            "title": "Dead Man's Hand - On Special Activation:",
+            "content": [
+                "If Joe's hand consists of one of the following combinations, inflict the respective Debuff for 10 seconds. +5 seconds per bar of Power spent.",
+                "One Pair: Disorient, reducing Defensive Ability Accuracy and Block Proficiency by 40%.",
+                "Three of a Kind: Weakness, reducing Attack Rating by 30%.",
+                "Flush: Petrify with a potency of 60%.",
+                "Playing a hand removes all cards on the last hit of the Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On Hit, 50% chance to Inflict a Bleed Debuff dealing [3,558.8] Direct Damage over 10 seconds. +1 per Dead Man's Hand Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Final hit has a 100% chance to inflict a 2.75 second Stun Debuff.",
+                "Replay the last Dead Man's Hand Debuff that was played."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a random Dead Man's Hand Debuff.",
+                "Until the Opponent is no longer suffering any Dead Man's Hand Debuffs, Gamblers Draw card effects have +30% Potency."
+            ]
+        },
+        {
+            "title": "Signature Ability - Stacked Deck",
+            "content": [
+                "After using cards to play a Dead Man's Hand Debuff, instead of being removed, all slots are randomly assigned 1 matching suit.",
+                "Additionally, suits gain a stackable bonus during Special Attacks.",
+                "Hearts: +[5 - 10]% Debuff Duration.",
+                "Spades: +[304.72 - 914.71] Critical Rating.",
+                "Clubs: +[10 - 30]% of a bar of Power over 2 seconds.",
+                "Diamonds: +[10 - 25]% Armor Penetration.",
+                "Jackpot: Counts as all 4 Suits."
+            ]
+        }
+    ]
 }

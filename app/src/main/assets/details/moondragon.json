@@ -11,6 +11,82 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bloktan vurulunca enerji hasarı verir, E1'de 3sn görünmez olur, purify erişimi var. Onu duvara sıkıştırıp E1'e zorlamak işe yarar; enerji dirençli şampiyonlar avantajlı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Moondragon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠\n• %30-%80 Kanama direnci 🩸\n• %30-%80 Zehir direnci 🧪\n• %30-%80 Dejenerasyon direnci ☠️\n• %30-%80 İğne (Power Sting) direnci 🐝\n• %100 Arındırma (20 Psi yüküyle) 💪🏼\n• %75 Yakma direnci (ile sinerji: Nico Minoru) 🔥"
+    "signatureAbility": "Disciple of The Shao-lorn\nHeavy Attacks gain [687.5 - 4,124.92] Critical Rating while under 1 Bar of Power.\nHeavy Attacks inflict an indefinite Energy Vulnerability Debuff. If punishing a Special Attack, trigger a Mind Blast instead.\nSpecial Attacks are Passively Unblockable.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠\n• %30-%80 Kanama direnci 🩸\n• %30-%80 Zehir direnci 🧪\n• %30-%80 Dejenerasyon direnci ☠️\n• %30-%80 İğne (Power Sting) direnci 🐝\n• %100 Arındırma (20 Psi yüküyle) 💪🏼\n• %75 Yakma direnci (ile sinerji: Nico Minoru) 🔥",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Moondragon's telepathic power grants her Immunity to Reversed Controls.",
+                "Reduce the potency of incoming Bleed, Power Sting, Degeneration, and Poison effects from Champions or Quest Buffs by 30%."
+            ]
+        },
+        {
+            "title": "Mind Blasts",
+            "content": [
+                "Mind Blasts are triggered when Interrupting Heavy Attacks or hitting the Opponent's Block with Moondragon's first Medium or Light Attack. Mind Blasts do not trigger on Well-Timed Blocks.",
+                "Starting a Combo by Intercepting Dash Attacks or Interrupting Medium and Light Attacks triggers Mind Blasts for the entire 5-hit Combo.",
+                "Mind Blasts deal a burst of [1,916.4] Energy Damage and grant 1% of Max Power."
+            ]
+        },
+        {
+            "title": "Psionic Charges",
+            "content": [
+                "Gain 1 Psionic Charge when triggering a Mind Blast.",
+                "While suffering from Bleed, Power Sting, Degeneration, or Poison effects from Champions and Quest Buffs, gain a Psionic Charge every 0.75 seconds.",
+                "Psionic Charges grant +[102.7] Critical Damage Rating."
+            ]
+        },
+        {
+            "title": "Psionic Transcendence",
+            "content": [
+                "Upon reaching 20 Psionic Charges, Moondragon Purifies all Debuffs and enters Psionic Transcendence for 15 seconds.",
+                "Gain 1 Psionic Charge for each Debuff Purified.",
+                "Upon entering Psionic Transcendence, inflict 5 indefinite Energy Vulnerability Debuffs reducing Energy Resistance by [485.29]. Max Stacks: 25",
+                "Inflict an additional Energy Vulnerability Debuff when gaining new Psionic Charges.",
+                "Reduce the potency of incoming Bleed, Power Sting, Degeneration, and Poison effects from Champions by an additional flat 50%.",
+                "Moondragon's hits cannot be Evaded.",
+                "Psionic Transcendence is paused during the Opponent's Special Attacks and for 2 seconds when a Psionic Charge is gained.",
+                "All stacks of Energy Vulnerability and Psionic Charges are removed when Psionic Transcendence ends."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "After the final hit, gain 3 Psionic Charges and begin channeling to gain up to 6 more. Moondragon stops channeling if she performs an action or is struck.",
+                "After the final hit, incoming Basic Attacks Passively Miss for 3.1 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "All hits deal a burst of [3,832.8] Energy Damage, multiplied by Moondragon's Critical Damage Multiplier.",
+                "Psionic Transcendence is paused during this attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict an Incinerate Debuff, dealing [22,038.6] Energy damage over 25 seconds. Incinerate also removes Perfect Block Chance and decreases Block Proficiency by 50% while active.",
+                "If Psionic Transcendence is active, this attack inflicts a Critical Incinerate Passive, multiplying its Energy Damage by Moondragon's Critical Damage Multiplier.",
+                "Psionic Transcendence is paused while this Incinerate is active."
+            ]
+        },
+        {
+            "title": "Presence of the Moondragon - Pre-Fight Ability",
+            "content": [
+                "Moondragon starts each quest with 1 Persistent Charge, which can be spent in the Pre-Fight screen on the Presence of the Moondragon ability.",
+                "Gain 1 Persistent Charge back each time an Opponent is knocked out by Moondragon. Max Stacks: 3",
+                "Presence of the Moondragon: At the start of the next fight, gain 3 Passive Dragon of the Moon charges granting immunity to Reversed Controls. Remove 1 charge when this immunity is triggered."
+            ]
+        },
+        {
+            "title": "Signature Ability - Disciple of The Shao-lorn",
+            "content": [
+                "Heavy Attacks gain [687.5 - 4,124.92] Critical Rating while under 1 Bar of Power.",
+                "Heavy Attacks inflict an indefinite Energy Vulnerability Debuff. If punishing a Special Attack, trigger a Mind Blast instead.",
+                "Special Attacks are Passively Unblockable."
+            ]
+        }
+    ]
 }

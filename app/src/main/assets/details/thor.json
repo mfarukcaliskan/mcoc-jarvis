@@ -10,6 +10,48 @@
     "synergies": [],
     "howToPlay": "Thor için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Thor Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %40 Şok direnci ⚡️"
+    "signatureAbility": "Ragnarok\nStunning the Thunder God infuriates him and grants him Fury, increasing his Attack by [846.8] for 4.5 seconds.\nWhen Thor Stuns his opponent, he tears apart their Armor reducing it by [529.99 - 4,673.08] for 7.5 seconds.",
+    "immunityDetails": "• %40 Şok direnci ⚡️",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "40% Shock Resistance.",
+                "The chance to trigger a Fury Buff increases by 50% for every 30 seconds that have passed in the fight. Maximum 150% increase.",
+                "For each Fury Buff active, this Champion gains [118.42] additional Armor Penetration."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "10% chance to gain a Fury Buff for 6.5 seconds, granting +[1,481.9] Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack deals True Damage, ignoring all of the opponent's Armor.",
+                "70% chance to Stun for 3 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "85% chance to Stun for 4 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to Stun for 4.5 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ragnarok",
+            "content": [
+                "Stunning the Thunder God infuriates him and grants him Fury, increasing his Attack by [846.8] for 4.5 seconds.",
+                "When Thor Stuns his opponent, he tears apart their Armor reducing it by [529.99 - 4,673.08] for 7.5 seconds."
+            ]
+        }
+    ]
 }

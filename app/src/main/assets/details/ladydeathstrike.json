@@ -13,6 +13,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırıları ekranı çok kaplar, kolayca duvara sıkışabilirsin. Özel saldırı hasarının büyük kısmını da iyileştirir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Lady Deathstrike Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %90 Kanama direnci 🩸\n• %90 Zehir direnci 🧪\n• Yırtılma Bağışıklığı (sadece rejenerasyon sırasında) ☣️\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️\n• Zırh Kırma Bağışıklığı 🛡️"
+    "signatureAbility": "Cybernetic Assassin\nThe number of hits in the Combo Meter required to gain an Armor Up Passive is reduced to 15 and max stacks is increased by 4.\nFerocity also increases the potency of Ruptures by [1 - 10]% per Armor Up.\nFor every 2.5% of the Opponent's Max Health prevented by Heal Block, inflict a Rupture Debuff dealing [10 - 100]% of Lady Deathstrike's Armor Rating as Physical Damage over 3 seconds.",
+    "immunityDetails": "• %90 Kanama direnci 🩸\n• %90 Zehir direnci 🧪\n• Yırtılma Bağışıklığı (sadece rejenerasyon sırasında) ☣️\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️\n• Zırh Kırma Bağışıklığı 🛡️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Incoming Bleeds and Poisons potency is reduced by 90%, and the Willpower Mastery potency is reduced by 50%.",
+                "Against Mutants, Lady Deathstrike's Ability Accuracy cannot be modified.",
+                "All nail attacks inflict a Severe Rupture Debuff, dealing 7% of her Atack Rating as Physical Damage over 6 seconds."
+            ]
+        },
+        {
+            "title": "Ferocity",
+            "content": [
+                "When inflicting Ruptures or when struck, gain a Ferocity Charge plus one per Armor Up Buff.",
+                "At 70 Charges, gain a Ferocity Passive for 3 seconds, or 9 as a Defender, but start paused. Ferocity starts paused until Lady Deathstrike Blocks an attack. While no Armor Up effects are active, Ferocity expires twice as fast.",
+                "While Ferocity is active, gain +[5,279.5] Attack Rating and Special Attacks become Passively Unblockable, but Lady Deathstrike cannot gain new Ferocity Charges.",
+                "When the Opponent activates a Special Attack 1 or 2, 25% chance per Armor Up effect to gain an Unstoppable Passive for the duration of the Special while reducing the Offensive Ability Accuracy of the attack by 15% per Armor Up, to a max of 75%."
+            ]
+        },
+        {
+            "title": "Machine Body",
+            "content": [
+                "Start each fight with an indefinite Armor Up Buff, increasing Armor Rating by [392.86]. If this Buff is removed by any reason, it restores itself after 12 seconds.",
+                "Every 25 hits in the Combo Meter grants an indefinite Armor Up Passive, increasing Armor Rating by [305.56]. 20% chance to remove a stack when struck or when Blocking while in Ferocity. Max:3.",
+                "Lady Deathstrike's Regeneration Rate cannot be modified. True Damage hits remove one Regeneration effect.",
+                "All Heal Block effects on Lady Deathstrike are immediately removed, but her Willpower Mastery is removed for the original duration of the Heal Block."
+            ]
+        },
+        {
+            "title": "Nanobots Regenerator",
+            "content": [
+                "When struck by a Special Attack 1 or 2, gain a Nanobots Regenerator Passive for the duration of the Special Attack, Passively Regenerating 90% of hit damage taken over 0.5 seconds. While suffering from Bleed or Poison, Nanobots regenerate an additional 20% flat.",
+                "While Deathstrike doesn't have her personal Armor Up Buff, Nanobots Regenerator is disabled.",
+                "While Nanobots Regenerator is active, Lady Deathstrike becomes immune to Armor Break and Rupture Debuffs.",
+                "When Intercepted, the potency of Nanobots Regenerator is reduced by 10% flat for 15 seconds. Max: 5. When this effect activates it refreshes all existing stacks."
+            ]
+        },
+        {
+            "title": "Heal Block - Second Medium Attack",
+            "content": [
+                "Inflict a Heal Block Debuff for 6 seconds, paused during Lady Deathstrike's Special Attacks. Mutants cannot gain Unstoppable or Unblockable while her personal Heal Block is active"
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a Torment Debuff for the duration of the Special, causing all damaging Debuffs to last 6 seconds longer.  All Ruptures are paused during the Special.",
+                "Ferocity: +[5,279.5] Attack Rating and Torment lasts for an additional 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Gain 25 Ferocity Charges.",
+                "Ferocity: Regain and pause Ferocity with its duration increased by 6 seconds. If this effect unpauses, it pauses again if no attack is blocked for 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a non-stacking Relentless Passive, increasing Attack Rating bonuses from Ferocity by 35% and allowing Ruptures to be inflicted through Block for 30 seconds, paused while Ferocity is active."
+            ]
+        },
+        {
+            "title": "Signature Ability - Cybernetic Assassin",
+            "content": [
+                "The number of hits in the Combo Meter required to gain an Armor Up Passive is reduced to 15 and max stacks is increased by 4.",
+                "Ferocity also increases the potency of Ruptures by [1 - 10]% per Armor Up.",
+                "For every 2.5% of the Opponent's Max Health prevented by Heal Block, inflict a Rupture Debuff dealing [10 - 100]% of Lady Deathstrike's Armor Rating as Physical Damage over 3 seconds."
+            ]
+        }
+    ]
 }

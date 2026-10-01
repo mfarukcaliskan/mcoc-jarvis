@@ -13,6 +13,69 @@
     "synergies": [],
     "howToPlay": "Shatterstar için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Shatterstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Kanama direnci 🩸\n• %40 Zehir direnci (Savaş'ta %80) 🧪\n• %40 Yakma direnci (Savaş'ta %80) 🔥"
+    "signatureAbility": "Mojoworld Gladiator\nOverstacking Shatterstar's Daunted Debuffs inflicts a bonus [5.02 - 15.04]% Daunted Passive for 10 seconds. Max stacks: 4.\nShatterstar's superstar status in the Mojoverse allows him to provide a Cross-Fight Sponsorship offer in the Pre-Fight screen. A Sponsor can only be used once per Quest.\nThe next Mutant or Mystic Champion that enters a fight with a Sponsor signs a deal and causes incoming Bleed Debuffs from Quest Nodes to suffer 80% reduced potency for the next 4 fights.",
+    "immunityDetails": "• %100 Kanama direnci 🩸\n• %40 Zehir direnci (Savaş'ta %80) 🧪\n• %40 Yakma direnci (Savaş'ta %80) 🔥",
+    "abilitySections": [
+        {
+            "title": "Brought to You by Mojovision - Always Active",
+            "content": [
+                "Due to Mojovision's strict censorship guidelines, incoming Bleed effects suffer 100% reduced potency.",
+                "Incoming Poison and Incinerate Debuffs from Quest Nodes suffer 40% reduced potency. This is doubled in Alliance War."
+            ]
+        },
+        {
+            "title": "Glancing",
+            "content": [
+                "Holding Block for 0.3 seconds grants a 100% Glancing Passive until Shatterstar stops Blocking..",
+                "When the Opponent Glances against Shatterstar, Offensive Ability Accuracy is reduced by 25% and damage is reduced by 0% or 25% against Skill Champions. Damage is reduced by an additional 5% per Daunted on the Opponent up to 60% total.",
+                "Shatterstar's personal Glances consume 1 Combo from the Opponent's Combo Meter. Consume 1 additional Combo from Special Attack Glances."
+            ]
+        },
+        {
+            "title": "Daunted Debuffs - Max: 10",
+            "content": [
+                "Shatterstar's Daunted Debuffs have 20% potency and last 10 to 5 seconds depending on how many are already active.",
+                "Personal Daunted Debuffs expire one at a time and are paused during Special Attacks and Strikers.",
+                "Against non-Tech Champions, personal Daunted Debuffs cannot have their duration lowered, and they cannot be Purified during Shatterstar's Heavy Attack.",
+                "Interrupting the Opponent's Heavy Attack inflicts 2 Daunteds.",
+                "When Shatterstar or his Opponent's Combo Meter reaches a multiple of 10, inflict 1 Daunted. Inflict 1 additional Daunted if this happens during Shatterstar's Heavy or Special Attack."
+            ]
+        },
+        {
+            "title": "Daunted Effects - While Active on the Opponent",
+            "content": [
+                "At 2+ Daunteds: Blocking 2 consecutive Basic Attacks inflicts a non-stacking 10% Reckless Passive for 3 seconds.",
+                "At 4+ Daunteds: Gain a Pursuit Passive against non-Tech Champions.",
+                "At 6+ Daunteds: As an Attacker with 2 Bars of Power that hasn't used their Special Attack 3, gain a 40% Uncanny Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Spinning Blades",
+            "content": [
+                "Each hit inflicts an Instant Bleed dealing [2,280.08] Direct Damage, plus an additional [2,280.08] for each Uncanny effect on Shatterstar."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Force of Will",
+            "content": [
+                "After activation, gain a non-stacking 10% Uncanny Passive for 20 seconds.",
+                "The final two hits inflict Instant Bleeds, each dealing [10,364] Direct Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Primetime Television",
+            "content": [
+                "This Special Attack can only be used once per fight.",
+                "Gain 2 indefinite 10% Uncanny Passives."
+            ]
+        },
+        {
+            "title": "Signature Ability - Mojoworld Gladiator",
+            "content": [
+                "Overstacking Shatterstar's Daunted Debuffs inflicts a bonus [5.02 - 15.04]% Daunted Passive for 10 seconds. Max stacks: 4.",
+                "Shatterstar's superstar status in the Mojoverse allows him to provide a Cross-Fight Sponsorship offer in the Pre-Fight screen. A Sponsor can only be used once per Quest.",
+                "The next Mutant or Mystic Champion that enters a fight with a Sponsor signs a deal and causes incoming Bleed Debuffs from Quest Nodes to suffer 80% reduced potency for the next 4 fights."
+            ]
+        }
+    ]
 }

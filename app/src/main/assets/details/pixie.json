@@ -12,6 +12,70 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Combo bitirince veya %40 şansla kaçış yapar ve kaçışında 14sn nörşok uygular. Kalıcı kaçış-engelleyen şampiyon kullan; kanama/şoka %90 dirençli olduğu için o efektler işe yaramaz.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Pixie Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %90 Kanama direnci 🩸\n• %90 Şok direnci ⚡️"
+    "signatureAbility": "Heart and Soul\nWhile Skill Opponents are suffering from Pixie's personal Neuroshocks, they cannot Evade.\nWhen Pixie would gain a Soul Wisp while her personal Prowess are active, there is a [10 - 35]% chance to gain an additional Prowess lasting for the time remaining on her Prowess.\nAs a Defender, for each active Special Attack Cooldown, Pixie has a 20% chance to cast Mists of Morpheus and Evade incoming Basic Attacks.",
+    "immunityDetails": "• %90 Kanama direnci 🩸\n• %90 Şok direnci ⚡️",
+    "abilitySections": [
+        {
+            "title": "Mutant Pixie Dream Girl - Always Active",
+            "content": [
+                "If Pixie's personal Debuffs are Purified, they are re-inflicted as Passives. If the Stun from the Parry Mastery is Purified, inflict a Stun Passive for 1.5 seconds. These abilities do not work against Cleanse effects.",
+                "Pixie's personal non-Damaging Debuffs and the Parry Mastery cannot have their durations modified.",
+                "Pixie's Heavy Attack can be charged for an extended duration.",
+                "Skill Opponents have their True Accuracy Ability Accuracy lowered by 100% and cannot lower Pixie's personal Evade Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Spellcasting",
+            "content": [
+                "Pixie can perform various actions to cast Spells. Special Attacks count as Spells. All Spells have Cooldowns which prevent them from being activated.",
+                "As an Attacker, Special Attack Spells start on Cooldown.",
+                "Either Champion's Light Attacks shorten Pixie's active Cooldowns by 1 second.",
+                "As an Attacker, casting Spells grants Pixie Soul Wisps which enhance Special Attacks 2 and 3. Max Soul Wisps: 24."
+            ]
+        },
+        {
+            "title": "Counter-Evade - Mists of Morpheus - Cooldown: 15 seconds",
+            "content": [
+                "While charging a Heavy Attack, when Pixie would be struck by a Basic Attack or the final hit of a Special Attack, she casts Mists of Morpheus and Evades. This also occurs when she is struck by a Combo-Ending Attack.",
+                "When Pixie Evades, she Counter-Attacks.",
+                "Her Evade inflicts a non-stacking [3,326.09] Neuroshock Debuff for 14 seconds, paused during the Opponent's Special Attacks.",
+                "As an Attacker, her Counter-Attack inflicts a Sleep Passive for 1.6 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attack - Oshtur's Refusal - Cooldown: 15 seconds",
+            "content": [
+                "The first hit casts a non-stacking Oshtur's Refusal Debuff, reducing the potency of the Opponent's Shock and Bleed effects by 90% for 15 seconds, paused during the Opponent Special Attacks.",
+                "As a Defender, a non-stacking Oshtur's Refusal Passive is cast when Pixie's Opponent crosses a Bar of Power. When cast this way, it does not have a Cooldown."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Slices of Seraphim - Cooldown: 5 seconds",
+            "content": [
+                "Each hit inflicts a [5,437.89] Neuroshock Passive for 2.5 seconds. These Neuroshocks scale with Pixie's Special Damage. As a Defender, these instead scale with Base Attack only."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Sihal Novarum Chinoth - Cooldown: 35 seconds",
+            "content": [
+                "On activation, gain a 50% Power Efficiency Passive for the duration of this Special Attack.",
+                "On activation, convert all Soul Wisps into +15% Prowess Passives for 20 seconds, paused during the Opponent's Special Attacks. These cannot expire during Pixie's Special Attacks. While active, Pixie cannot gain Soul Wisps."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Pixie Dust - Cooldown: 70 seconds",
+            "content": [
+                "Gain a 33% Power Efficiency Passive for the duration of this Special Attack.",
+                "Consume all Soul Wisps to increase Pixie's Attack Rating by +[5,437.89] per Soul Wisp consumed for the duration of this Special."
+            ]
+        },
+        {
+            "title": "Signature Ability - Heart and Soul",
+            "content": [
+                "While Skill Opponents are suffering from Pixie's personal Neuroshocks, they cannot Evade.",
+                "When Pixie would gain a Soul Wisp while her personal Prowess are active, there is a [10 - 35]% chance to gain an additional Prowess lasting for the time remaining on her Prowess.",
+                "As a Defender, for each active Special Attack Cooldown, Pixie has a 20% chance to cast Mists of Morpheus and Evade incoming Basic Attacks."
+            ]
+        }
+    ]
 }

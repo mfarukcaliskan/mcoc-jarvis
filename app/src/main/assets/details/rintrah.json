@@ -14,6 +14,85 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Oyunun en dayanıklı, en çok canlı şampiyonlarından. Pasif durdurulamaz efektlerini tetiklememek için sık ağır saldırı kullan. Bonusları rupture'a çevirir — bonus immün veya yetenek azaltıcı şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Rintrah Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %50 Zırh Kırma direnci 🛡️"
+    "signatureAbility": "Never Back Down\nWhen the Opponent fails to gain a Buff due to reduced Ability Accuracy while Rintrah is below 20 Mystical Charges, Rintrah gains a Power Gain Buff granting [2 - 10]% of Max Power over 2 seconds. Max: 3.\nWhen struck by or Blocking an attack while Unstoppable, Passively Regenerate [1 - 3]% of missing Health.",
+    "immunityDetails": "• %50 Zırh Kırma direnci 🛡️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Incoming Armor Break Debuffs suffer -50% potency for each other Armor Break already on Rintrah, to a minimum of 0% potency. Rintrah gains +[1,583.85] Attack Rating per Armor Break Debuff on him.",
+                "All of Rintrah's Rupture Debuffs deal [1,583.85] Physical Damage over 15 seconds."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "When either Champion lands a hit, Rintrah has a 60% chance to inflict a non-stacking 100% Neutralize Passive for 3 seconds.",
+                "Against Cosmic and Superior Champions, instead the Neutralize chance is 100%, potency is 200%, and duration is 6 seconds."
+            ]
+        },
+        {
+            "title": "Mystical Charges - Max: 20",
+            "content": [
+                "Gain 1 Mystical Charge when the Opponent is inflicted with Rintrah's personal Neutralize.",
+                "Gain 2 Mystical Charges when the Opponent fails to gain a Buff due to reduced Ability Accuracy.",
+                "Lose 5 Mystical Charges when knocked down.",
+                "After inflicting any personal Rupture, a Mystical Timer starts for 15 seconds. When it expires, all Mystical Charges are lost."
+            ]
+        },
+        {
+            "title": "Mystical Charge Effects",
+            "content": [
+                "10+ Charges: When either Champion Strikes their Opponent or their Block with a Light Attack, inflict 1 Rupture Debuff.",
+                "10+ Charges: Rintrah's Special Attacks are Passively Unblockable",
+                "10+ Charges: When Rintrah Strikes his Opponent or their Block, and his back is to the wall, he becomes Passively Unstoppable for 6 seconds.",
+                "15+ Charges: Rintrah is Stun Immune.",
+                "20+ Charges: When the Opponent activates a Special Attack, Rintrah inflicts a Root Debuff on himself until the end of the Special Attack. This Root has no cooldown."
+            ]
+        },
+        {
+            "title": "Rooted",
+            "content": [
+                "When Rintrah strikes his Opponent or their Block with his fourth Light Attack while their back is to the wall, he inflicts a Root Debuff on himself for 6 seconds. Cooldown: 12 seconds.",
+                "While Rooted for any reason, Rintrah becomes Passively Unstoppable, inflicts a Taunt Debuff of 20% potency, and increases his Energy Resistance and Critical Resistance by +[27.78] per Mystical Charge.",
+                "While Rooted for any reason, inflict 2 additional Ruptures when either Champion is struck by or Blocks a contact attack.",
+                "While affected by a personal Root, performing a Heavy or Special Attack removes the Root and inflicts 5 Rupture Debuffs."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit pauses all personal Ruptures for 4 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit grants 1 Mystical Charge.",
+                "On the final hit, if Rintrah has 10 or more Mystical Charges, gain a Fury Passive increasing Attack Rating by +[3,167.7] for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, pause all personal Ruptures on the Opponent for 4 seconds.",
+                "The final hit removes all Mystical Charges and gains +[4,223.6]  Attack Rating per personal Rupture on the Opponent.",
+                "When this Special Attack ends, remove all personal Ruptures from the Opponent and remove the Mystical Timer if it's active."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Passively Regenerate 1% of missing Health per Mystical Charge.",
+                "After this Attack, the Opponent will have their back to the wall."
+            ]
+        },
+        {
+            "title": "Signature Ability - Never Back Down",
+            "content": [
+                "When the Opponent fails to gain a Buff due to reduced Ability Accuracy while Rintrah is below 20 Mystical Charges, Rintrah gains a Power Gain Buff granting [2 - 10]% of Max Power over 2 seconds. Max: 3.",
+                "When struck by or Blocking an attack while Unstoppable, Passively Regenerate [1 - 3]% of missing Health."
+            ]
+        }
+    ]
 }

@@ -16,6 +16,69 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırı kullanınca veya 8sn'de %20 can kaybedince 8sn otomatik blok aktive eder — bu isabetli-saldırı tipi yeteneklerle önlenemez. Engellenemez saldırı kullanırsan anlık disintegration ile karşılık verir. Sadece Abalo (impact) efektli şampiyonlar veya yetenek-azaltıcılar otomatik bloğu gerçekten aşabilir; güç kontrolü de özel saldırı kullanmasını azaltarak yardımcı olur.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ruby Thursday Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Deliryum Bağışıklığı 🧠"
+    "signatureAbility": "Enhanced Organic Circuitry\nThe damage of the Instant Disintegration inflicted by Special Attack 2 is increased by [9.38 - 33]%.\nWhile Organic Circuitry is active, the Opponent's Stun Ability Accuracy is reduced by [12.04 - 50]%. This effect is disabled while the Opponent has an active Undermine effect.\nAfter gaining Organic Circuitry, the first time Ruby hits the Opponent's Block, Organic Circuitry pauses for 5 seconds.",
+    "immunityDetails": "• Deliryum Bağışıklığı 🧠",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Ruby Thursday is Immune to Delirium.",
+                "The Opponent's True Strike, True Accuracy, and True Sense effects have their Ability Accuracy reduced by 100%. For each Daunted on Ruby, the Opponent's Neuroshock Ability Accuracy is reduced by a flat 50%, to a max of 150%.",
+                "When Ruby would land a Critical Hit, she instead inflicts an Instant Rupture dealing the Critical Damage the hit would have dealt.",
+                "Every third hit Ruby lands does not increase her Combo Meter."
+            ]
+        },
+        {
+            "title": "When Blocking an Attack",
+            "content": [
+                "When Ruby takes damage from Blocking an Opponent with an active Pierce effect, she inflicts a 10% Disintegration Debuff dealing [5,279.5] Direct Damage over 10 seconds.",
+                "If Ruby's Block is broken by an Unblockable attack, inflict this Disintegration with its damage increased by 200%. Undermine Block breaks do not trigger this effect.",
+                "If Ruby's Block is broken by an Unblockable Basic Attack, she activates a Combo Interruption Passive, knocking herself down."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "When struck by a Light 1, Medium 1, or a Heavy Attack, inflict a 20% Suppression Passive for 6 seconds. Max stacks: 2. This effect has a 0.7 seconds cooldown, does not trigger when Ruby is Intercepted or if the Opponent has an Undermine effect."
+            ]
+        },
+        {
+            "title": "Auto-Block",
+            "content": [
+                "On the final hit of her Special Attacks, Ruby gains an Auto-Block Passive for 6 seconds or until triggered. When Auto-Blocking a Basic Attack, Ruby Counter-Attacks with a Laser Beam.",
+                "As a Defender, when Ruby takes damage an 8 second timer starts. If she takes damage equal to 20% of her Max Health within this time period, she gains her Auto-Block Passive. This timer will not re-trigger while active."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Tactical Revolver",
+            "content": [
+                "On activation, gain an Organic Circuitry Passive for 12 seconds, paused during Strikers and Special Attacks.",
+                "While Organic Circuitry is active, hitting the Opponent or a non-Well-Timed Block inflicts an Instant 0% Disintegration, dealing Direct Damage scaling with Ruby's Armor and Attack Rating. As a Defender, it scales with Base Attack.",
+                "At the end of this Special Attack, inflict a Special 2 Lock Passive for 15 seconds. While this effect is active, the Opponent is more likely to activate Special Attack 1."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Head Beam",
+            "content": [
+                "This Special Attack can only be activated while Organic Circuitry is active, and is Passively Unblockable. This Unblockable's Ability Accuracy cannot be reduced by Mutants.",
+                "As an Attacker, each hit inflicts a 5% Disintegration Debuff dealing [2,111.8] Direct Damage over 3 seconds. Max stacks: 5.",
+                "The final hit removes Organic Circuitry and inflicts an Instant 0% Disintegration, dealing [6,335.4] Direct Damage per second Organic Circuitry has been active, to a max of 30 seconds. As a Defender, this damage is reduced by 66.66% and scales with Base Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Floating Head",
+            "content": [
+                "Inflict a 25% Disintegration Debuff dealing [95,031] Direct Damage over 20 seconds.",
+                "Gain a 25% Energize Passive for 20 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Enhanced Organic Circuitry",
+            "content": [
+                "The damage of the Instant Disintegration inflicted by Special Attack 2 is increased by [9.38 - 33]%.",
+                "While Organic Circuitry is active, the Opponent's Stun Ability Accuracy is reduced by [12.04 - 50]%. This effect is disabled while the Opponent has an active Undermine effect.",
+                "After gaining Organic Circuitry, the first time Ruby hits the Opponent's Block, Organic Circuitry pauses for 5 seconds."
+            ]
+        }
+    ]
 }

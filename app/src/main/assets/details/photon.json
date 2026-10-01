@@ -18,6 +18,80 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Rakipteki her negatif efekt için blok yeterliliğini %27,3 azaltır — bloklamak ÖLÜMCÜL olabilir. Siperlenirken görünmez olur, vacilo önleyen şampiyon şart. 15 elektromanyetik yükte Saf Işık Formuna girer (özel saldırıları engellenemez ve destreza kapanır) — yük kazanımını savunma yeteneği azaltma veya tranquilize ile engelle. Engellenemez özel saldırıları bloklayan veya destreza olmadan kaçabilen şampiyonlar (Silk, Dazzler) da işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Photon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Çalma Bağışıklığı 🔋🔽\n• Nötralize Bağışıklığı 🗡️❌"
+    "signatureAbility": "The Full Spectrum\nPhoton's improved control over the Electromagnetic Spectrum grants her Immunity to all Neutralize effects.\nFor every Debuff on the Opponent, their Block Proficiency is reduced by [301.18 - 916.67] and Photon's is increased by half as much.\nPhoton has a [15 - 65]% chance to inflict one of her personal Energy Vulnerability Debuffs on the Opponent when struck by or Blocking a Light Attack.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Çalma Bağışıklığı 🔋🔽\n• Nötralize Bağışıklığı 🗡️❌",
+    "abilitySections": [
+        {
+            "title": "Living Energy - Always Active",
+            "content": [
+                "When Stunned, Photon loses control of her solid form and gains a 100% Untouchable Passive for 2.5 seconds. If an Opponent Misses during this effect, it goes on cooldown for 8 seconds.",
+                "Photon's altered body composition grants her Immunity to all Bleed and Power Steal effects.",
+                "Photon can trigger the Parry Mastery against non-contact attacks, and all of her attacks deal Energy Damage.",
+                "Whenever the Opponent is inflicted with a Debuff, Photon inflicts a non-stacking 80% Petrify Passive for 0.5 seconds.",
+                "If the Opponent has the Willpower Mastery active, it is removed."
+            ]
+        },
+        {
+            "title": "Basic Attacks",
+            "content": [
+                "Photon's Medium Attacks cannot Miss.",
+                "Both Champions' first Medium Attack inflicts a 10% Suppression Debuff on Photon's Opponent for 5 seconds. Max stacks: 2.",
+                "Photon's first and third Light Attacks inflict a [485.29] Energy Vulnerability Debuff for 10 seconds. Max stacks: 10.",
+                "The first hit of either Champion's Heavy Attack inflicts a non-stacking Sunder Debuff on Photon's Opponent for 15 seconds."
+            ]
+        },
+        {
+            "title": "Electromagnetic Charges - Max Stacks: 25",
+            "content": [
+                "Photon gains Electromagnetic Charges in various ways that persist between fights. Max stacks: 25",
+                "+1 Charge when the Opponent is inflicted with a Debuff, or when the Opponent activates a Special Attack.",
+                "+4 Charges when the Opponent Misses. Cooldown: 3 seconds."
+            ]
+        },
+        {
+            "title": "Pure Light Form",
+            "content": [
+                "While at 10 Charges or more, Dodging back and holding Block for 1.2 seconds or being knocked down pushes Photon into her Pure Light Form and grants the following effects. This happens automatically at max Charges, or when Photon activates a Special Attack with at least 15 Charges as a Defender.",
+                "Gain an indefinite Fury Passive for every 5 Charges, each increasing Attack by +[2,688.75].",
+                "Photon cannot Miss, and personal Debuffs expire 50% more slowly.",
+                "Photon cannot gain Electromagnetic Charges and each Charge lasts 0.9 seconds, falling off one at a time. All effects are removed when Charges fall to zero."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "While in Pure Light Form, Photon's Special Attacks cannot be avoided with the Dexterity Mastery.",
+                "Electromagnetic Charges pause during the Opponent's Special Attacks, and for 3 seconds when Photon punishes the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a 10% Overload Debuff for 8 seconds. If Pure Light Form is active, inflict an additional Overload Debuff. Max stacks: 10.",
+                "In Pure Light Form, the final hit is Passively Unblockable except against Well-Timed Blocks."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a Taunt Debuff for 10 seconds.",
+                "In Pure Light Form, this attack is Passively Unblockable, Electromagnetic Charges are paused for the duration, and Photon gains a 100% Untouchable Passive for 3 seconds after the final hit."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Max stacks of Electromagnetic Charges increases by 5 until the end of the fight. This effect can occur 3 times.",
+                "If at or above 20 Charges, gain a non-stacking Regeneration Passive, healing [8,561.28] Health over 8 seconds. This Passive pauses for 0.5 seconds when the Opponent is struck."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Full Spectrum",
+            "content": [
+                "Photon's improved control over the Electromagnetic Spectrum grants her Immunity to all Neutralize effects.",
+                "For every Debuff on the Opponent, their Block Proficiency is reduced by [301.18 - 916.67] and Photon's is increased by half as much.",
+                "Photon has a [15 - 65]% chance to inflict one of her personal Energy Vulnerability Debuffs on the Opponent when struck by or Blocking a Light Attack."
+            ]
+        }
+    ]
 }

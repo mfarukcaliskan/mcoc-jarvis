@@ -13,6 +13,78 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Periyodik sanar bonusuyla sık purify eder, blok-nüfuzu var ve bloktan kritik vurabilir. Bloktan kanama da uygulayabilir — kanamaya immün/dirençli şampiyon önemli.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Chee'ilth Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼"
+    "signatureAbility": "Xemamen (claw of The Bear)\nBrother Grizzly extends his wisdom, granting a Precision Passive each time the Opponent is Immune to a Bleed effect, increasing Critical Rating by [447.67 - 1,480.76] for 10 seconds. While Chee'ilth has at least one of these Precision Passives, they can land Critical Hits through Block.\nSister Eagle also provides new assistance, instantly healing [55 - 90]% of all damage dealt to Chee'ilth by Physical Damage effects.",
+    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Oppose The One Below All",
+            "content": [
+                "While fighting #Gamma Opponents, Chee'ilth's personal Debuffs gain 40% potency and her Synergy Bonuses gain special [Gamma] enhancements."
+            ]
+        },
+        {
+            "title": "Personal Debuffs",
+            "content": [
+                "As an Attacker, personal Debuffs gain 30% duration.",
+                "As a Defender, personal Debuffs can be inflicted through Block."
+            ]
+        },
+        {
+            "title": "Spirit Charges - Max: 10",
+            "content": [
+                "Every 20 seconds, Sister Eagle and Brother Grizzly bestow an indefinite Spirit Charge on Chee'ilth. As a Defender, this timer becomes 10 seconds.",
+                "When this timer expires, as well as at the start of each fight, Sister Eagle grants 2 indefinite Cleanse Passives. Max: 10.",
+                "Brother Grizzly grants +[175.53] Critical Damage Rating and +15% Bleed potency per Spirit Charge."
+            ]
+        },
+        {
+            "title": "Sister Eagle the Healer - Blocking",
+            "content": [
+                "While Blocking the Opponent's attacks, their Attack Rating is capped at 100% of what it was at the start of the fight.",
+                "Well-Timed Blocks reduce this Attack Rating cap to 50%. Each Well-Timed Block also shortens the Spirit Charge timer by 5 seconds."
+            ]
+        },
+        {
+            "title": "Brother Grizzly the Warrior - Attacking",
+            "content": [
+                "Chee'ilth's Bleed Debuffs deal [5,492.55] Direct Damage over 9 seconds.",
+                "Striking the Opponent with the Adze Axe inflicts a Bleed Debuff.",
+                "Brother Grizzly shortens the Spirit Charge timer by 7 seconds each time Chee'ilth Punishes a Heavy Attack or Special Attack."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Punishing a Heavy Attack or Special Attack pauses all personal Debuffs on the Opponent for 5 seconds.",
+                "The final hit of this attack triggers 2 additional Bleed Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a Grizzly's Grit Passive for 16 seconds which counts as a Grit Passive. While Grizzly's Grit is active, all attacks gain a 50% chance to inflict a Bleed Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a non-stacking Eagle's Tranquilize Debuff for 12 seconds which counts as a 50% Tranquilize Debuff. While Eagle's Tranquilize is active, Chee'ilth cannot Miss. Each time a Debuff or Miss is prevented, pause Eagle's Tranquilize for 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack can only be used once per fight.",
+                "Gain an indefinite 35% Vicious Passive.",
+                "Gain a 15 second Regeneration Buff, healing 50% of Health lost this fight or 30% of missing health, whichever is greater."
+            ]
+        },
+        {
+            "title": "Signature Ability - Xemamen (claw of The Bear)",
+            "content": [
+                "Brother Grizzly extends his wisdom, granting a Precision Passive each time the Opponent is Immune to a Bleed effect, increasing Critical Rating by [447.67 - 1,480.76] for 10 seconds. While Chee'ilth has at least one of these Precision Passives, they can land Critical Hits through Block.",
+                "Sister Eagle also provides new assistance, instantly healing [55 - 90]% of all damage dealt to Chee'ilth by Physical Damage effects."
+            ]
+        }
+    ]
 }

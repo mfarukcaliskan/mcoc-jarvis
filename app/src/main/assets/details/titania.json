@@ -26,6 +26,70 @@
     "synergies": [],
     "howToPlay": "Titania için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Titania Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Buff Bağışıklığı 🗡️🚫\n• Kanama Bağışıklığı (ile sinerji: Absorbing Man) 🩸"
+    "signatureAbility": "Grudge Match\nWhenever Titania inflicts a stackable personal Debuff, she has a [10 - 30]% chance to inflict it twice.\nWhen fighting #L and #XL Opponents, Titania's Fury potency is increased by [10 - 30]%.",
+    "immunityDetails": "• Buff Bağışıklığı 🗡️🚫\n• Kanama Bağışıklığı (ile sinerji: Absorbing Man) 🩸",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Titania is immune to Buffs. She doesn't need your help.",
+                "+[305.56] Physical Resistance."
+            ]
+        },
+        {
+            "title": "Haymakers",
+            "content": [
+                "Performing a Dash, a second Medium Attack, or charging a Heavy Attack grants Titania Unblockable, Unstoppable, and Indestructible Passives for 4 seconds. 30 second cooldown.",
+                "While these effects are active, each hit deals a burst of [479.1] Physical Damage for each Debuff on the Opponent."
+            ]
+        },
+        {
+            "title": "Adding Injury to Insult",
+            "content": [
+                "Whenever the Opponent is inflicted with a Debuff, Titania gains a Fury Passive increasing Attack Rating by +[958.2] for 15 seconds, and Haymakers' cooldown is reduced by 1 second.",
+                "All of Titania's Debuffs can be inflicted through Block."
+            ]
+        },
+        {
+            "title": "Light Attacks",
+            "content": [
+                "Inflict a 5% Suppression Debuff for 2 seconds, paused during Titania's Special Attacks."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit inflicts a Stagger Debuff for 8 seconds.",
+                "If the first hit lands while Haymakers' effects are active, the final hit inflicts an extra stack of Titania's active personal Debuffs. If this attack is canceled into a Special Attack, the extra Debuffs are inflicted on the final hit of the Special instead."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The first hit inflicts a non-stacking Debilitate Debuff, extending the duration of any new Debuffs by 50% for 30 seconds.",
+                "Each hit inflicts a Weakness Debuff, reducing Attack Rating by 5% for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a non-stacking [687.5] Physical Vulnerability Debuff for 20 seconds. This Debuff is refreshed whenever the Opponent suffers 4 or more Suppression Debuffs.",
+                "Each hit inflicts a Weakness Debuff, reducing Attack Rating by 5% for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Immediately activate Haymakers with +50% duration, ignoring their cooldown.",
+                "Inflict 30% potency Fatigue, Exhaustion, Decelerate, Disorient, Falter, Stifle, Wither, Petrify, Cowardice, and Intimidate Debuffs on the Opponent for 4 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Grudge Match",
+            "content": [
+                "Whenever Titania inflicts a stackable personal Debuff, she has a [10 - 30]% chance to inflict it twice.",
+                "When fighting #L and #XL Opponents, Titania's Fury potency is increased by [10 - 30]%."
+            ]
+        }
+    ]
 }

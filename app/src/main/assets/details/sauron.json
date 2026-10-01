@@ -13,6 +13,66 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Prowess kaldıran şampiyon neredeyse zorunlu; yoksa dövüşün büyük kısmında aktif olan engellenemez saldırıya dikkat et. Onu E2 kullanmaya zorla. Engellenemez özel saldırıları bloklayabilen şampiyonlar da iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sauron Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• %95 Kanama direnci 🩸\n• Güç Çalma Bağışıklığı 🔋🔽\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "Doctor's Gift\nAfter the start of the fight, if the Opponent attempts to inflict a Bleed, or Incinerate effect while a Degeneration Passive is active, inflict the Opponent with a Passive version of that effect dealing +[35,784] damage over 2 seconds.\nIncrease personal Prowess Passive Potency by a flat [2 - 10]%.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• %95 Kanama direnci 🩸\n• Güç Çalma Bağışıklığı 🔋🔽\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Immune to all Power Steal, Poison, and Sauron's Regeneration Rate cannot be decreased or increased by outside sources.",
+                "Take -95% less damage from Bleed effects and gain +25% Critical Resistance while Bleeding.",
+                "When Sauron is struck, 30% chance to gain a Regen Passive healing 10% of the damage taken per personal Prowess Passive effect he has.",
+                "Light Attacks have 35% chance to deal 50% of the damage dealt as a burst of Physical Damage. This ability can also trigger through block."
+            ]
+        },
+        {
+            "title": "Prowess (Max: 10)",
+            "content": [
+                "Each time one of Sauron's Abilities fails to trigger due to chance gain a 10% Prowess Passive. Gain an additional 2 Prowess Passive if Sauron's Ability fails due to Ability Accuracy modification.",
+                "At 7 Prowess Passives, Dash Attacks, Heavy and Special Attacks grant an Unblockable Passive for 4 seconds. This Unblockable Passive is paused during Special Attacks and has a 10 second cooldown unless Sauron's Ability Accuracy is being modified or Sauron is affected by a Degeneration.",
+                "At 10 Prowess Passives, Dashing Attacks, inflict a Bleed Passive, dealing +[8,946] damage over 4 seconds. This ability can also trigger through block.",
+                "Landing the first hit of a Heavy Attack will consume 3 Prowess Passives and gain a Fury Passive, granting +[5,964] Attack Rating for 4 seconds"
+            ]
+        },
+        {
+            "title": "All Special Attacks",
+            "content": [
+                "All Prowess Passives are removed at the end of Special Attacks.",
+                "On activation, pause the Degeneration Passive from Extinction Mode for 8 seconds."
+            ]
+        },
+        {
+            "title": "Extinction Mode",
+            "content": [
+                "While at 10 Prowess Passives, when you hit the Opponent, inflict a Degeneration Passive, dealing +[4,771.2] direct damage over 5 seconds.",
+                "Increase Physical Burst Potency by 50% and all personal Abilities have 100% Ability Accuracy.",
+                "If the Degeneration Passive from Extinction Mode expires, remove all Prowess Passives."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "After this Special Attack ends, for each physical burst hit dealt to the Opponent, heal for 25% the damage dealt for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "After this Special Attack ends, increase the Potency of all personal burst Physical Damage by 100% for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "After this Special Attack ends, inflict a Degeneration Passive, dealing +[2,982] direct damage over 5 seconds per personal Passive effect that has expired on Sauron or on the Opponent. (capped at 30) Reset after Special 3 activation."
+            ]
+        },
+        {
+            "title": "Signature Ability - Doctor's Gift",
+            "content": [
+                "After the start of the fight, if the Opponent attempts to inflict a Bleed, or Incinerate effect while a Degeneration Passive is active, inflict the Opponent with a Passive version of that effect dealing +[35,784] damage over 2 seconds.",
+                "Increase personal Prowess Passive Potency by a flat [2 - 10]%."
+            ]
+        }
+    ]
 }

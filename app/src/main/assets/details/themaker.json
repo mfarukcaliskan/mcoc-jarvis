@@ -19,6 +19,89 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Dövüşe kaçış yüküyle başlar — ağır saldırıyla kaldır. E1'de plazma mayını aktive eder (mayına değmek anlık enerji hasarı verir, uzak dur). Kaçtığında pasif sersemletir. Enerji dirençli şampiyonlar mayından daha az etkilenir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "The Maker Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠\n• Nörşok Bağışıklığı ⚡️🧠"
+    "signatureAbility": "Contingency Plans\nWhen The Maker's Tactical Evasion Stun fails to be inflicted or is removed before its duration expires, inflict a non-stacking [236.88 - 685.8] Energy Vulnerability Passive and gain Stun Immunity for 4 seconds.\nThe Maker starts each fight with 1 Special Evade Charge that is consumed to Evade a hit during a Special Attack. This does not trigger during a Well-Timed Block. Gain 1 extra Charge for every 60 signature levels.\nRemove all Special Evade Charges when struck by a Heavy Attack.\nGain a Special Evade Charge when the Plasma Mine is triggered during The Maker's Special Attacks.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠\n• Nörşok Bağışıklığı ⚡️🧠",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "The Maker has altered his being and developed an Immunity to Neuroshock and Reversed Controls.",
+                "The Maker hates luck. He cannot land Critical Hits, and all personal effects and the Stun from the Parry Mastery have 125% Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Planning Charges - Max: 8",
+            "content": [
+                "The Maker starts each Quest with 4 Persistent Planning Charges.",
+                "In the Pre-Fight Menu, choose up to 3 Planned Obsolescence Passives to inflict on the Opponent at the start of the fight. Each Passive costs 1 Planning Charge and is inflicted even if a different Champion enters the fight.",
+                "The Maker's teammates help progress his plans. For each fight he or a teammate wins, he gains 1 Planning Charge the next time he enters a fight."
+            ]
+        },
+        {
+            "title": "Planned Obsolescence - Pre-Fight Passives - Max: 1 Each",
+            "content": [
+                "All Planned Obsolescence Passives have a 15 second duration and are refreshed when the Opponent is knocked down.",
+                "Inflict a 45% Special Power Drain Passive.",
+                "Inflict a 14% Instants Siphon Passive.",
+                "Inflict a 20% Cowardice Passive.",
+                "Planned Obsolescence potency is halved unless the Attacker is a Tech Champion or is one of The Maker's outgoing synergy partners.",
+                "Planned Obsolescence potency scales with the rarity of The Maker. If different versions of a Passive are applied, only the strongest one triggers."
+            ]
+        },
+        {
+            "title": "Tactical Evasion",
+            "content": [
+                "When The Maker would perform a Well-Timed Block against a Basic Attack, he Evades the attack instead.",
+                "When The Maker Evades a Basic Attack, inflict a Stun Passive for 3 seconds. This Stun is removed when the Opponent is struck twice.",
+                "When this Stun would be inflicted, the Stun and this Evade go on a shared cooldown for 8 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attack",
+            "content": [
+                "Heavy Attacks do not add to The Maker's Combo Meter.",
+                "The final hit pauses The Maker's Planned Obsolescence Passives for 5 seconds, and inflicts a Heal Block Debuff for 8 seconds.",
+                "The final hit inflicts an Instant Plasma dealing [4,927.5] Energy Damage multiplied by The Maker's Critical Damage Multiplier."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - What's Yours is Mine",
+            "content": [
+                "Deploy a Plasma Mine in front of The Maker."
+            ]
+        },
+        {
+            "title": "Plasma Mine - Max: 1",
+            "content": [
+                "If the Opponent moves onto the Plasma Mine, it triggers, inflicting an Instant Plasma dealing [12,045] Energy Damage multiplied by The Maker's Critical Damage Multiplier. As a Defender, deal 1% of this damage.",
+                "The Plasma Mine needs to recharge after triggering. The Plasma Mine recharges while The Maker is charging his Heavy Attack and by a small amount when either Champion is struck.",
+                "Triggering the Plasma Mine inflicts a 10% Suppression Passive on the Opponent for 30 seconds. Max stacks: 6.",
+                "While suffering from one of The Maker's Suppressions, they are also inflicted with a 75% potency Power Reroute Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Elastic Gatling",
+            "content": [
+                "On activation, remove the recharge on the Plasma Mine.",
+                "If the Opponent is not Blocking, triggering the Plasma Mine during this attack overcharges it, increasing its base potency by 200%, plus an additional 40% for each personal Suppression on the Opponent. Overcharging the Mine destroys it.",
+                "Gain 1 Planning Charge when triggering an overcharged Mine, plus 1 extra for every 3 personal Suppressions on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Flexible Schemes",
+            "content": [
+                "Re-trigger The Maker's selected Pre-Fight Planned Obsolescence Passives.",
+                "At the end of this attack, The Maker moves an existing Plasma Mine behind his Opponent and empowers it for 12 seconds. The empowered Plasma Mine automatically recharges every 0.5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Contingency Plans",
+            "content": [
+                "When The Maker's Tactical Evasion Stun fails to be inflicted or is removed before its duration expires, inflict a non-stacking [236.88 - 685.8] Energy Vulnerability Passive and gain Stun Immunity for 4 seconds.",
+                "The Maker starts each fight with 1 Special Evade Charge that is consumed to Evade a hit during a Special Attack. This does not trigger during a Well-Timed Block. Gain 1 extra Charge for every 60 signature levels.",
+                "Remove all Special Evade Charges when struck by a Heavy Attack.",
+                "Gain a Special Evade Charge when the Plasma Mine is triggered during The Maker's Special Attacks."
+            ]
+        }
+    ]
 }

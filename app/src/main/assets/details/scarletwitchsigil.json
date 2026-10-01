@@ -21,5 +21,79 @@
     "synergies": [],
     "howToPlay": "Scarlet Witch için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Scarlet Witch Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Organized Chaos\nAgainst Cosmic, Mystic, Tech Opponents: 20% chance per Instability to inflict a Petrify or Armor Break Debuff for 3 seconds.\nAgainst Cosmic, Mutant, Skill Opponents: 20% chance per Instability to inflict a Power Sting or Heal Block Debuff for 3 seconds.\nPetrify of [40 - 100]% Potency.\nArmor Break: reducing Armor by [687.48 - 1,833.33].\nPower Sting: Deal [6,922.14 - 13,844.4] direct damage on activation of Opponents Special Attacks.\nHeal Block: Stopping all healing effects.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "Deal Energy Damage instead of Physical."
+            ]
+        },
+        {
+            "title": "Instability",
+            "content": [
+                "On Special Activation, gain 1 indefinite Instability. 1 Instability is removed when knocked down by a Special Attack.",
+                "If 6+ Instability are active for 10 seconds, inflict Opponent with Degeneration, dealing [34,611] Direct Damage over 6 seconds.",
+                "When the above Degeneration expires, remove all Instability."
+            ]
+        },
+        {
+            "title": "Chaos Surge",
+            "content": [
+                "Every 4 seconds, activate Chaos Surge, granting both Champions a 20% chance per Instability to gain 1 randomly selected Buff. Small chance to grant all Buffs.",
+                "Armor Up: granting +[1,480.77] Armor Rating for 12 seconds.",
+                "Fury: granting +[5,768.5] Attack Rating for 12 seconds.",
+                "Cruelty: granting +[305.56] Critical Damage Rating over 12 seconds.",
+                "Prowess: granting 120% Special Attack Damage for 12 seconds.",
+                "Unblockable: lasting 4 seconds.",
+                "Buffs are not granted to Champions launching Special Attacks.",
+                "If Scarlet Witch Nullifies any Armor Up, Fury, Cruelty, Prowess, or Unblockable Buffs, she gains her matching Chaos Surge Buff."
+            ]
+        },
+        {
+            "title": "Before The Opponent Lands an Attack",
+            "content": [
+                "While blocking, 15% chance to Nullify 1 Buff. Increased to 100% during the Well-Timed Block window."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Consume 1 Instability to create a non-stacking Power Gain Buff, generating 100% of a Bar of Power over 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The first successful hit creates 1 Instability."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts a Random Debuff. Duration is increased by 20% for each Buff on either Champion. Max 100%.",
+                "Poison, dealing [18,459.2] Direct Damage over 10 seconds. Poison also reduces the Opponents Regeneration Rate by 30%.",
+                "Inflicts Coldsnap, dealing [18,459.2] Energy Damage over 10 seconds.",
+                "Incinerate, dealing [18,459.2] Energy Damage over 10 seconds. Incinerate also prevents the activation of Perfect Block and reduces Block Proficiency by 50%."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Nullify up to 5 Buffs on the Opponent. Each Buff Nullified this way increases this attacks Attack Rating by [3,461.1].",
+                "Remove all Instabilities, each inflicting a Passive Degeneration dealing [31,726.75] Direct Damage over 10 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Organized Chaos",
+            "content": [
+                "Against Cosmic, Mystic, Tech Opponents: 20% chance per Instability to inflict a Petrify or Armor Break Debuff for 3 seconds.",
+                "Against Cosmic, Mutant, Skill Opponents: 20% chance per Instability to inflict a Power Sting or Heal Block Debuff for 3 seconds.",
+                "Petrify of [40 - 100]% Potency.",
+                "Armor Break: reducing Armor by [687.48 - 1,833.33].",
+                "Power Sting: Deal [6,922.14 - 13,844.4] direct damage on activation of Opponents Special Attacks.",
+                "Heal Block: Stopping all healing effects."
+            ]
+        }
+    ]
 }

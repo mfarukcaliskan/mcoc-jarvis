@@ -11,5 +11,68 @@
     "synergies": [],
     "howToPlay": "Tigra için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Tigra Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Warrior Spirit\nStart the fight with Primal Sense and Huntress Sense for [3 - 12] seconds.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "On Hit, inflict a non-stacking Passive Neutralize of 100% Potency for 2.5 second(s). If this Neutralize is already active, its duration is refreshed instead.",
+                "While the Opponent is Neutralized, if they fail to gain a Buff through Chance, inflict Rupture dealing [571.95] Physical Damage over 1 second(s). Cooldown 1 second(s)."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "While Charging a Heavy Attack and 0.1 seconds after launching a Heavy Attack, all non-contact hits from Special Attacks have a 100% chance to Miss.",
+                "If Tigra Interrupts the Opponent's Attack or causes them to Miss while charging this attack, each Hit inflicts Rupture dealing [5,719.5] Physical Damage over 18 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "If the Opponent is far away from Tigra at any point during a Special Attack she gains Unblockable for the next hit.",
+                "Landing an Unblockable strike inflicts Rupture dealing [5,719.5] Physical Damage over 8 seconds."
+            ]
+        },
+        {
+            "title": "Fighting Non-Cosmic Champions",
+            "content": [
+                "If affected by Weakness, Slow, or Exhaustion Debuffs, prevent the activation of Tigra's personal Miss and Unblockable effects."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, alternate between triggering Primal Sense and Huntress Sense. Senses last for 14 seconds. Duration is paused while the Opponent is Neutralized.",
+                "Primal Sense: Whenever inflicting Rupture, deal a burst of up to [9,723.15] Physical Damage based on the number of damaging Debuffs on the Opponent. This damage is increased by 100% during Special Attacks.",
+                "Huntress Sense: 10% chance for all non-contact attacks from Special Attacks to Miss. Whenever inflicting Rupture or causing the Opponent to Miss, generate 10% of a bar of Power."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit has a 10% chance to inflict Rupture dealing [9,723.15] Physical Damage over 4 seconds.",
+                "Each damaging Debuff on the Opponent increases the chance of inflicting Rupture during this Special Attack by a flat 10%."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain Primal Sense and Huntress Sense for 14 seconds.",
+                "Inflict a non-stacking, indefinite Rupture dealing [571.95] Physical Damage every 0.5 seconds. This Rupture is removed and reapplied each time Tigra lands an Unblockable strike."
+            ]
+        },
+        {
+            "title": "Secret Ability - Regeneration",
+            "content": [
+                "When Tigra idles for approximately 3 seconds she regenerates a small portion of health."
+            ]
+        },
+        {
+            "title": "Signature Ability - Warrior Spirit",
+            "content": [
+                "Start the fight with Primal Sense and Huntress Sense for [3 - 12] seconds."
+            ]
+        }
+    ]
 }

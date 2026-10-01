@@ -16,6 +16,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kanama veya enerji hasarına bağımlı şampiyon kullanma. Zırhını kırmıyorsan/nötralize etmiyorsan özel saldırı kullanma — otomatik bloklar. Vigilance de otomatik bloğu önler.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Guardian Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %80 Kanama direnci (imza 200) 🩸\n• %81,8 Şok direnci (imza 200) ⚡️\n• %81,8 Ani Soğuk direnci (imza 200) 🧊\n• %81,8 Plazma direnci (imza 200) ⚗️\n• %81,8 Yakma direnci (imza 200) 🔥"
+    "signatureAbility": "Weapon Alpha\nWhile Guardian has an Armor Up effect, gain the following effects:\n+[700.31 - 3,356.91] Block Proficiency\n+[939.64 - 10,989.66] Energy Resistance.\n+[25.47 - 79.98]% Bleed Resistance\n+[87.54 - 411.21] Critical Damage Resistance",
+    "immunityDetails": "• %80 Kanama direnci (imza 200) 🩸\n• %81,8 Şok direnci (imza 200) ⚡️\n• %81,8 Ani Soğuk direnci (imza 200) 🧊\n• %81,8 Plazma direnci (imza 200) ⚗️\n• %81,8 Yakma direnci (imza 200) 🔥",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Guardian can't land Critical Hits naturally, however every time he would have landed a Critical Hit, he inflicts an instant Shock dealing Energy Damage. This ability scales with Critical Damage Rating.",
+                "Guardian can trigger the Parry Mastery against non-contact attacks.",
+                "While all of Guardian's Abilities are below 100% Ability Accuracy for 3+ second(s), he inflicts a Shock Debuff, dealing [1,495.95] Energy Damage per second until restored. This ability scales with Base Attack only and cannot be affected by Ability Accuracy. Max 1 stack."
+            ]
+        },
+        {
+            "title": "Armor Up",
+            "content": [
+                "Start each fight with an indefinite Armor Up Buff, increasing Armor Rating by [2,750].",
+                "If this Buff is removed for any reason, it will return after 14 second(s).",
+                "While Guardian has an Armor Up, Well-Timed Blocks against Special Attacks grant 100% Perfect Block Chance over 0.5 second(s). Each Perfect Block grants 10% of a bar of Power."
+            ]
+        },
+        {
+            "title": "Force Field",
+            "content": [
+                "Force Field Charges last indefinitely, up to 3 Charges. Any additional Force Field Charges last for 22 seconds.",
+                "Gain 1 Force Field Charge every 12 seconds.",
+                "If Guardian has an Armor Up, gain a +15% chance per Force Field Charge to Auto-Block all Hits in the Opponent's Special Attack. Gain a +15% chance against Mutants. This Auto-Block can reach a 75% chance max and is considered a Well-Timed Block.",
+                "Consume 1 Force Field Charge(s) to Block Unblockable Special Attacks against Mutants."
+            ]
+        },
+        {
+            "title": "On Fourth Light Attack",
+            "content": [
+                "Consume 2 Force Field Charge(s), inflicting a Power Drain removing 20% of the Opponent's current Power."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit consumes 1 Force Field Charge(s) to gain an Armor Up Buff, increasing Armor Rating by [2,750] for 15 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "After activation, gain 3 Force Field Charge(s).",
+                "The last hit inflicts a Taunt Debuff for 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit consumes all Force Field Charges, increasing Attack Rating by [12,466.25] for each Force Field Charge for the duration of the Special Attack.",
+                "If Guardian has 3+ Force Field Charges consume 1 Armor Up Buff, inflicting a Shock Debuff, dealing [24,932.5] Energy Damage over 3 second(s).",
+                "This attack cannot be Evaded by Mutant Champions."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "On activation, gain 6 indefinite Force Field Charge(s).",
+                "Inflict a Shock Debuff, dealing [14,959.5] Energy Damage over 20 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Weapon Alpha",
+            "content": [
+                "While Guardian has an Armor Up effect, gain the following effects:",
+                "+[700.31 - 3,356.91] Block Proficiency",
+                "+[939.64 - 10,989.66] Energy Resistance.",
+                "+[25.47 - 79.98]% Bleed Resistance",
+                "+[87.54 - 411.21] Critical Damage Resistance"
+            ]
+        }
+    ]
 }

@@ -16,6 +16,62 @@
     "synergies": [],
     "howToPlay": "Thor (Ragnarok) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Thor (Ragnarok) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Güç Söndürme (Fade) Bağışıklığı 🔋🔽\n• Arındırma (hasar vermeyen etkiler, ile sinerji: Quicksilver) 💪🏼"
+    "signatureAbility": "Renewed Spark\nEach Shock Debuff on the Opponent causes them to suffer 25% reduced Defensive Ability Accuracy, up to a 150% reduction.\nWhen Thor's Combo Shield Passive is removed, it goes on cooldown for [30 - 10] seconds, and then returns.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Güç Söndürme (Fade) Bağışıklığı 🔋🔽\n• Arındırma (hasar vermeyen etkiler, ile sinerji: Quicksilver) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Thor is Immune to Shock and Wither effects, and his Ability Power Rate cannot be increased above 100%.",
+                "Making contact with the Opponent while Thor has a personal Fury active has a 50% chance per personal Fury to inflict a Shock Debuff dealing [7,508.8] Energy Damage over 8 seconds.",
+                "When Thor inflicts a Shock, or when one is prevented by an Opponent's Immunity, he also inflicts an Armor Break Debuff, reducing the Opponent's Armor Rating by [305.56] for 8 seconds. Max stacks: 5.",
+                "When striking an Armor Broken Opponent, Thor has a 16% chance to deal a burst of [11,263.2] Energy Damage."
+            ]
+        },
+        {
+            "title": "Glorious Combatant",
+            "content": [
+                "Thor begins each fight with a Combo Shield Passive for 2.5 seconds, which is paused until he is struck. As a Defender, this Combo Shield is indefinite.",
+                "Thor's Basic Attacks each grant him +1 additional Combo Meter.",
+                "Interrupting the Opponent's attacks grants Thor an additional +2 Combo Meter.",
+                "When struck with a Basic Attack by an Opponent that does not have a Prowess effect, Thor gains +5 Combo Meter.",
+                "Dashing forwards grants a non-stacking 50% Endurance Passive for 6 seconds, paused during Special Attacks.",
+                "When Thor would be Intercepted, he has a 30% chance to Auto-Block the attack. This Auto-Block is considered a Well-Timed Block."
+            ]
+        },
+        {
+            "title": "Boon of the Gods",
+            "content": [
+                "When Thor reaches 100 hits in his Combo Meter, he activates his Boon of the Gods Power Gain Passive, and then rapidly consumes 100 Combo over 3.6 seconds.",
+                "Thor's Power Gain fills his Power Meter over 6 seconds. It is not affected by Ability Accuracy and is removed when he is struck by a Special Attack. Max stacks: 1."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Fearsome Fighter",
+            "content": [
+                "Each of the 3 hits grant Thor +6 additional Combo Meter.",
+                "If the Opponent is suffering from an Armor Break effect, the final hit inflicts a Stun Debuff for 1.8 seconds and deals a burst of [11,263.2] Energy Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - The Warrior Within",
+            "content": [
+                "The first hit grants a non-stacking +[4,693] Fury Passive for 8 seconds, paused during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - God of Thunder",
+            "content": [
+                "Gain a non-stacking +[9,386] Fury Passive for 30 seconds, paused during the Opponent's Special Attacks.",
+                "Inflict 4 Shock Debuffs, each dealing [4,693] Energy Damage over 15 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Renewed Spark",
+            "content": [
+                "Each Shock Debuff on the Opponent causes them to suffer 25% reduced Defensive Ability Accuracy, up to a 150% reduction.",
+                "When Thor's Combo Shield Passive is removed, it goes on cooldown for [30 - 10] seconds, and then returns."
+            ]
+        }
+    ]
 }

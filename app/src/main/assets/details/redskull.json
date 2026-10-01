@@ -15,6 +15,72 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Zırhı aktifken bloğuna vurmak sana doğrudan hasar verir. Nötralize'ye immün, mistik counterlar işe yaramaz. Her aktif zırh, sersemletme siper hassasiyetini azaltır (siperlemek zor). E1'de 3sn otomatik blok, E2'de durdurulamaz olur. Zırh kıran şampiyonlar en etkili; Knull da zırhlarını debuff'a çevirdiği için iyi seçenek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Red Skull Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Silme (Nullify) Bağışıklığı (şampiyonlara karşı) 🔮"
+    "signatureAbility": "Cube Affinity\nWhile charging a Heavy Attack, generate [3 - 7.5]% Power per second and Red Skull's Heavy Attack can be charged for an extended duration.\nEvery 10th Basic Attack grants Red Skull 1 Armor Up Buff.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı (şampiyonlara karşı) 🔮",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Red Skull is Immune to Nullify, Fate Seal, and Stagger effects from Champions.",
+                "Against Mutants, Red Skull's Ability Accuracy cannot be modified."
+            ]
+        },
+        {
+            "title": "Armor Up - Max: 10",
+            "content": [
+                "Start each fight with 5 indefinite Armor Up Buffs, each increasing Armor Rating by [305.56].",
+                "When either Champion fills a Bar of Power, gain 1 Armor Up Buff."
+            ]
+        },
+        {
+            "title": "Overwhelming Presence - Passive",
+            "content": [
+                "For each Armor Up Buff, Red Skull gains the following bonuses:",
+                "+[498.65] Attack Rating.",
+                "+[144.74] Critical Resistance.",
+                "+[144.74] Energy Resistance.",
+                "-10% Opponent Stun Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Blocking a Basic Attack",
+            "content": [
+                "Consume 1 Personal Armor Up Buff to Power Drain 10% of the Opponent's Max Power and deal [997.3] Direct Damage for each Armor Up Buff on Red Skull."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Inflict a non-stacking Heal Block Debuff for 12 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain an Auto-Block Passive granting a 100% chance to Auto-Block Basic Attacks for 3 seconds. Duration is paused until the Special Attack ends, and is consumed when triggered. Auto-Block will not trigger while Red Skull is Unstoppable.",
+                "The first hit pauses all Shock Debuffs on the Opponent for 6 seconds.",
+                "Each hit deals a burst of [5,983.8] Energy Damage. Deal an additional burst of Energy Damage if the Opponent is suffering from a Shock Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain an Unstoppable Buff for 2 seconds, plus 0.5 seconds per Armor Up Buff on Red Skull. Duration is paused until the Special Attack ends, and is consumed when struck.",
+                "Each hit inflicts a Shock Debuff dealing [1,795.14] Energy Damage over 6 seconds, plus 1 second per Armor Up Buff on Red Skull."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Drain 100% of the Opponent's Power. For every 10% of Max Power Drained this way, gain an Armor Up Buff."
+            ]
+        },
+        {
+            "title": "Signature Ability - Cube Affinity",
+            "content": [
+                "While charging a Heavy Attack, generate [3 - 7.5]% Power per second and Red Skull's Heavy Attack can be charged for an extended duration.",
+                "Every 10th Basic Attack grants Red Skull 1 Armor Up Buff."
+            ]
+        }
+    ]
 }

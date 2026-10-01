@@ -13,6 +13,51 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlikesi güç barı dolunca %25 şansla max canının %20'sini pasif iyileşmesi — iyileşme engeli veya petrify ile kontrol et. Asla kanatma, kanarsa rakibe degeneration uygular.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cable Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Zehir direnci 🧪\n• Kanama hasarının %100'ünü geri kazanır 🩸"
+    "signatureAbility": "Techno Organic Virus Suppression\nCable's Power Efficiencies gain [5 - 55.15]% increased potency.\nWhile the Opponent has an Endurance effect, Stun Debuffs on them cannot have their duration reduced.",
+    "immunityDetails": "• %100 Zehir direnci 🧪\n• Kanama hasarının %100'ünü geri kazanır 🩸",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Cable gains 100% Poison Resistance.",
+                "Cable has a 100% chance to gain a 12% Power Efficiency Passive over 10 seconds each time he fills a bar of power. Max Stacks 2.",
+                "Each time he fills a Bar of Power, Cable has a 25% chance to gain a Regeneration Passive, healing 20% of missing Health over 10 seconds.",
+                "When Cable is inflicted with a Bleed effect, he attempts to go back in time and heal himself. If he triggered a personal Regeneration the last time he crossed a Bar of Power, he gains another."
+            ]
+        },
+        {
+            "title": "Degeneration",
+            "content": [
+                "100% Chance on Cable's Heavy to inflict non-#Robot Opponents with a Degeneration Debuff, dealing [21,149.1] Direct Damage over 20 seconds. Max Stacks 8.",
+                "When he's inflicted with a Bleed effect, Cable inflicts this Degeneration on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit inflicts a 5% Daunted Passive for 25 seconds. These can be inflicted through Block."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit of this attack inflicts an Incinerate Debuff, dealing [20,142] Energy Damage over 45 seconds.",
+                "While this Incinerate is active, this Special Attack is disabled. Cable's Degenerations are paused during his Special Attacks activated while this Incinerate is active.",
+                "While Cable is suffering from his own Power Lock, This Special Attack is Unblockable."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Cable unleashes more of his Mutant power than he should, gaining a non-stacking 40% Power Efficiency Passive for 16 seconds, but suffering from a Power Lock Passive while it's active as his Techo-Organic Virus roams unchecked."
+            ]
+        },
+        {
+            "title": "Signature Ability - Techno Organic Virus Suppression",
+            "content": [
+                "Cable's Power Efficiencies gain [5 - 55.15]% increased potency.",
+                "While the Opponent has an Endurance effect, Stun Debuffs on them cannot have their duration reduced."
+            ]
+        }
+    ]
 }

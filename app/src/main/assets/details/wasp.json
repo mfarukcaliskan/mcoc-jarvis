@@ -15,5 +15,53 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kaçışını isabetli saldırı veya yetenek azaltmayla önle. Ağır saldırıya zorlamak da kaçışını cooldown'a sokar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Wasp Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Quantum Evade\nWhen attacked Wasp gains an additional 25% chance to Purify, then Evade and Counter Attack. Additionally, the duration that Counter Attack is disabled after shrinking is reduced by [25 - 65]%.",
+    "abilitySections": [
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "When Wasp charges a Heavy Attack while hitting with a Basic Attack Combo, the opponent loses sight of her and passively gets Stunned for 0.6 seconds.",
+                "Inflicts Weakness for 10 seconds if this attack was chained while hitting with a Basic Attack Combo, reducing the opponent's Attack Rating by 30%."
+            ]
+        },
+        {
+            "title": "Evasion - Passive",
+            "content": [
+                "When attacked Wasp has a 8% chance Purify all Degeneration, Poison, Shock, Incinerate and Coldsnap Debuffs then Passively shrink to Evade. Any time Wasp successfully Evades an attack she Counter Attacks, inflicting a Shock Debuff dealing [4,735] Energy Damage over 8 seconds."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Whenever Wasp shrinks down, her next 2 hits will be critical, with +[2,130.75] Attack Rating for each Debuff active on the opponent. Additionally, Counter Attack is disabled for 10 seconds.",
+                "When Wasp has Class Advantage, all of her abilities that are based on the Combo Meter receive an additional bonus equivalent to 40 more hits on her Combo Meter."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "40% chance to Stun for 2 second(s).",
+                "Concussion, reducing the opponent's Ability Accuracy by 1% for each hit on her Combo Meter for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Stings the opponent for 6 seconds. An opponent with sting takes [3,788] damage when activating a special attack.",
+                "After lasting its full duration Sting will convert into a Petrify Debuff of 1.75% Potency per hit on Wasp's Combo Meter, lasting 12 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "+[236.75] Attack Rating for each hit on her Combo Meter."
+            ]
+        },
+        {
+            "title": "Signature Ability - Quantum Evade",
+            "content": [
+                "When attacked Wasp gains an additional 25% chance to Purify, then Evade and Counter Attack. Additionally, the duration that Counter Attack is disabled after shrinking is reduced by [25 - 65]%."
+            ]
+        }
+    ]
 }

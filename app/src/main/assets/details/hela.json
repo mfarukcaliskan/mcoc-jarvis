@@ -10,5 +10,53 @@
     "synergies": [],
     "howToPlay": "Hela için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hela Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Goddess of Death\nAt the start of the fight each Champion on Hela's team that is knocked out grants her +[15 - 40] Spirits.\nThe first time Hela would be knocked out in each fight, she gains an Indestructible Buff that lasts for [3 - 7] seconds.",
+    "abilitySections": [
+        {
+            "title": "Spirits of the Dead - Passive",
+            "content": [
+                "Hela controls the Spirits of the Dead, using them to power her Fury Buffs, giving them infinite duration, as long as she has Spirits.",
+                "Each Fury Buff active on her drains her Spirits over time, but each strike of her summoned swords empowers them.",
+                "If her Spirits are exhausted her Fury Buffs begin to expire 1 at a time."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "While charging her Heavy Attack, Hela continually gains Fury Buffs granting +[2,040.5] Attack."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "After taking more than 8% of her Base Health in damage from a single strike, Hela gains a Buff granting +[750] Physical Resistance, that lasts until she is struck by a Heavy Attack.",
+                "This attack does not stack, instead if triggered multiple times, its effect increases by +[750]."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to trigger a Fury Buff granting +[2,040.5] Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack places an Armor Break on the Opponent reducing their Armor by [964.29] for each Fury currently active, lasting for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack deals bonus Physical Damage up to 7% of the Target's missing health, based on the number of Fury Buffs active on Hela. Max Damage at: 5"
+            ]
+        },
+        {
+            "title": "Signature Ability - Goddess of Death",
+            "content": [
+                "At the start of the fight each Champion on Hela's team that is knocked out grants her +[15 - 40] Spirits.",
+                "The first time Hela would be knocked out in each fight, she gains an Indestructible Buff that lasts for [3 - 7] seconds."
+            ]
+        }
+    ]
 }

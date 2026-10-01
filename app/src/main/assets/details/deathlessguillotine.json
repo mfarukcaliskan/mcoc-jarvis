@@ -9,5 +9,38 @@
     "synergies": [],
     "howToPlay": "Guillotine (Deathless) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Guillotine (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Ancestor's Strength\nThe Souls of her ancestors empower Guillotine further, granting a 10% chance to steal [20 - 55]% of damage done as Health for every 4 Souls she possesses. Minimum [20 - 55]% Health Steal regardless of current Soul count.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Start each fight with 4 Souls. Each Soul grants Guillotine +[85.05] Critical Damage Rating. 1 Soul expires every 10 seconds. Souls are treated as Cruelty Passives for all other abilities.",
+                "For every 5% of Max Health that Guillotine removes from her Opponent during combat, she feeds her ancestral blade and gains 1 Soul."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "If the hit was not Blocked, inflict a Degeneration Debuff, dealing [15,521.73] Direct Damage over 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a 200% Spectre Debuff for 10 seconds, then consumes 2 Souls."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "La Fleur du Mal deals 2% of the Opponent's Max Health in Direct Damage per Soul. After this attack, 50% of Guillotine's Souls are consumed, rounded down."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ancestor's Strength",
+            "content": [
+                "The Souls of her ancestors empower Guillotine further, granting a 10% chance to steal [20 - 55]% of damage done as Health for every 4 Souls she possesses. Minimum [20 - 55]% Health Steal regardless of current Soul count."
+            ]
+        }
+    ]
 }

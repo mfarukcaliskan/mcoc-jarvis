@@ -13,6 +13,84 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Fiziksel ve enerji hasarına, degeneration'a çok dirençli — pasif güç kazanan şampiyon kullanma (dirençlerini hızlandırır). Zırh kıran ve fury'li şampiyonlar en iyisi. Zehire karşı tamamen savunmasız.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Count Nefaria Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• %90 Şok direnci ⚡️\n• %90 Yakma direnci 🔥\n• Güç Çalma Bağışıklığı 🔋🔽\n• %90 Dejenerasyon direnci (100 İyonik yükle) ☠️\n• %76 Yırtılma direnci (100 İyonik yükle) ☣️"
+    "signatureAbility": "Ionic Recharge\nDuring Ionic Overcharge, Passively Regenerate [10 - 80]% of the Health denied to the Opponent due to any reduced Regeneration Rate. Each tick of this healing cannot exceed [256.31] Health, scaling with Base Health.\nWhen the Opponent gains [180 - 20]% of a Bar of Power from a Passive or Buff within 0.5 seconds, instantly gain 50 Ionic Charges. Then activate Ionic Overcharge.\nThis also triggers when they gain [32 - 8]% of their Max Health for any reason within 0.5 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• %90 Şok direnci ⚡️\n• %90 Yakma direnci 🔥\n• Güç Çalma Bağışıklığı 🔋🔽\n• %90 Dejenerasyon direnci (100 İyonik yükle) ☠️\n• %76 Yırtılma direnci (100 İyonik yükle) ☣️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Count Nefaria's body is composed of Ionic Energy, granting Immunity to Power Steal and Bleed effects, and 90% Shock and Incinerate Resistance."
+            ]
+        },
+        {
+            "title": "Energy Build Up",
+            "content": [
+                "Whenever the Opponent fills a Bar of Power, they gain 15 Stored Energy.",
+                "For every 1% of the Opponent's Max Health or Power they would gain from a Buff or Passive, they gain 2 Stored Energy. This is unaffected by reduced Regeneration or Ability Power Rates.",
+                "Every 10 Stored Energy is automatically converted into an indefinite Energy Build Up Debuff."
+            ]
+        },
+        {
+            "title": "Well-Timed Blocks - Evade",
+            "content": [
+                "When Count Nefaria would Block a Basic Attack or the final hit of a Special Attack with or just after a Well-Timed Block, he has a 100% chance to Evade instead.",
+                "This Evade has a cooldown of 11 seconds, but the cooldown is ignored for Evading Special Attacks.",
+                "When Evading, Count Nefaria Counter Attacks. On hit this deals a burst of [2,551.8] Energy Damage and inflicts 2 Energy Build Ups.",
+                "If the Opponent's Special Attack is punished after Evading it, inflict a [2,750] Energy Vulnerability Debuff for 18 seconds."
+            ]
+        },
+        {
+            "title": "Ionic Charges",
+            "content": [
+                "Gain 10 Ionic Charges when performing a Well-Timed Block.",
+                "Lose 20 Ionic Charges when Count Nefaria would be inflicted with a Bleed effect while fighting a non-Mystic Champion.",
+                "Ionic Charges grant up to +[9,356.6] Attack Rating, maxing out at 100 Charges.",
+                "They also grant up to +[6,416.67] Physical and Energy Resistance and 90% Degeneration Resistance, maxing out at 100 Charges."
+            ]
+        },
+        {
+            "title": "Ionic Overcharge",
+            "content": [
+                "At 100 Ionic Charges, activate Ionic Overcharge for 17 seconds. It is paused during Count Nefaria's Special Attacks. Lose 100 Charges when it expires.",
+                "During Ionic Overcharge, all of Count Nefaria's attacks are non-contact and deal Energy Damage instead of Physical.",
+                "Additionally, the Opponent's Regeneration and Ability Power Rates are reduced by 95%, and when they gain Ability Power he gains 60% of the Power denied this way."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "The first hit of any Special Attack deals a burst of [5,103.6] Energy Damage if it is the first or second hit after Count Nefaria's Counter-Attack hit."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final 4 hits each devour 2 Energy Build Ups. This can trigger through Block and is unaffected by Ability Accuracy.",
+                "Each devoured Energy Build Up grants 16 Ionic Charges, 2% of his missing Health, and 9% of a Bar of Power."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a +[1,020.72] Fury Passive per 10 Ionic Charges, each lasting 16 seconds. Max stacks: 15.",
+                "The final hit inflicts an Incinerate Debuff, dealing [11,057.8] Energy Damage over 6 seconds.",
+                "Against Mystic Champions, inflict a Plasma Debuff instead."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain 50 Ionic Charges, then activate Ionic Overcharge.",
+                "Pause Ionic Overcharge for 10 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ionic Recharge",
+            "content": [
+                "During Ionic Overcharge, Passively Regenerate [10 - 80]% of the Health denied to the Opponent due to any reduced Regeneration Rate. Each tick of this healing cannot exceed [256.31] Health, scaling with Base Health.",
+                "When the Opponent gains [180 - 20]% of a Bar of Power from a Passive or Buff within 0.5 seconds, instantly gain 50 Ionic Charges. Then activate Ionic Overcharge.",
+                "This also triggers when they gain [32 - 8]% of their Max Health for any reason within 0.5 seconds."
+            ]
+        }
+    ]
 }

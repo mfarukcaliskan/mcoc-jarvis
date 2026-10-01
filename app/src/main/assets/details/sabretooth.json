@@ -9,6 +9,71 @@
     "synergies": [],
     "howToPlay": "Sabretooth için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sabretooth Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊"
+    "signatureAbility": "Untamed Heart\nWhen struck or when blocking a Critical Hit, Sabretooth gains a Regeneration Passive, healing [25- 70]% of the damage taken from the hit over 25 seconds. These Regenerations are removed and new ones cannot be granted is Sabretooth is Heal Blocked.\nFury and Regeneration effects receive a permanent +[70 - 120]% flat Ability Accuracy.\nIf Sabretooth does not hit or get struck by the opponent for more than 5 seconds, he starts losing Regeneration stacks over time.",
+    "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Sabretooth can withstand incredibly cold temperatures, providing him Immunity to Cold Damage like Coldsnap and Frostbite.",
+                "Sabretooth does not let his prey go easily. Stun Debuffs on the Opponent cannot have their duration reduced."
+            ]
+        },
+        {
+            "title": "Persistent Charge",
+            "content": [
+                "At the start of the fight, if Sabretooth has 0 Persistent Charges, he will randomly receive between 3 and 6 Persistent Charges.",
+                "At the start of the fight, if Sabretooth has a Persistent Charge, he consumes one, re-activating up to 30 of his Fury effects that were active at the end of his last fight as permanent Passive Fury effects."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "Every 10 hits on Sabretooth's or 5 hits on the opponent's Combo Meters, Sabretooth gains a Fury. Against Skill Champions, Sabretooth also inflicts an Armor Break if he is attacking, reducing the opponents Armor Rating by [687.5] for 10 seconds.",
+                "Fury increases Attack Rating by [2,273.25] for 6 seconds.",
+                "Sabretooth lives for the thrill of the kill and starts each fight in Battlegrounds with 5 Passive versions of this Fury."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Dodging back and allowing Sabretooth to idle for 1.40 second allows him to convert a temporary Fury Buff into a permanent passive effect.",
+                "Sabretooth can convert a maximum of 5 permanent Fury passives in a fight. Fury effects from previous fights do not count towards this limitation.",
+                "Sabretooth cannot convert his passive Fury effects while fighting if he has 15 or more permanent passive Fury effects active.",
+                "Once Sabretooth has conveted the maximum number of Fury Passives during a fight, the Fury Buff from his Combo Gain gains 200% increased duration and 50% increased potency."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "80% chance to inflict Bleed, dealing [7,274.4] Direct Damage over 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation and on the final hit, converts personal Fury Buffs into a permanent Passive Fury effect."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Activates a Fury effect and immediately converts it to a Passive effect, increasing Attack Rating by [1,363.95] permanently."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gains a Fury Buff, increasing Attack Rating by [4,091.85] for 2 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Untamed Heart",
+            "content": [
+                "When struck or when blocking a Critical Hit, Sabretooth gains a Regeneration Passive, healing [25- 70]% of the damage taken from the hit over 25 seconds. These Regenerations are removed and new ones cannot be granted is Sabretooth is Heal Blocked.",
+                "Fury and Regeneration effects receive a permanent +[70 - 120]% flat Ability Accuracy.",
+                "If Sabretooth does not hit or get struck by the opponent for more than 5 seconds, he starts losing Regeneration stacks over time."
+            ]
+        }
+    ]
 }

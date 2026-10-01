@@ -10,5 +10,51 @@
     "synergies": [],
     "howToPlay": "Moon Knight için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Moon Knight Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Synodic Tide\nEither Combat Power Rate is enhanced by up to [10 - 33]%, or enemies suffer [10 - 33]% reduced Combat Power Rate. This cycles every 6 hours.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Withheld from Death herself by the Egyptian Moon-god Khonshu, Marc Spector's power ebbs and flows based on the phase of the Moon."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "As the Moon waxes, boost Critical Rating by [1,108.21] for 3 seconds with up to a 8% chance. The chance increases nearer to the Full Moon.",
+                "As the Moon wanes, gain [1,767.15] Fury for 5 seconds with up to a 10% chance. The chance increases nearer to the New Moon."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "Under the light of the Full Moon, Critical Hits have a 15% chance to Stun for 3 seconds.",
+                "Critical Hits lacerate opponents with a 70% chance, inflicting [2,159.85] Bleed damage over 3 seconds."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "In the darkness of a New Moon, evade attacks with a 5% chance."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack receives [562.5] additional Critical Rating."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Any Bleed effects triggered by this attack have 50% increased duration."
+            ]
+        },
+        {
+            "title": "Signature Ability - Synodic Tide",
+            "content": [
+                "Either Combat Power Rate is enhanced by up to [10 - 33]%, or enemies suffer [10 - 33]% reduced Combat Power Rate. This cycles every 6 hours."
+            ]
+        }
+    ]
 }

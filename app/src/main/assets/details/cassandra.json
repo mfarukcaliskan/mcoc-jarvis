@@ -15,5 +15,90 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Ağır saldırısını temel vuruşla kesmeye çalışırsan pasif sersemlersin; özel saldırılarını siperle (yoksa bloktan nörşok alırsın). Nörşoku 3 yolla önle: immün/dirençli şampiyon (The Maker immün; Jack O'Lantern, Bastion azaltır), yüksek enerji direnci (Guardian x200, Solvarch), veya Tech şampiyonla ona şok uygulamak (bloktan nörşok yeteneğini kapatır).",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cassandra Nova Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Mummudrai\nWhen Cassandra would inflict a personal Neuroshock, she deals a burst of [519.5 - 2,111.31] Energy Damage that scales with Base Attack only.\nWhile Channeling, reduce incoming damage from non-Special Attack 3 hits by [20 - 45]%, doubled while fighting Skill Champions.\nWhen inflicted with Bleed, refresh Cassandra's 3 oldest personal Regeneration Passives.",
+    "abilitySections": [
+        {
+            "title": "Anti-Self - Always Active",
+            "content": [
+                "Cassandra's first Medium Attack is the only Basic Attack that makes contact with the Opponent. All of her attacks deal Energy Damage, and her Heavy Attack can be charged for 3 seconds.",
+                "When the Opponent gains a Bar of Power, Cassandra inflicts a Fear Passive for 12 seconds."
+            ]
+        },
+        {
+            "title": "Stop Right There - Stun Effects",
+            "content": [
+                "Just before being struck by a Basic Attack while charging or performing a Heavy Attack, Cassandra inflicts a Stun Passive for 0.5 seconds that is paused until the final hit of her Heavy Attack.",
+                "When this Stun ends or when Cassandra is knocked down by a Heavy Attack, this Stun goes on cooldown for 10 seconds. This cooldown will not re-trigger while already active.",
+                "The duration of personal Stuns and the Stun from the Parry Mastery cannot be reduced. If the Stun from the Parry Mastery is Purified or Cleansed, Cassandra's Stun cooldown is removed."
+            ]
+        },
+        {
+            "title": "Genetic Manipulation - Against Skill Champions",
+            "content": [
+                "The Opponent's maximum Regeneration Rate is always equal to their percentage of remaining Health, and their Disorient Ability Accuracy is reduced by 100%.",
+                "When an Opponent with a Regeneration effect is Neuroshocked, inflict a non-stacking Marked Passive for 10 seconds, paused while Channeling and during Cassandra's Special Attacks."
+            ]
+        },
+        {
+            "title": "Daunted Passives - Max: 25",
+            "content": [
+                "Personal 9% Daunted Passives last 15 seconds. These are paused while Channeling, during Cassandra's Special Attacks, and while the Opponent is Blocking.",
+                "On hit or Block, the first landed hit of a Heavy Attack consumes up to 50 hits from the Opponent's Combo Meter to inflict 1 Daunted for every 2 hits consumed.",
+                "If Cassandra is struck while 12+ personal Daunteds are inflicted, or struck while she is suffering from Shock against a Tech Champion, 3 personal Daunteds are removed."
+            ]
+        },
+        {
+            "title": "Channeling",
+            "content": [
+                "While charging a Heavy Attack and at the end of her Special Attacks 1 and 2, Cassandra Channels for up to 3 seconds. As a Defender, she also Channels during her Special Attacks 1 and 2.",
+                "Channeling increases the Opponent's aggression and inflicts 1 personal Daunted every 0.5 seconds. If struck while Channeling, 50% of Daunteds inflicted since it started are removed.",
+                "While Channeling, releasing a Heavy Attack or activating Special Attack 1 or 2 extends Channeling until the final hit is performed.",
+                "While Channeling at the end of a Special Attack 1 or 2, charging a Heavy Attack restarts Channeling and refreshes all personal Daunteds.",
+                "Channeling ends if Cassandra stops charging a Heavy Attack or recovering from Special Attacks 1 or 2 for any other reason."
+            ]
+        },
+        {
+            "title": "Neuroshock Passives - Max: 15",
+            "content": [
+                "Personal Neuroshock Passives deal [2,639.75] Energy Damage over 5 seconds, are paused while Channeling or during Cassandra's Special Attacks, and scale with Base Attack only.",
+                "While Cassandra is suffering from Shock against a Tech Champion, personal Neuroshocks cannot be inflicted through Block."
+            ]
+        },
+        {
+            "title": "Psionic Entity - With 12+ Personal Daunteds Inflicted",
+            "content": [
+                "Basic Attacks inflict 1 personal Neuroshock Passive. As a Defender, these can be inflicted through non-Well-Timed Blocks.",
+                "Performing the first hit of Special Attacks 1 or 2 Passively Roots the Opponent for 3 seconds. This Root is paused until the final hit, and removed if the hit is Well-Timed Blocked or Dodged."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Silence",
+            "content": [
+                "On activation, gain a Regeneration Passive healing 20% of missing Health over 20 seconds. Max stacks: 5. While active, Cassandra's Regeneration Rate cannot be reduced below 0%.",
+                "The first and final hits inflict 1 personal Neuroshock. These can be inflicted through non-Well-Timed Blocks."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Extinction",
+            "content": [
+                "Each hit that strikes the Opponent or a non-Well-Timed Block inflicts 1 personal Neuroshock. If 2 or more consecutive hits are Well-Timed Blocked or Dodged, remove 1 personal Neuroshock.",
+                "When the Opponent or a non-Well-Timed Block has been struck 3 times, inflict a Reversed Controls Passive for 3 seconds, paused until the final hit of this attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - I'm Done With You Now",
+            "content": [
+                "Cassandra consumes all personal Daunteds, and deals a burst of [52,795] Energy Damage with its base potency increased by +20% flat for each Daunted consumed.",
+                "All personal Daunteds are paused for 30 seconds, or until either Champion activates a Special Attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - Mummudrai",
+            "content": [
+                "When Cassandra would inflict a personal Neuroshock, she deals a burst of [519.5 - 2,111.31] Energy Damage that scales with Base Attack only.",
+                "While Channeling, reduce incoming damage from non-Special Attack 3 hits by [20 - 45]%, doubled while fighting Skill Champions.",
+                "When inflicted with Bleed, refresh Cassandra's 3 oldest personal Regeneration Passives."
+            ]
+        }
+    ]
 }

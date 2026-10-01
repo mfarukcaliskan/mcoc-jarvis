@@ -14,5 +14,74 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Hasar efektli şampiyonlar (yakma, şok, rupture vb.) en kolay yol. Güç kontrolü olanlar da iyi. E2'si bloğu çok yer, onu E1'de tutmak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Northstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Aerodynamic\nWhenever Northstar would gain Momentum, gain a +[124.95 - 6,416.67] Physical Resistance Passive for 6 seconds. Duration is increased by +3 seconds per Momentum. Max stacks: 1.\nWhile a Physical Resistance effect is active, gain a Reinforce Passive, and incoming hits have [5 - 60]% reduced Block Penetration.",
+    "abilitySections": [
+        {
+            "title": "Speed Burst",
+            "content": [
+                "Speed Burst starts the fight on cooldown for 24 seconds.",
+                "When the cooldown expires, activating a Special Attack during or after a Dash, Dash Attack, or after Punishing a Heavy or Special Attack activates Speed Burst for 12 seconds. Then it goes on cooldown again.",
+                "While Speed Burst is active, Northstar's Special Attack costs are reduced by 25%.",
+                "Speed Burst is paused while Northstar is using a Dash, Medium Attack, Striker, or during either Champion's Special Attacks.",
+                "As a Defender, Speed Burst activates immediately when the cooldown expires."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "Light Attack Hits have a 30% to 10% chance to grant a Reverb Charge, scaling down with how many Charges he has.",
+                "Medium Attack Hits cause the cooldown for Speed Burst to briefly expire faster.",
+                "Against Skill Champions, the first hit of the second Medium Attack inflicts or refreshes a non-stacking Armor Break Debuff, lowering Armor Rating by [239.13] for 12 seconds.",
+                "While that Armor Break is active, the Opponent's Critical Resistance is lowered by 80%. If it is Purified, Northstar gains 1 Reverb Charge."
+            ]
+        },
+        {
+            "title": "Momentum",
+            "content": [
+                "Activating a Special Attack grants 1 indefinite Momentum per level of the Special Attack. When a Skill Opponent Evades, gain 1 Momentum.",
+                "The cooldown for Speed Burst is reduced by 3 seconds per Momentum.",
+                "As an Attacker with at least…",
+                "2 Momentum: Become Passively Unstoppable while performing a Dash or Dash Attack.",
+                "6 Momentum: If the first or second hits of a Special Attack hit the Opponent's Block, become Passively Unblockable for 0.75 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "On activation, 100% chance to gain a 12% Prowess Buff per Momentum for 10 seconds. Max stacks: 30.",
+                "All Special Attack hits have a +5% chance per Momentum to grant an additional Prowess.",
+                "All Special Attack hits gain +[1,178.57] Critical Rating during Speed Burst."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a Slow Passive for 10 seconds. Duration is increased by +4 seconds per Momentum.",
+                "Each hit has a 15% chance to pause personal Prowess and Reverb effects for 2 seconds. These pauses can stack, and expire one at a time.",
+                "Independently, if the hit was Critical, 100% chance to grant an additional pause."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit converts one Reverb Charge into a 12% Reverb Passive for 14 seconds. Max stacks: 25.",
+                "If the hit was Critical, gain 2 Reverb Passives instead.",
+                "Independently, if Speed Burst is active, converting a Reverb Charge has a 20% chance to grant an additional Reverb."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain 8 Reverb Charges.",
+                "Once per fight, Northstar's chance to trigger Prowess, Reverb, Reverb Charges, and pause effects is permanently increased by 200%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Aerodynamic",
+            "content": [
+                "Whenever Northstar would gain Momentum, gain a +[124.95 - 6,416.67] Physical Resistance Passive for 6 seconds. Duration is increased by +3 seconds per Momentum. Max stacks: 1.",
+                "While a Physical Resistance effect is active, gain a Reinforce Passive, and incoming hits have [5 - 60]% reduced Block Penetration."
+            ]
+        }
+    ]
 }

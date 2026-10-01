@@ -14,6 +14,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): E1 ve E2 kullanma — özel saldırıları otomatik bloklar. Koşarken engellenemez olur, dikkat et. E1 bazen engellenemez olup sersemletebilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Shocker Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Sarsıntı Bağışıklığı 🧠🔽"
+    "signatureAbility": "Percussive Kickback\nWhenever Shocker is Stunned or the Opponent gains a Prowess, gain 3 Vibro-Shock Charges.\nShocker's first Special Attack 1 in each fight costs [10 - 100]% less Power.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Sarsıntı Bağışıklığı 🧠🔽",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Shocker's custom padded suit grants him Immunity to Shock effects and Concussion Debuffs, and reduces the duration of incoming Stuns by 50%.",
+                "If the Opponent has the Limber Mastery active, it is removed.",
+                "Shocker cannot land Critical Hits, but all his attacks reduce the Opponent's Armor Rating by his Critical Rating."
+            ]
+        },
+        {
+            "title": "Vibro-Shock Charges - Max: 100",
+            "content": [
+                "Landing or being struck by a Light or Medium Attack grants 1 indefinite Vibro-Shock Charge.",
+                "At 50+ Vibro-Shock Charges, while Dashing forwards Shocker is Passively Unblockable. If this Dash Attack breaks the Opponent's Block, this effect goes on cooldown for 30 seconds.",
+                "If Shocker is struck while Unblockable, remove 50 Vibro-Shock Charges."
+            ]
+        },
+        {
+            "title": "Auto-Block",
+            "content": [
+                "At 50+ Vibro-Shock Charges, if Shocker would be struck by a Special Attack, consume 25 Charges to Auto-Block the rest of the attack."
+            ]
+        },
+        {
+            "title": "Medium Attacks",
+            "content": [
+                "+2% chance per Vibro-Shock Charge to Invalidate an Opponent's Prowess. Max: 100%.",
+                "+0.5% chance per Vibro-Shock Charge to inflict a Stun Debuff for 0.8 seconds. Max: 25%."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Charging a Heavy Attack consumes a Vibro-Shock Charge every 0.05 seconds and can be charged until all Vibro-Shock Charges are consumed.",
+                "The final hit gains +[10,168] Attack Rating per Vibro-Shock Charge consumed. This scales with Base Attack but benefits from Class Advantage."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "+1% chance per Vibro-Shock Charge to inflict a Stun Debuff for 3 seconds. Cooldown: 10 seconds.",
+                "At 50+ Vibro-Shock Charges, this attack is Passively Unblockable.",
+                "At the end of this attack, gain 30 Vibro-Shock Charges."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a [1,178.57] Physical Vulnerability Passive and a Stun Passive for 5 seconds, plus 0.05 seconds per Vibro-Shock Charge.",
+                "These effects are not affected by Ability Accuracy and are removed once the Opponent is struck 3 times."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a 100% Energize Passive until the next time Shocker reaches 2 Bars of Power.",
+                "While this Energize is active, Vibro-Shock Charge max is increased to 150."
+            ]
+        },
+        {
+            "title": "Signature Ability - Percussive Kickback",
+            "content": [
+                "Whenever Shocker is Stunned or the Opponent gains a Prowess, gain 3 Vibro-Shock Charges.",
+                "Shocker's first Special Attack 1 in each fight costs [10 - 100]% less Power."
+            ]
+        }
+    ]
 }

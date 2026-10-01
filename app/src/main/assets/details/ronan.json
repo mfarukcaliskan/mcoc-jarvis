@@ -11,6 +11,60 @@
     "synergies": [],
     "howToPlay": "Ronan için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ronan Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Edict\nThe Supreme Accuser judges the target, punishing them for their use of Buff effects with [594.75 - 2,377.89] increased Attack per active Buff effect.\nRonan's Stun Debuffs also gain a [0.25 - 0.65] second(s) duration increase for each Buff the opponent has.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "9% chance to gain a Fury Buff for 4.5 seconds, granting +[991.25] Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to Stun for 2.6 second(s).",
+                "This attack deals True Damage, ignoring all of the opponent's Armor."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to Stun for 2.6 second(s).",
+                "Attack increases by [198.25] for each Buff effect on the target.",
+                "This attack deals True Damage, ignoring all of the opponent's Armor."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to Stun for 2.6 second(s)."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Striking with his Universal Weapon, Ronan cuts through enemy Armor, converting Armor Up into Armor Break and reducing enemy Armor Rating by [672.08]."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Ronan's advanced tactical mind turns enemy rage upon itself, converting Fury Buffs into Weakness Debuffs, reducing enemy Attack by 44%."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Advanced Kree physiology provides full immunity to the Poisons of the Battlerealm."
+            ]
+        },
+        {
+            "title": "Signature Ability - Edict",
+            "content": [
+                "The Supreme Accuser judges the target, punishing them for their use of Buff effects with [594.75 - 2,377.89] increased Attack per active Buff effect.",
+                "Ronan's Stun Debuffs also gain a [0.25 - 0.65] second(s) duration increase for each Buff the opponent has."
+            ]
+        }
+    ]
 }

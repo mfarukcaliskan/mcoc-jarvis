@@ -11,6 +11,58 @@
     "synergies": [],
     "howToPlay": "Vision (Deathless) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Vision (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊\n• Kontrolleri Tersine Çevirme Bağışıklığı (ile sinerji: Thanos (Deathless)) 🧠"
+    "signatureAbility": "Phase Shift\nWhile an Opponent is suffering from Heal Block, Deathless Vision gains +[888.88 - 2,554.86] Attack Rating.\nFor every 4% of the Opponent's Max Health prevented by Heal Block, inflict an instant Degeneration dealing a burst of [1,532.55 - 3,575.96] Direct Damage.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊\n• Kontrolleri Tersine Çevirme Bağışıklığı (ile sinerji: Thanos (Deathless)) 🧠",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "The process of becoming Deathless has altered Vision, encrypting his complex robotics in darkness, providing full Immunity to Poison, Bleed, Coldsnap and Frostbite effects."
+            ]
+        },
+        {
+            "title": "Phasing",
+            "content": [
+                "If Deathless Vision's Special Attacks reduce the Opponent's Power below any full Bar, gain 1 Phase Charge. Max stacks: 5.",
+                "When Deathless Vision would perform a Well-Timed Block, convert 1 Phase Charge into a Phase Passive for 2 seconds, causing incoming attacks to have a 100% chance to Miss. Phase Charges cannot be converted while already Phasing.",
+                "While Phased, Deathless Vision is Immune to incoming Stun effects.",
+                "While Phased, hits grant a +[1,328.21] Fury Passive for 22 seconds. Max stacks: 10.",
+                "When an attack Misses Deathless Vision, pause all Fury effects for 8 seconds.",
+                "If activated during an Opponent's Special Attack, gain an additional Fury Passive."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Special Attack hits grant no Power to the Opponent.",
+                "If a Special Attack or effect generates a Phase Charge, inflict a Heal Block Passive for 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Burns up to 40% of a Bar of Power, dealing Direct Damage proportionate to the amount lost."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Burns up to 135% of a Bar of Power, dealing Direct Damage proportionate to the amount lost."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Burns up to 200% of a Bar of Power, dealing Direct Damage proportionate to the amount lost.",
+                "Gain a Phase Charge."
+            ]
+        },
+        {
+            "title": "Signature Ability - Phase Shift",
+            "content": [
+                "While an Opponent is suffering from Heal Block, Deathless Vision gains +[888.88 - 2,554.86] Attack Rating.",
+                "For every 4% of the Opponent's Max Health prevented by Heal Block, inflict an instant Degeneration dealing a burst of [1,532.55 - 3,575.96] Direct Damage."
+            ]
+        }
+    ]
 }

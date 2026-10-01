@@ -8,6 +8,51 @@
     "synergies": [],
     "howToPlay": "Ms. Marvel (Kamala Khan) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ms. Marvel (Kamala Khan) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Morphogenetics\nMs. Marvel starts to figure out this whole Contest thing, increasing her Fury durations by [2 - 8] seconds and increasing the Potency of her Fury effects by 10%.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "As the inexperienced Ms. Marvel gets to know her opponent's fighting style, she better learns to alter her size and avoid incoming damage, increasing Block Proficiency by [143.62] for each Fury effect she has active.",
+                "An enhanced immune system provides full Immunity to Poison."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "While Ms. Marvel has 3 or more stacks of Fury, her Special Attacks Nullify 2 stacks of her opponent's Buffs."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "While charging her Heavy Attack, Ms. Marvel continually gains stacks of Fury to a max of 3, each increasing her Attack by [873.18] for 10 seconds. These stacks are lost as she is struck during combat."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack triggers up to 4 stacks of Fury, each increasing Attack by [665.28] for 9 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to gain a Fury Buff for 10 seconds, granting +[1,580.04] Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack has a 90% chance to grant a permanent Fury effect, increasing Attack by [1,580.04]."
+            ]
+        },
+        {
+            "title": "Signature Ability - Morphogenetics",
+            "content": [
+                "Ms. Marvel starts to figure out this whole Contest thing, increasing her Fury durations by [2 - 8] seconds and increasing the Potency of her Fury effects by 10%."
+            ]
+        }
+    ]
 }

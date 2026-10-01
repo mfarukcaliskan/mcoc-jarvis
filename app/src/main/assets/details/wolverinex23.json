@@ -15,6 +15,74 @@
     "synergies": [],
     "howToPlay": "Wolverine (X-23) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Wolverine (X-23) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• İyileşme Tersine Çevirmeye dirençli 💚🔄❌\n• Kanama süresini %90 azaltır 🩸⏰\n• Zehir süresini %60 azaltır 🧪⏰"
+    "signatureAbility": "More Than Just an Animal\nWhile a Skill Opponent is suffering from 8 or more personal Bleed or Rupture effects, performing Special Attacks or activating Eviscerating Stun inflicts a Marked Passive for 5 seconds.\nWhen Laura is inflicted with a Bleed effect, she has a [35 - 80]% chance to gain a personal Regeneration Passive.\nIncrease personal Vicious potency by [13 - 50]%.",
+    "immunityDetails": "• İyileşme Tersine Çevirmeye dirençli 💚🔄❌\n• Kanama süresini %90 azaltır 🩸⏰\n• Zehir süresini %60 azaltır 🧪⏰",
+    "abilitySections": [
+        {
+            "title": "Born to Kill - Always Active",
+            "content": [
+                "Laura's healing factor prevents her Regeneration Rate from being decreased and lowers the duration of incoming Bleed effects by 90% and Poison effects by 60%. However, her Critical Penetration is reduced by 30% flat.",
+                "Against Skill Champions, Laura's Parry Mastery inflicts a Stun Passive instead, lasting for 1.5 seconds. For each rank invested in the Petrify Mastery, this Stun Passive reduces the Opponent's Regeneration and Combat Power Rates by 10%.",
+                "Performing an Intercept or Punishing the Opponent's Special Attacks grants Laura a Pursuit Passive for 4 seconds, or 8 seconds against Skill Champions. This is paused during Laura's Special Attacks. Hits that grant Pursuit cannot be Evaded.",
+                "The Wolverine Relic grants +[305.56] Critical Rating while Laura has a Regeneration effect active."
+            ]
+        },
+        {
+            "title": "Cellular Regeneration",
+            "content": [
+                "When Laura is struck, she has a 15% chance to gain a Regeneration Passive healing 15% of missing Health over 16 seconds. Max stacks: 2. As a Defender, these heal 3% of missing Health instead.",
+                "After knocking down her Opponent, Laura stands still for 0.8 second, if she does not perform an action before this ends, she will consume 20 Frenzy to gain a personal Regeneration Passive."
+            ]
+        },
+        {
+            "title": "Frenzy",
+            "content": [
+                "Laura builds up Frenzy throughout the fight by performing the following actions:",
+                "Striking the Opponent grants Laura 2 Frenzy. Striking the Opponent with a Pursuit effect active grants 4 Frenzy instead.",
+                "Frenzy rapidly falls off after not gaining Frenzy for 2.6 seconds. It cannot fall off during Special Attacks, while hitting the Opponent's Block, or while Laura's Striker is active.",
+                "Gain up to +[10,345.24] Critical Rating based on Frenzy, maxing at 100 Frenzy."
+            ]
+        },
+        {
+            "title": "Lacerating Critical Hits",
+            "content": [
+                "Laura's Critical Hits lacerate her Opponents, inflicting a [3,332.16] Bleed Passive for 12 seconds. All personal Damaging effects scale with Base Attack only but are affected by Class relationships.",
+                "Against non-Tech Bleed Immune Champions, Laura changes her fighting style to instead inflict Ruptures, copying personal Bleed behavior but with 30% reduced potency."
+            ]
+        },
+        {
+            "title": "Tapping into Instincts",
+            "content": [
+                "As an Attacker, Laura's fourth Light Attack while over 100 Frenzy inflicts an Eviscerating Stun Passive for 3 seconds. For every 10 Frenzy above 100, this duration is increased by 0.2 seconds. All Frenzy is consumed at the end of this Stun.",
+                "During Eviscerating Stun, Laura can rapidly perform Light Attacks. If the Opponent is suffering from a Bleed or Rupture effect, each Light Attack inflicts a matching Instant effect dealing a burst of [187.43] damage for each active matching effect.",
+                "Additionally during Eviscerating Stun, the Opponent is locked in place, Laura cannot activate Strikers or Specials, and her Combat Power Rate is reduced by 75%. Performing any action that is not a Light Attack ends Eviscerating Stun early."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Arterial Strike",
+            "content": [
+                "Personal Bleed, Rupture, and Cruelty effects are paused during this Special Attack and for 5 seconds after."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Triplicate Slash",
+            "content": [
+                "On activation, gain a non-stacking 20% Vicious Passive for 10 seconds, paused during the Opponent's Special Attacks. While active, Critical Hits inflict an additional Bleed Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Eviscerating Offense",
+            "content": [
+                "Consume all Frenzy to grant Laura a +[144.74] Cruelty Passive for every 20 Frenzy consumed for 8 seconds. Max stacks: 12. These expire one at a time."
+            ]
+        },
+        {
+            "title": "Signature Ability - More Than Just an Animal",
+            "content": [
+                "While a Skill Opponent is suffering from 8 or more personal Bleed or Rupture effects, performing Special Attacks or activating Eviscerating Stun inflicts a Marked Passive for 5 seconds.",
+                "When Laura is inflicted with a Bleed effect, she has a [35 - 80]% chance to gain a personal Regeneration Passive.",
+                "Increase personal Vicious potency by [13 - 50]%."
+            ]
+        }
+    ]
 }

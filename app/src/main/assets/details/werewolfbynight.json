@@ -13,6 +13,67 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Pasif güç kazanımı ve korkunç uluma ile gelen durdurulamazlık var. Özel saldırıları ekranı çok kaplar, bloklarsan rupture alırsın. Güç kontrolcüsü ve rupture'a dirençli şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Werewolf By Night Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir süresini %90 azaltır 🧪⏰\n• İyileşme Engeli Bağışıklığı 💚🚫"
+    "signatureAbility": "Russoff Family Legacy\n+[0.1 - 7.5]% personal Regeneration potency for each unique Buff on the Opponent. Max Buffs: 8.\nChilling Howl above 1 Bar of Power: Gain an Unblockable Passive for 3.5 seconds.\nChilling Howl above 2 Bars of Power: Gain an Unstoppable Passive for 3.5 seconds.",
+    "immunityDetails": "• Zehir süresini %90 azaltır 🧪⏰\n• İyileşme Engeli Bağışıklığı 💚🚫",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "-30% Combat Power Rate.",
+                "Werewolf By Night is Immune to Heal Block and incoming Poisons suffer -90% duration, but he has -50% Regeneration rate when fighting against #Silver Champions.",
+                "Medium Attack 1 and Light Attack 4 inflict a Rupture Debuff dealing [9,063.9] Physical Damage over 15 seconds scaling with Base Attack only. This can trigger through Block."
+            ]
+        },
+        {
+            "title": "Chilling Howl",
+            "content": [
+                "As a Defender, Werewolf By Night has a 60% chance to attempt a Chilling Howl after Dodging back or using a Heavy or Special Attack.",
+                "As an Attacker, after Dodging back or using a Heavy or Special Attack, Werewolf By Night stands still for 1.7 seconds, triggering a Chilling Howl. Cooldown: 7 seconds.",
+                "Howling grants a Power Gain Passive granting 8% of Max Power for each missing Bar of Power over 3 seconds. This is removed if Werewolf By Night is struck while Howling.",
+                "Gain a Lycanthropy Charge when attempting to trigger a Chilling Howl or crossing a Bar of Power. When Werewolf By Night gains a Charge while the Opponent is suffering from a Rupture effect, gain an additional Charge. Max: 10.",
+                "Werewolf By Night starts each fight with 3 Lycanthropy Charges during the Full Moon."
+            ]
+        },
+        {
+            "title": "Curse of Lycanthropy",
+            "content": [
+                "Reaching 10 Lycanthropy Charges activates Curse of Lycanthropy for 10 seconds. This ability is paused during Basic Attacks, Striker Attacks, Special Attacks, and while the Opponent is outside of striking distance and has at least 2 unique Buffs.",
+                "Werewolf By Night gains +70% flat Rupture Debuff Ability Accuracy, 70% personal Rupture potency, fights more aggressively and stops attempting to trigger Chilling Howl as a Defender.",
+                "Gain Unblockable and Unstoppable Passives for 2.5 seconds at the end of Heavy and Special Attacks. Cooldown: 10 seconds.",
+                "Gain a Regeneration Passive healing 0.65% of missing Health every 0.5 seconds. Against Cosmic Champions, gain an additional Regeneration when struck by a Special Attack while Dashing forward.",
+                "Remove all Lycanthropy Charges when this ability ends."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit inflicts a Rupture Debuff dealing [9,063.9] Physical Damage over 15 seconds scaling with Base Attack only. 30% chance to inflict a Rupture through Block.",
+                "The first two hits that make contact have a 200% chance to Nullify 1 Regeneration and 1 Precision Buff. If any of these Buffs are Nullified, deal a burst of [6,042.6] Physical Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts a Rupture Debuff dealing [12,085.2] Physical Damage over 6 seconds.",
+                "Each Blocked hit inflicts a Rupture Debuff dealing [9,063.9] Physical Damage over 6 seconds, scaling with Base Attack only.",
+                "Curse of Lycanthropy: The last 3 hits that make contact deal an additional burst of [2,014.2] Physical Damage for each Buff on the Opponent and Lycanthropy Charges. Max Buffs: 7."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Stun Debuff for 1.5 seconds.",
+                "Gain 10 Lycanthropy Charges.",
+                "Curse of Lycanthropy: Inflict a Rupture Passive dealing [33,234.3] Physical Damage over 25 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Russoff Family Legacy",
+            "content": [
+                "+[0.1 - 7.5]% personal Regeneration potency for each unique Buff on the Opponent. Max Buffs: 8.",
+                "Chilling Howl above 1 Bar of Power: Gain an Unblockable Passive for 3.5 seconds.",
+                "Chilling Howl above 2 Bars of Power: Gain an Unstoppable Passive for 3.5 seconds."
+            ]
+        }
+    ]
 }

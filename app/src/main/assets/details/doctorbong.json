@@ -14,6 +14,65 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Combo'yu orta/hafif vuruşla bitirirsen ters çevirme (inversion) uygular ve seni yere serer — kimse buna immün değil, asla combo bitirme. %20 şansla hasar debuff'larını purify eder, pasif efektli şampiyon tercih et.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Doctor Bong Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• İğne (Power Sting) Bağışıklığı 🐝\n• %20 Arındırma 💪🏼"
+    "signatureAbility": "Ask Not For Whom the Bong Tolls\nWhen Doctor Bong would be struck by a Combo-Ending Attack, he executes a Reversal. Cooldown: 15 seconds.\nDoctor Bong's Heavy Proficiency Buff gains [10 - 25]% increased potency.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• İğne (Power Sting) Bağışıklığı 🐝\n• %20 Arındırma 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "The incomparable Doctor Bong is Immune to Nullify and Power Sting.",
+                "As a genius, Doctor Bong fights using his head. Charging a Heavy Attack grants him an Unblockable Buff until the end of his Heavy or Special Attack."
+            ]
+        },
+        {
+            "title": "Purify",
+            "content": [
+                "For each Debuff on him, Doctor Bong has a 20% chance to Purify incoming Debuffs, increased to 50% against non-Damaging Debuffs. Doctor Bong can't Purify Stun Debuffs.",
+                "When Doctor Bong Purifies a Debuff, he gains +5 Combo."
+            ]
+        },
+        {
+            "title": "Guaranteed Critical Hits",
+            "content": [
+                "After Doctor Bong's Combo Meter reaches a multiple of 5, he gains an indefinite Guaranteed Critical Passive.",
+                "When Doctor Bong Critically Hits with a Basic Attack, he loses 1 personal Guaranteed Critical Passive."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Activating a Special Attack grants Doctor Bong a +[11,088] Heavy Proficiency Buff for 30 seconds. This will not re-trigger while active and expires 80% slower during the Opponent's Special Attacks, but expires 10% faster for each active personal Reverb.",
+                "Doctor Bong bongs his bell 3 times in each Special Attack. Each bong grants him an indefinite 8.35% Reverb Buff per level of the Special.",
+                "Gaining these Reverbs restores 5 seconds to Doctor Bong's Heavy Proficiency's duration. Critical Hits restore 3 seconds. When the Heavy Proficiency ends, all personal Reverbs are removed."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - A Bell Is No Bell 'Til You Bong It",
+            "content": [
+                "On activation, inflict a Panic Debuff for 20 seconds. Critical Hits restore 5 seconds to this duration.",
+                "While at 9 or more Reverbs, the final hit inflicts a Stun Debuff for a fixed 1.8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Bong Me Up",
+            "content": [
+                "Each of the 5 hits grants Doctor Bong +5 additional Combo Meter.",
+                "While at 9 or more Reverbs, the final hit inflicts a Stun Debuff for a fixed 4 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Ballistiographic Oscillating Newtonian Gigahertz (B.O.N.G.)",
+            "content": [
+                "Gain an indefinite Bong Buff, increasing the base duration of Doctor Bong's Heavy Proficiency Buff by +10 seconds. Max stacks: 3. Any Bong Buffs gained while already at max stacks grants 3 personal Reverb Buffs.",
+                "Inflict a Stun Debuff for a fixed 4 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ask Not For Whom the Bong Tolls",
+            "content": [
+                "When Doctor Bong would be struck by a Combo-Ending Attack, he executes a Reversal. Cooldown: 15 seconds.",
+                "Doctor Bong's Heavy Proficiency Buff gains [10 - 25]% increased potency."
+            ]
+        }
+    ]
 }

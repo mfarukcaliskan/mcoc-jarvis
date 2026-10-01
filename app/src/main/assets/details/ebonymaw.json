@@ -12,5 +12,69 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Garanti kritikli şampiyon kullanma — degeneration uygular. Bonus immün şampiyon çözüm. Sık ağır saldırı ile vacilo'yu önle; vacilo-karşıtı mekanikler de tavsiye edilir. E1'de tutmak tercih edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ebony Maw Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Deteriorating Mind\nWhen the Opponent Misses an attack they are inflicted with a Degeneration Passive, dealing [1,539.9 - 4,106.45] damage over 1 seconds.\nWhile the Opponent is suffering from a Falter Debuff their Auto-Block Ability Accuracy is reduced by 100% and Ebony Maw gains [9 - 40]% Ability Power Rate.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Ebony Maw's first Light Attack and Heavy Attack are the only Basic hits to make contact with the Opponent.",
+                "If the Opponent doesn't have Class Advantage, Ebony Maw causes all guaranteed Critical Hits to Miss."
+            ]
+        },
+        {
+            "title": "Missions From Thanos",
+            "content": [
+                "Ebony Maw has 3 missions to complete. Each mission can only be completed once per fight and when successful will inflict a Passive Degeneration, dealing [32,851.2] Direct Damage over 4 seconds, this scales with Base Attack only.",
+                "Mission 1 Mastermind: Nullify a Buff from the Opponent.",
+                "Mission 2 Manipulator: Inflict a Power Steal effect.",
+                "Mission 3 Unwavering: Cause the Opponent to Miss.",
+                "Completing all 3 missions in a single fight grants 1 Persistent Charge, each increasing the duration of Degeneration effects by 10% and reducing the potency of the Opponent's Fury effects by 25% for the rest of the quest. Persistent Charges stack up to a max of 4."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Landing a Heavy Attack steals all the Opponent's Power Gain Buffs and 10% of their current Power."
+            ]
+        },
+        {
+            "title": "Persuasive Voice",
+            "content": [
+                "Become Focused after 7 seconds, this time is doubled while suffering from a non-damaging Debuff. While Ebony Maw is Focusing, the Opponent's Ability Power Rate is reduced by 60%.",
+                "If knocked down by a Heavy Attack or Special Attack 3, Focus is broken and re-focusing begins after 1 second(s).",
+                "Once focused, the Opponent gains 1 Persuasion every 0.6 seconds.",
+                "Every 20th Persuasion the Opponent gains inflicts a Falter Debuff, giving them a 100% chance to Miss for 3 seconds. This duration is increased to 4 seconds against Cosmic Opponents.",
+                "At 100 Persuasion the Opponent is inflicted with Black Tongue for the rest of the fight, reducing their Power Gained from all sources by 40% and increasing Ebony Maw's Attack Rating by +[4,106.4].",
+                "When Black Tongue is active, inflict the above Falter every 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "When activated and with each hit, Ebony Maw Nullifies 1 Fury, Cruelty, or Precision Buff from his Opponent. This expands to all Buffs if the Opponent is inflicted with Black Tongue.",
+                "If no Buffs were Nullified during this attack, the Opponent gains a Fury Buff increasing their Attack Rating by 0 for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts a Passive Degeneration, dealing [13,243.14] Direct Damage over 4 seconds. If the Opponent is suffering from a Falter effect, each hit inflicts 2 additional Degenerations.",
+                "The final hit refreshes any active Falter Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack grants no Power to the Opponent.",
+                "Steal 100% of the Opponent's Power and gain a Power Gain Buff, granting 40% of the Power stolen over 5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Deteriorating Mind",
+            "content": [
+                "When the Opponent Misses an attack they are inflicted with a Degeneration Passive, dealing [1,539.9 - 4,106.45] damage over 1 seconds.",
+                "While the Opponent is suffering from a Falter Debuff their Auto-Block Ability Accuracy is reduced by 100% and Ebony Maw gains [9 - 40]% Ability Power Rate."
+            ]
+        }
+    ]
 }

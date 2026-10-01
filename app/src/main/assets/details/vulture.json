@@ -14,6 +14,74 @@
     "synergies": [],
     "howToPlay": "Vulture için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Vulture Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Zehir Bağışıklığı (ile sinerji: Ultron) 🧪\n• Şok Bağışıklığı (ile sinerji: Kingpin) ⚡️"
+    "signatureAbility": "Thermal Reconfiguration\nVulture now begins the fight at full Chitauri Core Charge. Additionally, While the opponent is Incinerated, Vulture gains [0.7 - 1.88]% Max Power every .5 second(s).",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Zehir Bağışıklığı (ile sinerji: Ultron) 🧪\n• Şok Bağışıklığı (ile sinerji: Kingpin) ⚡️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "The Vulture's high-tech suit grants Immunity to Incinerate effects.",
+                "Gain an indefinite Armor Up Buff, increasing Armor Rating by [1,840.91]. If removed, this Buff will return after 8 seconds."
+            ]
+        },
+        {
+            "title": "Chitauri Core Charge - Always Active",
+            "content": [
+                "Starting Charge: 50. Max Charge: 100",
+                "Either Champion Lands a Critical Hit: +10 Charge.",
+                "Vulture avoids a Debuff due to Immunity: +100 Charge."
+            ]
+        },
+        {
+            "title": "Chitauri Core Charge - Exhaust Burn",
+            "content": [
+                "While dashing back, Vulture cannot be struck by attacks.",
+                "If Vulture avoids an attack while dashing back in this way, he spends 10 Core Charge to grant a 100% chance to inflict a non-stacking Incinerate Debuff, causing [3,172] Energy Damage over 5 seconds. This effect also removes Perfect Block Chance and reduces Block Proficiency by 50%."
+            ]
+        },
+        {
+            "title": "Chitauri Core Charge - Raptor Strike",
+            "content": [
+                "To perform a Raptor Strike, launch a Medium Attack immediately after dashing back. Launching a Raptor Strike costs 40 Core Charge.",
+                "If the Raptor Strike Hits: Drain 50% of the opponent's current Power.",
+                "If the Raptor Strike is Blocked: Vulture gains a non-stacking indefinite Decoy Passive, which causes the next strike against him to Miss. Well-Timed Blocks will ignore the Decoy's Miss Chance."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Spend 25 Core Charge to grant a 100% chance to inflict an Armor Break Debuff, removing an Armor Up Buff and reducing Armor Rating by [964.29] for 30 seconds. Max Stacks: 5"
+            ]
+        },
+        {
+            "title": "Special Attacks 1 and 2",
+            "content": [
+                "Vulture's Siphon Debuffs have 100% chance to trigger and they Passively Drain 25% of all Power the opponent gains from any source while they are active."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Inflict a Siphon Charge Debuff lasting 15 seconds. All Power Drained by this Debuff grants Core Charge proportional to the amount Drained. Ratio: 1 Bar = 45 Charge."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Inflict a Siphon Burn Debuff lasting 20 seconds. All Power Drained by this Debuff inflicts Direct Damage proportional to the amount lost. Ratio: 1 Bar = [8,326.5] Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack Incinerates the enemy, dealing [9,516] Energy Damage over 20 seconds. This effect also removes Perfect Block Chance and reduces Block Proficiency by 50% while it's active."
+            ]
+        },
+        {
+            "title": "Signature Ability - Thermal Reconfiguration",
+            "content": [
+                "Vulture now begins the fight at full Chitauri Core Charge. Additionally, While the opponent is Incinerated, Vulture gains [0.7 - 1.88]% Max Power every .5 second(s)."
+            ]
+        }
+    ]
 }

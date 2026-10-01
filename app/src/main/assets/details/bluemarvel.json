@@ -16,6 +16,76 @@
     "synergies": [],
     "howToPlay": "Blue Marvel için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Blue Marvel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Çalma Bağışıklığı 🔋🔽"
+    "signatureAbility": "The Most Powerful Man in America\nBefore taking non-hit Direct Damage from Champions, gain an Indestructible Passive for [1.5 - 8] seconds. Cooldown: 35 seconds. Cooldown is removed when Blue Marvel is Rooted.\nStart each fight with a number of personal Cruelty Passives equal to [10 - 25]% of Persistent Antimatter, rounded down.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Çalma Bağışıklığı 🔋🔽",
+    "abilitySections": [
+        {
+            "title": "Living Antimatter Reactor - Always Active",
+            "content": [
+                "As a living stable antimatter reaction, Blue Marvel warps the laws of physics to his benefit. His attacks deal Energy Damage and do not make contact with non-Skill Opponents.",
+                "Due to his unique composition, Blue Marvel is Immune to Bleed and Power Steal, and his Combat Power Rate cannot be reduced below 80%.",
+                "Blue Marvel does not gain a Precision Buff when using the Dexterity Mastery. Instead he gains a +[485.29] Energy Resistance Passive for 5 seconds. Max stacks: 3.",
+                "Blue Marvel's thunderous blows will not be denied. His Heavy Attacks cannot Miss, and when Punishing a Mystic Opponent's Heavy or Special Attack with a Medium Attack, he inflicts a Crush Debuff for 2.5 seconds.",
+                "Light Attacks 2, 3, and 4 inflict a 1% Weakness Debuff for 10 seconds. Max stacks: 5."
+            ]
+        },
+        {
+            "title": "Antimatter Charges - Max: 60",
+            "content": [
+                "+1 Charge when the Opponent is inflicted with a non-Stun Debuff.",
+                "+3 Charges when the Opponent fills a Bar of Power.",
+                "+1 Charge when taking Energy Damage or Blocking a hit while not in Stable Release. Cooldown: 0.5 seconds.",
+                "For every 20 Charges Blue Marvel gains while not in Stable Release, and for every 8 seconds he spends in Stable Release, gain an indefinite +[144.74] Cruelty Passive.",
+                "At the end of a fight, store 1 Persistent Antimatter, plus an additional for each personal Cruelty gained after the start of the fight. Max stacks: 30.",
+                "At the start of each fight, gain dormant Charges equal to Persistent Antimatter. Activating a Special Attack converts up to 10 dormant Charges into Antimatter Charges."
+            ]
+        },
+        {
+            "title": "Stable Release",
+            "content": [
+                "When Blue Marvel reaches max Antimatter Charges, he enters Stable Release and the Charges begin to expire one at a time. Charges last 0.5 seconds, paused during the Opponent's Special Attacks. Stable Release grants the following benefits:",
+                "Gain +[12,671.1] Attack Rating.",
+                "Gain +[2,750] Energy Penetration.",
+                "Attacks cannot Miss.",
+                "Intercepting the Opponent with a Basic Attack inflicts a personal Crush Debuff.",
+                "When Blue Marvel has no Antimatter Charges remaining, Stable Release ends and its effects are removed."
+            ]
+        },
+        {
+            "title": "Heavy Attack",
+            "content": [
+                "The first hit inflicts a 25% Overload Debuff for 20 seconds. Max stacks: 3.",
+                "Tapping Block while performing the final hit focuses the blast, refreshing personal Overload Debuffs. If all three have more than 50% duration remaining, pause them for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Throw Down the Gauntlet",
+            "content": [
+                "The first hit inflicts a non-stacking Provoke Debuff for 5 seconds. While this Debuff is active, striking the Opponent re-inflicts it with its remaining duration, which is fixed.",
+                "The final hit inflicts a 20% Wither Debuff for 30 seconds. Max stacks: 2. While the Opponent has more than 2 Bars of Power, these Withers reduce Ability Power Rate by an additional 30%.",
+                "The final hit refreshes personal Overload and Wither Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Point Blank",
+            "content": [
+                "The bursts of damage dealt by personal Overload effects gain 65% additional potency during this attack.",
+                "Before each beam blast, Blue Marvel taps into his hyper-cosmic awareness to slow time. Tapping Block during this slowed time grants a +[1,178.57] Precision Passive for 25 seconds. This is easier during Stable Release."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Stay Down",
+            "content": [
+                "Gain a non-stacking Regeneration Passive, healing 6% of Max Health over 8 seconds. While in Stable Release, this Passive pauses for 0.5 seconds when the Opponent is struck.",
+                "Inflict an indefinite 25% Overload Passive. Max stacks: 3."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Most Powerful Man in America",
+            "content": [
+                "Before taking non-hit Direct Damage from Champions, gain an Indestructible Passive for [1.5 - 8] seconds. Cooldown: 35 seconds. Cooldown is removed when Blue Marvel is Rooted.",
+                "Start each fight with a number of personal Cruelty Passives equal to [10 - 25]% of Persistent Antimatter, rounded down."
+            ]
+        }
+    ]
 }

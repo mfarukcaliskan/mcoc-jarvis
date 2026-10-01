@@ -15,6 +15,66 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Vurulunca %15 şansla fiziksel hasarla karşılık verir; siperlenince purify eder ve savunmasını güçlendirir; 20 hidrasyon yükünde durdurulamaz olur. Onu siperleme, hep E1'e zorla. Fiziksel dirençli şampiyonlar avantajlı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Attuma Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı (3 hidrasyon yüküyle) 🔥\n• %90 Kanama direnci (imza 200) 🩸\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "Terror of The Deep\nAttuma has a [92 - 205]% chance to start the fight with a personal Concussion Debuff. It is paused until he gains a personal Concussion from another ability.\nIncoming Bleed Debuffs suffer [50 - 90]% reduced potency.\nAttuma's rough skin can now also deal damage any time he strikes his Opponent. In addition, its damage is increased by [5 - 15]% for each Bleed effect on either Champion.",
+    "immunityDetails": "• Yakma Bağışıklığı (3 hidrasyon yüküyle) 🔥\n• %90 Kanama direnci (imza 200) 🩸\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Attuma's plans can make the best out of the worst situation, or the worst out of the best. All Ability Accuracy modification effects on him have their potencies reversed.",
+                "While one of Attuma's personal abilities with a listed chance has over a 100% chance to trigger, the ability has a chance to trigger additional times. Each time, the chance is equal to the former chance -100%. This repeats until the ability fails due to chance.",
+                "Attuma's rough Talokanil skin abrades his Opponents with a 25% chance to deal [2,210.12] Physical Damage when they strike him or his Block with a contact attack. Damage scales with Base Attack only.",
+                "Whenever an Opponent Evades Attuma while he has less than 1 Bar of Power, he has a 100% chance to instantly gain 15% of his Max Power and passively go Unstoppable for 1.5 seconds.",
+                "Attuma's Base Regeneration Rate is 35% instead of the usual 100%. It cannot be lowered further."
+            ]
+        },
+        {
+            "title": "Hydration - Max Stacks: 20",
+            "content": [
+                "The water in Attuma's Special Attacks grants him stacks of Hydration, which are Passives that fall off one at a time over 8 seconds as Attuma dries out.",
+                "With every stack of Hydration, Attuma's Attack Rating is increased by [602.76], and his Regeneration Rate is increased by 1.75%.",
+                "At 10 stacks of Hydration, Attuma becomes immune to Incinerate and gains a Precision Passive increasing his Critical Rating by by [2,750].",
+                "At 19 stacks of Hydration, Attuma becomes passively Unstoppable.",
+                "When he is inflicted with or immune to an Incinerate or Shock, Attuma loses 1 stack of Hydration, and Hydration falls off 30% faster while suffering from Coldsnap."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "100% chance for Attuma to attempt to Purify 1 non-damaging Debuff, excluding Concussions, and replace it with a Concussion Debuff, reducing Attuma's Ability Accuracy by 50% for 25 seconds. If there are no eligible Debuffs, this ability consumes the oldest stack of Hydration instead.",
+                "This ability also triggers when Attuma is inflicted with a Stun or Infuriate Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to gain 3 stacks of Hydration.",
+                "On activation, 120% chance to gain a True Accuracy Passive. These Passives last 10 seconds and fall off one at a time."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "200% chance to gain 2 stacks of Hydration.",
+                "Each hit has a 50% chance to grant Attuma a Cruelty Passive, increasing his Critical Damage Rating by [44.72] for 22 seconds. Can trigger though Block.",
+                "Triggering one of these Cruelties pauses Attuma's existing personal Concussions for the Cruelty's duration."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "110% chance to gain 5 stacks of Hydration.",
+                "100% chance to inflict a Bleed Debuff on the Opponent, dealing [15,069] Direct Damage over 20 seconds.",
+                "When one of these Bleeds fails to apply due to an Immunity, instead inflict a Physical Vulnerability Debuff that reduces the Opponent's Physical Resistance by [1,178.57] for 16 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Terror of The Deep",
+            "content": [
+                "Attuma has a [92 - 205]% chance to start the fight with a personal Concussion Debuff. It is paused until he gains a personal Concussion from another ability.",
+                "Incoming Bleed Debuffs suffer [50 - 90]% reduced potency.",
+                "Attuma's rough skin can now also deal damage any time he strikes his Opponent. In addition, its damage is increased by [5 - 15]% for each Bleed effect on either Champion."
+            ]
+        }
+    ]
 }

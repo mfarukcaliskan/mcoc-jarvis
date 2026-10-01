@@ -16,6 +16,65 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Rakibe koşarken durdurulamaz olur. Özel 1 ve 2'nin son vuruşları pasif engellenemez. Rakip bonus kazanırsa vurulunca rupture ile karşılık verir. Bonus immün ve mümkünse güç kontrolcüsü şampiyon kullan; E2'si engellenemez ve siperlemesi zor olduğundan E1'de tutmak tercih edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "The Destroyer Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Ultimate Asgardian Weapon\nThe Destroyer's personal Power Gain pauses while at 3 Bars of Power. While any Power Gain effect is active, Special Attack 3 damage is increased by [1 - 50]%.\nThe Protection Passive potency from Magically Enchanted Armor is increased by a flat [1 - 5]% per Buff.\nWhen struck, inflict an instant Rupture dealing 40% of the damage prevented by personal Protection as Physical Damage, to a max of [4,067.2] Damage. This Rupture also Destroys an Indestructible or Immortality Buff on the Opponent.",
+    "immunityDetails": "• Zırh Kırma Bağışıklığı 🛡️\n• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "The Destroyer is a magical non-magnetic construct Immune to Slow, Armor Break, Poison, and Bleed. Additionally, the Salve and Willpower Masteries are disabled.",
+                "The Destroyer is a killing machine devoid of emotions, it is Immune to Infuriate and Intimidate effects.",
+                "All Attacks Destroy any Indestructible and Immortality Buffs on the Opponent, replacing them with Rubble Buffs that last 15 seconds.",
+                "When the Opponent gains a Buff while attacking the Destroyer's Block, Destroy one of their newest Buffs and replace it with a Rubble Buff."
+            ]
+        },
+        {
+            "title": "Magically Enchanted Armor",
+            "content": [
+                "The Destroyer is Passively Unstoppable while Dashing towards the Opponent, plus 0.5 seconds after. If struck while Dashing and Unstoppable, this effect goes on cooldown for 15 seconds or until the Opponent gains 3 Buffs.",
+                "While the Opponent has an active Buff, gain a Protection Passive, reducing damage taken by 5% for each Buff, to a max of 5 Buffs."
+            ]
+        },
+        {
+            "title": "Destruction Charges - Max: 100",
+            "content": [
+                "Gain 2 Destruction Charges when Immunity to Armor Break triggers, when the Opponent gains a Buff, or fails to gain a Buff due to Buff Immunity. Gaining Charges from Buff Immunity can only trigger once every 1.5 seconds.",
+                "Gain 5 Destruction Charges when Intercepting the Opponent and when Punishing a Heavy or Special Attack.",
+                "Lose 1 Charge when inflicted with a non-Damaging Debuff other than Stun.",
+                "Every 25 Charges, gain a Fury Passive granting +[4,067.2] Attack Rating for 20 seconds. These Passives refresh on a Special Attack 3 or when the Opponent is knocked down. Max stacks: 4.",
+                "When reaching 100 Charges, consume them and gain a Power Gain Passive, granting 4 Bars of Power over 10 seconds. While this Power Gain is active, the Destroyer cannot gain new Charges."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each attack grants 10 Destruction Charges on a Hit, Block, or Whiff. If the Opponent Dodges the attack with the Dexterity Mastery or a Dexterity replacement, no Charges are gained. As a Defender, gain 15 Charges instead.",
+                "The final hit is Passively Unblockable and inflicts a non-stacking Hinder Debuff of 75% potency for 20 seconds. If the Opponent is against the wall, all hits are Unblockable."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit pauses any Degeneration effects for 10 seconds.",
+                "The Destroyer is Passively Unblockable during the final 3 hits.",
+                "The final hit deals a burst of [22,878] Direct Damage, but its potency is increased by 200% against an Opponent suffering from Degeneration."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflicts a Degeneration Passive, dealing [30,504] Direct Damage over 15 seconds.",
+                "Gain an non-stacking Energize Passive of 33% Potency for 10 seconds, paused during the Destroyer's Special Attacks. While this Passive is active, Special Attack 3 cannot be activated and Specials 1 and 2 grant no Power to the Opponent.",
+                "Gain an Unblockable Buff for 6 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ultimate Asgardian Weapon",
+            "content": [
+                "The Destroyer's personal Power Gain pauses while at 3 Bars of Power. While any Power Gain effect is active, Special Attack 3 damage is increased by [1 - 50]%.",
+                "The Protection Passive potency from Magically Enchanted Armor is increased by a flat [1 - 5]% per Buff.",
+                "When struck, inflict an instant Rupture dealing 40% of the damage prevented by personal Protection as Physical Damage, to a max of [4,067.2] Damage. This Rupture also Destroys an Indestructible or Immortality Buff on the Opponent."
+            ]
+        }
+    ]
 }

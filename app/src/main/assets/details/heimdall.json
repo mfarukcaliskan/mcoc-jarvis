@@ -18,6 +18,66 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Nötrleştirme, fate-seal ve bonus immünitesine immün ama nötralize'ye tam açık — nötralize eden şampiyon bonuslarını kolayca kapatır. Güç kontrolcüleri (çalma/kilit/çekme) özel saldırı kullanmasını engeller. Bonus süresi kısaltan şampiyonlar da yardımcı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Heimdall Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %60 Kanama direnci 🩸\n• %60 Zehir direnci 🧪"
+    "signatureAbility": "All Seeing\nHeimdall gains Immunity to Fate Seal effects.\nOnce per fight when Heimdall would be Knocked Out, he prevents the death, then gains an Indestructible Buff for [0.5 - 5] second(s).",
+    "immunityDetails": "• %60 Kanama direnci 🩸\n• %60 Zehir direnci 🧪",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Heimdall has 60% Resistance to Poison and Incinerate effects. While suffering from a Poison or Incinerate effect from a Champion, Heimdall pauses all personal Buffs and Passives.",
+                "Personal Buffs have 200% increased Ability Accuracy. If one fails due to an Immunity, it re-triggers as a Passive with 50% increased base duration and 25% increased base potency. Max stacks: 50 Precision, Fury, and Armor Up Passives each.",
+                "When gaining a personal Buff other than Power Gain, gain a non-stacking Power Gain Buff granting 10% of a Bar of Power over 5 seconds."
+            ]
+        },
+        {
+            "title": "Vanir Buffs",
+            "content": [
+                "When Heimdall hits the Opponent or their Block, or when Heimdall is struck or Blocks a hit, he gains 10 Vanir Charges, up to 100. At 100 Vanir Charges, Heimdall's next action consumes them to grant him a 15 second Buff based on the action:",
+                "Hitting the Opponent or their Block with a Light Attack grants a +[305.56] Precision Buff.",
+                "Hitting the Opponent or their Block with a Medium Attack grants a +[1,510.65] Fury Buff.",
+                "Blocking a hit or being struck grants a +[305.56] Armor Up Buff."
+            ]
+        },
+        {
+            "title": "Indefinite Buffs",
+            "content": [
+                "Charging a Heavy Attack converts 1 Vanir Buff with a duration into an indefinite copy with the same base potency. Max stacks: 5 per Buff.",
+                "When converting to an indefinite Buff, Heimdall also gains an indefinite Cross-Fight of that Buff. Max: 10 Cross-Fights gained per fight. Max: 20 Cross-Fights per Buff."
+            ]
+        },
+        {
+            "title": "True Sight",
+            "content": [
+                "Activating a Special Attack grants Heimdall an indefinite True Strike Buff. While active, the Opponent cannot activate the Dexterity Mastery, Heimdall can Parry non-contact Attacks, and this True Strike is removed when Heimdall is struck.",
+                "While this True Strike is active, Heimdall has a 25% chance to Auto-Block Light and Medium Attacks. As a Defender, this chance is increased by 37.5% for each active Buff or personal Passive up to 8."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a Stun Immune Buff for 8 seconds.",
+                "If Heimdall has an Armor Up effect active, he also gains an Unstoppable Buff for 8 seconds. This will not re-trigger while active."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a non-stacking 7.5% Resonance Buff for 12 seconds, with +7.5% flat base potency for each active Buff or personal Passive, up to 100% total.",
+                "If Heimdall has an Armor Up effect active, he also gains an Unblockable Buff for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Heimdall converts all personal Buffs into Passives with 50% increased base duration and 25% increased base potency."
+            ]
+        },
+        {
+            "title": "Signature Ability - All Seeing",
+            "content": [
+                "Heimdall gains Immunity to Fate Seal effects.",
+                "Once per fight when Heimdall would be Knocked Out, he prevents the death, then gains an Indestructible Buff for [0.5 - 5] second(s)."
+            ]
+        }
+    ]
 }

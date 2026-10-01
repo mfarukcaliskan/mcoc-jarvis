@@ -14,6 +14,62 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): En büyük tehlike otomatik blok, ama sadece 3 fury varken aktif — nötralize/nötrleştirme bunu önler. İsabetli saldırı efektli şampiyon da işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Medusa Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Living Strands\nWhile at least 3 personal Fury Buffs are active, when Medusa would be struck twice by a Special Attack or struck twice within 0.7 seconds by a non-Heavy Basic Attack, she has a [30 - 100]% chance to remove any Stun effects on her and Auto-Block the attack.\nWhenever Medusa inflicts Armor Shattered or gains a Fervor Buff, gain a True Accuracy Buff for 35 seconds.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "An enhanced immune system provides full Immunity to Poison."
+            ]
+        },
+        {
+            "title": "Medium Attacks",
+            "content": [
+                "If the Opponent is not Armor Shattered, 150% chance to inflict an Armor Break Debuff reducing Armor Rating by [485.29] for 4 seconds."
+            ]
+        },
+        {
+            "title": "Fury Buffs - Max: 6",
+            "content": [
+                "Every 3 seconds, while not at max stacks, Medusa gains a Fury Buff increasing Attack Rating by +[1,058.87].",
+                "The first 3 Fury Buffs are indefinite. The rest last 14 seconds, but are paused until Medusa reaches her max."
+            ]
+        },
+        {
+            "title": "Armor Shattered",
+            "content": [
+                "When the Opponent is suffering from at least 6 Armor Break Debuffs, they are replaced with an Armor Shattered Debuff and an Armor Break Debuff reducing Armor Rating by [5,107.14] for 35 seconds.",
+                "While Armor Shattered, this Champion's #Robot Opponents also suffer from shattered systems, which reduces Combat Power Rate, Ability Power Rate, and Ability Accuracy by -100%.",
+                "While the Opponent is Armor Shattered, Medusa's Light and Heavy Attacks gain a 50% chance to inflict an indefinite Bleed Debuff, dealing [222.92] Direct Damage per second until Armor Shattered ends."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit inflicts an Armor Break Debuff, reducing Armor Rating by [485.29] for 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit has a 60% chance to inflict a Bleed Debuff dealing [4,458.4] Direct Damage over 2 seconds.",
+                "The final hit inflicts a Stun Debuff for 4 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflicts an Armor Shattered Debuff and an Armor Break Debuff, reducing the opponent's Armor Rating by [5,107.14] for 35 seconds.",
+                "If the Opponent is already Armor Shattered, instead refresh the duration of Armor Break and Armor Shattered on the Opponent and gain a Fervor Buff increasing Damaging Debuff Ability Accuracy by 100% for 35 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Living Strands",
+            "content": [
+                "While at least 3 personal Fury Buffs are active, when Medusa would be struck twice by a Special Attack or struck twice within 0.7 seconds by a non-Heavy Basic Attack, she has a [30 - 100]% chance to remove any Stun effects on her and Auto-Block the attack.",
+                "Whenever Medusa inflicts Armor Shattered or gains a Fervor Buff, gain a True Accuracy Buff for 35 seconds."
+            ]
+        }
+    ]
 }

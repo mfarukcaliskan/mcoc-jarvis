@@ -14,6 +14,80 @@
     "synergies": [],
     "howToPlay": "Magneto (House of X) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Magneto (House of X) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠"
+    "signatureAbility": "Evolve But Remember\nMagneto's Bleed and Armor Break Debuffs gain up to +[48.3 - 80.81]% duration based on how much bonus special damage he's gaining from Prowess Effects. Max Potency at +150% Prowess.\nKnocking out an opponent grants an additional Persistent Charge.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠",
+    "abilitySections": [
+        {
+            "title": "Magnetism - Fighting #Metal Champions",
+            "content": [
+                "#Metal opponents suffer an indefinite Magnetized Passive which is applied 1 second(s) after the start of the fight and does the following:",
+                "-70% Ability Accuracy & 15% Combat Power Rate. Incoming Debuffs gain +25% duration.",
+                "Magneto gains +[2,991.9] Attack rating."
+            ]
+        },
+        {
+            "title": "Mutation - Always Active",
+            "content": [
+                "Magneto's attacks deal Energy damage instead of Physical. Additionally, he gains +10% base Special Attack damage.",
+                "Magneto's mastery over metal is so great he can staunch the flow of bleeding with a thought, granting Immunity to Bleed effects."
+            ]
+        },
+        {
+            "title": "Persistent Charge - Max: 10",
+            "content": [
+                "Magneto begins each Quest with 6 Persistent Charges.",
+                "Defeating an opponent grants 1 Persistent Charge. If they're #Metal, gain 2 Persistent Charges.",
+                "Landing hits and being struck grants a 5% chance per Persistent Charge to gain a 10 second Prowess Buff, granting +10% Special Damage. Max Stacks: 7."
+            ]
+        },
+        {
+            "title": "Pre-Fight:",
+            "content": [
+                "Magneto can spend 2 Persistent Charges in the pre-fight screen to place a Guidance effect on the fight, which lasts until the Defender is defeated. These effects don't stack and can be used by Allies.",
+                "Attackers in the fight gain +15% Attack rating.",
+                "#Metal and #Hero attackers trigger Passive Stun effects with the Parry Mastery instead of Debuffs which gain +0.5 seconds duration."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "100% chance to gain a Prowess Buff, lasting 30 seconds and granting +35% Special Attack damage. Max Stacks: 3."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "All Prowess Buffs are Paused for the duration of the attack. Magneto's personal Special Attack effects gain bonuses based on how many Prowess Buffs Magneto has when the attack starts.",
+                "1+ Prowess: +50% Ability Accuracy.",
+                "3+ Prowess: +50% Buff & Debuff Duration.",
+                "6+ Prowess: +50% Buff & Debuff Potency.",
+                "9+ Prowess: Attack grants the opponent 80% less Power."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "70% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [1,480.77] for 14 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "70% chance to inflict a Bleed Debuff, causing [11,967.6] direct damage over 6 seconds. If the opponent is #Metal, instead inflict a Degeneration Debuff. 70% chance to inflict an additional Bleed or Degen Debuff if the opponent has an Armor Break Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "70% chance to gain a Cruelty Buff, increasing Critical Damage by [523.81] for 40 seconds. While this Cruelty Buff is active, Magneto's existing Prowess Buffs remain Paused."
+            ]
+        },
+        {
+            "title": "Signature Ability - Evolve But Remember",
+            "content": [
+                "Magneto's Bleed and Armor Break Debuffs gain up to +[48.3 - 80.81]% duration based on how much bonus special damage he's gaining from Prowess Effects. Max Potency at +150% Prowess.",
+                "Knocking out an opponent grants an additional Persistent Charge."
+            ]
+        }
+    ]
 }

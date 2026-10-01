@@ -8,6 +8,27 @@
     "synergies": [],
     "howToPlay": "Abomination için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Abomination Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Irradiate\nContact with the Abomination's gamma-irradiated body has a [3 - 25]% chance to Poison the target, reducing their Health recovery by 30% and dealing 3,572 Direct Damage over 12 seconds.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "12% chance to gain a Fury Buff for 6 seconds, granting +[2,232.5] Attack."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Whenever Abomination bleeds, his irradiated blood has a 95% chance to Poison the enemy for [3,348.75] Direct Damage over 10 seconds.",
+                "An enhanced immune system provides full Immunity to Poison."
+            ]
+        },
+        {
+            "title": "Signature Ability - Irradiate",
+            "content": [
+                "Contact with the Abomination's gamma-irradiated body has a [3 - 25]% chance to Poison the target, reducing their Health recovery by 30% and dealing 3,572 Direct Damage over 12 seconds."
+            ]
+        }
+    ]
 }

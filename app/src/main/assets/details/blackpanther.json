@@ -12,6 +12,73 @@
     "synergies": [],
     "howToPlay": "Black Panther için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Panther Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Intercept sırasında 1 olumsuz etkiyi arındırır 💪🏼"
+    "signatureAbility": "For Wakanda!\nIntercepting the Opponent has a 100% Chance to Purify one of each Debuff from Black Panther. Cooldown [15 - 1] seconds.\nEach Bleed Debuff on the Opponent decreases their Defensive Ability Accuracy by [1.5 - 10]%. Max 5 Bleeds.",
+    "immunityDetails": "• Intercept sırasında 1 olumsuz etkiyi arındırır 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Critical Hits",
+            "content": [
+                "100% chance to inflict Bleed, dealing [4,487.85] Direct Damage over 6 seconds."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "100% Chance to gain a Cruelty Passive granting +[206.99] Critical Damage Rating for 1.25 second(s). These Cruelty Passives fall off one at a time. Max Stacks: 15",
+                "Intercepting the Opponent or striking them while they are recovering from a Heavy or Special Attack grants an additional Cruelty Passive.",
+                "When striking into an Auto-Block, Panther is Immune to Stun."
+            ]
+        },
+        {
+            "title": "Panther's Might - Inactive Charges",
+            "content": [
+                "Dashing back after a non-combo ending attack will grant 1 Indefinite Inactive Panther's Might Charge. Max: 5 Charges",
+                "Inactive Panthers Might Charges cannot be gained while Panther's Might is Active."
+            ]
+        },
+        {
+            "title": "Panther's Might",
+            "content": [
+                "Landing a Heavy Attack while at 3 or more inactive charges grants Panther's Might for 3 seconds per charge consumed.",
+                "Intercepting the Opponent or striking them while they are recovering from a Heavy or Special Attack pauses Panther's Might for 5 seconds.",
+                "Upon Activation: Gain 1 Precision Passive for each Personal Cruelty Passive active, each increasing Critical Rating by +[129.58].",
+                "Pause all Personal Cruelty Passives.",
+                "While Active:",
+                "Bleed Debuffs gain +8% Duration per Personal Cruelty Active on Black Panther.",
+                "Champion Attacks reduce the Opponents Defensive Ability Accuracy by 50%."
+            ]
+        },
+        {
+            "title": "Special Attacks 1 and 2",
+            "content": [
+                "Intercepting the opponent: Each hit of this Attack is a Guaranteed Critical Hit and apply an additional Bleed Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Gain 3 Inactive Panther's Might charges. Then consume all charges and enter Panther's Might for 5 seconds per charge consumed."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This Attack gains +[498.65] Attack Rating for each Personal Cruelty Passive Active on Black Panther."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict up to 5 Bleed Debuffs, with each having a 100% Chance to Apply, and dealing [3,490.55] Direct Damage over 15 seconds.",
+                "Refresh the Duration of Panther's Might."
+            ]
+        },
+        {
+            "title": "Signature Ability - For Wakanda!",
+            "content": [
+                "Intercepting the Opponent has a 100% Chance to Purify one of each Debuff from Black Panther. Cooldown [15 - 1] seconds.",
+                "Each Bleed Debuff on the Opponent decreases their Defensive Ability Accuracy by [1.5 - 10]%. Max 5 Bleeds."
+            ]
+        }
+    ]
 }

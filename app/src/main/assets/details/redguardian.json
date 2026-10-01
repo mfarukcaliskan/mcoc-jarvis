@@ -12,6 +12,64 @@
     "synergies": [],
     "howToPlay": "Red Guardian için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Red Guardian Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Buff Bağışıklığı 🗡️🚫"
+    "signatureAbility": "Enhanced Combat Durability\nMaximum Durability for the Ablative Shield is increased by +1 for every 40 signature levels obtained. Max increase of +5.\nHeavy and Special attacks gain +[731.01 - 1,841.1] Critical Rating for each unique Debuff on the Opponent.",
+    "immunityDetails": "• Buff Bağışıklığı 🗡️🚫",
+    "abilitySections": [
+        {
+            "title": "Ablative Shield",
+            "content": [
+                "Red Guardian is immune to Buffs. Whenever a Buff is prevented by immunity he gains +1 Durability for his Ablative Shield instead.",
+                "The Ablative Shield starts each fight at 9 Durability and can stack up to a max of 10. Each blocked hit removes 1 Durability. Well-Timed Blocks do not remove Durability.",
+                "Each Stack of Durability increases Perfect Block chance by 5%. Perfect Blocks reduce incoming damage to 0.",
+                "While the Shield is intact, Red Guardian can block Heavy and Unblockable Attacks and gains [1,833.33] Block Proficiency.",
+                "Blocking a Heavy or Unblockable Attack reduces Shield Durability to 0, however all hits of the incoming Attack can be blocked.",
+                "When reaching 0 Durability the Shield is Fractured, entering cooldown for 18 second(s). When cooldown ends, the Shield is repaired at 7 Durability."
+            ]
+        },
+        {
+            "title": "On Fracture",
+            "content": [
+                "Carbonadium shards from the Ablative Shield burst onto the Opponent, inflicting a Stun Debuff for 1.9 seconds.",
+                "Inflict a non-stacking Trauma Debuff for 12 seconds, Trauma causes each hit to deal an additional 100% of the damage recently dealt as burst Physical Damage."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Gain +[2,957.5] Attack Rating for each unique Debuff on the Opponent.",
+                "Refresh all Slow, Fragility and Trauma Debuffs on the Opponent.",
+                "While the Ablative Shield is on cooldown, charging a Heavy Attack grants Red Guardian a 0.8 second Unstoppable Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation inflict a non-stacking Slow Debuff for 16 seconds.",
+                "While the Opponent is suffering from Slow, Red Guardian's Combat Power Rate is increased by 25%."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation if the Ablative Shield was intact, gain +[3,785.6] Attack Rating throughout this Special.",
+                "If this Attack strikes the Opponent the Ablative Shield is Fractured, removing all Durability. Each stack of Durability removed grants an additional +[1,419.6] Attack Rating to each hit of this attack.",
+                "During this attack any Debuffs inflicted last 100% longer."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If the Ablative Shield is active, it's Durability is set to max. If the Ablative Shield is Fractured its cooldown ends immediately.",
+                "100% chance to inflict a Stun Debuff for 1.9 seconds.",
+                "100% chance to inflict a 30 second Fragility Debuff. Attacking a Fragile Opponent grants +[1,546.88] Critical Damage Rating and reduces Block Proficiency by 50%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Enhanced Combat Durability",
+            "content": [
+                "Maximum Durability for the Ablative Shield is increased by +1 for every 40 signature levels obtained. Max increase of +5.",
+                "Heavy and Special attacks gain +[731.01 - 1,841.1] Critical Rating for each unique Debuff on the Opponent."
+            ]
+        }
+    ]
 }

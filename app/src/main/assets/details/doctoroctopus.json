@@ -12,5 +12,75 @@
     "synergies": [],
     "howToPlay": "Doctor Octopus için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Doctor Octopus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Academic Background\nDoctor Octopus's extensive academic background let him start the fight with each of his Research Categories at 60 and each Breakthroughs is replaced by a new effect.\nPhysics: Power Drain 100% of any power gained and steal [5 - 15]% of the Power Drained.\nBiology: Gain the standard Biology Breakthrough Armor Up and [428.57 - 925.37] Armor Penetration while it's active.\nChemistry: Deal Direct Damage equal to 100% of Health Gained and Lifesteal [15 - 25]% of the Damage done.",
+    "abilitySections": [
+        {
+            "title": "Scientific Method - Passive",
+            "content": [
+                "Research is built in each Category until it hits 100. If you haven't gained research in a category for 10 seconds it begins to fall off.",
+                "Each Category grants a Passive effect which scales as its category builds.",
+                "When a Category reaches 100 it triggers a Breakthrough, as long as there isn't one already active.",
+                "When a Breakthrough effect expires all Research Categories are reset to 0."
+            ]
+        },
+        {
+            "title": "Physics - Research Category",
+            "content": [
+                "Builds on Opponent Gaining Power.",
+                "Scaling Effect: Opponent's Special Attack Damage reduced by up to 50%",
+                "Breakthrough: Applies a Power Lock Debuff on the Opponent which lasts 5 seconds."
+            ]
+        },
+        {
+            "title": "Chemistry - Research Category",
+            "content": [
+                "Builds on Block or Parry.",
+                "Scaling Effect: Increase of up to [2,250] Block Proficiency.",
+                "Breakthrough: Applies a Heal Block Debuff to the Opponent which lasts 5 seconds."
+            ]
+        },
+        {
+            "title": "Biology - Research Category",
+            "content": [
+                "Builds when landing Hits and when being Struck",
+                "Scaling Effect: Passive Fury, granting up to [3,580] Attack Rating.",
+                "Breakthrough: Applies an Armor Up Buff, granting [2,250] Armor for 5 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Remove all currently active Breakthroughs dealing [3,580] damage per Breakthrough removed."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Reset the duration of any currently active Breakthrough Effect.",
+                "If no Breakthroughs are currently active it triggers the Breakthrough of whichever category is currently Highest."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Trigger the Breakthrough effect of all Research Categories currently at 100, and reset the duration of all Breakthroughs to 3.5 seconds per Category currently at 100."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Duplicate 1 Currently active Breakthrough(s) with a duration of 5 seconds.",
+                "This Duration increases by 10 seconds per currently active Breakthrough."
+            ]
+        },
+        {
+            "title": "Signature Ability - Academic Background",
+            "content": [
+                "Doctor Octopus's extensive academic background let him start the fight with each of his Research Categories at 60 and each Breakthroughs is replaced by a new effect.",
+                "Physics: Power Drain 100% of any power gained and steal [5 - 15]% of the Power Drained.",
+                "Biology: Gain the standard Biology Breakthrough Armor Up and [428.57 - 925.37] Armor Penetration while it's active.",
+                "Chemistry: Deal Direct Damage equal to 100% of Health Gained and Lifesteal [15 - 25]% of the Damage done."
+            ]
+        }
+    ]
 }

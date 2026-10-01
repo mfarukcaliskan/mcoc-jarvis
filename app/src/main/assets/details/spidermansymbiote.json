@@ -10,6 +10,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlike özel saldırı sonrası 1,1sn'lik kaçış bonusu — kaçış-karşıtı yeteneği olmadan özel saldırılarına karşılık verme. Kaçtığında zırh kırar ve %4 can yeniler. Bonus kontrolü veya kaçışı kapatan şampiyonlar en iyi cevap.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man (Symbiote) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• İyileşme Engeli Bağışıklığı 💚🚫\n• Güç Emme/Yakma Bağışıklığı 🔋"
+    "signatureAbility": "Back in Black\nPersonal Regeneration Buffs gain +[10 - 50]% base Ability Accuracy.\nPersonal True Accuracy Buff lasts +[5 - 10] seconds longer per level of the Special Attack that activated it.",
+    "immunityDetails": "• İyileşme Engeli Bağışıklığı 💚🚫\n• Güç Emme/Yakma Bağışıklığı 🔋",
+    "abilitySections": [
+        {
+            "title": "Great Irresponsibility - Always Active",
+            "content": [
+                "The Symbiote's hunger for power grants Spider-Man Immunity to Heal Block, Power Drain, and Power Burn effects.",
+                "All personal Buffs other than Regeneration and Evade are paused during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "We Are Spider-Man - Armor Breaks",
+            "content": [
+                "The first hit of Spider-Man's Heavy Attack inflicts 4 [305.56] Armor Break Debuffs for 80 seconds. Max stacks: 4.",
+                "When Spider-Man Evades, he inflicts a [305.56] Armor Break Debuff for 80 seconds. Max stacks: 16."
+            ]
+        },
+        {
+            "title": "Genetic Reflex",
+            "content": [
+                "At the start of each fight, Spider-Man activates Genetic Reflex for 30 seconds, and reactivates it when it expires naturally.",
+                "Reactivating Genetic Reflex changes its icon to reflect the next Reflex Buff, cycling through them in the following order:",
+                "A 7.5% Energize Buff, a 15% Expertise Buff, and a 22.5% Vitality Buff. These Buffs last 30 seconds. Max stacks: 2 of each.",
+                "Spider-Man's third Light Attack grants him the currently selected Reflex Buff, refreshes all Reflex Buffs, and reactivates Genetic Reflex."
+            ]
+        },
+        {
+            "title": "Spider-Sense - Evade",
+            "content": [
+                "Finishing a Special Attack grants a Evade Buff for 1.1 seconds. As an Attacker, it starts paused until Spider-Man Evades.",
+                "While this Evade Buff is active, the Opponent is more aggressive. Personal Evades will not trigger while Blocking.",
+                "Evading Basic Attacks pauses the Evade Buff for 0.35 seconds, its first Evade inflicts 3 extra Armor Breaks.",
+                "Personal Evades have a 60% chance to grant a Regeneration Buff healing 4% of missing Health over 5 seconds. Max stacks: 5.",
+                "If the Evade Buff ends after triggering an Evade, it goes on a 15 second cooldown that expires 200% faster during Heavy Attack hits."
+            ]
+        },
+        {
+            "title": "Symbiote-Sense - True Accuracy",
+            "content": [
+                "Activating a Special Attack grants a True Accuracy Buff for 5 seconds, unaffected by Ability Accuracy modifications against Tech Champions."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Web of Shadows",
+            "content": [
+                "On each hit, gain a +[79.22] Cruelty Buff for 30 seconds. Max stacks: 6."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Lash Out",
+            "content": [
+                "On the first landed hit, gain a +[2,750] Precision Buff for 45 seconds, plus an additional Precision for each unique Reflex Buff. Max stacks: 4."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Ruthless Protector",
+            "content": [
+                "Refresh 50% (rounded down) of the Armor Breaks Spider-Man inflicts when he Evades, and gain an indefinite +[2,287.8] Fury Buff. Max stacks: 2.",
+                "The first two times this Special Attack is used, the max stacks for the Armor Breaks Spider-Man inflicts when he Evades is increased by 4."
+            ]
+        },
+        {
+            "title": "Signature Ability - Back in Black",
+            "content": [
+                "Personal Regeneration Buffs gain +[10 - 50]% base Ability Accuracy.",
+                "Personal True Accuracy Buff lasts +[5 - 10] seconds longer per level of the Special Attack that activated it."
+            ]
+        }
+    ]
 }

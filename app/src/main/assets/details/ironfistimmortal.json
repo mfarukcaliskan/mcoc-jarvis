@@ -8,5 +8,31 @@
     "synergies": [],
     "howToPlay": "Iron Fist (Immortal) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Iron Fist (Immortal) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Concentration\nThe Iron Fist has a 21% chance to reduce enemy Armor Rating by [118.42 - 615.53] for 14 second(s), but these effects are lost if concentration is broken by incoming attacks.",
+    "abilitySections": [
+        {
+            "title": "Critical Hits",
+            "content": [
+                "The sheer force of a Critical Hit has a 55% chance to break the target's Armor and apply [493.9] Armor Rating reduction for 5 seconds."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "8% chance to boost Critical Rating by [1,211.54] for 6 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The Iron Fist delivers a powerful Chi strike, disrupting the flow of energy and Nullifying 1 Cruelty, Fury, and Precision Buff."
+            ]
+        },
+        {
+            "title": "Signature Ability - Concentration",
+            "content": [
+                "The Iron Fist has a 21% chance to reduce enemy Armor Rating by [118.42 - 615.53] for 14 second(s), but these effects are lost if concentration is broken by incoming attacks."
+            ]
+        }
+    ]
 }

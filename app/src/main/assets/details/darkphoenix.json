@@ -16,6 +16,87 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Nova alevi (sadece Iceman ve kendisi immün), ölümsüzlük, koruma ve kök salan özel saldırıları var. Zehir uygulamak (Mystic ise) nova alevi süresini tamamen sıfırlayabilir — bu en önemli tehlikeyi giderir. Fate-seal, bonus immünitesi ve zayıflatma (Mojo, Kindred, Absorbing Man, Shathra, The Hood, Claire) korumasını/ölümsüzlüğünü engeller. Yüksek enerji direnci (en az %60) avantaj sağlar. Isophyne, Spiral ve Absorbing Man ölümsüzlüğü tamamen önleyebilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dark Phoenix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Güç Emme Bağışıklığı 🔋\n• Nova Alevi Bağışıklığı 🐦‍🔥"
+    "signatureAbility": "Ease Into Darkness\nAs a Defender, gain a Phoenix Rising Charge at 5+ Ember Charges.\nAt the start of each fight, lower the Health threshold on Safeguard by [8 - 60]%.\nWhile Immortal, Special Attacks are Passively Unblockable.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Güç Emme Bağışıklığı 🔋\n• Nova Alevi Bağışıklığı 🐦‍🔥",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Dark Phoenix's phenomenal cosmic power grants her Immunity to Incinerate, Nova Flame, and Power Drain.",
+                "Dark Phoenix's Ability and Combat Power Rates cannot be reduced by more than 50%.",
+                "If any of Dark Phoenix's personal Buffs fail due to Ability Accuracy reduction or are removed due to Stagger or Nullify, they re-trigger as a Passive."
+            ]
+        },
+        {
+            "title": "A Phoenix's Flame - Ember Charges - Max: 15",
+            "content": [
+                "Ember Charges are indefinite and increase the potency of Dark Phoenix's Nova Flame by 20% per Charge.",
+                "+1 Charge when landing a second Medium Attack or when Dark Phoenix's Safeguard prevents damage.",
+                "-1 Charge when Dark Phoenix is knocked down by a Special Attack.",
+                "+5 Ember Charges at the start of each fight as a Defender."
+            ]
+        },
+        {
+            "title": "Life-Force Control - Safeguard",
+            "content": [
+                "At the start of each fight, Dark Phoenix gains a 5% Safeguard Buff for 10.5 seconds. The damage threshold of this effect is 20% lower when Phoenix has Class Advantage, 40% higher when she has Class Disadvantage, and its potency cannot be otherwise modified.",
+                "This Safeguard is removed when the Opponent activates a Special Attack 3, and, as an Attacker, after reducing damage. This Buff re-activates every 10 seconds.",
+                "At 5+ Ember Charges, Safeguard also reduces the potency of incoming Damaging effects and Power Stings from Champions by 75%."
+            ]
+        },
+        {
+            "title": "A Phoenix Rising - Nova Flame - Max: 3",
+            "content": [
+                "Upon reaching 10+ Ember Charges for the first time each fight, Dark Phoenix gains a Phoenix Rising Charge.",
+                "This Charge is consumed when Dark Phoenix would be Knocked Out, granting an Immortality Buff for 12 seconds.",
+                "Upon consumption, the Opponent is inflicted with a [11,244] Nova Flame Passive for 20 seconds, reducing Block Proficiency by 60%. As a Defender this scales with Base Attack only. If suffering from Poison when activated, the duration is reduced by 20% per Poison. Max reduction from Poison inflicted by non-Mystics: 40%.",
+                "Dark Phoenix passively Regenerates Health equal to 100% of the Energy Damage caused while Immortal."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Pulverize 2 Armor Up effects if any are active, dealing a burst of [2,811] Direct Damage per Armor Up removed.",
+                "Removing an Armor Up this way grants 1 Ember Charge."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Upon finishing her Special Attacks, Dark Phoenix continues siphoning energy from the Phoenix Force over 3 seconds. Upon expiry, she inflicts the Opponent with her personal Nova Flame.",
+                "Striking her during this time disrupts her channeling, reducing the duration of this Nova Flame by 13% per hit."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain an Unstoppable Buff for 5 seconds. As an Attacker, the duration is decreased by 5% per Ember Charge, excluding permanent ones.",
+                "On activation, gain 3 Ember Charges. Then, if at 5+ Ember Charges, gain a Power Gain Buff granting 15% of Max Power over 5 seconds. Max stacks: 2. As an Attacker, this gains +10% flat potency."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, Dark Phoenix's telekinetic powers inflict a Root Passive until after the last hit.",
+                "On activation, gain a non-stacking +[3,373.2] Fury Buff for 35 seconds. This Fury gains +30% flat potency per Ember Charge.",
+                "As an Attacker, at the end of this attack consume half of all Ember Charges."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain +3 permanent Ember Charges which cannot be removed. Max stacks: 9.",
+                "Inflict an indefinite Nova Flame Passive, dealing [281.1] Energy Damage per second. As a Defender, this scales with Base Attack only. Max stacks: 3.",
+                "Gain a non-stacking Power Gain Buff, granting 100% of Max Power over 30 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ease Into Darkness",
+            "content": [
+                "As a Defender, gain a Phoenix Rising Charge at 5+ Ember Charges.",
+                "At the start of each fight, lower the Health threshold on Safeguard by [8 - 60]%.",
+                "While Immortal, Special Attacks are Passively Unblockable."
+            ]
+        }
+    ]
 }

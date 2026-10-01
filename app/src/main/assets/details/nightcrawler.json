@@ -13,5 +13,56 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kaçışı engelleyen ve kanamaya immün şampiyonlar kullan. Modunu değiştirmeye çalışmak riskli. Sersemletme immünitesi olan node'larda tehlike artar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Nightcrawler Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Neyaphem Heritage\nNightcrawler's Evade Chance can only be lowered by Tech Champions.\nIncrease the Potency of Nightcrawler's Instant Bleeds and Critical Damage Rating by [11 - 103.09]% of his Current Prowess Potency.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Dodging back and holding Block for 2 seconds, Nightcrawler will swap between Neyaphem and Swashbuckling mode.",
+                "Ending a Combo with a Light Attack or Dodging back and holding Block for 2 seconds causes Nightcrawler to swap between Neyaphem and Swashbuckling modes.",
+                "While Dodging back, Nightcrawler cannot be struck by attacks.",
+                "Whenever Nightcrawler successfully Dodges an attack this way, gain a 10% Prowess Passive for 20 seconds. Max stacks: 10.",
+                "Critical Hits inflict an instant Bleed dealing a burst of [6,042.6] Direct Damage. The potency of this Bleed is reduced by 10% for each Armor Up Buff on the Opponent."
+            ]
+        },
+        {
+            "title": "Neyaphem Mode",
+            "content": [
+                "Nightcrawler gains a 22% chance to Evade all incoming attacks. This chance is increased by 15% against Physical Attacks."
+            ]
+        },
+        {
+            "title": "Swashbuckling Mode",
+            "content": [
+                "Second Medium Attacks grant a Precision Passive, increasing Critical Rating by +[485.29] for 15 seconds. Max stacks: 5. When activating these Precisions, pause Nightcrawler's personal Prowess and Precision effects for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Neyaphem Mode: On activation, gain a non-stacking Evasion Passive increasing the chance for Evades to trigger by 33% for 10 seconds.",
+                "Swashbuckling Mode: Gain a 10 second 100% Prowess Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Neyaphem Mode: Reduce Opponents Block Proficiency by -[2,160.71] for the duration of this Attack.",
+                "Swashbuckling Mode: Inflict the Opponent with a 15 second Bleed Vulnerability, increasing the potency of incoming Bleed effects by 50%"
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a non-stacking Incinerate Passive dealing [503.55] Energy Damage over 30 seconds. While active, all of Nightcrawler's personal Bleed effects turn into Incinerates with the same potency."
+            ]
+        },
+        {
+            "title": "Signature Ability - Neyaphem Heritage",
+            "content": [
+                "Nightcrawler's Evade Chance can only be lowered by Tech Champions.",
+                "Increase the Potency of Nightcrawler's Instant Bleeds and Critical Damage Rating by [11 - 103.09]% of his Current Prowess Potency."
+            ]
+        }
+    ]
 }

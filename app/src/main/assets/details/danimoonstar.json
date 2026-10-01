@@ -14,5 +14,61 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Onu E1'de tut (kaçmak daha kolay). Bloğuna vurmaktan kaçın, çünkü görünmez olabiliyor.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dani Moonstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Barbed Arrows\nIf a Neuroshock or Stun Debuff is removed for any reason other than expiry, [20 - 100]% chance to inflict a Neuroshock Passive dealing [7,008] Energy Damage over 8 seconds. This is not affected by Ability Accuracy Reduction.\nWhen the Opponent's Health is at or below 10%, inflict an indefinite Marked Passive.",
+    "abilitySections": [
+        {
+            "title": "Illusion",
+            "content": [
+                "When either Champion's Combo Meter passes a multiple of 10, gain a non-stacking indefinite Illusion. An Illusion is lost when Knocked Down.",
+                "Gain an Illusion when inflicted with Disorient, Fragility, or Intimidate. Dani will attempt to regain Illusion every 10 seconds if Illusion is consumed while suffering from these effects.",
+                "When Dani would Block a Basic Attack, she consumes an Illusion to inflict a 150% Falter Passive. This Falter lasts 2.5 seconds, is not affected by Ability Accuracy Reduction, and is paused during Dani's Special Attacks."
+            ]
+        },
+        {
+            "title": "Neural Arrows - Max Stacks: 5",
+            "content": [
+                "When the Opponent Misses, gain an indefinite Neural Arrow. As a Defender, hitting the Opponent's Block while Dani has an Illusion also grants a Neural Arrow.",
+                "For each Neural Arrow, the final hit of Dani's Special Attacks inflicts a Neuroshock Debuff dealing [7,008] Energy Damage over 8 seconds. All Neural Arrows are removed at the end of Dani's Special Attacks.",
+                "Against Skill Champions, Neuroshocks are inflicted on Special activation. Skill Champions cannot heal while suffering from Neuroshock."
+            ]
+        },
+        {
+            "title": "Prowess Effects - Max Stacks: 5",
+            "content": [
+                "Unless otherwise stated, Dani's Prowess effects are indefinite and have 15% potency. If her Prowess effects fail to trigger or are removed by the Opponent, gain a Neural Arrow.",
+                "Gain a Prowess Buff when Faltering the Opponent, and one more each time Dani strikes a Faltered Opponent. As a Defender, striking the Opponent while Dani has an Illusion also grants a Prowess Buff.",
+                "Activating a Special Attack with Neural Arrows removes all personal Prowess Buffs and replaces them with Prowess Passives. All personal Prowess effects are removed at the end of the Special Attack.",
+                "All personal Prowess Passives gained during Special Attacks gain 80% potency for each Neural Arrow."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On the first hit, inflict a Slow Passive for 24 seconds.",
+                "Just before the final hit, gain an Unblockable Passive lasting 1 second for each Neural Arrow.",
+                "The final hit inflicts a non-stacking [2,750] Energy Vulnerability Passive for 30 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit grants a 10% Impact Passive for 5 seconds. This can trigger through Block.",
+                "Activating this Special Attack with 5 or more Neural Arrows inflicts a 70% Overload Passive for 25 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This Special Attack costs 6% less power, and costs an additional 6% less for each Neural Arrow.",
+                "After this attack, gain 6 Prowess Buffs. The limit for personal Prowess Buffs is increased to 10 until the end of the next Special Attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - Barbed Arrows",
+            "content": [
+                "If a Neuroshock or Stun Debuff is removed for any reason other than expiry, [20 - 100]% chance to inflict a Neuroshock Passive dealing [7,008] Energy Damage over 8 seconds. This is not affected by Ability Accuracy Reduction.",
+                "When the Opponent's Health is at or below 10%, inflict an indefinite Marked Passive."
+            ]
+        }
+    ]
 }

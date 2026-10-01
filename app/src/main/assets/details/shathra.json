@@ -14,5 +14,74 @@
     "synergies": [],
     "howToPlay": "Shathra için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Shathra Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Live And Die For Your Ideals\nAs an Attacker, Shathra starts each fight with a Regeneration  Passive, healing [2.5 - 5]% of her Base Health for each stack of Vengeance over 4 seconds.\nWhenever a Buff on the Opponent expires naturally, Shathra has a [20 - 80]% chance to inflict a personal Vulnerability.\nIf Shathra is defeated while she has any Vengeance, she gains 1 additional Vengeance.",
+    "abilitySections": [
+        {
+            "title": "Eternal Soul of Vengeance - Max: 3",
+            "content": [
+                "Shathra starts each Quest with 0 Persistent Vengeance. Start with 2 Vengeance while fighting in Battlegrounds or Duels.",
+                "When Shathra defeats an Opponent, she gains 1 Vengeance. Vengeance gained is increased by 1 against Cosmic Champions and #Spider-Verse Heroes.",
+                "For each Vengeance, Shathra gains +[704.89] Attack Rating."
+            ]
+        },
+        {
+            "title": "Astral Wasps",
+            "content": [
+                "Shathra's Light and Medium Attacks inflict 10 to 16 indefinite Astral Eggs onto the Opponent, or 16 to 24 if they are Stunned. Max stacks: 500.",
+                "Whenever a Buff on the Opponent expires naturally, inflict 3 to 6 Eggs.",
+                "When Shathra activates a Special Attack, all Eggs hatch into 1 indefinite Astral Wasp each. Max stacks: 500.",
+                "During Shathra's Special Attacks 1 and 2, the Astral Wasps attack. For each level of the Special Attack, the Opponent receives +[158.76] Energy Damage every second per 10 Wasps.",
+                "As a Defender, when the Attacker taps Block, they swat away Wasps, removing 12. If no Wasps are active, Eggs are removed instead."
+            ]
+        },
+        {
+            "title": "Sacrifice for your Queen",
+            "content": [
+                "Shathra has abilities that can kill her own Astral Wasps. For every 15 Wasps killed, their bodies dissolve into a [99.74] Vulnerability Passive for 12 seconds, paused during Shathra's Heavy and Special Attacks. Max stacks: 35.",
+                "Charging a Heavy Attack kills 180 Wasps per second to Power Steal 35% of a Bar of Power from the Opponent, granting 425% of the Power to Shathra. This ability builds up over 0.6 seconds.",
+                "This Power Steal is removed when Shathra releases her Heavy Attack, runs out of Wasps, reaches 3 Bars of Power, or the Opponent runs out of Power.",
+                "The potency of the Mystic Dispersion Mastery is reduced by 50%, but each rank increases the percentage of Stolen Power Shathra gains by +15% flat, up to 500%.",
+                "Shathra's fourth Light Attack kills 30 Wasps to Nullify 1 Buff on the Opponent. This cannot trigger below 30 Wasps."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a non-stacking 70% Atrophy Passive for 20 seconds. This Atrophy is refreshed when Shathra performs any Special Attack.",
+                "This Atrophy cannot have its Ability Accuracy modified by Cosmic Champions, and disables the Stand Your Ground Mastery while active.",
+                "The final hit inflicts 300 to 350 Astral Eggs. As a Defender, this becomes 100 to 125 Eggs."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, inflict 5 personal Vulnerability Passives. If activated after the first hit of Shathra's Heavy Attack, inflict an additional 10 Vulnerability Passives.",
+                "If activated while charging or performing a Heavy Attack, this Special Attack becomes Passively Unblockable."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "As an Attacker, this Special Attack cannot be activated unless Shathra is charging a Heavy Attack.",
+                "Gain a Regeneration Passive, healing 10% of missing Health over 8 seconds. This also recovers 100% of missing Health caused by Energy Damage from damaging effects.",
+                "Inflict a Stun Passive for 3.5 seconds."
+            ]
+        },
+        {
+            "title": "Divine Wasp-Totems",
+            "content": [
+                "Once per quest, Shathra can consume 1 Vengeance in the Pre-Fight Menu to place a Cross-Fight Wasp-Totem on the next fight. The next #Spider-Verse Hero to enter this fight becomes a Wasp-Totem for the rest of the Quest, gaining the following abilities:",
+                "Poison Immunity: Whenever a Poison fails due to Immunity, gain a +10% Fury Passive for 10 seconds. Max stacks: 3.",
+                "Performing an Evade, Auto-Block, or Miss starts a 5 second timer. If a Special Attack is activated while this timer is active, it becomes Passively Unblockable."
+            ]
+        },
+        {
+            "title": "Signature Ability - Live And Die For Your Ideals",
+            "content": [
+                "As an Attacker, Shathra starts each fight with a Regeneration  Passive, healing [2.5 - 5]% of her Base Health for each stack of Vengeance over 4 seconds.",
+                "Whenever a Buff on the Opponent expires naturally, Shathra has a [20 - 80]% chance to inflict a personal Vulnerability.",
+                "If Shathra is defeated while she has any Vengeance, she gains 1 additional Vengeance."
+            ]
+        }
+    ]
 }

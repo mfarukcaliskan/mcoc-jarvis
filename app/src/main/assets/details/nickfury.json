@@ -12,5 +12,71 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Vurulunca taktik yükü kazanır, 15'te engellenemez olur. 2 canı var, 2. canda +%300 saldırı kazanır. Mutant şampiyon kullanmak taktik yükü kazanma şansını azalttığı için neredeyse zorunlu. Yetenek azaltıcı şampiyonlar da yük kazanımını önler.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Nick Fury Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Life Model Decoy\nWhen Nick would be knocked out, his Life Model Decoy is destroyed instead and he returns to the fight with a permanent Fury's Fury Buff and Stun Immunity. However, Nick loses his Infinity Formula and begins taking Direct Damage equal to [5 - 2.23]% of his health per second for the rest of the quest while above 30% max health. The destruction of Nick's decoy Removes all Effects and isn't affected by Ability Accuracy reduction.",
+    "abilitySections": [
+        {
+            "title": "Battle Scars",
+            "content": [
+                "When striking a Bleeding Opponent Nick's Critical Rating is increased by [305.56] and his attacks ignore 100% of Physical Resistance.",
+                "While the Opponent is not under the effect of a Regeneration Buff all of Nick's Bleeds are 100% more potent."
+            ]
+        },
+        {
+            "title": "Basic Attacks",
+            "content": [
+                "Ending a combo with a Light Attack has a 100% chance to inflict a Bleed, dealing [4,531.95] damage over 1 second.",
+                "Landing any Medium Attack has a 100% chance to inflict a Bleed, dealing [251.78] damage over 6 seconds.",
+                "Landing a Heavy Attack has a 100% chance to inflict up to 3 stacks of Bleed, each dealing [503.55] damage over 12 seconds.",
+                "When hitting into Auto-Block Nick is Stun Immune and has a 100% chance to inflict a Bleed dealing [503.55] damage over 12 seconds.",
+                "Knocking down the Opponent Purifies Nick's non-damaging Debuffs."
+            ]
+        },
+        {
+            "title": "Internal Bleed - Passive",
+            "content": [
+                "If the Opponent gets 8 stacks of Bleed, their Bleed effects are removed and replaced with a Passive Internal Bleed effect which deals [27,191.7] damage over 30 seconds.",
+                "While Internal Bleed is active all the Opponent's Bleed Debuffs have an increased duration of 0.2 seconds per Tactical Charge."
+            ]
+        },
+        {
+            "title": "Tactical Advantage Charges - Passive",
+            "content": [
+                "Nick starts the fight with 6 Charges when fighting an Avenger.",
+                "When Nick is Struck he has a 100% chance to gain 1 Tactical Charge. Reduced to 25% against Mutant Opponents.",
+                "While Nick is under the effect of a Fury Effect, Tactical Charge durations are paused.",
+                "Nick loses 1 Charge every 6 seconds, decreasing to every 4 seconds while at or above 10 total Charges. Additionally if the Opponent performs a Well-Timed Block Nick loses 1 Charge.",
+                "At 5+ Charges: Nick's attacks can't Miss or be Evaded.",
+                "At 10+ Charges: Nick's Purify effects now target all Debuffs.",
+                "At 15+ Charges: Nick becomes Unblockable.",
+                "At 20+ Charges: All Charges are removed and replaced with a Fury's Fury Buff which grants [18,127.8] Attack Rating for 10 seconds. All Tactical Charge gains are doubled while Fury's Fury is active."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "When performing this attack Nick immediately gains 4 Tactical charges.",
+                "Disorients the Opponent, reducing their Block Proficiency by 50% and Defensive Ability Accuracy by 70% for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Nick slashes his Opponent causing up to 4 stacks of Bleed, each dealing [2,517.75] damage over 8 seconds.",
+                "50% chance to stun the Opponent for 3 seconds. Stun chance increases by a flat 10% for each of Nick's Tactical charges."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Additional [20,142] Attack if Fury's Fury is active.",
+                "Additional [20,142] Attack if Internal Bleed is active."
+            ]
+        },
+        {
+            "title": "Signature Ability - Life Model Decoy",
+            "content": [
+                "When Nick would be knocked out, his Life Model Decoy is destroyed instead and he returns to the fight with a permanent Fury's Fury Buff and Stun Immunity. However, Nick loses his Infinity Formula and begins taking Direct Damage equal to [5 - 2.23]% of his health per second for the rest of the quest while above 30% max health. The destruction of Nick's decoy Removes all Effects and isn't affected by Ability Accuracy reduction."
+            ]
+        }
+    ]
 }

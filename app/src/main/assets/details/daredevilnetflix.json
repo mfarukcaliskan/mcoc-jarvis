@@ -14,6 +14,78 @@
     "synergies": [],
     "howToPlay": "Daredevil (Hell's Kitchen) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Daredevil (Hell's Kitchen) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Pasif Dejenerasyon direnci (imza 200) ☠️\n• Arındırma (hasar vermeyen etkiler) 💪🏼\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "Sinner Or Saint\nMurdock Boy: Exiting this mode has a 100% chance to grant a stacking [6 - 17] second Rage Debuff with no effect.\nStick's Apprentice: While in this mode, attacks reduce the damage of the Opponent's Passive Degeneration and Direct Damage effects by [50 - 100]% for 0.2 second(s).",
+    "immunityDetails": "• %100 Pasif Dejenerasyon direnci (imza 200) ☠️\n• Arındırma (hasar vermeyen etkiler) 💪🏼\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "An enhanced sensory system allows Daredevil to bypass Miss."
+            ]
+        },
+        {
+            "title": "Entering the Fight",
+            "content": [
+                "The Devil of Hell's Kitchen gains an indefinite Passive Combo Shield, preventing his Combo Meter from resetting when struck."
+            ]
+        },
+        {
+            "title": "Fight Start",
+            "content": [
+                "Base Regeneration Rate is set at 40% instead of the normal 100%.",
+                "Immune to all effects that modify Regeneration Rate, except Poison."
+            ]
+        },
+        {
+            "title": "Murdock Boy - Combo Meter 15 or Lower",
+            "content": [
+                "The unbreakable spirit of Battlin' Jack Murdock grants the following:",
+                "When inflicted with a non-damaging Debuff, one of each non-damaging Debuff is Purified after 0.5 seconds. Each time this ability triggers, Devil of H.K. gains +5 Combo Meter. This ability goes on Cooldown for 2 seconds once activated.",
+                "Passive +[4,125] Physical Resistance against Basic Attacks."
+            ]
+        },
+        {
+            "title": "Stick's Apprentice - Combo Meter 16 or More",
+            "content": [
+                "The assassin training of Stick grants the following:",
+                "+[1,178.57] Critical Rating.",
+                "Attacks reduce the opponent's Defensive Ability Accuracy by 65%.",
+                "+[2,615.5] Attack Rating for each Non-Damaging Debuff on the Devil of H.K. This bonus decreases by 5% for each additional Debuff.",
+                "When struck, 1 Combo Meter is lost."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit spends 10 Combo Meter to grant a 100% chance to gain a stacking Cruelty Buff, increasing Critical Damage Rating by +[563.25] for 14 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to boost Critical Rating by [916.67] for 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit immediately loses any Combo Meter gained.",
+                "Each hit spends 5 Combo Meter to grant a 100% chance to inflict a Bleed Debuff, causing [13,077.5] direct damage over 5 seconds.",
+                "At the end of the attack, gain a Rage Debuff with no effect, lasting 12 seconds. When this Debuff ends, it is replaced with a Fury Buff, granting +[8,369.6] Attack rating for 25 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to gain a Righteous Wrath Passive for 70 seconds. While active, The Devil of H.K.'s basic attacks have a 35% chance to inflict an instant Bleed, causing 120% of the damage dealt by the attack as direct damage."
+            ]
+        },
+        {
+            "title": "Signature Ability - Sinner Or Saint",
+            "content": [
+                "Murdock Boy: Exiting this mode has a 100% chance to grant a stacking [6 - 17] second Rage Debuff with no effect.",
+                "Stick's Apprentice: While in this mode, attacks reduce the damage of the Opponent's Passive Degeneration and Direct Damage effects by [50 - 100]% for 0.2 second(s)."
+            ]
+        }
+    ]
 }

@@ -15,6 +15,57 @@
     "synergies": [],
     "howToPlay": "Black Widow (Claire Voyant) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Widow (Claire Voyant) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥"
+    "signatureAbility": "Death Immunity\nWhen receiving damage that would knock her out, Death Touch is removed instead and Claire gains a Death Immunity Buff, preventing death and healing [4 - 25]% of her max health over 4 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Claire uses spells in her Basic Attacks causing them to deal Energy Damage instead of Physical."
+            ]
+        },
+        {
+            "title": "Clairvoyance Charge - Passive",
+            "content": [
+                "Claire starts with 3 charges. Each time she or her Opponent are immune to any effect, she gains 1 charge and 4% of her max Power. Charges stack up to 20.",
+                "After landing or receiving a Light or Medium attack and the Opponent has 1 or more Buffs, a charge is consumed and 1 Buff is Nullified."
+            ]
+        },
+        {
+            "title": "Curse of the Black Widow",
+            "content": [
+                "Claire has 3 types of curses each providing her with a different immunity, however only 1 curse can be active at a time.",
+                "By default the Curse of Blood is active. Landing a fourth Light Attack casts the next curse in the following order.",
+                "Curse of Blood: Bleed immunity. Curse of Plague: Poison immunity. Curse of Hellfire: Incinerate immunity.",
+                "When entering a new Curse any Bleed, Poison or Incinerate Debuffs that are Purified by the corresponding curse grant 1 Clairvoyance charge and 4% of Claire's max Power."
+            ]
+        },
+        {
+            "title": "Curse of Damnation",
+            "content": [
+                "Finishing a combo with a Medium attack inflicts 1 Debuff. Throwing a Heavy Attack or Special 1 inflicts up to 3 Debuffs. These Debuffs are determined by Claire's active curse and last for 8 seconds.",
+                "Curse of Blood: Bleed, dealing [500.6] direct damage. Curse of Plague: Poison, dealing [500.6] damage and reducing health recovery by 30%. Curse of Hellfire: Incinerate, dealing [500.6] damage, removing Perfect Block Chance and reducing Block Proficiency by 50%."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict the Opponent with Buff Immunity for 10 seconds. Decreasing to 50% against Science Champions.",
+                "Each hit grants an effect determined by Claire's active curse. Curse of Blood: Regenerate 35% of the damage dealt. Curse of Plague: Steal 5% of the Opponent's current Power. Curse of Hellfire: Deal a burst of [10,012] Energy Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "All Clairvoyance charges are removed, each increasing her Attack Rating during this attack by [2,503].",
+                "Claire gains Death Touch, lasting for 1.2 seconds per Clairvoyance charge removed, Death Touch increases the Potency of all Curse effects by 100% and is not affected by Ability Accuracy reduction."
+            ]
+        },
+        {
+            "title": "Signature Ability - Death Immunity",
+            "content": [
+                "When receiving damage that would knock her out, Death Touch is removed instead and Claire gains a Death Immunity Buff, preventing death and healing [4 - 25]% of her max health over 4 seconds."
+            ]
+        }
+    ]
 }

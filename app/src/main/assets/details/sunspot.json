@@ -10,6 +10,72 @@
     "synergies": [],
     "howToPlay": "Sunspot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sunspot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥"
+    "signatureAbility": "Gideon's Experiments\nSunspot increases his maximum number of Solar Charges by [1 - 40].",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Solar Charges - Max Stacks: 80",
+            "content": [
+                "Sunspot is Immune to all Incinerate effects. Whenever Sunspot would be incinerated he instead generates 5 Solar Charges.",
+                "Sunspot starts a fight with his maximum Solar Charges. 1 charge expires every 3 second(s)."
+            ]
+        },
+        {
+            "title": "Flare State - Max Stacks: 10",
+            "content": [
+                "Sunspot maintains Flare State for as long as he has Solar Charges.",
+                "If under the effects of Shock or when running out of Solar Charges, Flare State is disabled and all stacks are removed.",
+                "Whenever Sunspot's attacks make contact with his Opponent he expends 1 Solar Charge per hit for each stack of Flare State. Each charge expended increases the damage of that hit by [4,546.5]."
+            ]
+        },
+        {
+            "title": "Incinerates",
+            "content": [
+                "When Striking the Opponent, inflict an Incinerate for each Solar Charge expended, dealing [909.3] energy damage for 5 seconds.",
+                "Incinerates remove Perfect Block chance and lower the Opponents Block Proficiency by 50%.",
+                "If a Strike fails to apply an Incinerate on the Opponent due to chance, gain 1 Solar Charge and 10% of a bar of Power. If an Incinerate is purified, gain 1 Solar Charge per Incinerate purified and 10% of a bar of Power each time a Purify occurs.",
+                "As Sunspot gains Power the potency of any Power gained by Incinerates is reduced by up to 57%."
+            ]
+        },
+        {
+            "title": "On Well-Timed Blocks",
+            "content": [
+                "For as long as Sunspot's Opponent is Incinerated, Well-Timed blocks grant 100% Perfect Block chance for the duration of his Opponents Combo or Special Attack.",
+                "When Sunspot performs a Perfect Block he Purifies 1 Incinerate Debuff on his Opponent."
+            ]
+        },
+        {
+            "title": "When Charging a Heavy Attack",
+            "content": [
+                "While Charging a Heavy Attack, Sunspot Purifies 1 Incinerate Debuff on his Opponent every 0.18 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Gain an additional stack of Flare State.",
+                "Incinerates inflicted during this Special Attack last 9 seconds longer."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit expends up to 15 Solar Charges.",
+                "For each stack of Flare State, Sunspot gains a Prowess effect increasing the damage dealt by this Special Attack by 200%"
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Sunspot recovers up to his maximum Solar Charges.",
+                "For every 20 Solar Charges recovered Sunspot Inflicts 1 Incinerate Debuff dealing [9,093] Energy Damage over 12 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Gideon's Experiments",
+            "content": [
+                "Sunspot increases his maximum number of Solar Charges by [1 - 40]."
+            ]
+        }
+    ]
 }

@@ -11,6 +11,55 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Yakmaya immün şampiyon şart. Pasif güç kazanımı çok yüksek, petrify veya en azından güç kontrolü olan şampiyon önemli.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mephisto Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊\n• %100 Yakma direnci\n• Kanama Bağışıklığı (ile sinerji: Purgatory) 🩸\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️"
+    "signatureAbility": "Burning Aura\nMephisto burns with anger, having a [6.32 - 18.98]% chance to activate his Aura of Incineration for 5 seconds. +120% of the above chance on Well Timed Blocks.\nMephisto is immune to Passive Ability Accuracy Modifications.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊\n• %100 Yakma direnci\n• Kanama Bağışıklığı (ile sinerji: Purgatory) 🩸\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️",
+    "abilitySections": [
+        {
+            "title": "Persistent Charge",
+            "content": [
+                "Mephisto starts a quest with 3 Persistent Soul Charges, gaining an additional charge each time he knocks out an opponent, up to a max of 6 Soul Charges. Persistent Soul Charges travels with him from fight-to-fight.",
+                "When below 30% Health, each Persistent Soul Charge is consumed, Regenerating [5,305.5] Health per charge. Mephisto does not take damage while consuming his Persistent Soul Charges through this ability."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Mephisto imprisons the opponent's Soul at the start of the fight, reducing their chance to activate Buffs by 100% for 15 seconds.",
+                "Generates 12% of a Power Bar per second instead of taking Incinerate Energy Damage and Immune to Frostbite and Coldsnap.",
+                "Immune to all known poisons of the Battlerealm."
+            ]
+        },
+        {
+            "title": "Aura of Incineration",
+            "content": [
+                "When Aura of Incineration is active, Mephisto generates Power through his passive Power Gain. Also, for each stack, nearby opponents take [392.7] Incinerate Energy Damage per second."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Consumes a Persistent Soul Charge to imprison the opponent's Soul, reducing their chance to activate Buffs by 100% for 15 seconds.",
+                "Incinerates the opponent, dealing [2,356.2] Energy Damage per stack over 4 seconds. This also removes Perfect Block Chance and reduces Block Proficiency by 50%."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Activates an Aura of Incineration around himself that lasts for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Once a fight, Mephisto instantly drains up to 2 Power Bars from the opponent. If the maximum amount is drained, Mephisto activates his Aura of Incineration for the rest of the fight."
+            ]
+        },
+        {
+            "title": "Signature Ability - Burning Aura",
+            "content": [
+                "Mephisto burns with anger, having a [6.32 - 18.98]% chance to activate his Aura of Incineration for 5 seconds. +120% of the above chance on Well Timed Blocks.",
+                "Mephisto is immune to Passive Ability Accuracy Modifications."
+            ]
+        }
+    ]
 }

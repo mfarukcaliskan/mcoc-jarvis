@@ -17,6 +17,88 @@
     "synergies": [],
     "howToPlay": "Ghost Rider için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ghost Rider Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥"
+    "signatureAbility": "Brother Blaze\nGhost Rider's Fury Passives gain [10 - 50]% potency.\nAgainst #Villains, Ghost Rider's Genesis Passives gain [50 - 200]% potency.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Spirit of Vengeance - Always Active",
+            "content": [
+                "The Rider's curse grants Immunity to Bleed and Incinerate."
+            ]
+        },
+        {
+            "title": "Judgments",
+            "content": [
+                "Certain actions cast indefinite Judgments onto the Opponent. Each individual Judgment cannot be re-cast while they are already active.",
+                "Casting a Judgment also activates an associated non-stacking effect. The duration of this effect is increased by 45% for each personal Judgment on the Opponent.",
+                "Casting a Judgment grants a +[829.12] Fury Passive until Penance Stare ends or Ghost Rider finishes his Special Attack 3. Max stacks: 5.",
+                "With more than 2 Bars of Power, the first hit of Ghost Rider's Heavy Attack consumes 50% of a Bar to also grant a personal Fury."
+            ]
+        },
+        {
+            "title": "At the Start of the Fight Against a #Villain",
+            "content": [
+                "Judgment of Guilt: Inflict a Stagger Passive for 2 seconds. This Judgment counts towards Ghost Rider's other abilities, but is not removed by them."
+            ]
+        },
+        {
+            "title": "Finish a 5-Hit Combo with a Medium Attack",
+            "content": [
+                "Judgment of Corruption: Inflict a 75% Hinder Passive for 8 seconds, paused during Ghost Rider's Special Attacks."
+            ]
+        },
+        {
+            "title": "Finish a 5-Hit Combo with a Light Attack",
+            "content": [
+                "Judgment of Wrath: Inflict a 50% Atrophy Passive for 6 seconds, paused during Ghost Rider's Special Attacks."
+            ]
+        },
+        {
+            "title": "Charge a Heavy Attack",
+            "content": [
+                "Judgment of Spite: Inflict a Power Steal Passive, stealing 25% of a Bar of Power over 4 seconds."
+            ]
+        },
+        {
+            "title": "After Using a Striker",
+            "content": [
+                "Judgment of Retribution: Inflict a Degeneration Passive dealing [3,109.2] Direct Damage over 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Hellfire Storm",
+            "content": [
+                "On activation, cast the Judgment of Malice: Inflict a Fear Passive for 6 seconds.",
+                "On the final hit, inflict a non-stacking Incinerate Passive that deals [12,436.8] Energy Damage over 15 seconds, paused during Ghost Rider's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Look Into My Eyes",
+            "content": [
+                "On activation, cast the Judgment of Greed: Gain a 2% Genesis Passive for 8 seconds.",
+                "After the final hit of this attack, Ghost Rider uses his Penance Stare for up to 3 seconds, or until he is interrupted or takes any action."
+            ]
+        },
+        {
+            "title": "Penance Stare - After Special Attack 2",
+            "content": [
+                "Penance Stare converts all Judgments and personal Incinerates into Degeneration Charges that expire one at a time over 3 seconds and are all removed when it ends.",
+                "If the Opponent is far from Ghost Rider when these Charges expire naturally, inflict a Degeneration Passive that deals [3,109.2] Direct Damage over 3 seconds. As an Attacker, inflict 3 additional Degenerations.",
+                "As an Attacker after the last hit of Special Attack 2, the first Degeneration inflicted also Passively Roots the Opponent until 0.5 seconds after Penance Stare ends. This Root will not re-trigger while already active."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Evil's Bane",
+            "content": [
+                "Inflict a Damnation Passive that deals [10,364] Direct Damage over 12 seconds, and then convert all Judgments into additional Damnations. 1 Damnation is removed when Ghost Rider is struck."
+            ]
+        },
+        {
+            "title": "Signature Ability - Brother Blaze",
+            "content": [
+                "Ghost Rider's Fury Passives gain [10 - 50]% potency.",
+                "Against #Villains, Ghost Rider's Genesis Passives gain [50 - 200]% potency."
+            ]
+        }
+    ]
 }

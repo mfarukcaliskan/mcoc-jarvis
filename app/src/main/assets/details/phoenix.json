@@ -14,6 +14,72 @@
     "synergies": [],
     "howToPlay": "Phoenix için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Phoenix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Güç Emme/Yakma Bağışıklığı 🔋\n• İyileşme Engeli Bağışıklığı 💚🚫"
+    "signatureAbility": "The Eternal Phoenix\n[50 - 100]% chance to start each fight with an indefinite Rite of the Phoenix Charge.\nEach of Phoenix's personal Fury Buffs, up to 6, reduces the Opponent's Auto Block Ability Accuracy by [20 - 35]%.\nWhen Phoenix starts a fight with exactly 60%, 40%, or 20% of her Maximum Health, she gains a Regeneration Buff healing [20 - 40]% of her Max Health over 30 seconds.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Güç Emme/Yakma Bağışıklığı 🔋\n• İyileşme Engeli Bağışıklığı 💚🚫",
+    "abilitySections": [
+        {
+            "title": "Phoenix Force - Max Stacks: 30",
+            "content": [
+                "The uncontrollable Phoenix Force provides Immunity to Incinerate, Power Drain, Power Burn, Power Lock, Special Lock, and Heal Block.",
+                "When Phoenix strikes her Opponent with a Light or Medium Attack, she gains a Phoenix Force Charge lasting 0.7 seconds, paused during Strikers, Striker Openings, Phoenix's Special Attack 2, and Cosmic Flame Aura. They are refreshed whenever she gains another.",
+                "When the Parry Mastery activates, but does not Stun the Opponent, Phoenix gains 4 Phoenix Force Charges, reduced by 1 for each consecutive trigger (Minimum: 1) and all Charges expire 75% slower until one is gained from another source.",
+                "When one or more Phoenix Force Charges expire naturally, they become a Regeneration Buff healing 0.35% of Phoenix's Max Health per Charge over 6 seconds."
+            ]
+        },
+        {
+            "title": "Charging Heavy Attack - Cosmic Flame Aura",
+            "content": [
+                "Charging a Heavy Attack after landing any non-Combo-Ending Basic Attack inflicts a Stun Passive for a fixed 2.5 seconds, removed when the Opponent is struck. Unaffected by Ability Accuracy.",
+                "Charging her Heavy Attack triggers Phoenix's Cosmic Flame Aura for 2.5 seconds, if it is not already active. When triggered this way, it ends early if Phoenix stops charging her Heavy Attack.",
+                "Over the course of its duration, while the Opponent is near, Cosmic Flame Aura inflicts a number of Incinerate Debuffs equal to 1 plus the number of active Phoenix Force Charges when it started.",
+                "Each Incinerate deals [1,055.9] Energy Damage over 30 seconds. Max stacks: 12. When one is replaced due to the stack limit, inflict an Instant Incinerate with triple the potency.",
+                "While the Aura is active, Phoenix's Combat Power Rate is reduced by 100%."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Each hit inflicts a 305.56 Armor Break Debuff for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Echo - Special Attacks 1 & 2",
+            "content": [
+                "Finishing the Special Attack grants a Special Echo Buff for 60 seconds, paused during Phoenix's Special Attacks. Does not stack as a Defender.",
+                "Activating Special Attack 1 or 2 with 3 or more Special Echoes grants Phoenix an Unblockable Buff for the duration of the attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a +[1,583.85] Fury Buff, plus an additional one for every 5 Incinerates on the Opponent. Max stacks: 9.",
+                "These Buffs last 3 seconds and expire one at a time, but are paused while Phoenix does not have 3 Bars of Power.",
+                "Special Echo: Gain a Power Gain Buff granting 125% of a Bar of Power over 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit of the fiery vortex grants 1 Phoenix Force Charge.",
+                "Landing the final hit activates Cosmic Flame Aura for 4 seconds. After ending, Phoenix Force Charges expire 75% slower until a new one is gained.",
+                "Special Echo: When Cosmic Flame Aura would expire naturally, reactivate it 1 time."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Once per fight, gain an indefinite Rite of the Phoenix Charge if not already active. The Charge is consumed when Phoenix would be Knocked Out to gain an Immortality Buff and a Regeneration Buff healing 20% of her Max Health, each lasting 5 seconds.",
+                "Consume all personal Fury Buffs, Power Gain Buffs, and Phoenix Force Charges.",
+                "Special Echo (Consume): Gain a Regeneration Buff for 10 seconds, healing 0.33% of Max Health per Fury and Power Gain consumed."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Eternal Phoenix",
+            "content": [
+                "[50 - 100]% chance to start each fight with an indefinite Rite of the Phoenix Charge.",
+                "Each of Phoenix's personal Fury Buffs, up to 6, reduces the Opponent's Auto Block Ability Accuracy by [20 - 35]%.",
+                "When Phoenix starts a fight with exactly 60%, 40%, or 20% of her Maximum Health, she gains a Regeneration Buff healing [20 - 40]% of her Max Health over 30 seconds."
+            ]
+        }
+    ]
 }

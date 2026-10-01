@@ -13,6 +13,68 @@
     "synergies": [],
     "howToPlay": "Spider-Man (Stealth Suit) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man (Stealth Suit) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Arındırma (ile sinerji: Spider-Man Supreme) 💪🏼"
+    "signatureAbility": "S.H.I.E.L.D. Enhanced Spider\nIncreases the Potency of Fury Passives by [10 - 40]%.",
+    "immunityDetails": "• %100 Arındırma (ile sinerji: Spider-Man Supreme) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Spider-Man gains +[1,833.33] Critical Rating versus Sinister Six and Symbiote champions.",
+                "When a Web Cartridge Debuff is replaced, gain a Fury Passive increasing Attack Rating by [16,866] for 25 seconds.",
+                "Spider-Man uses his web-shooters at point-blank range for his first and fourth Light Attacks. These hits do not make contact."
+            ]
+        },
+        {
+            "title": "Spider-Sense",
+            "content": [
+                "Spider-Man begins the fight with a Spider-Sense Charge granting him a Passive 70% chance to Evade incoming Basic Attacks when not Blocking.",
+                "When Spider-Man Evades an attack, Spider-Sense goes on cooldown for 25 seconds.",
+                "Dodging or Evading incoming hits pauses Fury and Precision Passives for 3.5 seconds."
+            ]
+        },
+        {
+            "title": "S.H.I.E.L.D. Web-Shooters - Pre-Fight Ability",
+            "content": [
+                "Spider-Man has 1 Persistent Charge which can be consumed before the fight to load either a Tranquilizer, Web-Foam, or Flash Bang Cartridge into his web-shooters. Only 1 type of Cartridge may be loaded.",
+                "Spider-Man starts the fight with 5 Charges of his loaded Web Cartridge.",
+                "If no Cartridge type is loaded, Spider-Man brings in Flash Bang Web Cartridges by default.",
+                "Spider-Man expends Web Cartridge Charges inflicting Web Cartridge Debuffs when striking with Light Attack 4 or Special Attack 2.",
+                "At the start of the fight, gain back 1 Persistent Charge if it was spent."
+            ]
+        },
+        {
+            "title": "S.H.I.E.L.D. Web Cartridge Debuffs",
+            "content": [
+                "Tranquilizer - 100% chance to inflict Enervate preventing the Opponent from gaining Power when struck for 3.75 seconds.",
+                "Web-Foam - 100% chance to inflict a Slow Debuff. While the opponent is Slowed Spider-Man cannot Miss.",
+                "Flash Bang - 100% chance to inflict a Fragility Debuff. When attacking a Fragile Opponent, increase Critical Damage Rating by [1,546.88] and decrease their Block Proficiency by 50% for 12 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Re-activates Spider-Sense if it is on cooldown.",
+                "If Spider-Sense is not on cooldown, gain a Precision Passive increasing Critical Rating by [11,000] for 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The last two hits of this attack each expend a Web Cartridge Charge to inflict a Web Cartridge Debuff. These Debuffs have 250% duration.",
+                "The duration increase lasts until a Web Cartridge Debuff expires. Debuffs that are replaced do not count as having expired."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain back all spent Web Cartridge Charges."
+            ]
+        },
+        {
+            "title": "Signature Ability - S.H.I.E.L.D. Enhanced Spider",
+            "content": [
+                "Increases the Potency of Fury Passives by [10 - 40]%."
+            ]
+        }
+    ]
 }

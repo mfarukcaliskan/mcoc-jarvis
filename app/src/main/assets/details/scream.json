@@ -19,5 +19,83 @@
     "synergies": [],
     "howToPlay": "Scream için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Scream Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Bad Hair Day\nWhen Madness is consumed by Scream, [35 - 75.2]% chance to gain a Regeneration Buff healing 3% of missing Health over 5 seconds.\nAgainst #Spider-Verse Heroes, each stack of Madness reduces the Opponent's Evade Ability Accuracy by [12.5 - 25]%.\nAgainst #Symbiotes when gaining Madness, each stack of Madness grants a [12.5 - 25]% chance to gain 1 extra Madness.\nAgainst Tech Champions, each stack of Madness reduces the Opponent's Armor Up Ability Accuracy by [12.5 - 25]%.",
+    "abilitySections": [
+        {
+            "title": "All Attacks - Rip and Hair",
+            "content": [
+                "All hits have a 25% chance to inflict a Bleed Debuff dealing [1,642.5] Direct Damage over 10 seconds.",
+                "When the Opponent is inflicted with a personal Bleed, also inflict a [144.74] Armor Break Debuff for 10 seconds, plus 0.5 seconds for each rank invested in the Deep Wounds Mastery. If a personal Bleed is prevented by an Immunity, inflict 2 Armor Breaks."
+            ]
+        },
+        {
+            "title": "Madness Passives - Max: 8",
+            "content": [
+                "Enter each fight with 4 Madness Passives. When these expire naturally, or on Scream's fourth Light Attack, they are all refreshed and 2 Madness are gained.",
+                "The first Madness lasts 18 seconds, with each additional Madness increasing their own expiry rate by 20%.",
+                "Madness is paused for 0.5 seconds when the Opponent is struck by a Basic Attack and is paused indefinitely during the Opponent's Special Attacks or while Strikers are active.",
+                "At 6 or more Madness, the Opponent's Stun Debuffs suffer 100% reduced Ability Accuracy.",
+                "When knocked down by a Special Attack, when a personal Buff is Nullified, or when Incinerated by a Mystic Champion, Scream loses 2 Madness. If Madness falls to 0, 1 is gained after 9 seconds."
+            ]
+        },
+        {
+            "title": "Hybrid Buffs - Max: 2 of Each",
+            "content": [
+                "When Madness is refreshed its icon changes to reflect the currently selected Hybrid Buff, cycling through Scream's indefinite Hybrid Buffs in the order listed below:",
+                "A 25% Vicious Buff, a 20% Energize Buff, a [916.67] Bulwark Buff, and a [916.67] Impact Buff.",
+                "Hybrid Buffs can only be gained while Madness is at 1 or more. Either Champion's second Medium Attack grants Scream the currently selected Hybrid Buff.",
+                "When gaining a Hybrid Buff with 2 of the currently selected Hybrid Buff, Madness is refreshed instead.",
+                "While at 2 stacks of any Hybrid Buff, when Scream would gain a Hybrid Buff she also gains a non-stacking Undermine Buff for 5 seconds. As an Attacker, this Undermine is paused during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Auto-Blocks - Symbiote Sense",
+            "content": [
+                "When Madness is consumed by Scream, gain a non-stacking Auto-Block Buff for 5 seconds that is removed when Auto-Blocking a contact attack.",
+                "This Auto-Block Buff grants a 100% chance to Auto-Block Basic Attacks. These count as Well-Timed Blocks and have a 100% chance to resist a Block Break by a Heavy Attack.",
+                "When successfully Auto-Blocking an attack, gain 1 of the currently selected Hybrid Buff and inflict a personal Bleed."
+            ]
+        },
+        {
+            "title": "Heavy Attacks - Consuming Madness",
+            "content": [
+                "Charging a Heavy Attack consumes 1 Madness to inflict a 30% Infuriate Debuff for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks - Knotted and Broken",
+            "content": [
+                "During Scream's Special Attacks, all personal Debuffs on the Opponent and all personal Buffs other than Regeneration on Scream are paused."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain +[2,190] Attack Rating for each unique Buff on Scream for the duration of this attack.",
+                "Each hit consumes 1 Madness to grant Scream a 100% Fervor Buff for 20 seconds. On any hit with 0 Madness, gain 1 Madness and then gain Madness instead of Fervor for the rest of this attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, consume all Madness. If 4 or more Madness were consumed, gain an Unblockable Buff for the duration of this attack.",
+                "On each of the final four hits, deal a burst of [1,642.5] Direct Damage for each personal Debuff on the Opponent. The potency of these bursts increases by 8% for each Madness consumed during this attack. Max Debuffs: 30."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain up to 8 Madness, and up to 2 of each Hybrid Buff. Then, until the end of Scream's next Special Attack, abilities that consume Madness during Special Attacks consume 0 but still grant their outlined effects."
+            ]
+        },
+        {
+            "title": "Signature Ability - Bad Hair Day",
+            "content": [
+                "When Madness is consumed by Scream, [35 - 75.2]% chance to gain a Regeneration Buff healing 3% of missing Health over 5 seconds.",
+                "Against #Spider-Verse Heroes, each stack of Madness reduces the Opponent's Evade Ability Accuracy by [12.5 - 25]%.",
+                "Against #Symbiotes when gaining Madness, each stack of Madness grants a [12.5 - 25]% chance to gain 1 extra Madness.",
+                "Against Tech Champions, each stack of Madness reduces the Opponent's Armor Up Ability Accuracy by [12.5 - 25]%."
+            ]
+        }
+    ]
 }

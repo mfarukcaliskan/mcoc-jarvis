@@ -15,5 +15,76 @@
     "synergies": [],
     "howToPlay": "Carnage için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Carnage Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Bloodlust\nThe sight and smell of blood triggers Carnage's bloodlust, granting a Power Gain Buff when activating a Bleed or Armor Break on the opponent that lasts as long as the Opponent is Bleeding or Armor Broken. The Power Gain grants up to [6.5 - 9.5]% of a Bar of Power per second based on how close Carnage is to the opponent.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "The Carnage Symbiote changes form creating weapons and armor which provide Passive bonuses based on Carnage's current needs.",
+                "Struck: Resist Physical +[2,250] Physical Resistance.",
+                "Block: Bulwark +[2,250] Block Proficiency",
+                "Light Attack: Precision +[1,833.33] Critical Rate",
+                "Medium Attack: Fury +[3,992.85] Attack",
+                "Heavy Attack: Cruelty +[2,250] Critical Damage Rate"
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Each time Carnage activates a Special Attack he begins to Mutate for 10 seconds.",
+                "Once his Mutation ends he copies his current Symbiotic Creation as a Permanent Buff.",
+                "Maximum of 5 Permanent Buffs."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "If the target is already Bleeding or Armor Broken, gain a 100% Chance to Bleed dealing [488.02] damage over 0.5 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "100% chance to inflict a Bleed Debuff, dealing [8,651.18] Direct Damage over 15 seconds."
+            ]
+        },
+        {
+            "title": "Ravager - Passive",
+            "content": [
+                "Carnage rips and tears at his opponents, each time he triggers a Bleed Debuff on his Opponent he has a 25% chance to Refresh the Duration of all the other Bleed Debuffs on his Opponent.",
+                "If a Bleed fails to apply due to an Immunity, Carnage has a 100% chance to Armor Break his Opponent, reducing their Armor by [1,833.33] lasting for 10 seconds. The Armor Break doesn't stack.",
+                "While his Opponent is Bleeding or Armor Broken, his Special Attacks become Unblockable."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Carnage gains 50% additional Power from Striking his Opponent. This is reduced by 25% per Mutation Buff he has."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack receives [1,480.77] additional Critical Rating."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack receives [2,160.71] Critical Damage Rating."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict Bleed, dealing [50,576.1] Direct Damage over 30 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Bloodlust",
+            "content": [
+                "The sight and smell of blood triggers Carnage's bloodlust, granting a Power Gain Buff when activating a Bleed or Armor Break on the opponent that lasts as long as the Opponent is Bleeding or Armor Broken. The Power Gain grants up to [6.5 - 9.5]% of a Bar of Power per second based on how close Carnage is to the opponent."
+            ]
+        }
+    ]
 }

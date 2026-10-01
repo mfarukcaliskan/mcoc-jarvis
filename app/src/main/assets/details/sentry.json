@@ -14,6 +14,95 @@
     "synergies": [],
     "howToPlay": "Sentry için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sentry Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Silme (Nullify) Bağışıklığı 🔮"
+    "signatureAbility": "Molecular Reformation\nWhen Struck by a basic attack, gain an Indestructible Passive for 2 seconds. Cooldown for [90 - 30] seconds.\nWhen Sentry enters a Solar Form with more than 20 Solar Energy, he pauses personal Debuffs on the Opponent for [0.1 - 0.5] second(s) for each Solar Energy over 20.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Silme (Nullify) Bağışıklığı 🔮",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Sentry is Immune to all Nullify, Fateseal, and Incinerate effects.",
+                "Sentry converts any Critical Damage Rating bonuses into Attack Rating, increasing his Attack by up to +[9,973]."
+            ]
+        },
+        {
+            "title": "Bulwark Buff - Max: 20",
+            "content": [
+                "Whenever Sentry inflicts a Debuff, gain a +[70.51] Bulwark Buff for 25 seconds.",
+                "If Sentry would gain a Precision Buff from the Dexterity Mastery he instead gains one of his Bulwark Buffs. This ability cannot grant more than 1 Bulwark Buff every 0.5 seconds.",
+                "While a personal Bulwark Buff is active, Mystic Champions' Combat Power Rate cannot exceed the amount they started the fight with."
+            ]
+        },
+        {
+            "title": "Buff Conversion",
+            "content": [
+                "On the final hit of a Special Attack convert all Active Buffs into a 15 second Passive of the corresponding type.",
+                "Any effects not listed are converted into Fury Passives.",
+                "Bulwark Passives have a +[144.74] potency. Max Stacks: 20.",
+                "Fury Passives increase Attack Rating by +[997.3]. Max Stacks: 40.",
+                "Regeneration Passives heal for +[2,041.23] health. Max Stacks: 20."
+            ]
+        },
+        {
+            "title": "Solar Forms",
+            "content": [
+                "Whenever Sentry converts a Buff into a Passive he gains 1 Solar Energy. When reaching 20 or more Solar Energy, consume all then change Solar Forms in the order of Base, Absolute Strength, then Brilliant Might.",
+                "While not in a Solar Form, Sentry's Basic Attacks inflict a [27.78] Exhaustion Debuff for 20 seconds. Max Stacks: 10.",
+                "Absolute Strength Empowers Medium and Light Attacks. While active, Empowered Attacks inflict a 10% Wither Debuff for 20 seconds. Max stacks: 10.",
+                "Brilliant Might Empowers Heavy Attacks. While active, Empowered Attacks inflict 2 +[305.56] Energy Vulnerability Debuffs for 20 seconds. Max Stacks 10.",
+                "All Empowered Attacks deal an additional 50% of the damage dealt as a burst of Energy Damage, and gain +[299.19] Attack Rating for each Debuff on the Opponent up to 99 debuffs.",
+                "When reaching 20 Solar Energy while in Brilliant Might, remove any Solar Forms, and gain a Reality Warp."
+            ]
+        },
+        {
+            "title": "Reality Warp",
+            "content": [
+                "Sentry gains 1 Reality Warp whenever he wins a fight and loses 1 whenever he is defeated.",
+                "Each Reality Warp increases the Attack Rating Empowered Attacks gain per Debuff by 50%."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "While at 3+ Reality Warp, Heavy Attacks refresh personal Debuffs."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "While at 6+ Reality Warp, charging a Heavy Attack after landing a first Medium Attack inflicts a Stun passive for 0.75 seconds."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "While at 8+ Reality Warp, Sentry Starts each fight in Absolute Strength."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict  a non-stacking Halt Debuff for 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, Sentry gains 1 of his Personal Fury Passives for each Debuff on the Opponent, up to 10."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Instead of Solar Energy, Sentry gains a Regeneration Buff for each Buff converted into a Passive by this attack.",
+                "Regen Buffs generated from this attack heal +[1,360.82] over 15 seconds. Max Stacks: 20."
+            ]
+        },
+        {
+            "title": "Signature Ability - Molecular Reformation",
+            "content": [
+                "When Struck by a basic attack, gain an Indestructible Passive for 2 seconds. Cooldown for [90 - 30] seconds.",
+                "When Sentry enters a Solar Form with more than 20 Solar Energy, he pauses personal Debuffs on the Opponent for [0.1 - 0.5] second(s) for each Solar Energy over 20."
+            ]
+        }
+    ]
 }

@@ -16,6 +16,69 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Enerji ve fiziksel hasara çok dirençli, ana tehlike pasif durdurulamaz olması (bloğa vurunca 3, E1'de 5, E2'de 10, E3'te 20 yük — 20 yükte 20sn durdurulamaz olur). Yavaşlatma/momentum/deceleration/frenleme efektli şampiyonlar durdurulamazı yok sayar. Garanti kritik vuruş bir yük siler, Skill şampiyonun kanama/yakma/şok uygulaması da bir yük siler.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sandman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️"
+    "signatureAbility": "The Rude Sandstorm\nWhile Unstable, Sandman gains an indefinite Fury Passive granting +[2,151 - 10,755] Attack Rating.\nSandman's Heavy Proficiency Passives grant an additional +[672.19] Attack Rating.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Sandman is Immune to Bleed, Poison, and Shock effects.",
+                "Sandman's Personal Debuffs can be inflicted through Block, are paused during all Special Attacks, and expire one at a time every second.",
+                "Knocking Down the Opponent with a Heavy Attack grants Sandman an indefinite Heavy Proficiency Passive increasing his Attack Rating by +[10,755] during Heavy Attacks. Max Stacks: 8."
+            ]
+        },
+        {
+            "title": "Resistance Up Passives - Max: 20",
+            "content": [
+                "Sandman gains an indefinite +[144.74] Resistance Up Passive every time he strikes the Opponent with a Light or Medium Attack. As a Defender he also gains these when striking the Opponent's Block with a Light or Medium Attack.",
+                "Striking Sandman or his Block with a Critical Hit removes 1 Resistance Up. When Sandman would receive a Bleed, Poison, or Shock effect from a Skill champion, he also loses 1 Resistance Up.",
+                "Sandman's Resistance Ups are unaffected by Ability Accuracy Modification."
+            ]
+        },
+        {
+            "title": "Unstable",
+            "content": [
+                "At 20 Resistance Ups Sandman becomes Unstable. Unstable lasts 20 seconds or until Sandman runs out of Resistance Ups. While Unstable Resistance Ups can no longer be gained and Sandman loses 1 Resistance Up when he or his Block is struck, increased to 2 as a Defender. All Resistance Ups are lost when Unstable expires.",
+                "While Unstable, Sandman gains an indefinite Unstoppable Passive. When becoming Unstable, Sandman also inflicts 10 Suppression Debuffs of 5% potency.",
+                "Sandman's Light and Medium Attacks consume 1 Resistance Up on Hit, Block, or Whiff. If the attack strikes the Opponent or a Block that is not Well-Timed, deal a burst of [537.75] Physical Damage.",
+                "The final hit of Sandman's Heavy Attack, Special Attack 1, or Special Attack 2 consumes up to 3 Resistance Ups. For each time the Opponent has been Knocked Down since Unstable started, deal a burst of [430.2] Physical Damage on hit for each of Sandman's personal Debuffs they're suffering. Max Debuffs: 20."
+            ]
+        },
+        {
+            "title": "Quicksand! - Heavy Attack While Unstable",
+            "content": [
+                "If Sandman is struck by a Basic Attack while he charges his Heavy Attack, he ignores the hit by becoming Passively Indestructible.",
+                "Striking the Opponent with the first hit of his Heavy Attack Passively Roots them for 2.25 seconds. If the Opponent has the Stand Your Ground Mastery active, it is removed while they are Rooted.",
+                "Striking a Rooted Opponent with a Heavy Attack locks Sandman in place until the Root expires, or until he Dodges back."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, Sandman gains 1 Resistance Up, then gains 1 Resistance Up on each hit. As a Defender, he instead gains 5 Resistance Ups on activation.",
+                "On activation, inflict 2 Petrify Debuffs of 8% potency, then each hit inflicts 2 additional Petrify Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, Sandman gains 2 Resistance Ups, then gains 1 Resistance Up on each hit. As a Defender, he instead gains 10 Resistance Ups on activation.",
+                "On activation, inflict 6 Decelerate Debuffs of 7% potency, then each hit inflicts 3 additional Decelerate Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict 30 Physical Vulnerability Debuffs of [27.78] potency.",
+                "Gain 20 Resistance Ups. While Unstable, instead of gaining Resistance Ups, Sandman inflicts an additional 20 Physical Vulnerability Debuffs."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Rude Sandstorm",
+            "content": [
+                "While Unstable, Sandman gains an indefinite Fury Passive granting +[2,151 - 10,755] Attack Rating.",
+                "Sandman's Heavy Proficiency Passives grant an additional +[672.19] Attack Rating."
+            ]
+        }
+    ]
 }

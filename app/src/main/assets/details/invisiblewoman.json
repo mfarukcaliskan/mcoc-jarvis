@@ -14,5 +14,84 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Aldığı hasarı %90 sınırlayan koruması bitince veya yere serilince görünmez olur. Vigilance veya purify eden şampiyon görünmezliğini kaldırabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Invisible Woman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Vanishing Act\nInvisible Woman turns Invisible at the start of the fight, but it is not Paused.\n[10 - 60]% chance to turn Invisible whenever Invisible Woman is knocked down.\nWhenever the Opponent Misses, the Force Field gains back [1 - 10]% of its starting value.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "While Dodging backward, Invisible Woman is not struck by attacks.",
+                "20% chance that a Block is a Perfect Block, reducing all damage to 0.",
+                "Physical Resistance decreased by -[916.67].",
+                "For each Debuff on the Opponent, Invisible Woman's Attacks deal an additional 4% of the damage dealt as a burst of Physical Damage."
+            ]
+        },
+        {
+            "title": "The Best Defense... - Pre-Fight Ability",
+            "content": [
+                "If the Force Field is active, Invisible Woman's Hits have +[2,111.8] Attack Rating, but also drain the Force Field by 5%."
+            ]
+        },
+        {
+            "title": "Force Field - Passive",
+            "content": [
+                "Invisible Woman starts the Fight with a Force Field. The Force Field's maximum strength is equal to [11,362.2] Health, and scales with boosts and buffs.",
+                "Whenever Invisible Woman would take damage other than from Special Attack 3, the Force Field takes up to 90% of the damage instead.",
+                "Physical and Energy Resistance are increased by [485.29].",
+                "When the Force Field runs out, it goes into cooldown for 20 second(s), after which it will reform at 100% strength. If the Force Field doesn't reform for any reason, it goes into cooldown again for 10 second(s)."
+            ]
+        },
+        {
+            "title": "Invisibility - Passive",
+            "content": [
+                "Invisible Woman turns Invisible whenever she Dodges an attack or the Force Field is depleted.",
+                "Invisibility lasts for 2 second(s), but starts Paused if Invisible Woman is not Bleeding.",
+                "While Invisible, incoming attacks have a 100% chance to Miss as long as Invisible Woman is not Blocking or Dodging, and Critical Rating is increased by [5,107.14].",
+                "Invisibility is unpaused when Invisible Woman Blocks an Attack, an Opponent Misses, or an Opponent hits Invisible Woman.",
+                "When Invisibility expires, it goes into cooldown for 10 second(s)."
+            ]
+        },
+        {
+            "title": "Fragility - Debuff",
+            "content": [
+                "Whenever Invisible Woman would turn Invisible, she places a Fragility Debuff on the Opponent, max stacks 50.",
+                "When attacking a Fragile Opponent, increase Critical Damage Rating by [44.72] and decrease their Block Proficiency by 10%.",
+                "All Fragility Debuffs are Purified when Invisibility expires. Whenever a Fragility Debuff is Purified, Invisibility expires immediately."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "If the Force Field is active, 65% chance to Exhaust the Opponent, decreasing Critical Damage Rating by [85.05] for 5 second(s). The Opponent's Power Gain effects are also reduced by 25% for each Exhaustion Debuff on them."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On the last hit, if the Force Field is active, add a flat 25% to its current strength.",
+                "On the last hit, if the Force Field is on Cooldown, 50% chance for it to be restored at 50% strength."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit of this attack grants Fury for 9 second(s), increasing Attack Rating by [10,559], scaling with the current Force Field strength. Then the Force Field is drained.",
+                "If this attack is Blocked, Invisible Woman has a 50% chance to turn Invisible."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If the Force Field is active, add a flat 100% to the Force Field's current strength. If the Force Field is on Cooldown, it is instead restored at 100% strength.",
+                "Pause Invisibility on Invisible Woman. It cannot unpause for 6 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Vanishing Act",
+            "content": [
+                "Invisible Woman turns Invisible at the start of the fight, but it is not Paused.",
+                "[10 - 60]% chance to turn Invisible whenever Invisible Woman is knocked down.",
+                "Whenever the Opponent Misses, the Force Field gains back [1 - 10]% of its starting value."
+            ]
+        }
+    ]
 }

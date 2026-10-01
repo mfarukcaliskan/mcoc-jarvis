@@ -13,6 +13,67 @@
     "synergies": [],
     "howToPlay": "Luke Cage için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Luke Cage Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸"
+    "signatureAbility": "Tough It Out\nBulletproof skin grants Luke Cage an Indestructible Passive for [1.5 - 4] seconds when struck.\nAfter it expires, this ability goes on cooldown for [60 - 35] seconds. This cooldown is paused while the Opponent is Stunned.\nWhile his Indestructible is not on cooldown, Luke gains [305.56 - 1,833.33] Block Proficiency.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Bulletproof and near impenetrable skin provides Immunity to Bleed effects and reduces the damage of incoming non-contact Physical hits by 30%.",
+                "Luke Cage gains [3,021.3] Attack Rating for each unique Debuff on the Opponent.",
+                "Luke Cage gains [1,510.65] Attack Rating for each non-unique Debuff on the Opponent.",
+                "Luke's personal Trauma and Exhaustion Debuffs are paused during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Exhaustion",
+            "content": [
+                "Luke's powerful blows wear down his Opponents. Light Attacks have an 80% chance to inflict an Exhaustion Debuff, reducing Critical Damage Rating by -[115.9] for 12 seconds. Chance to apply is reduced by 5% flat per stack on the Opponent. Max stacks: 20.",
+                "When struck by a Special Attack 3, inflict 2 of these Exhaustion Debuffs.",
+                "The Opponent's Ability Power Rate is reduced by 25% for each Exhaustion Debuff on them, to a maximum of 6.",
+                "While the Opponent is suffering from at least 6 Exhaustion Debuffs, they suffer an indefinite Sunder Debuff, setting Critical Resistance to 0."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Inflict a non-stacking 35% potency Debilitate Debuff for 12 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Exhaustion and Trauma Debuffs on the Opponent are paused during Luke's Special Attacks, and for 3 seconds afterwards per Bar of Power spent, paused during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit deals a burst of [1,510.65] Physical Damage.",
+                "If a personal Concussion is active, the final hit inflicts a Stun Debuff for 2.5 seconds. Each time this Stun is inflicted, its duration is reduced by 50% until the next time Luke inflicts a Concussion."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Consume up to 5 personal Exhaustion Debuffs to inflict a Concussion Debuff for 25 seconds, reducing Ability Accuracy by 15% per Debuff consumed.",
+                "Against Mystic Opponents, apply an additional Concussion Debuff if 5 Exhaustions were consumed."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a non-stacking Trauma Debuff for 30 seconds, causing all hits to deal an additional 20% of the damage recently dealt as a burst of Physical Damage.",
+                "Inflict 4 Exhaustion Debuffs, each reducing Critical Damage Rating by [126.57] for 30 seconds. Max Stacks: 4."
+            ]
+        },
+        {
+            "title": "Signature Ability - Tough It Out",
+            "content": [
+                "Bulletproof skin grants Luke Cage an Indestructible Passive for [1.5 - 4] seconds when struck.",
+                "After it expires, this ability goes on cooldown for [60 - 35] seconds. This cooldown is paused while the Opponent is Stunned.",
+                "While his Indestructible is not on cooldown, Luke gains [305.56 - 1,833.33] Block Proficiency."
+            ]
+        }
+    ]
 }

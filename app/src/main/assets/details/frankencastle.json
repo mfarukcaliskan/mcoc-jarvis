@@ -14,6 +14,70 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Ana tehlike pasif durdurulamaz olması (ileri yürürken) — durdurulamaz-karşıtı şampiyon kullan. Zehir, spectre ve petrify'a immün, iyileşmesi tersine çevrilemez — sadece iyileşme engeli işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Franken-Castle Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "Undead and Hating It\nWhen Frank activates a Special Attack, he gains an Undying Passive for [5 - 10] seconds. If this Undying prevents him from being Knocked Out, he gains his personal Rage Debuff for 20 seconds.\nFrank gains +[142.44 - 687.5] Critical Rating for each non-Damaging Debuff he is suffering from, up to 10.\nWhile the Opponent is Incinerated, Frank gains +[479.57 - 2,250] Energy Penetration, doubled while fighting Science Champions.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Dr. Morbin-stein's Monster - Always Active",
+            "content": [
+                "The reanimation process grants Immunity to Poison, Petrify, and Spectre effects. This also sets Frank's Regeneration Rate to 65%, and prevents it from being reduced any further.",
+                "Being too angry to die grants Frank Rank 1 of the Willpower Mastery.",
+                "When struck by a Basic Attack while Unstoppable, or when Shocked, Frank gains a non-stacking Rage Debuff for 20 seconds. With Rage, Frank's Basic Attack hits Passively convert a flat 10% more Adrenaline to Health.",
+                "When Frank is inflicted with or Immune to a non-Damaging Debuff other than Rage, his Combo Meter gains 2 hits.",
+                "When Frank's Combo Meter crosses a multiple of 15, he gains a +[3,524.85] Berserk Passive for 20 seconds, paused during his Special Attacks. Max stacks: 6."
+            ]
+        },
+        {
+            "title": "Unstoppable Machine - While Running",
+            "content": [
+                "Frank does not idle after Dodging back, and gains an Unstoppable Passive for 0.7 seconds when he starts to run. This will not re-trigger while active, and is paused while running, charging Heavy Attacks, or attacking.",
+                "Frank's Unstoppable also grants him +30% Combat Adrenaline, and it prevents incoming Basic Attacks from resetting his Combo Meter. As an Attacker, it also grants him Stun Immunity.",
+                "As an Attacker, Frank also gains his Unstoppable when he is struck by a Basic Attack immediately after Dodging back. He also gains it, plus the ability to run immediately, after Blocking the final hit of the Opponent's Special Attacks.",
+                "This Unstoppable is immediately removed at the end of Frank's Heavy or Special Attacks, and when the Opponent activates a Special Attack."
+            ]
+        },
+        {
+            "title": "Crushing Blows - During Frank's Unstoppable",
+            "content": [
+                "On hit or on Block as an Attacker, Frank's second Basic Attack inflicts an indefinite Crush Passive until his Unstoppable expires.",
+                "When Frank's Crush ends after being used to Break a Block, it goes on cooldown for 20 seconds, or until he gains 1 of his Berserk Passives."
+            ]
+        },
+        {
+            "title": "External Combustion - Heavy Attack",
+            "content": [
+                "On hit, Frank's Heavy Attack inflicts an Incinerate Debuff that deals [7,049.7] Energy Damage over 20 seconds, paused during his Special Attacks. Max stacks: 4.",
+                "On hit or Block, Frank's Heavy Attack also adds 4 hits to his Combo Meter."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - The Samaritans",
+            "content": [
+                "The first hit grants Frank a personal Berserk Passive.",
+                "On the final 3 hits, Frank deals a burst of [5,035.5] Energy Damage with its base potency increased by +12.5% flat for each of his Incinerates on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - This Is My Best Weapon",
+            "content": [
+                "The first 4 hits each grant Frank a personal Berserk Passive.",
+                "The final hit refreshes all of Frank's Incinerates, and then inflicts 8 Incinerate Debuffs that each deal [7,049.7] Energy Damage over 30 seconds, paused during his Special Attacks. Max stacks: 8."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - It's Aliiiive!",
+            "content": [
+                "Frank gains 15% of missing Health as Adrenaline, and Passively Stuns the Opponent for 3 seconds.",
+                "For the next 10 seconds, Frank's Light and Medium Attacks inflict 1 of the Incinerates from his Special Attack 2."
+            ]
+        },
+        {
+            "title": "Signature Ability - Undead and Hating It",
+            "content": [
+                "When Frank activates a Special Attack, he gains an Undying Passive for [5 - 10] seconds. If this Undying prevents him from being Knocked Out, he gains his personal Rage Debuff for 20 seconds.",
+                "Frank gains +[142.44 - 687.5] Critical Rating for each non-Damaging Debuff he is suffering from, up to 10.",
+                "While the Opponent is Incinerated, Frank gains +[479.57 - 2,250] Energy Penetration, doubled while fighting Science Champions."
+            ]
+        }
+    ]
 }

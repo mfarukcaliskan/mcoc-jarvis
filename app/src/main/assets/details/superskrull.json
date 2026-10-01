@@ -18,6 +18,71 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Nötralize en iyi cevap. Güç kazanımına ve 25sn'de bir gelen vacilo efektine dikkat et. Güç kontrolcüleri iyi çalışır. E2 kullanmasına izin verme — bloklansa bile ölümcül olabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Super Skrull Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Yakma Bağışıklığı 🔥"
+    "signatureAbility": "Self Sustaining Power\nAgainst Tech Champions, when Super-Skrull would inflict a personal Incinerate Debuff he instead inflicts a matching Nova Flame Debuff.\nWhile in Cosmic Energy Overload, Super-Skrull gains a Power Gain Buff, granting [1.5 - 7.1]% of a Bar or Power per second.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Yakma Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Immune to Shock, Incinerate, and Special Lock effects.",
+                "Fury Buffs also grant +[85.05] Block Penetration",
+                "Armor Up Buffs also grant +[144.74] Critical Resistance"
+            ]
+        },
+        {
+            "title": "Hypnotic Gaze",
+            "content": [
+                "10 seconds after the start of each fight, inflict a Falter Passive for 1 second.",
+                "This Falter starts paused and is unpaused when Super-Skrull is struck or the Opponent Misses.",
+                "When this Falter ends, inflict a non-stacking [916.67] Energy Vulnerability Passive for 22 seconds and start a Falter cooldown for 22 seconds. When this cooldown ends, reinflict the Falter."
+            ]
+        },
+        {
+            "title": "Cosmic Energy Receptor Buffs - Max: 5",
+            "content": [
+                "Every 1 second Super-Skrull reaches full Charge, and his next action creates an indefinite Buff, resetting the Charge.",
+                "Hitting the Opponent or their Block grants a +[1,360.96] Fury Buff.",
+                "Being struck by or Blocking an attack grants a +[523.81] Armor Up Buff."
+            ]
+        },
+        {
+            "title": "Cosmic Energy Overload",
+            "content": [
+                "Upon reaching his Cosmic Energy Receptor Buff limit, Super-Skrull enters Cosmic Energy Overload for 15 seconds, and cannot gain any more Cosmic Energy Receptor Buffs until it ends.",
+                "Super-Skrull gains additional non-stacking Buffs for 15 seconds based on the Armor Up or Fury Buffs active when he enters Overload.",
+                "3+ Armor Up Buffs: Gain a Vigilance Buff",
+                "6+ Armor Up Buffs: Gain an Unblockable Buff",
+                "3+ Fury Buffs: Gain an Undermine Buff",
+                "6+ Fury Buffs: Gain a Nova Fists Buff. While active, all attacks inflict a [3,827.7] Incinerate Debuff for 1.5 seconds.",
+                "All indefinite Cosmic Energy Receptor Buffs are removed when Overload ends."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Invisible Boulder Toss",
+            "content": [
+                "On activation, convert up to 5 Fury Buffs into +[523.81] Armor Up Buffs for 30 seconds and refresh any personal Vigilance and Undermine Buffs."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Elastic Firestorm",
+            "content": [
+                "On activation, convert up to 5 Armor Up Buffs into +[1,360.96] Fury Buffs.",
+                "Each hit inflicts a [11,908.4] Incinerate Debuff for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - For the Skrull Empire",
+            "content": [
+                "Gain an indefinite non-stacking Aptitude Buff increasing the potency of future Armor Up, Fury, and Precision Buffs by 60%",
+                "100% chance to inflict a 3 second Stun Debuff"
+            ]
+        },
+        {
+            "title": "Signature Ability - Self Sustaining Power",
+            "content": [
+                "Against Tech Champions, when Super-Skrull would inflict a personal Incinerate Debuff he instead inflicts a matching Nova Flame Debuff.",
+                "While in Cosmic Energy Overload, Super-Skrull gains a Power Gain Buff, granting [1.5 - 7.1]% of a Bar or Power per second."
+            ]
+        }
+    ]
 }

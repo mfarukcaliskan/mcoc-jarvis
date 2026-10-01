@@ -14,5 +14,60 @@
     "synergies": [],
     "howToPlay": "Blade (Stellar-Forged) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Blade (Stellar-Forged) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Enhanced Vampiric Immortality\nHolding Block for 0.5 Seconds: While below 70% Health, Blade's healing factor allows him to Passively Regenerate [6,275.6] Health at a cost of [39.61 - 23.96]% of a Bar of Power per second.\nWhile Regenerating from this ability, Passively Regenerate [40 - 70]% of the damage taken from Blocked hits.",
+    "abilitySections": [
+        {
+            "title": "A Hunter Forged in ISO - Always Active",
+            "content": [
+                "Blade's Stellar Enhancement grants him a Fractured Power Bar.",
+                "The final hit of any Special Attack activated while Blade has 3 Bars of Power inflicts a Stun Debuff for 2.5 seconds. Cooldown: 16 seconds."
+            ]
+        },
+        {
+            "title": "Danger Sense",
+            "content": [
+                "Blade's heightened senses cause him to activate Danger Sense with his Special Attack 1, or 0.25 seconds after the start of a fight against Cosmic or #God Champions. This ability grants the following effects:",
+                "+[5,147.55] Attack Rating.",
+                "The Opponent is inflicted with an indefinite 50% Atrophy Passive. While this effect is active, Unblockable Buffs suffer an additional 25% reduced duration.",
+                "Inflicting a Degeneration effect Nullifies 1 True Buff."
+            ]
+        },
+        {
+            "title": "Degeneration Effects",
+            "content": [
+                "Blade only benefits from 50% of the Mystic Dispersion Mastery, but while nearby Degenerating Opponents he Passively gains 2% of a Bar of Power per second for each Degeneration, up to 10%.",
+                "Blade's Degeneration Passives deal [1,143.9] of Direct Damage over 18 seconds and scale with Base Attack only. Max stacks: 5.",
+                "Performing a Well-Timed Block inflicts a Degeneration Passive.",
+                "When an Opponent's Buff expires naturally or is Nullified, inflict a Degeneration Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Musta Hurt",
+            "content": [
+                "On activation, if the Opponent is suffering from 3+ Degeneration effects and Blade's indefinite Danger Sense isn't active, gain it for 20 seconds.",
+                "The first hit inflicts a non-stacking 100% Torment Debuff for 20 seconds.",
+                "The final two hits each inflict a Degeneration Debuff, dealing [5,719.5] Direct Damage over 12 seconds. Max stacks: 20."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Time For Payback",
+            "content": [
+                "Ranged hits each inflict a Degeneration Debuff, dealing [6,291.45] Direct Damage over 6 seconds. Max stacks: 10.",
+                "While the Opponent is below Max Power, ranged hits also Power Steal 10.2% of a Bar of Power, granting 40% of the Power stolen."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Daywalker's Haymaker",
+            "content": [
+                "Inflict 5 Degeneration Debuffs, each dealing [18,302.4] Direct Damage over 60 seconds. Max stacks: 10."
+            ]
+        },
+        {
+            "title": "Signature Ability - Enhanced Vampiric Immortality",
+            "content": [
+                "Holding Block for 0.5 Seconds: While below 70% Health, Blade's healing factor allows him to Passively Regenerate [6,275.6] Health at a cost of [39.61 - 23.96]% of a Bar of Power per second.",
+                "While Regenerating from this ability, Passively Regenerate [40 - 70]% of the damage taken from Blocked hits."
+            ]
+        }
+    ]
 }

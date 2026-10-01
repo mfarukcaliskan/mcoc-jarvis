@@ -15,5 +15,82 @@
     "synergies": [],
     "howToPlay": "Ronin için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ronin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Unrelenting Agility\nWhile at 7 Cruelty Passives, Ronin gains a Passive Evasion on the next incoming Attack for [0.4 - 2] seconds. Removes 3 Cruelty Passives when Ronin Evades an attack. Successful Evades do not grant Stance Abilities.\nWhen Ronin Evades an attack, gain a Fury Passive increasing Attack Rating by [1,334.58 - 2,053.23] for 12 seconds.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "When Ronin would Miss an Attack or be Evaded he gains a Cruelty Passive increasing Critical Damage by [339.89]. Max 7 stacks."
+            ]
+        },
+        {
+            "title": "Sword Attacks",
+            "content": [
+                "Attacks using the Sword have a 15% chance to inflict Bleed dealing [3,593.1] Direct Damage over 3.5 seconds. Critical Strikes using the Sword have a 100% to inflict Bleed.",
+                "Intercepting attacks has +[1,833.33] Critical Rating.",
+                "Against Bleed Immune Champions gain a Cruelty Passive when Ronin would inflict a Bleed. This cannot occur more than once every 2.5 second(s)."
+            ]
+        },
+        {
+            "title": "Stance Preparation",
+            "content": [
+                "Ronin prepares his Stances by performing light attacks. Light 1 prepares Guard Stance, Light 2 prepares Wraith Stance, and Light 3 prepares Demon Stance.",
+                "Dodging back after preparing a stance makes Ronin enter a Stance. Stances are not affected by Ability Accuracy Reduction.",
+                "When entering a new Stance, gain a Cruelty Passive increasing Critical Damage by [339.89]. Max 7 stacks."
+            ]
+        },
+        {
+            "title": "When Entering A Stance",
+            "content": [
+                "When reaching 7 Cruelty Passives, gain a Precision Passive increasing Critical Rating by [5,107.14] for 18 seconds."
+            ]
+        },
+        {
+            "title": "Guard Stance",
+            "content": [
+                "Well Timed Blocks activate the Parry Mastery, stunning opponents even if their attack is non-contact. Ronin gains +35% chance to Perfect Block.",
+                "Entering this stance has a 100% chance to Purify a Debuff."
+            ]
+        },
+        {
+            "title": "Wraith Stance",
+            "content": [
+                "All attacks reduce Defensive Ability Accuracy by 40%."
+            ]
+        },
+        {
+            "title": "Demon Stance",
+            "content": [
+                "All Bleeds gain +75% Ability Accuracy and can be inflicted on Blocked hits."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Disorients the opponent reducing Defensive Ability Accuracy by 60% and Block Proficiency by 50% for 9 seconds.",
+                "Enters a prepared Stance."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Inflicts a Bleed that deals [3,593.1] Direct Damage over 3.5 seconds for each active Cruelty Passive.",
+                "Removes all Cruelty Passives."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a Fury Passive increasing Attack Rating by [2,669.16] for 35 seconds. Each active Cruelty Passsive increases the Attack Rating by an additional [2,669.16].",
+                "Removes all Cruelty Passives."
+            ]
+        },
+        {
+            "title": "Signature Ability - Unrelenting Agility",
+            "content": [
+                "While at 7 Cruelty Passives, Ronin gains a Passive Evasion on the next incoming Attack for [0.4 - 2] seconds. Removes 3 Cruelty Passives when Ronin Evades an attack. Successful Evades do not grant Stance Abilities.",
+                "When Ronin Evades an attack, gain a Fury Passive increasing Attack Rating by [1,334.58 - 2,053.23] for 12 seconds."
+            ]
+        }
+    ]
 }

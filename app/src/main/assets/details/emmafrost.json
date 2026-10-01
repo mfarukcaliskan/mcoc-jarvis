@@ -15,6 +15,88 @@
     "synergies": [],
     "howToPlay": "Emma Frost için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Emma Frost Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Şok Bağışıklığı (Elmas Modu) ⚡️\n• Kontrolleri Tersine Çevirme Bağışıklığı (Mysterio ile sinerji) 🧠"
+    "signatureAbility": "White Queen\nWhen Telepath Form is active and Emma would lose more than [50 - 5]% of her Base Health from a single source, she activates Diamond Form for 3 seconds to reduce the damage. Against Tech Champions, this ability triggers based on Max Health instead. This ability always activates before checking Armor and Resistances but does not activate on a Well-Timed Block.\nWhen Emma uses a Special Attack, the Opponent's controls are reversed until just after the end of the attack. This will not trigger when fighting an Opponent with #Psychic Shielding.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Şok Bağışıklığı (Elmas Modu) ⚡️\n• Kontrolleri Tersine Çevirme Bağışıklığı (Mysterio ile sinerji) 🧠",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Emma starts the fight in Diamond Form.",
+                "When Emma is at least one Power Level ahead of the Opponent, she deactivates Diamond Form and switches to Telepath Form.",
+                "When the Opponent is at least one Power Level ahead of Emma, she deactivates Telepath Form and switches to Diamond Form.",
+                "If the opponent uses an Armor Break while Emma is in Diamond Form, she is forced into Telepath Form, and cannot swap back for the duration of the Armor Break."
+            ]
+        },
+        {
+            "title": "Passive - Diamond Form",
+            "content": [
+                "Emma's organic diamond is immune to all Stun, Bleed, Poison, Incinerate, Shock, Frostbite, Coldsnap, Fatigue, Concussion, and Exhaustion effects.",
+                "Well-timed Blocks grant a Prowess Passive. Triggering an immunity to Bleed, Incinerate, or Shock grants 2 Prowess Passives.",
+                "When Emma changes into Diamond form, she replaces all temporary Prowess Passives with new indefinite Prowess Passives that increase Special Attack Damage by +10%. Prowess Passives are capped at 10 in Diamond Form.",
+                "10% chance that a Block is a Perfect Block, reducing all damage to 0.",
+                "+[2,250] Armor",
+                "+[485.29] Block Proficiency",
+                "+[2,250] Physical Resistance.",
+                "+[2,750] Critical Resistance Rating",
+                "Opponents have -[250] Critical Damage Rating"
+            ]
+        },
+        {
+            "title": "Passive - Telepath Form",
+            "content": [
+                "When Emma changes into Telepath form, she replaces all indefinite Prowess Passives with new Prowess Passive that increase Special Attack Damage by +10% and last 12 seconds. Prowess Passives are capped at 15 in Telepath form.",
+                "Critical hits grant a Prowess Passive, and refresh all existing Prowess Passives.",
+                "Emma is able to read her Opponent's thoughts, allowing all of Emma's attacks to ignore Evade.",
+                "+[485.29] Critical Rate for each active Prowess effect.",
+                "+[56.12] Critical Damage Rating for each active Prowess effect."
+            ]
+        },
+        {
+            "title": "Heavy Attack - Diamond Form",
+            "content": [
+                "Generate 50% additional Power.",
+                "Opponents generate 80% less power from this attack."
+            ]
+        },
+        {
+            "title": "Heavy Attack - Telepath Form",
+            "content": [
+                "100% chance to inflict a Taunt Debuff on the Opponent for 5 seconds.",
+                "These Debuffs are removed if Emma switches to Diamond Form."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Emma switches to Telepath form for the duration of the attack.",
+                "Once Emma finishes a Special Attack, all Prowess Passives are removed.",
+                "These attacks are Psychic and deal True Damage, ignoring all of the Opponent's Armor."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to inflict Power Sting for 8 second(s). An Opponent with Power Sting takes [9,503.1] Direct Damage when activating a Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict Concussion for 8 second(s), reducing the Opponent's Ability Accuracy by 50%."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to reduce the Opponent's Power Gain from all sources by 75% for 8 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - White Queen",
+            "content": [
+                "When Telepath Form is active and Emma would lose more than [50 - 5]% of her Base Health from a single source, she activates Diamond Form for 3 seconds to reduce the damage. Against Tech Champions, this ability triggers based on Max Health instead. This ability always activates before checking Armor and Resistances but does not activate on a Well-Timed Block.",
+                "When Emma uses a Special Attack, the Opponent's controls are reversed until just after the end of the attack. This will not trigger when fighting an Opponent with #Psychic Shielding."
+            ]
+        }
+    ]
 }

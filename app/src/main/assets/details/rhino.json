@@ -16,5 +16,74 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Koşarken ve E1'de pasif durdurulamaz olur; koşarken ayrıca kısa süreli engellenemez olur (siperlenebilir ama kaçırırsan ağır bedeli olur) — durdurulamaz-karşıtı şampiyon önemli. Kanama isabet hassasiyetini %75 azaltır (kanama şampiyonlar artık iyi seçim değil). 20 pasif fiziksel direnç yükü kazanabilir — hasar efektli veya yüksek kritik şanslı şampiyon gerekli.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Rhino Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Rhino Armor\nGain Critical Resistance equal to [10 - 50]% of Physical Resistance.\nWhile at 15+ personal Physical Resistance, making contact with the Opponent pauses personal Breach, Taunt, and Trauma Debuffs for [0.1 - 0.5] seconds.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Rhino's thick hide reduces the Ability Accuracy of incoming Bleed effects by 75%.",
+                "Rhino gains no benefits from Critical Rating, and instead increases his personal Fury duration by up to 2 second based on Critical Rating bonuses. Max bonus gained at 5,000 Critical Rating."
+            ]
+        },
+        {
+            "title": "Physical Resistance - Max: 20",
+            "content": [
+                "When Rhino inflicts a Debuff, is struck, or Blocks a hit, he gains a +[70.51] Physical Resistance Passive for 15 seconds, refreshed when he gains a new one. Multiple Physical Resistances cannot be gained from a single trigger.",
+                "If struck while under the effect of a personal Unstoppable, consume 5 personal Physical Resistances to reduce the hit damage by 60%. This does not trigger against Special Attack 3.",
+                "As a Defender, when the Opponent Dodges back, remove 1 personal Physical Resistance. Cooldown: 2.5 seconds."
+            ]
+        },
+        {
+            "title": "Rhinoceros Resistances",
+            "content": [
+                "Rhino gains cumulative benefits based on how many personal Physical Resistances are active.",
+                "5+ Physical Resistance: When gaining a personal Physical Resistance, inflict a 5% Trauma Debuff for 10 seconds. Max stacks: 5.",
+                "10+ Physical Resistance: When starting a Dash or Medium Attack, gain an Unstoppable Passive for 1.5 seconds. If struck while this Unstoppable is active, it goes on cooldown for 5 seconds.",
+                "15+ Physical Resistance: Rhino becomes Stun Immune while Unstoppable."
+            ]
+        },
+        {
+            "title": "Charge!",
+            "content": [
+                "When Rhino Dashes forwards, he inflicts a non-stacking 5% Taunt Debuff for 5 seconds. As a Defender, he instead inflicts a Breach Debuff for 2 seconds. This Breach will not trigger while already active.",
+                "Performing a first Medium Attack grants Rhino 1 Fury Passive, and he gains up to 6 more while Dashing forwards based on the distance travelled. Each Fury grants +[762.6] Attack Rating, and lasts 2.5 seconds. Max stacks: 20.",
+                "These Furies are refreshed when Rhino starts a Dash, Intercepts the Opponent, or Punishes their Heavy or Special Attacks.",
+                "These Furies are paused while Rhino is Dashing, and during the Opponent's Special Attacks.",
+                "If Rhino starts a Dash while at max Furies, pause them for 2 seconds after the Dash, and inflict a Breach Debuff for 2 seconds. This Breach will not trigger while already active."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Personal Fury, Unstoppable, and Trauma effects are paused during Rhino's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On hit, inflict a Stun Debuff for 1.75 seconds.",
+                "On activation, if at 10+ personal Physical Resistances, gain an Unstoppable Passive for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts an 8.75% Trauma Debuff for 10 seconds. Max stacks: 8.",
+                "The final hit refreshes all personal Trauma Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a 20% Intimidate Debuff for 10 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Rhino Armor",
+            "content": [
+                "Gain Critical Resistance equal to [10 - 50]% of Physical Resistance.",
+                "While at 15+ personal Physical Resistance, making contact with the Opponent pauses personal Breach, Taunt, and Trauma Debuffs for [0.1 - 0.5] seconds."
+            ]
+        }
+    ]
 }

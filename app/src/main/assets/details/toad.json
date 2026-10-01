@@ -12,6 +12,74 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Zehire immün, prowess kaldıran veya iyileşme engelleyen şampiyon kullan. İyileşme engeli olmadan da yenilebilir ama o zaman duvara sıkıştırma. Asla Skill şampiyon kullanma.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Toad Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "Paralytic Resins\nWhen any Stun or personal Poison Debuff is Purified, Cleansed, or prevented by Immunity, gain an indefinite +[2-25]% Prowess Passive. Max stacks: 10.\nWhen a personal Poison Debuff is prevented by Immunity, if Toad has 10 or more Prowess Passives, consume all personal Prowess Passives to inflict a Stun Passive for 3 seconds. This cannot be inflicted during the Opponent's Special Attacks.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Toad is Immune to Poison and his Regeneration Rate cannot be reduced below 100%."
+            ]
+        },
+        {
+            "title": "Paralytic Poison",
+            "content": [
+                "When a Skill Opponent Purifies or Cleanses a Paralytic Poison Debuff, Toad has a 70% chance to inflict a [7,978.4] Paralytic Poison Passive for 30 seconds. This base potency scales with Toad's Special Damage.",
+                "When Toad is struck, he has a 7% chance to inflict a Paralytic Poison Debuff. Being struck with a Critical Hit has a 40% chance.",
+                "When the Opponent Dashes forward or Dodges back, they Purify one of Toad's Paralytic Poison Debuffs. Cooldown: 2 seconds.",
+                "When a Skill Opponent Purifies or Cleanses a Paralytic Poison Debuff, Toad has a 70% chance to inflict a [1,994.6] Paralytic Poison Passive for 8 seconds. This base potency scales with Toad's active Prowess potency."
+            ]
+        },
+        {
+            "title": "At Max Paralytic Poison Debuffs",
+            "content": [
+                "Convert all Paralytic Poison Debuffs into a [1,994.6] Paralytic Poison Passive fo 8 seconds. This base potency scales with Toad's Special Damage.",
+                "If the Opponent is not in a Special Attack, inflict a Stun Passive for 3 seconds. When it ends or if it would be inflicted during a Special Attack, it goes on cooldown for 10 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Each hit Purifies 1 Paralytic Poison Debuff on the Opponent to inflict an Instant Poison dealing a burst of [5,983.8] Direct Damage."
+            ]
+        },
+        {
+            "title": "Paralytic Secretion - regeneration - Max: 3",
+            "content": [
+                "If Toad is Struck while he is near a wall, Toad begins to secrete paralyzing toxins and gains a Regeneration Passive healing 5% of missing health over 8 seconds. These heal an additional 1% of missing Health for every hit in the Opponent's Combo Meter, up to 15.",
+                "When Toad is struck by a Critical Hit, or inflicted with a Bleed or Incinerate effect, he has a 20% chance to gain a personal Regeneration. Against Skill Champions, this gains +50% flat Ability Accuracy.",
+                "When Toad gains his Regeneration, he gains an indefinite 85% Prowess Passwive. Max Stacks: 4.",
+                "While his Regeneration is active, Toad's attacks have a 40% chance to inflict a Paralytic Poison Debuff on contact with the Opponent.",
+                "Toad's attacks pause his Regeneration for 0.50 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a Paralytic Secretion Regeneration Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, inflict a Slow Passive for 30 seconds.",
+                "Each hit inflicts as Instant Poison dealing a burst of [4,986.5] Direct Damage. This base potency scales with Toad's Special Damage.",
+                "At the end of this attack, remove all personal Prowess Passives."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a [9,973] Paralytic Poison Passive for 25 seconds. This base potency scales with Toad's Special Damage.",
+                "Removes all personal Prowess Passives."
+            ]
+        },
+        {
+            "title": "Signature Ability - Paralytic Resins",
+            "content": [
+                "When any Stun or personal Poison Debuff is Purified, Cleansed, or prevented by Immunity, gain an indefinite +[2-25]% Prowess Passive. Max stacks: 10.",
+                "When a personal Poison Debuff is prevented by Immunity, if Toad has 10 or more Prowess Passives, consume all personal Prowess Passives to inflict a Stun Passive for 3 seconds. This cannot be inflicted during the Opponent's Special Attacks."
+            ]
+        }
+    ]
 }

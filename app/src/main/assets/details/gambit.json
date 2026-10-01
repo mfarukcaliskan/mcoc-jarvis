@@ -9,6 +9,73 @@
     "synergies": [],
     "howToPlay": "Gambit için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Gambit Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %150 Kanama direnci 🩸"
+    "signatureAbility": "Ragin' Cajun\nProwess Buffs now also grant Gambit +[44.72 - 145.01] Critical Damage Rating each.\nAdditionally, his Flak Jacket is upgraded to allow it to absorb an additional [26,687.8] attack damage before breaking.",
+    "immunityDetails": "• %150 Kanama direnci 🩸",
+    "abilitySections": [
+        {
+            "title": "Blocking",
+            "content": [
+                "Gambit charges his weapons while holding Block, gaining a Kinetic Charge every 0.4 seconds. Kinetic Charges build up more slowly as Gambit accumulates more of them. Max Charges: 10.",
+                "Gambit cannot stack additional Kinetic Charges while his personal Prowess buffs are active."
+            ]
+        },
+        {
+            "title": "When Charging a Heavy Attack",
+            "content": [
+                "Gambit cashes out, converting his Kinetic Charges to Prowess Buffs, each increasing Special Damage by 30% for 16 seconds."
+            ]
+        },
+        {
+            "title": "Stun",
+            "content": [
+                "Each Stun Debuff on the Opponent Reduces Regeneration Rate and Combat Power Rate by 40% while active.",
+                "All Stun Debuffs currently on the Opponent are Paused for the duration of Gambit's Special Attacks."
+            ]
+        },
+        {
+            "title": "Medium, Heavy, Special 1 and Special 2 Attacks",
+            "content": [
+                "These attacks utilize a burst of kinetic energy. Striking with them reduces the damage of the Opponent's Passive Degeneration and Direct Damage effects by 100% for 0.2 second(s)."
+            ]
+        },
+        {
+            "title": "Flak Jacket",
+            "content": [
+                "Gambit begins each fight with a Flak Jacket charge, which is lost once Gambit has taken [66,719.5] attack damage. Tech Champions' attack damage counts double for this purpose.",
+                "While Flak Jacket is active, Gambit gains +[1,833.33] Armor Rating and incoming Bleed effects suffer -150% Potency.",
+                "Against Non-Contact Physical Attacks, the Flak Jacket provides an additional +[1,833.33] Armor Rating and Critical Resistance."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "If the opponent does not have an Armor Up Buff, all hits gain +20% Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "85% chance to inflict a 2.5 second Stun Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack has a 85% chance to inflict a Concussion Debuff, reducing Ability Accuracy by 85% for 13 seconds. The Potency of this effect is affected by Class relationships."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This Attack has an 85% chance to inflict up to Two 5 second Stun Debuffs."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ragin' Cajun",
+            "content": [
+                "Prowess Buffs now also grant Gambit +[44.72 - 145.01] Critical Damage Rating each.",
+                "Additionally, his Flak Jacket is upgraded to allow it to absorb an additional [26,687.8] attack damage before breaking."
+            ]
+        }
+    ]
 }

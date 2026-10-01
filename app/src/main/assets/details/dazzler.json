@@ -17,6 +17,64 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Man-Thing gibi kritik hasarı sıfırlar (Tech hariç) — ikincil hasar efektli şampiyon kullan. Her 10 vuruşta koşarken görünmez olur.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dazzler Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• Yakma Bağışıklığı (ile sinerji: Kitty Pryde) 🔥"
+    "signatureAbility": "Sounds of Light And Fury\nDuring her hits, Dazzler takes no Physical Damage and instead reflects [20 - 200]% of it back at the Opponent as a burst of Energy Damage.\nPerforming a Dazzling Dash grants a Pursuit Passive for [2 - 10] seconds, paused until the end of the Dash.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• Yakma Bağışıklığı (ile sinerji: Kitty Pryde) 🔥",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Dazzler won't let anything cramp her style. She's Immune to bad vibes, and also Nullify.",
+                "Be cool, not cruel. If Dazzler's Opponent isn't a Tech Champion, their Critical Damage Rating is set to 0 and cannot be increased.",
+                "No stopping this light show. If Dazzler's Opponent has the Stand Your Ground Mastery active, it is removed.",
+                "While Dodging back, Dazzler cannot be struck by attacks. She does not benefit from the Dexterity Mastery, but she builds 1 Tempo when Dodging a Special Attack hit."
+            ]
+        },
+        {
+            "title": "Tempo",
+            "content": [
+                "Dazzler builds up Tempo as excitement mounts for her performance.",
+                "Light and Medium Attacks build 1 Tempo, or 5 if the attack strikes the Opponent while they are standing up.",
+                "Heavy Attacking a non-Stunned Opponent builds 5 Tempo. Dazzler's personal Stun Passive does not count against this.",
+                "As a Defender, each hit in the Attacker's Combo Meter builds 1 Tempo."
+            ]
+        },
+        {
+            "title": "Dazzling Dash Attacks",
+            "content": [
+                "Building 10 Tempo sets the stage for a Dazzling Dash Attack. Only one Dazzling Dash Attack may be readied at a time.",
+                "Once readied, Dashing forwards from outside striking distance or during the Opponent's Special Attack inflicts a Falter Passive for 1.2 seconds, paused until the end of the Dash.",
+                "If Blocked, a Dazzling Dash Attack inflicts a Stun Passive for 1.5 seconds. As an Attacker, on hit or on Block it also deals a burst of [181.86] Energy Damage per Tempo."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Tapping Block in rhythm with the 4 blasts builds 10 Tempo each.",
+                "The final hit inflicts a non-stacking [1,833.33] Energy Vulnerability Passive for 30 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "If Dazzler is not suffering from Cowardice, after activation she gains 10% Resonance, +[909.3] Fury, and +10% Prowess Buffs until the end of the attack. These potencies increase by +1% flat per Tempo.",
+                "If the Opponent is suffering from a personal Energy Vulnerability, after activation Dazzler also gains an Unblockable Buff until the end of the attack.",
+                "Tapping Block in rhythm with the first 5 lasers grants Dazzler +687.5 Precision Buffs until the end of the attack. If Dazzler reaches at least 4 of these Precisions, the final laser is a Guaranteed Critical Hit.",
+                "At the end of this Special Attack, reset Dazzler's Tempo."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Dazzler kicks things into High Tempo for 40 seconds, allowing her to build up to 150 Tempo and doubling all Tempo gains.",
+                "A Perfect result in the Special 3 Mini Game increases this to 60 seconds, or 50 if the result was semi-Perfect."
+            ]
+        },
+        {
+            "title": "Signature Ability - Sounds of Light And Fury",
+            "content": [
+                "During her hits, Dazzler takes no Physical Damage and instead reflects [20 - 200]% of it back at the Opponent as a burst of Energy Damage.",
+                "Performing a Dazzling Dash grants a Pursuit Passive for [2 - 10] seconds, paused until the end of the Dash."
+            ]
+        }
+    ]
 }

@@ -14,6 +14,80 @@
     "synergies": [],
     "howToPlay": "Red Goblin için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Red Goblin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Güç Emme/Yakma Bağışıklığı 🔋"
+    "signatureAbility": "Symbiotic Empowerment\nSpecial Attacks generate +1 Symbiote Buff with [90 - 35]% reduced Potency.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Güç Emme/Yakma Bağışıklığı 🔋",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Gain full Immunity to Incinerate and Power Burn.",
+                "Red Goblin's Symbiote reduces Ability Accuracy of Passive Evade abilities for #Spider-Verse Champions by 100%."
+            ]
+        },
+        {
+            "title": "Persistent Bloodlust - Max 5",
+            "content": [
+                "After Winning a Fight, gain 1 Bloodlust  for the remainder of the Quest. If defeating a #Spider-Verse Champion, gain +1 Bloodlust.",
+                "Lose 1 Bloodlust when defeated."
+            ]
+        },
+        {
+            "title": "Frenzy",
+            "content": [
+                "While the Opponent has less than 15% health remaining, activate Frenzy. Each Bloodlust increases this threshold by a flat 10%, reaching 65% at max Bloodlust.",
+                "Frenzy also triggers a True Sense Buff bypassing the effects of Miss and Auto Block. If Frenzy ends, this Buff is removed.",
+                "Gain [1,363.95] Attack Rating. Additionally gain [1,363.95] Attack Rating for each Bloodlust. Each stack suffers from 15% reduced Potency"
+            ]
+        },
+        {
+            "title": "Special Activation - Symbiote Buffs",
+            "content": [
+                "Activating Special Attacks creates a Buff based on the last attack launched. Buffs last for 15 seconds but start Paused. Buffs are unpaused the next time one of them is triggered.",
+                "Light Attack: Energize, granting 25% Combat Power Rate. Aptitudes increase the Potency of these Energize Buffs by 75%.",
+                "Medium Attack: Fury, granting [5,455.8] Attack Rating.",
+                "Heavy Attack: Aptitude, granting 120% increased Fury, Precision, and Armor Up Potency."
+            ]
+        },
+        {
+            "title": "Carnage Bombs - Heavy Attacks and Special 2",
+            "content": [
+                "Each Energize Buff inflicts Power Drain, draining 10% max Power over 15 seconds.",
+                "Each Fury Buff inflicts inflicts Armor Break, reducing Armor by [687.5] for 15 seconds.",
+                "All other Buffs inflict Incinerate, dealing [15,912.75] Energy Damage over 15 seconds. Incinerate also prevents Perfect Block and reduces Block Proficiency by -50%."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Carnage Bomb Debuffs inflicted by this attack have 65% reduced Duration."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Symbiote Attacks: All 5 hits deal a burst of direct damage equal to 100% damage dealt. Potency increased by 100% for each Unique Debuff on the Opponent.",
+                "Shrapnel Blast: Incinerate, dealing [13,639.5] Energy Damage over 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Carnage Bombs: Inflict Carnage Bomb Debuffs.",
+                "After Burner: All 3 hits deal a burst of [9,093] energy damage."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Activate Frenzy for 30 seconds.",
+                "Inflict 7 Random Carnage Bomb Debuffs with 50% increased Duration."
+            ]
+        },
+        {
+            "title": "Signature Ability - Symbiotic Empowerment",
+            "content": [
+                "Special Attacks generate +1 Symbiote Buff with [90 - 35]% reduced Potency."
+            ]
+        }
+    ]
 }

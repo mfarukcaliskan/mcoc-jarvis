@@ -60263,5 +60263,162 @@
             "Sentinel Battlecast",
             "Cruel Tech Relic of Finesse"
         ]
+    },
+    {
+        "id": "stellargreengoblin",
+        "name": "Green Goblin (Stellar Forged)",
+        "mcocClass": "SCIENCE",
+        "tier": "N/A",
+        "prestige": 39510,
+        "prestigeRank": 46,
+        "attack": 9777,
+        "health": 139385,
+        "critRate": 8.22,
+        "critDamage": 12.95,
+        "armor": 0.01,
+        "blockProficiency": 41.25,
+        "immunities": [],
+        "counters": [],
+        "abilities": "Fractured Power Bar, Protection, Fury, Exhaustion, Halt, Incinerate, Wither, Torment",
+        "tags": [
+            "Defensive: Tank",
+            "Metal",
+            "Sinister Six",
+            "Stellar-Forged",
+            "Size: M"
+        ],
+        "synergies": [],
+        "recommendedRelics": [
+            "Hulk Battlecast",
+            "Tough Science Relic of Protection",
+            "Shielded Science Relic of Finesse",
+            "Tough Science Relic of Finesse"
+        ],
+        "focusAttack": "Adrenaline",
+        "focusDefense": "Block Proficiency",
+        "releaseDate": "16-09-2026",
+        "strongMatchups": [],
+        "strongCounters": [],
+        "reactsTo": [],
+        "counterAbilities": [
+            "Unstoppable"
+        ],
+        "attackRank": 218,
+        "healthRank": 106,
+        "critRateRank": 80,
+        "critDamageRank": 186,
+        "armorRank": 345,
+        "blockProficiencyRank": 177,
+        "progressions": []
+    },
+    {
+        "id": "gwenom",
+        "name": "Gwenom",
+        "mcocClass": "COSMIC",
+        "tier": "N/A",
+        "prestige": 39730,
+        "prestigeRank": 24,
+        "attack": 9924,
+        "health": 134959,
+        "critRate": 4.86,
+        "critDamage": 10.7,
+        "armor": 6.88,
+        "blockProficiency": 29.58,
+        "immunities": [
+            "Power Drain",
+            "Special Lock"
+        ],
+        "counters": [
+            "Power Drain Immunity",
+            "Special Lock Immunity"
+        ],
+        "abilities": "Mid-Combo Stun, Undermine, Grit, Fury, Precision, Armor Break, Evade, Corrosion, Power Gain",
+        "tags": [
+            "Offensive: DOT",
+            "Defensive: Utility",
+            "Hero",
+            "Symbiote",
+            "Spider-Verse Heroes",
+            "Size: S"
+        ],
+        "synergies": [],
+        "recommendedRelics": [
+            "Thor Battlecast",
+            "Ms. Marvel Battlecast",
+            "Piercing Cosmic Relic of Finesse"
+        ],
+        "focusAttack": "Critical Rating",
+        "focusDefense": "Block Penetration",
+        "releaseDate": "09-09-2026",
+        "strongMatchups": [
+            "rubythursday",
+            "peniparker",
+            "arnimzola"
+        ],
+        "strongCounters": [],
+        "reactsTo": [],
+        "counterAbilities": [
+            "Auto-Block",
+            "Unstoppable"
+        ],
+        "attackRank": 213,
+        "healthRank": 158,
+        "critRateRank": 254,
+        "critDamageRank": 290,
+        "armorRank": 70,
+        "blockProficiencyRank": 325,
+        "progressions": []
+    },
+    {
+        "id": "spidermannoir",
+        "name": "Spider-Man Noir",
+        "mcocClass": "SKILL",
+        "tier": "N/A",
+        "prestige": 40000,
+        "prestigeRank": 10,
+        "attack": 10657,
+        "health": 147972,
+        "critRate": 12.36,
+        "critDamage": 12.36,
+        "armor": 8.22,
+        "blockProficiency": 32.29,
+        "immunities": [
+            "Stun"
+        ],
+        "counters": [
+            "Stun Immunity"
+        ],
+        "abilities": "Critical into Block, Evade, Disorient, Cruelty, Guaranteed Crits, Crumble, Root, Implacable, Light Proficiency",
+        "tags": [
+            "Offensive: Burst",
+            "Control: Denial",
+            "Hero",
+            "Spider-Verse Heroes",
+            "Size: S"
+        ],
+        "synergies": [],
+        "recommendedRelics": [
+            "Valkyrie Battlecast",
+            "Black Panther Battlecast",
+            "Black Widow Battlecast",
+            "Cruel Skill Relic of Finesse",
+            "Precise Skill Relic of Talent"
+        ],
+        "focusAttack": "Block Penetration",
+        "focusDefense": "Block Penetration",
+        "releaseDate": "24-09-2026",
+        "strongMatchups": [],
+        "strongCounters": [],
+        "reactsTo": [],
+        "counterAbilities": [
+            "Inequity"
+        ],
+        "attackRank": 66,
+        "healthRank": 47,
+        "critRateRank": 10,
+        "critDamageRank": 216,
+        "armorRank": 42,
+        "blockProficiencyRank": 302,
+        "progressions": []
     }
 ]

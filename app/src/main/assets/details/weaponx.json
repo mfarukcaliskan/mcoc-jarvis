@@ -11,6 +11,105 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): İyileşmeyi bloklayan veya iyi ikincil hasarı olan şampiyon kullan. Petrify ve iyileşme manipülasyonu işe yaramaz. Dövüşün çoğunda engellenemez ve durdurulamaz olur, buna dikkat.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Wolverine (Weapon X) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %50 Kanama direnci 🩸\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "Boundless Rage\nBerserk Rage's Cooldown Duration decreases by [2 - 7] second(s).\nStart each Fight with a Regeneration Buff granting up to [700.88 - 20,412.3] Health based on the number of Rage Charges Weapon X ended the last fight with, up to 25.",
+    "immunityDetails": "• %50 Kanama direnci 🩸\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Immune to All types of Regeneration Rate Modification except due to Poison.",
+                "The Potency of all Bleed Effects is reduced by 50%"
+            ]
+        },
+        {
+            "title": "Rage - Passive",
+            "content": [
+                "Weapon X gains a Rage Charge each time he's Struck, one of his Abilities fails to trigger due to Chance, or a Debuff is Purified off the Opponent.",
+                "Gaining Rage Charges as well as all of the Berserk Rage Effects are unaffected by Ability Accuracy Reduction.",
+                "At 25 Rage Charges Weapon X snaps and enters a Berserk Rage lasting until his Rage Counters reach 0.",
+                "Upon entering Berserk Rage Weapon X goes Unstoppable for 4 seconds.",
+                "As long as he's Berserk, and not Unstoppable, Weapon X's Rage falls off one at a time, falling off faster the longer he's been Berserk.",
+                "After Weapon X's Berserk Rage ends all of its associated effects immediately end, and Weapon X cannot gain Rage Charges for 20 seconds."
+            ]
+        },
+        {
+            "title": "Berserk Rage Effects - Passive",
+            "content": [
+                "Weapon X gains the following bonuses while in Berserk Rage:",
+                "Gain +[10,462] Attack.",
+                "100% Chance when Struck to gain a Regeneration Passive healing 100% of the Hit Damage taken, over 5 seconds.",
+                "100% Chance when Struck to gain a Fury Passive granting +[15,693] Attack, for 5 seconds. Max: 1 Stack.",
+                "Immune to All Stun Effects.",
+                "All Attacks become Unblockable."
+            ]
+        },
+        {
+            "title": "Attack Missed or Evaded - Passive",
+            "content": [
+                "Gain +2 Rage Charges.",
+                "100% chance to go Unstoppable for 1 seconds."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "50% chance to cause a Bleed Debuff dealing [1,569.3] Direct Damage over 5 seconds. With 10+ Rage this ability's chance to trigger increases to 100%."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "While not in a Berserk Rage 50% Chance when Struck to gain a Regeneration Passive healing 40% of the Hit Damage taken, over 5 seconds."
+            ]
+        },
+        {
+            "title": "When Charging a Heavy Attack",
+            "content": [
+                "If Weapon X has any Rage Charges he gains a Passive Unstoppable for 1.5 seconds, then going on Cooldown for 10 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If below 10 Rage Charges double current Rage Charges.",
+                "Refresh all Bleed Effects on Opponent."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Gain +5 Rage Charges.",
+                "If at or above 15 Rage Charges, go Berserk."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "While Berserk gain +[5,231] Attack.",
+                "100% chance to inflict Bleed, dealing [10,462] Direct Damage over 5 seconds.",
+                "If this attack doesn't Hit gain +5 Rage Charges."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "While Berserk each Hit pauses Rage fall off for 1 second(s).",
+                "If triggered while not Berserk gain up to +[7,846.5] Attack based on Rage."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain Rage Charges up to 25 and then go Berserk.",
+                "100% chance to inflict Bleed, dealing [10,462] Direct Damage over 15 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Boundless Rage",
+            "content": [
+                "Berserk Rage's Cooldown Duration decreases by [2 - 7] second(s).",
+                "Start each Fight with a Regeneration Buff granting up to [700.88 - 20,412.3] Health based on the number of Rage Charges Weapon X ended the last fight with, up to 25."
+            ]
+        }
+    ]
 }

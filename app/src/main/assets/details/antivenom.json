@@ -14,6 +14,70 @@
     "synergies": [],
     "howToPlay": "Anti-Venom için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Anti-Venom Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Controlled Symbiosis\nWhile the Opponent is suffering from the Klyntar Debuff, if Anti-Venom is struck by or Blocks a non-Critical Hit, he gains a Regeneration Passive that recovers [20 - 65]% of the hit damage taken over 20 seconds. These Regenerations are removed if the Klyntar Debuff is removed by Purify or Cleanse.\nEach time Anti-Venom inflicts a personal Debuff, he inflicts an indefinite 2.5% Exacerbate Passive. Max stacks: 10.\nEach personal Exacerbate Passive increases the potency of Anti-Venom's peronal Debuffs by an additonal 2.5%.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Immunity to Incinerate and Poison.",
+                "During the Opponent's Special Attacks Anti-Venom gains 40% Defensive Combat Rate per Debuff on the Opponent.",
+                "Personal Passives are paused during Special Attacks and for 5 seconds on Striker activation."
+            ]
+        },
+        {
+            "title": "Genetic Memory",
+            "content": [
+                "When the fight starts Anti-Venom inflicts an indefinite Klyntar Debuff. If this Debuff is removed by any means it comes back after 15 second(s).",
+                "If the Opponent is suffering from the Klyntar Debuff, every 10 times either Champion lands a hit, Anti-Venom inflicts the selected Genetic Memory Debuff from the list below. Max Genetic Memory Debuffs 4.",
+                "Spectre Debuff: Reduces the Opponent's Regeneration Rate by 16.66%",
+                "Disorient: Reduces Defensive Ability Accuracy and Block Proficiency by 12.5%.",
+                "Decelerate: Lowers Evade and Unstoppable Ability Accuracy by -33% flat.",
+                "Second Medium Attack changes the selected Genetic Memory Debuff to the next Debuff in the list. Defenders have a 50% chance to change the selection when inflicting a Genetic Memory Debuff."
+            ]
+        },
+        {
+            "title": "Klyntar Debuff",
+            "content": [
+                "Klyntar Debuff reduces Physical Resistance by [687.5] and gains additional properties based on Anti-Venom's Opponent.",
+                "#Spider-Verse Heroes: Reduce the Ability Accuracy of evade effects by 100%.",
+                "Mystic Champions: Reduce the Ability Accuracy of Unblockable effects by -65% flat. While 4 or more of Anti-Venom's personal Debuffs are active, this reduction becoms -100%."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Inflict a Stagger that lasts for 10 second(s). Max 2 Stacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "If not already active, gain an Accelerated Mutation Passive, causing Anti-Venom to inflict an additional Genetic Memory Debuff for 15 second(s). Triggering Accelerated Mutation also refreshes the Evolved Mutation Passive.",
+                "If Accelerated Mutation is active, all hits deal a burst of [3,828.8] Physical damage.",
+                "First hit inflicts a Petrify Debuff of 40% Potency for 20 seconds"
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a +[7,186.5] Fury Passive for 25 seconds for each Genetric Memory Debuff on the Opponent, then consume all but the two most recent Genetic Memory Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Rupture Debuff, dealing [6,707.4] Physical Damage over 15 second(s).",
+                "Gain a non-stacking Evolved Mutation Passive, increasing the max number of Genetic Memory Debuffs by 4 and increasing Fury potency and duration by 25% for 25 second(s). The max stack for an individual Debuff is 4."
+            ]
+        },
+        {
+            "title": "Signature Ability - Controlled Symbiosis",
+            "content": [
+                "While the Opponent is suffering from the Klyntar Debuff, if Anti-Venom is struck by or Blocks a non-Critical Hit, he gains a Regeneration Passive that recovers [20 - 65]% of the hit damage taken over 20 seconds. These Regenerations are removed if the Klyntar Debuff is removed by Purify or Cleanse.",
+                "Each time Anti-Venom inflicts a personal Debuff, he inflicts an indefinite 2.5% Exacerbate Passive. Max stacks: 10.",
+                "Each personal Exacerbate Passive increases the potency of Anti-Venom's peronal Debuffs by an additonal 2.5%."
+            ]
+        }
+    ]
 }

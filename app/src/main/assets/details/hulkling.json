@@ -15,6 +15,80 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Indestructible, engellenemez, iyileşme ve blok-nüfuzu — hepsi bonus, nötralize/nötrleştirici şampiyonlar kolayca kapatır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulkling Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️\n• Güç Emme/Yakma Bağışıklığı 🔋"
+    "signatureAbility": "King of Space\nPersonal Bulwark Buff duration is increased by [1.5 - 4] second(s) flat.\nPersonal Fury Buff duration is increased by [0.5 - 3] second(s) flat.\n+[140.14 - 687.5] Armor Penetration for each active personal Pierce Buff.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️\n• Güç Emme/Yakma Bağışıklığı 🔋",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Advanced Kree-Skrull physiology provides full immunity to the Poisons and Shocks of the Battlerealm.",
+                "Additionally, the mystical Excelsior Sword protects Hulkling's energy, granting immunity to Power Drain, Steal and Burn, and reducing incoming Heal Block duration by 2 second(s) flat.",
+                "When Hulkling prevents an effect via immunity, he gains 1 Shapeshift Charge(s).",
+                "Offensive Combat Power Rate is decreased by 20%.",
+                "+[2,664.25] Attack Rating for each unique Buff Hulkling has."
+            ]
+        },
+        {
+            "title": "Shapeshift Charges - Max 8",
+            "content": [
+                "Start the fight with 3 Shapeshift Charge(s), and gain 1 Charge(s) every 1 second(s) while not attacking with Basic Attacks or being Struck.",
+                "A Shapeshift Charge is converted into a Buff when Hulkling performs certain gameplay actions. These Buffs each last 16 second(s) and can stack up to 4 times.",
+                "Whenever a Shapeshift Buff is gained, Hulkling also Passively gains 7% of a Bar of Power."
+            ]
+        },
+        {
+            "title": "Shapeshift Buff Conversion",
+            "content": [
+                "Hit into Block: Convert into a Pierce Buff of [916.67] potency.",
+                "Strike with a Light or Medium Attack: Convert into an Aptitude Buff, increasing the potency of Fury, Armor, and Precision Buffs by 18%.",
+                "Well-Timed Block: Convert into a Bulwark Buff, increasing Block Proficiency by [916.67].",
+                "Struck by the Opponent: Convert into a Regeneration Buff, healing 65% of the damage taken from the Strike."
+            ]
+        },
+        {
+            "title": "Peak Transformation",
+            "content": [
+                "Every 5 Pierce Buffs gained also grants an Unblockable Buff for 5 second(s). Reduced to every 3 Buffs when fighting as a Defender.",
+                "Every 8 Regeneration Buffs gained also grants an Indestructible Buff for 2.5 second(s). Reduced to every 5 Buffs when fighting as a Defender.",
+                "If either of these Buffs are Nullified, they are replaced with identical Passives, and their duration is 3 second(s) longer.",
+                "Both the Indestructible Buff and Passive are removed after being struck by the Opponent's Special Attack 3."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Inflicts a non-stacking Intimidate Debuff for 7 second(s), making the Opponent less aggressive and reducing their Block Proficiency by [1,178.57]. Cooldown 15 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "For the next 10 second(s), the time between gaining Shapeshift Charges is decreased to 0.5 second(s).",
+                "If Hulkling is or becomes Unblockable during this Attack, pause all his personal Buffs, other than Unblockable, until 2 second(s) after this Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On Activation, gain a Fury Buff, increasing Attack Rating by [7,459.9] for 10 second(s).",
+                "If Hulkling is or becomes Unblockable during this Attack, gain another Fury Buff, increasing Attack Rating by [11,722.7] for 10 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If Hulkling has at least 2 Bulwark Shapeshift Buffs, pause 2 of them for the remainder of the fight, once per fight.",
+                "If Hulkling doesn't have enough Bulwark, or they're already paused, pause Aptitude Buffs instead, then Pierce Buffs.",
+                "If Hulkling doesn't have enough of any Bulwark, Aptitude, or Pierce, or all are paused, he instead gains Shapeshift Charges up to their Max."
+            ]
+        },
+        {
+            "title": "Signature Ability - King of Space",
+            "content": [
+                "Personal Bulwark Buff duration is increased by [1.5 - 4] second(s) flat.",
+                "Personal Fury Buff duration is increased by [0.5 - 3] second(s) flat.",
+                "+[140.14 - 687.5] Armor Penetration for each active personal Pierce Buff."
+            ]
+        }
+    ]
 }

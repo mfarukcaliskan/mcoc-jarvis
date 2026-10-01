@@ -21,6 +21,88 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bloktan kritik vurabilir ve impact yükleri kazanır — bloktan alınan hasar çok ağır. E1/E2 bloktan vurulursa kanama uygular — kanamaya immün/dirençli şampiyon şart, E1'de tutmak tercih edilir. %66/%33/%1 canda pasif indestructible kazanır (aktifken tüm vuruşları garanti kritik ve bloktan kanatır); temas kesilirse süresiz sürer — sadece 'marked' erişimi olan şampiyon bunu tamamen önler.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Punisher Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Güç Söndürme (Fade) Bağışıklığı 🔋🔽\n• %40 Kanama direnci 🩸\n• hasar vermeyen debuff'lar süresini %80 azaltır 💪🏼⏰"
+    "signatureAbility": "Open Wounds\nWhenever a Bleed Debuff on the Opponent expires, there is a 25% chance to inflict a [21.68 - 5,885.42] Bleed Passive for {2} seconds. These Bleeds scale with Base Attack only.\nWhile Punisher's Precision is active, the chance of this effect is increased by a flat +100%.",
+    "immunityDetails": "• Güç Söndürme (Fade) Bağışıklığı 🔋🔽\n• %40 Kanama direnci 🩸\n• hasar vermeyen debuff'lar süresini %80 azaltır 💪🏼⏰",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Punisher doesn't have time to bleed. He has 40% Bleed Resistance and is Immune to Wither.",
+                "For every 20% Health either Champion is missing, Punisher gains an indefinite 20% Endurance Passive. Max stacks: 4.",
+                "When Punisher is cornered, Punishes a Special Attack, or Intercepts a non-Mutant Opponent, he gains a Grit Passive for 2 seconds. This Grit is paused while cornered, and when an Opponent or their Block are hit.",
+                "Punisher's Light Attacks can Critically Hit through Block."
+            ]
+        },
+        {
+            "title": "Make Them Bleed",
+            "content": [
+                "Punisher's Critical Hits inflict a [2,958.35] Bleed Debuff for 8 seconds. As a Defender, this effect scales with Base Attack only.",
+                "Against Science Champions, the Ability Accuracy of Punisher's personal Bleed effects cannot be reduced.",
+                "When the Opponent is inflicted with 8 or more Bleed effects at once, inflict a 50% Bleed Vulnerability Passive for 15 seconds and remove and re-inflict all of Punisher's personal Bleed Debuffs on them. This will not trigger while already active."
+            ]
+        },
+        {
+            "title": "Pain Tolerance",
+            "content": [
+                "Each time a Champion or their Block is hit by a first or third Light Attack, gain an indefinite +[206.99] Physical Resistance Passive. Max stacks: 20.",
+                "Striking Punisher with a second Medium Attack removes 1 stack of Physical Resistance. Mutants remove 1 extra stack.",
+                "As an Attacker, when Punisher would gain a personal Physical Resistance, he has a 3% chance per Physical Resistance to gain a non-stacking +[4,497.5] Fury Passive for 4 seconds, paused during Punisher's Special Attacks."
+            ]
+        },
+        {
+            "title": "Indestructible Punisher",
+            "content": [
+                "Every 33% Max Health lost, the stubborn Punisher gains an Indestructible Passive for 4 seconds, unaffected by Ability Accuracy. The first two Health thresholds can only be triggered once per Quest.",
+                "Punisher's Indestructible will not trigger and is removed if he is Marked.",
+                "If this Indestructible triggers during a Mutant's Special Attack, the Indestructible is delayed until a second after their Special Attack ends, unless they are a #Villain. A delayed Indestructible lasts for 1 second instead of 4.",
+                "As a Defender, his personal Indestructible is paused unless either Champion or their Block is hit. The effect is not paused if a Mutant has a Regeneration effect.",
+                "While Indestructible, Punisher's attacks become Guaranteed Critical Hits and he can land Critical Hits through Block."
+            ]
+        },
+        {
+            "title": "Fight with Impact",
+            "content": [
+                "The first hit of a Special Attack grants Punisher a +[144.75] Impact Passive for every Physical Resist he has active. These last for 20 seconds, increased to 40 seconds against #Villains. Max stacks: 10.",
+                "When starting a fight against a #Villain, Punisher gains one of these Impact Passives.",
+                "Punisher's Heavy Attack refreshes all personal Impact Passives."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "If Punisher has an Impact effect active, Punisher's gun shots into Block are Guaranteed Critical Hits."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Street Justice",
+            "content": [
+                "The first hit inflicts a non-stacking {50%} Injury Passive for 30 seconds.",
+                "If activated while Punisher's Unstoppable is active, pause it until the end of this attack, and Punisher's gun shots deal Guaranteed Critical Hits.",
+                "While Punisher's Unstoppable is active, the final hit grants Punisher a +[1,178.57] Precision Passive for 10 seconds. This can trigger through Block.",
+                "Increase the tick time of all Bleed Debuffs on the Opponent by 300% for the duration of this Precision."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Punishment",
+            "content": [
+                "While below 1 Bar of Power, each hit into Block grants {15}% of a Bar of Power.",
+                "On activation as an Attacker, Purify all Petrify Debuffs.",
+                "As an Attacker, if the final hit lands into the Opponent's Block, Punisher gains an Unstoppable Passive for 1.75 seconds and the Opponent is more likely to cower behind their block."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Payback",
+            "content": [
+                "+[1,833.33] Attack Rating for each personal Endurance.",
+                "+[4,583.33] Attack Rating if Punisher is Indestructible."
+            ]
+        },
+        {
+            "title": "Signature Ability - Open Wounds",
+            "content": [
+                "Whenever a Bleed Debuff on the Opponent expires, there is a 25% chance to inflict a [21.68 - 5,885.42] Bleed Passive for {2} seconds. These Bleeds scale with Base Attack only.",
+                "While Punisher's Precision is active, the chance of this effect is increased by a flat +100%."
+            ]
+        }
+    ]
 }

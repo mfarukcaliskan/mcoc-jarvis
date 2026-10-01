@@ -17,6 +17,74 @@
     "synergies": [],
     "howToPlay": "Patriot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Patriot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "To Act Is To Be Committed\nPersonal Precision Passives gain [10 - 40]% increased potency.\nEach Debuff on Patriot grants [144.74 - 485.29] Block Proficiency. Against Science Champions, Patriot's Block Proficiency cannot be reduced below where this ability would set it, and the Opponent's Block Penetration is locked to 0.",
+    "immunityDetails": "• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Get Back Up Again - Always Active",
+            "content": [
+                "Incoming Weakness effects and the potency of the Opponent's Inequity Mastery suffer 76% reduced potency.",
+                "For each Debuff on Patriot, he gains +[1,144] Attack Rating. Max Benefit at 7 Debuffs.",
+                "Patriot gains an indefinite Steadfast Passive while suffering from at least 5 non-Damaging Debuffs. Against Science Champions, this threshold is reduced to 3 non-Damaging Debuffs.",
+                "Patriot's Base Regeneration Rate is 44% and cannot be lowered further.",
+                "While a Science Opponent has a Fury Passive active and Patriot is Blocking, he inflicts a 40% Weakness Passive. This Weakness gains up to 100% increased potency based on Patriot's missing health."
+            ]
+        },
+        {
+            "title": "Prodigious Tactician",
+            "content": [
+                "Patriot gains an additional hit in his Combo Meter when striking the Opponent or their Block with a Light Attack or when Blocking an attack.",
+                "As a Defender, Patriot starts each fight with an indefinite Combo Shield Passive.",
+                "When either Champion Well-Timed Blocks, Patriot gains a Vigilance Passive for 3 seconds.",
+                "If a personal Precision is not active, knocking down the Opponent grants Patriot a +[1,833.33] Precision Passive for 5 seconds.",
+                "Personal Precision effects allow Patriot to land Critical Hits into Block and pause for 0.5 seconds when the Opponent or their Block is struck."
+            ]
+        },
+        {
+            "title": "Heroic Resolve - Debuffs",
+            "content": [
+                "Resolve Debuffs are indefinite and have no effect. Max stacks: 10.",
+                "When the Combo Meter rises past a multiple of 10, Patriot gains one Resolve Debuff and increases his Critical Damage Rating by +[44.72] for the rest of the fight.",
+                "Whenever a non-Damaging Debuff on Patriot other than Resolve ends for any reason, gain one Resolve Debuff.",
+                "When Patriot is struck by the final hit of a Special Attack, he loses one Resolve, or two against Mutants."
+            ]
+        },
+        {
+            "title": "Sudden Reversal - While at 7+ Resolve Debuffs",
+            "content": [
+                "As a Defender, when Patriot would be struck by a Basic Attack, he consumes 7 Resolve to execute a Reversal.",
+                "When Reversing, gain a non-stacking Fury Passive, increasing Attack Rating by +[13,200] for 12 seconds.",
+                "As an Attacker, if Patriot would be struck by a Basic Attack while charging a Heavy Attack, he consumes 7 Resolve to execute a Reversal and gain two personal Precision Passives, and his Fury gains 87% increased duration.",
+                "Patriot's Heavy can be charged for an extended duration."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each of the four hits grant +3 additional Combo Meter.",
+                "For each multiple of 10 the Combo Meter passed during this attack, the final hit inflicts one [916.67] Physical Vulnerability Debuff for 30 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "If this attack is activated while the Opponent is standing up after a Reversal, it is Passively Unblockable, and personal Fury and Precision Passives are paused during the Special and for 8 seconds after.",
+                "Projectile hits inflict [6,160] Rupture Debuffs for 6.5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "The first three times this attack is used, Patriot reduces the number of Resolve Debuffs consumed by his Reversal by 1 for the rest of the fight.",
+                "Refresh personal Fury and Precision Passives."
+            ]
+        },
+        {
+            "title": "Signature Ability - To Act Is To Be Committed",
+            "content": [
+                "Personal Precision Passives gain [10 - 40]% increased potency.",
+                "Each Debuff on Patriot grants [144.74 - 485.29] Block Proficiency. Against Science Champions, Patriot's Block Proficiency cannot be reduced below where this ability would set it, and the Opponent's Block Penetration is locked to 0."
+            ]
+        }
+    ]
 }

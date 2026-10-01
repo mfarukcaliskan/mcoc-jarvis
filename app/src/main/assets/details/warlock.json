@@ -15,6 +15,71 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): 3 etkili yol var: en az 3 farklı bonus taşıyan şampiyon, şok+zırh-kırmaya immün şampiyon veya Robot, ya da will-power yeterliliğini kaldırarak degeneration'ı önlemek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Warlock Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊"
+    "signatureAbility": "Child of Kvch\nWhen the Opponent's Power is Drained or Burned, inflict a Degeneration Passive dealing [1,246.63 - 3,739.88] Direct Damage over 2 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Immune to Bleed, Poison, Coldsnap, and Frostbite.",
+                "His durable Technarch form grants Warlock a permanent Armor Up Buff, increasing Armor Rating by +[916.67]. If this Buff is removed for any reason, it will refresh itself after 10 second(s).",
+                "While this Buff is active, Opponent's Special Attacks cannot be Critical."
+            ]
+        },
+        {
+            "title": "Contact",
+            "content": [
+                "The Opponent gains a charge of Techno-Organic Transmode Virus. The Virus is not affected by Ability Accuracy.",
+                "Once the Opponent has 20 charges, they are removed and replaced with one Infection Passive that lasts for 20 second(s). The duration is decreased by 6 second(s) for each unique Buff on the Opponent when it activates."
+            ]
+        },
+        {
+            "title": "Techno-Organic Transmode Virus Infection - Passive",
+            "content": [
+                "The Opponent cannot gain Health. If the Salve Mastery is active, the Mastery is removed.",
+                "The Opponent has -30% Offensive Ability Accuracy.",
+                "Whenever the Opponent would gain Health while infected, Warlock Power Drains them for 5% of their current Power over 0.5 second(s)."
+            ]
+        },
+        {
+            "title": "Blocking",
+            "content": [
+                "If the Block was Well-Timed, the Opponent gains 3 Virus charges.",
+                "If the hit was a non-contact Basic Attack, the Opponent instantly Drains 10% of their current Power."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Lacerate opponents, inflicting [9,474.35] Bleed damage over 5 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The last hit Shocks the Opponent, dealing [14,959.5] energy damage over 10 second(s). If they are Infected, this also triggers when the Attack is activated, but lasts half as long.",
+                "The first hit removes all Infections to Passively Drain 25% of the Opponent's Max Power over 5.5 second(s) for each Infection removed."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The last hit places two Armor Break Debuffs on Opponent, each reducing Armor Rating by [2,750] for 10 second(s). If they are Infected, the Debuffs also trigger when the Attack is activated, but last half as long.",
+                "The last hit refreshes one Infection."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Passive Power Burn on the Opponent, draining 100% of their current Power over 5.5 second(s) and dealing damage proportionate to the amount lost.",
+                "Regenerate [5,390.44] Health for each Infection the Opponent has."
+            ]
+        },
+        {
+            "title": "Signature Ability - Child of Kvch",
+            "content": [
+                "When the Opponent's Power is Drained or Burned, inflict a Degeneration Passive dealing [1,246.63 - 3,739.88] Direct Damage over 2 seconds."
+            ]
+        }
+    ]
 }

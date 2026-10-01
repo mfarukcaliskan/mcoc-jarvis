@@ -14,6 +14,75 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Oyunun en iyi mutant savunmacısı, güvenli cevap az. Dövüşü uzatma — nörşok hasarı ölümcül olabilir. İlk hafif/orta vuruş temas etmez (siperlenemez), her 10 vuruşta koşu saldırısı 3sn engellenemez olur, her vurulduğunda %15 (kritikte daha fazla) pasif nörşok uygular (hiç kimse buna immün değil), E2 kontrolleri tersine çevirir. Dövüşü hızlı bitir, hep E1'e zorla, kritik vuramayan şampiyonlar ve yüksek enerji direnci olanlar (en iyisi Havok) iyi seçenek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Onslaught Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %150 Yakma direnci 🔥\n• %150 Kanama direnci 🩸\n• %150 Şok direnci ⚡"
+    "signatureAbility": "Pure Psionic Entity\nOnslaught can Block Unblockable Special Attacks from Skill Champions.\nDaunted Potency is increased by [3 - 33]%.\nFor each non-Damaging Debuff or personal non-Damaging Passive on the Opponent, Onslaught's Special Attacks gain +[2.75 - 120.56] Block Penetration.",
+    "immunityDetails": "• %150 Yakma direnci 🔥\n• %150 Kanama direnci 🩸\n• %150 Şok direnci ⚡",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "First Light and first Medium Attacks do not make contact with the Opponent.",
+                "Incoming Bleed, Incinerate, and Shock potency is reduced by 150%.",
+                "Onslaught's Debuffs gain 50% increased Ability Accuracy against Skill Champions.",
+                "If a personal Debuff or the Stun from the Parry Mastery is Purified or prevented due a Debuff Immunity, re-inflict the Debuff as a Passive."
+            ]
+        },
+        {
+            "title": "Crush",
+            "content": [
+                "When the Opponent's Combo Meter passes a multiple of 10, gain a non-stacking Crush Charge. When starting an attack consume the Charge and inflict a Crush Debuff for 3 seconds. When struck by a Special Attack the Crush Charge is removed."
+            ]
+        },
+        {
+            "title": "Daunted",
+            "content": [
+                "When either Champion Well-Timed Blocks, inflict an indefinite Daunted Debuff of 15% potency. Max: 10.",
+                "While Daunted is active, Onslaught disables the Opponent's Willpower Mastery."
+            ]
+        },
+        {
+            "title": "Neuroshock",
+            "content": [
+                "Either Champion's attacks have 15% chance to inflict a Neuroshock Passive, dealing [1,470.56] Energy Damage over 12 seconds. Critical Hits and Unblockable Special Hits have their chance increased by +40% flat, or double against Skill Champions.",
+                "If Onslaught is the Defender, Dodging backward removes one Neuroshock. #Metal Champions cannot remove Neuroshocks. This effect has a 2.5 second cooldown.",
+                "While suffering from Shock, Incinerate, Plasma, or Coldsnap, inflict a Neuroshock every 1 second."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit pauses all personal Damaging effects for 1.5 seconds. If the Opponent is not suffering from a Stun Debuff, inflict a Daunted Debuff and the pause lasts for 10 seconds instead."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit has a 100% chance plus a flat 50% chance to inflict a personal Neuroshock Passive, and an Organic Magnetism Debuff of 2.6% potency for 16 seconds. These can be inflicted through Block. Max: 8.",
+                "While Organic Magnetism is active, this Special costs 33% less Power and is more likely to be activated.",
+                "If the duration of Organic Magnetism Debuff is reduced by any means, on expiration it re-inflicts itself as a Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, inflict a Delirium Debuff of 30% potency for the duration of the Special. This will not trigger when fighting an Opponent with #Psychic Shielding.",
+                "On hit, replace all Neuroshocks with Degeneration Passives, each dealing [5,974.15] Direct Damage over 6 seconds. On the first hit of this Special, this effect can trigger through Block. Max 20."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Stun Passive for 3 seconds.",
+                "This Special cost 4.5% less Power for each personal Neuroshock on the Opponent, to a max of 33% less Power.",
+                "Inflict 20 Neuroshock Passives and refresh all existing stacks."
+            ]
+        },
+        {
+            "title": "Signature Ability - Pure Psionic Entity",
+            "content": [
+                "Onslaught can Block Unblockable Special Attacks from Skill Champions.",
+                "Daunted Potency is increased by [3 - 33]%.",
+                "For each non-Damaging Debuff or personal non-Damaging Passive on the Opponent, Onslaught's Special Attacks gain +[2.75 - 120.56] Block Penetration."
+            ]
+        }
+    ]
 }

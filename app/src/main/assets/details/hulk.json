@@ -13,6 +13,63 @@
     "synergies": [],
     "howToPlay": "Hulk için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠\n• Silme (Nullify) Bağışıklığı (Hulkbuster ile sinerji) 🔮\n• Buff Bağışıklığı (ile sinerji: Silver Surfer) 🗡️🚫\n• En fazla %90 Dejenerasyon direnci (imza 200) ☠️"
+    "signatureAbility": "Gamma Brawler\nWhen Hulk enters GAMMA RAGE or he strikes the Opponent with a Heavy Attack while it's active, he gains an Unstoppable Passive for [1 - 5.5] seconds.\nGain up to [305.56 - 11,000] Physical Resistance and Critical Resistance while Unstoppable based on missing Health. Potencies for both are reduced by 50% against Skill Champions.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠\n• Silme (Nullify) Bağışıklığı (Hulkbuster ile sinerji) 🔮\n• Buff Bağışıklığı (ile sinerji: Silver Surfer) 🗡️🚫\n• En fazla %90 Dejenerasyon direnci (imza 200) ☠️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "An enhanced immune system provides full Immunity to Poison.",
+                "Gain up to 90% Degeneration Resistance and +[5,328.5] Attack Rating based on missing Health. Maximum benefit at 20% Health.",
+                "Stunned Opponents suffer -20% Combat Power Rate, doubled while in GAMMA RAGE."
+            ]
+        },
+        {
+            "title": "Fury - Max: 20",
+            "content": [
+                "Hulk's Fury Passives grant +[1,065.7] Attack Rating. They last 2 seconds and expire one at a time during GAMMA RAGE, but are paused otherwise.",
+                "Their Ability Accuracy cannot be modified, except by Hulk.",
+                "When striking the Opponent, 50% to 80% chance to gain a Fury Passive based on missing Health.",
+                "When struck, 40% to 70% chance to gain a Fury Passive based on missing Health.",
+                "When struck, if Hulk loses more than 10% of his Max Health, gain 5 Fury Passives."
+            ]
+        },
+        {
+            "title": "GAMMA RAGE",
+            "content": [
+                "Striking an Opponent with a Heavy Attack while Hulk has 5 or more personal Fury Passives inflicts a Stun Debuff for 2 seconds and enters GAMMA RAGE.",
+                "When Hulk has 15 or more personal Fury Passives, he automatically enters GAMMA RAGE.",
+                "While in GAMMA RAGE, if Hulk would gain a personal Fury Passive, he instead inflicts a [144.74] Physical Vulnerability Debuff for 3 seconds. Max: 20.",
+                "While GAMMA RAGE is active, pause all Trauma and Physical Vulnerability Debuffs on the Opponent.",
+                "GAMMA RAGE ends when Hulk has no personal Fury Passives, then goes on cooldown for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final hit inflicts a Stun Debuff for 4 seconds. Duration is increased by 100% while in GAMMA RAGE.",
+                "Each time this Stun is inflicted, its duration is reduced by 60% until the next time Hulk enters GAMMA RAGE."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a Trauma Debuff for each personal Fury Passive currently on Hulk. Trauma lasts for 3 seconds and causes all hits to deal an additional 5% of the damage recently dealt as a burst of Physical Damage. Max: 20."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If GAMMA RAGE is not active, gain 10 Fury Passives.",
+                "If GAMMA RAGE is active, inflict a [11,000] Physical Vulnerability Debuff for 3 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Gamma Brawler",
+            "content": [
+                "When Hulk enters GAMMA RAGE or he strikes the Opponent with a Heavy Attack while it's active, he gains an Unstoppable Passive for [1 - 5.5] seconds.",
+                "Gain up to [305.56 - 11,000] Physical Resistance and Critical Resistance while Unstoppable based on missing Health. Potencies for both are reduced by 50% against Skill Champions."
+            ]
+        }
+    ]
 }

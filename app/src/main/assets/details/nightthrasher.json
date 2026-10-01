@@ -17,6 +17,62 @@
     "synergies": [],
     "howToPlay": "Night Thrasher için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Night Thrasher Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• %50 Arındırma (yere düşürüldüğünde) 💪🏼"
+    "signatureAbility": "Board To Death\nThe final hit of Night Thrasher's Heavy Attack has a 35% chance per active Gadget Debuff to inflict a Taunt Debuff for 10 seconds.\nStriking a Taunted opponent with Skateboard Attacks grants a permanent Fury Buff, increasing Attack by [997.3 - 1994.56]. Max 10 stacks. When Knocked Down these Buffs are lost.\nAfter being Knocked Down Night Thrasher has a [25 - 50]% chance to Purify all Debuffs.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• %50 Arındırma (yere düşürüldüğünde) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Night Thrasher's advanced combat suit grants him immunity to Incinerate effects and [750] Physical Resistance.",
+                "Night Thrasher gains +[144.74] Critical Damage Rating for each Unique Debuff on his opponent. This ability is not affected by Ability Accuracy Reduction.",
+                "Well Timed Blocks and successful Dodges grant 5% of max Power while Night Thrasher is under 1 Bar of Power."
+            ]
+        },
+        {
+            "title": "Skateboard Attacks",
+            "content": [
+                "Champions of the Contest never see the skateboard coming. Attacks using the skateboard have passive True Accuracy."
+            ]
+        },
+        {
+            "title": "On Opponent Knockdown",
+            "content": [
+                "Refresh the duration of all active Gadget Debuffs and Purify 1 Debuff on Night Thrasher."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "All Gadget Debuffs are paused during Night Thrasher's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Night Thrasher uses the Shock Baton to inflict Shock dealing [3,989.2] Energy Damage over 12 seconds.",
+                "If this attack is activated after striking with a Light Attack, Night Thrasher instead uses the Smoke Capsule Gadget, inflicting Disorient. Disorient reduces Enemy Defensive Ability Accuracy by 50% and lowers the opponent's Block Proficiency by 50% for 15 seconds.",
+                "If this attack is activated after striking with a Medium Attack, Night Thrasher instead uses the Explosive Gadget to inflict a [3,989.2] Incinerate Debuff for 15 seconds. This Debuff's damage updates with changes to Attack Rating."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a +[916.67] Precision Buff for 18 seconds. For each Unique Debuff effect on the opponent, base potency is increased by another +[916.67]."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Passive Debilitate, extending the duration of all Debuffs by 75% for 45 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Board To Death",
+            "content": [
+                "The final hit of Night Thrasher's Heavy Attack has a 35% chance per active Gadget Debuff to inflict a Taunt Debuff for 10 seconds.",
+                "Striking a Taunted opponent with Skateboard Attacks grants a permanent Fury Buff, increasing Attack by [997.3 - 1994.56]. Max 10 stacks. When Knocked Down these Buffs are lost.",
+                "After being Knocked Down Night Thrasher has a [25 - 50]% chance to Purify all Debuffs."
+            ]
+        }
+    ]
 }

@@ -12,5 +12,66 @@
     "synergies": [],
     "howToPlay": "Deadpool (X-Force) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Deadpool (X-Force) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Superciliously Savage Slander\nEach time the Opponent Purifies a Taunt Debuff or a Taunt Debuff on the Opponent is replaced due to hitting the max stack limit, Deadpool gains a Power Efficiency Buff reducing the cost of Special Attacks by 20% until the next Special Attack is used. Cooldown: [26 - 5] seconds. Max stacks: 2.\nAgainst Skill Champions, each Shbleed Dooboof Passive up to 1 reduces their Regeneration Rate by [5 - 20]%.",
+    "abilitySections": [
+        {
+            "title": "Taunt - I'm the Merc' With the Mouth Baby!",
+            "content": [
+                "Deadpool can inflict Taunt Debuffs on the opponent, reducing the opponent's Attack Rating by 25% for 16 seconds. Max Stacks: 3.",
+                "Inflict a Taunt Debuff each time the opponent fails to activate a Buff or Debuff during a basic attack. Cooldown: 4 seconds(s).",
+                "Inflict a Taunt Debuff by landing a Heavy Attack."
+            ]
+        },
+        {
+            "title": "On Fourth Light Attack",
+            "content": [
+                "Deadpool's Special Attack 3 is disabled for 0.5 seconds."
+            ]
+        },
+        {
+            "title": "Bleed Debuffs - Duodenum Poke",
+            "content": [
+                "All attacks inflict a Bleed Debuff, dealing [4,262.8] Direct Damage over 4 seconds. Cooldown: 4 seconds.",
+                "Opponents that Purify, Cleanse, or use an LMD to remove these Bleed Debuffs are instead inflicted with a Shbleed Dooboof. They're basically the same, except they're Passive, deal 70% more damage, and have a different, dumber name. HEY!",
+                "If the Opponent is suffering from a Daunted effect, all Duodenum Bleeds instead inflict an Instant Shbleed Dooboof dealing a burst of [6,927.05] Direct Damage."
+            ]
+        },
+        {
+            "title": "Heavy Attack - Super Slap",
+            "content": [
+                "While walking forward, or landing Light Attacks 1 and 3, Deadpool builds up indefinite Slap Charges. Max stacks: 10.",
+                "While at max Slap Charges, slapping the Opponent with a Heavy Attack inflicts 10 stacks of Duodenum Poke Bleed."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "During this attack Duodenum Poke does not have a Cooldown.",
+                "If at 10 Slap Charges, the final hit triggers Super Slap, inflicting an additional 20 Duodenum Bleeds, increased to 25 against Skill Champions."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This is Deadpool's Fav Attack and while fighting as a Defender he is 100% more likely to use it over other Special Attacks.",
+                "Each hit that is Blocked inflicts a Taunt Debuff.",
+                "If Deadpool successfully lands all his hits during the attack, he has a 100% chance to inflict a Stun Passive lasting 2 seconds.",
+                "The first hit inflicts a 50% Daunted Passive for 15 seconds, paused during Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Taunt Debuff.",
+                "Gain a 60% Vicious Buff for 25 seconds. While this Vicious is active, all Taunt Debuffs on the Opponent are paused."
+            ]
+        },
+        {
+            "title": "Signature Ability - Superciliously Savage Slander",
+            "content": [
+                "Each time the Opponent Purifies a Taunt Debuff or a Taunt Debuff on the Opponent is replaced due to hitting the max stack limit, Deadpool gains a Power Efficiency Buff reducing the cost of Special Attacks by 20% until the next Special Attack is used. Cooldown: [26 - 5] seconds. Max stacks: 2.",
+                "Against Skill Champions, each Shbleed Dooboof Passive up to 1 reduces their Regeneration Rate by [5 - 20]%."
+            ]
+        }
+    ]
 }

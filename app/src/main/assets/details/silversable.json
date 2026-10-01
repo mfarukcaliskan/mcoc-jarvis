@@ -14,5 +14,53 @@
     "synergies": [],
     "howToPlay": "Silver Sable için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Silver Sable Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "On The Hunt\nActivating a Special Attack grants a +[107.55 - 538.43] Cruelty Passive for each Shock effect on the Opponent for 15 seconds. Max stacks: 10\nLight and Medium Attacks that Intercept the Opponent have a chance to inflict an additional S:I Bounty Hunter Shock Debuff with +[10 - 60]% flat increased Ability Accuracy.",
+    "abilitySections": [
+        {
+            "title": "S:I Bounty Hunter",
+            "content": [
+                "Light and Medium Attacks: 30% chance to inflict a Shock Debuff dealing [7,528.5] Energy Damage over 30 seconds. Max stacks: 30",
+                "Heavy Attacks: Cannot Miss, and the final hit inflicts a non-stacking 40% Disorient Passive for 18 seconds. Against Science Champions, the potency is 100%.",
+                "When a personal Shock effect fails to trigger due to Immunity, deal a burst of [8,066.25] Energy Damage."
+            ]
+        },
+        {
+            "title": "Sable Mine",
+            "content": [
+                "If the Opponent moves into a Sable Mine, it triggers, inflicting an instant Shock dealing a burst of [3,226.5] Energy Damage. That Sable Mine then goes on cooldown for 4 seconds, deactivating the burst Damage and Critical Shock effect. Mines are not triggered during Opponent's Special Attacks.",
+                "All Sable Mine cooldowns are removed upon performing an Intercept or punishing a Special Attack.",
+                "As an Attacker, if Silver Sable passes over a Sable Mine, she's granted a 80% Fervor Passive for 12 seconds and Purifies 1 non-Damaging Debuff. Max Fervor Stacks: 3.",
+                "Knocking Silver Sable into or over a Sable Mine via a Heavy Attack, Special Attack 1 or Special Attack 2 removes the Mine without triggering it."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On the final hit, set a Sable Mine in front of the Opponent that arms after 2 seconds and lasts until the next Sable Mine is set. Each subsequent Special Attack 1 sets an additional Sable Mine, up to a max of 3.",
+                "As a Defender, the Sable Mine spawns at Silver Sable's location, arms immediately, and only 1 can be set.",
+                "On the final hit, inflict a Tracking Passive for 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit grants a non-stacking +[10,755] Cruelty Buff for 20 seconds.",
+                "If the Opponent is knocked into a Sable Mine via a Special Attack 2, convert up to 15 personal Shock Debuffs into Critical Shock Passives. These last 5 seconds and multiply their potency by Silver Sable's Critical Damage Multiplier."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Refresh all personal Buffs, Debuffs, and Passives and pause them for 20 seconds.",
+                "Deal a burst of [21,510] Energy Damage. Additionally, detonate all Sable Mines, dealing an additional burst for each Mine and setting them all on cooldown."
+            ]
+        },
+        {
+            "title": "Signature Ability - On The Hunt",
+            "content": [
+                "Activating a Special Attack grants a +[107.55 - 538.43] Cruelty Passive for each Shock effect on the Opponent for 15 seconds. Max stacks: 10",
+                "Light and Medium Attacks that Intercept the Opponent have a chance to inflict an additional S:I Bounty Hunter Shock Debuff with +[10 - 60]% flat increased Ability Accuracy."
+            ]
+        }
+    ]
 }

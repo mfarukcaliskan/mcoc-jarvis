@@ -16,5 +16,74 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Rakip negatif efekt uygularsa acımasızca cezalandırır. 12sn'de bir tranquilize uygular (4 debuff engellenirse pasif uyku uygular, 3sn tamamen savunmasız kalırsın). Onu siperleme de — sersemletme debuff'ı uygular. Kimse tranquilize'a immün değil; pasif sersemletme erişimi olan ve negatif efekt uygulamayan şampiyon en iyisi — çoğu durumda onu hiç siperlememek tercih edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mr. Knight Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Case Closed\nWhenever one or more of the Opponent's Debuffs fail to trigger due to reduced Ability Accuracy, they gain [5 - 25] Sleep Charges (rounded down). As a Defender, this includes Debuffs from Quest Nodes on Mr. Knight.\n1.5 seconds after reaching 100 Charges, inflict a Sleep Passive for 3 seconds and remove 100 Charges. Cooldown: 6 seconds. The timer to inflict this Sleep is paused during any Special Attack.\nAs a Defender, when the Attacker activates a Special Attack, they lose 25 Sleep Charges per level of the Special Attack.\nAs an Attacker in Battlegrounds, at the start of each fight inflict 2 10% Injury Passives for [4 - 12] seconds.",
+    "abilitySections": [
+        {
+            "title": "Khonshu's Protection",
+            "content": [
+                "While Mr. Knight is Blocking, the Opponent's Attack Rating during hits is capped at 90% of what it was at the start of the fight. While he is Dodging back, the cap is 30%.",
+                "Whenever Mr. Knight's Dexterity Mastery fails to activate from an incoming attack, he gains an Unstoppable Passive for 0.75 seconds.",
+                "While the Opponent is Sleeping, Mr. Knight does not idle. He doesn't want to waste the opportunity."
+            ]
+        },
+        {
+            "title": "Phases of Combat",
+            "content": [
+                "Mr. Knight cycles through different Moon Phases during combat. Each Phase lasts 12 seconds before moving to the next Phase. The order of the Phases are: Waning Moon, New Moon, Waxing Moon, Full Moon, then back to Waning Moon.",
+                "While the Moon is Full, Light Attacks and Special Attacks are Guaranteed Critical Hits, and Critical Hits land through Block.",
+                "While the Moon is Waxing or Waning, Light Attacks gain +[687.5] Critical Rating.",
+                "Whenever the Moon Phase changes, gain a +[7,271.51] Light Proficiency Passive for 18 seconds. Max: 6."
+            ]
+        },
+        {
+            "title": "Tranquilize",
+            "content": [
+                "Mr. Knight's Well-Timed Blocks inflict a 10% Tranquilize Debuff for 15 seconds. Max: 5.",
+                "As a Defender, whenever the Moon Phase changes, inflict a 10% Tranquilize Passive for 15 seconds.",
+                "If the Opponent is not a Mutant, the Ability Accuracy of their non-Damaging Debuffs is further reduced by 25% per personal Tranquilize on them. Only affects Champion Abilities and Masteries."
+            ]
+        },
+        {
+            "title": "Crack the Case",
+            "content": [
+                "Attacking the Opponent while they are Sleeping, or are charging or performing a Heavy or Special Attack inflicts an indefinite 10% Injury Passive. Doing so with a Light Attack inflicts 1 additional Injury. Max: 10.",
+                "Inflicting 1 or more Injury in this way triggers a cooldown of 10 seconds. When a personal Injury would be inflicted while the cooldown is active, instead shorten the cooldown by 4 seconds per attempted Injury.",
+                "When the Opponent is Inflicted with an Injury effect, if they have at least…",
+                "1+, refresh 2 personal Light Proficiency Passives.",
+                "2+, inflict a Panic Debuff for 15 seconds.",
+                "4+, inflict 1 personal Tranquilize Debuff. Against Science Champions, this triggers at 3 or more Injuries instead.",
+                "5+, inflict a non-stacking 30% Reckless Debuff for 10 seconds. This Reckless is removed the next time the Opponent charges a Heavy attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final hit grants 2 personal Light Proficiency Passives.",
+                "If the Moon Phase changed during this attack, the final hit inflicts a Sleep Passive for 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, the next time Full Moon activates or if it is already active, pause it and all personal Light Proficiency Passives for 12 seconds.",
+                "As a Defender, on activation inflict 2 personal Tranquilize Passives."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a non-stacking Regeneration Buff, restoring 1% of Max Health over 9 seconds. Potency is increased by 150% while below 50% Health. This is refreshed when the Moon Phase changes or a personal Injury is inflicted.",
+                "Refresh all personal Tranquilize and Light Proficiency effects."
+            ]
+        },
+        {
+            "title": "Signature Ability - Case Closed",
+            "content": [
+                "Whenever one or more of the Opponent's Debuffs fail to trigger due to reduced Ability Accuracy, they gain [5 - 25] Sleep Charges (rounded down). As a Defender, this includes Debuffs from Quest Nodes on Mr. Knight.",
+                "1.5 seconds after reaching 100 Charges, inflict a Sleep Passive for 3 seconds and remove 100 Charges. Cooldown: 6 seconds. The timer to inflict this Sleep is paused during any Special Attack.",
+                "As a Defender, when the Attacker activates a Special Attack, they lose 25 Sleep Charges per level of the Special Attack.",
+                "As an Attacker in Battlegrounds, at the start of each fight inflict 2 10% Injury Passives for [4 - 12] seconds."
+            ]
+        }
+    ]
 }

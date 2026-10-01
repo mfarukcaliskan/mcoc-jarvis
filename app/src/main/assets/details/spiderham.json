@@ -11,6 +11,90 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Sık kaçar, E1'in kışkırtmasıyla saldırı gücünü azaltır, iğneleriyle özel saldırı kullanımını engeller. Kaçışı önleyen veya yetenek azaltan şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Ham Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %15 Dejenerasyon direnci (Örümcek Çılgınlığı ile) ☠️"
+    "signatureAbility": "Hamming It Up\nWhenever Spider-Ham Evades, he places a Porker Popper on the Opponent.\nWhenever Spider-Ham is Struck while Stunned, 30% chance to remove 1 Spider-Nonsense and place a non-stacking Porker Popper on the Opponent.\nThese Porker Poppers last for [7 - 14] second(s) and deal [4,003.65] Damage.\nWhile Spider-Nonsense is at 10, it lasts for an additional [0.2 - 2] second(s) before resetting.",
+    "immunityDetails": "• %15 Dejenerasyon direnci (Örümcek Çılgınlığı ile) ☠️",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "+[375] Physical Resistance."
+            ]
+        },
+        {
+            "title": "Spider-Nonsense - Max 10",
+            "content": [
+                "Spider-Ham's cartoonish nature increases the more danger he is in. Spider-Nonsense starts at 0 and increases over time as long as the Opponent has at least 1 Bar of Power, increasing faster for each additional Bar of Power they have.",
+                "Every stack of Spider-Nonsense reduces Degeneration effect potency by 15%, and Passively reduces damage taken during the Opponent's Special Attacks by 5%.",
+                "While Spider-Nonsense is at 6 or more, Spider-Ham has a 35% chance to Evade. This Evade will not trigger while Blocking.",
+                "While Spider-Nonsense is at 10, Spider-Ham will not gain any for 6.5 second(s), after which it resets back to 0. Spider-Nonsense resets to 3 against Mystic Champions."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Remove 2 Spider-Nonsense."
+            ]
+        },
+        {
+            "title": "Medium Attacks",
+            "content": [
+                "50% chance to place a Porker Popper on the Opponent for 9 second(s), dealing [6,863.4] Direct Damage when they activate a Special Attack.",
+                "The chance is increased by 25% flat if the Opponent is Stunned or Spider-Ham is Unblockable."
+            ]
+        },
+        {
+            "title": "Dash Back and Hold Block",
+            "content": [
+                "Activate Spider-Sense, granting 100% chance to Evade. This Evade will trigger even while Blocking.",
+                "When this Evade triggers, Spider-Sense goes on cooldown for 12 second(s)."
+            ]
+        },
+        {
+            "title": "Evade Effects",
+            "content": [
+                "Whenever Spider-Ham Evades, he becomes Unblockable for 1.2 seconds and inflicts the Opponent with a Taunt Debuff for 7 seconds."
+            ]
+        },
+        {
+            "title": "Porker Poppers",
+            "content": [
+                "Any Power Sting Debuff on the Opponent is automatically upgraded into a Patent Pending Peter Porker Power Popper Debuff. Porker Poppers are still treated as Power Stings for all other abilities.",
+                "Whenever a Porker Popper is triggered, there is a 8.5% chance per Spider-Nonsense for it to be replaced by 1 new Porker Popper(s), each lasting 9 second(s) and dealing [6,863.4] Damage.",
+                "Porker Poppers deal a burst of up to [8,579.25] additional Passive Direct Damage when they trigger, scaling with how much Power the Opponent had.",
+                "The additional damage is increased by 60% for each Bar of Power the Opponent had when they were triggered."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Pause any Porker Poppers currently on the Opponent until they activate a Special Attack.",
+                "After this Special Attack, Taunt the Opponent for 7 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack is Unblockable if the Opponent is Taunted.",
+                "Set Spider-Nonsense to 10, and pause its reset timer for 7 second(s).",
+                "Place 3 Porker Poppers on the Opponent, each lasting 9 second(s) and dealing [6,863.4] Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If the Opponent has triggered fewer than 15 Porker Poppers in this fight, place 4 Porker Popper(s) on them.",
+                "If the Opponent has triggered 15 or more Porker Poppers in this fight, place a Porker Popper on them for every Porker Popper that was triggered. This can only occur once per fight. Max: 25 Porker Poppers.",
+                "Each Porker Popper placed by this Attack lasts for 10 second(s) and deals [6,863.4] Damage."
+            ]
+        },
+        {
+            "title": "Signature Ability - Hamming It Up",
+            "content": [
+                "Whenever Spider-Ham Evades, he places a Porker Popper on the Opponent.",
+                "Whenever Spider-Ham is Struck while Stunned, 30% chance to remove 1 Spider-Nonsense and place a non-stacking Porker Popper on the Opponent.",
+                "These Porker Poppers last for [7 - 14] second(s) and deal [4,003.65] Damage.",
+                "While Spider-Nonsense is at 10, it lasts for an additional [0.2 - 2] second(s) before resetting."
+            ]
+        }
+    ]
 }

@@ -14,6 +14,65 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bloğuna vurursan 2sn görünmez olup karşılık verir — bloğuna vurma ya da görünmezlik-karşıtı şampiyon kullan. Bonusunu nötralize edersen pasif kanama uygular. Özel saldırılarında pasif iyileşir — iyileşme oranını azaltan şampiyon tercih et.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dracula Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• İyileşme Engeli Bağışıklığı 💚🚫"
+    "signatureAbility": "The Prince of Darkness\nAs an Attacker, when the Opponent's Unblockable, Unstoppable, or Evade effects fail due to reduced Ability Accuracy, inflict a [2,573.43 - 5,279.5] Bleed Passive for 3 seconds.\nDracula gains +[2,573.43 - 5,279.5] Attack Rating for each Armor Break Debuff he is suffering from, up to 5.",
+    "immunityDetails": "• İyileşme Engeli Bağışıklığı 💚🚫",
+    "abilitySections": [
+        {
+            "title": "Blood of Vampires",
+            "content": [
+                "Dracula's vampiric blood makes him Immune to Heal Block, but while fighting #Silver Champions he suffers -25% Regeneration Rate.",
+                "Driven by bloodthirst, Dracula only benefits from half the potency of the Mystic Dispersion Mastery, but after a Buff on the Opponent is Nullified he inflicts a [3,167.7] Bleed Passive for 3 seconds."
+            ]
+        },
+        {
+            "title": "Dread of Night - Dire Degeneration",
+            "content": [
+                "Dracula strikes terror into the very souls of mortals. As an Attacker, at the start of each fight, inflict a Degeneration Passive dealing [844,720] Direct Damage over 666 seconds. This is unaffected by Ability Accuracy and scales with Base Attack only.",
+                "Charging a Heavy Attack or Interrupting any attack with a Light Attack makes this Degeneration Dire, increasing its tick rate by 666%.",
+                "The Degeneration remains Dire as long as Dracula continues attacking, or while a Striker or Striker Opening are active."
+            ]
+        },
+        {
+            "title": "Form of Mist - Invisibility",
+            "content": [
+                "Hitting the Opponent's Block with a Basic Attack grants Dracula an Invisibility Buff for 2 seconds. This will not re-trigger while active.",
+                "If this Invisibility causes an attack to Miss, or if Dracula is struck while it's active, it goes on cooldown for 12 seconds when it ends."
+            ]
+        },
+        {
+            "title": "Vampiric Drain - Special Attacks",
+            "content": [
+                "During his Special Attacks 1 and 2, Dracula gains a Regeneration Passive healing 0.25% of his Max Health per second. The tick rate of this Regeneration is increased by half of the Dire Degeneration's increased tick rate.",
+                "Each sword hit Nullifies a Buff on the Opponent. If a Fury Buff is Nullified, Dracula steals it to gain a Fury Buff with twice the potency until the end of the Special Attack. Max potency: +[10,559]."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Wallachian Warlord",
+            "content": [
+                "On activation, inflict a Slow Passive for 40 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Dark Cloud",
+            "content": [
+                "During this attack, Dracula's Degeneration becomes Dire, increasing its tick rate by 666%. If it was already Dire, its tick rate is instead increased to 1200%.",
+                "Each bat hit inflicts a Fear Passive for 60 seconds. This can be inflicted through Block."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - A Night Eternal",
+            "content": [
+                "Re-inflict Dracula's Degeneration Passive.",
+                "Inflict a Power Steal Passive stealing a Bar of Power over 3 seconds.",
+                "At the end of this attack, inflict a [17,168.93] Bleed Passive for 3 seconds. If the Opponent is below 30% Health, this Bleed gains up to 1260% base potency based on their missing Health."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Prince of Darkness",
+            "content": [
+                "As an Attacker, when the Opponent's Unblockable, Unstoppable, or Evade effects fail due to reduced Ability Accuracy, inflict a [2,573.43 - 5,279.5] Bleed Passive for 3 seconds.",
+                "Dracula gains +[2,573.43 - 5,279.5] Attack Rating for each Armor Break Debuff he is suffering from, up to 5."
+            ]
+        }
+    ]
 }

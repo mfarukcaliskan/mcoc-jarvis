@@ -19,6 +19,71 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kaçışı yetenek azaltmayla önlenemez (yavaşlatma da işe yaramaz). Özel saldırılarında ve rakip kaçınca kanama uygular — kanamaya immün/dirençli şampiyon şart. Kaçışını isabetli saldırı veya pasif kaçış-karşıtı şampiyonlarla (Professor X, Cyclops, Bastion, Apocalypse) önle; onda-i-soğuk erişimi olan şampiyonlar da işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Bullseye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %50 Arındırma 💪🏼"
+    "signatureAbility": "Heightened Concentration\nActivating a Special Attack Passively reduces damage caused by the Opponent by [10 - 99.45]% for 0.06 seconds.\nWhenever either Champion is Stunned or struck by a Heavy Attack, Bullseye has a [10 - 50.2]% chance to Purify 50% of all Debuffs, up to a maximum of 10 Debuffs. The Stun Debuff from the Parry Mastery will not trigger this.",
+    "immunityDetails": "• %50 Arındırma 💪🏼",
+    "abilitySections": [
+        {
+            "title": "I Never Miss - Always Active",
+            "content": [
+                "All hits bypass Miss, and all hits are Guaranteed Critical Hits. Critical Hits and personal effects can be inflicted through Blocks that are not Well-Timed.",
+                "Bullseye is Immune to Precision or Fatigue effects, and gains a non-stacking +[56.12] Cruelty Buff for 8 seconds when this Immunity triggers. This Buff will not re-trigger while already active.",
+                "When the Opponent would be inflicted with a Bleed effect, gain a +[56.12] Cruelty Passive for 8 seconds, paused during Special Attacks as a Defender. These are also paused for 3 seconds each time the Opponent avoids a Basic Attack with the Dexterity Mastery. Max stacks: 10.",
+                "For each personal Cruelty Passive, Physical Resistance is increased by +[485.29].",
+                "Blade Attacks inflict instant Bleeds dealing [997.3] Direct Damage. These are also inflicted when any attack is Evaded, or a Special Attack is avoided with the Dexterity Mastery."
+            ]
+        },
+        {
+            "title": "Dialed In",
+            "content": [
+                "During a Special Attack 1 or 2, press the Block Input after the first hit to slow down time. Releasing the Block Input precisely when the final projectile is thrown grants a Perfect Release bonus.",
+                "A Perfect result in the Special 3 Mini-Game also grants a Perfect Release bonus.",
+                "Activating a Perfect Release bonus grants an indefinite Dialed In Passive increasing the potency of personal Cruelty Passives by +[22.18] flat, and retriggers all personal Cruelty Passives. Failing to activate a Perfect Release bonus removes 1 Dialed In Passive. Max stacks: 5.",
+                "As a Defender, 10% chance for each Cruelty Passive to activate a Perfect Release bonus after Special Attacks 1 and 2. Additionally, Special Attack 3 always triggers a Perfect Release bonus."
+            ]
+        },
+        {
+            "title": "Killer Instinct",
+            "content": [
+                "Gaining a Bar of Power grants a non-stacking Killer Instinct Passive for 3 seconds, this will not trigger while already active. This is paused during Bullseye's Special Attacks, and while over 1 Bar of Power or until a personal Evade triggers.",
+                "While Killer Instinct is active, Bullseye has a 100% chance to Evade incoming Basic Attacks, Purifying any Stun Debuffs in the process. This Evade will not trigger while Blocking. Killer Instinct and its effects are not affected by Ability Accuracy reduction.",
+                "When Killer Instinct expires as an Attacker, it goes on cooldown for 12 seconds or until Bullseye strikes the Opponent 10 times.",
+                "When Evading, Bullseye Counter-Attacks and inflicts an instant Bleed dealing [997.3] Direct Damage.",
+                "After Counter-Attacking as an Attacker, the ability to activate Special Attack 3 is disabled for 1 second. As a Defender, the chance to activate a Special Attack is increased for 1 second instead."
+            ]
+        },
+        {
+            "title": "Special Attacks 1 and 2",
+            "content": [
+                "Activating Special Attack 1 or 2 immediately after a Counter-Attack makes the first hit of the Special Attack passively Unblockable and grants a +[6,482.45] Fury Passive for 6 seconds. This Fury Passive will not re-trigger while already active, and is paused during Bullseye's Special Attacks. Intercepting the Opponent with any Special Attack hit also grants this Fury Passive.",
+                "Special Attack hits landed against an Invisible, Phasing or Untouchable opponent grant no Power."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a True Accuracy Passive for 15 seconds, paused until the end of the Special Attack.",
+                "The final hit inflicts 2 additional instant Bleeds, each dealing [997.3] Direct Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a non-stacking 25% Impact Passive and inflict a non-stacking 50% Bleed Vulnerability Passive. Both of these effects last 30 seconds, and are paused until the end of the Special Attack.",
+                "The final hit inflicts a Stun Passive for 1.5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a non-stacking Disorient Passive reducing Block Proficiency and Defensive Ability Accuracy by 50% for 45 seconds. While this Disorient is active, all personal Cruelty Passives are paused."
+            ]
+        },
+        {
+            "title": "Signature Ability - Heightened Concentration",
+            "content": [
+                "Activating a Special Attack Passively reduces damage caused by the Opponent by [10 - 99.45]% for 0.06 seconds.",
+                "Whenever either Champion is Stunned or struck by a Heavy Attack, Bullseye has a [10 - 50.2]% chance to Purify 50% of all Debuffs, up to a maximum of 10 Debuffs. The Stun Debuff from the Parry Mastery will not trigger this."
+            ]
+        }
+    ]
 }

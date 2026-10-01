@@ -8,5 +8,43 @@
     "synergies": [],
     "howToPlay": "Drax için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Drax Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Enthrall\nFury fascinates The Destroyer, granting a fixed 12% chance to cumulatively increase Attack by [475.8 - 1,983.67] for 6 seconds with each activation.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "12% chance to gain a Fury Buff for 6.5 seconds, granting +[1,982.5] Attack."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "100% chance to gain a Fury Buff for 8 seconds, granting +[1,189.5] Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "40% chance to inflict Bleed, dealing [6,344] Direct Damage over 4 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a Bleed Debuff, dealing [8,723] Direct Damage over 5.5 seconds."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "Critical Hits lacerate opponents with a 40% chance, inflicting [3,965] Bleed damage over 5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Enthrall",
+            "content": [
+                "Fury fascinates The Destroyer, granting a fixed 12% chance to cumulatively increase Attack by [475.8 - 1,983.67] for 6 seconds with each activation."
+            ]
+        }
+    ]
 }

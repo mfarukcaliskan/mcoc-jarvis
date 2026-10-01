@@ -9,6 +9,38 @@
     "synergies": [],
     "howToPlay": "Unstoppable Colossus için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Unstoppable Colossus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠"
+    "signatureAbility": "Unstoppable\nWhenever Colossus starts the fight or launches a Special Attack, he calls upon the power of Cyttorak, becoming Unstoppable and shrugging off all enemy attacks for [2.3 - 4.1] seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Impenetrable armor provides full immunity to Bleeding."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "10% chance to gain an Armor Up Buff for 6.5 seconds, granting +[1,058.82] Armor Rating."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "11% chance to gain a Fury Buff for 5.5 seconds, granting +[1,818.9] Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Damage increases by up to 130% based on Armor."
+            ]
+        },
+        {
+            "title": "Signature Ability - Unstoppable",
+            "content": [
+                "Whenever Colossus starts the fight or launches a Special Attack, he calls upon the power of Cyttorak, becoming Unstoppable and shrugging off all enemy attacks for [2.3 - 4.1] seconds."
+            ]
+        }
+    ]
 }

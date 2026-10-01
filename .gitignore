@@ -15,3 +15,6 @@
 local.properties
 .kotlin/
 .claude/settings.local.json
+
+# mcoc.gg sync cache
+tools/.cache/

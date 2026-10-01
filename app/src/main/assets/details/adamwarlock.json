@@ -14,6 +14,94 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Birçok mistik yeteneği yok sayar, nötralize ve yetenek-azaltmaya immün. Vuruşları ve özel saldırıları engellenemez hale gelir. Güç çalan şampiyon kullan; stasis odasına vurma, vurursan sersemlersin.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Adam Warlock Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• Şok Bağışıklığı (Durağanlık Odası) ⚡️\n• Yakma Bağışıklığı (Durağanlık Odası) 🔥\n• Ani Soğuk Bağışıklığı (Durağanlık Odası) 🧊"
+    "signatureAbility": "Cosmic Rebirth\nWhen entering the Stasis Pod, gain a Regeneration Buff healing [2 - 10]% of missing Health over 2 seconds unless suffering from a Soul Barb effect.\nWhen the Opponent strikes into the Pod, they have a [10 - 100]% chance to be inflicted with a Stun Debuff for 2 seconds unless suffering from a Soul Barb effect.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• Şok Bağışıklığı (Durağanlık Odası) ⚡️\n• Yakma Bağışıklığı (Durağanlık Odası) 🔥\n• Ani Soğuk Bağışıklığı (Durağanlık Odası) 🧊",
+    "abilitySections": [
+        {
+            "title": "Power Meter",
+            "content": [
+                "Adam passively gains 2.5% of a Bar of Power each second, but his Combat Power Rate is reduced by 25%.",
+                "When Adam has his Power Stolen, he stops gaining Power overtime for 12 seconds.",
+                "When Adam has his power Drained or Burned, he gains a non-stacking 50% Energize Passive for 12 seconds.",
+                "Against non-Mystic Opponents, Adam's Ability Power Rate cannot be reduced."
+            ]
+        },
+        {
+            "title": "Sovereignty Counter",
+            "content": [
+                "Landing Adam's Light Attack 2 into Block or activating a Special Attack 1 or 2 starts the Sovereignty Counter for 2 seconds. When the Opponent receives a hit from any source, the Counter is refreshed and increased by 1.",
+                "Breaking the Opponent's Block with the first hit of the Sovereignty Counter increases it by 10 instead of 1 on this hit.",
+                "As the Sovereignty Counter increases, Adam gains non-stacking Buffs lasting 2 seconds, refreshed when the Opponent receives a hit from any source.",
+                "First Hit: Gain an Unblockable Buff.",
+                "10 Hits: Gain a True Damage Buff, allowing attacks to bypass Armor and Resistances.",
+                "20 Hits: Gain a Precision Buff, increasing Critical Rating by [24,750].",
+                "30 Hits: Gain a Fury Buff, increasing Attack Rating by [25,958.25].",
+                "40 Hits: End the Sovereignty Counter and all Buffs granted by it and gain a stackable Fury Buff increasing Attack Rating by [17,305.5] for 60 seconds, paused while the Sovereignty Counter is active. Max stacks: 2.",
+                "The Sovereignty Counter and all above non-stacking Buffs are refreshed and paused while Adam is inside the Stasis Pod and during Adam and his Opponent's Special Attack 1 and 2.",
+                "When the Sovereignty Counter expires, it goes on cooldown for 10 seconds and grants a Sovereignty Buff that lasts for 30 seconds. This Buff is paused while the Sovereignty Counter is active.",
+                "Additionally, activating the Parry Mastery's Stun Effect will end the Sovereignty Counter and all above non-stacking Buffs.",
+                "As a Defender, when Adam or his Opponent are struck by or Block attacks 20 times, Adam gains a Sovereignty Buff for 15 seconds."
+            ]
+        },
+        {
+            "title": "Sovereignty Buff - Max: 1",
+            "content": [
+                "This Buff cannot have its Ability Accuracy reduced or be Nullified, Staggered, or Fatesealed by Champions.",
+                "New personal Buffs become Sovereign. Sovereign Buffs cannot have their Ability Accuracy reduced.",
+                "Gain Immunity to Nullify, Stagger, and Fateseal caused by Champions.",
+                "Stun Debuffs inflicted by the Opponent's Parry Mastery suffer 100% Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Stasis Pod",
+            "content": [
+                "Once per fight as a Defender, if Adam started the fight with more than 25% of his Max Health, when he reaches 25%, after a 2 second delay he enters his Stasis Pod for 2 seconds.",
+                "Once per fight as an Attacker, double tapping Block causes Adam to enter his Stasis Pod for 2 seconds."
+            ]
+        },
+        {
+            "title": "Stasis Pod - While Active",
+            "content": [
+                "Adam is locked into place and cannot use any attacks or be Interrupted.",
+                "All incoming damage is reduced by 75%.",
+                "Instantly Regenerate 74% of all incoming damage unless suffering from a Soul Barb effect.",
+                "Lower the Ability Accuracy of Damaging Debuffs (excluding Soul Barb) and Heal Block effects by 100%.",
+                "When entering the Stasis Pod, gain an Energy Protection Buff granting Immunity to Shock, Incinerate, Coldsnap, and Frostbite for 60 seconds.",
+                "When emerging from the Stasis Pod, gain invulnerability for 0.25 seconds.",
+                "Adam immediately emerges from the Pod if the Opponent activates a Special Attack 3, not granting its benefits against the attack."
+            ]
+        },
+        {
+            "title": "Master of Souls",
+            "content": [
+                "While the Sovereignty Counter is active, inflict a 20% Taunt Debuff.",
+                "When the Sovereignty Counter's cooldown is complete, inflict a 20% Intimidate Debuff for 4 seconds, removed when Adam strikes the Opponent's Block."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "While Adam has a personal Precision Buff, the final hit inflicts a Stun Debuff for 1.25 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "After this attack, enter the Stasis Pod for 2 seconds. This ability can trigger multiple times in the fight. The Energy Protection Buff gained from this Stasis Pod only lasts 2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a non-stacking Fury Buff, increasing Attack Rating by [17,305.5] for 60 seconds. Max stacks: 1."
+            ]
+        },
+        {
+            "title": "Signature Ability - Cosmic Rebirth",
+            "content": [
+                "When entering the Stasis Pod, gain a Regeneration Buff healing [2 - 10]% of missing Health over 2 seconds unless suffering from a Soul Barb effect.",
+                "When the Opponent strikes into the Pod, they have a [10 - 100]% chance to be inflicted with a Stun Debuff for 2 seconds unless suffering from a Soul Barb effect."
+            ]
+        }
+    ]
 }

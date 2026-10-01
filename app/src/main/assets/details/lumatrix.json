@@ -14,6 +14,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Ağır saldırı yüklerken 2sn'lik kaçış yükü kazanır; kaçarsa görünmez olur ve pasif sersemletir — kaçış-karşıtı şampiyon şart. Güç barları kırık olduğu için 2 bar dolu olsa bile E1 kullanabilir (öngörülemez). E1 kullanırsa pasif görünmezlik kazanır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Lumatrix Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yırtılma Bağışıklığı ☣️"
+    "signatureAbility": "The Shining Assassin\nWhen a non-Damaging Debuff on Lumatrix expires naturally, Passively reduce incoming damage by [30 - 60]%.\nThe Opponent's Instant Damaging effects have their Ability Accuracy reduced by [20 - 45]%, doubled when fighting Science Champions.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yırtılma Bağışıklığı ☣️",
+    "abilitySections": [
+        {
+            "title": "Always Active - Skilled Eidol Physiology",
+            "content": [
+                "Lumatrix is a Skill Eidol and thus has a Fractured Power Bar and is Immune to Bleed and Rupture effects.",
+                "Personal effects other than Fury are paused during the Opponent's Special Attacks.",
+                "Start each fight with an indefinite 25% Endurance Passive. When the Opponent Misses while Lumatrix is Blocking, also gain a 25% Endurance Passive for 20 seconds. Max stacks: 3.",
+                "Lumatrix can charge their Heavy Attack for 4 seconds, and their Heavy Attack hits grant the Opponent 20% less Power. While Invisible, this reduction is extended to all hits."
+            ]
+        },
+        {
+            "title": "Cunning - Max: 8",
+            "content": [
+                "Lumatrix's 40% Cunning Passives last 12 seconds, and 1 Cunning is gained when Lumatrix has 1 or more full Bars of Power remaining after activating a Special Attack.",
+                "Gaining Lumatrix's Cunning refreshes all personal Cunning. While Lumatrix's Cunning is at max, all hits are Guaranteed Critical Hits."
+            ]
+        },
+        {
+            "title": "Misdirection - Evade",
+            "content": [
+                "When Lumatrix starts charging their Heavy Attack, they gain an Evade Charge for 2 seconds. This starts indefinitely paused, and will not activate while Invisible or while Lumatrix's Invisibility is on cooldown.",
+                "When Lumatrix stops charging their Heavy Attack, this Evade Charge is removed. As a Defender, this is unpaused instead.",
+                "Against non-Mutant Opponents, gaining this Evade Charge also inflicts the Opponent with a Tracking Passive for 5 seconds.",
+                "While this Evade Charge is active, Lumatrix gains a 100% chance to Evade Basic Attacks.",
+                "The Opponent becomes more aggressive while this Evade Charge is active, or while Invisible.",
+                "Performing any Evade consumes the Evade Charge and grants 1 Cunning. Performing a personal Evade also inflicts a Stun Passive for 1 second."
+            ]
+        },
+        {
+            "title": "Deception - Invisibility",
+            "content": [
+                "After performing an Evade, Lumatrix gains an Invisibility Passive for 3 seconds, paused during Lumatrix's attacks. As an Attacker, activating a Special Attack while the Evade Charge is active also grants this Invisibility.",
+                "While Invisible or while Lumatrix is performing their Special Attack 1, gain Stun Immunity, increase personal Cunning potency by 100%, and pause all personal effects other than Invisibility and Stun.",
+                "When the Opponent is knocked down by a Heavy Attack or when the Opponent activates a Special Attack, this Invisibility is removed.",
+                "If this Invisibility ends without Lumatrix knocking the Opponent down with a Heavy Attack, it goes on cooldown for 20 seconds.",
+                "This cooldown is removed by punishing a Special Attack, activating a Special Attack, or by knocking the Opponent down with a Heavy Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain 1 Cunning.",
+                "Just before the final hit, activate Invisibility. If already Invisible, also gain an Unblockable Passive for 2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain 3 Cunning. As a Defender, also gain Lumatrix's Evade Charge, and pause it until the end of this Special Attack.",
+                "On the first landed hit, gain a +[7,113] Fury Passive for 20 seconds. If Unblockable, gain 1 additional Fury Passive. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "On activation, gain 7 Cunning, activate Invisibility, and pause it for 10 seconds.",
+                "While this pause is active, Lumatrix's Invisibility will not be removed when the Opponent is knocked down by a Heavy Attack or when the Opponent activates a Special Attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Shining Assassin",
+            "content": [
+                "When a non-Damaging Debuff on Lumatrix expires naturally, Passively reduce incoming damage by [30 - 60]%.",
+                "The Opponent's Instant Damaging effects have their Ability Accuracy reduced by [20 - 45]%, doubled when fighting Science Champions."
+            ]
+        }
+    ]
 }

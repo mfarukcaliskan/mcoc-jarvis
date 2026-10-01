@@ -13,6 +13,65 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Güç kazanımını kontrol etmek en önemlisi — nötralize, güç çalma/çekme veya petrify efektli şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hyperion Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Cosmic Potential\nHyperion's Eternal physiology becomes more efficient at storing and converting cosmic radiation, resulting in [52 - 75]% increased Fury, Precision, Power Gain and Regeneration Buff duration.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Eternal physiology grants immunity to all known poisons within the Battlerealm."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "40% chance to gain a Fury Buff for 10 seconds, granting +[5,749.2] Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack Incinerates the enemy, dealing [9,965.28] Energy Damage over 10 seconds. This effect also removes Perfect Block Chance and reduces Block Proficiency by 50% while it's active."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "60% chance to Stun for 4 seconds.",
+                "100% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [2,250] for 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to gain up to 3 Cosmic Charges.",
+                "If Hyperion has 3 Cosmic Charges when used he instead gains a Cosmic Overcharge Buff.",
+                "While in Cosmic Overcharge mode Hyperion gains Power, and does not convert Cosmic Charges into Power Gains while below Full Power."
+            ]
+        },
+        {
+            "title": "Cosmic Charge - Passive",
+            "content": [
+                "Gains charges periodically.",
+                "Maximum 3 charges at a time.",
+                "Each charge passively increases Physical Resistance by [798.39].",
+                "Each charge passively increases Attack by [4,791].",
+                "Whenever not at full Power, Cosmic Charges are converted into Power Gain Buffs, 1 at a time."
+            ]
+        },
+        {
+            "title": "Cosmic Healing - Passive",
+            "content": [
+                "Hyperion triggers Cosmic Healing by dashing backwards and holding block for 2 seconds, at a cost of 3 Cosmic Charges.",
+                "Cosmic Healing Regenerates [21,849] of Hyperion's Health over 15 seconds.",
+                "After triggering Cosmic Healing, Hyperion will be unable to generate Cosmic Charges for 45 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Cosmic Potential",
+            "content": [
+                "Hyperion's Eternal physiology becomes more efficient at storing and converting cosmic radiation, resulting in [52 - 75]% increased Fury, Precision, Power Gain and Regeneration Buff duration."
+            ]
+        }
+    ]
 }

@@ -13,6 +13,79 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kritik vurma, kanama/şok uygulama, herhangi bir negatif efekti purify etme veya exhaustion altındayken vurma — bunların hepsi ona ölümcül nörşok tetikler. Kritik vuramayan şampiyonlar avantajlı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Captain Britain Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠"
+    "signatureAbility": "Pure Soul\nIncrease personal Exhaustion duration by [3 - 10]% for each Psionic Charge. Psionic Mode increases the duration as if Captain Britain has 10 Psionic Charges.\nEach personal Neuroshock reduces the Opponent's Energy Resistance by [15 - 35]% of their current positive Energy Resistance. Max: 100%.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Basic attacks deal Energy Damage instead of Physical.",
+                "Against non-Tech Champions, Captain Britain's personal Neuroshock and Exhaustion Passives cannot have their duration or Ability Accuracy reduced.",
+                "Captain Britain starts each fight with a 3% Safeguard Passive. When inflicted with a Special Power Drain effect, or, as an Attacker, after reducing a hit's damage, this Safeguard is removed.",
+                "When this Safeguard is removed or prevented, Captain Britain regains it after 20 seconds unless she's suffering from a Special Power Drain effect.",
+                "When either Champion is knocked down, or Captain Britain is struck by a Critical Hit, the Opponent is inflicted with a non-stacking [687.5] Exhaustion Passive for 4 seconds."
+            ]
+        },
+        {
+            "title": "Neuroshock",
+            "content": [
+                "Captain Britain's Neuroshock Passives deal [2,639.75] Energy Damage over 10 seconds, scaling with Base Attack only.",
+                "The potency of her Neuroshocks is increased by Captain Britain's current Prowess potency, but doubly reduced by her current Cowardice potency. Max: 200% increased potency at +200% Prowess.",
+                "When inflicted with a Shock or Bleed effect, inflict a Neuroshock Passive.",
+                "If struck by or striking an Opponent suffering from an Exhaustion effect, inflict a Neuroshock Passive. Can only trigger once every 1.5 seconds.",
+                "Whenever the Opponent Purifies or Cleanses a Debuff, inflict 2 Neuroshock Passives."
+            ]
+        },
+        {
+            "title": "Psionic Charges - Max: 20",
+            "content": [
+                "When inflicting a personal Neuroshock or gaining any Prowess effect, gain 1 indefinite Psionic Charge.",
+                "When activating a Special Attack, gain 6 indefinite Psionic Charges.",
+                "When knocked down, gain 2 indefinite Psionic Charges.",
+                "When inflicted with a Cowardice or Special Power Drain effect, remove 2 Psionic Charges.",
+                "If knocked down while one of these effects is active, remove 2 Psionic Charges for each unique effect, up to a max of 4 Charges."
+            ]
+        },
+        {
+            "title": "Psionic Mode",
+            "content": [
+                "When reaching 10 or more Psionic Charges, if not already active, enter Psionic Mode. Psionic Mode lasts for 1 second per Psionic Charge when activated, paused during Special Attacks. While in Psionic Mode, Captain Britain cannot gain Psionic Charges, and gains the following:",
+                "Personal Neuroshock Passives tick 200% faster. Any personal Neuroshock Passives inflicted during Psionic Mode are paused until Psionic Mode ends.",
+                "When activating a Special Attack, for each level of the Special, gain 1 indefinite +15% Prowess Passive. When Psionic Mode ends, remove 3 personal Prowesses. Max stacks: 30.",
+                "Captain Britain is Stun Immune during her Dash and Medium Attacks.",
+                "As a Defender, Psionic Mode goes on cooldown for 15 seconds after it ends."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a non-stacking [11.04] Exhaustion Passive for 6 seconds.",
+                "Each hit inflicts a Slow Debuff for 16 seconds. If Purified by a Skill Champion, inflict a matching Slow Passive. While active, Captain Britain's personal Exhaustion are paused."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a non-stacking +[2,750] Bulwark Passive lasting until the next time Psionic Mode ends.",
+                "While this Bulwark is active, Basic Attacks inflict a Neuroshock Passive. This can trigger through Block.",
+                "Hits in this Special Attack gain +[6,416.67] Critical Rating."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This Special Attack cannot be activated if Psionic Mode is active.",
+                "Enter Psionic Mode and increase its duration by +8 seconds.",
+                "Gain a non-stacking 60% Power Efficiency Passive lasting until Psionic Mode Expires.",
+                "Gain 6 additional indefinite +15% Prowess Passives."
+            ]
+        },
+        {
+            "title": "Signature Ability - Pure Soul",
+            "content": [
+                "Increase personal Exhaustion duration by [3 - 10]% for each Psionic Charge. Psionic Mode increases the duration as if Captain Britain has 10 Psionic Charges.",
+                "Each personal Neuroshock reduces the Opponent's Energy Resistance by [15 - 35]% of their current positive Energy Resistance. Max: 100%."
+            ]
+        }
+    ]
 }

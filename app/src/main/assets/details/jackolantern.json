@@ -15,6 +15,69 @@
     "synergies": [],
     "howToPlay": "Jack O'Lantern için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Jack O'Lantern Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
+    "signatureAbility": "A Flame Imperishable\nDuring the Opponent's Special Attacks, gain a non-stacking Bulwark Buff granting +[485.29 - 1,480.78] Block Proficiency.\nWhile suffering from any Energy Damaging Passives, Jack O'Lantern Passively Regenerates +[0.06 - 0.18]% of Base Health per half second.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Kontrolleri Tersine Çevirme Bağışıklığı 🧠",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Jack O'Lantern's master assassin training grants him Immunity to Reversed Controls and Incinerate effects, and allows him to trigger the Parry Mastery against non-contact attacks.",
+                "When Jack O'Lantern would land a Critical Hit, he instead inflicts an instant Incinerate dealing a burst of [4,376.4] Energy Damage.",
+                "All of Jack O'Lantern's personal Damaging effects scale with Critical Damage Rating.",
+                "Against Mutant Champions, Jack O'Lantern's Incinerate effects become Plasma effects instead."
+            ]
+        },
+        {
+            "title": "Inflamed - Max Stacks: 15",
+            "content": [
+                "For every 3 Damaging effects the Opponent is inflicted with, or Passive Damaging effects Jack O'Lantern is inflicted with, gain an Inflamed Passive for 25 seconds, granting the following:",
+                "+[153.91] Critical Damage Rating",
+                "+2% Ability Accuracy",
+                "+[222.97] Energy Resistance",
+                "While an Inflamed Passive is active, Opponent's Damaging Effects suffer 100% reduced Ability Accuracy when hitting Jack O'Lantern's Block during Special Attacks. Mutant's Damaging effects suffer an additional -5% flat Ability Accuracy per Inflamed Passive. This does not trigger against Cosmic Champions.",
+                "Inflamed Passives are paused during Special Attacks and for 5 seconds after Intercepting an attack."
+            ]
+        },
+        {
+            "title": "Light Attacks",
+            "content": [
+                "Jack O'Lantern's fourth Light Attack inflicts a non-stacking 20% Cowardice Debuff for 25 seconds.",
+                "While suffering from a Cowardice effect, Mutant Opponents are 35% less likely to activate their Special Attack 1."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit grants a +[2,750] Precision Passive for 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Pause all Precision effects on Jack during this attack.",
+                "On activation, gain 4 Inflamed Passives.",
+                "Passive Damaging effects inflicted during this Special Attack count an additional +1 towards Jack O'Lantern's next Inflamed Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final two hits each inflict 2 Incinerate and Poison Debuffs, each dealing [6,838.13] damage over 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a non-stacking Precision Passive granting 200% of Jack O'Lantern's base Critical Rating for 15 seconds.",
+                "Gain 12 Inflamed Passives and pause them for 5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - A Flame Imperishable",
+            "content": [
+                "During the Opponent's Special Attacks, gain a non-stacking Bulwark Buff granting +[485.29 - 1,480.78] Block Proficiency.",
+                "While suffering from any Energy Damaging Passives, Jack O'Lantern Passively Regenerates +[0.06 - 0.18]% of Base Health per half second."
+            ]
+        }
+    ]
 }

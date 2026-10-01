@@ -16,6 +16,64 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Hasar önleme mekaniği, yüksek purify şansı, durdurulamaz+engellenemez erişimi var; orta vuruş veya özel saldırıyla vurulunca rakibe hasar verir. Enerji hasarlı veya fiziksel dirençli şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Korg Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Şok Bağışıklığı ⚡️\n• %70 Arındırma (kayalarla) 💪🏼"
+    "signatureAbility": "Rock Hard Thorns\nWhile Rock Shield is active and Korg is struck by a Medium, Heavy or Special Attack that makes contact, [4,547.5 - 12,731.78] Physical Damage is inflicted to the opponent. Damage scales with Base Attack only. This ability does not activate if the opponent's hit deals Energy Damage and Mutant Champions take 25% less damage.\nWhile Rock Shield is active, Korg has a [30 - 70]% chance to Purify Debuffs and gain one Rock Shield charge for each Debuff Purified this way.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Şok Bağışıklığı ⚡️\n• %70 Arındırma (kayalarla) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Rock anatomy provides Korg immunity to Bleed, Shock and additional Critical Resistance but decreases his Energy Resistance by 20%."
+            ]
+        },
+        {
+            "title": "Crowd Excitement",
+            "content": [
+                "The crowd goes crazy when Miek makes an appearance while Korg is blocking an attack, increasing Crowd Excitement by 1 for 20 seconds. +2 on Well Timed Blocks. Only 6 Crowd Excitement charges can be gained through this ability.",
+                "The crowd dislikes cowards, cheering for Korg when opponents Evade or Dexterity his Basic Attacks, increasing Crowd Excitement by 3 for 20 seconds. Only 12 Crowd Excitement charges can be gained through this ability.",
+                "When Crowd Excitement reaches 6 or more, Korg becomes Unstoppable and Unblockable for 2 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Miek expels fluids on opponents when hitting with a Heavy Attack, creeping out the crowd and consuming all Crowd Excitement to inflict Armor Break, reducing their Armor Rating by [1,027.47] for each Crowd Excitement charge for 8 seconds."
+            ]
+        },
+        {
+            "title": "Passive - Rock Shield",
+            "content": [
+                "Korg begins the fight with 9 Rock Shield charges which are removed each time he is struck. An additional charge is removed when Korg's Dash Attack is interrupted by a Light Attack and if Struck by a Special Attack 3, all Rock Shield charges are removed instead.",
+                "While Rock Shield is active, powerful enemy attacks cannot deal more than 40% of the opponent's Base Attack Rating in a single hit. Special 3 Attacks cannot deal more than 120% of the opponent's Attack instead.",
+                "When all charges are consumed, Rock Shield is shattered and it takes between 11 and 15 seconds to reform. Each time Rock Shield reforms it starts with 1 less charge."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "If Crowd Excitement is greater than 1, this attack is Unblockable and cannot be Evaded.",
+                "The first hit refreshes Korg's personal Bleed Debuffs. If the Oppponent is suffering from 9 or more Bleed Debuffs, Korg's personal Bleed Vulnerability is also refreshed.",
+                "Each projectile hit inflicts an Instant [3,409.88] Bleed per Bleed debuff on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, if Korg is Unblockable, refresh Korg's Personal Bleed Debuffs and inflict a non-stacking 50% Bleed Vulnerability Passive for 30 seconds, paused during the Opponent's Special Attacks.",
+                "Each hit inflicts a [9,093] Bleed Debuff for 30 seconds, paused during the Opponent's Special Attacks. Max stacks: 9."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Crowd Excitement goes up by 9 for 20 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Rock Hard Thorns",
+            "content": [
+                "While Rock Shield is active and Korg is struck by a Medium, Heavy or Special Attack that makes contact, [4,547.5 - 12,731.78] Physical Damage is inflicted to the opponent. Damage scales with Base Attack only. This ability does not activate if the opponent's hit deals Energy Damage and Mutant Champions take 25% less damage.",
+                "While Rock Shield is active, Korg has a [30 - 70]% chance to Purify Debuffs and gain one Rock Shield charge for each Debuff Purified this way."
+            ]
+        }
+    ]
 }

@@ -18,6 +18,89 @@
     "synergies": [],
     "howToPlay": "Purgatory için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Purgatory Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Kanama Bağışıklığı (ile sinerji: Hood) 🩸"
+    "signatureAbility": "Eternal Damnation\nIf the Opponent is Knocked Out while Demonic Rampage is active, their soul is instantly Captured.\nThe duration of Class Soul Abilities are increased by +[10 - 35]%.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Kanama Bağışıklığı (ile sinerji: Hood) 🩸",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Purgatory's demonic nature provides Immunity to Incinerate and causes all attacks to deal Energy Damage instead of Physical.",
+                "Combat Power Rate is decreased by 40%."
+            ]
+        },
+        {
+            "title": "Class Soul Abilities",
+            "content": [
+                "Purgatory gains additional abilities depending on the Opponent's Class.",
+                "Mystic Soul: When the Opponent launches a Special Attack, gain a 60% Block Regeneration Passive for 6 seconds.",
+                "Cosmic Soul: When filling a Bar of Power, Nullify 1 of the Opponent's Buffs. Whenever an Opponent's Buff is Nullified or prevented with Neutralize, gain an Unblockable Buff for 2 seconds.",
+                "Tech Soul: When filling a Bar of Power, inflict an Armor Break Debuff, reducing Armor Rating by [1,069.44] for 9 seconds.",
+                "Mutant Soul: At the end of the Opponent's Special Attacks, Power Steal 40% of their remaining Power, gaining 150% of the Power Stolen over 4 seconds.",
+                "Skill Soul: When a personal Debuff on the Opponent ends or is prevented from activating, inflict a Slow Passive for 12 seconds.",
+                "Science Soul: A chemically-tainted soul cannot be stolen."
+            ]
+        },
+        {
+            "title": "Soul Neutralize - Cross-Fight Soul Capture",
+            "content": [
+                "As Purgatory gains Power, the Bloodline sword steals the soul from the Opponent's body, inflicting Soul Neutralize, which counts as an indefinite, 10% Neutralize Passive. Max stacks: 10.",
+                "Soul Neutralize is not affected by Ability Accuracy.",
+                "Inflict 1 Soul Neutralize at the start of each fight and when filling a Bar of Power. As a Defender, inflict 2 each time.",
+                "At 10 Soul Neutralizes, the Opponent's soul is Captured, granting their Class Soul Ability for the remainder of the Quest."
+            ]
+        },
+        {
+            "title": "Champion Attacks - Bloodthirst - Max: 100",
+            "content": [
+                "When either Champion lands a Basic Attack or performs a Well-Timed Block, gain 5 Bloodthirst.",
+                "Purgatory loses 5 Bloodthirst if she goes 4 seconds without increasing her Bloodthirst. This timer is paused during any Special Attack and expires 20% slower for each Buff on the Opponent.",
+                "Gaining Bloodthirst Passively grants up to 9% of a Bar of Power based on current Bloodthirst over 1.5 seconds.",
+                "At 100 Bloodthirst, enter Demonic Rampage."
+            ]
+        },
+        {
+            "title": "Demonic Rampage - Bloodthirst Locked to 100",
+            "content": [
+                "For 15 seconds, Purgatory gains +[9,855.2] Attack Rating and her Special Attacks gain Rampage enhancements.",
+                "Demonic Rampage is paused during all Special Attacks and for 3 seconds each time Purgatory fills a Bar of Power.",
+                "Striking with a Medium Combo-Ender consumes 50% of a Bar of Purgatory's Power to inflict an Incinerate Debuff, dealing [11,087.1] Energy Damage over 4 seconds.",
+                "When Demonic Rampage ends, reset Bloodthirst to 0."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "If the Opponent is Knocked Out, their soul is instantly Captured.",
+                "Rampage: Gain a Fury Buff granting +[9,855.2] Attack Rating for 6 seconds, paused during Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On Activation, gain 25 Bloodthirst.",
+                "Rampage: Each hit Passively Regenerates 15% of the damage dealt."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The last hit inflicts a Degeneration Debuff, dealing [33,261.3] Direct Damage over 6 second(s).",
+                "Rampage: This attack is Passively Unblockable."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a non-stacking Power Gain Buff, granting 3 Bars of Power over 35 seconds.",
+                "Rampage or if the Opponent's soul is Captured: This attack ignores Armor and deals additional damage equal to 4% of the Opponent's Max Health. The additional damage cannot be increased."
+            ]
+        },
+        {
+            "title": "Signature Ability - Eternal Damnation",
+            "content": [
+                "If the Opponent is Knocked Out while Demonic Rampage is active, their soul is instantly Captured.",
+                "The duration of Class Soul Abilities are increased by +[10 - 35]%."
+            ]
+        }
+    ]
 }

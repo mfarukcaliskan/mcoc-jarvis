@@ -11,5 +11,49 @@
     "synergies": [],
     "howToPlay": "Thanos için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Thanos Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Immortality\nGranted near-immortality, Thanos the Mad Titan passively reduces his opponent's base Attack by [10 - 40]%.",
+    "abilitySections": [
+        {
+            "title": "When Struck by Basic Attacks",
+            "content": [
+                "10% chance to gain an Armor Up Buff for 6.5 seconds, granting +[1,294.12] Armor Rating."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "11% chance to gain a Fury Buff for 7 seconds, granting +[5,861.35] Attack."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "100% chance to inflict Heal Block, preventing the target from recovering Health for 7 seconds."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "This Champion begins the fight with 16% Max Power."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack deals True Damage, ignoring all of the opponent's Armor."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack deals True Damage, ignoring all of the opponent's Armor."
+            ]
+        },
+        {
+            "title": "Signature Ability - Immortality",
+            "content": [
+                "Granted near-immortality, Thanos the Mad Titan passively reduces his opponent's base Attack by [10 - 40]%."
+            ]
+        }
+    ]
 }

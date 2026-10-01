@@ -11,6 +11,61 @@
     "synergies": [],
     "howToPlay": "Silver Samurai için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Silver Samurai Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Kanama direnci 🩸"
+    "signatureAbility": "Silver Shogun\nSilver Samurai lives for the big fight, yearning for a challenge. At the start of a Battlegrounds or final Quest node fight, he grants the Opponent 20 Combo Meter and he gains a [13 - 30]% Power Efficiency Passive for 30 seconds.\nEach hit of Special Attacks 1 and 2 gain +[6.06 - 144.85] Critical Rating per Daunted on the Opponent.",
+    "immunityDetails": "• %100 Kanama direnci 🩸",
+    "abilitySections": [
+        {
+            "title": "Bushido ~ The Way of the Samurai",
+            "content": [
+                "Silver Samurai can generate tachyon charges within his own body, making all his attacks deal Energy Damage and granting him 100% Resistance to Bleed effects.",
+                "Silver Samurai always believes in a fair fight, granting his Opponent a Combo Shield Passive while their Combo Meter is at or below 100.",
+                "While the Opponent's Combo Meter is below 80, Silver Samurai's second Medium Attack grants them 10 Combo Meter.",
+                "If striking a non-Stunned Opponent, the first hit of Silver Samurai's Heavy Attack grants them 10 Combo Meter.",
+                "If Silver Samurai's Heavy Attack is cancelled into a Special Attack, grant the Opponent 10 Combo Meter."
+            ]
+        },
+        {
+            "title": "Daunted - Max: 25",
+            "content": [
+                "When Silver Samurai consumes the Opponent's Combo, they are inflicted with an indefinite 8% Daunted Passive for every 5 Combo consumed.",
+                "When Silver Samurai is knocked down, 1 personal Daunted is removed.",
+                "While the Opponent has at least 50 Combo Meter or is suffering from 8+ Daunteds, Silver Samurai prepares for impact, gaining a Reinforce Passive."
+            ]
+        },
+        {
+            "title": "Break Their Form",
+            "content": [
+                "While Silver Samurai is Unblockable, the Opponent is inflicted with a 35% Overload Passive.",
+                "After Silver Samurai consumes the Opponent's Combo Meter, if the Opponent is suffering from 16+ Daunted effects, he gains an Unblockable Passive for 7 seconds, paused during Special Attacks and Strikers. This will not trigger while already active.",
+                "When this Unblockable expires, remove 50% of Silver Samurai's personal Daunteds. Against Tech Champions, remove 66% instead."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation and on the first two hits of this attack, consume up to 10 Combo from the Opponent's Combo Meter.",
+                "During this attack, increase the potency of Silver Samurai's Overload Passives by 10% per Daunted on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit consumes up to 100 Combo from the Opponent's Combo Meter."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a non-stacking 35% Power Efficiency Passive for 30 seconds.",
+                "Inflict a non-stacking 15% Overload Passive for 60 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Silver Shogun",
+            "content": [
+                "Silver Samurai lives for the big fight, yearning for a challenge. At the start of a Battlegrounds or final Quest node fight, he grants the Opponent 20 Combo Meter and he gains a [13 - 30]% Power Efficiency Passive for 30 seconds.",
+                "Each hit of Special Attacks 1 and 2 gain +[6.06 - 144.85] Critical Rating per Daunted on the Opponent."
+            ]
+        }
+    ]
 }

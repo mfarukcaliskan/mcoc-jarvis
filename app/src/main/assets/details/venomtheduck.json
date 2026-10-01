@@ -13,5 +13,75 @@
     "synergies": [],
     "howToPlay": "Venom the Duck için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Venom the Duck Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Symbiosis Apotheosis\nTwisted mutations grant the Aberration effect [5 - 25]% charge at the start of the fight, as well the following Special Attack enhancements:\n+[12 - 30]% siphon damage during Special 1.\nToxic Armor gains +[25 - 60]% duration.\n[5 - 20]% Aberration charge is gained after Special 3.",
+    "abilitySections": [
+        {
+            "title": "Aberration Effect - Builds from 0% to 100% over time",
+            "content": [
+                "When the continuous Aberration effect hits 100%, it resets to 0% and a random Symbiote Buff from either category is gained.",
+                "Each non-unique Symbiote Buff beyond the first suffers a stacking 10% Potency penalty [Example: Symbiote Regen #5 will suffer -40% Potency compared to the first Symbiote Regen Buff]."
+            ]
+        },
+        {
+            "title": "Symbiote Buffs - Frenzy Category",
+            "content": [
+                "Fury: +[7,022.6] Attack for 12 seconds.",
+                "Precision: +[687.5] Critical Rating for 12 seconds.",
+                "Power Rate: +50% Combat Power Rate for 12 seconds."
+            ]
+        },
+        {
+            "title": "Symbiote Buffs - Survival Category",
+            "content": [
+                "Armor Up: +[1,833.33] Armor Rating for 12 seconds.",
+                "Regeneration: Recover [13,971.51] Health over 12 seconds.",
+                "Perfect Block: +25% Perfect Block Chance for 12 seconds."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "55% chance to Bleed, dealing [8,643.2] direct damage over 5.5 seconds. If the opponent is Immune to this Bleed, a Passive Degeneration is inflicted instead, albeit at a -25% damage penalty."
+            ]
+        },
+        {
+            "title": "Launch a Special Attack or Land a Heavy Attack",
+            "content": [
+                "All Symbiote Buffs are removed and stored in the RNA Bank. 3 Symbiote Buffs may be added to the RNA Bank each fight, and up to 10 Buffs may be stored during each quest. Buffs won't be removed or stored if the per-Fight or per-Quest limits have been reached."
+            ]
+        },
+        {
+            "title": "Fight Start",
+            "content": [
+                "All Symbiote Buffs stored in the RNA Bank are activated."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each strike has a 85% chance to siphon an additional [648.24] health from the opponent as direct damage and feed it to the Aberration effect, gaining +10% charge."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "75% chance to apply a Toxic Armor Buff to the opponent, increasing their Armor by [1,178.57] for 15 seconds. Striking an opponent that has Toxic Armor deals up to +90% additional direct damage based on how high the opponent's Armor is."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack does not lock Symbiote Buffs into the RNA Bank; instead, it activates all Symbiote Buffs locked in the RNA Bank."
+            ]
+        },
+        {
+            "title": "Signature Ability - Symbiosis Apotheosis",
+            "content": [
+                "Twisted mutations grant the Aberration effect [5 - 25]% charge at the start of the fight, as well the following Special Attack enhancements:",
+                "+[12 - 30]% siphon damage during Special 1.",
+                "Toxic Armor gains +[25 - 60]% duration.",
+                "[5 - 20]% Aberration charge is gained after Special 3."
+            ]
+        }
+    ]
 }

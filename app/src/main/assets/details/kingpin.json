@@ -14,6 +14,76 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Ana kural 2 güç barına ulaşmasına izin vermemek — E2 uzun süreli durdurulamazlık verir. Negatif efektler de tavsiye edilmez (%60 purify şansı var) — purify-karşıtı mekanikli şampiyon veya White Magneto ön-dövüş kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kingpin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %120 Arındırma (ile sinerji: Hood) 💪🏼\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌"
+    "signatureAbility": "True Nature\nFisk brings his ill intent upon the Contest, entering the fight with [2 - 4] Rages active (rounded down).\nWhen Kingpin's Overpower Buff ends, he has a chance to gain up to 5 Rages, with each having a [29 - 90]% chance to activate.",
+    "immunityDetails": "• %120 Arındırma (ile sinerji: Hood) 💪🏼\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
+    "abilitySections": [
+        {
+            "title": "Fight Start",
+            "content": [
+                "Base Regeneration Rate is set at 50% instead of the normal 100%."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Immune to all effects that modify Regeneration Rate, except Poison."
+            ]
+        },
+        {
+            "title": "Rage",
+            "content": [
+                "Kingpin can gain Rage, which is a Debuff with no inherent effect.",
+                "Kingpin gains a non-Rage Debuff: 60% chance to Purify it and gain 1 Rage. Cooldown: 0.5 seconds.",
+                "Kingpin takes damage: Gain 1 Rage. Cooldown: 20 seconds.",
+                "Enemy Evades or Auto-Blocks: Gain 1 Rage. Cooldown: 1.5 seconds."
+            ]
+        },
+        {
+            "title": "Incoming Debuffs",
+            "content": [
+                "Each Debuff on Kingpin only strengthens his resolve, increasing Attack Rating by [3,138.6] and Combat Power Rate by 5%."
+            ]
+        },
+        {
+            "title": "Overpower - When Kingpin has 8+ Debuffs",
+            "content": [
+                "Kingpin Purifies 8 Debuffs to grant a 100% chance to gain an Overpower Buff, lasting 15 seconds and providing +[26,155] Attack Rating as well as Unblockable Special Attacks."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "While charging a Heavy Attack, Kingpin gains +[4,125] Physical Resistance and gains an Unstoppable Buff for 0.8 seconds.",
+                "If Kingpin lands 3 Heavy Attacks within 4 seconds of each other he has a 100% chance to gain a Fury Buff granting +[8,892.7] Attack Rating for 14 seconds. While this Fury Buff is active, Kingpin cannot gain his Unstoppable Buff while charging his Heavy Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "A blast of black ISO-8 has a 100% chance to inflict a Degeneration Debuff, causing [15,693] direct damage over 14 seconds.",
+                "While this Degeneration is active, the opponent suffers -50% Attack Rating and -65% Defensive Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Gain an Unstoppable Buff for 7.50 seconds, paused until the end of this attack.",
+                "While this Unstoppable is active, each hit either Champion lands has a 50% chance to grant Kingpin 1 Rage. No Cooldown."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain 4 Rage & Refresh all Overpower Buffs.",
+                "100% chance to inflict a 3.5 second Stun Debuff."
+            ]
+        },
+        {
+            "title": "Signature Ability - True Nature",
+            "content": [
+                "Fisk brings his ill intent upon the Contest, entering the fight with [2 - 4] Rages active (rounded down).",
+                "When Kingpin's Overpower Buff ends, he has a chance to gain up to 5 Rages, with each having a [29 - 90]% chance to activate."
+            ]
+        }
+    ]
 }

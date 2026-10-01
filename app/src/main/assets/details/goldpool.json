@@ -11,5 +11,58 @@
     "synergies": [],
     "howToPlay": "Goldpool için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Goldpool Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Double Regen = Double Fun\nOnce per fight, Goldpool gains Regeneration, recovering [11,626.4 - 38,396.81] Health over 8 seconds. If this ability is suppressed by a Skill Champion, Goldpool reaches into his script code and tries once more to activate it after 2 seconds. Mutant beats Trained...I mean...Skill",
+    "abilitySections": [
+        {
+            "title": "Land 20 Hits Without Being Struck",
+            "content": [
+                "Goldpool's confidence soars and he begins throwing out childish barbs to annoy his opponent, inflicting a Taunt passive on them for 10 seconds, reducing their Attack Rating by 35%. Childish!? Hey! Words hurt!"
+            ]
+        },
+        {
+            "title": "When brought below 15% Max Health",
+            "content": [
+                "Once per fight, Goldpool has a 999% chance to gain Regeneration, recovering [29,066] Health over 8 seconds. Leave my Regen alone Black Widow! You too Crossbones!"
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "A boot to the face is always funny, and allows Goldpool to refresh a personal Taunt effect. Pow! Right in the...well..."
+            ]
+        },
+        {
+            "title": "Bleed Effects",
+            "content": [
+                "Goldpool's accelerated healing factor reduces the damage of incoming Bleed effects by 20%."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "65% chance to Stun the opponent for 2 seconds. Against Non-Robot Male Champions, this chance is doubled. Cup Check!"
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "If Goldpool completes his dance after this attack he gains Prowess, increasing Special Attack damage by 100% for 40 seconds. If he is interrupted he instead gains 25% Power. Dance break!",
+                "100% chance to inflict Bleed, dealing [17,262.3] direct damage over 5.5 seconds. This Bleed is affected by Prowess Buffs.",
+                "25% chance to Stun the opponent for 3 seconds. The first time this attack is used each fight, the chance is 100%."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Goldpool receives a call from the game devs, and then annoys them into Refreshing his Prowess and Regeneration Buffs.",
+                "100% chance to inflict Bleed, dealing [28,247.4] direct damage over 4.5 seconds. This Bleed is affected by Prowess Buffs."
+            ]
+        },
+        {
+            "title": "Signature Ability - Double Regen = Double Fun",
+            "content": [
+                "Once per fight, Goldpool gains Regeneration, recovering [11,626.4 - 38,396.81] Health over 8 seconds. If this ability is suppressed by a Skill Champion, Goldpool reaches into his script code and tries once more to activate it after 2 seconds. Mutant beats Trained...I mean...Skill"
+            ]
+        }
+    ]
 }

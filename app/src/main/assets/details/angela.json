@@ -13,6 +13,79 @@
     "synergies": [],
     "howToPlay": "Angela için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Angela Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• TÜM olumsuz etkilerin süresini %100 azaltır ⏰\n• %35 Silme (Nullify) direnci (her buff için) 🔮"
+    "signatureAbility": "Battle Focus\nFor each Buff on Angela, her opponent suffers the following:\n-[10 - 35]% Nullify & Auto-Block Ability Accuracy.\n-[10 - 35]% Damaging Debuff Duration.",
+    "immunityDetails": "• TÜM olumsuz etkilerin süresini %100 azaltır ⏰\n• %35 Silme (Nullify) direnci (her buff için) 🔮",
+    "abilitySections": [
+        {
+            "title": "Blocking",
+            "content": [
+                "Advanced training allows Angela to Parry Non-Contact attacks."
+            ]
+        },
+        {
+            "title": "When Damaged",
+            "content": [
+                "For Each 10% Max Health Taken in damage, gain an indefinite Resilience Charge.",
+                "When below Max Health, if Angela does not have a Regeneration Buff, she converts 1 Resilience Charge into a Regeneration Buff, healing [6,011.4] Health over 10 seconds."
+            ]
+        },
+        {
+            "title": "Indefinite Huntress Buff - Always Active",
+            "content": [
+                "Angela gains an indefinite Buff based on her current Power Level.",
+                "Below 1 Bar: Armor up, granting +[1,178.57] Armor Rating.",
+                "Between 1 and 2 Bars: Fury, granting +[8,809.4] Attack Rating.",
+                "Between 2 and 3 Bars: Precision, granting +[2,750] Critical Rating.",
+                "3 Bars: Aptitude, increasing the Potency of all Fury, Armor Up and Precision Buffs by 60%."
+            ]
+        },
+        {
+            "title": "Temporary Huntress Buffs - Critical Hits",
+            "content": [
+                "100% chance to duplicate the current, indefinite Huntress Buff. This duplicated Buff lasts 15 seconds. A maximum of 1 of each type of Huntress Buff may be duplicated at a time."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "This attack receives [2,750] additional Critical Rating."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Angela's terrifying aura inflicts 1 Armor Break Debuff on the opponent for each Buff on Angela, removing an Armor Up Buff and reducing Armor Rating by +[305.56] for 7 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to gain a Fury Buff for 5 seconds, granting +[8,809.4] Attack.",
+                "This Fury Buff instead lasts 20 seconds if Angela already had a Fury Buff active on herself."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to gain an Armor Up Buff for 5 seconds, granting +[1,178.57] Armor Rating.",
+                "This Armor Up Buff instead lasts 20 seconds if Angela already had an Armor Up Buff active on herself."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% Chance to grant an Aptitude Buff, increasing the potency of Armor, Fury, and Precision Buffs by 60% lasting for 5 seconds.",
+                "This Aptitude Buff instead lasts 30 seconds if Angela already had a Aptitude Buff active on herself.",
+                "Angela's Attack Rating is increased by +[5,182] for each Buff active on her during the attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - Battle Focus",
+            "content": [
+                "For each Buff on Angela, her opponent suffers the following:",
+                "-[10 - 35]% Nullify & Auto-Block Ability Accuracy.",
+                "-[10 - 35]% Damaging Debuff Duration."
+            ]
+        }
+    ]
 }

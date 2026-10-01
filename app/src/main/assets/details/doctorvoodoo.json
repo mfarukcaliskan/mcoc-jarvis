@@ -14,5 +14,59 @@
     "synergies": [],
     "howToPlay": "Doctor Voodoo için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Doctor Voodoo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Brother Daniel\nBrother Daniel will possess either Doctor Voodoo or his opponent moving between them based on Doctor Voodoo's combo meter when he uses a Special Attack.\nEven Combo: Doctor Voodoo is possessed gaining 100% increased Ability Accuracy and [50 - 125]% increased Buff Duration.\nOdd Combo: Opponent is possessed gaining 50% decreased Ability Accuracy and [50 - 125]% increased Debuff Duration.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Increase Energy Resistance by [2,750] while Blocking."
+            ]
+        },
+        {
+            "title": "Fight Start",
+            "content": [
+                "Gain a Regeneration Buff, recovering [15,140.76] Health over 10 seconds."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "Doctor Voodoo's Attacks have a 10% chance to place a Loa on their opponent, that lasts until removed by another effect. A Loa is a buff with no effects."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If Doctot Voodoo has more than one Bar of Power, consume 50% of a Bar to place one Loa Buff on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On the final hit, each Buff on the Opponent has a 50% chance to be Nullifed. For each Buff Nullified, inflict a [24,932.5] Poison Debuff for 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "50% chance to convert up to 3 Loa, Nullifying them and placing either a Buff on himself or a Debuff on the Opponent, based on current Combo Meter.",
+                "Even Combo: Gain a Damballa Buff for 15 seconds, giving all attacks a 50% chance to Power Steal 2.5% of the Opponent's Max Power, grant 10% of the Power to Docto Voodoo.",
+                "Odd Combo: Inflict a [199.46]% Power Dissolve Debuff for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a Power Steal Debuff, stealing 45% of Max Power over 20 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Brother Daniel",
+            "content": [
+                "Brother Daniel will possess either Doctor Voodoo or his opponent moving between them based on Doctor Voodoo's combo meter when he uses a Special Attack.",
+                "Even Combo: Doctor Voodoo is possessed gaining 100% increased Ability Accuracy and [50 - 125]% increased Buff Duration.",
+                "Odd Combo: Opponent is possessed gaining 50% decreased Ability Accuracy and [50 - 125]% increased Debuff Duration."
+            ]
+        }
+    ]
 }

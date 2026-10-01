@@ -11,5 +11,81 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Vuruşları temas etmediği için normal şampiyonlar siperleyemez — Jack O'Lantern, Photon, Angela, Ironheart gibi temassız vuruş siperleyebilenler gerekli. Ayrıca sık sık yere sermek kaçışını kapatır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Negasonic Teenage Warhead Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "offensive Predetermination\nAs an Attacker, Negasonic's Evade Counter-Attack inflicts [0.8 - 3] Incinerates, rounded up, and personal Incinerates are paused during her Special Attacks. Additionally, Striker Hits and Counter-Attacks pause Incinerate and Incinerate Vulnerability as if they were Light Attacks.\nAs a Defender, start each fight with [40 - 100]% of a Bar of Power.",
+    "abilitySections": [
+        {
+            "title": "Personal Passives",
+            "content": [
+                "During the fight, Negasonic can inflict the following Passives.",
+                "Incinerate: Deals [3,490.55] Energy Damage over 14 seconds. Max Stacks: 40",
+                "Incinerate Vulnerability: 50% potency. Lasts 16 seconds and doesn't stack.",
+                "Stun: Lasts 2 seconds. If the Parry Mastery is active, it also inflicts a Stun Passive for 2 seconds."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "Utilizing bursts of atomic energy, all of Negasonic's attacks deal Energy Damage and do not make contact.",
+                "Medium Attacks inflict 1 Incinerate if the Opponent has fewer than 5 personal Incinerates active on them.",
+                "Light Attacks pause all currently active personal Incinerates and Incinerate Vulnerability Passives for 1.5 seconds."
+            ]
+        },
+        {
+            "title": "Precognition - Evade Counter-Attack",
+            "content": [
+                "Negasonic enters each fight with a Precognition Charge which allows her to Evade an attack and Counter-Attack, inflicting a Stun Passive. This Evade won't activate while Blocking.",
+                "15% chance to Evade Medium and Light Attacks that make contact, increased to 100% while charging a Heavy Attack.",
+                "100% chance to Evade an Opponent's Counter-Attack."
+            ]
+        },
+        {
+            "title": "Precognition - Cooldown",
+            "content": [
+                "Each time Evade activates or is prevented from activating, Precognition goes on cooldown for 25 seconds.",
+                "Additionally, Precognition goes on cooldown each time Negasonic is knocked down or inflicted with a Power Burn, Power Drain, or Power Lock effect.",
+                "Each time the opponent lands a Critical Hit, including through Block, 1.5 seconds is removed from the cooldown.",
+                "While fighting Tech Champions, Precognition begins on cooldown."
+            ]
+        },
+        {
+            "title": "While Fighting Skill Champions",
+            "content": [
+                "The Opponent's Bleed, Evade, and True effects suffer -100% Ability Accuracy. Additionally, Precognition does not go on cooldown from Evading a Counter-Attack."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "This attack can be charged 5 seconds longer than normal.",
+                "The first hit inflicts an Incinerate Vulnerability."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The first hit refreshes all personal Incinerates, even if Blocked.",
+                "Each hit after the first inflicts 1 Incinerate."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "After the first hit, rapidly pressing Block builds up dormant Incinerates, up to 16, which are inflicted by the final hit.",
+                "If Block is pressed 4 or fewer times, the final hit instead inflicts between 4 and 12 Incinerates at random."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflicts 1 Stun and Incinerate Vulnerability as well as 3 Incinerates, all at +50% duration."
+            ]
+        },
+        {
+            "title": "Signature Ability - offensive Predetermination",
+            "content": [
+                "As an Attacker, Negasonic's Evade Counter-Attack inflicts [0.8 - 3] Incinerates, rounded up, and personal Incinerates are paused during her Special Attacks. Additionally, Striker Hits and Counter-Attacks pause Incinerate and Incinerate Vulnerability as if they were Light Attacks.",
+                "As a Defender, start each fight with [40 - 100]% of a Bar of Power."
+            ]
+        }
+    ]
 }

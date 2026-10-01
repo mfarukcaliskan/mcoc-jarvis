@@ -14,6 +14,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bloğa veya orta vuruşlara fazla vurma — kum debuff'ı biriktirir, 4 dolunca can kaybettiren bir moda girer. E1'i mutlaka kaçır (bloklanırsa 2 kum debuff'ı ekler). Yakma veya plazma efekti bir kum debuff'ını siler — sık yakma/plazma erişimi olan şampiyonlar tam kontra. Fiziksel dirençli şampiyonlar (en iyisi Absorbing Man) da iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dust Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️"
+    "signatureAbility": "Turaab\nWhen either Champion's Combo Meter reaches a multiple of 10, Dust has a [60 - 100]% chance to inflict a Sand Debuff for 6 seconds.\nWhen fighting against Skill Champions and while Sandstorm is active, Dust gains a Steadfast Passive.\nWhenever Dust prevents a Bleed effect via Immunity, there is a [40 - 100]% chance to inflict 1 Sand Debuff on the Opponent for 6 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️",
+    "abilitySections": [
+        {
+            "title": "Sentient Storm - Always Active",
+            "content": [
+                "Dust is Immune to Bleed, Poison, and Shock effects.",
+                "Dust's Light and Heavy Attacks do not make contact with the Opponent.",
+                "Incoming attacks during Dust's Well-Timed Block window have a 100% chance to Glance. As a Defender, this triggers for any incoming Basic Attack as long as Dust is Blocking.",
+                "If the Opponent has the Willpower Mastery active, it is removed."
+            ]
+        },
+        {
+            "title": "Sand Effects",
+            "content": [
+                "Whenever the Opponent or their Block is struck by a Medium Attack or has a hit Glance, they are inflicted with a Sand Debuff for 6 seconds.",
+                "Punishing a Heavy Attack or Special Attack with a Light or Medium Attack inflicts 2 Sand Debuffs for 6 seconds.",
+                "When the Opponent Purifies a Debuff, Dust deals a burst of [1,055.9] Physical Damage and inflicts 1 indefinite Sand Passive. If the Purified Debuff was a Sand Debuff, 2 additional Sand Passives are inflicted.",
+                "As an Attacker, Dust's Light Attacks Purify her most recently inflicted personal Debuff on the Opponent on hit.",
+                "Inflicting Dust with an Incinerate or Plasma effect will crystalize her sand, removing 1 Sand effect from her Opponent."
+            ]
+        },
+        {
+            "title": "Sandstorm",
+            "content": [
+                "As an Attacker, when Dust performs a Heavy Attack, she spins up a Sandstorm for 16 seconds. When finished, Sandstorm goes on cooldown for 8 seconds.",
+                "As a Defender, when Dust's Opponent reaches 4 Sand effects, Dust spins up a Sandstorm for 8 seconds. This Sandstorm does not have a cooldown.",
+                "When a Sandstorm is spun up, Dust removes all Sand effects on the Opponent. For each effect removed, Dust gains a 3.5% Prowess Passive until the Sandstorm ends. Sandstorm and its Prowess effects are not affected by Ability Accuracy modification. Max Prowess: 99."
+            ]
+        },
+        {
+            "title": "While Sandstorm is active",
+            "content": [
+                "Whenever Dust would inflict a Sand effect, she instead gains an additional Prowess Passive, and a Power Efficiency Passive reducing the cost of Special Attacks by 3% for 8 seconds. Dust's Light Attacks pause these Power Efficiency Passives for 0.3 seconds.",
+                "As an Attacker, the Opponent's Basic Attacks have a 60% chance to Glance when hitting Dust's Block.",
+                "Opponents are dealt [1,478.26] Physical Damage every second. This damage scales with Base Attack only and is reduced by 60% while the Opponent is Blocking.",
+                "Dust gains a Grit Passive.",
+                "Sandstorm is paused during the Opponent's Special Attacks and expires 50% slower during Dust's Special Attacks. Additionally, Sandstorm cannot end during Dust's Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit inflicts 1 Sand Debuff for 6 seconds. These can be inflicted through Block. The final 2 hits inflict an additional Sand Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final 3 hits each inflict a [239.13] Physical Vulnerability Debuff for 20 seconds. If these Debuffs are Purified, they are replaced with Passive versions with their potency increased by 50%.",
+                "If Sandstorm is active, the final hit inflicts a Stun Passive for 2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This Special Attack does not consume Power, but cannot be activated while Sandstorm or its cooldown are active.",
+                "This Special Attack spins up a Sandstorm for 22 seconds. This Sandstorm does not have a cooldown."
+            ]
+        },
+        {
+            "title": "Signature Ability - Turaab",
+            "content": [
+                "When either Champion's Combo Meter reaches a multiple of 10, Dust has a [60 - 100]% chance to inflict a Sand Debuff for 6 seconds.",
+                "When fighting against Skill Champions and while Sandstorm is active, Dust gains a Steadfast Passive.",
+                "Whenever Dust prevents a Bleed effect via Immunity, there is a [40 - 100]% chance to inflict 1 Sand Debuff on the Opponent for 6 seconds."
+            ]
+        }
+    ]
 }

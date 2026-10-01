@@ -15,5 +15,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Hafif vuruşla vurulunca spectre+çürütme debuff'ı uygular (purify/sanar ile temizlenemez); rakipteki her debuff için aldığı hasarı %3-4 azaltır. 100 yükte yeşil kapıyı açar, yakınındaki rakip degeneration alır (debuff sayısına göre güçlenir). Dövüşü uzatma — kanama uygulayan veya zırh kıran şampiyon tercih et.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "The Leader Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Enigmatic Machinations of The Mind\nWhile the Leader has at least 12 personal Debuffs on the Opponent, he gains a Steadfast Passive. This becomes 4 Debuffs against Mystic Champions.\nPersonal Fury effects now have a duration of [1 - 6] seconds and are paused while the Green Door is open.\nIntercepting the Opponent with a Light Attack has a [35 - 100]% chance to randomly inflict a personal Spectre or Wither Debuff.",
+    "abilitySections": [
+        {
+            "title": "Colossal Cranium - Always Active",
+            "content": [
+                "An enhanced immune system provides full Immunity to Poison.",
+                "As a Defender, while the Opponent's Regeneration Rate is at or below 0%, their Willpower Mastery is disabled."
+            ]
+        },
+        {
+            "title": "Personal Debuffs",
+            "content": [
+                "Personal Debuffs are Severe Debuffs, preventing them from being removed by Purify or Cleanse.",
+                "When either Champion lands their first Light Attack, the Leader inflicts a 20% Spectre Debuff for 18 seconds. Max stacks: 10.",
+                "When either Champion lands their third Light Attack, the Leader inflicts a 20% Wither Debuff for 18 seconds. Max stacks: 10.",
+                "For each personal Debuff on the Opponent, the Leader reduces incoming damage from all sources except Special Attack 3 by 1%. As a Defender, this becomes 3% against Skill Champions, or 4% against non-Skill Champions."
+            ]
+        },
+        {
+            "title": "Gamma Radiation",
+            "content": [
+                "The Leader generates 2 Gamma Radiation every second. For each Debuff on the Opponent, Gamma Radiation is generated 15% faster, up to 180%.",
+                "The Green Door is located in the center of the stage. It begins closed and is opened when the Leader reaches 100 Gamma Radiation. Defenders become more aggressive the closer they are to the Green Door.",
+                "While opened, 6 Gamma Radiation is consumed every second, paused during the Leader's Special Attacks. Upon reaching 0 Gamma Radiation, the Green Door is closed.",
+                "Once closed, the Leader cannot generate Gamma Radiation for 4 seconds. If the Opponent has an Endurance effect active, this becomes 12 seconds.",
+                "When the Green Door is opened, the Leader gains a +[140.79] Fury Passive for each personal Debuff on the Opponent, lasting until the Green Door is closed."
+            ]
+        },
+        {
+            "title": "While the Green Door is Closed",
+            "content": [
+                "As an Attacker, when the Opponent activates a Special Attack while standing on the closed Green Door, they are inflicted with 2 personal Wither and Spectre Debuffs.",
+                "As a Defender, while the Opponent is standing on the closed Green Door, the Green Door will absorb 1 of the Leader's personal Debuffs every 2 seconds, removing it with no penalty. Debuffs are absorbed twice as fast against Skill Champions."
+            ]
+        },
+        {
+            "title": "While the Green Door is Open",
+            "content": [
+                "Whenever a non-Damaging Debuff is inflicted, gain an additional Fury Passive.",
+                "While the Leader's Opponent is standing on top of the opened Green Door, every 0.5 seconds they are inflicted with an Instant Degeneration dealing a burst of [159.56] Direct Damage for each Debuff on them.",
+                "Remove 1 Gamma Radiation whenever the Opponent gains 1 Combo."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit inflicts 1 personal Spectre Debuff. These can be inflicted through Block.",
+                "On the final hit, if the Opponent's Regeneration Rate is at or below 0%, inflict a 25% Vitality Passive for 9 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts 1 personal Wither Debuff.",
+                "On the final hit, if the Opponent's Ability Power Rate is at or below 0%, inflict a non-stacking [281.58] Power Dissolve Debuff for 18 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Degeneration Debuff dealing [112,632] Direct Damage over 14 seconds.",
+                "While the Green Door is open: Gain 10 personal Fury Passives and inflict an indefinite 10% Degeneration Vulnerability Passive. Max stacks: 3. These abilities activate before the Degeneration Debuff."
+            ]
+        },
+        {
+            "title": "Signature Ability - Enigmatic Machinations of The Mind",
+            "content": [
+                "While the Leader has at least 12 personal Debuffs on the Opponent, he gains a Steadfast Passive. This becomes 4 Debuffs against Mystic Champions.",
+                "Personal Fury effects now have a duration of [1 - 6] seconds and are paused while the Green Door is open.",
+                "Intercepting the Opponent with a Light Attack has a [35 - 100]% chance to randomly inflict a personal Spectre or Wither Debuff."
+            ]
+        }
+    ]
 }

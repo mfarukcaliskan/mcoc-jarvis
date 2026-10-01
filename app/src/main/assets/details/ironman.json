@@ -11,6 +11,71 @@
     "synergies": [],
     "howToPlay": "Iron Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Iron Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Silme (Nullify) Bağışıklığı (kozmikler hariç) 🔮"
+    "signatureAbility": "Iron Man Armor Mark Iii Upgrade\nIncrease the potency of Armor Ups by [5 - 33]%.\nDouble the amount of Block Proficiency gained during the Opponent's Special Attacks.\nAs an Attacker this Regeneration can only trigger once per Quest.\nWhen Iron Man's Health drops below 15%, gain a Regeneration Passive granting [10 - 66]% of missing Health over 6 seconds. Pressing Block 2 times while performing a Special Attack triggers the Regeneration with 50% reduced Potency.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Silme (Nullify) Bağışıklığı (kozmikler hariç) 🔮",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Iron Man can Block Unblockable Special Attacks from Mutants.",
+                "Gain +[4,411.46] Block Proficiency during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Armor Up - Max: 20",
+            "content": [
+                "Personal Armor Ups increase Armor Rating by +[523.81], lasting indefinitely up to 5 stacks. Additional stacks last for 6 seconds. While an Armor Up is active, Iron Man is Immune to Coldsnap, Frostbite, and Incinerate.",
+                "Personal Armor Ups increase Critical Resistance by +[70.51], cannot be removed  by Nullify or Stagger, their Ability Accuracy can only be modified by Cosmic Champions, and when they expire naturally the Opponent is Power Locked for 0.2 seconds.",
+                "Gain 1 Armor Up Buff when the fight starts and when Iron Man's Combo Meter passes a multiple of 5. 25% chance to gain an Armor Up Buff when struck or Blocking an attack.",
+                "Well-Timed Blocking an Opponent's Special Attack pauses Armor Ups for 10 seconds, and activating a Special Attack pauses them for 5 seconds per Bar of Power spent. These pauses expire one at a time."
+            ]
+        },
+        {
+            "title": "Arc Reactor",
+            "content": [
+                "When reaching 12 or more stacks of Armor Up, the Arc Reactor activates and gains 100 Reactor Charges.",
+                "The Arc Reactor grants +[9,093] Attack Rating.",
+                "Gain an additional +[363.72] Attack Rating for each Armor Up above 12 stacks. Any effect that increases the potency of Armor Ups also increases the potency of these Attack Rating bonuses by the same amount.",
+                "Striking with or being struck by Basic Attacks consumes 1 Reactor Charges. Reaching 0 charges causes the Arc Reactor to expire and consume 12 Armor Ups."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Each hit Invalidates 3 Prowess, removing them. For each Prowess removed this way, deal a burst of [2,273.25] Direct Damage.",
+                "Arc Reactor: On activation, consume 25 Reactor Charges, increasing the potency of the Special Attack's Buffs and Debuffs by 100%."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit inflicts an Armor Break Debuff, removing one Armor Up and reducing Armor Rating by [1,178.57]  for 20 seconds.",
+                "For every 1 Prowess Invalidated during this Special Attack, gain 1 Armor Up Buff.",
+                "Arc Reactor: This Special grants no Power to the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain 5 Armor Up Buffs.",
+                "Activating the Arc Reactor during this Special grants 15 Reactor Charges for each Armor Up above 12 stacks."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain 7 Armor Up Buffs and refresh all existing Armor Ups.",
+                "Inflict an Incinerate Passive dealing [27,279] Energy Damage over 20 seconds. While this effect is active, striking the Opponent or their Block pauses all personal and synergy Incinerate effects for 0.5 second."
+            ]
+        },
+        {
+            "title": "Signature Ability - Iron Man Armor Mark Iii Upgrade",
+            "content": [
+                "Increase the potency of Armor Ups by [5 - 33]%.",
+                "Double the amount of Block Proficiency gained during the Opponent's Special Attacks.",
+                "As an Attacker this Regeneration can only trigger once per Quest.",
+                "When Iron Man's Health drops below 15%, gain a Regeneration Passive granting [10 - 66]% of missing Health over 6 seconds. Pressing Block 2 times while performing a Special Attack triggers the Regeneration with 50% reduced Potency."
+            ]
+        }
+    ]
 }

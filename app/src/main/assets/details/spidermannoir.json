@@ -1,0 +1,83 @@
+{
+    "id": "spidermannoir",
+    "name": "Spider-Man Noir",
+    "abilityDetails": {},
+    "synergies": [],
+    "howToPlay": "",
+    "bestUse": "",
+    "signatureAbility": "How the Case Crumbles\nWhen the Opponent Auto-Blocks, inflict a [533.18 - 1811.97] Crumble Passive for 3 seconds if one is not currently active. This shares a cooldown with Spider-Man Noir's Evade.\nEach Disorient on the Opponent reduces the potency of their Inequity Mastery by [10 - 20]%, up to 100%.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Spider-Man Noir can land Critical Hits and gain Combo through the Opponent's Block.",
+                "When Spider-Man Noir is attacked while he's suffering from Reversed Controls or the Opponent is Unstoppable, he will break out of hit stun, become Immune to the Parry Mastery's Stun, and Evade all attacks for 4 seconds. Cooldown: 15 seconds, reduced by 1 second for each hit into the Opponent's Block."
+            ]
+        },
+        {
+            "title": "Dis-noir-ient",
+            "content": [
+                "The 2nd Light Attack in a combo, including into Block, inflicts a Disorient Passive reducing Defensive Ability Accuracy by 20% and Block Proficiency by 8%. Max stacks: 6.",
+                "The first one inflicted lasts for 3 seconds, with each subsequent one being 0.5 seconds shorter. They expire one at a time and are refreshed when inflicting a new one.",
+                "These Disorients can expire up to 98% slower:",
+                "30% while the Opponent is Crumbling.",
+                "20% for each Dormant or active Cruelty.",
+                "98% during Special Attacks."
+            ]
+        },
+        {
+            "title": "Cruel Clues",
+            "content": [
+                "Spider-Man Noir starts each fight with 3 unknown Clues to be investigated. Certain actions will uncover a Clue and convert it into a Dormant +[868.42] Cruelty and inflict a personal Disorient. Max: 4 Clues and Dormant Cruelties combined.",
+                "The latest gossip points to Clues based on the Opponent's Combat Style, looking to prioritize Controllers, Defensive types, and lastly the Offensive ones... List of Possible Clues:",
+                "Land a Light Attack.",
+                "Land a Medium Attack.",
+                "Land a Heavy Attack.",
+                "Block an attack.",
+                "Attack their Block.",
+                "Dodge or Evade an attack.",
+                "Activating Special Attack 1 or 2 converts the Dormant Cruelties into active Passives that last for 12 seconds, paused until hitting the Opponent or their Block with a Basic Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Flunky Footing",
+            "content": [
+                "On activation for each Disorient on the Opponent, this attack gains +[1,598.55] Attack Rating. With 4 or more Disorients, gain a Guaranteed Critical Passive until the end of the attack.",
+                "If the first hit is into the Opponent's Block, this attack bypasses their Perfect Block Chance, the Attack Rating boost is increased to +[5,328.5] Attack Rating, and he Evades for 1.5 seconds after the attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Web-Slinging Gun-Slinger",
+            "content": [
+                "The first hit grants a Guaranteed Critical Passive until the end of the attack.",
+                "The final hit, including into Block, inflicts a [3,197.1] Crumble Passive for 4.5 seconds, paused until the next time Spider-Man Noir hits the Opponent's Block."
+            ]
+        },
+        {
+            "title": "Crumble into Black",
+            "content": [
+                "When Spider-Man Noir hits the Opponent's Block with a Basic Attack while Crumble is active, they become Passively Rooted in webs and Spider-Man Noir's hit combo constantly resets, allowing him to smash their Block with his first 2 Light Attacks as long as Crumble is active.",
+                "If Spider-Man Noir gains 20 Combo, this Root is removed. If he does any action other than a Light Attack into Block, all Crumbles are removed. When either effect ends, the other is removed.",
+                "While the Opponent is Crumbling, Spider-Man Noir gains:",
+                "Immunity to the Parry Mastery's Stun.",
+                "Hits into Block are Guaranteed Critical Hits.",
+                "75% Implacable Passive.",
+                "The Opponent becomes more likely to Block."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Put Up Your Dukes",
+            "content": [
+                "Gain a +[9,591.3] Light Proficiency Buff for 30 seconds.",
+                "If below 3 Clues and Dormant Cruelties, gain 2 Clues."
+            ]
+        },
+        {
+            "title": "Signature Ability - How the Case Crumbles",
+            "content": [
+                "When the Opponent Auto-Blocks, inflict a [533.18 - 1811.97] Crumble Passive for 3 seconds if one is not currently active. This shares a cooldown with Spider-Man Noir's Evade.",
+                "Each Disorient on the Opponent reduces the potency of their Inequity Mastery by [10 - 20]%, up to 100%."
+            ]
+        }
+    ]
+}

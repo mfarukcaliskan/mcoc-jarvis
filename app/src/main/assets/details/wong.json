@@ -13,5 +13,71 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Ağır saldırı yüklerken güç kazanır ve pasif durdurulamaz olur; rakip bonus aktive ederse de durdurulamaz olur — bonus immün şampiyon çözüm. 90 Eldritch yükündeyken ağır saldırı kullanmak hasar patlamasını önler.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Wong Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Mastery of The Mystic Arts\nWong can now select which Mandala he will start with in the Pre-Fight Menu.\nAt the start of the match, Wong will cast an enhanced Spell based on his Pre-fight Ability. It lasts [14 - 26] second(s) and cannot be removed by Wither, but still counts towards his total Spell count.\nWong's Mastery over the Mystic Arts allows him to instantly Nullify Indestructible and Immortality Buffs on non-Science Opponents, when Nullified, Opponents receive a burst of [2,229.2] Energy Damage.",
+    "abilitySections": [
+        {
+            "title": "Mystic Art Mandalas",
+            "content": [
+                "Wong's Tao Mandalas allow him to cast Eldritch Spells. Mandalas cycle: Orange, Green, Blue.",
+                "On Attack: Wong's Fourth Light Attack will move the active Mandala forward by one.",
+                "On Defense: Wong's active Mandala will rotate every 8 second(s). This timer is paused during Wong's Special Attacks."
+            ]
+        },
+        {
+            "title": "Eldritch Spells",
+            "content": [
+                "Wong can cast Eldritch Spells, which are Passive and last 14 second(s). Spells can be stacked up to 3 times and are paused during Special Attacks and Wong's Heavy Attacks.",
+                "Orange: Bastion of Balthakk. Wong increases his Physical Resistance by [1,324.07] and Wong's basic attacks give him 1 Eldritch Energy on hit, even through Block.",
+                "Green: Absorption of Watoomb. When Wong deals Energy Damage he instantly Regenerates 2% of damage dealt. When dealt Energy Damage, Regenerate 25% of the damage over 1 second(s) and gain 4 Eldritch Energy. Cannot trigger while still active.",
+                "Blue: Virtue of Valtor. Hitting the Opponent will deal a Burst of [2,229.2] Energy Damage. Also, whenever the Opponent gains a Buff, Wong will go Unstoppable for 2 second(s) and gain 4 Eldritch Energy.",
+                "If Wong is inflicted by a Wither Debuff with at least one spell active, he will consume up to 1 of each type of spell to Purify the Debuff."
+            ]
+        },
+        {
+            "title": "Eldritch Energy - Max 100",
+            "content": [
+                "Wong builds 1 Eldritch Energy every second, except during Special Attacks, doubled against Cosmic Champions. For every Spell active, Wong gains an additional 1 Eldritch Energy per second up to a maximum of 5 per second.",
+                "Charging a Heavy Attack grants a Power Gain Passive, generating 175% of a bar of Power per second. This Power Gain consumes Eldritch Energy over time and is removed when Wong runs out of Eldritch Energy or releases his Heavy Attack.",
+                "Charging Heavy Attack also grants an Unstoppable Passive for 2 second(s), paused while Charging. 6 second cooldown.",
+                "If Wong gets hit by a Light or Medium Attack while at max Eldritch Energy, he will unleash all Eldritch Energy to deal a burst of [17,833.6] Energy Damage. Hitting Wong with a Heavy Attack above 90 Eldritch Energy will remove all of it without unleashing it."
+            ]
+        },
+        {
+            "title": "Sacrifice for your Sanctum",
+            "content": [
+                "If Wong is defeated with more than one Bar of Power, he will place a Cross-fight Spell on the Champion that defeated him, causing their next Opponent to gain the following at the start of the next fight.",
+                "Power Gain: Generate 1 Bar of Power over 4 second(s).",
+                "Fury: Gain 35% increased Attack Rating for 12 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, Wong casts an Eldritch Spell associated with his currently active Mandala."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Increases Attack Rating by [6,910.52] for each Spell currently active. The last 2 hits of this Special deal Energy Damage.",
+                "If Wong is Unstoppable due to charging his Heavy Attack, this attack becomes Unblockable.",
+                "Refreshes the duration of all active Spells."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Wong applies a Fate Seal Debuff on the opponent on the final hit, Nullifying all Buffs and preventing the Opponent from gaining Buffs for 3 second(s). This duration gets extended by 1 second for every Spell currently active.",
+                "Refreshes the duration of all active Spells. If no spells are currently active, cast one of each Spell."
+            ]
+        },
+        {
+            "title": "Signature Ability - Mastery of The Mystic Arts",
+            "content": [
+                "Wong can now select which Mandala he will start with in the Pre-Fight Menu.",
+                "At the start of the match, Wong will cast an enhanced Spell based on his Pre-fight Ability. It lasts [14 - 26] second(s) and cannot be removed by Wither, but still counts towards his total Spell count.",
+                "Wong's Mastery over the Mystic Arts allows him to instantly Nullify Indestructible and Immortality Buffs on non-Science Opponents, when Nullified, Opponents receive a burst of [2,229.2] Energy Damage."
+            ]
+        }
+    ]
 }

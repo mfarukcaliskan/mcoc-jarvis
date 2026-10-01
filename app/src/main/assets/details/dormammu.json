@@ -13,6 +13,66 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Süresi dolan bonusları degeneration'a çevirir — bonus immün şampiyon en iyi cevap. Yetenek azaltıcılar da işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dormammu Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı (ile sinerji: Doctor Strange) 🔥"
+    "signatureAbility": "Soul Leech\nDormammu uses his opponent's powers as a link to reach deep within their soul. Each time a buff expires on his opponent Dormammu has up to a 100% chance to Degenerate them for [2,682.94 - 5,715.97] direct damage, over 10 seconds. The chance of this ability triggering increases the longer it's been since it was last triggered.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı (ile sinerji: Doctor Strange) 🔥",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "As a being of pure mystical energy, Dormammu, is immune to all known poisons of the Battlerealm.",
+                "Dormammu, lacks blood and is therefore immune to Bleed effects."
+            ]
+        },
+        {
+            "title": "Dark Energy",
+            "content": [
+                "Dark Energy Charge is gained each time your opponent's Power level goes down, up to 100.",
+                "When the Charge reaches 100 it will be consumed by the next attack that has an Imbued effect triggering the Imbued effect in addition to any standard effects.",
+                "Gain 50 Dark Energy Charge for each Buff Nullified."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If there is no Soul Bond on the target, place one on it.",
+                "While a Soul Bond is active each Dark Energy Charge you gain also charges the Soul Bond, up to 100.",
+                "Detonate an active Soul Bond dealing up to [161.97] Direct Damage, per Soul Bond charge."
+            ]
+        },
+        {
+            "title": "Finish a Combo with a Medium Attack",
+            "content": [
+                "The target doesn't gain Power from this Hit.",
+                "Depletes up to 7.5% of the target's max Power.",
+                "Imbued: Causes Power Burn instead, doing Direct Damage equal to 450% of the Power Drained from the opponent by this attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% Chance to Nullify 1 positive status effect from your opponent.",
+                "Imbued: Nullify all positive status effects from your opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to Power Lock, severing the target's flow of Power for 9 seconds.",
+                "Imbued: Drain 20% of the target's Max Power per hit."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a Dimensional Link buff causing Dormammu to continually gain Dark Energy for 20 seconds.",
+                "Imbued: Gain an Empowered Dimensional Link buff. While it is active Dormammu will Regenerate 25% of Damage done by the Soul Bond detonation."
+            ]
+        },
+        {
+            "title": "Signature Ability - Soul Leech",
+            "content": [
+                "Dormammu uses his opponent's powers as a link to reach deep within their soul. Each time a buff expires on his opponent Dormammu has up to a 100% chance to Degenerate them for [2,682.94 - 5,715.97] direct damage, over 10 seconds. The chance of this ability triggering increases the longer it's been since it was last triggered."
+            ]
+        }
+    ]
 }

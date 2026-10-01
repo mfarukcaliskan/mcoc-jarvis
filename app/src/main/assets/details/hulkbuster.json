@@ -15,6 +15,103 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Zırh kıran şampiyon kullan, yoksa yetenek azaltma ve şok hasarı ölümcül olabilir. Bonus-nötralize edenler de iyi. Sadece şok immün ama zırh kırma/nötralize'siz şampiyon kullanma.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulkbuster Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %25 Kanama direnci (her aktif zırh için) 🩸\n• %25 Zehir direnci (her aktif zırh için) 🧪"
+    "signatureAbility": "Veronica Mk Ii\n100% chance to activate a Self-Repair Buff lasting 12 seconds and recovering [22,830.08 - 64,209.79] Health. This Buff is lost if Hulkbuster is Stunned.\nGiant-Buster: +[2,664.25 - 12,255.51] Attack rating while Self-Repair is active.\nIron Wall: +[13 - 45]% Self-Repair Potency.",
+    "immunityDetails": "• %25 Kanama direnci (her aktif zırh için) 🩸\n• %25 Zehir direnci (her aktif zırh için) 🧪",
+    "abilitySections": [
+        {
+            "title": "While Fighting as an Attacker",
+            "content": [
+                "Enter Giant-Buster Mode, granting the following:",
+                "Up to +[2,664.25] Attack rating based on how large the opponent is.",
+                "+[2,983.96] Attack rating for each Shock effect on the opponent."
+            ]
+        },
+        {
+            "title": "While Fighting as a Defender",
+            "content": [
+                "Enter Iron Wall Mode, enhancing Hulkbuster's defensive abilities."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Gain an indefinite Armor Up, granting +[485.29] Armor rating."
+            ]
+        },
+        {
+            "title": "Start of Fight & Every 15 Seconds",
+            "content": [
+                "Gain an indefinite Armor Up, granting +[485.29] Armor rating.",
+                "Max Stacks in Giant-Buster: 2.",
+                "Max Stacks in Iron Wall: 4."
+            ]
+        },
+        {
+            "title": "Brought Below 15% Health - Once Per Fight",
+            "content": [
+                "Gain an indefinite Armor Up, granting +[485.29] Armor rating.",
+                "If in Iron Wall, gain a second Armor Up Buff."
+            ]
+        },
+        {
+            "title": "Fighting Non-Cosmic Champions",
+            "content": [
+                "For each Armor Up Buff Hulkbuster gains the following benefits:",
+                "+[1,178.57] Energy Resistance.",
+                "+[114.58] Critical Damage Rating.",
+                "Incoming Bleed & Poison Debuffs suffer -25% Potency.",
+                "Enemy attacks suffer -20% Offensive Ability Accuracy.",
+                "Enemy attacks suffer -[179.91] Critical Damage Rating."
+            ]
+        },
+        {
+            "title": "When Struck by Critical Hits",
+            "content": [
+                "60% chance to consume 1 Armor Up Buff to inflict a Shock Debuff, dealing [6,927.05] Energy Damage over 10 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "100% chance to inflict a Shock Debuff, dealing [5,861.35] Energy Damage over 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "100% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [4,125] for 20 seconds.",
+                "100% chance to gain an Unblockable Buff, lasting 1 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to Stun for 1.5 second(s).",
+                "If the opponent's block is broken by the attack, all of Hulkbuster's Armor Up Buffs are consumed to add +1.25 second(s) duration to the Stun Debuff for each Armor Up consumed this way."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "If the opponents block is broken by this attack, all Beam attacks have a 100% chance to inflict Power Burn, draining 1 Bar(s) of Power per hit and inflicting direct damage proportional to the Power drained.",
+                "100% chance to Power Lock, severing the target's flow of Power for 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This Attack Drains 50% of the Opponent's current Power.",
+                "Inflicts up to 3 Shock Debuffs, with each having a 80% chance to activate, dealing [5,861.35] Energy Damage over 20 seconds.",
+                "Unblockable Buffs triggered during this attack gain +4.5 seconds duration."
+            ]
+        },
+        {
+            "title": "Signature Ability - Veronica Mk Ii",
+            "content": [
+                "100% chance to activate a Self-Repair Buff lasting 12 seconds and recovering [22,830.08 - 64,209.79] Health. This Buff is lost if Hulkbuster is Stunned.",
+                "Giant-Buster: +[2,664.25 - 12,255.51] Attack rating while Self-Repair is active.",
+                "Iron Wall: +[13 - 45]% Self-Repair Potency."
+            ]
+        }
+    ]
 }

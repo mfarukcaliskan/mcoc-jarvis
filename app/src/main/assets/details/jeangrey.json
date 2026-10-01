@@ -13,6 +13,82 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kritikle vurulunca exhaustion uygular, güç alanı sayesinde ekstra dirençli. En büyük tehlike özel saldırılarında kontrol tersine çevirmesi — kontrol-tersine-çevirmeye immün şampiyon şart. İkincil hasar efektli şampiyonlar da faydalı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Jean Grey Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
+    "signatureAbility": "Limitless Potential\nWhile Jean's Force Field is active, using the Parry Mastery instead inflicts a 1.5 second Stun Passive. Skill Champions cannot reduce the Ability Accuracy of this Stun.\nIncreased control over her mutation allows Jean to retain one Uncanny Passive after her Special Attack 1.\nIncrease the duration of personal Neuroshock Passives by +[2 - 8] seconds.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Omega Level Telepathy provides Jean Grey with full Immunity to Reversed Controls, and all of her attacks deal Energy Damage.",
+                "Light Attacks 2, 3, and 4 inflict a [2,957.54] Neuroshock Debuff for 18 seconds. Max stacks: 20.",
+                "When Jean is struck with or Blocks a Critical Hit, inflict a [375] Exhaustion Debuff for 12 seconds.",
+                "Personal Neuroshock Passives deal [8,897.07] Energy Damage over 24 seconds. Max stacks: 35."
+            ]
+        },
+        {
+            "title": "Force Field",
+            "content": [
+                "Jean Grey starts each fight with a Force Field, with strength equal to 10% of her maximum Health. The Force Field is not subject to Ability Accuracy.",
+                "Whenever Jean would take damage other than from a Special Attack 3, the Force Field takes up to 90% of the damage instead.",
+                "While the Force Field is active, Jean takes no damage from Physical Thorns effects and the Opponent's Critical Damage Rating is reduced by [379.31].",
+                "When the Force Field is depleted, Jean lashes out psychically and inflicts a 30% Delirium Passive for 8 seconds. The Force Field then goes on cooldown for 24 seconds, after which it reforms at full strength.",
+                "This cooldown is reduced by 1.5 seconds each time a Debuff is Purified off the Opponent and expires 30% more slowly while Jean is Poisoned."
+            ]
+        },
+        {
+            "title": "Uncanny Psion",
+            "content": [
+                "When a Debuff is Purified or Cleansed off the Opponent while Jean is not performing a Special Attack, gain a 12.5% Uncanny Passive until the end of her next Special Attack. Max stacks: 2.",
+                "When Jean would gain an Uncanny Passive above max stacks, she instead gains an indefinite Psionic Charge[/b]. Max stacks: 10.",
+                "When a Debuff is Purified or Cleansed off the Opponent during Jean's Special Attacks by a source other than her, Jean gains a Psionic Charge[/b].",
+                "When a personal Debuff is prevented by Ability Accuracy reduction, Jean has a 35% chance to gain a Psionic Charge[/b]. This will not trigger against Opponents with #Psychic Shielding."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit Purifies up to 3 Neuroshock or non-Damaging Debuffs off the Opponent, and grants Jean 1 Psionic Charge[/b] if the Opponent is not Stunned.",
+                "The final hit inflicts 2 personal Neuroshock Debuffs and grants Jean no Power if she is above 1 Bar of Power."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Personal Neuroshock, Daunted, and Delirium effects are paused during Jean's Special Attacks.",
+                "After the first hit, 50% chance to inflict a 30% Delirium Passive for 2 seconds. This will not trigger if a personal Delirium is already active. As an Attacker, the chance is 100%.",
+                "As a Defender, on activation consume up to 3 Psionic Charges and inflict a personal Neuroshock Passive for each Charge consumed."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The first hit Purifies all Neuroshock and non-Damaging Debuffs off the Opponent and consumes all Psionic Charges[/b].",
+                "For each Debuff Purified and for each Charge[/b] consumed in this way, inflict a personal Neuroshock Passive.",
+                "The final hit inflicts 2-4 additional Neuroshock Passives."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, inflict a non-stacking 35% Daunted Passive for 20 seconds.",
+                "Each hit deals a burst of [2,444.25] Energy Damage for each Neuroshock on the Opponent and for each Psionic Charge[/b] on Jean.",
+                "The final hit consumes 50% of Psionic Charges[/b], rounded down."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Jean adds a flat 100% strength to her Force Field if active or reactivates it at full strength if not.",
+                "Then, inflict a personal Neuroshock Passive for every 20% of the Force Field's remaining strength."
+            ]
+        },
+        {
+            "title": "Signature Ability - Limitless Potential",
+            "content": [
+                "While Jean's Force Field is active, using the Parry Mastery instead inflicts a 1.5 second Stun Passive. Skill Champions cannot reduce the Ability Accuracy of this Stun.",
+                "Increased control over her mutation allows Jean to retain one Uncanny Passive after her Special Attack 1.",
+                "Increase the duration of personal Neuroshock Passives by +[2 - 8] seconds."
+            ]
+        }
+    ]
 }

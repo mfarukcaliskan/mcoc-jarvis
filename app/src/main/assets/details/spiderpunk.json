@@ -12,6 +12,78 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kolay ama kaçışa cevap gerekli — hafif/orta vuruşla intercept edilirse %100 kaçar ve 2sn sersemletir. Onu E1'de tut, E2 bloktan rupture uygular.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Punk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Kontrolleri Tersine Çevirme Bağışıklığı (ile sinerji: Prowler) 🧠"
+    "signatureAbility": "Encore!!\nWhen the Opponent finishes a Special Attack, inflict an Encore Passive for the corresponding Special. While an Encore is active, the Opponent is 70% more likely to throw the same Special Attack. Max stacks: 3. Encore Passives are removed if the Opponent performs a Special Attack different than the active Encore.\nFor each Encore Passive active, the Opponent's Attack Rating during Special Attacks is reduced by [12 - 24]%.\nInflicting an Encore Passive while an Encore is already active has a [50 - 100]% chance to inflict a personal Rupture Debuff. This is not affected by Ability Accuracy modification.",
+    "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Kontrolleri Tersine Çevirme Bağışıklığı (ile sinerji: Prowler) 🧠",
+    "abilitySections": [
+        {
+            "title": "Rebellious Spirit - Always Active",
+            "content": [
+                "Spider-Punk's brain and body have been annihilated countless times at concerts, granting him Immunity to Concussion Debuffs and Rupture effects.",
+                "Spider-Punk hates labels. For each #Tag on the Opponent and on Spider-Punk, Spider-Punk gains +[26.28] Attack Rating.",
+                "Spider-Punk will Rupture his Opponent's ears off. Personal Rupture Debuffs deal [11,561] Physical Damage over 14 seconds. Max stacks: 8. As a Defender, these scale with Base Attack only.",
+                "When Spider-Punk Intercepts his Opponent, he inflicts a [1,833.33] Physical Vulnerability Debuff for 18 seconds. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Counterculture Counter-Attack",
+            "content": [
+                "When Spider-Punk would perform a Well-Timed Block against Basic Attacks, he has a 100% chance to Evade instead, inflicting a Stun Passive for 3 seconds. This Stun is removed when the Opponent is struck twice. This Evade has a cooldown of 16 seconds.",
+                "While this cooldown is active, when Spider-Punk would be struck by a Light or Medium attack while Dashing forward, he has a 100% chance to Evade the hit, inflicting a Stun Passive for 2 seconds. As a Defender, this ability is always active.",
+                "Inflicting a personal Physical Vulnerability Debuff shortens the active cooldown by 6 seconds."
+            ]
+        },
+        {
+            "title": "Crowd Members - Max: 300",
+            "content": [
+                "Spider-Punk gathers a crowd wherever he goes. As a Defender or while fighting in Battlegrounds or Duels, start with 150 Crowd Members. Otherwise, start with 0 Crowd Members.",
+                "When defeating an Opponent, half of Spider-Punk's Crowd Members stay with him for his next match. If Spider-Punk is defeated, he loses all Crowd Members.",
+                "When either Champion Dodges a Special Attack or Punishes their Opponent's Special Attack, Spider-Punk gains 10 Crowd Members for each Bar of Power spent on the Special Attack. Cooldown: 0.2 seconds.",
+                "When Spider-Punk Evades after performing a Well-Timed Block, gain 30 Crowd Members.",
+                "Knocking down Spider-Punk causes 15 Crowd Members to leave."
+            ]
+        },
+        {
+            "title": "Crowd Effects",
+            "content": [
+                "Crowd hype cranks the amps up to 11, increasing the potency of personal Ruptures by up to 182% based on Crowd Member count.",
+                "Above 200 Crowd Members, when Spider-Punk activates a Special Attack he gains an Unstoppable Passive for 3 seconds, paused until the end of the Special Attack."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit refreshes all personal Physical Vulnerability Debuffs.",
+                "The final hit inflicts a Taunt Debuff for 2 seconds and grants the Opponent no Power if they are above 1 Bar of Power."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, remove all personal Ruptures on the Opponent. For each Rupture removed, each hit inflicts an Instant Rupture dealing a burst of up to [3,415.75] Physical Damage based on remaining time left on the Ruptures relative to the base Rupture duration."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final 3 hits are guitar strum attacks that inflict a personal Rupture Debuff. These can be inflicted through Blocks that are not Well-Timed.",
+                "As an Attacker, three Chords are generated. Swiping up or down while the Chords are active amplifies the hit, bringing in 10 Crowd Members. If all hits are amplified, inflict an additional Rupture."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Once per fight, personal Ruptures have their duration permanently increased by 25%.",
+                "Inflict 3 personal Rupture Debuffs.",
+                "If a Perfect result is achieved in the Special 3 Mini Game, Spider-Punk gains 150 Crowd Members. This becomes 125 if the result was semi-perfect, or 100 if the Mini Game failed."
+            ]
+        },
+        {
+            "title": "Signature Ability - Encore!!",
+            "content": [
+                "When the Opponent finishes a Special Attack, inflict an Encore Passive for the corresponding Special. While an Encore is active, the Opponent is 70% more likely to throw the same Special Attack. Max stacks: 3. Encore Passives are removed if the Opponent performs a Special Attack different than the active Encore.",
+                "For each Encore Passive active, the Opponent's Attack Rating during Special Attacks is reduced by [12 - 24]%.",
+                "Inflicting an Encore Passive while an Encore is already active has a [50 - 100]% chance to inflict a personal Rupture Debuff. This is not affected by Ability Accuracy modification."
+            ]
+        }
+    ]
 }

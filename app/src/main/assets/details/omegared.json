@@ -10,6 +10,62 @@
     "synergies": [],
     "howToPlay": "Omega Red için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Omega Red Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %90 Kanama direnci 🩸\n• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Lethal Dose\nDeath Spores on the opponent deal [1,050.83 - 8,447.2] damage per second. This damage scales with Base Attack only.\nOmega Red's Basic Tentacle Hits have a [10 - 30]% chance to be Unblockable.",
+    "immunityDetails": "• %90 Kanama direnci 🩸\n• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Omega Red's mutant physiology renders him immune to the effects of Poisons and reduces the damage of Bleeds by 90%.",
+                "When striking with Tentacle Hits, reduce the damage of the Opponent's Passive Degeneration and Direct Damage effects by 100% for 0.20 second(s)."
+            ]
+        },
+        {
+            "title": "Death Factor",
+            "content": [
+                "While near the opponent, Omega Red inflicts 1 Death Spore every 0.5 second(s) up to a maximum of 10. Once the opponent is out of range they lose 1 Death Spore every 0.15 second(s), unless they are suffering from a Degeneration Debuff. Death Spores are not affected by Ability Accuracy reduction.",
+                "Each Death Spore lowers the opponent's Armor Rating by [144.74] and reduces their chance to Purify Debuffs by 10%.",
+                "Death Spores struggle to affect mechanical components and are inflicted 4 times slower against Robots."
+            ]
+        },
+        {
+            "title": "Death Field",
+            "content": [
+                "While Omega Red is suffering a Bleed Debuff or Passive, he emits the Death Field.",
+                "The Death Field causes Death Spores on nearby opponents to Passively Degenerate them, dealing [380.12] damage per second for each Death Spore on them. The Death Field is not affected by Ability Accuracy reduction and its damage scales with Base Attack only.",
+                "While the Death Field is active, the limit for Death Spores on the opponent increases to 30."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Inflicts a Degeneration Debuff for 7 second(s), dealing [1,583.85] damage for each Death Spore on the opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Removes all Death Spores from the opponent to inflict Life Steal, Stealing [855.28] Health from the opponent for each Death Spore removed by this attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Omega Red emits the Death Field for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Removes all Death Spores from the opponent to inflict Essence Steal for 3 second(s), Passively Stealing both [1,478.26] Health and 3.3% of Current Power from the opponent for each Death Spore removed by this attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - Lethal Dose",
+            "content": [
+                "Death Spores on the opponent deal [1,050.83 - 8,447.2] damage per second. This damage scales with Base Attack only.",
+                "Omega Red's Basic Tentacle Hits have a [10 - 30]% chance to be Unblockable."
+            ]
+        }
+    ]
 }

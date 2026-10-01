@@ -15,5 +15,72 @@
     "synergies": [],
     "howToPlay": "Sorcerer Supreme için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Sorcerer Supreme Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Ring of Oblivion\nSorcerer Supreme gains +[10 - 50]% Ability Accuracy.\nThe Potency of Blessings is increased by [5 - 33]%.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Basic attacks deal Energy Damage instead of Physical.",
+                "Sorcerer Supreme gains 70% less Power from Attacking, Blocking, and being Struck, but gains 25% of her Max Power every 9 second(s).",
+                "-[485.29] Physical Resistance.",
+                "+[2,750] Energy Resistance."
+            ]
+        },
+        {
+            "title": "Passive - Blessings of the Realm -",
+            "content": [
+                "Sorcerer Supreme rotates between different Blessings every 8 second(s), in the order of Cyttorak's Ferocity, Raggadorr's Resolve, and Ikonn's Ingenuity.",
+                "Each fight starts in Cyttorak's Ferocity, unless a different Blessing is chosen on the Pre-Fight Screen.",
+                "Cyttorak's Ferocity: Grants +[5,279.5] Attack Rating and increased Critical Damage Rating.",
+                "Raggadorr's Resolve: Grants +[1,833.33] Armor and 30% Perfect Block chance.",
+                "Ikonn's Ingenuity: Grants all hits Power Steal for 3% of the Opponent's current Power. Sorcerer Supreme gains 150% of the Power Stolen."
+            ]
+        },
+        {
+            "title": "Special Attacks - Runic Spells",
+            "content": [
+                "All Special Attacks store Runes of the current Blessing. Stored Runes have no effect.",
+                "After Runes are stored, Sorcerer Supreme then consumes up to 1 of each Rune to trigger different effects.",
+                "Runes of Cyttorak: Armor Break the Opponent for 12 second(s), reducing Armor Rating by -[2,750].",
+                "Runes of Raggadorr: Passively Regenerate Sorcerer Supreme for [2,272.44] Health over 12 second(s). While this is active, Sorcerer Supreme Regenerates 75% of the damage she takes from Blocked Hits.",
+                "Runes of Ikonn: Slow the Opponent for 12 second(s)."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Rotate to the next Blessing."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Store 2 Rune(s) of the current Blessing.",
+                "The first hit has a 100% chance to Nullify 1 Buff off the Opponent.",
+                "After this attack, Sorcerer Supreme casts a Nullification Aura around herself for 10 second(s). Every 0.75 second(s) the Opponent spends in the Aura, 1 of their Buffs is Nullified."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Store 3 Rune(s) of the current Blessing.",
+                "After consuming Runes, Pause all Rune effects until 5 second(s) after this attack ends."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "The first time this is used in a fight, store a permanent Rune of the current Blessing. This Rune is never consumed.",
+                "Subsequent uses store 2 non-permanent Runes instead.",
+                "Attack Rating is increased by up to +[31,677] based on stored Runes."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ring of Oblivion",
+            "content": [
+                "Sorcerer Supreme gains +[10 - 50]% Ability Accuracy.",
+                "The Potency of Blessings is increased by [5 - 33]%."
+            ]
+        }
+    ]
 }

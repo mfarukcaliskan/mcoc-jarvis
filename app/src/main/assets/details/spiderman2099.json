@@ -14,6 +14,65 @@
     "synergies": [],
     "howToPlay": "Spider-Man 2099 için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man 2099 Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Buff Bağışıklığı 🗡️🚫"
+    "signatureAbility": "Persistent Ruptures\nRuptures have [10 - 80]% chance to not be consumed when a Burst of Physical Damage triggers.\n+[5 - 25]% Combat Power Rate while the Opponent is affected by a Wither Debuff.",
+    "immunityDetails": "• Buff Bağışıklığı 🗡️🚫",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Spider-Man 2099 is immune to Buffs. Whenever a Buff is prevented by immunity he instead pauses his personal Debuffs for 5 second(s). Personal Stun Debuffs cannot be paused.",
+                "While Dodging backward, Spider-Man 2099 is not struck by attacks. Dodging an attack this way triggers his Debuff pausing ability.",
+                "Gain 75% Damage Resistance if the Opponent is under the effect of True Strike or if the hit deals True Damage."
+            ]
+        },
+        {
+            "title": "Rupture - 20 Stacks",
+            "content": [
+                "Light and Medium attacks have 25% chance to inflict Rupture, dealing [2,190] Physical Damage over 10 second(s). 100% chance to inflict Rupture on a block if the Opponent is suffering from a Wither Debuff.",
+                "An Opponent takes a Burst of [3,285] Physical Damage for each Rupture on them if they reach zero power or when they gain a bar of Power. Ruptures are consumed after this effect takes place."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Inflict an Exhaustion Debuff, decreasing Critical Damage Rating by [80.1] and the potency of their Power Gain effects by 15% for 15 second(s). Max 5 stacks."
+            ]
+        },
+        {
+            "title": "Resistance Up - Max 100 stacks",
+            "content": [
+                "When attacked there is a 100% chance to gain an indefinite [114.58] Resistance Up Passive.",
+                "Interrupting Spider-Man 2099 while he is charging a Heavy Attack removes all Resistance Up stacks. If at least 20 stacks were removed this way, he inflicts a Wither Debuff with a potency of 125% for 20 second(s).",
+                "When Spider-Man 2099 pauses his personal Debuffs, he consumes 5 stacks of Resistance Up and increases the pause duration by 5 second(s). This effect has a 10 second(s) cooldown."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Last three hits have 100% chance to inflict Physical Vulnerability Debuff, decreasing Physical Resistance by [305.56] for 15 second(s). Max 15 stacks",
+                "On activation gain 15 stacks of Resistance Up Passive, increasing Physical Resistance and Energy Resistance by [114.58]."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation inflicts a Wither Debuff with a potency of 125% for 15 second(s). Max 5 stacks.",
+                "Each hit deals a Burst of [4,106.25] Physical Damage per Unique Debuff on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Stun Debuff for 4 second(s).",
+                "Inflict a Slow Debuff, lasting 25 second(s). Slow counts as 4 Unique Debuffs."
+            ]
+        },
+        {
+            "title": "Signature Ability - Persistent Ruptures",
+            "content": [
+                "Ruptures have [10 - 80]% chance to not be consumed when a Burst of Physical Damage triggers.",
+                "+[5 - 25]% Combat Power Rate while the Opponent is affected by a Wither Debuff."
+            ]
+        }
+    ]
 }

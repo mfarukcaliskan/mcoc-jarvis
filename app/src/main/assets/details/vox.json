@@ -16,6 +16,62 @@
     "synergies": [],
     "howToPlay": "Vox için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Vox Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Güç Emme/Yakma Bağışıklığı 🔋"
+    "signatureAbility": "Lethal Edge\nContact with the blade of Vox's scythe increases the damage of active personal Degenerations on the Opponent by [0.5 - 3]%.\nEach time Vox's personal Degenerations are inflicted, the next time Vox strikes the Opponent's Block or the Opponent activates an Unblockable or Unstoppable effect, the Degenerations are paused for [1 - 2] seconds.\nVox can toggle a Pre-Fight ability to Never Back Down during a fight, preventing them from moving backwards when they dodge. This option is remembered between fights.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Güç Emme/Yakma Bağışıklığı 🔋",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Vox's super-Inhuman physiology grants them Immunity to Poison, Power Burn, Power Drain, Power Lock and Special Lock.",
+                "The Precision Buffs granted by the Dexterity Mastery have no stack limit, and fall off one at a time with each of Vox's attacks.",
+                "Personal Degenerations are paused during Vox's Special Attacks as long as the entire attack strikes the Opponent."
+            ]
+        },
+        {
+            "title": "Corrupted",
+            "content": [
+                "Through twisted Kree bioengineering, the Vox have been granted the power of Corrupted Buffs. These Buffs have 300% Ability Accuracy and last indefinitely. However, when one is Nullified, Vox instantly takes a burst of [7,960.1] Direct Damage.",
+                "When a non-Corrupted Fury, Cruelty, Precision, Armor Up, Intensify, Undermine, or  Vigilance Buff expires off of Vox or an #Inhuman Opponent for any reason other than Nullify, Vox gains a matching Corrupted Buff. Furies obtained this way cannot exceed 20% of Vox's base Attack Rating.",
+                "Corrupted Buffs have a stack limit of 10 except Intensify, which has a stack limit of 30.",
+                "Vox's Medium Attacks grant them a Corrupted Fury Buff with potency [532.85].",
+                "Vox's first and fourth Light Attacks grant them a Corrupted Cruelty Buff with potency [56.12].",
+                "When struck by a Medium Attack, Vox gains a Corrupted Armor Up Buff with potency [144.74]."
+            ]
+        },
+        {
+            "title": "On Final Hit Of Special Attacks 1 & 2",
+            "content": [
+                "If none of Vox's personal Degenerations are on the Opponent, for each Corrupted Buff on Vox, inflict a Degeneration Debuff that deals [426.28] Direct Damage over a fixed 13 seconds. Consume all Corrupted Buffs.",
+                "If any of Vox's personal Degenerations are on the Opponent, consume all of them and then Vox gains a 2% Corrupted Intensify for each Degeneration consumed this way.",
+                "These Degeneration effects increase the damage they deal by 10% for each second they have been on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain an Undermine Buff for 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a Vigilance Buff for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "This attack deals True Damage and gains +[745.99] Attack Rating for each Corrupted Intensify on Vox, then converts all Corrupted Buffs into Corrupted Intensifies.",
+                "If the Opponent is an #Inhuman, inflict a non-stacking 100% Neutralize Debuff that lasts indefinitely."
+            ]
+        },
+        {
+            "title": "Signature Ability - Lethal Edge",
+            "content": [
+                "Contact with the blade of Vox's scythe increases the damage of active personal Degenerations on the Opponent by [0.5 - 3]%.",
+                "Each time Vox's personal Degenerations are inflicted, the next time Vox strikes the Opponent's Block or the Opponent activates an Unblockable or Unstoppable effect, the Degenerations are paused for [1 - 2] seconds.",
+                "Vox can toggle a Pre-Fight ability to Never Back Down during a fight, preventing them from moving backwards when they dodge. This option is remembered between fights."
+            ]
+        }
+    ]
 }

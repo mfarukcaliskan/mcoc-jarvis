@@ -12,5 +12,48 @@
     "synergies": [],
     "howToPlay": "Gwenpool için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Gwenpool Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Plot Armor\nGwenpool's read enough comics to know that the main character doesn't die, preventing her from losing more than [90 - 52]% of her current health per hit from Special Attacks. She also reduces her opponent's Defensive Ability Accuracy, based on her current combo count.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "3% chance to Stun per Bleed active on target, lasting for 0.75 seconds.",
+                "30% chance to inflict Bleed, dealing [9,819.87] Direct Damage over 6 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If target isn't Bleeding when the last strike hits, it has a 5% Chance to cause Bleed, doing [9,819.87] Direct Damage over 6 seconds.",
+                "If target is already Bleeding, the attack instead gains a 100% chance to convert one existing Bleed into a Bleed causing [52,795] Direct Damage, over 27 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack Incinerates the enemy, dealing [12,142.85] Energy Damage over 14 seconds. This effect also removes Perfect Block Chance and reduces Block Proficiency by 50% while it's active.",
+                "When this effect expires, it has a 100% chance to consume 1 Bleed effect to reapply itself."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict an Enervate Debuff, preventing the opponent from gaining Power when struck for 7 seconds.",
+                "When this effect expires, it has a 100% chance to consume 1 Bleed effect to reapply itself."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by 8,250 for 16 seconds.",
+                "When this effect expires, it has a 100% chance to consume 1 Bleed effect to reapply itself."
+            ]
+        },
+        {
+            "title": "Signature Ability - Plot Armor",
+            "content": [
+                "Gwenpool's read enough comics to know that the main character doesn't die, preventing her from losing more than [90 - 52]% of her current health per hit from Special Attacks. She also reduces her opponent's Defensive Ability Accuracy, based on her current combo count."
+            ]
+        }
+    ]
 }

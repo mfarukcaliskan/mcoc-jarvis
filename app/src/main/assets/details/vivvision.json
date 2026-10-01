@@ -18,6 +18,69 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Sürekli güç çeker — güç çekmeye immün şampiyon şart. E1'i ağır yakma hasarı verir, bunu önlemek için E2'ye zorla veya zırh kıran şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Viv Vision Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı 🔮\n• Kontrolleri Tersine Çevirme Bağışıklığı (Özel 3'ten sonra) 🧠"
+    "signatureAbility": "Proteinoid Android\nWhile Viv has more than 5  Solar Energy, the amount of Power gained from consuming it is increased by [5 - 10]% flat.\nCompleting a 5-Hit Combo inflicts a dormant Energy Vulnerability. Max Stacks: 5.\nEach of Viv's Special Attack 1 hits replaces a dormant Energy Vulnerability with an Energy Vulnerability Passive reducing the Opponent's Energy Resistance by [305.35 - 687.5] for 17 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı 🔮\n• Kontrolleri Tersine Çevirme Bağışıklığı (Özel 3'ten sonra) 🧠",
+    "abilitySections": [
+        {
+            "title": "Synthetic Anatomy - Always Active",
+            "content": [
+                "Advanced robotics provide full Immunity to Poison and Bleed, and all Abilites gain 25% Ability Accuracy. Additionally, while she has an Armor Up effect, Viv is Immune to Nullify and Fateseal.",
+                "Viv starts each fight with 16 indefinite Armor Up Buffs, each increasing her Armor Rating by [271.98] If any are removed, they restore themselves one at a time, each taking 10 seconds.",
+                "If a Medium or Light Attack strikes Viv, she Power Drains 6% of the Opponent's current Power."
+            ]
+        },
+        {
+            "title": "Solar Energy - Max Stacks: 15",
+            "content": [
+                "Viv starts each fight with 1 Solar Energy. Every 4 seconds she gains another if she has less than 5.",
+                "When a stack of Solar Energy is consumed for any reason, Viv instantly gains 10% of a Bar of Power.",
+                "Viv's Light Combo Enders consume 1 Solar Energy to inflict a non-stacking 32% Suppression Debuff for 1.7 seconds, paused while Viv is using a Special Attack or not attacking.",
+                "Viv's Medium Combo Enders consume 1 Solar Energy to inflict a Heal Block Passive for 6 seconds, paused while Viv is attacking."
+            ]
+        },
+        {
+            "title": "Phasing",
+            "content": [
+                "When Viv would perform a Well-Timed Block, she has a 100% chance to instead gain a Phase Passive for 1 second, causing the incoming attack to Miss. While active, Viv is Immune to incoming Stun effects. This ability can't be used again until Viv consumes Solar Energy.",
+                "When an attack Misses Viv, she instantly Power Drains 30% of the Opponent's current Power. This can only happen once each time she Phases."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit Invalidates up to 3 Prowess from the Opponent. If any Prowess was removed this way, Viv gains 1 Solar Energy.",
+                "The final hit consumes 1 Solar Energy to inflict a burst of [13,726.7] Energy Damage, increased by 33% for each Prowess removed by the first hit."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "While the Opponent has less than 1 Bar of Power this attack is Passively Unblockable and generates no Power for the Opponent. These effects go on cooldown for 20 seconds if Viv is struck by a Special Attack 2 or 3.",
+                "Each hit consumes 1 Solar Energy to inflict an instant Incinerate dealing [15,838.5] Energy Damage. Against Mutants, inflict an instant Plasma instead. As a Defender this scales with Base Attack only."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, Viv converts up to 3 of her personal Armor Ups into Solar Energy.",
+                "Before each hit, Viv's powerful processing slows her perception of time as she calculates the optimal attack.",
+                "Tapping the Block Input during this slowed time causes the hit to convert up to 4 personal Armor Ups into Solar Energy and deals a burst of [5,279.5] Energy Damage, multiplied for each prior burst."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Grants an indefinite, non-stacking Fury Buff increasing Attack Rating by +[2,639.75]. This Buff cannot have its Ability Accuracy modified.",
+                "While this Buff is active, Viv has +75% Ability Accuracy and Immunity to Reversed Controls."
+            ]
+        },
+        {
+            "title": "Signature Ability - Proteinoid Android",
+            "content": [
+                "While Viv has more than 5  Solar Energy, the amount of Power gained from consuming it is increased by [5 - 10]% flat.",
+                "Completing a 5-Hit Combo inflicts a dormant Energy Vulnerability. Max Stacks: 5.",
+                "Each of Viv's Special Attack 1 hits replaces a dormant Energy Vulnerability with an Energy Vulnerability Passive reducing the Opponent's Energy Resistance by [305.35 - 687.5] for 17 seconds."
+            ]
+        }
+    ]
 }

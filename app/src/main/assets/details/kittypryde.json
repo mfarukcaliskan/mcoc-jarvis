@@ -11,6 +11,67 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Prowess'lere dikkat — 3 prowess ile koşu saldırılarında görünmez olur ve görünmezken aldığı hasarı yansıtır. Prowess kaldıran veya kritik vuramayan şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kitty Pryde Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Kontrolleri Tersine Çevirme Bağışıklığı (Emma Frost ile sinerji) 🧠"
+    "signatureAbility": "Black Vortex Empowerment\nWhile Phased take no damage from any source.\nWhile Phased gain [65 - 250]% Defensive Combat Power Rate and pause Phasing while being struck.\nThe first time each Personal Incinerate effect expires naturally or is Purified, it has a [20 - 40]% chance to retrigger itself at +30% potency. Incinerates triggered from this ability are always Passive.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Kontrolleri Tersine Çevirme Bağışıklığı (Emma Frost ile sinerji) 🧠",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Immune to Incinerate, thanks to Lockheed's assistance."
+            ]
+        },
+        {
+            "title": "Passive Prowess - Max 20",
+            "content": [
+                "Gain 1 Prowess each time either champion lands a Critical Hit or Inflicts a Stun effect. +2 against Guaranteed Crits or Passive Stuns.",
+                "Gain 2 Prowess when intercepting a Dashing Opponent.",
+                "Each Prowess increases Special Attack Damage by 5% and lasts until the end of Kitty's next Special Attack that strikes the Opponent or their Block.",
+                "If Kitty is inflicted with Cowardice, all Prowess are lost.",
+                "While the Opponent is suffering from Incinerate, Prowess potency begins to increase by up to 400% over 40 seconds. This bonus gradually falls off while no Incinerates are active.",
+                "Each time Lockheed prevents an Incinerate, the above Prowess Potency bonus is increased by 30%. Cooldown 0.8 seconds.",
+                "When throwing a Special Attack, all personal Prowess are removed and reapplied through the current Prowess Potency bonus."
+            ]
+        },
+        {
+            "title": "Phasing",
+            "content": [
+                "Dashing forward with 3 or more Prowess triggers Phasing for the duration of the dash plus 1.2 second(s) after, giving the Opponent a 100% chance to Miss. This is paused during Kitty's Special Attacks.",
+                "While Phased gain +[5,107.14] Critical Rating, become Stun Immune and take 80% reduced damage.",
+                "While Phased #Robots suffer -20% Ability Accuracy reduction.",
+                "Personal Debuffs and Buffs that are triggered while Phased become Passive and gain +20% duration.",
+                "Each Miss caused by Phase deals a burst of [10,495.6] Physical Damage and Kitty gains +3 Personal Prowess, these can stack above the normal limit.",
+                "When Phasing expires, 6 Prowess are consumed for each Miss that Phasing caused."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final 3 hits in this attack each inflict an Incinerate Debuff dealing [4,087.76] Energy Damage over 3.5 seconds, reducing block proficiency by 50% and removing Perfect Block chance.",
+                "Incinerates inflicted by this attack expire 1 at a time and are paused and refreshed while any other Incinerate is active.",
+                "With 10+ Prowess, Incinerates will trigger through block."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit deals a burst of Physical Damage equal to 40% of the damage dealt by the hit.",
+                "With 10+ Prowess, gain an Unblockable Buff lasting 9 seconds, plus an additional 0.25 seconds for each Prowess above 10."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a non-stacking Incinerate Debuff dealing [9,943.2] Energy Damage over 30 seconds.",
+                "When this attack ends, enter Phasing for 2 seconds, if Phasing was already active this time extends to 4 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Black Vortex Empowerment",
+            "content": [
+                "While Phased take no damage from any source.",
+                "While Phased gain [65 - 250]% Defensive Combat Power Rate and pause Phasing while being struck.",
+                "The first time each Personal Incinerate effect expires naturally or is Purified, it has a [20 - 40]% chance to retrigger itself at +30% potency. Incinerates triggered from this ability are always Passive."
+            ]
+        }
+    ]
 }

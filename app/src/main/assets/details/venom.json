@@ -17,6 +17,71 @@
     "synergies": [],
     "howToPlay": "Venom için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Venom Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Güç Emme/Yakma Bağışıklığı (Tech şampiyonlara karşı) 🔋"
+    "signatureAbility": "Aggressive Symbiosis\nRapid evolutionary changes to the Symbiote grant Venom an additional Genetic Memory Buff at the start of the fight, as well as a 34.95 - 100% chance to gain a third Buff to start the fight.\nVenom's Genetic Memory Buffs also gain 5.08 - 20% Potency.",
+    "immunityDetails": "• Güç Emme/Yakma Bağışıklığı (Tech şampiyonlara karşı) 🔋",
+    "abilitySections": [
+        {
+            "title": "Genetic Memory",
+            "content": [
+                "Venom has a Klyntar Mutation Buff that refreshes itself every 9 seconds. When this effect activates, a random Genetic Memory Buff is gained from the list below. If Venom becomes Incinerated, the Mutation Buff is Nullified. Max Genetic Memory Buffs: 7.",
+                "Resist Physical: 485.29 increased Physical Resistance.",
+                "Armor Up: 305.56 increased Armor Rating.",
+                "Cruelty: 447.67 increased Critical Hit Damage.",
+                "Precision: 687.5 increased Critical Rating.",
+                "Fury: 1,583.85 increased Attack rating."
+            ]
+        },
+        {
+            "title": "Klyntar Buff",
+            "content": [
+                "Venom's Klyntar Mutation Buff provides +1,583.85 Attack and gains additional properties based on Venom's opponent.",
+                "Hero Champions: +15% Bleed Ability Accuracy.",
+                "Spider-Verse Heroes: All attacks ignore Passive Evade effects.",
+                "Tech Champions: Power Burn & Power Drain Immunity."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "A heavy strike inflicts Armor Break, reducing the opponent's Armor rating by 916.67 for 11 seconds. Landing this attack also causes Venom to randomize his most recent Genetic Memory Buff."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "Critical Hits lacerate opponents with a 80% chance to inflict a Bleed Debuff, dealing 7,919.25 damage over 4.5 seconds."
+            ]
+        },
+        {
+            "title": "Opponent Below 18% Health",
+            "content": [
+                "Venom's bloodlust grants him True Strike and Unblockable Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each strike has a 55% chance to steal a Buff and feed it to the symbiote, Nullifying the Buff, triggering a Genetic Memory Buff and healing Venom for 5,971.76 Health."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Venom is unleashed, converting all Genetic Memory Buffs into Fury Buffs, each increasing Attack by 2,322.98 for 12 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "An ambush attack grants Venom +5% damage during this attack for each Buff Venom has."
+            ]
+        },
+        {
+            "title": "Signature Ability - Aggressive Symbiosis",
+            "content": [
+                "Rapid evolutionary changes to the Symbiote grant Venom an additional Genetic Memory Buff at the start of the fight, as well as a 34.95 - 100% chance to gain a third Buff to start the fight.",
+                "Venom's Genetic Memory Buffs also gain 5.08 - 20% Potency."
+            ]
+        }
+    ]
 }

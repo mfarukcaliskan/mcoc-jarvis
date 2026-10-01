@@ -17,5 +17,79 @@
     "synergies": [],
     "howToPlay": "Odin için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Odin Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Protector of Nine Realms\nWhen either Odin or his Opponent is knocked down, if the Opponent has any of the following Buffs, Odin gains a corresponding Buff, lasting 10 second(s). Max 1 stack(s) each:\nFury Buff, increasing Attack Rating by [936.94 - 2,801.09].\nArmor Up Buff, increasing Armor Rating by [306.73 - 1,178.56].\nResist Physical Buff, increasing Physical Resistance by [223.95 - 916.66].\nResist Energy Buff, increasing Energy Resistance by [223.95 - 916.66].\nCritical Resistance Buff, increasing Critical Resistance by [145.26 - 485.3].",
+    "abilitySections": [
+        {
+            "title": "Odinsleep",
+            "content": [
+                "At the start of Odin's first fight as an Attacker and every fight as a Defender, gain Odinsleep's effects.",
+                "When Odin's teammates win a fight, at the start of Odin's next fight, gain Odinsleep's effects.",
+                "Odinsleep grants an indefinite Aptitude Buff at the start of the fight, increasing the potency of Fury, Armor Up and Precision Buffs by 15%. Max 2 stack(s)."
+            ]
+        },
+        {
+            "title": "Odinforce",
+            "content": [
+                "When either Odin or his Opponent are knocked down, gain an Odinforce Charge.",
+                "With 2 Odinforce Charge(s), the next attack with an Odinforce effect will consume all Odinforce Charges and trigger a bonus effect."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "On hit, gain an Energize Buff, increasing Combat Power Rate by 10% for 10 second(s). Max 1 stack(s).",
+                "Odinforce: On hit, gain an Energize Buff for each of Odin's unique Buffs, increasing Combat Power Rate by 5% for 10 second(s). Max 5 stack(s)."
+            ]
+        },
+        {
+            "title": "Always Active",
+            "content": [
+                "While in striking distance, pause the duration of all Odin's personal Buffs.",
+                "At the start of each fight, gain an indefinite Fury Buff, increasing Attack Rating by [11,204.4]. Max 2 stack(s).",
+                "At the start of each fight, gain an indefinite Armor Up Buff, increasing Armor Rating by [3,587.87]. Max 2 stack(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a True Strike Buff, ignoring Armor, Resistances, Auto-Block and Evade effects for 10 second(s).",
+                "Odinforce: On activation, gain a Bulwark Buff, increasing Block Proficiency by [916.67] for 10 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, pause the duration of all Buffs on Odin until the Special Attack ends.",
+                "The last hit deals a burst of Direct Damage for each of Odin's unique Buffs. Each dealing 2.75% of the Opponent's Max Health, up to [86,654.3].",
+                "Odinforce: On activation, refresh the duration of all personal Buffs on Odin."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a copy of all personal Buffs Odin has gained at any time during the fight.",
+                "Odinforce: Gain an Extend Buff, increasing the duration of all future Buffs by 25% for 15 second(s). Max 1 stack(s)."
+            ]
+        },
+        {
+            "title": "All-Father Odin's Vault -",
+            "content": [
+                "Odin can place a Cross-Fight on the next fight from the pre-fight screen, the next teammate excluding Odin that enters the fight gains the Cross-Fight for the entire quest.",
+                "Thrudstok: Each fight, gain an indefinite Aptitude Buff, increasing the potency of Fury, Armor Up and Precision Buffs by 13%.",
+                "Draupnir: Each fight, gain an indefinite Protection Buff, preventing the loss of more than 18% of Max Health from a single source. This Buff is removed when struck by a Special 3 Attack and does not mitigate the damage.",
+                "Stormbreaker: Each fight, gain an indefinite Shock Resist Buff, increasing Shock Resistance by 80%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Protector of Nine Realms",
+            "content": [
+                "When either Odin or his Opponent is knocked down, if the Opponent has any of the following Buffs, Odin gains a corresponding Buff, lasting 10 second(s). Max 1 stack(s) each:",
+                "Fury Buff, increasing Attack Rating by [936.94 - 2,801.09].",
+                "Armor Up Buff, increasing Armor Rating by [306.73 - 1,178.56].",
+                "Resist Physical Buff, increasing Physical Resistance by [223.95 - 916.66].",
+                "Resist Energy Buff, increasing Energy Resistance by [223.95 - 916.66].",
+                "Critical Resistance Buff, increasing Critical Resistance by [145.26 - 485.3]."
+            ]
+        }
+    ]
 }

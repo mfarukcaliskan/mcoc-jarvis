@@ -16,6 +16,84 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): 3 jeton biriktirince %100 otomatik blok yapar (sersemletir+şok uygular), bu isabetli-saldırı tipi yeteneklerle önlenemez (isabet hassasiyetini %100 azaltır) — sadece Abalo (impact) bonuslu şampiyonlar (örn. Gorr) yok sayabilir. Yere serilince 2 jeton kaybeder — bu yüzden dövüşe ağır saldırılarla başla. E1 zehir bulutu uygular (jeton kazandırır), bu yüzden hep E2'ye zorla. Ağır saldırıları otomatik bloklayamaz.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Arcade Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı (kozmikler hariç) ⚡️"
+    "signatureAbility": "Welcome To Murderworld!\nJust before Arcade Auto-Blocks an attack, gain a non-stacking Steadfast Buff for [2 - 10] seconds, paused during the Opponent's Special Attacks. This will not trigger if the attack is a Heavy Attack, or if the Opponent has an Undermine effect.\nWhen the Opponent enters a Poisonous Cloud, inflict a [5 - 15]% Torment Debuff for 8 seconds. This starts paused, and is unpaused when the Opponent exits the Poisonous Cloud. Max stacks: 3.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı (kozmikler hariç) ⚡️",
+    "abilitySections": [
+        {
+            "title": "Persistent Prize Tickets - Max: 5",
+            "content": [
+                "Arcade starts each Quest with 3 Persistent Prize Tickets. When winning a fight as an Attacker, convert 50% of all Arcade Tokens into Persistent Prize Tickets (rounded down). If a fight is won with fewer than 2 Arcade Tokens, gain 1 Persistent Prize Ticket anyways.",
+                "Persistent Prize Tickets can be spent in the Pre-Fight Screen to activate a Fabulous Prize. Fabulous Prizes can only be used by Arcade, and last until his Opponent is defeated. These are always active as a Defender."
+            ]
+        },
+        {
+            "title": "Pre-Fight Ability - Fabulous Prizes",
+            "content": [
+                "Power-Up: Personal effects and the Stun from the Parry Mastery gain +100% Ability Accuracy. If Arcade is not fighting a Cosmic Champion, he also gains Incinerate Immunity. Costs 1 Persistent Prize Ticket.",
+                "Cheat Code: The Opponent's True Strike, True Accuracy, and True Sense effects suffer -100% Ability Accuracy. If Arcade is not fighting a Cosmic Champion, he also gains Poison Immunity. Costs 2 Persistent Prize Tickets.",
+                "Game Wizard: The duration of personal Damaging Debuffs cannot be reduced. If Arcade is not fighting a Cosmic Champion, he also gains Shock Immunity. Costs 3 Persistent Prize Tickets."
+            ]
+        },
+        {
+            "title": "Always Active",
+            "content": [
+                "Arcade does not benefit from the Collar Tech Mastery. Instead, he gains +[269.85] Attack Rating for each rank invested and reduces the Opponent's Defensive Combat Power Rate by 7% for each unique personal Damaging Debuff on them.",
+                "As an Attacker, Arcade's fourth Light Attack disables his Special Attack 3 for 0.5 seconds."
+            ]
+        },
+        {
+            "title": "Arcade Tokens - Max: 10",
+            "content": [
+                "Whenever the Opponent would be Poisoned, Arcade gains 1 Arcade Token. As a Defender, he gains 1 additional Arcade Token if a Poison is not prevented by Immunity, and gains 3 on the final hit of Special Attack 2 on hit, Block or Dodge.",
+                "Each Arcade Token increases Armor Rating and the potency of personal Damaging Debuffs by 10%. When knocked down, lose 2 Arcade Tokens.",
+                "While Arcade has 10 Arcade Tokens, or 3 or more as a Defender, he gains an indefinite Auto-Block Passive granting a 100% chance to Auto-Block incoming attacks. Arcade cannot Auto-Block the Opponent's Heavy Attacks.",
+                "With 2 or more Arcade Tokens, Arcade also has a 100% chance to Auto-Block attacks while charging or releasing his own Heavy Attack.",
+                "When Auto-Blocking an attack, inflict a Shock Debuff dealing [10,784] Energy Damage over 3 seconds, trigger the Parry Mastery if it is active, and consume 8 Arcade Tokens, or 3 as a Defender."
+            ]
+        },
+        {
+            "title": "Trap - Poisonous Cloud",
+            "content": [
+                "After the second hit of his Heavy Attack, Arcade deploys a Poisonous Cloud. Poisonous Clouds last for 10 seconds, and active Poisonous Clouds are removed when deploying a new one.",
+                "When the Opponent enters a Poisonous Cloud, gain 1 Arcade Token. Each second the Opponent is inside the Poisonous Cloud, they are inflicted with a Poison Debuff dealing [6,296.5] Direct Damage over 10 seconds."
+            ]
+        },
+        {
+            "title": "Trap - Booby Trap",
+            "content": [
+                "At the start of each fight, a Booby Trap is placed in the Defender's corner. The Booby Trap will not be placed if the Opponent is also Arcade.",
+                "While the Opponent is on top of the Booby Trap, they are 60% more likely to launch a Special Attack.",
+                "If the Opponent is not performing a Special Attack and they are on top of the Booby Trap, charging or releasing Arcade's Heavy Attack causes it to explode and Passively Stuns the Opponent for 3 seconds.",
+                "While the Opponent is inside of a Poisonous Cloud and they are Stunned by this explosion, the existing Poisonous Cloud will be refreshed instead of deploying a new one.",
+                "After exploding, the Booby Trap goes on standby for 20 seconds, or 10 seconds as a Defender. As an Attacker, this expires 15% faster per unique personal Damaging Debuff on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "After the second hit of this attack, deploy a Poisonous Cloud at the Opponent's location.",
+                "Electricity hits inflict Shock Debuffs each dealing [3,598] Energy Damage over 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Flamethrower hits inflict Incinerate Debuffs each dealing [8,095.5] Energy Damage over 20 seconds.",
+                "Buzz Saw hits inflict Bleed Debuffs each dealing [8,095.5] Direct Damage over 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Randomly inflict an indefinite Bleed, Rupture, or Shock Debuff that deals [719.6] damage per second."
+            ]
+        },
+        {
+            "title": "Signature Ability - Welcome To Murderworld!",
+            "content": [
+                "Just before Arcade Auto-Blocks an attack, gain a non-stacking Steadfast Buff for [2 - 10] seconds, paused during the Opponent's Special Attacks. This will not trigger if the attack is a Heavy Attack, or if the Opponent has an Undermine effect.",
+                "When the Opponent enters a Poisonous Cloud, inflict a [5 - 15]% Torment Debuff for 8 seconds. This starts paused, and is unpaused when the Opponent exits the Poisonous Cloud. Max stacks: 3."
+            ]
+        }
+    ]
 }

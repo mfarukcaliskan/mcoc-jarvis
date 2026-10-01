@@ -19,5 +19,89 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Sersemlerse efekti purify edip kaçar ve rakibi sersemletir — kaçış-karşıtı şampiyon kullan veya hiç siperlenme. E1'e zorlamak tercih edilir, E2'nin kaçışını kaçırmak ölümcül olabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kate Bishop Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "World's Greatest Archer\nMax Stacks for Dialed In Passives increases by 1, plus 1 more for every 100 sig levels obtained.\nDialed In Passives increase the potency of Trick Arrow effects by [5 - 15]%.\nStriking the Opponent's Block pauses all Trick Arrow effects for [0.2 - 2] seconds.",
+    "abilitySections": [
+        {
+            "title": "Riposte! (With An Arrow)",
+            "content": [
+                "When attacked by a Basic Attack while suffering a Stun Debuff, Kate has a 100% chance to Purify the Stun and Evade the hit.",
+                "When Kate would perform a Well-Timed Block against Basic Attacks, she has a 100% chance to Evade instead.",
+                "When performing an Evade, Kate Counter-Attacks with a Taser Arrow. On personal Evades, this inflicts a Passive Stun for 3 seconds, which is removed when the Opponent is struck twice. Her personal Evades then go on cooldown for 10 seconds."
+            ]
+        },
+        {
+            "title": "Dialed In",
+            "content": [
+                "During a Special Attack 1 or 2, press the Block Input after the first hit to slow down time. Releasing the Block Input precisely when Kate releases the arrow grants a Perfect Release bonus. A Perfect result in the Special 3 Mini Game also grants this bonus.",
+                "Activating a Perfect Release bonus grants an indefinite Dialed In Passive, increasing the duration of Effects inflicted by Trick Arrows by 10%. Failing to activate a Perfect Release Bonus removes one Dialed In Passive. Max Stacks: 2.",
+                "As a Defender, Kate has up to a 100% chance to activate a Perfect Release bonus based on missing Health."
+            ]
+        },
+        {
+            "title": "Trick Arrows",
+            "content": [
+                "Kate uses a Trick Arrow on her Special Attack 1 and 2. Trick Arrow effects last for 12 seconds, can stack up to 2 times, and receive a bonus from being activated with a Perfect Release.",
+                "Kate starts each fight with her Cryo Arrow ready and cycles her readied Trick Arrow after each Special Attack or by double tapping Block. She can choose a different starting Arrow in the Pre-Fight Menu, which disables automatic cycling after Special Attacks.",
+                "Striking the Opponent while they are recovering from a Heavy or Special Attack pauses all Trick Arrow effects for 5 seconds.",
+                "As a Defender, Trick Arrows deal 75% less damage."
+            ]
+        },
+        {
+            "title": "Arrow Effects",
+            "content": [
+                "Cryo: Inflict a Coldsnap Passive, dealing [17,244] Energy Damage. Perfect Release: Inflict a Critical Coldsnap Passive instead, benefitting from Kate's Critical Damage Multiplier.",
+                "Tranquilizer: Inflict a 40% Tranquilize Debuff. Perfect Release: +25% potency.",
+                "Caltrops: Inflict a [3,448.8] potency Caltrops Passive. Perfect Release: Also deals double damage when the Opponent charges their Heavy Attack.",
+                "Dissolver: Inflict a Fragility Debuff. Attacking a Fragile Opponent grants [397.06] Critical Damage Rating and reduces their Block Proficiency by 40%. Perfect Release: Also inflicts a non-stacking Sunder Passive, setting Critical Resistance to 0 while active."
+            ]
+        },
+        {
+            "title": "Nowhere to Run",
+            "content": [
+                "While the Opponent's back is against the wall, they are 60% more likely to launch a Special Attack.",
+                "If a Heavy Attack knocks the Opponent into the wall, refresh all Trick Arrow effects and inflict a Crush Passive for 2 seconds."
+            ]
+        },
+        {
+            "title": "When Charging a Heavy Attack",
+            "content": [
+                "Kate's Heavy Attack knocks back the Opponent further if charged for more than 1 second.",
+                "Inflict a non-stacking Tracking Debuff, bypassing the effects of Miss for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Special Attacks gain Passive True Accuracy."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final hit is a Trick Arrow."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The second hit is a Trick Arrow and applies through Block. A Perfect Release inflicts its effect twice.",
+                "The final hit bombards the Opponent with Putty Arrows, inflicting a Passive Stun for 3.5 seconds. This Stun is removed when the Opponent is struck twice."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a non-stacking Cruelty Passive increasing Critical Damage Rating by 964.29 for 12 seconds.",
+                "Perfect Release: Gain a non-stacking Precision Passive increasing Critical Rating by 3,375 for 12 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - World's Greatest Archer",
+            "content": [
+                "Max Stacks for Dialed In Passives increases by 1, plus 1 more for every 100 sig levels obtained.",
+                "Dialed In Passives increase the potency of Trick Arrow effects by [5 - 15]%.",
+                "Striking the Opponent's Block pauses all Trick Arrow effects for [0.2 - 2] seconds."
+            ]
+        }
+    ]
 }

@@ -12,6 +12,66 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): En büyük tehlike onda-i-soğuk hasarı. 3 çözüm: nötralize eden şampiyon (güç kazanımını keser), zırh-kırmaya immün şampiyon, veya onda-i-soğuğa immün şampiyon.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Vision (Aarkus) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %90 Güç Emme/Yakma direnci 🔋"
+    "signatureAbility": "Smoke And Mirrors\nWhenever Aarkus gains a non-Damaging Debuff, he has a [30 - 100]% chance to Purify one of each non-Damaging Debuff on him. This cannot trigger more than once every 9.5 second(s).",
+    "immunityDetails": "• %90 Güç Emme/Yakma direnci 🔋",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Aarkus reduces the potency of Power Drain, Steal, and Burn effects by 80%, and the duration of Power Lock effects by 750%.",
+                "Aarkus gains 15% less Power from landing and receiving Hits."
+            ]
+        },
+        {
+            "title": "Power of Smokeworld - Buff - Max: 5",
+            "content": [
+                "Aarkus draws strength from the Smokeworld dimension at all times. He starts the fight with a Power Gain Buff, and gains 1 every 10 second(s).",
+                "These Buffs last indefinitely. The first one grants Aarkus 4% of a Bar of Power every 1 second(s), and every subsequent Power Gain Buff is 33.33% less effective.",
+                "He also gains one whenever his Power is Drained, Stolen, or Burned, and whenever he receives a Power Lock Debuff."
+            ]
+        },
+        {
+            "title": "Frozen Air",
+            "content": [
+                "While Aarkus has a Power Gain Buff, he freezes the area near him. Every 2 second(s) the Opponent spends near Aarkus, they gain an Armor Break Debuff, decreasing Armor Rating by [305.56] for 10 second(s). These Armor Breaks are capped at 10.",
+                "Armor Break Debuffs on the Opponent are Paused while they are near Aarkus.",
+                "While the Opponent is near Aarkus and they have an Armor Break or Armor Shattered Debuff, they also gain a Coldsnap Debuff, dealing [1,097.03] Energy damage every 0.50 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Hits from Special Attacks Pause all Armor Break Debuffs on the Opponent until the end of the Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit refreshes all Armor Break Debuffs on the Opponent. During this Special Attack, all personal effects granted by his Special Attacks 2 and 3 are paused.",
+                "If the Opponent is Armor Shattered, this Attack deals [22,937.9] bonus Energy damage."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Remove all Armor Break Debuffs on the Opponent and replace them with both an Armor Break and Armor Shattered Debuff, that lasts 5 seconds for each one removed.",
+                "The Armor Break reduces Armor Rating by [485.29] for each one replaced and removes an Armor Up Buff.",
+                "While Armor Shattered, this Champion's #Robot Opponents also suffer from shattered systems, which reduces Combat Power Rate, Ability Power Rate, and Ability Accuracy by -100%.",
+                "If the Opponent was already Armor Shattered, instead this Attack deals [17,951.4] bonus Energy damage."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Aarkus increases the area his abilities affect to cover the entire field for 25 second(s).",
+                "If the Opponent is Armor Shattered when this Attack is activated, gain a Fury Buff increasing Attack Rating by [17,951.4] for 25 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Smoke And Mirrors",
+            "content": [
+                "Whenever Aarkus gains a non-Damaging Debuff, he has a [30 - 100]% chance to Purify one of each non-Damaging Debuff on him. This cannot trigger more than once every 9.5 second(s)."
+            ]
+        }
+    ]
 }

@@ -14,6 +14,66 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Ona negatif efekt uygulama — 5 tanesini purify edince köklendirir. E1'e zorla, hiç negatif efekt uygulama. Pasif yetenek azaltıcı şampiyonlar da iyi çözüm.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Baron Zemo Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼"
+    "signatureAbility": "The Master of Evil\nZemo gains +[95.48 - 1,000] Critical Damage Rating and can perform Critical Hits through the Opponent's Block.\nWhen fighting #Heroes, attacks that intercept the Opponent gain +[95.48 - 1,000] Critical Rating.",
+    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Basic Attacks",
+            "content": [
+                "For Zemo's Medium Attacks, he wields a gun. These attacks do not make contact.",
+                "Whenever the Opponent Purifies a Debuff or is Immune to an effect, Zemo gains a Fury Buff increasing the Attack Rating of his next hit by +[20,532]. Max stacks: 15."
+            ]
+        },
+        {
+            "title": "Your Defeat Is Certain",
+            "content": [
+                "Zemo's personal Bleeds are indefinite Debuffs that deal [164.26] Direct Damage per second.",
+                "All of Zemo's personal effects can be inflicted through Block."
+            ]
+        },
+        {
+            "title": "Grand Machination",
+            "content": [
+                "Enter each fight with 5 indefinite Cleanse Passives. Zemo's Cleanses can't Purify Stun Debuffs.",
+                "When Zemo runs out of Cleanses, he inflicts a Root Passive on the Opponent for 5 seconds and gains a [2,750] Resistance Up Passive for 15 seconds.",
+                "While this Resistance Up is active, Zemo can't gain Cleanses. When Zemo has no personal Resistance Up or Cleanses active, he gains 5 indefinite Cleanse Passives."
+            ]
+        },
+        {
+            "title": "Right Where I Want You - Root",
+            "content": [
+                "When the Opponent becomes Rooted, they are inflicted with an indefinite 50% Decelerate Passive. Max Stacks: 2.",
+                "While the Opponent is Rooted, their Combat Power Rate is reduced by 40% and Zemo's is increased by 40%. Additionally, Zemo's attacks can't Miss and all his hits inflict an indefinite Bleed Debuff.",
+                "If the Opponent breaks free of Zemo's Root before it expires, inflict 5 additional indefinite Bleed Debuffs, reduced by 1 for each Prowess effect they have."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict an indefinite Disorient Passive reducing Block Proficiency by 25% and Defensive Ability Accuracy by 10%. Max Stacks: 4.",
+                "The final hit inflicts an indefinite Bleed Debuff.",
+                "If the Opponent is Rooted, pause Root for the duration of this Special Attack and the final hit inflicts 5 additional indefinite Bleed Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a Root Passive on the Opponent for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a non-stacking indefinite Sunder Passive reducing Critical Resistance to 0 and preventing it from increasing.",
+                "This attack gains +[1,539.9] Attack Rating for each of Zemo's indefinite effects the Opponent is suffering."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Master of Evil",
+            "content": [
+                "Zemo gains +[95.48 - 1,000] Critical Damage Rating and can perform Critical Hits through the Opponent's Block.",
+                "When fighting #Heroes, attacks that intercept the Opponent gain +[95.48 - 1,000] Critical Rating."
+            ]
+        }
+    ]
 }

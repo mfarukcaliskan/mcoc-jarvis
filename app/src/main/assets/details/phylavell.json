@@ -11,6 +11,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): 100 unutma yükünde anında 2 güç barı kazanır (bonus aktive etmek, güç çekilmek/yakılmak veya E1 kullanmak yük verir). Sadece Mystic çürütme (fade) yetenekli şampiyonlar (en iyisi Doctor Strange, Isophyne) güç kazanımını kontrol edebilir. Güç çalma ona tam işler (yük vermez). Nötralize, zayıflatma veya nötrleştirme de güç kazanımını tamamen keser.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Phyla-Vell Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Moondragon ile sinerji) 🧠 / %100 Güç Yakma direnci 🔋"
+    "signatureAbility": "Martyr of Death\nIncrease the base potency of Phyla's Resonance Buff by +[10 - 50]%.\nWhile suffering from an Energy Damaging effect against non-Mystic Opponents, Phyla gains 3 Oblivion Energy per second.\nDefeating an Opponent with Phyla's Special Attack 2 or 3 grants Phyla an additional [10 - 30] (rounded up) Oblivion Energy at the start of her next fight. If the defeated Opponent was the Avatar of Life, Adam Warlock, this value is doubled.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Moondragon ile sinerji) 🧠 / %100 Güç Yakma direnci 🔋",
+    "abilitySections": [
+        {
+            "title": "The Avatar of Oblivion - Always Active",
+            "content": [
+                "Phyla's hybrid Kree and artificial Eternal physiology causes her attacks to deal Energy Damage, grants Immunity to Poison, Special Lock, in addition to taking no damage from Power Burn effects.",
+                "Phyla's Offensive Combat Power Rate is reduced by -10% and cannot be reduced further while fighting Tech Champions.",
+                "Phyla's Ability Power Rate cannot be reduced below 100% by non-Mystic Champions.",
+                "Phyla's Special Attack hits deal True Damage against non-Mystic Champions."
+            ]
+        },
+        {
+            "title": "Precision Chain - Max: 10",
+            "content": [
+                "The first hit of a Basic Combo and Combo-Enders grant a +[687.5] Precision Buff for 3.5 seconds, paused during Strikers, Special Attacks, and Phyla's Heavy Attack. These are refreshed when gaining a new one.",
+                "Interrupting any attack with a Light or Medium Attack causes the following non-Combo-Ending hits in the 5-hit Combo to grant a personal Precision Buff.",
+                "Dodging an attack with the Dexterity Mastery grants a personal Precision instead. Cooldown: 0.3 seconds.",
+                "As a Defender, when Phyla is struck by the same Basic Attack twice in a row, she gains a personal Precision Buff.",
+                "While at or above 3 personal Precisions, gain an Undermine Buff.",
+                "While at or above 5 personal Precisions, Phyla's Special Attacks have 100% Critical Hit chance."
+            ]
+        },
+        {
+            "title": "Oblivion Energy - Max: 250",
+            "content": [
+                "When Phyla gains a Buff, she gains 1 Oblivion Energy. As a Defender, this becomes 3 Oblivion Energy instead.",
+                "Overstacking personal Precision Buffs grant 1 additional Oblivion Energy.",
+                "When Phyla breaks her Opponent's Auto-Block while Undermine is active, she gains 10 Oblivion Energy. Cooldown: 2 seconds.",
+                "When Phyla has her Power Drained or Burned, she gains up to 50 Oblivion Energy for every Bar of Power lost."
+            ]
+        },
+        {
+            "title": "Unleash Oblivion",
+            "content": [
+                "Releasing Heavy Attack Unleashes Oblivion. As a Defender, Phyla instead Unleashes Oblivion upon reaching 100 Oblivion Energy. Unleashing Oblivion consumes all Oblivion Energy to grant:",
+                "A non-stacking 0% dormant Resonance which becomes an active Buff during Phyla's next Special Attack. For every 10 Oblivion Energy consumed, this Resonance gains 20% base potency. As a Defender, this Resonance instead has 50% base potency.",
+                "A .75 second Power Gain Buff, granting 6.7% of Max Power for every 10 Oblivion Energy consumed, up to 67% of Max Power. While active, Phyla is Immune to Power Drain and Power Burn."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Enveloping Deterioration",
+            "content": [
+                "This Special Attack consumes all of Phyla's Power at the time of activation, granting Oblivion Energy based on the amount of Power consumed, up to 20 per Bar of Power. If activated while above 2 Bars of Power, grant up to 30 Oblivion Energy per Bar instead."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Embrace Oblivion",
+            "content": [
+                "This Special Attack can only be activated while Phyla has her dormant Resonance.",
+                "Cancelling into this Special Attack after the second hit of Phyla's Heavy Attack grants +[2,023.8] Attack Rating for the duration of the Special."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Inescapable Fate",
+            "content": [
+                "This attack gains +[824.7] Attack Rating for each Buff on Phyla. If the Opponent is at or below 5% of their Max Health, instead deal a burst of Direct Damage equal to 5% of the Opponent's Max Health.",
+                "Once per fight, Phyla's personal Precisions have their duration increased by 20%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Martyr of Death",
+            "content": [
+                "Increase the base potency of Phyla's Resonance Buff by +[10 - 50]%.",
+                "While suffering from an Energy Damaging effect against non-Mystic Opponents, Phyla gains 3 Oblivion Energy per second.",
+                "Defeating an Opponent with Phyla's Special Attack 2 or 3 grants Phyla an additional [10 - 30] (rounded up) Oblivion Energy at the start of her next fight. If the defeated Opponent was the Avatar of Life, Adam Warlock, this value is doubled."
+            ]
+        }
+    ]
 }

@@ -15,6 +15,71 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Koruma sayesinde çok dayanıklı, 15+ taş biriktirince durdurulamaz olur. Savunma yeteneğini azaltan şampiyon en iyi kontrol. Fiziksel hasarı sınırladığı için ikincil hasarlı şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Thing Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Şok Bağışıklığı ⚡️\n• Silme (Nullify) Bağışıklığı 🔮\n• Zırh Kırma Bağışıklığı 🛡️"
+    "signatureAbility": "Unbreakable Spirit\nThing activates Protection for the next 5 second(s), reducing all damage by [20 - 80]%, plus +1% for each Rock Stack.\nOnce this ability finishes, it goes into cooldown and cannot be reactivated for 20 seconds.\nUnbreakable Spirit will also trigger when Thing is Stunned.\nUnbreakable Spirit will also trigger when the Opponent would deal 300% or more of their Attack Rating with a Basic Attack, or 300% or more of their Attack Rating with a Special Attack Hit. This trigger ignores the ability cooldown.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Şok Bağışıklığı ⚡️\n• Silme (Nullify) Bağışıklığı 🔮\n• Zırh Kırma Bağışıklığı 🛡️",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Immune to Bleed, Shock, Armor Break, Armor Shattered, Nullify, Stagger, and Fate Seal effects.",
+                "Generate 1 Rock Stack when Struck.",
+                "Generate 1 Rock Stack when Blocking a Hit.",
+                "Generate 4 additional Rock Stacks with a Well-Timed Block.",
+                "Thing removes 3 Rock Stack(s) when he would receive a Bleed. This can't occur more than once every 2 second(s)."
+            ]
+        },
+        {
+            "title": "Passive - Rock Stack",
+            "content": [
+                "Rock Stacks last indefinitely, up to 15 Stacks. Any additional Rock Stacks last for 5 seconds. Rock Stacks are capped at 20.",
+                "For each Rock Stack, Physical and Energy Resistance is increased by +[175.53].",
+                "Whenever a Rock Stack is removed or the duration expires, Thing gains a permanent Passive Fury, granting +[319.71] Attack. These Fury effects are capped at 60."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "When Thing is Hit and he has 15 or more Rock Stacks, he becomes Unstoppable for 5 second(s) and removes 3 Rock Stack(s) instead of generating any."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "For the next 8 second(s), Thing's attacks Nullify all Unstoppable buffs when striking the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "For each Rock Stack, Damage increased by +[532.85].",
+                "If Thing has 15 or more Rock Stacks, he removes all Rock Stacks and this attack is Unblockable.",
+                "If Thing has 20 Rock Stacks, inflict Weakness decreasing the Opponent's Attack by 70% for 6 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Stagger the opponent, preventing them from gaining their next Buff for 6 seconds.",
+                "If Thing has 15 or more Rock Stacks, he removes all Rock Stacks and this attack is Unblockable.",
+                "If Thing has 20 Rock Stacks, Stun the Opponent for 4.5 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Thing is Unblockable and Unstoppable for 8 second(s).",
+                "If Thing has 15 or more Rock Stacks, he removes all Rock Stacks and he gains a Passive Fury for 8 second(s), increasing his Attack by +[4,262.8].",
+                "If Thing has 20 Rock Stacks, his Furies from removing Rock Stacks and from this attack are +100% stronger for 8 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Unbreakable Spirit",
+            "content": [
+                "Thing activates Protection for the next 5 second(s), reducing all damage by [20 - 80]%, plus +1% for each Rock Stack.",
+                "Once this ability finishes, it goes into cooldown and cannot be reactivated for 20 seconds.",
+                "Unbreakable Spirit will also trigger when Thing is Stunned.",
+                "Unbreakable Spirit will also trigger when the Opponent would deal 300% or more of their Attack Rating with a Basic Attack, or 300% or more of their Attack Rating with a Special Attack Hit. This trigger ignores the ability cooldown."
+            ]
+        }
+    ]
 }

@@ -14,6 +14,84 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Tek kural — asla yere serme. Ağır saldırı veya özel saldırıyla yere serilirse kaçar ve purify eder. Onu yere sermezsen bu iki yetenek hiç devreye girmez.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hit-Monkey Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Arındırma (İlkel Öfke ile) 💪🏼"
+    "signatureAbility": "The Monkey, The Myth, The Legend\nWhile the Opponent is above or at 25% Health or is a #Mercenary, Assassin's Cunning and Primal Rage last [0.5 - 3.5] second(s) longer.\nWhile the Opponent is below 25% Health or is a #Mercenary, Hit-Monkey Passively reduces their Defensive Ability Accuracy by [10 - 40]%.",
+    "immunityDetails": "• %100 Arındırma (İlkel Öfke ile) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Nunchaku",
+            "content": [
+                "Hit-Monkey's nunchaku attacks are guaranteed Critical Hits against Opponents who are not Blocking. He uses them for his first Medium Hit, first Light Hit, and second Medium Hit.",
+                "Landing 3 Critical Hits in a row deals internal damage to the Opponent and inflicts a Bleed Debuff, dealing +[6,208.5] Direct Damage over 4.5 second(s)."
+            ]
+        },
+        {
+            "title": "Monkey Scheme, Monkey Do",
+            "content": [
+                "Landing 3 Critical Hits in a row grants Hit-Monkey a Monkey Scheme. This is unaffected by Ability Accuracy.",
+                "Blocking or Dodging an attack converts a Monkey Scheme into Assassin's Cunning, lasting 8 second(s).",
+                "Attacking or being Struck converts a Monkey Scheme into Primal Rage, lasting 8 second(s).",
+                "Against #Mercenary Opponents, Monkey Schemes are always converted into both Assassin's Cunning and Primal Rage.",
+                "While Assassin's Cunning or Primal Rage are active, Monkey Schemes cannot be gained."
+            ]
+        },
+        {
+            "title": "When Knocked Down",
+            "content": [
+                "Activate both Assassin's Cunning and Primal Rage for 6 second(s)."
+            ]
+        },
+        {
+            "title": "On Opponent Evade",
+            "content": [
+                "Activate Assassin's Cunning and refresh Primal Rage. This is unaffected by Ability Accuracy, but can't trigger more than once every 15 second(s)."
+            ]
+        },
+        {
+            "title": "Assassin's Cunning - Passive",
+            "content": [
+                "Prevent the Opponent's Evade effects.",
+                "Gain a 60% chance to Evade an incoming Basic Attack while not Blocking. Evading removes Assassin's Cunning.",
+                "The Bleed Debuffs from Hit-Monkey's Nunchaku can be Critical Bleeds, multiplying their Potency by his Critical Damage Multiplier. The chance for a Critical Bleed is equal to his Critical chance.",
+                "The chance for Critical Bleeds to occur is further increased for every 3 Critical Hits landed in a row during Assassin's Cunning."
+            ]
+        },
+        {
+            "title": "Primal Rage - Passive",
+            "content": [
+                "Ignore the Opponent's Armor and Resistances.",
+                "Gain a 100% chance to Purify one of each Stun and Damage over Time Debuff on Hit-Monkey when one is gained, or when Primal Rage activates. Purifying removes Primal Rage.",
+                "Light hits have a 20% chance to Disorient the Opponent, decreasing their Block Proficiency and Defensive Ability Accuracy by 40% for 6 second(s). The chance to Disorient is increased by 2.50% flat for each Hit landed during Primal Rage, up to 45% total.",
+                "Special Attack hits have the same chance to Disorient, for 3 additional second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "If Assassin's Cunning is active, this attack has Vigilance and cannot Miss.",
+                "If Primal Rage is active, this attack is Unblockable.",
+                "If this attack causes a Miss to fail or it breaks through a Block, refresh Assassin's Cunning and Primal Rage, and Hit-Monkey gains Vigilance and Unblockable until Assassin's Cunning or Primal Rage expires."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "If activated immediately after Hit-Monkey lands a Critical Hit, all hits in this attack are guaranteed to be Critical.",
+                "Assassin's Cunning and Primal Rage are paused during this attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a Cruelty Buff for 27 second(s), increasing Critical Damage Rating by +[2,250].",
+                "While this Cruelty is active, striking the Opponent pauses Assassin's Cunning and Primal Rage for 0.3 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Monkey, The Myth, The Legend",
+            "content": [
+                "While the Opponent is above or at 25% Health or is a #Mercenary, Assassin's Cunning and Primal Rage last [0.5 - 3.5] second(s) longer.",
+                "While the Opponent is below 25% Health or is a #Mercenary, Hit-Monkey Passively reduces their Defensive Ability Accuracy by [10 - 40]%."
+            ]
+        }
+    ]
 }

@@ -12,5 +12,45 @@
     "synergies": [],
     "howToPlay": "Loki için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Loki Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Ascendant\nRising in power through sorcery and subterfuge, Loki generates one bar of Power over [12 - 5.45] seconds. as long as he is below 1 bar.",
+    "abilitySections": [
+        {
+            "title": "Basic Attacks",
+            "content": [
+                "While the opponent is Cursed, Loki has a 17.5% chance to Stun the opponent for 1 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "While the opponent is Cursed, this attack deals guaranteed Critical Hits. Additionally, it has a 100% chance to reset the duration of Curse."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Steals all of the opponent's Buffs. Stolen Buffs last for 7.5 second(s).",
+                "65% chance to reset the duration of Curse."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "If Loki has more Health points than his opponent, he has a 100% chance of dealing Energy Damage equal to 7% of their max Health. This damage cannot exceed 100,000 damage.",
+                "This attack is Passively Unblockable."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Loki Curses the opponent, dealing [6,561.57] Energy Damage and allowing him to steal any of the opponent's Buffs for 10.5 seconds. Stolen Buffs last for 7 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Ascendant",
+            "content": [
+                "Rising in power through sorcery and subterfuge, Loki generates one bar of Power over [12 - 5.45] seconds. as long as he is below 1 bar."
+            ]
+        }
+    ]
 }

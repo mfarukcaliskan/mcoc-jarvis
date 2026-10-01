@@ -14,6 +14,62 @@
     "synergies": [],
     "howToPlay": "Karnak için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Karnak Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %65 Zehir direnci 🧪"
+    "signatureAbility": "All Will Be As Dust\nA stricter training regimen allows Karnak to begin the fight with 1 Focus Charge. Additionally, his Basic Attacks are enhanced in the following ways:\nIgnore [30 - 100]% of the opponent's positive Physical Resistance.\nWhen Striking a Block, Passively gain Power equal to [65 - 110]% of what an unblocked Attack would have granted.",
+    "immunityDetails": "• %65 Zehir direnci 🧪",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Karnak's training and unmatched focus grants him the following:",
+                "+[821.43] Physical Resistance.",
+                "+[239.13] Block Proficiency against Basic Attacks.",
+                "Incoming non-damaging Debuffs suffer -60% duration.",
+                "Incoming Poison effects deal -65% damage."
+            ]
+        },
+        {
+            "title": "Focus Charges",
+            "content": [
+                "Every 12 seconds, Karnak gains a Focus Charge to a max of 3. Karnak's Focus timer is Paused for 10 seconds each time he's struck and he loses a Charge of Focus if struck by a Special Attack.",
+                "1+ Charge: +[3,361.11] Critical Rating.",
+                "2+ Charges: Basic attacks can land Critical Hits into the opponent's Block. Critical Hit based abilities will not trigger through a Block.",
+                "3+ Charges: Basic attacks have a 50% chance to inflict a burst of Bleed Damage equal to 35% of the damage dealt by the attack."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Consumes 1 Focus Charge to inflict a stacking 20 second Fragility Debuff. Attacking a Fragile opponent grants +[687.5] Critical Damage Rating and reduces Block Proficiency by 50%.",
+                "This attack does not consume a Focus Charge if the opponent is intercepted, recovering from the use of a Special Attack, or charging or executing a Heavy Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to gain a True Strike Passive lasting 15 seconds, allowing attacks to ignore Armor, Resistances, Auto-Block and Evade effects. Knocking down the opponent will pause the True Strike Passive for 3 seconds.",
+                "While this True Strike is active, Karnak will not stop gaining Focus if he's struck."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to gain a Passive Fury effect, increasing attack by [5,108.5] for 30 seconds.",
+                "This Fury is Paused for 5 seconds each time the opponent is Knocked Down."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a Disorient Debuff, reducing Block Proficiency by 50% and Defensive Ability Accuracy by 80% for 30 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - All Will Be As Dust",
+            "content": [
+                "A stricter training regimen allows Karnak to begin the fight with 1 Focus Charge. Additionally, his Basic Attacks are enhanced in the following ways:",
+                "Ignore [30 - 100]% of the opponent's positive Physical Resistance.",
+                "When Striking a Block, Passively gain Power equal to [65 - 110]% of what an unblocked Attack would have granted."
+            ]
+        }
+    ]
 }

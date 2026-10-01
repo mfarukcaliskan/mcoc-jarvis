@@ -14,6 +14,75 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): İlk 20 negatif efekt purify edilir ve bu ona canavarsı kütle verir — kütle varken bloktan vurulunca durdurulamaz olur. Ana kural: bloğuna vurma, purify-karşıtı mekanikli şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Mole Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Dövüş başına 20 olumsuz etkiyi arındırır 💪🏼\n• Şok Bağışıklığı ⚡️"
+    "signatureAbility": "Giganto Jr.'s Revenge\nGain up to [485.29 - 3,361.1] Critical Damage Rating based on missing Health.\nGain up to [2,542 - 10,168.04] Attack Rating while Unstoppable based on missing Health.",
+    "immunityDetails": "• Dövüş başına 20 olumsuz etkiyi arındırır 💪🏼\n• Şok Bağışıklığı ⚡️",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Shock Immunity: Giganto Jr.'s tough monster hide does not conduct electricity granting immunity to Shock effects.",
+                "While Frenzy is not active and Mole Man is below 10 Monster Mass, Mole Man's heightened senses allow him to predict his opponent's movements granting him passive True Accuracy."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "100% chance to inflict a Bleed Debuff dealing [5,084] damage over 6 seconds.",
+                "Deal [4,067.2] as a burst of Energy Damage if the opponent is suffering from a Shock Debuff."
+            ]
+        },
+        {
+            "title": "Monster Mass - Passive",
+            "content": [
+                "100% chance to gain a Monster Mass when inflicted with a Debuff. This has -70% chance when fighting Mutant Champions. Max 20 Stacks. Debuffs are Purified 1 second(s) after. At 5 Monster Mass or above, this time is decreased to 0.5 second(s).",
+                "Each Monster Mass grants +[485.29] Physical Resistance.",
+                "Blocking Basic Attacks grants an Unstoppable Buff for 0.85 seconds, allowing for an immediate counter-attack. Well-Timed Blocks do not trigger this Unstoppable Buff. This ability removes 1 Monster Mass.",
+                "Gain a 75% chance to Resist a Block Break while at least 1 Monster Mass is active. Adding points into the Stand Your Ground Mastery also increases this chance. If the chance to Resist a Block Break is raised to 100%, this ability also Resists Unblockable hits. Resisting an Unblockable or a Block Break removes all Monster Mass.",
+                "Gain a Monster Mass if a Debuff fails to apply to Mole Man due to an Immunity."
+            ]
+        },
+        {
+            "title": "Frenzy",
+            "content": [
+                "When above 5 Monster Mass, activating an Unstoppable effect activates Frenzy, allowing all hits to be guaranteed Critical Hits. Frenzy also activates when reaching Max Monster Mass.",
+                "During Frenzy Monster Mass cannot be removed but each Mass expires after 2 second(s) and Debuffs can no longer be Purified.",
+                "After Monster Mass falls to zero, Mole Man cannot be Frenzied for 15 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Gain 4 Monster Mass.",
+                "If Frenzied: This attack has up to [7,626] Attack Rating based on missing Health."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Gain 2 Monster Mass.",
+                "Inflicts a Shock Debuff dealing [7,117.6] over 14 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit has +[687.5] Critical Damage Rating.",
+                "This attack gains +[10,168] Attack Rating.",
+                "If Frenzied: This attack pauses Unstoppable Buffs and is Unblockable."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain 10 Monster Mass and become Frenzied if not on Cooldown."
+            ]
+        },
+        {
+            "title": "Signature Ability - Giganto Jr.'s Revenge",
+            "content": [
+                "Gain up to [485.29 - 3,361.1] Critical Damage Rating based on missing Health.",
+                "Gain up to [2,542 - 10,168.04] Attack Rating while Unstoppable based on missing Health."
+            ]
+        }
+    ]
 }

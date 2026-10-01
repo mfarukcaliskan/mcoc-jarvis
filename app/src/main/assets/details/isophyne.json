@@ -17,6 +17,63 @@
     "synergies": [],
     "howToPlay": "Isophyne için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Isophyne Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Ani Soğuk Bağışıklığı 🧊"
+    "signatureAbility": "The Living Iso-sphere\nIsophyne will not let any Cosmic threats escape their fate. When a Cosmic Opponent's Health drops below 10%, inflict an indefinite 125% Marked Passive.\nAs an Attacker, activating a Special Attack grants Isophyne a non-stacking Regeneration Passive, healing [0.3 - 0.6]% of missing Health for each Ego Passive over 4 seconds.\nIsophyne starts each fight with a Power Gain Passive, granting [33 - 99]% of a Bar of Power over 10 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Ani Soğuk Bağışıklığı 🧊",
+    "abilitySections": [
+        {
+            "title": "Mystical Eidol Physiology - Always Active",
+            "content": [
+                "Isophyne is an Mystic Eidol and thus has a Fractured Power Bar and is Immune to Bleed, Coldsnap, and Frostbite effects.",
+                "Isophyne's mystical physiology causes their attacks to deal Energy Damage, and they benefit from Rank 3 of the Mystic Dispersion Mastery when it is not activated. However, their Combat Power Rate is reduced by 25%.",
+                "Both Champion's Light Attacks have a 35% chance to Nullify 1 Buff on Isophyne's Opponent. If the Opponent has a Pierce effect active, this becomes a 70% chance to Nullify.",
+                "Whenever any of Isophyne's personal Nullify abilities activate, but the Opponent does not have any Buffs active, gain an Instant Power Gain granting 10% of a Bar of Power, or 3.5% as a Defender."
+            ]
+        },
+        {
+            "title": "Ever Evolving Ego",
+            "content": [
+                "Ego Passives last for 3.5 seconds and expire one at a time, paused during Special Attacks. Max stacks: 10.",
+                "Gain 2 Ego Passives whenever Isophyne crosses a Bar of Power.",
+                "Gain 1 Ego Passive whenever Isophyne Nullifies a Buff."
+            ]
+        },
+        {
+            "title": "Ego Effects",
+            "content": [
+                "Ego Passives grant Isophyne the following effects:",
+                "+[1,974.32] Attack Rating.",
+                "+[99.74] Energy Resistance."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The first hit inflicts a [583.33] Energy Vulnerability Passive for 14 seconds, paused during Special Attacks and Strikers. When activated while above 2 Bars of Power, an additional Energy Vulnerability is inflicted. Max: 8.",
+                "The final hit Nullifies 2 Buffs on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a non-stacking 100% Wither Passive for 24 seconds. While active, whenever Isophyne triggers a Nullify, they trigger an additional Nullify.",
+                "If activated after hitting the Opponent's Block with a Medium or Light Attack, this Special Attack becomes Passively Unblockable.",
+                "For each Ego Passive active on Isophyne, they gain a +[2,347.84] Fury Passive for the duration of the Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Degeneration Passive dealing [69,368] Direct Damage over 35 seconds, paused during Special Attacks. This damage is increased by 10% for each personal Energy Vulnerability Passive on the Opponent.",
+                "While this Degeneration Passive is active, Isophyne's Special Attack 1 inflicts an additional Energy Vulnerability Passive."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Living Iso-sphere",
+            "content": [
+                "Isophyne will not let any Cosmic threats escape their fate. When a Cosmic Opponent's Health drops below 10%, inflict an indefinite 125% Marked Passive.",
+                "As an Attacker, activating a Special Attack grants Isophyne a non-stacking Regeneration Passive, healing [0.3 - 0.6]% of missing Health for each Ego Passive over 4 seconds.",
+                "Isophyne starts each fight with a Power Gain Passive, granting [33 - 99]% of a Bar of Power over 10 seconds."
+            ]
+        }
+    ]
 }

@@ -12,5 +12,64 @@
     "synergies": [],
     "howToPlay": "Psylocke için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Psylocke Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Psi-feedback\nPsylocke's psionically empowered strikes can disrupt her opponent's nervous system reducing her opponent's Defensive Ability Accuracy by [45 - 75]% when they have 0 Power.\nGain up to [964.29] bonus Critical Damage Rating the lower your opponent's current Power.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "Gain 25% less Power from striking your opponent."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Gain up to [1,500] bonus Critical Damage Rating the lower your opponent's current Power."
+            ]
+        },
+        {
+            "title": "Psi-charge - Passive",
+            "content": [
+                "Your opponent doesn't gain Power when struck, if they have 0 Power, and Psylocke has at least 1 Psi-charge.",
+                "Every 5 hits Psylocke lands on an Opponent with 0 Power, she gains a Psi-Charge.",
+                "Each time her Opponent fills a bar of Power, Psylocke gains a Psi-charge.",
+                "Each time Psylocke is struck by an opponent they consume a Psi-Charge instantly gaining up to 50% additional Power, gaining more Power the longer it's been since they last gained power."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "This attack consumes all Psi-Charges, dealing [2,973.75] Energy Damage per charge consumed."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Depletes up to 25% of the target's max Power.",
+                "If this attack causes your opponent's Power to be reduced over a Special Attack bar threshold, Psylocke will Gain Power until she reaches 1 Bar of Power over 0.25 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to Power Lock, severing the target's flow of Power for 6 seconds.",
+                "If this attack hits, Psylocke has a 100% chance to consume 1 Psi-charge, and gain 34% Power over 0.25 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Consumes all Psi-charges",
+                "100% chance to Power Lock, severing the target's flow of Power for 10 seconds.",
+                "Burns 20% of your Target's Power for each Psi-charge consumed. Causing Direct Damage based on the amount Burned.",
+                "If this attack reduces your opponent to 0 Power, it Stuns them for 5.5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Psi-feedback",
+            "content": [
+                "Psylocke's psionically empowered strikes can disrupt her opponent's nervous system reducing her opponent's Defensive Ability Accuracy by [45 - 75]% when they have 0 Power.",
+                "Gain up to [964.29] bonus Critical Damage Rating the lower your opponent's current Power."
+            ]
+        }
+    ]
 }

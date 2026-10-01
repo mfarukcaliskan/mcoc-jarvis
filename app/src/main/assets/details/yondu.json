@@ -17,5 +17,58 @@
     "synergies": [],
     "howToPlay": "Yondu için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Yondu Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Centaurian Archery\nYondu's high-octave vocal range gives him precise control over his yaka arrows. Enemies activating a Special Attack suffer Weakness for each Debuff effect they're suffering from at the time of the activation, reducing Attack by [15 - 40]% for 5 seconds.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "For each Debuff on the Opponent, they suffer -10% Combat Power Rate. Max: -50%.",
+                "Yondu's Fin stabilizes his head, granting Immunity to incoming Concussion Debuffs when fighting against Mutant Champions."
+            ]
+        },
+        {
+            "title": "Yaka Arrow",
+            "content": [
+                "Yondu's Yaka Arrow attacks are non-contact, have +[916.67] Armor and Block Penetration, as well as the following:",
+                "100% chance to inflict a Rupture Debuff dealing [12,085.2] Physical Damage over 7 seconds. Max stacks: 5. If the Opponent has 4 or more unique Buffs, this potency is reduced by half.",
+                "If these Ruptures are prevented by Immunity, inflict a [485.29 ] Armor Break Debuff for 9 seconds.",
+                "The strength and precision of Yondu's Yaka Arrow allows it to trigger Critical Hits and personal Abilities through the Opponent's Block."
+            ]
+        },
+        {
+            "title": "All Attacks - Through Block",
+            "content": [
+                "35% chance to Pilfer 1 Armor Up Buff.",
+                "60% chance to Invalidate 1 Prowess effect.",
+                "For each Armor Up Pilfered or Prowess Invalidated, gain an Armor Up Buff, granting +[1,833.33] Armor Rating for 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a non-stacking 60% Stifle Debuff for 10 seconds.",
+                "The final hit inflicts a Heal Block Debuff for 20 seconds. If the Opponent has a Regeneration effect, instead inflict a 30 second Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack gains +[916.67] Block Penetration.",
+                "On activation, gain a +[4,531.95] Fury Passive for 24 seconds. Yondu gains an extra Fury for each Special Attack the Opponent has used since the fight started. Max stacks: 8."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to gain a +[916.67] Precision Buff for 20 seconds.",
+                "100% chance to inflict an indefinite, non-stacking Passive Special Concussion, reducing Ability Accuracy during Special Attacks by 100% until the end of the opponent's next Special Attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - Centaurian Archery",
+            "content": [
+                "Yondu's high-octave vocal range gives him precise control over his yaka arrows. Enemies activating a Special Attack suffer Weakness for each Debuff effect they're suffering from at the time of the activation, reducing Attack by [15 - 40]% for 5 seconds."
+            ]
+        }
+    ]
 }

@@ -9,5 +9,49 @@
     "synergies": [],
     "howToPlay": "Cyclops (New Xavier School) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cyclops (New Xavier School) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Expertise\nBeam attacks are calibrated for up to [222.53 - 1,658.41] increased Critical Damage Rating. Damage from Beam attacks is not reduced by Blocking once a Combo of 15 or more hits is reached.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "This Champion can strike with Critical Hits even while the opponent is Blocking. Critical Hit based abilities will not trigger through a Block."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "50% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [1,840.91] for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "55% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [2,250] for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [3,375] for 7.5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "75% chance to boost Critical Rating by [1,211.54] for 6 seconds."
+            ]
+        },
+        {
+            "title": "Secret Ability - Special Protection",
+            "content": [
+                "All Special Attack damage from Havok is reduced to 0."
+            ]
+        },
+        {
+            "title": "Signature Ability - Expertise",
+            "content": [
+                "Beam attacks are calibrated for up to [222.53 - 1,658.41] increased Critical Damage Rating. Damage from Beam attacks is not reduced by Blocking once a Combo of 15 or more hits is reached."
+            ]
+        }
+    ]
 }

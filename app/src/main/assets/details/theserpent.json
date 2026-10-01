@@ -17,6 +17,84 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Güç kazanımı, zırh delme, ölümsüzlük, kaçılamaz özel saldırılar ve çok yüksek direnç — güvenli cevap az. Nötrleştirme, fate-seal ve güç çekme onda işe yaramaz. Güç çalma en etkili yöntem (ona immün değil); nötralize bonuslarını kapatır; bonus süresini kısaltan (Mojo, Kindred) şampiyonlar tehlikeyi %90'a kadar azaltır; Claire Voyant onu kendi bonuslarına immün yapabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "The Serpent Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊\n• Kanama süresini %90 azaltır 🩸⏰\n• İyileşme Engeli Bağışıklığı 💚🚫\n• Kader Mührü Bağışıklığı 🔮\n• %60 Güç Emme/Yakma direnci 🔋"
+    "signatureAbility": "Immortal Resilience\nEach Culforce Charge grants up to +[277.32 - 703.95] Attack Rating, scaling with how close the Opponent is to the wall.\nThe Serpent gains Immunity to Stun effects during the Opponent's Special Attacks.\nOnce per fight, when the Serpent would be knocked out, he has a 125% chance to consume all Dread to gain a Death Immunity Buff for [5 - 8] seconds. This Buff cannot be Staggered or Nullified. For each Dread consumed, this effect recovers 1.25% Max Health and grants 10% of a Bar of Power per second.",
+    "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊\n• Kanama süresini %90 azaltır 🩸⏰\n• İyileşme Engeli Bağışıklığı 💚🚫\n• Kader Mührü Bağışıklığı 🔮\n• %60 Güç Emme/Yakma direnci 🔋",
+    "abilitySections": [
+        {
+            "title": "Ancient Terror - Always Active",
+            "content": [
+                "The Serpent was sealed away once. He does not intend to be sealed away twice. His primordial, non-magnetic armor grants Immunity to Power Lock, Special Lock, Heal Block, and Fate Seal effects, and prevents his Ability Power Rate from being reduced below 50% by non-Mystic Champions.",
+                "Adaptations from eons beneath the sea grant Immunity to Coldsnap and reduce the duration of incoming Bleed effects by 90%.",
+                "The Serpent's Combat Power Rate is reduced by 30% and cannot be reduced further, and he reduces the potency of incoming Power Drain and Burn effects by 60%.",
+                "At the start of each fight, gain a Power Gain Buff, granting 25% of Max Power over 8 seconds. When this Buff ends or fails to activate, it goes on cooldown for 8 seconds, after which it triggers again.",
+                "As a Defender, inflict a Fear Debuff for 10 seconds whenever the Opponent activates an Unblockable or Unstoppable effect, unless Fear is already active."
+            ]
+        },
+        {
+            "title": "Dread - Persistent Charge - Max: 3",
+            "content": [
+                "The Serpent starts each quest with 1 Persistent Dread. Winning a fight grants him 1 Dread. As a Defender, he starts with 3.",
+                "At the start of the fight, gain an indefinite Fury Buff, increasing Attack Rating by +[3,754.4] for each Dread.",
+                "For each Dread, the Opponent's Critical Penetration and the potency of incoming Instant Damaging effects from Champions are both reduced by 20%."
+            ]
+        },
+        {
+            "title": "Culforce Charges - Max: 16",
+            "content": [
+                "+1 Charge when one or more Personal Buffs end or are prevented by Ability Accuracy or Immunity.",
+                "+1 Charge when the Serpent's Power is Drained or Burned. Cooldown: 2 seconds.",
+                "+1 Charge the first time an Opponent Dodges back during each of the Serpent's Special Attacks.",
+                "+1 Charge per Bar of Power spent when the Opponent is knocked down by a Special Attack, plus another if knocked into the wall.",
+                "-1 Charge when the Serpent is knocked down by a Special Attack, minus another if knocked into the wall.",
+                "As an Attacker in Battlegrounds, start with 4 charges."
+            ]
+        },
+        {
+            "title": "Channeling the Culforce",
+            "content": [
+                "At 4+ charges, gain a [1,833.33] Resistance Up Passive.",
+                "At 8+ charges, gain a [687.5] Pierce Passive. While active, attacks that strike the Opponent or their Block while their back is to the wall deal a burst of Energy Damage equal to 10% of Attack.",
+                "At 12+ charges, attacks that cause Evade or Miss abilities to fail deal a burst of [1,877.2] Direct Damage, and striking the Opponent's Block pauses personal Power Gains and Furies for 0.35 seconds.",
+                "Whenever the Serpent gains a Charge, he also gains a 40% Inexorable Passive for 3 seconds, plus 0.3 seconds per Charge. This effect does not trigger if already active and is removed when struck by a Special Attack.",
+                "Whenever the Serpent would gain one or more Charges while at max Charges, he instead gains a Fury Passive, increasing Attack by +[1,877.2] for 60 seconds. Max stacks: 20."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "On activation, gain an Unblockable Passive for 0.65 seconds. If the first hit breaks the Opponent's block, the Unblockable is paused, and as an Attacker the potency of the Serpent's Instant damage is increased by 70% until the end of the Special Attack.",
+                "On activation, gain an indefinite True Focus Buff. This Buff is removed when the Serpent is struck, but as a Defender, only when struck by a Special Attack. While this Buff is active, the Serpent's Special Attacks cannot be avoided with the Dexterity Mastery."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict a Fear Debuff for 10 seconds, unless already active.",
+                "Projectile hits inflict an instant Coldsnap dealing [2,346.5] Energy Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Projectile hits deal a burst of [6,100.9] Direct Damage, multiplied by 250% of the Opponent's Armor Rating.",
+                "After this attack, gain a Power Gain Buff, granting 15% of Max Power over 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a non-stacking Hour of the All-Father Passive, doubling all Culforce Charge and personal Fury gains for 40 seconds.",
+                "If the Fury Buff from Dread is not active or if an Aptitude or Intensify is active, reapply it.",
+                "If this attack deals 0 damage, gain a Power Gain Buff, granting 2 Bars of Power over 1 second."
+            ]
+        },
+        {
+            "title": "Signature Ability - Immortal Resilience",
+            "content": [
+                "Each Culforce Charge grants up to +[277.32 - 703.95] Attack Rating, scaling with how close the Opponent is to the wall.",
+                "The Serpent gains Immunity to Stun effects during the Opponent's Special Attacks.",
+                "Once per fight, when the Serpent would be knocked out, he has a 125% chance to consume all Dread to gain a Death Immunity Buff for [5 - 8] seconds. This Buff cannot be Staggered or Nullified. For each Dread consumed, this effect recovers 1.25% Max Health and grants 10% of a Bar of Power per second."
+            ]
+        }
+    ]
 }

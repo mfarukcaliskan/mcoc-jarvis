@@ -12,5 +12,52 @@
     "synergies": [],
     "howToPlay": "Spider-Man (Classic) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man (Classic) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Spider-sense\nIncreased agility coupled with a sixth sense for imminent danger grants a [7 - 28]% chance to Evade attacks. This does not trigger while Blocking, unless the attack is Unblockable.\nThe duration of Spider-Man's personal Taunts is increased by [0.1 - 4] seconds.\nThe potency of Spider-Man's personal Taunts is increased by [0.05 - 2]% flat.\n4+ Webbing: The Debuffs from Webbing can stack up to 2 times.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Spider-Man's Basic Attacks have a 25% chance to inflict a Taunt Debuff for 7 seconds, reducing their Attack Rating by 1%. This chance increases by a flat 75% against Stunned Opponents.",
+                "Spider-Man has a 2% chance to Evade attacks for each Taunt effect on the Opponent. This does not trigger while Blocking, unless the attack is Unblockable.",
+                "The duration of Stun Debuffs on non-Skill Opponents cannot be reduced, and while the Opponent is Stunned their Ability Power Rate is reduced by 50%."
+            ]
+        },
+        {
+            "title": "Webbing",
+            "content": [
+                "Spider-Man uses his Special Attacks to web up his Opponent. As more Webbing is applied, the Opponent suffers various non-stacking Debuffs. Webbing falls off slowly as the Opponent attacks and moves.",
+                "1+ Webbing: Debilitate Debuff of 35% potency.",
+                "2+ Webbing: Decelerate Debuff of 50% potency.",
+                "3+ Webbing: Suppression Debuff of 15% potency."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each web-shooter attack applies 1 stack of Webbing to the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack inflicts a Stun Debuff on the Opponent for 3 seconds.",
+                "While this Stun is active, the Opponent's Physical Resistance is lowered by [1,178.57] for each Taunt on them."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Applies 5 stacks of Webbing."
+            ]
+        },
+        {
+            "title": "Signature Ability - Spider-sense",
+            "content": [
+                "Increased agility coupled with a sixth sense for imminent danger grants a [7 - 28]% chance to Evade attacks. This does not trigger while Blocking, unless the attack is Unblockable.",
+                "The duration of Spider-Man's personal Taunts is increased by [0.1 - 4] seconds.",
+                "The potency of Spider-Man's personal Taunts is increased by [0.05 - 2]% flat.",
+                "4+ Webbing: The Debuffs from Webbing can stack up to 2 times."
+            ]
+        }
+    ]
 }

@@ -15,6 +15,76 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Sersemletmeye immündür ve herhangi bir özel saldırıdan hemen sonra otomatik bloklar. İsabetli saldırılı veya yetenek azaltıcı şampiyon en iyi cevap.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "The Overseer Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı 🔮\n• Kontrolleri Tersine Çevirme Bağışıklığı (Hulks XL ile sinerji) 🧠\n• Nötralize Bağışıklığı (ile sinerji: Spider-Man Supreme) 🗡️❌"
+    "signatureAbility": "Retaliation\nIf an Opponent ability fails due to his personal immunity or reduced Ability Accuracy they take a burst of [622.07 - 4,067.24] Physical Damage and the Overseer gains one Gamma Power. This Damage scales with Base Attack Only. This effect has a 1 second cooldown.\nStriking the Opponent while they are recovering from Heavy or Specials Attacks deal a burst of [1,309.09 - 10,167.97] Physical Damage. This effect has a 1 second cooldown.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Silme (Nullify) Bağışıklığı 🔮\n• Kontrolleri Tersine Çevirme Bağışıklığı (Hulks XL ile sinerji) 🧠\n• Nötralize Bağışıklığı (ile sinerji: Spider-Man Supreme) 🗡️❌",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Immune to Nullify, Fateseal and Stagger effects.",
+                "An enhanced immune system provides full immunity to the Poisons of the Battlerealm."
+            ]
+        },
+        {
+            "title": "Gamma Power",
+            "content": [
+                "When the Opponent gains a Bar of Power gain an indefinite Gamma Power granting [1,525.2] Attack Rating and 17% Potency of his personal Debuffs from Specials. Max 6 Stacks."
+            ]
+        },
+        {
+            "title": "Cosmic Mode",
+            "content": [
+                "At 3 or more Stacks of Gamma Power, after launching a Special consumes all stacks and activates Cosmic Mode, lasting 3.33 second(s) per Gamma Power, but it is paused during Specials from the Overseer or the Opponent. Cosmic Mode lasts 50% longer for Defenders.",
+                "For each Gamma Power gained while in Cosmic Mode, instead gain a non-stacking Fury Buff granting [2,542] Attack Rating per Gamma Power used to enter the mode, with its total duration equalling its Cosmic Mode starting duration.",
+                "Light Attacks deal a Burst of [6,710.88] Physical Damage."
+            ]
+        },
+        {
+            "title": "After Opponent Launches a Special - Special Concussion",
+            "content": [
+                "Inflict an indefinite Special Concussion Debuff, reducing Ability Accuracy by 10% during Special attacks. Max 7.",
+                "Reducing a Combo of 3 or more to a lower amount removes one stack of Special Concussion."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Inflict a non-stacking Taunt Debuff for 10 seconds, reducing their Attack Rating by 20%. This ability goes on cooldown for 20 second(s) if activated."
+            ]
+        },
+        {
+            "title": "After a Special - Cap's Shield",
+            "content": [
+                "Gain an Auto-Block Passive, giving 100% chance to Auto-Block Basic Attacks when Struck twice, it lasts for 7 second(s) or until triggered.",
+                "The Overseer is Stun immune while Auto-Block is active."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Inflict a Stun Debuff for 1.5 second(s).",
+                "Cosmic Mode: On activation gain a Regeneration Buff, recovering 7% of missing Health over 10 seconds. The Potency of this Buff is reduced by 10% for each Bleed Debuff on Overseer."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Inflicts a Disorient Debuff, reducing Defensive Ability Accuracy by 40% and Block Proficiency by 50% for 12 second(s). Ability Accuracy reduction scales with Gamma Power.",
+                "Cosmic Mode: Gain an Energize Buff, granting 25% increased Combat Power Rate for 12 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Physical Vulnerability Debuff, reducing Physical Resistance by [916.67] for 20 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Retaliation",
+            "content": [
+                "If an Opponent ability fails due to his personal immunity or reduced Ability Accuracy they take a burst of [622.07 - 4,067.24] Physical Damage and the Overseer gains one Gamma Power. This Damage scales with Base Attack Only. This effect has a 1 second cooldown.",
+                "Striking the Opponent while they are recovering from Heavy or Specials Attacks deal a burst of [1,309.09 - 10,167.97] Physical Damage. This effect has a 1 second cooldown."
+            ]
+        }
+    ]
 }

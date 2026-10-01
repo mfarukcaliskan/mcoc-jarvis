@@ -18,6 +18,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Işık alanındayken engellenemez saldırı ve pasif güç kazanımı kazanır — engellenemez özel saldırıları bloklayan şampiyon avantajlı. Nötralize, nötrleştirme, bonus immünitesi ve fate-seal'a immün değil, bu yeteneklere sahip herhangi bir şampiyon iyi çalışır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Karolina Dean Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Yakma direnci 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Güç Kilidi Bağışıklığı 🔋⛔"
+    "signatureAbility": "Shine In The Sky Like Diamonds\nWhenever Karolina has her Block struck by a Heavy Attack, she consumes 6 Iridescence Buffs to resist a Block Break and grant herself a Glancing Buff for the duration of the attack.\nAt 6+ Iridescence Buffs, personal Incinerates also Pulverize 1 Armor Up effect, removing it and dealing a burst of [3,534.44 - 7,394.32] Direct Damage.\nFor each Iridescence Buff, gain [1 - 5]% increased Incinerate potency, up to 6 Iridescence Buffs.",
+    "immunityDetails": "• %100 Yakma direnci 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Güç Kilidi Bağışıklığı 🔋⛔",
+    "abilitySections": [
+        {
+            "title": "Glowing with Majesdanian Sunshine - Always Active",
+            "content": [
+                "Karolina's Majesdanian physiology grants her 100% Resistance to Incinerate effects. Additionally, Incinerate effects do not lower her Block Proficiency or remove her Perfect Block chance.",
+                "Karolina's solar energy-infused body also causes her attacks to deal Energy Damage and grants her Immunity to Special Lock, Power Lock, Coldsnap, and Frostbite effects.",
+                "Karolina has a youthful pep in her step granting her an indefinite Instinct Buff."
+            ]
+        },
+        {
+            "title": "Soak in the Iridescent Sun",
+            "content": [
+                "Karolina can absorb indefinite Iridescence Buffs from the sun as it shines down in various locations across the stage. After appearing briefly, the sun fades away before appearing again in a new location. Karolina starts with 2 Iridescence Buffs. Max stacks: 15.",
+                "While in the sun, Karolina gains the following abilities:",
+                "Karolina gains 1 Iridescence Buff every 0.65 seconds.",
+                "Karolina gains a Power Gain Buff, granting 2% of a Bar of Power each second for each Iridescence Buff, up to 6.",
+                "Charging a Heavy Attack in the sun after landing a non-Combo-Ending Attack inflicts a Stun Passive for 2.2 seconds. This Stun cannot have its duration modified by Tech Champions.",
+                "If Karolina activates a Special Attack while in the sun, she gains an Unblockable Buff for the duration of the Special.",
+                "As an Attacker, Karolina stands still while in the sun."
+            ]
+        },
+        {
+            "title": "Solar Shield Block",
+            "content": [
+                "Whenever Karolina Blocks a hit, she consumes Iridescence Buffs based on the Blocked attack to grant herself a Glancing Buff for the duration of the attack. This Buff is removed if Karolina is struck.",
+                "When the Opponent Glances against Karolina, damage is reduced by 85% and Offensive Ability Accuracy is reduced by 40%.",
+                "Light and Medium Attacks - 1 Buff.",
+                "Special Attack 1 - 3 Buffs.",
+                "Special Attack 2 - 6 Buffs.",
+                "Whenever Iridescence Buffs are consumed by Blocking, inflict a [222.97] Energy Vulnerability Passive for 15 seconds for each Buff consumed. Max stacks: 6."
+            ]
+        },
+        {
+            "title": "Solar-Infused Incinerates",
+            "content": [
+                "Personal Incinerate Passives deal [6,193.39] Energy Damage over 14 seconds, paused during Special Attacks. Max stacks: 12. As a Defender, personal Incinerates scale with Base Attack only and deal half damage.",
+                "During Karolina's Special Attacks, personal Incinerates deal no damage. Instead, each of Karolina's Special Attack hits inflicts an Instant Incinerate for each personal Incinerate active, dealing a burst of [1,382.99] Energy Damage per bar of Power spent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Gain 8 Iridescence Buffs over the course of the Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit consumes 1 Iridescence Buff to inflict 1 personal Incinerate Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Consume up to 12 Iridescence Buffs to inflict 12 personal Incinerate Passives.",
+                "Gain a non-stacking 10% Intensify Buff for 24 seconds. While active, Karolina generates Iridescence Buffs 35% faster while in the sun."
+            ]
+        },
+        {
+            "title": "Signature Ability - Shine In The Sky Like Diamonds",
+            "content": [
+                "Whenever Karolina has her Block struck by a Heavy Attack, she consumes 6 Iridescence Buffs to resist a Block Break and grant herself a Glancing Buff for the duration of the attack.",
+                "At 6+ Iridescence Buffs, personal Incinerates also Pulverize 1 Armor Up effect, removing it and dealing a burst of [3,534.44 - 7,394.32] Direct Damage.",
+                "For each Iridescence Buff, gain [1 - 5]% increased Incinerate potency, up to 6 Iridescence Buffs."
+            ]
+        }
+    ]
 }

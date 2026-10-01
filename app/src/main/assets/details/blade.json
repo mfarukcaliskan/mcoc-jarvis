@@ -11,6 +11,53 @@
     "synergies": [],
     "howToPlay": "Blade için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Blade Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• TÜM olumsuz etkilerin süresini %95 azaltır (3 dolu bar ile) ⏰"
+    "signatureAbility": "Vampiric Immortality\nWhen below 70% Health, Blade's healing factor allows him to recover [6,275.6] Health for the cost of [40 - 24]% of a Bar of Power per second.",
+    "immunityDetails": "• TÜM olumsuz etkilerin süresini %95 azaltır (3 dolu bar ile) ⏰",
+    "abilitySections": [
+        {
+            "title": "When nearby Bleeding Opponents",
+            "content": [
+                "For every stack of Bleed on the opponent, generates 7% of a Bar of Power per second."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "When against Dimensional Beings, Danger Sense activates and grants Blade [9,151.2] Attack Rating while also reducing the opponent's Ability Accuracy by 40%. The Ability Accuracy reduction bypasses immunities to Ability Accuracy reduction.",
+                "Blade's immune system attacks alien substances, shrugging off Debuffs up to 95% faster based on current Power."
+            ]
+        },
+        {
+            "title": "Well Timed Blocks",
+            "content": [
+                "100% chance to inflict Bleed, dealing [3,431.7] Direct Damage over 2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Inflicts Bleed, dealing [11,439] Direct Damage over 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack receives [2,750] additional Critical Rating.",
+                "Inflicts Bleed on Critical Hits, dealing [2,001.82] Direct Damage per stack over 1 second. For each Bleed inflicted, Blade instantly generates 8% of a Bar of Power."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflicts 3 stacks of Bleed, each dealing [16,014.6] Direct Damage over 13 seconds.",
+                "70% chance to Stun for 3 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Vampiric Immortality",
+            "content": [
+                "When below 70% Health, Blade's healing factor allows him to recover [6,275.6] Health for the cost of [40 - 24]% of a Bar of Power per second."
+            ]
+        }
+    ]
 }

@@ -11,6 +11,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kritik vuramayan şampiyonlar tavsiye edilir (yüklerini beslemez). Kaçış/sıyırma yeteneği ofansif yetenekleri engeller. Vacilo önleyen şampiyonlar güvenli.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Stryfe Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠"
+    "signatureAbility": "Substantial Psionic Power\nWhen gaining Telepathic Charges from any source other than this ability Stryfe has a [7 - 20]% chance to gain +1 additional charge.\nWhenever causing a Basic Attack to Glance, Stryfe has a [9 - 40]% chance to Activate his Special 1 Invisibility for 3 seconds.\nWinning a fight converts [30 - 70]% of Telepathic Charges into Persistent Telepathic Charges.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı (koşullu) 🧠",
+    "abilitySections": [
+        {
+            "title": "Psionic Blasts",
+            "content": [
+                "Psionic blasts occur on Medium, Heavy and several hits in Special 2, these attacks are Psychic, deal Energy Damage instead of Physical and cannot be Evaded.",
+                "Reduce the Potency of incoming Passive Direct Damage by 100%."
+            ]
+        },
+        {
+            "title": "Telepathic Charges",
+            "content": [
+                "Telepathic Charges are unaffected by Ability Accuracy reduction but cannot be gained while suffering Power Lock, Burn or Drain.",
+                "Champion Attacks gain +[302.13] Attack Rating per Telepathic Charge.",
+                "55% chance to gain +1 Telepathic Charge when landing a Heavy Attack. Chance increased by a flat 15% for each full Bar of Power.",
+                "Gain +1 Telepathic Charge when struck by a Critical Hit.",
+                "Gain +1 Telepathic Charge each time Stryfe or his Opponent Misses.",
+                "When Struck at 5+ Telepathic Charges, consume 5 charges to cause the attack to Glance.",
+                "Striking an Opponent or into their Block while they are Unstoppable consumes +2 Telepathic Charges to remove the effect and inflict a Passive Stun for 1.2 seconds. Cooldown 8 seconds."
+            ]
+        },
+        {
+            "title": "On Fourth Light Attack",
+            "content": [
+                "Consume 1 Telepathic Charge to inflict a Passive Concussion for 12 seconds reducing the Opponent's Ability Accuracy by 20%.",
+                "While the Opponent is suffering from a personal Concussion, Stryfe can block Unblockable attacks."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Deal a burst of [2,517.75] Energy Damage. +500% potency if Invisible.",
+                "Gain +3 Telepathic Charges if Invisible."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The second hit in this attack inflicts a non-stacking Passive Shock, dealing [10,574.55] Energy Damage over 8 seconds. This Shock is removed and reapplied on each Psionic Blast.",
+                "After this attack ends, activate a telepathic cloak to go Invisible for 3 seconds, giving the Opponent a 100% chance to Miss. This will not trigger when fighting an Opponent with #Psychic Shielding.",
+                "If Stryfe lands an Attack, Blocks an attack, or the Opponent activates a Special Attack, his position is revealed and Invisibility is removed."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit and final 2 hits in this attack are Psionic Blasts, each dealing a burst of [3,021.3] Energy Damage. +80% potency if the Opponent is Shocked.",
+                "Psionic blasts gain +[604.26] Attack Rating per Telepathic Charge."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain +5 Persistent Telepathic Charges, these last for the rest of the quest but are capped at 100.",
+                "Consume all Telepathic Charges, each becoming +1 additional Persistent Telepathic Charge.",
+                "Persistent Telepathic Charges cannot be consumed to trigger abilities, but still grant Attack Rating bonuses.",
+                "If the Opponent is Shocked, inflict a Passive Concussion for 30 seconds reducing the Opponent's Ability Accuracy by 30%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Substantial Psionic Power",
+            "content": [
+                "When gaining Telepathic Charges from any source other than this ability Stryfe has a [7 - 20]% chance to gain +1 additional charge.",
+                "Whenever causing a Basic Attack to Glance, Stryfe has a [9 - 40]% chance to Activate his Special 1 Invisibility for 3 seconds.",
+                "Winning a fight converts [30 - 70]% of Telepathic Charges into Persistent Telepathic Charges."
+            ]
+        }
+    ]
 }

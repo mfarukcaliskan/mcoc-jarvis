@@ -19,5 +19,79 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kriyojenik yüklerle purify eder, antimetal yüklerle kaçış kazanır. Kaçış-karşıtı ve purify-karşıtı mekanikli şampiyon kullan. Engellenemez de olur, hep E1'e zorlamak tavsiye edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Misty Knight Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Background Investigation\nMisty analyzes the Opponent's Class in order to gain a unique effect for a short period to counter them. When the fight starts, Misty takes [47 - 27] seconds to investigate the Opponent. When the investigation is complete, Misty gains an effect lasting 18 seconds before restarting her investigation.\nScience: Misty instantly Purifies all Debuffs and her Instant Purification chance jumps to 100%/\nSkill: Misty gains a Fury Buff for each Bleed Debuff currently on her, increasing Attack Rating by [2,327].\nMutant: The mysteries of the X-gene elude Misty's superb detective skills.\nCosmic: Inflict a Disorient Debuff, decreasing their Block Proficiency by 5% and Defensive Ability Accuracy by 10% for each unique buff on the Opponent.\nMystic: Inflict a Suppression Debuff, reducing Opponent Combat Power Rate by 10% for each bar of power on the Opponent.\nTech: If the Opponent has 2 or more Armor Up Buffs when Misty's Special Attack 1 connects, a second Armor Break is applied.",
+    "abilitySections": [
+        {
+            "title": "Anti-Metal",
+            "content": [
+                "Misty has the ability to build Anti-Metal and Cryogenic Charges using her metallic arm. These Charges provide benefits once they reach certain thresholds or become balanced, putting Misty into Equilibrium. Maximum 12 Charges Each.",
+                "For each Anti-Metal Charge, Misty gains a 3% chance to instantly Purify any incoming Debuffs.",
+                "For each Cryogenic Charge, Misty gains a 1% chance to Evade attacks."
+            ]
+        },
+        {
+            "title": "Building Charges",
+            "content": [
+                "When either Champion performs a Well-Timed Block, Misty gains 2 Anti-Metal Charges. Against Science Champions, Misty gains 3 Charges instead.",
+                "When either Champion Dodges an attack, Misty gains 2 Cryogenic Charges. Against Science Champions, Misty gains 3 Charges instead. Cooldown: 0.80 Seconds.",
+                "When Misty performs a Light combo ender, she gains 1 Anti-Metal Charge.",
+                "When Misty performs a Medium combo ender, she gains 1 Cryogenic Charge.",
+                "Misty's Heavy attack raises her lower charge by 3 if there is a difference of at least 3 between her two Charges. First hit increases Anti-Metal, final hit increases Cryogenic.",
+                "When Misty gets struck by a basic attack, she has a 20% chance to increase her lower charge by 1, if they are currently equal, both Charges get increased by 1."
+            ]
+        },
+        {
+            "title": "Master of Parry and Dexterity",
+            "content": [
+                "Misty Knight benefits from Rank 1 of the Parry and Dexterity Mastery Bonuses, even if they are not activated.",
+                "If the Parry Mastery has already been activated, Misty starts with an extra 2 Anti-Metal Charges.",
+                "If the Dexterity Mastery has already been activated, Misty starts with an extra 2 Cryogenic Charges."
+            ]
+        },
+        {
+            "title": "Equilibrium",
+            "content": [
+                "Whenever both of Misty's Charges become equal, she gains non-stackable Buffs. If Misty is at max Charges and gains another, the Buffs are refreshed if they are not on cooldown.",
+                "When balanced at 3 or more Charges, Misty gains a Precision Buff for 14 seconds, increasing Critical Rating by [85.05] per charge.",
+                "When balanced at 6 or more Charges, Misty becomes Unblockable for 6 seconds. Once expired, this Ability goes on cooldown for 6 seconds.",
+                "When balanced at 9 or more Charges, Misty gains a Bionic Overcharge Buff, dealing guaranteed Critical Hits for 6 seconds. Once expired, this Ability goes on cooldown for 6 seconds.",
+                "All Equilibrium Buffs are paused during Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Consumes all Anti-Metal Charges, increasing Attack Rating by [2,327] per Charge.",
+                "If Misty consumes 6 or more Anti-Metal Charges, the attack becomes Unblockable.",
+                "If Misty consumes 9 or more Anti-Metal Charges, inflict an Armor Break Debuff on the first hit, reducing Armor Rating by [1,178.57] for 16 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Consumes all Cryogenic Charges to inflict a Coldsnap Debuff, dealing [23,270] Energy Damage over 14 seconds.",
+                "While this Coldsnap is active, all basic attacks inflict an indefinite Frostbite Passive and Critical Hits inflict 1 additional Frostbite. When this Coldsnap expires naturally, all Frostbites are shattered, removing them and dealing [3,141.45] Energy Damage each.",
+                "If Misty consumes 6 or more Cryogenic Charges, the Opponent is Stunned for 2 second(s) when all Frostbites shatter."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Instantly Max out both Charges, gaining all effects of Equilibrium.",
+                "Gain an Energize Buff that increases Combat Power Rate by 35% for 14 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Background Investigation",
+            "content": [
+                "Misty analyzes the Opponent's Class in order to gain a unique effect for a short period to counter them. When the fight starts, Misty takes [47 - 27] seconds to investigate the Opponent. When the investigation is complete, Misty gains an effect lasting 18 seconds before restarting her investigation.",
+                "Science: Misty instantly Purifies all Debuffs and her Instant Purification chance jumps to 100%/",
+                "Skill: Misty gains a Fury Buff for each Bleed Debuff currently on her, increasing Attack Rating by [2,327].",
+                "Mutant: The mysteries of the X-gene elude Misty's superb detective skills.",
+                "Cosmic: Inflict a Disorient Debuff, decreasing their Block Proficiency by 5% and Defensive Ability Accuracy by 10% for each unique buff on the Opponent.",
+                "Mystic: Inflict a Suppression Debuff, reducing Opponent Combat Power Rate by 10% for each bar of power on the Opponent.",
+                "Tech: If the Opponent has 2 or more Armor Up Buffs when Misty's Special Attack 1 connects, a second Armor Break is applied."
+            ]
+        }
+    ]
 }

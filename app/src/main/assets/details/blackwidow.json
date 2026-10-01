@@ -11,5 +11,32 @@
     "synergies": [],
     "howToPlay": "Black Widow için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Widow Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Subtlety\nBlack Widow strikes her targets with subtle, calculated grace, reducing the chance of triggering their abilities by [22 - 80]%. This chance is increased by 15% against Science champions, and decreased by the same against Mutants.",
+    "abilitySections": [
+        {
+            "title": "When Attacked",
+            "content": [
+                "3% chance to automatically dodge incoming attacks."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "100% chance to boost Critical Rating by [562.5] for 8 seconds.",
+                "100% chance to increase Critical Damage Rating by [1,265.63] for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "70% chance to Stun for 3.5 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Subtlety",
+            "content": [
+                "Black Widow strikes her targets with subtle, calculated grace, reducing the chance of triggering their abilities by [22 - 80]%. This chance is increased by 15% against Science champions, and decreased by the same against Mutants."
+            ]
+        }
+    ]
 }

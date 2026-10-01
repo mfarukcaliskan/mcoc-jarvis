@@ -14,6 +14,63 @@
     "synergies": [],
     "howToPlay": "Morningstar için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Morningstar Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸"
+    "signatureAbility": "Soul Link\nIf Morningstar has less than 1 Captured Souls at the start of a fight, she gains 1.\nMorningstar's weapon grants her a link to her Opponent's Soul, allowing her to siphon away a portion of the power from any Fury, Power Gain, or Regeneration Buffs they trigger, reducing their potency by [22.83 - 60]%, and granting her her own Buff.\nFury: +[1,756.74 - 4,200.44] Attack for 15 Seconds.\nRegeneration: +[3,643.92 - 8,917.55] Health over 15 Seconds.\nPower Gain: +[18.74 - 28.5]% Power over 15 Seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "A lack of blood provides full immunity to Bleeding."
+            ]
+        },
+        {
+            "title": "Captured Souls - Passive",
+            "content": [
+                "Over the course of a quest, Morningstar's weapon captures Souls and stores up to 5 of them, empowering both her and itself. Captured Souls travel with them from fight-to-fight.",
+                "1 Soul: When struck with a Physical Contact attack, Morningstar has a 50% chance to cause her Opponent to Bleed for [1,963.5] damage over 5 seconds.",
+                "2 Souls: Special 1 Triggers Unstoppable for 2.5 seconds.",
+                "3 Souls: Special 2 becomes Unblockable.",
+                "4 Souls: Gain 1,963.5 Energy Resistance, and 50% Perfect Block chance.",
+                "5 Souls: 20% chance on Hit to Regenerate 50% of the Damage done to the Opponent."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "100% Chance to trigger a Power Gain granting 5% of Max Power per Captured Soul over 15 seconds. Max: 1 Stack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit of this attack deals [1,079.93] Bonus Energy Damage per Captured Soul. This damage increases with Critical Hits."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit of this attack deals [2,945.25] Bonus Energy Damage per Buff active on the Opponent, when the attack is triggered.",
+                "100% chance to Nullify all Buffs."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Morningstar begins to pull her Opponent's soul from their body, placing a counter on herself.",
+                "Damage to the Opponent increases the counter, Damage to Morningstar reduces it.",
+                "If the counter reaches 100 she captures the soul, if it reaches 0 her opponent reclaims their soul.",
+                "Morningstar can capture only 1 Soul per fight."
+            ]
+        },
+        {
+            "title": "Signature Ability - Soul Link",
+            "content": [
+                "If Morningstar has less than 1 Captured Souls at the start of a fight, she gains 1.",
+                "Morningstar's weapon grants her a link to her Opponent's Soul, allowing her to siphon away a portion of the power from any Fury, Power Gain, or Regeneration Buffs they trigger, reducing their potency by [22.83 - 60]%, and granting her her own Buff.",
+                "Fury: +[1,756.74 - 4,200.44] Attack for 15 Seconds.",
+                "Regeneration: +[3,643.92 - 8,917.55] Health over 15 Seconds.",
+                "Power Gain: +[18.74 - 28.5]% Power over 15 Seconds."
+            ]
+        }
+    ]
 }

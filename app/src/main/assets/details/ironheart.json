@@ -18,6 +18,67 @@
     "synergies": [],
     "howToPlay": "Ironheart için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Ironheart Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
+    "signatureAbility": "Protective Heart\nOnce per fight when Ironheart drops below 15% Health, she gains a Regeneration Buff healing [15 - 35]% of her Maximum Health over 10 seconds. While she has this Buff, she gains +[15 - 35]% Critical Resistance.\nWhile she has any active Armor Up effect, Ironheart gains a Bulwark Passive, increasing Block Proficiency by +25%.\nRepulsor Debuffs gain +[5 - 22.19]% increased potency.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Kontrolleri Tersine Çevirme Bağışıklığı 🧠",
+    "abilitySections": [
+        {
+            "title": "Pre-Fight Ability - Repulsor Debuffs",
+            "content": [
+                "Ironheart can inflict Damaging effects called Repulsor Debuffs, dealing [5,279.5] damage over 18 seconds. Her default Repulsor Debuff is an Incinerate, but she can override with Rupture in the Pre-Fight Screen. [Max Stacks: 50]",
+                "Medium Attacks inflict Repulsor Debuffs. Additionally, triggering the Dexterity Mastery inflicts 2 Repulsor Debuffs. This goes on cooldown until Ironheart's next Special Attack.",
+                "On Special Attack, pause Repulsor Debuffs and Armor Ups. Special Attack hits inflict instant versions of the Repulsor Debuffs dealing a burst of [2,111.8] damage."
+            ]
+        },
+        {
+            "title": "Armor Up",
+            "content": [
+                "The advanced systems within Ironheart's custom crafted suit allow her to start each fight with an indefinite Armor Up Buff granting +[1,480.77] Armor Rating.",
+                "If this Buff is lost, it restores itself after 12 seconds. This timer is paused while Ironheart is suffering from an Armor Break.",
+                "Ironheart's first 3 Light Attacks have a 30% chance to grant an Armor Up Buff granting +[305.56] Armor Rating for 15 seconds. Her fourth Light Attack has a 100% chance.",
+                "While Ironheart has an Armor Up effect, she's Immune to Reversed Controls, Incinerate, Coldsnap, and Frostbite. Additionally, her personal Debuffs and Armor Up Buffs are unaffected by Ability Accuracy modification against Mutants."
+            ]
+        },
+        {
+            "title": "Target Lock!",
+            "content": [
+                "While the Opponent is suffering from 5 or more Debuffs, Ironheart inflicts a Tracking Passive, bypassing the effects of Miss.",
+                "Opponents that are #Robots or are suffering from a Tracking effect suffer -100% Offensive Ability Accuracy when hitting Ironheart's Block. Mutants suffer a -150% reduction.",
+                "While a Tracking effect is on the Opponent, Ironheart's AI can predict enemy attacks, allowing her to trigger the Parry Mastery against non-contact attacks and Block Mutant's Unblockable Special Attacks."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit inflicts a non-stacking Suppression Debuff reducing Combat Power Rate by 30% for 15 seconds.",
+                "The final hit Invalidates 1 Prowess stack from the Opponent plus an additional amount equal to the amount of Repulsor Debuffs they have."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The first and final hits inflict 1 Repulsor Debuff.",
+                "The final hit also inflicts a non-stacking Vulnerability Passive reducing Physical and Energy Resistance by [687.5] for 20 seconds, and pauses Repulsor Debuffs for an additonal 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit gains +[2,639.75] Attack Rating for each Repulsor Debuff on the Opponent and Armor Up effect on Ironheart."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Instantly Power Drain the Opponent for up to 2 Bars of Power. For each Bar of Power Drained, gain an indefinite Armor Up Passive, increasing Armor Rating by +[305.56] and inflict an indefinite Repulsor Debuff. Max stacks: 5. Indefinite Repulsor Debuffs suffer 20% reduced potency for each indefinite Repulsor Debuff already active when inflicted."
+            ]
+        },
+        {
+            "title": "Signature Ability - Protective Heart",
+            "content": [
+                "Once per fight when Ironheart drops below 15% Health, she gains a Regeneration Buff healing [15 - 35]% of her Maximum Health over 10 seconds. While she has this Buff, she gains +[15 - 35]% Critical Resistance.",
+                "While she has any active Armor Up effect, Ironheart gains a Bulwark Passive, increasing Block Proficiency by +25%.",
+                "Repulsor Debuffs gain +[5 - 22.19]% increased potency."
+            ]
+        }
+    ]
 }

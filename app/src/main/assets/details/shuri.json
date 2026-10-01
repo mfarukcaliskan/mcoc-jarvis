@@ -12,6 +12,70 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Oyundaki tüm temel vuruşları temassız olan tek şampiyon — çoğu şampiyon siperleyip sersemletemez. Temassız vuruş siperleyen ve vacilo önleyen şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Shuri Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Buff Bağışıklığı (sadece isabet buff'ına bağışık) 🗡️🚫\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️"
+    "signatureAbility": "Vibranium Aegis\nAgainst Special Attacks, Shuri can block Unblockable attacks and has [0 - 5]% Perfect Block chance for each of her personal Armor Up Passives.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Buff Bağışıklığı (sadece isabet buff'ına bağışık) 🗡️🚫\n• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Shuri's adaptive technology ensures her Ability Accuracy cannot be altered, and grants her immunity to Shock and Precision effects that are not her own.",
+                "Shuri cannot land Critical Hits without her personal Precisions.",
+                "Shuri's attacks are non-contact and deal Energy Damage instead of Physical."
+            ]
+        },
+        {
+            "title": "Kinetic Matrix - Max Charges: 10",
+            "content": [
+                "Gain an indefinite Matrix Charge when struck or when Blocking attacks (5 on a Well-Timed Block). Lose 3 charges when struck by True Damage.",
+                "At max charges, new Matrix Charges become Armor Up Passives, increasing Armor Rating by [305.56] for 1 second, expiring 1 at a time. Max Armor Ups: 20."
+            ]
+        },
+        {
+            "title": "Light and Medium Attacks",
+            "content": [
+                "Consume 1 Matrix Charge to inflict a Shock Debuff dealing [2,215.62] Energy Damage over 22 seconds. Max stacks: 50.",
+                "Shocks inflicted with Critical Hits become Critical Shock Passives, multiplying their Energy Damage by Shuri's Critical Damage Multiplier. Max stacks: 50."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "On Heavy Charge, consume 10 Matrix Charges to gain a 100% Untouchable Passive for 5 seconds.",
+                "On Heavy Hit, refresh any active Shock effects on the Opponent and consume any personal Precision Passives to convert that many active personal Shock Debuffs into Critical Shock Passives."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "On hit, refresh any active Shock effects and pause them for the duration of the Special Attack.",
+                "Predictive targeting AI ensures Shuri's Special Attacks cannot be Evaded."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit grants Shuri a Matrix Charge and an indefinite Precision Passive, plus an extra Precision for every 10 Shock Debuffs the Opponent is suffering.",
+                "These do not count as Precisions and are consumed by Light and Medium hits to become Guaranteed Critical Hits."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a Shock Debuff for each Critical Shock the Opponent is suffering, each dealing [2,215.62] Energy Damage over 22 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain 20 Matrix Charges.",
+                "Deal a burst of [3,776.63] Direct Damage for each Shock and Critical Shock effect the Opponent is suffering."
+            ]
+        },
+        {
+            "title": "Signature Ability - Vibranium Aegis",
+            "content": [
+                "Against Special Attacks, Shuri can block Unblockable attacks and has [0 - 5]% Perfect Block chance for each of her personal Armor Up Passives."
+            ]
+        }
+    ]
 }

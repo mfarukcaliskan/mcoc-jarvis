@@ -14,5 +14,78 @@
     "synergies": [],
     "howToPlay": "Okoye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Okoye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Midnight Angel\nTop-tier armaments grants 3 Ranks of the Deep Wounds Mastery, which is enhanced to include Shock Debuffs and inflict Instant Shocks.\nWhile Okoye's Health Points are lower than her Opponent's, all Endurance and Precision Buffs on her expire [4 - 45]% slower.",
+    "abilitySections": [
+        {
+            "title": "Enhanced Dexterity",
+            "content": [
+                "Elite Wakandan training grants 2 Ranks of the Dexterity Mastery.",
+                "Precision Buffs gained from Dexterity last +3 seconds and can stack up to 20 times. Striking the Opponent only removes 1 Dexterity Precision Buff per hit.",
+                "Start each fight with 15 Dexterity Precision Buffs.",
+                "Medium Attacks grant 2 Dexterity Precision Buffs.",
+                "Avoiding an attack with Dexterity grants 3 Precision Buffs."
+            ]
+        },
+        {
+            "title": "Mastery Bonus Ranks Above Max",
+            "content": [
+                "Any Mastery Ranks Okoye gains stack with any Ranks already invested. Additional Ranks beyond the Max Rank do not further increase the effectiveness of the Mastery.",
+                "For each Rank above Max, the benefits of the Opponent's Suture, Coagulate, Serum Science, and Mystic Dispersion Masteries are reduced by 25%. Max: 100%."
+            ]
+        },
+        {
+            "title": "Debuffs and Critical Damage Multiplier",
+            "content": [
+                "Instead of increasing Critical Damage, Okoye's Critical Damage Multiplier grants increased Debuff duration, excluding Stun. Okoye's modified Debuff duration can be seen in brackets.",
+                "Dodging an attack inflicts the Opponent with a non-stacking Ensnare Debuff for 12 (18) seconds.",
+                "Critical Hits inflict a Bleed and Shock Debuff, dealing [1,278.84] Direct Damage and Energy Damage over 3 (4.5) seconds. Each time an Immunity prevents a Bleed or Shock Debuff, refresh 4 Bleed and 4 Shock Debuffs on the Opponent."
+            ]
+        },
+        {
+            "title": "Combo Shield & Combo Meter",
+            "content": [
+                "Okoye starts each fight with an indefinite Combo Shield Passive.",
+                "Light Attacks grant +1 Combo Meter per hit.",
+                "When Okoye's Combo Meter reaches 50, gain a 60% Vicious Passive for 20 seconds which can't re-trigger while active. While this Vicious is active, pause all Precision Buffs on Okoye. When this Vicious ends, Okoye's Combo Meter is lost."
+            ]
+        },
+        {
+            "title": "Heavy Attack - Combo Meter 30+",
+            "content": [
+                "The final hit consumes 20 Combo Meter to remove and re-inflict up to 10 personal Bleed or Shock Debuffs on the Opponent."
+            ]
+        },
+        {
+            "title": "Special and Heavy Attacks",
+            "content": [
+                "The first hit is a Guaranteed Critical Hit.",
+                "Critical Hits pause all Buffs on Okoye and all Debuffs on the Opponent, excluding Stun, for 1.5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a non-stacking 60% Endurance Buff for 14 seconds. While active, each time a Debuff on Okoye expires, gain +2 Combo Meter and 2 Dexterity Precision Buffs."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Critical Hits inflict an additional Bleed and Shock Debuff. Non-Critical Hits inflict 1 Bleed and Shock Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "For every 10% Max Health the Opponent is missing, this attack gains +[2,131.4] Attack Rating and the Opponent Passively suffers -10% Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Signature Ability - Midnight Angel",
+            "content": [
+                "Top-tier armaments grants 3 Ranks of the Deep Wounds Mastery, which is enhanced to include Shock Debuffs and inflict Instant Shocks.",
+                "While Okoye's Health Points are lower than her Opponent's, all Endurance and Precision Buffs on her expire [4 - 45]% slower."
+            ]
+        }
+    ]
 }

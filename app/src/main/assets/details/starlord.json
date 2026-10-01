@@ -11,5 +11,47 @@
     "synergies": [],
     "howToPlay": "Star-Lord için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Star-Lord Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Tactician\nAs blows are exchanged, Star-Lord familiarizes with opponents' techniques, increasing Attack by [99.73 - 595.12] for each hit of the Combo Meter to maximum of 400 hits.\nStar-Lord gains [27.78 - 143.38] Block Proficiency for every hit of his opponent's Combo Meter.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "11% chance to gain a Fury Buff for 6.5 seconds, granting +[4,487.85] Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Deals 20% bonus damage when striking a charging enemy."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Star-Lord's Element Gun selects one element at random each time it fires. Each element has a different effect when it strikes the opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Star-Lord's Element Gun selects one element at random each time it fires. Each element has a different effect when it strikes the opponent."
+            ]
+        },
+        {
+            "title": "Element Gun Effects",
+            "content": [
+                "FIRE: Breaks the opponent's Armor, reducing Armor Rating by [1,758.2] for 8 seconds.",
+                "AIR: Shocks the opponent, dealing [19,048.43] Energy Damage over 6 seconds. Shocks ignore Physical Resistance, but not Energy Resistance.",
+                "WATER: Drains up to 50% of the opponent's Max Power.",
+                "EARTH: Places a Heal Block on the opponent, stopping all healing effects for 11 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Tactician",
+            "content": [
+                "As blows are exchanged, Star-Lord familiarizes with opponents' techniques, increasing Attack by [99.73 - 595.12] for each hit of the Combo Meter to maximum of 400 hits.",
+                "Star-Lord gains [27.78 - 143.38] Block Proficiency for every hit of his opponent's Combo Meter."
+            ]
+        }
+    ]
 }

@@ -12,6 +12,84 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlike ilk canın sonunda gelen devasa iyileşme. Petrify ve iyileşme-azaltmaya immün — iyileşme engeli veya savunma yeteneği azaltan şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hulk (Immortal) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠"
+    "signatureAbility": "The Green Door\nHulk surges with gamma energy from the Below-Place, gaining benefits while above certain thresholds of Gamma Radiation:\n25%: Basic Attacks have a [2 - 5]% chance to inflict a Stun Debuff, lasting 0.75 second(s).\n50%: When the Opponent is Immune to a Stun Effect or a Stun Effect expires, inflict a Weakness Debuff, decreasing Attack Rating by [25 - 45]% for 4 second(s).\n75%: Inflict an indefinite Petrify Debuff of [25 - 7]5% Potency.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠",
+    "abilitySections": [
+        {
+            "title": "Gamma Mutate - Always Active",
+            "content": [
+                "An enhanced immune system provides full immunity to the Poisons of the Battlerealm.",
+                "Hulk's Regeneration Rate cannot be decreased or increased by outside sources.",
+                "Gain up to [10,657] Attack Rating based on how much health Hulk has lost during the entire fight. This ability is based on 200% of Hulk's Health."
+            ]
+        },
+        {
+            "title": "RAGE - Max 25 Stacks",
+            "content": [
+                "Hulk's Medium Attacks, the first hit of his Special 1 Attack and the first and last hits of his Special 2 Attack apply a RAGE stack.",
+                "Consecutive RAGE Attacks build up RAGE stacks. All RAGE stacks are lost after 2 second(s) without performing a RAGE Attack. RAGE stacks do not expire during Hulk's or his Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "RAGE Attacks",
+            "content": [
+                "Deal a burst of [1,598.55] Physical Damage for each RAGE stack.",
+                "Deal a burst of [1,862.87] Direct Damage to Hulk for each RAGE stack except when using the Medium 1 Attack. Hulk cannot be knocked out by this ability.",
+                "If the Recoil Mastery is active, the Recoil Damage is disabled and deals a burst of [3,725.74] Direct Damage to Hulk instead, plus an equal amount for each Rank. Hulk cannot be knocked out by this ability."
+            ]
+        },
+        {
+            "title": "Persistent Gamma Radiation",
+            "content": [
+                "Gamma Radiation's maximum strength is equal to 100% of Hulk's Max Health, and scales with boosts and buffs.",
+                "20% of all Damage dealt to Hulk when struck is stored as Gamma Radiation.",
+                "60% of all damage dealt to Hulk while afflicted with a Degeneration Effect is stored as Gamma Radiation.",
+                "100% of all self-inflicted Damage is stored as Gamma Radiation."
+            ]
+        },
+        {
+            "title": "Immortality",
+            "content": [
+                "When receiving damage that would knock out Hulk while Gamma Radiation is at or above 15%, consume 15% and gain an Immortality Passive, preventing death and becoming Unblockable for 8 second(s). This ability has a 50 second cooldown.",
+                "While active, any damage prevented by Immortality consumes an equal amount of Gamma Radiation instead. This does not apply to self-inflicted Damage.",
+                "When Immortality expires, consume all Gamma Radiation. Become Invulnerable and gain a Regeneration Passive, recovering [18,628.7] Health plus all Gamma Radiation as Health over 1 second(s)."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first hit refreshes the RAGE timer and doubles the amount of RAGE stacks.",
+                "The last hit gains [4,262.8] Attack Rating for each RAGE stack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The last hit of this attack has a 60% chance to inflict a Stun Debuff, lasting 1.75 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The last hit of this attack has a 100% chance to inflict a Stun Debuff, lasting 3 seconds.",
+                "Inflict a Suppression Debuff for each RAGE stack, reducing Combat Power Rate by 5% for 15 second(s). Max 14 stack(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Add a flat 15% strength to Gamma Radiation.",
+                "Inflict a Petrify Debuff of 25% Potency for 20 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Green Door",
+            "content": [
+                "Hulk surges with gamma energy from the Below-Place, gaining benefits while above certain thresholds of Gamma Radiation:",
+                "25%: Basic Attacks have a [2 - 5]% chance to inflict a Stun Debuff, lasting 0.75 second(s).",
+                "50%: When the Opponent is Immune to a Stun Effect or a Stun Effect expires, inflict a Weakness Debuff, decreasing Attack Rating by [25 - 45]% for 4 second(s).",
+                "75%: Inflict an indefinite Petrify Debuff of [25 - 7]5% Potency."
+            ]
+        }
+    ]
 }

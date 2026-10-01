@@ -13,6 +13,54 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Dövüşe %75 güçle başlar ama güç kilidi altındadır (combo bitirme/ağır saldırı/intercept ile 4sn açılır). E3'ü corrosion uygular, ondan kaçın. Bloktan çok can gider (fury+penetrasyon), nötralize edilirse pasife döner. E2'si etrafına tuzak koyar (6sn köklenme, siperlenemez) — asla E2 kullanmasına izin verme. Güç kontrolcüleri en önemlisi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Imperiosa Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Dağılma Bağışıklığı 🪚\n• Güç Emme Bağışıklığı 🔋"
+    "signatureAbility": "The Ascendant Empress\nSynthect Passives can trigger as an Attacker, but at [10 - 30]% potency, and not from Nullify, Stagger, or Fateseal.\nWhen Imperiosa is Auto-Blocked, they trigger their Synthect Trap directly under the Opponent for 3 seconds as well as each Synthect Passive.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Dağılma Bağışıklığı 🪚\n• Güç Emme Bağışıklığı 🔋",
+    "abilitySections": [
+        {
+            "title": "Cosmic Eidol Physiology - Always Active",
+            "content": [
+                "Imperiosa is a Cosmic Eidol and thus has a Fractured Power Bar and is Immune to Bleed, Disintegrate, and Power Drain effects.",
+                "Imperiosa begins each fight with 75% of their Max Power. Their Combat Power Rate cannot be reduced below its starting value.",
+                "While neither Champion has 3 Bars of Power or is using a Special Attack or Striker, Imperiosa is Passively Special Locked and loses 2% of their Max Power per second. This falls and rises by up to 2% the more Imperiosa does or does not hit the Opponent or their Block.",
+                "When either Champion lands or Blocks an Intercept or a Combo-Ending or Heavy Attack, gain Immunity to Special Lock for 4 seconds."
+            ]
+        },
+        {
+            "title": "Synthect Buffs",
+            "content": [
+                "When Imperiosa loses Power, if it causes them to go to or below a certain threshold, they gain a corresponding non-stacking Buff:",
+                "2 Bars of Power: +[15,975.2] Fury Buff.",
+                "1 Bar of Power: +[1,833.33] Pierce Buff.",
+                "0 Bars of Power: Power Gain Buff granting 4% of Max Power per second. While active, Power can't increase via non-personal sources.",
+                "Synthect Buffs last 16 seconds but are paused while Imperiosa's Power is below the triggering threshold.",
+                "As a Defender, when a Synthect Buff fails or is removed, it is replaced with an identical Passive with 80% potency."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, refresh up to 3 Damaging Debuffs on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Places a Synthect Trap in front of Imperiosa lasting 6 seconds. While in the Trap, the Opponent is Passively Rooted.",
+                "While Rooted this way, the Opponent suffers 150% reduced Stun Ability Accuracy and becomes significantly more likely to Block."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Corrosion Debuff dealing [42,040] Physical Damage over 20 seconds, paused during Special Attacks."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Ascendant Empress",
+            "content": [
+                "Synthect Passives can trigger as an Attacker, but at [10 - 30]% potency, and not from Nullify, Stagger, or Fateseal.",
+                "When Imperiosa is Auto-Blocked, they trigger their Synthect Trap directly under the Opponent for 3 seconds as well as each Synthect Passive."
+            ]
+        }
+    ]
 }

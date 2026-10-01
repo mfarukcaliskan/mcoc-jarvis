@@ -14,6 +14,76 @@
     "synergies": [],
     "howToPlay": "She-Hulk için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "She-Hulk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• %70 Arındırma (Science şampiyonlara karşı) 💪🏼"
+    "signatureAbility": "Citing Precedent\nTireless research grants a benefit based on the opponent's Class.\nMystic: +[1,642.5 - 6,022.54] Attack Rating and She-Hulk's attacks cause the opponent to gain 25% less Power.\nScience: [30 - 70]% chance with each hit landed to Purify a Debuff.\nCosmic: +[766.5 - 1,861.52] Attack Rating for each Buff the opponent has.\nTech: Opponent suffers -[15 - 60]% Armor Up effect duration & Potency.\nMutant: Opponent suffers -[20 - 55]% Ability Accuracy during Special Attacks.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• %70 Arındırma (Science şampiyonlara karşı) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Induce Panic",
+            "content": [
+                "She-Hulk's sharp intellect and overwhelming strength panics her foes, increasing their chance to launch a Special Attack by 15% for each of her personal Passive Fury effects."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "An enhanced immune system provides full Immunity to Poison."
+            ]
+        },
+        {
+            "title": "When Attacked & When Attacking",
+            "content": [
+                "11% chance to gain a Passive Fury effect, increasing attack by [3,832.5] for 8 seconds."
+            ]
+        },
+        {
+            "title": "Opponent activates a Special Attack",
+            "content": [
+                "When a non-Skill Opponent activates a Special Attack, She-Hulk refreshes all personal Fury Passives."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If the opponent is Unstoppable, this attack cannot be interrupted. If the attack lands, the Unstoppable effect is removed and She-Hulk gains a Passive Fury, increasing attack by [7,665] for 8 seconds.",
+                "Causes a Slow Debuff on the opponent for 12 seconds."
+            ]
+        },
+        {
+            "title": "Always Active",
+            "content": [
+                "Extensive weight training allows She-Hulk's personal Passive Fury effects and all Stun Debuffs to last up to 50% longer, based on the size of her opponent. Larger opponents grant longer effects."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to gain a Passive Fury effect, increasing attack by [3,832.5] for 8 seconds.",
+                "75% chance to Exhaust the opponent, reducing Critical Damage Rating by [114.58] for 10 seconds. The Opponent's Power Gain effects are also reduced by 25% for each Exhaustion Debuff on them."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict a Petrify Debuff of 115% Potency for 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to Stun for 3.5 second(s).",
+                "100% chance to inflict Weakness, decreasing the target's Attack by 65% for 14 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Citing Precedent",
+            "content": [
+                "Tireless research grants a benefit based on the opponent's Class.",
+                "Mystic: +[1,642.5 - 6,022.54] Attack Rating and She-Hulk's attacks cause the opponent to gain 25% less Power.",
+                "Science: [30 - 70]% chance with each hit landed to Purify a Debuff.",
+                "Cosmic: +[766.5 - 1,861.52] Attack Rating for each Buff the opponent has.",
+                "Tech: Opponent suffers -[15 - 60]% Armor Up effect duration & Potency.",
+                "Mutant: Opponent suffers -[20 - 55]% Ability Accuracy during Special Attacks."
+            ]
+        }
+    ]
 }

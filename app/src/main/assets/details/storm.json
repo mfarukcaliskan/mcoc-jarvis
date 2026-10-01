@@ -11,6 +11,62 @@
     "synergies": [],
     "howToPlay": "Storm için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Storm Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Yakma Bağışıklığı (ile sinerji: Storm X) 🔥\n• Ani Soğuk Bağışıklığı (ile sinerji: Storm X) 🧊"
+    "signatureAbility": "Conduit\nLaunching a Special Attack grants Storm 1 Prowess Buff per level of Special Attack used. Additionally, each Prowess on Storm, to a maximum of 10, increases the Potency of her Shock Debuffs by +[8 - 18]%.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• Yakma Bağışıklığı (ile sinerji: Storm X) 🔥\n• Ani Soğuk Bağışıklığı (ile sinerji: Storm X) 🧊",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Storm's control of the elements grants her Immunity to Shock effects."
+            ]
+        },
+        {
+            "title": "Prowess Buffs",
+            "content": [
+                "Unless otherwise stated, Storm's Prowess Buffs last 20 seconds and grant +20% Special Attack damage.",
+                "Each time either Champion lands a Critical Hit, gain 1 Prowess Buff(s).",
+                "Each time the opponent Purifies a Debuff, gain 2 Prowess Buff(s).",
+                "Each time Storm gains a Bleed effect, gain 2 Prowess Buff(s).",
+                "Each time Storm's Immunity prevents a Shock effect, gain 2 Prowess Buff(s)."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "If a Skill Opponent Purifies a Stun Debuff it is replaced with a Passive Stun lasting 2 seconds."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "While charging or launching a Heavy Attack, all Prowess effects on Storm are Paused. Knocking the opponent down with this attack Pauses all Prowess effects on Storm for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit has a 70% chance to inflict a Shock Debuff, causing [5,279.5] Energy Damage over 6 seconds.",
+                "If the opponent is Stunned, the Shock chance becomes 100% and all Shocks on the opponent are Paused for 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "First hit: Gain 1 Prowess Buffs.",
+                "Final hit: 100% chance to inflict a 3 second(s) Stun Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to gain a non-stacking Precision Buff, increasing Critical Rating by +[1,178.57] for 45 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Conduit",
+            "content": [
+                "Launching a Special Attack grants Storm 1 Prowess Buff per level of Special Attack used. Additionally, each Prowess on Storm, to a maximum of 10, increases the Potency of her Shock Debuffs by +[8 - 18]%."
+            ]
+        }
+    ]
 }

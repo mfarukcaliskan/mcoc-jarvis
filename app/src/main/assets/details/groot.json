@@ -11,6 +11,52 @@
     "synergies": [],
     "howToPlay": "Groot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Groot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• TÜM olumsuz etkilerin süresini %55 azaltır ⏰"
+    "signatureAbility": "Gentle Giant\nGroot grows tired of watching his friends get hurt in combat and begins the fight with 2 Pacifism charges. Additionally, each Fury stack gained from throwing off his gentle nature has a [20 - 70]% chance to activate a charge of Resist Physical, increasing Physical Resistance by [278.09] each.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• TÜM olumsuz etkilerin süresini %55 azaltır ⏰",
+    "abilitySections": [
+        {
+            "title": "When Struck by Critical Hits",
+            "content": [
+                "Groot's gentle nature is put to the test any time the opponent strikes with a Critical Hit or uses a Special Attack against him, with a 100% chance to gain a Pacifism charge. Each time a charge is gained, Groot has a 10% chance per charge to throw off his gentle nature."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "When Groot throws off his gentle nature, he gains one Fury and one Cruelty effect for each Pacifism charge, increasing Attack by [800.31] for 10 seconds.",
+                "Each Cruelty effect increases Groot's Critical Damage Rating by [118.42]."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Unique physiology allows Debuff effects to be shrugged off 55% faster than normal.",
+                "A lack of blood provides full immunity to Bleeding."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack pierces 85% of the target's Armor."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Advanced cellular regeneration allows up to [8,447.18] Health to be recovered over 6 seconds, based on lost health."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a Bleed Debuff, dealing [3,620.45] Direct Damage over 3 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Gentle Giant",
+            "content": [
+                "Groot grows tired of watching his friends get hurt in combat and begins the fight with 2 Pacifism charges. Additionally, each Fury stack gained from throwing off his gentle nature has a [20 - 70]% chance to activate a charge of Resist Physical, increasing Physical Resistance by [278.09] each."
+            ]
+        }
+    ]
 }

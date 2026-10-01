@@ -18,6 +18,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bloğuna vurma — pasif durdurulamaz kazanıp anında karşılık verir. Savaş gücü oranı kalıcı +%15 artmış (nekrotik enerjiyle daha da artar, +%75'e kadar), özel saldırıları çok hızlı doldurur. E2 bloklanamaz (blok yeterliliğini %80 azaltır), 0,75sn'de 2 kaçış anlık corrosion tetikler. Durdurulamaza dirençli şampiyonlar (Dust, Beta Ray Bill, Chee'ilth) en iyisi; güç kontrolcüleri E2'sini önler; nötralize energize bonusunu kaldırır; sık özel saldırı kullandığı için iğne (sting) efektli şampiyonlar da iyi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Thanos (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊\n• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Death Arrives All The Same\nPersonal effects expire up to [10 - 40]% more slowly and gain up to 100% increased Ability Accuracy, scaling with Necrotic Energy. These bonuses have half potency at zero Energy.\nAt the start of Thanos's first fight each Quest as an Attacker and each fight as a Defender, he gains [5 - 30] Necrotic Energy. This does not grant Counterpunch Charges and cannot happen again until Thanos's teammates win a fight.\nPersonal Protections gain +1% flat potency per Necrotic Energy.",
+    "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊\n• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Titan Protocol",
+            "content": [
+                "Thanos's long reign in deep space has twisted his Eternal Physiology, granting him Immuity to Coldsnap, Frostbite, and Poison.",
+                "The first time each fight Thanos loses a multiple of 25% of his Max Health, he gains a 40% Protection Passive for 2 seconds, paused during the Opponent's Special Attacks and unaffected by Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Necrotic Energy - Max: 60",
+            "content": [
+                "Gain +1 Necrotic Energy when landing a hit. As a Defender, gain +2 when an Opponent strikes Thanos or his Block.",
+                "Thanos starts each fight with an indefinite Energize Buff, increasing his Combat Power Rate by 15%, increased by +0.5% flat per Necrotic Energy, or by +1% flat as a Defender. The potency of this Buff can only be modified by Thanos.",
+                "When this Energize is removed or prevented, it is restored after 8 seconds."
+            ]
+        },
+        {
+            "title": "Unstoppable Scion of Chaos",
+            "content": [
+                "For every 10 Necrotic Energy he would gain, Thanos gains a Counterpunch Charge for 24 seconds, or 12 seconds as a Defender. Max stacks: 2.",
+                "Thanos does not spend Charges while Unstoppable, executing a Well-Timed Block, or when Blocking non-final hits of Special Attacks.",
+                "If Thanos would gain a Counterpunch Charge while at max stacks, he instead gains an Unstoppable Passive for 3 seconds.",
+                "Gaining Unstoppable inflicts a Panic Debuff for 5 seconds.",
+                "Interrupting the Opponent's attacks with a Heavy Attack or while Unstoppable grants +5 Necrotic Energy and pauses personal Furies and Armor Shattered for 8 seconds."
+            ]
+        },
+        {
+            "title": "Master of War - Heavy Attack",
+            "content": [
+                "Charging a Heavy Attack after landing a non-Combo Ending Attack inflicts a Stun Passive for 0.75 seconds.",
+                "Each hit either Pulverizes one Armor Up effect if any are active or inflicts an Instant Corrosion if not, both dealing [1,818.6] damage.",
+                "On the final hit, or when canceling this attack with Special Attack 1 or 2, consume 30 Necrotic Energy to inflict a non-stacking [5,107.14] Armor Break Debuff and an Armor Shattered Debuff for 16 seconds.",
+                "Thanos does not inflict Armor Shattered if it is already active with more than 25% of its duration remaining."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a Fury Buff increasing Attack Rating by +[2,727.9] for 16 seconds. Max stacks: 8.",
+                "The first hit consumes 20 Necrotic Energy. Each subsequent hit has a 40% chance to grant an additional Fury. If Energy was consumed, the chance is 100% instead.",
+                "After the final hit, gain a non-stacking Genesis Passive for 10 seconds, allowing Thanos to Passively Regenerate 2% of all damage taken by the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Some projectiles in this attack are nothing but a bad dream. The real ones ignore 80% of the Opponent's Block Proficiency and Armor Rating.",
+                "Each hit inflicts a [4,546.5] Corrosion Debuff for 8 seconds and consumes 15 Necrotic Energy to apply two additional Debuffs.",
+                "As a Defender, Thanos consumes 10 Necrotic Energy to start a 0.75 second timer when the Opponent Dodges backwards during this Attack. Dodging again while this timer is active inflicts an Instant [4,546.5] Corrosion."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "The first time each fight this attack is used, Thanos draws on the Evolution Stone to permanently increase his maximum Necrotic Energy by +20. Additionally, he gains one more Energy when striking the Opponent with Medium Attacks.",
+                "Inflict an indefinite Corrosion Passive, dealing [909.3] Physical Damage per second. Max stacks: 10."
+            ]
+        },
+        {
+            "title": "Signature Ability - Death Arrives All The Same",
+            "content": [
+                "Personal effects expire up to [10 - 40]% more slowly and gain up to 100% increased Ability Accuracy, scaling with Necrotic Energy. These bonuses have half potency at zero Energy.",
+                "At the start of Thanos's first fight each Quest as an Attacker and each fight as a Defender, he gains [5 - 30] Necrotic Energy. This does not grant Counterpunch Charges and cannot happen again until Thanos's teammates win a fight.",
+                "Personal Protections gain +1% flat potency per Necrotic Energy."
+            ]
+        }
+    ]
 }

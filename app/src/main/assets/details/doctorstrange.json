@@ -17,6 +17,85 @@
     "synergies": [],
     "howToPlay": "Doctor Strange için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Doctor Strange Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Ani Soğuk Bağışıklığı (ile sinerji: Dormammu) 🧊"
+    "signatureAbility": "Well of Unseen Worlds\nAt the start of each fight, grant the Opponent [1 - 3] (rounded down) indefinite Placebo Buffs and then inflict a Fate Seal Passive for 3 seconds.\nWhen Doctor Strange gains an Arcane Font, he has a [10 - 30]% chance to gain another. This can trigger itself, but is not affected by Ability Accuracy.\nBefore the Opponent would be Knocked Out, inflict a 125% Neutralize Passive for 3 seconds.",
+    "immunityDetails": "• Ani Soğuk Bağışıklığı (ile sinerji: Dormammu) 🧊",
+    "abilitySections": [
+        {
+            "title": "Master of the Mystic Arts",
+            "content": [
+                "Earth's Sorcerer Supreme, Doctor Stephen Strange has 0% Combat Power Rate, but he generates 3.5% of his Max Power per second.",
+                "As an Attacker, Doctor Strange Passively gains 12% of his Max Power each time a Buff on the Opponent is Nullified or expires naturally. This replaces the Mystic Dispersion Mastery."
+            ]
+        },
+        {
+            "title": "Arcane Arsenal - Always Active",
+            "content": [
+                "Channeling defensive wards, Doctor Strange Passively Regenerates 60% of the damage taken from Blocked hits, or 80% from a Well-Timed Block.",
+                "Slinging offensive cantrips, all of Doctor Strange's attacks deal Energy Damage and bursts of [2,542] Energy Damage.",
+                "Prepared with counterspells, after the Opponent gains a Buff, Doctor Strange has a 60% chance to Nullify their most recent Buff."
+            ]
+        },
+        {
+            "title": "Arcane Fonts - Max: 100",
+            "content": [
+                "When any Buff on the Opponent is Nullified, Doctor Strange gains an Arcane Font, each increasing the potency of his personal bursts of Energy Damage by 3%.",
+                "While charging or performing a Heavy Attack, double tap Block to consume 1 Bar of Power to gain 3 Arcane Fonts, once per Heavy."
+            ]
+        },
+        {
+            "title": "Vishanti Blessings",
+            "content": [
+                "Doctor Stephen Strange invokes three Vishanti Blessings to aid him in battle, each lasting 20 seconds and cycling in sequential order. Blessings are paused while Doctor Strange is performing a Heavy or Special Attack.",
+                "Oshtur's Refuge: grants 40% increased Regeneration potency. During the Opponent's Special Attacks, this bonus is doubled and this Blessing is paused.",
+                "Agamotto's Insight: grants +[1,779.4] Attack Rating. During Doctor Strange's Special Attack 1, this bonus is doubled.",
+                "Hoggoth's Wisdom: grants 100% increased Ability Accuracy. During Doctor Strange's Special Attack 2, he gains an additional Arcane Font when an Opponent's Buff is Nullified."
+            ]
+        },
+        {
+            "title": "Time Weaving - Heavy Attack",
+            "content": [
+                "Charging a Heavy Attack after landing any non-Combo-Ending Attack inflicts a Stun Passive for 0.3 seconds.",
+                "While charging a Heavy Attack, personal effects on the Opponent are paused. Doctor Strange's Heavy Attack can be charged for an extended duration.",
+                "After charging for 0.5 seconds, Doctor Strange increases the expiry rate of his Vishanti Blessings by 1,200% for as long as he charges his Heavy Attack."
+            ]
+        },
+        {
+            "title": "Sorcerer Supreme's Spells - Heavy and Special Attacks",
+            "content": [
+                "The final hit of Doctor Strange's Heavy Attack, and the final 3 hits of his Special Attacks 1 and 2 trigger effects based on the current Vishanti Blessing.",
+                "Under Oshtur's Refuge, inflict a 30% Wither Passive for 30 seconds. Max stacks: 3.",
+                "With Agamotto's Insight, deal an additional burst of [2,542] Energy Damage.",
+                "Through Hoggoth's Wisdom, grant the Opponent a Placebo Buff for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Elemental Wizardry",
+            "content": [
+                "On the first hit, the Winds of Watoomb inflict a Coldsnap Debuff dealing [4,575.6] Energy Damage over 2.5 seconds.",
+                "On the next 3 hits, the Flames of Faltine inflict Incinerate Debuffs each dealing [1,525.2] Energy Damage over 0.5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Eldritch Incantation",
+            "content": [
+                "The first 3 hits lash with an Eldritch Whip, each granting the Opponent a Placebo Buff for 10 seconds.",
+                "After landing the final hit, 3 Buffs on the Opponent each have a 50% chance to be Nullified."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Rush Hour",
+            "content": [
+                "Refresh the current Vishanti Blessing and inflict a Fate Seal Passive for 15 seconds.",
+                "While this Fate Seal is active, when the Opponent is prevented from gaining a Buff due to Fate Seal or Immunity, Doctor Strange gains an Arcane Font."
+            ]
+        },
+        {
+            "title": "Signature Ability - Well of Unseen Worlds",
+            "content": [
+                "At the start of each fight, grant the Opponent [1 - 3] (rounded down) indefinite Placebo Buffs and then inflict a Fate Seal Passive for 3 seconds.",
+                "When Doctor Strange gains an Arcane Font, he has a [10 - 30]% chance to gain another. This can trigger itself, but is not affected by Ability Accuracy.",
+                "Before the Opponent would be Knocked Out, inflict a 125% Neutralize Passive for 3 seconds."
+            ]
+        }
+    ]
 }

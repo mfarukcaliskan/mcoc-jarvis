@@ -13,5 +13,67 @@
     "synergies": [],
     "howToPlay": "Gamora için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Gamora Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Deadliest Woman In The Galaxy\nGamora's skill with the Godslayer Blade grows, increasing the chance to activate it during Special Attacks to 100%. Additionally, the cooldown is reduced to [50 - 20] seconds.",
+    "abilitySections": [
+        {
+            "title": "Light Attacks",
+            "content": [
+                "65% chance to gain a Fury Buff, granting +[1,689.44] Attack Rating for 14 seconds. Max: 25."
+            ]
+        },
+        {
+            "title": "Medium Attacks",
+            "content": [
+                "65% chance to gain a Cruelty Buff, increasing Critical Damage Rating by [85.05] for 14 seconds. Max: 25."
+            ]
+        },
+        {
+            "title": "Always Active",
+            "content": [
+                "Gamora's personal Buffs gain +1.5% duration for every 1 seconds that have passed during the fight. Max bonus: +60%.",
+                "If Gamora has 8 or more personal Buffs active, her attacks cannot Miss."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Refreshes the duration of all personal Buffs."
+            ]
+        },
+        {
+            "title": "Special Attacks - Godslayer Strike",
+            "content": [
+                "Gamora begins each fight with a Godslayer Strike ready, which has a 65% chance to activate during each Special Attack. Once Godslayer Strike is used, it goes on Cooldown for 100 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack has 100% Critical Hit Chance.",
+                "100% chance to inflict Bleed, dealing [10,559] Direct Damage over 5 seconds.",
+                "Godslayer: Attack gains a flat +600% Critical Damage Multiplier."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack has 100% Critical Hit Chance.",
+                "80% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [523.81] for 18 seconds.",
+                "Godslayer: Armor Break Debuffs during the attack gain +50% Potency, +60% Duration and +150% Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% Chance to gain a True Strike Buff for 14 seconds, allowing this Champion to ignore Armor, Resistances, Auto-Block and all Evade effects.",
+                "Godslayer: 100% chance to inflict a Shock Debuff causing [21,118] Energy Damage over 10 seconds. If the opponent is a Robot, instead inflict a Degeneration Debuff that deals double damage."
+            ]
+        },
+        {
+            "title": "Signature Ability - Deadliest Woman In The Galaxy",
+            "content": [
+                "Gamora's skill with the Godslayer Blade grows, increasing the chance to activate it during Special Attacks to 100%. Additionally, the cooldown is reduced to [50 - 20] seconds."
+            ]
+        }
+    ]
 }

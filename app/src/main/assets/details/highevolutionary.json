@@ -15,6 +15,79 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Aynı vuruşu tekrarlarsan 3 pasif otomatik-blok yükü kazanır (yetenek azaltma veya isabetli saldırı bunu önlemez, ama siperlemeyi tetiklemez) — vuruş tekrarından kaçın. Güç barı kazanınca 16 vuruşluk pasif combo patlaması tetiklenir, 18sn içinde 16 kez vurmazsan savunmacının saldırısının %280'i kadar doğrudan hasar alırsın. E2/E3'ünde 12sn'lik alan kontrolleri tersine çevirir ve combo patlaması hasarını artırır — E2 kullanmasına ASLA izin verme.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "High Evolutionary Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Nötralize Bağışıklığı 🗡️❌"
+    "signatureAbility": "Master of Evolution\nAt the end of a fight against the High Evolutionary, each Debuff on the Opponent becomes a Cross-Fight 1.6% Devolve Debuff. These Cross-Fight Debuffs carry over to the next 3 fights. Max stacks: 10.\nFor each Debuff on the Opponent, reduce their Regeneration Rate by 20%, up to a max of 100%. This effect replaces the Despair Mastery, and it is also granted to the Opponent of a Champion suffering from the Cross-Fight Devolve Debuff.\nThe potency of the bursts of damage granted by the Evolutionary Field are increased by [10 - 100]%.\nWhen inflicting a Devolve Debuff, [10 - 100]% chance to gain an indefinite 1.6% Aspect of Evolution Passive. Max stacks: 10.",
+    "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Nötralize Bağışıklığı 🗡️❌",
+    "abilitySections": [
+        {
+            "title": "Evolved Physiology - Always Active",
+            "content": [
+                "The High Evolutionary is Immune to Buffs granted by the Opponent and Immune to any Neutralize and Rupture.",
+                "The High Evolutionary's Combat Power Rate can only be reduced by Skill Champions.",
+                "While the Opponent is suffering from a personal Debuff, they lose and cannot gain Undermine or True Sense effects.",
+                "When Blocked or when Blocking an attack, 25% chance to inflict a 10% Severe Wither Debuff for 15 seconds. 100% chance on Well-Timed Blocks and Auto-Blocks. Max stacks: 10.",
+                "Basic Hits have a 25% chance to inflict a [27.78] Exhaustion Debuff for 15 seconds. Max stacks: 10."
+            ]
+        },
+        {
+            "title": "Evolutionary Exoskeleton - Auto-Block",
+            "content": [
+                "When the High Evolutionary would be struck with the same Basic Attack twice in a row, he removes any Stuns and gains a 100% Auto-Block Passive, lasting until he's attacked 3 more times.",
+                "Once it ends, this Auto-Block is disabled and cannot be gained again until the High Evolutionary is struck 18 times by Basic Attacks. As a Defender, each personal Debuff on the Opponent when the Auto-Block ends reduces this count by 1 to a minimum of 5.",
+                "This Auto-Block does not count as a Well-Timed Block, resists Block Breaks from Heavy Attacks, and cannot be prevented by Ability Accuracy reduction."
+            ]
+        },
+        {
+            "title": "Combo Detonation",
+            "content": [
+                "While Combo Detonation is not active, when striking or when struck with Basic Attacks, gain 1 Combo Detonation Charge. When the High Evolutionary would inflict a personal Debuff, gain 5 Charges.",
+                "When the Opponent gains a Bar of Power, consume 50 Charges for a 150% chance to inflict a 16 hit [37,897.4] Combo Detonation Passive for 18 seconds. Unblockable hits from non-Skill Champions do not count towards this Combo Detonation. As a Defender, damage scales with Base Attack only.",
+                "As an Attacker, Combo Detonation is paused during the Opponent's Special Attacks, but as a Defender, it only pauses during the High Evolutionary's own Special Attack 2."
+            ]
+        },
+        {
+            "title": "Evolutionary Field - Special 2 and 3",
+            "content": [
+                "The Evolutionary Field is an area of effect placed in the stage by the High Evolutionary around the Opponent for 12 seconds. The expiration rate decreases by 75% while either Champion is inside of it.",
+                "When the Opponent enters the field, they are inflicted with an indefinite 1.6% Devolve Debuff. Max stacks: 10.",
+                "While the Opponent is inside of the field, all personal Debuffs are paused. Additionally, while suffering from a non-Damaging Debuff, they suffer a Reversed Controls Passive.",
+                "While the High Evolutionary is inside the field, all attacks deal a burst of 34% of the damage dealt as Direct Damage.",
+                "While either Champion is inside the field during the High Evolutionary's Special Attack 1, he gains +[9,973] Attack Rating, and the potency of his Combo Detonation increases by 4.5% per Debuff on the Opponent, up to a max of 25 Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "While the Opponent is inside of the Evolutionary Field, they are not pushed back when struck by Special Attack hits and are Passively Slowed for the duration of the Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - High Tech Beat Down",
+            "content": [
+                "On activation, inflict 5 personal Severe Wither Debuffs.",
+                "As an Attacker, the final hit immediately expires the High Evolutionary's Combo Detonation, but if it expires naturally during this Special while the Opponent is inside the Evolutionary Field, it re-inflicts itself when the Special ends."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Evolutionary Field",
+            "content": [
+                "0.7 seconds after activation, place the Evolutionary Field.",
+                "If the personal Auto-Block is disabled due to activation, it becomes enabled."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Peak Science",
+            "content": [
+                "On activation, inflict 5 personal Severe Wither Debuffs and place the Evolutionary Field."
+            ]
+        },
+        {
+            "title": "Signature Ability - Master of Evolution",
+            "content": [
+                "At the end of a fight against the High Evolutionary, each Debuff on the Opponent becomes a Cross-Fight 1.6% Devolve Debuff. These Cross-Fight Debuffs carry over to the next 3 fights. Max stacks: 10.",
+                "For each Debuff on the Opponent, reduce their Regeneration Rate by 20%, up to a max of 100%. This effect replaces the Despair Mastery, and it is also granted to the Opponent of a Champion suffering from the Cross-Fight Devolve Debuff.",
+                "The potency of the bursts of damage granted by the Evolutionary Field are increased by [10 - 100]%.",
+                "When inflicting a Devolve Debuff, [10 - 100]% chance to gain an indefinite 1.6% Aspect of Evolution Passive. Max stacks: 10."
+            ]
+        }
+    ]
 }

@@ -17,6 +17,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırılarda destreza'yı kapatan, purify edilemeyen bir debuff uygulayabilir. E1'i daha sık tetikler ve bloklanırsa güçlü iğne uygular (özel saldırı kullanmanı engeller). Rakipteki her debuff için %2 kaçış şansı kazanır — kaçış-karşıtı şampiyon şart.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Woman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Güç Çalma Bağışıklığı 🔋🔽\n• Nötralize Bağışıklığı 🗡️❌"
+    "signatureAbility": "Hydra Training\nWhen a personal Fury Buff is consumed or Nullified, [10 - 100]% chance to gain an identical Fury Passive. The total amount of personal Fury Buffs and Passives cannot exceed 20.\nIntercepting the Opponent has a [10 - 100]% chance to grant a Fury Buff.\nWhile Dodging back during the final hit of the Opponent's Special Attacks, Spider-Woman has a 100% chance to Evade. This Evade does not trigger if the attack is successfully Dodged.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Güç Çalma Bağışıklığı 🔋🔽\n• Nötralize Bağışıklığı 🗡️❌",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Spider-Woman is immune to Poison, Neutralize, and Power Steal.",
+                "All personal effects, except Stun and Power Gain, are paused during any Special Attack."
+            ]
+        },
+        {
+            "title": "Fury Buffs",
+            "content": [
+                "Personal Fury Buffs increase Attack Rating by +[766.5] for 15 seconds. This Buff duration cannot be reduced, and refreshes on an Evade or when Dodging a Special Attack with the Dexterity Mastery. Max stacks: 20.",
+                "For every 5 landed Basic Attacks, gain a Fury Buff. When starting a Combo against a non-Stunned Opponent, Critical Hits count as 2 hits.",
+                "When struck, 20% chance to gain a Fury Buff."
+            ]
+        },
+        {
+            "title": "Debuffs",
+            "content": [
+                "When Spider-Woman gains a Buff, inflict an 8.33% Debilitate Debuff for 20 seconds. Max stacks: 6. Against Mystic Champions, this Debuff becomes a Severe Debuff.",
+                "When a Buff on Spider-Woman is Nullified, Staggered, or expires naturally, inflict a non-stacking 50% Wither Debuff for 1 second. When this Wither ends, she gains a Power Gain Passive granting her the Power denied while it was active over 5 seconds.",
+                "Every 15 seconds, inflict a 100% Severe Fumble Debuff for 7 seconds. This timer pauses during Spider-Woman's Special Attacks, and as Defender, this Debuff cannot be inflicted during the Opponent's Special Attacks. Whilte this Fumble is active, Spider-Woman's attacks cannot be Evaded.",
+                "As a Defender, when the Opponent activates a Special Attack, Fumble is removed. Additionally, Spider-Woman is more likely to use Special Attack 1 while Fumble is active."
+            ]
+        },
+        {
+            "title": "Venom Blasts",
+            "content": [
+                "Personal Shock are Instants and deal a burst of [766.5] Energy Damage.",
+                "When a Buff on Spider-Woman is Nullified, inflict 2 instant Shocks.",
+                "When Spider-Woman inflicts a Shock or has one prevented by an Immunity, inflict a [3,613.5] Severe Power Sting Debuff for 10 seconds. As a Defender, Power Stings last for 7 seconds.",
+                "Power Stings deal an additional Burst of [1,533] Direct Damage when they trigger, scaling up with how much Power and number of bars of Power the Opponent had. As a Defender, this damage scales with Base Attack only."
+            ]
+        },
+        {
+            "title": "Evade",
+            "content": [
+                "For each non-Damaging Debuff on both Champions, Spider-Woman has a +2% chance to Evade incoming attacks, up to a max of 24%. This Evade does not trigger while Blocking.",
+                "When an attack strikes an Unstoppable Opponent or Misses, gain a 100% Evade Buff for 2 seconds. An Evade from this Buff can trigger while Blocking, and when it triggers, this effect goes on cooldown for 10 seconds or until a Buff on Spider-Woman is Nullified or she is Immune to an effect."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit inflicts an instant Shock, and consumes a Buff on Spider-Woman to inflict a second Shock. These can be inflicted through Block."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain 5 Fury Buffs and refresh all Buffs on Spider-Woman.",
+                "The final hit inflicts a non-stacking 100% Retribution Passive for 20 seconds. When an attack strikes an Unstoppable Opponent or Misses, this effect refreshes."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict 15 instant Shocks.",
+                "Inflict a Stun Passive for 4 seconds.",
+                "Gain a non-stacking 33% Energize Buff for 10 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Hydra Training",
+            "content": [
+                "When a personal Fury Buff is consumed or Nullified, [10 - 100]% chance to gain an identical Fury Passive. The total amount of personal Fury Buffs and Passives cannot exceed 20.",
+                "Intercepting the Opponent has a [10 - 100]% chance to grant a Fury Buff.",
+                "While Dodging back during the final hit of the Opponent's Special Attacks, Spider-Woman has a 100% chance to Evade. This Evade does not trigger if the attack is successfully Dodged."
+            ]
+        }
+    ]
 }

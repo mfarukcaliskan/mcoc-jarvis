@@ -17,6 +17,69 @@
     "synergies": [],
     "howToPlay": "Black Cat için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Cat Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Özel 1'de 3 olumsuz etkiyi arındırır 💪🏼"
+    "signatureAbility": "Nine Lives\nBlack Cat starts the quest with 9 Combo Shield Passives which prevent her from losing Combo when struck. These persist across fights.\nThese Combo Shields fall off one at a time, and last for 3 second(s) after Black Cat is Struck. These Combo Shields also begin to expire after she Evades using this ability.\nWhen Black Cat would be struck while dashing, for each Combo Shield effect on her, she has a [3.4 - 11.11]% chance to gain an Evade Passive for 1 second.",
+    "immunityDetails": "• Özel 1'de 3 olumsuz etkiyi arındırır 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Black Cat's Critical Hits inflict Bleed Debuffs dealing [2,209.6] Direct Damage over 7 second(s)."
+            ]
+        },
+        {
+            "title": "Calling Card",
+            "content": [
+                "To goad her target, Black Cat sends a Calling Card in advance to let them know she's coming. The Opponent begins the fight with this Calling Card.",
+                "Black Cat will steal the Calling Card from the Opponent whenever she Intercepts them or strikes them while they are standing up or recovering from a Heavy or Special Attack.",
+                "Black Cat will plant the Calling Card back on the Opponent with each of her Heavy attack hits.",
+                "Each time the Calling Card changes hands, Black Cat adds 1 Combo to her Combo Meter and gains a Cruelty Passive increasing her Critical Damage Rating by [144.74] for 13 second(s). These bonuses are multiplied for each time the Card has changed hands this fight.",
+                "Black Cat's expertise in thievery means that Ability Accuracy reduction cannot cause her to fail to steal or plant the Calling Card."
+            ]
+        },
+        {
+            "title": "The Heist",
+            "content": [
+                "At the start of a fight, the Heist is on! The Heist lasts for 45 second(s) and when it ends, one of the following two effects occur:",
+                "If the Calling Card is on Black Cat, it converts into a Vicious Passive, increasing the potency of her Damage-Over-Time Debuffs by 50% for 15 second(s).",
+                "If the Calling Card is on the Opponent, it converts into a Sabotage Debuff, reducing the Opponent's Defensive Ability Accuracy by 40% for 15 second(s) and dealing [6,076.4] Direct Damage whenever their Defensive Abilities fail to trigger."
+            ]
+        },
+        {
+            "title": "Bad Luck Aura - Always Active",
+            "content": [
+                "For each Hit in Black Cat's Combo Meter, the Opponent's Defensive Ability Accuracy is passively reduced by 2%, or twice that against Science Opponents, up to a maximum of 60%",
+                "Whenever an Opponent's ability fails to trigger due to Accuracy reduction, Black Cat pauses each of her personal Passives and Debuffs for 1.8 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On Activation, if Black Cat does not have the Calling Card, she Purifies up to 3 Debuffs. If no Debuffs were Purified this way, she grants herself a Cleanse Passive for 13 second(s). The Cleanse will consume itself to instantly Purify the next Debuff applied to Black Cat.",
+                "If Black Cat does have the Calling Card, landing this attack plants it back onto the Opponent and extends The Heist by 9 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "During this attack, Black Cat's Critical Rating is increased by [27.78] for each hit in both Champions' Combo Meters.",
+                "Instead of her regular Bleeds, this attack inflicts Critical Bleeds dealing [6,628.8] Direct Damage multiplied by Black Cat's Critical Damage Multiplier.",
+                "Landing this attack steals or plants the Calling Card, then ends The Heist."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict the Opponent with a non-stacking Infuriate Debuff for 13 second(s), causing them to become more aggressive and reducing their Offensive Ability Accuracy by 60%.",
+                "If it's currently active, refresh The Heist timer."
+            ]
+        },
+        {
+            "title": "Signature Ability - Nine Lives",
+            "content": [
+                "Black Cat starts the quest with 9 Combo Shield Passives which prevent her from losing Combo when struck. These persist across fights.",
+                "These Combo Shields fall off one at a time, and last for 3 second(s) after Black Cat is Struck. These Combo Shields also begin to expire after she Evades using this ability.",
+                "When Black Cat would be struck while dashing, for each Combo Shield effect on her, she has a [3.4 - 11.11]% chance to gain an Evade Passive for 1 second."
+            ]
+        }
+    ]
 }

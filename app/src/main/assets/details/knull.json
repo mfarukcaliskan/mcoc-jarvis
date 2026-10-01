@@ -15,6 +15,69 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): En büyük sorun kontrol tersine çevirmesi — E2'ye zorla, E1 kullanmasına izin verme. En güvenlisi kontrol-tersine-çevirmeye immün şampiyon. Zırha immün şampiyonlar da avantajlı.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Knull Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %60 Kanama direnci 🩸\n• %60 Zehir direnci 🧪\n• %40 Dejenerasyon direnci ☠️"
+    "signatureAbility": "King In Black\nAt the start of each fight, inflict +1 Living Abyss Debuffs on the Opponent for every 13 signature levels obtained. Max 15.\nWhen Corruption activates, gain an Unstoppable and Unblockable Buff for 2 second(s).\nWhile Corruption is active and the Opponent has [10 - 50]% Health or less, when they would gain a Regeneration Effect, replace it with Knull's Degeneration Debuff.",
+    "immunityDetails": "• %60 Kanama direnci 🩸\n• %60 Zehir direnci 🧪\n• %40 Dejenerasyon direnci ☠️",
+    "abilitySections": [
+        {
+            "title": "Lord of Darkness - Always Active",
+            "content": [
+                "+40% Degeneration Resistance and +60% Bleed and Poison Resistance.",
+                "Every 10 hits in the Opponent's Combo Meter, inflict an indefinite Darkness Passive, lowering Combat Power Rate by 15%. Max 8 stack(s).",
+                "When the Opponent uses a Special Attack, remove 1 Darkness Passive."
+            ]
+        },
+        {
+            "title": "Corruption",
+            "content": [
+                "Knull inflicts Corruption on his Opponents using his Special Attacks, causing the following effects:",
+                "The Opponent's Armor Break Debuffs are paused.",
+                "On activation, convert all indefinite Living Abyss Debuffs on the Opponent into Armor Break Debuffs that lower Armor Rating by [305.56], for 10 second(s).",
+                "For each Armor Up Effect on the Opponent, inflict an Armor Break Debuff, reducing Armor Rating by [305.56], for 10 second(s).",
+                "The Opponent suffers from -3.25% current Combat Power Rate for each Armor Break Debuff. Max 65%.",
+                "The Opponent passively suffers from Reverse Controls."
+            ]
+        },
+        {
+            "title": "Symbiote Attacks - Medium, Heavy & Special 1 Attacks",
+            "content": [
+                "Symbiote Attacks gain passive True Accuracy.",
+                "While the Opponent is not Corrupted, landing a hit or striking into Block has a 75% chance to inflict an indefinite Living Abyss Debuff, removing 1 Armor Up Buff.",
+                "While the Opponent is Corrupted, consume 3 Armor Break Debuffs to inflict 3 Living Abyss Debuffs, regenerate 10% of hit damage and inflict a Degeneration Debuff, dealing [8,447.2] Direct Damage over 2 second(s). This ability does not trigger when using the Medium 1 Attack."
+            ]
+        },
+        {
+            "title": "Necrosword Attacks - Light & Special 2 Attacks",
+            "content": [
+                "Pause the duration of the Opponent's Corruption for 1.25 second(s).",
+                "While the Opponent is Corrupted, inflict an instant Bleed dealing 66% of hit damage as Direct Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict an Encroaching Corruption lasting for 10 second(s). Upon expiry, inflict Corruption for 10 second(s).",
+                "While fighting as a Defender, Encroaching Corruption will not inflict Corruption while the Attacker is performing a Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Inflict 10 Armor Break Debuffs, reducing Armor Rating by [305.56] for 10 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict Corruption, lasting 25 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - King In Black",
+            "content": [
+                "At the start of each fight, inflict +1 Living Abyss Debuffs on the Opponent for every 13 signature levels obtained. Max 15.",
+                "When Corruption activates, gain an Unstoppable and Unblockable Buff for 2 second(s).",
+                "While Corruption is active and the Opponent has [10 - 50]% Health or less, when they would gain a Regeneration Effect, replace it with Knull's Degeneration Debuff."
+            ]
+        }
+    ]
 }

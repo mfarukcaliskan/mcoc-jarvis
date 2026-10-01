@@ -8,5 +8,31 @@
     "synergies": [],
     "howToPlay": "Deadpool için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Deadpool Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Healing Factor\nPermanently regenerating up to [42,806.52 - 214,074.81] Health per minute was granted when the natural healing factor of Wolverine was implanted into Deadpool. Regeneration amount is tied to Deadpool's Power Meter.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Dropping below 20% Health activates Regeneration, recovering up to [45,184.66] Health over 6 seconds. This occurs only once per fight, and the amount Healed is tied to the Power Meter."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict a Bleed Debuff, dealing [25,665] Direct Damage over 3 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a Bleed Debuff, dealing [29,771.4] Direct Damage over 5.5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Healing Factor",
+            "content": [
+                "Permanently regenerating up to [42,806.52 - 214,074.81] Health per minute was granted when the natural healing factor of Wolverine was implanted into Deadpool. Regeneration amount is tied to Deadpool's Power Meter."
+            ]
+        }
+    ]
 }

@@ -9,6 +9,51 @@
     "synergies": [],
     "howToPlay": "Agent Venom için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Agent Venom Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %70 Arındırma 💪🏼"
+    "signatureAbility": "Klyntar Rage\nAt the beginning of the fight, and whenever Flash loses 50% of his Max Health, he temporarily loses control of the Venom symbiote, increasing Attack by [323.36 - 989.92]. This effect is lost once he is struck 5 times.\nWhile under Klyntar Rage, Flash also gains [36.59 - 115.89] Critical Damage Rating.",
+    "immunityDetails": "• %70 Arındırma 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Flash's intense military background, coupled with the alien symbiotic enhancement, grants him a 70% chance to Purify any Debuff."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "The Venom Symbiote works with Flash's training to reduce enemy Evasion chance by 50%."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "65% chance to inflict Bleed, dealing [8,892.4] Direct Damage over 4 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack reduces enemy Evasion chance by 30%."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "This attack Incinerates the enemy, dealing [4,042] Energy Damage over 8.5 seconds. This effect also removes Perfect Block Chance and reduces Block Proficiency by 50% while it's active."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Any Bleed effect has an additional 25% chance to trigger."
+            ]
+        },
+        {
+            "title": "Signature Ability - Klyntar Rage",
+            "content": [
+                "At the beginning of the fight, and whenever Flash loses 50% of his Max Health, he temporarily loses control of the Venom symbiote, increasing Attack by [323.36 - 989.92]. This effect is lost once he is struck 5 times.",
+                "While under Klyntar Rage, Flash also gains [36.59 - 115.89] Critical Damage Rating."
+            ]
+        }
+    ]
 }

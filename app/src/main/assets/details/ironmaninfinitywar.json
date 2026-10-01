@@ -17,6 +17,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): 4 zırhla otomatik bloklar — zırhını kır veya kesin isabetli/yetenek-azaltıcı şampiyon kullan. Nötralize işe yaramaz. %15 candayken pasif çok güç kazanır, dikkat.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Iron Man (Infinity War) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Ani Soğuk Bağışıklığı 🧊\n• %18 Güç Emme/Yakma direnci (her zırh için) 🔋"
+    "signatureAbility": "Deflector Protocol\nOnce per fight, Iron Man's Model 50 suit executes an emergency protocol if attacked while 15% Health or less remains, creating a hardened exterior by instantly granting [1 - 8] stack(s) of Molecular Armor.\nWhile 15% Health or less remains and Iron Man has an Armor effect, gain a Power Gain Passive that is not affected by Ability Accuracy reduction and grants [3.6 - 6.6]% of Max Power per second. Additionally, Iron Man has a 100% chance to Auto-Block attacks without consuming Armor. This Auto-Block triggers Parry.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Ani Soğuk Bağışıklığı 🧊\n• %18 Güç Emme/Yakma direnci (her zırh için) 🔋",
+    "abilitySections": [
+        {
+            "title": "Molecular Arsenal",
+            "content": [
+                "Tony Stark's Model 50 suit uses state-of-the-art nanotechnology to change form and mass at will, providing extreme adaptability and a wide array of weaponry including Blade Arm, Hammer Arm, and point-blank Repulsor attacks."
+            ]
+        },
+        {
+            "title": "Molecular Armor Passive",
+            "content": [
+                "Up to 24% chance to activate an Armor Passive when attacking or struck by an attack, increasing Armor by [3,101.06] for 8 seconds. The chance to trigger is reduced for each active Armor Passive.",
+                "Start the fight with 1 stack(s) of Molecular Armor.",
+                "Critical Resistance increases by [375] for each active Armor effect.",
+                "Each Armor effect active on Iron Man reduces the effectiveness of Power Drain, Power Steal, and Power Burn effects by 18%.",
+                "After achieving 4 stacks of any Armor effect, Iron Man has a 100% chance to Auto-Block the next attack and then consume 1 Armor effect(s). This Auto-Block triggers Parry.",
+                "A stack of Armor is lost each time Iron Man is inflicted by an Armor Break effect.",
+                "Molecular Armor provides full immunity to Bleed and Coldsnap effects while active."
+            ]
+        },
+        {
+            "title": "Repulsor Attacks",
+            "content": [
+                "The first Medium hit, the first Heavy hit, and the second and fourth Light attacks employ point-blank Repulsor blasts.",
+                "Repulsor hits don't make contact, cannot be evaded, and deal Energy Damage instead of Physical.",
+                "Repulsor hits that strike an opponent suffering from both Shock and Incinerate fuse those two Debuffs into a new Plasma Passive that has the properties of both.",
+                "Repulsor hits refresh Incinerate Debuffs and Plasma Passives on opponents.",
+                "Repulsor hits that strike an opponent suffering from a Shock or Plasma effect generate zero Power in opponents and drain up to 2.5% of their current stored Power."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "The first Repulsor hit has all the properties of a Repulsor Attack and has +[10,071] Attack Rating.",
+                "The second hit employs a Hammer Arm and has a 100% chance to inflict Armor Break on the opponent, removing one Armor Up and then reducing Armor by [916.67] for 12 seconds.",
+                "The third and final hit employs an Unblockable Blade Arm and inflicts Heal Block for 16 second(s) against targets under the effects of Regeneration."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The first hit employs an Unblockable Blade Arm and inflicts Heal Block for 16 second(s) against targets under the effects of Regeneration.",
+                "Each energy projectile has all the properties of a Repulsor attack and generates zero Power in opponents.",
+                "100% chance to leave opponents Shocked for [10,071] Energy Damage over 16 seconds.",
+                "Shock duration increases by up to 50% based on the opponents' current Power."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first two hits are Hammer Arm Attacks. Each has a 65% chance to inflict Armor Break on the opponent, removing one Armor Up and then reducing Armor by [916.67] for 12 seconds.",
+                "The missile barrage has a 100% chance to ignite the target, inflicting Incinerate for [16,214.31] damage over 8 seconds.",
+                "If the target does not ignite, they are instead inflicted by Armor Break, removing one Armor Up and then reducing Armor by [1,833.33] for 25 seconds.",
+                "50% chance for each active Armor Break on the opponent to inflict Stun for 2.2 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict Armor Break on the opponent, removing one Armor Up and then reducing Armor by [305.56] for 3 seconds.",
+                "100% chance to instantly ignite and electrify the target, inflicting a Plasma Passive that deals [30,213] damage over 10 seconds.",
+                "The chance to inflict Plasma decreases by 20% for each Plasma effect already active on the target."
+            ]
+        },
+        {
+            "title": "Signature Ability - Deflector Protocol",
+            "content": [
+                "Once per fight, Iron Man's Model 50 suit executes an emergency protocol if attacked while 15% Health or less remains, creating a hardened exterior by instantly granting [1 - 8] stack(s) of Molecular Armor.",
+                "While 15% Health or less remains and Iron Man has an Armor effect, gain a Power Gain Passive that is not affected by Ability Accuracy reduction and grants [3.6 - 6.6]% of Max Power per second. Additionally, Iron Man has a 100% chance to Auto-Block attacks without consuming Armor. This Auto-Block triggers Parry."
+            ]
+        }
+    ]
 }

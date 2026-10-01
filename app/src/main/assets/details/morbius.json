@@ -15,5 +15,57 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Koşarken görünmez+engellenemez olur ve o vuruş +%250 saldırı kazanır — vacilo önleyen şampiyon şart. Nötralize veya yetenek azaltıcı kullanma, engellenemez psişik uçuşunun sıklığını artırır.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Morbius Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "The Living Vampire\nWhen the Opponent is Immune to a personal Bleed, [25 - 100]% chance to inflict a Rupture Debuff instead, dealing Physical Damage and copying the Bleed's behavior.\nWhen taking Direct Damage from any source, gain a non-stacking Undying Passive that falls off after not taking Direct Damage for 2 seconds. Cooldown: 8 seconds.\nWhile Undying is active, instantly Regenerate [10 - 50]% of all Direct Damage taken. Against Skill Champions, the potency of this effect is reduced by 50%.",
+    "abilitySections": [
+        {
+            "title": "Psionic Glide",
+            "content": [
+                "To perform a Psionic Glide, Dash forward from outside of striking distance or during the Opponent's Special Attack, causing all incoming attacks to Passively Miss Morbius and increasing the speed of the fight until completing his first Medium Attack.",
+                "Psionic Glide's Medium Attack is Passively Unblockable and gains +[24,932.5] Attack Rating.",
+                "Psionic Glide's Medium Attack also inflicts a Bleed Debuff, dealing [99.73] Direct damage over 24 seconds. This ability can be inflicted through Block. If the Opponent is recovering from a Special Attack, inflict 4 Bleeds instead.",
+                "After performing a Psionic Glide, gain a 100% Fervor Buff, for 10 seconds. While this effect is active, Morbius cannot perform a Psionic Glide.",
+                "If the Fervor Buff is Nullified or fails due to Ability Accuracy reduction, Morbius replaces it with an identical, non-stacking Passive. The Fervor Passive does not prevent Morbius from performing a Psionic Glide. Failing due to Ability Accuracy will delay the Passive for 1.5 seconds."
+            ]
+        },
+        {
+            "title": "Bleed Effects",
+            "content": [
+                "20% chance for Basic Hits to inflict a Bleed Debuff, dealing [99.73] Direct Damage over 24 seconds.",
+                "Each Damaging Debuffs on the Opponent lowers Regeneration Rate by 10% and Ability Power Rate by 5%. Max Debuffs: 10.",
+                "Morbius does not benefit from the Despair Mastery. Instead, while the Opponent is suffering from any Damaging Debuff, lower their Regeneration and Ability Power Rate by +5% for each rank invested. This ability does not stack.",
+                "When the Opponent is suffering from 10+ Damaging Debuffs, inflict a non-stacking 25% Petrify Debuff, for 10 seconds, paused while the Opponent has 10+ Damaging Debuffs.",
+                "While the Opponent is Petrified, Morbius gains +1% Combat Power Rate for each Damaging Debuff on the Opponent. Max Debuffs: 30."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "50% chance on each hit to inflict a Bleed Debuff, dealing [99.73] Direct Damage over 24 seconds.",
+                "Personal Fervor Buffs are paused during this attack and expire immediately when it is complete."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Personal Damaging Debuffs are paused during this attack.",
+                "If the Opponent is Petrified, the second hit becomes a Guaranteed Critical Hit, consuming all damaging debuffs on the Opponent and increasing Attack Rating by +[3,989.2] for each Debuff consumed. Max Debuffs: 40 .",
+                "Passively regenerate 15% of the damage dealt by the second hit, up to 10% of Max Health."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If the Opponent is Petrified, gain +[3,989.2] Attack Rating for each Damaging Debuff on the Opponent but do not consume them. Max Debuffs: 40.",
+                "Passively regenerate 15% of damage dealt, up to 10% of Max Health."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Living Vampire",
+            "content": [
+                "When the Opponent is Immune to a personal Bleed, [25 - 100]% chance to inflict a Rupture Debuff instead, dealing Physical Damage and copying the Bleed's behavior.",
+                "When taking Direct Damage from any source, gain a non-stacking Undying Passive that falls off after not taking Direct Damage for 2 seconds. Cooldown: 8 seconds.",
+                "While Undying is active, instantly Regenerate [10 - 50]% of all Direct Damage taken. Against Skill Champions, the potency of this effect is reduced by 50%."
+            ]
+        }
+    ]
 }

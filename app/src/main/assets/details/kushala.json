@@ -13,6 +13,65 @@
     "synergies": [],
     "howToPlay": "Kushala için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kushala Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥"
+    "signatureAbility": "Spirit Rider\nThe pause for activating the Blessing with the fewest stacks lasts an additional +[1 - 5] seconds.\nKushala's Damaging Debuffs have a [2 - 9]% chance for each active Blessing to be replaced with matching Passives with 20% increased potency. This chance is doubled against Cosmic Opponents.\nKushala does not benefit from the Despair Mastery. Instead, she reduces the Opponent's Regeneration Rate by 8% for each Debuff or personal Damaging Passive active on them, up to a maximum of 100%. Each rank in the Despair Mastery increases this reduction by +4% and the maximum by +10%.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Kushala's connection to her Spirit of Vengeance grants her immunity to all Bleed and Incinerate effects.",
+                "All attacks deal Energy Damage.",
+                "Combat Power Rate is reduced by 20%.",
+                "Personal Damaging effects are paused during Kushala's Special Attacks."
+            ]
+        },
+        {
+            "title": "Hunter of Might",
+            "content": [
+                "Light Attacks have a 40% chance to place an indefinite Ignition Buff on the Opponent. This chance increases by +20% flat if the Opponent is Soul Barbed. Max stacks: 10.",
+                "When the Opponent gains a Buff, Kushala Passively gains 2% of her Max Power.",
+                "Kushala does not benefit from the Mystic Dispersion Mastery. Instead, each rank increases the amount of power she gains on Buff activation by 10%."
+            ]
+        },
+        {
+            "title": "Blessings of The Eagle - Max Stacks: 3 Each",
+            "content": [
+                "Gain a Blessing of Wisdom when either Champion performs a Well-Timed Block, allowing Kushala to Block Unblockable attacks from non-Science Champions and Passively Regenerate 25% of the damage taken from Blocked hits.",
+                "Gain a Blessing of Justice when either Champion is struck by the first hit of a Heavy Attack, making the Opponent more aggressive and increasing the potency of Kushala's Damaging effects by 10%.",
+                "Gain a Blessing of Power when either Champion Intercepts their Opponent, increasing Kushala's Ability Power Rate by 15% and reducing the Opponent's by the same amount.",
+                "Blessings are not affected by Ability Accuracy. Each Blessing lasts for 12 seconds, plus an additional +15 seconds flat if activated while either Champion is performing or recovering from a Special Attack 1 or 2.",
+                "When activating a Blessing while both other Blessings have more active stacks, pause all Blessings for 3 seconds.",
+                "The Ability Accuracy of Kushala's personal effects and the Parry Mastery is increased by 35% for each unique Blessing active."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On the final hit, each Buff on the Opponent has a 50% chance to be Nullified. For each Buff Nullified, inflict an Incinerate Debuff, dealing [22,488] Energy Damage over 18 seconds.",
+                "Inflict 4 additional Incinerates if the Opponent is Soul Barbed or Degenerating."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit consumes 30% of the Ignition Buffs on the Opponent to inflict a [562.2] potency Soul Barb Debuff for 15 seconds. Max stacks: 3.",
+                "This duration is increased by +0.75 seconds for each Buff consumed and for each Incinerate effect on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain one stack of each Blessing and place an indefinite Judgement on the Opponent, increasing the duration of Kushala's future Blessings by +4 seconds. Max stacks: 3.",
+                "For each active Blessing, inflict a Degeneration Debuff, dealing [11,244] Direct Damage over 8 seconds. Max stacks: 9."
+            ]
+        },
+        {
+            "title": "Signature Ability - Spirit Rider",
+            "content": [
+                "The pause for activating the Blessing with the fewest stacks lasts an additional +[1 - 5] seconds.",
+                "Kushala's Damaging Debuffs have a [2 - 9]% chance for each active Blessing to be replaced with matching Passives with 20% increased potency. This chance is doubled against Cosmic Opponents.",
+                "Kushala does not benefit from the Despair Mastery. Instead, she reduces the Opponent's Regeneration Rate by 8% for each Debuff or personal Damaging Passive active on them, up to a maximum of 100%. Each rank in the Despair Mastery increases this reduction by +4% and the maximum by +10%."
+            ]
+        }
+    ]
 }

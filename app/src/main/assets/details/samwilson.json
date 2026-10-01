@@ -20,6 +20,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırı kullanma — otomatik bloklar ve anında karşılık verir. Zırh kıran şampiyonlar avantajlı. Çok yetenek tetikleyen şampiyon kullanma, rupture ile karşılık verir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Captain America (Sam Wilson) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• 4 zırhla Kanama almaz 🩸"
+    "signatureAbility": "Vibranium Enchanced Exo-8 Falcon\nRedwing Lock-On lasts 2 second(s) longer, Attack Rating is increased by [498.65 - 3,989.23] and allows Captain America to inflict Ruptures from Special 2 through blocks.\nWhen an Opponent Miss fails or when their Ability fails due to low Ability Accuracy, an instant Rupture is inflicted, dealing [498.65 - 2,991.86] Physical Damage. Damage scales with Base Attack only.\nWhen either Champion performs a Well-Timed Block, Captain America inflicts a Sapped Charge on the Opponent.",
+    "immunityDetails": "• 4 zırhla Kanama almaz 🩸",
+    "abilitySections": [
+        {
+            "title": "Armor Up",
+            "content": [
+                "When landing or being struck by a Basic Attack, 30% chance to gain a +[392.86] Armor Up Buff, lasting indefinitely up to 5 stacks. Additional stacks last for 15 seconds. These buffs turn into Passives when Nulified or Staggered, Start each fight with one of these Buffs.",
+                "While Armor Up is active, Captain America can trigger the Parry Mastery against non-contact attacks and he can block Unblockable Specials from mutants.",
+                "Each Armor Up reduces the Opponent's Bleed Ability Accuracy by -25% flat.",
+                "10% chance per Armor Up effect to Auto-Block incoming Special Attacks, up to 75%. The first time this Auto-Block is triggered against a Special Attack, it counts as a Well-Timed Block and removes all personal Armor-Ups.",
+                "Auto-Block Chance is also increased by 25% per Prowess effect on the Opponent. This chance is capped at 100% while the Opponent has Prowess."
+            ]
+        },
+        {
+            "title": "Always Active",
+            "content": [
+                "Captain America cannot land Critical hits naturally, however every time he would have landed a Critical Hit he inflicts an instant Rupture, dealing Physical Damage. This ability scales with Critical Damage Rating.",
+                "Ruptures also inflict a Sapped Charge that lasts for 20 second(s), or indefinitely as a Defender. Consume all charges when reaching 20 stack(s), and replace them with a Power Drain Passive, draining 50% of the Opponent Power over 20 second(s)."
+            ]
+        },
+        {
+            "title": "Recon Scan",
+            "content": [
+                "Dodging back and holding Block for 1.2 second(s), inflicting Lock-On charge for 16 second(s), but pauses on his Specials. Once Lock-On ends, it goes on Cooldown for 12 second(s). As a Defender, Cap inflicts a Lock-On Charge in 16 second(s) if not Locked-On.",
+                "When entering Lock-On, Cap passively inflicts Cowardice for the duration of Lock-On, reducing Special Attack damage by 40%.",
+                "While Locked-On, Cap gains [1,178.57] Critical Rating and his attacks cannot Miss",
+                "Striking the Opponent while Locked-On pauses Sapped charges for 5 second(s)."
+            ]
+        },
+        {
+            "title": "On a Heavy or Intercept",
+            "content": [
+                "Consume an Armor Up Buff and gain a non-stacking +[1,178.57] Bulwark Buff for 15 seconds. While this Buff is active, Opponents have -100% Ability Accuracy when hitting Captain America's block.",
+                "Intercepts neither require nor consume an Armor-Up effect to activate Bulwark."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Last hit inflicts a [637.5] Physical Vulnerability Debuff for 30 seconds, paused while Locked-On. Max stacks 8.",
+                "Lock-On: Inflict 1 Sapped Charge."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain up to +[14,959.5] Attack Rating based on current Armor Rating until the end of the Special Attack. All but one personal Armor Ups are consumed by the end of the attack.",
+                "Armor Ups are paused.",
+                "Each hit inflicts a Rupture Debuff, dealing [1,994.6] Physical Damage over 10 second(s).",
+                "Lock-On: Each hit inflicts an extra instant Rupture Passive, dealing Critical Damage as Physical Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a Precision Buff, granting [11,000] Critical Rating for 8 second(s), but pauses for 0.5 second(s) on a Hit. Captain America can crit through blocks while this Buff is active.",
+                "Consume all but one personal Armor Up. While this Precision is active, gain a 10% chance for Armor Up consumed to inflict an extra Sapped Charge when inflicting a Rupture. Inflicting the Sapped Charges' Power Drain while this Precision is active restores the consumed Armor Ups.",
+                "Lock-On: Inflicts a Special Lock, preventing Specials from being activated for 10 second(s)."
+            ]
+        },
+        {
+            "title": "Signature Ability - Vibranium Enchanced Exo-8 Falcon",
+            "content": [
+                "Redwing Lock-On lasts 2 second(s) longer, Attack Rating is increased by [498.65 - 3,989.23] and allows Captain America to inflict Ruptures from Special 2 through blocks.",
+                "When an Opponent Miss fails or when their Ability fails due to low Ability Accuracy, an instant Rupture is inflicted, dealing [498.65 - 2,991.86] Physical Damage. Damage scales with Base Attack only.",
+                "When either Champion performs a Well-Timed Block, Captain America inflicts a Sapped Charge on the Opponent."
+            ]
+        }
+    ]
 }

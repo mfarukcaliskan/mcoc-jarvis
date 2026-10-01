@@ -13,6 +13,58 @@
     "synergies": [],
     "howToPlay": "Thor (Jane Foster) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Thor (Jane Foster) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Şok direnci ⚡️"
+    "signatureAbility": "When Thor activates a Special Attack, she Nullifies one Power Gain or Fury Buff on the Opponent.\nWhile Thor is suffering from 7+ Shock effects, the Opponent is inflicted with a [44 - 80]% Wither Passive.",
+    "immunityDetails": "• %100 Şok direnci ⚡️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Thor has 100% Shock Resistance.",
+                "Thor's energy is focused on herself. The potency of the Mystic Dispersion Mastery is reduced by 50%."
+            ]
+        },
+        {
+            "title": "Heavy Attack",
+            "content": [
+                "Charging a Heavy Attack after landing a Non-Combo Ending attack inflicts a Stun Passive for .75 seconds.",
+                "If the Opponent is Stunned, Thor's Heavy Attack gains +[687.5] Critical Rating for each personal Shock effect on her.",
+                "When Thor strikes the Opponent with a Heavy Attack, she inflicts 2 Stagger Passives for 10 seconds."
+            ]
+        },
+        {
+            "title": "Shockingly Mighty",
+            "content": [
+                "All of Thor's Basic Attacks have a 40% chance to inflict her with a Shock Passive that deals no damage and lasts 15 seconds. Max stacks: 15.",
+                "When Thor Nullifies a Buff, she inflicts herself with one of these Shocks.",
+                "Thor gains +[1,385.41] Attack Rating for each Shock effect she is suffering from, up to 25.",
+                "Whenever a Stagger effect on the Opponent expires, or a Buff on them is Nullified, Thor pauses her personal Shock Passives for 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain a 65% Fervor Passive for 20 seconds. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "For each personal Shock on Thor, the final hit inflicts Shock Debuff [5,328.5] Energy Damage over 2 seconds. Then, consume all of Thor's personal Shock Passives."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Thor gains a Power Gain Passive granting 50 of Max Power over 15 seconds.",
+                "While this Power Gain is active, Thor gains 60% Critical Rating."
+            ]
+        },
+        {
+            "title": "Signature Ability -That Which Smashes",
+            "content": [
+                "When Thor activates a Special Attack, she Nullifies one Power Gain or Fury Buff on the Opponent.",
+                "While Thor is suffering from 7+ Shock effects, the Opponent is inflicted with a [44 - 80]% Wither Passive."
+            ]
+        }
+    ]
 }

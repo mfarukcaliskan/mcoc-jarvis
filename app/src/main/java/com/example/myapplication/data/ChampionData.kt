@@ -44,6 +44,12 @@ data class Synergy(
     val bonus: String
 )
 
+/** mcoc.gg'deki gerçek yetenek bölümü (örn. "Special Attack 1", "Signature Ability - X"). */
+data class AbilitySection(
+    val title: String,
+    val content: List<String>
+)
+
 data class ChampionDetails(
     val id: String,
     val name: String,
@@ -52,7 +58,8 @@ data class ChampionDetails(
     val howToPlay: String = "",
     val bestUse: String = "",
     val signatureAbility: String = "",
-    val immunityDetails: String = ""
+    val immunityDetails: String = "",
+    val abilitySections: List<AbilitySection> = emptyList()
 )
 
 data class Champion(
@@ -263,6 +270,18 @@ object ChampionRepository {
         }
     }
 
+    private fun parseAbilitySections(obj: org.json.JSONObject): List<AbilitySection> {
+        val arr = obj.optJSONArray("abilitySections") ?: return emptyList()
+        val sections = mutableListOf<AbilitySection>()
+        for (i in 0 until arr.length()) {
+            val item = arr.optJSONObject(i) ?: continue
+            val contentArr = item.optJSONArray("content")
+            val content = if (contentArr == null) emptyList() else (0 until contentArr.length()).map { contentArr.getString(it) }
+            if (content.isNotEmpty()) sections.add(AbilitySection(item.optString("title"), content))
+        }
+        return sections
+    }
+
     fun loadChampionDetails(context: android.content.Context, champId: String): ChampionDetails? {
         return try {
             val jsonString = DataSource.openText(context, "details/$champId.json")
@@ -290,7 +309,8 @@ object ChampionRepository {
                 howToPlay = parseStringSafe(obj, "howToPlay"),
                 bestUse = parseStringSafe(obj, "bestUse"),
                 signatureAbility = parseStringSafe(obj, "signatureAbility"),
-                immunityDetails = parseStringSafe(obj, "immunityDetails")
+                immunityDetails = parseStringSafe(obj, "immunityDetails"),
+                abilitySections = parseAbilitySections(obj)
             )
         } catch (e: Exception) {
             e.printStackTrace()

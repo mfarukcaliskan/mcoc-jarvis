@@ -14,6 +14,72 @@
     "synergies": [],
     "howToPlay": "Juggernaut için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Juggernaut Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠"
+    "signatureAbility": "Gem Acclimation\nThe Weakness Passive from the Crimson Gem of Cyttorak is reduced to [30 - 5]% and becomes a Debuff instead.\nAttacks have a [1.5 - 3]% chance per Unstoppable Buff to Nullify a Buff from the Opponent.",
+    "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠",
+    "abilitySections": [
+        {
+            "title": "Crimson Gem of Cyttorak",
+            "content": [
+                "Juggernaut starts the fight with the Crimson Gem of Cyttorak active.",
+                "The Crimson Gem of Cyttorak is disabled if Juggernaut suffers a non-damaging Debuff or is knocked down. While the Crimson Gem of Cyttorak is disabled, Juggernaut suffers a 50% Weakness Passive.",
+                "While the Crimson Gem of Cyttorak is active, Juggernaut is empowered and gains the following:\n1. +[5,084] Attack Rating.\n2. +25% Damage Reduction.\n3. Immunity to Reversed Controls."
+            ]
+        },
+        {
+            "title": "Unstoppable Buffs - Max Stacks: 10",
+            "content": [
+                "Juggernaut can only activate his Unstoppable Buffs if the Crimson Gem of Cyttorak is active.",
+                "Juggernaut gains 1 Unstoppable Buff each time he moves forward or lands an attack, but loses 1 Unstoppable Buff each time he is struck, enters block, or blocks an attack.",
+                "Unstoppable Buffs decrease by 1 every 1.25 seconds. This timer is reset each time an Unstoppable Buff is added or removed, or when Juggernaut Dodges backwards.",
+                "Each Unstoppable Buff provides the following:\n1. +[1,016.8] Attack Rating.\n2. Increases Power Rate by 2.5%.\n3. Lowers the opponent's chance to trigger Stun Debuffs by 20%. If this ability prevents a Stun Debuff from triggering, Juggernaut loses 7 Unstoppable Buffs."
+            ]
+        },
+        {
+            "title": "Maximum Momentum",
+            "content": [
+                "While Juggernaut has 10 Unstoppable Buffs, he gains an Unblockable Passive making his next blocked attack Unblockable at the cost of 10 Unstoppable Buffs.",
+                "After landing a Maximum Momentum Unblockable attack, Juggernaut is unable to gain his Unstoppable Buffs for 7 seconds, and places a Wither Debuff on the Opponent reducing their Power Rate by 50% for 10 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "100% chance to Stagger the Opponent for 8 seconds. The next time a Staggered Opponent triggers a Buff, that Buff and all other Buffs triggered at the same time will be immediately Nullified.",
+                "If the Crimson Gem of Cyttorak is active, inflict an additional Stagger."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Activate the Crimson Gem of Cyttorak if it is disabled."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Gain an Energize Buff for 10 seconds, granting 25% increased Combat Power Rate."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit deals a burst of [5,084] Physical damage.",
+                "While at Maximum Momentum, 100% chance to gain a Fury Buff granting +[20,336] Attack Rating for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "When activated, the Crimson Gem of Cyrrotak cannot be removed for 20 seconds.",
+                "While at Maximum Momentum, inflict a Stun Debuff on the Opponent for 4 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Gem Acclimation",
+            "content": [
+                "The Weakness Passive from the Crimson Gem of Cyttorak is reduced to [30 - 5]% and becomes a Debuff instead.",
+                "Attacks have a [1.5 - 3]% chance per Unstoppable Buff to Nullify a Buff from the Opponent."
+            ]
+        }
+    ]
 }

@@ -16,6 +16,67 @@
     "synergies": [],
     "howToPlay": "Aegon için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Aegon Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Arındırma (100 kombo sonrası) 💪🏼"
+    "signatureAbility": "Relentless Assault\nAt the end of the fight, Aegon adds [1 - 75]% of his final Combo Meter into his Persistent Combo, up to 999 hits total. Aegon's abilities that count the Combo Meter add his Persistent Combo on top of it.",
+    "immunityDetails": "• %100 Arındırma (100 kombo sonrası) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Base Critical Rating is 0. Critical Rating is increased by +[34.26] for each hit of the Combo Meter.",
+                "Any Critical Rating Aegon would receive from a source other than his Combo Meter is converted directly into Critical Damage Rating."
+            ]
+        },
+        {
+            "title": "Passive - Combo Meter Abilities",
+            "content": [
+                "Aegon unlocks additional Passive Abilities as his Combo Meter increases.",
+                "5 Hits: Critical Hits have a 40% chance to Purify one Debuff.",
+                "10 Hits: Critical Damage Rating is increased by +[13.58] for each hit of the Combo Meter.",
+                "20 Hits: When the Opponent Evades, Aegon activates a Combo Shield for 5 second(s) and has a 45% chance to become Unstoppable for 2 second(s).",
+                "30 Hits: Aegon can strike with Critical Hits even while the Opponent is Blocking.",
+                "50 Hits: Charging a Heavy Attack grants Aegon 1 second(s) of Unstoppable. Cannot be activated while his Heavy Attack ability is on cooldown.",
+                "75 Hits: Opponents have -85% Block Proficiency when Aegon strikes with a Critical Hit",
+                "100 Hits: Critical Hits have a 100% chance to Purify one Debuff.",
+                "150 Hits: Critical Hits grant a True Accuracy Buff for 0.75 seconds. This stacks up to 3 times.",
+                "200 Hits: Critical Hits ignore 100% of the Opponent's Physical Resistance.",
+                "300 Hits: Critical Hits grant a Fury Buff, increasing Attack by +[923.8] for 1 second(s). This stacks up to 3 times.",
+                "500 Hits: Critical Hits cause Opponents to suffer -100% reduced Defensive Ability Accuracy for Aegon's next hit",
+                "750 Hits: Critical Hits grant 1.5 seconds of Unstoppable and Combo Shield. This stacks up to 3 times.",
+                "1000 Hits: Critical Hits cause Aegon's next Hit to be Unblockable"
+            ]
+        },
+        {
+            "title": "When Charging a Heavy Attack",
+            "content": [
+                "Aegon activates Combo Shield, and cannot lose more than 5% of his maximum Health from a single Hit, other than Special Attacks, for 6 seconds.",
+                "Once this ability expires, it goes into cooldown and cannot be reactivated for 15 second(s).",
+                "Landing a Heavy Attack reduces the cooldown of this ability by 3 second(s)."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "100% chance to gain a Fury Buff for 6 seconds, granting +[2,309.5] Attack.",
+                "Gain 1 additional Fury Buff for every 50 hits on the Combo Meter, then refresh those Buffs. Aegon can have up to 6 Fury Buffs total."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict Bleed over 6 seconds, dealing [461.9] direct damage for each hit of the Combo Meter, up to 60 hits."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to Stun the Opponent for 1 second(s). The duration of the Stun increases by 0.1 second(s) for each hit of the Combo Meter, up to 7 second(s) total."
+            ]
+        },
+        {
+            "title": "Signature Ability - Relentless Assault",
+            "content": [
+                "At the end of the fight, Aegon adds [1 - 75]% of his final Combo Meter into his Persistent Combo, up to 999 hits total. Aegon's abilities that count the Combo Meter add his Persistent Combo on top of it."
+            ]
+        }
+    ]
 }

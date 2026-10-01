@@ -18,6 +18,73 @@
     "synergies": [],
     "howToPlay": "Beta Ray Bill için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Beta Ray Bill Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• %50 Kanama direnci 🩸\n• %50 Zehir direnci 🧪\n• Güç Emme Bağışıklığı 🔋"
+    "signatureAbility": "Champion of Korbin\nThe potency of personal bursts of damage is increased by [5 - 40]%.\nReduce Call of Thunder's Unstoppable cooldown by [1 - 10] seconds.\nWhile a personal Unstoppable Buff is active, damage taken is reduced by [10 - 100]%. Does not reduce damage from Special Attack 3.",
+    "immunityDetails": "• Şok Bağışıklığı ⚡️\n• %50 Kanama direnci 🩸\n• %50 Zehir direnci 🧪\n• Güç Emme Bağışıklığı 🔋",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Incoming Bleed and Poison effects suffer 50% reduced potency.",
+                "Beta Ray Bill is Immune to Shock and Power Drain. When the Power Drain Immunity triggers, he gains a Power Gain Passive, granting 1 Bar of Power over 0.5 seconds. Cooldown: 14 seconds.",
+                "When starting a fight against Tech Champions or when Immune to an effect, gain a Steady Buff for 20 seconds.",
+                "The Thor Relic increases the potency of personal Buffs by 25%."
+            ]
+        },
+        {
+            "title": "Call of Thunder - While Charging a Heavy Attack",
+            "content": [
+                "Gain an Unstoppable Buff. If struck while this Buff is active this effect goes on cooldown for 24 seconds.",
+                "All Buffs on Beta Ray Bill and all Shocks on the Opponent are paused.",
+                "Every 0.4 seconds gain a 20% Intensify Buff for 4 seconds. Max stacks: 5. Beta Ray Bill's Heavy Attack can be charged for an extended duration.",
+                "While above 2 Bars of Power: while Beta Ray Bill is below 2 Stacks of Intensify, the Opponent suffers a [1,007.1] Intimidate Passive. At max stacks, the Opponent suffers a 10% Infuriate Passive.",
+                "Activating a Special Attack 2 while charging a Heavy Attack pauses all personal Buffs until Beta Ray Bill has landed or been struck by 4 Basic Hits per Intensify gained, up to a max of 20. Heavy Hits count as 2 hits. This effect does not trigger if it is already active.",
+                "Releasing the Heavy Attack grants a Grit Buff for 15 seconds."
+            ]
+        },
+        {
+            "title": "Armor Pulverizer - Medium Attacks",
+            "content": [
+                "Beta Ray Bill's first Medium Attack Pulverizes one Armor Up effect, removing it and dealing a burst of [10,071] Direct Damage."
+            ]
+        },
+        {
+            "title": "Shocks",
+            "content": [
+                "If the Buff pause is not active, Basic Attacks have a 10% chance to inflict a Shock Passive, dealing [2,014.2] Energy Damage over 25 seconds. Max stacks: 12.",
+                "During a combo started with a Medium Attack, or while striking the Opponent with a Special Attack 1, the expiration rate of personal Shocks increases by 285%.",
+                "The final hit of Special Attacks refreshes all Shocks on the Opponent.",
+                "All Shocks are paused during the Opponent's Special Attacks and Beta Ray Bill's Special Attack 2.",
+                "When any Shock on the Opponent ends, deal a burst of [6,042.6] Energy Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain an Fury Buff, granting +[6,042.6] Attack Rating for 15 seconds. Max stacks: 3.",
+                "During this attack, the potency of personal bursts of damage is increased by 200%",
+                "While the personal Buff pause is active, when any Shock ends on the Opponent during this attack, inflict a personal Shock Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit grants a non-stacking 15% Energize Buff for 15 seconds.",
+                "All lightning hits inflict a personal Shock Passive. Each Intensify Buff grants a 10%  chance to inflict these Shocks through Block."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a 65% Resonance Buff for 20 seconds, paused during Special Attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - Champion of Korbin",
+            "content": [
+                "The potency of personal bursts of damage is increased by [5 - 40]%.",
+                "Reduce Call of Thunder's Unstoppable cooldown by [1 - 10] seconds.",
+                "While a personal Unstoppable Buff is active, damage taken is reduced by [10 - 100]%. Does not reduce damage from Special Attack 3."
+            ]
+        }
+    ]
 }

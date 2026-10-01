@@ -16,6 +16,74 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Özel saldırılar hariç %60 kaçış şansı var (kaçış ofansif yetenekleri ve kritikleri engeller). Prowess kaldıran ve güç çalan şampiyonlar kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Storm (Pyramid X) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Şok direnci ⚡️\n• Ani Soğuk Bağışıklığı 🧊"
+    "signatureAbility": "Wrath of Ororo Munroe\nWhile below [10 - 30]% of her maximum health Storm activates both Tempests.\nLanding a Heavy Attack activates Storm's alternate Tempest for up to [15] seconds based on how long the Heavy Attack was charged. The tempest will not activate while already active, and is paused during Heavy Attacks and Special Attacks.",
+    "immunityDetails": "• %100 Şok direnci ⚡️\n• Ani Soğuk Bağışıklığı 🧊",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Storm's basic attacks deal Energy Damage instead of Physical.",
+                "Storm has [1,833.33] Energy Resistance.",
+                "If the Opponent Purifies a Stun Debuff it is replaced with a Passive Stun lasting 1.5 seconds."
+            ]
+        },
+        {
+            "title": "Pre-Fight Ability",
+            "content": [
+                "By default, Ice Tempest is selected. If selecting a different Tempest in the Pre-Fight Screen, it becomes the new default. Default Tempests can be switched once per Fight.",
+                "When Power Locked or Power Drained, Tempests are removed for 8 seconds.",
+                "Activation of Tempests is unaffected by Ability Accuracy.",
+                "Ice Tempest: Gain Immunity to Coldsnap and Frostbite, and incoming Basic Attacks have a 60% chance to Glance.",
+                "Lightning Tempest: Decrease the potency of incoming Shock effects by 100%. If selected as the default Tempest, each active Prowess grants hits a 2% chance to inflict a Stun Debuff for 0.9 second(s). This Stun is Passive instead if the Opponent has an Endurance effect. Max: 16% chance."
+            ]
+        },
+        {
+            "title": "When Knocked Down",
+            "content": [
+                "When Knocked Down, if not already active, Storm activates her Alternate Tempest for 12 seconds. Duration is paused during Heavy Attacks and Special Attacks."
+            ]
+        },
+        {
+            "title": "Prowess - When Either Champion Fills a Bar of Power:",
+            "content": [
+                "Each Tempest generates 1 Prowess, increasing the next Special Attacks damage by 40%. The first 3 Prowess Buffs last indefinitely. Additional Prowess Buffs last 10 seconds. Max 12.",
+                "If Storm has 6 Prowess effects active during a Special Attack, gain a Passive Unblockable for 2 second(s)."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Charging a Heavy Attack creates a dormant Prowess which charges from 0 to 100%.",
+                "Launching a Special Attack while charging a Heavy Attack converts this dormant Prowess into a Passive Prowess increasing the Special Attacks damage by up to 100% based on how long the Heavy Attack was charged."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Inflict a Passive Slow for the duration of this Special Attack.",
+                "Ice Tempest: Each hit grants a 10% Prowess Buff for the remainder of this Special Attack. Additionally, the final Hit inflicts a [8,447.2] Coldsnap Passive for 14 seconds, scaling with Special Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts a [5,279.5] Shock Debuff for 9 seconds. When one of these Debuffs is Purified, inflict a [5,279.5] Instant Shock Passive. Both of these effects scale with Special Damage.",
+                "Lightning Tempest: If selected as the default Tempest, Shock potency is increased by up to 90% based on the Opponent's current Power. Additionally, each Prowess reduces the Opponent's Defense Combat Power Rate by 25%."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "If both Tempests are already active, Storm increases her Attack Rating by [15,838.5] during this Special Attack.",
+                "After this Special Attack ends, Storm activates her alternate Tempest for 35 seconds. This duration is paused while charging Heavy Attacks and launching Special Attacks."
+            ]
+        },
+        {
+            "title": "Signature Ability - Wrath of Ororo Munroe",
+            "content": [
+                "While below [10 - 30]% of her maximum health Storm activates both Tempests.",
+                "Landing a Heavy Attack activates Storm's alternate Tempest for up to [15] seconds based on how long the Heavy Attack was charged. The tempest will not activate while already active, and is paused during Heavy Attacks and Special Attacks."
+            ]
+        }
+    ]
 }

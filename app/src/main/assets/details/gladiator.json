@@ -16,6 +16,76 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): E1 kullanınca 4sn durdurulamaz olur. Özel saldırıları bloklansa bile debuff uygular (E1 onda-i-soğuk, E2 bloktan yakma). Yakma ve onda-i-soğuğa immün şampiyon veya güçlü güç kontrolcüsü kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Gladiator Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Güç Emme/Yakma Bağışıklığı 🔋\n• Silme (Nullify) Bağışıklığı (Teşvik Buff'ı) 🔮"
+    "signatureAbility": "Even Further Beyond\nWinning a fight as an Attacker with more than [90 - 50]% Health adds 4 to Gladiator's Persistent Confidence Limit. Max: 8. When starting a fight, increase Confidence Limit by that value.\nGladiator starts each fight with a Vigilance Buff for [2 - 15] seconds. While benefiting from a personal Vigilance effect, all hits deal Passive True Damage and the Opponent's Armor Up effects suffer 100% reduced Ability Accuracy.",
+    "immunityDetails": "• Güç Emme/Yakma Bağışıklığı 🔋\n• Silme (Nullify) Bağışıklığı (Teşvik Buff'ı) 🔮",
+    "abilitySections": [
+        {
+            "title": "Always Active - Strontian Physiology",
+            "content": [
+                "Strontian physiology grants 200% increased Ability Accuracy to personal Buffs, plus Immunity to Power Drain and Power Burn effects.",
+                "Gladiator's personal Damage Over Time effects can not have their durations changed."
+            ]
+        },
+        {
+            "title": "Heavy Attacks - Stunning Intimidation",
+            "content": [
+                "Charging a Heavy Attack after landing a non-Combo ending Basic Attack inflicts a Stun Passive for 0.6 seconds.",
+                "On hit while the Opponent has less than 2 Bars of Power, inflict a non-stacking 30% Intimidate Passive for 2.5 seconds. This Intimidate is paused for 0.35 seconds each time Gladiator Dashes forward, strikes the Opponent, or hits their Block. This pause does not activate during Special Attacks."
+            ]
+        },
+        {
+            "title": "Confidence Buffs - Limit: 25",
+            "content": [
+                "Confidence Buffs are indefinite and have 5% potency. Potency is increased by +1% flat when fighting on a Final Boss Node. New Confidence Buffs cannot be gained while at the Confidence Limit.",
+                "Striking the Opponent with a Heavy Attack grants 2 Confidence Buffs.",
+                "While the Opponent is suffering from Gladiator's personal Intimidate Debuff, gain 1 Confidence Buff each time the Opponent or their Block is struck by a Light or Medium Attack.",
+                "As a Defender, gain 1 Confidence Buff every 2 seconds. Being knocked down by a Special Attack pauses this for 8 seconds.",
+                "When struck by any attack other than the final hit of a Special Attack, remove 1 Confidence Buff.",
+                "When struck by the final hit of a Special Attack, remove 4 Confidence Buffs per level of the Special. This removal will not trigger while Gladiator is Unstoppable."
+            ]
+        },
+        {
+            "title": "Super Confidence - With 10 or more Confidence Buffs",
+            "content": [
+                "On Special Attack activation, gain an Embolden Passive for 5 seconds, paused until the end of the Special Attack.",
+                "Striking the Opponent with a Heavy Attack grants an Unblockable Buff for 2 seconds, paused during Gladiator's Special Attacks. Cooldown: 5 seconds, unless Gladiator does not strike the Opponent.",
+                "While benefiting from an Unblockable Buff, Heavy and Special Attacks deal an additional 90% of the damage recently dealt as a burst of Energy Damage."
+            ]
+        },
+        {
+            "title": "Ultra Confidence - With 20 or more Confidence Buffs",
+            "content": [
+                "Personal Unstoppable Buffs are paused during the Opponent's Special Attacks. While this pause is active, Gladiator is immune to the Opponent's Stun effects.",
+                "While attacking the Opponent within striking distance during or immediately after their Special Attacks, incoming damage from hits is reduced by 80% and Basic Attacks deal bursts of [20,142] Energy Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain an Unstoppable Buff for 4 seconds, paused until the end of the Special Attack. While this Unstoppable is active, Gladiator can not lose Confidence during Special Attacks, or on Basic Attacks during Ultra Confidence.",
+                "Each Frost Breath hit inflicts a Coldsnap Debuff dealing [10,071] Energy Damage over 12 seconds. As a Defender, Coldsnaps can also be inflicted through Block but at 25% potency."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a Vigilance Buff for 20 seconds, paused until the end of the Special Attack.",
+                "Each Eye Beam hit inflicts an Incinerate Debuff dealing [20,142] Energy Damage over 20 seconds. As a Defender, Incinerates can also be inflicted through Block but at 25% potency."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Increase Confidence Limit by 4. This can only trigger once per fight.",
+                "Gain a Power Gain Buff granting 100% of a Bar of Power over 5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Even Further Beyond",
+            "content": [
+                "Winning a fight as an Attacker with more than [90 - 50]% Health adds 4 to Gladiator's Persistent Confidence Limit. Max: 8. When starting a fight, increase Confidence Limit by that value.",
+                "Gladiator starts each fight with a Vigilance Buff for [2 - 15] seconds. While benefiting from a personal Vigilance effect, all hits deal Passive True Damage and the Opponent's Armor Up effects suffer 100% reduced Ability Accuracy."
+            ]
+        }
+    ]
 }

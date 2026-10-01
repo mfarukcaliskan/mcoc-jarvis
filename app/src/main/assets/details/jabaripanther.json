@@ -14,6 +14,81 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Sanar bonusu kazanır ve sürekli purify eder. 10 avcı yükünde destreza'yı kapatır ve sersemlemeye immün olur. Prowess'li şampiyon (avcı yüklerini siler) veya White Magneto ön-dövüşü kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Jabari Panther Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼"
+    "signatureAbility": "Chosen of Ghekre\nThe duration of the Hunt is increased by [0.5 - 3] second(s).\nWhenever Jabari Panther would gain a Huntress Charge while the Hunt is active, she instead gains an indefinite Counterpunch Charge. Max Charges starts at 1, and increases by 1 for every 50 signature levels obtained.\nA Counterpunch Charge is spent to gain Unstoppable for 0.75 second(s) when Blocking an Attack, and all are lost when the Hunt ends.",
+    "immunityDetails": "• %100 Arındırma (iyileştirme etkisiyle) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "Gain a non-stacking Cleanse Passive for 2 second(s).",
+                "While fighting as a Defender, if Jabari Panther Purifies a Stun Debuff, this ability goes on cooldown for 8 second(s)."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "Inflict a Bleed Debuff, dealing [6,863.35] Direct Damage over 7 second(s).",
+                "If this Bleed fails due to Immunity against a Science Champion, gain a +[603.66] Cruelty Passive for 7 seconds."
+            ]
+        },
+        {
+            "title": "The Huntress",
+            "content": [
+                "A skilled huntress, Jabari Panther stalks her Opponents no matter where they run or hide. Gain 1 Huntress Charge when Intercepting an Opponent, or Attacking a Stunned or Ensnared Opponent. This ability can only trigger every 1.25 seconds.",
+                "Gain 2 Huntress Charges whenever Jabari Panther Purifies a Debuff, and when the Opponent Evades or causes an Attack to Miss. This ability can only trigger every 1.25 seconds.",
+                "After gaining any Charges, no more can be gained for 1.25 second(s).",
+                "Lose 2 Huntress Charge(s) whenever the Opponent gains a Prowess Buff or Passive."
+            ]
+        },
+        {
+            "title": "The Hunt",
+            "content": [
+                "When Jabari Panther reaches 20 Huntress Charges, remove them all and Hunt the Opponent for 9 second(s).",
+                "Once Jabari Panther has 10+ Huntress Charge, the next time she activates a Special Attack or the Opponent would Evade or cause and attack to Miss, remove them all and Hunt the Opponent for 9 second(s).",
+                "While the Hunt is on, Jabari Panther is Stun Immune and gains a Precision Buff, increasing Critical Rating by +[916.67].",
+                "Additionally, the Opponent cannot trigger the Dexterity mastery, Evade, or cause Attacks to Miss.",
+                "Whenever Jabari Panther Purifies a Debuff, or the Opponent fails a Miss or Evade, Pause the Hunt and all Fury Buffs on Jabari Panther for 2 second(s).",
+                "Inflicting a Bleed Debuff Pauses all Bleed Debuffs on the Opponent for 0.5 second(s)."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "If the Hunt is active, each Bleed Debuff on the Opponent has a 50% chance to inflict another Bleed Debuff, dealing [6863.35] Direct Damage over 7 second(s). This ends the Hunt."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Activating any Special Attack and the Hunt within 1 second(s) of each other grants a non-stacking Fury Buff, increasing Attack Rating by +[16,894.4] for 9 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, inflict an Ensnare Debuff on the Opponent for 11 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The Hunt is Paused during this Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "The next time the Hunt activates, the Opponent is also Stunned for 4.5 second(s).",
+                "Gain 3 permanent Huntress charge(s) that are not removed when the Hunt triggers. Max 6."
+            ]
+        },
+        {
+            "title": "Signature Ability - Chosen of Ghekre",
+            "content": [
+                "The duration of the Hunt is increased by [0.5 - 3] second(s).",
+                "Whenever Jabari Panther would gain a Huntress Charge while the Hunt is active, she instead gains an indefinite Counterpunch Charge. Max Charges starts at 1, and increases by 1 for every 50 signature levels obtained.",
+                "A Counterpunch Charge is spent to gain Unstoppable for 0.75 second(s) when Blocking an Attack, and all are lost when the Hunt ends."
+            ]
+        }
+    ]
 }

@@ -13,5 +13,83 @@
     "synergies": [],
     "howToPlay": "Cull Obsidian için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cull Obsidian Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Enforced Oblivion\nOnce Cull Obsidian's Rout Buff has expired, it goes into cool down, and can be reactivated after [30 - 10] seconds.\nWhen Rout enters cool down, Cull's aggression is awarded with a Fury Buff, granting +[10,763.57 - 17,584.04] Attack for 4 seconds. This Buff gains +0.5 seconds duration for each hit landed while Rout was active.",
+    "abilitySections": [
+        {
+            "title": "Thanos's Favor - Max Persistent Charges 10",
+            "content": [
+                "At the beginning of the fight, 1 Thanos's Favor Buff is gained per Persistent Charge. These Buffs last 10 seconds each and they gain effects based on the number of charges. These Buffs have their duration paused for 1 second each time an attack is landed.",
+                "Thanos has directed Cull to spread the maximum possible amount of mayhem, allowing him to start with 3 Persistant Charges in Battlegrounds or in the first fight of Alliance War."
+            ]
+        },
+        {
+            "title": "Missions from Thanos",
+            "content": [
+                "Cull Obsidian has 3 Missions to complete, which may be done in any order. Each Mission can be completed multiple times and doing so grants 1 Persistent Charge.",
+                "Mission 1: Break their Defenses: Knockout any Champion.",
+                "Mission 2: Crush their Hope: Knockout an Avenger.",
+                "Mission 3: End their Resistance: Knockout a Champion without the Combo Meter being lost due to being struck during the fight."
+            ]
+        },
+        {
+            "title": "Thanos's Favor Buffs - Effects from Persistent Charge",
+            "content": [
+                "1+: Each Buff grants +[1,065.7] Attack.",
+                "3+: Gain an indefinite True Accuracy Passive for the duration of the Buffs.",
+                "5+: Each Buff grants +[56.12] Critical Damage Rating.",
+                "8+: Each Buff grants +5% Rout Buff duration."
+            ]
+        },
+        {
+            "title": "On Well-Timed Blocks",
+            "content": [
+                "Cull Obsidian's unique shield is able to Stun opponents with the Parry Mastery even against attacks that don't make contact."
+            ]
+        },
+        {
+            "title": "Dash Back and Hold Block for 1.2 Seconds - Once Per Fight",
+            "content": [
+                "Cull Obsidian overcharges his weapon to gain a Rout Buff for 8 seconds. This causes his opponent to suffer -100% Auto-Block Ability Accuracy and also grants his attacks an additional burst of Energy Damage equal to 120% of the damage dealt."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "75% chance per strike to inflict an Armor Break Debuff, reducing Armor by [1,480.77] for 14 seconds. This effect gains +5% duration and Ability Accuracy for each Persistent Charge."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Cull Obsidian's overwhelming presence reduces the opponent's Armor Up Ability Accuracy by 100% during his Special Attacks."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Combat expertise grants 10 Combo Shield Buffs. When struck, 1 Combo Shield Buff is lost instead of the Combo Meter resetting. Max: 10 Combo Shield Buffs."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each strike has a 100% chance to pause personal Armor Break Debuffs on the opponent for 5 seconds.",
+                "100% chance to inflict Stun a 2 seconds Stun Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "An influx of power from Thanos causes Cull Obsidian to re-trigger all of his Thanos' Favor Buffs.",
+                "+[1,065.7] Attack for each Persistent Charge."
+            ]
+        },
+        {
+            "title": "Signature Ability - Enforced Oblivion",
+            "content": [
+                "Once Cull Obsidian's Rout Buff has expired, it goes into cool down, and can be reactivated after [30 - 10] seconds.",
+                "When Rout enters cool down, Cull's aggression is awarded with a Fury Buff, granting +[10,763.57 - 17,584.04] Attack for 4 seconds. This Buff gains +0.5 seconds duration for each hit landed while Rout was active."
+            ]
+        }
+    ]
 }

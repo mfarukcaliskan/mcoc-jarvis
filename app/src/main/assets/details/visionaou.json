@@ -9,6 +9,44 @@
     "synergies": [],
     "howToPlay": "Vision (Age of Ultron) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Vision (Age of Ultron) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Power Steal\nSpecial Attacks have a 100% chance to disrupt the target, taking [15.33 - 37.87]% of their Power as your own.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Special Attacks",
+            "content": [
+                "If this attack reduces the enemy to zero Power Meter, the opponent gains a Heal Block Debuff for 7 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Burns up to 39% of the target's max Power and inflicts Direct Damage proportionate to the amount lost."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Burns up to 100% of the target's max Power and inflicts Direct Damage proportionate to the amount lost."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Burns up to 48% of the target's max Power and inflicts Direct Damage proportionate to the amount lost."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Advanced robotics provides full immunity to Poison and Bleed effects."
+            ]
+        },
+        {
+            "title": "Signature Ability - Power Steal",
+            "content": [
+                "Special Attacks have a 100% chance to disrupt the target, taking [15.33 - 37.87]% of their Power as your own."
+            ]
+        }
+    ]
 }

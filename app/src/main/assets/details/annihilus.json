@@ -15,6 +15,67 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kozmik asasını kaldırmayan şampiyon kullanma. Asayı nötralize etmek durdurulamazlığını ve güç çekme immünitesini kaldırır. Nötralize dışında durdurulamaz süresini kısaltan şampiyonlar da işe yarar.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Annihilus Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Güç Emme/Yakma Bağışıklığı 🔋"
+    "signatureAbility": "Tremble Before Me\nWhile his Opponent's back is near a wall, Annihilus Gains a Passive Aptitude, increasing the Potency of all Fury, Armor Up, and Precision Buffs by [9.88 - 100]%.\nWhile Annihlus' back is near a wall he gains a Passive Block Penetration Buff, allowing all attacks to ignore [25 - 100]% of the Opponents Block Proficiency.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Güç Emme/Yakma Bağışıklığı 🔋",
+    "abilitySections": [
+        {
+            "title": "Cosmic Control Rod - Buff",
+            "content": [
+                "Annihilus gains the Cosmic Control Rod at the Start of the Fight.",
+                "Whenever the opponent activates a Nullify, Fateseal, or Stagger ability, The effect is Purified and the Cosmic Control Rod is removed for 10 seconds.",
+                "Immune to Incinerate, Frostbite, Coldsnap, Power Drain, Power Steal, Power Burn, Power Lock, and Enervate.",
+                "While Taunted, gain a True Accuracy Buff, an Unblockable Buff, and an Unstoppable Buff."
+            ]
+        },
+        {
+            "title": "Obliterating Strikes",
+            "content": [
+                "While the Cosmic Control Rod is active, all attacks have a 60% chance to be an Obliterating Strike.",
+                "Obliterating Strikes are not affected by Ability Accuracy reduction.",
+                "Obliterating Strikes have a 100% chance to inflict Armor Break, reducing Armor Rating by [250] for 5 seconds.",
+                "Annihilus Purifies incoming Stun Debuffs while launching Obliterating Strikes."
+            ]
+        },
+        {
+            "title": "Stifle (Max 12)",
+            "content": [
+                "Whenever Annihilus would inflict an Armor Break, he also has a 100% chance to inflict Stifle, reducing Offensive Combat Power Rate by 9% for 4 seconds.",
+                "While the Opponent is Stifled, Annihilus' first Medium Attack in a combo removes 1 Stifle and generates 1 Fury Buff, increasing Attack Rating by [1,120.2] for 0.9 seconds.",
+                "If the Opponent Dashes Back while Stifled, Annihilus removes 1 Stifle and gains 1 Unstoppable Buff lasting 1.1 seconds."
+            ]
+        },
+        {
+            "title": "IT'S MIIIIINE--!",
+            "content": [
+                "When the Cosmic Control Rod is Removed, Annihlus gains 3 Fury Buffs, each increasing Attack Rating by [1,493.6] for 10 seconds"
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit Refreshes all personal Stifle Debuffs on the Opponent, and the Final Hit pauses the duration of all Stifle Debuffs for 6 seconds.",
+                "Any Paused Stifles on the Opponent increase Annihilus' Offensive Combat Power Rate by 9%"
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "When Activating this Special, Annihilus consumes every Stifle on the Opponent, each generating 1 Fury increasing Attack Rating by [1,120.2] for 18 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Annihilus inflicts the Opponent with 10 Stifle Debuffs, each reducing Offensive Combat Power Rate by 9% for 4 seconds.",
+                "Until the Opponent has 0 Stifles remaining, the duration of Stifle Debuffs is increased by 125%"
+            ]
+        },
+        {
+            "title": "Signature Ability - Tremble Before Me",
+            "content": [
+                "While his Opponent's back is near a wall, Annihilus Gains a Passive Aptitude, increasing the Potency of all Fury, Armor Up, and Precision Buffs by [9.88 - 100]%.",
+                "While Annihlus' back is near a wall he gains a Passive Block Penetration Buff, allowing all attacks to ignore [25 - 100]% of the Opponents Block Proficiency."
+            ]
+        }
+    ]
 }

@@ -14,6 +14,64 @@
     "synergies": [],
     "howToPlay": "Silk için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Silk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yırtılma debuff'ları süresini %90 azaltır ☣️⏰\n• Buff Bağışıklığı (sadece isabet buff'ına bağışık) 🗡️🚫\n• %30 Dejenerasyon direnci (ile sinerji: Spider-Gwen ve Miles) ☠️"
+    "signatureAbility": "Crazy Stuff Happens, I Punch It\nStriking the Opponent with a Heavy Attack or while their back is against the wall inflicts a Slow Debuff for 2 seconds, paused while Silk has a personal Fury Passive or while the Opponent remains against the wall.\nWhile this Slow is active, during Silk's attacks the Opponent suffers -[10 - 150]% Regeneration Rate.",
+    "immunityDetails": "• Yırtılma debuff'ları süresini %90 azaltır ☣️⏰\n• Buff Bağışıklığı (sadece isabet buff'ına bağışık) 🗡️🚫\n• %30 Dejenerasyon direnci (ile sinerji: Spider-Gwen ve Miles) ☠️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Silk's heightened agility keeps her one step ahead of danger. Incoming Ruptures and Slows suffer -90% duration.",
+                "While Dodging back, Silk cannot be struck by attacks. She does not benefit from the Dexterity Mastery, but each rank grants her +[200] Critical Rating."
+            ]
+        },
+        {
+            "title": "Silk-Sense - Evade",
+            "content": [
+                "Silk has a 100% chance to Evade Special Attacks.",
+                "After triggering or when Silk is Critically Hit, this effect goes on cooldown for 25 seconds or until the Opponent is struck 20 times."
+            ]
+        },
+        {
+            "title": "All Attacks",
+            "content": [
+                "Silk's attacks inflict a [305.56] Physical Vulnerability Debuff for 1.2 seconds. Max stacks: 50.",
+                "Silk's Physical Vulnerability Debuffs are refreshed when the Opponent is struck, and removed when the Opponent activates a Special Attack or is knocked down."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "While charging a Heavy Attack, if the Opponent is within striking distance and suffering from any of Silk's Physical Vulnerability Debuffs, inflict a Stun Debuff for 1.2 seconds.",
+                "The first hit grants Silk a Fury Passive increasing Attack Rating by +[7,391.4] for 1.2 seconds. Max stacks: 3.",
+                "Silk's Fury Passives are refreshed when the Opponent is struck, and removed when the Opponent activates a Special Attack or is knocked down."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final hit deals a burst of [14,782.8] Physical Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The first hit inflicts a Sunder Debuff for 30 seconds.",
+                "The final hit deals a burst of [24,638] Physical Damage."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Knocking down the Opponent with this Special Attack does not remove Silk's active personal effects.",
+                "Inflict a Stun Passive for 4 seconds. While this Stun is active, the Opponent suffers -100% Combat Power Rate and Silk's is increased by +100%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Crazy Stuff Happens, I Punch It",
+            "content": [
+                "Striking the Opponent with a Heavy Attack or while their back is against the wall inflicts a Slow Debuff for 2 seconds, paused while Silk has a personal Fury Passive or while the Opponent remains against the wall.",
+                "While this Slow is active, during Silk's attacks the Opponent suffers -[10 - 150]% Regeneration Rate."
+            ]
+        }
+    ]
 }

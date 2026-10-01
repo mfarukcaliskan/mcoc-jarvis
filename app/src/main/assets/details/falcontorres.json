@@ -14,5 +14,75 @@
     "synergies": [],
     "howToPlay": "Falcon (Joaquin Torres) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Falcon (Joaquin Torres) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Enhanced Hybrid Physiology\nIncrease the potency of Falcon's Bulwark Passive by [10 - 50]%.\nFalcon deals a burst of [1,050.9 - 5,254.63] Physical Damage when the Opponent's Unstoppable or Evade effects fail to trigger due to Ability Accuracy reduction. Cooldown: 1 second.\nFalcon's Physical Vulnerability Debuff from swapping Instincts now pauses during all Special Attacks.\nAfter the start of each fight, inflict a Slow Debuff for 12 seconds. This is removed if the Defensive Instinct Slow activates.",
+    "abilitySections": [
+        {
+            "title": "Hybrid Physiology",
+            "content": [
+                "Falcon's part Vampiric biology allows him to regenerate unnaturally. Falcon Instantly Regenerates 40% of the damage taken during Opponent's Special Attacks. This potency scales +10% flat for every Special Attack the Opponent uses, up to a max of 3 times.",
+                "Falcon cannot Regenerate damage from Critical Hits.",
+                "Falcon's lethal talons allow for deadly finishing strikes. Falcon's third Light Attack inflicts a 10% Debilitate Debuff for 20 seconds. These are paused during Opponent's Special Attacks. Max stacks: 3.",
+                "Falcon does not gain a Precision Buff when using the Dexterity Mastery. Instead, he pauses Trauma Debuffs on the Opponent for 5 seconds. This effect goes on cooldown until Falcon activates his next Special Attack."
+            ]
+        },
+        {
+            "title": "Redwing Instincts",
+            "content": [
+                "Falcon starts each fight with his trusted sidekick Redwing at his side in Defensive Instinct. Falcon benefits from different effects while Redwing is in different Instincts. Redwing swaps Instincts when Falcon lands a second Medium Attack, or after an Opponent's Special Attack.",
+                "When Redwing swaps Instincts, Falcon inflicts a Physical Vulnerability Debuff reducing Physical Resistance by [1,833.33] for 4 seconds . This cannot be inflicted while already active."
+            ]
+        },
+        {
+            "title": "Defensive Instinct",
+            "content": [
+                "Gain a Bulwark Passive increasing Block Proficiency by +[1,833.33].",
+                "When the Opponent activates a Special attack, inflict a non-stacking Slow Debuff for 16 seconds."
+            ]
+        },
+        {
+            "title": "Aggressive Instinct",
+            "content": [
+                "While the Opponent is suffering from a Slow effect, they are more aggressive.",
+                "Falcon's attacks have a 50% chance to inflict a 5% Trauma Debuff for 15 seconds. Max stacks: 25.",
+                "Dash Attacks pause Falcon's Slow Debuff for 4 seconds."
+            ]
+        },
+        {
+            "title": "Velocity - Max: 10",
+            "content": [
+                "Gain 1 Velocity Charge when Falcon inflicts the Opponent with a non-Damaging Debuff, excluding Trauma Debuffs. Additionally, gain 1 Charge when the Opponent activates a Special Attack.",
+                "When at max Velocity Charges, Redwing reaches Peak Performance. Activate a Special Attack to combine the effects of both Instincts for 20 seconds and remove all Charges. While active, reaching max Velocity Charges refreshes this effect and re-inflicts his Physical Vulnerability Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Defensive Instinct: The first hit inflicts a non-stacking 20% Special Weakness Debuff for 16 seconds.",
+                "Aggressive Instinct: The first hit grants a non-stacking +[4,203.6] Fury Passive for 20 seconds, and 1 Velocity Charge."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Defensive Instinct: Pause all non-Damaging Debuffs other than Stun on the Opponent during this attack and for 6 seconds after.",
+                "Aggressive Instinct: Each hit inflicts a personal Trauma Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain 5 Velocity Charges.",
+                "Inflict a 2% Special Weakness Debuff for 20 seconds. While active, Trauma Debuffs now also grant Velocity Charges."
+            ]
+        },
+        {
+            "title": "Signature Ability - Enhanced Hybrid Physiology",
+            "content": [
+                "Increase the potency of Falcon's Bulwark Passive by [10 - 50]%.",
+                "Falcon deals a burst of [1,050.9 - 5,254.63] Physical Damage when the Opponent's Unstoppable or Evade effects fail to trigger due to Ability Accuracy reduction. Cooldown: 1 second.",
+                "Falcon's Physical Vulnerability Debuff from swapping Instincts now pauses during all Special Attacks.",
+                "After the start of each fight, inflict a Slow Debuff for 12 seconds. This is removed if the Defensive Instinct Slow activates."
+            ]
+        }
+    ]
 }

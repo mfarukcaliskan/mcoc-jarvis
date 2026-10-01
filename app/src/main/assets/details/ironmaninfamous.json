@@ -19,6 +19,70 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Güç Yakmaya bağışık ve Şoka bağışık şampiyonlar kullanmak önemli. Onu yenmenin bir başka etkili yolu da Zırh Kırma yeteneği olan şampiyonlar kullanmaktır. Özel 1 aldatıcı olabileceğinden, onu Özel 2 kullanmaya zorlamak tercih edilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Iron Man (Infamous) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Şok Bağışıklığı ⚡️"
+    "signatureAbility": "Arcane Overload\nOnce per fight, when Infamous Iron Man's Health drops below 15%, he gains a Regeneration Buff, healing [5 - 35]% of his Maximum Health over 10 seconds. While this effect is active, the Opponent is passively Special Locked.\nWhile Aura of Iron is active, the Opponent suffers 100% flat reduced Unblockable Ability Accuracy.\nWhile his personal Armor Up Buff is active, Infamous Iron Man gains [144.73 - 1,178.54] Block Proficiency and Energy Resistance.",
+    "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Şok Bağışıklığı ⚡️",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "When Infamous Iron Man would land a Critical Hit, he instead inflicts an instant Shock dealing Energy Damage equal to the damage the Critical would've dealt. This cannot trigger on the first hit of his Heavy Attack.",
+                "If an Opponent would gain 2 or more Prowess effects at once, those Prowesses are converted into a single indefinite Energy Vulnerability Debuff that reduces their Energy Resistance by [1,178.57]. Each subsequent Debuff is 10% less potent than the previous one."
+            ]
+        },
+        {
+            "title": "Armor Up",
+            "content": [
+                "Victor Von Doom's modifications to his Iron Man armor grant him extra protection. He starts the fight with an indefinite Austere Armor Up Buff granting [1,8833.33] Armor Rating. While he has this Buff, he is immune to Shock and Incinerate.",
+                "If this Buff is lost, it restores itself after 10 seconds. This timer is paused while Infamous Iron Man is suffering from an Armor Break."
+            ]
+        },
+        {
+            "title": "Basic Attacks",
+            "content": [
+                "Infamous Iron Man's Medium Attacks do not make contact and inflict Shock Debuffs dealing [1,169.38] Energy Damage over 2.5 seconds.",
+                "While charging a Heavy Attack, if the Opponent is within striking distance and suffering from Shock, all their Shock effects are consumed and replaced with a Passive Stun for 0.6 seconds. This cannot trigger during the Opponent's Special Attacks.",
+                "The final hit of Infamous Iron Man's Heavy Attack inflicts a non-stacking Cowardice Debuff, reducing the Opponent's Special Attack damage by 40% for 8 seconds.",
+                "When one or more Shocks are consumed by Infamous Iron Man's abilities, he triggers Aura of Iron for 2.6 seconds for each Shock removed, if it is not already active."
+            ]
+        },
+        {
+            "title": "Aura of Iron",
+            "content": [
+                "The Aura of Iron can't trigger while Infamous Iron Man does not have his personal Armor Up Buff, and its duration is reduced by 4 seconds for each unique, non-Prowess Buff on the Opponent above two.",
+                "The Aura is paused during both Champion's Special Attacks. While paused this way, landing a Medium Attack ends the Aura early.",
+                "Infamous Iron Man's Special Attacks are passively Unblockable.",
+                "Each time he inflicts one of his personal Shocks, it is immediately replaced by an instant Energy Power Burn that burns a percentage of the Opponent's current Power based on the potency of the replaced Shock. Deals [1,683.9] Energy Damage to the Opponent per percent of Max Power burned.",
+                "Infamous Iron Man becomes passively Unstoppable and Stun Immune against the last hit of incoming Special 1, Special 2, and Heavy Attacks. In addition, if the damage of the hit exceeded 5% of his Maximum Health, he gains a Regeneration Buff, restoring the excess damage over 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On Activation, enter Aura of Iron for 8 seconds.",
+                "If it was already active, the Opponent is passively Special Locked for Aura of Iron's remaining duration."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "After the first hit of this attack lands, Infamous Iron Man gains +[2,338.75] Attack Rating for each of the Opponent's filled Bars of Power for the remainder of the attack.",
+                "Each beam hit inflicts a Shock Debuff dealing [10,290.5] Energy Damage over 5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "On Activation, enter Aura of Iron for 24 seconds. This Aura cannot be ended early, and until it next expires, Infamous Iron Man has +[2,700] Critical Rating for each of the Opponent's filled Bars of Power.",
+                "If Aura of Iron was already active, both Infamous Iron Man and his Opponent gain an Energize Passive increasing their Combat Power Rates by 100%, each lasting until Aura of Iron next expires."
+            ]
+        },
+        {
+            "title": "Signature Ability - Arcane Overload",
+            "content": [
+                "Once per fight, when Infamous Iron Man's Health drops below 15%, he gains a Regeneration Buff, healing [5 - 35]% of his Maximum Health over 10 seconds. While this effect is active, the Opponent is passively Special Locked.",
+                "While Aura of Iron is active, the Opponent suffers 100% flat reduced Unblockable Ability Accuracy.",
+                "While his personal Armor Up Buff is active, Infamous Iron Man gains [144.73 - 1,178.54] Block Proficiency and Energy Resistance."
+            ]
+        }
+    ]
 }

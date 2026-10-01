@@ -12,6 +12,81 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): 10 nötronda tüm kritik ve ofansif yetenekleri engelleyen kaçış bonusu kazanır; 30'da yakındaki rakibe enerji hasarı verir; 40'ta (Superior Fury) kaçış pasif olur ve özel saldırılarında rakibi köklendirir. 40 nötrona ulaşmadan öldürmek şart — hiçbir şampiyon kaçışına immün değil. Özel saldırılar kaçışa takılmaz, bu yüzden özel hasarı yüksek şampiyonlar iyi. Bonus süresini kısaltan (Mojo, Kindred) veya pasif güç kazanan/çalan şampiyonlar (Sorcerer Supreme, America Chavez, Tigra, The Hood, Wong, Symbiote Supreme) da iyi seçenek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Maestro Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️\n• Yakma Bağışıklığı 🔥"
+    "signatureAbility": "Neutronium Might\nActivating a Special Attack grants an additional 3 Neutronium, as well as Refresh Personal Fury Effects.\nEach Neutronium also grants Maestro +[2 - 19] Block Penetration.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Şok Bağışıklığı ⚡️\n• Yakma Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "An enhanced immune system and advanced armaments provide full Immunity to Poison, Shock, and Incinerate.",
+                "Maestro has given up his Superiority in order to become the most powerful Cosmic, gaining an extra +[2,033.6] Attack Rating against Tech Champions."
+            ]
+        },
+        {
+            "title": "Neutronium - Max: 40",
+            "content": [
+                "Maestro gains 1 Neutronium per second, disabled during Superior Rage. He gains them 25% slower against Mystic Champions.",
+                "Second Medium Attacks grant Maestro 3 Neutronium.",
+                "After being knocked down, Maestro cannot gain Neutronium for 6 seconds. This cannot be triggered again for 8 seconds after it expires. If one of Maestro's Buffs expires naturally, these durations are removed.",
+                "If one of Maestro's Buffs expires naturally, he cannot gain Neutronium for 8 seconds.",
+                "Whenever Maestro is Immune to an effect or has a Buff Nullified, gain 3 Neutronium. This has a 5 second cooldown."
+            ]
+        },
+        {
+            "title": "ISO-8 Buffs",
+            "content": [
+                "ISO-8 Buffs cannot be affected by Ability Accuracy and last for 36 seconds.",
+                "At 10 Neutronium, gain a Glancing Buff causing all incoming Basic Attacks to have a 100% chance to Glance.",
+                "At 20 Neutronium, gain a Pierce Buff of [144.74] potency.",
+                "At 30 Neutronium, gain a Cosmic Radiation Buff. While active, Opponents near Maestro take [1,016.8] Energy Damage per second. While Maestro is suffering from Atrophy, reduce the potency of the Energy Damage by 50%.",
+                "When Maestro would gain a ISO-8 Buff, retrigger all other ISO-8 Buffs from previous thresholds."
+            ]
+        },
+        {
+            "title": "Superior Rage",
+            "content": [
+                "At 40 Neutronium, Maestro enters Superior Rage and gains +[2,542] Attack Rating.",
+                "During Superior Rage, 1 Neutronium expires every second. While Maestro is suffering from Atrophy they expire 50% faster.",
+                "When entering Superior Rage, remove all personal Buffs and gain a Passive copy retaining the same potency and effects.",
+                "When knocked down during Superior Rage, Maestro loses 5 Neutronium.",
+                "Maestro cannot gain Neutronium for 6 seconds after Superior Rage ends.",
+                "Superior Rage ends when Maestro has 0 Neutronium, removing all personal Buffs, Passives, and any cooldowns for Neutronium."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Activating a Special Attack grants 2 Neutronium.",
+                "Superior Rage: On activation, inflict a Root Passive until the final hit of the Special Attack. This will not trigger while Maestro is suffering from Atrophy."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit deals a burst of [2,033.6] Energy Damage. Deal an additional burst of Energy Damage for each active personal Fury effect. As a Defender this Damage scales with Base Attack Only.",
+                "Superior Rage: This can trigger through Block."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, for each active ISO-8 Buff or Passive, gain a Fury Buff increasing Attack Rating by +[1,220.16] for 36 seconds. Max stacks: 3.",
+                "Superior Rage: Gain Fury Passives instead of Buffs, and gain an Energy Penetration Passive causing all attacks to ignore 50% of the Opponent's current Energy Resistance for 36 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain 20 Neutronium.",
+                "Superior Rage: Inflict a Stun Debuff for 4 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Neutronium Might",
+            "content": [
+                "Activating a Special Attack grants an additional 3 Neutronium, as well as Refresh Personal Fury Effects.",
+                "Each Neutronium also grants Maestro +[2 - 19] Block Penetration."
+            ]
+        }
+    ]
 }

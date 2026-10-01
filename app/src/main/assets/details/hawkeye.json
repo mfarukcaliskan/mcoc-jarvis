@@ -13,6 +13,63 @@
     "synergies": [],
     "howToPlay": "Hawkeye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Hawkeye Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı (ile sinerji: Nick Fury) 🧪"
+    "signatureAbility": "Hemorrhage\nLanding a Critical Hit with an Arrow Shot will cause any personal Bleed Debuff triggered to become a Critical Bleed, multiplying the Bleed's Potency by Hawkeye's Critical Damage Multiplier.\nAdditionally each Bleed Debuff on the opponent reduces their Physical Resistance by [407.29 - 723.55].",
+    "immunityDetails": "• Zehir Bağışıklığı (ile sinerji: Nick Fury) 🧪",
+    "abilitySections": [
+        {
+            "title": "Dialed In",
+            "content": [
+                "During Special Attacks, press the Block Input after the first hit to slow down time. Releasing the Block Input precisely when Hawkeye releases the arrow grants a Perfect Release bonus.",
+                "Activating a Perfect Release bonus grants a Dialed In Passive, increasing duration of personal Debuffs inflicted by Arrow strikes by 10%. All Dialed In Passives are removed when failing to activate a Perfect Release. Max Stacks: 5."
+            ]
+        },
+        {
+            "title": "Basic Attacks",
+            "content": [
+                "Pause all Bleed Debuffs on the opponent for 1 second(s)."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Causes a Slow Debuff on the opponent for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Final Hit: 100% chance to inflict a Bleed Debuff dealing [10,266] direct damage over 10 seconds. Each bar of Power spent beyond 1 grants +1 Debuff and +5 seconds Duration.",
+                "Perfect Release: Arrow attack becomes a Guaranteed Critical Hit."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to inflict Power Drain, removing 75% of a bar of Power.",
+                "Perfect Release: 100% chance to inflict a Suppression Debuff, reducing the Opponents Combat Power Rate by 50% for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict a 25 second Fragility Debuff. Attacking a Fragile Opponent grants +[1,178.57] Critical Damage Rating and reduces Block Proficiency by 50%.",
+                "Perfect Release: Inflict an additional Fragility Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "All Bleeds triggered during this attack gain up to +200% duration based on Hawkeye's Critical Rating.",
+                "Based on Hawkeye's Critical Chance, Bleeds triggered during this attack can be Critical Bleeds, multiplying the Bleed's Potency by Hawkeye's Critical Damage Multiplier.",
+                "Getting a Perfect result in the Special 3 Mini-Game grants Maximum Critical Rating for the attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - Hemorrhage",
+            "content": [
+                "Landing a Critical Hit with an Arrow Shot will cause any personal Bleed Debuff triggered to become a Critical Bleed, multiplying the Bleed's Potency by Hawkeye's Critical Damage Multiplier.",
+                "Additionally each Bleed Debuff on the opponent reduces their Physical Resistance by [407.29 - 723.55]."
+            ]
+        }
+    ]
 }

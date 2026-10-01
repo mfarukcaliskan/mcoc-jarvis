@@ -19,6 +19,76 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): E1'de köklenme uygular — E2'ye zorla. Köklenirsen özel saldırı kullanarak kurtul. Yetenek azaltıcı şampiyonlar da köklenmeyi önler.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Kraven Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı (ile sinerji: Arcade) 🩸"
+    "signatureAbility": "Entrapment\nWhile the Opponent is rooted Dash Attacks grant a Trample Passive, making the attack Unblockable except against Well-Timed Blocks\nWhile the Opponent is rooted all Bleeds are Critical Bleeds, multiplying their Potency by [100 - 200]% of Kraven's Critical Damage.",
+    "immunityDetails": "• Kanama Bağışıklığı (ile sinerji: Arcade) 🩸",
+    "abilitySections": [
+        {
+            "title": "Jungle Fighter",
+            "content": [
+                "Heavy Attack: First hit inflicts a non-stacking Disorient Debuff, decreasing Block Proficiency and Defensive Ability Accuracy by 40% for 16 second(s).",
+                "Critical Hits: Inflict a Bleed Debuff, dealing [2,417.04] Direct over 8 second(s)."
+            ]
+        },
+        {
+            "title": "When Debuffed - Endurance Passive",
+            "content": [
+                "Each time Kraven receives a non-damaging Debuff, reduce the duration of future non-damaging Debuffs by 10% for the rest of the fight. Max 8 stacks."
+            ]
+        },
+        {
+            "title": "Trap",
+            "content": [
+                "If the Opponent moves into a Trap, it springs and deals a Burst of [7,553.25] Direct Damage and Roots them for 5 second(s). Damage scales with Base Attack only. If the Opponent moves into the Trap during a special, the Trap is removed.",
+                "If the Opponent is pushed into the Trap by a Heavy or Special 2, Kraven has a 100% chance to place a new Trap when the Root expires.",
+                "Rooted Champions cannot move, but can still attack, block, and dodge. Activating a Special Attack removes Root and prevents it from applying.",
+                "While the Opponent is rooted, Kraven's Dash Attacks become Unstoppable, his damage over time Debuffs are paused and he gains [1,833.33] Critical Rating.",
+                "While the Opponent is rooted, their Combat Power Rate is reduced by 37.5%."
+            ]
+        },
+        {
+            "title": "Suppression - Cross-Fight",
+            "content": [
+                "Traps also inflict a Cross-Fight Suppression Passive on the Opponent, reducing Combat Power Rate by 6.25% for this and the next 5 fights. Max 2 stacks. Traps cannot suppress Opponents with Natural Class Advantage.",
+                "In the following fights Suppression Potency is increased by 100%."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "Root Debuff and Precision Buff are paused."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Kraven sets a Trap at the Opponent location, the Trap arms after 5 second(s) and lasts until triggered. New Traps replace existing ones. As a Defender Traps are placed at his location and arms immediately. Traps are not affected by Ability Accuracy reduction.",
+                "If the Opponent is already rooted by a Trap, Critical Damage Rating is increased by [239.13] for the duration of this Attack instead.",
+                "Bleed effects are paused.",
+                "Gain a non-stacking True Accuracy Buff for 20 second(s). Triggering a Trap refreshes this effect."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain a Precision Buff, increasing Critical Rating by [1,416.67] for 20 second(s). Triggering a Trap refreshes this effect. Max 5 stacks.",
+                "The first hit is Unblockable and inflicts a Poison Debuff, reducing Health Recovery by 30% and Dealing [10,071] Direct Damage over 3 second(s).",
+                "If the Opponent is rooted, refresh all Bleed effects."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a Cruelty Buff, increasing Critical Damage Rating by [305.56] until Kraven is knocked down.",
+                "If the Opponent is rooted they gain no Power during the Special and the potency of the Cruelty Buff is increased by 100%.",
+                "If the Opponent is not rooted but a Trap is placed, even if not armed, the Trap springs regardless of the Opponent's position."
+            ]
+        },
+        {
+            "title": "Signature Ability - Entrapment",
+            "content": [
+                "While the Opponent is rooted Dash Attacks grant a Trample Passive, making the attack Unblockable except against Well-Timed Blocks",
+                "While the Opponent is rooted all Bleeds are Critical Bleeds, multiplying their Potency by [100 - 200]% of Kraven's Critical Damage."
+            ]
+        }
+    ]
 }

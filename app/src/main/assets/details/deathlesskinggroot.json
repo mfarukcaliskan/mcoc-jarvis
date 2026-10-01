@@ -11,5 +11,74 @@
     "synergies": [],
     "howToPlay": "King Groot (Deathless) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "King Groot (Deathless) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Unyielding Might\nGain up to +[40 - 101]% Incinerate duration based on how long the fight has gone on. Max bonus after 100 seconds.\nWhen Malice enters cooldown, gain a Regeneration Buff recovering [6,923 - 17,352.94] Health over 12 seconds.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Unique physiology grants Immunity to Bleed, Power Drain and Power Burn effects."
+            ]
+        },
+        {
+            "title": "Personal Fury Buffs",
+            "content": [
+                "Unless otherwise stated, personal Fury Buffs each provide +[2,170.5] Attack Rating and last 14 seconds.",
+                "When inflicted with a Debuff, spend 1 personal Fury Buff to remove the effect after 0.5 seconds.",
+                "When a personal Fury Buff is spent, gain an indefinite Ignition Buff. Max stacks: 3."
+            ]
+        },
+        {
+            "title": "Malice - Passive",
+            "content": [
+                "Start the fight with a Malice Passive, which grants 3 Fury Buffs each time it activates. Malice lasts as long as at least 1 personal Fury Buff is active.",
+                "While Malice is active: Gain up to +100% Fury Buff Potency based on how long the fight has gone on. Max Bonus after 100 seconds.",
+                "When Malice ends, it goes on cooldown for 12 seconds."
+            ]
+        },
+        {
+            "title": "While Malice is on Cooldown",
+            "content": [
+                "Any attack that makes contact from either Champion has a 30% chance to grant 1 Fury Charge. When cooldown ends, gain 1 Fury Buff for each Charge and re-enter Malice.",
+                "When the Opponent Evades, Auto-Blocks, or causes an attack to Miss, gain 2 Fury Charges. Cooldown: 2 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Deal a burst of [723.5] Energy Damage, this damage is doubled while the Opponent is Incinerated.",
+                "Pause all Incinerate and Armor Break Debuffs on the Opponent for 3 seconds.",
+                "Malice: Spend 1 Fury Buff to instead Pause for 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Each hit inflicts a [375] Armor Break Debuff for 15 seconds. These Armor Breaks also reduce Energy Resistance by 8%. Max stacks: 10.",
+                "Malice: Spend 1 Fury Buff to make the Armor Break indefinite."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each Infernal Breath hit deals a burst of [7,235] Energy Damage. This damage is doubled against #Hero Champions of the Tech Class.",
+                "The final hit inflicts an Incinerate Debuff dealing [14,470] Energy Damage over 10 seconds. Max stacks: 2.",
+                "When this Incinerate triggers, consume all Ignition Buffs to increase its potency by +30% for each Buff consumed.",
+                "Malice: Spend 1 Fury Buff to double the Incinerate's duration."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a Regeneration Buff, recovering [17,307.5] Health over 3 seconds. This Regeneration Buff is paused while Heal Blocked.",
+                "Malice: Spend 1 Fury Buff to increase the Regeneration Buff's duration by 50%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Unyielding Might",
+            "content": [
+                "Gain up to +[40 - 101]% Incinerate duration based on how long the fight has gone on. Max bonus after 100 seconds.",
+                "When Malice enters cooldown, gain a Regeneration Buff recovering [6,923 - 17,352.94] Health over 12 seconds."
+            ]
+        }
+    ]
 }

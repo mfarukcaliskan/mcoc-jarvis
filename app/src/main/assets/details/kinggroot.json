@@ -12,6 +12,72 @@
     "synergies": [],
     "howToPlay": "King Groot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "King Groot Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Emme/Yakma Bağışıklığı 🔋\n• %100 Arındırma (Fury'lerle) 💪🏼\n• Kanama Bağışıklığı 🩸\n• Güç Emme/Yakma Bağışıklığı 🔋\n• %100 Arındırma (Fury'lerle) 💪🏼"
+    "signatureAbility": "Unyielding Might\nWhile Malice is active: Gain up to +[50 - 100]% Poison duration based on how long the fight has gone on. Max Bonus after 100 seconds.\nWhen Malice enters Cooldown, gain a Regeneration Buff, recovering [3,066.3 - 12,921.39] Health over 13 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Güç Emme/Yakma Bağışıklığı 🔋\n• %100 Arındırma (Fury'lerle) 💪🏼\n• Kanama Bağışıklığı 🩸\n• Güç Emme/Yakma Bağışıklığı 🔋\n• %100 Arındırma (Fury'lerle) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Unique physiology grants Immunity to Bleed, Power Drain and Power Burn effects."
+            ]
+        },
+        {
+            "title": "Personal Fury Buffs",
+            "content": [
+                "Unless otherwise stated, King Groot's Fury Buffs each provide +[854.7] Attack Rating and last 13 seconds.",
+                "Whenever King Groot receives a Debuff, he will spend 1 personal Fury Buff after 0.5 seconds to Purify that Debuff."
+            ]
+        },
+        {
+            "title": "Malice - Passive",
+            "content": [
+                "King Groot starts the fight with a Malice Passive, which grants 3 Fury Buff(s). Malice lasts as long as King Groot has at least 1 Personal Fury Buff remaining.",
+                "While Malice is active: Gain up to +100% Fury Buff Potency based on how long the fight has gone on. Max Bonus after 100 seconds.",
+                "When Malice ends, it goes on Cooldown for 13 seconds."
+            ]
+        },
+        {
+            "title": "While Malice is on Cooldown",
+            "content": [
+                "Attacks from either Champion have a 20% chance to grant 1 Fury Charge. When Cooldown ends, gain 1 Fury Buff for each Charge acquired and re-enter Malice.",
+                "Each time King Groot's attack is Evaded, Auto-Blocked, or Misses gain 2 Fury Charge(s). Cooldown 2 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Pause all Poison and Armor Break Debuffs on the opponent for 3 seconds.",
+                "Malice: Spend 1 Fury Buff to instead Pause for 6 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Inflicts up to 3 Armor Break Debuffs, with each having a 100% chance to activate, removing an Armor Up Buff and reducing Armor Rating by [306.82] for 15 seconds. Max Stacks: 10. These Armor Breaks also reduce future Armor Up Buff Potency by 10%.",
+                "Malice: Spend 1 Fury Buff to make the Armor Break indefinite."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit of King Groot's caustic breath deals [1,994.3] direct damage. This damage is tripled against #Robot Champions.",
+                "100% chance to inflict a Poison Debuff, reducing healing effects by 30% and dealing [5,698] direct damage over 10 seconds.",
+                "Malice: Spend 1 Fury Buff to increase the Poison duration by +100%."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to gain a Regeneration Buff, recovering [6,814] Health over 3 seconds. This Regeneration Buff is Paused while King Groot is Heal Blocked.",
+                "Malice: Spend 1 Fury Buff to increase the Buff duration by 50%."
+            ]
+        },
+        {
+            "title": "Signature Ability - Unyielding Might",
+            "content": [
+                "While Malice is active: Gain up to +[50 - 100]% Poison duration based on how long the fight has gone on. Max Bonus after 100 seconds.",
+                "When Malice enters Cooldown, gain a Regeneration Buff, recovering [3,066.3 - 12,921.39] Health over 13 seconds."
+            ]
+        }
+    ]
 }

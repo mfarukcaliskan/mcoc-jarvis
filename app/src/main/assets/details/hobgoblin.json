@@ -14,6 +14,73 @@
     "synergies": [],
     "howToPlay": "",
     "bestUse": "",
-    "signatureAbility": "",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Deliryum süresini %90 azaltır 🧠⏰"
+    "signatureAbility": "Goblin Knight\nStart each fight with 3 Maniacal Charges.\nLunatic Laugh reduces the expiry rate of personal Steadfast and non-Damaging Debuffs by [17 - 50]%.\nHobgoblin's Energy Vulnerability gains +[0.8 - 15]% flat potency.",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Deliryum süresini %90 azaltır 🧠⏰",
+    "abilitySections": [
+        {
+            "title": "Sword and Serum",
+            "content": [
+                "Hobgoblin's perfected Goblin Serum grants him full Immunity to Poison.",
+                "Any repeated Light or Medium Attack in a chain of attacks inflicts an Incinerate Debuff dealing [3,989.2] Energy Damage over 40 seconds.",
+                "After Hobgoblin Glances, his flaming sword inflicts a personal Incinerate Debuff. Cooldown: 1 second.",
+                "This Goblin isn't so easily shaken. Incoming Deliriums have their durations reduced by 10% per Maniacal Charge. Max: 90%."
+            ]
+        },
+        {
+            "title": "Maniacal - Max: 30",
+            "content": [
+                "Hobgoblin's crazed nature allows him to gain Maniacal Charges lasting 7 seconds, paused while charging a Heavy Attack and during the Opponent's Special Attacks. These expire one at a time and are refreshed when gaining a new one.",
+                "His third Light Attack grants +1 Maniacal Charge.",
+                "Preventing a Regeneration effect from healing with Heal Block, or Well-Timed Blocking an Unblockable attack with Steadfast grants +1 Maniacal Charge. Cooldown: 5 seconds.",
+                "While at 10 or greater Maniacal Charges, gain an indefinite Instinct Passive. Against Mutants, this threshold is 5 or greater."
+            ]
+        },
+        {
+            "title": "Lunatic Laugh",
+            "content": [
+                "Hobgoblin's Heavy Attack can be charged for an extended duration.",
+                "Charging Hobgoblin's Heavy Attack for 0.5 seconds performs a Lunatic Laugh which rattles the Opponent for 10 seconds, increasing the tick rate of personal Damaging effects on them by 250%. The Laugh remains paused while Heavy charging.",
+                "Activating a Special Attack 1 or 2 while charging or shortly after starting a Heavy Attack increases the Laugh's tick rate increase of personal Damaging effects to 500%."
+            ]
+        },
+        {
+            "title": "My Own Bag of Tricks - Special Attacks",
+            "content": [
+                "The first hit triggers a non-stacking effect determined by the last Basic Attack landed, whiffed or charged, each lasting 22 seconds.",
+                "Light: inflict a Heal Block Debuff.",
+                "Medium: gain a Steadfast Passive.",
+                "Heavy: inflict a 250 Energy Vulnerability Debuff.",
+                "While at 16 or more Maniacal Charges, Hobgoblin's Special Attacks become Passively Unblockable and the first hit triggers all of these effects."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Winged Mischief",
+            "content": [
+                "Each hit grants +2 Maniacal Charges."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Death from Above",
+            "content": [
+                "The final three hits each inflict a [12,466.25] Incinerate Passive for 20 seconds, with +20% base potency per Maniacal Charge",
+                "At the end of this attack, consume 50% of Maniacal Charges, rounded up. Afterwards, regain 2 Charges if Lunatic Laugh is active."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Bomb Voyage",
+            "content": [
+                "The concussive force of Hobgoblin's giant Pumpkin Bomb inflicts a Stun Debuff for 3 seconds.",
+                "Inflict a non-stacking [59,838] Incinerate Passive for 20 seconds.",
+                "Gain +8 Maniacal Charges."
+            ]
+        },
+        {
+            "title": "Signature Ability - Goblin Knight",
+            "content": [
+                "Start each fight with 3 Maniacal Charges.",
+                "Lunatic Laugh reduces the expiry rate of personal Steadfast and non-Damaging Debuffs by [17 - 50]%.",
+                "Hobgoblin's Energy Vulnerability gains +[0.8 - 15]% flat potency."
+            ]
+        }
+    ]
 }

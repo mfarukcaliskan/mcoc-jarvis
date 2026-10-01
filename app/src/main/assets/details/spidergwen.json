@@ -11,5 +11,70 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlike kaçış — isabetli saldırı veya savunma yeteneği azaltan şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Gwen Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Web Warrior\nWith greater experience in the Contest, Spider-Gwen learns to do whatever a spider can and gains the following ability improvements:\nSlow Debuff lasts [0.5 - 3] seconds longer.\n+[27.78 - 175.53] Critical Damage Rating for each Spider-Sense charge.\nSpecial 2 Stun reduces Power & Health gains by an extra +[5 - 70]%.\n+[10 - 45]% Hunter-Spider and Trap-Spider ability duration.",
+    "abilitySections": [
+        {
+            "title": "Spider-Sense",
+            "content": [
+                "Spider-Gwen begins each fight with 1 charge of Spider-Sense active. Each charge grants +[1,583.85] Attack Rating and a 7% chance to Evade all Champion Attacks. Max: 5 charges.",
+                "When struck 5 times, gain 1 Spider-Sense charge.",
+                "100% chance when struck by an opponent with a True Strike Buff to Nullify that Buff and gain a Spider-Sense charge."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "If fighting a Champion of the Superior Class, begin the fight with an additional 3 Spider-Sense charges."
+            ]
+        },
+        {
+            "title": "Evade Effects",
+            "content": [
+                "+550% Evade Ability Accuracy vs. Unblockable Special Attacks.",
+                "While Blocking, this Champion will not attempt to Evade."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Causes a Slow Debuff on the opponent for 15 seconds."
+            ]
+        },
+        {
+            "title": "Evade an Attack or Land a Combo-Ending Attack",
+            "content": [
+                "Active Hunter-Spider and Trap-Spider effects have their effect duration paused for 0.5 seconds. During Special Attacks, these effects are also paused for the full duration of the attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "100% chance to gain a Passive Trap-Spider effect for 10 seconds. This grants +[339.89] Critical Damage Rating and allows attacks a 30% chance to Enervate the opponent, preventing them from gaining Power when struck for 5 seconds.",
+                "Gain 1 Spider-Sense charge after activating this attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict a 4 second Stun Debuff.",
+                "This Stun Debuff also reduces Regeneration Rate and Combat Power Rate by 80% while active."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to gain a Passive Hunter-Spider effect for 18 seconds, causing each attack to deal a burst of extra Physical Damage equal to 55% of Spider-Gwen's attack damage dealt."
+            ]
+        },
+        {
+            "title": "Signature Ability - Web Warrior",
+            "content": [
+                "With greater experience in the Contest, Spider-Gwen learns to do whatever a spider can and gains the following ability improvements:",
+                "Slow Debuff lasts [0.5 - 3] seconds longer.",
+                "+[27.78 - 175.53] Critical Damage Rating for each Spider-Sense charge.",
+                "Special 2 Stun reduces Power & Health gains by an extra +[5 - 70]%.",
+                "+[10 - 45]% Hunter-Spider and Trap-Spider ability duration."
+            ]
+        }
+    ]
 }

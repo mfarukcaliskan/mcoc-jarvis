@@ -17,6 +17,65 @@
     "synergies": [],
     "howToPlay": "White Tiger için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "White Tiger Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• %20 Arındırma (rakipteki her Buff için) 💪🏼"
+    "signatureAbility": "The Darkness Outside The Cave\nAt the start of each fight, inflict a Fear Passive reducing Unblockable Ability Accuracy by a flat 100% and removing Perfect Block Chance for [6 - 20] seconds.\nOnce per fight when either Champion drops to 15% of their Max Health, White Tiger gains a Power Gain Buff granting 100% of her Max Power over [20 - 6] seconds. As a Defender, this only triggers once per Quest.",
+    "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• %20 Arındırma (rakipteki her Buff için) 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Power of a God",
+            "content": [
+                "The might of the Tiger God grants White Tiger Immunity to Nullify.",
+                "White Tiger has -70% Offensive Combat Power Rate, but she Passively gains Power equal to 50% of the Power the Opponent gains."
+            ]
+        },
+        {
+            "title": "Strength of a Fighter",
+            "content": [
+                "When inflicted with a Damaging Debuff, White Tiger has a 20% chance for each Buff on the Opponent to Purify it.",
+                "Dashing forwards grants a non-stacking Precision Passive increasing Critical Rating by +[4,125] for 2 seconds, paused during White Tiger's Special Attacks."
+            ]
+        },
+        {
+            "title": "Combo-Ending Attacks - Nullify",
+            "content": [
+                "Combo-Ending Attacks Nullify a Power Gain or Energize Buff on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "On activation, gain a Fury Buff increasing Attack Rating by +[3,695.7] for 20 seconds, paused during Special Attacks. Max stacks: 5.",
+                "For each personal Fury Buff, each hit Power Steals 1% of the Opponent's current Power, and White Tiger gains 200% of the Power Stolen. After triggering, this effect goes on cooldown until the end of White Tiger's next Special Attack.",
+                "Finishing a Special Attack with at least 1 Bar of Power grants an Unblockable Passive for 1.5 seconds. Cooldown: 20 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This Special Attack grants White Tiger 1 additional Fury Buff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "The final hit inflicts a Bleed Debuff dealing [24,638] Direct Damage over 3 seconds, paused while the Opponent is Indestructible.",
+                "While this Bleed is active, the Opponent cannot heal and the healing denied is transferred to White Tiger, up to 5% of her Max Health per second.",
+                "After this Bleed expires, Nullify all Regeneration Buffs on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "As an Attacker, this Special Attack cannot be activated unless White Tiger is charging or performing a Heavy Attack.",
+                "This Special Attack grants White Tiger 2 additional Fury Buffs. These can exceed the stack limit.",
+                "Inflict a Fear Debuff for 40 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Darkness Outside The Cave",
+            "content": [
+                "At the start of each fight, inflict a Fear Passive reducing Unblockable Ability Accuracy by a flat 100% and removing Perfect Block Chance for [6 - 20] seconds.",
+                "Once per fight when either Champion drops to 15% of their Max Health, White Tiger gains a Power Gain Buff granting 100% of her Max Power over [20 - 6] seconds. As a Defender, this only triggers once per Quest."
+            ]
+        }
+    ]
 }

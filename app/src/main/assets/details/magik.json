@@ -15,6 +15,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Güç barı dolunca 2,5sn'lik Limbo bonusu uygular (özel saldırılarında duraklar) — Limbo aktifken süresi dolan her bonus degeneration tetikler. Limbo bitince bloktan aldığı hasarın %100'ünü ve toplam hasarın %50'sini anında iyileştirir. Bonus immün şampiyon Limbo'yu tamamen engeller. İyileşme bloğu/tersine çevirme + bonus immünitesi olan şampiyon yok denecek kadar az; bazı bonus-immün Science şampiyonlar (Titania, Ant-Man, Spider-Man 2099, Cassie Lang) despair yeterliliğiyle iyileşmesini güçlü şekilde azaltabilir.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Magik Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı (ile sinerji: Purgatory) 🩸"
+    "signatureAbility": "Darkchylde\nWhen a Limbo Buff is placed on the Opponent, also inflict a non-stacking Degeneration Passives, dealing [3,140] Direct Damage over 20 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı (ile sinerji: Purgatory) 🩸",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "While Dodging back, Magik cannot be struck by Attacks.",
+                "While Defending the Potency of the Mystic Dispersion Mastery is reduced by 50%."
+            ]
+        },
+        {
+            "title": "Limbo - Buff",
+            "content": [
+                "Upon filling a Bar of Power, Magik puts the Opponent in Limbo by placing a Limbo Buff on them for 2.5 seconds, paused during Special Attacks.",
+                "While in Limbo, the Opponent is inflicted with a 75% Neutralize Passive. Against Cosmic Opponents, this potency is 125% instead.",
+                "When triggering Limbo, Magik also places an indefinitely +0 Fury Buff on the Opponent.",
+                "Each Buff that ends on the Opponent while in Limbo inflicts a Degeneration Passive dealing [1589.75] Direct Damage over 20 seconds. Max Stacks: 10.",
+                "All Degeneration effects are paused while in Limbo.",
+                "If Limbo ends while Magik has less Health than when it started, she instantly Regnerates 100% of Blocked Damage and 50% of all other damage taken during Limbo.",
+                "Limbo will not re-trigger while already active."
+            ]
+        },
+        {
+            "title": "Falter - Passive",
+            "content": [
+                "While the Opponent is in Limbo, charging a Heavy Attack inflicts a Falter Passive that increases the Opponent's aggression for 1.5 seconds.",
+                "While the Opponent is in Limbo, Dashing forwards inflicts a Falter Passive for the duration of the Dash.",
+                "In an attack Misses as the result of either of these Falters, both go on cooldown until Limbo ends."
+            ]
+        },
+        {
+            "title": "When Charing a Heavy Attack",
+            "content": [
+                "If the Opponent is in Limbo, apply a 80% Buff Deceleration Passive to them until Imbo ends, and remove any other Personal Buff Acceleration or Deceleration effects.",
+                "If the Opponent is in Limbo, gain an Unblockable Passive until the end of the Heavy Attack."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "The Opponent cannot gain Power while being struck by or Blocking these attacks.",
+                "If the Opponent is in Limbo, apply a 400% Buff Acceleration Passive to them until Limbo ends, and remove any other personal Buff Acceleration or Deceleration effects.",
+                "During Magik's Special Attacks all personal Degeneration effects on the Opponent become Dire, increasing their tick rate by 400%. As a Defender they only become Dire if the Special Attack hits or is Blocked by the Attacker."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final 2 hits each Nullify 1 Fury Buff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "For every 2 Degenerations the Opponent was suffering from at the start of this attack, each hit inflicts 1 Degeneration Passive dealing [784.88] Direct Damage over 3 seconds. Max stacks: 20."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "On activation, this attack gains +[1,589.75] Attack Rating for each Buff and Degeneration effect on the Opponent up to 20 total.",
+                "Nullify all Buffs on the Opponent other than Limbo.",
+                "Refresh all Degeneration and Limbo effects on the Opponent, and pause them for 3 seconds.",
+                "All personal Degeneration effects on the Opponent become Dire, increasing their tick rate by 400% for 3 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Darkchylde",
+            "content": [
+                "When a Limbo Buff is placed on the Opponent, also inflict a non-stacking Degeneration Passives, dealing [3,140] Direct Damage over 20 seconds."
+            ]
+        }
+    ]
 }

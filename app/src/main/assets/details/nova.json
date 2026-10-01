@@ -13,5 +13,73 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Garanti kritik vuruşlu şampiyon kullanma — aldığı hasarı %70 azaltır. Güç kazanımı yoğun, güç kontrolcüleri iyi. Fury'lerini nötralize etmek de önemli (aktifken otomatik bloğa erişir).",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Nova Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "The Human Rocket\nNova's Medium Attacks gain up to [4,987 - 24,932.5] Bonus Attack Rating based on the distance travelled in the last executed dash.\nAt 75+ Nova Charges: Nova's Auto Block triggers the Parry Mastery. This effect cannot interrupt Special Attacks.\nThe duration of Buffs is increased by [20 - 80]%.",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "When successfully striking opponents Nova has -30% Offensive Combat Power Rate.",
+                "While dashing forward, Nova passively gains up to 20% of a Bar of Power based on the distance travelled.",
+                "Nova's Medium Attacks do not make Contact and deal Energy Damage.",
+                "Nova starts the fight with a permanent Fury Buff increasing Attack Rating by [6,981.1]. If Nullified, Removed, or prevented in any way this Buff goes on cooldown for 12 seconds.",
+                "When Nova is struck with True Strike, Unblockable, or guaranteed critical hits Opponents have -70% Attack Rating."
+            ]
+        },
+        {
+            "title": "Worldmind Intervention",
+            "content": [
+                "While Nova has a Fury Buff active, being struck when dashing forward activates Auto-Block allowing Nova to automatically block incoming Basic Attacks. This does not count as a Well-Timed Block. Triggering this ability removes all Fury Buffs and consumes 25 Nova Charges."
+            ]
+        },
+        {
+            "title": "Nova Charges - Max: 100",
+            "content": [
+                "Nova enters the fight at 0 Nova Charges and passively generates them over time. Nova Charges passively generate slower the more charges he has.",
+                "While dashing forward Nova generates additional Nova Charges. More Nova Charges are generated the farther he travels.",
+                "If struck with True Strike, an Unblockable attack, or a guaranteed critical hit, generate 50 Nova Charges.",
+                "When one of Nova's Buffs is Nullified, remove 25 Charges, and prevent Nova Charges from being generated for 6 seconds."
+            ]
+        },
+        {
+            "title": "Nova Force",
+            "content": [
+                "Nova's Medium Attacks deals 30% of damage done as a burst of Energy Damage.",
+                "At 25+ Nova Charges: Nova's Second Medium Attack deals an additional 20% of damage done as burst Energy Damage. Activating this ability consumes 25 Nova Charges.",
+                "At 50+ Nova Charges: Auto-Blocks can be triggered while Stunned. Activating this ability Purifies Stun Debuffs.",
+                "When reaching 75 Nova Charges: Gain a Fury Buff increasing Attack Rating by [3,191.36] for 10 seconds and refresh Nova's active Fury Buffs while below maximum stacks. Max 4 stacks.",
+                "When reaching 100 Nova Charges: Gain an Unblockable Buff for 3 seconds. This ability consumes 100 Nova Charges when this Buff expires, is Nullified, or prevented and prevents Nova Charges from being generated for 6 seconds.",
+                "Against Tech Champions, consuming Nova Charges inflicts an Armor Break Debuff reducing Armor by [687.5] for 24 seconds. This can only stack once."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack pauses all Fury Buffs for 3.5 seconds.",
+                "Consume 25 Nova Charges to gain an Energize Buff increasing Combat Power Rate by 30% for 7 seconds.",
+                "If activated at 75+ Nova Charges, gain a True Strike Buff allowing Nova to ignore Armor, Resistances, Auto-Block and Evade effects for 7 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Gain a Nova Surge Buff granting +100% additional Nova Charge generation for 9 seconds.",
+                "Consume up to 50 Nova Charges to deal up to 55% of damage done as burst Energy Damage with each hit of this attack. Potency of Energy Damage is increased by 100% while Nova has his personal Unblockable Buff Active."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Consumes all Nova Charges and deals 0.55% of damage done as an additional burst of Energy for every Nova Charge consumed.",
+                "Re-activate Nova's permanent Fury Buff if it is on cooldown."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Human Rocket",
+            "content": [
+                "Nova's Medium Attacks gain up to [4,987 - 24,932.5] Bonus Attack Rating based on the distance travelled in the last executed dash.",
+                "At 75+ Nova Charges: Nova's Auto Block triggers the Parry Mastery. This effect cannot interrupt Special Attacks.",
+                "The duration of Buffs is increased by [20 - 80]%."
+            ]
+        }
+    ]
 }

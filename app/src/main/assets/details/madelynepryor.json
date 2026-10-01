@@ -16,6 +16,59 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): E2'si 15sn'lik bir alan açar, o alanda bonus aktive edersen pasif degeneration alırsın — E2'ye ulaşmasına izin verme veya bonus immün şampiyon kullan. Dexterity bonusu tetiklemeyen şampiyonlar (Shuri, Silk, Blue Marvel) da iyi seçenek.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Madelyne Pryor Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Kanama Bağışıklığı 🩸"
+    "signatureAbility": "The Goblin Queen\nMadelyne starts each Quest with a Goblin Horde that persists until the end of the Quest. When she defeats a Defender, she summons another. Max stacks: [1 - 4] (rounded down).\nFor each Horde, Madelyne starts each fight with a [5 - 20]% Uncanny Passive. These last until she activates a Special Attack.\nIn the Pre-Fight Menu, Madelyne can expend Hordes to carry out various tasks:\nCrib Swap: The first Buff the Opponent gains is immediately Nullified. After 15 seconds, they gain a +[306.82] Cruelty Buff for 30 seconds.\nGoblin Instigators: While the pit is active, the Opponent is inflicted with a 30% Infuriate Debuff.",
+    "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Kanama Bağışıklığı 🩸",
+    "abilitySections": [
+        {
+            "title": "Scythe of Sorrows - Always Active",
+            "content": [
+                "When the Scythe Interrupts an Opponent's Heavy Charge, or Punishes their Heavy, Combo-Ending, or Special Attack, it places a +100 Misery Buff for 6 seconds.",
+                "Time slows briefly when a Hindered Defender charges a Heavy Attack or finishes a Combo-Ending Attack.",
+                "When a Buff with reduced potency activates on the Opponent, inflict a Degeneration Passive dealing up to [293,310] Direct Damage, scaling with the Buff's missing potency, over 9 seconds.",
+                "Cosmic Opponents suffer -100% Inexorable Ability Accuracy."
+            ]
+        },
+        {
+            "title": "Force Field - Max Integrity: 100% of Max Health",
+            "content": [
+                "Madelyne starts each fight with a Force Field with integrity equal to 20% of her Max Health.",
+                "While charging her Heavy Attack, Madelyne converts Power into integrity, converting faster the longer she charges.",
+                "When Madelyne would take damage from being struck by or Blocking hits, the Force Field's integrity takes 50% or 100% (respectively) of the damage instead.",
+                "When preventing damage, the Force Field expends less integrity the higher the Opponent's Block Penetration.",
+                "As an Attacker, while her Force Field has integrity, Madelyne is Immune to Bleed and Rupture. When Immune to one or more of either, the Force Field gains +5% of starting integrity."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Negative Energy Beam",
+            "content": [
+                "Beam hits restore +5% of starting integrity to Madelyne's Force Field, increased by an additional +2% for each Buff on the Opponent, up to 15. Power Gain Buffs count as 3 Buffs."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Pit to Otherplace",
+            "content": [
+                "At the end of this attack, Madelyne summons a pit of grasping, clawing arms for 15 seconds, if not already active.",
+                "When the Opponent enters the pit, inflict an 80% Hinder Debuff and a Fear Passive, both for 3 seconds. While in the pit, Misery, Hinder, and Fear effects are paused.",
+                "While Madelyne is in the pit, her Parry Stun expires 100% faster but is paused while charging Heavy Attacks, and she gains a 100% Inexorable Passive. During Cosmic Special Attacks, this becomes a Special Inexorable."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - From Limbo With Love",
+            "content": [
+                "Once used, this attack cannot be used again for 60 seconds.",
+                "Power Steal all Bars of Power that are completely full. Madelyne gains 50% of the Power Stolen.",
+                "After 10 seconds, for each Bar stolen this way, the Opponent gains a Power Gain Buff, granting 50% of a Bar of Power over 15 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Goblin Queen",
+            "content": [
+                "Madelyne starts each Quest with a Goblin Horde that persists until the end of the Quest. When she defeats a Defender, she summons another. Max stacks: [1 - 4] (rounded down).",
+                "For each Horde, Madelyne starts each fight with a [5 - 20]% Uncanny Passive. These last until she activates a Special Attack.",
+                "In the Pre-Fight Menu, Madelyne can expend Hordes to carry out various tasks:",
+                "Crib Swap: The first Buff the Opponent gains is immediately Nullified. After 15 seconds, they gain a +[306.82] Cruelty Buff for 30 seconds.",
+                "Goblin Instigators: While the pit is active, the Opponent is inflicted with a 30% Infuriate Debuff."
+            ]
+        }
+    ]
 }

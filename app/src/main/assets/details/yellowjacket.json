@@ -11,5 +11,69 @@
     "synergies": [],
     "howToPlay": "Yellowjacket için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Yellowjacket Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hostile Takeover\nSpecial 1: Power Sting has a 100% chance to inflict a [0.7 - 2.1] second Stun Debuff if it expires after lasting its full duration.\nSpecial 2: Gain +5 Core Charge when Petrify ends.\nSpecial 3: Power Sting has a 100% chance to re-apply itself once activated. Chance decreases by [45 - 0]% each time this happens.",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "+[1,211.54] Physical Resistance.",
+                "+[5,250] Energy Resistance."
+            ]
+        },
+        {
+            "title": "Nuclear Core - Always Active",
+            "content": [
+                "Starting Charge: 40. Overheat Point: 100+",
+                "Each Charge increases the Potency of personal Debuffs by 1% & reduces the opponent's Regeneration Rate by 1%.",
+                "Either Champion lands a hit: +1 Charge. 60% Chance.",
+                "Opponent Launches a Special Attack: +10 Charge. 100% Chance."
+            ]
+        },
+        {
+            "title": "Nuclear Core - Meltdown",
+            "content": [
+                "When Charge is gained above the Overheat Point, there's a chance to enter Meltdown for 12 seconds. Chance increases with Charge.",
+                "While Meltdown is active: Any contact with the opponent has a 75% chance to inflict a burst of [1,495.55] Physical Damage on them.",
+                "When Meltdown ends: Reset Core back to Starting Charge."
+            ]
+        },
+        {
+            "title": "Incoming Unblockable Special Attacks",
+            "content": [
+                "Each hit has 100% chance to spend 10 Nuclear Core Charge to reduce the opponent's Attack Rating by 75%."
+            ]
+        },
+        {
+            "title": "Special Attacks - Mystic Opponent",
+            "content": [
+                "Personal Debuffs trigger when the attack is launched instead of on hit and they are Paused for the duration of the attack."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Inflicts up to 3 Power Sting Debuffs, with each having a 90% chance to activate and lasting 10 seconds. An opponent with Power Sting takes [3,204.75] direct damage if they activate a Special Attack."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "100% chance to inflict a Petrify Debuff of 50% Potency for 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict an indefinite Power Sting Debuff causing [9,400.6] direct damage to the opponent if they activate a Special Attack."
+            ]
+        },
+        {
+            "title": "Signature Ability - Hostile Takeover",
+            "content": [
+                "Special 1: Power Sting has a 100% chance to inflict a [0.7 - 2.1] second Stun Debuff if it expires after lasting its full duration.",
+                "Special 2: Gain +5 Core Charge when Petrify ends.",
+                "Special 3: Power Sting has a 100% chance to re-apply itself once activated. Chance decreases by [45 - 0]% each time this happens."
+            ]
+        }
+    ]
 }

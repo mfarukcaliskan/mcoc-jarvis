@@ -1,0 +1,68 @@
+{
+    "id": "stellargreengoblin",
+    "name": "Green Goblin (Stellar Forged)",
+    "abilityDetails": {},
+    "synergies": [],
+    "howToPlay": "",
+    "bestUse": "",
+    "signatureAbility": "ISO-Forged Oscorp Weaponry\nAt the start of each fight, inflict a [25 - 60]% Torment Debuff for 30 seconds.\nWhile the Opponent has 5 or more unique Debuffs, the potency of their Willpower Mastery is reduced by [25 - 75]%.",
+    "abilitySections": [
+        {
+            "title": "A Scientist Forged in ISO - Always Active",
+            "content": [
+                "Green Goblin's Stellar Enhancement grants him a Fractured Power Bar.",
+                "Green Goblin does not gain Precision Buffs from the Dexterity Mastery. Avoiding an attack with Dexterity pauses all personal Debuffs on the Opponent for 0.5 seconds per rank."
+            ]
+        },
+        {
+            "title": "While Fighting as a Defender",
+            "content": [
+                "Green Goblin starts each fight with four 12% Protection Passives for 25 seconds, expiring one at a time. When struck by a Guaranteed Critical Hit, 8 seconds are lost. When Intercepted, 12 seconds are lost.",
+                "For each personal Protection active, gain +[239.13] Critical Resistance, Physical Resistance, and Energy Resistance Passives.",
+                "Personal Debuffs can be inflicted through Block. Cooldown: 2 seconds."
+            ]
+        },
+        {
+            "title": "While Fighting as an Attacker",
+            "content": [
+                "For each unique Debuff on the Opponent, gain a +[1,173.24] Fury Passive.",
+                "Personal Debuffs are paused during the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Basic Attacks",
+            "content": [
+                "Light Attacks pause all personal Debuffs for 0.5 seconds.",
+                "Medium Attacks inflict a [305.56] Exhaustion Debuff for 15 seconds. Max stacks: 2.",
+                "Heavy Attacks inflict a Halt Debuff for 10 seconds on the first hit, and a non-stacking [7,332.75] Incinerate Debuff for 10 seconds on the second hit."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Withering Contagion",
+            "content": [
+                "For each unique Debuff on the Opponent, the first five hits each deal a burst of [977.7] Physical Damage. This damage can be dealt through Block.",
+                "The final hit inflicts a 50% Wither Debuff for 10 seconds. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Sublimation Through Conflagration",
+            "content": [
+                "For each unique Debuff on the Opponent, the first hit inflicts a [7,332.75] Incinerate Debuff for 10 seconds. Max stacks: 10.",
+                "The final hit refreshes all personal Debuffs."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Bombarded by Science",
+            "content": [
+                "Inflict a personal Wither, Exhaustion, Halt, and Incinerate Debuff, then pause all personal Debuffs for 10 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - ISO-Forged Oscorp Weaponry",
+            "content": [
+                "At the start of each fight, inflict a [25 - 60]% Torment Debuff for 30 seconds.",
+                "While the Opponent has 5 or more unique Debuffs, the potency of their Willpower Mastery is reduced by [25 - 75]%."
+            ]
+        }
+    ]
+}

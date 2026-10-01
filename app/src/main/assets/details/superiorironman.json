@@ -18,6 +18,79 @@
     "synergies": [],
     "howToPlay": "Superior Iron Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Superior Iron Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %50-%100 Kanama direnci 🩸\n• %50-%100 Yakma direnci 🔥\n• %50-%100 Şok direnci ⚡"
+    "signatureAbility": "Extremis 3.0verload\nFurther exploitation of the Extremis 3.0 virus grants Tony incredible rejuvenation capabilities. While below 30% Health, increase the potency of Superior Regenerations by [40 - 304.1]%.\nMore time with the suit allows Tony to reduce the cooldown of the Endo-Sym Armor Auto-Block by [7 - 50]%.\nWhenever Tony is inflicted with a Bleed, Incinerate, or Shock effect, pause his personal Buffs for [0.5 - 2.06] seconds.",
+    "immunityDetails": "• %50-%100 Kanama direnci 🩸\n• %50-%100 Yakma direnci 🔥\n• %50-%100 Şok direnci ⚡",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Tony's Armor reduces the potency of incoming Bleed, Incinerate, and Shock effects by 50%. This is further increased by 15% for each unique Superior Buff active.",
+                "Further advancement reduces the potency of the Willpower Mastery by 75%, but increases his Bleed, Incinerate, and Shock Resistance by 5% per active rank.",
+                "Each Buff Active on Iron Man Grants +[144.74] Armor Rating.",
+                "Each Buff Active on Iron Man Grants +[498.65] Attack Rating."
+            ]
+        },
+        {
+            "title": "Endo-Sym Armor",
+            "content": [
+                "The symbiotic nature of Tony's living armor protects him. He has a 25% chance to Auto-Block incoming Basic Attacks while he has 3 or more unique Superior Buffs.",
+                "While he has 5 or more unique Superior Buffs, the chance to Auto-Block is increased by a flat 100% and it can now trigger the Parry Mastery. After triggering this way, Tony's Auto-Block goes on cooldown for 20 seconds."
+            ]
+        },
+        {
+            "title": "Superior Buffs",
+            "content": [
+                "Tony Stark is better than you, and so are his Buffs. All his personal Buffs are Superior, gain a bonus 100% Ability Accuracy, and have a max stack of 8 unless otherwise stated.",
+                "Unless otherwise stated, Superior Buffs last 35 seconds, minus 8.25 seconds for each unique personal Superior Armor Up, Energy Resistance, Critical Resistance, Amplify, or Regeneration active, and are paused during Special Attacks.",
+                "Using his Pre-fight Ability Tony can choose to make his first Buff a Superior Energy Resist, Armor Up, or Amplify.",
+                "Intercepting the Opponent with a Medium Attack, or striking them with a second Medium Attack randomly grants 1 unique Core Superior Buff that Tony does not already have.",
+                "Intercepting the Opponent with a Light Attack, or striking them with a fourth Light Attack randomly grants 2 Core Superior Buffs of a type Tony already has.",
+                "Refresh all Superior Buffs whenever a new unique Superior Buff activates. This does not apply to Superior Fury or Superior Power Gain."
+            ]
+        },
+        {
+            "title": "Core Superior Buffs",
+            "content": [
+                "Superior Armor Up: Increases Armor Rating by +[305.56].",
+                "Superior Energy Resistance: Increases Energy Resistance by +[305.56].",
+                "Superior Crit Resistance: Increases Critical Resistance by +[305.56].",
+                "Superior Regeneration: Regenerate [54.43] Health every second. This increases by 150% when below 60% Health.",
+                "Superior Amplify: Increases Ability Power Rate by +12.5%."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "Charging a Heavy Attack grants a Superior Instinct Buff for 10 seconds, enabling Tony to trigger the Parry Mastery against non-contact attacks. This Buff will not trigger if already active."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "For each unique Superior Buff on Tony, inflict an Armor Break Debuff, each reducing Armor Rating by [56.12] for 10 seconds.",
+                "If 2 or more unique Superior Buffs are active, gain a Superior Power Gain Buff, granting 40% of a Bar of Power over 10 seconds. This Buff will not trigger if already active."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On activation, gain 1 copy of each active Core Superior Buff.",
+                "Inflict a non-stacking Armor Break Debuff for 15 seconds, reducing Armor Rating by  485.29 with 50% increased potency for each Buff on Tony."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Gain a Superior Fury Buff increasing Attack Rating by +4,986.5 for 10 seconds. While this Fury is active, pause all other Superior Buffs. This Buff will not trigger if already active."
+            ]
+        },
+        {
+            "title": "Signature Ability - Extremis 3.0verload",
+            "content": [
+                "Further exploitation of the Extremis 3.0 virus grants Tony incredible rejuvenation capabilities. While below 30% Health, increase the potency of Superior Regenerations by [40 - 304.1]%.",
+                "More time with the suit allows Tony to reduce the cooldown of the Endo-Sym Armor Auto-Block by [7 - 50]%.",
+                "Whenever Tony is inflicted with a Bleed, Incinerate, or Shock effect, pause his personal Buffs for [0.5 - 2.06] seconds."
+            ]
+        }
+    ]
 }

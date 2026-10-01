@@ -17,6 +17,66 @@
     "synergies": [],
     "howToPlay": "Corvus Glaive için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Corvus Glaive Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• %100 Kanama direnci 🩸\n• %100 Şok direnci ⚡️\n• %100 Ani Soğuk direnci 🧊"
+    "signatureAbility": "Glaive of Immortality\nAs long as Glaive's Immunity is active, Corvus Glaive cannot die. Instead of dying, 4 Glaive charges are removed. If Corvus performed a Well Timed Block against that attack, 2 Glaive charges are removed instead.\nIf Corvus is able to spend all of his Glaive charges in less than 30 seconds since they were first activated, the cooldown to get them back is reduced by [20 - 40]%.",
+    "immunityDetails": "• %100 Kanama direnci 🩸\n• %100 Şok direnci ⚡️\n• %100 Ani Soğuk direnci 🧊",
+    "abilitySections": [
+        {
+            "title": "Missions From Thanos",
+            "content": [
+                "Corvus Glaive has 4 missions to accomplish. Whenever completing a mission, he gains 1 Persistent Charge and a Cruelty Buff, increasing his Critical Damage Rating by [4,125]. Missions can be completed in any order.",
+                "Corvus Glaive starts the fight with a number of the above Cruelty Buffs equal to his Persistent Charge.",
+                "Mission 1: Eliminate Avengers: Knockout a member of the Avengers. Once this mission is complete, Corvus gains 10 additional Glaive charges when fighting against a member of the Avengers.",
+                "Mission 2: Sabotage Technology: Knockout a Tech Champion. Once this mission is complete, Tech Champions have 25% reduced Ability Accuracy.",
+                "Mission 3: Hunt the Uncanny: Knockout a Mutant Champion. Grants Safeguard against opponent's Special 2 Attacks if the synergy with Wolverine, X-23 or Storm is active.",
+                "Mission 4: Challenge Defenses: Use a Heavy or Special Attack to knock down an opponent that used Evade or Auto-Block in a fight. Once this mission is complete, his True Damage Buff becomes a True Strike Buff if the synergy with Proxima Midnight is active."
+            ]
+        },
+        {
+            "title": "Glaive's Immunity",
+            "content": [
+                "Corvus Glaive does not take damage from Coldsnap, Bleed and Shock Debuffs, nor Frostbite, while Glaive's Immunity is active. When Glaive's immunity reactivates or is disabled, those Debuffs are Purified and Corvus takes [2,092.4] damage.",
+                "At the start of the fight, Corvus gains 20 permanent Glaive charges, granting him True Damage and guaranteed Critical Hits with his glaive as long as Glaive's Immunity is active. A charge is spent every time Corvus hits with a Basic Attack using his glaive.",
+                "Corvus Glaive can trigger Critical Hits through an enemy Block.",
+                "Corvus' blade is damaged after he uses all of his Glaive charges, disabling Glaive's Immunity for 50 seconds. Corvus cannot inflict Critical Hits while Glaive's Immunity is disabled.",
+                "When Glaive's Immunity reactivates if Corvus has 0 Glaive Charges, he regains all of his Glaive charges."
+            ]
+        },
+        {
+            "title": "When Knocked Down",
+            "content": [
+                "Corvus' blade is damaged if Corvus is Knocked Down by a Heavy or Special Attack, disabling Glaive's Immunity for 3 seconds."
+            ]
+        },
+        {
+            "title": "Well Timed Blocks",
+            "content": [
+                "Inflicts an Armor Break, reducing the opponents Armor Rating by [485.29] for 4 seconds. Additional Armor Breaks are inflicted for each active Armor Up effect on the opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "+[7,323.4] Attack Rating if the opponent is suffering from an Armor Break Debuff."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "When Glaive's Immunity is active, this Special Attack is Unblockable and instantly drains 20% of the opponent's Power if they are at max Power."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "+[16,739.2] Attack Rating if Corvus Glaive has at least one Glaive charge. This amount is doubled if he is below 10% Health."
+            ]
+        },
+        {
+            "title": "Signature Ability - Glaive of Immortality",
+            "content": [
+                "As long as Glaive's Immunity is active, Corvus Glaive cannot die. Instead of dying, 4 Glaive charges are removed. If Corvus performed a Well Timed Block against that attack, 2 Glaive charges are removed instead.",
+                "If Corvus is able to spend all of his Glaive charges in less than 30 seconds since they were first activated, the cooldown to get them back is reduced by [20 - 40]%."
+            ]
+        }
+    ]
 }

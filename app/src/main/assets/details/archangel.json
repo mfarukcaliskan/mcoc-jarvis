@@ -12,6 +12,76 @@
     "synergies": [],
     "howToPlay": "Archangel için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Archangel Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️"
+    "signatureAbility": "Increased Toxicity\nThe Neurotoxin coating Archangel's wings and claws increases in toxicity, making each Neurotoxin Passive reduce the Opponent's Ability Accuracy by [25 - 40]% and preventing them from gaining Health.",
+    "immunityDetails": "• Yetenek Doğruluğu Azaltma Bağışıklığı 🧠❇️",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Archangel's personal Abilities cannot have their Ability Accuracy reduced."
+            ]
+        },
+        {
+            "title": "Neurotoxin - Passive",
+            "content": [
+                "Each time Archangel triggers a Bleed effect on an opponent with an active Poison effect that he caused, they are combined, converting into a Neurotoxin charge, lasting 15 seconds.",
+                "Neurotoxins are a Passive effect, and therefore do not count as either a Debuff, or a Poison.",
+                "Neurotoxins do [29,919] damage over their duration.",
+                "On expiry Neurotoxins have a 100% Chance to Stun their target for 1.5 seconds. This effect will not interrupt a Special Attack."
+            ]
+        },
+        {
+            "title": "Critical Hits",
+            "content": [
+                "Critical Hits lacerate opponents with a 40% chance to inflict a Bleed Debuff, dealing [12,466.25] damage over 15 seconds."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "50% chance to inflict a Bleed Debuff, dealing [12,466.25 Direct Damage over 15 seconds.",
+                "Only the first Bleed effect triggered by this attack will consume a Poison effect, though all Bleeds triggered by it will convert to Neurotoxins as long as a Poison was consumed during the attack."
+            ]
+        },
+        {
+            "title": "Passive",
+            "content": [
+                "Each Bleed Debuff on your opponent increases the chance of any of Poison triggering by a flat 25%, and reduces the chance that an opponent's Purify abilities will trigger by the same."
+            ]
+        },
+        {
+            "title": "Blocking",
+            "content": [
+                "0% chance on contact to Poison the target, reducing their Health recovery by 30% and dealing [12,466.25] Direct Damage over 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "20% chance to inflict a Bleed Debuff, dealing [12,466.25] Direct Damage over 15 seconds.",
+                "0% chance to Poison the target, reducing their Health recovery by 30% and dealing [12,466.25] Direct Damage over 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "50% chance to inflict a Bleed Debuff, dealing [12,466.25] Direct Damage over 15 seconds.",
+                "40% chance to Poison the target, reducing their Health recovery by 30% and dealing [12,466.25] Direct Damage over 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to Poison the target, reducing their Health recovery by 30% and dealing [12,466.25] Direct Damage over 15 seconds.",
+                "100% chance to inflict Bleed, dealing [12,466.25] Direct Damage over 15 seconds.",
+                "100% chance to Stun for 5 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Increased Toxicity",
+            "content": [
+                "The Neurotoxin coating Archangel's wings and claws increases in toxicity, making each Neurotoxin Passive reduce the Opponent's Ability Accuracy by [25 - 40]% and preventing them from gaining Health."
+            ]
+        }
+    ]
 }

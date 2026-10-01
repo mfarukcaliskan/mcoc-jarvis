@@ -9,6 +9,64 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): x200'de ölümcül olan onda-i-soğuk hasarına karşı mutlaka onda-i-soğuk immün şampiyon kullan.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Iceman Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Nova Alevi Bağışıklığı 🔥"
+    "signatureAbility": "Absolute Zero\nWhile the Opponent has a Coldsnap Debuff, the chance to apply Frostbite on Critical Hits is increased by [5 - 30]% flat.\nIce Armor reforms 3 seconds faster.\nAt the start of the fight, inflict a Coldsnap Debuff dealing [9,924.26 - 24,126.29] Energy Damage over 12 seconds.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Nova Alevi Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Organic Ice",
+            "content": [
+                "Iceman's organic ice form grants him full Immunity to all Incinerate, Nova Flame, Bleed, Poison, Coldsnap, and Frostbite effects."
+            ]
+        },
+        {
+            "title": "Ice Armor",
+            "content": [
+                "Iceman begins the fight with an indefinite Ice Armor Buff, increasing his Armor Rating by +[916.67]. Ice Armor counts as an Armor Up effect.",
+                "If Iceman would lose more than 5% of his Max Health from a single source, his Ice Armor protects him from the blow reducing the health loss to 5%, then it is removed.",
+                "If Iceman would become Stunned while his Ice Armor is active, the Ice Armor negates the effect, then shatters.",
+                "Once removed, Ice Armor takes 15 seconds to reform.",
+                "If Ice Armor is removed due to Iceman's abilities, all Frostbite effects expire instantly."
+            ]
+        },
+        {
+            "title": "Critical Hits - Frostbite",
+            "content": [
+                "70% chance to inflict a Frostbite Passive. Frostbite Passives last for 10 seconds and deal [8,352.1] Energy Damage when they expire."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "This attack causes all Frostbite Passives to expire instantly and deal an additional [3,930.4] Energy Damage each."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final hit inflicts a Coldsnap Debuff, dealing [14,739] Energy Damage over 14 seconds.",
+                "The final hit inflicts 2 personal Frostbite Passives."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Iceman consumes his Ice Armor to gain +[14,739] Attack Rating for the duration of this attack."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Inflict a Coldsnap Debuff, dealing [19,652] Energy Damage over 18 seconds.",
+                "This attack instantly reforms Ice Armor."
+            ]
+        },
+        {
+            "title": "Signature Ability - Absolute Zero",
+            "content": [
+                "While the Opponent has a Coldsnap Debuff, the chance to apply Frostbite on Critical Hits is increased by [5 - 30]% flat.",
+                "Ice Armor reforms 3 seconds faster.",
+                "At the start of the fight, inflict a Coldsnap Debuff dealing [9,924.26 - 24,126.29] Energy Damage over 12 seconds."
+            ]
+        }
+    ]
 }

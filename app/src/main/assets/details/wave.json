@@ -16,6 +16,67 @@
     "synergies": [],
     "howToPlay": "Wave için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Wave Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir süresini %75 azaltır 🧪⏰\n• Yakma süresini %75 azaltır 🔥⏰"
+    "signatureAbility": "Hydrotherapy\nWhen a non-Instant Poison or Incinerate on Wave expires, gain a Regeneration Passive healing [30 - 70]% of the damage taken from those effects over 4 seconds. Against Mystic Opponents, this includes Degeneration.\nWave's Debilitate, Tracking, and Battered Debuffs become Severe against Mystic Opponents.",
+    "immunityDetails": "• Zehir süresini %75 azaltır 🧪⏰\n• Yakma süresini %75 azaltır 🔥⏰",
+    "abilitySections": [
+        {
+            "title": "Always Active",
+            "content": [
+                "Utilizing her power over water, Wave can dilute Poisons and snuff out Incinerates, reducing their duration by 75%. Additionally, her Regeneration Rate cannot be reduced by Poison.",
+                "Wave's personal Debuffs are all paused if either Champion hasn't landed a hit for 2 seconds."
+            ]
+        },
+        {
+            "title": "Furystyle",
+            "content": [
+                "When Wave Intercepts or causes an attack to Miss, she gains a +[1,124.4]] Fury Passive for 5 seconds. Max stacks: 3.",
+                "When Wave avoids a hit with the Dexterity Mastery, she gains one of these Furies instead of a Precision Buff."
+            ]
+        },
+        {
+            "title": "Heavy Medley",
+            "content": [
+                "Wave can charge a Heavy Attack after a non-Combo-Ending Attack to Passively Stun the Opponent for 0.75 seconds.",
+                "The 4th hit of a Basic Attack combo, including Heavy Attacks, inflicts a 25% Debilitate Debuff for 8 seconds. Wave's Debilitate doesn't affect stun Debuffs. Max stacks: 4.",
+                "The first hit of a Heavy Attack inflicts a [305.56] Physical Vulnerability Debuff for 8 seconds. Max stacks: 4.",
+                "Punishing a Special Attack grants a non-stacking +[33,732] Heavy Proficiency Passive until the final hit of Wave's Heavy Attack. While active, her Heavies can not Critically Hit."
+            ]
+        },
+        {
+            "title": "Untouchable Wave",
+            "content": [
+                "Heavy Attacks ready an Untouchable Wave.",
+                "Untouchable Wave allows Wave to Dash towards the Opponent during their Special Attacks in a rushing wave of water becoming Passively Untouchable until shortly after she starts an attack. If this causes an attack to Miss, unready Untouchable Wave.",
+                "Untouchable Wave inflicts a Tracking Debuff for 4 seconds. This is also inflicted at the start of each fight."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Eskrimador",
+            "content": [
+                "Each hit inflicts one of Wave's Debilitates and Physical Vulnerabilities.",
+                "During this attack, Wave gains a +[1,124.4] Fury Passive for each Debuff on the Opponent."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Overpowering Wave",
+            "content": [
+                "On hit, inflict a non-stacking [4,497.6] Battered Debuff for 3.5 seconds if one is not active. It is paused during Specials and Strikers, and remains paused until Wave or her Opponent land a hit."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Queen of the Seven Seas",
+            "content": [
+                "Gain a stack of Paruparo. Max: 2.",
+                "Each stack of Paruparo increases the max stacks of Wave's Physical Vulnerabilities and Debilitates by 2, and increases the potency of her Battered by 25%.",
+                "Inflict Wave's Battered Debuff."
+            ]
+        },
+        {
+            "title": "Signature Ability - Hydrotherapy",
+            "content": [
+                "When a non-Instant Poison or Incinerate on Wave expires, gain a Regeneration Passive healing [30 - 70]% of the damage taken from those effects over 4 seconds. Against Mystic Opponents, this includes Degeneration.",
+                "Wave's Debilitate, Tracking, and Battered Debuffs become Severe against Mystic Opponents."
+            ]
+        }
+    ]
 }

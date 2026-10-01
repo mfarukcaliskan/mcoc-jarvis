@@ -10,5 +10,42 @@
     "synergies": [],
     "howToPlay": "Elektra için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Elektra Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "No Loose Ends\nElektra's Final Strike now triggers anytime the opponent is below 25% Health. Additionally, while the opponent is within Final Strike range, Elektra gains [22.73 - 562.6] increased Critical Damage Rating.",
+    "abilitySections": [
+        {
+            "title": "All Attacks",
+            "content": [
+                "While the opponent has less than 15% Health, this Champion strikes with guaranteed Critical Hits.",
+                "Opponents passively suffer 85% reduced Defensive Ability Accuracy for as long as they are under a Debuff effect."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "This attack has 100% Critical Hit Chance against bleeding targets.",
+                "75% chance to inflict Bleed, dealing [5,405.4] Direct Damage over 7 seconds.",
+                "If this Bleed fails due to Immunity, Armor Break the target, reducing Armor Rating by [1,500] for 9 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "85% chance to inflict a Bleed Debuff, dealing [5,821.2] Direct Damage over 7 seconds.",
+                "If this Bleed fails due to Immunity, Armor Break the target, reducing Armor Rating by [1,500] for 9 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to inflict a Bleed Debuff, dealing [11,018.7] Direct Damage over 3 seconds.",
+                "If this Bleed fails due to Immunity, Armor Break the target, reducing Armor Rating by [1,500] for 9 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - No Loose Ends",
+            "content": [
+                "Elektra's Final Strike now triggers anytime the opponent is below 25% Health. Additionally, while the opponent is within Final Strike range, Elektra gains [22.73 - 562.6] increased Critical Damage Rating."
+            ]
+        }
+    ]
 }

@@ -11,6 +11,48 @@
     "synergies": [],
     "howToPlay": "Black Bolt için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Bolt Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Provocation\nCombat tests Blackagar Boltagon's restraint. Each time he is struck by a Critical Hit, he has a chance to gain a permanent Cruelty or Fury Buff. Each time he strikes with his own Critical Hit, he has a chance to gain a Fury or Cruelty Buff for 6.5 seconds.\nFury Buffs increase Attack by [274.89 - 1,178.1].\nCruelty Buffs increase Critical Damage Rating by [31.95 - 143.62]",
+    "immunityDetails": "• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "An enhanced immune system provides full Immunity to Poison."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "80% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [750] for 5.5 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "60% chance to Stun for 3 second(s).",
+                "This attack deals True Damage, ignoring all of the opponent's Armor."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "70% chance to Stun for 4 second(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "90% chance to Stun for 4.5 second(s).",
+                "This attack deals True Damage, ignoring all of the opponent's Armor."
+            ]
+        },
+        {
+            "title": "Signature Ability - Provocation",
+            "content": [
+                "Combat tests Blackagar Boltagon's restraint. Each time he is struck by a Critical Hit, he has a chance to gain a permanent Cruelty or Fury Buff. Each time he strikes with his own Critical Hit, he has a chance to gain a Fury or Cruelty Buff for 6.5 seconds.",
+                "Fury Buffs increase Attack by [274.89 - 1,178.1].",
+                "Cruelty Buffs increase Critical Damage Rating by [31.95 - 143.62]"
+            ]
+        }
+    ]
 }

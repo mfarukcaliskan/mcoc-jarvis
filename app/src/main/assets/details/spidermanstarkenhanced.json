@@ -12,5 +12,60 @@
     "synergies": [],
     "howToPlay": "Spider-Man (Stark Enhanced) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Spider-Man (Stark Enhanced) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir."
+    "signatureAbility": "Hero's Mantra\nGreat Power (Above 50% Health) - Spider-Man's Taunt Debuffs last 2 seconds longer and each charge of Poise grants him an additional [1,119.5 - 2,212.11] Critical Rating.\nGreat Responsibility (Below 50% Health) - Spider-Man's chance to Evade an attack increases by a flat +7% and each charge of Poise grants him [56.12 - 121.6] additional Block Proficiency.",
+    "abilitySections": [
+        {
+            "title": "When Attacked",
+            "content": [
+                "Spider-Man's burgeoning Spider-Sense grants him a Passive 3% chance to Evade an incoming attack."
+            ]
+        },
+        {
+            "title": "Stark Tech AI",
+            "content": [
+                "Against Special Attacks the Stark AI warns Spider-Man of incoming danger and increases his Evade chance by a flat +60%.",
+                "If Spider-Man is struck by a Cosmic Champion or is struck by a Heavy Attack the Stark AI shuts down for 10 seconds while it Reboots and is completely inactive during that time."
+            ]
+        },
+        {
+            "title": "Smack-Talk",
+            "content": [
+                "Each time Spider-Man Evades an attack or uses the Dexterity Mastery, he gains a charge of Poise. Cooldown: 0.8 Seconds.",
+                "Each charge of Poise grants [2,239] Attack rating.",
+                "If Spider-Man lands 5 uninterrupted attacks, he converts a Poise charge into a Taunt Debuff on the opponent for 3 seconds. Taunt effects lasts 50% longer against Villain champions.",
+                "Dodging back and allowing Spider-Man to idle for 1 seconds allows him to smack-talk his opponent and refresh an active Taunt."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "An EMP webshot drains 45% of the opponent's Power Meter. Cooldown: 30 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "50% chance to Stun the opponent for 2 seconds. The chance is increased by 100% if the Stark AI is active."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Electric webshots have a 70% chance to Shock the opponent, dealing [10,075.5] Energy Damage over 6.5 seconds. These Shock effects are overcharged and deal double damage to Robot Champions."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "100% chance to Ensnare the opponent for 18 seconds. Ensnared Champions suffer 30% reduced Ability Accuracy and cannot trigger Passive Evade effects."
+            ]
+        },
+        {
+            "title": "Signature Ability - Hero's Mantra",
+            "content": [
+                "Great Power (Above 50% Health) - Spider-Man's Taunt Debuffs last 2 seconds longer and each charge of Poise grants him an additional [1,119.5 - 2,212.11] Critical Rating.",
+                "Great Responsibility (Below 50% Health) - Spider-Man's chance to Evade an attack increases by a flat +7% and each charge of Poise grants him [56.12 - 121.6] additional Block Proficiency."
+            ]
+        }
+    ]
 }

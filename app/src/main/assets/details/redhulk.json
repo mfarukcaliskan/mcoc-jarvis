@@ -9,6 +9,46 @@
     "synergies": [],
     "howToPlay": "Red Hulk için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Red Hulk Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Zehiri arındırır 🧪\n• Yakmayı arındırır 🔥"
+    "signatureAbility": "Second Strike\nGeneral Ross prepares to cross the line in the sand, beginning the fight with 2 Heat Charge(s) ready and for each charge he gains [85.05 - 410.92] Physical Resistance.\nAdditionally, each Heat Charge provides him [8 - 20]% Incinerate Damage Resistance.",
+    "immunityDetails": "• Zehiri arındırır 🧪\n• Yakmayı arındırır 🔥",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Whenever Red Hulk loses 10% of his Max Health, he gains 1 Heat Charge. For each Heat Charge he has, his attacks deal an additional 18% of the damage dealt as a burst of Physical Damage. Max Stacks: 10",
+                "Whenever Red Hulk is inflicted with a Poison or Incinerate Debuff, his altered state Removes it and has a 100% chance to convert it to a Heat Charge."
+            ]
+        },
+        {
+            "title": "Blocking",
+            "content": [
+                "Blocking has a 60% chance to convert Energy Attacks into Heat Charges. All Attacks from Mystic Champions are considered as Energy Attacks towards this ability."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "Excess heat from this attack causes Red Hulk to gain 2 additional Heat Charge(s)."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Expends 2 Heat Charge(s) to Regenerate [7,332.55] Health."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Red Hulk expends 3 Heat Charge(s) to Incinerate his opponent, dealing [41,848] Energy Damage over 8 seconds. This effect also removes Perfect Block Chance and reduces Block Proficiency by 50% while it's active."
+            ]
+        },
+        {
+            "title": "Signature Ability - Second Strike",
+            "content": [
+                "General Ross prepares to cross the line in the sand, beginning the fight with 2 Heat Charge(s) ready and for each charge he gains [85.05 - 410.92] Physical Resistance.",
+                "Additionally, each Heat Charge provides him [8 - 20]% Incinerate Damage Resistance."
+            ]
+        }
+    ]
 }

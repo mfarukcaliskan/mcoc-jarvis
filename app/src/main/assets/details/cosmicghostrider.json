@@ -19,6 +19,83 @@
     "synergies": [],
     "howToPlay": "Cosmic Ghost Rider için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
     "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Cosmic Ghost Rider Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥"
+    "signatureAbility": "Cosmic Vengeance\nThe Powerlock Debuff triggered when reaching 5 Judgments is upgraded to a Damnation Debuff dealing [2,081.31 - 4,911.4] damage over 6 seconds. Opponents under Damnation are also Power Locked, Heal Blocked, and Fatesealed, all of which are unaffected by Ability Accuracy modifications.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Yakma Bağışıklığı 🔥",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "A lack of blood provides full immunity to Bleeding.",
+                "Being wreathed in Hellfire provides full Immunity to Incinerate",
+                "When fighting a #Villain, at the start of the fight gain a 100% Chance to place an indefinite Armor Break Debuff on the Opponent reducing their Armor Rating by [750], and removing an active Armor Up Buff."
+            ]
+        },
+        {
+            "title": "Cosmic Judgments - Passive",
+            "content": [
+                "When Cosmic Ghost Rider triggers Armor Up, Fury, Precision, Cruelty, Power Gain, Unblockable, Vigilance, or Aptitude Buffs he also has a 100% chance to place a corresponding Judgment on his Opponent.",
+                "Each Judgment can only be stacked a single time, but lasts indefinitely.",
+                "Each Judgment placed on the Opponent increases the duration of any Buff Triggered on Cosmic Ghost Rider by 20%. While you have 5 Judgments in place, this bonus is doubled.",
+                "Upon gaining any 5 or more Judgments there is a 100% chance to place a Power Lock Debuff on the Opponent for 6 seconds.",
+                "After this Power Lock ends or if it fails to apply, all Judgments on the Opponent have a 100% chance to be converted into Armor Break Debuffs, each reducing Armor Rating by [562.5] for 10 seconds, and removing an Armor Up Buff.",
+                "If Cosmic Ghost Rider gains a Fateseal Debuff, he Removes all of his Judgments, and he cannot trigger new ones until it ends."
+            ]
+        },
+        {
+            "title": "When Attacked",
+            "content": [
+                "When Struck if the Judgment of Armor is not active: 100% Chance to trigger an Armor Up Buff granting +[964.29] Armor for 10 seconds."
+            ]
+        },
+        {
+            "title": "Finish a 5 Hit Combo with a Medium Attack",
+            "content": [
+                "If the Judgment of Vigilance is not active: 100% Chance to trigger a Vigilance Buff, preventing your attacks from Missing for 10 seconds."
+            ]
+        },
+        {
+            "title": "Finish a 5 Hit Combo with a Light Attack",
+            "content": [
+                "If the Judgment of Power Gain is not active: 100% Chance to trigger a Power Gain Buff, granting 75% of a Bar of Power over 1.25 seconds."
+            ]
+        },
+        {
+            "title": "When Charging a Heavy Attack",
+            "content": [
+                "If the Judgment of Aptitude is not active, he has a 100% Chance to trigger an Aptitude Buff increasing the potency of any Armor Up, Fury, Cruelty, and Precision Buffs triggered by 50% for 8 seconds."
+            ]
+        },
+        {
+            "title": "Special Attacks",
+            "content": [
+                "If the Judgment of Cruelty is not active: 100% Chance to trigger a Cruelty Buff, increasing Critical Damage Rating by [790.54] for 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On Activation if the Judgment of Unblockable is not active: 100% Chance to trigger an Unblockable Buff for 1 seconds.",
+                "This attack Incinerates the enemy, dealing [2,356.2] Energy Damage over 5 seconds. This effect also removes Perfect Block Chance and reduces Block Proficiency by 50% while it's active."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "On Activation if the Judgment of Precision Is not active: 100% Chance to trigger an Precision Buff increasing Critical Rating by [9,000] for 10 seconds.",
+                "100% chance to inflict an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by [1,840.91] for 15 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "On Activation if the Judgment of Fury is not active: 100% Chance to trigger an Fury Buff increasing Attack by [4,908.75] for 15 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Cosmic Vengeance",
+            "content": [
+                "The Powerlock Debuff triggered when reaching 5 Judgments is upgraded to a Damnation Debuff dealing [2,081.31 - 4,911.4] damage over 6 seconds. Opponents under Damnation are also Power Locked, Heal Blocked, and Fatesealed, all of which are unaffected by Ability Accuracy modifications."
+            ]
+        }
+    ]
 }

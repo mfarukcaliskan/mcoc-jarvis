@@ -11,6 +11,66 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): En büyük tehlikeler sersemletme yansıması ve hasar yansıması — hiçbir koşulda sersemletme. Ağır saldırı da kullanma, pasif durdurulamaz olup karşılık verir. Pasif sersemletme erişimi olan şampiyon (yansımayı devre dışı bırakır) veya durdurulamaz-karşıtı şampiyon en iyisi.",
     "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Black Panther (Civil War) Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Özel 1'de 4 olumsuz etkiyi arındırır 💪🏼"
+    "signatureAbility": "Panther Habit\nBlack Panther starts each fight with [5 - 20] Reflect Charges.\nAn upgraded Reflective Matrix grants +[137.08 - 1,178.57] Physical Resistance.\nWhile Black Panther has at least 10 Reflect Charges, he gains a [22 - 100]% chance to absorb Heavy Attack impacts by consuming 10 Charges to become Passively Unstoppable for 0.75 seconds.",
+    "immunityDetails": "• Özel 1'de 4 olumsuz etkiyi arındırır 💪🏼",
+    "abilitySections": [
+        {
+            "title": "Reflective Matrix",
+            "content": [
+                "Black Panther starts each fight with Reflective Matrix increasing his Critical Resistance by +[305.56] for 10 seconds. Reflective Matrix is paused during the Opponent's Special Attacks.",
+                "While Reflective Matrix is active, Black Panther gains +[239.13] Block Penetration when striking into Blocks that are not Well-Timed.",
+                "When Black Panther is inflicted with a Stun Debuff while making contact with the Opponent, he consumes his Reflective Matrix to Purify the Stun. Then, if he is not Passively Stunned and the Opponent is not performing a Special Attack, he inflicts a Stun Debuff on the Opponent for 2.5 seconds.",
+                "When Reflective Matrix ends, it goes on cooldown for 10 seconds, after which it reactivates the next time Black Panther is struck or Blocks an attack. The cooldown is decreased by up to 50% based on missing Health."
+            ]
+        },
+        {
+            "title": "Reflect Charges - Max: 75",
+            "content": [
+                "While Reflective Matrix is active, Black Panther can gain and refresh Reflect Charges. These last for 12 seconds, are paused during Special Attacks, and can be refreshed by Dodging back after a non-Combo Ending Attack.",
+                "Gain 1 Charge for every [3,197.26] Health lost from being struck or Blocking an Attack.",
+                "Gain 3 Charges when either Champion performs a Well-Timed Block, plus 5 additional Charges if Blocking a Special Attack or if Black Panther is Defending. Cooldown: 0.15 seconds.",
+                "As an Attacker, Reflective Matrix pauses for 10 seconds whenever Black Panther gains a Reflect Charge, reduced by 0.2 seconds for every active Charge."
+            ]
+        },
+        {
+            "title": "Kinetic Burst",
+            "content": [
+                "Black Panther can unleash stored Reflect Charges as a Kinetic Burst, dealing [1,598.63] Direct Damage for each Charge. This damage scales with Base Health and is reduced by 20% against Mutant Champions.",
+                "As a Defender, deal a Kinetic Burst whenever Black Panther strikes the Opponent with Reflect Charges active.",
+                "The final hit of Special Attack 2 deals a Kinetic Burst.",
+                "Each hit of a Heavy Attack, or of a Special Attack activated during a Heavy Attack, deals a Kinetic Burst.",
+                "After an attack that deals one or more Kinetic Bursts, remove all Charges and consume Reflective Matrix if active, reducing its cooldown by up to 50% based on the remaining duration."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "On activation, gain 4 Cleanse Passives for 24 seconds. These Cleanses cannot remove Stun Debuffs.",
+                "Gain 4 Reflect Charges on each landed or Blocked hit.",
+                "Each hit inflicts a Bleed Debuff dealing [4,986.5] Direct Damage over 10 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "Each hit inflicts a Bleed Debuff dealing [8,975.7] Direct Damage over 7 seconds.",
+                "These Debuffs gain +10% potency for each Reflect Charge."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Activate or refresh Reflective Matrix and pause it for 20 seconds.",
+                "Gain 10 Reflect Charges and refresh all Charges."
+            ]
+        },
+        {
+            "title": "Signature Ability - Panther Habit",
+            "content": [
+                "Black Panther starts each fight with [5 - 20] Reflect Charges.",
+                "An upgraded Reflective Matrix grants +[137.08 - 1,178.57] Physical Resistance.",
+                "While Black Panther has at least 10 Reflect Charges, he gains a [22 - 100]% chance to absorb Heavy Attack impacts by consuming 10 Charges to become Passively Unstoppable for 0.75 seconds."
+            ]
+        }
+    ]
 }

@@ -16,6 +16,77 @@
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Dövüşün büyük kısmında pasif güç kazanır; E3 kullanırsa köşeye sıkıştırır ve durdurulamaz+engellenemez olur. Petrify veya güç kontrolü olan şampiyon kullan. Zırh kıran şampiyon kullanma — degeneration uygular.",
     "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
-    "signatureAbility": "Dragon Man Uyanış Yeteneği: İstatistikleri ve dövüş yeteneklerini güçlendirir.",
-    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪"
+    "signatureAbility": "Tactical Programming\nWhen any Non-Science Opponent has specific Buffs active, gain a unique effect. Potency is increased by 100% when fighting Cosmic Champions.\nRegen: Reduce Opponents Regen Rate by [10 - 35]%.\nPower Gain: Reduce Opponent's Ability Power Rate by [10 - 35]%.\nFury: Gain [305.54 - 1,480.76] Armor Rating.\nArmor Up: Gain [1,016.76 - 3,558.78] Attack Rating.\nPrecision: Gain [305.54 - 1,480.76] Critical Resistance.\nCruelty: Gain [10 - 35]% Critical Damage Resistance.",
+    "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪",
+    "abilitySections": [
+        {
+            "title": "Passive",
+            "content": [
+                "Dragon Man's thick Armor and Advanced Robotics grants full immunity to Bleed, Poison, and Armor Shattered.",
+                "If under the effects of an Armor Break, Dragon Man releases currents of mystical energy, dealing [508.4] Degeneration Damage every 0.5 seconds. Damage is increased by 100% against Cosmic Champions.",
+                "Offensive Combat Power Rate is reduced by 35%."
+            ]
+        },
+        {
+            "title": "Power Charge - Buff:",
+            "content": [
+                "At the start of a fight, gain Power Charge, generating 12% of a bar of Power every second. Power Charge is removed when Stunned.",
+                "If 0 Power Charges are active, create one after 12 seconds. When Defending, this duration is reduced by 4 seconds.",
+                "When fighting Science Champions, upon receiving a Non-Damaging Debuff, pause cooldown Duration for 0.35 seconds."
+            ]
+        },
+        {
+            "title": "Cornered - Passive:",
+            "content": [
+                "While the Opponent's back is against the wall they gain Cornered. Cornered is unaffected by Ability Accuracy modifications.",
+                "Each hit deals [3,558.8] physical damage. This damage is increased by 35% for each Ineptitude or Unique Buff on the Opponent. Up to 105%",
+                "Opponents Defensive Combat Power Rate is reduced by 70% while above 2 bars of Power."
+            ]
+        },
+        {
+            "title": "On Opponent Knockdown:",
+            "content": [
+                "Gain an Unblockable Buff for 3 seconds. Duration is paused during Special Attacks."
+            ]
+        },
+        {
+            "title": "Heavy Attacks",
+            "content": [
+                "On Hit, remove any Incinerates on the Opponent, each dealing a burst of [5,084] energy damage. If 6 or more Incinerates are removed, this damage is increased by 50%."
+            ]
+        },
+        {
+            "title": "Special Attack 1",
+            "content": [
+                "The final hit inflicts a non-stacking Slow for 8 seconds.",
+                "The first hit that contacts the Opponent consumes 1 Power Charge to inflict an Ineptitude Debuff reducing the potency of new Fury, Armor Up, Precision, and Cruelty Buffs by 75% for 30 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 2",
+            "content": [
+                "All 3 hits of Dragon Man's fire breath inflict Incinerate, dealing [5,084] energy damage over 25 seconds. Incinerate also reduces the Opponent's Block Proficiency by 50% and prevents the activation of Perfect Block.",
+                "Consume 1 Power Charge to generate a Fury Buff, increasing Attack Rating by [6,609.2] for 30 seconds."
+            ]
+        },
+        {
+            "title": "Special Attack 3",
+            "content": [
+                "Consume all stacks of Power Charge. Each contributing 4 seconds to an Unstoppable Buff. While active, this Unstoppable instantly regenerates 85% of hit damage received from Attacks other than Special 3's.",
+                "After this Special Attack ends, generate 3 stacks of Power Charge. Additional stacks of Power Charge do not generate additional Power."
+            ]
+        },
+        {
+            "title": "Signature Ability - Tactical Programming",
+            "content": [
+                "When any Non-Science Opponent has specific Buffs active, gain a unique effect. Potency is increased by 100% when fighting Cosmic Champions.",
+                "Regen: Reduce Opponents Regen Rate by [10 - 35]%.",
+                "Power Gain: Reduce Opponent's Ability Power Rate by [10 - 35]%.",
+                "Fury: Gain [305.54 - 1,480.76] Armor Rating.",
+                "Armor Up: Gain [1,016.76 - 3,558.78] Attack Rating.",
+                "Precision: Gain [305.54 - 1,480.76] Critical Resistance.",
+                "Cruelty: Gain [10 - 35]% Critical Damage Resistance."
+            ]
+        }
+    ]
 }
