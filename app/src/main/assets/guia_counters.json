@@ -1,0 +1,2225 @@
+{
+ "source": "https://www.guiamtc.com/best-defenders",
+ "note": "Counter listeleri ve ipuclari GuiaMTC'den (Portekizce); portreler mcoc.gg ile eslendi.",
+ "generatedAt": "2026-10-01T13:32:37Z",
+ "defenders": [
+  {
+   "id": "hyperion",
+   "mcocClass": "COSMIC",
+   "tip": "Contra o Hyperion o mais importante é controlar o ganho de poder . Existem 3 formas de o controlar: Usando campeões com anulação/neutralização , usando campeões com roubo/drenagem de poder ou usando campeões com acesso a efeitos de petrificar",
+   "counters": [
+    "americachavez",
+    "spiral",
+    "agathaharkness",
+    "thehood",
+    "doctorstrange",
+    "nicominoru"
+   ]
+  },
+  {
+   "id": "medusa",
+   "mcocClass": "COSMIC",
+   "tip": "A maior ameaça da Medusa é o autobloco , mas ela só autobloqueia quando tem 3 fúrias , então campões com neutralizar/anulação evitam isso. Outra forma de a parar é usando campeões com ataque certeiro",
+   "counters": [
+    "thehood",
+    "nicominoru",
+    "vox",
+    "moleman",
+    "doctorstrange",
+    "attuma",
+    "phylavell",
+    "angela",
+    "rintrah"
+   ]
+  },
+  {
+   "id": "thechampion",
+   "mcocClass": "COSMIC",
+   "tip": "Contra o Champion o mais importante é controlar o seu insuperável . Para isso basta usar campeões com anulação/neutralização Outra forma é usar campeões com efeitos de lentidão",
+   "counters": [
+    "thehood",
+    "nicominoru",
+    "dracula",
+    "kushala",
+    "purgatory",
+    "symbiotesupreme",
+    "doctorstrange",
+    "mojo",
+    "sorcerersupreme"
+   ]
+  },
+  {
+   "id": "annihilus",
+   "mcocClass": "COSMIC",
+   "tip": "Contra o Annihilus não é nada boa ideia usar campeões que não eliminem o bastão cósmico . Ao anular o Bastão Cós mico o Annihilus perde a abilidade de ficar insuperável e perde a imunidade a drenagem de poder . Além dos anuladores contra o Annihilus dá para usar campeões que reduzam a duração do insuperável",
+   "counters": [
+    "absorbingman",
+    "longshot",
+    "nicominoru",
+    "dracula",
+    "thehood",
+    "symbiotesupreme"
+   ]
+  },
+  {
+   "id": "visionaarkus",
+   "mcocClass": "COSMIC",
+   "tip": "O maior perigo do Vision Aarkus é o dano de onda de frio . Contra o Aarkus existem 3 soluções possíveis. Usar anuladores porque ao perder o ganho de poder perde a habilidade da onda de frio. Outra solução é usar campeões imunes a quebra de armadura ou campeões imunes a onda de frio",
+   "counters": [
+    "absorbingman",
+    "doctordoom",
+    "thehood",
+    "thedestroyer",
+    "isophyne",
+    "nicominoru",
+    "agathaharkness",
+    "sasquatch",
+    "colossus"
+   ]
+  },
+  {
+   "id": "nova",
+   "mcocClass": "COSMIC",
+   "tip": "Contra o Nova não se pode usar campeões com golpes críticos garantidos , porque ele reduz o dano sofrido em 70% . O Nova tem um ganho de poder intenso , controladores de poder são boas opções contra ele. É também importante anular as fúrias porque quando elas estão ativas ele tem acesso a autobloco",
+   "counters": [
+    "absorbingman",
+    "pavitr",
+    "thehood",
+    "nicominoru",
+    "americachavez",
+    "symbiotesupreme"
+   ]
+  },
+  {
+   "id": "terrax",
+   "mcocClass": "COSMIC",
+   "tip": "Enquanto a aura rochosa do Terrax está ativa o dano de energia que o inimigo sofre é intenso. Contra o Terrax é muito importante usar campeões com resistência a energia e que sejam imunes a quebra de armadura . Campeões não metálicos que drenem poder também são boas opções.",
+   "counters": [
+    "absorbingman",
+    "wiccan",
+    "thehood",
+    "countnefaria",
+    "diablo",
+    "shathra",
+    "kushala",
+    "havok",
+    "ghostrider"
+   ]
+  },
+  {
+   "id": "airwalker",
+   "mcocClass": "COSMIC",
+   "tip": "O Air Walker apresenta 2 perigos. Dano de Maré Sombria e Ganho de poder intenso Para evitar este dano deve-se usar anuladores e remover o Poder Cósmico ou usar controladores de poder Campeões imunes a quebra de armadura ou que purifiquem também são uma boa resposta contra o Air Walker.",
+   "counters": [
+    "thedestroyer",
+    "whitetiger",
+    "thehood",
+    "wiccan",
+    "americachavez",
+    "absorbingman"
+   ]
+  },
+  {
+   "id": "superskrull",
+   "mcocClass": "COSMIC",
+   "tip": "Contra o Superskrull os anuladores são a melhor resposta. É preciso ter cuidado com o ganho de poder e com o efeito de vacilo que aparece de 25 em 25 segundos. Controladores de poder funcionam bem contra ele. Não se deve deixar o Skrull usar o Especial 2 , esse especial pode ser letal até se for bloqueado.",
+   "counters": [
+    "kushala",
+    "nicominoru",
+    "thehood",
+    "symbiotesupreme",
+    "doctorstrange",
+    "galan",
+    "americachavez",
+    "spiral",
+    "mojo"
+   ]
+  },
+  {
+   "id": "knull",
+   "mcocClass": "COSMIC",
+   "tip": "O maior problema que o Knull apresenta são os controlos invertidos . Para evitar isto deve-se forçar o Especial 2 e não o deixar usar o Especial 1 . Mas as opções mais seguras são os campeões imunes a controlos invertidos Campeões imunes a armadura também têm alguma vantagem contra o Knull.",
+   "counters": [
+    "absorbingman",
+    "wiccan",
+    "thedestroyer",
+    "kushala",
+    "moleman",
+    "whitetiger",
+    "agathaharkness",
+    "jeangrey",
+    "patriot"
+   ]
+  },
+  {
+   "id": "sersi",
+   "mcocClass": "COSMIC",
+   "tip": "A Sersi é um dos defesas cósmicos mais poderosos do jogo. Os especiais são não bloqueáveis , tem constante acesso a evasão/glancing que impede as habilidades ofensivas de funcionar . E ainda tem acesso a regeneração e ganho de poder . Para controlar a Sersi é mandatório usar campeões que anulem ou neutralizem bónus",
+   "counters": [
+    "shathra",
+    "rintrah",
+    "thehood",
+    "nicominoru",
+    "kushala",
+    "longshot",
+    "spiral",
+    "mojo",
+    "werewolfbynight"
+   ]
+  },
+  {
+   "id": "ikaris",
+   "mcocClass": "COSMIC",
+   "tip": "Contra o Ikaris é mandatório não o deixar usar Especial 2 , já que esse especial pode ficar não bloqueável A melhor forma de controlar o Ikaris é anulando ou neutralizando os bónus de energizar Apenas se deve usar Místicos contra o Ikaris porque as restantes classes sofrem dano de energia com frequência.",
+   "counters": [
+    "kushala",
+    "pavitr",
+    "thehood",
+    "symbiotesupreme",
+    "shathra",
+    "americachavez"
+   ]
+  },
+  {
+   "id": "hulkling",
+   "mcocClass": "COSMIC",
+   "tip": "Para derrubar com facilidade este defesa é preciso usar um counter certo. O Hulkling tem efeitos de indestrutível , não bloqueável , regeneração e ainda penetração de bloqueio Felizmente todos estes efeitos são bónus então neutralizores ou anuladores desligam ele facilmente.",
+   "counters": [
+    "doctorstrange",
+    "nicominoru",
+    "thehood",
+    "pavitr",
+    "longshot",
+    "americachavez",
+    "agathaharkness",
+    "mojo",
+    "werewolfbynight"
+   ]
+  },
+  {
+   "id": "gorr",
+   "mcocClass": "COSMIC",
+   "tip": "O Gorr é um defesa que simplesmente é difícil derrubar sem counters bem específicos . O maior perigo dele é a massiva regeneração , mas além disso caso os bónus não sejam todos anulados ele aplica choque, sangramento e veneno através do bloco . Deve-se usar anuladores ou neutralizadores contra ele.",
+   "counters": [
+    "doctorstrange",
+    "longshot",
+    "thehood",
+    "whitetiger",
+    "kushala",
+    "nicominoru",
+    "werewolfbynight",
+    "void",
+    "symbiotesupreme"
+   ]
+  },
+  {
+   "id": "galan",
+   "mcocClass": "COSMIC",
+   "tip": "O Galan é perigoso por causa da detonação da colheita no defensor. Além disso ele é imune a anulação Nunca se deve usar campeões com bónus de armadura contra o Galan, isso alimenta a colheita. A melho r forma de controlar o Galan é usar campeões com neutralizar ou usar campeões com roubo de poder",
+   "counters": [
+    "pavitr",
+    "americachavez",
+    "tigra",
+    "purgatory",
+    "wiccan",
+    "thehood",
+    "archangel",
+    "agathaharkness",
+    "rintrah"
+   ]
+  },
+  {
+   "id": "adamwarlock",
+   "mcocClass": "COSMIC",
+   "tip": "O Adam Warlock ignora as habilidades de vários místicos , ele é imune a anulação e redução de habilidades Além disso os golpes e ataques especiais do Adam tornam-se não bloqueáveis . Contra o Adam deve-se usar campeões com roubo de poder Não se deve acertar na câmara de estase , se isso acontecer o atacante fica atordoado",
+   "counters": [
+    "whitetiger",
+    "spiral",
+    "thehood",
+    "symbiotesupreme",
+    "nicominoru",
+    "americachavez"
+   ]
+  },
+  {
+   "id": "gladiator",
+   "mcocClass": "COSMIC",
+   "tip": "O Gladiator fica Insuperável durante 4 segundos quando usa Especial 1 Além disso os Especiais colocam debilitações mesmo se forem bloqueados. O E1 aplica onda de frio e o E2 aplica incinerar através do bloco. Contra este defesa é aconselhado usar campeões Imunes a incinerar e a onda de frio , ou então usar um bom Controlador de poder",
+   "counters": [
+    "symbiotesupreme",
+    "americachavez",
+    "thehood",
+    "shathra",
+    "pavitr",
+    "nicominoru"
+   ]
+  },
+  {
+   "id": "maestro",
+   "mcocClass": "COSMIC",
+   "tip": "O Maestro tem um extenso KIT de habilidades defensivas que fazem deste Defesa um dos melhores do jogo. O principal problema deste Defesa é que com 10 Neutrónios ele ganha um Bónus de Evasão que previne todos os críticos e habilidades ofensivas",
+   "counters": [
+    "nicominoru",
+    "symbiotesupreme",
+    "purgatory",
+    "shathra",
+    "magik",
+    "mojo",
+    "thehood",
+    "pavitr",
+    "kushala",
+    "spiral",
+    "absorbingman"
+   ]
+  },
+  {
+   "id": "theserpent",
+   "mcocClass": "COSMIC",
+   "tip": "The Serpent tal como o Maestro é um Defensor Cósmico com um Kit que restringe bastante a quantidade des respostas seguras Ganho de Poder, Perfuração, Imortalidade, Especiais que não Podem ser Desviados e Altíssima Resistência.",
+   "counters": [
+    "symbiotesupreme",
+    "agathaharkness",
+    "isophyne",
+    "kushala",
+    "doctorstrange",
+    "nicominoru",
+    "spiral",
+    "countnefaria",
+    "shathra",
+    "pavitr",
+    "magik"
+   ]
+  },
+  {
+   "id": "deathlessthanos",
+   "mcocClass": "COSMIC",
+   "tip": "Este Defensor c ósmico traz como principais perigos, o Insuperável Passivo , elevadíssima taxa de ganho de poder , e a Proteção É necessário obedecer uma série de regras para derrubar este Defesa de forma tranquila.",
+   "counters": [
+    "nicominoru",
+    "betaraybill",
+    "redguardian",
+    "symbiotesupreme",
+    "thehood",
+    "spiderham",
+    "cheeilth",
+    "kushala",
+    "valkyrie",
+    "pavitr",
+    "dracula"
+   ]
+  },
+  {
+   "id": "darkphoenix",
+   "mcocClass": "COSMIC",
+   "tip": "A Dark Phoenix tem como principais ameaças Defensivas: Chama Nova (apenas 2 campeões são imunes), Imortalidade , Salvaguarda e Especiais com Enraizar",
+   "counters": [
+    "thehood",
+    "nicominoru",
+    "countnefaria",
+    "diablo",
+    "shathra",
+    "pavitr",
+    "spiral",
+    "iceman",
+    "absorbingman",
+    "tigra",
+    "agathaharkness"
+   ]
+  },
+  {
+   "id": "karolinadean",
+   "mcocClass": "COSMIC",
+   "tip": "A Karolina Dean traz como principal mecânica Defensiva os Especiais Não Bloqueáveis e o Ganho Passivo de Poder A Karolina Dean ganha um Bónus de Não Bloqueável e de Ganho de Poder quando está dentro da Área do Sol Iridescente Contra a Karolina Dean campeões que Bloqueiam Especiais Não Bloqueáveis têm total vantagem.",
+   "counters": [
+    "thehood",
+    "nicominoru",
+    "kushala",
+    "wiccan",
+    "rintrah",
+    "symbiotesupreme",
+    "americachavez",
+    "whitetiger"
+   ]
+  },
+  {
+   "id": "imperiosa",
+   "mcocClass": "COSMIC",
+   "tip": "A Imperiosa traz como principais perigos o Ganho de Poder , Penetração de Bloco e ainda a Armadilha que aplica Enraizar Contra ela é importante Controlo de Poder e de preferência manter ela a usar o E1. Bloquear contra a Imperiosa também não é nada aconselhável, já que a Penetração de Bloco é intensa.",
+   "counters": [
+    "spiral",
+    "pavitr",
+    "thehood",
+    "madelynepryor",
+    "symbiotesupreme",
+    "shathra",
+    "werewolfbynight",
+    "valkyrie"
+   ]
+  },
+  {
+   "id": "heimdall",
+   "mcocClass": "COSMIC",
+   "tip": "O Heimdall recebeu um Grande Buff e agora é uma Grande Ameaça Defensiva As principais Ameaças Defensivas são o Autobloco (que agora ativa atordoamento), Ganho de Poder , Insuperável , Indestrutível e ainda a Desativação de Destreza Grande parte dos Místicos deixaram de funcionar contra o Heimdall já que agora ele é Imune a Neutralizar , Selar Destino e Imunidade a Bónus",
+   "counters": [
+    "doctorstrange",
+    "absorbingman",
+    "spiral",
+    "mojo",
+    "kushala",
+    "shathra",
+    "thehood",
+    "agathaharkness"
+   ]
+  },
+  {
+   "id": "phylavell",
+   "mcocClass": "COSMIC",
+   "tip": "A Phylla-Vell traz como Principal perigo o Ganho de Poder Instantâneo , ela ganha 2 Barras Instantâneamente quando atinge 100 Cargas de Esquecimento Além disso em qualquer nó Não Bloqueável o Especial 1 é muito problemático",
+   "counters": [
+    "doctorstrange",
+    "kushala",
+    "spiral",
+    "agathaharkness",
+    "isophyne",
+    "nicominoru",
+    "whitetiger",
+    "rintrah"
+   ]
+  },
+  {
+   "id": "spidermansymbiote",
+   "mcocClass": "COSMIC",
+   "tip": "O Spider-Man Symbiote apresenta apenas 1 Perigo como Defensor, a Esquiva Após finalizar um Especial ele ativa um Bónus de Esquiva por 1,1 segundos. Então sem counter de esquiva não se deve contra-atacar os Especiais. Quando ele ativa a Esquiva coloca Quebra de Armadura e Regenera 4% da sua Saude Máxima Campeões com Controlo de Bónus ou que desligam a Esquiva são as melhores respostas.",
+   "counters": [
+    "doctorstrange",
+    "archangel",
+    "venom",
+    "thehood",
+    "doctorbong",
+    "antivenom"
+   ]
+  },
+  {
+   "id": "hulkbuster",
+   "mcocClass": "TECH",
+   "tip": "É importante usar campeões que quebrem a armadura contra o Hulkbuster, caso contrário a redução de habilidades e o dano de choque pode ser letal. Outra boa opção são os nuladores de ónus Usar um campeão imune a choque mas sem anulação ou quebra de armadura não é aconselhado.",
+   "counters": [
+    "betaraybill",
+    "knull",
+    "deathlessthanos",
+    "scream",
+    "symbiotesupreme",
+    "medusa"
+   ]
+  },
+  {
+   "id": "ironmaninfinitywar",
+   "mcocClass": "TECH",
+   "tip": "O IMIW autobloqueia com 4 armaduras, portanto é importante quebrar a armadura dele ou usar algum campeão com ataque certeiro ou com redução de habilidades . Anuladores não funcionam contra o IMIW. Quando ele está nos 15% ganha muito poder passivamente , é preciso ter bastante atenção a isso.",
+   "counters": [
+    "magneto",
+    "vox",
+    "void",
+    "deathlessthanos",
+    "karolinadean",
+    "theserpent",
+    "angela",
+    "phylavell",
+    "falcon"
+   ]
+  },
+  {
+   "id": "mysterio",
+   "mcocClass": "TECH",
+   "tip": "A regra mais importante contra o Mysterio é não acertar nele depois do Especial 1 . Porque isso reflete o dano É aconselhável manter ele no E1 e ficar 6 segundos sem lhe bater . No E2 ele fica invisível e ainda drena poder As melhores respostas contra ele são os campeões que evitam vacilo",
+   "counters": [
+    "medusa",
+    "vox",
+    "doctorbong",
+    "theserpent",
+    "bullseye",
+    "deathlessthanos"
+   ]
+  },
+  {
+   "id": "warlock",
+   "mcocClass": "TECH",
+   "tip": "Contra o Warlock existem 3 soluções eficazes: Usar campeões com muitos bónus diferentes (pelo menos três). Usar campeões imunes a choque e quebra de armadura ou usar Robots Outra forma para não sofrer a degeneração é remover a proficiência de força de vontade",
+   "counters": [
+    "vox",
+    "spidermansymbiote",
+    "galan",
+    "medusa",
+    "angela",
+    "deathlessthanos"
+   ]
+  },
+  {
+   "id": "guardian",
+   "mcocClass": "TECH",
+   "tip": "Contra o Guardian não se deve usar campeões que dependam de sangramento ou dano de energia Se o atacante usado não quebrar ou anular a armadura dele então não se deve usar ataques especiais porque ele vai autobloquear . Campeões com vigilância também evitam o autobloco.",
+   "counters": [
+    "medusa",
+    "galan",
+    "phylavell",
+    "deathlessthanos",
+    "vox",
+    "scream"
+   ]
+  },
+  {
+   "id": "peniparker",
+   "mcocClass": "TECH",
+   "tip": "Contra a Peni Parker o mais importante é usar um campeão imune a queima/drenagem de poder Outra forma de a derrotar é usando campeões com alta penetração de bloco , deve-se remover o escudo batendo no bloco, dessa forma ela perde a habilidade de autobloquear por 20 segundos.",
+   "counters": [
+    "galan",
+    "hulkling",
+    "vox",
+    "baronzemo",
+    "theserpent",
+    "spidermansymbiote",
+    "phylavell",
+    "imperiosa",
+    "angela"
+   ]
+  },
+  {
+   "id": "nimrod",
+   "mcocClass": "TECH",
+   "tip": "O Nimrod é um campeão extremamente resistente, portanto é importante usar campeões com dano direto ou com dano de energia (incinerar, choque). É mais seguro manter ele no E1, já que no E2 ele fica insuperável As suas armaduras não podem ser removidas por quebra de armadura mas podem ser anuladas",
+   "counters": [
+    "galan",
+    "karolinadean",
+    "theserpent",
+    "spidermansymbiote",
+    "thehood",
+    "humantorch"
+   ]
+  },
+  {
+   "id": "samwilson",
+   "mcocClass": "TECH",
+   "tip": "Contra este campeão não se deve usar ataques especiais , ele autobloqueia e retalia imediatamente. Campeões com quebra de armadura têm vantagem contra o Cap. Wilson. Também não se devem usar campeões que dependam da ativação de várias habilidades porque ele retalia com dano de ruptura",
+   "counters": [
+    "galan",
+    "theserpent",
+    "deathlessthanos",
+    "hulkling",
+    "medusa",
+    "vox",
+    "angela",
+    "phylavell",
+    "spidermansymbiote"
+   ]
+  },
+  {
+   "id": "omegasentinel",
+   "mcocClass": "TECH",
+   "tip": "O maior perigo da Omega Sentinel é o autobloco , ela autobloqueia quando tem 5 armaduras Campeões com anulação não funcionam contra ela, portanto há 3 formas de a derrotar. Campeões com quebra de armadura , campeões com redução de habilidades defensivas ou campeões com vigilância",
+   "counters": [
+    "scream",
+    "deathlessthanos",
+    "corvusglaive",
+    "knull",
+    "medusa",
+    "karolinadean",
+    "angela",
+    "phylavell",
+    "spidermansymbiote"
+   ]
+  },
+  {
+   "id": "shuri",
+   "mcocClass": "TECH",
+   "tip": "A Shuri é o único campeão do jogo que tem todos os golpes básicos como golpes que não fazem contacto Por causa disso poucos campeões podem aparar a Shuri e atordoa-la. É aconselhável usar campeões que aparem golpes que não fazem contacto e usar campeões que evitam vacilo",
+   "counters": [
+    "galan",
+    "photon",
+    "deathlessthanos",
+    "theserpent",
+    "angela",
+    "karolinadean"
+   ]
+  },
+  {
+   "id": "antmanfuture",
+   "mcocClass": "TECH",
+   "tip": "A forma mais eficaz de derrotar o Future Ant-Man é usar campeões com efeitos de perfuração A maior ameaça deste defensor é a evasão/glancing , efeitos de perfuração impedem esta habilidade. Campeões com quebra de armadura também são boas opções. É aconselhável manter ele no E1.",
+   "counters": [
+    "hulkling",
+    "magneto",
+    "deathlessthanos",
+    "imperiosa",
+    "betaraybill",
+    "thehood",
+    "valkyrie",
+    "karolinadean",
+    "mojo"
+   ]
+  },
+  {
+   "id": "vivvision",
+   "mcocClass": "TECH",
+   "tip": "A Viv Vision drena constantemente o poder do atacante , por causa disso é importante usar contra ela campeões imunes a drenagem de poder . O E1 dela dá um dano massivo de incinerar , para evitar isso a solução é forçar o E2 dela ou usar campeões que quebrem a armadura",
+   "counters": [
+    "kushala",
+    "karolinadean",
+    "galan",
+    "vox",
+    "deathlessthanos",
+    "spidermansymbiote"
+   ]
+  },
+  {
+   "id": "shocker",
+   "mcocClass": "TECH",
+   "tip": "Contra o Shocker não se deve usar E1 e E2 porque ele tem uma mecânica de autobloco de especiais Quando ele corre para a frente fica não bloqueável , é preciso ter muita atenção a isso. É preciso ter cuidado com o E1 porque esse especial pode ficar não bloqueável e atordoa",
+   "counters": [
+    "hulkling",
+    "deathlessthanos",
+    "lumatrix",
+    "theserpent",
+    "vox",
+    "spidermansymbiote",
+    "phylavell",
+    "angela",
+    "medusa"
+   ]
+  },
+  {
+   "id": "ladydeathstrike",
+   "mcocClass": "TECH",
+   "tip": "Contra a Lady Deathstrike o maior perigo é que os especiais ocupam muito espaço de tela e é fácil ficar preso na parede. Ela também regenera grande parte do dano dos golpes especiais.",
+   "counters": [
+    "vox",
+    "deathlessthanos",
+    "galan",
+    "cosmicghostrider",
+    "spiderwoman",
+    "medusa"
+   ]
+  },
+  {
+   "id": "redskull",
+   "mcocClass": "TECH",
+   "tip": "Se o Red Skull tiver armadura ativa bater no bloco dele aplica Dano Direto no Atacante O Red Skull é imune a anulação , portanto todos os counters místicos já não funcionam. Além disso por cada armadura ativa nele o Oponente sofre -10% de Precisão de Habilidade de Atordoamento , ou seja é muito difícil aparar ele.",
+   "counters": [
+    "betaraybill",
+    "scream",
+    "corvusglaive",
+    "medusa",
+    "phylavell",
+    "vox",
+    "karolinadean",
+    "kushala"
+   ]
+  },
+  {
+   "id": "arcade",
+   "mcocClass": "TECH",
+   "tip": "O Arcade é uma grande ameaça defensiva do jogo, os maiores problemas que ele pode apresentar são: ➔ Autobloco ➔ Debuffs de Veneno",
+   "counters": [
+    "spidermansymbiote",
+    "angela",
+    "vox",
+    "deathlessthanos",
+    "hulkling",
+    "phylavell",
+    "cheeilth",
+    "theserpent"
+   ]
+  },
+  {
+   "id": "arnimzola",
+   "mcocClass": "TECH",
+   "tip": "O A rmin Zola traz como principal mecânica Defensiva o Sono Passivo Além disso Passivamente ele Reduz o Dano dos Ataques Especiais do Atacante em 90% O Especial 2 do Zola aplica ainda uma Desintegração Passiva que não poder ser evitada.",
+   "counters": [
+    "deathlessthanos",
+    "ironheart",
+    "jackolantern",
+    "bastion",
+    "doctorstrange",
+    "phoenix",
+    "thehood",
+    "prowler"
+   ]
+  },
+  {
+   "id": "sentinel",
+   "mcocClass": "TECH",
+   "tip": "Depois do Buff o Sentinel se tornou um Defensor que merece respeito. Este Defensor precisa respostas bastante específicas , caso contrário a luta se prolonga imenso seja pelas resistências ou pela 2ª vida.",
+   "counters": [
+    "void",
+    "spiderham",
+    "kushala",
+    "prowler",
+    "spiderwoman",
+    "shuri",
+    "thehood",
+    "karolinadean"
+   ]
+  },
+  {
+   "id": "themaker",
+   "mcocClass": "TECH",
+   "tip": "O The Maker traz como perigos defensivas a Mina de Plasma que ele ativa no Especial 1. A Mina de Plasma causa Dano de Energia ao Oponente. Além disso sempre que ele esquiva atordoa o oponente passivamente.",
+   "counters": [
+    "theserpent",
+    "okoye",
+    "bastion",
+    "moleman",
+    "medusa"
+   ]
+  },
+  {
+   "id": "solvarch",
+   "mcocClass": "TECH",
+   "tip": "O Solvarch é um Defensor que conta como principais perigos a Massiva Resistência Crítica e a Reflexão de Dano de Energia Além disto o Solvarch é imune a Reversão de Cura. Para enfrentar o Solvarch o ideal é usar campeões com Dano Direto que não seja Energético",
+   "counters": [
+    "vox",
+    "galan",
+    "yondu",
+    "prowler",
+    "knull",
+    "theserpent",
+    "medusa",
+    "spiderham"
+   ]
+  },
+  {
+   "id": "jjj",
+   "mcocClass": "TECH",
+   "tip": "O Spider-Slayer traz um Kit bastante simples como Defesa. Basicamente o Importante é não lhe acertar no Bloco Ao acertar no Bloco o Spider-Slayer aplica um Vacilo no Oponente fazendo com que ele Erre os Golpes Campeões que Evitam a Invisibilidade são as melhores respostas contra este Defensor.",
+   "counters": [
+    "theserpent",
+    "deathlessthanos",
+    "lumatrix",
+    "vox",
+    "prowler",
+    "ironheart"
+   ]
+  },
+  {
+   "id": "rubythursday",
+   "mcocClass": "TECH",
+   "tip": "A Ruby Thursday é um grande Defensor que deve ser respeitado. A Principal Ameaça Defensiva dela é o Autobloco O Autobloco não pode ser prevenido por Efeitos de Ataque Certeiro, Precisão Certeira ou Sentido Certeiro Isso limita ainda mais as respostas eficazes contra ela.",
+   "counters": [
+    "vox",
+    "angela",
+    "ironheart",
+    "falcon",
+    "crossbones",
+    "thehood",
+    "phylavell",
+    "doctorstrange",
+    "shuri",
+    "attuma",
+    "prowler",
+    "lumatrix"
+   ]
+  },
+  {
+   "id": "magneto",
+   "mcocClass": "MUTANT",
+   "tip": "Com a exceção do Arcanjo , Nimrod e Lady Deathst rike não se deve usar metais contra o Magneto . ❌ Deve-se manter ele no E1 e usar campeões com dano de energia",
+   "counters": [
+    "nicominoru",
+    "jackolantern",
+    "karolinadean",
+    "humantorch",
+    "themaker",
+    "jeangrey"
+   ]
+  },
+  {
+   "id": "nightcrawler",
+   "mcocClass": "MUTANT",
+   "tip": "É importante usar campeões que impeçam esquiva e que sejam imunes a sangramento Tentar mudar o modo dele é uma ação arriscada que pode dar muito errado. A ameaça deste defesa acontece quando ele é colocado em nós de imunidade a atordoamento . ⚠️",
+   "counters": [
+    "okoye",
+    "jjj",
+    "prowler",
+    "cyclopsblueteam",
+    "theserpent",
+    "bastion",
+    "shatterstar",
+    "solvarch",
+    "professorx"
+   ]
+  },
+  {
+   "id": "iceman",
+   "mcocClass": "MUTANT",
+   "tip": "Toda a ameaça deste defesa reside na onda de frio que a x200 é letal. Sendo assim deve-se sempre usar imunes a onda de frio contra este defesa. ⚠️",
+   "counters": [
+    "solvarch",
+    "ironheart",
+    "warlock",
+    "colossus",
+    "theserpent"
+   ]
+  },
+  {
+   "id": "bishop",
+   "mcocClass": "MUTANT",
+   "tip": "Nunca se deve usar nenhum campeão com dano de sangramento, choque ou incinerar contra o Bishop. O ideal é usar campeões imunes a incinerar que sejam da classe tecnológica Tanto o E1 como o E2 são especiais difíceis de desviar portanto é aconselhado bloquear.",
+   "counters": [
+    "ironmaninfamous",
+    "ultron",
+    "antmanfuture",
+    "ironheart",
+    "ironman",
+    "prowler"
+   ]
+  },
+  {
+   "id": "domino",
+   "mcocClass": "MUTANT",
+   "tip": "Campeões imunes a redução de habilidade são os melhores contra a Domino. Usar um campeão que dependa de habilidades baseadas em chance pode ser letal contra a Domino. Deve-se usar campeões tecnológicos e ter sempre atenção à esquiva quando ela enche uma barra de poder.",
+   "counters": [
+    "nimrod",
+    "omegasentinel",
+    "shuri",
+    "vivvision",
+    "redskull",
+    "prowler"
+   ]
+  },
+  {
+   "id": "havok",
+   "mcocClass": "MUTANT",
+   "tip": "Contra o Havok é mandatório usar campeões com bónus de armadura ativo É preferível forçar ele a usar pesados e E2 , dessa forma controla-se as cargas de plasma. Não se deve usar campeões com dano de energia nem que façam sangramento contra o Havok.",
+   "counters": [
+    "warlock",
+    "ironmaninfamous",
+    "antmanfuture",
+    "ultron",
+    "venom",
+    "ironman"
+   ]
+  },
+  {
+   "id": "mistersinister",
+   "mcocClass": "MUTANT",
+   "tip": "Contra o Sinister não se deve usar campeões com golpes críticos garantidos ou que apliquem efeitos negativos de dano aos quais não sejam imunes. Campeões que não acertam críticos são boas opções. A forma mais segura de o matar é usar campeões com bloco de cura ou com petrificar",
+   "counters": [
+    "warlock",
+    "bastion",
+    "solvarch",
+    "vivvision",
+    "sentinel",
+    "nimrod"
+   ]
+  },
+  {
+   "id": "wolverinex23",
+   "mcocClass": "MUTANT",
+   "tip": "Contra o Weapon X deve-se usar campeões que bloqueiam a cura ou com bom dano secundário Petrificar e manipulação de cura não funcionam contra este defensor. O defesa fica não bloqu eável e insuperável a maior parte da luta, é importante ter muita atenção nisso.",
+   "counters": [
+    "ladydeathstrike",
+    "warlock",
+    "nimrod",
+    "sentinel",
+    "archangel",
+    "omegasentinel"
+   ]
+  },
+  {
+   "id": "stormpyramidx",
+   "mcocClass": "MUTANT",
+   "tip": "No Kit da Storm X a caraterística mais problemática é que ela tem 60% chance de Evasão , exceto contra golpes especiais. Evasão reduz as habilidades ofensivas e impede golpes críticos. Contra a Storm X deve-se usar campeões que removem a proeza e que drenem o poder",
+   "counters": [
+    "ladydeathstrike",
+    "warlock",
+    "nimrod",
+    "vivvision",
+    "prowler",
+    "bastion"
+   ]
+  },
+  {
+   "id": "professorx",
+   "mcocClass": "MUTANT",
+   "tip": "A maior dificuldade que este defesa pode apresentar é o vacilo/falha A forma mais fácil de evitar o vacilo é usar campeões com vigilância ou monitoramento",
+   "counters": [
+    "humantorch",
+    "ironheart",
+    "theserpent",
+    "jeangrey",
+    "prowler",
+    "cyclopsblueteam"
+   ]
+  },
+  {
+   "id": "apocalypse",
+   "mcocClass": "MUTANT",
+   "tip": "As melhores opções são os removedores de proeza Para não alimentar o código genético se deve usar Robots . Por norma é preferível manter ele no E1. Nunca se deve usar nenhum mutante contra ele. ❌",
+   "counters": [
+    "nimrod",
+    "jackolantern",
+    "warlock",
+    "bastion",
+    "antmanfuture",
+    "ironman"
+   ]
+  },
+  {
+   "id": "stryfe",
+   "mcocClass": "MUTANT",
+   "tip": "Contra o Stryfe é aconselhado usar campeões que não acertam críticos , isso não alimenta as cargas dele. Este defensor tem a habilidade de evasão/glancing o que impede habilidades ofensivas. Campeões que evitam vacilo são opções seguras contra este defesa.",
+   "counters": [
+    "nimrod",
+    "theserpent",
+    "humantorch",
+    "jeangrey",
+    "archangel",
+    "ironheart"
+   ]
+  },
+  {
+   "id": "kittypryde",
+   "mcocClass": "MUTANT",
+   "tip": "Contra Kitty Pryde é importante estar atento ás proezas Com 3 Proezas ela fica invisível em Golpes de Corrida e quando está invísvel reflete o dano recebido para o atacante É aconselhado usar campeões removedores de proeza ou que não acertem golpes críticos",
+   "counters": [
+    "nimrod",
+    "ironmaninfamous",
+    "ironman",
+    "jackolantern",
+    "guardian",
+    "prowler"
+   ]
+  },
+  {
+   "id": "toad",
+   "mcocClass": "MUTANT",
+   "tip": "Contra o Toad se deve usar campeões imunes a veneno , que sejam removedores de proeza ou que tenham bloco de cura É possível derrotar o Toad sem bloquear a cura, mas nesse caso não se deve encostar o Toad na parede Nunca se deve usar campeões de habilidade contra o Toad.",
+   "counters": [
+    "nimrod",
+    "warlock",
+    "bastion",
+    "sentinel",
+    "omegasentinel",
+    "vivvision"
+   ]
+  },
+  {
+   "id": "sauron",
+   "mcocClass": "MUTANT",
+   "tip": "Contra o Sauron usar removedores de proeza é quase obrigatório. Sem removedores de proeza é preciso prestar atenção ao não bloqueável que vai estar presente grande parte da luta. Deve-se forçar o Especial 2 dele. Campeões que bloqueiem golpes especiais não bloqueáveis também são boas opções.",
+   "counters": [
+    "nimrod",
+    "warlock",
+    "ladydeathstrike",
+    "ironman",
+    "vivvision",
+    "bastion"
+   ]
+  },
+  {
+   "id": "danimoonstar",
+   "mcocClass": "MUTANT",
+   "tip": "ontra a Dani deve-se manter ela no Especial 1, porque é muito mais fácil desviar. Deve-se também evitar acertar no bloco dela já que ela pode ficar invisível",
+   "counters": [
+    "nimrod",
+    "archangel",
+    "omegasentinel",
+    "ironheart",
+    "ironmaninfamous",
+    "ironman"
+   ]
+  },
+  {
+   "id": "onslaught",
+   "mcocClass": "MUTANT",
+   "tip": "O Onslaught é o Melhor Defesa Mutante do jogo. Isto porque existem poucas respostas realmente seguras para o derrubar. Contra o Onslaught a luta não pode ser longa, caso contrário o dano por neurochoque pode ser letal.",
+   "counters": [
+    "rubythursday",
+    "themaker",
+    "havok",
+    "bastion",
+    "jackolantern",
+    "ironheart",
+    "hulkling",
+    "solvarch"
+   ]
+  },
+  {
+   "id": "dust",
+   "mcocClass": "MUTANT",
+   "tip": "A Dust é mais um campeão com mecânicas de Evasão Todos as Habilidades que ativem através do Bloco contra a Dust não funcionam. Acertar a Sand no Bloco ou com Golpes Médios fazem ela aplicar Debuffs de Areia",
+   "counters": [
+    "ironheart",
+    "jackolantern",
+    "vivvision",
+    "karolinadean",
+    "prowler",
+    "bastion",
+    "hobgoblin",
+    "negasonic"
+   ]
+  },
+  {
+   "id": "negasonic",
+   "mcocClass": "MUTANT",
+   "tip": "A Negasonic apresenta 2 perigos ➔ Nenhum ataque dela pode ser atordoado com aparar já que todos os seus golpes não fazem contacto ➔ Tem 15% Chance de Esquivar de Golpes Médios ou Leves e ao mesmo tempo atordoar o Oponente.",
+   "counters": [
+    "photon",
+    "ironheart",
+    "bastion",
+    "angela",
+    "jackolantern",
+    "prowler",
+    "theserpent",
+    "vivvision"
+   ]
+  },
+  {
+   "id": "northstar",
+   "mcocClass": "MUTANT",
+   "tip": "N orthstar apresenta 2 perigos ➔ Ao usar Ataques Especiais impede o Atacante de acertar Golpes Críticos por mais de 6 segundos. ➔ Os Especiais do Northstar custam menos poder e ocupam muito espaço na tela, portanto ao fim de alguns especiais é comum o oponente ficar próximo da parede.",
+   "counters": [
+    "sentinel",
+    "antmanfuture",
+    "bastion",
+    "jackolantern",
+    "nimrod"
+   ]
+  },
+  {
+   "id": "gentle",
+   "mcocClass": "MUTANT",
+   "tip": "O Gentle ganha um Passivo de Reforço sempre que é acertado por um crítico garantido ou por 2 críticos num espaço de 2 segundos, esse Passivo impede o Atacante de acertar qualquer golpe crítico Além disto a cada 15 golpes feitos pelo atacante o Gentle fica Passivamente Insuperável por 3 Segundos.",
+   "counters": [
+    "sentinel",
+    "prowler",
+    "jjj",
+    "jackolantern",
+    "nimrod",
+    "betaraybill",
+    "ladydeathstrike",
+    "rubythursday"
+   ]
+  },
+  {
+   "id": "dazzler",
+   "mcocClass": "MUTANT",
+   "tip": "A Dazzler tal como o Homem Coisa reduz a Potência do Dano Crítico para Zero, exceto se o oponente for Tech. Portanto contra a Dazzler é importante usar campeões com Efeitos de Dano Secundário Além disso a cada 10 Golpes em que o Oponente acerta na Dazzler ela fica Invisível quando corre para a frente",
+   "counters": [
+    "prowler",
+    "ironheart",
+    "jackolantern",
+    "theserpent",
+    "sentinel",
+    "onslaught"
+   ]
+  },
+  {
+   "id": "jeangrey",
+   "mcocClass": "MUTANT",
+   "tip": "A Jean Grey sempre que o Oponente lhe acerta com um crítico aplica uma Exaustão que reduz a Potência do Dano Crítico. Além disto a Jean Grey tem um Campo de Força que a permite ter uma Resistência adicional a todo o tipo de dano.",
+   "counters": [
+    "jackolantern",
+    "ironheart",
+    "bastion",
+    "prowler",
+    "mistersinister",
+    "themaker",
+    "rubythursday"
+   ]
+  },
+  {
+   "id": "captainbritain",
+   "mcocClass": "MUTANT",
+   "tip": "A Capitã Britânia foi atualizada com o objetivo de ser um bom Defensor. Ela conta com Mecânicas de Salvaguarda , evitando que ela perca mais de 3% de vida num só golpe. O maior perigo que ela apresenta são os Neurochoques , que são aplicados no inimigo com bastante frequência. Atingir a Capitã Britânia com Golpes Críticos ou aplicar Sangramento e Choque nela é basicamente uma sentença de morte.",
+   "counters": [
+    "themaker",
+    "jackolantern",
+    "prowler",
+    "havok",
+    "bastion",
+    "solvarch",
+    "rubythursday",
+    "yondu"
+   ]
+  },
+  {
+   "id": "cassandra",
+   "mcocClass": "MUTANT",
+   "tip": "A Cassandra Nova traz como principais perigos Defensivos o Atordoamento Passivo no Pesado caso seja atacada , o Enraizar , Controlos Invertidos e Dano de Neurochoque Para a enfrentar o ideal é usar Campeões que tenham acesso a Choque ou que mitiguem o Dano de Neurochoque",
+   "counters": [
+    "themaker",
+    "jackolantern",
+    "solvarch",
+    "prowler",
+    "shuri",
+    "sentinel",
+    "guardian",
+    "bastion"
+   ]
+  },
+  {
+   "id": "pixie",
+   "mcocClass": "MUTANT",
+   "tip": "A Pixie tem como principal ameaça Defensiva a frequente Esquiva que quando é ativada também aplica no Oponente Neurochoque Ambos os Especiais são simples de esquivar e contra-atacar, portanto desde que se use um Campeão que Previne a Esquiva ela não é uma grande ameaça.",
+   "counters": [
+    "bastion",
+    "prowler",
+    "solvarch",
+    "jjj",
+    "cyclopsblueteam",
+    "theserpent",
+    "redguardian",
+    "deathlessthanos",
+    "shatterstar"
+   ]
+  },
+  {
+   "id": "kingpin",
+   "mcocClass": "SKILL",
+   "tip": "A regra principal contra o Kingpin é não o deixar atingir 2 barras de poder , porque o E2 lhe dá um longo efeito de insuperável . Efeitos negativos também não são aconselhados já que a chance de purificação é 60% Devem-se usar campeões com mecânicas anti purificação ou aplicar a pré luta do Magneto Branco",
+   "counters": [
+    "cyclopsblueteam",
+    "bishop",
+    "gentle",
+    "cassandra",
+    "negasonic",
+    "deadpoolxforce"
+   ]
+  },
+  {
+   "id": "killmonger",
+   "mcocClass": "SKILL",
+   "tip": "O Killmonger tem uma resistência crítica de 20% ganha poder quando lhe aplicam efeitos negativos e devolve o dano ao oponente ao ser atingido . A melhor forma de prevenir estas habilidades é usar campeões com quebra de armadura ou redutores de habilidade . Quebrar a armadura dele impede a reverberação e o ganho de poder.",
+   "counters": [
+    "thehood",
+    "prowler",
+    "negasonic",
+    "archangel",
+    "dazzler",
+    "medusa"
+   ]
+  },
+  {
+   "id": "korg",
+   "mcocClass": "SKILL",
+   "tip": "O Korg tem uma mecânica de prevenção de dano , alta chance de purificação , acesso a insuperável e não bloqueável e ainda faz dano ao oponente ao ser atingido por médios ou ataques especiais . Contra ele se devem usar campeões com golpes de energia ou campeões com resistência a dano físico",
+   "counters": [
+    "cassandra",
+    "negasonic",
+    "prowler",
+    "kushala",
+    "dazzler",
+    "onslaught",
+    "jeangrey",
+    "purgatory",
+    "doctorstrange"
+   ]
+  },
+  {
+   "id": "nickfury",
+   "mcocClass": "SKILL",
+   "tip": "Quando é atingido o Fury ganha cargas táticas , quando atinge 15 fica não bloqueável . Além disso ele tem 2 vidas e na segunda vida ganha +300% de ataque É mandatório usar campeões mutantes contra o Fury porque eles reduzem a chance do ganho de cargas táticas. Campeões redutores de habilidade também evitam as cargas táticas.",
+   "counters": [
+    "gentle",
+    "cassandra",
+    "toad",
+    "deadpoolxforce",
+    "cyclopsblueteam",
+    "jeangrey",
+    "peniparker",
+    "cheeilth",
+    "archangel"
+   ]
+  },
+  {
+   "id": "moleman",
+   "mcocClass": "SKILL",
+   "tip": "Os primeiros 20 efeitos negativos aplicados no Toupeira são purificados e isso lhe dá Massas Monstruosas Com a Massa Monstruosa ele fica insuperável sempre que é atingido no bloco . A principal regra contra o Toupeira é não bater no bloco dele e usar campeões com mecânicas anti-purificação",
+   "counters": [
+    "negasonic",
+    "bishop",
+    "jeangrey",
+    "onslaught",
+    "deadpoolxforce",
+    "gentle"
+   ]
+  },
+  {
+   "id": "hitmonkey",
+   "mcocClass": "SKILL",
+   "tip": "O Hit Monkey é um defesa fácil se for seguida uma regra, a regra é nunca o derrubar Quando é derrubado seja por ataque pesado ou especial ele esquiva e purifica Portanto basta não o derrubar para evitar estas 2 habilidades.",
+   "counters": [
+    "dazzler",
+    "theserpent",
+    "cyclopsblueteam",
+    "prowler",
+    "okoye",
+    "negasonic"
+   ]
+  },
+  {
+   "id": "jabaripanther",
+   "mcocClass": "SKILL",
+   "tip": "A Jabari ganha efeitos de sanar, por causa disso ela purifica constantemente . Além disso ao longo da luta ela ganha cargas de Caçadora , quando tiver 10 ela impede o oponente de usar destreza e fica imune a atordoamento . Se devem usar campeões com proeza (isso remove as cargas de caçadora) ou usar a pré luta do Magneto Branco",
+   "counters": [
+    "storm",
+    "bishop",
+    "prowler",
+    "jeangrey",
+    "cassandra",
+    "negasonic"
+   ]
+  },
+  {
+   "id": "kraven",
+   "mcocClass": "SKILL",
+   "tip": "O Kraven foi o primeiro campeão com enraizar no jogo. Ele tem acesso ao enraizar quando ativa o especial 1 Para evitar este efeito deve-se forçar sempre o Especial 2 . Caso ele aplique o enraizar deve-se usar um ataque especial para remover o efeito . Redutores de habilidades também previnem o enraizar.",
+   "counters": [
+    "cassandra",
+    "jeangrey",
+    "cyclopsblueteam",
+    "dazzler",
+    "deadpoolxforce",
+    "deathlessthanos"
+   ]
+  },
+  {
+   "id": "mistyknight",
+   "mcocClass": "SKILL",
+   "tip": "A Misty tem 2 tipos de cargas, Criogénica e Antimetálica . Com as cargas criogénicas ela purifica e com as antimetálicas ela ganha chance de esquiva Contra a Misty se devem usar campões com mecânicas anti-esquiva e anti-purificação . Ela também fica não bloqueável portanto é aconselhado forçar sempre apenas o Especial 1",
+   "counters": [
+    "iceman",
+    "cyclopsblueteam",
+    "prowler",
+    "theserpent",
+    "okoye",
+    "negasonic"
+   ]
+  },
+  {
+   "id": "attuma",
+   "mcocClass": "SKILL",
+   "tip": "O Attuma sempre que é atingido tem 15% chance de causar dano físico ao oponente . Além disso sempre que é aparado ele purifica e aprimora as suas habilidades defensivas Ele também fica Insuperável quando atinge 20 cargas de Hidratação . A melhor forma de derrubar o Attuma é não o aparar , e forçar sempre o E1 . Campeões com resistência a dano físico têm também vantagem.",
+   "counters": [
+    "shuri",
+    "jeangrey",
+    "cassandra",
+    "dazzler",
+    "negasonic",
+    "namor",
+    "doctorstrange",
+    "dust",
+    "prowler"
+   ]
+  },
+  {
+   "id": "mantis",
+   "mcocClass": "SKILL",
+   "tip": "O único real perigo que esta defesa apresenta é a Invasão de Sono Passiva . Ela aplica este efeito usando o E1 Para remover a Invasão de Sono o oponente deve usar um ataque especial enquanto tem uma proeza ativa . Se o oponente apenas forçar o Especial 2 então nunca terá de lidar com este efeito passivo",
+   "counters": [
+    "bishop",
+    "toad",
+    "cassandra",
+    "negasonic",
+    "jeangrey",
+    "dazzler"
+   ]
+  },
+  {
+   "id": "baronzemo",
+   "mcocClass": "SKILL",
+   "tip": "Contra o Baron Zemo não se devem aplicar efeitos negativos , depois de purificar 5 efeitos negativos o Zemo enraíza o oponente . Portanto o ideal é forçar o E1 dele e nunca aplicar nenhum efeito negativo Redutores passivos de habilidade são outra ótima solução contra o Zemo.",
+   "counters": [
+    "thehood",
+    "dazzler",
+    "prowler",
+    "silversamurai",
+    "negasonic",
+    "gentle",
+    "magnetomarvelnow",
+    "colossus",
+    "hulkling"
+   ]
+  },
+  {
+   "id": "katebishop",
+   "mcocClass": "SKILL",
+   "tip": "A Kate Bishop quando é atordoada purifica o efeito, esquiva e atordoa o oponente . Portanto contra ela se devem usar campeões com habilidades anti-esquiva ou usar qualquer outro campeão mas nunca a aparar É também aconselhado forçar apenas o Especial 1 , já que errar a esquiva do E2 é fatal.",
+   "counters": [
+    "cyclopsblueteam",
+    "iceman",
+    "gentle",
+    "jeangrey",
+    "dazzler",
+    "theserpent"
+   ]
+  },
+  {
+   "id": "moondragon",
+   "mcocClass": "SKILL",
+   "tip": "A Serpente da Lua causa dano de energia ao acertar o oponente no bloco . Além disso quando usa o E1 fica invisível por 3 segundos . Tem ainda a habilidade de purificação . Contra a Moondragon o truque é encostar ela na parede e forçar o E1 , campeões com resistência a energia também têm vantagem.",
+   "counters": [
+    "cyclopsblueteam",
+    "theserpent",
+    "cassandra",
+    "negasonic",
+    "jeangrey",
+    "domino"
+   ]
+  },
+  {
+   "id": "cheeilth",
+   "mcocClass": "SKILL",
+   "tip": "A Chee'ilth ganha periodicamente efeitos de sanar , portanto ela purifica debuffs com frequência. Ela tem ainda penetração de bloco e pode acertar golpes críticos através do bloco Além disso ela tem a habilidade de aplicar sangramento através do bloco , portanto usar campeões imunes ou resistentes a sangramento é muito importante.",
+   "counters": [
+    "onslaught",
+    "iceman",
+    "negasonic",
+    "dust",
+    "gentle",
+    "prowler"
+   ]
+  },
+  {
+   "id": "bullseye",
+   "mcocClass": "SKILL",
+   "tip": "O Bullseye é um Oponente que pune de verdade sempre que ativa uma esquiva. Quando ele esquiva ativa de imediato um ataque especial Além disso todos os golpes dele são críticos garantidos",
+   "counters": [
+    "wolverinex23",
+    "dust",
+    "mistersinister",
+    "onslaught",
+    "kushala",
+    "shatterstar",
+    "theserpent",
+    "warlock",
+    "gentle",
+    "okoye",
+    "silversamurai"
+   ]
+  },
+  {
+   "id": "blackpanthercivilwar",
+   "mcocClass": "SKILL",
+   "tip": "O Pantera Civil tem como maiores perigos a reflexão de atordoamento e a reflexão de dano Para evitar estas 2 mecânicas não se pode atordoar sob circunstância alguma o Black Panther CW.",
+   "counters": [
+    "cassandra",
+    "negasonic",
+    "dust",
+    "betaraybill",
+    "cheeilth",
+    "thehood",
+    "onslaught",
+    "bishop"
+   ]
+  },
+  {
+   "id": "lumatrix",
+   "mcocClass": "SKILL",
+   "tip": "O Lumatrix traz como principais mecânicas Defensivas a Esquiva e a Invisibilidade Além disto a Chance Crítica dele é altíssima , portanto qualquer erro contra ele pode ser fatal. Atualmente o Lumatrix tem poucas respostas realmente seguras.",
+   "counters": [
+    "cyclopsblueteam",
+    "theserpent",
+    "shatterstar",
+    "iceman",
+    "okoye",
+    "pixie",
+    "professorx",
+    "jeangrey",
+    "bullseye",
+    "mrknight",
+    "ironheart"
+   ]
+  },
+  {
+   "id": "yelenabelova",
+   "mcocClass": "SKILL",
+   "tip": "A Yelena Belova é uma Defesa bem punitiva. No Modo Observação ela reduz o Ataque do Oponente e a Potência do seu Dano Crítico . Além disto ela conta com uma Mecânica de Inversão que quando é ativada causa um Dano Direto intenso Pouquíssimos campeões neste jogo counteram perfeitamente a Yelena Belova.",
+   "counters": [
+    "onslaught",
+    "gentle",
+    "okoye",
+    "silversamurai",
+    "jeangrey",
+    "werewolfbynight",
+    "mistersinister",
+    "vox",
+    "cassandra",
+    "cable",
+    "deadpoolxforce"
+   ]
+  },
+  {
+   "id": "mrknight",
+   "mcocClass": "SKILL",
+   "tip": "Este novo Defensor pune brutalmente o Oponente caso este aplique Efeitos Negativos nele Se 4 Debuffs forem prevenidos pela Habilidade de Tranquilizar então o Mr. Knight coloca um Sono Passivo no Oponente. Aparar o Mr. Night também não é boa ideia, pois isso aplica um Debuff de Atordoamento.",
+   "counters": [
+    "negasonic",
+    "cassandra",
+    "gentle",
+    "prowler",
+    "bastion",
+    "lumatrix",
+    "thehood",
+    "karolinadean"
+   ]
+  },
+  {
+   "id": "frankencastle",
+   "mcocClass": "SKILL",
+   "tip": "O Franken-Castle traz como principal perigo Defensivo a capacidade de ficar Insuperável Além disso a Cura dele não pode ser reduzida de forma alguma , sendo que para controlar a Cura dele é necessário usar campeões com acesso fácil a Bloqueio de Cura",
+   "counters": [
+    "dust",
+    "cheeilth",
+    "betaraybill",
+    "captainbritain",
+    "onslaught",
+    "yelenabelova",
+    "hulkling",
+    "thehood"
+   ]
+  },
+  {
+   "id": "punisher",
+   "mcocClass": "SKILL",
+   "tip": "Com a Atualização o Punisher passou a ser um dos Defensores mais perigosos do Jogo. O principal perigo Defensivo dele é o Dano que ele consegue aplicar através do Bloco do Oponente Além disto ele tem acesso a 3 Indestrutíveis Passivos ao longo da luta.",
+   "counters": [
+    "wolverinex23",
+    "shatterstar",
+    "danimoonstar",
+    "deadpoolxforce",
+    "onslaught",
+    "pavitr",
+    "silversamurai",
+    "jeangrey",
+    "dazzler",
+    "archangel",
+    "gentle"
+   ]
+  },
+  {
+   "id": "doctorbong",
+   "mcocClass": "SKILL",
+   "tip": "O Doctor Bong tem como Principais Ameaças Defensivas a Purificação e a Inversão Sempre que o Atacante Finaliza um Combo em Médio ou Leve o Doctor Bong executa uma Inversão A Inversão faz o Atacante Bloquear e Derrubar o Atacante.",
+   "counters": [
+    "kittypryde",
+    "negasonic",
+    "onslaught",
+    "jeangrey",
+    "deadpoolxforce",
+    "prowler",
+    "valkyrie",
+    "captainbritain"
+   ]
+  },
+  {
+   "id": "blacktarantula",
+   "mcocClass": "SKILL",
+   "tip": "O Black Tarantula é um Defesa extremamente perigoso! O seu Kit Defensivo conta com Esquiva Passiva , Críticos + Dano Explosivo de Energia através do Bloco , Regeneração Passiva e ainda uma Purificação Constante É necessário levar respostas adequadas para o derrubar.",
+   "counters": [
+    "jeangrey",
+    "pixie",
+    "onslaught",
+    "northstar",
+    "shatterstar",
+    "mistersinister",
+    "cyclopsblueteam",
+    "theserpent",
+    "stormpyramidx",
+    "yelenabelova",
+    "iceman",
+    "solvarch"
+   ]
+  },
+  {
+   "id": "electro",
+   "mcocClass": "SCIENCE",
+   "tip": "O grande problema do Electro é que ele devolve parte do dano que recebe sob a forma de dano energético Contra ele as melhores opções são campeões com alta resistência a energia ou que reduzam as habilidades",
+   "counters": [
+    "archangel",
+    "falcon",
+    "dazzler",
+    "havok",
+    "prowler",
+    "negasonic"
+   ]
+  },
+  {
+   "id": "spidergwen",
+   "mcocClass": "SCIENCE",
+   "tip": "O único perigo que este defesa apresenta é a esquiva As soluções são campeões com ataque certeiro ou campeões que reduzam as habilidades defensivas",
+   "counters": [
+    "okoye",
+    "falcon",
+    "venom",
+    "moleman",
+    "doctorbong",
+    "cyclopsblueteam",
+    "shatterstar",
+    "prowler",
+    "antivenom"
+   ]
+  },
+  {
+   "id": "void",
+   "mcocClass": "SCIENCE",
+   "tip": "O Void dá dano direto se o atacante sofrer qualquer efeito negativo Portanto contra o Void se devem usar campeões com purificação ou que reduzam as habilidades Campeões que Reduzem a Duração de Efeitos Negativos também são boas opções.",
+   "counters": [
+    "crossbones",
+    "mrknight",
+    "moleman",
+    "okoye",
+    "cheeilth",
+    "lumatrix",
+    "doctorbong",
+    "archangel",
+    "yelenabelova"
+   ]
+  },
+  {
+   "id": "wasp",
+   "mcocClass": "SCIENCE",
+   "tip": "Contra a Wasp se devem usar campeões que evitem a esquiva , seja por ataque certeiro ou por redução de habilidades . Outra forma de a controlar é forçar o pesado dela , já que a esquiva entra em recarga por alguns segundos.",
+   "counters": [
+    "okoye",
+    "cyclopsblueteam",
+    "moleman",
+    "mbaku",
+    "killmonger",
+    "doctorbong",
+    "shatterstar",
+    "prowler",
+    "falcon"
+   ]
+  },
+  {
+   "id": "thing",
+   "mcocClass": "SCIENCE",
+   "tip": "Graças à proteção o Thing é um dos defesas mais resistentes do jogo . Ele fica insuperável sempre que atinge mais de 15 pedras . A melhor forma de o controlar é usar campeões que reduzam habilidades defensivas Como ele limita o dano físico é aconselhado usar campeões com dano secundário",
+   "counters": [
+    "crossbones",
+    "falcon",
+    "katebishop",
+    "blackcat",
+    "void",
+    "vox",
+    "valkyrie",
+    "jjj",
+    "bullseye"
+   ]
+  },
+  {
+   "id": "invisiblewoman",
+   "mcocClass": "SCIENCE",
+   "tip": "A Mulher Invisível tem uma proteção que limita em 90% o dano que recebe e fica invisível quando essa proteção termina ou então quando é derrubada. Há 2 formas de remover o invisível, usando campeões com vigilância ou campeões que purifiquem",
+   "counters": [
+    "bullseye",
+    "lumatrix",
+    "jeangrey",
+    "theserpent",
+    "kingpin",
+    "cheeilth"
+   ]
+  },
+  {
+   "id": "misterfantastic",
+   "mcocClass": "SCIENCE",
+   "tip": "O Senhor Fantástico tem 5% chance de esquiva por cada efeito negativo não danoso ativos nele ou no oponente . Além disso se o oponente usar 2 vezes o mesmo especial fica com esse especial com dano reduzido . Contra ele se deve usar purificadores ou campeões com ataque certeiro",
+   "counters": [
+    "crossbones",
+    "okoye",
+    "falcon",
+    "moleman",
+    "doctorbong",
+    "theserpent",
+    "shatterstar",
+    "prowler",
+    "blackcat"
+   ]
+  },
+  {
+   "id": "hulkimmortal",
+   "mcocClass": "SCIENCE",
+   "tip": "O único perigo que este defesa apresenta é a massiva regeneração no final da primeira vida Ele é imune a petrificar e redução de cura , portanto para evitar a cura dele é preciso usar campeões com bloqueio de cura ou que reduzam as habilidades defensivas",
+   "counters": [
+    "okoye",
+    "crossbones",
+    "falcon",
+    "blackcat",
+    "nickfury",
+    "frankencastle",
+    "warlock",
+    "shuri",
+    "baronzemo"
+   ]
+  },
+  {
+   "id": "spiderham",
+   "mcocClass": "SCIENCE",
+   "tip": "Este é um defesa que esquiva frequentemente , reduz o ataque do oponente através da provocação do E1 e ainda aplica ferrões impossibilitando o oponente de usar especiais . Contra ele se devem usar campeões que impeçam a esquiva ou que reduzam as habilidades",
+   "counters": [
+    "theserpent",
+    "venom",
+    "doctorbong",
+    "crossbones",
+    "moleman",
+    "okoye",
+    "moondragon",
+    "prowler",
+    "antivenom"
+   ]
+  },
+  {
+   "id": "theoverseer",
+   "mcocClass": "SCIENCE",
+   "tip": "Contra o Supervisor deve-se ter em conta que ele fica imune a atordoamento e ainda autobloqueia logo após usar qualquer especial. As melhores respostas contra ele são campeões com ataque certeiro ou redutores de habilidades",
+   "counters": [
+    "medusa",
+    "moleman",
+    "cheeilth",
+    "lumatrix",
+    "blackcat",
+    "vox"
+   ]
+  },
+  {
+   "id": "scorpion",
+   "mcocClass": "SCIENCE",
+   "tip": "O Scorpion como defesa aplica ferrão sob a forma de veneno e ainda esquiva frequentemente É aconselhado usar contra ele campeões imunes a veneno , ou que evitem a esquiva Campeões que reduzam as habilidades ou que purifiquem também funcionam. É preferível forçar o E2",
+   "counters": [
+    "theserpent",
+    "moleman",
+    "cyclopsblueteam",
+    "doctorbong",
+    "okoye",
+    "crossbones"
+   ]
+  },
+  {
+   "id": "quicksilver",
+   "mcocClass": "SCIENCE",
+   "tip": "O Mercúrio é um defesa muito irritante, primeiro porque as animações são bastante imprevisíveis, depois porque esquiva frequentemente e aplica dano de chicote . A melhor forma de controlar este defesa é usar campeões com mecânicas anti-esquiva ou que purifiquem",
+   "counters": [
+    "okoye",
+    "doctorbong",
+    "falcon",
+    "cyclopsblueteam",
+    "theserpent",
+    "crossbones",
+    "blackcat",
+    "baronzemo",
+    "shangchi"
+   ]
+  },
+  {
+   "id": "spot",
+   "mcocClass": "SCIENCE",
+   "tip": "O Spot além de ficar invisível ainda aplica dano de ruptura instantâneo no oponente sempre que este falha algum golpe . A melhor forma de controlar o Spot é usar campeões com redução de habilidades defensivas . Campeões com vigilância ou mecânicas anti vacilo funcionam mas continuam a sofrer ruptura.",
+   "counters": [
+    "theserpent",
+    "blade",
+    "lumatrix",
+    "blackcat",
+    "bullseye",
+    "mrknight"
+   ]
+  },
+  {
+   "id": "jessicajones",
+   "mcocClass": "SCIENCE",
+   "tip": "A Jessica é perigosa porque fica insuperável e não bloqueável se o oponente usar especiais Efeitos de sanar eliminam as habilidades dela, outra forma de a controlar é usar campeões com redução de habilidades . É também aconselhado não usar ataques especiais contra esta defesa.",
+   "counters": [
+    "lumatrix",
+    "valkyrie",
+    "jabaripanther",
+    "okoye",
+    "archangel",
+    "cheeilth"
+   ]
+  },
+  {
+   "id": "cassielang",
+   "mcocClass": "SCIENCE",
+   "tip": "A Cassie Lang esquiva frequentemente , além disso quando usa o E1 se o oponente não acertar 14 golpes em 12 segundos ele sofre dano direto . Contra ela é aconselhado forçar o E2 e usar campeões que purifiquem ou reduzam as habilidades",
+   "counters": [
+    "falcon",
+    "cyclopsblueteam",
+    "okoye",
+    "silversable",
+    "crossbones",
+    "moleman",
+    "yelenabelova",
+    "prowler",
+    "blackcat"
+   ]
+  },
+  {
+   "id": "photon",
+   "mcocClass": "SCIENCE",
+   "tip": "A Photon é um dos campeões mais perigosos do jogo , e um dos que causa mais problemas nos BGS e AW. Ela aplica vários efeitos negativos no oponente e por cada efeito negativo ela reduz a proficiência de bloco em 27,3%",
+   "counters": [
+    "crossbones",
+    "blacktarantula",
+    "dazzler",
+    "patriot",
+    "doctorbong",
+    "lumatrix",
+    "falcon",
+    "silk"
+   ]
+  },
+  {
+   "id": "morbius",
+   "mcocClass": "SCIENCE",
+   "tip": "O único perigo que este Defesa apresenta é que fica invisível não bloqueável quando corre para a frente e esse golpe ganha +250% de ataque Portanto ser apanhado por este golpe pode ser fatal. A melhor forma de evitar este problema é usar campeões que evitam o vacilo Também não se deve usar anuladores ou redutores de habilidade porque isto aumenta a frequência do voo psiónico que é não bloqueável não erra",
+   "counters": [
+    "okoye",
+    "cyclopsblueteam",
+    "lumatrix",
+    "bullseye",
+    "jeangrey",
+    "theserpent"
+   ]
+  },
+  {
+   "id": "spiderpunk",
+   "mcocClass": "SCIENCE",
+   "tip": "Este é um Defensor bastante fácil de derrubar, mas precisa de uma resposta que evite a Esquiva Sempre que este Defensor é Interceptado com Ataque Leve ou Médio, tem 100% chance de esquivar e atordoar o Oponente por 2 segundos . Além disso deve-se manter ele no E1, já que o E2 aplica Rupturas pelo Bloco",
+   "counters": [
+    "venom",
+    "crossbones",
+    "doctorbong",
+    "okoye",
+    "moleman",
+    "theserpent",
+    "shatterstar",
+    "prowler",
+    "antivenom"
+   ]
+  },
+  {
+   "id": "theleader",
+   "mcocClass": "SCIENCE",
+   "tip": "Este Defensor tem alguns obstáculos, todas as habilidades dele se centram à volta de Debuffs Sempre que é Atacado com Ataques Leves o Leader aplica Debuffs de Espectro e Desvanecer Os Debuffs do Leader não podem ser eliminados por Purificação ou por Efeitos de Sanar",
+   "counters": [
+    "cheeilth",
+    "lumatrix",
+    "frankencastle",
+    "thorragnarok",
+    "moleman"
+   ]
+  },
+  {
+   "id": "countnefaria",
+   "mcocClass": "SCIENCE",
+   "tip": "O maior problema do Count Nefaria são as suas Resistências Ele é extremamente Resistente a todo o Dano Físico e de Energia . Também é Resistente a Degeneração Além disso u sar campeões com Ganho de Poder Passivo não é aconselhado já que isto faz ele ganhar as suas Resistências ainda mais rápido",
+   "counters": [
+    "lumatrix",
+    "deathlessthanos",
+    "bastion",
+    "crossbones",
+    "galan",
+    "abominationimmortal",
+    "blacktarantula",
+    "doctorbong"
+   ]
+  },
+  {
+   "id": "spiderwoman",
+   "mcocClass": "SCIENCE",
+   "tip": "A Spider-Woman traz uma nova mecânica Defensiva que pode ser um problema. Ela tem acesso ao Debuff Severo de Atrapalhação Este Efeito Desativa a Proficiência de Destreza durante os Ataques Especiais Além disto este Efeito não pode ser Purificado",
+   "counters": [
+    "okoye",
+    "bullseye",
+    "doctorbong",
+    "crossbones",
+    "theserpent",
+    "falcon",
+    "venom",
+    "baronzemo",
+    "mrknight",
+    "moondragon",
+    "prowler"
+   ]
+  },
+  {
+   "id": "highevolutionary",
+   "mcocClass": "SCIENCE",
+   "tip": "O High Evolutionary atualmente é um dos Melhores Defesas deste jogo . Ele traz como principais perigos Defensivos, o Autobloco , Detonação de Combo e Controlos Invertidos Existem poucos counters eficazes contra ele e é preciso obedecer a várias regras para o Derrubar.",
+   "counters": [
+    "okoye",
+    "yelenabelova",
+    "mbaku",
+    "lumatrix",
+    "moleman",
+    "blacktarantula",
+    "patriot",
+    "doctorbong",
+    "cheeilth",
+    "blackcat",
+    "thorragnarok"
+   ]
+  },
+  {
+   "id": "modok",
+   "mcocClass": "SCIENCE",
+   "tip": "O MODOK foi atualizado para ser um Defesa melhor. Em todas as lutas o MODOK começa com um Campo de Força ativo , isso lhe dá 100% Chance de Autobloquear e Aparar o Inimigo O MODOK só pode autobloquear uma vez a cada 8 segundos Além disso o MODOK impede o oponente de ativar Ataque Certeiro Sentido Certeiro",
+   "counters": [
+    "vox",
+    "moleman",
+    "bullseye",
+    "lumatrix",
+    "cheeilth",
+    "killmonger",
+    "frankencastle",
+    "valkyrie",
+    "mbaku",
+    "angela",
+    "phylavell"
+   ]
+  },
+  {
+   "id": "lizard",
+   "mcocClass": "SCIENCE",
+   "tip": "O Lizard é um Defensor único, a maior ameaça dele é a interação do seu Kit com nós Específicos A qualidade do Lizard como Defensor depende exclusivamente do Nó que ele estiver A maior ameaça que ele apresenta só por si é a Massiva Regeneração Passiva sendo aconselhado levar counter de cura para o derrotar.",
+   "counters": [
+    "sentinel",
+    "lumatrix",
+    "shangchi",
+    "baronzemo",
+    "yondu",
+    "crossbones",
+    "cheeilth",
+    "warlock"
+   ]
+  },
+  {
+   "id": "rhino",
+   "mcocClass": "SCIENCE",
+   "tip": "O Rhino recebeu uma Grande Atualização e agora é um Defensor que exige Respeito. Além do Insuperável o Rhino agora ganhou uma Mecânica que o torna Não Bloqueável Além disso a Massiva Resistência Física faz este Defensor prolongar muito as lutas.",
+   "counters": [
+    "punisher",
+    "valkyrie",
+    "baronzemo",
+    "falcon",
+    "jjj",
+    "betaraybill",
+    "shangchi",
+    "kingpin",
+    "spidermanstealthsuit",
+    "blacktarantula",
+    "blackcat"
+   ]
+  },
+  {
+   "id": "sandman",
+   "mcocClass": "SCIENCE",
+   "tip": "O Sandman foi atualizado e agora é um Grande Defensor. O Sandman é muito Resistente a Energia e Dano Físico , mas o principal perigo dele é ficar Insuperável Passivamente Contra ele é necessário usar campeões com alta chance crítica ou que ignorem insuperável",
+   "counters": [
+    "valkyrie",
+    "yelenabelova",
+    "lumatrix",
+    "dust",
+    "hitmonkey",
+    "baronzemo",
+    "blacktarantula",
+    "doctorbong",
+    "bullseye"
+   ]
+  },
+  {
+   "id": "mordo",
+   "mcocClass": "MYSTIC",
+   "tip": "Contra o Mordo é preciso ter cuidado com o ganho passivo de poder e também não se pode acertar com ele atordoado, já que ele esquiva do ataque. As melhores opções contra o Mordo são os controladores de poder ou campeões com acesso a petrificar",
+   "counters": [
+    "spiderwoman",
+    "countnefaria",
+    "spiderman2099",
+    "lukecage",
+    "symbiotesupreme",
+    "thehood"
+   ]
+  },
+  {
+   "id": "dormammu",
+   "mcocClass": "MYSTIC",
+   "tip": "O Dormammu transforma bónus que expiram em degeneração . As melhores respostas contra o Dormammu são os campeões imunes a bónus . Além desses campeões dá para usar redutores de habilidade",
+   "counters": [
+    "silk",
+    "titania",
+    "spiderham",
+    "spiderman2099",
+    "countnefaria",
+    "redguardian"
+   ]
+  },
+  {
+   "id": "mephisto",
+   "mcocClass": "MYSTIC",
+   "tip": "Contra o Mephisto é essencial usar campeões imunes a incinerar . No entanto o ganho de poder passivo do Mephisto é muito elevado, portanto usar campeões com petrificar ou que pelo menos controlem poder é importante.",
+   "counters": [
+    "void",
+    "humantorch",
+    "redhulk",
+    "blade",
+    "countnefaria",
+    "prowler"
+   ]
+  },
+  {
+   "id": "ebonymaw",
+   "mcocClass": "MYSTIC",
+   "tip": "Contra o Ebony não se pode usar campeões com críticos garantidos caso contrário ele aplica degeneração . ❌ Campeões imunes a bónus são a solução contra o Ebony. Para evitar o vacilo deve-se usar pesado frequentemente. Campeões com mecânicas anti-vacilo são também aconselhadas. É preferível manter ele no Especial 1",
+   "counters": [
+    "jeangrey",
+    "prowler",
+    "redguardian",
+    "cassielang",
+    "titania",
+    "photon",
+    "wave",
+    "antman",
+    "spiral"
+   ]
+  },
+  {
+   "id": "manthing",
+   "mcocClass": "MYSTIC",
+   "tip": "O Man-Thing limita totalmente o dano dos golpes críticos , isso torna ele um campeão muito resistente. Além disso ao longo da luta ele aplica bónus de pústula que se transformam em quebra de armadura e veneno Contra ele devem ser usados campeões imunes a veneno e com dano secundário direto",
+   "counters": [
+    "titania",
+    "spiderwoman",
+    "deathlessshehulk",
+    "cassielang",
+    "spiderman2099",
+    "lizard",
+    "wave",
+    "jjj",
+    "sentinel"
+   ]
+  },
+  {
+   "id": "doctordoom",
+   "mcocClass": "MYSTIC",
+   "tip": "O Doom é o campeão com maior resistência crítica do jogo , além disso quando usa o Especial 1 fica não bloqueável , anula e transforma em choque os bónus ao entrar em contacto com o atacante . Contra o Doom se deve usar campeões com dano secundário e que tenham petrificar , isso limita imenso as habilidades dele.",
+   "counters": [
+    "humantorch",
+    "silk",
+    "spiderwoman",
+    "photon",
+    "void",
+    "lizard"
+   ]
+  },
+  {
+   "id": "longshot",
+   "mcocClass": "MYSTIC",
+   "tip": "O Longshot anula passivamente os bónus do oponente , contra ele se devem usar campeões imunes a bónus Além disso ao usar Especial 2 ele incinera passivamente o oponente mesmo que o E2 não faça contacto. Por causa disso é importante usar atacantes imunes a incinerar ou anulação contra ele.",
+   "counters": [
+    "humantorch",
+    "prowler",
+    "void",
+    "kushala",
+    "countnefaria",
+    "onslaught"
+   ]
+  },
+  {
+   "id": "mojo",
+   "mcocClass": "MYSTIC",
+   "tip": "O Mojo transforma bónus em degeneração e ao mesmo tempo ganha poder passivo. Para evitar isto se devem usar campeões imunes a bónus ou com alta redução de habilidades É aconselhável usar campeões com petrificar e manter o Mojo no Especial 1",
+   "counters": [
+    "titania",
+    "spiderman2099",
+    "antman",
+    "countnefaria",
+    "cassielang",
+    "redguardian"
+   ]
+  },
+  {
+   "id": "sasquatch",
+   "mcocClass": "MYSTIC",
+   "tip": "O Sasquatch é o campeão com mais vida do jogo , além disso regenera imenso e ainda tem uma mecânica de prevenção de dano que aumenta ao longo da luta. Tem ainda a habilidade de ficar passivamente insuperável Contra este defesa se deve usar campeões com dano de veneno , petrificar ou que reduzam as habilidades",
+   "counters": [
+    "humantorch",
+    "spiderwoman",
+    "lizard",
+    "deathlessshehulk",
+    "lukecage",
+    "antivenom",
+    "abominationimmortal",
+    "countnefaria",
+    "scorpion"
+   ]
+  },
+  {
+   "id": "dragonman",
+   "mcocClass": "MYSTIC",
+   "tip": "O Dragon Man ganha poder passivamente grande parte da luta, além disso se ele usar E3 encurrala o oponente e fica insuperável e não bloqueável . Contra ele se devem usar campeões com Petrificar ou com Controlo de poder Não se pode usar campeões que quebrem a armadura porque ele aplica degeneração . ❌",
+   "counters": [
+    "deathlessshehulk",
+    "spiderwoman",
+    "silk",
+    "lizard",
+    "void",
+    "countnefaria"
+   ]
+  },
+  {
+   "id": "mangog",
+   "mcocClass": "MYSTIC",
+   "tip": "O Mangog apresenta como perigos o ganho de poder passivo insuperável e não bloqueável O Especial 2 pode ser fatal, então é altamente aconselhável a manter ele no E1 durante toda a luta. Contra o Mangog se devem usar campeões com petrificar ou controlo de poder",
+   "counters": [
+    "countnefaria",
+    "silk",
+    "spiderwoman",
+    "lukecage",
+    "void",
+    "deathlessshehulk"
+   ]
+  },
+  {
+   "id": "americachavez",
+   "mcocClass": "MYSTIC",
+   "tip": "A Chavez é um defesa que não perdoa um único erro. Além do ganho de poder passivo o Especial 2 fica não bloqueável , e ser acertado com esse especial normalmente é o fim da luta. Além disso ela tem reverberação que reflete o dano. Contra a Chavez é mandatório usar campeões com controlo de poder ou que reduzam as habilidades",
+   "counters": [
+    "redguardian",
+    "silk",
+    "highevolutionary",
+    "void",
+    "deathlessshehulk",
+    "quicksilver"
+   ]
+  },
+  {
+   "id": "wong",
+   "mcocClass": "MYSTIC",
+   "tip": "O Wong ganha poder enquanto carrega pesado e ao mesmo tempo fica insuperável passivamente Ele também fica insuperável quando o oponente ativa bónus portanto campeões imunes a bónus são a solução. Deve-se também usar pesado quando ele tem 90 cargas de Energia Eldritch isso evita a explosão de dano.",
+   "counters": [
+    "deathlessshehulk",
+    "silk",
+    "titania",
+    "redguardian",
+    "cassielang",
+    "void"
+   ]
+  },
+  {
+   "id": "rintrah",
+   "mcocClass": "MYSTIC",
+   "tip": "O Rintrah é um dos campeões mais resistentes e com mais vida do jogo Para ele não ativar efeitos de insuperável passivos , deve-se usar ataque pesado frequentemente. Ele converte bónus em ruptura portanto é importante usar campeões imunes a bónus ou redutores de habilidades",
+   "counters": [
+    "spiderwoman",
+    "silk",
+    "titania",
+    "cassielang",
+    "spiderham",
+    "photon"
+   ]
+  },
+  {
+   "id": "wiccan",
+   "mcocClass": "MYSTIC",
+   "tip": "O Wiccan converte bónus em incineração , portanto contra ele se deve usar sempre campeões imunes a incinerar Além disso nunca se pode aplicar choque no Wiccan porque ele aplica degeneração no oponente . ❌",
+   "counters": [
+    "void",
+    "humantorch",
+    "prowler",
+    "titania",
+    "countnefaria",
+    "redguardian"
+   ]
+  },
+  {
+   "id": "spidermansupreme",
+   "mcocClass": "MYSTIC",
+   "tip": "O Spidey Supreme fica invisível quando o oponente ativa bónus, mas a pior parte é que ele mesmo aplica bónus no seu oponente . Além disso ele ganha poder passivamente e o E2 causa uma explosão de dano se for bloqueado. Contra este defesa se deve usar campeões imunes a bónus ou com mecânicas anti-vacilo",
+   "counters": [
+    "titania",
+    "spiderman2099",
+    "humantorch",
+    "redguardian",
+    "jeangrey",
+    "highevolutionary"
+   ]
+  },
+  {
+   "id": "absorbingman",
+   "mcocClass": "MYSTIC",
+   "tip": "O Absorbing Man exige um counter específico porque a regeneração dele é muito intensa Não se deve permitir ele usar 2x o Especial 2 porque se isso acontecer ele incinera o oponente. É aconselhado usar pesado depois dos especiais dele e usar campeões com veneno ou petrificar",
+   "counters": [
+    "humantorch",
+    "countnefaria",
+    "void",
+    "lizard",
+    "theleader",
+    "spiderwoman"
+   ]
+  },
+  {
+   "id": "kindred",
+   "mcocClass": "MYSTIC",
+   "tip": "Contra o Kindred o truque é atingi-lo rapidamente enquanto recupera de um Ataque Especial . Isso pausa as Cargas de Infestação por 8 segundos .",
+   "counters": [
+    "lukecage",
+    "titania",
+    "spiderham",
+    "misternegative",
+    "spiderwoman",
+    "silk",
+    "thehood",
+    "countnefaria",
+    "falcon",
+    "shuri",
+    "bluemarvel"
+   ]
+  },
+  {
+   "id": "werewolfbynight",
+   "mcocClass": "MYSTIC",
+   "tip": "O Lobisomem na Noite apresenta como principais perigos o anho de poder passivo e o Insuperável quando efetua um Uivo Aterrorizante Além disso os Especiais dele cobrem muita tela e bloquear estes especiais aplica Ruptura no Oponente. Contra este Defesa se devem usar campeões Controladores de Poder e Resistentes a Ruptura",
+   "counters": [
+    "silk",
+    "highevolutionary",
+    "spiderpunk",
+    "deathlessshehulk",
+    "lumatrix",
+    "lizard"
+   ]
+  },
+  {
+   "id": "thedestroyer",
+   "mcocClass": "MYSTIC",
+   "tip": "O Destroyer fica Insuperável quando corre em direção ao Oponente . Os últimos golpes do Ataque Especial 1 e 2 são passivamente não bloqueáveis. Se o Oponente ganhar Bónus o Destroyer retalia com Dano de Ruptura ao ser atingido.",
+   "counters": [
+    "silk",
+    "lukecage",
+    "deathlessshehulk",
+    "countnefaria",
+    "spiderwoman",
+    "titania",
+    "americachavez",
+    "spiderman2099"
+   ]
+  },
+  {
+   "id": "enchantress",
+   "mcocClass": "MYSTIC",
+   "tip": "A Enchantress é o Melhor Defesa Místico do Jogo . la traz várias mecânicas novas e exige um conjunto de ações bem especificas , caso contrário o Oponente sofre uma Reflexão de Dano Direto que pune imenso.",
+   "counters": [
+    "spiderwoman",
+    "lukecage",
+    "titania",
+    "redguardian",
+    "spiderham",
+    "falcontorres",
+    "silk",
+    "countnefaria",
+    "wave",
+    "antivenom",
+    "void"
+   ]
+  },
+  {
+   "id": "spiral",
+   "mcocClass": "MYSTIC",
+   "tip": "A Spiral tem como única mecânica Defensiva, as Lâminas Dançantes que ela ativa sempre que ativa um Ataque Especial. Assim que lança um Especial, durante os próximos 10 segundos se o oponente a atacar com um Segundo Ataque Leve este fica Atordoado Passivamente por 2 Segundos.",
+   "counters": [
+    "silk",
+    "photon",
+    "deathlessshehulk",
+    "lizard",
+    "spiderwoman"
+   ]
+  },
+  {
+   "id": "nicominoru",
+   "mcocClass": "MYSTIC",
+   "tip": "A Nico Minoru traz como principais Mecânicas Defensivas o Efeito a Imunidade a Bónus , Invisibilidade e Dano Direto de Energia Contra ela é mandatório usar Counters Específicos, ou seja Campeões Imunes a Veneno que não sejam Cósmicos E é OBRIGATÓRIO desviar sempre o Especial 1",
+   "counters": [
+    "scorpion",
+    "spiderwoman",
+    "sentinel",
+    "warlock",
+    "wave",
+    "hulk",
+    "abominationimmortal",
+    "lizard"
+   ]
+  },
+  {
+   "id": "dracula",
+   "mcocClass": "MYSTIC",
+   "tip": "O Dracula tem como principais ameaças Defensivas a Invisibilidade e a Degeneração Ao acertar no Bloco do Dracula ele fica Invisível por 2 segundos e portanto pode contra atacar. Portanto o ideal é não acertar no Bloco dele ou usar campeões que Evitem Invisibilidade",
+   "counters": [
+    "lizard",
+    "photon",
+    "lumatrix",
+    "cyclopsblueteam",
+    "ironheart"
+   ]
+  },
+  {
+   "id": "pavitr",
+   "mcocClass": "MYSTIC",
+   "tip": "A única ameaça do Spidey Pavitr é o facto dele ter 2% Chance de Esquiva por cada Bónus presente no Oponente O Spidey Pavitr aplica Bónus ao Oponente durante toda a luta , visto que ele pode aplicar 20 Bónus então a chance de Esquiva nesse caso seria de 40%.",
+   "counters": [
+    "titania",
+    "redguardian",
+    "spiderman2099",
+    "moleman",
+    "antivenom",
+    "cyclopsblueteam",
+    "antman",
+    "cassielang"
+   ]
+  },
+  {
+   "id": "madelynepryor",
+   "mcocClass": "MYSTIC",
+   "tip": "A Madelyne Pryor traz como Principal Ameaça a Degeneração Passiva Além disto ela tem também acesso a Exonerabilidade e tem um Campo de Força que lhe permite absorver Dano Contra ela deve-se usar Campeões Imunes a Bónus ou que não Ativem o Bónus de Destreza",
+   "counters": [
+    "titania",
+    "redguardian",
+    "spiderman2099",
+    "scorpion",
+    "spiderham",
+    "silk",
+    "antman",
+    "countnefaria"
+   ]
+  },
+  {
+   "id": "magik",
+   "mcocClass": "MYSTIC",
+   "tip": "A Kabam atualizou a Magik e melhorou ainda mais o seu Potencial Defensivo. A Magik tem 3 Ameaças Defensivas, a Degeneração Passiva , a Regeneração Instantânea e o Acesso a Vacilo Campeões Imunes a Bónus ou Resistentes a Degeneração são as Melhores Respostas.",
+   "counters": [
+    "titania",
+    "redguardian",
+    "spiderman2099",
+    "countnefaria",
+    "cassielang",
+    "hulk",
+    "highevolutionary",
+    "lukecage"
+   ]
+  },
+  {
+   "id": "agathaharkness",
+   "mcocClass": "MYSTIC",
+   "tip": "A Agatha Harkness traz vários Perigos Defensivos bastante consideráveis. Ela tem acesso a Enraizar , Roubo de Poder , Não sofre Aparar nos Golpes Médios , o Especial 2 é letal se for bloqueado e é ainda o Primeiro Campeão do Jogo que se derruba a ela mesma se for Interceptada",
+   "counters": [
+    "countnefaria",
+    "spiderwoman",
+    "photon",
+    "bluemarvel",
+    "lukecage",
+    "silk",
+    "spiderham",
+    "scorpion",
+    "redguardian"
+   ]
+  }
+ ]
+}

@@ -20,6 +20,7 @@ import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.GuiaRepository
 import com.example.myapplication.data.MetaRepository
 import com.example.myapplication.data.RelicRepository
 import com.example.myapplication.data.RemoteDataUpdater
@@ -35,6 +36,7 @@ class MainActivity : ComponentActivity() {
         ChampionRepository.initialize(applicationContext)
         RelicRepository.initialize(applicationContext)
         MetaRepository.initialize(applicationContext)
+        GuiaRepository.initialize(applicationContext)
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
@@ -50,6 +52,7 @@ class MainActivity : ComponentActivity() {
                 ChampionRepository.reload(applicationContext)
                 RelicRepository.reload(applicationContext)
                 MetaRepository.reload(applicationContext)
+                GuiaRepository.reload(applicationContext)
             }
         }
     }

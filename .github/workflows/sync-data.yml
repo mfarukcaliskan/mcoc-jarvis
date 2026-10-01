@@ -1,0 +1,47 @@
+name: Veri senkronizasyonu
+
+# Her pazartesi mcoc.gg ve GuiaMTC'den veriyi tazeler. Veri degistiyse manifest'in
+# dataVersion'i artar ve uygulama bir sonraki acilista yeni veriyi indirir.
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow numpy
+      - name: mcoc.gg verisini cek ve uygula
+        run: |
+          python tools/sync_mcoc.py fetch
+          python tools/sync_mcoc.py apply
+      - name: GuiaMTC counter verisini uret
+        run: python tools/sync_guia.py
+      - name: Degisiklik var mi?
+        id: diff
+        run: |
+          if [ -n "$(git status --porcelain app/src/main/assets ':!app/src/main/assets/data_manifest.json' app/src/main/res/drawable)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Manifest'i guncelle ve dogrula
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          python generate_manifest.py
+          python validate_quest_ids.py
+      - name: Commit ve push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "jarvis-data-bot"
+          git config user.email "jarvis-data-bot@users.noreply.github.com"
+          git add -A app/src/main/assets app/src/main/res/drawable
+          git commit -m "chore(data): haftalik mcoc.gg ve GuiaMTC senkronizasyonu"
+          git push

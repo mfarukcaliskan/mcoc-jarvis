@@ -23,6 +23,7 @@ import androidx.compose.ui.window.Dialog
 import com.example.myapplication.data.Champion
 import com.example.myapplication.data.ChampionClass
 import com.example.myapplication.data.ChampionRepository
+import com.example.myapplication.data.GuiaRepository
 import com.example.myapplication.data.MetaRepository
 import com.example.myapplication.data.RelicRepository
 import com.example.myapplication.data.RemoteDataUpdater
@@ -107,6 +108,7 @@ fun DataUpdateStatusRow() {
                             ChampionRepository.reload(context)
                             RelicRepository.reload(context)
                             MetaRepository.reload(context)
+                            GuiaRepository.reload(context)
                             version = result.newVersion
                             statusText = "Güncellendi: v${result.newVersion} (${result.changedFiles} dosya)"
                         }
@@ -158,7 +160,19 @@ fun MatchupCounterScreen() {
             Text("Önerilen Karşı (Counter) Şampiyonlar:", fontWeight = FontWeight.Bold, color = Color.White, fontSize = 15.sp)
             Spacer(modifier = Modifier.height(8.dp))
             val counters = getCountersFor(selectedDefender!!)
+            val guiaTip = GuiaRepository.forDefender(selectedDefender!!.id)?.tip.orEmpty()
             LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                if (guiaTip.isNotBlank()) {
+                    item {
+                        Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = Color(0xFF1C2333)), shape = RoundedCornerShape(12.dp)) {
+                            Column(modifier = Modifier.padding(12.dp)) {
+                                Text("GuiaMTC İpucu (Portekizce)", fontWeight = FontWeight.Bold, color = Color(0xFFFFD700), fontSize = 12.sp)
+                                Spacer(modifier = Modifier.height(4.dp))
+                                Text(guiaTip, color = Color.LightGray, fontSize = 12.sp)
+                            }
+                        }
+                    }
+                }
                 items(counters) { (counter, reason) ->
                     Card(modifier = Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = Color(0xFF161B22)), shape = RoundedCornerShape(12.dp)) {
                         Row(modifier = Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -491,6 +505,14 @@ fun ChampionSearchDialog(onDismiss: () -> Unit, onSelect: (Champion) -> Unit) {
 fun getCountersFor(defender: Champion): List<Pair<Champion, String>> {
     val list = mutableListOf<Pair<Champion, String>>()
 
+    // 0. GuiaMTC'nin elle derlenmiş counter listesi en güvenilir kaynaktır, en başa konur.
+    GuiaRepository.forDefender(defender.id)?.counters?.forEach { counterId ->
+        val champ = ChampionRepository.champions.find { it.id == counterId }
+        if (champ != null && list.none { it.first.id == champ.id }) {
+            list.add(champ to "GuiaMTC önerisi: ${champ.name}, ${defender.name} karşısında tavsiye edilen counter.")
+        }
+    }
+
     // 1. Etiket Tabanlı Dinamik Eşleştirme Kuralları (Metal/Magnetizm, Robot/Robot Counter vb.)
     val isMetal = defender.tags.any { it.lowercase().contains("metal") }
     val isRobot = defender.tags.any { it.lowercase().contains("robot") }
@@ -600,7 +622,7 @@ fun getCountersFor(defender: Champion): List<Pair<Champion, String>> {
         }
     }
 
-    return list.distinctBy { it.first.id }.take(5)
+    return list.distinctBy { it.first.id }.take(10)
 }
 
 private fun addCounter(list: MutableList<Pair<Champion, String>>, counterId: String, reason: String) {

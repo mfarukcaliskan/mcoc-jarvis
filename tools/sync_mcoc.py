@@ -222,6 +222,18 @@ def build_champion(g, lk, known_tags):
     }
 
 
+def ensure_portrait(image):
+    """Yeni sampiyonun portresini uygulamanin drawable klasorune indirir (yoksa)."""
+    path = os.path.join(ROOT, "app", "src", "main", "res", "drawable", f"{image}.webp")
+    if os.path.isfile(path):
+        return
+    req = urllib.request.Request(f"https://mcoc.gg/images/portraits/{image}.webp", headers=UA)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        data = r.read()
+    with open(path, "wb") as f:
+        f.write(data)
+
+
 def cmd_apply():
     gg = load("champions.json")["data"]
     gg_by_image = {g["image"]: g for g in gg}
@@ -253,6 +265,7 @@ def cmd_apply():
         champ = build_champion(g, lk, known_tags)
         ours_list.append(champ)
         update_details(champ["id"], champ["name"], g["image"])
+        ensure_portrait(g["image"])
         added.append(champ["id"])
     if added:
         with open(os.path.join(ASSETS, "champions_db.json"), "w", encoding="utf-8") as f:
