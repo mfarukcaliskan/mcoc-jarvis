@@ -5,6 +5,7 @@ Kullanim (proje kokunden):
   python tools/sync_mcoc.py fetch    # mcoc.gg JSON'larini tools/.cache/mcoc altina indirir ve dogrular
   python tools/sync_mcoc.py report   # bizim veriyle mcoc.gg arasindaki farklari yazdirir (dosya degistirmez)
   python tools/sync_mcoc.py apply    # yetenek metinlerini ve yeni sampiyonlari assets'e yazar
+  python tools/sync_mcoc.py relics        # relics.json (tam andac verisi) + relic_statcast.json uretir
   python tools/sync_mcoc.py prestige      # prestige.json (gercek 7 yildiz tablolari) uretir, sentetik progressions'i kaldirir
   python tools/sync_mcoc.py capabilities  # capabilities.json (kim hangi yetenek/bagisikliga sahip) uretir
 Ardindan: python generate_manifest.py && python validate_quest_ids.py
@@ -29,7 +30,8 @@ ASSETS = os.path.join(ROOT, "app", "src", "main", "assets")
 UA = {"User-Agent": "Mozilla/5.0 (JARVIS-sync)"}
 
 GLOBAL_FILES = ["champions", "abilities", "immunities", "tags", "class", "focus", "ranks", "relics",
-                "relics_abilities", "relics_attributes", "synergies", "roles", "content"]
+                "relics_abilities", "relics_attributes", "relics_ranks", "relics/statcast", "synergies", "roles", "content",
+                "crystals", "custom"]
 
 # bizdeki id -> mcoc.gg 'image' (kimlikleri farkli olan sampiyonlar)
 ID_ALIASES = {"agathaharkness": "agatha"}
@@ -471,8 +473,79 @@ def cmd_prestige():
           f"isaretli {nflag}; champions_db'den kaldirilan progressions: {removed}")
 
 
+def cmd_relics():
+    """mcoc.gg'den tam andac verisi: relics.json'u yeniden uretir (mevcut sema korunur, yeni alanlar eklenir)
+    ve relic_statcast.json yazar. Onerilen sampiyonlar sampiyonlarin relic/alt_relics alanlarindan turetilir."""
+    gg = load("champions.json")["data"]
+    ours_ids = {c["id"]: c for c in load_ours()}
+    relics = load("relics.json")["data"]
+    r_ab = {r["id"]: r for r in load("relics_abilities.json")["data"]}
+    r_at = {r["id"]: r for r in load("relics_attributes.json")["data"]}
+    ranks = {r["id"]: r for r in load("relics_ranks.json")["data"]}
+    holders = {}
+    for g in gg:
+        oid = gg_to_ours_id(g["image"])
+        if oid not in ours_ids:
+            continue
+        for rid in ([g["relic"]] if g.get("relic") else []) + g.get("alt_relics", []):
+            holders.setdefault(rid, [])
+            if oid not in holders[rid]:
+                holders[rid].append(oid)
+
+    def rank_of(rid):
+        cell = ranks.get(rid, {}).get("pi")
+        if not cell:
+            return None
+        digits = re.sub(r"\D", "", str(cell[0]))
+        return int(digits) if digits else None
+
+    PI_KEYS = [("pi_63", 6, 3), ("pi_64", 6, 4), ("pi_65", 6, 5), ("pi_71", 7, 1), ("pi_72", 7, 2)]
+    out = []
+    for r in relics:
+        stars = max(r["rarity"])
+        month, day, year = r["date"].split("/")
+        innate = r_ab.get(r.get("innate"))
+        abilities = [r_ab[a] for a in r.get("abilities", []) if a in r_ab]
+        attrs = [r_at[a] for a in r.get("attributes", []) if a in r_at]
+        ids = sorted(holders.get(r["id"], []), key=lambda i: ours_ids[i]["name"])
+        prestige = [{"star": s, "rank": k, "value": r[key]} for key, s, k in PI_KEYS if key in r and r[key]]
+        out.append({
+            "id": f"relic{r['id']}",
+            "name": r["name"],
+            "relicClass": CLASS_NAME[r["class"]],
+            "relicType": r["type"],
+            "image": r["image"],
+            "innateAbilities": [innate["name"]] if innate else [],
+            "abilityRunes": [a["name"] for a in abilities],
+            "attributeRunes": [a["name"] for a in attrs],
+            "recommendedChampions": [ours_ids[i]["name"] for i in ids],
+            "description": clean(re.sub(r"<h>(.*?)</h>", r"\1: ", r.get("striker", ""))).replace("\n", " ").strip(),
+            "releaseDate": f"{int(day):02d}-{int(month):02d}-{year}",
+            "rarity": r["rarity"],
+            # --- yeni alanlar (mcoc.gg) ---
+            "innate": {"name": innate["name"], "desc": clean(innate["desc"])} if innate else None,
+            "abilities": [{"name": a["name"], "desc": clean(a["desc"])} for a in abilities],
+            "attributes": [{"name": a["name"], "desc": clean(a["desc"])} for a in attrs],
+            "recommendedChampionIds": ids,
+            "maxLevel": f"{stars}★ " + ("R2/200" if stars == 7 else "R5/200"),
+            "maxPrestige": r["pi"] if r.get("pi") else None,
+            "prestigeRank": rank_of(r["id"]),
+            "prestigeByLevel": prestige,
+        })
+    with open(os.path.join(ASSETS, "relics.json"), "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    statcast = load("relics/statcast.json")["data"]
+    table = [{"star": e["rarity"], "rank": e["rank"], "prestige": [v if v else None for v in e["values"]]} for e in statcast]
+    with open(os.path.join(ASSETS, "relic_statcast.json"), "w", encoding="utf-8") as f:
+        json.dump({"source": "https://mcoc.gg/json/relics/statcast.json", "sigLevels": SIG_LEVELS,
+                   "note": "Tum Statcast andaclari icin ortak prestij tablosu (seviye 0,20..200); null = kaynakta bilinmiyor.",
+                   "table": table}, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"relics.json: {len(out)} andac; onerilen sampiyonu olan {sum(1 for o in out if o['recommendedChampionIds'])}; "
+          f"yetenek aciklamasi olan {sum(1 for o in out if o['abilities'])}; relic_statcast: {len(table)} kademe")
+
+
 if __name__ == "__main__":
-    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige}
+    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige, "relics": cmd_relics}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         sys.exit(__doc__)
     commands[sys.argv[1]]()

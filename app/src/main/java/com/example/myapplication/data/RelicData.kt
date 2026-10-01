@@ -3,6 +3,11 @@ package com.example.myapplication.data
 import android.content.Context
 import org.json.JSONArray
 
+/** Andaç yeteneği/niteliği: ad + mcoc.gg açıklaması (sayı aralıkları [min - max] olarak). */
+data class RelicText(val name: String, val desc: String)
+
+data class RelicPrestige(val star: Int, val rank: Int, val value: Int)
+
 data class Relic(
     val id: String,
     val name: String,
@@ -15,7 +20,16 @@ data class Relic(
     val recommendedChampions: List<String> = emptyList(),
     val description: String = "",
     val releaseDate: String = "",
-    val rarity: List<Int> = emptyList()
+    val rarity: List<Int> = emptyList(),
+    // --- mcoc.gg ayrıntıları ---
+    val innate: RelicText? = null,
+    val abilities: List<RelicText> = emptyList(),
+    val attributes: List<RelicText> = emptyList(),
+    val recommendedChampionIds: List<String> = emptyList(),
+    val maxLevel: String = "",
+    val maxPrestige: Int? = null,
+    val prestigeRank: Int? = null,
+    val prestigeByLevel: List<RelicPrestige> = emptyList()
 )
 
 object RelicRepository {
@@ -52,6 +66,14 @@ object RelicRepository {
         loadFromDataSource(context)
     }
 
+    private fun parseTexts(obj: org.json.JSONObject, key: String): List<RelicText> {
+        val arr = obj.optJSONArray(key) ?: return emptyList()
+        return (0 until arr.length()).map {
+            val o = arr.getJSONObject(it)
+            RelicText(o.getString("name"), o.optString("desc"))
+        }
+    }
+
     private fun loadFromDataSource(context: Context) {
         try {
             val jsonString = DataSource.openText(context, "relics.json")
@@ -80,7 +102,20 @@ object RelicRepository {
                         recommendedChampions = parseStringArray(obj, "recommendedChampions"),
                         description = parseStringSafe(obj, "description"),
                         releaseDate = parseStringSafe(obj, "releaseDate"),
-                        rarity = parseIntArray(obj, "rarity")
+                        rarity = parseIntArray(obj, "rarity"),
+                        innate = obj.optJSONObject("innate")?.let { RelicText(it.getString("name"), it.optString("desc")) },
+                        abilities = parseTexts(obj, "abilities"),
+                        attributes = parseTexts(obj, "attributes"),
+                        recommendedChampionIds = parseStringArray(obj, "recommendedChampionIds"),
+                        maxLevel = parseStringSafe(obj, "maxLevel"),
+                        maxPrestige = if (obj.has("maxPrestige") && !obj.isNull("maxPrestige")) obj.getInt("maxPrestige") else null,
+                        prestigeRank = if (obj.has("prestigeRank") && !obj.isNull("prestigeRank")) obj.getInt("prestigeRank") else null,
+                        prestigeByLevel = obj.optJSONArray("prestigeByLevel")?.let { a ->
+                            (0 until a.length()).map { k ->
+                                val o = a.getJSONObject(k)
+                                RelicPrestige(o.getInt("star"), o.getInt("rank"), o.getInt("value"))
+                            }
+                        } ?: emptyList()
                     )
                 )
             }

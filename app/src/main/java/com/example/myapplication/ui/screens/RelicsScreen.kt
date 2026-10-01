@@ -207,11 +207,36 @@ fun RelicCard(relic: Relic, isExpanded: Boolean, onClick: () -> Unit) {
                 Text(relic.description, fontSize = 12.sp, color = Color.LightGray, lineHeight = 16.sp)
 
                 Spacer(modifier = Modifier.height(8.dp))
-                Text("Doğal Yetenekler:", fontWeight = FontWeight.Bold, color = Color(0xFFFF9800), fontSize = 11.sp)
-                relic.innateAbilities.forEach { ability ->
-                    Text("• $ability", fontSize = 11.sp, color = Color.LightGray)
+                Text("Doğal Yetenek (mcoc.gg, İngilizce):", fontWeight = FontWeight.Bold, color = Color(0xFFFF9800), fontSize = 11.sp)
+                val innate = relic.innate
+                if (innate != null) {
+                    Text("• ${innate.name}: ${innate.desc}", fontSize = 11.sp, color = Color.LightGray)
+                } else {
+                    relic.innateAbilities.forEach { ability -> Text("• $ability", fontSize = 11.sp, color = Color.LightGray) }
                 }
-
+                if (relic.abilities.isNotEmpty()) {
+                    Spacer(modifier = Modifier.height(6.dp))
+                    Text("Yetenek Runeleri:", fontWeight = FontWeight.Bold, color = Color(0xFFFF9800), fontSize = 11.sp)
+                    relic.abilities.forEach { a -> Text("• ${a.name}: ${a.desc}", fontSize = 11.sp, color = Color.LightGray) }
+                }
+                if (relic.attributes.isNotEmpty()) {
+                    Spacer(modifier = Modifier.height(6.dp))
+                    Text("Nitelik Runeleri:", fontWeight = FontWeight.Bold, color = Color(0xFFFF9800), fontSize = 11.sp)
+                    relic.attributes.forEach { a -> Text("• ${a.name}: ${a.desc}", fontSize = 11.sp, color = Color.LightGray) }
+                }
+                Spacer(modifier = Modifier.height(6.dp))
+                val prestigeText = buildString {
+                    append("Maks. seviye: ${relic.maxLevel.ifBlank { "bilinmiyor" }}")
+                    append(" • Prestij: ${relic.maxPrestige?.toString() ?: "kaynakta yok"}")
+                    relic.prestigeRank?.let { append(" • Sıra #$it") }
+                }
+                Text(prestigeText, fontSize = 11.sp, color = Color(0xFFFFD700))
+                if (relic.prestigeByLevel.isNotEmpty()) {
+                    Text(
+                        relic.prestigeByLevel.joinToString("  ") { "${it.star}★R${it.rank}: ${it.value}" },
+                        fontSize = 10.sp, color = Color.Gray
+                    )
+                }
                 Spacer(modifier = Modifier.height(6.dp))
                 Text("Uyumlu Şampiyonlar:", fontWeight = FontWeight.Bold, color = Color(0xFF00BFFF), fontSize = 11.sp)
                 relic.recommendedChampions.forEach { champ ->
