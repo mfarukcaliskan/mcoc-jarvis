@@ -13,8 +13,8 @@
         "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir."
     },
     "synergies": [],
-    "howToPlay": "Mister Negative için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Corrupting Touch\nWhenever a Nullify, Stagger, or Fateseal is prevented by Mister Negative's immunity, deal a burst of [1,160.12 - 5,279.47] Physical Damage.\nWhile suffering from Degeneration, Regenerate +[2,093.65 - 3,171.42] Health per second.\nEach Light Energy grants +[41.74 - 239.14] Energy Resistance.\nEach Dark Energy deals [194.99 - 264.01] Physical Damage every second while the Opponent is suffering from a non-damaging Debuff. This scales with Base Attack only.",
     "immunityDetails": "• Silme (Nullify) Bağışıklığı 🔮\n• %40 Dejenerasyon direnci (rakipteki her aktif olumsuz etki için) ☠️",
     "abilitySections": [

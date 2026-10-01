@@ -14,7 +14,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Tek tehlike rakipteki her bonus için %2 kaçış şansı (20 bonusa kadar uygulayabilir, yani %40'a kadar) — bonus immün şampiyon veya kaçış-karşıtı şampiyon şart.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Seshnag\nEach Buff on the Opponent reduces the duration of Inexorable and Unstoppable effects on them by [3 - 10]%, to a maximum of 80%.\nPersonal Energy Vulnerabilities are paused during Pavitr's Special Attacks, and for [2 - 5] seconds after for each level of the Special.\nFor every 25% of the Opponent's missing Health, Pavitr's Marked Passive gains 100% base potency, even if already active.",
     "abilitySections": [
         {

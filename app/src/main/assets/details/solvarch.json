@@ -17,7 +17,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Devasa kritik direnci ve enerji hasarı yansıtması var, iyileşme tersine çevirmeye immün. Enerji olmayan doğrudan hasar tercih et. Pasif zırhı aktifken kritik gücünü %80 azaltır — zırh kıran şampiyon şart, zırhsız kalırsa savunma potansiyeli çöker. Enerji hasarının %50'sini iyileştirir ve (Cosmic değilsen) %50'sini yansıtır — rupture/degeneration/disintegration/güçlü iğne efektleri de iyi.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "The Wolf of the Stars\nWhen Solvarch's Block would be Broken due to Unblockable or Crush effects, consume [5 - 2] Armor Up Passives (rounded up) to gain a Steadfast Passive for 2 seconds. If the hit is from a Special Attack, reduce the Armor Up cost by 50% (rounded down).\nWhile Solvarch has a Steadfast, they are Immune to Crush.",
     "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• İyileşme Tersine Çevirmeye dirençli 💚🔄❌",
     "abilitySections": [

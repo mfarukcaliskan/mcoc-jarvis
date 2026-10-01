@@ -20,7 +20,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bloktan kritik vurabilir ve impact yükleri kazanır — bloktan alınan hasar çok ağır. E1/E2 bloktan vurulursa kanama uygular — kanamaya immün/dirençli şampiyon şart, E1'de tutmak tercih edilir. %66/%33/%1 canda pasif indestructible kazanır (aktifken tüm vuruşları garanti kritik ve bloktan kanatır); temas kesilirse süresiz sürer — sadece 'marked' erişimi olan şampiyon bunu tamamen önler.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Open Wounds\nWhenever a Bleed Debuff on the Opponent expires, there is a 25% chance to inflict a [21.68 - 5,885.42] Bleed Passive for {2} seconds. These Bleeds scale with Base Attack only.\nWhile Punisher's Precision is active, the chance of this effect is increased by a flat +100%.",
     "immunityDetails": "• Güç Söndürme (Fade) Bağışıklığı 🔋🔽\n• %40 Kanama direnci 🩸\n• hasar vermeyen debuff'lar süresini %80 azaltır 💪🏼⏰",
     "abilitySections": [

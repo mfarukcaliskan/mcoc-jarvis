@@ -11,8 +11,8 @@
         "Armor Break": "Düşmanın zırh korumasını kırarak hasar alımını artırır."
     },
     "synergies": [],
-    "howToPlay": "Angela için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Battle Focus\nFor each Buff on Angela, her opponent suffers the following:\n-[10 - 35]% Nullify & Auto-Block Ability Accuracy.\n-[10 - 35]% Damaging Debuff Duration.",
     "immunityDetails": "• TÜM olumsuz etkilerin süresini %100 azaltır ⏰\n• %35 Silme (Nullify) direnci (her buff için) 🔮",
     "abilitySections": [

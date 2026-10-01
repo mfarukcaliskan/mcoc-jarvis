@@ -509,7 +509,7 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                                 CircularProgressIndicator(color = Color(0xFF00BFFF))
                             }
                         } else {
-                            InfoCard("Oynanış Rehberi", championDetails?.howToPlay ?: "Oynanış rehberi bulunamadı.")
+                            InfoCard("Oynanış Rehberi", championDetails?.howToPlay?.ifBlank { null } ?: "Bu şampiyon için doğrulanmış oynanış rehberi yok (uydurma metin gösterilmez).")
                         }
                     }
                     item { SectionTitle("Bağışıklık ve Direnç Detayları") }
@@ -533,7 +533,7 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                                 CircularProgressIndicator(color = Color(0xFF00BFFF))
                             }
                         } else {
-                            InfoCard("Tavsiye", championDetails?.bestUse ?: "Tavsiye bilgisi bulunamadı.")
+                            InfoCard("Tavsiye", championDetails?.bestUse?.ifBlank { null } ?: "Bu şampiyon için doğrulanmış kullanım tavsiyesi yok.")
                         }
                     }
                     item { SectionTitle("Odak Alanları") }

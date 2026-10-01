@@ -14,8 +14,8 @@
         "Pre-Fight": "Dövüş başlamadan önce Pre-Fight ekranından değiştirilebilen yetenek."
     },
     "synergies": [],
-    "howToPlay": "Vox için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Lethal Edge\nContact with the blade of Vox's scythe increases the damage of active personal Degenerations on the Opponent by [0.5 - 3]%.\nEach time Vox's personal Degenerations are inflicted, the next time Vox strikes the Opponent's Block or the Opponent activates an Unblockable or Unstoppable effect, the Degenerations are paused for [1 - 2] seconds.\nVox can toggle a Pre-Fight ability to Never Back Down during a fight, preventing them from moving backwards when they dodge. This option is remembered between fights.",
     "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Güç Emme/Yakma Bağışıklığı 🔋",
     "abilitySections": [

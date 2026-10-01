@@ -13,7 +13,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Animasyonları öngörülemez, sık kaçar ve kırbaç hasarı uygular. Kaçış-karşıtı mekanikli veya purify eden şampiyon en iyi kontrol.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Super Speed\nTerminal Velocity duration increases by [0.1 - 5] second(s), and Wither max Stacks increase by 3.\nWhen 60 stacks or more of Whiplash expire at the same time, inflict a Stun Debuff for 5 second(s).\nWhile the Opponent is suffering from a personal Stun, their Combat Power Rate is reduced by [5 - 50]% and striking the Opponent with Light and Medium attacks locks them in place and increases Quicksilver's Speed.",
     "immunityDetails": "• %8,3 Dejenerasyon direnci (her 100 yük için, ile sinerji: Wiccan) ☠️\n• Buff Bağışıklığı (sadece isabet buff'ına bağışık) 🗡️🚫",
     "abilitySections": [

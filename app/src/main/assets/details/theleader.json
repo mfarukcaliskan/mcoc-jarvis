@@ -14,7 +14,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Hafif vuruşla vurulunca spectre+çürütme debuff'ı uygular (purify/sanar ile temizlenemez); rakipteki her debuff için aldığı hasarı %3-4 azaltır. 100 yükte yeşil kapıyı açar, yakınındaki rakip degeneration alır (debuff sayısına göre güçlenir). Dövüşü uzatma — kanama uygulayan veya zırh kıran şampiyon tercih et.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Enigmatic Machinations of The Mind\nWhile the Leader has at least 12 personal Debuffs on the Opponent, he gains a Steadfast Passive. This becomes 4 Debuffs against Mystic Champions.\nPersonal Fury effects now have a duration of [1 - 6] seconds and are paused while the Green Door is open.\nIntercepting the Opponent with a Light Attack has a [35 - 100]% chance to randomly inflict a personal Spectre or Wither Debuff.",
     "abilitySections": [
         {

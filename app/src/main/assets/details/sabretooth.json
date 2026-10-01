@@ -7,8 +7,8 @@
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Sabretooth için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Untamed Heart\nWhen struck or when blocking a Critical Hit, Sabretooth gains a Regeneration Passive, healing [25- 70]% of the damage taken from the hit over 25 seconds. These Regenerations are removed and new ones cannot be granted is Sabretooth is Heal Blocked.\nFury and Regeneration effects receive a permanent +[70 - 120]% flat Ability Accuracy.\nIf Sabretooth does not hit or get struck by the opponent for more than 5 seconds, he starts losing Regeneration stacks over time.",
     "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊",
     "abilitySections": [

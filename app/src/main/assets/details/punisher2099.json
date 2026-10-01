@@ -11,8 +11,8 @@
         "Power Lock": "Hedefin herhangi bir yolla güç kazanmasını engeller."
     },
     "synergies": [],
-    "howToPlay": "Punisher 2099 için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Retribution 2099\nA last-minute upgrade to the Punisher's arsenal allows him to begin each fight with an additional 25% charge in his Nano-Tech Battery and also gains a new Nano-Tech Automatic Effect.\nOpponent hits 3 Bars of Power: 40% of the Battery is drained to drain 0.6 Bars of Power and inflict a Power Lock Debuff for [2 - 10] seconds.",
     "abilitySections": [
         {

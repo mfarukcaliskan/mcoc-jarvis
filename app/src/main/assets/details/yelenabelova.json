@@ -15,7 +15,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Gözlem modunda rakibin saldırısını %60, kritik gücünü %50 azaltır. Combo metresi çeşitli aksiyonlarla artar (vurulunca +1, intercept'te +4, E1 bloklanınca +5, özel/ağır saldırı kullanılınca +10, temel vuruşla %50 cana düşerse +50). 100'de Eliminasyon Moduna girer (hafif/ağır vuruşla veya E1 sonrası vurulunca inversion tetikler, tüm vuruşları garanti kritik olur). Susto (fear) efektli şampiyonlar koruma bonusunu tamamen kaldırır — en büyük zayıflığı bu. Eliminasyon Modundayken bloğuna vurmak (19 vuruş) combo metresini erkenden sıfırlar — bunun dışında modu önlemenin yolu yok.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Cover All Contingencies\nWhile Yelena is in Observation mode, her target's Critical Damage Rating is capped at [90 - 50]% of what it was at the start of the fight.\nWhile Yelena is in Elimination Mode, her target cannot Evade or cause attacks to Miss. No effect against Mutant Champions.",
     "immunityDetails": "• Zehir Bağışıklığı 🧪",
     "abilitySections": [

@@ -17,8 +17,8 @@
         "Direct Damage": "Zırh ve dirençleri yok sayan doğrudan hasar verir."
     },
     "synergies": [],
-    "howToPlay": "Scream için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Bad Hair Day\nWhen Madness is consumed by Scream, [35 - 75.2]% chance to gain a Regeneration Buff healing 3% of missing Health over 5 seconds.\nAgainst #Spider-Verse Heroes, each stack of Madness reduces the Opponent's Evade Ability Accuracy by [12.5 - 25]%.\nAgainst #Symbiotes when gaining Madness, each stack of Madness grants a [12.5 - 25]% chance to gain 1 extra Madness.\nAgainst Tech Champions, each stack of Madness reduces the Opponent's Armor Up Ability Accuracy by [12.5 - 25]%.",
     "abilitySections": [
         {

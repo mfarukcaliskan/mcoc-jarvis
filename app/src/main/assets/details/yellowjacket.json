@@ -9,8 +9,8 @@
         "Stun": "Rakibi sersemleterek tamamen hareketsiz bırakır."
     },
     "synergies": [],
-    "howToPlay": "Yellowjacket için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Hostile Takeover\nSpecial 1: Power Sting has a 100% chance to inflict a [0.7 - 2.1] second Stun Debuff if it expires after lasting its full duration.\nSpecial 2: Gain +5 Core Charge when Petrify ends.\nSpecial 3: Power Sting has a 100% chance to re-apply itself once activated. Chance decreases by [45 - 0]% each time this happens.",
     "abilitySections": [
         {

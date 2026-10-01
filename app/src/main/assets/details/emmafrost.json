@@ -13,8 +13,8 @@
         "Reverse Controls": "Rakibin yön tuşlarını tersine çevirerek hareketlerini karıştırır."
     },
     "synergies": [],
-    "howToPlay": "Emma Frost için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "White Queen\nWhen Telepath Form is active and Emma would lose more than [50 - 5]% of her Base Health from a single source, she activates Diamond Form for 3 seconds to reduce the damage. Against Tech Champions, this ability triggers based on Max Health instead. This ability always activates before checking Armor and Resistances but does not activate on a Well-Timed Block.\nWhen Emma uses a Special Attack, the Opponent's controls are reversed until just after the end of the attack. This will not trigger when fighting an Opponent with #Psychic Shielding.",
     "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Yakma Bağışıklığı 🔥\n• Ani Soğuk Bağışıklığı 🧊\n• Şok Bağışıklığı (Elmas Modu) ⚡️\n• Kontrolleri Tersine Çevirme Bağışıklığı (Mysterio ile sinerji) 🧠",
     "abilitySections": [

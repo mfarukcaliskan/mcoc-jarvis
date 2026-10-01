@@ -15,8 +15,8 @@
         "Evade": "Rakip saldırılarından otomatik olarak kaçmayı sağlar."
     },
     "synergies": [],
-    "howToPlay": "Black Cat için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Nine Lives\nBlack Cat starts the quest with 9 Combo Shield Passives which prevent her from losing Combo when struck. These persist across fights.\nThese Combo Shields fall off one at a time, and last for 3 second(s) after Black Cat is Struck. These Combo Shields also begin to expire after she Evades using this ability.\nWhen Black Cat would be struck while dashing, for each Combo Shield effect on her, she has a [3.4 - 11.11]% chance to gain an Evade Passive for 1 second.",
     "immunityDetails": "• Özel 1'de 3 olumsuz etkiyi arındırır 💪🏼",
     "abilitySections": [

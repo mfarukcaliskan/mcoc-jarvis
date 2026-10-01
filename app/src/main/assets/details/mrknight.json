@@ -15,7 +15,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Rakip negatif efekt uygularsa acımasızca cezalandırır. 12sn'de bir tranquilize uygular (4 debuff engellenirse pasif uyku uygular, 3sn tamamen savunmasız kalırsın). Onu siperleme de — sersemletme debuff'ı uygular. Kimse tranquilize'a immün değil; pasif sersemletme erişimi olan ve negatif efekt uygulamayan şampiyon en iyisi — çoğu durumda onu hiç siperlememek tercih edilir.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Case Closed\nWhenever one or more of the Opponent's Debuffs fail to trigger due to reduced Ability Accuracy, they gain [5 - 25] Sleep Charges (rounded down). As a Defender, this includes Debuffs from Quest Nodes on Mr. Knight.\n1.5 seconds after reaching 100 Charges, inflict a Sleep Passive for 3 seconds and remove 100 Charges. Cooldown: 6 seconds. The timer to inflict this Sleep is paused during any Special Attack.\nAs a Defender, when the Attacker activates a Special Attack, they lose 25 Sleep Charges per level of the Special Attack.\nAs an Attacker in Battlegrounds, at the start of each fight inflict 2 10% Injury Passives for [4 - 12] seconds.",
     "abilitySections": [
         {

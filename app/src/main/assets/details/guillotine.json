@@ -11,8 +11,8 @@
         "Rupture": "Aktifken fiziksel hasar verir."
     },
     "synergies": [],
-    "howToPlay": "Guillotine için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Cursed Aura\nWhenever the opponent is Immune to Guillotine's personal Bleed effects, she has a [60 - 100]% chance to inflict a matching Rupture Debuff, causing Physical Damage. This Rupture Debuff grants 1 Soul Charge.",
     "abilitySections": [
         {

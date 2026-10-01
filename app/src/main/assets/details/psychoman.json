@@ -16,8 +16,8 @@
         "Weakness": "Saldırı gücünü düşürür; sıfırın altına inemez."
     },
     "synergies": [],
-    "howToPlay": "Psycho-Man için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Microverse Overlord\nWhenever an Opponent's ability fails to trigger while they're suffering from one of Psycho-Man's Concussions, they are inflicted with a Heal Block Debuff for [3.5 - 9.5] second(s).\nIf they are already Heal Blocked, and have been so for at least 0.5 second(s), they are Power Locked for [1 - 6] second(s) instead.\nWhenever the Opponent Heals while Heal Blocked, or gains Power while Power Locked, Psycho-Man gains [5 - 25]% of a Bar of Power, scaling up or down with how much Health or Power they would have gained.",
     "abilitySections": [
         {

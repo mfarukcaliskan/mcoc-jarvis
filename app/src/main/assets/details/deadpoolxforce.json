@@ -10,8 +10,8 @@
         "Vicious": "Hasar veren debuff'ların gücünü belirtilen miktarda artırır."
     },
     "synergies": [],
-    "howToPlay": "Deadpool (X-Force) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Superciliously Savage Slander\nEach time the Opponent Purifies a Taunt Debuff or a Taunt Debuff on the Opponent is replaced due to hitting the max stack limit, Deadpool gains a Power Efficiency Buff reducing the cost of Special Attacks by 20% until the next Special Attack is used. Cooldown: [26 - 5] seconds. Max stacks: 2.\nAgainst Skill Champions, each Shbleed Dooboof Passive up to 1 reduces their Regeneration Rate by [5 - 20]%.",
     "abilitySections": [
         {

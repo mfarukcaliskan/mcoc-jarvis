@@ -9,8 +9,8 @@
         "Concussion": "Etkilenen şampiyonların yetenek doğruluğunu belirtilen güçte azaltır."
     },
     "synergies": [],
-    "howToPlay": "Taskmaster için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Intuitive Pattern Recognition\nIncrease Concussion Debuff Durations by [1 - 5] second(s).\nEach time Taskmaster successfully triggers Exploit Weakness it places a Concussion Debuff on his Opponent reducing their Ability Accuracy by [5 - 12.5]% for 6 seconds and resetting the Duration of any currently active Concussions caused by this ability.\nIf Taskmaster places 5 Concussions on his Opponent simultaneously, they convert into a Passive effect which reduces Ability Accuracy by [25 - 65]% for 15 seconds, counts as 5 Debuffs for Taskmaster's other Abilities, and removes the Exploit Weakness cooldown timer. While this effect is active, Taskmaster will not trigger additional Concussion Debuffs.",
     "immunityDetails": "• 10 debuff aldıktan sonra TÜM olumsuz etkilere karşı Bağışıklık 💪🏼",
     "abilitySections": [

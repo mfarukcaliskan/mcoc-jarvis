@@ -15,8 +15,8 @@
         "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır."
     },
     "synergies": [],
-    "howToPlay": "Night Thrasher için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Board To Death\nThe final hit of Night Thrasher's Heavy Attack has a 35% chance per active Gadget Debuff to inflict a Taunt Debuff for 10 seconds.\nStriking a Taunted opponent with Skateboard Attacks grants a permanent Fury Buff, increasing Attack by [997.3 - 1994.56]. Max 10 stacks. When Knocked Down these Buffs are lost.\nAfter being Knocked Down Night Thrasher has a [25 - 50]% chance to Purify all Debuffs.",
     "immunityDetails": "• Yakma Bağışıklığı 🔥\n• %50 Arındırma (yere düşürüldüğünde) 💪🏼",
     "abilitySections": [

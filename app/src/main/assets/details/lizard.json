@@ -14,7 +14,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Node'a çok bağımlı bir savunmacı. Aldığı hasarın %65'ini pasif iyileştirir (garanti kritikleri iyileştiremez, doğrudan/sürekli hasarı da iyileştiremez) — iyileşme engeli tercih et. Özel saldırılarında 4'e kadar retribution uygular (özel saldırı hasarının %80'ini geri verir) — sürekli hasar veren node'larda bu ciddi sorun. Bonus nötralize eder veya immünse pasif durdurulamaz olur.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Reptilian Complex\nIncrease the potency of personal Retributions by [5 - 25]%.\nGain +[70.5 - 485.29] Block Proficiency.\nWhile the Opponent has at least 2 Bars of Power, they are inflicted with a 100% Wither Debuff.",
     "immunityDetails": "• Zehir Bağışıklığı 🧪\n• İyileşme Engeli Bağışıklığı (Buff veya Durdurulamaz varken) 💚🚫\n• Özel saldırılar sırasında Buff almaz 🗡️🚫",
     "abilitySections": [

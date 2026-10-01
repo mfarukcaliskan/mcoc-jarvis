@@ -11,8 +11,8 @@
         "Power Gain": "Güç barlarını anlık veya zamanla doldurur."
     },
     "synergies": [],
-    "howToPlay": "Joe Fixit için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Stacked Deck\nAfter using cards to play a Dead Man's Hand Debuff, instead of being removed, all slots are randomly assigned 1 matching suit.\nAdditionally, suits gain a stackable bonus during Special Attacks.\nHearts: +[5 - 10]% Debuff Duration.\nSpades: +[304.72 - 914.71] Critical Rating.\nClubs: +[10 - 30]% of a bar of Power over 2 seconds.\nDiamonds: +[10 - 25]% Armor Penetration.\nJackpot: Counts as all 4 Suits.",
     "immunityDetails": "• Zehir Bağışıklığı 🧪\n• Kontrolleri Tersine Çevirme Bağışıklığı (Supervisor ile sinerji) 🧠",
     "abilitySections": [

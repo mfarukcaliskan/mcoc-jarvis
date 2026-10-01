@@ -8,8 +8,8 @@
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Iron Patriot için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Arc Overload\nNorman Osborn overloads the Arc Reactor in his chest if Health drops below 15%, gaining [9,570.8 - 23,916.95] Regeneration, and 50% Power Gain. After that, his suit burns out and cannot trigger Armor Up, Armor Break or Stun and loses all base Armor.\nWhile under Arc Overload Iron Patriot also gains an Armor Up, increasing Armor Rating by [562.5 - 2,248.11].",
     "abilitySections": [
         {

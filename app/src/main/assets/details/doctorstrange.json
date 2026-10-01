@@ -15,8 +15,8 @@
         "Neutralize": "Buff yetenek doğruluğunu belirtilen güçte azaltır."
     },
     "synergies": [],
-    "howToPlay": "Doctor Strange için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Well of Unseen Worlds\nAt the start of each fight, grant the Opponent [1 - 3] (rounded down) indefinite Placebo Buffs and then inflict a Fate Seal Passive for 3 seconds.\nWhen Doctor Strange gains an Arcane Font, he has a [10 - 30]% chance to gain another. This can trigger itself, but is not affected by Ability Accuracy.\nBefore the Opponent would be Knocked Out, inflict a 125% Neutralize Passive for 3 seconds.",
     "immunityDetails": "• Ani Soğuk Bağışıklığı (ile sinerji: Dormammu) 🧊",
     "abilitySections": [

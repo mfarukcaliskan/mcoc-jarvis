@@ -6,8 +6,8 @@
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Beast için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Chain Combo\nWhile in Freestyle combat form, performing a Medium hit followed by a Light, Light, Light and Medium combo inflicts [234.93 - 1,313.41] Direct Damage per blow.\nWhile in Acrobatic combat form, Blocking an attack followed by a Medium, Light, Light, Medium combo Regenerates [181.43 - 1,031.87] Health per move.\nSuccessfully completing a Freestyle combo increases Beast's Critical Rating by 118.42 for 5 seconds.\nSuccessfully completing an Acrobatic combo causes opponents to get 50% less Power when getting hit and attacking for 5 seconds.\nWhen unsuccessfully performing a combo, there will be a 5 second delay before you can start a new combo.",
     "immunityDetails": "• %65 Kanama direnci 🩸",
     "abilitySections": [

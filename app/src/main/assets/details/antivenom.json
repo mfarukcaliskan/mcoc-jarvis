@@ -12,8 +12,8 @@
         "Regeneration": "Can barını zamanla yeniler."
     },
     "synergies": [],
-    "howToPlay": "Anti-Venom için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Controlled Symbiosis\nWhile the Opponent is suffering from the Klyntar Debuff, if Anti-Venom is struck by or Blocks a non-Critical Hit, he gains a Regeneration Passive that recovers [20 - 65]% of the hit damage taken over 20 seconds. These Regenerations are removed if the Klyntar Debuff is removed by Purify or Cleanse.\nEach time Anti-Venom inflicts a personal Debuff, he inflicts an indefinite 2.5% Exacerbate Passive. Max stacks: 10.\nEach personal Exacerbate Passive increases the potency of Anti-Venom's peronal Debuffs by an additonal 2.5%.",
     "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Zehir Bağışıklığı 🧪",
     "abilitySections": [

@@ -12,8 +12,8 @@
         "Purify": "Şampiyondan belirtilen sayıda debuff kaldırır."
     },
     "synergies": [],
-    "howToPlay": "Silver Sable için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "On The Hunt\nActivating a Special Attack grants a +[107.55 - 538.43] Cruelty Passive for each Shock effect on the Opponent for 15 seconds. Max stacks: 10\nLight and Medium Attacks that Intercept the Opponent have a chance to inflict an additional S:I Bounty Hunter Shock Debuff with +[10 - 60]% flat increased Ability Accuracy.",
     "abilitySections": [
         {

@@ -12,8 +12,8 @@
         "Nullify": "Hedeften belirtilen sayıda buff kaldırır."
     },
     "synergies": [],
-    "howToPlay": "Morningstar için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Soul Link\nIf Morningstar has less than 1 Captured Souls at the start of a fight, she gains 1.\nMorningstar's weapon grants her a link to her Opponent's Soul, allowing her to siphon away a portion of the power from any Fury, Power Gain, or Regeneration Buffs they trigger, reducing their potency by [22.83 - 60]%, and granting her her own Buff.\nFury: +[1,756.74 - 4,200.44] Attack for 15 Seconds.\nRegeneration: +[3,643.92 - 8,917.55] Health over 15 Seconds.\nPower Gain: +[18.74 - 28.5]% Power over 15 Seconds.",
     "immunityDetails": "• Kanama Bağışıklığı 🩸",
     "abilitySections": [

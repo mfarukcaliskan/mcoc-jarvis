@@ -12,8 +12,8 @@
         "Fury": "Saldırı gücünü geçici olarak büyük ölçüde artırır."
     },
     "synergies": [],
-    "howToPlay": "Falcon (Joaquin Torres) için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Enhanced Hybrid Physiology\nIncrease the potency of Falcon's Bulwark Passive by [10 - 50]%.\nFalcon deals a burst of [1,050.9 - 5,254.63] Physical Damage when the Opponent's Unstoppable or Evade effects fail to trigger due to Ability Accuracy reduction. Cooldown: 1 second.\nFalcon's Physical Vulnerability Debuff from swapping Instincts now pauses during all Special Attacks.\nAfter the start of each fight, inflict a Slow Debuff for 12 seconds. This is removed if the Defensive Instinct Slow activates.",
     "abilitySections": [
         {

@@ -14,7 +14,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Koşarken görünmez+engellenemez olur ve o vuruş +%250 saldırı kazanır — vacilo önleyen şampiyon şart. Nötralize veya yetenek azaltıcı kullanma, engellenemez psişik uçuşunun sıklığını artırır.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "The Living Vampire\nWhen the Opponent is Immune to a personal Bleed, [25 - 100]% chance to inflict a Rupture Debuff instead, dealing Physical Damage and copying the Bleed's behavior.\nWhen taking Direct Damage from any source, gain a non-stacking Undying Passive that falls off after not taking Direct Damage for 2 seconds. Cooldown: 8 seconds.\nWhile Undying is active, instantly Regenerate [10 - 50]% of all Direct Damage taken. Against Skill Champions, the potency of this effect is reduced by 50%.",
     "abilitySections": [
         {

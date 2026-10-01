@@ -15,7 +15,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Dövüş uzadıkça analiz yükü kazanır (zırh + %57,6 kritik direnci); 100 yükte özel saldırılar %30 daha az güce mal olur; %20 canda 3,5sn süren 3 zırh bonusu kazanır, süresi dolarsa max gücünün %89'unu kazanır; E3 kullanırsa canının tamamını yeniler (2. can). İkincil hasar efektleri (şok, yakma, güçlü iğne, degeneration, rupture) şart; kritik direncini sıfırlayan (fragmentation) efektler büyük avantaj. Güç kontrolü (petrify, çalma, çekme) de faydalı. E2 yakma uygulayabildiği için onu E1'de tutmak tavsiye edilir.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Secondary Iso Battery\nPersonal Debuffs other than Intimidate gain [20 - 40]% duration.\nOnce per fight when dropping below 20% Max Health, Sentinel activates 3 Armor Up Buffs granting +[2,750] Armor Rating for 3.5 seconds, expiring one at a time.\nEach time one of these Armor Up Buffs ends for any reason other than being removed, Sentinel Passively gains 90% of a Bar of Power.",
     "immunityDetails": "• Kanama Bağışıklığı 🩸\n• Zehir Bağışıklığı 🧪\n• Ani Soğuk Bağışıklığı 🧊\n• Zırh Kırma Bağışıklığı 🛡️",
     "abilitySections": [

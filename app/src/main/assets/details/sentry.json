@@ -12,8 +12,8 @@
         "Indestructible": "Gelen hasarı yok sayar."
     },
     "synergies": [],
-    "howToPlay": "Sentry için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Molecular Reformation\nWhen Struck by a basic attack, gain an Indestructible Passive for 2 seconds. Cooldown for [90 - 30] seconds.\nWhen Sentry enters a Solar Form with more than 20 Solar Energy, he pauses personal Debuffs on the Opponent for [0.1 - 0.5] second(s) for each Solar Energy over 20.",
     "immunityDetails": "• Yakma Bağışıklığı 🔥\n• Silme (Nullify) Bağışıklığı 🔮",
     "abilitySections": [

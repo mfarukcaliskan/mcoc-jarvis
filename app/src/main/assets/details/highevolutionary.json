@@ -14,7 +14,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Aynı vuruşu tekrarlarsan 3 pasif otomatik-blok yükü kazanır (yetenek azaltma veya isabetli saldırı bunu önlemez, ama siperlemeyi tetiklemez) — vuruş tekrarından kaçın. Güç barı kazanınca 16 vuruşluk pasif combo patlaması tetiklenir, 18sn içinde 16 kez vurmazsan savunmacının saldırısının %280'i kadar doğrudan hasar alırsın. E2/E3'ünde 12sn'lik alan kontrolleri tersine çevirir ve combo patlaması hasarını artırır — E2 kullanmasına ASLA izin verme.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Master of Evolution\nAt the end of a fight against the High Evolutionary, each Debuff on the Opponent becomes a Cross-Fight 1.6% Devolve Debuff. These Cross-Fight Debuffs carry over to the next 3 fights. Max stacks: 10.\nFor each Debuff on the Opponent, reduce their Regeneration Rate by 20%, up to a max of 100%. This effect replaces the Despair Mastery, and it is also granted to the Opponent of a Champion suffering from the Cross-Fight Devolve Debuff.\nThe potency of the bursts of damage granted by the Evolutionary Field are increased by [10 - 100]%.\nWhen inflicting a Devolve Debuff, [10 - 100]% chance to gain an indefinite 1.6% Aspect of Evolution Passive. Max stacks: 10.",
     "immunityDetails": "• Yırtılma Bağışıklığı ☣️\n• Nötralize Bağışıklığı 🗡️❌",
     "abilitySections": [

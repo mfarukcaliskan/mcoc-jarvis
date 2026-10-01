@@ -14,8 +14,8 @@
         "Increased AA": "Yetenek doğruluğunu artırır."
     },
     "synergies": [],
-    "howToPlay": "Howard The Duck için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Tech sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Quack-fu\nIf Howard is fighting in any fight with a Class Advantage, he breaks out his legendary Quack-Fu to gain the following:\nCritical Resistance equal to [8 - 40%] of Howard's Armor Rating.\nBase Ability Accuracy of 115% instead of the normal 100%.\nIncoming Debuffs suffer -[0.2 - 1.3] second(s) duration.",
     "immunityDetails": "• Kanama Bağışıklığı 🩸",
     "abilitySections": [

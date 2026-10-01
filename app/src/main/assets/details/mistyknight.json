@@ -18,7 +18,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Kriyojenik yüklerle purify eder, antimetal yüklerle kaçış kazanır. Kaçış-karşıtı ve purify-karşıtı mekanikli şampiyon kullan. Engellenemez de olur, hep E1'e zorlamak tavsiye edilir.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Background Investigation\nMisty analyzes the Opponent's Class in order to gain a unique effect for a short period to counter them. When the fight starts, Misty takes [47 - 27] seconds to investigate the Opponent. When the investigation is complete, Misty gains an effect lasting 18 seconds before restarting her investigation.\nScience: Misty instantly Purifies all Debuffs and her Instant Purification chance jumps to 100%/\nSkill: Misty gains a Fury Buff for each Bleed Debuff currently on her, increasing Attack Rating by [2,327].\nMutant: The mysteries of the X-gene elude Misty's superb detective skills.\nCosmic: Inflict a Disorient Debuff, decreasing their Block Proficiency by 5% and Defensive Ability Accuracy by 10% for each unique buff on the Opponent.\nMystic: Inflict a Suppression Debuff, reducing Opponent Combat Power Rate by 10% for each bar of power on the Opponent.\nTech: If the Opponent has 2 or more Armor Up Buffs when Misty's Special Attack 1 connects, a second Armor Break is applied.",
     "abilitySections": [
         {

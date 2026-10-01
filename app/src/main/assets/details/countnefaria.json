@@ -12,7 +12,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Fiziksel ve enerji hasarına, degeneration'a çok dirençli — pasif güç kazanan şampiyon kullanma (dirençlerini hızlandırır). Zırh kıran ve fury'li şampiyonlar en iyisi. Zehire karşı tamamen savunmasız.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Ionic Recharge\nDuring Ionic Overcharge, Passively Regenerate [10 - 80]% of the Health denied to the Opponent due to any reduced Regeneration Rate. Each tick of this healing cannot exceed [256.31] Health, scaling with Base Health.\nWhen the Opponent gains [180 - 20]% of a Bar of Power from a Passive or Buff within 0.5 seconds, instantly gain 50 Ionic Charges. Then activate Ionic Overcharge.\nThis also triggers when they gain [32 - 8]% of their Max Health for any reason within 0.5 seconds.",
     "immunityDetails": "• Kanama Bağışıklığı 🩸\n• %90 Şok direnci ⚡️\n• %90 Yakma direnci 🔥\n• Güç Çalma Bağışıklığı 🔋🔽\n• %90 Dejenerasyon direnci (100 İyonik yükle) ☠️\n• %76 Yırtılma direnci (100 İyonik yükle) ☣️",
     "abilitySections": [

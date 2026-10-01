@@ -17,7 +17,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Bloğuna vurma — pasif durdurulamaz kazanıp anında karşılık verir. Savaş gücü oranı kalıcı +%15 artmış (nekrotik enerjiyle daha da artar, +%75'e kadar), özel saldırıları çok hızlı doldurur. E2 bloklanamaz (blok yeterliliğini %80 azaltır), 0,75sn'de 2 kaçış anlık corrosion tetikler. Durdurulamaza dirençli şampiyonlar (Dust, Beta Ray Bill, Chee'ilth) en iyisi; güç kontrolcüleri E2'sini önler; nötralize energize bonusunu kaldırır; sık özel saldırı kullandığı için iğne (sting) efektli şampiyonlar da iyi.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Death Arrives All The Same\nPersonal effects expire up to [10 - 40]% more slowly and gain up to 100% increased Ability Accuracy, scaling with Necrotic Energy. These bonuses have half potency at zero Energy.\nAt the start of Thanos's first fight each Quest as an Attacker and each fight as a Defender, he gains [5 - 30] Necrotic Energy. This does not grant Counterpunch Charges and cannot happen again until Thanos's teammates win a fight.\nPersonal Protections gain +1% flat potency per Necrotic Energy.",
     "immunityDetails": "• Ani Soğuk Bağışıklığı 🧊\n• Zehir Bağışıklığı 🧪",
     "abilitySections": [

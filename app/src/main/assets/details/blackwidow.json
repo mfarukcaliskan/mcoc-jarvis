@@ -9,8 +9,8 @@
         "Reduce Defensive AA": "Savunma yetenek doğruluğunu belirtilen güçte azaltır."
     },
     "synergies": [],
-    "howToPlay": "Black Widow için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Subtlety\nBlack Widow strikes her targets with subtle, calculated grace, reducing the chance of triggering their abilities by [22 - 80]%. This chance is increased by 15% against Science champions, and decreased by the same against Mutants.",
     "abilitySections": [
         {

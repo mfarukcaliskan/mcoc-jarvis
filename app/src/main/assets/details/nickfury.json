@@ -11,7 +11,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Vurulunca taktik yükü kazanır, 15'te engellenemez olur. 2 canı var, 2. canda +%300 saldırı kazanır. Mutant şampiyon kullanmak taktik yükü kazanma şansını azalttığı için neredeyse zorunlu. Yetenek azaltıcı şampiyonlar da yük kazanımını önler.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Life Model Decoy\nWhen Nick would be knocked out, his Life Model Decoy is destroyed instead and he returns to the fight with a permanent Fury's Fury Buff and Stun Immunity. However, Nick loses his Infinity Formula and begins taking Direct Damage equal to [5 - 2.23]% of his health per second for the rest of the quest while above 30% max health. The destruction of Nick's decoy Removes all Effects and isn't affected by Ability Accuracy reduction.",
     "abilitySections": [
         {

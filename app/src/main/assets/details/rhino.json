@@ -15,7 +15,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Koşarken ve E1'de pasif durdurulamaz olur; koşarken ayrıca kısa süreli engellenemez olur (siperlenebilir ama kaçırırsan ağır bedeli olur) — durdurulamaz-karşıtı şampiyon önemli. Kanama isabet hassasiyetini %75 azaltır (kanama şampiyonlar artık iyi seçim değil). 20 pasif fiziksel direnç yükü kazanabilir — hasar efektli veya yüksek kritik şanslı şampiyon gerekli.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Science sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Rhino Armor\nGain Critical Resistance equal to [10 - 50]% of Physical Resistance.\nWhile at 15+ personal Physical Resistance, making contact with the Opponent pauses personal Breach, Taunt, and Trauma Debuffs for [0.1 - 0.5] seconds.",
     "abilitySections": [
         {

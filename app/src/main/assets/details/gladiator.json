@@ -15,7 +15,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): E1 kullanınca 4sn durdurulamaz olur. Özel saldırıları bloklansa bile debuff uygular (E1 onda-i-soğuk, E2 bloktan yakma). Yakma ve onda-i-soğuğa immün şampiyon veya güçlü güç kontrolcüsü kullan.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Cosmic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Even Further Beyond\nWinning a fight as an Attacker with more than [90 - 50]% Health adds 4 to Gladiator's Persistent Confidence Limit. Max: 8. When starting a fight, increase Confidence Limit by that value.\nGladiator starts each fight with a Vigilance Buff for [2 - 15] seconds. While benefiting from a personal Vigilance effect, all hits deal Passive True Damage and the Opponent's Armor Up effects suffer 100% reduced Ability Accuracy.",
     "immunityDetails": "• Güç Emme/Yakma Bağışıklığı 🔋\n• Silme (Nullify) Bağışıklığı (Teşvik Buff'ı) 🔮",
     "abilitySections": [

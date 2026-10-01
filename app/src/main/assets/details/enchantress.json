@@ -21,7 +21,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Oyunun en iyi mistik savunmacısı. Aktifken taşıdığı her büyü aldığı hasarın %20'sini engeller; özel saldırı kullandığında büyü aktifse engellenen tüm hasar doğrudan hasar olarak sana döner (dövüşe 3 büyüyle başlar = %60 hasar birikmiş olabilir). Özel saldırıları bloktan bile yakma/onda-i-soğuk/şok uygulayabilir. Kazanmanın sırrı büyülerini kaldırmak: Evocation büyüsü (koşarken durdurulamaz) intercept ile kalkar, Transmutation (pasif vacilo) ağır saldırısını kesmekle kalkar, Enchantment (nötralize+zayıflatma) onu yere sererek kalkar. E1'i kullanmadan önce büyülerini kaldırmak şart.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Take Your Heart\nCharm Champion: ↑, ↓, ↑: Increases the potency of incoming Power Steal, Drain, and Burn effects. Also decreases the potency of Power Gain, Energize, and Inexorable effects.\nEnchantment Spell effects last an additional +[3 - 10] seconds.\nWhenever a Buff fails to activate on the Opponent for a reason other than chance, or they are Immune to a Damaging effect, Enchantress instantly Power Steals [1 - 4]% of their Max Power. As an Attacker, this potency is reduced by 75%.",
     "immunityDetails": "• Kontrolleri Tersine Çevirme Bağışıklığı 🧠",
     "abilitySections": [

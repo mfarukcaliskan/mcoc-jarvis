@@ -14,7 +14,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Ağır saldırısını temel vuruşla kesmeye çalışırsan pasif sersemlersin; özel saldırılarını siperle (yoksa bloktan nörşok alırsın). Nörşoku 3 yolla önle: immün/dirençli şampiyon (The Maker immün; Jack O'Lantern, Bastion azaltır), yüksek enerji direnci (Guardian x200, Solvarch), veya Tech şampiyonla ona şok uygulamak (bloktan nörşok yeteneğini kapatır).",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mutant sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Mummudrai\nWhen Cassandra would inflict a personal Neuroshock, she deals a burst of [519.5 - 2,111.31] Energy Damage that scales with Base Attack only.\nWhile Channeling, reduce incoming damage from non-Special Attack 3 hits by [20 - 45]%, doubled while fighting Skill Champions.\nWhen inflicted with Bleed, refresh Cassandra's 3 oldest personal Regeneration Passives.",
     "abilitySections": [
         {

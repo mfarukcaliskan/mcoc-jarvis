@@ -11,8 +11,8 @@
         "Critical Bleed": "Zamanla doğrudan fiziksel kanama hasarı verir."
     },
     "synergies": [],
-    "howToPlay": "Hawkeye için oynanış rehberi: Özel saldırılarını kullanarak rakiplerini alt edin. Komboları düzgün zamanlayarak siper alın.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Skill sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "howToPlay": "",
+    "bestUse": "",
     "signatureAbility": "Hemorrhage\nLanding a Critical Hit with an Arrow Shot will cause any personal Bleed Debuff triggered to become a Critical Bleed, multiplying the Bleed's Potency by Hawkeye's Critical Damage Multiplier.\nAdditionally each Bleed Debuff on the opponent reduces their Physical Resistance by [407.29 - 723.55].",
     "immunityDetails": "• Zehir Bağışıklığı (ile sinerji: Nick Fury) 🧪",
     "abilitySections": [

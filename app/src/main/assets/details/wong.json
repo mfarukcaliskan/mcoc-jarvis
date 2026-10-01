@@ -12,7 +12,7 @@
     },
     "synergies": [],
     "howToPlay": "Bu şampiyona karşı (savunmada): Ağır saldırı yüklerken güç kazanır ve pasif durdurulamaz olur; rakip bonus aktive ederse de durdurulamaz olur — bonus immün şampiyon çözüm. 90 Eldritch yükündeyken ağır saldırı kullanmak hasar patlamasını önler.",
-    "bestUse": "Bu şampiyon genel maceralarda ve Mystic sınıfı avantajı olan yollarda en iyi performansı gösterir.",
+    "bestUse": "",
     "signatureAbility": "Mastery of The Mystic Arts\nWong can now select which Mandala he will start with in the Pre-Fight Menu.\nAt the start of the match, Wong will cast an enhanced Spell based on his Pre-fight Ability. It lasts [14 - 26] second(s) and cannot be removed by Wither, but still counts towards his total Spell count.\nWong's Mastery over the Mystic Arts allows him to instantly Nullify Indestructible and Immortality Buffs on non-Science Opponents, when Nullified, Opponents receive a burst of [2,229.2] Energy Damage.",
     "abilitySections": [
         {
