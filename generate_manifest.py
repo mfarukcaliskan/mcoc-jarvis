@@ -1,3 +1,4 @@
+import glob
 import hashlib
 import json
 import os
@@ -5,7 +6,7 @@ from datetime import datetime, timezone
 
 ASSETS_DIR = "app/src/main/assets"
 MANIFEST_PATH = os.path.join(ASSETS_DIR, "data_manifest.json")
-TRACKED_TOP_LEVEL_FILES = ["champions_db.json", "relics.json", "meta.json", "guia_counters.json", "guia_aw_globals.json", "guia_raids.json", "guia_champions.json", "guia_tiers.json", "guia_aw_season69.json", "guia_aw69_helpers.json", "capabilities.json", "prestige.json", "guia_aw_bigthing.json", "relic_statcast.json", "events.json", "guia_relics.json", "guia_rank7.json", "guia_guides.json"]
+TRACKED_TOP_LEVEL_FILES = ["champions_db.json", "relics.json", "meta.json", "guia_counters.json", "guia_aw_globals.json", "guia_raids.json", "guia_champions.json", "guia_tiers.json", "capabilities.json", "prestige.json", "relic_statcast.json", "events.json", "guia_relics.json", "guia_rank7.json", "guia_guides.json"]
 TRACKED_DIRS = ["details", "quests"]
 
 
@@ -23,6 +24,10 @@ def collect_files():
         path = os.path.join(ASSETS_DIR, name)
         if os.path.isfile(path):
             files.append(name)
+    # AW sezon dosyalari sezon numarasina gore degisir (tools/aw_retention.py en yeni 2 sezonu tutar)
+    for pattern in ("guia_aw_season*.json", "guia_aw*_helpers.json", "guia_aw_bigthing.json"):
+        for path in sorted(glob.glob(os.path.join(ASSETS_DIR, pattern))):
+            files.append(os.path.basename(path))
     for dirname in TRACKED_DIRS:
         dirpath = os.path.join(ASSETS_DIR, dirname)
         if not os.path.isdir(dirpath):
