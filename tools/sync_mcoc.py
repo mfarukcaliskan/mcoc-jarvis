@@ -639,7 +639,6 @@ def cmd_extras():
     tags = {str(t["id"]): t for t in load("tags.json")["data"]}
     roles = {r["id"]: r for r in load("roles.json")["data"]}
     relics = {r["id"]: r["name"] for r in load("relics.json")["data"]}
-    crystals = {str(c["id"]): c["name"] for c in load("crystals.json")["data"]}
     ab_names = {str(a["id"]): a["name"] for a in load("abilities.json")["data"]}
     im_names = {str(a["id"]): a["name"] for a in load("immunities.json")["data"]}
     out = {}
@@ -676,7 +675,6 @@ def cmd_extras():
             "hits": hits,
             "raidBoostRole": role["boost"] if role else None,
             "tags": [tags[str(t)]["tag"] for t in g.get("tags", []) if str(t) in tags and not tags[str(t)].get("hidden")],
-            "crystals": [crystals[str(x)] for x in g.get("pool", []) if str(x) in crystals],
             "relic": relics.get(g.get("relic")),
             "altRelics": [relics[r] for r in g.get("alt_relics", []) if r in relics],
         }

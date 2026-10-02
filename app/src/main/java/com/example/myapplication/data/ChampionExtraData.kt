@@ -11,8 +11,7 @@ data class ChampionExtra(
     val physicalResist: Int?,
     val energyResist: Int?,
     val tags: List<String>,
-    val altRelics: List<String>,
-    val crystals: List<String>
+    val altRelics: List<String>
 )
 
 /** champion_extra.json (tools/sync_mcoc.py extras, mcoc.gg): takma ad, yıldız aralığı, Raid rolü, direnç, etiketler. */
@@ -43,8 +42,7 @@ object ChampionExtraRepository {
                     physicalResist = raw?.takeIf { it.has("physicalresist") }?.getInt("physicalresist"),
                     energyResist = raw?.takeIf { it.has("energyresist") }?.getInt("energyresist"),
                     tags = strs("tags"),
-                    altRelics = strs("altRelics"),
-                    crystals = strs("crystals")
+                    altRelics = strs("altRelics")
                 )
             }
             map = m

@@ -389,10 +389,6 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                             item { SectionTitle("Etiketler (mcoc.gg: sınıf rolü, afiliasyon, AW/Raid)") }
                             item { TagsRow(items = ex.tags, color = Color(0xFF607D8B)) }
                         }
-                        if (ex.crystals.isNotEmpty()) {
-                            item { SectionTitle("Kristaller (mcoc.gg: şampiyonun çıktığı havuzlar)") }
-                            item { TagsRow(items = ex.crystals, color = Color(0xFFAB47BC)) }
-                        }
                         if (ex.physicalResist != null || ex.energyResist != null) {
                             item { SectionTitle("Direnç (ham, mcoc.gg)") }
                             item {
