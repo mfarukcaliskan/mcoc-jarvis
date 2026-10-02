@@ -142,6 +142,15 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                             fontSize = 13.sp,
                             color = Color(champion.mcocClass.color)
                         )
+                        com.example.myapplication.data.ChampionExtraRepository.forChampion(champion.id)?.let { ex ->
+                            val line = buildList {
+                                ex.alias?.let { add("Takma ad: $it") }
+                                if (ex.stars.isNotEmpty()) add("${ex.stars.min()}–${ex.stars.max()}★")
+                                if (ex.ascendable) add("Ascend edilebilir")
+                                ex.raidBoostRole?.let { add("Raid rolü: $it") }
+                            }.joinToString(" • ")
+                            if (line.isNotEmpty()) Text(line, fontSize = 11.sp, color = Color.LightGray)
+                        }
                         if (champion.releaseDate.isNotEmpty()) {
                             Text(
                                 "Çıkış: ${champion.releaseDate}",

@@ -28,6 +28,7 @@ jobs:
           python tools/sync_mcoc.py prestige
           python tools/sync_mcoc.py relics
           python tools/sync_mcoc.py events
+          python tools/sync_mcoc.py extras
       - name: GuiaMTC counter verisini uret
         run: python tools/sync_guia.py
       - name: AW sezon tutma kurali (yalnizca en yeni 2 sezon)

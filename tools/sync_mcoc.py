@@ -546,6 +546,43 @@ def cmd_relics():
           f"yetenek aciklamasi olan {sum(1 for o in out if o['abilities'])}; relic_statcast: {len(table)} kademe")
 
 
+def cmd_extras():
+    """mcoc.gg'den sampiyon basina ek veri (champion_extra.json): takma ad, yildiz araligi, ilk cikis, ascend,
+    ham direnc/delme istatistikleri, vurus deseni, Raid rolu, gorunur etiketler, alternatif relic'ler."""
+    gg = load("champions.json")["data"]
+    ours = {c["id"]: c for c in load_ours()}
+    tags = {str(t["id"]): t for t in load("tags.json")["data"]}
+    roles = {r["id"]: r for r in load("roles.json")["data"]}
+    relics = {r["id"]: r["name"] for r in load("relics.json")["data"]}
+    out = {}
+    for g in gg:
+        oid = gg_to_ours_id(g["image"])
+        if oid not in ours:
+            continue
+        hits = ["+".join(h) for h in g.get("hits", [])]
+        role = roles.get(g.get("role"))
+        out[oid] = {
+            "alias": g.get("alias"),
+            "stars": g.get("rarity", []),
+            "firstAppearance": g.get("first_appearance"),
+            "ascendable": bool(g.get("ascend")),
+            "rawStats": {k: g[k] for k in ("armorpen", "blockpen", "critresist", "physicalresist", "energyresist") if k in g},
+            "hits": hits,
+            "raidBoostRole": role["boost"] if role else None,
+            "tags": [tags[str(t)]["tag"] for t in g.get("tags", []) if str(t) in tags and not tags[str(t)].get("hidden")],
+            "relic": relics.get(g.get("relic")),
+            "altRelics": [relics[r] for r in g.get("alt_relics", []) if r in relics],
+        }
+    path = os.path.join(ASSETS, "champion_extra.json")
+    doc = {"source": "mcoc.gg champions.json (yetkili)", "note": "hits kodlari mcoc.gg'den ham: CP, PE, CE, PP (anlami kaynakta aciklanmiyor, yorumlanmadi). rawStats ham sayilardir, yuzdeye cevrilmemistir.", "champions": out}
+    new = json.dumps(doc, ensure_ascii=False, indent=1, sort_keys=True)
+    if os.path.isfile(path) and open(path, encoding="utf-8").read() == new:
+        print("champion_extra.json degismedi")
+        return
+    open(path, "w", encoding="utf-8").write(new)
+    print(f"champion_extra.json: {len(out)} sampiyon")
+
+
 def _norm_name(s):
     s = re.sub(r"^(AW:\s*|Defense:\s*|Attack:\s*)", "", s.strip(), flags=re.I)
     return re.sub(r"[^a-z0-9]", "", s.lower().replace("wraith", "wrath"))
@@ -708,7 +745,7 @@ def cmd_events():
 
 
 if __name__ == "__main__":
-    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige, "relics": cmd_relics, "events": cmd_events}
+    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige, "relics": cmd_relics, "events": cmd_events, "extras": cmd_extras}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         sys.exit(__doc__)
     commands[sys.argv[1]]()
