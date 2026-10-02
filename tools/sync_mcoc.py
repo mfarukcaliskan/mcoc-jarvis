@@ -619,6 +619,39 @@ def cmd_extras():
     print(f"champion_extra.json: {len(out)} sampiyon, abilityRefs: {linked}")
 
 
+def cmd_synergies():
+    """mcoc.gg sinerjileri (synergies.json): sampiyon basina temiz liste. Her kayit: sinerji adi, gereken ortaklar (bizdeki id),
+    ve satir satir etki metni. Sinerji simetriktir (iki taraf da kendi listesinde gorur)."""
+    gg = load("champions.json")["data"]
+    ours = {c["id"] for c in load_ours()}
+    syn = {str(x["id"]): x for x in load("synergies.json")["data"]}
+    gid = {g["id"]: gg_to_ours_id(g["image"]) for g in gg}
+    out = {}
+    for g in gg:
+        oid = gid[g["id"]]
+        if oid not in ours:
+            continue
+        rows = []
+        for partners, sid in zip(g.get("synergy", []), g.get("synergy_map", [])):
+            x = syn.get(str(sid))
+            if not x:
+                continue
+            segs = [clean(t) for t in re.findall(r"<g>(.*?)</g>", x["desc"], re.S)] or [clean(x["desc"])]
+            rows.append({"id": int(sid), "name": x["name"], "unique": bool(x.get("unique")),
+                         "partners": [gid[p] for p in partners if gid.get(p) in ours],
+                         "effects": [t for t in segs if t]})
+        if rows:
+            out[oid] = rows
+    path = os.path.join(ASSETS, "synergies.json")
+    doc = {"source": "mcoc.gg champions.json + synergies.json (yetkili)", "note": "partners: sinerjiyi etkinlestiren diger sampiyonlar (oyunda yalnizca oynanabilir kadro; kadroda olmayanlar atildi). Metin Ingilizce, mcoc.gg'den oldugu gibi.", "champions": out}
+    new = json.dumps(doc, ensure_ascii=False, indent=1, sort_keys=True)
+    if os.path.isfile(path) and open(path, encoding="utf-8").read() == new:
+        print("synergies.json degismedi")
+        return
+    open(path, "w", encoding="utf-8").write(new)
+    print(f"synergies.json: {len(out)} sampiyon, {sum(len(v) for v in out.values())} kayit")
+
+
 def _norm_name(s):
     s = re.sub(r"^(AW:\s*|Defense:\s*|Attack:\s*)", "", s.strip(), flags=re.I)
     return re.sub(r"[^a-z0-9]", "", s.lower().replace("wraith", "wrath"))
@@ -781,7 +814,7 @@ def cmd_events():
 
 
 if __name__ == "__main__":
-    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige, "relics": cmd_relics, "events": cmd_events, "extras": cmd_extras}
+    commands = {"fetch": cmd_fetch, "report": cmd_report, "apply": cmd_apply, "capabilities": cmd_capabilities, "prestige": cmd_prestige, "relics": cmd_relics, "events": cmd_events, "extras": cmd_extras, "synergies": cmd_synergies}
     if len(sys.argv) != 2 or sys.argv[1] not in commands:
         sys.exit(__doc__)
     commands[sys.argv[1]]()

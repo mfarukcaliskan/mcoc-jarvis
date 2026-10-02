@@ -23,6 +23,7 @@ import com.example.myapplication.data.ChampionRepository
 import com.example.myapplication.data.CapabilityRepository
 import com.example.myapplication.data.EventsRepository
 import com.example.myapplication.data.ChampionExtraRepository
+import com.example.myapplication.data.SynergyRepository
 import com.example.myapplication.data.GuiaRelicRepository
 import com.example.myapplication.data.GuiaAwRepository
 import com.example.myapplication.data.GuiaBigThingRepository
@@ -53,6 +54,7 @@ class MainActivity : ComponentActivity() {
         PrestigeRepository.initialize(applicationContext)
         GuiaRelicRepository.initialize(applicationContext)
         ChampionExtraRepository.initialize(applicationContext)
+        SynergyRepository.initialize(applicationContext)
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
@@ -77,6 +79,7 @@ class MainActivity : ComponentActivity() {
                 PrestigeRepository.reload(applicationContext)
                 GuiaRelicRepository.reload(applicationContext)
                 ChampionExtraRepository.reload(applicationContext)
+                SynergyRepository.reload(applicationContext)
             }
         }
     }

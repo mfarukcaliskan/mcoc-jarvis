@@ -113,4 +113,22 @@ class EventsDataTest {
         }
         assertTrue("abilityRefs bulunamadı", checked > 1000)
     }
+
+    @Test
+    fun synergies_referenceKnownChampions() {
+        val known = championIds()
+        val root = JSONObject(assets("synergies.json").readText()).getJSONObject("champions")
+        var n = 0
+        for (id in root.keys()) {
+            assertTrue("bilinmeyen $id", id in known)
+            val arr = root.getJSONArray(id)
+            for (i in 0 until arr.length()) {
+                val o = arr.getJSONObject(i)
+                assertTrue(ids(o.getJSONArray("partners")).all { it in known })
+                assertTrue("${o.getString("name")}: etkisiz", o.getJSONArray("effects").length() > 0)
+                n++
+            }
+        }
+        assertTrue(n > 1000)
+    }
 }

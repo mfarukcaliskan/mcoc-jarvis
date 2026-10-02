@@ -438,6 +438,26 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                 }
                 2 -> {
                     // Synergies Tab
+                    val cleanSyn = com.example.myapplication.data.SynergyRepository.forChampion(champion.id)
+                    if (cleanSyn.isNotEmpty()) {
+                        item { SectionTitle("Sinerjiler (mcoc.gg, ${cleanSyn.size})") }
+                        items(cleanSyn) { syn ->
+                            Card(
+                                modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 4.dp),
+                                colors = CardDefaults.cardColors(containerColor = Color(0xFF161B22)),
+                                shape = RoundedCornerShape(12.dp)
+                            ) {
+                                Column(modifier = Modifier.padding(16.dp)) {
+                                    Text(syn.name + if (syn.unique) "  (benzersiz)" else "", fontWeight = FontWeight.Bold, color = Color.White, fontSize = 15.sp)
+                                    val partners = syn.partners.mapNotNull { pid -> ChampionRepository.champions.find { it.id == pid } }
+                                    if (partners.isNotEmpty()) {
+                                        Text("Ortaklar: " + partners.joinToString(", ") { it.name }, color = Color(0xFF00BFFF), fontSize = 12.sp)
+                                    }
+                                    syn.effects.forEach { Text(it, color = Color(0xFF81C784), fontSize = 13.sp) }
+                                }
+                            }
+                        }
+                    } else {
                     item { SectionTitle("Sinerjiler (Verdikleri)") }
                     items(champion.synergies) { synergy ->
                         Card(
@@ -523,6 +543,7 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                                 modifier = Modifier.padding(16.dp)
                             )
                         }
+                    }
                     }
                 }
                 3 -> {
