@@ -107,5 +107,21 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Debuffs": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Rejuvenate": [
+            1096
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

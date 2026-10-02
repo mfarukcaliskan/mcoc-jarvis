@@ -285,5 +285,20 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Stagger": [
+            780
+        ],
+        "Exhaustion": [
+            517
+        ],
+        "Fatigue": [
+            517
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

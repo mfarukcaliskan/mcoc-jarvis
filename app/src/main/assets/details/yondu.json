@@ -154,5 +154,36 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Concussion": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Armor Up": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Prowess": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

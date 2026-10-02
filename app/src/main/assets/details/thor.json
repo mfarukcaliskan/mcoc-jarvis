@@ -99,5 +99,24 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Regeneration": [
+            626
+        ],
+        "Shock": [
+            718
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

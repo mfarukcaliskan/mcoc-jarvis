@@ -157,5 +157,67 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Critical Hits": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            924
+        ],
+        "Power Gain": [
+            953
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -194,5 +194,43 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Nullify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fate Seal": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Sting": [
+            853
+        ],
+        "Unstoppable": [
+            447
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -156,5 +156,39 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Buffs": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Steal": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Cruelty": [
+            744
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

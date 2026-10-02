@@ -178,5 +178,54 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Concussion": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Suppression": [
+            [
+                0,
+                0
+            ]
+        ],
+        "AA Modification": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Indestructible": [
+            143
+        ],
+        "Armor Up": [
+            145
+        ],
+        "Unstoppable": [
+            146
+        ],
+        "Root": [
+            390
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

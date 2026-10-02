@@ -149,5 +149,67 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Cleanse": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                3,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Jiggy With It": [
+            157
+        ],
+        "Vicious": [
+            158
+        ],
+        "Incinerate": [
+            159
+        ],
+        "Unblockable": [
+            782
+        ],
+        "True Damage": [
+            782
+        ],
+        "Prowess": [
+            782
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

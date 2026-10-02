@@ -160,5 +160,55 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Armor Break": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Guaranteed Crits": [
+            458
+        ],
+        "Purify": [
+            461
+        ],
+        "Energize": [
+            462
+        ],
+        "Armor Up": [
+            462
+        ],
+        "Armor Break": [
+            851
+        ]
+    },
+    "immunitySynergies": {
+        "Purify": [
+            461
+        ]
+    },
+    "counterSynergies": {}
 }

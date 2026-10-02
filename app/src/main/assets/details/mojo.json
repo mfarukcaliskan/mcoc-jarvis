@@ -156,5 +156,20 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Incinerate": [
+            594
+        ],
+        "Unstoppable": [
+            595
+        ],
+        "Falter": [
+            222
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -169,5 +169,42 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Power Gain": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Physical Resistance": [
+            316
+        ],
+        "Evade": [
+            816
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

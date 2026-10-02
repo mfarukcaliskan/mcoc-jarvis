@@ -168,5 +168,24 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Unstoppable": [
+            286
+        ],
+        "Regeneration": [
+            793
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

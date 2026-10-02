@@ -139,5 +139,23 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Regen Rate Mod.": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

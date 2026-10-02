@@ -151,5 +151,82 @@
                 3
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Reversed Controls": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Miss": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Energy Resistance": [
+            315
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

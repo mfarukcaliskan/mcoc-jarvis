@@ -139,5 +139,44 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                5,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Unblockable": [
+            867
+        ],
+        "Indestructible": [
+            913
+        ],
+        "Fury": [
+            636
+        ],
+        "Weakness": [
+            274
+        ],
+        "Power Gain": [
+            165
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            1006
+        ]
+    },
+    "counterSynergies": {}
 }

@@ -412,6 +412,21 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                             }
                         }
                     }
+                    val det = championDetails
+                    if (!isDetailsLoading && det != null) {
+                        if (det.abilitySources.isNotEmpty() || det.abilitySynergies.isNotEmpty()) {
+                            item { SectionTitle("Yetenek Ayrıntısı (mcoc.gg: ? açıklaması, kaynak satırlar, sinerji)") }
+                            item { DetailBlock((det.abilitySources.keys + det.abilitySynergies.keys).distinct(), det.abilitySources, det.abilitySynergies) }
+                        }
+                        if (det.immunitySources.isNotEmpty() || det.immunitySynergies.isNotEmpty()) {
+                            item { SectionTitle("Bağışıklık ve Dirençler (mcoc.gg ayrıntı)") }
+                            item { DetailBlock((det.immunitySources.keys + det.immunitySynergies.keys).distinct(), det.immunitySources, det.immunitySynergies) }
+                        }
+                        if (det.counterSources.isNotEmpty() || det.counterSynergies.isNotEmpty()) {
+                            item { SectionTitle("Bu Yetenekleri Engeller (mcoc.gg ayrıntı)") }
+                            item { DetailBlock((det.counterSources.keys + det.counterSynergies.keys).distinct(), det.counterSources, det.counterSynergies) }
+                        }
+                    }
                     val sections = championDetails?.abilitySections.orEmpty()
                     if (!isDetailsLoading && sections.isNotEmpty()) {
                         item { SectionTitle("Yetenek Detayları (mcoc.gg, İngilizce)") }
@@ -859,7 +874,12 @@ fun AbilitiesGrid(champion: Champion, abilityDetails: Map<String, String>, abili
                             Text(ability, fontWeight = FontWeight.Bold, color = Color(0xFF00BFFF), fontSize = 14.sp)
                         }
                         Spacer(modifier = Modifier.height(8.dp))
-                        Text(desc, color = Color.LightGray, fontSize = 13.sp, lineHeight = 18.sp)
+                        val gloss = com.example.myapplication.data.CapabilityRepository.glossaryOf(ability)
+                        if (gloss != null) {
+                            Text("? $gloss", color = Color(0xFFFFD54F), fontSize = 13.sp, lineHeight = 18.sp)
+                        } else {
+                            Text(desc, color = Color.LightGray, fontSize = 13.sp, lineHeight = 18.sp)
+                        }
                         abilitySources[ability]?.takeIf { it.isNotEmpty() }?.let { src ->
                             Spacer(modifier = Modifier.height(8.dp))
                             Text("Bu şampiyonda (mcoc.gg, İngilizce):", fontWeight = FontWeight.Bold, color = Color(0xFFFF9800), fontSize = 11.sp)
@@ -1135,6 +1155,35 @@ fun FocusCard(title: String, content: String, color: Color, modifier: Modifier =
             Text(title, fontWeight = FontWeight.Bold, color = color, fontSize = 12.sp)
             Spacer(modifier = Modifier.height(4.dp))
             Text(content, color = Color.LightGray, fontSize = 12.sp)
+        }
+    }
+}
+
+
+/** mcoc.gg "DETAIL" görünümü: ad, "?" açıklaması (sözlük), bu şampiyondaki kaynak satırlar, ilgili sinerjiler. */
+@Composable
+fun DetailBlock(names: List<String>, sources: Map<String, List<String>>, synergies: Map<String, List<Int>>) {
+    Column(modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        names.forEach { name ->
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(containerColor = Color(0xFF161B22)),
+                shape = RoundedCornerShape(12.dp)
+            ) {
+                Column(modifier = Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                    Text("${getAbilityEmoji(name)} $name", fontWeight = FontWeight.Bold, color = Color(0xFF00BFFF), fontSize = 14.sp)
+                    com.example.myapplication.data.CapabilityRepository.glossaryOf(name)?.let {
+                        Text("? $it", color = Color(0xFFFFD54F), fontSize = 12.sp)
+                    }
+                    sources[name]?.forEach { Text("• $it", color = Color.LightGray, fontSize = 12.sp) }
+                    synergies[name]?.forEach { sid ->
+                        com.example.myapplication.data.SynergyRepository.textOf(sid)?.let { t ->
+                            Text("Sinerji: ${t.name}", color = Color(0xFF81C784), fontWeight = FontWeight.SemiBold, fontSize = 12.sp)
+                            t.effects.forEach { e -> Text(e, color = Color(0xFF81C784), fontSize = 11.sp) }
+                        }
+                    }
+                }
+            }
         }
     }
 }

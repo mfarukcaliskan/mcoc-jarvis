@@ -310,5 +310,60 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Power Lock": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Reversed Controls": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Power Gain": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Energize": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Inexorable": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Petrify": [
+            552
+        ],
+        "Bulwark": [
+            553
+        ],
+        "Decelerate": [
+            554
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

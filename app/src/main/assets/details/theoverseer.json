@@ -142,5 +142,61 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Nullify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fate Seal": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Perfect Block": [
+            1009
+        ],
+        "Steadfast": [
+            59
+        ],
+        "Indestructible": [
+            913
+        ],
+        "Wither": [
+            64
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            1006
+        ],
+        "Neutralize": [
+            520
+        ]
+    },
+    "counterSynergies": {}
 }

@@ -205,5 +205,76 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Neutralize": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Steal": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Unstoppable": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Concussion": [
+            390
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

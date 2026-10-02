@@ -238,5 +238,34 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Rupture": [
+            [
+                3,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                5,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Steal": [
+            386
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

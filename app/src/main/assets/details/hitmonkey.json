@@ -155,5 +155,28 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Armor Break": [
+            931
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -153,5 +153,46 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Critical Hits": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            835
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

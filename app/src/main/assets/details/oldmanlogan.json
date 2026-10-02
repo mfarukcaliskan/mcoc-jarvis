@@ -141,5 +141,21 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "AA Modification": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Start With Power": [
+            295
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

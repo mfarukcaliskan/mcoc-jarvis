@@ -199,5 +199,48 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Crush": [
+            [
+                9,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -148,5 +148,46 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Fury": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Gain": [
+            52
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

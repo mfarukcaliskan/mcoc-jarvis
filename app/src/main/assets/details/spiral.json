@@ -141,5 +141,80 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Falter": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Poison": [
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Power Gain": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Death Immunity": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Immortality": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Indestructible": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Regeneration": [
+            523
+        ],
+        "Prowess": [
+            527
+        ],
+        "Jiggy With It": [
+            334
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            525
+        ]
+    },
+    "counterSynergies": {}
 }

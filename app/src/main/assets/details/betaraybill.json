@@ -176,5 +176,58 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Glancing": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                5
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Gain": [
+            165
+        ],
+        "Stun": [
+            166
+        ],
+        "Fury": [
+            446
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

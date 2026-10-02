@@ -123,5 +123,61 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Infuriate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Intimidate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Unstoppable": [
+            550
+        ],
+        "Unblockable": [
+            551
+        ],
+        "Weakness": [
+            507
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

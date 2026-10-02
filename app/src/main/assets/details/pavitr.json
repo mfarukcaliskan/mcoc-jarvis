@@ -183,5 +183,48 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Inexorable": [
+            [
+                10,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                10,
+                0
+            ]
+        ],
+        "Immortality": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Indestructible": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Death Immunity": [
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Wither": [
+            64
+        ],
+        "Power Gain": [
+            68
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

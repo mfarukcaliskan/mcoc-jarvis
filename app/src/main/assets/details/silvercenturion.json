@@ -164,5 +164,58 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                5,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                5,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Energy Vulnerability": [
+            719
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -127,5 +127,27 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "AA Modification": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Degeneration": [
+            592
+        ],
+        "Precision": [
+            283
+        ],
+        "Regeneration": [
+            532
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

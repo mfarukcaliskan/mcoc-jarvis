@@ -227,5 +227,56 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Nullify": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                4
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "True Accuracy": [
+            1114
+        ],
+        "Bleed": [
+            1116
+        ],
+        "Regeneration": [
+            1118
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Auto-Block": [
+            1114
+        ]
     }
 }

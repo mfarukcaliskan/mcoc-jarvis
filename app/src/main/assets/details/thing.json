@@ -169,5 +169,86 @@
                 3
             ]
         ]
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fate Seal": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Indestructible": [
+            958
+        ],
+        "Weakness": [
+            8
+        ],
+        "Grit": [
+            380
+        ],
+        "Incinerate": [
+            9
+        ],
+        "Heal Block": [
+            9
+        ],
+        "Regeneration": [
+            7
+        ],
+        "Power Gain": [
+            7
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Regeneration": [
+            9
+        ]
     }
 }

@@ -119,5 +119,24 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fury": [
+            635
+        ],
+        "Rupture": [
+            350
+        ],
+        "Poison": [
+            200
+        ]
+    },
+    "immunitySynergies": {
+        "Poison": [
+            993
+        ]
+    },
+    "counterSynergies": {}
 }

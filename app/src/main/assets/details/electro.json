@@ -70,5 +70,32 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Pursuit": [
+            58
+        ],
+        "Shock": [
+            531
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            58
+        ]
     }
 }

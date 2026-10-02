@@ -193,5 +193,64 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Untouchable": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Phasing": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                10,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Unstoppable": [
+            303
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

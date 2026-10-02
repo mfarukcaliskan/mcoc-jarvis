@@ -94,5 +94,17 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Miss": [
+            870
+        ],
+        "Regeneration": [
+            626
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

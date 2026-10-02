@@ -112,5 +112,28 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Purify": [
+            1026
+        ],
+        "Fury": [
+            105
+        ]
+    },
+    "immunitySynergies": {
+        "Purify": [
+            1026
+        ]
+    },
+    "counterSynergies": {}
 }

@@ -6,7 +6,10 @@ import org.json.JSONObject
 data class SynergyEntry(val id: Int, val name: String, val unique: Boolean, val partners: List<String>, val effects: List<String>)
 
 /** synergies.json (tools/sync_mcoc.py synergies, mcoc.gg): şampiyon başına temiz sinerji listesi. Tembel yüklenir (~550 KB). */
+data class SynergyText(val name: String, val effects: List<String>)
+
 object SynergyRepository {
+    private var referenced: Map<String, SynergyText> = emptyMap()
     private var appContext: Context? = null
     private var loaded = false
     private var map: Map<String, List<SynergyEntry>> = emptyMap()
@@ -29,6 +32,11 @@ object SynergyRepository {
                     SynergyEntry(o.getInt("id"), o.getString("name"), o.optBoolean("unique"), strs("partners"), strs("effects"))
                 }
             }
+            val ref = JSONObject(DataSource.openText(ctx, "synergies.json")).optJSONObject("referenced")
+            referenced = ref?.keys()?.asSequence()?.associateWith { k ->
+                val o = ref.getJSONObject(k)
+                SynergyText(o.getString("name"), o.getJSONArray("effects").let { a -> (0 until a.length()).map { a.getString(it) } })
+            } ?: emptyMap()
             map = m
             loaded = true
         } catch (e: Exception) {
@@ -36,5 +44,6 @@ object SynergyRepository {
         }
     }
 
+    fun textOf(synergyId: Int): SynergyText? { ensureLoaded(); return referenced[synergyId.toString()] }
     fun forChampion(id: String): List<SynergyEntry> { ensureLoaded(); return map[id].orEmpty() }
 }

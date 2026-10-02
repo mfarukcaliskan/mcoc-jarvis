@@ -193,5 +193,76 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Power Sting": [
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Untouchable": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Phasing": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Auto-Block": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            1089
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

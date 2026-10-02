@@ -137,5 +137,53 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Unblockable": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Prowess": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Drain": [
+            271
+        ],
+        "Incinerate": [
+            244
+        ],
+        "Plasma": [
+            719
+        ],
+        "Cruelty": [
+            261
+        ],
+        "Fury": [
+            841
+        ]
+    },
+    "immunitySynergies": {
+        "Coldsnap": [
+            1030
+        ],
+        "Frostbite": [
+            1030
+        ],
+        "Incinerate": [
+            1030
+        ]
+    },
+    "counterSynergies": {}
 }

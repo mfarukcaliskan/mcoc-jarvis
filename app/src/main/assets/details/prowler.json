@@ -172,5 +172,54 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Cruelty": [
+            493
+        ],
+        "Evade": [
+            494
+        ],
+        "Fury": [
+            495
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            492
+        ]
+    },
+    "counterSynergies": {}
 }

@@ -101,5 +101,24 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Thorns": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

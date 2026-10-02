@@ -76,5 +76,37 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Drain": [
+            271
+        ],
+        "Fury": [
+            822
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

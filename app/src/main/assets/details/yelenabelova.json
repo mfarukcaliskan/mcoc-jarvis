@@ -192,5 +192,78 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Endurance": [
+            [
+                0,
+                1
+            ]
+        ],
+        "AA Modification": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                8,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Sabotage": [
+            340
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

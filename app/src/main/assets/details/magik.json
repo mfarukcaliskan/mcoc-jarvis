@@ -175,5 +175,30 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Prowess": [
+            1064
+        ],
+        "Uncanny": [
+            1075
+        ],
+        "Stimulate": [
+            387
+        ],
+        "Fury": [
+            544
+        ],
+        "Precision": [
+            628
+        ]
+    },
+    "immunitySynergies": {
+        "Bleed": [
+            938
+        ]
+    },
+    "counterSynergies": {}
 }

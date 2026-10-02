@@ -141,5 +141,37 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Critical Hits": [
+            [
+                0,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Evade": [
+            [
+                4,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Perfect Block": [
+            653
+        ],
+        "Energy Vulnerability": [
+            440
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

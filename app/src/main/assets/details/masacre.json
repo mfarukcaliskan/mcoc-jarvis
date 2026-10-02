@@ -144,5 +144,17 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Evade": [
+            845
+        ],
+        "Intimidate": [
+            76
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

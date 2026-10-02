@@ -146,5 +146,37 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Power Gain": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Auto-Block": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "True Damage": [
+            565
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

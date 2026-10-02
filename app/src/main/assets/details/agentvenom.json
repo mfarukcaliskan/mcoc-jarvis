@@ -79,5 +79,28 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

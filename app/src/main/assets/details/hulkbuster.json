@@ -209,5 +209,35 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "Poison": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fury": [
+            207
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

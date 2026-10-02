@@ -161,5 +161,74 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "AA Modification": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Heal Block": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Armor Break": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Rupture": [
+            [
+                3,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            506
+        ]
+    },
+    "immunitySynergies": {
+        "Degeneration": [
+            524
+        ]
+    },
+    "counterSynergies": {}
 }

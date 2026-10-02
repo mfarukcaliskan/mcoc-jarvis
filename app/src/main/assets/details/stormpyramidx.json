@@ -179,5 +179,49 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Coldsnap": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Frostbite": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Shock": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "True Damage": [
+            782
+        ]
+    },
+    "immunitySynergies": {
+        "Nullify": [
+            977
+        ]
+    },
+    "counterSynergies": {}
 }

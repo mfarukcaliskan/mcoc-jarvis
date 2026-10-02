@@ -147,5 +147,30 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Regeneration": [
+            1026
+        ],
+        "Armor Break": [
+            911
+        ],
+        "Physical Vulnerability": [
+            1158
+        ]
+    },
+    "immunitySynergies": {
+        "Bleed": [
+            1026
+        ],
+        "Poison": [
+            1026
+        ],
+        "Shock": [
+            1026
+        ]
+    },
+    "counterSynergies": {}
 }

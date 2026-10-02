@@ -66,5 +66,26 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Prowess": [
+            272
+        ],
+        "Fury": [
+            804
+        ],
+        "Perfect Block": [
+            811
+        ],
+        "Start With Power": [
+            295
+        ],
+        "Precision": [
+            99
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -155,5 +155,58 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Evade": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Thorns": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                6
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Falter": [
+            1032
+        ],
+        "Unblockable": [
+            1035
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

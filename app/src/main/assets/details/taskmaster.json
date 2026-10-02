@@ -136,5 +136,50 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Debuffs": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Auto-Block": [
+            [
+                1,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Gain": [
+            880
+        ],
+        "Unblockable": [
+            881
+        ],
+        "Evade": [
+            883
+        ],
+        "Indestructible": [
+            143
+        ],
+        "Sabotage": [
+            259
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -140,5 +140,34 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Stun": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Buffs": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                2,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Taunt": [
+            542
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

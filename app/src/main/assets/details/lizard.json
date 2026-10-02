@@ -152,5 +152,80 @@
                 2
             ]
         ]
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Buffs": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Phasing": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Power Gain": [
+            [
+                7,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Pursuit": [
+            58
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            58
+        ]
     }
 }

@@ -162,5 +162,42 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "Power Gain": [
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                4
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Start With Power": [
+            246
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

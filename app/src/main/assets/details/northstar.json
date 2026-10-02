@@ -173,5 +173,23 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

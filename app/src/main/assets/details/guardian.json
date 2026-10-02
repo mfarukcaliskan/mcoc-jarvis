@@ -182,5 +182,64 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                3
+            ]
+        ],
+        "Coldsnap": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Incinerate": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Shock": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Evade": [
+            [
+                6,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -164,5 +164,33 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Unstoppable": [
+            447
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

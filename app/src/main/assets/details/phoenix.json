@@ -159,5 +159,74 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Lock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Instant Incinerate": [
+            661
+        ],
+        "Untouchable": [
+            1072
+        ],
+        "True Strike": [
+            606
+        ],
+        "Unblockable": [
+            323
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Auto-Block": [
+            606
+        ],
+        "Evade": [
+            606
+        ]
     }
 }

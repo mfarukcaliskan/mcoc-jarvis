@@ -173,5 +173,160 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Power Drain": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Power Steal": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Power Burn": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Power Lock": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Enervate": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Purify Stun": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Untouchable": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Invisible": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Phasing": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Armor Up": [
+            98
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

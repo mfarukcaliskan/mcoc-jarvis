@@ -220,5 +220,25 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                6,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Armor Up": [
+            910
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

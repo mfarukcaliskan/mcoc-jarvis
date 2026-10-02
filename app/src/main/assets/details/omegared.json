@@ -109,5 +109,40 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Thorns": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

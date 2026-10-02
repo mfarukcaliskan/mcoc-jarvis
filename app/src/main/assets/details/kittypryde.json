@@ -149,5 +149,41 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Thorns": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            808
+        ],
+        "Guaranteed Crits": [
+            119
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            806
+        ]
+    },
+    "counterSynergies": {}
 }

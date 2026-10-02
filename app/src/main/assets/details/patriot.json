@@ -166,5 +166,70 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Weakness": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                0,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Inequity": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Miss": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Cruelty": [
+            744
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

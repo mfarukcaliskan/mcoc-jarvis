@@ -260,5 +260,45 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Cruelty": [
+            377
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

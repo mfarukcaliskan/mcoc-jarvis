@@ -201,5 +201,73 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Power Drain": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Power Steal": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Power Burn": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                6
+            ]
+        ],
+        "Coldsnap": [
+            [
+                1,
+                6
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Cowardice": [
+            480
+        ]
+    },
+    "immunitySynergies": {
+        "Incinerate": [
+            1030
+        ],
+        "Frostbite": [
+            1030
+        ]
+    },
+    "counterSynergies": {}
 }

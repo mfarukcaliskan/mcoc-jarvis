@@ -186,5 +186,56 @@
                 1
             ]
         ]
+    },
+    "immunityRefs": {
+        "Endurance": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Poison": [
+            1016
+        ],
+        "Fragility": [
+            1019
+        ],
+        "Immortality": [
+            1020
+        ],
+        "Pursuit": [
+            58
+        ],
+        "Infuriate": [
+            521
+        ]
+    },
+    "immunitySynergies": {
+        "Bleed": [
+            137
+        ]
+    },
+    "counterSynergies": {
+        "Miss": [
+            1018
+        ],
+        "Falter": [
+            1018
+        ],
+        "Untouchable": [
+            1018
+        ],
+        "Invisible": [
+            1018
+        ],
+        "Phasing": [
+            1018
+        ],
+        "Evade": [
+            58
+        ]
     }
 }

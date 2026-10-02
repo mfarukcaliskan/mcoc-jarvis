@@ -91,5 +91,30 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Gain": [
+            1007
+        ],
+        "Unblockable": [
+            782
+        ],
+        "Prowess": [
+            782
+        ],
+        "Indestructible": [
+            442
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

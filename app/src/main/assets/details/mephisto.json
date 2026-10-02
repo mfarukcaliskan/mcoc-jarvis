@@ -117,5 +117,52 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Frostbite": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Coldsnap": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Poison": [
+            [
+                1,
+                2
+            ]
+        ],
+        "AA Modification": [
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Slow": [
+            239
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Unstoppable": [
+            239
+        ],
+        "Evade": [
+            239
+        ]
     }
 }

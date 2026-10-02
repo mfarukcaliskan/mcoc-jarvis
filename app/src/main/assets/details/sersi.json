@@ -147,5 +147,54 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Regen Rate Mod.": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Energy Resistance": [
+            693
+        ],
+        "Guaranteed Crits": [
+            694
+        ],
+        "Unstoppable": [
+            695
+        ],
+        "Armor Up": [
+            697
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

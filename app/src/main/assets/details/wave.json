@@ -160,5 +160,30 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Untouchable": [
+            1101
+        ],
+        "Fury": [
+            1102
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

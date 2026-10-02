@@ -173,5 +173,115 @@
                 3
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Critical Hits": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Coldsnap": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Frostbite": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Indestructible": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Immortality": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Armor Break": [
+            31
+        ]
+    },
+    "immunitySynergies": {
+        "Non-DOT Debuffs": [
+            33
+        ],
+        "Poison": [
+            34
+        ]
+    },
+    "counterSynergies": {}
 }

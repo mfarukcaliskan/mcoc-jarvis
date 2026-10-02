@@ -80,5 +80,21 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Armor Break": [
+            289
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

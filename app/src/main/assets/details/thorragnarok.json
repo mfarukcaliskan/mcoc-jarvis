@@ -151,5 +151,52 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Wither": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Endurance": [
+            [
+                1,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Regeneration": [
+            912
+        ],
+        "Combo Shield": [
+            914
+        ],
+        "Perfect Block": [
+            629
+        ],
+        "Unblockable": [
+            867
+        ],
+        "Purify": [
+            480
+        ],
+        "Instant Shock": [
+            72
+        ]
+    },
+    "immunitySynergies": {
+        "Purify": [
+            480
+        ]
+    },
+    "counterSynergies": {}
 }

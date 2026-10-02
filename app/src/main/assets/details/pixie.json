@@ -135,5 +135,52 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "True Accuracy": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Evade": [
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            1102
+        ]
+    },
+    "immunitySynergies": {
+        "Incinerate": [
+            1068
+        ]
+    },
+    "counterSynergies": {}
 }

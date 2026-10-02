@@ -155,5 +155,44 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Power Drain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

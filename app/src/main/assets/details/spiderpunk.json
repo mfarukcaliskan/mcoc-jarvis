@@ -139,5 +139,40 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Rupture": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Concussion": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Energy Vulnerability": [
+            517
+        ],
+        "Slow": [
+            517
+        ],
+        "Fatigue": [
+            517
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            515
+        ],
+        "Stun": [
+            472
+        ]
+    },
+    "counterSynergies": {}
 }

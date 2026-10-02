@@ -161,5 +161,20 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Power Gain": [
+            473
+        ],
+        "Evade": [
+            64
+        ],
+        "Fury": [
+            794
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

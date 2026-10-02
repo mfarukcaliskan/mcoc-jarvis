@@ -142,5 +142,20 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Stimulate": [
+            387
+        ],
+        "Prowess": [
+            483
+        ],
+        "Buff Deceleration": [
+            1063
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

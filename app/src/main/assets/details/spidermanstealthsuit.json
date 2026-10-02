@@ -140,5 +140,47 @@
                 1
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Evade": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                3,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Armor Break": [
+            973
+        ],
+        "Degeneration": [
+            973
+        ],
+        "Weakness": [
+            973
+        ],
+        "Purify": [
+            522
+        ]
+    },
+    "immunitySynergies": {
+        "Purify": [
+            522
+        ]
+    },
+    "counterSynergies": {
+        "Shock": [
+            529
+        ],
+        "Incinerate": [
+            529
+        ]
     }
 }

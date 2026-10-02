@@ -113,5 +113,33 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fury": [
+            730
+        ],
+        "Vigilance": [
+            539
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Miss": [
+            539
+        ],
+        "Falter": [
+            539
+        ],
+        "Untouchable": [
+            539
+        ],
+        "Invisible": [
+            539
+        ],
+        "Phasing": [
+            539
+        ]
     }
 }

@@ -94,5 +94,23 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Debuffs": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

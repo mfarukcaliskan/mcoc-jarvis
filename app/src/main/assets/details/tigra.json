@@ -126,5 +126,21 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Nullify": [
+            968
+        ],
+        "Untouchable": [
+            1101
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Unstoppable": [
+            201
+        ]
     }
 }

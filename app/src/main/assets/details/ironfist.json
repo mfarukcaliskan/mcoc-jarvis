@@ -48,5 +48,26 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Guaranteed Crits": [
+            699
+        ],
+        "Stagger": [
+            780
+        ],
+        "Fateseal": [
+            780
+        ],
+        "Heavy Proficiency": [
+            764
+        ],
+        "Stun": [
+            656
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

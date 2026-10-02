@@ -178,5 +178,132 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Miss": [
+            1014
+        ],
+        "Weakness": [
+            8
+        ],
+        "Slow": [
+            239
+        ],
+        "Fury": [
+            10
+        ],
+        "Regeneration": [
+            7
+        ],
+        "Power Gain": [
+            7
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            239
+        ],
+        "Unstoppable": [
+            239
+        ]
     }
 }

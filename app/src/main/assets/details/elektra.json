@@ -97,5 +97,17 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Regeneration": [
+            307
+        ],
+        "Precision": [
+            268
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

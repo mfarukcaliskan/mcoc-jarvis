@@ -147,5 +147,78 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Lock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Miss": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Untouchable": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Phasing": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

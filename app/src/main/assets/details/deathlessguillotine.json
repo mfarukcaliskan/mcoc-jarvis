@@ -62,5 +62,17 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Nullify": [
+            415
+        ],
+        "Neutralize": [
+            419
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

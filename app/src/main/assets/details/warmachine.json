@@ -161,5 +161,27 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Prowess": [
+            [
+                5,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Physical Vulnerability": [
+            1158
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

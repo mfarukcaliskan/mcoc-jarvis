@@ -170,5 +170,95 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Stun": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Fatigue": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Concussion": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Exhaustion": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Frostbite": [
+            771
+        ],
+        "Energy Resistance": [
+            315
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            946
+        ]
+    },
+    "counterSynergies": {}
 }

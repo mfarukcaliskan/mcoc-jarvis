@@ -212,5 +212,73 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Nova Flame": [
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Immortality": [
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Safeguard": [
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Energize": [
+            1163
+        ],
+        "Pierce": [
+            1163
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

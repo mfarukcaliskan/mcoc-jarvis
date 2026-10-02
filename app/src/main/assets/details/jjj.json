@@ -201,5 +201,116 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Miss": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Destroy": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Falter": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Untouchable": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Invisible": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Degeneration": [
+            222
+        ],
+        "Regeneration": [
+            223
+        ],
+        "Confidence": [
+            224
+        ],
+        "Safeguard": [
+            225
+        ],
+        "Fury": [
+            227
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

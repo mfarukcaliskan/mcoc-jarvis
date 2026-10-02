@@ -152,5 +152,44 @@
                 3
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Nullify": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Thorns": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Incinerate": [
+            332
+        ],
+        "Immortality": [
+            333
+        ],
+        "Jiggy With It": [
+            334
+        ]
+    },
+    "immunitySynergies": {
+        "Incinerate": [
+            330
+        ]
+    },
+    "counterSynergies": {}
 }

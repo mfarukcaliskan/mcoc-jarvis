@@ -200,5 +200,50 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                7
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        "Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                8
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Guaranteed Crits": [
+            847
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

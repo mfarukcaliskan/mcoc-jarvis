@@ -162,5 +162,35 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Unblockable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                6
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Armor Up": [
+            25
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

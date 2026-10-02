@@ -138,5 +138,39 @@
                 4
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Power Gain": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                4
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Regeneration": [
+            793
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Unstoppable": [
+            93
+        ],
+        "Indestructible": [
+            773
+        ],
+        "Regeneration": [
+            773
+        ]
     }
 }

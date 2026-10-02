@@ -131,5 +131,24 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Power Gain": [
+            259
+        ],
+        "Endurance": [
+            340
+        ]
+    },
+    "immunitySynergies": {
+        "Bleed": [
+            260
+        ],
+        "Endurance": [
+            340
+        ]
+    },
+    "counterSynergies": {}
 }

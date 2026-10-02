@@ -196,5 +196,56 @@
                 1
             ]
         ]
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                4,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Inequity": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Unstoppable": [
+            [
+                9,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {
+        "Nullify": [
+            1125
+        ]
+    },
+    "counterSynergies": {
+        "Evade": [
+            1127
+        ]
     }
 }

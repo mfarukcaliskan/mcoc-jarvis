@@ -159,5 +159,30 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

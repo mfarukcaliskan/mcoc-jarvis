@@ -124,5 +124,14 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Power Gain": [
+            666
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

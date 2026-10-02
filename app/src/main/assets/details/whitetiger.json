@@ -185,5 +185,64 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Nullify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Purify DOT": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Energize": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -184,5 +184,40 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Rejuvenate": [
+            1096
+        ],
+        "Start With Power": [
+            232
+        ],
+        "Bulwark": [
+            509
+        ],
+        "Torment": [
+            758
+        ]
+    },
+    "immunitySynergies": {
+        "Degeneration": [
+            94
+        ]
+    },
+    "counterSynergies": {}
 }

@@ -155,5 +155,34 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Unstoppable": [
+            75
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

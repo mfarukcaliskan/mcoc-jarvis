@@ -183,5 +183,108 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Power Drain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Fate Seal": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            446
+        ],
+        "Unstoppable": [
+            447
+        ],
+        "Root": [
+            729
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

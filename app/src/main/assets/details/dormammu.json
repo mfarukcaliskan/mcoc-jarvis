@@ -138,5 +138,31 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Energy Damage Effect": [
+            857
+        ]
+    },
+    "immunitySynergies": {
+        "Incinerate": [
+            234
+        ]
+    },
+    "counterSynergies": {}
 }

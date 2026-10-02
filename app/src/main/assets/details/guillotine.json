@@ -130,5 +130,14 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Precision": [
+            628
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

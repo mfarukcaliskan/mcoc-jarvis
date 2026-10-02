@@ -147,5 +147,33 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Reversed Controls": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Damaging Effects": [
+            [
+                1,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Bulwark": [
+            509
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

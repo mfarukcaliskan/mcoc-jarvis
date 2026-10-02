@@ -191,5 +191,33 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Regen Rate Mod.": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

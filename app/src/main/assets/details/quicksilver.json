@@ -163,5 +163,126 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Power Gain": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Miss": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Phasing": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Special Concussion": [
+            479
+        ],
+        "Fury": [
+            1102
+        ]
+    },
+    "immunitySynergies": {
+        "Degeneration": [
+            482
+        ]
+    },
+    "counterSynergies": {}
 }

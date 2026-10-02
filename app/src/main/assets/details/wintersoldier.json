@@ -94,5 +94,31 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "True Strike": [
+            281
+        ],
+        "Cleanse": [
+            392
+        ],
+        "Precision": [
+            25
+        ]
+    },
+    "immunitySynergies": {
+        "Cleanse": [
+            392
+        ]
+    },
+    "counterSynergies": {
+        "Evade": [
+            281
+        ],
+        "Auto-Block": [
+            281
+        ]
     }
 }

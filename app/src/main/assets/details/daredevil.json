@@ -71,5 +71,61 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Miss": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Untouchable": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Phasing": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Precision": [
+            845
+        ],
+        "True Accuracy": [
+            781
+        ],
+        "True Strike": [
+            781
+        ],
+        "Fury": [
+            1126
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Auto-Block": [
+            781
+        ],
+        "Evade": [
+            781
+        ]
     }
 }

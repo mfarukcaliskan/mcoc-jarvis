@@ -127,5 +127,40 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            231
+        ],
+        "Power Gain": [
+            953
+        ],
+        "Armor Up": [
+            652
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

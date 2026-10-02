@@ -188,5 +188,128 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Disorient": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Untouchable": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Phasing": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Energy Vulnerability": [
+            177
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

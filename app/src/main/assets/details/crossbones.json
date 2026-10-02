@@ -150,5 +150,28 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                9,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Indestructible": [
+            143
+        ]
+    },
+    "immunitySynergies": {
+        "Nullify": [
+            309
+        ],
+        "Stagger": [
+            309
+        ]
+    },
+    "counterSynergies": {}
 }

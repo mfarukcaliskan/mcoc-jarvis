@@ -111,5 +111,24 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Slow": [
+            337
+        ],
+        "Physical Vulnerability": [
+            121
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Unstoppable": [
+            337
+        ],
+        "Evade": [
+            337
+        ]
     }
 }

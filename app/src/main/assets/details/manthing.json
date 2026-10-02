@@ -144,5 +144,54 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Critical Hits": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Indestructible": [
+            582
+        ],
+        "Prowess": [
+            250
+        ],
+        "Torment": [
+            758
+        ],
+        "Vicious": [
+            354
+        ],
+        "Guaranteed Crits": [
+            1004
+        ],
+        "Perfect Block": [
+            911
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

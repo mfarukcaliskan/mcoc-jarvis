@@ -180,5 +180,49 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Prowess": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Indestructible": [
+            707
+        ],
+        "Incinerate": [
+            220
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

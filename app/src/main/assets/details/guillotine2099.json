@@ -186,5 +186,27 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Power Gain": [
+            953
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

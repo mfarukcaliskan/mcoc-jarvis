@@ -225,5 +225,45 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                4
+            ]
+        ],
+        "Stun": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                5
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                1
+            ],
+            [
+                6,
+                5
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Incinerate": [
+            618
+        ],
+        "Precision": [
+            283
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

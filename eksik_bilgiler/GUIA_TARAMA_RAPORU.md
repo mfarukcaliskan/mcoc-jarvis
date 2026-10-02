@@ -114,3 +114,8 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 ## Haftalık senkronizasyon yerel provası (2026-10-02)
 - Tüm adımlar (mcoc.gg fetch/apply/capabilities/prestige/relics/events/extras/synergies, AW kuralı, manifest, doğrulama) yerelde çalıştı, hata yok. Bulunan sorun: prestige.json ve manifest her koşuda yalnızca zaman damgası yüzünden değişiyordu (her hafta gereksiz commit + dataVersion artışı); düzeltildi.
 - `sync_guia.py` (GuiaMTC Best Defenders) ağır: sınıf başına ~6,5 dk (yüzlerce görsel indirme), 6 sınıf ≈ 40 dk. Workflow zaman aşımı 60 → 120 dk yapıldı. GitHub'daki gerçek çalıştırma hâlâ denenmedi (Actions sekmesinden elle tetikleyin).
+
+## mcoc.gg yetenek "?" açıklaması ve ayrıntı görünümü (site ile doğrulandı)
+- mcoc.gg şampiyon penceresi (ABILITIES → DETAIL) her yetenek için: "?" sözlük açıklaması + o şampiyondaki kaynak satırlar + ilgili sinerji metni gösteriyor; aynısı Bağışıklıklar ve "Bu Yetenekleri Engeller" için de var. Black Panther üzerinde site metniyle karşılaştırıldı (aynı satırlar/sinerjiler).
+- Veri: `details/*.json` → abilityRefs/immunityRefs/counterRefs (bölüm,satır indeksleri) + abilitySynergies/immunitySynergies/counterSynergies (sinerji id); sinerji metinleri `synergies.json` → `referenced` (427). Sözlük metni capabilities.json'da (252 yeteneğin 237'sinde "?" metni var; 20 yeteneğin kaynakta açıklaması yok — Auto-Block, Thorns, Force Field vb. — sitede de yok).
+- Arayüz: Yetenekler sekmesinde "Yetenek Ayrıntısı / Bağışıklık / Engeller" blokları ve yetenek kartında "?" metni. Eski Türkçe genel `abilityDetails` açıklamaları yalnızca "?" metni olmayan yeteneklerde yedek olarak kalıyor.

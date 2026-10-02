@@ -173,5 +173,52 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                1,
+                1
+            ]
+        ],
+        "AA Modification": [
+            [
+                1,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Prowess": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Incinerate": [
+            117
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

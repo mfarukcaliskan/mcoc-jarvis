@@ -188,5 +188,28 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Degeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Concussion": [
+            79
+        ],
+        "Unstoppable": [
+            535
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

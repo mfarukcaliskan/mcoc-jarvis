@@ -103,5 +103,30 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

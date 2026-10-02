@@ -174,5 +174,14 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Regeneration": [
+            128
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

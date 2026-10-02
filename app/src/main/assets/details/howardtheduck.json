@@ -158,5 +158,48 @@
                 2
             ]
         ]
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Debuffs": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                5,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Prowess": [
+            1000
+        ],
+        "Safeguard": [
+            225
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            999
+        ],
+        "Prowess": [
+            1000
+        ]
     }
 }

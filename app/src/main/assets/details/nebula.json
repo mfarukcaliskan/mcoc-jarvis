@@ -136,5 +136,36 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Power Gain": [
+            953
+        ],
+        "Guaranteed Crits": [
+            17
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

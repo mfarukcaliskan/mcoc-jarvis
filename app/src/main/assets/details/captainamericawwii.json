@@ -69,5 +69,20 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fury": [
+            1040
+        ],
+        "Stagger": [
+            280
+        ],
+        "Unstoppable": [
+            717
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

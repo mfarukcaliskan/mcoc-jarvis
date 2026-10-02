@@ -129,5 +129,36 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Evade": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Bulwark": [
+            533
+        ],
+        "Rupture": [
+            513
+        ],
+        "Cowardice": [
+            80
+        ],
+        "Armor Break": [
+            973
+        ],
+        "Degeneration": [
+            973
+        ],
+        "Weakness": [
+            973
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

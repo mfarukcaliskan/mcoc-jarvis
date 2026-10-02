@@ -115,5 +115,44 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Critical Hits": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Purify": [
+            206
+        ],
+        "Regeneration": [
+            206
+        ],
+        "Precision": [
+            967
+        ]
+    },
+    "immunitySynergies": {
+        "Purify": [
+            206
+        ]
+    },
+    "counterSynergies": {}
 }

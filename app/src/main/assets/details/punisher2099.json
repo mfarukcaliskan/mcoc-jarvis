@@ -110,5 +110,40 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Indestructible": [
+            143
+        ],
+        "Fury": [
+            304
+        ]
+    },
+    "immunitySynergies": {
+        "Coldsnap": [
+            1030
+        ],
+        "Frostbite": [
+            1030
+        ],
+        "Incinerate": [
+            1030
+        ]
+    },
+    "counterSynergies": {}
 }

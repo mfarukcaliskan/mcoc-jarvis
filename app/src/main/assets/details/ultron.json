@@ -140,5 +140,65 @@
                 1
             ]
         ]
+    },
+    "immunityRefs": {
+        "AA Modification": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                9,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                9,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Heal Block": [
+            815
+        ],
+        "Power Lock": [
+            607
+        ],
+        "Fury": [
+            924
+        ]
+    },
+    "immunitySynergies": {
+        "Stun": [
+            814
+        ]
+    },
+    "counterSynergies": {
+        "Regeneration": [
+            815
+        ]
     }
 }

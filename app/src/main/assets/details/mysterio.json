@@ -106,5 +106,50 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "AA Modification": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Falter": [
+            943
+        ],
+        "Pursuit": [
+            58
+        ],
+        "Physical Resistance": [
+            316
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            946
+        ]
+    },
+    "counterSynergies": {}
 }

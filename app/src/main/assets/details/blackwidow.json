@@ -70,5 +70,21 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Endurance": [
+            340
+        ],
+        "Fury": [
+            240
+        ]
+    },
+    "immunitySynergies": {
+        "Endurance": [
+            340
+        ]
+    },
+    "counterSynergies": {}
 }

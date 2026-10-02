@@ -48,5 +48,21 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Enervate": [
+            28
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

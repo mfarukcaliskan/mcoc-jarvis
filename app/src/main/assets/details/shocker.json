@@ -152,5 +152,46 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Concussion": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Prowess": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Shock": [
+            513
+        ],
+        "Cowardice": [
+            514
+        ],
+        "Reverb": [
+            1086
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

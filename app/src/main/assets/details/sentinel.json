@@ -162,5 +162,75 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Critical Hits": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Damaging Effects": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                5,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Cowardice": [
+            505
+        ],
+        "Energy Damage Effect": [
+            900
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

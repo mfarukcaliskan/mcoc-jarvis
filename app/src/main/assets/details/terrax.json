@@ -137,5 +137,67 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Burn": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Lock": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Enervate": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Cruelty": [
+            490
+        ],
+        "Unstoppable": [
+            1010
+        ],
+        "Purify": [
+            1005
+        ]
+    },
+    "immunitySynergies": {
+        "Purify": [
+            1005
+        ]
+    },
+    "counterSynergies": {}
 }

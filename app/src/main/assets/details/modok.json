@@ -215,5 +215,73 @@
                 8
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Stun": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Power Gain": [
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                1
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                7
+            ]
+        ],
+        "True Strike": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                6
+            ]
+        ],
+        "True Sense": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                6
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Petrify": [
+            59
+        ],
+        "Power Lock": [
+            607
+        ]
+    },
+    "immunitySynergies": {
+        "Poison": [
+            591
+        ]
+    },
+    "counterSynergies": {}
 }

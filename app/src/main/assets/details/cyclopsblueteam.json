@@ -144,5 +144,88 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "AA Modification": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Evade": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Thorns": [
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Counter-Attack Evade": [
+            179
+        ],
+        "Armor Break": [
+            665
+        ],
+        "Regeneration": [
+            665
+        ],
+        "Disorient": [
+            922
+        ],
+        "Uncanny": [
+            400
+        ],
+        "True Strike": [
+            606
+        ],
+        "Fury": [
+            270
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

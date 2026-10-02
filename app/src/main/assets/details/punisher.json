@@ -240,5 +240,49 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Wither": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Endurance": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Petrify": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Incinerate": [
+            110
+        ],
+        "Regeneration": [
+            760
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

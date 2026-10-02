@@ -274,5 +274,42 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Debuffs": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Power Gain": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Degeneration": [
+            1037
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -135,5 +135,70 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Poison": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Incinerate": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Stun": [
+            238
+        ],
+        "Slow": [
+            239
+        ],
+        "Vitality": [
+            333
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            239
+        ],
+        "Unstoppable": [
+            239
+        ]
     }
 }

@@ -163,5 +163,49 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Unstoppable": [
+            251
+        ],
+        "Disorient": [
+            253
+        ],
+        "Vicious": [
+            158
+        ],
+        "Fury": [
+            1102
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

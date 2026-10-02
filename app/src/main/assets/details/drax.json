@@ -76,5 +76,20 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Aptitude": [
+            655
+        ],
+        "Parry Non-Contact": [
+            787
+        ],
+        "Precision": [
+            236
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

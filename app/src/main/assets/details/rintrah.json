@@ -168,5 +168,23 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

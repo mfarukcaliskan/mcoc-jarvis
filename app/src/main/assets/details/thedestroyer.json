@@ -178,5 +178,58 @@
                 2
             ]
         ]
+    },
+    "immunityRefs": {
+        "Slow": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Infuriate": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Intimidate": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Flourish": [
+            488
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Unstoppable": [
+            746
+        ],
+        "Unblockable": [
+            746
+        ]
     }
 }

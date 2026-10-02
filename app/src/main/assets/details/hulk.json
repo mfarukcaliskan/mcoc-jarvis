@@ -147,5 +147,43 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Indestructible": [
+            913
+        ],
+        "Weakness": [
+            274
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            1006
+        ],
+        "Nullify": [
+            208
+        ],
+        "Fate Seal": [
+            208
+        ],
+        "Stagger": [
+            208
+        ]
+    },
+    "counterSynergies": {}
 }

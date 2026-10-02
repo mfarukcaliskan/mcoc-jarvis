@@ -183,5 +183,38 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Slow": [
+            941
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            941
+        ],
+        "Unstoppable": [
+            941
+        ]
     }
 }

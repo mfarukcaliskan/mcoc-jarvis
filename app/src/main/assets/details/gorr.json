@@ -211,5 +211,28 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "True Damage": [
+            450
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

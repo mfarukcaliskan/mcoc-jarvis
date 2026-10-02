@@ -130,5 +130,32 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Power Gain": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Degeneration": [
+            31
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

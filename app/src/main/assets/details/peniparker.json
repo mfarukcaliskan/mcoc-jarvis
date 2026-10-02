@@ -132,5 +132,62 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "True Strike": [
+            [
+                0,
+                1
+            ]
+        ],
+        "True Accuracy": [
+            [
+                0,
+                1
+            ]
+        ],
+        "True Sense": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Parry Non-Contact": [
+            949
+        ],
+        "Safeguard": [
+            225
+        ],
+        "Shock": [
+            220
+        ]
+    },
+    "immunitySynergies": {
+        "Stun": [
+            947
+        ]
+    },
+    "counterSynergies": {}
 }

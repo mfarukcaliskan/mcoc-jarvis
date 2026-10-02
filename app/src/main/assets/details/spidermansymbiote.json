@@ -192,5 +192,55 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Physical Vulnerability": [
+            1158
+        ],
+        "True Damage": [
+            514
+        ],
+        "Jiggy With It": [
+            157
+        ],
+        "Fragility": [
+            530
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

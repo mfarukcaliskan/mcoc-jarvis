@@ -176,5 +176,35 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Critical Hits": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

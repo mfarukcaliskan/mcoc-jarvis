@@ -168,5 +168,52 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Delirium": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Neuroshock": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "True Strike": [
+            [
+                0,
+                1
+            ]
+        ],
+        "True Accuracy": [
+            [
+                0,
+                1
+            ]
+        ],
+        "True Sense": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Special 1 Lock": [
+            1088
+        ],
+        "Armor Up": [
+            1089
+        ],
+        "Physical Vulnerability": [
+            1091
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

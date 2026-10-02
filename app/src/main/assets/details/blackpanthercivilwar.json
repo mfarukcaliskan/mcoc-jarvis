@@ -112,5 +112,21 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify Stun": [
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fury": [
+            205
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

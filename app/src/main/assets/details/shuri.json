@@ -131,5 +131,49 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "AA Modification": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Thorns": [
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Precision": [
+            706
+        ],
+        "Indestructible": [
+            707
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

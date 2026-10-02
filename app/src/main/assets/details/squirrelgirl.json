@@ -144,5 +144,54 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Auto-Block": [
+            [
+                4,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            898
+        ],
+        "Shock": [
+            900
+        ],
+        "Perfect Block": [
+            811
+        ],
+        "Precision": [
+            1016
+        ],
+        "Combo Shield": [
+            931
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

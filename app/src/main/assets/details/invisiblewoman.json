@@ -195,5 +195,30 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Incinerate": [
+            9
+        ],
+        "Heal Block": [
+            9
+        ],
+        "Regeneration": [
+            7
+        ],
+        "Power Gain": [
+            7
+        ],
+        "Vulnerability": [
+            908
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Regeneration": [
+            9
+        ]
     }
 }

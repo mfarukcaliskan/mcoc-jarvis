@@ -56,5 +56,36 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Armor Up": [
+            269
+        ],
+        "Perfect Block": [
+            811
+        ],
+        "Stun": [
+            614
+        ],
+        "Jiggy With It": [
+            157
+        ],
+        "Armor Break": [
+            911
+        ]
+    },
+    "immunitySynergies": {
+        "Bleed": [
+            1026
+        ],
+        "Poison": [
+            1026
+        ],
+        "Shock": [
+            1026
+        ]
+    },
+    "counterSynergies": {}
 }

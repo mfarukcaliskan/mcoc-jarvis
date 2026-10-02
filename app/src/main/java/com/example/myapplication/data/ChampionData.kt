@@ -48,7 +48,13 @@ data class ChampionDetails(
     val immunityDetails: String = "",
     val abilitySections: List<AbilitySection> = emptyList(),
     /** Yetenek adı -> bu yeteneği anlatan kaynak satırları (mcoc.gg ability_map; metin abilitySections'tan) */
-    val abilitySources: Map<String, List<String>> = emptyMap()
+    val abilitySources: Map<String, List<String>> = emptyMap(),
+    val immunitySources: Map<String, List<String>> = emptyMap(),
+    val counterSources: Map<String, List<String>> = emptyMap(),
+    /** ad -> sinerji kimlikleri (metin SynergyRepository.referenced ile çözülür) */
+    val abilitySynergies: Map<String, List<Int>> = emptyMap(),
+    val immunitySynergies: Map<String, List<Int>> = emptyMap(),
+    val counterSynergies: Map<String, List<Int>> = emptyMap()
 )
 
 data class Champion(
@@ -225,8 +231,8 @@ object ChampionRepository {
         }
     }
 
-    private fun parseAbilitySources(obj: org.json.JSONObject, secs: List<AbilitySection>): Map<String, List<String>> {
-        val refs = obj.optJSONObject("abilityRefs") ?: return emptyMap()
+    private fun parseAbilitySources(obj: org.json.JSONObject, secs: List<AbilitySection>, key: String = "abilityRefs"): Map<String, List<String>> {
+        val refs = obj.optJSONObject(key) ?: return emptyMap()
         val out = mutableMapOf<String, List<String>>()
         for (name in refs.keys()) {
             val arr = refs.getJSONArray(name)
@@ -236,6 +242,11 @@ object ChampionRepository {
             }
         }
         return out
+    }
+
+    private fun parseSynergyIds(obj: org.json.JSONObject, key: String): Map<String, List<Int>> {
+        val o = obj.optJSONObject(key) ?: return emptyMap()
+        return o.keys().asSequence().associateWith { k -> o.getJSONArray(k).let { a -> (0 until a.length()).map { a.getInt(it) } } }
     }
 
     private fun parseAbilitySections(obj: org.json.JSONObject): List<AbilitySection> {
@@ -280,7 +291,12 @@ object ChampionRepository {
                 signatureAbility = parseStringSafe(obj, "signatureAbility"),
                 immunityDetails = parseStringSafe(obj, "immunityDetails"),
                 abilitySections = parseAbilitySections(obj).also { secs -> sourcesHolder = parseAbilitySources(obj, secs) },
-                abilitySources = sourcesHolder
+                abilitySources = sourcesHolder,
+                immunitySources = parseAbilitySources(obj, parseAbilitySections(obj), "immunityRefs"),
+                counterSources = parseAbilitySources(obj, parseAbilitySections(obj), "counterRefs"),
+                abilitySynergies = parseSynergyIds(obj, "abilitySynergies"),
+                immunitySynergies = parseSynergyIds(obj, "immunitySynergies"),
+                counterSynergies = parseSynergyIds(obj, "counterSynergies")
             )
         } catch (e: Exception) {
             e.printStackTrace()

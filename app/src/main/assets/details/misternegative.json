@@ -165,5 +165,86 @@
                 2
             ]
         ]
+    },
+    "immunityRefs": {
+        "Nullify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fate Seal": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                0,
+                1
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Buffs": [
+            [
+                2,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Enervate": [
+            971
+        ],
+        "Slow": [
+            487
+        ],
+        "Fatigue": [
+            540
+        ],
+        "Cruelty": [
+            490
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            487
+        ],
+        "Unstoppable": [
+            487
+        ]
     }
 }

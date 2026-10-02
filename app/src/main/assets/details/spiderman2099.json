@@ -132,5 +132,59 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Buffs": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "True Strike": [
+            [
+                0,
+                2
+            ]
+        ],
+        "True Damage": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Unstoppable": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Poison": [
+            532
+        ],
+        "Evade": [
+            535
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

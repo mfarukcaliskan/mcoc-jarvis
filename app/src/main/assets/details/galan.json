@@ -221,5 +221,57 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Fate Seal": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Power Burn": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Power Lock": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Special Lock": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Stun": [
+            36
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -147,5 +147,33 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Indestructible": [
+            [
+                7,
+                2
+            ]
+        ],
+        "Immortality": [
+            [
+                7,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Incinerate": [
+            348
+        ],
+        "Amplify": [
+            754
+        ],
+        "Confidence": [
+            224
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

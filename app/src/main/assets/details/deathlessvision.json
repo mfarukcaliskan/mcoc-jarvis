@@ -116,5 +116,62 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                2,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Precision": [
+            432
+        ],
+        "Cruelty": [
+            433
+        ],
+        "Fury": [
+            429
+        ]
+    },
+    "immunitySynergies": {
+        "Reversed Controls": [
+            417
+        ]
+    },
+    "counterSynergies": {}
 }

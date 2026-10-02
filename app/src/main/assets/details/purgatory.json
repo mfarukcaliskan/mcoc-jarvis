@@ -252,5 +252,28 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "True Damage": [
+            782
+        ],
+        "Prowess": [
+            782
+        ]
+    },
+    "immunitySynergies": {
+        "Bleed": [
+            938
+        ]
+    },
+    "counterSynergies": {}
 }

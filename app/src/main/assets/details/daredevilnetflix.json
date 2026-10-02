@@ -149,5 +149,94 @@
                 2
             ]
         ]
+    },
+    "immunityRefs": {
+        "Regen Rate Mod.": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                9,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Untouchable": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Phasing": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Miss": [
+            319
+        ],
+        "Disorient": [
+            320
+        ],
+        "Stun": [
+            321
+        ],
+        "True Accuracy": [
+            781
+        ],
+        "True Strike": [
+            781
+        ],
+        "Fury": [
+            268
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Auto-Block": [
+            781
+        ],
+        "Evade": [
+            781
+        ]
     }
 }

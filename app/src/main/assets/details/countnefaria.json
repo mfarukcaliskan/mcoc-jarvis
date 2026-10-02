@@ -168,5 +168,81 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Power Steal": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Decelerate": [
+            305
+        ],
+        "Regeneration": [
+            307
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

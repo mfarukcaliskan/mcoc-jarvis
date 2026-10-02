@@ -142,5 +142,14 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Amplify": [
+            754
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

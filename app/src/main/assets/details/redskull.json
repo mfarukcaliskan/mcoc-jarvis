@@ -162,5 +162,62 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Nullify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fate Seal": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                0,
+                0
+            ]
+        ],
+        "AA Modification": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Perfect Block": [
+            1040
+        ],
+        "Indestructible": [
+            143
+        ],
+        "Armor Break": [
+            1007
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

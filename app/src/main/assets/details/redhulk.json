@@ -70,5 +70,31 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Armor Break": [
+            674
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

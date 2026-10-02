@@ -163,5 +163,66 @@
                 2
             ]
         ]
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                2,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Grit": [
+            419
+        ]
+    },
+    "immunitySynergies": {
+        "Rupture": [
+            418
+        ]
+    },
+    "counterSynergies": {
+        "Unstoppable": [
+            419
+        ]
     }
 }

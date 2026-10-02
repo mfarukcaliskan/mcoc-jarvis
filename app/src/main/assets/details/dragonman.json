@@ -178,5 +178,60 @@
                 6
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "True Damage": [
+            782
+        ],
+        "Prowess": [
+            782
+        ],
+        "Concussion": [
+            1017
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

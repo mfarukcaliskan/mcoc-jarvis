@@ -120,5 +120,33 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Unblockable": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Unstoppable": [
+            535
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -113,5 +113,48 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Buffs": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                5
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            939
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

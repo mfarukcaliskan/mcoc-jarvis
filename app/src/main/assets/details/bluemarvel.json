@@ -169,5 +169,110 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                0,
+                1
+            ]
+        ],
+        "CPR Modification": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Untouchable": [
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Invisible": [
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Phasing": [
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Power Gain": [
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            794
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

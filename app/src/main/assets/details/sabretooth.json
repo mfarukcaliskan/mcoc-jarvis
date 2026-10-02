@@ -139,5 +139,30 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Unblockable": [
+            824
+        ],
+        "Perfect Block": [
+            811
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

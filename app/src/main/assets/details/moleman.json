@@ -134,5 +134,46 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Safeguard": [
+            225
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -133,5 +133,20 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Degeneration": [
+            282
+        ],
+        "Petrify": [
+            169
+        ],
+        "Energy Resistance": [
+            315
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

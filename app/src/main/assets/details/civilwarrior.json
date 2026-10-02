@@ -141,5 +141,52 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Nullify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {
+        "Coldsnap": [
+            1030
+        ],
+        "Frostbite": [
+            1030
+        ],
+        "Incinerate": [
+            1030
+        ]
+    },
+    "counterSynergies": {}
 }

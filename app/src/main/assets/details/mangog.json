@@ -200,5 +200,61 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Incinerate": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Coldsnap": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Frostbite": [
+            [
+                4,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Start With Power": [
+            838
+        ],
+        "Suppression": [
+            839
+        ],
+        "Precision": [
+            842
+        ]
+    },
+    "immunitySynergies": {
+        "Nullify": [
+            842
+        ]
+    },
+    "counterSynergies": {}
 }

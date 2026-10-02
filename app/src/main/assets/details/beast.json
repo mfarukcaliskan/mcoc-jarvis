@@ -72,5 +72,30 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Indestructible": [
+            707
+        ],
+        "Power Gain": [
+            666
+        ],
+        "Concussion": [
+            1017
+        ],
+        "Combo Shield": [
+            931
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

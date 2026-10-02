@@ -194,5 +194,17 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Power Sting": [
+            [
+                8,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

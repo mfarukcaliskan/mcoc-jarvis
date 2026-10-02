@@ -117,5 +117,38 @@
                 3
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Disorient": [
+            922
+        ],
+        "Combo Shield": [
+            254
+        ],
+        "Jiggy With It": [
+            157
+        ],
+        "Precision": [
+            236
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

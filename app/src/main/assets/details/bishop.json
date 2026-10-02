@@ -229,5 +229,38 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify Bleed": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                10,
+                0
+            ],
+            [
+                10,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Petrify": [
+            169
+        ],
+        "Power Gain": [
+            978
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

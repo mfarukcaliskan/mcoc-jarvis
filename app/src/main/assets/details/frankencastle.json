@@ -165,5 +165,51 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Petrify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Spectre": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fervor": [
+            43
+        ],
+        "Indestructible": [
+            110
+        ],
+        "Physical Vulnerability": [
+            1158
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

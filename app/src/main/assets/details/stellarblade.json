@@ -155,5 +155,21 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Unblockable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -189,5 +189,66 @@
                 3
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Buffs": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Neutralize": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Undermine": [
+            [
+                0,
+                2
+            ]
+        ],
+        "True Sense": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                0,
+                3
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Special Concussion": [
+            375
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

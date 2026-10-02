@@ -160,5 +160,86 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Purify": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Concussion": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Infuriate": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                0,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                1
+            ],
+            [
+                0,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

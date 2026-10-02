@@ -180,5 +180,52 @@
                 3
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Armor Break": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Stun": [
+            557
+        ],
+        "Purify": [
+            1005
+        ]
+    },
+    "immunitySynergies": {
+        "Purify": [
+            1005
+        ]
+    },
+    "counterSynergies": {}
 }

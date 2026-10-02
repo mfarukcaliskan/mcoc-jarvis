@@ -139,5 +139,68 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Rupture": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Spectre": [
+            715
+        ],
+        "Power Gain": [
+            232
+        ],
+        "Rupture": [
+            513
+        ]
+    },
+    "immunitySynergies": {
+        "Degeneration": [
+            712
+        ]
+    },
+    "counterSynergies": {}
 }

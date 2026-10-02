@@ -143,5 +143,60 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Combo Shield": [
+            677
+        ],
+        "True Damage": [
+            565
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

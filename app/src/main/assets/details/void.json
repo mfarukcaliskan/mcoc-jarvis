@@ -152,5 +152,55 @@
                 3
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Power Gain": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Physical Vulnerability": [
+            177
+        ],
+        "Regeneration": [
+            206
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

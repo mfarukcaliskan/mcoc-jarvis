@@ -21641,5 +21641,3036 @@
   ]
  },
  "note": "partners: sinerjiyi etkinlestiren diger sampiyonlar (oyunda yalnizca oynanabilir kadro; kadroda olmayanlar atildi). Metin Ingilizce, mcoc.gg'den oldugu gibi.",
+ "referenced": {
+  "10": {
+   "effects": [
+    "Other Synergy Champions: The last hit of Special Attack 2 grants a Fury Buff for 6 seconds, increasing Attack by 15% of Base Attack. This effect is doubled if all other Champions in this Synergy are present."
+   ],
+   "name": "The Brave and the Boulder"
+  },
+  "1000": {
+   "effects": [
+    "Howard the Duck: Knocking the opponent down removes all their Prowess effects and grants Howard 1 Prowess Buff for each effect removed this way, each increasing Special Attack Damage by 10% for 10 seconds.",
+    "Other Synergy Champions: +12% Prowess duration and Potency."
+   ],
+   "name": "Not So Uncanny"
+  },
+  "1004": {
+   "effects": [
+    "Mole Man: Increases the duration of Monster Mass while Frenzied by 10%.",
+    "Abomination: When inflicted with a Debuff, gain a Fury Buff increasing Attack by 50% for 12 seconds.",
+    "Man-Thing: Heavy Attacks are guaranteed Critical Hits while Man-Thing is Unstoppable."
+   ],
+   "name": "Monster Mash"
+  },
+  "1005": {
+   "effects": [
+    "Mole Man: While Frenzied, Mole Man's attacks lower Defensive Ability Accuracy by 50% fighting against the #Fantastic Four.",
+    "Doctor Doom, Diablo, Annihilus, Terrax: 20% chance to Purify a Debuff."
+   ],
+   "name": "Fantastic Fiends"
+  },
+  "1006": {
+   "effects": [
+    "Synergy Champions: Their scrambled personality makes them Immune to reverse controls."
+   ],
+   "name": "Identity Disorder"
+  },
+  "1007": {
+   "effects": [
+    "The Overseer: 50% chance to gain an Indefinite Gamma Power when the Opponent launches a Special while taunted.",
+    "Red Skull: 8% chance per Armor Up to inflict Armor Break on Special 2 attacks, reducing Armor Rating by [525].",
+    "Thanos: Fury also grants a Power Gain Buff, gaining half of a bar of Power over 7 second(s)."
+   ],
+   "name": "Cube Wielders"
+  },
+  "1008": {
+   "effects": [
+    "The Overseer: The Energize Buff from his Special 2 also grants [450] Critical Rating.",
+    "Silver Surfer: Gain Precision on Special 2, increasing Critical Rating by [450] for 12 seconds."
+   ],
+   "name": "Space Surfers"
+  },
+  "1009": {
+   "effects": [
+    "The Overseer: 15% chance that a Block is a Perfect Block, reducing all damage to 0.",
+    "Captain America, Captain America WWII, Captain America (Infinity War): Intercepting the Opponent grants a non-Stacking Passive Fury, granting 50% Attack Rating for 7 second(s)."
+   ],
+   "name": "Shield Buddies"
+  },
+  "1010": {
+   "effects": [
+    "The Overseer: Increase Cosmic Mode duration by 0.66 second(s) per Gamma Power.",
+    "Terrax, Air-Walker: When Heavy Charging gains an Unstoppable Buff that lasts for 1 second(s). If Struck while this effect is up, it goes on cooldown for 25 seconds."
+   ],
+   "name": "Cosmic Control"
+  },
+  "1014": {
+   "effects": [
+    "Captain America (Infinity War): Increase the duration of Bleed Debuffs on the Opponent by 1 second(s).",
+    "Human Torch: If the last hit of Special Attack 2 strikes a Block, Human Torch will avoid incoming attacks for 0.85 seconds, causing them to Miss.",
+    "Killmonger: Critical Hits are improved to have a 100% chance to cause Bleed."
+   ],
+   "name": "Familiar Faces"
+  },
+  "1016": {
+   "effects": [
+    "Kraven: Bleed Immune Champions are inflicted by a Poison Debuff instead, reducing Health Recovery by 30% and Dealing 17% of Attack in Direct Damage over 10 second(s). Poison pauses and refreshes just as Bleed.",
+    "Squirrel Girl: When the Opponent is afflicted by an Injury Debuff, Squirrel Girl has 50% chance to gain a Precision Buff, increasing Critical Rating by [1,500], and 50% chance to gain a Cruelty Buff, increasing Critical Damage Rating by [700] both effects lasts for 10 second(s)."
+   ],
+   "name": "Fun Adventures"
+  },
+  "1017": {
+   "effects": [
+    "Sasquatch, Beast, Dragon Man: Stunning a Stun Immune Champion will instead inflict a non-stacking Concussion Debuff, reducing Ability Accuracy by 60% for 5 second(s)."
+   ],
+   "name": "Big Game"
+  },
+  "1018": {
+   "effects": [
+    "Kraven: Kraven's True Accuracy also ignores the effects of Miss.",
+    "Venompool: When fighting Bleed immune Champions, when inflicting Bleeds, inflict a matching Degeneration instead.",
+    "Agent Venom: On Critical Hits or when the Opponent fails to Evade inflict a Bleed Debuff, dealing 50% of Attack in Direct Damage over 4 second(s)."
+   ],
+   "name": "Misunderstanding"
+  },
+  "1019": {
+   "effects": [
+    "Kraven: On a Critical Hit, inflict a Fragility Debuff for 5 seconds. When attacking a Fragile Opponent, increase Critical Damage Rating by [200] and decrease their Block Proficiency by 15%.",
+    "Tigra: While the Opponent is Neutralized Tigra gains [1,500] Critical Rating."
+   ],
+   "name": "Pressure Points"
+  },
+  "1020": {
+   "effects": [
+    "Kraven: Once per Fight when receiving damage that would result in a knockout, gain an Immortality Buff preventing death for 8 second(s).",
+    "Spider-Man(Classic): 8+ Webbing: Root Debuff lasting 2 seconds.",
+    "Spider-Man(Symbiote): Armor Break Debuffs are paused during Specials and their duration is increased by 7 second(s)."
+   ],
+   "name": "Obsession"
+  },
+  "1026": {
+   "effects": [
+    "All Champions except Nick: If Nick is alive, once per fight when a teammate is inflicted with a Bleed, Poison, or Shock Debuff he will drop a Restoration Kit, Purifying the Debuff and Regenerating 10% of their max health over 3 seconds."
+   ],
+   "name": "Restoration Kit"
+  },
+  "1027": {
+   "effects": [
+    "All Champions except Nick: If Nick is alive, the first 3 hits thrown by the Opponent have 100% chance to be Evaded. This will not trigger while Blocking or Dashing Back."
+   ],
+   "name": "Strategic Sabotage"
+  },
+  "1030": {
+   "effects": [
+    "All Champions except Nick: If Nick is alive, once per fight when a teammate is inflicted with any Coldsnap, Frostbite or Incinerate effect he will drop an Extreme Conditions Kit, granting Debuff Immunity for 10 seconds."
+   ],
+   "name": "Extreme Conditions"
+  },
+  "1032": {
+   "effects": [
+    "Stryfe: Once per fight after being struck by a Basic Attack the Opponent is inflicted with a Passive Falter for 3 seconds giving them a 100% chance to Miss.",
+    "Ebony Maw: While the Opponent is suffering Black Tongue they are inflicted with a 3 second Falter Debuff every 13 seconds. Additionally, while the Opponent is Faltered, Gain +40% Attack Rating."
+   ],
+   "name": "Miss Me?"
+  },
+  "1035": {
+   "effects": [
+    "Stryfe: The final hit of Special Attack 2 pauses all Shock effects on the Opponent for 4 seconds. If this Champion is a Horseman of Apocalypse, become Passively Unblockable as long as 20 Telepathic Charges are active.",
+    "Apocalypse: Activating Special Attack 1 or 2 increases the potency of personal burst damage by +25%, this can stack up to +300% max."
+   ],
+   "name": "Big Bad Dad"
+  },
+  "1036": {
+   "effects": [
+    "Longshot: Start a Fight with 5 Good Karma when fighting Villain Champions.",
+    "Captain America (Infinity War): Start a Fight with 1 Kinetic Potential when fighting Avengers or New Avengers.",
+    "Captain America: While the Opponent is Fatigued their Power Gain Rate is reduced by 110%."
+   ],
+   "name": "Civil War Stories"
+  },
+  "1037": {
+   "effects": [
+    "Longshot: Longshot's Special 2 has a 42% chance to inflict an additional Incinerate for each Bad Karma removed by Fate Seal.",
+    "Rogue: Whenever stealing a Buff Rogue deals 20% of her Base Attack as Degeneration damage for each Buff stolen.",
+    "All Female Champions: Gain [200] Critical Rating and 12% increased Ability Accuracy."
+   ],
+   "name": "Heartthrob"
+  },
+  "1039": {
+   "effects": [
+    "Mordo: While fighting Mystic Champions, Mordo is Immune to Nullify and Fate Seal.",
+    "Synergy Champions: +6% Attack Rating."
+   ],
+   "name": "Too Many Sorcerers"
+  },
+  "1040": {
+   "effects": [
+    "Red Skull: Well-Timed Blocks have +10% chance to Perfect Block for each Buff on Red Skull.",
+    "Captain America (WWII): Well-Timed Blocks generate a Fury Buff increasing Base Attack by 20% for 5 seconds."
+   ],
+   "name": "Eternal Adversaries"
+  },
+  "1045": {
+   "effects": [
+    "Vision (Aarkus): Armor Shattered also decreases Ability Accuracy and Power Gain of Tech Champions who rely on Metal.",
+    "Vision, Vision (Age of Ultron): Power Burn effects also grant a Fury Buff for 6 seconds. The Fury potency increases with the amount of Power Burned."
+   ],
+   "name": "First of his Name"
+  },
+  "105": {
+   "effects": [
+    "Wolverine (Weapon X): Start the fight with 5 Rage charges.",
+    "Goldpool, Thanos, Kang: Start the fight with a Fury Buff, granting 50% of your Base Attack for 15 Seconds."
+   ],
+   "name": "Trophy Case"
+  },
+  "1050": {
+   "effects": [
+    "Havok: Well Timed Blocks grant +1 Plasma Charge.",
+    "Captain America: Passively increases Attack by 20% of Base Attack when Striking a Debuffed Opponent.",
+    "Wasp: When Wasp charges a Heavy Attack while hitting with a Basic Attack Combo, she gains a Passive Fury Effect increasing her Attack by 50% of her Base Attack for 3 seconds."
+   ],
+   "name": "Uncanny Avengers"
+  },
+  "1051": {
+   "effects": [
+    "Symbiote Supreme: Start each fight with 1 Bar of Power.",
+    "Doctor Strange: When a Buff on the Opponent is Nullified, deal 50% of Base Attack as a burst of Direct Damage.",
+    "Mordo: At the start of each fight, place a Detonate Buff on the Opponent for 20 seconds. When it is Nullified or expires naturally, it deals 50% of Base Attack as a burst of Energy Damage."
+   ],
+   "name": "Mystic Masters"
+  },
+  "1063": {
+   "effects": [
+    "Magik: The first hit of her Special 1 gains a 100% chance to Nullify 1 Regeneration or Power Gain Buff.",
+    "Scarlet Witch (Classic): Nullifying a Buff grants Scarlet Witch a random 5-75% Buff Deceleration Passive for 10 seconds. This will not re-trigger while active.",
+    "Kushala: The first time each Blessing triggers in a fight, place 1 personal Ignition Buff on the Opponent.",
+    "Sorcerer Supreme: At the start of each fight, store and then immediate consume 1 Rune of the current Blessing."
+   ],
+   "name": "Sorceresses Supreme"
+  },
+  "1064": {
+   "effects": [
+    "Magik: While the Opponent is in Limbo, Magik gains a +20% Prowess Passive.",
+    "Dani Moonstar: When a Neuroshock expires on the Opponent Dani has a 25% chance to gain a Neural Arrow."
+   ],
+   "name": "Slayer of the Demon Bear"
+  },
+  "1068": {
+   "effects": [
+    "Pixie: Oshtur's Refusal now includes Incinerate effects.",
+    "Doctor Strange: The Wither Passives inflicted by Oshtur's Refuge have their potency increased by 50%."
+   ],
+   "name": "Eager to Learn"
+  },
+  "107": {
+   "effects": [
+    "Magneto (House of X): Gain an indefinite Prowess Buff, granting +20% Special Attack damage.",
+    "Wolverine (X-23): Bleed & Cruelty effects gain 10% increased duration.",
+    "Cable: While suffering from a Poison effect, Cable gains a +25% Prowess Passive.",
+    "Taskmaster: Exploit Weakness attacks deal +40% Damage."
+   ],
+   "name": "Metallic Affinity"
+  },
+  "1072": {
+   "effects": [
+    "Madelyne Pryor, Jean Grey: Force Field starting integrity/strength increased by +10%.",
+    "Phoenix: When the Stun from Cosmic Flame Aura fails due to Immunity, gain an indefinite Untouchable Passive. This is removed when Phoenix stops charging her Heavy or a Special Attack is activated."
+   ],
+   "name": "Identity Crises"
+  },
+  "1074": {
+   "effects": [
+    "Synergy Champions: For each Madelyne Pryor on the team, inflict a 20% Hinder Debuff for 3 seconds at the start of each fight."
+   ],
+   "name": "The Monster Who Created Me"
+  },
+  "1075": {
+   "effects": [
+    "Madelyne Pryor: Special Inexorable can be triggered against non-Science Opponents.",
+    "Magik: Start each fight with a 10% Uncanny Passive that lasts until activating a Special Attack."
+   ],
+   "name": "Keys to the Kingdom"
+  },
+  "1078": {
+   "effects": [
+    "All Champions gain +3% Attack Rating for each #Villain on the team."
+   ],
+   "name": "Ghosts and Goblins"
+  },
+  "1086": {
+   "effects": [
+    "Doctor Bong: Start with +1 Bong Buff, and Reverbs gain 25% increased potency.",
+    "Shocker: Shocker's Auto-Block becomes an Auto-Bong. It's the exact same effect except its Blocks grant him 10% Reverb Buffs for 30 seconds. Max stacks: 3."
+   ],
+   "name": "I Came In Like a Wrecking Bong"
+  },
+  "1088": {
+   "effects": [
+    "Ruby Thursday: Can activate a Pre-Fight Ability to replace Ruby's Special 2 Lock Passive with a Special 1 Lock Passive.",
+    "Doctor Strange, Hulk, Valkyrie: Gain +10% Combat Adrenaline."
+   ],
+   "name": "Defenders"
+  },
+  "1089": {
+   "effects": [
+    "Ruby Thursday: Activating a Special Attack 1 grants a +[600] Armor Up Buff for 15 seconds. Max stacks: 2.",
+    "Wasp: When a personal Power Sting deals damage or expires naturally, it has a 25% chance to re-inflict itself.",
+    "Bullseye: When gaining a Bar of Power, Purify 1 non-Damaging Debuff. If Bullseye's Signature Ability prevents damage when activating a Special Attack, gain a non-stacking +[7,100] Fury Passive for 10 seconds."
+   ],
+   "name": "Head Shot"
+  },
+  "1090": {
+   "effects": [
+    "Ruby Thursday: While Organic Circuitry is active and while above 2 Bars of Power, Ruby is inflicted with a 25% Suppression Passive.",
+    "Shang-Chi, Black Cat, Misty Knight: When inflicted with a non-Damaging Debuff, gain a 2.5% Energize Passive for 10 seconds. Max stacks: 10."
+   ],
+   "name": "Champions for Hire"
+  },
+  "1091": {
+   "effects": [
+    "Ruby Thursday: On an Auto-Block Counter-Attack, inflict a [660] Physical Vulnerability Debuff for 15 seconds. Max stacks: 2.",
+    "Mysterio: Heavy Attacks pause Frenzy Gas for 2 seconds."
+   ],
+   "name": "Orb Heads"
+  },
+  "1096": {
+   "effects": [
+    "#Midnight Sons: Once per fight, activating a Special Attack grants a 20% Rejuvenate Passive for 15 seconds."
+   ],
+   "name": "Order of Midnight Sons"
+  },
+  "110": {
+   "effects": [
+    "Punisher: Heavy Attack inflicts a non-stacking Incinerate Debuff dealing 120% of Attack as Energy Damage over 15 seconds.",
+    "Franken-Castle: When Franken-Castle drops to 1% Health, he gains an Indestructible Passive and deals Guaranteed Critical Hits for 5 seconds."
+   ],
+   "name": "A Good Lie"
+  },
+  "1101": {
+   "effects": [
+    "Synergy Champions: Charging Heavy outside of Specials grants an Untouchable Passive for 1 second, paused while charging or until an attack Misses. If it causes a Miss, it goes on cooldown for 30 seconds.",
+    "Kitty Pryde: The first Miss counts as if it was caused by Kitty's Phase.",
+    "Morbius: If this causes a Miss, Morbius' Heavy Attack gains the benefits of a Psionic Glide Medium Attack."
+   ],
+   "name": "Untouchable Heavy"
+  },
+  "1102": {
+   "effects": [
+    "Synergy Champions: Backing up to the left wall begins a 30 second timer. If the Opponent hits the right wall within that time, gain a +50% Fury Passive for 20 seconds. The timer cannot restart until it has failed or the Fury has ended."
+   ],
+   "name": "Medley Relay"
+  },
+  "1104": {
+   "effects": [
+    "Moondragon: When Moondragon would be Knocked Out, gain a Death Immunity Passive for 6 seconds. Additionally, Punishing the Opponent's Special Attacks triggers a Mind Blast."
+   ],
+   "name": "A Cost too Great"
+  },
+  "1105": {
+   "effects": [
+    "Phyla-Vell: Special 1 grants an additional 5 Oblivion Energy per Bar of Power when activated above 2 Bars of Power. Additionally, if Phyla is given Moondragon's Presence of the Moondragon Pre-Fight Ability, she gains Immunity to Reversed Controls for the rest of the Quest."
+   ],
+   "name": "No Matter the Cost"
+  },
+  "1106": {
+   "effects": [
+    "Phyla-Vell: Phyla starts each fight with 15 Oblivion Energy. If Phyla was previously defeated by the Opponent she is fighting, gain 25 instead.",
+    "Adam Warlock: Swiping Up during Special 2 prevents Adam from entering his Stasis Pod. When he chooses to do this, he gains a non-stacking +[200] Cruelty Buff for 12 seconds. Swiping Down swaps back to triggering the Stasis Pod."
+   ],
+   "name": "Life and Death"
+  },
+  "1114": {
+   "effects": [
+    "Summoned Symbiote: Medium Attacks grant a True Accuracy Passive for 3 seconds."
+   ],
+   "name": "Abnormal Norman"
+  },
+  "1116": {
+   "effects": [
+    "Summoned Symbiote: Critical Hits inflict a Bleed Debuff dealing 50% of Attack as Direct Damage over 15 seconds."
+   ],
+   "name": "Respect The OG"
+  },
+  "1118": {
+   "effects": [
+    "Summoned Symbiote: Start eah fight with an indefinite Regeneration Buff, healing 0.25% of Summoned Symbiote's Max Health each second."
+   ],
+   "name": "Cracks and Quacks"
+  },
+  "112": {
+   "effects": [
+    "Imperiosa, Ant-Man (Future): At the start of each fight, inflict a 60% Infuriate Passive for 5 seconds.",
+    "Ant-Man: When Ant-Man is Immune to one or more Damaging effects, he gains 1 Pym Particle.",
+    "Knull: Armor Break Debuff duration increased by 50%.",
+    "Shathra: Start each fight with 30 Astral Wasps on the Opponent."
+   ],
+   "name": "Hive Minds Think Alike"
+  },
+  "1122": {
+   "effects": [
+    "Hobgoblin (Phil Urich): Start each fight with 50% of a Bar of Power.",
+    "Red Goblin: Inflict a Carnage Bomb Incinerate when a Miss, Auto-Block, or Evade fails to trigger. Cooldown: 3 seconds."
+   ],
+   "name": "Laughter Amongst The Stars"
+  },
+  "1123": {
+   "effects": [
+    "Hobgoblin (Phil Urich): The final hit of Special Attack 2 inflicts a Root Debuff for 3 seconds.",
+    "Kingpin: If no Overpower Buffs are active, increase the duration of Kingpin's next Overpower Buff by 20%."
+   ],
+   "name": "Working Overtime"
+  },
+  "1125": {
+   "effects": [
+    "White Tiger: The Bleed on White Tiger's Special Attack 2 cannot have its duration or chance reduced.",
+    "Black Tarantula: Gain Immunity to Nullify.",
+    "Mister Negative: Light and Dark Energy gain 40% increased duration."
+   ],
+   "name": "White and Black and Black and White"
+  },
+  "1126": {
+   "effects": [
+    "Black Tarantula: Purify Ability Accuracy is increased by 200% while Stunned by non-Mutant Champions.",
+    "Daredevil: Evading during the Opponent's Special Attacks grants a +15% Fury Passive for 20 seconds. Max stacks: 3.",
+    "Absorbing Man: Punishing a Special Attack with a Light Attack pauses Omni-Morph Forms for 3 seconds."
+   ],
+   "name": "Puño Cerrado"
+  },
+  "1127": {
+   "effects": [
+    "Black Tarantula: Medium Attacks cannot be Evaded. While a #Spider-Verse Hero Opponent is Halted, they cannot Evade.",
+    "Spider-Man Noir: Reduce personal Evade cooldown by 30%."
+   ],
+   "name": "Dark Spiders"
+  },
+  "114": {
+   "effects": [
+    "Imperiosa: Synthect Pierce potency increased by 20%.",
+    "King Groot, King Groot (Deathless): Pause Furies during Groot's Specials",
+    "Venompool: Inflict a 50% Infuriate Passive while Venompool is outside striking distance and has 2 or more Bars of Power.",
+    "Venom the Duck: Gain +[500] Armor Penetration while the Opponent has Toxic Armor.",
+    "Galan: Special Attack 3 grants +100 Planetary Mass."
+   ],
+   "name": "Cosmic Forces of The Contest"
+  },
+  "1158": {
+   "effects": [
+    "Synergy Champions: Inflicting a Debuff has a 20% chance to also inflict a [140] Physical Vulnerability Debuff for 10 seconds. Max stacks: 5."
+   ],
+   "name": "Photocopies"
+  },
+  "1163": {
+   "effects": [
+    "Agatha Harkness: Agatha can also copy Energize and Pierce Buffs.",
+    "Black Cat: When inflicted with a non-Damaging Debuff, Black Cat has a 1% chance per Combo Meter to Purify the Debuff, up to a max of 50%. Cooldown: 5 seconds."
+   ],
+   "name": "Familiar"
+  },
+  "117": {
+   "effects": [
+    "Nimrod: If a personal Shock effect is prevented by Immunity. Nimrod inflicts matching Incinerate Debuffs instead.",
+    "#Robots: +5% Offensive Combat Power Rate for each Shock on the Opponent. Max 50%."
+   ],
+   "name": "New Wave"
+  },
+  "119": {
+   "effects": [
+    "Nimrod: Performing an Unblockable Special Attack grants 1 personal Armor Up Buff for each Mutant Nimrod has defeated in a Quest, up to 5.",
+    "Storm: When Storm fails to activate a personal Shock or Stun effect during a Special Attack, she gains 3 personal Prowess Buffs.",
+    "Kitty Pryde: Heavy Attacks are Guaranteed Critical Hits. Cooldown: 8 seconds."
+   ],
+   "name": "Terminated"
+  },
+  "120": {
+   "effects": [
+    "Ant-Man: Each hit of Special 1 has a 100% chance to Inflict the Opponent with a Fragility Debuff, reducing Block Proficiency by 50% and Increasing Ant-Man's Critical Damage Rating by [235]",
+    "Falcon: Increase the Duration of Lockdown by a flat 2 seconds."
+   ],
+   "name": "Hi, I'm Scott"
+  },
+  "121": {
+   "effects": [
+    "Ant-Man (Future): While the Opponent is suffering from a personal Power Detonation effect, Ant-Man (Future) cannot Miss his Opponent.",
+    "Ant-Man: +25% Unsteady Debuff duration.",
+    "Wasp: +25% Shock Debuff potency.",
+    "Yellowjacket: Each time the Opponent is inflicted with a Power Sting Debuff, inflict a Physical Vulnerability Debuff, lowering Physical Resistance by 10% for 10 seconds."
+   ],
+   "name": "Bugspeak"
+  },
+  "122": {
+   "effects": [
+    "Ant-Man (Future): Incoming Shock effects suffer -60% duration.",
+    "Odin: When inflicted with a Shock effect, gain an indefinite Shock Resist Buff, increasing Shock Resistance by 50%.",
+    "Ultron: +30% Bleed and Degeneration Debuff duration."
+   ],
+   "name": "Deadliest Menace of Yesterday"
+  },
+  "128": {
+   "effects": [
+    "Anti-Venom: #Symbiote Opponents have the Ability Accuracy of their Buffs reduced by 50%.",
+    "Venom, Carnage: Regenerates 15% of max Health when knocking out #Spider-Verse Heroes."
+   ],
+   "name": "Close Family"
+  },
+  "130": {
+   "effects": [
+    "Apocalypse: Start the first fight in a quest with maximum Genetic Code.",
+    "Kang: Every 4 seconds, Kang Gains an indefinite Fury Buff granting 20% Attack Rating. This ends when reaching 20 stacks of Fury.",
+    "Mister Sinister: Degeneration Debuffs gain +50% Potency.",
+    "Cable: Incinerate Debuffs gain +150% increasd Potency. Additionally, Cable reduces the Opponent's chance to Purify Debuffs by 100%."
+   ],
+   "name": "Your Fate Is Mine"
+  },
+  "137": {
+   "effects": [
+    "Arcade: Successful Auto-Blocks grant a +80% Fury Buff for 3 seconds, paused during Arcade's Special Attacks.",
+    "Black Cat: Start each fight with a 3 second Combo Shield Passive. This starts paused and is unpaused when Black Cat Evades or is struck while no other Combo Shields are active.",
+    "Kraven: Gain Bleed Immunity. Personal Bleeds last 50% longer, but lose 33% potency.",
+    "Wolverine: For each personal Bleed on the Opponent, they suffer -20% Evade Ability Accuracy."
+   ],
+   "name": "Claws"
+  },
+  "143": {
+   "effects": [
+    "#Hydra Champions: Start each fight with an indefinite Lying In Hate Passive, increasing Attack Rating by +10%. When struck by a Special Attack 1 or 2, Lying in Hate is consumed to grant an Indestructible Passive for the remainder of the Special Attack.",
+    "Captain America: While in a fight, Captain America counts as #Hydra and a #Villain instead of a #Hero."
+   ],
+   "name": "Two More Shall Take Its Place"
+  },
+  "145": {
+   "effects": [
+    "Arnim Zola: Start each fight with an indefinite +[500] Armor Up Buff.",
+    "Captain America (Infinity War): Signature Ability Debuffs have a 100% chance to be inflicted an additional time, reduced by -25% flat for each instance of this Debuff already present."
+   ],
+   "name": "Super Specimen"
+  },
+  "146": {
+   "effects": [
+    "Arnim Zola: The first time in each fight Zola is struck by a Heavy Attack, he gains a Brace Buff until the end of the attack. Brace causes Champions to be Passively Unstoppable against the final hit of incoming Special 1, Special 2, and Heavy Attacks.",
+    "Mojo: For every million Followers, Passively Regenerate 10% of damage taken from Blocked hits. Max: 50%."
+   ],
+   "name": "Glued to the Tube"
+  },
+  "157": {
+   "effects": [
+    "Synergy Members: Dodging back and holding Block activates a 1.2 second timer. Releasing Block just as the timer expires grants a Jiggy With It Buff for 20 seconds, increasing Critical Rating by +[150] and granting an Unstoppable Passive while Dodging backwards or Dashing forwards."
+   ],
+   "name": "Boogie Boogie Uprising"
+  },
+  "158": {
+   "effects": [
+    "Synergy Members: Activating a Special Attack grants a non-stacking Vicious Buff increasing the potency of Damage Over Time Debuffs by 50% for 10 seconds."
+   ],
+   "name": "Goo Platoon"
+  },
+  "159": {
+   "effects": [
+    "Baron Zemo: Bullet hits during Zemo's Medium Attacks and Special Attack 2 inflict Incinerate Debuffs, dealing 20% of Attack Rating as Energy Damage over 6 seconds. Incinerate removes Perfect Block chance and reduces Block Proficiency by 50%.",
+    "Phoenix: Fury Buffs gain 20% increased potency."
+   ],
+   "name": "Stole My Shtick"
+  },
+  "165": {
+   "effects": [
+    "Synergy Champions: When Rooted, Passively gain up to the nearest Bar of Power over 1.5 seconds. The Power Gain is removed if the Root expires, and does not trigger during the Opponent's Special Attacks."
+   ],
+   "name": "Cage Fighters"
+  },
+  "166": {
+   "effects": [
+    "Beta Ray Bill: The final hit of Special Attack 1 has a 33% chance to inflict a Stun Debuff for 3 seconds.",
+    "Thor (Ragnarok): Start each fight with a Thunder God's Wrath Passive for 10 seconds.",
+    "Thor (Jane Foster): If the Opponent is not Shocked, Basic Attacks have a 10% chance to inflict a Shock Debuff, dealing 85% of Attack as Energy Damage over 4 seconds."
+   ],
+   "name": "Thors"
+  },
+  "169": {
+   "effects": [
+    "Both: Opponents are inflicted with a Passive Petrify for 1 second after they fill a bar of Power, reducing Regeneration and Power Gain effectiveness by 100%. This Petrify is paused during Bishop and Psylocke's Special Attacks."
+   ],
+   "name": "Chronal Anchor"
+  },
+  "17": {
+   "effects": [
+    "Gamora: Robot opponents suffer -10% Ability Accuracy and -2% Attack Rating for each personal Buff on Gamora.",
+    "Nebula: The first Special 1 each fight is a guaranteed Critical Hit. The same is true for the first Special 2.",
+    "All Synergy Champions: +5% Attack Rating."
+   ],
+   "name": "Sibling Rivalry"
+  },
+  "177": {
+   "effects": [
+    "Synergy Champions: Activating a Special Attack 2 triggers the following non-stacking effects for 20 seconds:",
+    "Cassandra Nova: Inflict a [450] Energy Vulnerability Passive.",
+    "Void: Inflict a [450] Physical Vulnerability Debuff.",
+    "Maestro: Gain a +[450] Precision Buff."
+   ],
+   "name": "Dark Mirrors"
+  },
+  "179": {
+   "effects": [
+    "Cyclops (Blue Team): For the first 1 second of each fight, Cyclops has a 100% chance to Evade and Counter-Attack dealing 200% of Attack as a burst of Energy Damage on hit. Additionally, he Evades the first time he would be struck during a Medium Attack.",
+    "Gladiator: increase Confidence Limit by +3, and each hit of Special Attack 2 gains +30% Attack Rating."
+   ],
+   "name": "Blue Boy Scouts"
+  },
+  "185": {
+   "effects": [
+    "Omega Sentinel: Incinerate and Plasma Debuffs inflicted by Medium combo enders instantly Power Drain the Opponent for 5% of their Max Power.",
+    "Sentinel: Knocking down an Opponent removes 1 Prowess effect from them."
+   ],
+   "name": "Oil is Thicker Than Blood"
+  },
+  "187": {
+   "effects": [
+    "Omega Sentinel: Whenever the Opponent is inflicted with a Cowardice Debuff remove 1 Prowess effect from them.",
+    "Psylocke: Knocking an Opponent down with a Heavy Attack grants Psylocke 2 Psi-Charges.",
+    "Captain Britain: Landing a Critical Hit on the last hit of Special Attack 1 grants an Unblockable Buff during the next Special Attack."
+   ],
+   "name": "Sentenced to Death"
+  },
+  "188": {
+   "effects": [
+    "Omega Sentinel: Whenever any hit from the Opponent's Special Attacks does not make contact with Omega Sentinel, she inflicts them with a Shock Passive, dealing 15% Energy Damage over 6 seconds."
+   ],
+   "name": "Identical CPUs"
+  },
+  "189": {
+   "effects": [
+    "Omega Sentinel: For each Armor Up consumed during a Special Attack, inflict an Armor Break Debuff reducing Armor Rating by 10% for the duration of that Special Attack."
+   ],
+   "name": "Different But The Same"
+  },
+  "190": {
+   "effects": [
+    "Black Cat: While the Heist is not active, gain a 10% chance to Evade for each #Spider-Verse Heroes team member.",
+    "Spider-Man (Classic), Spider-Man (Symbiote): Evades inflict a non-stacking [413] Physical Vulnerability Debuff for 30 seconds."
+   ],
+   "name": "My Kitty Senses Are Purring"
+  },
+  "192": {
+   "effects": [
+    "Black Cat: Whenever a Champion knocks her out, Black Cat places an indefinite Cross-Fight Vengeance Passive on them. Against an Opponent with a Vengeance effect, Black Cat starts the fight with an indefinite Fury Passive, increasing her attack by 30%.",
+    "Punisher: While below 20% Health, Punisher's chance to gain Fury Buffs is increased by a flat 20%.",
+    "Ghost Rider: Each Judgment on the Opponent grants Ghost Rider +5% Combat Power Rate.",
+    "Mangog: Each stack of Hatred grants +45 Critical Damage Rating."
+   ],
+   "name": "Crime and Punishment"
+  },
+  "195": {
+   "effects": [
+    "Black Panther: Gain a 1 second Unblockable Passive when activating a Special Attack during Panther's Might.",
+    "Storm: Each Shock Debuff on the opponent grants +[20]% Special Attack Damage, Max Potency at [5] Shocks."
+   ],
+   "name": "Royals"
+  },
+  "196": {
+   "effects": [
+    "Black Panther:  Intercepting the Opponent grants a True Strike Passive for 10 seconds, letting his attack ignore all Armor, Resistances, Evade, and Auto-Block effects.",
+    "Killmonger: Can activate Special 3 Bleed Debuffs an additional 1 time per fight."
+   ],
+   "name": "Kings"
+  },
+  "200": {
+   "effects": [
+    "Tigra: Opponents have -80% Purify Ability Accuracy for 0.25 seconds after being Struck.",
+    "War Machine: Armor Ups gain flat +30% Ability Accuracy and Potency. Additionally, during Special Attacks, gain +30% Attack rating for each Armor Up Buff on either Champion up to a maximum of 300%.",
+    "Hawkeye: Hawkeye's personal Bleed abilities inflict Poison instead."
+   ],
+   "name": "West Coast Avengers"
+  },
+  "201": {
+   "effects": [
+    "Tigra: Nullify any Unstoppable Buffs while the Opponent is suffering the effects of Rupture.",
+    "Black Panther: Gain an additonal Cruelty Passive from all Hits.",
+    "Black Panther (Civil War): Special Attack 1 grants an additional Cleanse Passive."
+   ],
+   "name": "Feline Possession"
+  },
+  "203": {
+   "effects": [
+    "Tigra: When Fighting #Large and #XL Champions, increase the duration of Rupture effects by 25%.",
+    "Elsa Bloodstone: Enhanced Munition Debuffs last 4.0 seconds longer. Additionally, when fighting on the last node in a  quest, Opponent cannot activate True Strike or True Accuracy abilities."
+   ],
+   "name": "Big Game Hunters"
+  },
+  "205": {
+   "effects": [
+    "Killmonger: Starts the fight with 3 of his Indestructible and Counterpunch Charges.",
+    "Black Panther (Civil War): Well-Timed Blocks grant a non-stacking 30% Fury Passive for 15 seconds."
+   ],
+   "name": "Wakanda Leadership"
+  },
+  "206": {
+   "effects": [
+    "Killmonger: If Vibranium Armor is active, Killmonger has a 35% chance to Purify a Debuff after a 0.5 second delay and then instantly Regenerate 4% Health per Debuff.",
+    "Void: Regenerates 1% Health when inflicting his Intimidating Debuffs."
+   ],
+   "name": "Fearless"
+  },
+  "207": {
+   "effects": [
+    "Hulkbuster: Launching a Special Attack converts 1 Armor Up Buff into a Fury Buff, lasting 15 Seconds and granting 30% Attack.",
+    "Yellowjacket: Power Sting gains +65% Potency."
+   ],
+   "name": "Technological Competition"
+  },
+  "208": {
+   "effects": [
+    "Hulkbuster: Up to +[1,000] Armor Rating based on how low Hulkbuster's current Health is.",
+    "Hulk: Immunity to Nullify, Fate Seal and Stagger.",
+    "Hulk (Ragnarok): Gains up to +[1,000] Physical Resistance based on how high the Crowd Meter is."
+   ],
+   "name": "DON'T MENTION PUNY BANNER!"
+  },
+  "218": {
+   "effects": [
+    "Iron Man (Infamous): Gains +[4,900] Critical Rating while the Opponent has 2 or more Bars of Power.",
+    "Thing: When Rock Stacks are removed, Thing gains an extra Fury Passive.",
+    "Human Torch: Chance to Incinerate when Struck increased by a flat 100%.",
+    "Mister Fantastic: Imprison the Opponent's Soul at the start of the fight, reducing their chance to activate Buffs by 100% for 15 seconds."
+   ],
+   "name": "Trust Issues"
+  },
+  "220": {
+   "effects": [
+    "Synergy Champions: Whenever one of either Champion's personal Shocks or Incinerates is prevented by an immunity, they inflict a corresponding Incinerate or Shock respectively. These Incinerates still count as Shocks for the purposes of Iron Man (Infamous)'s abilities."
+   ],
+   "name": "Contingency Protocols"
+  },
+  "222": {
+   "effects": [
+    "Spider-Slayer (J. Jonah Jameson): Completing a Headline inflicts a Degeneration Passive dealing 80% of Attack as Direct Damage over 5 seconds.",
+    "Mojo: Start each fight with J. Jonah's Smile for the Camera! Falter effect available. It can be re-used after 2 completed Audience Prompts."
+   ],
+   "name": "Understanding Camera Value"
+  },
+  "223": {
+   "effects": [
+    "Spider-Slayer (J. Jonah Jameson): Completing a Headline grants a 4% missing Health Self-Repair Buff for 5 seconds.",
+    "Scorpion, Venom: After a fight begins, receive a basic Headline prompt to complete within 7 seconds. Completing it pays out a Power Gain Passive, granting 25% of a Bar of Power over 8 seconds. Receive a new Headline 20 seconds after one ends."
+   ],
+   "name": "I Hired You"
+  },
+  "224": {
+   "effects": [
+    "Synergy Champions: Intercepting the Opponent grants a non-stacking +15% Confidence Passive for 10 seconds."
+   ],
+   "name": "Mustache Panache"
+  },
+  "225": {
+   "effects": [
+    "Synergy Champions: Start each fight with a 5% Safeguard Buff for 2 seconds that begins paused until it prevents damage, and is removed when the Opponent activates a Special Attack 3. When it ends for any reason, it returns after 45 seconds."
+   ],
+   "name": "I Disagree with the Implication"
+  },
+  "227": {
+   "effects": [
+    "Spider-Slayer (J. Jonah Jameson): Start each fight furious with 1 personal Fury Passive. This effect does not stack with duplicate synergies.",
+    "All Champions gain +[115] Critical Damage Rating."
+   ],
+   "name": "Neighborhood Rivals"
+  },
+  "231": {
+   "effects": [
+    "Darkhawk: Holding Block grants a Fury Passive every 0.2 seconds, each increasing Attack Rating by +10% for 2 seconds.",
+    "Elsa Bloodstone: After Purifying a Debuff, gain a non-stacking Cruelty Buff increasing Critical Damage Rating by +[600] for 9 seconds.",
+    "White Tiger: +20% Special Damage."
+   ],
+   "name": "Amulets Of Power"
+  },
+  "232": {
+   "effects": [
+    "Synergy Champions: At the start of each fight, rapidly gain 50% of a Bar of Power. If a Relic is equipped, also gain 20% Spirit Gauge."
+   ],
+   "name": "Avatars"
+  },
+  "234": {
+   "effects": [
+    "Doctor Strange: Gain Immunity to Coldsnap. While charging a Heavy Attack, gain an Unstoppable Passive and +60% Combat Adrenaline.",
+    "Dormammu: Gain Immunity to Incinerate. When detonating a Soul Bond, inflict a Degeneration Passive dealing Direct Damage equal to 80% of the damage dealt by the Soul Bond over 10 seconds."
+   ],
+   "name": "Aggressive Negotiations"
+  },
+  "236": {
+   "effects": [
+    "Doctor Strange: Gain 40% increased Nullify Ability Accuracy.",
+    "Iron Man, Spider-Man: Start each fight by inflicting a Shock Debuff dealing 400% of Attack as Energy Damage over 30 seconds.",
+    "Star Lord, Mantis, Drax: Start each fight with an indefinite +[500] Precision Buff.",
+    "Synergy Champions: There is a 1 in 14,000,605 chance to also start with an indefinite +1,000% Fury Buff."
+   ],
+   "name": "Possible Futures"
+  },
+  "238": {
+   "effects": [
+    "Black Widow (Claire Voyant): The final hit of Special Attack 2 has a 50% chance to inflict a Stun Debuff for 2 seconds.",
+    "Doctor Strange: The final 3 hits of Special Attack 2 inflict either Poison, Incinerate, or Bleed Debuffs based on the current Vishanti Blessing, each dealing 60% of Attack over 8 seconds."
+   ],
+   "name": "A Spell A Day Keeps The Doctor Away"
+  },
+  "239": {
+   "effects": [
+    "Black Widow (Claire Voyant), Human Torch, Mephisto, Sunspot: Whenever the Opponent is immune to Incinerate they're inflicted with a Slow Debuff for 8 seconds reducing the Ability Accuracy of Unstoppable and Evade effects by 100%. This Debuff does not stack and will not trigger if the Opponent has natural Class advantage."
+   ],
+   "name": "Fire and Forget"
+  },
+  "240": {
+   "effects": [
+    "Black Widow (Claire Voyant): While Death Touch is active, all attacks reduce the Opponent's chance of triggering their abilities by 50%.",
+    "Black Widow: Activating a special attack grants a Fury Buff increasing Attack Rating by 20% for 6 seconds."
+   ],
+   "name": "Spider's Bite"
+  },
+  "244": {
+   "effects": [
+    "Ikaris: When a personal Incinerate expires naturally or is Purified, there is a 30% chance to re-inflict it.",
+    "Iron Man: Special Attack hits inflict Incinerate Debuffs dealing 100% of Attack as Energy Damage over 3 seconds.",
+    "Doctor Strange: The first time Doctor Strange is struck in each fight, he gains a 5% Safeguard Buff for 10 seconds."
+   ],
+   "name": "Fateful Friends"
+  },
+  "246": {
+   "effects": [
+    "Morningstar: Starts the fight with 1 Bar of Power.",
+    "Mephisto: +1 Sould at the beginning of the fight."
+   ],
+   "name": "Soul Seeker"
+  },
+  "249": {
+   "effects": [
+    "Toad: Special Attacks have +15% Crit Rating while Paralytic Secretion is active.",
+    "Storm: Deal 15% of Attack as a burst of Instant Shock damage while the Opponent is suffering from a Stun Debuff."
+   ],
+   "name": "Lightning Rod"
+  },
+  "25": {
+   "effects": [
+    "Rocket Raccoon: When Rocket inflicts Armor Break using his Heavy Attack, he gains an Armor Up Buff increasing Armor Rating by [400] for 10 seconds. Max: 5.",
+    "Winter Soldier: Activating a Special grants a Precision Buff increasing Critical Rating by [400] for 5 seconds. While it is active, Bucky's Personal Abilities gain a flat +10% chance to trigger.",
+    "Misty Knight: Whenever Misty would gain 2 Anti-Metal or Cryogenic Charges, she gains 3 instead."
+   ],
+   "name": "How much for the arms?"
+  },
+  "250": {
+   "effects": [
+    "Toad: +8% Poison Debuff Potency.",
+    "Man-Thing and King Groot: Start the fight with an indefinite Prowess Buff increasing Special Attack Damage by 60%. This Buff is removed after a Special Attack ends."
+   ],
+   "name": "Greasy Swamp Boys"
+  },
+  "251": {
+   "effects": [
+    "Toad: While Paralytic Secretion is active, gain an Unstoppable Buff for 5 seconds when charging a Heavy Attack. Cooldown 12 seconds."
+   ],
+   "name": "Truly Devoted"
+  },
+  "253": {
+   "effects": [
+    "Toad: 30% chance to inflict a Disorient Debuff reducing Defensive Ability Accuracy and Block Proficiency by 50% for 8 seconds when a Poison expires.",
+    "Scorpion: On a Heavy Attack inflict a Slow Debuff lasting for 10 second(s). Opponents with Natural Class Advantage cannot be slowed. When the Opponent fails to Evade, Scorpion inflicts a burst of Sting Debuff Damage."
+   ],
+   "name": "In My Nature"
+  },
+  "254": {
+   "effects": [
+    "Synergy Champions: Once per fight, activating a Special Attack grants a Combo Shield Passive for 20 seconds. This will not activate while another Combo Shield is active."
+   ],
+   "name": "Reshaped in the Stars"
+  },
+  "259": {
+   "effects": [
+    "Black Widow (Deadly Origin): Each time Black Widow strikes with Widow's Insight active she gains 2% of a Bar of Power.",
+    "Taskmaster: Each time he Exploits a Weakness, Taskmaster has a 30% chance to inflict a Sabotage Debuff for 10 seconds, reducing Defensive Ability Accuracy by 20% for 10 seconds and dealing 10% of Attack as direct Damage when Abilities fail to trigger."
+   ],
+   "name": "Remember Me"
+  },
+  "260": {
+   "effects": [
+    "Black Widow (Deadly Origin): Reduce the potency of incoming Bleed Debuffs by 10%. Reduce the potency by an additional 10% if either Ronin or Hawkeye is Dead.",
+    "Ronin, Hawkeye: Increase the duration of Bleed and Disorient Debuffs by 10%. Gain an additional 30% Duration if Black Widow (Deadly Origin) is Dead."
+   ],
+   "name": "Remembering Budapest"
+  },
+  "261": {
+   "effects": [
+    "When the opponent starts a Dash Attack or is recovering from a Heavy, Special, or combo ending attack, gain Widow's Insight for 0.85 seconds. Ending a combo with Widow's Insight active grants a Cruelty Buff increasing Critical Damage Rating by [450] for 12 seconds."
+   ],
+   "name": "Covert Expertise"
+  },
+  "268": {
+   "effects": [
+    "Daredevil, Daredevil (Hell's Kitchen): If Elektra is Knocked Out, start each fight with an indefinite 20% Fury Buff.",
+    "Elektra: If Bullseye is Knocked Out, start each fight with an indefinite 20% Precision Buff.",
+    "Bullseye: If Daredevil or Daredevil (Hell's Kitchen) are Knocked Out, start each fight with an indefinite 10% Cruelty Buff."
+   ],
+   "name": "Black and White and Red all over"
+  },
+  "269": {
+   "effects": [
+    "Deadpool, Deadpool (X-Force): Start each fight with an indefinite Meat Armor Buff granting 20% Armor Rating and 10% Block Proficiency. This Buff is removed if Deadpool is struck by a projectile, or inflicted with Bleed.",
+    "Bullseye: Block Penetration increases by 5% for each personal Cruelty Passive."
+   ],
+   "name": "Did We Just Become Best Friends"
+  },
+  "27": {
+   "effects": [
+    "Abomination (Immortal): Heavy Attacks inflict an Armor Break Debuff reducing the Opponent's Armor Rating by [250] for 15 seconds.Venom the Duck: Symbiote Buffs gain +15% duration.",
+    "Man-Thing: The Opponent's Combat Power Rate is reduced by up to 50% based on Agitation when struck by a Special Attack."
+   ],
+   "name": "Fairest of them All"
+  },
+  "270": {
+   "effects": [
+    "Cyclops (Blue Team), Cyclops (New Xavier School): Intercepting the Opponent with a Beam Attack grants a non-stacking 50% Fury Buff for 3 seconds.",
+    "Bullseye: If an attack doesn't Critically Hit a non-Mutant Opponent, gain a non-stacking 50% Fury Buff for 3 seconds. This Buff will not re-trigger while already active, and is not affected by Ability Accuracy reduction."
+   ],
+   "name": "Pitcher Perfect"
+  },
+  "271": {
+   "effects": [
+    "Tech Champions drain 100% of the Opponent's Max Power after the Opponent uses a Special Attack."
+   ],
+   "name": "Tech Breakthrough"
+  },
+  "272": {
+   "effects": [
+    "Mutant Champions gain a permanent Passive +20% Prowess."
+   ],
+   "name": "Mutant Evolution"
+  },
+  "274": {
+   "effects": [
+    "Science Champions place a Passive Weakness on the Opponent reducing their Attack by 50% except while being struck by them."
+   ],
+   "name": "Science Experiment"
+  },
+  "279": {
+   "effects": [
+    "Captain America (Sam Wilson): Special 1 inflicts a Heal Block Debuff, preventing the Opponent from recovering Health for 15 second(s).",
+    "War Machine: Ruptures from Special 1 have their Ability Accuracy and Duration increased by 25% flat."
+   ],
+   "name": "Expectations"
+  },
+  "28": {
+   "effects": [
+    "Abomination (Immortal), Abomination: Each time a Poison Debuff expires or is removed from the Opponent there is a 5% chance to inflict an Enervate Debuff for 3 seconds, preventing Power gained when struck."
+   ],
+   "name": "Abominable Comrade"
+  },
+  "280": {
+   "effects": [
+    "Captain America (Sam Wilson): On Well-Timed Blocks gain a Fury Buff, increasing Attack Rating by 13%. Fury has no duration but it is removed  when hit or on a non Well-Timed Block. Max 5 stacks.",
+    "Captain America (Infinity War), Captain America (WWII): On a Well-Timed Block, inflict a Stagger Debuff that lasts for 10 second(s). The Staggered Opponent has their next Buff Nullified. Max 2 Stacks."
+   ],
+   "name": "On Your Left"
+  },
+  "281": {
+   "effects": [
+    "#Avengers: At the start of the fight gain the following Buffs, all lasting 10 second(s). Fury Buff, granting [800] Attack Rating; Precision Buff, granting [400] Critical Rating; Cruelty Buff, granting [800] Critical Damage Rating.",
+    "Winter Soldier: Special Attacks have a percentage chance equal to the number of hits in the Combo Meter to gain a True Strike Buff during Special Attacks."
+   ],
+   "name": "White Wolf"
+  },
+  "282": {
+   "effects": [
+    "Synergy Champions: Striking an Opponent with a Critical Hit inflicts a non-stacking Degeneration Debuff dealing 50% as Direct Damage over 6 seconds."
+   ],
+   "name": "Past and Present Self"
+  },
+  "283": {
+   "effects": [
+    "Synergy Champions: Striking an Opponent with a Critical Hit has a 21% chance to grant a non-stacking Precision Buff, increasing Critical Rating by 14% for 7 seconds."
+   ],
+   "name": "It's Good to Be Lucky"
+  },
+  "286": {
+   "effects": [
+    "Captain Marvel: When entering Binary Ignition, become Unstoppable for 4 seconds.",
+    "Rogue: All Physical attacks deal an additional 15% of Damage dealt as Energy Damage."
+   ],
+   "name": "Stolen Memories"
+  },
+  "288": {
+   "effects": [
+    "Captain Marvel: Blocking energy-based attacks grants 2% of Max Power.",
+    "Captain Marvel (Classic), Ms. Marvel: While Fury is active, Beam Attacks are Unblockable."
+   ],
+   "name": "Marvelous"
+  },
+  "289": {
+   "effects": [
+    "Captain Marvel: Fury Buffs in Binary Ignition have 10% increased potency.",
+    "Ms. Marvel (Kamala Khan): All melee attacks have 20% chance to Armor Break for each stack of active Fury reducing Armor Rating by 15%."
+   ],
+   "name": "Fan Club"
+  },
+  "294": {
+   "effects": [
+    "Chee'ilth: When struck while performing a Heavy Attack, become Passively Unstoppable for 3 seconds. Cooldown: 45 seconds. [Gamma]: Cooldown becomes 5 seconds.",
+    "Synergy Champions: Personal damaging effects gain 15% increased potency."
+   ],
+   "name": "What You Fear, You'll Destroy"
+  },
+  "295": {
+   "effects": [
+    "Colossus: Gain a Fastball Fury at the start of the fight, granting +50% Attack and +50% Special Attack rating for 15 seconds.",
+    "Wolverine and Old Man Logan: Begin the fight with 1 Bar of Power."
+   ],
+   "name": "Fastball Special"
+  },
+  "302": {
+   "effects": [
+    "Cosmic Ghost Rider: Increased Armor Break Debuff Duration by 35%.",
+    "Night Thrasher: The last hit of a Heavy Attack refreshes 1 active Taunt Debuff."
+   ],
+   "name": "Cosmic Justice on Wheels"
+  },
+  "303": {
+   "effects": [
+    "Cosmic Ghost Rider: On Heavy Charge gain a 100% Chance to trigger an Unstoppable Buff, lasting 0.5 seconds, then going on Cooldown for 10 seconds.",
+    "Man-Thing: Gain 5 Agitation whenever you Nullify a Buff."
+   ],
+   "name": "Cosmic Bane of Evil"
+  },
+  "304": {
+   "effects": [
+    "Cosmic Ghost Rider: The first time your Opponent reaches Max Power each fight, drain 5% of their Power and trigger a Power Lock Debuff lasting 2 seconds.",
+    "Punisher 2099: Heavy Attacks have a 100% chance to grant a Fury Buff increasing Attack Rating by 25% for 20 seconds."
+   ],
+   "name": "Punishments of Infinite Variety"
+  },
+  "305": {
+   "effects": [
+    "Count Nefaria: Whenever an Energy Build Up is inflicted, also inflict a 15% Decelerate Debuff lasting 18 seconds.",
+    "Iron Man: Whenever a Prowess is Invalidated, gain an Armor Up Buff."
+   ],
+   "name": "Two Sides of a Coin"
+  },
+  "307": {
+   "effects": [
+    "Synergy Champions: When starting a fight at 20% or 40% Health, gain a Regeneration Buff restoring 12.5% of missing Health over 6 seconds."
+   ],
+   "name": "Back from the Dead"
+  },
+  "309": {
+   "effects": [
+    "Mercenary & Villains: +5% Health & +[400] Critical Damage Rating.",
+    "Crossbones: [Contempt] Gain Immunity to Nullify & Stagger."
+   ],
+   "name": "Hydra Recruitment"
+  },
+  "31": {
+   "effects": [
+    "Absorbing Man: The second Medium Attack inflicts an Armor Break Debuff, reducing Armor by [500] for 9 seconds. Max Stacks: 5.",
+    "Thor: Thor's Heavy Attack inflicts an Armor Break Debuff, reducing Armor by [1,800] for 4.5 seconds. Max Stacks: 2.",
+    "Thor (Jane Foster): When facing Cosmic Champions, The Mighty Thor inflicts Degeneration effects instead of personal Shocks, which count as Shocks for her abilities."
+   ],
+   "name": "The Worthy"
+  },
+  "315": {
+   "effects": [
+    "Synergy Champions: Well-Timed Blocks grant a non-stacking 20% Energy Resistance Passive for 10 seconds."
+   ],
+   "name": "Like A Book"
+  },
+  "316": {
+   "effects": [
+    "Synergy Champions: Dodging an attack with the Dexterity Mastery grants a non-stacking 20% Physical Resistance Passive for 10 seconds."
+   ],
+   "name": "The Illusionists"
+  },
+  "318": {
+   "effects": [
+    "Synergy Champions: Gain an indefinite 50% Pierce Buff while the Opponent is at or below 20% Health."
+   ],
+   "name": "The Flight Of The Valkyries"
+  },
+  "319": {
+   "effects": [
+    "Daredevil (Hell's Kitchen): While charging a heavy attack, enemy attacks have a 100% chance to miss for 1.5 seconds. This ability goes on Cooldown for 15 seconds.",
+    "Spider-Gwen: +3% Attack rating per Spider-Sense charg",
+    "Punisher: +10% Attack rating. +50% Fury Buff Duration."
+   ],
+   "name": "Fisk's Downfall"
+  },
+  "320": {
+   "effects": [
+    "Daredevil (Hell's Kitchen): Knock the opponent down: 100% chance to inflict a 12 second Disorient Debuff, reducing the Ability Accuracy & Block Proficiency by 35%.",
+    "Elektra: Critical Hits gain +20% additional Power.",
+    "Psylocke: +25% Attack rating during Special Attacks."
+   ],
+   "name": "Secret of the Hand"
+  },
+  "321": {
+   "effects": [
+    "Daredevil (Hell's Kitchen): Special Attacks have a 20% chance to inflict a Stun Debuff. Duration is 1.25 seconds per level of Special Attack used.",
+    "Ronan, She-Hulk, and Daredevil (Classic): All gain +10 Attack Rating."
+   ],
+   "name": "Rule of Law"
+  },
+  "323": {
+   "effects": [
+    "Dark Phoenix: While her personal Unstoppable is active, she becomes Passively Unblockable.",
+    "Phoenix: During the Opponent's Special Attacks, Phoenix cannot gain Power and pauses her personal Power Gain effects."
+   ],
+   "name": "Consumed by Flame"
+  },
+  "326": {
+   "effects": [
+    "Dark Phoenix: Intercepting the Opponent grants a non-stacking +[125] Precision Buff for 12 seconds.",
+    "Cyclops (Blue Team): +[125] Critical Damage Rating."
+   ],
+   "name": "Past Relations"
+  },
+  "33": {
+   "effects": [
+    "Absorbing Man: Reduce the duration of non-damaging Debuffs other than Stuns by 50%.",
+    "Rogue: The timer for Rogue's Replicated Buffs is paused during the Opponent's Special Attacks."
+   ],
+   "name": "Hands-On Approach"
+  },
+  "330": {
+   "effects": [
+    "Dazzler: Gain Incinerate Immunity thanks to Lockheed's assistance.",
+    "Kitty Pryde: The first hit of Special Attack 1 inflicts a 30% Incinerate Vulnerability Passive for 10 seconds."
+   ],
+   "name": "Your Favorite Mutant's Favorite Mutant"
+  },
+  "332": {
+   "effects": [
+    "Dazzler: Performing a Dazzling Dash inflicts an Incinerate Debuff dealing 20% of Attack as Energy Damage over 10 seconds.",
+    "Other Synergy Champions: Incinerate and Plasma Debuffs gain 15% duration."
+   ],
+   "name": "Disco Inferno"
+  },
+  "333": {
+   "effects": [
+    "Dazzler: Once per Quest when receiving damage that would knock her out, Dazzler gains an Immortality Buff for 6 seconds.",
+    "Other Synergy Champions: Dodging back after landing exactly 4 consecutive Basic Attacks grants a non-stacking 10.4% Vitality Buff for 10.4 seconds."
+   ],
+   "name": "Stayin' Alive"
+  },
+  "334": {
+   "effects": [
+    "Synergy Champions: Knocking down the Opponent grants a non-stacking +[300] Jiggy With It Buff for 10 seconds."
+   ],
+   "name": "Murder on the Dancefloor"
+  },
+  "337": {
+   "effects": [
+    "Yellowjacket: Heavy Attack: 100% chance to spend 10 Core Charge to inflict a Slow Debuff for 10 seconds, preventing Evade or Unstoppable effects from activating. Opponents with a natural class advantage cannot be Slowed."
+   ],
+   "name": "All-purpose Weapon of War"
+  },
+  "34": {
+   "effects": [
+    "Absorbing Man: Gain Immunity to Poison effects, and Omni-Morph Forms last 3 seconds longer.",
+    "Abomination (Immortal): Gain [250] Energy Resistance for each Poison effect on himself.",
+    "Hulk (Immortal): Immortality gains +20% Ability Accuracy."
+   ],
+   "name": "The Green Door"
+  },
+  "340": {
+   "effects": [
+    "Yelena Belova: While the Opponent is suffering from a Bleed Vulnerability Debuff, they are also inflicted with a non-stacking 25% Sabotage Debuff. This Sabotage deals Direct Damage by inflicting Yelena's Instant Bleed.",
+    "Black Widow, Black Widow (Deadly Origin): Start each fight with an indefinite 35% Endurance Passive."
+   ],
+   "name": "The Red Room"
+  },
+  "348": {
+   "effects": [
+    "Wong: While Virtue of Valtorr is active, apply Incinerates instead of Energy Damage, lasting 4 second(s). Max Stacks: 5.",
+    "Iron Man (Infinity War): Plasma Passives are paused during Iron Man's Special Attacks."
+   ],
+   "name": "When's the Wedding?"
+  },
+  "350": {
+   "effects": [
+    "#New Avengers: Gain 420 Critical Damage Rating.",
+    "Hawkeye: Inflict Rupture and Critical Rupture instead of Bleed and Critical Bleed when fighting Bleed Immune Champions."
+   ],
+   "name": "New Avengers"
+  },
+  "351": {
+   "effects": [
+    "Wiccan: Last Hit of Special 2 inflicts a Slow Debuff for 10 second(s).",
+    "Loki: Finishing a combo with a light attack pauses Curse for 4 seconds."
+   ],
+   "name": "Drag Bunch"
+  },
+  "353": {
+   "effects": [
+    "Wiccan: When neutralizing the Opponent Wiccan also inflicts a Tracking Debuff, bypassing the effects of Miss for the duration of the Neutralize."
+   ],
+   "name": "My Prince Charming"
+  },
+  "354": {
+   "effects": [
+    "Legion of Monsters Champions (Morbius, Ghost Rider, Elsa Bloodstone, Man-Thing): Start each fight with a 10% Vicious Passive for 30 seconds.",
+    "Punisher: Gain this synergy's bonus after taking a Lethal Blow during the Quest."
+   ],
+   "name": "United By Chance"
+  },
+  "355": {
+   "effects": [
+    "Werewolf by Night: Dashing forward from outside of striking distance grants a 2% Fury Passive per Buff on the Opponent for 1.2 seconds. This Fury is paused during Basic and Special Attacks. Max stacks: 10."
+   ],
+   "name": "Pure Instinct"
+  },
+  "357": {
+   "effects": [
+    "Werewolf By Night: Chilling Howl inflicts a 5% Physical Vulnerability Debuff for 25 seconds. Max stacks: 3."
+   ],
+   "name": "Big Game Monsters Synergy"
+  },
+  "358": {
+   "effects": [
+    "Wasp: Counter Sting is never disabled when Wasp is below 20% Health.",
+    "Ant-Man: When causing a hit to Glance, gains Fury Passive increasing Attack by 25% for 12 seconds. Max: 3.",
+    "Wasp, Ant-Man, Ghost: +25% Attack at the start of the fight if Wasp, Ant-Man and Ghost are together in a team."
+   ],
+   "name": "Hard to Hit"
+  },
+  "36": {
+   "effects": [
+    "Gentle: Gain +57 Block Rating per Muscle Mass.",
+    "Mole Man: When activating Frenzy, gain a True Accuracy Buff for 2 seconds per Monster Mass, to a max of 14 seconds.",
+    "Galan: Reaching 315 Planetary Mass while the Harvest is not active grants a Heavy Attack Stun Charge. While this Charge is active, starting a Heavy Charge while the Opponent is within striking Distance inflicts a Stun Passive for 0.6 seconds and consumes the Charge."
+   ],
+   "name": "Massive Gains"
+  },
+  "375": {
+   "effects": [
+    "High Evolutionary: Personal Reversed Controls Passive is replaced by a 25% Special Concussion Passive.",
+    "Adam Warlock: Special Attack 1 Stun cannot have its duration reduced."
+   ],
+   "name": "Orphaned"
+  },
+  "377": {
+   "effects": [
+    "The Maker: At the start of each fight and when activating a Special Attack 3, inflict a non-stacking Ensnare Passive for 15 seconds, refreshed on knockdown.",
+    "Doctor Doom: Heavy Attacks can no longer Critically Hit, but instead they gain +40% Attack Rating.",
+    "Superior Iron Man: Knocking down the Opponent with a Heavy Attack grants a non-stacking +[300] Superior Cruelty Buff for 10 seconds. This Buff will not trigger if already active."
+   ],
+   "name": "More Doom than Doom"
+  },
+  "380": {
+   "effects": [
+    "The Maker: Plasma Mines also inflict a Plasma Debuff dealing 20% of Attack Rating as Energy Damage over 8 seconds.",
+    "Thing: When reaching 0 Rock Stacks, gain a Grit Passive for 8 seconds.",
+    "Human Torch: At 20 Temperature, Temperature cannot decrease for an additional 4 seconds."
+   ],
+   "name": "Rock and Scorch"
+  },
+  "382": {
+   "effects": [
+    "Karolina Dean: When a personal Incinerate fails due to Immunity against Tech Champions, inflict a Plasma Passive instead, copying personal Incinerate behavior. Additionally, personal Incinerates and Plasmas have their potency increased by 15%."
+   ],
+   "name": "Love to the Moon and back"
+  },
+  "386": {
+   "effects": [
+    "Nico: New Pre-Fight spell: Siphon - When the Opponent finishes a Special Attack, Nico Power Steals 80% of their remaining Power over 2 seconds and gains 50% of the Power Stolen."
+   ],
+   "name": "Love Brighter than the Sun"
+  },
+  "387": {
+   "effects": [
+    "Nico: New Pre-Fight spell: Ritual - Nico consumes 30% of her current Health at the start of the fight and stores it as Adrenaline.",
+    "Other Synergy Champions: Gain a 30% Stimulate Passive while Blocking."
+   ],
+   "name": "Sisters of the Abbey"
+  },
+  "390": {
+   "effects": [
+    "Spider-Woman: Against Mystic Champions, gaining a Buff inflicts a 50% Concussion Passive for 0.5 seconds which cannot affect Nodes. While in a fight, count as #Hydra and a #Villain instead of a #Hero.",
+    "Zola: The final hit of Special Attack 1 inflicts a Root Debuff for 3 seconds.",
+    "Red Skull: On a Well-Timed Block, 25% chance to not lose an Armor Up Buff.",
+    "Crossbones: While Overrun is on cooldown, Intercepts trigger Crossbones' Fury pause ability."
+   ],
+   "name": "Hydra Rebel"
+  },
+  "392": {
+   "effects": [
+    "Spider-Woman: Increase the potency of Fury effects by 20%.",
+    "Winter Soldier: Start each fight with 5 indefinite Cleanse Passives.",
+    "Angela: On the final hit of a Heavy Attack, gain a non-stacking 25% Aptitude Buff for 10 seconds.",
+    "Wiccan: Spell pause duration is increased by 3 seconds."
+   ],
+   "name": "Strike Force"
+  },
+  "400": {
+   "effects": [
+    "Jean: Gain 2 Psionic Charges when activating a Special Attack while the Opponent is Dashing or performing a Dash Attack.",
+    "Cyclops (Blue Team): Start each fight with a 50% Uncanny Buff, removed when finishing a Special Attack or reaching 1 Bar of Power."
+   ],
+   "name": "Star-Crossed"
+  },
+  "402": {
+   "effects": [
+    "Jean Grey: Crossing a Bar of Power grants Jean a +[750] Bulwark Passive for 10 seconds.",
+    "Purgatory: At the start of Purgatory's first fight in a quest, gain the Mutant Cross-Fight Class Soul."
+   ],
+   "name": "The Fire Within"
+  },
+  "409": {
+   "effects": [
+    "Okoye: Once per fight when Okoye's Block is broken by an Unblockable attack, inflict a Weakness Debuff reducing Attack Rating by 85% for 10 (15) seconds.",
+    "Synergy Champions: 15% increased Debuff duration."
+   ],
+   "name": "Weapon & Warfare Wisdom"
+  },
+  "415": {
+   "effects": [
+    "Guillotine (Deathless): Souls expire up to 70% more slowly based on how much more Max Health the Opponent has than Guillotine. Additionally, the first hit of Special 1 Nullifies 1 Buff."
+   ],
+   "name": "Reaping Blade"
+  },
+  "417": {
+   "effects": [
+    "Vision (Deathless): Gain Immunity to Reverse Controls. Additionally, after the Opponent activates a Special Attack, Vision Power Burns 1 Bar of their Power. If this Burns at least 50% of a Bar of Power, gain 1 personal Phase Charge."
+   ],
+   "name": "Twisted Insight"
+  },
+  "418": {
+   "effects": [
+    "She-Hulk (Deathless): Gain Immunity to Rupture effects, and the Ability Accuracy of She-Hulk's personal Debuffs and the Parry Mastery can only be reduced by Skill Champions."
+   ],
+   "name": "Iron Heel"
+  },
+  "419": {
+   "effects": [
+    "Synergy Champions: In the Necropolis, gain +50 Vengeance Charges. If all Champions are present:",
+    "Guillotine: On activation, Special 1 inflicts a non-stacking 150% Neutralize Passive for 15 seconds.",
+    "King Groot: When struck by an Unblockable attack, spend one Fury Buff to gain an Unstoppable Passive for 3 seconds.",
+    "Vision: Personal Fury max stack increases by +6, and their pause is increased by +5 seconds.",
+    "She-Hulk: Punishing the Opponent's Special or Heavy Attacks grants a Grit Buff for 10 seconds."
+   ],
+   "name": "Umbral Vanguard"
+  },
+  "429": {
+   "effects": [
+    "King Groot (Deathless): For each #Deathless Champion on the team, start each fight with 1 additional personal Fury Buff. During Malice cooldown, gain 1% flat chance to gain Fury Charges for each #Deathless Champion on the team.",
+    "Vision (Deathless): Start each fight with an indefinite Fury Passive that increases by +6% potency for each #Deathless Champion on the team."
+   ],
+   "name": "Precursor"
+  },
+  "43": {
+   "effects": [
+    "#Legion of Monsters Champions: At the start of each fight, gain an indefinite 20% Fervor Passive."
+   ],
+   "name": "What Real Monsters Are!"
+  },
+  "430": {
+   "effects": [
+    "King Groot (Deathless): Gain an Undermine Buff during Special Attacks.",
+    "Thanos (Deathless): Personal Genesis Passives gain 30% increased duration."
+   ],
+   "name": "Deathless Reaper"
+  },
+  "432": {
+   "effects": [
+    "Vision (Deathless): Gaining a Bar of Power grants a Precision Buff increasing Critical Rating by +[275] for 8 seconds.",
+    "Vision: Burning a Bar of Power grants a +40% Fury Buff for 8 seconds. Max stacks: 3"
+   ],
+   "name": "Artificial Souls"
+  },
+  "433": {
+   "effects": [
+    "Vision (Deathless): Start each fight with an indefinite Cruelty Passive increasing Critical Damage Rating by +[125] for each #Deathless Champion on the team.",
+    "She-Hulk (Deathless): Increase the Ability Accuracy of personal Trauma effects by +1% flat for each #Deathless Champion on the team."
+   ],
+   "name": "Forerunner"
+  },
+  "434": {
+   "effects": [
+    "Vision (Deathless): Upon triggering an Immunity, Burn 50% of a Bar of Power from the Opponent. If this reduces the Opponent's Power below any full Bar, gain a Phase Charge. This ability has a 12 second cooldown.",
+    "Thanos (Deathless): Gain Immunity to Power Burn and Power Drain effects."
+   ],
+   "name": "Deathless Processor"
+  },
+  "439": {
+   "effects": [
+    "Silver Surfer: If this Champion is a Herald, performing Special Attack 1 while the current dormant icon's corresponding Buffs exist will refresh all active Buffs and grant a True Sense Buff for 15 seconds. This ability cannot be activated while all 3 Rotating Buffs are active."
+   ],
+   "name": "Heralds across the Battlerealm - IV"
+  },
+  "440": {
+   "effects": [
+    "Heimdall: If this Champion is a Herald, Heimdal can gain 3 Extra Cross-Fights per fight.",
+    "Nova: If this Champion is a Herald, Special Attacks pause Nova's Personal Fury and Unblockable Effects for 8 seconds and Heavy Attacks inflict a non-stacking Energy Vulnerability Debuff, lowering Energy Resistance by 20% for 12 seconds."
+   ],
+   "name": "Heroes across the Cosmos"
+  },
+  "442": {
+   "effects": [
+    "Galan: Converting Resistances into Planetary Mass creates an additional 5 Planetary Mass per Resistance.",
+    "Colossus: Colossus' Special Attack 1 becomes passively Unblockable when activated with 5 or more Personal Armor Up Buffs.",
+    "Thanos: The first time Thanos would be knocked out in each fight, he gains an Indestructible Buff, keeping the Mad Titan alive for 8 seconds."
+   ],
+   "name": "Farm to Table"
+  },
+  "445": {
+   "effects": [
+    "Synergy Champions: Heavy Attacks are Passively Unblockable if Gladiator is alive, and they gain +10% Attack Rating if Sorcerer Supreme is alive, +[750] Critical Rating if Hulk (Ragnarok) is alive, and +[400] Critical Damage Rating if Spider-Punk is alive."
+   ],
+   "name": "Punk's Pizzazz"
+  },
+  "446": {
+   "effects": [
+    "Synergy Champions: When gaining a Bar of Power, gain a non-stacking 5% Fury Buff for 10 seconds. Each other living Synergy Champion increases this potency by +5% flat."
+   ],
+   "name": "Flarking Annihilators"
+  },
+  "447": {
+   "effects": [
+    "Synergy Champions: While far from the Opponent, gain an indefinite Unstoppable Buff. This Buff will not trigger while being struck by the Opponent, and is removed if either Champion re-enters striking distance."
+   ],
+   "name": "Great Guys"
+  },
+  "450": {
+   "effects": [
+    "Gorr: While the Opponent is inflicted with at least 15 damaging Debuffs, gain an indefinite True Damage Buff.",
+    "Mangog: While Enrage is active, the burst of Energy Damage from Heavy Attack charges twice as fast."
+   ],
+   "name": "Death to Valhalla "
+  },
+  "451": {
+   "effects": [
+    "Gorr: Heavy Hits grant a non-stacking Vicious Buff for 10 second(s), increasing the potency of Damage over Time effects by 20%.",
+    "Knull: While the Opponent is Corrupted, Necrosword Attacks inflict an additional instant Bleed dealing 30% of Attack Rating in Damage."
+   ],
+   "name": "Consuming Darkness "
+  },
+  "455": {
+   "effects": [
+    "Onslaught: Striking an Opponent or their Block while they are Unstoppable consumes 3 personal Daunted effects and removes the Unstoppable. Cooldown: 20 seconds."
+   ],
+   "name": "Close Enough"
+  },
+  "456": {
+   "effects": [
+    "Onslaught: When defeating a Mutant Champion, Onslaught Passively Regenerates 15% of his missing Health."
+   ],
+   "name": "Mutant Absorption"
+  },
+  "458": {
+   "effects": [
+    "Heavy Attacks are guaranteed critical hits while the Opponent is suffering from a Stagger effect."
+   ],
+   "name": "Fantastic Rage"
+  },
+  "461": {
+   "effects": [
+    "Activating the Aura of Haazareth has a 50% chance to Purify all Degeneration, Poison, Incinerate, Bleed and Coldsnap effects."
+   ],
+   "name": "Sorcery Reversal"
+  },
+  "462": {
+   "effects": [
+    "Doctor Doom: Each time the Aura of Haazareth is activated Doom taps into the Power Cosmic, gaining a random Buff for 8 seconds. Fury: Increase Attack Rating by 50%. Energize: Increase Combat Power Rate by 15%. Armor Up: Increase Armor Rating by 50%."
+   ],
+   "name": "Cosmic Overload"
+  },
+  "467": {
+   "effects": [
+    "Spider-Man: If this Champion is a Wasp-Totem, Spider-Man's personal Taunt Ability Accuracy is increased by 75%. Additionally, at 7+ Webbing, inflict a 30% Wither Debuff."
+   ],
+   "name": "Wasp-Totem Corruption - I"
+  },
+  "472": {
+   "effects": [
+    "Spider-Punk: If this Champion is a Wasp-Totem, Punk's Crowd becomes die-hard, causing half of them to stay with him to his next match even when defeated. Additionally, Punk becomes Stun Immune while his Counter-Evade cooldown is active."
+   ],
+   "name": "Wasp-Totem Corruption - VI"
+  },
+  "473": {
+   "effects": [
+    "Shathra: Power Steal is replaced with a Power Gain, granting 160% of a Bar of Power per second.",
+    "Wasp: If the Opponent throws a Special Attack while Wasp's personal Power Sting is active it will trigger Wasp's Petrify. However, the Petrify when this occurs is capped at 200% potency.",
+    "Yellowjacket: When the Opponent activates a Special Attack while personal Power Stings are active, gain 8 Nuclear Core Charges for each Power Sting removed."
+   ],
+   "name": "The True Queen of the Hive"
+  },
+  "475": {
+   "effects": [
+    "Silver Surfer: Once per fight, if Silver Surfer were to lose more than 25% of his life in a single hit he instead consumes the Power Cosmic Buff and gains an Indestructible Buff for 6.0 seconds."
+   ],
+   "name": "Herald of Galactus"
+  },
+  "479": {
+   "effects": [
+    "Quicksilver: When 50 or more Whiplashes expire at the same time, inflict a non stacking Special Concussion Debuff, reducing Ability Accuracy by 50% during Specials for 25 second(s).",
+    "Hawkeye: If the Opponent is unstoppable, Hawkeye Heavy Attacks cannot be interrupted.",
+    "Ultron: Gain [500] Critical Damage Rating while the Opponent is Bleeding."
+   ],
+   "name": "You didn't see that coming?"
+  },
+  "480": {
+   "effects": [
+    "Quicksilver: Increase Block Proficiency by [1,000].",
+    "Captain America (Infinity War): Increase the potency of Fury effects by 25%.",
+    "Thor (Ragnarok): 75% chance to Purify any non-Damaging Debuff.",
+    "Iron Man (Infinity War): While the Opponent is suffering from Armor Break, they are also inflicted with a Passive Cowardice, reducing Special Damage by 40%."
+   ],
+   "name": "Maybe Avenger"
+  },
+  "482": {
+   "effects": [
+    "Quicksilver: Gain 8.3% Degeneration Resistance for every100 Momentum Charges.",
+    "Wiccan: Gaining a Bar of Power grants a Fury Buff, increasing Attack Rating by 20% for 10 second(s)."
+   ],
+   "name": "Spiritual Uncle"
+  },
+  "483": {
+   "effects": [
+    "Quicksilver: The first Special Attack after reaching Max Momentum Charges has its Attack Power increased by 70%.",
+    "Scarlet Witch: When gaining one Instability Gain a Prowess Buff, granting 50% Special Attack Damage for 15 second(s).",
+    "Scarlet Witch (Classic): When Veil of Fortune Triggers, 50% chance to gain a Prowess Buff, granting 100% Special Attack Damage for 15 second(s)."
+   ],
+   "name": "Dear Sister"
+  },
+  "485": {
+   "effects": [
+    "Photon: Unblockable hits deal 4% of Attack as a burst of Direct Damage for each personal Debuff on the Opponent.",
+    "Elsa Bloodstone: When Counter-Attacking with her Revolver, Elsa inflicts a Slow Passive for 2.5 seconds. She cannot Miss while this effect is active."
+   ],
+   "name": "Nextwave"
+  },
+  "487": {
+   "effects": [
+    "Photon: Reduce the potency of incoming Degeneration effects by 20% for each unique personal Debuff on the Opponent.",
+    "Mister Negative: When activating his personal Evade, inflict a non-stacking Slow Debuff for 5 seconds. Cooldown: 8 seconds."
+   ],
+   "name": "Monochrome"
+  },
+  "488": {
+   "effects": [
+    "Synergy Champions: While the Opponent is below 25% Max Health, gain a 20% Flourish Passive."
+   ],
+   "name": "Minister of Justice"
+  },
+  "490": {
+   "effects": [
+    "Synergy Champions: Striking the Opponent while their back is against the wall grants a [500] potency Cruelty Buff for 6 seconds. This does not reapply if active."
+   ],
+   "name": "Polearm Pals"
+  },
+  "492": {
+   "effects": [
+    "Prowler: Can activate a Pre-Fight Ability granting Immunity to Reverse Controls, but controls are inverted for the whole fight.",
+    "Spider-Punk: Whenever a Mystic Opponent gains a non-Instant Power Gain effect, they also turn up the gain on Spider-Punk's amp and are inflicted with a personal Rupture Debuff."
+   ],
+   "name": "Splitting Heads"
+  },
+  "493": {
+   "effects": [
+    "Prowler and White Tiger: Punishing the Opponent's Special Attacks grants a +[300] Cruelty Passive for 10 seconds.",
+    "Spider-Man (Miles Morales): Increase Spider-Camo Miss chance by +35% flat.",
+    "Electro: Static Shock also triggers on Electro's attacks at 50% potency.",
+    "Vulture: Gain Immunity to Nullify."
+   ],
+   "name": "Parallel Enemies"
+  },
+  "494": {
+   "effects": [
+    "Prowler: If the Opponent is not Faltered, Prowler has a 20% chance to Evade Basic Attacks while not Blocking.",
+    "Spider-Man (Classic): For each stack of Webbing on the Opponent, Special Attack 2 deals 10% of Attack Rating as a burst of Physical Damage."
+   ],
+   "name": "Showing the Light"
+  },
+  "495": {
+   "effects": [
+    "Synergy Champions: Special Attack 2 grants a +20% Fury Buff for 6 seconds."
+   ],
+   "name": "Caped Crusaders"
+  },
+  "5": {
+   "effects": [
+    "Super-Skrull: Each time you activate a Fury Buff there is a 100% Chance to place an Armor Break on the Opponent lasting 4 seconds, reducing Armor by [150]. Max Stacks: 5.",
+    "Iron Fist: The first 4 of Iron Fist's personal Armor Break Debuffs start paused. While the opponent is suffering any Armor Break Debuffs the next Buff triggered on them will be immediately Nullified and an Armor Break Debuff is consumed."
+   ],
+   "name": "Hostile Takeover"
+  },
+  "501": {
+   "effects": [
+    "Black Panther: First and final hits of Special Attack 1 have a 100% chance to be a critical hit.",
+    "Shuri: Special Attack 1 hits have a 30% chance to inflict a personal Shock Debuff.",
+    "Ironheart: Final hit of Special Attack 1 grants an Unstoppable Buff for 8 seconds."
+   ],
+   "name": "Wakanda Strong"
+  },
+  "505": {
+   "effects": [
+    "Lady Deathstrike: Gain 33% Armor Up potency.",
+    "Sentinel: Gain 66% Heal Block duration. Inflicting a Heal Block also inflicts a non-stacking Cowardice Debuff, reducing Special Attack Damage by 50% for the duration of the Heal Block.",
+    "Omega Sentinel: Increase Debuff pause duration by 2 seconds."
+   ],
+   "name": "Omega Sentinel Potential"
+  },
+  "506": {
+   "effects": [
+    "Lady Deathstrike: When defeating #X-Men, gain a Cross-Fight Fury Buff, increasing Attack Rating by 20%. The Fury Buff potency increases by 200%  when defeating any Wolverine.",
+    "Old Man Logan: Personal Fury Buffs last 50% longer, and all Fury Buffs are paused during his or the Opponent's Specials.",
+    "Wolverine, Wolverine (Weapon-X): When any Bleed Debuff is Purified, inflict a Passive Bleed with 70% of the damage and same duration."
+   ],
+   "name": "True Hatred"
+  },
+  "507": {
+   "effects": [
+    "Jack O'Lantern: Potency of the Cowardice is increased by 50%.",
+    "Werewolf by Night, Kindred, Morbius: Chilling Howl, Nightmare Outbreak and Psionic Glide inflict a 15% Weakness Debuff for 15 seconds. These cannot re-trigger if active."
+   ],
+   "name": "Terrors in the Night"
+  },
+  "509": {
+   "effects": [
+    "Synergy Champions: When Immune to an Incinerate effect, gain a non-stacking +15% Bulwark Passive for 15 seconds."
+   ],
+   "name": "Candle Heads"
+  },
+  "513": {
+   "effects": [
+    "Synergy Champions: Medium Attacks inflict a Damage Over Time Debuff dealing 20% of Attack over 2 seconds. The type of Debuff is specific to each Synergy Champion.",
+    "Shocker: Shock Debuffs.",
+    "Silk, Spider-Man (Stark Enhanced): Rupture Debuffs.",
+    "Vulture: 10% Disintegration Debuffs."
+   ],
+   "name": "Homecoming Crasher"
+  },
+  "514": {
+   "effects": [
+    "Shocker: Activating a Special Attack inflicts a 50% Cowardice Debuff for 10 seconds.",
+    "Spider-Man (Symbiote): Activating a Special Attack grants a True Damage Buff for 10 seconds."
+   ],
+   "name": "You Can't Escape Me!"
+  },
+  "515": {
+   "effects": [
+    "Spider-Punk: Can activate a Pre-Fight Ability granting Immunity to Reverse Controls, but Controls are inverted for the whole fight.",
+    "Prowler: Personal Power Drain becomes a Power Burn, dealing 3.5% of Attack as Direct Damage for every 1% of Max Power Burned."
+   ],
+   "name": "Heads Split"
+  },
+  "517": {
+   "effects": [
+    "Science Champions: Gain unique abilities depending on who is on the team.",
+    "Teams: If Spider-Man (Miles Morales) is on the team, gain +5% Attack Rating for each #Spider-Verse Heroes Champion on the team.",
+    "Consistency: If Jessica Jones is on the team, the final hit of Special Attacks randomly inflicts a [200] potency Physical Vulnerability, Energy Vulnerability, Exhaustion, or Fatigue Debuff for 8 seconds.",
+    "Comedy: If Spot is on the team, whenever a Buff fails due to Buff Immunity, gain a 10 second Setup Timer. When this timer expires, gain an indefinite Punchline Buff that does nothing. This timer cannot retrigger while active."
+   ],
+   "name": "I don't believe in..."
+  },
+  "52": {
+   "effects": [
+    "Dracula: At the start of each fight, rapidly gain 25% of a Bar of Power for each other unique Synergy Champion present.",
+    "Synergy Champions: Interrupting any attack inflicts a Bleed Debuff dealing 20% of Attack as Direct Damage over 8 seconds.",
+    "Storm, Jubilee, Black Panther: While fighting a #Silver Champion, these Synergy Champions suffer -25% Regeneration Rate."
+   ],
+   "name": "Vampyrsk, the Vampire Kingdom"
+  },
+  "520": {
+   "effects": [
+    "Spider-Man (Supreme): Critical Hits from Light or Heavy Attacks grant a Spider-Seal Buff to the Opponent.",
+    "Overseer: Gain immunity to Neutralize.",
+    "Venom the Duck: When a Symbiote Buff is consumed, 25% chance to re-trigger it.",
+    "Venompool: Gain Special Lock immunity, and this immunity counts for his Illogical DNA ability.",
+    "Morningstar: Special 2 Attacks deals an extra Burst of Energy Damage per Captured Soul."
+   ],
+   "name": "From the Contest"
+  },
+  "521": {
+   "effects": [
+    "Spider-Man (Supreme): Blessing of the Spider Totem also grants [1,400] Critical Rating.",
+    "Kraven: When a trap activates, inflict an Infuriate Debuff on the Opponent for 4 second(s), causing them to become more aggressive and reducing their Offensive Ability Accuracy by 25%.",
+    "Vulture: Basic Attacks have 25% chance to grant +10 Chitauri Charges.",
+    "Carnage: Increase the Permanent Mutation Buffs' max stack to 8.",
+    "Electro: When attacking, 20% chance to inflict a Shock Passive on himself and the Opponent, dealing 30% of Attack as Energy Damage over 10 second(s)."
+   ],
+   "name": "Into the Villain-Verse"
+  },
+  "522": {
+   "effects": [
+    "Spider-Man (Supreme): Buffs granted by Blessing of the Web have a 25% chance to trigger twice.",
+    "Spider-Man 2099: Debuff Pause duration increases by 3 second(s).",
+    "Spider-Gwen: Enervate duration from Special 1 lasts 1.75 second(s) longer.",
+    "Spider-Man (Stealth Suit): Evading or Dodging Purifies 1 Debuff.",
+    "Spider-Man (Stark Enhanced): Reduces the EMP Webshot cooldown by 7.5 second(s)."
+   ],
+   "name": "Into the Spider-Verse"
+  },
+  "523": {
+   "effects": [
+    "Spiral: Weapon Attacks Instantly Regenerate 1 Health for each Fervor Spiral has gained consecutively, up to 50.",
+    "Mojo: Prompts expire 5% slower per million Followers.",
+    "Longshot: The first hit of Longshot's Heavy Attack prevents him from using his Special Attack 3 until the Heavy finishes. Once triggered, disabled until Special Attack 3 is used."
+   ],
+   "name": "Tormentee to Tormentor"
+  },
+  "524": {
+   "effects": [
+    "Spiral: Precisions Spiral grants to the Opponent can stack up to 2 times.",
+    "Lady Deathstrike: While Nanobots Regenerator is active, gain Immunity to Degeneration Debuffs."
+   ],
+   "name": "The Body Shop"
+  },
+  "525": {
+   "effects": [
+    "Spiral: Gain Immunity to Reversed Controls.",
+    "Rogue: The Opponent starts the fight with an indefinite +[1,500] Precision Buff.",
+    "Gambit: While a Precision is active, gain +[800] Block Proficiency."
+   ],
+   "name": "Mr. and Mrs. X"
+  },
+  "527": {
+   "effects": [
+    "Synergy Champions: Start each fight with an indefinite +5% Prowess Passive."
+   ],
+   "name": "She's At It Again"
+  },
+  "529": {
+   "effects": [
+    "Spider-Man (Stealth Suit): Slowed Opponents also have the Ability Accuracy of Shock and Incinerate effects reduced by 100%.",
+    "Iron Man (Infinity War): The duration of Incinerate and Plasma effects is increased by 50%."
+   ],
+   "name": "Stark Internship"
+  },
+  "530": {
+   "effects": [
+    "Spider-Man (Stealth Suit): +100% Evade Ability Accuracy against Unblockable attacks while the Opponent has a Vulnerability Debuff.",
+    "Spider-Man (Miles Morales): Evade does not trigger while Blocking, and Special Attack 2 inflicts Power Sting for 8 seconds, dealing 100% of Attack as Direct Damage when the Opponent activates a Special Attack.",
+    "Spider-Man (Miles Morales): Special Attack 2 inflicts Power Sting for 8 seconds, dealing 100% of Attack as Direct Damage when the Opponent activates a Special Attack.",
+    "Spider-Man (Symbiote): Heavy Attacks inflict a non-stacking [500] Fragility Debuff for 9 seconds."
+   ],
+   "name": "Spider-Men in Black"
+  },
+  "531": {
+   "effects": [
+    "Spider-Man (Stealth Suit): Increases the potency of Fury, and Precision effects that trigger while Spider-Sense is active by 15%.",
+    "Electro: When one of Electro's Stun abilities fail to trigger, he inflicts a Shock Debuff instead dealing 40% of Attack over 7 seconds."
+   ],
+   "name": "Culture Shock"
+  },
+  "532": {
+   "effects": [
+    "Spider-Man 2099: Spider-Man 2099 gains 85 Critical Rating per Unique Debuff on the Opponent.",
+    "Sabretooth: Blocking an attack has 10% to grant a Regeneration Passive that heals 25% of the damage taken from the block over 25 second(s).",
+    "Longshot: When Longshot Nullifies a Regeneration Buff, gain a Regeneration Buff, healing 5% of base health over 10 second(s).",
+    "Psylocke: Attacking an Opponent with 0 Power reduces their Defensive Ability Accuracy by 50%."
+   ],
+   "name": "Co-Workers"
+  },
+  "533": {
+   "effects": [
+    "Spider-Man 2099: Second Medium attacks have a 25% chance to trigger Spider-Man 2099 Debuff Pausing ability.",
+    "Spider-Man (Stark Enhanced): On a Well Timed Block 33% chance to gain a Bulwark Passive, granting [700] Block Proficiency for 10 second(s).",
+    "Scarlet Witch (Classic): When granting a Buff on herself, gain 15% of a Bar of Power over 3 second(s).",
+    "Iron Man: Heavy Attack inflicts a Power Drain, removing 50% of the Opponent's current power over 5 second(s). This effect has a 20 second(s) cooldown."
+   ],
+   "name": "A.I Enthusiasts"
+  },
+  "534": {
+   "effects": [
+    "Spider-Man 2099: Special Attack 3 inflicts a Poison Debuff, dealing 85% of Attack in Direct Damage and reducing health recovery by 30% over 25 second(s).",
+    "Venom: On a Heavy Attack gain an Aptitude Buff, increasing the effect of Fury, Armor and Precision Buffs by 50% for 10 second(s). This effect has a 10 second(s) cooldown.",
+    "Carnage: Unblockable Specials gain 25% increased Attack Rating."
+   ],
+   "name": "Symbiote Problems"
+  },
+  "535": {
+   "effects": [
+    "Spider-Man 2099: Gain 100% chance to Evade the first time he is struck in a fight.",
+    "Spider-Man (Classic), Spider-Gwen, Spider-Ham, Spider-Man (Miles Morales): Gain an Unstoppable Passive for 1 second(s) after an Evade triggers. This effect has a 9 second(s) cooldown."
+   ],
+   "name": "Spider-Verse Veterans"
+  },
+  "536": {
+   "effects": [
+    "Spider-Ham: Spider-Nonsense resets to +3 more than it would normally.",
+    "Spider-Man (Miles Morales): Venom Blast can trigger Fatigue, Stun, and/or Power Drain, regardless of the Opponent's Class. Triggering any Venom Blast Debuff grants a Fury Buff, increasing Attack Rating by 20% of Base Attack for 6 second(s)."
+   ],
+   "name": "2 Days? Try 30 Years!"
+  },
+  "539": {
+   "effects": [
+    "Spider-Ham: Porker Popper duration is increased by 20%.",
+    "Gwenpool: Gain Vigilance while the Opponent is Bleeding, making attacks unable to Miss.",
+    "Goldpool, Platinumpool: Gain an indefinite Fury Buff whenever a Debuff expires on the Opponent, increasing Attack Rating by +10%, stacking up to 10 times.",
+    "Squirrel Girl: Well-Timed Blocks have 30% Perfect Block chance, and inflict Tippy's Medium Attack Bleed."
+   ],
+   "name": "Fourth Wall Crawler"
+  },
+  "540": {
+   "effects": [
+    "Spot: Start each fight with 2 Spots",
+    "Kingpin: Start each fight with +1 Rage Debuff.",
+    "Mister Negative: Activating a Special Attack immediately after a Basic Attack lands inflicts an 8% Fatigue Debuff for 8 seconds."
+   ],
+   "name": "Darkforce Project Funding"
+  },
+  "542": {
+   "effects": [
+    "Spot: When untouchable starts, inflict a 40% Taunt Debuff for 7 seconds.",
+    "Spider-Man: Gain 100% chance to Evade the first he is struck each fight.",
+    "Black Cat: Special Attacks gain an additional 15% Critical Rating for each 100 hits in Black Cat's Combo Meter."
+   ],
+   "name": "Impetuous Youth"
+  },
+  "544": {
+   "effects": [
+    "Spot: Portal Block gains a flat 10% chance to Resist Unblockable and Heavy Attacks per Spot.",
+    "Mephisto: Landing Basic Attacks pauses the duration of an Aura of Incineration for 0.2 seconds.",
+    "Magik: While the Opponent has 0 power, gain a Fury Buff increasing Attack Rating by 15%."
+   ],
+   "name": "Another Dimension"
+  },
+  "546": {
+   "effects": [
+    "Negasonic: Opponents that are Immune to personal Incinerates are inflicted with matching Rupture Passives with 60% of the original potency. These Ruptures are still treated as Incinerates by the rest of Negasonic's abilities and effects.",
+    "Deadpools: +10% Bleed and Regeneration potency."
+   ],
+   "name": "One Was Already Too Many"
+  },
+  "550": {
+   "effects": [
+    "Kindred: When Nightmare Outbreak activates, gain an Unstoppable Buff for 7 seconds.",
+    "Green Goblin: +10% Combat Power Rate while under 1 Bar of Power.",
+    "Red Goblin: When charging a Heavy Attack, gain a 20% Energize Buff for 5 seconds. Cooldown: 7.5 seconds.",
+    "Iron Patriot: 30% chance when gaining an Armor Up Buff to inflict a 10% Physical Vulnerability Debuff for 12 seconds. Max stacks: 3."
+   ],
+   "name": "Compound Madness"
+  },
+  "551": {
+   "effects": [
+    "Kindred: Activating Dread Aura grants an Unblockable Passive for 3 seconds. Cooldown: 20 seconds."
+   ],
+   "name": "Revenant Birth"
+  },
+  "552": {
+   "effects": [
+    "Enchantress: New Enchantment Spell: Flesh to Stone (Inflicts a Petrify Debuff. No effect against #Robots.): →,←,←.",
+    "Hela: Summoned Sword attacks grant an additional 5 Spirits of the Dead.",
+    "Loki: The first hit of Loki's Heavy Attack prevents him from using his Special Attacks 2 and 3 until the Heavy Attack finishes."
+   ],
+   "name": "Hate the Mighty Thunder God"
+  },
+  "553": {
+   "effects": [
+    "Enchantress: New Evocation Spell: Poison Spray (Inflicts 3 Poison Passives.): ↓,↓,↑.",
+    "Lady Deathstrike: Once per fight, while Ferocity is active, it does not unpause when Blocking an attack.",
+    "Psylocke: When consuming a Psi-Charge, 50% chance for it to be refunded.",
+    "Spiral: Lose 5 fewer Fervors when Spiral's pause expires."
+   ],
+   "name": "Sisters in Hood"
+  },
+  "554": {
+   "effects": [
+    "Enchantress: New Enchantment Spell: Reduce Reflexes (Inflicts a Decelerate Debuff): ←,→,→.",
+    "Dazzler: While Dazzler has a higher percentage of remaining Health than Enchantress, she gains an indefinite +20% Fury Passive."
+   ],
+   "name": "No Sharing The Stage"
+  },
+  "557": {
+   "effects": [
+    "Diablo: Special Attacks have a 70% chance to inflict a Stun Debuff, lasting 1.5 second(s) per level of Special Attack used.",
+    "Green Goblin: +1.5% Attack Rating per Cunning / Madness Charge.",
+    "Doctor Octopus: +35% Heal Block Debuff duration.",
+    "M.O.D.O.K.: +20% personal Debuff Duration."
+   ],
+   "name": "Madcap Experimentalists"
+  },
+  "565": {
+   "effects": [
+    "All Members of Thanos Army: When the fight starts, gain a True Damage Buff allowing Attacks to bypass Armor and Resistances for 30 seconds."
+   ],
+   "name": "Lieutenants of the Black Order"
+  },
+  "57": {
+   "effects": [
+    "All Champions gain a Lizard Regeneration Passive at the start of each fight, granting +[600] Attack Rating and recovering 2% of Base Health over 20 seconds.",
+    "Synergy Champions: Increase the amount healed by Lizard Regeneration by +3% flat."
+   ],
+   "name": "Everyone Must Be Lizards!"
+  },
+  "58": {
+   "effects": [
+    "Synergy Champions: When fighting against #Spider-Verse Heroes, on Special Attack activation, gain a Pursuit Passive for 13 seconds."
+   ],
+   "name": "Just Another Sinister Six"
+  },
+  "582": {
+   "effects": [
+    "Man-Thing: If Struck by a Basic Attack while under the effect of an Unstoppable Buff 100% chance to gain an Indestructible Buff lasting 0.5 second(s).",
+    "Howard: When the Opponent has an ISO Loader effect, Howard's Special 2 gains +50% Ability Accuracy.",
+    "She-Hulk: Striking a Stunned Opponent with a Heavy Attack grants a Fury Buff increasing Attack by 100% of her Base Attack for 1 second."
+   ],
+   "name": "Fearsome Four"
+  },
+  "59": {
+   "effects": [
+    "Lizard: Personal Unstoppable lasts +2 seconds.",
+    "M.O.D.O.K.: At the end of Special 1, inflict a non-stacking 100% Petrify Debuff for 4 seconds.",
+    "Mister Sinister: When the Opponent fails to Purify one or more Debuffs due to reduced Ability Accuracy, self-inflict a personal Bleed Debuff.",
+    "The Overseer: Against Mystic Champions, gain a Steadfast Passive while at or above 3 Gamma Power."
+   ],
+   "name": "Crazy Scientists"
+  },
+  "591": {
+   "effects": [
+    "M.O.D.O.K.: Take 50% less Poison Damage.",
+    "Abomination: Deal 50% more Poison Damage."
+   ],
+   "name": "Cubicle Mates"
+  },
+  "592": {
+   "effects": [
+    "Mojo: 50% chance to not lose Followers when failing a Prompt.",
+    "Longshot: If the Opponent is Immune to Bleed, Longshot's Special 1 inflicts Degenerate Damage instead."
+   ],
+   "name": "Mojoverse"
+  },
+  "594": {
+   "effects": [
+    "Mojo: Heavy attacks Incinerate the Opponent, dealing 80% of Mojo's Attack Rating as Energy damage over 6 seconds.",
+    "M.O.D.O.K.: 20% increased Power Gain Rate while below 1 Bar of Power."
+   ],
+   "name": "Without a Leg to Stand On"
+  },
+  "595": {
+   "effects": [
+    "Mojo: When a Prompt is completed, Mojo gains an Unstoppable Buff for 5 second(s).",
+    "Hulk (Ragnarok): Passively increase Attack Rating by up to 25% based on Crowd Excitement.",
+    "Korg: Korg's personal Armor Break has 50% increased Potency and duration."
+   ],
+   "name": "Crowd Pleasers"
+  },
+  "60": {
+   "effects": [
+    "Lizard: When the Opponent is inflicted with a non-Damaging Debuff other than the Parry Mastery Stun, inflict a personal Rupture.",
+    "Sauron: If the Opponent Purifies or Cleanses the Parry Mastery Stun, gain an Unstoppable Passive for 1 second.",
+    "Man-Thing: Each hit of Special 2 Nullifies 1 extra Buff."
+   ],
+   "name": "Mean Greens"
+  },
+  "605": {
+   "effects": [
+    "All Mutants: Gain +20% Passive Fury when fighting with Class Disadvantage."
+   ],
+   "name": "Mutant Dominion"
+  },
+  "606": {
+   "effects": [
+    "Mister Sinister, Cyclops (Blue Team), Cyclops (New Xavier School), Phoenix: Special Attacks have +20% Critical Rating and gain True Strike, ignoring all Armor, Resistances, Evasion, and Auto Block."
+   ],
+   "name": "Bloodlines"
+  },
+  "607": {
+   "effects": [
+    "Mister Sinister, Kingpin, Ultron, M.O.D.O.K.: Each time the opponent uses a Special Attack they become Power Locked for 6 seconds."
+   ],
+   "name": "Masterminds"
+  },
+  "614": {
+   "effects": [
+    "Domino: +10% damage against Champions that aren't female or robots.",
+    "Deadpool: Special 1 has a 50% chance to Stun Champions that aren't female or robots for 2 second(s)."
+   ],
+   "name": "Six Pack"
+  },
+  "618": {
+   "effects": [
+    "Domino: Heavy Attacks inflict an Incinerate that deals damage equal to that Heavy Attack's damage over 2 second(s).",
+    "Red Hulk: Special 2 Regeneration consumes 1 less Heat Charge and recovers 18% more Health."
+   ],
+   "name": "Code Red Revelations"
+  },
+  "626": {
+   "effects": [
+    "All Champions except Heimdall: Once per fight Heimdall will intercede on your behalf, dash back and hold Block for 1.5 seconds to Regenerate 15% of missing Health instantly."
+   ],
+   "name": "Warriors of Asgard"
+  },
+  "628": {
+   "effects": [
+    "All Champions except Heimdall: Once per fight Heimdall will intercede on your behalf, dash back and hold Block for 1.5 seconds to gain an infinite Duration Precision Buff increasing Critical Rate by [250]."
+   ],
+   "name": "Enchanted Blades"
+  },
+  "629": {
+   "effects": [
+    "Hela: Nullify effects against Hela have a 35% reduced chance to trigger.",
+    "Loki: While they are Cursed, Loki always counts as having more Health than his Opponent.",
+    "Thor (Ragnarok): Gains +100% Perfect Block Chance when Auto-blocking."
+   ],
+   "name": "Immortal Souls"
+  },
+  "630": {
+   "effects": [
+    "Champions have a 20% chance to instantly regain 20% of their HP just before they're knocked out. This chance increases by 20% for each Champion on their team currently knocked out."
+   ],
+   "name": "Queen of Hel"
+  },
+  "631": {
+   "effects": [
+    "Hela: Begins the fight with 1 Bar of Power.",
+    "Dormammu: Increase any Health gains while his Imbued Dimensional Link is active by 25%.",
+    "Mephisto: Regain the first Soul spent to trigger his Soul Imprisonment each fight."
+   ],
+   "name": "Hell Lords"
+  },
+  "633": {
+   "effects": [
+    "Hercules: On activation of Special Attack 1 or 2, gain an Unblockable Buff for 3 seconds.",
+    "Black Panther: Dashing back during a Basic Attack combo inflicts the Opponent with a non-stacking Infuriate Debuff for 5 seconds, making the Opponent more aggressive and reducing their Offensive Ability Accuracy by 30%. Cooldown 10 seconds."
+   ],
+   "name": "Masterful Combat"
+  },
+  "634": {
+   "effects": [
+    "Hercules: Well-Timed Blocks gain 100% Perfect Block chance while at or below 5% max health.",
+    "Thor: Well-Timed Blocks gain 20% Perfect Block chance while the Opponent is suffering from an Armor Break Debuff.",
+    "Thor (Jane Foster): Gain +40% Shock Potency and Well-Timed Blocks gain 30% Perfect Block chance while the Opponent is shocked."
+   ],
+   "name": "Arm Wrestling Club"
+  },
+  "635": {
+   "effects": [
+    "Hercules: Infuriate cooldown is reduced by 40%.",
+    "Hawkeye: Draining the Opponent's Power across a Power Bar threshold grants a Fury Buff increasing Attacking Rating by 40% for 20 seconds. Max stacks 3."
+   ],
+   "name": "Pawn Set Free"
+  },
+  "636": {
+   "effects": [
+    "Hercules: Start the fight with +3 Strength.",
+    "Hulk: +35% Fury Potency.",
+    "Hulk (Immortal): While Immortality is on Cooldown, Well-Timed Blocks gain +100% Perfect Block chance.",
+    "Hulk (Ragnarok): While Crowd Excitement reaches 100, gain a Fury Buff increasing Attack Rating by +55% and inflict a Weakness Debuff reducing Attack Rating by 30%. These last 15 seconds."
+   ],
+   "name": "Incredible Substitute"
+  },
+  "637": {
+   "effects": [
+    "Hercules: Completing a feat of Strength inflicts an Armor Break Debuff, removing 1 Armor Up Buff and reducing Armor Rating by 70 for 10 seconds.",
+    "Captain America (Infinity War): Gain +7% Fury Potency."
+   ],
+   "name": "I Require Thy Shield"
+  },
+  "638": {
+   "effects": [
+    "Hulkling: Hulkling is Stun Immune while he has at least 3 Pierce Buffs."
+   ],
+   "name": "True Love"
+  },
+  "64": {
+   "effects": [
+    "The Overseer, Pavitr: While the Opponent has more than 2 Bars of Power, inflict a 65% Wither Debuff (Overseer) or Passive (Pavitr).",
+    "The Maker, Shathra: While charging or releasing a Heavy Attack, Evade the first incoming Basic Attack. Cooldown: 20 seconds."
+   ],
+   "name": "Which Universe Are You Again?"
+  },
+  "640": {
+   "effects": [
+    "Hulkling: 50% chance when Striking the Opponent while Unblockable to inflict a non-stacking Armor Break Debuff for 10 second(s), reducing Armor Rating by [500].",
+    "Squirrel Girl: 25% chance to Purify one of each Non-Damaging Debuff each time the Opponent is inflicted by a Bleed Debuff."
+   ],
+   "name": "Kookie Triplet"
+  },
+  "646": {
+   "effects": [
+    "Knull: When the Opponent is immune to an effect, Knull gains a Fury Buff, increasing Attack Rating by 35% for 16 seconds. Max 1 stack(s)."
+   ],
+   "name": "Vessels of the Darkness"
+  },
+  "648": {
+   "effects": [
+    "Knull: While the Opponent is suffering from 12+ Armor Breaks, Knull gains an indefinite Energize Buff, increasing Combat Power Rate by 20%."
+   ],
+   "name": "Darkness Inside You"
+  },
+  "652": {
+   "effects": [
+    "Nova: Heavy Attacks have a 50% chance to refresh Nova Surge Buffs.",
+    "Night Thrasher: The Shock Baton Gadget Debuff passively reduces Defensive Power Rate by 30%.",
+    "Darkhawk: Starts the Fight with a Permanent Armor Up Buff increasing Armor Rating by 45%."
+   ],
+   "name": "New Warrior Blood"
+  },
+  "653": {
+   "effects": [
+    "Nova: Nova gains +40% Perfect Block chance when triggering Auto-Block.",
+    "Annihilus: +65% Physical Resistance while Unstoppable."
+   ],
+   "name": "Total Annihilation"
+  },
+  "655": {
+   "effects": [
+    "Nova: Increase the potency of Fury Buffs by 15%.",
+    "Gamora, Drax: When performing a Dash Attack, 30% chance to gain an Aptitude Buff increasing the Potency of Fury by 15% for 12 seconds."
+   ],
+   "name": "Phalanx Feud"
+  },
+  "656": {
+   "effects": [
+    "Nova: Starting a Dash Attack immediately after Dashing Back generates 5 additional Nova Charges.",
+    "Rhino: 30% Chance to refresh Fury Buffs when striking with Medium Attacks.",
+    "Iron Fist: Medium Attacks gain +5% chance for each Armor Break Debuff on the Opponent to inflict a Stun Debuff for 1.5 seconds."
+   ],
+   "name": "Full Speed Ahead"
+  },
+  "659": {
+   "effects": [
+    "Odin: Once per fight, Heimdall will intercede on Odin's behalf, dash back and hold Block for 1.5 seconds to gain a Perfect Block Buff, increasing Perfect Block chance by 100% for 10 second(s).",
+    "Heimdall: Heimdall's indefinite Fury, Armor Up, and Precision Buffs gained from charging a Heavy Attack gain +15% potency."
+   ],
+   "name": "Oathsworn"
+  },
+  "661": {
+   "effects": [
+    "Phoenix: Light Attack 3 inflicts a personal Instant Incinerate.",
+    "All Champions gain 5% Regeneration effect potency."
+   ],
+   "name": "...We Are Reborn"
+  },
+  "665": {
+   "effects": [
+    "All Mutants and X-Men except Professor X: Once per fight when a Champion would be knocked out, immediately regenerate 7.5% of their Max Health for each Cerebro Charge. Max 30% Health.",
+    "Cyclops (New Xavier School), Cyclops (Blue Team): Beam Hits gain +100% Critical Damage Rating and inflict an Armor Break, reducing Armor Rating by 20% for 5 seconds.",
+    "Phoenix: The stack limit for personal Fury Buffs is increased by 3."
+   ],
+   "name": "Drug L"
+  },
+  "666": {
+   "effects": [
+    "All Mutants and X-Men except Professor X: Gain 6% of a bar of Power every 10 second(s) for each Cerebro Charge. Max 24%.",
+    "Nightcrawler, Archangel: +30% Bleed Potency.",
+    "Beast: Increase the duration of Freestyle and Acrobatic Combo Success by 5 second(s)."
+   ],
+   "name": "Gateway"
+  },
+  "674": {
+   "effects": [
+    "Terrax: Gain +15% chance to Armor Break during his Rock Field.",
+    "Red Hulk: When hitting the Opponent with his first Heavy Hit, Red Hulk consumes a Heat Charge and inflicts an Armor Break Debuff, reducing the Opponent's Armor Rating by 50% for 8 seconds.",
+    "Mordo: While charging a Heavy Attack, if the Opponent attacks, Mordo will evade. This ability has a 25 second cooldown."
+   ],
+   "name": "Elders' Game"
+  },
+  "677": {
+   "effects": [
+    "Proxima Midnight: Gains Combo Shield whenever she has less than 50 hits in her Combo Meter.",
+    "Thor (Ragnarok): Activation of Boon of the Gods requires 10 less hits on the Combo Meter and 5 less hits whenever struck."
+   ],
+   "name": "Asgardian Hunt"
+  },
+  "68": {
+   "effects": [
+    "Synergy Champions: At the start of each fight, rapidly gain 50% of a Bar of Power."
+   ],
+   "name": "Chai Time"
+  },
+  "682": {
+   "effects": [
+    "Red Goblin: While Frenzy is active, Fury and Energize Buffs have 15% increased Potency.",
+    "Iron Patriot: Arc Overload grants a Fury Buff increasing Attack Rating by 300% for 30 seconds, no longer burns out Iron Patriot's Suit, and can be reactivated after a 60 second cooldown."
+   ],
+   "name": "Osborn to be Wild"
+  },
+  "693": {
+   "effects": [
+    "Sersi: Transmutation Buffs grant +10% Energy Resistance and reduce the Opponent's Energy Resistance by 3%. Transmutation Buffs that exceed the maximum do not count towards this ability.",
+    "Ikaris: Energize Buffs grant +5% Energy Resistance and reduce the Opponent's Energy Resistance by +1.5%."
+   ],
+   "name": "Eternal Partner"
+  },
+  "694": {
+   "effects": [
+    "Sersi: Special Hits that break through an Opponent's Block with an Unblockable Buff become Guaranteed Critical Hits.",
+    "Hercules: Feat of Strength: Gain 1 Indefinite Strength for every 10 hits in the Combo Meter."
+   ],
+   "name": "Partygoers"
+  },
+  "695": {
+   "effects": [
+    "Sersi: 60% chance to gain an Unstoppable Buff for 6 seconds when a Glancing Buff expires.",
+    "Spider-Ham: While Unblockable, activating a Special Attack places 2 additional Porker Poppers if the Opponent is Taunted."
+   ],
+   "name": "Ham's Odyssey"
+  },
+  "697": {
+   "effects": [
+    "Sersi: Start the fight with an indefinite Armor Up increasing Armor Rating by 60."
+   ],
+   "name": "Unrequited Romance"
+  },
+  "698": {
+   "effects": [
+    "Shang-Chi: Dodging an attack with Perfect-Timing inflicts a Falter Passive, causing 100% of the Opponent's attacks to Miss for 2 second(s). Contact Attacks bypass this Falter and remove the effect.",
+    "Mister Negative: Degeneration Debuffs triggered in Special Attack 2 have a 10% chance to inflict an additional copy of themselves."
+   ],
+   "name": "Shadowland"
+  },
+  "699": {
+   "effects": [
+    "Shang-Chi: Start the fight with 4 Chi Charges.",
+    "Iron Fist, Iron Fist (Immortal): Each hit in all Special Attacks are Guaranteed Critical Hits and gain a flat +35% personal Armor Break Ability Accuracy."
+   ],
+   "name": "Master Martial Artists"
+  },
+  "7": {
+   "effects": [
+    "Other Synergy Champions: If at or below 20% health at the start of the fight, heal 10% of Max Health over 6 second(s). Otherwise gain 60% of a Bar of Power over 6 seconds(s) instead."
+   ],
+   "name": "H.E.R.B.I.E."
+  },
+  "700": {
+   "effects": [
+    "Shang-Chi: Critical Hits bypass +20% of Armor and Resistances.",
+    "Spider-Man: Spider-Man can use Perfect-Timing while performing a Well-timed Block or Dodging an Attack, gaining a Cruelty Buff, increasing Critical Damage Rating by 45% for 30 seconds."
+   ],
+   "name": "The Way of the Spider"
+  },
+  "706": {
+   "effects": [
+    "Synergy Members: Start each fight with 10 indefinite Precision Passives. These Precisions are consumed by Light and Medium hits to become Guaranteed Critical Hits."
+   ],
+   "name": "Utshaba"
+  },
+  "707": {
+   "effects": [
+    "Synergy Members: Start each fight with an indefinite Failsafe Charge. When struck by a Special Attack 1 or 2, consume the Failsafe to gain an Indestructible Passive for the duration of the Special."
+   ],
+   "name": "Q Branch"
+  },
+  "712": {
+   "effects": [
+    "Synergy Champions: Incoming Degeneration effects from Champions suffer -30% potency for each unique Synergy Champion on the team."
+   ],
+   "name": "Order of the Web"
+  },
+  "715": {
+   "effects": [
+    "Synergy Champions: Medium Attacks inflict a non-stacking 25% Spectre Debuff for 3 seconds.",
+    "Silk: Spectre Debuffs gain +25% flat potency."
+   ],
+   "name": "Good Is Bad For Business"
+  },
+  "717": {
+   "effects": [
+    "Captain America, Captain America (Infinity War), Captain America WWII: Each time the Opponent is immune to a Stun effect, gain an Unstoppable Buff for 1 second."
+   ],
+   "name": "Patriot Garrison"
+  },
+  "718": {
+   "effects": [
+    "Thor: Landing any Special Attack inflicts a Shock Debuff dealing 40% of Attack over 8 seconds.",
+    "Thor (Jane Foster): Personal Shock effects last 25% longer.",
+    "Thor (Ragnarok): Heavy Attacks inflict a Shock Debuff, dealing 50% of Attack over 8 seconds."
+   ],
+   "name": "Asgardian Republic"
+  },
+  "719": {
+   "effects": [
+    "Silver Centurion: While Locked-On Special Attack 1 inflicts Energy Vulnerability, decreasing Energy Resistance by 15% for 10 seconds.",
+    "Iron Man (Infinity War): Each Molecular Armor effect increases the potency of Armor Break by 10%.",
+    "Superior Iron Man: Gaining an Armor Up Buff grants a Fury Buff, increasing Attack Rating 30% for 12 seconds.",
+    "Iron Man: Special Attacks inflict a Plasma Passive dealing 40% of Attack over 6 seconds."
+   ],
+   "name": "Iron Men"
+  },
+  "72": {
+   "effects": [
+    "Valkyrie: Valkyrie starts the fight with one of her Bulwark Buffs.",
+    "Thor(Ragnarok): Striking into the Opponent's Block inflicts a passive Instant Shock dealing 50% of the damage that would've been dealt by the unblocked attack.",
+    "Korg: The maximum amount of Crowd Excitement Korg can generate from Blocking is doubled",
+    "Hulk (Ragnarok): While SMASHing, Hulk gains +70% Block Penetration."
+   ],
+   "name": "Straight Outta Sakaar"
+  },
+  "722": {
+   "effects": [
+    "Spider-Man: While at 5+ Webbing, inflict an indefinite Shock Debuff dealing 60% of Attack as Energy Damage per second.",
+    "Silver Sable: Decrease the cooldown on Sable Mines by 2 seconds."
+   ],
+   "name": "Frenemies"
+  },
+  "725": {
+   "effects": [
+    "M'Baku: During the Opponent's Special Attacks, personal Bleeds have 25% reduced Tick Rate.",
+    "Black Panthers: Activating a Special Attack grants a +10% Fury Passive for the duration of the attack and 10 seconds after."
+   ],
+   "name": "Voices of Wakanda"
+  },
+  "729": {
+   "effects": [
+    "Isophyne: Isophyne starts with 4 Ego and their Max Ego is increased by +2.",
+    "Gladiator: Heavy Attacks grant +1 additional Confidence Buff. Furthermore, while the Opponent is suffering from Intimidate, Dashing forward inflicts a Root Passive for the duration of the Dash. Cooldown: 8 seconds."
+   ],
+   "name": "Those that are truly confident"
+  },
+  "73": {
+   "effects": [
+    "Valkyrie: Gain +21% Block Proficiency for each other synergy member present.",
+    "Odin: When Odin bestows one or more of his Cross-Fight Buffs, the recipient also receives a Bulwark Buff increasing Block Proficiency by 10%, lasting as long as the Cross-Fight Buff.",
+    "Hela: The first time in the fight Hela is at or below 50% of her Maximum Health, she triggers her personal Physical Resistance Buff."
+   ],
+   "name": "Jailors and the Jailed"
+  },
+  "730": {
+   "effects": [
+    "Isophyne: Activating Special 1 at 3 Bars of Power inflicts 3 Energy Vulnerabilities.",
+    "Howard the Duck: Parry Mastery Stun duration gains +0.4 seconds.",
+    "Gwenpool: Whenever a personal effect is refreshed via Bleed consumption, gain an indefinite +15% Fury Passive. Max: 5.",
+    "Spot: Untouchable expires 50% slower during the Opponent's Special Attacks.",
+    "The Maker: Isophyne is included as one of The Maker's Planned Obsolescence synergy partners receiving full potency. Increase the potencies by 5% flat for both Champions."
+   ],
+   "name": "Get out of my Dimension!"
+  },
+  "731": {
+   "effects": [
+    "#Eidols: Whenever a personal Immunity triggers, gain a +8% Fury Passive for 12 seconds. Max stacks: 3.",
+    "Ægon: The final hit of Heavy Attack Purifies 2 Debuffs."
+   ],
+   "name": "Found Technology"
+  },
+  "744": {
+   "effects": [
+    "Synergy Champions: Knocking down the Opponent grants a non-stacking +[100] Cruelty Buff for 6 seconds."
+   ],
+   "name": "Founder"
+  },
+  "746": {
+   "effects": [
+    "The Destroyer: The first hit of a Special Attack Destroys one Unstoppable and Unblockable Buff on the Opponent, replacing them with Rubble Buffs that last 10 seconds.",
+    "Maestro: Gain 25% Cosmic Radiation potency.",
+    "Overseer: Personal Taunt Cooldown is reduced by 10 seconds."
+   ],
+   "name": "Soul Possession"
+  },
+  "749": {
+   "effects": [
+    "Dust: After spinning up a Sandstorm, Dust's next Special Attack is Passively Unblockable.",
+    "Ms. Marvel (Kamala Khan): When Kamala's Poison Immunity is triggered, she gains a Fury Buff, increasing her Attack Rating by +15% for 5 seconds. Max stacks: 3."
+   ],
+   "name": "Connected Faith"
+  },
+  "75": {
+   "effects": [
+    "Valkyrie: While Valkyrie has an equal number of Pierce and Bulwark Buffs, she becomes Unstoppable while charging her Heavy Attack.",
+    "Misty Knight: Spending Anti-Metal or Cryogenic Charges pauses active Equilibrium Buffs for 11 second(s)."
+   ],
+   "name": "A Night to Remember"
+  },
+  "754": {
+   "effects": [
+    "Synergy Champions: Activating a Special Attack 3 grants a non-stacking 10% Amplify Passive for 15 seconds."
+   ],
+   "name": "Shadows on the Road Ahead"
+  },
+  "758": {
+   "effects": [
+    "Legion of Monsters Champions: At the start of each fight, inflict a 35% Torment Passive for 30 seconds.",
+    "Punisher: Gain this synergy's bonuses after taking a Lethal Blow during the Quest."
+   ],
+   "name": "Tormented Souls"
+  },
+  "76": {
+   "effects": [
+    "Valkyrie and Hulkling: Increase the potency of Pierce effects by 10%.",
+    "Masacre: The final hit of Masacre's Heavy Attack inflicts an Intimidate Debuff for 10 second(s), making the Opponent more defensive and reducing their Block Proficiency by 20%. This ability can't be activated again until the next time Masacre's bat ignites."
+   ],
+   "name": "Chip Out The Old Block"
+  },
+  "760": {
+   "effects": [
+    "Synergy Members: +10% Bleed Debuff duration.",
+    "Punisher: While Indestructible, hits grant a Regeneration Passive, recovering 2% of Missing Health over 3 seconds. Max 3 stacks."
+   ],
+   "name": "It's Alive!"
+  },
+  "762": {
+   "effects": [
+    "Moondragon: While Psionic Transcendence is not active, gain a +[750] Energy Resistance Buff.",
+    "Mantis: Start each fight with a dormant Physical Resistance Charge. When struck, the charge is removed and replaced with a +[1,400] Physical Resistance Buff for 6 seconds."
+   ],
+   "name": "Psycho-Mantis"
+  },
+  "764": {
+   "effects": [
+    "Moondragon: Hitting the Opponent's Block with Basic Attacks grants a non-stacking Fury Passive increasing Attack Rating by 20% for 4 seconds.",
+    "Iron Fist, Iron Fist (Immortal): Critical Hits grant an indefinite Heavy Proficiency Passive increasing Attack Rating by +20% during Heavy Attacks. Max Stacks: 3. These Passives are removed after landing a Heavy Attack."
+   ],
+   "name": "Open Palm Technique"
+  },
+  "766": {
+   "effects": [
+    "Mantis: Gain a True Accuracy Buff for 10 seconds when the Opponent is inflicted with Sleep.",
+    "Sandman: After Special Attack 3, Sandman gains a Fury Passive granting 30% Attack Rating for 10 seconds."
+   ],
+   "name": "Bring Me A Dream"
+  },
+  "768": {
+   "effects": [
+    "Spider-Man (Stark Enhanced): Increases the EMP Webshot's Power Drain potency by 15%",
+    "Spider-Man (Stealth Suit): +5% Physical Resistance per unspent Web Cartridge.",
+    "Sandman: While the Opponent is Decelerated by Sandman's Special Attack 2, Sandman cannot Miss."
+   ],
+   "name": "I Just Want To Go Home"
+  },
+  "771": {
+   "effects": [
+    "Iceman, Misty Knight: When an Opponent fails to trigger an Evade due to Coldsnap, inflict a personal Frostbite Passive.",
+    "Emma Frost, Elsa Bloodstone, Kate Bishop: When an Opponent fails to trigger an Evade due to Coldsnap or reduced Ability Accuracy, inflict a Frostbite Passive for 10 seconds, dealing 50% of Attack as Energy Damage when it expires."
+   ],
+   "name": "Ice Queens"
+  },
+  "773": {
+   "effects": [
+    "America Chavez: Reduce the duration of the Opponent's Indestructible and Regeneration Buffs by 40% for each unique Parallel Dimension.",
+    "Kate Bishop: The max stack limit of all Trick Arrows is increased by 1."
+   ],
+   "name": "Don't Call Me Princess"
+  },
+  "775": {
+   "effects": [
+    "Viv: When Vivian doesn't participate in a fight, her father repairs her. At the start of her next fight she gains a Self-Repair Buff, Regenerating 10% of her Max Health over 20 seconds. This Buff is removed if Viv is Stunned.",
+    "Vision, Vision (Age of Ultron): +0.5% Attack Rating for each percent of Viv's missing Health, unless Viv is Knocked Out. Counts highest Health Viv on team."
+   ],
+   "name": "I Will Save Her"
+  },
+  "778": {
+   "effects": [
+    "Viv: Advanced use of Holograms grants a 5% chance to Evade, increased by 2% flat for each active Solar Energy. Does not trigger while Blocking or Phasing.",
+    "Mysterio: Illusion Gas; Power Drain potency and chance to cause Miss are increased by 4% flat and 10% flat, respectively."
+   ],
+   "name": "Hologramastery"
+  },
+  "780": {
+   "effects": [
+    "Iron Fist, Iron Fist (Immortal): Well-Timed Blocks inflict a Stagger Debuff for 2 seconds. Perfectly-Timed Blocks inflict Fateseal instead.",
+    "Jessica Jones: Increased chance of throwing the Fire Hydrant with Special Attack 1. Also, whenever the Opponent suffers a Debuff, 40% chance to inflict a Stagger Passive for 4 seconds."
+   ],
+   "name": "Best Man"
+  },
+  "781": {
+   "effects": [
+    "Daredevil (Classic), Daredevil (Hell's Kitchen): Whenever the Combo Meter rises past a multiple of 10, gain a True Accuracy Passive for 8 seconds. When fighting Science Champions, gain a True Strike Passive instead.",
+    "Jessica Jones: Increased chance of throwing the Pizza with Special Attack 1. Also, Dodging attacks using Dexterity inflicts a non-stacking Exhaustion Debuff, lowering Critical Damage Rating by [500] for 6 seconds, instead of granting Precision."
+   ],
+   "name": "Extrajudicial Proceedings"
+  },
+  "782": {
+   "effects": [
+    "Synergy Members: Filling a Bar of Power randomly grants a dormant Unblockable, True Damage, or 40% Prowess Charge. Charges are removed and replaced with their corresponding Buffs during this Champion's next Special Attack.",
+    "Jessica Jones: Striking a Champion who has an active Unblockable, True Damage, or Prowess effect grants a Fury Passive, increasing Attack Rating by 30% for 8 seconds."
+   ],
+   "name": "Punching Purple People"
+  },
+  "786": {
+   "effects": [
+    "Mantis: The duration of personal Infuriate and Intimidate Debuffs are increased by 2 seconds flat.",
+    "Gamora: While Gamora has at least 6 Personal Buffs active, her Special 2 becomes passively Unblockable.",
+    "Star-Lord: Elemental Guns are no longer random, effects can be cycled by double tapping Block. Effects are cycled: Fire, Air, Water, Earth."
+   ],
+   "name": "This One Can Sense That Things Are Complicated"
+  },
+  "787": {
+   "effects": [
+    "Mantis: Mantis' Sleep inflicted by charging a Heavy Attack has its duration increased by 0.5 seconds flat.",
+    "Drax: Drax can now Parry non-contact hits."
+   ],
+   "name": "This One Won't Let Anything Go Over Your Head!"
+  },
+  "788": {
+   "effects": [
+    "Mantis: While at least 1 personal Cruelty Buff is active, gain a Precision Passive, increasing Critical Rating by [350].",
+    "Rocket Raccoon: Inflicting Power Drains with Special 1 now consumes 12 scrap instead of 15."
+   ],
+   "name": "This One Thinks That Violence Is Not The Answer"
+  },
+  "79": {
+   "effects": [
+    "Scorpion: 25% chance to inflict Sting Debuffs on light attacks.",
+    "Spider-Ham: When triggering Porker Poppers 30% chance to inflict a Concussion Debuff, reducing Ability Accuracy by 40% for 10 second(s)."
+   ],
+   "name": "Problems With Cartoons"
+  },
+  "793": {
+   "effects": [
+    "Galan: The Harvest lasts 50% longer, and the potency of Galan's Regeneration Buff is increased by 50%.",
+    "Other Synergy Champions: Once per fight when falling below 50% Health, gain a Regeneration Passive, healing 20% of missing Health over 10 seconds."
+   ],
+   "name": "Heralds of Life"
+  },
+  "794": {
+   "effects": [
+    "Synergy Champions: Synergy Champions: When activating a Well-Timed Special, gain a +10% Fury Passive for the duration of the attack."
+   ],
+   "name": "Stay in Your Zone"
+  },
+  "796": {
+   "effects": [
+    "Iron Fist, Iron Fist (Immortal), Captain America (Sam Wilson): Gain +[60] Armor Rating and 3% Power Gain."
+   ],
+   "name": "Knights in Shining Armor"
+  },
+  "8": {
+   "effects": [
+    "Other Synergy Champions: Block Proficiency increased by 5%. Perfect Block chance increased by 10%. If all other Champions in this Synergy are present, Well-Timed Blocks inflict up to one 10% Weakness Debuff on the Opponent for 6 second(s)."
+   ],
+   "name": "Force Block"
+  },
+  "80": {
+   "effects": [
+    "Scorpion: Gain 15% Perfect Block Chance while Scorpion-Sense is active.",
+    "Spider-Man (Stealth Suit): Evading or Dodging an attack also causes Spider-Man's Web Cartridge Debuffs to be paused for 3.5 seconds.",
+    "Spider-Man (Stark Enhanced): Refreshing a Taunt by Dodging Back and Idling for 1 second also inflicts a Cowardice Debuff on the Opponent reducing Special Attack Damage by 25% for 10 seconds."
+   ],
+   "name": "JJJ Demanded It"
+  },
+  "802": {
+   "effects": [
+    "Sauron: Upon gaining 1 Power Bar, gain a 20% Armor Up Passive for 6 seconds.",
+    "Havok: Upon consuming 1 Power Bar, gain a 20% Prowess Passive for 6 seconds."
+   ],
+   "name": "Leeching Thy Friend"
+  },
+  "803": {
+   "effects": [
+    "Sauron, Mister Sinister, Doctor Strange: Whenever an Opponent heals, gain a 2% Regen Passive for 2 seconds. This goes on Cooldown for 5 seconds. Once this has been triggered 4 times, Inflict Heal Block Passive for 12 seconds."
+   ],
+   "name": "No More Patients"
+  },
+  "804": {
+   "effects": [
+    "Kitty Pryde: When Phase expires, there is a 30% chance to consume no Prowess.",
+    "Wolverine: Landing a Heavy Attack consumes all personal Regeneration effects, each effect removed this way grants a Fury Buff, increasing Attack Rating by 15% for 10 seconds. Max stacks 3."
+   ],
+   "name": "Shadowy History"
+  },
+  "806": {
+   "effects": [
+    "Kitty Pryde: Become Immune to reverse controls, and each time this immunity is triggered gain +1 personal Prowess. Cooldown 0.8 seconds.",
+    "Emma Frost: Gain +20% Attack Rating in diamond form and gain +20% Combat Power Rate in telepathic form."
+   ],
+   "name": "Through Thick And Thin"
+  },
+  "808": {
+   "effects": [
+    "Kitty Pryde: When Phasing gain +1 Fury Buff for each Debuff on Kitty, each increasing Attack Rating by 7% for 5 seconds Max 5.",
+    "Magneto: The first hit of every Special Attack inflicts a Weakness Debuff, reducing Attack Rating by 30% for 6 seconds."
+   ],
+   "name": "Worth A Shot"
+  },
+  "811": {
+   "effects": [
+    "All Champions except Guardian: The first 3 blocks have a 100% chance to be Perfect Blocks."
+   ],
+   "name": "On Guard for Thee"
+  },
+  "814": {
+   "effects": [
+    "Ultron: Each Armor Up Buff also reduces incoming Stun Debuff duration by 0.5 seconds.",
+    "Metal Champions: Gain +5% Health & Attack Rating."
+   ],
+   "name": "My World of Metal"
+  },
+  "815": {
+   "effects": [
+    "Ultron: Function (Cauterize) now lingers for an additional 7 seconds after the Special Attack is over. Additionally, While Function (Cauterize) is active, the opponent is Passively Heal Blocked."
+   ],
+   "name": "My Beautiful Meteor"
+  },
+  "816": {
+   "effects": [
+    "#Spider-Verse Heroes: Gain a 10% chance to Evade. Does not trigger while Blocking, except against Unblockable attacks."
+   ],
+   "name": "You're Like Me!"
+  },
+  "817": {
+   "effects": [
+    "Spider-Man: Heavy Attack inflicts a non-stacking Injury Debuff for 13 seconds. Hitting an Injured Opponent bypasses 100% of Physical Resistance.",
+    "Doctor Octopus: Gain a 15% chance to Evade attacks for each active Breakthrough. Does not trigger while Blocking."
+   ],
+   "name": "Holding Back This Whole Time"
+  },
+  "822": {
+   "effects": [
+    "Scarlet Witch: When Chaos Surge activates, 8% chance to gain an Aptitude Buff increasing Fury, Precision, and Armor Up Buffs by 30% for 18 seconds.",
+    "Vision, Vision (Age Of Ultron): Landing a Heavy Attack on an Opponent suffering Heal Block grants a non-stacking Fury, increasing Attack Rating by [1,000] for 15 seconds."
+   ],
+   "name": "Till Infinity Do Us Part"
+  },
+  "823": {
+   "effects": [
+    "Scarlet Witch: Chaos Surge creates Regeneration instead of Prowess, granting 4% of missing health over 12 seconds. Prowess can no longer be copied, but Regeneration can.",
+    "Dormammu: Imbued Attacks have [1,250] increased Attack Rating.",
+    "Mephisto: While the Opponents Soul is Imprisoned, 100% chance to activate Aura of Incinerate when the Opponent fails to gain a Buff through Chance. Cooldown 1 second.",
+    "Dimensional Beings: +15% increased Ability Power Gain Rate."
+   ],
+   "name": "Demonic Pact"
+  },
+  "824": {
+   "effects": [
+    "Sabretooth: 20% chance for his low-kick first Medium Attack to be Unblockable. Additionally, If the opponent activates an Unstoppable effect as a result of this attack, it expires instantly.",
+    "Old Man Logan: +120% Regeneration Rate when hitting opponents."
+   ],
+   "name": "Untamed Force"
+  },
+  "835": {
+   "effects": [
+    "Thor (Ragnarok), Korg: +15% Attack Rating and +20% Fury Buff for 8 seconds when using a Medium Attack to end a Basic Attack Combo while their opponent is pinned against the wall."
+   ],
+   "name": "Pit Fighters"
+  },
+  "838": {
+   "effects": [
+    "Mangog: Start the fight with 1 Full Bar of Power.",
+    "Loki: Gain 10% Attack Rating for each Unique Buff that is active."
+   ],
+   "name": "Amber Prison"
+  },
+  "839": {
+   "effects": [
+    "Mangog: when becoming Enraged, inflict the Opponent with a 5 second Suppression Debuff reducing their Defensive Combat Power Rate by 30%."
+   ],
+   "name": "Rage On"
+  },
+  "841": {
+   "effects": [
+    "Mangog: While Enraged all attacks deal a burst of Energy Damage equal to 6% of Modified Attack.",
+    "#Avengers: Start the fight with an indefinite Passive Fury granting 10% Attack Rating."
+   ],
+   "name": "Banished"
+  },
+  "842": {
+   "effects": [
+    "Mangog: Become immune to Nullify. Each time Nullify is prevented, gain a non-stacking Precision Buff, granting +[350] Critical Rating for 15 seconds.",
+    "Odin: When dealing a burst of Direct Damage using a Special 2 Attack, the damage threshold of each burst is increased by 150% of Odin's Base Attack Rating."
+   ],
+   "name": "Fueled With Rage"
+  },
+  "845": {
+   "effects": [
+    "Masacre: Gain a 10% chance to Evade, against an Incinerated Opponent, while not Blocking.",
+    "Daredevil (Classic): Evading a Projectile grants a Passive Precision, increasing Crit Rate by [100] for 10 seconds.",
+    "Daredevil: Armor Break Debuffs have their Duration increased by 25%."
+   ],
+   "name": "Spiritual Strength"
+  },
+  "847": {
+   "effects": [
+    "Aegon: Well-Timed Blocks guarantee Ægon's next hit will be a Critical Hit.",
+    "Sentry: +[100] Critical Rating and Critical Damage Rating for each Reality Warp."
+   ],
+   "name": "Friends"
+  },
+  "85": {
+   "effects": [
+    "Synergy Members: When the champion gains 4+ Buffs, gain an Aptitude Buff, increasing the potency of Precision, Fury and Armor Up Buffs by 25% for 15 seconds. Cooldown: 15 seconds."
+   ],
+   "name": "Galactic Disruption"
+  },
+  "851": {
+   "effects": [
+    "Mister Fantastic: Gain 5% of his Max Power each time a Buff is Nullified or its Duration expires off the Opponent.",
+    "Doctor Doom: Heavy Attacks apply up to 1 Armor Break Debuff for 10 second(s), reducing Armor Rating by 15%."
+   ],
+   "name": "College Rivals"
+  },
+  "853": {
+   "effects": [
+    "Tech and Science Champion's Debuffs also apply an indefinite Power Sting, dealing Direct Damage equal to 60% of their Attack Rating when the Opponent activates a Special Attack. The Power Sting stacks up to 3 times."
+   ],
+   "name": "Shared Knowledge - Robotics"
+  },
+  "856": {
+   "effects": [
+    "Sorcerer Supreme, Doctor Strange, Symbiote Supreme: Gain Passive Prowess whenever a Blessing activates, increasing Special Attack damage by 15%. These last until the end of the Synergy Member's next Special Attack, and are capped at 3."
+   ],
+   "name": "Doctors Strange"
+  },
+  "857": {
+   "effects": [
+    "Sorcerer Supreme: The Nullification Aura is paused during any Special Attack.",
+    "Doctor Voodoo: Special Attack 2 can convert up to 3 of any Buff, instead of only converting Loas.",
+    "Dormammu: All effects that Power Drain the Opponent also deal a burst of Energy Damage for 15% of Dormammu's attack.",
+    "Mordo: Mordo's Fury Buffs last an additional 4 second(s)."
+   ],
+   "name": "Mystic Arts"
+  },
+  "867": {
+   "effects": [
+    "Hulk (Ragnarok): SMASH attacks have a 20% chance to be Unblockable.",
+    "Thor (Ragnarok): Special attacks become Unblockable while the Boon of the Gods Power Gain is active."
+   ],
+   "name": "Team Building Exercise"
+  },
+  "870": {
+   "effects": [
+    "Hulk (Ragnarok): +[1,000] Physical Resistance while Unstoppable.",
+    "Loki: Basic Attacks against Loki have a 10% chance to miss, while his opponent is under the effect of any Buff."
+   ],
+   "name": "Puny God"
+  },
+  "878": {
+   "effects": [
+    "Ghost: Special Attacks are Unblockable when triggered while Phasing."
+   ],
+   "name": "Microscopic Observation"
+  },
+  "880": {
+   "effects": [
+    "Taskmaster: Instantly gain 5% of his Max Power each time he Exploits a Weakness.",
+    "Crossbones: Entering Overrun resets the Duration of all active Fury Buffs."
+   ],
+   "name": "Professors in Crime"
+  },
+  "881": {
+   "effects": [
+    "Taskmaster: If Taskmaster's current Exploit Weakness target attack is a Special Attack, all his Special Attacks become Unblockable.",
+    "Hawkeye: Special 3 gains a 100% chance to trigger Hemorrhage, without counting towards Hawkeye's Hemorrhage activation limit."
+   ],
+   "name": "Mostly Average Joes"
+  },
+  "883": {
+   "effects": [
+    "Taskmaster: Gains a 30% chance to Evade, against his current Exploit Weakness target.",
+    "Moon Knight: All of Moon Knight's Moon Phase Abilities gains a flat +10% chance to trigger."
+   ],
+   "name": "Termination Contract"
+  },
+  "884": {
+   "effects": [
+    "Vulture: Gain +5% Attack Rating & Immunity to Shock effects.",
+    "Other Synergy Champions: +5% Attack Rating & +15% Debuff Duration."
+   ],
+   "name": "Battlerealm's Changing..."
+  },
+  "885": {
+   "effects": [
+    "Vulture: Gain +5% Attack Rating & Immunity to Poison effects.",
+    "Other Synergy Champions: +5% Attack Rating & +15% Buff Duration."
+   ],
+   "name": "...time We Changed Too."
+  },
+  "892": {
+   "effects": [
+    "Magneto: Knocking the opponent down has a 100% chance to inflict a 12 seconds Heal Block Debuff. [Magnet] Inflict a Heal Block Passive instead."
+   ],
+   "name": "My Brotherhood"
+  },
+  "893": {
+   "effects": [
+    "Magneto: While fighting #Hero Champions, Special Attacks gain +15% Attack rating and gain a Cruelty Buff lasting 14 seconds and increasing Critical Damage Rating by [800]."
+   ],
+   "name": "My Contest Now"
+  },
+  "895": {
+   "effects": [
+    "The Champion: When The Champion has 3 or more Persistent Charges, he starts the fight with an Indestructible Buff, ignoring all incoming damage for 8 seconds.",
+    "Mephisto: +15% Attack Rating for each Persistent Charge.",
+    "Sentry: +12% Attack Rating for each Reality Warp."
+   ],
+   "name": "Persistent Force"
+  },
+  "898": {
+   "effects": [
+    "Squirrel Girl: Start the fight with a permanent Fury Buff, increasing Attack Rating by 10% until Squirrel Girl's Combo Meter reaches 0 hits for any reason.",
+    "Luke Cage: When hit by the Opponent's Special 3 while Indestructible gain a Fury Buff, increasing Attack Rating by 50% for 20 seconds."
+   ],
+   "name": "Supernanny"
+  },
+  "9": {
+   "effects": [
+    "Other Synergy Champions: The last hit of Special Attack 1 Incinerates the Opponent for 6 second(s). This also inflicts Heal Block if all other Champions in this Synergy are present."
+   ],
+   "name": "Rain of Fire"
+  },
+  "90": {
+   "effects": [
+    "Air-Walker: Cross Fight Ability - The first fight Air-Walker participates in grants him an indefinite Precision Buff, increasing Critical Rating by +[450] for that fight and the next 2 fights he participates in."
+   ],
+   "name": "Herals of Galactus"
+  },
+  "900": {
+   "effects": [
+    "Squirrel Girl: Each time a Robot Opponent is immune to one of Squirrel Girl's personal Bleed effects, Squirrel Girl converts the Bleed into a Shock effect.",
+    "Sentinel: Each time an Opponent is immune to one of Sentinel's personal Incinerate or Shock effects, Sentinel gains 2 Analysis Charges. If Sentinel has his Analysis Complete, he deals a burst of Energy Damage each time instead."
+   ],
+   "name": "Hardwired for Heartbreak"
+  },
+  "908": {
+   "effects": [
+    "Psycho-Man: Psycho-Man's Ability Accuracy reduction effects reduce Ability Accuracy by an additional -15% flat.",
+    "Invisible Woman: While Invisible, all Attacks have a 25% chance to place a Vulnerability Debuff on the Opponent."
+   ],
+   "name": "Malice"
+  },
+  "910": {
+   "effects": [
+    "Psycho-Man: Heavy Attacks grant a non-stacking Armor Up Buff, increasing Armor Rating by +600 for 10 second(s).",
+    "Ant-Man: Special Attack 1 inflicts the Opponent with 2 Stagger Debuffs for 12 second(s), each causing the next Buff they trigger to be immediately Nullified.",
+    "Wasp: +[1,200] Block Proficiency.",
+    "Yellowjacket: When the Opponent fills a Bar of Power, they gain a Power Sting Debuff for 8 seconds, dealing 30% of Yellowjacket's Attack as Direct Damage."
+   ],
+   "name": "Dinky Shrinks"
+  },
+  "911": {
+   "effects": [
+    "Psycho-Man: Lock and Heal Block effects last 15% longer.",
+    "Deadpool and Deadpool (X-Force): Heavy Attacks inflict a non-stacking Armor Break Debuff, reducing Armor Rating by -[700] for 10 second(s). Reverberate this!",
+    "Man-Thing: Gain up to 25% Perfect Block Chance based on Agitation."
+   ],
+   "name": "There Goes the Multiverse"
+  },
+  "912": {
+   "effects": [
+    "Thor (Ragnarok): Heal 10% of Max Health each time an opponent is knocked out.",
+    "Hela: Start each fight with 100 Spirit of the Dead Charges."
+   ],
+   "name": "Not Afraid of Death"
+  },
+  "913": {
+   "effects": [
+    "Thor: +15% Attack Rating while Thunder God's Wrath is active.",
+    "Other Synergy Champions: When brought below 20% Max Health, gain an Indestructible Passive lasting 5 seconds."
+   ],
+   "name": "Friend From Work"
+  },
+  "914": {
+   "effects": [
+    "Thor (Ragnarok): When struck for the first time each fight, 100% chance to gain a Combo Shield Passive lasting 10 seconds.",
+    "Loki: Ascendant Signature Ability is enhanced to provide Power Gain while below 2 bars of Power."
+   ],
+   "name": "Like Old Days"
+  },
+  "919": {
+   "effects": [
+    "Night Thrasher: Medium Attacks have a 30% chance to inflict Bleed, dealing 50% of Base Attack as Direct Damage over 3 seconds. As the Moon waxes, the chance to Bleed on Medium Attacks is 100%.",
+    "Punisher, Moon Knight: The duration of Bleeds are increased 40%."
+   ],
+   "name": "Midnight Pursuit"
+  },
+  "920": {
+   "effects": [
+    "Night Thrasher: Night Thrasher becomes Unstoppable when Dashing towards the enemy.",
+    "Ghost Rider: The duration of Bleed, Fate Seal, and Damnation are increased by 40%."
+   ],
+   "name": "Justice on Wheels"
+  },
+  "922": {
+   "effects": [
+    "Captain America (Infinity War), Cyclops (Blue Team),  Star-Lord: Grants Synergy Partners a 50% chance to apply a Disorient Debuff for 3 seconds on a Well Timed Block."
+   ],
+   "name": "Tactical Training"
+  },
+  "924": {
+   "effects": [
+    "Whenever any teammate would receive a Debuff they are immune to, they gain a Fury Buff, increasing Attack Rating by 60% for 6 seconds."
+   ],
+   "name": "Robot Uprising"
+  },
+  "93": {
+   "effects": [
+    "America Chavez: Utopian Parallel reduces Unstoppable Buff duration by 50%.",
+    "Mystic Champions: For each Buff that expires or is Nullified, the next hit deals +[300] damage. Max 1,500."
+   ],
+   "name": "Superstars"
+  },
+  "931": {
+   "effects": [
+    "Hit-Monkey, Rocket Raccoon: Critical Hits have a 30% chance to Armor Break the Opponent for 6 second(s), reducing their Armor Rating by [700].",
+    "Squirrel Girl, Beast: Activate Combo Shield for 5 second(s) when this Champion would lose their Combo Meter from being struck. This activates only once per fight."
+   ],
+   "name": "Furry Frenemies"
+  },
+  "935": {
+   "effects": [
+    "Purgatory: Gaining Bloodthirst grants +1 additional Bloodthirst per captured Class Soul",
+    "Hela: Gain an Unblockable Buff during Special Attack 1 and 2 while at 150 or more Spirits of the Dead."
+   ],
+   "name": "Queens of Souls"
+  },
+  "938": {
+   "effects": [
+    "#Dimensional Beings: Gain Bleed Immunity, 20% increased Ability Accuracy, and +900 Armor Rating."
+   ],
+   "name": "Dimensional Buddies"
+  },
+  "939": {
+   "effects": [
+    "Red Guardian: While the Ablative Shield is fractured, gain an indefinite Passive Fury, Granting +10% Attack Rating until the shield is repaired.",
+    "Sabretooth: Potency of Fury effects are increased by 10%."
+   ],
+   "name": "Magnificent Manes"
+  },
+  "94": {
+   "effects": [
+    "America Chavez: Dark Dimension Regenerate 30% of damage dealt to the Opponent by this Dimension.",
+    "Dimensional Beings: +25% resistance to Degeneration Damage."
+   ],
+   "name": "Out of this World"
+  },
+  "941": {
+   "effects": [
+    "Rhino: Starts the fight with a Passive Fury granting +30% Attack Rating for 20 seconds. While this Fury is active Rhino also gains +50% increased Ability Accuracy and inflicts the Opponent with a Slow Debuff.",
+    "Abomination: All attacks have a 50% chance to inflict Poison, dealing 70% of modified Attack over 10 seconds."
+   ],
+   "name": "Eastern Blockers"
+  },
+  "942": {
+   "effects": [
+    "Unstoppable Colossus: Personal Fury Buffs gain an additional flat +10% chance to trigger and last 200% longer. Additionally landing a Heavy Attack pauses all personal Fury Buffs until another is gained.",
+    "Colossus: Activating any Special Attack has a 50% chance to trigger an Unstoppable Buff, lingering 1.2 seconds after the Attack ends."
+   ],
+   "name": "Living Steel Curtain"
+  },
+  "943": {
+   "effects": [
+    "Mysterio: When dashing forward Mysterio has 70% chance to inflict the Opponent with Falter for the duration of the dash. Opponents suffering Falter have a 100% chance to Miss their attacks."
+   ],
+   "name": "Mine Can Hover"
+  },
+  "946": {
+   "effects": [
+    "Emma Frost, Mysterio: Grants immunity to reverse controls."
+   ],
+   "name": "Mental Immunity"
+  },
+  "947": {
+   "effects": [
+    "Peni Parker: While the Sync-Shield is active, become Stun Immune.",
+    "Air-Walker: Gain +1 Power Cosmic Buff(s) when winning a fight.",
+    "Falcon: Lock On lasts 1 second longer."
+   ],
+   "name": "Angel Attack"
+  },
+  "949": {
+   "effects": [
+    "Peni Parker: While the Sync-Shield is active, Peni can trigger the Parry Mastery against non-contact attacks.",
+    "Daredevil (Hell's Kitchen): Exiting Murdock Boy Mode grants a Righteous Wrath Passive for 8 second(s). While active, Basic Attacks have a 35% chance to inflict an instant Bleed, dealing 120% of hit damage as Direct Damage.",
+    "Mysterio: Chemical Gas is not consumed when inflicting Poison with a Heavy Attack."
+   ],
+   "name": "Field Trip"
+  },
+  "953": {
+   "effects": [
+    "Nebula, Sentinel, Darkhawk, Warlock, Guillotine 2099: Gain 70% of a Bar of Power each time an immunity prevents a Bleed or Poison effect."
+   ],
+   "name": "A.I. Uprising"
+  },
+  "958": {
+   "effects": [
+    "Thing: Once per fight, when Thing would be struck by a blow that would knock him out, his HP remains at 1, and he becomes Indestructible for 6 seconds. Any hit he receives while Indestructible grants him a Fury of 100% for the rest of the fight.",
+    "The Champion: Increase the duration of The Champion's Fury effects by 1.5 second(s)."
+   ],
+   "name": "Worthy Opponent"
+  },
+  "967": {
+   "effects": [
+    "Jabari Panther: Gain an additional Cleanse Passive whenever one would be gained.",
+    "Black Panther, Black Panther (Civil War): Critical Hits have an 80% chance to inflict a Bleed Debuff, dealing 50% of their Attack in damage over 4 second(s).",
+    "Killmonger: Well-Timed Blocks grant a non-stacking Precision Buff for 4 second(s), increasing Critical Rating by +[700]."
+   ],
+   "name": "Tribal Warfare"
+  },
+  "968": {
+   "effects": [
+    "Jabari Panther: Gain a Huntress Charge when Intercepting the Opponent.",
+    "Tigra: Unblockable hits Nullify 1 Buff from the Opponent.",
+    "Elsa Bloodstone: While Reloading, inflict a Disorient Debuff, reducing Defensive Ability Accuracy and Block Proficiency by 50%."
+   ],
+   "name": "Huntresses"
+  },
+  "969": {
+   "effects": [
+    "Synergy Members: Gain a Precision Buff during Special Attacks for each Damage over Time Debuff and Stagger Passive on the Opponent, each increasing Critical Rating by +[375]."
+   ],
+   "name": "Pyramid X"
+  },
+  "971": {
+   "effects": [
+    "Mister Negative: When inflicting Delirium there is a 50% chance to also inflict an Enervate Debuff for 2 seconds, preventing the Opponent from gaining Power when struck.",
+    "The Hood: Heavy Attacks place an Energy Vulnerability Debuff on the Opponent, reducing Energy Resist by [700] for 8 seconds.",
+    "Dormammu: Gaining Dark Energy has a 10% chance to trigger a Fury Buff, granting 20% Attack Rating for 9 seconds."
+   ],
+   "name": "A Being Darker Than I"
+  },
+  "973": {
+   "effects": [
+    "#Spider-Verse Heroes start the fight with 2 indefinite Passive Dark Energy. When using any Special Attack, 1 Dark Energy is consumed to inflict a 15 second Debuff determined by the last basic attack landed.",
+    "Light Attack: Armor Break, reducing Armor Rating by [300].",
+    "Medium Attack: Degen, dealing 90% of Modified Attack.",
+    "Heavy Attack: Weakness, reducing attack rating by 30%."
+   ],
+   "name": "From Light To Dark"
+  },
+  "977": {
+   "effects": [
+    "Storm (Pyramid X): Opponent Nullify effects suffer -50% Ability Accuracy."
+   ],
+   "name": "Champions of Battleworld"
+  },
+  "978": {
+   "effects": [
+    "Storm (Pyramid X):Prowess Buffs last 4 seconds longer.",
+    "Bishop: Every 15 seconds generate a Power Gain Buff granting 20% of a bar of Power over 5 seconds. While this Power Gain Buff is active, each Prowess increases Special Attack Damage by an additional +3%."
+   ],
+   "name": "Setup and Spike"
+  },
+  "979": {
+   "effects": [
+    "Storm (Pyramid X): Alternate Tempests activated by Storm's Special 3 last 8.0 seconds longer.",
+    "Storm (Classic): Gain up to 100% Shock, Coldsnap, and Incinerate Resistance based on Stored Power. While Suffering from a Shock, Coldsnap, or Incinerate Debuff, Storm's Special Attack Damage is increased by 30%."
+   ],
+   "name": "Under the Weather"
+  },
+  "98": {
+   "effects": [
+    "Annihilus: Every time Annihilus' Opponent activates a Fury effect, Annihilus gains an Armor Up Buff increasing Armor Rating by 8% for 4 seconds.",
+    "Hulk (Ragnarok): While Face Me is active, Hulk gains a Passive Fury boosting attack damage by 12%.",
+    "Contingency Plan: Whenever Hulk (Ragnarok) Strikes Annihilus with a SMASH attack, Annihilus gains 1 Fury Buff increasing Attack Rating by 100% for 4 seconds."
+   ],
+   "name": "Challenger"
+  },
+  "986": {
+   "effects": [
+    "Venompool: Illogical DNA grants Immunity to Incinerate effects.",
+    "Synergy Champions: +4% Health & Attack Rating."
+   ],
+   "name": "5. Fry in Skillet"
+  },
+  "988": {
+   "effects": [
+    "Venompool: When the Cookin' Meter hits 100, 75% chance to gain an Ice Armor Buff, granting +[2,000] Armor Rating and Stun Immunity for 20 seconds. Ice Armor is lost once it prevents a Stun effect.",
+    "Synergy Champions: +4% Health & Attack Rating."
+   ],
+   "name": "7. Allow to Cool"
+  },
+  "99": {
+   "effects": [
+    "Wolverine (X-23): While Laura's personal Regeneration is active, personal Bleed, Rupture, and Cruelty effects expire 20% slower.",
+    "Wolverine: Intercepting the Opponent grants a +20% Precision Buff for 12 seconds. Max stacks: 3."
+   ],
+   "name": "With Your Heart in Your Hand"
+  },
+  "993": {
+   "effects": [
+    "Hawkeye: Gain Immunity to Poison Debuffs from Non-Mutant Champion.",
+    "Nick Fury, Black Widow, Black Widow (Deadly Origin), Quake: +7% Attack Rating."
+   ],
+   "name": "S.H.I.E.L.D. Survival Gear"
+  },
+  "999": {
+   "effects": [
+    "Howard the Duck: Opponent Suffers -65% Evade Ability Accuracy.",
+    "Other Synergy Champions: Up to +15% Attack Rating, based on missing health."
+   ],
+   "name": "New York Brawlers"
+  }
+ },
  "source": "mcoc.gg champions.json + synergies.json (yetkili)"
 }

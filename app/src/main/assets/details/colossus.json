@@ -164,5 +164,57 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Critical Hits": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Unstoppable": [
+            942
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

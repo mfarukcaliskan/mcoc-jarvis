@@ -158,5 +158,36 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Damaging Debuffs": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Unblockable": [
+            878
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

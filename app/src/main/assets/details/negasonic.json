@@ -171,5 +171,49 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Rupture": [
+            546
+        ],
+        "Regeneration": [
+            307
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -163,5 +163,32 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Stun": [
+            [
+                0,
+                1
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Inequity": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

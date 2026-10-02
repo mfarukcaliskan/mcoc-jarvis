@@ -131,4 +131,20 @@ class EventsDataTest {
         }
         assertTrue(n > 1000)
     }
+
+    @Test
+    fun detailSynergyIds_resolveToReferencedTexts() {
+        val ref = JSONObject(assets("synergies.json").readText()).getJSONObject("referenced")
+        val dir = File("src/main/assets/details").let { if (it.isDirectory) it else File("app/src/main/assets/details") }
+        dir.listFiles { f -> f.name.endsWith(".json") }!!.forEach { f ->
+            val o = JSONObject(f.readText())
+            for (key in listOf("abilitySynergies", "immunitySynergies", "counterSynergies")) {
+                val m = o.optJSONObject(key) ?: continue
+                for (name in m.keys()) {
+                    val a = m.getJSONArray(name)
+                    for (i in 0 until a.length()) assertTrue("${f.name}: sinerji ${a.getInt(i)} yok", ref.has(a.getInt(i).toString()))
+                }
+            }
+        }
+    }
 }

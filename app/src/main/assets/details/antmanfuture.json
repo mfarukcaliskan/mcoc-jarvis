@@ -190,5 +190,47 @@
                 2
             ]
         ]
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Infuriate": [
+            112
+        ]
+    },
+    "immunitySynergies": {
+        "Shock": [
+            122
+        ]
+    },
+    "counterSynergies": {
+        "Miss": [
+            121
+        ],
+        "Falter": [
+            121
+        ],
+        "Untouchable": [
+            121
+        ],
+        "Invisible": [
+            121
+        ],
+        "Phasing": [
+            121
+        ]
     }
 }

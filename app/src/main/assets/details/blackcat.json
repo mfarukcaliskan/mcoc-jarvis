@@ -185,5 +185,30 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fury": [
+            192
+        ],
+        "Precision": [
+            283
+        ],
+        "Energize": [
+            1090
+        ],
+        "Spectre": [
+            715
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

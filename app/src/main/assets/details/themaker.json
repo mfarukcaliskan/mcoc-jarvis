@@ -263,5 +263,50 @@
                 3
             ]
         ]
+    },
+    "immunityRefs": {
+        "Neuroshock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Reversed Controls": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                9,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Ensnare": [
+            377
+        ],
+        "Plasma": [
+            380
+        ],
+        "Wither": [
+            64
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            377
+        ]
     }
 }

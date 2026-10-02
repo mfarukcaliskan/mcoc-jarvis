@@ -149,5 +149,51 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Tranquilize": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Precision": [
+            788
+        ],
+        "Physical Resistance": [
+            762
+        ],
+        "Jiggy With It": [
+            157
+        ],
+        "True Accuracy": [
+            766
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Auto-Block": [
+            766
+        ],
+        "Evade": [
+            766
+        ]
     }
 }

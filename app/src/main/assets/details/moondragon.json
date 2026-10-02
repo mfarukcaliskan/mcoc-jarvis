@@ -148,5 +148,68 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Reversed Controls": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Sting": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                5
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Death Immunity": [
+            1104
+        ],
+        "Energy Resistance": [
+            762
+        ],
+        "Fury": [
+            764
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

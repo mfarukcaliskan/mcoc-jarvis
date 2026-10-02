@@ -113,5 +113,62 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Injury": [
+            817
+        ],
+        "Regeneration": [
+            57
+        ],
+        "Wither": [
+            467
+        ],
+        "Cruelty": [
+            700
+        ],
+        "Shock": [
+            722
+        ],
+        "Unstoppable": [
+            535
+        ],
+        "Physical Vulnerability": [
+            190
+        ],
+        "Armor Break": [
+            973
+        ],
+        "Degeneration": [
+            973
+        ],
+        "Weakness": [
+            973
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -162,5 +162,56 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Coldsnap": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                5
+            ]
+        ],
+        "Evade": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                5
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

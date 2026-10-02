@@ -163,5 +163,42 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Heal Block": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Vicious": [
+            354
+        ],
+        "Fury": [
+            355
+        ],
+        "Physical Vulnerability": [
+            357
+        ],
+        "Fervor": [
+            43
+        ],
+        "Weakness": [
+            507
+        ],
+        "Torment": [
+            758
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -146,5 +146,52 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Disintegrate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "CPR Modification": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Special Lock": [
+            [
+                0,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Infuriate": [
+            112
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

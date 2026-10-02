@@ -116,5 +116,34 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Weakness": [
+            274
+        ],
+        "Disorient": [
+            922
+        ],
+        "Stagger": [
+            280
+        ],
+        "Unstoppable": [
+            717
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -169,5 +169,38 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Endurance": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Mystic Dispersion": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Weakness": [
+            409
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

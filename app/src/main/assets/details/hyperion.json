@@ -121,5 +121,21 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Unstoppable": [
+            447
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

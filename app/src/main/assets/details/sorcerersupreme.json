@@ -174,5 +174,49 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                4
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Prowess": [
+            856
+        ],
+        "Unblockable": [
+            445
+        ],
+        "Amplify": [
+            754
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

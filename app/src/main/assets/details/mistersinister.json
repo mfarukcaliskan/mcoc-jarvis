@@ -191,5 +191,74 @@
                 6
             ]
         ]
+    },
+    "immunityRefs": {
+        "Taunt": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Reversed Controls": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Purify": [
+            [
+                0,
+                4
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "True Strike": [
+            606
+        ],
+        "Power Lock": [
+            607
+        ],
+        "Hinder": [
+            1074
+        ],
+        "Regeneration": [
+            803
+        ],
+        "Heal Block": [
+            803
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            606
+        ],
+        "Auto-Block": [
+            606
+        ],
+        "Regeneration": [
+            803
+        ]
     }
 }

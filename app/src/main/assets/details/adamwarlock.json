@@ -217,5 +217,96 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                4,
+                4
+            ]
+        ],
+        "Incinerate": [
+            [
+                4,
+                4
+            ]
+        ],
+        "Coldsnap": [
+            [
+                4,
+                4
+            ]
+        ],
+        "Frostbite": [
+            [
+                4,
+                4
+            ]
+        ],
+        "AA Modification": [
+            [
+                1,
+                9
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Nullify": [
+            [
+                1,
+                9
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Stagger": [
+            [
+                1,
+                9
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Fate Seal": [
+            [
+                1,
+                9
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                9
+            ],
+            [
+                2,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Aptitude": [
+            85
+        ],
+        "Cruelty": [
+            1106
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

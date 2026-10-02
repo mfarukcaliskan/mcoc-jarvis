@@ -123,5 +123,58 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn Damage": [
+            [
+                0,
+                0
+            ]
+        ],
+        "AR Modification": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Power Drain": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Power Burn": [
+            [
+                3,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                1,
+                4
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {
+        "Reversed Controls": [
+            1105
+        ]
+    },
+    "counterSynergies": {}
 }

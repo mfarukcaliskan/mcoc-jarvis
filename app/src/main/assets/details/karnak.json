@@ -141,5 +141,31 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Non-DOT Debuffs": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

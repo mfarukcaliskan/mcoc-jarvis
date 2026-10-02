@@ -187,5 +187,71 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify Stun": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Auto-Block": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Coldsnap": [
+            771
+        ],
+        "Cruelty": [
+            744
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

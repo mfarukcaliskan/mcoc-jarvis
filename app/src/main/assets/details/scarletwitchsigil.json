@@ -267,5 +267,31 @@
                 5
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                8,
+                1
+            ],
+            [
+                8,
+                5
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Aptitude": [
+            822
+        ],
+        "Regeneration": [
+            823
+        ],
+        "Stimulate": [
+            387
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -125,5 +125,37 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Amplify": [
+            754
+        ],
+        "Bulwark": [
+            509
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -213,5 +213,40 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Gain": [
+            851
+        ],
+        "Power Sting": [
+            853
+        ],
+        "Indestructible": [
+            707
+        ],
+        "Imprison": [
+            218
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -184,5 +184,34 @@
                 4
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                1,
+                4
+            ]
+        ],
+        "Rupture": [
+            [
+                1,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Inexorable": [
+            [
+                0,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Hinder": [
+            1074
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

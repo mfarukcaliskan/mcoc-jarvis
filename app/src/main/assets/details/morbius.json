@@ -143,5 +143,36 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Torment": [
+            758
+        ],
+        "Weakness": [
+            507
+        ],
+        "Rejuvenate": [
+            1096
+        ],
+        "Vicious": [
+            354
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

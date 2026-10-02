@@ -152,5 +152,62 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "AA Modification": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                2,
+                0
+            ]
+        ],
+        "True Accuracy": [
+            [
+                7,
+                1
+            ]
+        ],
+        "True Damage": [
+            [
+                7,
+                1
+            ]
+        ],
+        "True Focus": [
+            [
+                7,
+                1
+            ]
+        ],
+        "True Sense": [
+            [
+                7,
+                1
+            ]
+        ],
+        "True Strike": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Detonate": [
+            1051
+        ]
+    },
+    "immunitySynergies": {
+        "Nullify": [
+            1039
+        ]
+    },
+    "counterSynergies": {}
 }

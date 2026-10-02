@@ -175,5 +175,20 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Start With Power": [
+            1051
+        ],
+        "Prowess": [
+            856
+        ],
+        "Vicious": [
+            158
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

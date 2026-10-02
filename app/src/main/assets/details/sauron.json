@@ -130,5 +130,49 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Power Steal": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regen Rate Mod.": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Armor Up": [
+            802
+        ],
+        "Heal Block": [
+            803
+        ],
+        "Unstoppable": [
+            60
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Regeneration": [
+            803
+        ]
     }
 }

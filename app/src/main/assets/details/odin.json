@@ -227,5 +227,34 @@
                 5
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Perfect Block": [
+            659
+        ],
+        "Flourish": [
+            488
+        ]
+    },
+    "immunitySynergies": {
+        "Shock": [
+            122
+        ]
+    },
+    "counterSynergies": {}
 }

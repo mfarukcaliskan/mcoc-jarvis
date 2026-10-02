@@ -130,5 +130,24 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Thorns": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Precision": [
+            706
+        ],
+        "Guaranteed Crits": [
+            706
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

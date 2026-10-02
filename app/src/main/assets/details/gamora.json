@@ -123,5 +123,60 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Miss": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Auto-Block": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Aptitude": [
+            655
+        ],
+        "Unblockable": [
+            786
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

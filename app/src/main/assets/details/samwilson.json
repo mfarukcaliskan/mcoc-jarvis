@@ -202,5 +202,68 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                2,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Heal Block": [
+            279
+        ],
+        "Fury": [
+            280
+        ],
+        "Cruelty": [
+            281
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Regeneration": [
+            279
+        ]
     }
 }

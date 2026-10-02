@@ -120,5 +120,68 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                1,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                0,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

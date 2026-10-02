@@ -172,5 +172,17 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

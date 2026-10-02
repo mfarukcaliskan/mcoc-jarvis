@@ -176,5 +176,104 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Endurance": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Frostbite": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Whiplash": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Trauma": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

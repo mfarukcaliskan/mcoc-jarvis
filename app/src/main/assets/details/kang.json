@@ -67,5 +67,21 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                2,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            130
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

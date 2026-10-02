@@ -136,5 +136,150 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Miss": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Untouchable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Phasing": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Immortality": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Indestructible": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Death Immunity": [
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Energy Resistance": [
+            315
+        ],
+        "Physical Resistance": [
+            316
+        ],
+        "Pierce": [
+            318
+        ],
+        "Combo Shield": [
+            254
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -146,5 +146,46 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Stun": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Purify": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Unblockable": [
+            195
+        ],
+        "True Strike": [
+            196
+        ],
+        "Infuriate": [
+            633
+        ],
+        "Regeneration": [
+            793
+        ],
+        "Fury": [
+            725
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Auto-Block": [
+            196
+        ],
+        "Evade": [
+            196
+        ]
     }
 }

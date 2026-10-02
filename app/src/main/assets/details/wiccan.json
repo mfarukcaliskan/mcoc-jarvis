@@ -172,5 +172,68 @@
                 2
             ]
         ]
+    },
+    "immunityRefs": {
+        "Reversed Controls": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Slow": [
+            351
+        ],
+        "Tracking": [
+            353
+        ],
+        "Physical Resistance": [
+            316
+        ],
+        "Cruelty": [
+            744
+        ],
+        "Fury": [
+            482
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Unstoppable": [
+            351
+        ],
+        "Evade": [
+            351
+        ],
+        "Miss": [
+            353
+        ],
+        "Falter": [
+            353
+        ],
+        "Untouchable": [
+            353
+        ],
+        "Invisible": [
+            353
+        ],
+        "Phasing": [
+            353
+        ]
     }
 }

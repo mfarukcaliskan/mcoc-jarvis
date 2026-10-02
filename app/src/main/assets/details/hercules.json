@@ -131,5 +131,77 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Miss": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Falter": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Untouchable": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Phasing": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Perfect Block": [
+            634
+        ],
+        "Armor Break": [
+            637
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

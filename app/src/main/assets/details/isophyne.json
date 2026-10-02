@@ -155,5 +155,58 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Immortality": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Indestructible": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Death Immunity": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                4,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            731
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

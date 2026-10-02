@@ -105,5 +105,28 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Endurance": [
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Prowess": [
+            107
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

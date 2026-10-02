@@ -139,5 +139,40 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Power Gain": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Fury": [
+            898
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

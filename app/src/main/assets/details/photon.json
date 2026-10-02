@@ -183,5 +183,84 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Neutralize": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Falter": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Untouchable": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Phasing": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {
+        "Degeneration": [
+            487
+        ]
+    },
+    "counterSynergies": {}
 }

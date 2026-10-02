@@ -216,5 +216,51 @@
                 3
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Regeneration": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Pursuit": [
+            58
+        ],
+        "Power Sting": [
+            853
+        ],
+        "Evade": [
+            817
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            58
+        ]
     }
 }

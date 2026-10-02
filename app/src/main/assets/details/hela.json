@@ -96,5 +96,26 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Regeneration": [
+            630
+        ],
+        "Start With Power": [
+            631
+        ],
+        "Pierce": [
+            318
+        ],
+        "Physical Resistance": [
+            73
+        ],
+        "Unblockable": [
+            935
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

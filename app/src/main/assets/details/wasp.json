@@ -119,5 +119,21 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Purify": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fury": [
+            1050
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

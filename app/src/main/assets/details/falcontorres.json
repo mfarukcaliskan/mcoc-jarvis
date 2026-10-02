@@ -154,5 +154,35 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Evade": [
+            [
+                2,
+                1
+            ],
+            [
+                8,
+                3
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                1
+            ],
+            [
+                8,
+                3
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Bleed": [
+            52
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -128,5 +128,28 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Instant Shock": [
+            249
+        ]
+    },
+    "immunitySynergies": {
+        "Coldsnap": [
+            979
+        ],
+        "Incinerate": [
+            979
+        ]
+    },
+    "counterSynergies": {}
 }

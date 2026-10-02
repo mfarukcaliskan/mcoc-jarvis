@@ -123,5 +123,52 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Power Drain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Steal": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Lock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                2,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Power Gain": [
+            1045
+        ]
     }
 }

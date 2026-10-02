@@ -78,5 +78,17 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Fury": [
+            682
+        ],
+        "Physical Vulnerability": [
+            550
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

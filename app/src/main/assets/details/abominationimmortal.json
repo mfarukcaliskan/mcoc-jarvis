@@ -134,5 +134,27 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Armor Break": [
+            27
+        ],
+        "Enervate": [
+            28
+        ],
+        "Vicious": [
+            158
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

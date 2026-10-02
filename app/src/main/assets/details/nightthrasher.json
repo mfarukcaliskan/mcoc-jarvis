@@ -146,5 +146,53 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                2,
+                0
+            ],
+            [
+                7,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Bleed": [
+            919
+        ],
+        "Unstoppable": [
+            920
+        ],
+        "Disorient": [
+            922
+        ],
+        "Taunt": [
+            302
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

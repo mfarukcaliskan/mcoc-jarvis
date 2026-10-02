@@ -162,5 +162,65 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Regeneration": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Pursuit": [
+            58
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Miss": [
+            768
+        ],
+        "Falter": [
+            768
+        ],
+        "Untouchable": [
+            768
+        ],
+        "Invisible": [
+            768
+        ],
+        "Phasing": [
+            768
+        ],
+        "Evade": [
+            58
+        ]
     }
 }

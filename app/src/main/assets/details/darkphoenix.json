@@ -188,5 +188,57 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Nova Flame": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Sting": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Damaging Effects": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Stagger": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Nullify": [
+            [
+                0,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Precision": [
+            326
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

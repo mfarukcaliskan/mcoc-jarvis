@@ -224,5 +224,47 @@
                 1
             ]
         ]
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                4
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                4
+            ]
+        ],
+        "Rupture": [
+            [
+                0,
+                4
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Slow": [
+            253
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Evade": [
+            253
+        ],
+        "Unstoppable": [
+            253
+        ]
     }
 }

@@ -55,5 +55,30 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Weakness": [
+            274
+        ],
+        "Indestructible": [
+            143
+        ],
+        "Fury": [
+            1009
+        ],
+        "Unstoppable": [
+            717
+        ],
+        "Cruelty": [
+            261
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Power Gain": [
+            1036
+        ]
     }
 }

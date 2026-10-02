@@ -193,5 +193,42 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Unstoppable": [
+            234
+        ],
+        "Amplify": [
+            754
+        ],
+        "Confidence": [
+            224
+        ],
+        "Poison": [
+            238
+        ],
+        "Bleed": [
+            238
+        ],
+        "Prowess": [
+            856
+        ],
+        "Rejuvenate": [
+            1096
+        ],
+        "Heal Block": [
+            803
+        ],
+        "Safeguard": [
+            244
+        ]
+    },
+    "immunitySynergies": {
+        "Coldsnap": [
+            234
+        ]
+    },
+    "counterSynergies": {}
 }

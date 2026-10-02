@@ -81,5 +81,20 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Regeneration": [
+            665
+        ],
+        "Disorient": [
+            922
+        ],
+        "Fury": [
+            270
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

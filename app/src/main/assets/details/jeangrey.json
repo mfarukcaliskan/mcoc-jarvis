@@ -162,5 +162,101 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Reversed Controls": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Thorns": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Miss": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Bulwark": [
+            402
+        ],
+        "Regeneration": [
+            307
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

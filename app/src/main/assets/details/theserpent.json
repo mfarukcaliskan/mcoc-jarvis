@@ -184,5 +184,100 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Power Lock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fate Seal": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                8,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                4,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Flourish": [
+            488
+        ],
+        "Cruelty": [
+            490
+        ],
+        "Confidence": [
+            224
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

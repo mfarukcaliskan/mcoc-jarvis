@@ -208,5 +208,45 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Lock": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Plasma": [
+            382
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

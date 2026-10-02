@@ -201,5 +201,33 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Armor Up": [
+            [
+                0,
+                1
+            ],
+            [
+                9,
+                3
+            ]
+        ],
+        "Auto-Block": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Evade": [
+            [
+                9,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

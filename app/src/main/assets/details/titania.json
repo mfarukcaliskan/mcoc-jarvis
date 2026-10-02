@@ -217,5 +217,17 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Buffs": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -151,5 +151,54 @@
                 2
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                9,
+                0
+            ],
+            [
+                9,
+                2
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Power Sting": [
+            853
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

@@ -153,5 +153,34 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Disintegration": [
+            513
+        ],
+        "Power Sting": [
+            853
+        ]
+    },
+    "immunitySynergies": {
+        "Shock": [
+            884
+        ],
+        "Poison": [
+            885
+        ],
+        "Nullify": [
+            493
+        ]
+    },
+    "counterSynergies": {}
 }

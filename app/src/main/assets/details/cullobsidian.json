@@ -135,5 +135,37 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {},
+    "counterRefs": {
+        "Auto-Block": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "True Damage": [
+            565
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

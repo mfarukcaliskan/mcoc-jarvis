@@ -156,5 +156,41 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Poison": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Delirium": [
+            [
+                0,
+                3
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unblockable": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Start With Power": [
+            1122
+        ],
+        "Root": [
+            1078
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
 }

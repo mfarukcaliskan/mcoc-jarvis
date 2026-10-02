@@ -163,5 +163,74 @@
                 0
             ]
         ]
+    },
+    "immunityRefs": {
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Miss": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Invisible": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Phasing": [
+            [
+                5,
+                1
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Indestructible": [
+            475
+        ],
+        "Precision": [
+            1008
+        ],
+        "True Sense": [
+            439
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {
+        "Auto-Block": [
+            439
+        ]
     }
 }

@@ -164,5 +164,28 @@
                 0
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Stun": [
+            [
+                8,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {},
+    "abilitySynergies": {
+        "Energy Vulnerability": [
+            971
+        ]
+    },
+    "immunitySynergies": {
+        "Bleed": [
+            938
+        ],
+        "Degeneration": [
+            94
+        ]
+    },
+    "counterSynergies": {}
 }

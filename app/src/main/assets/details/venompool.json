@@ -204,5 +204,62 @@
                 1
             ]
         ]
-    }
+    },
+    "immunityRefs": {
+        "Power Drain": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                1,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Evade": [
+            [
+                7,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Armor Up": [
+            988
+        ],
+        "Infuriate": [
+            114
+        ],
+        "Degeneration": [
+            1018
+        ]
+    },
+    "immunitySynergies": {
+        "Incinerate": [
+            986
+        ],
+        "Stun": [
+            988
+        ],
+        "Special Lock": [
+            520
+        ]
+    },
+    "counterSynergies": {}
 }
