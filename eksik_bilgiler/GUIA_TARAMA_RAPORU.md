@@ -105,3 +105,8 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 - `sync_mcoc.py extras` (haftalık workflow'da): takma ad, yıldız aralığı, ascend, ham direnç/delme istatistikleri, vuruş kodları (CP/PE/CE/PP – anlamı kaynakta yok, yorumlanmadı), Raid rolü, görünür etiketler, alternatif relic'ler; 331 şampiyon. Uygulamada yalnızca başlık satırında (takma ad, ★ aralığı, ascend, Raid rolü) gösteriliyor; etiketler, ham direnç ve alternatif andaçlar şampiyon detayında da gösteriliyor.
 - `details/*.json` → `abilityRefs`: her yetenek için kaynak satırlarının [bölüm, satır] indeksleri (mcoc.gg ability_map). Şampiyon detayında bir yeteneğe dokununca o şampiyondaki ilgili mcoc.gg satırları (İngilizce) görünür. Test: tüm indeksler geçerli.
 - `synergies.json` (sync_mcoc.py synergies): 331 şampiyon, 1645 temiz sinerji kaydı (ad, ortaklar, satır satır etki). Eski champions_db `synergies` alanı kopya/bozuk adlar içeriyordu (ör. "Ægon, Proxima Midnight, Star-Lord" tek ortak adı olarak); şampiyon detayı Sinerjiler sekmesi artık yeni veriyi kullanır, yeni veri yoksa eskiye düşer. Kaynak metinde yazım hataları var (ör. "Argon gets…") ve olduğu gibi bırakıldı.
+
+## Kadro karşılaştırması (mcoc.gg 361 kayıt ↔ bizim 404)
+- mcoc.gg'deki 331 oynanabilir şampiyonun tamamı bizde var, 331 details dosyası mevcut; eksik oynanabilir şampiyon YOK.
+- mcoc.gg'de olup bizde olmayan 30 kayıt, düşman birimlerinin sınıf varyantlarıdır (Anti-Venomoid, Doombot, Henchpool, Sentinelbot, Symbioid × 6 sınıf); oynanabilir değil, bilerek alınmadı.
+- Bizde olup mcoc.gg'de olmayan 73 kayıt oynanamaz (isPlayable=false: boss/NPC); verisi eski/kaynaksız, güncellenmiyor.
