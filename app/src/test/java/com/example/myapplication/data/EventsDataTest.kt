@@ -95,7 +95,7 @@ class EventsDataTest {
 
     @Test
     fun abilityRefs_pointToExistingSectionLines() {
-        val dir = assets("details")
+        val dir = File("src/main/assets/details").let { if (it.isDirectory) it else File("app/src/main/assets/details") }
         var checked = 0
         dir.listFiles { f -> f.name.endsWith(".json") }!!.forEach { f ->
             val o = JSONObject(f.readText())
