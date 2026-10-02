@@ -110,3 +110,7 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 - mcoc.gg'deki 331 oynanabilir şampiyonun tamamı bizde var, 331 details dosyası mevcut; eksik oynanabilir şampiyon YOK.
 - mcoc.gg'de olup bizde olmayan 30 kayıt, düşman birimlerinin sınıf varyantlarıdır (Anti-Venomoid, Doombot, Henchpool, Sentinelbot, Symbioid × 6 sınıf); oynanabilir değil, bilerek alınmadı.
 - Bizde olup mcoc.gg'de olmayan 73 kayıt oynanamaz (isPlayable=false: boss/NPC); verisi eski/kaynaksız, güncellenmiyor.
+
+## Haftalık senkronizasyon yerel provası (2026-10-02)
+- Tüm adımlar (mcoc.gg fetch/apply/capabilities/prestige/relics/events/extras/synergies, AW kuralı, manifest, doğrulama) yerelde çalıştı, hata yok. Bulunan sorun: prestige.json ve manifest her koşuda yalnızca zaman damgası yüzünden değişiyordu (her hafta gereksiz commit + dataVersion artışı); düzeltildi.
+- `sync_guia.py` (GuiaMTC Best Defenders) ağır: sınıf başına ~6,5 dk (yüzlerce görsel indirme), 6 sınıf ≈ 40 dk. Workflow zaman aşımı 60 → 120 dk yapıldı. GitHub'daki gerçek çalıştırma hâlâ denenmedi (Actions sekmesinden elle tetikleyin).
