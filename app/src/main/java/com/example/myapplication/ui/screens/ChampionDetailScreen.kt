@@ -384,6 +384,18 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                     item {
                         TagsRow(items = champion.tags, color = Color(0xFF9E9E9E))
                     }
+                    com.example.myapplication.data.ChampionExtraRepository.forChampion(champion.id)?.let { ex ->
+                        if (ex.tags.isNotEmpty()) {
+                            item { SectionTitle("Etiketler (mcoc.gg: sınıf rolü, afiliasyon, AW/Raid)") }
+                            item { TagsRow(items = ex.tags, color = Color(0xFF607D8B)) }
+                        }
+                        if (ex.physicalResist != null || ex.energyResist != null) {
+                            item { SectionTitle("Direnç (ham, mcoc.gg)") }
+                            item {
+                                InfoCard("Fiziksel / Enerji", "Fiziksel direnç: ${ex.physicalResist ?: "-"}  •  Enerji direnci: ${ex.energyResist ?: "-"}\nKaynaktaki ham sayı; yüzdeye çevrilmedi.")
+                            }
+                        }
+                    }
                 }
                 1 -> {
                     // Abilities Tab — Grid layout like MCOC.gg
@@ -418,6 +430,10 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                     item { SectionTitle("Önerilen Andaçlar") }
                     item {
                         TagsRow(items = champion.recommendedRelics, color = Color(0xFF00BCD4))
+                    }
+                    com.example.myapplication.data.ChampionExtraRepository.forChampion(champion.id)?.takeIf { it.altRelics.isNotEmpty() }?.let { ex ->
+                        item { SectionTitle("Alternatif Andaçlar (mcoc.gg)") }
+                        item { TagsRow(items = ex.altRelics, color = Color(0xFF26A69A)) }
                     }
                 }
                 2 -> {
