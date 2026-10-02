@@ -99,4 +99,4 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 
 ## AW sezon tutma kuralı (kullanıcı kararı)
 - Veritabanında yalnızca en yeni 2 AW sezonu (güncel + bir önceki) tutulur; eskiler silinir. `tools/aw_retention.py` uygular (meta.json AW kayıtları + guia_aw_season<N>/guia_aw<N>_helpers/guia_aw_bigthing), haftalık workflow manifest'ten önce çalıştırır, manifest AW dosyalarını glob ile izler, `AwRetentionTest` ihlali yakalar. Şu an: S69 + S70.
-- Sınır: yeni sezonun verisi (düğümler, taktikler) hâlâ GuiaMTC'den elle/yarı elle çıkarılıyor; otomatik olan yalnızca eskiyi silme ve mcoc.gg taktik/kadro etiketleri. Kotlin yükleyicileri dosya adını sabit okuyor (guia_aw_season69.json); S71 eklenince GuiaAwData.kt güncellenmeli.
+- Sınır: yeni sezonun verisi (düğümler, taktikler) hâlâ GuiaMTC'den elle/yarı elle çıkarılıyor; otomatik olan yalnızca eskiyi silme ve mcoc.gg taktik/kadro etiketleri. Kotlin yükleyicileri dosya adını sabit okuyor (guia_aw_season69.json); (Yükleyici artık manifest'teki en yüksek numaralı guia_aw_season<N>.json'ı seçer; kod değişikliği gerekmez.)

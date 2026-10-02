@@ -48,9 +48,18 @@ object GuiaAwRepository {
             )
         }
 
+    /** Manifest'teki en yüksek numaralı guia_aw_season<N>.json (yeni sezon eklenince kod değişmez). */
+    private fun newestSeasonFile(context: Context): String = try {
+        val files = JSONObject(DataSource.openText(context, "data_manifest.json")).getJSONObject("files").keys().asSequence()
+        files.mapNotNull { Regex("""guia_aw_season(\d+)\.json""").matchEntire(it)?.let { m -> m.groupValues[1].toInt() to it } }
+            .maxByOrNull { it.first }?.second ?: "guia_aw_season69.json"
+    } catch (e: Exception) {
+        "guia_aw_season69.json"
+    }
+
     private fun load(context: Context) {
         try {
-            val root = JSONObject(DataSource.openText(context, "guia_aw_season69.json"))
+            val root = JSONObject(DataSource.openText(context, newestSeasonFile(context)))
             season = root.getInt("season")
             val list = mutableListOf<AwGroup>()
             val paths = root.getJSONArray("paths")
