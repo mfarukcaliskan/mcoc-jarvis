@@ -203,7 +203,7 @@ def build_champion(g, lk, known_tags):
         "attack": g["attack"],
         "health": g["health"],
         "critRate": round(g.get("critrate", 0) / 100, 2),
-        "critDamage": round(g.get("critdamage", 0) / 100, 2),
+        "critDamage": round(g.get("critdamage", 0) / 10, 1),  # ham 965 -> %96.5
         "armor": round(g.get("armor", 0) / 100, 2),
         "blockProficiency": round(g.get("block", 0) / 100, 2),
         "immunities": immunities,
@@ -216,7 +216,7 @@ def build_champion(g, lk, known_tags):
         "focusDefense": lk["focus"].get(g.get("focus_defense"), {}).get("name", ""),
         "releaseDate": f"{int(day):02d}-{int(month):02d}-{year}",
         "strongMatchups": [lk["champs"][x]["image"] for x in g.get("xchampion", []) if x in lk["champs"]],
-        "strongCounters": [],
+        "strongCounters": lk.get("inv_x", {}).get(g["id"], []),
         "reactsTo": names(g.get("react", []), lk["immune"]),
         "counterAbilities": names(g.get("xability", []), lk["ability"]),
         "attackRank": rank("attack"),
@@ -262,7 +262,52 @@ def cmd_apply():
         "relics": table(load("relics.json")["data"]), "ranks": table(load("ranks.json")["data"]),
         "champs": table(gg),
     }
+    # "Strong Counters" = xchampion listesinin tersi (siteyle dogrulandi: iBom -> Dust, Peni Parker, ...)
+    inv_x = {}
+    for g in gg:
+        for target in g.get("xchampion", []):
+            if g["image"] in lk["champs"].get(target, {}).get("image", "") or True:
+                inv_x.setdefault(target, []).append(g["image"])
+    lk["inv_x"] = inv_x
     known_tags = {t for c in ours_list for t in c.get("tags", [])}
+    # 1b) mevcut sampiyonlarin kaynak kaynakli sayisal/liste alanlari mcoc.gg ile yenilenir (siralamalar, istatistikler,
+    # bagisikliklar, yetenek adlari...). Kendi elle alanlarimiz (tier, synergies, strongCounters, isPlayable) korunur.
+    # Liste alanlari yalnizca KUME olarak degistiyse yazilir (yalniz sira farki dosyayi oynatmasin).
+    LIST_FIELDS = ("immunities", "counters", "reactsTo", "counterAbilities", "strongMatchups", "strongCounters", "tags", "recommendedRelics")
+    SCALAR_FIELDS = ("prestige", "prestigeRank", "attack", "health", "critRate", "critDamage", "armor", "blockProficiency",
+                     "attackRank", "healthRank", "critRateRank", "critDamageRank", "armorRank", "blockProficiencyRank",
+                     "releaseDate", "mcocClass", "name")
+    refreshed = {}
+    for g in gg:
+        oid = gg_to_ours_id(g["image"])
+        c = ours.get(oid)
+        if c is None:
+            continue
+        new = build_champion(g, lk, known_tags)
+        for k in SCALAR_FIELDS:
+            if k in new and c.get(k) != new[k] and not (new[k] in (0, "") and c.get(k)):
+                refreshed[k] = refreshed.get(k, 0) + 1
+                c[k] = new[k]
+        for k in LIST_FIELDS:
+            if k == "recommendedRelics" and not new[k]:
+                continue
+            if set(c.get(k, [])) != set(new[k]):
+                refreshed[k] = refreshed.get(k, 0) + 1
+                c[k] = new[k]
+        old_ab = [x.strip() for x in c.get("abilities", "").split(",") if x.strip()]
+        new_ab = [x.strip() for x in new["abilities"].split(",") if x.strip()]
+        if set(old_ab) != set(new_ab):
+            refreshed["abilities"] = refreshed.get("abilities", 0) + 1
+            c["abilities"] = new["abilities"]
+        for k in ("focusAttack", "focusDefense"):
+            if new[k] and c.get(k) != new[k]:
+                refreshed[k] = refreshed.get(k, 0) + 1
+                c[k] = new[k]
+    if refreshed:
+        with open(os.path.join(ASSETS, "champions_db.json"), "w", encoding="utf-8") as f:
+            json.dump(ours_list, f, ensure_ascii=False, indent=4)
+    print("mevcut sampiyonlarda yenilenen alanlar:", refreshed or "yok")
+
     added = []
     for g in gg:
         our_id = gg_to_ours_id(g["image"])
@@ -594,6 +639,7 @@ def cmd_extras():
     tags = {str(t["id"]): t for t in load("tags.json")["data"]}
     roles = {r["id"]: r for r in load("roles.json")["data"]}
     relics = {r["id"]: r["name"] for r in load("relics.json")["data"]}
+    crystals = {str(c["id"]): c["name"] for c in load("crystals.json")["data"]}
     ab_names = {str(a["id"]): a["name"] for a in load("abilities.json")["data"]}
     im_names = {str(a["id"]): a["name"] for a in load("immunities.json")["data"]}
     out = {}
@@ -630,6 +676,7 @@ def cmd_extras():
             "hits": hits,
             "raidBoostRole": role["boost"] if role else None,
             "tags": [tags[str(t)]["tag"] for t in g.get("tags", []) if str(t) in tags and not tags[str(t)].get("hidden")],
+            "crystals": [crystals[str(x)] for x in g.get("pool", []) if str(x) in crystals],
             "relic": relics.get(g.get("relic")),
             "altRelics": [relics[r] for r in g.get("alt_relics", []) if r in relics],
         }

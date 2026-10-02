@@ -1,10 +1,10 @@
 {
-  "dataVersion": 54,
-  "generatedAt": "2026-10-02T17:42:45Z",
+  "dataVersion": 55,
+  "generatedAt": "2026-10-02T17:47:01Z",
   "files": {
     "capabilities.json": "c1bab93f3ba0d73593d582b4e31adf5f7ee146b4085a32f5c713e77f399168d6",
-    "champion_extra.json": "b4177743f16e748f2690835552a091dc8674740d1e3e5f5a643597d2fefda41a",
-    "champions_db.json": "b292682385ceec0303e27fc2edf3508723cfb7eb4120dc890b1cc4f79fe0e9d2",
+    "champion_extra.json": "8371f456fb07ef8518ed14c89feef7885a223a87a4a0447da7695847983331ee",
+    "champions_db.json": "a41d62e008c12b41713b01d4504d89fb2a7463ebfa829f0d35d0f5b931b1f9a3",
     "details/abomination.json": "17037ee1313f9ae4b0f7faf5dfe393861640f6553a314aa870b1477545a094d3",
     "details/abominationimmortal.json": "df6b719e320e64da349c0862eb54a5e65216e6996cd0dcffe1c5562009f5a10f",
     "details/absorbingman.json": "44d648d7a60aec75526805ba41372df46a42c012fd012f341ae5a2a906f3c27d",
