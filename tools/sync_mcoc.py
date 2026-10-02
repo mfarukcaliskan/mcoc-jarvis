@@ -460,6 +460,11 @@ def cmd_prestige():
         "champions": champs,
     }
     target = os.path.join(ASSETS, "prestige.json")
+    if os.path.isfile(target):
+        with open(target, encoding="utf-8") as f:
+            prev = json.load(f)
+        if {k: v for k, v in prev.items() if k != "generatedAt"} == {k: v for k, v in data.items() if k != "generatedAt"}:
+            data["generatedAt"] = prev["generatedAt"]  # icerik ayniysa dosya (ve manifest) degismesin
     with open(target, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
     # sentetik progressions alanini kaldir

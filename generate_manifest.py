@@ -66,8 +66,9 @@ def generate_manifest():
         "files": file_hashes,
     }
 
-    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
-        json.dump(manifest, f, ensure_ascii=False, indent=2)
+    if content_changed or not os.path.isfile(MANIFEST_PATH):
+        with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+            json.dump(manifest, f, ensure_ascii=False, indent=2)
 
     if content_changed:
         print(f"data_manifest.json guncellendi -> dataVersion={manifest['dataVersion']}, {len(file_hashes)} dosya")
