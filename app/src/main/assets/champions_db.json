@@ -3152,7 +3152,7 @@
         "attackRank": 179,
         "healthRank": 126,
         "critRateRank": 80,
-        "critDamageRank": 354,
+        "critDamageRank": 0,
         "armorRank": 70,
         "blockProficiencyRank": 80,
         "synergies": [
@@ -6414,7 +6414,7 @@
         "releaseDate": "17-07-2025",
         "attackRank": 44,
         "healthRank": 126,
-        "critRateRank": 351,
+        "critRateRank": 0,
         "critDamageRank": 74,
         "armorRank": 70,
         "blockProficiencyRank": 41,
@@ -11266,7 +11266,7 @@
         "releaseDate": "17-11-2022",
         "attackRank": 156,
         "healthRank": 221,
-        "critRateRank": 351,
+        "critRateRank": 0,
         "critDamageRank": 1,
         "armorRank": 26,
         "blockProficiencyRank": 4,
@@ -16028,7 +16028,7 @@
         "healthRank": 5,
         "critRateRank": 213,
         "critDamageRank": 220,
-        "armorRank": 350,
+        "armorRank": 0,
         "blockProficiencyRank": 177,
         "synergies": [
             {
@@ -19226,7 +19226,7 @@
         "releaseDate": "26-04-2018",
         "attackRank": 116,
         "healthRank": 186,
-        "critRateRank": 351,
+        "critRateRank": 0,
         "critDamageRank": 186,
         "armorRank": 70,
         "blockProficiencyRank": 80,
@@ -24453,7 +24453,7 @@
         "healthRank": 277,
         "critRateRank": 178,
         "critDamageRank": 193,
-        "armorRank": 360,
+        "armorRank": 0,
         "blockProficiencyRank": 209,
         "synergies": [
             {
@@ -24938,7 +24938,7 @@
         "releaseDate": "22-11-2018",
         "attackRank": 272,
         "healthRank": 304,
-        "critRateRank": 351,
+        "critRateRank": 0,
         "critDamageRank": 193,
         "armorRank": 219,
         "blockProficiencyRank": 209,
@@ -26356,7 +26356,7 @@
         "healthRank": 299,
         "critRateRank": 42,
         "critDamageRank": 48,
-        "armorRank": 350,
+        "armorRank": 0,
         "blockProficiencyRank": 284,
         "synergies": [
             {
@@ -28515,10 +28515,10 @@
         "releaseDate": "25-02-2015",
         "attackRank": 299,
         "healthRank": 285,
-        "critRateRank": 361,
-        "critDamageRank": 361,
-        "armorRank": 359,
-        "blockProficiencyRank": 361,
+        "critRateRank": 0,
+        "critDamageRank": 0,
+        "armorRank": 0,
+        "blockProficiencyRank": 0,
         "synergies": [
             {
                 "partnerName": "Colossus, Juggernaut",
@@ -28790,7 +28790,7 @@
         "healthRank": 327,
         "critRateRank": 42,
         "critDamageRank": 48,
-        "armorRank": 350,
+        "armorRank": 0,
         "blockProficiencyRank": 284,
         "synergies": [
             {

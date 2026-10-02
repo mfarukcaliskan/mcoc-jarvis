@@ -192,7 +192,9 @@ def build_champion(g, lk, known_tags):
     r = lk["ranks"].get(g["id"], {})
     month, day, year = g["date"].split("/")  # mcoc.gg tarihleri AY/GUN/YIL
     relic_ids = ([g["relic"]] if g.get("relic") else []) + g.get("alt_relics", [])
-    rank = lambda key: parse_rank(r[key]) if key in r else 0
+    # stat 0 ise site siralamada '-' gosterir (ranks.json yine de bir sayi tasir) -> 0
+    RAW = {"critrate": "critrate", "critdamage": "critdamage", "armor": "armor", "block": "block"}
+    rank = lambda key: (0 if key in RAW and not g.get(RAW[key]) else parse_rank(r[key])) if key in r else 0
     return {
         "id": g["image"],
         "name": g["name"],
@@ -285,7 +287,7 @@ def cmd_apply():
             continue
         new = build_champion(g, lk, known_tags)
         for k in SCALAR_FIELDS:
-            if k in new and c.get(k) != new[k] and not (new[k] in (0, "") and c.get(k)):
+            if k in new and c.get(k) != new[k] and not (new[k] in (0, "") and c.get(k) and not k.endswith("Rank")):
                 refreshed[k] = refreshed.get(k, 0) + 1
                 c[k] = new[k]
         for k in LIST_FIELDS:
@@ -711,6 +713,25 @@ def cmd_synergies():
                          "effects": [t for t in segs if t]})
         if rows:
             out[oid] = rows
+    # Sinerji yalnizca bir tarafin listesinde olabilir: site "SYNERGIES" listesi ters yonu de gosterir.
+    # Ortak listesinde adi gecen sampiyona da (ters yonlu) kayit eklenir.
+    for g in gg:
+        oid = gid[g["id"]]
+        if oid not in ours:
+            continue
+        for partners, sid in zip(g.get("synergy", []), g.get("synergy_map", [])):
+            x = syn.get(str(sid))
+            if not x:
+                continue
+            segs = [clean(t) for t in re.findall(r"<g>(.*?)</g>", x["desc"], re.S)] or [clean(x["desc"])]
+            members = [gid[p] for p in partners if gid.get(p) in ours]
+            for pid in members:
+                rows = out.setdefault(pid, [])
+                if any(r["id"] == int(sid) for r in rows):
+                    continue
+                rows.append({"id": int(sid), "name": x["name"], "unique": bool(x.get("unique")),
+                             "partners": [oid], "coPartners": [m for m in members if m != pid],
+                             "effects": [t for t in segs if t], "reverse": True})
     # sampiyonun yetenek/bagisiklik/counter satirlarinin dayandigi sinerjiler (sampiyonun kendi listesinde olmayabilir)
     referenced = {}
     for g in gg:

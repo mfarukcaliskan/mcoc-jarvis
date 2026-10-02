@@ -468,6 +468,10 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                                     if (partners.isNotEmpty()) {
                                         Text("Ortaklar: " + partners.joinToString(", ") { it.name }, color = Color(0xFF00BFFF), fontSize = 12.sp)
                                     }
+                                    val co = syn.coPartners.mapNotNull { pid -> ChampionRepository.champions.find { it.id == pid } }
+                                    if (co.isNotEmpty()) {
+                                        Text("Birlikte gerekli: " + co.joinToString(", ") { it.name }, color = Color(0xFF90A4AE), fontSize = 11.sp)
+                                    }
                                     syn.effects.forEach { Text(it, color = Color(0xFF81C784), fontSize = 13.sp) }
                                 }
                             }

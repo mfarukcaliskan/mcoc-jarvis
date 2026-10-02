@@ -1,10 +1,10 @@
 {
-  "dataVersion": 56,
-  "generatedAt": "2026-10-02T17:50:35Z",
+  "dataVersion": 57,
+  "generatedAt": "2026-10-02T17:55:50Z",
   "files": {
     "capabilities.json": "c1bab93f3ba0d73593d582b4e31adf5f7ee146b4085a32f5c713e77f399168d6",
     "champion_extra.json": "b4177743f16e748f2690835552a091dc8674740d1e3e5f5a643597d2fefda41a",
-    "champions_db.json": "a41d62e008c12b41713b01d4504d89fb2a7463ebfa829f0d35d0f5b931b1f9a3",
+    "champions_db.json": "7b2bb11f43cdd99e25cc10f2274efeb3847751c6c04b0a851a38c70f6a1da4e2",
     "details/abomination.json": "17037ee1313f9ae4b0f7faf5dfe393861640f6553a314aa870b1477545a094d3",
     "details/abominationimmortal.json": "df6b719e320e64da349c0862eb54a5e65216e6996cd0dcffe1c5562009f5a10f",
     "details/absorbingman.json": "44d648d7a60aec75526805ba41372df46a42c012fd012f341ae5a2a906f3c27d",
@@ -520,6 +520,6 @@
     "quests/9_4_6.json": "580238cc6e0cebd16862906003610c591e02deb4a13768316a6278b96bfb9153",
     "relic_statcast.json": "067a16688d40939cbaa64f9822a4092ecc67863ce960d124d091daef8a551463",
     "relics.json": "2b04364f3c3e9c4c8e91a6e96dfa59e805135811eae8de9b3ef1743255311790",
-    "synergies.json": "e4d6a2370cdce318028ea0aaf6d2a37d06d5e28eceaecafa2526c44bfec50536"
+    "synergies.json": "594909c73f049949a87a82a336e2bbd3a283f8099276699795b604c27da0f42d"
   }
 }

@@ -3,7 +3,7 @@ package com.example.myapplication.data
 import android.content.Context
 import org.json.JSONObject
 
-data class SynergyEntry(val id: Int, val name: String, val unique: Boolean, val partners: List<String>, val effects: List<String>)
+data class SynergyEntry(val id: Int, val name: String, val unique: Boolean, val partners: List<String>, val effects: List<String>, val coPartners: List<String> = emptyList())
 
 /** synergies.json (tools/sync_mcoc.py synergies, mcoc.gg): şampiyon başına temiz sinerji listesi. Tembel yüklenir (~550 KB). */
 data class SynergyText(val name: String, val effects: List<String>)
@@ -29,7 +29,8 @@ object SynergyRepository {
                 m[id] = (0 until arr.length()).map { i ->
                     val o = arr.getJSONObject(i)
                     fun strs(k: String) = o.getJSONArray(k).let { a -> (0 until a.length()).map { a.getString(it) } }
-                    SynergyEntry(o.getInt("id"), o.getString("name"), o.optBoolean("unique"), strs("partners"), strs("effects"))
+                    SynergyEntry(o.getInt("id"), o.getString("name"), o.optBoolean("unique"), strs("partners"), strs("effects"),
+                        o.optJSONArray("coPartners")?.let { a -> (0 until a.length()).map { a.getString(it) } } ?: emptyList())
                 }
             }
             val ref = JSONObject(DataSource.openText(ctx, "synergies.json")).optJSONObject("referenced")
