@@ -727,8 +727,13 @@ def cmd_synergies():
             members = [gid[p] for p in partners if gid.get(p) in ours]
             for pid in members:
                 rows = out.setdefault(pid, [])
-                if any(r["id"] == int(sid) for r in rows):
-                    continue
+                same = [r for r in rows if r["id"] == int(sid)]
+                if same:  # ayni sinerji kimligi baska ortakla da gecerli: sahibi ortak listesine ekle
+                    for r in same:
+                        if oid not in r["partners"] and not r.get("reverse"):
+                            r["partners"].append(oid)
+                    if any(r.get("reverse") and oid in r["partners"] for r in same) or any(oid in r["partners"] for r in same):
+                        continue
                 rows.append({"id": int(sid), "name": x["name"], "unique": bool(x.get("unique")),
                              "partners": [oid], "coPartners": [m for m in members if m != pid],
                              "effects": [t for t in segs if t], "reverse": True})

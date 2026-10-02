@@ -1,6 +1,6 @@
 {
-  "dataVersion": 57,
-  "generatedAt": "2026-10-02T17:55:50Z",
+  "dataVersion": 58,
+  "generatedAt": "2026-10-02T17:58:34Z",
   "files": {
     "capabilities.json": "c1bab93f3ba0d73593d582b4e31adf5f7ee146b4085a32f5c713e77f399168d6",
     "champion_extra.json": "b4177743f16e748f2690835552a091dc8674740d1e3e5f5a643597d2fefda41a",
@@ -520,6 +520,6 @@
     "quests/9_4_6.json": "580238cc6e0cebd16862906003610c591e02deb4a13768316a6278b96bfb9153",
     "relic_statcast.json": "067a16688d40939cbaa64f9822a4092ecc67863ce960d124d091daef8a551463",
     "relics.json": "2b04364f3c3e9c4c8e91a6e96dfa59e805135811eae8de9b3ef1743255311790",
-    "synergies.json": "594909c73f049949a87a82a336e2bbd3a283f8099276699795b604c27da0f42d"
+    "synergies.json": "9a3b3b205d3e9c4f73ed8b5cd930fd97b3fe8733d2c4f63eaf9902c3bb8c281e"
   }
 }
