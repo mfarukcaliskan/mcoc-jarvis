@@ -64,5 +64,65 @@
                 "Increase the Potency of Nightcrawler's Instant Bleeds and Critical Damage Rating by [11 - 103.09]% of his Current Prowess Potency."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Dodge": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Prowess": [
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Instant Bleed": [
+            [
+                0,
+                4
+            ]
+        ],
+        "Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Precision": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Bleed Vulnerability": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

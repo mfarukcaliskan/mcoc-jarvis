@@ -42,5 +42,25 @@
                 "Whenever Colossus starts the fight or launches a Special Attack, he calls upon the power of Cyttorak, becoming Unstoppable and shrugging off all enemy attacks for [2.3 - 4.1] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                4,
+                0
+            ]
+        ]
+    }
 }

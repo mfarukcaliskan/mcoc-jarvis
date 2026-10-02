@@ -75,5 +75,97 @@
                 "Reaching 50 Combo Meter for the first time each fight indefinitely increases the duration of M'Baku's personal Furies by [10 - 25]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Combo Shield": [
+            [
+                1,
+                2
+            ]
+        ],
+        "True Accuracy": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Direct Damage": [
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Cleanse": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Adrenaline": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

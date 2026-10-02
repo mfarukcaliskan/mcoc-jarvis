@@ -70,5 +70,71 @@
                 "When the Opponent's Health is at or below 10%, inflict an indefinite Marked Passive."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Falter": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Neuroshock": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Prowess": [
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Slow": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Marked": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

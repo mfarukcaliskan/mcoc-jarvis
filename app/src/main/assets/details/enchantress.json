@@ -108,5 +108,207 @@
                 "Whenever a Buff fails to activate on the Opponent for a reason other than chance, or they are Immune to a Damaging effect, Enchantress instantly Power Steals [1 - 4]% of their Max Power. As an Attacker, this potency is reduced by 75%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Steal": [
+            [
+                0,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Mid-Combo Stun": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Incinerate": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Frostbite": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Untouchable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Damage Reflect": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Neutralize": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Atrophy": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Charm": [
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

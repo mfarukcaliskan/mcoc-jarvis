@@ -92,4 +92,25 @@ class EventsDataTest {
             }
         }
     }
+
+    @Test
+    fun abilityRefs_pointToExistingSectionLines() {
+        val dir = assets("details")
+        var checked = 0
+        dir.listFiles { f -> f.name.endsWith(".json") }!!.forEach { f ->
+            val o = JSONObject(f.readText())
+            val refs = o.optJSONObject("abilityRefs") ?: return@forEach
+            val secs = o.getJSONArray("abilitySections")
+            for (name in refs.keys()) {
+                val arr = refs.getJSONArray(name)
+                for (i in 0 until arr.length()) {
+                    val pr = arr.getJSONArray(i)
+                    val content = secs.getJSONObject(pr.getInt(0)).getJSONArray("content")
+                    assertTrue("${f.name}: $name satır dışı", pr.getInt(1) < content.length())
+                    checked++
+                }
+            }
+        }
+        assertTrue("abilityRefs bulunamadı", checked > 1000)
+    }
 }

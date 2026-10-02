@@ -46,7 +46,9 @@ data class ChampionDetails(
     val bestUse: String = "",
     val signatureAbility: String = "",
     val immunityDetails: String = "",
-    val abilitySections: List<AbilitySection> = emptyList()
+    val abilitySections: List<AbilitySection> = emptyList(),
+    /** Yetenek adı -> bu yeteneği anlatan kaynak satırları (mcoc.gg ability_map; metin abilitySections'tan) */
+    val abilitySources: Map<String, List<String>> = emptyMap()
 )
 
 data class Champion(
@@ -223,6 +225,19 @@ object ChampionRepository {
         }
     }
 
+    private fun parseAbilitySources(obj: org.json.JSONObject, secs: List<AbilitySection>): Map<String, List<String>> {
+        val refs = obj.optJSONObject("abilityRefs") ?: return emptyMap()
+        val out = mutableMapOf<String, List<String>>()
+        for (name in refs.keys()) {
+            val arr = refs.getJSONArray(name)
+            out[name] = (0 until arr.length()).mapNotNull { i ->
+                val pr = arr.getJSONArray(i)
+                secs.getOrNull(pr.getInt(0))?.content?.getOrNull(pr.getInt(1))?.let { "${secs[pr.getInt(0)].title}: $it" }
+            }
+        }
+        return out
+    }
+
     private fun parseAbilitySections(obj: org.json.JSONObject): List<AbilitySection> {
         val arr = obj.optJSONArray("abilitySections") ?: return emptyList()
         val sections = mutableListOf<AbilitySection>()
@@ -254,6 +269,7 @@ object ChampionRepository {
                 }
             }
             
+            var sourcesHolder: Map<String, List<String>> = emptyMap()
             ChampionDetails(
                 id = champId,
                 name = obj.getString("name"),
@@ -263,7 +279,8 @@ object ChampionRepository {
                 bestUse = parseStringSafe(obj, "bestUse"),
                 signatureAbility = parseStringSafe(obj, "signatureAbility"),
                 immunityDetails = parseStringSafe(obj, "immunityDetails"),
-                abilitySections = parseAbilitySections(obj)
+                abilitySections = parseAbilitySections(obj).also { secs -> sourcesHolder = parseAbilitySources(obj, secs) },
+                abilitySources = sourcesHolder
             )
         } catch (e: Exception) {
             e.printStackTrace()

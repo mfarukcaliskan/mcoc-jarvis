@@ -79,5 +79,85 @@
                 "While Corruption is active and the Opponent has [10 - 50]% Health or less, when they would gain a Regeneration Effect, replace it with Knull's Degeneration Debuff."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Break": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Reverse Controls": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Living Abyss": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "True Accuracy": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Degeneration": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Instant Bleed": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

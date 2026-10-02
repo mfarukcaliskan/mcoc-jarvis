@@ -61,5 +61,59 @@
                 "When both Reverberation and True Strike are active, Killmonger gains +[2,011.02 - 11,467.69] Attack Rating when hitting opponents."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                0,
+                1
+            ]
+        ],
+        "True Strike": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Counterpunch": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Indestructible": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Reverberation": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

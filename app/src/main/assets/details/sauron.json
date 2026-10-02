@@ -74,5 +74,61 @@
                 "Increase personal Prowess Passive Potency by a flat [2 - 10]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Prowess": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Degeneration": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

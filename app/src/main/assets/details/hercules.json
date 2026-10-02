@@ -71,5 +71,65 @@
                 "For 2 second(s) after completing a feat, gain [6 - 35]% Combat Power Rate."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Infuriate": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "True Sense": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Precision": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Indestructible": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Immortality": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

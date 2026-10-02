@@ -41,5 +41,33 @@
                 "The chance to Perfectly Block all damage increases by up to [10 - 60]% while opponents are under Buff effects."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Perfect Block": [
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                0
+            ]
+        ]
+    }
 }

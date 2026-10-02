@@ -70,5 +70,119 @@
                 "Goblin Instigators: While the pit is active, the Opponent is inflicted with a 30% Infuriate Debuff."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Degeneration": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Force Field": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "Hinder": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Fear": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Inexorable": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Power Steal": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Uncanny": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                3
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Nullify": [
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "Infuriate": [
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                4
+            ]
+        ]
+    }
 }

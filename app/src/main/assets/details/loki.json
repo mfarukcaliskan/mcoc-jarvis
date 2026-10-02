@@ -52,5 +52,47 @@
                 "Rising in power through sorcery and subterfuge, Loki generates one bar of Power over [12 - 5.45] seconds. as long as he is below 1 bar."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Stun": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Buff Steal": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

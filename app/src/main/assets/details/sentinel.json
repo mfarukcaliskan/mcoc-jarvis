@@ -88,5 +88,79 @@
                 "Each time one of these Armor Up Buffs ends for any reason other than being removed, Sentinel Passively gains 90% of a Bar of Power."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Unstoppable": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Intimidate": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Heal Block": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                8,
+                2
+            ]
+        ]
+    }
 }

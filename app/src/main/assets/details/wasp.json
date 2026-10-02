@@ -63,5 +63,61 @@
                 "When attacked Wasp gains an additional 25% chance to Purify, then Evade and Counter Attack. Additionally, the duration that Counter Attack is disabled after shrinking is reduced by [25 - 65]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Mid-Combo Stun": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Weakness": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Counter-Attack Evade": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Concussion": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Power Sting": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Petrify": [
+            [
+                4,
+                1
+            ]
+        ]
+    }
 }

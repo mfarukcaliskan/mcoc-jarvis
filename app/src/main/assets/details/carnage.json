@@ -86,5 +86,93 @@
                 "The sight and smell of blood triggers Carnage's bloodlust, granting a Power Gain Buff when activating a Bleed or Armor Break on the opponent that lasts as long as the Opponent is Bleeding or Armor Broken. The Power Gain grants up to [6.5 - 9.5]% of a Bar of Power per second based on how close Carnage is to the opponent."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Physical Resistance": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Bulwark": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Precision": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Fury": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                4
+            ]
+        ],
+        "Cruelty": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                5
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                9,
+                0
+            ]
+        ]
+    }
 }

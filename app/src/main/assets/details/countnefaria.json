@@ -92,5 +92,81 @@
                 "This also triggers when they gain [32 - 8]% of their Max Health for any reason within 0.5 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Counter-Attack Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Incinerate": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Plasma": [
+            [
+                7,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                9,
+                0
+            ]
+        ]
+    }
 }

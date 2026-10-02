@@ -75,5 +75,61 @@
                 "Landing hits while Widow's Insight is active pauses Sabotage Debuffs for 0.5 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Precision": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Counter-Attack Evade": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Sabotage": [
+            [
+                3,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

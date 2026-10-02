@@ -91,5 +91,49 @@
                 "When Rout enters cool down, Cull's aggression is awarded with a Fury Buff, granting +[10,763.57 - 17,584.04] Attack for 4 seconds. This Buff gains +0.5 seconds duration for each hit landed while Rout was active."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "True Accuracy": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Combo Shield": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                10,
+                1
+            ]
+        ]
+    }
 }

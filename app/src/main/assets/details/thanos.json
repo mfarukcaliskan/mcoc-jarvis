@@ -55,5 +55,41 @@
                 "Granted near-immortality, Thanos the Mad Titan passively reduces his opponent's base Attack by [10 - 40]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Start With Power": [
+            [
+                3,
+                0
+            ]
+        ],
+        "True Damage": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

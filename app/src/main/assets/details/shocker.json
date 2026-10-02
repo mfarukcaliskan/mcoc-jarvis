@@ -82,5 +82,75 @@
                 "Shocker's first Special Attack 1 in each fight costs [10 - 100]% less Power."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cannot Crit": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Auto-Block": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Invalidate": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Passive Stun": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Physical Vulnerability": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

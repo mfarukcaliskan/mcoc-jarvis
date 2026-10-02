@@ -54,5 +54,31 @@
                 "Ms. Marvel starts to figure out this whole Contest thing, increasing her Fury durations by [2 - 8] seconds and increasing the Potency of her Fury effects by 10%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Nullify": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

@@ -96,5 +96,105 @@
                 "When Evading, inflict a Halt Passive for [2 - 8] seconds. Critical Hits pause this Passive for 1 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Critical into Block": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Cunning": [
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Combo Shield": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Passive Stun": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Vulnerability": [
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                7,
+                2
+            ],
+            [
+                8,
+                3
+            ]
+        ],
+        "Halt": [
+            [
+                9,
+                1
+            ]
+        ]
+    }
 }

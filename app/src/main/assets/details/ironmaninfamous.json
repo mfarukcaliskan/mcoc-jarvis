@@ -84,5 +84,101 @@
                 "While his personal Armor Up Buff is active, Infamous Iron Man gains [144.73 - 1,178.54] Block Proficiency and Energy Resistance."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cannot Crit": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Mid-Combo Stun": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Cowardice": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Power Burn": [
+            [
+                3,
+                3
+            ]
+        ],
+        "Unstoppable": [
+            [
+                3,
+                4
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                4
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

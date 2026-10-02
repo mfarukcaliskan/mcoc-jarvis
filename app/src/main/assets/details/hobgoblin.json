@@ -82,5 +82,79 @@
                 "Hobgoblin's Energy Vulnerability gains +[0.8 - 15]% flat potency."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Incinerate": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Instinct": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Heal Block": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Steadfast": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                4
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

@@ -95,5 +95,107 @@
                 "When the Opponent enters a Poisonous Cloud, inflict a [5 - 15]% Torment Debuff for 8 seconds. This starts paused, and is unpaused when the Opponent exits the Poisonous Cloud. Max stacks: 3."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Pre-Fight": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Increased AA": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Auto-Block": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Shock": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Steadfast": [
+            [
+                9,
+                0
+            ]
+        ],
+        "Torment": [
+            [
+                9,
+                1
+            ]
+        ]
+    }
 }

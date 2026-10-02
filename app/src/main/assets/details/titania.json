@@ -91,5 +91,131 @@
                 "When fighting #L and #XL Opponents, Titania's Fury potency is increased by [10 - 30]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Physical Resistance": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Indestructible": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Suppression": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Debilitate": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Weakness": [
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Physical Vulnerability": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Fatigue": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Exhaustion": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Decelerate": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Disorient": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Stifle": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Wither": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Petrify": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Cowardice": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Intimidate": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

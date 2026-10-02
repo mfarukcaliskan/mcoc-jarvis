@@ -64,5 +64,79 @@
                 "While the Opponent has 5 or more unique Debuffs, the potency of their Willpower Mastery is reduced by [25 - 75]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fractured Power Bar": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Protection": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Exhaustion": [
+            [
+                3,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Halt": [
+            [
+                3,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                2
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Wither": [
+            [
+                4,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Torment": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

@@ -89,5 +89,137 @@
                 "While the Harvest is active: Galan becomes Stun Immune and deals a burst of [81.34 - 301.35] Direct Damage whenever Galan gains any amount of Planetary Mass, this Damage scales with Base Attack only."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cross-Fight Ability": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "Intensify": [
+            [
+                0,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "True Sense": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                1,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                1,
+                3
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                6
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Direct Damage": [
+            [
+                2,
+                4
+            ],
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

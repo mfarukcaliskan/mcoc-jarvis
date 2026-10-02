@@ -85,5 +85,59 @@
                 "Inflicting an Encore Passive while an Encore is already active has a [50 - 100]% chance to inflict a personal Rupture Debuff. This is not affected by Ability Accuracy modification."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Rupture": [
+            [
+                0,
+                2
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Physical Vulnerability": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Instant Rupture": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Taunt": [
+            [
+                4,
+                1
+            ]
+        ]
+    }
 }

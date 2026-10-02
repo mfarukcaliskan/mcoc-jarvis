@@ -56,5 +56,31 @@
                 "Either Combat Power Rate is enhanced by up to [10 - 33]%, or enemies suffer [10 - 33]% reduced Combat Power Rate. This cycles every 6 hours."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                0
+            ]
+        ]
+    }
 }

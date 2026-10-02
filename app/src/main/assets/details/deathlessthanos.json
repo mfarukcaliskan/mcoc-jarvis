@@ -86,5 +86,99 @@
                 "Personal Protections gain +1% flat potency per Necrotic Energy."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Protection": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Counterpunch": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Panic": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Mid-Combo Stun": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Pulverize": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Corrosion": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Genesis": [
+            [
+                4,
+                2
+            ]
+        ]
+    }
 }

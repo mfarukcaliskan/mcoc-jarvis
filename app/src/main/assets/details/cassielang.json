@@ -78,5 +78,83 @@
                 "When Cassie's personal Evade triggers, she inflicts a Power Sting Debuff, lasting 14 seconds and dealing a burst of [3,989.2] Direct Damage if the Opponent launches a Special Attack."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Poison": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Power Sting": [
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "Taunt": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Crush": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                5,
+                3
+            ]
+        ],
+        "Evade": [
+            [
+                6,
+                2
+            ]
+        ],
+        "Combo Detonation": [
+            [
+                3,
+                1
+            ]
+        ]
+    }
 }

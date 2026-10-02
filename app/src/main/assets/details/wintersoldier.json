@@ -56,5 +56,43 @@
                 "An upgrade to Bucky's bionic arm grants his Critical Hits a 15% chance to Power Drain his target for [13 - 28]% of the target's max power. The amount drained increases based on Critical Hit Damage."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

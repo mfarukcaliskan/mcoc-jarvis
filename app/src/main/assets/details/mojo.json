@@ -102,5 +102,59 @@
                 "When Mojo wins a fight, if he has more Followers than Subscribers, he gains 1 million Subscribers. When Mojo loses a fight, he loses 1 million Subscribers."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Atrophy": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Nullify": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                9,
+                0
+            ]
+        ]
+    }
 }

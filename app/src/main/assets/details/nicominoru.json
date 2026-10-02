@@ -96,5 +96,147 @@
                 "When Nico causes an attack to Miss, she Passively gains [448.17 - 3,038.72] Adrenaline. Cooldown: 0.5 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Adrenaline": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Flourish": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Pentacle": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Buff Immunity": [
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Stimulate": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                3
+            ]
+        ],
+        "Zeal": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Halt": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Poison": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Acid Burn": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

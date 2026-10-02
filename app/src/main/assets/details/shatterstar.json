@@ -77,5 +77,89 @@
                 "The next Mutant or Mystic Champion that enters a fight with a Sponsor signs a deal and causes incoming Bleed Debuffs from Quest Nodes to suffer 80% reduced potency for the next 4 fights."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Glancing": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Daunted": [
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Reckless": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Pursuit": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Uncanny": [
+            [
+                3,
+                2
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Instant Bleed": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Cross-Fight Ability": [
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

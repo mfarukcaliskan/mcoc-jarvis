@@ -38,5 +38,37 @@
                 "Black Widow strikes her targets with subtle, calculated grace, reducing the chance of triggering their abilities by [22 - 80]%. This chance is increased by 15% against Science champions, and decreased by the same against Mutants."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Evade": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Precision": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                3,
+                0
+            ]
+        ]
+    }
 }

@@ -82,5 +82,97 @@
                 "The Potency of Blessings is increased by [5 - 33]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Power Steal": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Armor Break": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Slow": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Nullify": [
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Increased AA": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

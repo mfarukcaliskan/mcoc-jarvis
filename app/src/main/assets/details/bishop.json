@@ -101,5 +101,133 @@
                 "With 3 Bars: Start the fight with Steady Release active for [3 - 15] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Persistent Power Meter": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Start With Power": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Prowess": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Passive Stun": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                6,
+                1
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                10,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                10,
+                3
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                9,
+                0
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "Reduce AA": [
+            [
+                10,
+                0
+            ],
+            [
+                10,
+                2
+            ]
+        ]
+    }
 }

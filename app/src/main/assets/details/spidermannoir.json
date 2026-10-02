@@ -79,5 +79,89 @@
                 "Each Disorient on the Opponent reduces the potency of their Inequity Mastery by [10 - 20]%, up to 100%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Critical into Block": [
+            [
+                0,
+                0
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Evade": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Disorient": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                8
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Crumble": [
+            [
+                4,
+                1
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Root": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Implacable": [
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                5
+            ]
+        ],
+        "Light Proficiency": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

@@ -90,5 +90,105 @@
                 "When Ant-Man would lose more than 10% of his Max Health from a single source other than a Special Attack 3, reduce the damage to 10% of his Max Health and gain a Self-Repair Buff healing [1 - 5]% of Max Health over 12 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Glancing": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Power Detonation": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Disintegration": [
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Power Drain": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                8,
+                1
+            ],
+            [
+                8,
+                2
+            ]
+        ]
+    }
 }

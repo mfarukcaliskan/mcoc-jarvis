@@ -89,5 +89,67 @@
                 "Gain up to +[10 - 50]% Prowess Potency, scaling with the Opponent's Power Meter."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Falter": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Vigilance": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Prowess": [
+            [
+                4,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Power Lock": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Special Lock": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                3
+            ]
+        ]
+    }
 }

@@ -80,5 +80,103 @@
                 "When Zola's Special Attacks remove his Disintegration Debuffs, each Debuff deals a final burst of [491.27 - 987.5] Direct Damage."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Pre-Fight": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Special Lock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Cowardice": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Sleep": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Disintegration": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

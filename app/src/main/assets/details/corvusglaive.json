@@ -78,5 +78,89 @@
                 "If Corvus is able to spend all of his Glaive charges in less than 30 seconds since they were first activated, the cooldown to get them back is reduced by [20 - 40]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cruelty": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Reduce AA": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Safeguard": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                4
+            ]
+        ],
+        "True Strike": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                5
+            ]
+        ],
+        "True Damage": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Critical into Block": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Immortality": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

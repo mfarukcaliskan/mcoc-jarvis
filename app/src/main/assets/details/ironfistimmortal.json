@@ -34,5 +34,19 @@
                 "The Iron Fist has a 21% chance to reduce enemy Armor Rating by [118.42 - 615.53] for 14 second(s), but these effects are lost if concentration is broken by incoming attacks."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                2,
+                0
+            ]
+        ]
+    }
 }

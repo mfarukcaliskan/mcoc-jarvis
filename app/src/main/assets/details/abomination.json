@@ -30,5 +30,23 @@
                 "Contact with the Abomination's gamma-irradiated body has a [3 - 25]% chance to Poison the target, reducing their Health recovery by 30% and dealing 3,572 Direct Damage over 12 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ]
+    }
 }

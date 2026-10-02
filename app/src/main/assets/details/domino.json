@@ -117,5 +117,113 @@
                 "Opponents take up to [1,090.2 - 6,541.2] Energy Damage over 1.5 second(s) whenever their abilities fail to trigger. Damage scales with Base Attack only. Potency decreases temporarily for consecutive triggers."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Reduce AA": [
+            [
+                0,
+                1
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                6,
+                3
+            ],
+            [
+                6,
+                5
+            ]
+        ],
+        "Increased AA": [
+            [
+                0,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                0,
+                4
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Perfect Block": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                4
+            ]
+        ],
+        "Bleed": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Critical Bleed": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Taunt": [
+            [
+                8,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                9,
+                2
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                10,
+                0
+            ]
+        ]
+    }
 }

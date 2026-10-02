@@ -90,5 +90,79 @@
                 "While Locked-On Block Proficiency is increased by +[250 - 3,375.07]."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Cannot Crit": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                2,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Plasma": [
+            [
+                2,
+                1
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                5,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Heal Block": [
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Power Drain": [
+            [
+                8,
+                2
+            ]
+        ]
+    }
 }

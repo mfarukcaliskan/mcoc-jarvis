@@ -93,5 +93,85 @@
                 "Personal Regeneration effects pause for 3 seconds when Absorbing Man is struck with True Damage and are removed when a form is deactivated early."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Vulnerability": [
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Critical into Block": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                3
+            ]
+        ]
+    }
 }

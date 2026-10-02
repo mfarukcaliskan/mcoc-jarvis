@@ -81,5 +81,87 @@
                 "While the Opponent is suffering from a personal Stun, their Combat Power Rate is reduced by [5 - 50]% and striking the Opponent with Light and Medium attacks locks them in place and increases Quicksilver's Speed."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Evade": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Dodge": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Wither": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Whiplash": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Slow": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Trauma": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

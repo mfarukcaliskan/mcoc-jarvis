@@ -89,5 +89,117 @@
                 "While 15% Health or less remains and Iron Man has an Armor effect, gain a Power Gain Passive that is not affected by Ability Accuracy reduction and grants [3.6 - 6.6]% of Max Power per second. Additionally, Iron Man has a 100% chance to Auto-Block attacks without consuming Armor. This Auto-Block triggers Parry."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Auto-Block": [
+            [
+                1,
+                4
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Plasma": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                4,
+                2
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Incinerate": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                3
+            ]
+        ],
+        "Power Gain": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

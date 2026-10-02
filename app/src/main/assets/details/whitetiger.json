@@ -77,5 +77,113 @@
                 "Once per fight when either Champion drops to 15% of their Max Health, White Tiger gains a Power Gain Buff granting 100% of her Max Power over [20 - 6] seconds. As a Defender, this only triggers once per Quest."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Precision": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Nullify": [
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Fear": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

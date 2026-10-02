@@ -42,5 +42,25 @@
                 "The Souls of her ancestors empower Guillotine further, granting a 10% chance to steal [20 - 55]% of damage done as Health for every 4 Souls she possesses. Minimum [20 - 55]% Health Steal regardless of current Soul count."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Degeneration": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Spectre": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                0
+            ]
+        ]
+    }
 }

@@ -73,5 +73,53 @@
                 "Hyperion's Eternal physiology becomes more efficient at storing and converting cosmic radiation, resulting in [52 - 75]% increased Fury, Precision, Power Gain and Regeneration Buff duration."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                5,
+                3
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

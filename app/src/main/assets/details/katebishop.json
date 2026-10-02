@@ -103,5 +103,89 @@
                 "Striking the Opponent's Block pauses all Trick Arrow effects for [0.2 - 2] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Purify": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Counter-Attack Evade": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Coldsnap": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Tranquilize": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Caltrops": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Fragility": [
+            [
+                3,
+                3
+            ]
+        ],
+        "Sunder": [
+            [
+                3,
+                3
+            ]
+        ],
+        "Crush": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Tracking": [
+            [
+                5,
+                1
+            ]
+        ],
+        "True Accuracy": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                9,
+                0
+            ]
+        ],
+        "Precision": [
+            [
+                9,
+                1
+            ]
+        ]
+    }
 }

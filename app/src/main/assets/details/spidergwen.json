@@ -76,5 +76,49 @@
                 "+[10 - 45]% Hunter-Spider and Trap-Spider ability duration."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Evade": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Nullify": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Slow": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Enervate": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

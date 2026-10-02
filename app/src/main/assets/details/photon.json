@@ -93,5 +93,95 @@
                 "Photon has a [15 - 65]% chance to inflict one of her personal Energy Vulnerability Debuffs on the Opponent when struck by or Blocking a Light Attack."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Untouchable": [
+            [
+                0,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Petrify": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Disable Willpower": [
+            [
+                0,
+                4
+            ]
+        ],
+        "Suppression": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                1,
+                2
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Sunder": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Overload": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Taunt": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

@@ -88,5 +88,121 @@
                 "Each time Venompool enters a fight, he gains his Persistent Charge back."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Precision": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Energize": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                7,
+                5
+            ]
+        ],
+        "Vicious": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Nullify": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ]
+    }
 }

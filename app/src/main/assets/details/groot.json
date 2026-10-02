@@ -58,5 +58,41 @@
                 "Groot grows tired of watching his friends get hurt in combat and begins the fight with 2 Pacifism charges. Additionally, each Fury stack gained from throwing off his gentle nature has a [20 - 70]% chance to activate a charge of Resist Physical, increasing Physical Resistance by [278.09] each."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

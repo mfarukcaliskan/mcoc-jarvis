@@ -77,5 +77,29 @@
                 "Additionally, his Flak Jacket is upgraded to allow it to absorb an additional [26,687.8] attack damage before breaking."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Prowess": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Concussion": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

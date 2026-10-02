@@ -71,5 +71,75 @@
                 "Whenever Medusa inflicts Armor Shattered or gains a Fervor Buff, gain a True Accuracy Buff for 35 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Break": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Fervor": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Auto-Block": [
+            [
+                7,
+                0
+            ]
+        ],
+        "True Accuracy": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

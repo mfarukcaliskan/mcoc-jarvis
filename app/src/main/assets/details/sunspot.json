@@ -77,5 +77,47 @@
                 "Sunspot increases his maximum number of Solar Charges by [1 - 40]."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Incinerate": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Perfect Block": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Prowess": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

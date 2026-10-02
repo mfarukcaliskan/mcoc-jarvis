@@ -71,5 +71,53 @@
                 "Additionally each Bleed Debuff on the opponent reduces their Physical Resistance by [407.29 - 723.55]."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Slow": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Suppression": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Fragility": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Critical Bleed": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

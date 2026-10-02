@@ -81,5 +81,65 @@
                 "Blocking during the opponent's Special Attack inflicts them with a Passive Weakness, reducing their Attack Rating by [15 - 60]%. This is also true if Civil Warrior was Blocking prior to a Special Attack 3."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                2,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Heal Block": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Power Lock": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Weakness": [
+            [
+                9,
+                1
+            ]
+        ]
+    }
 }

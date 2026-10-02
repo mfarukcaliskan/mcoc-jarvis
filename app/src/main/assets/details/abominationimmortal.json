@@ -68,5 +68,71 @@
                 "Poison, Petrify, and Acid Burn effects last +[0 - 30]% longer."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Poison": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Acid Burn": [
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Petrify": [
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Weakness": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ]
+    }
 }

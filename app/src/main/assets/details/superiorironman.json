@@ -92,5 +92,173 @@
                 "Whenever Tony is inflicted with a Bleed, Incinerate, or Shock effect, pause his personal Buffs for [0.5 - 2.06] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Auto-Block": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Increased AA": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Armor Up": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Amplify": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Instinct": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

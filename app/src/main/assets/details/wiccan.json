@@ -76,5 +76,101 @@
                 "If the Opponent is Shock Immune, Shocks turn into Degeneration with the same Potency and Duration, but counts as Shocks for Wiccan's other abilities."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Neutralize": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Incinerate": [
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Resistance Up": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Nullify": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Plasma": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Power Efficiency": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                6,
+                2
+            ]
+        ]
+    }
 }

@@ -75,5 +75,41 @@
                 "Special 3: Power Sting has a 100% chance to re-apply itself once activated. Chance decreases by [45 - 0]% each time this happens."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Physical Resistance": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Sting": [
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Petrify": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

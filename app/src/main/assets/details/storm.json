@@ -68,5 +68,65 @@
                 "Launching a Special Attack grants Storm 1 Prowess Buff per level of Special Attack used. Additionally, each Prowess on Storm, to a maximum of 10, increases the Potency of her Shock Debuffs by +[8 - 18]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Prowess": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Passive Stun": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

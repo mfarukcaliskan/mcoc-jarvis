@@ -89,5 +89,75 @@
                 "Special Attacks generate +1 Symbiote Buff with [90 - 35]% reduced Potency."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "True Sense": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Aptitude": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Power Drain": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                4,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Direct Damage": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

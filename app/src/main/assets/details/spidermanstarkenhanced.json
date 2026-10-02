@@ -67,5 +67,67 @@
                 "Great Responsibility (Below 50% Health) - Spider-Man's chance to Evade an attack increases by a flat +7% and each charge of Poise grants him [56.12 - 121.6] additional Block Proficiency."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Evade": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Taunt": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Ensnare": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

@@ -72,5 +72,45 @@
                 "While Black Panther has at least 10 Reflect Charges, he gains a [22 - 100]% chance to absorb Heavy Attack impacts by consuming 10 Charges to become Passively Unstoppable for 0.75 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Stun": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Cleanse": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                6,
+                2
+            ]
+        ]
+    }
 }

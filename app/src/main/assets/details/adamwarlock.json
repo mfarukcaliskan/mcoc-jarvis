@@ -103,5 +103,119 @@
                 "When the Opponent strikes into the Pod, they have a [10 - 100]% chance to be inflicted with a Stun Debuff for 2 seconds unless suffering from a Soul Barb effect."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "True Damage": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Precision": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                1,
+                7
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                2
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Taunt": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

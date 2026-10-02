@@ -99,5 +99,89 @@
                 "For every 25% of the Opponent's missing Health, Pavitr's Marked Passive gains 100% base potency, even if already active."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Energy Damage Effect": [
+            [
+                0,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Neutralize": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Nullify": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Marked": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                9,
+                1
+            ]
+        ]
+    }
 }

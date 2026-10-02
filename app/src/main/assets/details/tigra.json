@@ -74,5 +74,57 @@
                 "Start the fight with Primal Sense and Huntress Sense for [3 - 12] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Neutralize": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

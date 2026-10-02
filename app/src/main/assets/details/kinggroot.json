@@ -79,5 +79,75 @@
                 "When Malice enters Cooldown, gain a Regeneration Buff, recovering [3,066.3 - 12,921.39] Health over 13 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Direct Damage": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                1
+            ]
+        ]
+    }
 }

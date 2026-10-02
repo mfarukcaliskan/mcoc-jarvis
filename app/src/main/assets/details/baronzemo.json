@@ -75,5 +75,79 @@
                 "When fighting #Heroes, attacks that intercept the Opponent gain +[95.48 - 1,000] Critical Rating."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Cleanse": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Root": [
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Resistance Up": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Decelerate": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Disorient": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Sunder": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

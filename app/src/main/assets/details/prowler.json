@@ -88,5 +88,89 @@
                 "While Prowler has at least 30 Fury effects, his Special Attacks are Passively Unblockable."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cannot Crit": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Rupture": [
+            [
+                1,
+                1
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Increased AA": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Power Drain": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Lock": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Incinerate": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Pursuit": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Taunt": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                8,
+                1
+            ]
+        ]
+    }
 }

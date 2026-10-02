@@ -84,5 +84,155 @@
                 "While in Cosmic Energy Overload, Super-Skrull gains a Power Gain Buff, granting [1.5 - 7.1]% of a Bar or Power per second."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Falter": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Armor Up": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Vigilance": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "Undermine": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Aptitude": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Nova Flame": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

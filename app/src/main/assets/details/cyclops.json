@@ -53,5 +53,33 @@
                 "Beam attacks are calibrated for up to [222.53 - 1,658.41] increased Critical Damage Rating. Damage from Beam attacks is not reduced by Blocking once a Combo of 15 or more hits is reached."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Critical into Block": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Special Protection": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

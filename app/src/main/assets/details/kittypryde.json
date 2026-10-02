@@ -73,5 +73,81 @@
                 "The first time each Personal Incinerate effect expires naturally or is Purified, it has a [20 - 40]% chance to retrigger itself at +30% potency. Incinerates triggered from this ability are always Passive."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Prowess": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                6
+            ]
+        ],
+        "Phasing": [
+            [
+                2,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Reduce AA": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                1
+            ]
+        ]
+    }
 }

@@ -74,5 +74,67 @@
                 "While the opponent is suffering from at least 1 Shock Debuff, Nebula's attacks gain +[8 - 25]% Combat Power Rate."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Shock": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                2
+            ]
+        ],
+        "Power Lock": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                5,
+                1
+            ]
+        ]
+    }
 }

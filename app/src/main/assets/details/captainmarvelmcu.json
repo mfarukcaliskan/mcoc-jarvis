@@ -84,5 +84,89 @@
                 "The Indestructible Buff and half of Captain Marvel's Energy Charges are removed when struck by a Special Attack."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Break": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                2
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Start With Power": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "True Damage": [
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                2
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Indestructible": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

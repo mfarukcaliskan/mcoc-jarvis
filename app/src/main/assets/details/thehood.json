@@ -84,5 +84,85 @@
                 "The Hood becomes Immune to all Stun effects. Firing a Bullet while Invisible has a [25 - 45]% chance to Steal 10% of the opponent's current Power, gaining twice that amount in the process."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Hex": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Stagger": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Direct Damage": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Fateseal": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Reduce AA": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

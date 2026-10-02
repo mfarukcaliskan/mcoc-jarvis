@@ -73,5 +73,83 @@
                 "When Thor's Combo Shield Passive is removed, it goes on cooldown for [30 - 10] seconds, and then returns."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Shock": [
+            [
+                0,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Combo Shield": [
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Endurance": [
+            [
+                1,
+                4
+            ]
+        ],
+        "Auto-Block": [
+            [
+                1,
+                5
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

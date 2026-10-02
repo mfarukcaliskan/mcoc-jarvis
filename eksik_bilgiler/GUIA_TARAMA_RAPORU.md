@@ -103,3 +103,4 @@ Tarama tarihi: **2026-10-01**. Site bir Google Sites sayfasıdır; 66 sayfa ve ~
 
 ## mcoc.gg şampiyon başına ek veri (champion_extra.json, başladı)
 - `sync_mcoc.py extras` (haftalık workflow'da): takma ad, yıldız aralığı, ascend, ham direnç/delme istatistikleri, vuruş kodları (CP/PE/CE/PP – anlamı kaynakta yok, yorumlanmadı), Raid rolü, görünür etiketler, alternatif relic'ler; 331 şampiyon. Uygulamada yalnızca başlık satırında (takma ad, ★ aralığı, ascend, Raid rolü) gösteriliyor; etiketler, ham direnç ve alternatif andaçlar şampiyon detayında da gösteriliyor.
+- `details/*.json` → `abilityRefs`: her yetenek için kaynak satırlarının [bölüm, satır] indeksleri (mcoc.gg ability_map). Şampiyon detayında bir yeteneğe dokununca o şampiyondaki ilgili mcoc.gg satırları (İngilizce) görünür. Test: tüm indeksler geçerli.

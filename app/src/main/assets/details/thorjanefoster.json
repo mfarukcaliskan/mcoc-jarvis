@@ -66,5 +66,69 @@
                 "While Thor is suffering from 7+ Shock effects, the Opponent is inflicted with a [44 - 80]% Wither Passive."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Mid-Combo Stun": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Shock": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Fervor": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Nullify": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Wither": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

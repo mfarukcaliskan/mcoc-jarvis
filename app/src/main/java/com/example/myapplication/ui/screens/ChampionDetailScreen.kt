@@ -408,7 +408,7 @@ fun ChampionDetailScreen(championId: String, onBack: () -> Unit = {}) {
                         } else {
                             val details = championDetails
                             if (details != null) {
-                                AbilitiesGrid(champion, details.abilityDetails)
+                                AbilitiesGrid(champion, details.abilityDetails, details.abilitySources)
                             }
                         }
                     }
@@ -755,7 +755,7 @@ fun StatFocusCard(champion: Champion) {
 
 // ========== ABILITIES GRID (MCOC.gg style) ==========
 @Composable
-fun AbilitiesGrid(champion: Champion, abilityDetails: Map<String, String>) {
+fun AbilitiesGrid(champion: Champion, abilityDetails: Map<String, String>, abilitySources: Map<String, List<String>> = emptyMap()) {
     val abilities = champion.abilities.split(",").map { it.trim() }.filter { it.isNotEmpty() }
     var selectedAbility by remember { mutableStateOf<String?>(null) }
 
@@ -839,6 +839,11 @@ fun AbilitiesGrid(champion: Champion, abilityDetails: Map<String, String>) {
                         }
                         Spacer(modifier = Modifier.height(8.dp))
                         Text(desc, color = Color.LightGray, fontSize = 13.sp, lineHeight = 18.sp)
+                        abilitySources[ability]?.takeIf { it.isNotEmpty() }?.let { src ->
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Text("Bu şampiyonda (mcoc.gg, İngilizce):", fontWeight = FontWeight.Bold, color = Color(0xFFFF9800), fontSize = 11.sp)
+                            src.forEach { Text("• $it", color = Color.LightGray, fontSize = 11.sp) }
+                        }
                     }
                 }
             }

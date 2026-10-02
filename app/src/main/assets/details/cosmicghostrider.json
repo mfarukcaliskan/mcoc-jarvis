@@ -97,5 +97,101 @@
                 "The Powerlock Debuff triggered when reaching 5 Judgments is upgraded to a Damnation Debuff dealing [2,081.31 - 4,911.4] damage over 6 seconds. Opponents under Damnation are also Power Locked, Heal Blocked, and Fatesealed, all of which are unaffected by Ability Accuracy modifications."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Break": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Power Lock": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Armor Up": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Vigilance": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Aptitude": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                9,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                10,
+                0
+            ]
+        ],
+        "Fateseal": [
+            [
+                10,
+                0
+            ]
+        ]
+    }
 }

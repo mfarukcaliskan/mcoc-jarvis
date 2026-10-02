@@ -83,5 +83,83 @@
                 "If Shathra is defeated while she has any Vengeance, she gains 1 additional Vengeance."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cross-Fight Ability": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Vulnerability": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Nullify": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Atrophy": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                5,
+                1
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                2
+            ]
+        ]
+    }
 }

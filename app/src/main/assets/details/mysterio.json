@@ -62,5 +62,49 @@
                 "Mysterio generates 1 Chemical Gas every [20 - 6] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Poison": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Heal Block": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Damage Reflect": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ]
+    }
 }

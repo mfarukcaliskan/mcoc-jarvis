@@ -91,5 +91,129 @@
                 "When the Opponent activates a Special Attack, M.O.D.O.K. removes all of their True Strike and True Sense effects."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Increased AA": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Auto-Block": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Steadfast": [
+            [
+                1,
+                4
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Fatigue": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "Exhaustion": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                4
+            ]
+        ],
+        "Weakness": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                5
+            ]
+        ],
+        "Poison": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                6
+            ]
+        ],
+        "Heal Block": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                7
+            ]
+        ],
+        "Concussion": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                8
+            ]
+        ]
+    }
 }

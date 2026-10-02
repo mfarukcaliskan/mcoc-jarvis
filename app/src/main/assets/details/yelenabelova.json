@@ -90,5 +90,107 @@
                 "While Yelena is in Elimination Mode, her target cannot Evade or cause attacks to Miss. No effect against Mutant Champions."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Combo Shield": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Endurance": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Critical into Block": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Instant Bleed": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                5
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Reversal": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Bleed Vulnerability": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Impact": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Disarm": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Critical Bleed": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

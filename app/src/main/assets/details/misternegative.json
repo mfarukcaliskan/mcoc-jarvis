@@ -89,5 +89,81 @@
                 "Each Dark Energy deals [194.99 - 264.01] Physical Damage every second while the Opponent is suffering from a non-damaging Debuff. This scales with Base Attack only."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Counter-Attack Evade": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Delirium": [
+            [
+                3,
+                3
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Bulwark": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Exhaustion": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Petrify": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                6,
+                2
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Direct Damage": [
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

@@ -48,5 +48,33 @@
                 "The only known Synthezoid, the Vision is capable of synthesizing [8.89 - 50]% Power periodically during battle. 01001111 01010000"
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

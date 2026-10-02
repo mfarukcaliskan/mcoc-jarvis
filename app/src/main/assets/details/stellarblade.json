@@ -69,5 +69,91 @@
                 "While Regenerating from this ability, Passively Regenerate [40 - 70]% of the damage taken from Blocked hits."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fractured Power Bar": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Atrophy": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Degeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Torment": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

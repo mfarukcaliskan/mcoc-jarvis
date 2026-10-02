@@ -86,5 +86,85 @@
                 "Each Debuff on Patriot grants [144.74 - 485.29] Block Proficiency. Against Science Champions, Patriot's Block Proficiency cannot be reduced below where this ability would set it, and the Opponent's Block Penetration is locked to 0."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Weakness": [
+            [
+                0,
+                4
+            ]
+        ],
+        "Combo Shield": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Vigilance": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Precision": [
+            [
+                1,
+                3
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Critical into Block": [
+            [
+                1,
+                4
+            ]
+        ],
+        "Reversal": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Physical Vulnerability": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Steadfast": [
+            [
+                0,
+                2
+            ]
+        ]
+    }
 }

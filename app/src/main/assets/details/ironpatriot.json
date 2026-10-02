@@ -44,5 +44,39 @@
                 "While under Arc Overload Iron Patriot also gains an Armor Up, increasing Armor Rating by [562.5 - 2,248.11]."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                0
+            ]
+        ]
+    }
 }

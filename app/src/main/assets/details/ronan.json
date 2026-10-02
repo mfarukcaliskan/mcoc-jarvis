@@ -66,5 +66,49 @@
                 "Ronan's Stun Debuffs also gain a [0.25 - 0.65] second(s) duration increase for each Buff the opponent has."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "True Damage": [
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Weakness": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

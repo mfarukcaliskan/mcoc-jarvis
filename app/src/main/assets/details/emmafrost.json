@@ -98,5 +98,77 @@
                 "When Emma uses a Special Attack, the Opponent's controls are reversed until just after the end of the attack. This will not trigger when fighting an Opponent with #Psychic Shielding."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Prowess": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Perfect Block": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                1,
+                6
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                1,
+                7
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        "Taunt": [
+            [
+                4,
+                0
+            ]
+        ],
+        "True Damage": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Power Sting": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Concussion": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Reverse Controls": [
+            [
+                9,
+                1
+            ]
+        ]
+    }
 }

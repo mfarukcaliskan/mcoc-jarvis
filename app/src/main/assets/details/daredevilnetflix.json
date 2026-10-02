@@ -87,5 +87,67 @@
                 "Stick's Apprentice: While in this mode, attacks reduce the damage of the Opponent's Passive Degeneration and Direct Damage effects by [50 - 100]% for 0.2 second(s)."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Combo Shield": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Cruelty": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Instant Bleed": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

@@ -81,5 +81,65 @@
                 "The duration of Buffs is increased by [20 - 80]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Auto-Block": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                4
+            ]
+        ],
+        "Armor Break": [
+            [
+                3,
+                5
+            ]
+        ],
+        "Energize": [
+            [
+                4,
+                1
+            ]
+        ],
+        "True Strike": [
+            [
+                4,
+                2
+            ]
+        ]
+    }
 }

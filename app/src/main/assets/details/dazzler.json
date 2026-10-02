@@ -76,5 +76,81 @@
                 "Performing a Dazzling Dash grants a Pursuit Passive for [2 - 10] seconds, paused until the end of the Dash."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Falter": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Passive Stun": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Resonance": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Prowess": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Damage Reflect": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Pursuit": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Dodge": [
+            [
+                0,
+                3
+            ]
+        ]
+    }
 }

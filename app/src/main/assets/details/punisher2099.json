@@ -66,5 +66,49 @@
                 "Opponent hits 3 Bars of Power: 40% of the Battery is drained to drain 0.6 Bars of Power and inflict a Power Lock Debuff for [2 - 10] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Heal Block": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Disintegration": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Lock": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

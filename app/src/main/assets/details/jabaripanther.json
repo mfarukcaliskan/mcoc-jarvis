@@ -90,5 +90,71 @@
                 "A Counterpunch Charge is spent to gain Unstoppable for 0.75 second(s) when Blocking an Attack, and all are lost when the Hunt ends."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cleanse": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Ensnare": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Counterpunch": [
+            [
+                9,
+                1
+            ],
+            [
+                9,
+                2
+            ]
+        ]
+    }
 }

@@ -546,6 +546,31 @@ def cmd_relics():
           f"yetenek aciklamasi olan {sum(1 for o in out if o['abilities'])}; relic_statcast: {len(table)} kademe")
 
 
+def ability_refs(g, names):
+    """ability_map (1-tabanli bolum/satir) -> details/*.json abilitySections'a gore 0-tabanli [bolum, satir] ciftleri."""
+    raw = json.load(open(os.path.join(CACHE, "champions", f"{g['image']}.json"), encoding="utf-8"))["abilities"]
+    sec_idx, line_idx, k = {}, {}, 0
+    for si, a in enumerate(raw, 1):
+        kept = [ci for ci, c in enumerate(a.get("content", []), 1) if clean(c)]
+        if kept:
+            sec_idx[si] = k
+            line_idx[si] = {ci: li for li, ci in enumerate(kept)}
+            k += 1
+    refs = {}
+    for aid, mp in zip(g.get("ability", []), g.get("ability_map", [])):
+        name = names.get(str(aid))
+        if not name:
+            continue
+        pairs = refs.setdefault(name, [])
+        for m in mp:
+            for c in m["c"]:
+                if m["t"] in sec_idx and c in line_idx[m["t"]]:
+                    pr = [sec_idx[m["t"]], line_idx[m["t"]][c]]
+                    if pr not in pairs:
+                        pairs.append(pr)
+    return {n: p for n, p in refs.items() if p}
+
+
 def cmd_extras():
     """mcoc.gg'den sampiyon basina ek veri (champion_extra.json): takma ad, yildiz araligi, ilk cikis, ascend,
     ham direnc/delme istatistikleri, vurus deseni, Raid rolu, gorunur etiketler, alternatif relic'ler."""
@@ -554,12 +579,23 @@ def cmd_extras():
     tags = {str(t["id"]): t for t in load("tags.json")["data"]}
     roles = {r["id"]: r for r in load("roles.json")["data"]}
     relics = {r["id"]: r["name"] for r in load("relics.json")["data"]}
+    ab_names = {str(a["id"]): a["name"] for a in load("abilities.json")["data"]}
     out = {}
+    linked = 0
     for g in gg:
         oid = gg_to_ours_id(g["image"])
         if oid not in ours:
             continue
         hits = ["+".join(h) for h in g.get("hits", [])]
+        dpath = os.path.join(ASSETS, "details", f"{oid}.json")
+        if os.path.isfile(dpath):
+            d = json.load(open(dpath, encoding="utf-8"))
+            refs = ability_refs(g, ab_names)
+            if d.get("abilityRefs") != refs:
+                d["abilityRefs"] = refs
+                with open(dpath, "w", encoding="utf-8") as f:
+                    json.dump(d, f, ensure_ascii=False, indent=4)
+            linked += 1 if refs else 0
         role = roles.get(g.get("role"))
         out[oid] = {
             "alias": g.get("alias"),
@@ -580,7 +616,7 @@ def cmd_extras():
         print("champion_extra.json degismedi")
         return
     open(path, "w", encoding="utf-8").write(new)
-    print(f"champion_extra.json: {len(out)} sampiyon")
+    print(f"champion_extra.json: {len(out)} sampiyon, abilityRefs: {linked}")
 
 
 def _norm_name(s):

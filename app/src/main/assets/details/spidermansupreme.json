@@ -81,5 +81,93 @@
                 "Blessing of the Web: Increase the Potency of granted Buffs by [5 - 50]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Pierce": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Root": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Power Steal": [
+            [
+                0,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ]
+    }
 }

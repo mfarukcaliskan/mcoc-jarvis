@@ -87,5 +87,87 @@
                 "While Okoye's Health Points are lower than her Opponent's, all Endurance and Precision Buffs on her expire [4 - 45]% slower."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Precision": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                4
+            ]
+        ],
+        "Ensnare": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                2,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Combo Shield": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Vicious": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Endurance": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

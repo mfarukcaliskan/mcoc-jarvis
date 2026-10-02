@@ -101,5 +101,103 @@
                 "While Solvarch has a Steadfast, they are Immune to Crush."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fractured Power Bar": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Cannot Crit": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Armor Up": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Coldsnap": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Reverb": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "Power Drain": [
+            [
+                6,
+                1
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                2
+            ]
+        ],
+        "Heal Block": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Steadfast": [
+            [
+                9,
+                0
+            ]
+        ]
+    }
 }

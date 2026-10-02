@@ -90,5 +90,135 @@
                 "Whenever the Opponent Heals while Heal Blocked, or gains Power while Power Locked, Psycho-Man gains [5 - 25]% of a Bar of Power, scaling up or down with how much Health or Power they would have gained."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Concussion": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Shock": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Cowardice": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                2
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Power Drain": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                6,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                6,
+                2
+            ]
+        ],
+        "Stun": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Power Lock": [
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Weakness": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

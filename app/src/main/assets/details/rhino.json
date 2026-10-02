@@ -85,5 +85,103 @@
                 "While at 15+ personal Physical Resistance, making contact with the Opponent pauses personal Breach, Taunt, and Trauma Debuffs for [0.1 - 0.5] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cannot Crit": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Trauma": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Taunt": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Breach": [
+            [
+                3,
+                4
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Intimidate": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

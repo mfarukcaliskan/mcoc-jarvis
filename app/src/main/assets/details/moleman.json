@@ -84,5 +84,55 @@
                 "Gain up to [2,542 - 10,168.04] Attack Rating while Unstoppable based on missing Health."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "True Accuracy": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                6,
+                2
+            ]
+        ]
+    }
 }

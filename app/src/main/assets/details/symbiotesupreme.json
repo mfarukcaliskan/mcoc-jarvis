@@ -91,5 +91,89 @@
                 "Every [20 - 10] seconds place a Stagger Passive effect on the Opponent, lasting 10 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Direct Damage": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Stagger": [
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Protection": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Perfect Block": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Weakness": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

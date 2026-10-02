@@ -81,5 +81,83 @@
                 "When Phoenix starts a fight with exactly 60%, 40%, or 20% of her Maximum Health, she gains a Regeneration Buff healing [20 - 40]% of her Max Health over 30 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                7,
+                2
+            ]
+        ],
+        "Mid-Combo Stun": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Armor Break": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Immortality": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

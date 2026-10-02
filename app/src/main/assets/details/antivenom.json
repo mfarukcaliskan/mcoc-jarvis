@@ -79,5 +79,91 @@
                 "Each personal Exacerbate Passive increases the potency of Anti-Venom's peronal Debuffs by an additonal 2.5%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Spectre": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Disorient": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Decelerate": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Stagger": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Petrify": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

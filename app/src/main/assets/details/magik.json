@@ -87,5 +87,93 @@
                 "When a Limbo Buff is placed on the Opponent, also inflict a non-stacking Degeneration Passives, dealing [3,140] Direct Damage over 20 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Dodge": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Neutralize": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                5
+            ]
+        ],
+        "Falter": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Buff Deceleration": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Buff Acceleration": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Nullify": [
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

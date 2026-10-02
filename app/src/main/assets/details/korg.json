@@ -75,5 +75,83 @@
                 "While Rock Shield is active, Korg has a [30 - 70]% chance to Purify Debuffs and gain one Rock Shield charge for each Debuff Purified this way."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Critical Resistance": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Rock Shield": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Instant Bleed": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Bleed Vulnerability": [
+            [
+                5,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Thorns": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

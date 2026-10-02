@@ -103,5 +103,165 @@
                 "Gain a Special Evade Charge when the Plasma Mine is triggered during The Maker's Special Attacks."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cannot Crit": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Increased AA": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Special Power Drain": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Instants Siphon": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Cowardice": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Counter-Attack Evade": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Heal Block": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Instant Plasma": [
+            [
+                4,
+                2
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Suppression": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Power Reroute": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                3
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                9,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                9,
+                1
+            ],
+            [
+                9,
+                2
+            ],
+            [
+                9,
+                3
+            ]
+        ]
+    }
 }

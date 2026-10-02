@@ -67,5 +67,43 @@
                 "Redwing's Lock On lasts 2 seconds longer and provides an additional [731.01 - 2,437.93] Critical Rating."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Reduce Defensive AA": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Bleed": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Fragility": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

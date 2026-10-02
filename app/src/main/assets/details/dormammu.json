@@ -74,5 +74,69 @@
                 "Dormammu uses his opponent's powers as a link to reach deep within their soul. Each time a buff expires on his opponent Dormammu has up to a 100% chance to Degenerate them for [2,682.94 - 5,715.97] direct damage, over 10 seconds. The chance of this ability triggering increases the longer it's been since it was last triggered."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Detonate": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Power Drain": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Power Burn": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Nullify": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Power Lock": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

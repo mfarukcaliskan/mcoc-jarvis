@@ -78,5 +78,127 @@
                 "At the end of the fight, Aegon adds [1 - 75]% of his final Combo Meter into his Persistent Combo, up to 999 hits total. Aegon's abilities that count the Combo Meter add his Persistent Combo on top of it."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Purify": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                7
+            ]
+        ],
+        "Combo Shield": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                12
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                5
+            ],
+            [
+                1,
+                12
+            ]
+        ],
+        "Critical into Block": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "True Accuracy": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                8
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                10
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                11
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                13
+            ]
+        ],
+        "Bleed": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

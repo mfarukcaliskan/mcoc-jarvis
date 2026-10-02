@@ -67,5 +67,73 @@
                 "When receiving damage that would knock her out, Death Touch is removed instead and Claire gains a Death Immunity Buff, preventing death and healing [4 - 25]% of her max health over 4 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Poison": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Buff Immunity": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Death Immunity": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

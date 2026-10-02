@@ -68,5 +68,79 @@
                 "Odd Combo: Opponent is possessed gaining 50% decreased Ability Accuracy and [50 - 125]% increased Debuff Duration."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Energy Resistance": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Power Steal": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Power Dissolve": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Increased AA": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Reduce AA": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

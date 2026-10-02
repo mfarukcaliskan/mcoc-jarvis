@@ -61,5 +61,61 @@
                 "Mephisto is immune to Passive Ability Accuracy Modifications."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Imprison": [
+            [
+                1,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

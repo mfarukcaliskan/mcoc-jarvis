@@ -62,5 +62,63 @@
                 "Light and Medium Attacks that Intercept the Opponent have a chance to inflict an additional S:I Bounty Hunter Shock Debuff with +[10 - 60]% flat increased Ability Accuracy."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Shock": [
+            [
+                0,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Instant Shock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Critical Shock": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Disorient": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Fervor": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Tracking": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Cruelty": [
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                1,
+                2
+            ]
+        ]
+    }
 }

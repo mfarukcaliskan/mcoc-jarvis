@@ -79,5 +79,91 @@
                 "While the Opponent is Incinerated, Frank gains +[479.57 - 2,250] Energy Penetration, doubled while fighting Science Champions."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Berserk": [
+            [
+                0,
+                4
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Crush": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Passive Stun": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Undying": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

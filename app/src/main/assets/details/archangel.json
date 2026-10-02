@@ -83,5 +83,79 @@
                 "The Neurotoxin coating Archangel's wings and claws increases in toxicity, making each Neurotoxin Passive reduce the Opponent's Ability Accuracy by [25 - 40]% and preventing them from gaining Health."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Neurotoxin": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                3
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                5,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Reduce AA": [
+            [
+                9,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                9,
+                0
+            ]
+        ]
+    }
 }

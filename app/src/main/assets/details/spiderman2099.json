@@ -74,5 +74,63 @@
                 "+[5 - 25]% Combat Power Rate while the Opponent is affected by a Wither Debuff."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Dodge": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Rupture": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Exhaustion": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Resistance Up": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Wither": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Physical Vulnerability": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

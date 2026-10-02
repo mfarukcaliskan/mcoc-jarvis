@@ -73,5 +73,81 @@
                 "Inflicting a Mixed Emotion Passive while the Opponent is inflicted with Tranquilize effect pauses all Tranquilize effects for [0.2 - 1.2] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Tranquilize": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Infuriate": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Intimidate": [
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Sleep": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Cleanse": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                4,
+                0
+            ]
+        ]
+    }
 }

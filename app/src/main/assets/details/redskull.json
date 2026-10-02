@@ -82,5 +82,85 @@
                 "Every 10th Basic Attack grants Red Skull 1 Armor Up Buff."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Power Drain": [
+            [
+                3,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Auto-Block": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

@@ -79,5 +79,73 @@
                 "While suffering from any Energy Damaging Passives, Jack O'Lantern Passively Regenerates +[0.06 - 0.18]% of Base Health per half second."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Parry Non-Contact": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Cannot Crit": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Plasma": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Cowardice": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Bulwark": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

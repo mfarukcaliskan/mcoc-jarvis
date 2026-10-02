@@ -80,5 +80,119 @@
                 "Repulsor Debuffs gain +[5 - 22.19]% increased potency."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Pre-Fight": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Armor Up": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Tracking": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Suppression": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Invalidate": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Vulnerability": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Bulwark": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

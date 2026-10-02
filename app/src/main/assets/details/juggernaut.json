@@ -81,5 +81,67 @@
                 "Attacks have a [1.5 - 3]% chance per Unstoppable Buff to Nullify a Buff from the Opponent."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Unstoppable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Wither": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Stagger": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Nullify": [
+            [
+                8,
+                1
+            ]
+        ]
+    }
 }

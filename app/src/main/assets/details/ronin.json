@@ -92,5 +92,85 @@
                 "When Ronin Evades an attack, gain a Fury Passive increasing Attack Rating by [1,334.58 - 2,053.23] for 12 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cruelty": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Precision": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Disorient": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                9,
+                0
+            ],
+            [
+                10,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                10,
+                0
+            ]
+        ]
+    }
 }

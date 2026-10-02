@@ -89,5 +89,105 @@
                 "When inflicting a Devolve Debuff, [10 - 100]% chance to gain an indefinite 1.6% Aspect of Evolution Passive. Max stacks: 10."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Wither": [
+            [
+                0,
+                3
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Exhaustion": [
+            [
+                0,
+                4
+            ]
+        ],
+        "Auto-Block": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Combo Detonation": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Devolve": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Reverse Controls": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Direct Damage": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Slow": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Aspect of Evolution": [
+            [
+                8,
+                3
+            ]
+        ]
+    }
 }

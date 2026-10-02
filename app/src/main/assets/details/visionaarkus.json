@@ -73,5 +73,55 @@
                 "Whenever Aarkus gains a non-Damaging Debuff, he has a [30 - 100]% chance to Purify one of each non-Damaging Debuff on him. This cannot trigger more than once every 9.5 second(s)."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Coldsnap": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Armor Shattered": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

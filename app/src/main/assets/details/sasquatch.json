@@ -82,5 +82,55 @@
                 "During Wrath of Tanaraq, Sasquatch becomes Passively Unstoppable during Special and Heavy Attacks and the Opponent's Defensive Combat Power Rate is reduced by [10 - 70]% when struck by these Attacks."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Rupture": [
+            [
+                1,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Stagger": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                8,
+                1
+            ]
+        ]
+    }
 }

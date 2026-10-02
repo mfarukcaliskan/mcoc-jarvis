@@ -48,5 +48,33 @@
                 "Special Attacks have a 100% chance to disrupt the target, taking [15.33 - 37.87]% of their Power as your own."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Heal Block": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Steal": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

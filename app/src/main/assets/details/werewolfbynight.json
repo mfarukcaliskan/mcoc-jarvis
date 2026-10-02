@@ -75,5 +75,93 @@
                 "Chilling Howl above 2 Bars of Power: Gain an Unstoppable Passive for 3.5 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Rupture": [
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Nullify": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

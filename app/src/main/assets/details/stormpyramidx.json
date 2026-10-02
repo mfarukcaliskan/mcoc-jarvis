@@ -85,5 +85,99 @@
                 "Landing a Heavy Attack activates Storm's alternate Tempest for up to [15] seconds based on how long the Heavy Attack was charged. The tempest will not activate while already active, and is paused during Heavy Attacks and Special Attacks."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Energy Resistance": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Passive Stun": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Glancing": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Prowess": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Slow": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Shock": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Instant Shock": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

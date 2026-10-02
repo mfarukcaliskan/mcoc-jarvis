@@ -34,5 +34,19 @@
                 "The Iron Fists' repeated strikes to pressure points wreak cumulative havoc on the target's Armor Rating, with a 21% chance to reduce it by [93.75 - 486.41] for each activation."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Break": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                2,
+                0
+            ]
+        ]
+    }
 }

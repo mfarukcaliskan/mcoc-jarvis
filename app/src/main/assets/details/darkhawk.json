@@ -71,5 +71,61 @@
                 "Stealth Mode grants [10 - 60]% increased Offensive Combat Power Rate."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Instant Shock": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Miss": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Auto-Block": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

@@ -73,5 +73,79 @@
                 "Vox can toggle a Pre-Fight ability to Never Back Down during a fight, preventing them from moving backwards when they dodge. This option is remembered between fights."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Armor Up": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Degeneration": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Intensify": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Undermine": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Vigilance": [
+            [
+                4,
+                0
+            ]
+        ],
+        "True Damage": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Neutralize": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                6,
+                2
+            ]
+        ]
+    }
 }

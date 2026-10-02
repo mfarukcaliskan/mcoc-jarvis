@@ -40,5 +40,31 @@
                 "Wolverine's natural healing factor accelerates, granting a 8% chance to gain an additional Regeneration Buff, restoring up to [3,167.71 - 14,459.79] Health based on current Power Levels over 5 seconds, when landing a Hit or when Struck."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ]
+    }
 }

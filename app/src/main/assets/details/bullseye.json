@@ -85,5 +85,113 @@
                 "Whenever either Champion is Stunned or struck by a Heavy Attack, Bullseye has a [10 - 50.2]% chance to Purify 50% of all Debuffs, up to a maximum of 10 Debuffs. The Stun Debuff from the Parry Mastery will not trigger this."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Guaranteed Crits": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Critical into Block": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Instant Bleed": [
+            [
+                0,
+                4
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Counter-Attack Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                0
+            ]
+        ],
+        "True Accuracy": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Impact": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Passive Stun": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Disorient": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

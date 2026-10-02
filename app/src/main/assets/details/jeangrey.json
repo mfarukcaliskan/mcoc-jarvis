@@ -90,5 +90,77 @@
                 "Increase the duration of personal Neuroshock Passives by +[2 - 8] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Neuroshock": [
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Exhaustion": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Force Field": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Delirium": [
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Uncanny": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Daunted": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Passive Stun": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

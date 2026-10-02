@@ -80,5 +80,55 @@
                 "Namor takes [25 - 100]% reduced damage from all sources while attacking his Opponent. When Namor ends an Attack, any damage prevented by Hydrokinetic Armor is captured and sent back to the Opponent as Energy Damage."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

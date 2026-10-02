@@ -88,5 +88,47 @@
                 "Each Neutronium also grants Maestro +[2 - 19] Block Penetration."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Glancing": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Pierce": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Root": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

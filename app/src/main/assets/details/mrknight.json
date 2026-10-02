@@ -85,5 +85,127 @@
                 "As an Attacker in Battlegrounds, at the start of each fight inflict 2 10% Injury Passives for [4 - 12] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Unstoppable": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Critical into Block": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Light Proficiency": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Tranquilize": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Injury": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                7,
+                3
+            ]
+        ],
+        "Panic": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Reckless": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "Sleep": [
+            [
+                4,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

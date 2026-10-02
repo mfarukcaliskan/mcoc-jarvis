@@ -75,5 +75,85 @@
                 "Isophyne starts each fight with a Power Gain Passive, granting [33 - 99]% of a Bar of Power over 10 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fractured Power Bar": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                0,
+                3
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Wither": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Degeneration": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Marked": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

@@ -94,5 +94,97 @@
                 "While under the effect of a Combo Shield, damage from incoming attacks excluding Special 3 is capped at 10% of Guillotine's max health."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Cannot Crit": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Armor Up": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Combo Shield": [
+            [
+                4,
+                0
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                10,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Spectre": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

@@ -100,5 +100,89 @@
                 "Against #Villains, Ghost Rider's Genesis Passives gain [50 - 200]% potency."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Stagger": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Hinder": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Atrophy": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Power Steal": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                6,
+                0
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "Genesis": [
+            [
+                8,
+                0
+            ],
+            [
+                11,
+                1
+            ]
+        ],
+        "Fear": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Root": [
+            [
+                9,
+                2
+            ]
+        ],
+        "Damnation": [
+            [
+                10,
+                0
+            ]
+        ]
+    }
 }

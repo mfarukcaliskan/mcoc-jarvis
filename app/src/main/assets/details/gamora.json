@@ -75,5 +75,53 @@
                 "Gamora's skill with the Godslayer Blade grows, increasing the chance to activate it during Special Attacks to 100%. Additionally, the cooldown is reduced to [50 - 20] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "True Strike": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

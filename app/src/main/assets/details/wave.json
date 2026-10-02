@@ -78,5 +78,87 @@
                 "Wave's Debilitate, Tracking, and Battered Debuffs become Severe against Mystic Opponents."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Mid-Combo Stun": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Passive Stun": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Debilitate": [
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Physical Vulnerability": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Heavy Proficiency": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Untouchable": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Tracking": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Battered": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

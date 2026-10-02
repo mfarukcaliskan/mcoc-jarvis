@@ -35,5 +35,19 @@
                 "Attack is increased by up to [1,097 - 3,951.16] based on stored Power. In addition, blocking partially absorbs energy-based attacks, fueling Captain Marvel's Power Meter."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                0
+            ]
+        ],
+        "True Damage": [
+            [
+                1,
+                0
+            ]
+        ]
+    }
 }

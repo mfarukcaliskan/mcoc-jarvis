@@ -89,5 +89,89 @@
                 "As an Attacker, against a Mutant, Nimrod gains +1 Armor Up Buff when gaining a personal Armor Up. As a Defender, instead gain +1 Armor Up per Mutant on the Attacker's team."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Special Lock": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Up": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Cowardice": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Invalidate": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Shock": [
+            [
+                4,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

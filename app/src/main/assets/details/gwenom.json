@@ -67,5 +67,93 @@
                 "While Gwen has at least 1 Spider-Sense Buff active, her base chance to Evade is increased by +[6 - 12]% flat."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Mid-Combo Stun": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Undermine": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Grit": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Precision": [
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Armor Break": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Corrosion": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                6
+            ],
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

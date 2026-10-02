@@ -89,5 +89,57 @@
                 "Logan's first Special Attack each fight gains +[1,825.8 - 3,580.01] Attack rating."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                8,
+                0
+            ],
+            [
+                9,
+                0
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "Critical Bleed": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Direct Damage": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

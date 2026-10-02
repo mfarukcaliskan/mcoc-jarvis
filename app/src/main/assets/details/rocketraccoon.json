@@ -74,5 +74,93 @@
                 "While Dormant, Rocket's Shield System grants him [603.66 - 2,539.43] Block Proficiency. This effect also persists while the Shield System is activated."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Physical Resistance": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Combo Shield": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Armor Break": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Rupture": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Heal Block": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

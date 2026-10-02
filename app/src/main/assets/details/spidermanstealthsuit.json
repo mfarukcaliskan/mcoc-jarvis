@@ -76,5 +76,69 @@
                 "Increases the Potency of Fury Passives by [10 - 40]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Enervate": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Fragility": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Precision": [
+            [
+                4,
+                1
+            ]
+        ]
+    }
 }

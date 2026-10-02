@@ -97,5 +97,109 @@
                 "Against Tech Champions, each stack of Madness reduces the Opponent's Armor Up Ability Accuracy by [12.5 - 25]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Vicious": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Bulwark": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Impact": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Undermine": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Auto-Block": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Infuriate": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                9,
+                0
+            ]
+        ],
+        "Fervor": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Direct Damage": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

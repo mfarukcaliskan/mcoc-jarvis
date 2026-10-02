@@ -106,5 +106,77 @@
                 "This chance increases by a flat [12 - 40]% every time the ability fails to activate."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Pre-Fight": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                11,
+                0
+            ],
+            [
+                11,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "Nova Flame": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                10,
+                0
+            ]
+        ],
+        "Power Sting": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                9,
+                0
+            ]
+        ]
+    }
 }

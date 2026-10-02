@@ -75,5 +75,71 @@
                 "For each Fervor on Spiral, the durations of incoming Shock, Incinerate, and Poison Debuffs are reduced by [5 - 10]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Increased AA": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Fervor": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                1,
+                3
+            ]
+        ],
+        "Destroy": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Vulnerability": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Dodge": [
+            [
+                4,
+                0
+            ]
+        ]
+    }
 }

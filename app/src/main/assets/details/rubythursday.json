@@ -80,5 +80,93 @@
                 "After gaining Organic Circuitry, the first time Ruby hits the Opponent's Block, Organic Circuitry pauses for 5 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cannot Crit": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Instant Rupture": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Disintegration": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Combo Interruption": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Suppression": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Auto-Block": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Instant Disintegration": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Special 2 Lock": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Energize": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Reduce Stun AA": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

@@ -78,5 +78,87 @@
                 "If the Opponent isn't already Shocked whenever Doom Nullifies any Buff, they have a [20 - 100]% chance to be inflicted with a Shock Debuff, dealing [1,524.3] Energy Damage over 6 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Shock": [
+            [
+                2,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Passive Stun": [
+            [
+                2,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Stagger": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Nullify": [
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Unstoppable": [
+            [
+                3,
+                4
+            ]
+        ],
+        "Incinerate": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

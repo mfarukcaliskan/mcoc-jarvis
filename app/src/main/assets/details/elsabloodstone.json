@@ -78,5 +78,61 @@
                 "Elsa's Critical Damage Rating is increased by [144.73 - 1,178.57] when fighting the final node in a Quest."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Degeneration": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                0,
+                2
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Counter-Attack Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

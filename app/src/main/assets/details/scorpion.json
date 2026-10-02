@@ -80,5 +80,149 @@
                 "If the Opponent is inflicted with Petrify and they attempt to Heal, Scorpion Passively Regenerates [79 - 120]% of the Health denied to them due to any reduced Regeneration Rate. Each tick of this healing cannot exceed [229.89] health, this value scales with Base Health."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Pre-Fight": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                4
+            ]
+        ],
+        "Poison": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Power Sting": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                5
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Counter-Attack Evade": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Torment": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Taunt": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Suppression": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Petrify": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                5,
+                1
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

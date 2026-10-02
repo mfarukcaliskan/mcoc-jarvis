@@ -93,5 +93,67 @@
                 "While the Opponent is below 25% Health or is a #Mercenary, Hit-Monkey Passively reduces their Defensive Ability Accuracy by [10 - 40]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Guaranteed Crits": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Disorient": [
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "Unblockable": [
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Vigilance": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Cruelty": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                5,
+                1
+            ]
+        ]
+    }
 }

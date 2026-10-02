@@ -50,5 +50,25 @@
                 "Additionally, each Heat Charge provides him [8 - 20]% Incinerate Damage Resistance."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

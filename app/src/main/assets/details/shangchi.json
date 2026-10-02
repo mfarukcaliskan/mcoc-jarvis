@@ -74,5 +74,73 @@
                 "Shang-Chi can perform Critical Hits through the Opponent's Block. Personal abilities that trigger on Critical Hits will trigger through Block."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Guaranteed Crits": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Cleanse": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Unblockable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Stun": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Precision": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Critical into Block": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

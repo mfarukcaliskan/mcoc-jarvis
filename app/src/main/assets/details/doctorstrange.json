@@ -97,5 +97,101 @@
                 "Before the Opponent would be Knocked Out, inflict a 125% Neutralize Passive for 3 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Nullify": [
+            [
+                1,
+                2
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Increased AA": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Mid-Combo Stun": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Wither": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Coldsnap": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Fateseal": [
+            [
+                7,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Neutralize": [
+            [
+                9,
+                2
+            ]
+        ]
+    }
 }

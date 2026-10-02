@@ -47,5 +47,29 @@
                 "With acute sensory perception more attuned than even Spider-Man, Daredevil has a [20 - 115]% chance to Evade any attack that does not make contact. No effect against Psychic attacks."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Perfect Block": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

@@ -72,5 +72,77 @@
                 "For each other #X-Men Champion on the team, Cyclops enters his first fight with a Persistent Tactician Charge, each increasing his personal Prowess potency by +[0.2 - 2]% flat, and his personal True Focus and Precision durations by +1 second. Winning a fight grants Cyclops +1 Charge. Max stacks: 10."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "True Focus": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Precision": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Prowess": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Power Efficiency": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Special Protection": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Adrenaline": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

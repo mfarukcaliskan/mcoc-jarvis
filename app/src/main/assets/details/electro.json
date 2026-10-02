@@ -48,5 +48,27 @@
                 "Building Power levels in both players charge the atmosphere, increasing Critical Rating by up to [327.08 - 3,370.17] based on the stored Power in both Electro and his opponent."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Static Shock": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ]
+    }
 }

@@ -85,5 +85,59 @@
                 "When Kingpin's Overpower Buff ends, he has a chance to gain up to 5 Rages, with each having a [29 - 90]% chance to activate."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Purify": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                8,
+                1
+            ]
+        ]
+    }
 }

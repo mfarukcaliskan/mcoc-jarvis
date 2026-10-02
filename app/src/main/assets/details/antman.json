@@ -75,5 +75,55 @@
                 "Whenever Ant-Man gains a Pym Particle, he pauses the duration of any personal Fatigue, Poison, or Power Sting Debuffs on the opponent for [2 - 4] second(s)."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Sting": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Unsteady": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Fatigue": [
+            [
+                5,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Petrify": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

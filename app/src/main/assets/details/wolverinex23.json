@@ -84,5 +84,81 @@
                 "Increase personal Vicious potency by [13 - 50]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Passive Stun": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Eviscerating Stun": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Pursuit": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Rupture": [
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Vicious": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Marked": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

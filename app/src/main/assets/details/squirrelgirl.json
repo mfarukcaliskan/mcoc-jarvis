@@ -88,5 +88,61 @@
                 "When Tippy-Toe inflicts an Instant Bleed, each Bleed Debuff has a [10 - 70]% chance to be refreshed instead of being removed."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                1,
+                0
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Critical Bleed": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Injury": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Instant Bleed": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Purify": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Distraction": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Combo Shield": [
+            [
+                6,
+                2
+            ]
+        ]
+    }
 }

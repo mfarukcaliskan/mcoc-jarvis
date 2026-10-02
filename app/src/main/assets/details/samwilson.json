@@ -88,5 +88,119 @@
                 "When either Champion performs a Well-Timed Block, Captain America inflicts a Sapped Charge on the Opponent."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Auto-Block": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Cannot Crit": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Instant Rupture": [
+            [
+                1,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                1,
+                1
+            ],
+            [
+                7,
+                2
+            ]
+        ],
+        "Cowardice": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Bulwark": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Reduce AA": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Physical Vulnerability": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Rupture": [
+            [
+                5,
+                2
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "Precision": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Special Lock": [
+            [
+                6,
+                2
+            ]
+        ],
+        "Critical into Block": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

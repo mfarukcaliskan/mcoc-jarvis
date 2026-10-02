@@ -86,5 +86,61 @@
                 "Sister Eagle also provides new assistance, instantly healing [55 - 90]% of all damage dealt to Chee'ilth by Physical Damage effects."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cleanse": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Grit": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Tranquilize": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Vicious": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                8,
+                2
+            ],
+            [
+                9,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                9,
+                0
+            ]
+        ]
+    }
 }

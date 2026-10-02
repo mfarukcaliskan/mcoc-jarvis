@@ -67,5 +67,81 @@
                 "When completing this mission, Proxima Midnight activates a permanent passive True Accuracy effect."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "True Accuracy": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Prowess": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                5
+            ]
+        ],
+        "Safeguard": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Reduce AA": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Heal Block": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

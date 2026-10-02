@@ -72,5 +72,65 @@
                 "Whenever the Opponent Heals while Heal Blocked, inflict an instant Incinerate dealing [5 - 15]% of the Health they would have gained as Energy Damage. If the Salve Mastery is active, the Mastery is removed."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Auto-Block": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Power Lock": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                4
+            ]
+        ],
+        "Instant Incinerate": [
+            [
+                4,
+                1
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Heal Block": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

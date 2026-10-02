@@ -83,5 +83,75 @@
                 "Vulture now begins the fight at full Chitauri Core Charge. Additionally, While the opponent is Incinerated, Vulture gains [0.7 - 1.88]% Max Power every .5 second(s)."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Dodge": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                2,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Miss": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Siphon": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                9,
+                0
+            ]
+        ]
+    }
 }

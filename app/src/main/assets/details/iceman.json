@@ -68,5 +68,49 @@
                 "At the start of the fight, inflict a Coldsnap Debuff dealing [9,924.26 - 24,126.29] Energy Damage over 12 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Frostbite": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Coldsnap": [
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

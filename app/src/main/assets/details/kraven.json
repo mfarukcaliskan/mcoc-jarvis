@@ -90,5 +90,101 @@
                 "While the Opponent is rooted all Bleeds are Critical Bleeds, multiplying their Potency by [100 - 200]% of Kraven's Critical Damage."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Disorient": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Endurance": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Root": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Suppression": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "True Accuracy": [
+            [
+                5,
+                3
+            ]
+        ],
+        "Precision": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                6,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Trample": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Critical Bleed": [
+            [
+                8,
+                1
+            ]
+        ]
+    }
 }

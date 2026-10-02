@@ -59,5 +59,51 @@
                 "While the Opponent has an Endurance effect, Stun Debuffs on them cannot have their duration reduced."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Efficiency": [
+            [
+                0,
+                1
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                0,
+                2
+            ],
+            [
+                0,
+                3
+            ]
+        ],
+        "Degeneration": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Daunted": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                2
+            ]
+        ]
+    }
 }

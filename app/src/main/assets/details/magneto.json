@@ -93,5 +93,93 @@
                 "Heavy Attacks now deal a burst of [784.89 - 3,734.89] Energy Damage."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Reduce AA": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Perfect Block": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Prowess": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                5,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                9,
+                1
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                9,
+                2
+            ]
+        ]
+    }
 }

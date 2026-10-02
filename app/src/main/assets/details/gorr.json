@@ -87,5 +87,129 @@
                 "Gain 1 stack of Heresy the first time entering a fight on the final node in a Quest. Max Heresy is increased to 4."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Vicious": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                6
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Power Gain": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Undermine": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

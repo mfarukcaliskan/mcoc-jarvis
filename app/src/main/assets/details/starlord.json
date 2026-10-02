@@ -53,5 +53,69 @@
                 "Star-Lord gains [27.78 - 143.38] Block Proficiency for every hit of his opponent's Combo Meter."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Power Drain": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                2
+            ]
+        ],
+        "Heal Block": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                3
+            ]
+        ]
+    }
 }

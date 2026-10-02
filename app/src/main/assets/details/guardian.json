@@ -88,5 +88,99 @@
                 "+[87.54 - 411.21] Critical Damage Resistance"
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cannot Crit": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                6,
+                1
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Perfect Block": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Auto-Block": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Power Drain": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Taunt": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                2
+            ]
+        ]
+    }
 }

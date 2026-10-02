@@ -87,5 +87,87 @@
                 "Start each fight with a number of personal Cruelty Passives equal to [10 - 25]% of Persistent Antimatter, rounded down."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Energy Resistance": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Crush": [
+            [
+                0,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Weakness": [
+            [
+                0,
+                4
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                3
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Overload": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Provoke": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Wither": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Indestructible": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

@@ -74,5 +74,61 @@
                 "Whenever the opponent is Immune to Guillotine's personal Bleed effects, she has a [60 - 100]% chance to inflict a matching Rupture Debuff, causing Physical Damage. This Rupture Debuff grants 1 Soul Charge."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Damage Reflect": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Spectre": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

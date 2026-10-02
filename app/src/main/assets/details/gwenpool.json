@@ -55,5 +55,63 @@
                 "Gwenpool's read enough comics to know that the main character doesn't die, preventing her from losing more than [90 - 52]% of her current health per hit from Special Attacks. She also reduces her opponent's Defensive Ability Accuracy, based on her current combo count."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Stun": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Enervate": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

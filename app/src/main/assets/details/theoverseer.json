@@ -86,5 +86,61 @@
                 "Striking the Opponent while they are recovering from Heavy or Specials Attacks deal a burst of [1,309.09 - 10,167.97] Physical Damage. This effect has a 1 second cooldown."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Special Concussion": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Taunt": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Auto-Block": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Disorient": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Energize": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Physical Vulnerability": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

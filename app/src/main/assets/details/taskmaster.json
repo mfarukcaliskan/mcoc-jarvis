@@ -76,5 +76,65 @@
                 "If Taskmaster places 5 Concussions on his Opponent simultaneously, they convert into a Passive effect which reduces Ability Accuracy by [25 - 65]% for 15 seconds, counts as 5 Debuffs for Taskmaster's other Abilities, and removes the Exploit Weakness cooldown timer. While this effect is active, Taskmaster will not trigger additional Concussion Debuffs."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Reduce AA": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Direct Damage": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Armor Break": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                2
+            ]
+        ],
+        "Concussion": [
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

@@ -74,5 +74,77 @@
                 "After being Knocked Down Night Thrasher has a [25 - 50]% chance to Purify all Debuffs."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Physical Resistance": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                0,
+                2
+            ]
+        ],
+        "True Accuracy": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Disorient": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Precision": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Debilitate": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Taunt": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                2,
+                0
+            ],
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

@@ -104,5 +104,95 @@
                 "When Sentry enters a Solar Form with more than 20 Solar Energy, he pauses personal Debuffs on the Opponent for [0.1 - 0.5] second(s) for each Solar Energy over 20."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bulwark": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                10,
+                0
+            ],
+            [
+                10,
+                1
+            ]
+        ],
+        "Exhaustion": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Wither": [
+            [
+                3,
+                2
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                3,
+                3
+            ]
+        ],
+        "Halt": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Indestructible": [
+            [
+                11,
+                0
+            ]
+        ]
+    }
 }

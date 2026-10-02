@@ -34,5 +34,27 @@
                 "Permanently regenerating up to [42,806.52 - 214,074.81] Health per minute was granted when the natural healing factor of Wolverine was implanted into Deadpool. Regeneration amount is tied to Deadpool's Power Meter."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                0
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ]
+    }
 }

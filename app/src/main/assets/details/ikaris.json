@@ -78,5 +78,91 @@
                 "Every time an Opponent tries to apply an effect on Ikaris that he is immune to, inflict an Energy Vulnerability Passive reducing Energy Resistance by [195.65 - 963.21] for 10 second(s). Max 10 stacks"
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Power Detonation": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Energize": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                2,
+                2
+            ]
+        ],
+        "Incinerate": [
+            [
+                2,
+                4
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Protection": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                5,
+                2
+            ]
+        ],
+        "True Damage": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

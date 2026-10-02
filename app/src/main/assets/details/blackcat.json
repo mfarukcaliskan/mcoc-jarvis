@@ -81,5 +81,109 @@
                 "When Black Cat would be struck while dashing, for each Combo Shield effect on her, she has a [3.4 - 11.11]% chance to gain an Evade Passive for 1 second."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Vicious": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Sabotage": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Cleanse": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Critical Bleed": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Infuriate": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Combo Shield": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

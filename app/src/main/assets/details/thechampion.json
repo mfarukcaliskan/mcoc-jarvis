@@ -72,5 +72,49 @@
                 "In addition to regenerating Health, The Champion is immune to Fate Seal, Heal Block, Petrify, and any effects that modify Regeneration other than Poison."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "True Accuracy": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                5,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

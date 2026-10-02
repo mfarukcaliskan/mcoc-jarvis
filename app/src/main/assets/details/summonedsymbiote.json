@@ -73,5 +73,159 @@
                 "The first hit inflicts an Armor Break Debuff for 20 seconds, reducing Armor Rating by [3,900] and removing 1 Armor Up Buff."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                2,
+                6
+            ],
+            [
+                2,
+                7
+            ]
+        ],
+        "Nullify": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Poison": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Power Steal": [
+            [
+                3,
+                3
+            ]
+        ],
+        "Fortitude": [
+            [
+                3,
+                4
+            ]
+        ],
+        "Unstoppable": [
+            [
+                3,
+                5
+            ]
+        ],
+        "Stun": [
+            [
+                3,
+                5
+            ]
+        ],
+        "Shrivel": [
+            [
+                3,
+                5
+            ]
+        ],
+        "True Damage": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Armor Up": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                2
+            ],
+            [
+                4,
+                3
+            ]
+        ],
+        "Armor Break": [
+            [
+                5,
+                0
+            ]
+        ]
+    }
 }

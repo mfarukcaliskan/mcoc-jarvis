@@ -62,5 +62,89 @@
                 "When Imperiosa is Auto-Blocked, they trigger their Synthect Trap directly under the Opponent for 3 seconds as well as each Synthect Passive."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fractured Power Bar": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Start With Power": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Pierce": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Root": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Corrosion": [
+            [
+                4,
+                0
+            ]
+        ]
+    }
 }

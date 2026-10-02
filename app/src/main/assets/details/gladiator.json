@@ -87,5 +87,101 @@
                 "Gladiator starts each fight with a Vigilance Buff for [2 - 15] seconds. While benefiting from a personal Vigilance effect, all hits deal Passive True Damage and the Opponent's Armor Up effects suffer 100% reduced Ability Accuracy."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Increased AA": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ]
+        ],
+        "Mid-Combo Stun": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Intimidate": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Confidence": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Unstoppable": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Embolden": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Coldsnap": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Vigilance": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

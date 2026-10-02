@@ -81,5 +81,81 @@
                 "When the Opponent's Power is Drained or Burned, inflict a Degeneration Passive dealing [1,246.63 - 3,739.88] Direct Damage over 2 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Heal Block": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Bleed": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Shock": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

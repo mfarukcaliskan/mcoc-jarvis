@@ -78,5 +78,91 @@
                 "When Nick would be knocked out, his Life Model Decoy is destroyed instead and he returns to the fight with a permanent Fury's Fury Buff and Stun Immunity. However, Nick loses his Infinity Formula and begins taking Direct Damage equal to [5 - 2.23]% of his health per second for the rest of the quest while above 30% max health. The destruction of Nick's decoy Removes all Effects and isn't affected by Ability Accuracy reduction."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                6
+            ]
+        ],
+        "Fury": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                7
+            ]
+        ],
+        "Disorient": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                5
+            ],
+            [
+                7,
+                0
+            ]
+        ]
+    }
 }

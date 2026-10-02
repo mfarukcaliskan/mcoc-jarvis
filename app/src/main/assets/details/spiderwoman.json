@@ -89,5 +89,121 @@
                 "While Dodging back during the final hit of the Opponent's Special Attacks, Spider-Woman has a 100% chance to Evade. This Evade does not trigger if the attack is successfully Dodged."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Debilitate": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Wither": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Fumble": [
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Instant Shock": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Power Sting": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Evade": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Retribution": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                7,
+                2
+            ]
+        ]
+    }
 }

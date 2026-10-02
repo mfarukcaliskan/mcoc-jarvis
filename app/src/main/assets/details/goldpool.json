@@ -64,5 +64,53 @@
                 "Once per fight, Goldpool gains Regeneration, recovering [11,626.4 - 38,396.81] Health over 8 seconds. If this ability is suppressed by a Skill Champion, Goldpool reaches into his script code and tries once more to activate it after 2 seconds. Mutant beats Trained...I mean...Skill"
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Taunt": [
+            [
+                0,
+                0
+            ],
+            [
+                2,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Prowess": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

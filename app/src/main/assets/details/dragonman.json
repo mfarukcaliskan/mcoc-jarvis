@@ -88,5 +88,95 @@
                 "Cruelty: Gain [10 - 35]% Critical Damage Resistance."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Degeneration": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Cornered": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Ineptitude": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Incinerate": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Critical Resistance": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                5
+            ],
+            [
+                8,
+                6
+            ]
+        ]
+    }
 }

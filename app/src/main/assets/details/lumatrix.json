@@ -82,5 +82,99 @@
                 "The Opponent's Instant Damaging effects have their Ability Accuracy reduced by [20 - 45]%, doubled when fighting Science Champions."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fractured Power Bar": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Endurance": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Tracking": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Invisible": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                5,
+                1
+            ]
+        ]
+    }
 }

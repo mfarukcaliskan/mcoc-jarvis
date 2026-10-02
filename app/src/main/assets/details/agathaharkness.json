@@ -80,5 +80,137 @@
                 "After Agatha is Intercepted by a Basic Attack, she activates a Combo Interruption Passive, knocking herself down. Cooldown: 10 seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Steadfast": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Amplify": [
+            [
+                0,
+                2
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                4
+            ]
+        ],
+        "Power Gain": [
+            [
+                0,
+                3
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Destroy": [
+            [
+                1,
+                2
+            ],
+            [
+                3,
+                0
+            ]
+        ],
+        "Atrophy": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Root": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                3
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Combo Interruption": [
+            [
+                6,
+                2
+            ]
+        ]
+    }
 }

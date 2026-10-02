@@ -93,5 +93,137 @@
                 "Tech: If the Opponent has 2 or more Armor Up Buffs when Misty's Special Attack 1 connects, a second Armor Break is applied."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Purify": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ]
+        ],
+        "Evade": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Precision": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                3
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                2
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                6
+            ]
+        ],
+        "Coldsnap": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Energize": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                2
+            ]
+        ],
+        "Disorient": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                4
+            ]
+        ],
+        "Suppression": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                5
+            ]
+        ]
+    }
 }

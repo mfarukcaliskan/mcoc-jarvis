@@ -99,5 +99,107 @@
                 "Once per fight when J. Jonah takes a picture of the Opponent, he gains an indefinite +[85 - 485.28] Austere Armor Up Buff. This Armor Up persists between fights if J. Jonah defeats the menace with at least one of these Armor Ups active. Max stacks: 8."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Cannot Crit": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Instant Shock": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Increased AA": [
+            [
+                0,
+                3
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                5,
+                3
+            ]
+        ],
+        "Obfuscate": [
+            [
+                1,
+                2
+            ]
+        ],
+        "Austere Armor Up": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Slow": [
+            [
+                3,
+                2
+            ],
+            [
+                3,
+                4
+            ]
+        ],
+        "Falter": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Power Burn": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Cowardice": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

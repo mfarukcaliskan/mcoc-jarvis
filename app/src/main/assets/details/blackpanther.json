@@ -80,5 +80,71 @@
                 "Each Bleed Debuff on the Opponent decreases their Defensive Ability Accuracy by [1.5 - 10]%. Max 5 Bleeds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Cruelty": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Reduce Defensive AA": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                4
+            ],
+            [
+                3,
+                6
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Purify": [
+            [
+                8,
+                0
+            ]
+        ]
+    }
 }

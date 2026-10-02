@@ -89,5 +89,87 @@
                 "Personal Fury potency increased by +[8.6 - 30%]."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Regeneration": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Armor Up": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Parry Non-Contact": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Disintegration Vunlnerability": [
+            [
+                2,
+                6
+            ]
+        ],
+        "Power Reroute": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                3,
+                2
+            ]
+        ],
+        "Pursuit": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Disintegration": [
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

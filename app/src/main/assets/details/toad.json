@@ -81,5 +81,87 @@
                 "When a personal Poison Debuff is prevented by Immunity, if Toad has 10 or more Prowess Passives, consume all personal Prowess Passives to inflict a Stun Passive for 3 seconds. This cannot be inflicted during the Opponent's Special Attacks."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Poison": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                3
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                3
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Passive Stun": [
+            [
+                2,
+                1
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Instant Poison": [
+            [
+                3,
+                0
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                4,
+                4
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Prowess": [
+            [
+                4,
+                2
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

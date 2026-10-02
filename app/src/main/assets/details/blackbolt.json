@@ -54,5 +54,53 @@
                 "Cruelty Buffs increase Critical Damage Rating by [31.95 - 143.62]"
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Break": [
+            [
+                1,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "True Damage": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Cruelty": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Fury": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ]
+        ]
+    }
 }

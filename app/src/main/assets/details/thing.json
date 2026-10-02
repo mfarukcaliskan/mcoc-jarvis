@@ -81,5 +81,93 @@
                 "Unbreakable Spirit will also trigger when the Opponent would deal 300% or more of their Attack Rating with a Basic Attack, or 300% or more of their Attack Rating with a Special Attack Hit. This trigger ignores the ability cooldown."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Physical Resistance": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                1
+            ]
+        ],
+        "Unstoppable": [
+            [
+                2,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                4,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Weakness": [
+            [
+                4,
+                2
+            ]
+        ],
+        "Stagger": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Protection": [
+            [
+                7,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                7,
+                2
+            ],
+            [
+                7,
+                3
+            ]
+        ]
+    }
 }

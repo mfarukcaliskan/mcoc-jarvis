@@ -58,5 +58,43 @@
                 "The first time Hela would be knocked out in each fight, she gains an Indestructible Buff that lasts for [3 - 7] seconds."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fury": [
+            [
+                1,
+                0
+            ],
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ]
+        ],
+        "Physical Resistance": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Indestructible": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

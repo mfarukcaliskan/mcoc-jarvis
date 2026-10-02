@@ -71,5 +71,89 @@
                 "While Valkyrie has at least [4 - 1] Bulwark effect(s) active (rounded up), she is immune to Stun Debuffs."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Instant Bleed": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Combo Shield": [
+            [
+                0,
+                3
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Pierce": [
+            [
+                1,
+                2
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Bulwark": [
+            [
+                1,
+                3
+            ],
+            [
+                1,
+                4
+            ]
+        ],
+        "Intimidate": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Evade": [
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                1
+            ]
+        ],
+        "Fury": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Grit": [
+            [
+                6,
+                0
+            ]
+        ]
+    }
 }

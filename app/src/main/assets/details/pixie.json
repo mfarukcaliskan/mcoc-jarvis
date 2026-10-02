@@ -77,5 +77,63 @@
                 "As a Defender, for each active Special Attack Cooldown, Pixie has a 20% chance to cast Mists of Morpheus and Evade incoming Basic Attacks."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Passive Stun": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Counter-Attack Evade": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                7,
+                2
+            ]
+        ],
+        "Neuroshock": [
+            [
+                2,
+                2
+            ],
+            [
+                4,
+                0
+            ]
+        ],
+        "Sleep": [
+            [
+                2,
+                3
+            ]
+        ],
+        "Power Efficiency": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Prowess": [
+            [
+                5,
+                1
+            ],
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

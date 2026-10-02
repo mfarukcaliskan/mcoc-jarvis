@@ -67,5 +67,47 @@
                 "Omega Red's Basic Tentacle Hits have a [10 - 30]% chance to be Unblockable."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Degeneration": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                5,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Power Steal": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                7,
+                1
+            ]
+        ]
+    }
 }

@@ -85,5 +85,71 @@
                 "Mutant: Opponent suffers -[20 - 55]% Ability Accuracy during Special Attacks."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Provoke Specials": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Slow": [
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Exhaustion": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Petrify": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                8,
+                0
+            ]
+        ],
+        "Weakness": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Purify": [
+            [
+                9,
+                0
+            ],
+            [
+                9,
+                2
+            ]
+        ]
+    }
 }

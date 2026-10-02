@@ -81,5 +81,85 @@
                 "Gain 12 Regeneration Passives, each recovering [1,537.73 - 5,448.46] Health over 15 seconds. These effects are lost as War Machine is struck."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Armor Up": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Pre-Fight": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Suppression": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Rupture": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Invalidate": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Armor Break": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                8,
+                0
+            ],
+            [
+                8,
+                2
+            ]
+        ]
+    }
 }

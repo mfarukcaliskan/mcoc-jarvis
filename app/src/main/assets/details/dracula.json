@@ -74,5 +74,79 @@
                 "Dracula gains +[2,573.43 - 5,279.5] Attack Rating for each Armor Break Debuff he is suffering from, up to 5."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Bleed": [
+            [
+                0,
+                1
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Degeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Invisible": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Slow": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Fear": [
+            [
+                5,
+                1
+            ]
+        ],
+        "Power Steal": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

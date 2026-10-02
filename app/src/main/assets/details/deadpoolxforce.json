@@ -73,5 +73,79 @@
                 "Against Skill Champions, each Shbleed Dooboof Passive up to 1 reduces their Regeneration Rate by [5 - 20]%."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Taunt": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                2
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                0
+            ],
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Shbleed Dooboof": [
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Passive Stun": [
+            [
+                5,
+                2
+            ]
+        ],
+        "Daunted": [
+            [
+                5,
+                3
+            ]
+        ],
+        "Vicious": [
+            [
+                6,
+                1
+            ]
+        ]
+    }
 }

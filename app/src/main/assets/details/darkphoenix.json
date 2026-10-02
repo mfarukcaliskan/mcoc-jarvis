@@ -98,5 +98,95 @@
                 "While Immortal, Special Attacks are Passively Unblockable."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Safeguard": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Immortality": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ]
+        ],
+        "Nova Flame": [
+            [
+                3,
+                2
+            ],
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                8,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                3,
+                3
+            ]
+        ],
+        "Pulverize": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Unstoppable": [
+            [
+                6,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                6,
+                1
+            ],
+            [
+                8,
+                2
+            ]
+        ],
+        "Root": [
+            [
+                7,
+                0
+            ]
+        ],
+        "Fury": [
+            [
+                7,
+                1
+            ]
+        ],
+        "Unblockable": [
+            [
+                9,
+                2
+            ]
+        ]
+    }
 }

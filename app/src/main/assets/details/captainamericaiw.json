@@ -78,5 +78,43 @@
                 "Mystic: [40 - 100]% chance to gain 1 Kinetic Potential each time a Buff Expires or is Nullified on the Opponent."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Physical Resistance": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Energy Resistance": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                3
+            ]
+        ],
+        "Glancing": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Fury": [
+            [
+                2,
+                0
+            ]
+        ]
+    }
 }

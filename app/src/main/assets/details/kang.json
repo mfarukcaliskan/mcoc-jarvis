@@ -37,5 +37,35 @@
                 "Kang's Power level fuels his neuro-kinetic suit of armor, endowing him with up to [1,178.57 - 8,255.39] Armor Rating based on stored Power."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Stun": [
+            [
+                0,
+                0
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "Power Drain": [
+            [
+                1,
+                1
+            ]
+        ],
+        "Heal Block": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Armor Up": [
+            [
+                3,
+                0
+            ]
+        ]
+    }
 }

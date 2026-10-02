@@ -82,5 +82,63 @@
                 "Incoming Incinerate and Shock effects suffer -[25 - 80]% Duration."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Evade": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                1,
+                0
+            ],
+            [
+                9,
+                0
+            ]
+        ],
+        "Guaranteed Crits": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Degeneration": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Stun": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Power Burn": [
+            [
+                8,
+                1
+            ]
+        ]
+    }
 }

@@ -100,5 +100,93 @@
                 "When inflicted with Bleed, refresh Cassandra's 3 oldest personal Regeneration Passives."
             ]
         }
-    ]
+    ],
+    "abilityRefs": {
+        "Fear": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Passive Stun": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                1,
+                2
+            ]
+        ],
+        "Marked": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Daunted": [
+            [
+                3,
+                0
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                4,
+                1
+            ]
+        ],
+        "Neuroshock": [
+            [
+                5,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                1
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Root": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Regeneration": [
+            [
+                7,
+                0
+            ],
+            [
+                10,
+                2
+            ]
+        ],
+        "Reverse Controls": [
+            [
+                8,
+                1
+            ]
+        ],
+        "Energy Damage Effect": [
+            [
+                10,
+                0
+            ]
+        ]
+    }
 }
