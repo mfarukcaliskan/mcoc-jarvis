@@ -242,6 +242,9 @@
     "abilitySynergies": {
         "Guaranteed Crits": [
             847
+        ],
+        "Shock": [
+            1187
         ]
     },
     "immunitySynergies": {},

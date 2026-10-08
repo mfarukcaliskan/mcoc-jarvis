@@ -198,6 +198,7 @@
   "recommendedChampions": [
    "Beast",
    "Colossus",
+   "Colossus (Age of Apocalypse)",
    "Dani Moonstar",
    "Dust",
    "Gambit",
@@ -248,6 +249,7 @@
   "recommendedChampionIds": [
    "beast",
    "colossus",
+   "colossusaoa",
    "danimoonstar",
    "dust",
    "gambit",
@@ -302,6 +304,7 @@
    "Apocalypse",
    "Cable",
    "Cassandra Nova",
+   "Colossus (Age of Apocalypse)",
    "Domino",
    "Gentle",
    "Mister Sinister",
@@ -349,6 +352,7 @@
    "apocalypse",
    "cable",
    "cassandra",
+   "colossusaoa",
    "domino",
    "gentle",
    "mistersinister",
@@ -819,6 +823,7 @@
   ],
   "attributeRunes": [],
   "recommendedChampions": [
+   "Colossus (Age of Apocalypse)",
    "Cyclops (New Xavier School)",
    "Gentle",
    "Magneto (House of X)",
@@ -849,6 +854,7 @@
   ],
   "attributes": [],
   "recommendedChampionIds": [
+   "colossusaoa",
    "cyclops",
    "gentle",
    "magnetomarvelnow",
@@ -1126,7 +1132,9 @@
    "Critical Damage Rating"
   ],
   "attributeRunes": [],
-  "recommendedChampions": [],
+  "recommendedChampions": [
+   "Colossus (Age of Apocalypse)"
+  ],
   "description": "Apocalypse: Primary Attribute: Critical Resistance",
   "releaseDate": "13-10-2025",
   "rarity": [
@@ -1149,7 +1157,9 @@
    }
   ],
   "attributes": [],
-  "recommendedChampionIds": [],
+  "recommendedChampionIds": [
+   "colossusaoa"
+  ],
   "maxLevel": "7★ R2/200",
   "maxPrestige": 3400,
   "prestigeRank": 2,
@@ -5515,6 +5525,7 @@
   "recommendedChampions": [
    "Agatha Harkness",
    "Doctor Strange",
+   "Ghost Rider (Robbie Reyes)",
    "Kushala",
    "Sorcerer Supreme",
    "Spider-Man (Supreme)",
@@ -5559,6 +5570,7 @@
   "recommendedChampionIds": [
    "agathaharkness",
    "doctorstrange",
+   "ghostriderreyes",
    "kushala",
    "sorcerersupreme",
    "spidermansupreme",
@@ -6397,6 +6409,7 @@
   "recommendedChampions": [
    "Doctor Voodoo",
    "Dragon Man",
+   "Ghost Rider (Robbie Reyes)",
    "Guillotine",
    "Scarlet Witch (Classic)",
    "Tigra",
@@ -6427,6 +6440,7 @@
   "recommendedChampionIds": [
    "doctorvoodoo",
    "dragonman",
+   "ghostriderreyes",
    "guillotine",
    "scarletwitch",
    "tigra",
@@ -6907,7 +6921,9 @@
    "Special Damage"
   ],
   "attributeRunes": [],
-  "recommendedChampions": [],
+  "recommendedChampions": [
+   "Ghost Rider (Robbie Reyes)"
+  ],
   "description": "Unstoppable Colossus: Primary Attribute: Armor",
   "releaseDate": "13-10-2025",
   "rarity": [
@@ -6930,7 +6946,9 @@
    }
   ],
   "attributes": [],
-  "recommendedChampionIds": [],
+  "recommendedChampionIds": [
+   "ghostriderreyes"
+  ],
   "maxLevel": "7★ R2/200",
   "maxPrestige": 3400,
   "prestigeRank": 2,
@@ -7259,6 +7277,7 @@
   "recommendedChampions": [
    "Black Widow (Claire Voyant)",
    "Enchantress",
+   "Ghost Rider (Robbie Reyes)",
    "Nico Minoru",
    "Wiccan"
   ],
@@ -7287,6 +7306,7 @@
   "recommendedChampionIds": [
    "blackwidowclairevoyant",
    "enchantress",
+   "ghostriderreyes",
    "nicominoru",
    "wiccan"
   ],
@@ -8090,6 +8110,7 @@
   ],
   "attributeRunes": [],
   "recommendedChampions": [
+   "Carina",
    "Superior Iron Man"
   ],
   "description": "Superior Iron Man: Primary Attribute: Armor",
@@ -8115,6 +8136,7 @@
   ],
   "attributes": [],
   "recommendedChampionIds": [
+   "carina",
    "superiorironman"
   ],
   "maxLevel": "7★ R2/200",
@@ -8700,6 +8722,7 @@
   ],
   "attributeRunes": [],
   "recommendedChampions": [
+   "Carina",
    "Cull Obsidian",
    "Spider-Man (Symbiote)"
   ],
@@ -8726,6 +8749,7 @@
   ],
   "attributes": [],
   "recommendedChampionIds": [
+   "carina",
    "cullobsidian",
    "spidermansymbiote"
   ],

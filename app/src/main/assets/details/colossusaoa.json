@@ -1,0 +1,261 @@
+{
+    "id": "colossusaoa",
+    "name": "Colossus (Age of Apocalypse)",
+    "abilityDetails": {},
+    "synergies": [],
+    "howToPlay": "",
+    "bestUse": "",
+    "signatureAbility": "The Mighty Rasputin\nWhen Colossus is Immune to an effect, he has a [20 - 50]% chance to gain 1 Osmium Prowess. Cooldown: {0.2} seconds.\nWhen Colossus's Berserk ends, each Osmium Prowess has a [5 - 20]% chance to not be consumed. No more than 15 can be kept.\nWhile Colossus has Osmium Prowess, reduce Physical Thorns damage by [20 -60]%, plus 2% for each Osmium Prowess.",
+    "abilitySections": [
+        {
+            "title": "The Teacher Is In - Always Active",
+            "content": [
+                "Colossus's osmium physiology makes him Immune to Disorient, Bleed, Incinerate, Coldsnap, and Frostbite.",
+                "The Opponent's Critical Damage Rating is set to 0 when Colossus is Critically Hit or Blocks any hit.",
+                "Colossus's intimidating presence reduces Skill Champions' personal Fury Buff and Decelerate effect Ability Accuracy by 100%."
+            ]
+        },
+        {
+            "title": "The Steel Protector",
+            "content": [
+                "Double tapping Block while Rooted, Dashing forward, or performing a non-Combo Ending Basic Attack causes Colossus to activate Steel Burst, a non-contact that deals [12,147.14] Physical Damage and activates the following effects:",
+                "An Unstoppable Passive for 0.75 seconds.",
+                "Reset Colossus's Basic Attack combo chain.",
+                "Remove Stun effects.",
+                "On hit, gain 4 Osmium Prowess.",
+                "Steel Burst's cooldown lasts 16 seconds. When Colossus is Rooted, it expires immediately."
+            ]
+        },
+        {
+            "title": "Osmium Prowess Accretion",
+            "content": [
+                "Colossus's battle-hardened Organic Steel form has warped his personal Prowesses into indefinite Osmium Prowess Passives, each increasing Special Damage by +5% and Armor Rating by +[70.51]. Max stacks: 30. These Prowesses cannot have their Ability Accuracy reduced.",
+                "Against Skill Champions, Osmium Prowesses also grant +[70.51] Physical Penetration.",
+                "At the start of each fight, Colossus gains 1 Osmium Prowess for each #X-Men Champion on his team, including himself.",
+                "When either Champion lands 4 or more consecutive non-Special hits into the Opponent or their Block, each hit grants 1 Osmium Prowess. This ability can be activated by any Striker hit and only the first hit of Light and Medium attacks."
+            ]
+        },
+        {
+            "title": "Prowess Effects",
+            "content": [
+                "With 10+ Prowess from any source: Steel Burst's hit inflicts a Fear Passive for 16 seconds.",
+                "With 30+ Prowess from any source: When struck by a Light or Medium Attack, gain a 2.5% chance per Prowess from any source to activate Steel Burst. This ability consumes 30 Osmium Prowess.",
+                "As a Defender, this ability only requires 10+ Prowess and consumes 10 Osmium Prowess instead."
+            ]
+        },
+        {
+            "title": "Unstoppable Effects",
+            "content": [
+                "Personal Unstoppables share a stack limit of 1 and are paused during Colossus's Special Attacks and Strikers.",
+                "While Unstoppable, Special Attacks gain +[11,000] Critical Rating.",
+                "As a Defender, personal Unstoppables last +2 seconds longer."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Fists of Fullmetal Fury",
+            "content": [
+                "On activation, gain a Counterpunch Charge for 12 seconds.",
+                "Colossus does not spend his Counterpunch Charge while Unstoppable, when Well-Timed Blocking a contact non-Special Attack, or when Blocking non-final hits of Special Attacks.",
+                "As a Defender, if Counterpunch's duration expires, gain its Unstoppable Passive."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - KRAKABOOOM",
+            "content": [
+                "On activation, gain a +[8,227.15] Berserk Passive for 26 seconds. This effect pauses during Strikers and Special Attacks. While active, gain the following effects:",
+                "Personal Unstoppables last +4.25 seconds longer.",
+                "On activation, also gain an Unstoppable Passive for 0.75 seconds.",
+                "Steel Burst's cooldown expiry rate is increased by 75%.",
+                "Osmium Prowess stack limit increased by +40.",
+                "Opposing Skill Champions' Regeneration Rate cannot exceed 0% while at or below 5% Health.",
+                "As an Attacker, Colossus's Special Attacks 2 and 3 cannot be activated.",
+                "Upon expiry, all Osmium Prowess are consumed."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Armageddon Minus Zero",
+            "content": [
+                "Gain Colossus's Berserk Passive with 75% increased duration."
+            ]
+        },
+        {
+            "title": "Signature Ability - The Mighty Rasputin",
+            "content": [
+                "When Colossus is Immune to an effect, he has a [20 - 50]% chance to gain 1 Osmium Prowess. Cooldown: {0.2} seconds.",
+                "When Colossus's Berserk ends, each Osmium Prowess has a [5 - 20]% chance to not be consumed. No more than 15 can be kept.",
+                "While Colossus has Osmium Prowess, reduce Physical Thorns damage by [20 -60]%, plus 2% for each Osmium Prowess."
+            ]
+        }
+    ],
+    "abilityRefs": {
+        "Unstoppable": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                2
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Prowess": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "Fear": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Counterpunch": [
+            [
+                5,
+                0
+            ],
+            [
+                5,
+                1
+            ],
+            [
+                5,
+                2
+            ]
+        ],
+        "Berserk": [
+            [
+                6,
+                0
+            ],
+            [
+                7,
+                0
+            ]
+        ]
+    },
+    "immunityRefs": {
+        "Disorient": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Coldsnap": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Frostbite": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Critical Hits": [
+            [
+                0,
+                1
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Fury": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Decelerate": [
+            [
+                0,
+                2
+            ]
+        ],
+        "Root": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                5
+            ]
+        ],
+        "Unblockable": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                6,
+                0
+            ],
+            [
+                6,
+                5
+            ]
+        ],
+        "Thorns": [
+            [
+                8,
+                2
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Regeneration": [
+            1185
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
+}

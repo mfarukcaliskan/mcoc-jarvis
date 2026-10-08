@@ -1,0 +1,187 @@
+{
+    "id": "ghostriderreyes",
+    "name": "Ghost Rider (Robbie Reyes)",
+    "abilityDetails": {},
+    "synergies": [],
+    "howToPlay": "",
+    "bestUse": "",
+    "signatureAbility": "Speed Demon\nRobbie starts each fight by granting [1 - 5] personal Ignition Buffs, rounded down. In a Battleground fight against #Villains, double the Ignitions granted. These remain paused until Robbie finishes a Special Attack.\nRobbie's Hell Charger unlocks a new gear! Robbie can now Shift Gears when reaching 200 Speed.",
+    "abilitySections": [
+        {
+            "title": "The Demon Inside Me - Always Active",
+            "content": [
+                "Robbie's connection with his possessive demonic spirit grants him Immunity to all Bleed and Incinerate effects.",
+                "Robbie does not benefit from the Mystic Dispersion Mastery, but his Hell Charger does! Each rank increases the minimum Speed of the Hell Charger by +5, and increases the base potency of the Shifting Gears Power Gain by +2% flat."
+            ]
+        },
+        {
+            "title": "The Vengeance Engine - Max Speed: 225 (mph)",
+            "content": [
+                "The Hell Charger lives for the thrill, feeding off speed and recklessness to alter the performance of Robbie's abilities. Basic Attacks grant Robbie +5 Speed per hit.",
+                "If Robbie hasn't struck the Opponent for 2.5 seconds, doubled against #Villains, Speed is lost over time. Speed loss pauses during personal Strikers and the Opponent's Special Attacks."
+            ]
+        },
+        {
+            "title": "Shifting Gears",
+            "content": [
+                "Upon hitting Speed thresholds of 50, 100, and 150, Robbie needs to Shift Gears, starting an 8 second timer that's paused during the Opponent's Special Attacks. Performing a Seeking Vengeance action in this time Shifts Gears.",
+                "Shifting Gears grants a Power Gain Passive, granting 22% of a Bar of Power over 2 seconds.",
+                "Dropping below these Speed thresholds places this Power Gain on a 5 second cooldown."
+            ]
+        },
+        {
+            "title": "Seeking Vengeance",
+            "content": [
+                "4th hit in a combo: Gain a Grit Passive for 15 seconds and Nullify an Energize Buff on the Opponent.",
+                "Charge a Heavy Attack: Gain a non-stacking 25% Amplify Buff for 20 seconds."
+            ]
+        },
+        {
+            "title": "Ignition",
+            "content": [
+                "Robbie can grant the Opponent Ignition Buffs while the Opponent has less than 16 total Buffs. Each lasts 24 seconds, and expires 0.66% faster per Speed. Max: 50% faster.",
+                "Activating a personal Grit or Amplify grants 1 Ignition Buff.",
+                "Nullifying a Buff with Seeking Vengeance grants 2 Ignition Buffs. Staggering a Buff with a personal Stagger grants 1 Ignition per Buff removed this way, after the Special has finished."
+            ]
+        },
+        {
+            "title": "Opponent's Special Attacks",
+            "content": [
+                "When the Opponent activates a Special Attack, inflict 2 Stagger Debuffs for 1 second. One can remove any True Buff, and the other can remove any non-Ignition, non-True Buff."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Anger Unchained",
+            "content": [
+                "The first hit inflicts a non-stacking [1,480.77] Energy Vulnerability Debuff for 30 seconds.",
+                "Each hit grants +10 Speed and can Shift Gears if active during this attack.",
+                "The final hit inflicts a [313.86] Soul Barb Debuff for 25 seconds. Max stacks: 2."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Chop Shop",
+            "content": [
+                "The first hit inflicts a non-stacking [680.03] Soul Barb Passive for 15 seconds. If this attack is activated while Robbie's Energy Vulnerability is active, this Soul Barb is paused during this attack.",
+                "Each hit consumes 40 Speed to grant 2 Ignition Buffs."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Meet My Ride",
+            "content": [
+                "Inflict Robbie's Energy Vulnerability Debuff.",
+                "The Opponent is inflicted with a non-stacking [4,184.8] Seared Debuff for 0.1 seconds per Speed, paused during Special Attacks."
+            ]
+        },
+        {
+            "title": "Signature Ability - Speed Demon",
+            "content": [
+                "Robbie starts each fight by granting [1 - 5] personal Ignition Buffs, rounded down. In a Battleground fight against #Villains, double the Ignitions granted. These remain paused until Robbie finishes a Special Attack.",
+                "Robbie's Hell Charger unlocks a new gear! Robbie can now Shift Gears when reaching 200 Speed."
+            ]
+        }
+    ],
+    "abilityRefs": {
+        "Power Gain": [
+            [
+                2,
+                0
+            ],
+            [
+                2,
+                1
+            ],
+            [
+                2,
+                2
+            ]
+        ],
+        "Grit": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Nullify": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Amplify": [
+            [
+                3,
+                1
+            ]
+        ],
+        "Stagger": [
+            [
+                5,
+                0
+            ]
+        ],
+        "Energy Vulnerability": [
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                0
+            ]
+        ],
+        "Soul Barb": [
+            [
+                6,
+                2
+            ],
+            [
+                7,
+                0
+            ]
+        ],
+        "Seared": [
+            [
+                8,
+                1
+            ]
+        ]
+    },
+    "immunityRefs": {
+        "Bleed": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Incinerate": [
+            [
+                0,
+                0
+            ]
+        ]
+    },
+    "counterRefs": {
+        "Unstoppable": [
+            [
+                3,
+                0
+            ]
+        ],
+        "Energize": [
+            [
+                3,
+                0
+            ]
+        ]
+    },
+    "abilitySynergies": {
+        "Whiplash": [
+            1196
+        ],
+        "Fury": [
+            1197
+        ]
+    },
+    "immunitySynergies": {},
+    "counterSynergies": {}
+}

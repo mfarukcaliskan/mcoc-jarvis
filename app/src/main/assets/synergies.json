@@ -743,6 +743,20 @@
     "unique": true
    },
    {
+    "coPartners": [],
+    "effects": [
+     "Carina: Enter the first fight in each Quest with 2 Persistent ISO-8 Shards.",
+     "Ægon: Special Attack 1 hits benefit from Passive True Accuracy, and each hit after the first inflicts a 25% Shock Debuff for 3 seconds."
+    ],
+    "id": 1187,
+    "name": "Stardust",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
     "coPartners": [
      "venompool",
      "venomtheduck",
@@ -2803,6 +2817,23 @@
     "name": "Grow Big or Go Home",
     "partners": [
      "cassielang"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
+     "mistersinister",
+     "cyclopsblueteam",
+     "wolverine"
+    ],
+    "effects": [
+     "All Champions gain +[155] Critical Rating."
+    ],
+    "id": 1,
+    "name": "Enemies",
+    "partners": [
+     "colossusaoa"
     ],
     "reverse": true,
     "unique": false
@@ -5938,6 +5969,23 @@
    },
    {
     "coPartners": [
+     "hulk",
+     "ironman",
+     "punisher"
+    ],
+    "effects": [
+     "All Champions gain +[100] Critical Rating, +[75] Physical Resistance, +[100] Armor Rating, and +[75] Critical Damage Rating."
+    ],
+    "id": 1192,
+    "name": "The Radiance",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
      "wintersoldier"
     ],
     "effects": [
@@ -7846,6 +7894,24 @@
     "unique": true
    },
    {
+    "coPartners": [
+     "sentinel",
+     "mistersinister",
+     "thechampion",
+     "ironmaninfinitywar"
+    ],
+    "effects": [
+     "Synergy Champions: Gain +5% Attack Rating for each unique Class on the team."
+    ],
+    "id": 1190,
+    "name": "Rebirth",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
     "coPartners": [],
     "effects": [
      "All Champions gain +%5 Attack."
@@ -8953,6 +9019,100 @@
     "unique": true
    }
   ],
+  "carina": [
+   {
+    "effects": [
+     "Carina: Enter the first fight in each Quest with 2 Persistent ISO-8 Shards.",
+     "Ægon: Special Attack 1 hits benefit from Passive True Accuracy, and each hit after the first inflicts a 25% Shock Debuff for 3 seconds."
+    ],
+    "id": 1187,
+    "name": "Stardust",
+    "partners": [
+     "aegon"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Carina: Enter the first fight in each Quest with 1 Persistent ISO-8 Shard.",
+     "Civil Warrior: Personal Fury Buffs gain 50% increased duration."
+    ],
+    "id": 1188,
+    "name": "Spangles",
+    "partners": [
+     "civilwarrior"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Carina: Enter the first fight in each Quest with 1 Persistent ISO-8 Shard.",
+     "Guillotine: For each Buff on the Opponent, gain a 5% Vicious Passive. Max stacks: 5."
+    ],
+    "id": 1189,
+    "name": "Sauvage",
+    "partners": [
+     "guillotine"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Synergy Champions: Gain +5% Attack Rating for each unique Class on the team."
+    ],
+    "id": 1190,
+    "name": "Rebirth",
+    "partners": [
+     "sentinel",
+     "mistersinister",
+     "thechampion",
+     "ironmaninfinitywar",
+     "captainamericaiw"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Carina: Once per fight if Carina doesn't have her Safeguard Buff, it is regained by activating Specials 1 or 2.",
+     "Gwenpool: 30 seconds after the start of the fight, the next activated Special grants a +50% Fury Buff for 10 seconds.",
+     "Kang: Heavy Attacks grant a +10% Fury Passive for 10 seconds. Max stacks: 5. During Kang's Specials, they expire in reverse."
+    ],
+    "id": 1191,
+    "name": "The Union",
+    "partners": [
+     "gwenpool",
+     "kang"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "All Champions gain +[100] Critical Rating, +[75] Physical Resistance, +[100] Armor Rating, and +[75] Critical Damage Rating."
+    ],
+    "id": 1192,
+    "name": "The Radiance",
+    "partners": [
+     "blackwidow",
+     "hulk",
+     "ironman",
+     "punisher"
+    ],
+    "unique": false
+   },
+   {
+    "effects": [
+     "All Champions gain +3% Health, +[75] Energy Resistance, and +3% Attack Rating."
+    ],
+    "id": 1193,
+    "name": "Revelation",
+    "partners": [
+     "wolverinex23",
+     "thorjanefoster",
+     "doctordoom"
+    ],
+    "unique": false
+   }
+  ],
   "carnage": [
    {
     "effects": [
@@ -9701,6 +9861,20 @@
     "unique": false
    },
    {
+    "coPartners": [],
+    "effects": [
+     "Carina: Enter the first fight in each Quest with 1 Persistent ISO-8 Shard.",
+     "Civil Warrior: Personal Fury Buffs gain 50% increased duration."
+    ],
+    "id": 1188,
+    "name": "Spangles",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
     "coPartners": [
      "ironmaninfinitywar",
      "warmachine",
@@ -10227,6 +10401,89 @@
     "unique": true
    }
   ],
+  "colossusaoa": [
+   {
+    "effects": [
+     "Colossus (Age of Apocalypse): Start the fight with +5 Osmium Prowess.",
+     "Magik: When Limbo ends, Instantly Regenerate 40% of the damage taken from Incinerate and Coldsnap effects. Magik's Regeneration Rate cannot be reduced below 90% while healing from Limbo."
+    ],
+    "id": 1183,
+    "name": "Big Shiny Mountain",
+    "partners": [
+     "magik"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Colossus (Age of Apocalypse): Gain 25% increased Berserk duration.",
+     "Kitty Pryde: Once per Phase, when the final hit of an Opponent's Special Attack Misses, pause Phase for 0.5 seconds.",
+     "Gambit: Kinetic Charges max stacks increased by +3."
+    ],
+    "id": 1184,
+    "name": "A Terrible Cost",
+    "partners": [
+     "kittypryde",
+     "gambit"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Colossus (Age of Apocalypse): At the start of each fight with 60% Max Health or more, lose 10% of Max Health and gain a Regeneration Passive, healing 15% of Max Health over 30 seconds.",
+     "Magneto, Sauron, Sabretooth: While in a fight, count as a #Hero instead of #Mercenary or #Villain.",
+     "All Champions: #Heroes gain 7% increased Fury Passive and Prowess effect potency."
+    ],
+    "id": 1185,
+    "name": "Freedom Fighters",
+    "partners": [
+     "magneto",
+     "sabretooth",
+     "sauron"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Synergy Champions: Gain +10% Attack Rating and +[300] Armor Rating while Berserk, Enraged, or during Wrath of Tanaraq."
+    ],
+    "id": 1186,
+    "name": "Boiling Point",
+    "partners": [
+     "mangog",
+     "sasquatch"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "All Champions gain +5% Perfect Block Chance."
+    ],
+    "id": 4,
+    "name": "Teammates",
+    "partners": [
+     "rogue",
+     "iceman",
+     "nightcrawler",
+     "jubilee"
+    ],
+    "unique": false
+   },
+   {
+    "effects": [
+     "All Champions gain +[155] Critical Rating."
+    ],
+    "id": 1,
+    "name": "Enemies",
+    "partners": [
+     "apocalypse",
+     "mistersinister",
+     "cyclopsblueteam",
+     "wolverine"
+    ],
+    "unique": false
+   }
+  ],
   "corvusglaive": [
    {
     "effects": [
@@ -10485,6 +10742,24 @@
     ],
     "reverse": true,
     "unique": false
+   },
+   {
+    "coPartners": [
+     "ghostrider",
+     "kushala"
+    ],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Reverse - Dodging back refreshes the Speed loss timer.",
+     "Ghost Rider, Cosmic Ghost Rider: Clutching the Brakes - Well-Timed Blocks pause personal Judgement effects other than Power Gain and Power Steal for 2 seconds. Cooldown: 4 seconds.",
+     "Kushala: Full Throttle - Gaining a Bar of Power within 0.1 seconds of striking the Opponent grants a 5% Vicious Passive for 15 seconds."
+    ],
+    "id": 1194,
+    "name": "The Devil's Bounty Hunters",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -11461,6 +11736,23 @@
     "name": "Family",
     "partners": [
      "cable"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
+     "apocalypse",
+     "mistersinister",
+     "wolverine"
+    ],
+    "effects": [
+     "All Champions gain +[155] Critical Rating."
+    ],
+    "id": 1,
+    "name": "Enemies",
+    "partners": [
+     "colossusaoa"
     ],
     "reverse": true,
     "unique": false
@@ -14852,6 +15144,22 @@
    },
    {
     "coPartners": [
+     "wolverinex23",
+     "thorjanefoster"
+    ],
+    "effects": [
+     "All Champions gain +3% Health, +[75] Energy Resistance, and +3% Attack Rating."
+    ],
+    "id": 1193,
+    "name": "Revelation",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
      "annihilus",
      "moleman",
      "psychoman"
@@ -16992,6 +17300,22 @@
     "name": "Enemies",
     "partners": [
      "stellarblade"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
+     "knull",
+     "mephisto"
+    ],
+    "effects": [
+     "All Champions gain +[115] Critical Damage Rating."
+    ],
+    "id": 12,
+    "name": "Rivals",
+    "partners": [
+     "ghostriderreyes"
     ],
     "reverse": true,
     "unique": false
@@ -19589,6 +19913,23 @@
    },
    {
     "coPartners": [
+     "kittypryde"
+    ],
+    "effects": [
+     "Colossus (Age of Apocalypse): Gain 25% increased Berserk duration.",
+     "Kitty Pryde: Once per Phase, when the final hit of an Opponent's Special Attack Misses, pause Phase for 0.5 seconds.",
+     "Gambit: Kinetic Charges max stacks increased by +3."
+    ],
+    "id": 1184,
+    "name": "A Terrible Cost",
+    "partners": [
+     "colossusaoa"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [
      "bishop",
      "stormpyramidx",
      "platinumpool"
@@ -20463,6 +20804,24 @@
    },
    {
     "coPartners": [
+     "cosmicghostrider",
+     "kushala"
+    ],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Reverse - Dodging back refreshes the Speed loss timer.",
+     "Ghost Rider, Cosmic Ghost Rider: Clutching the Brakes - Well-Timed Blocks pause personal Judgement effects other than Power Gain and Power Steal for 2 seconds. Cooldown: 4 seconds.",
+     "Kushala: Full Throttle - Gaining a Bar of Power within 0.1 seconds of striking the Opponent grants a 5% Vicious Passive for 15 seconds."
+    ],
+    "id": 1194,
+    "name": "The Devil's Bounty Hunters",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [
      "blackwidow"
     ],
     "effects": [
@@ -20653,6 +21012,76 @@
     ],
     "reverse": true,
     "unique": true
+   }
+  ],
+  "ghostriderreyes": [
+   {
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Reverse - Dodging back refreshes the Speed loss timer.",
+     "Ghost Rider, Cosmic Ghost Rider: Clutching the Brakes - Well-Timed Blocks pause personal Judgement effects other than Power Gain and Power Steal for 2 seconds. Cooldown: 4 seconds.",
+     "Kushala: Full Throttle - Gaining a Bar of Power within 0.1 seconds of striking the Opponent grants a 5% Vicious Passive for 15 seconds."
+    ],
+    "id": 1194,
+    "name": "The Devil's Bounty Hunters",
+    "partners": [
+     "ghostrider",
+     "cosmicghostrider",
+     "kushala"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Ghost Rider (Robbie Reyes): At the start of each fight, inflict a Stagger Debuff for 2 seconds that targets non-Ignition Buffs.",
+     "Synergy Champions: Gain +10% Ability Accuracy."
+    ],
+    "id": 1195,
+    "name": "A Guilty Conscience",
+    "partners": [
+     "quake"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Activating Special Attack 3 while above 200 Speed inflicts a 150% Whiplash Debuff for 5 seconds.",
+     "Quicksilver: While in Terminal Velocity, hits inflict a 200% Whiplash Debuff for 5 seconds unless already active.",
+     "Northstar: Every 2 Momentum gained, inflict a 200% Whiplash Debuff for 3 seconds."
+    ],
+    "id": 1196,
+    "name": "Speed Kills",
+    "partners": [
+     "quicksilver",
+     "northstar"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Start each fight with a +15% Fury Buff for 10 seconds, refreshed when Shifting Gears.",
+     "Other Synergy Champions: Start each fight with a +15% Fury Buff for 20 seconds, refreshed on Special activation."
+    ],
+    "id": 1197,
+    "name": "All Fired Up!",
+    "partners": [
+     "spidermanmilesmorales",
+     "msmarvelkamalakhan",
+     "shehulk"
+    ],
+    "unique": true
+   },
+   {
+    "effects": [
+     "All Champions gain +[115] Critical Damage Rating."
+    ],
+    "id": 12,
+    "name": "Rivals",
+    "partners": [
+     "dracula",
+     "knull",
+     "mephisto"
+    ],
+    "unique": false
    }
   ],
   "gladiator": [
@@ -22003,6 +22432,20 @@
    {
     "coPartners": [],
     "effects": [
+     "Carina: Enter the first fight in each Quest with 1 Persistent ISO-8 Shard.",
+     "Guillotine: For each Buff on the Opponent, gain a 5% Vicious Passive. Max stacks: 5."
+    ],
+    "id": 1189,
+    "name": "Sauvage",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [],
+    "effects": [
      "All Champions gain +[155] Critical Rating."
     ],
     "id": 1,
@@ -22483,6 +22926,23 @@
      "spidermanmilesmorales"
     ],
     "unique": false
+   },
+   {
+    "coPartners": [
+     "kang"
+    ],
+    "effects": [
+     "Carina: Once per fight if Carina doesn't have her Safeguard Buff, it is regained by activating Specials 1 or 2.",
+     "Gwenpool: 30 seconds after the start of the fight, the next activated Special grants a +50% Fury Buff for 10 seconds.",
+     "Kang: Heavy Attacks grant a +10% Fury Passive for 10 seconds. Max stacks: 5. During Kang's Specials, they expire in reverse."
+    ],
+    "id": 1191,
+    "name": "The Union",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -24592,6 +25052,23 @@
     ],
     "reverse": true,
     "unique": true
+   },
+   {
+    "coPartners": [
+     "blackwidow",
+     "ironman",
+     "punisher"
+    ],
+    "effects": [
+     "All Champions gain +[100] Critical Rating, +[75] Physical Resistance, +[100] Armor Rating, and +[75] Critical Damage Rating."
+    ],
+    "id": 1192,
+    "name": "The Radiance",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": false
    },
    {
     "coPartners": [
@@ -26881,7 +27358,8 @@
     "name": "Teammates",
     "partners": [
      "ghostrider",
-     "blackwidow"
+     "blackwidow",
+     "colossusaoa"
     ],
     "unique": false
    },
@@ -28456,6 +28934,23 @@
    },
    {
     "coPartners": [
+     "blackwidow",
+     "hulk",
+     "punisher"
+    ],
+    "effects": [
+     "All Champions gain +[100] Critical Rating, +[75] Physical Resistance, +[100] Armor Rating, and +[75] Critical Damage Rating."
+    ],
+    "id": 1192,
+    "name": "The Radiance",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
      "hulkbuster",
      "ironmaninfinitywar",
      "superiorironman"
@@ -28996,6 +29491,24 @@
      "civilwarrior"
     ],
     "unique": false
+   },
+   {
+    "coPartners": [
+     "sentinel",
+     "mistersinister",
+     "thechampion",
+     "captainamericaiw"
+    ],
+    "effects": [
+     "Synergy Champions: Gain +5% Attack Rating for each unique Class on the team."
+    ],
+    "id": 1190,
+    "name": "Rebirth",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -30756,6 +31269,23 @@
    },
    {
     "coPartners": [
+     "rogue",
+     "iceman",
+     "nightcrawler"
+    ],
+    "effects": [
+     "All Champions gain +5% Perfect Block Chance."
+    ],
+    "id": 4,
+    "name": "Teammates",
+    "partners": [
+     "colossusaoa"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
      "blade",
      "morbius",
      "falcontorres",
@@ -31161,6 +31691,23 @@
     ],
     "reverse": true,
     "unique": false
+   },
+   {
+    "coPartners": [
+     "gwenpool"
+    ],
+    "effects": [
+     "Carina: Once per fight if Carina doesn't have her Safeguard Buff, it is regained by activating Specials 1 or 2.",
+     "Gwenpool: 30 seconds after the start of the fight, the next activated Special grants a +50% Fury Buff for 10 seconds.",
+     "Kang: Heavy Attacks grant a +10% Fury Passive for 10 seconds. Max stacks: 5. During Kang's Specials, they expire in reverse."
+    ],
+    "id": 1191,
+    "name": "The Union",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -32640,6 +33187,23 @@
     "unique": false
    },
    {
+    "coPartners": [
+     "gambit"
+    ],
+    "effects": [
+     "Colossus (Age of Apocalypse): Gain 25% increased Berserk duration.",
+     "Kitty Pryde: Once per Phase, when the final hit of an Opponent's Special Attack Misses, pause Phase for 0.5 seconds.",
+     "Gambit: Kinetic Charges max stacks increased by +3."
+    ],
+    "id": 1184,
+    "name": "A Terrible Cost",
+    "partners": [
+     "colossusaoa"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
     "coPartners": [],
     "effects": [
      "Dazzler: Gain Incinerate Immunity thanks to Lockheed's assistance.",
@@ -32754,6 +33318,22 @@
      "storm",
      "thor"
     ],
+    "unique": false
+   },
+   {
+    "coPartners": [
+     "dracula",
+     "mephisto"
+    ],
+    "effects": [
+     "All Champions gain +[115] Critical Damage Rating."
+    ],
+    "id": 12,
+    "name": "Rivals",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
     "unique": false
    },
    {
@@ -33297,6 +33877,24 @@
     ],
     "reverse": true,
     "unique": false
+   },
+   {
+    "coPartners": [
+     "ghostrider",
+     "cosmicghostrider"
+    ],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Reverse - Dodging back refreshes the Speed loss timer.",
+     "Ghost Rider, Cosmic Ghost Rider: Clutching the Brakes - Well-Timed Blocks pause personal Judgement effects other than Power Gain and Power Steal for 2 seconds. Cooldown: 4 seconds.",
+     "Kushala: Full Throttle - Gaining a Bar of Power within 0.1 seconds of striking the Opponent grants a 5% Vicious Passive for 15 seconds."
+    ],
+    "id": 1194,
+    "name": "The Devil's Bounty Hunters",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -34920,6 +35518,20 @@
     "unique": false
    },
    {
+    "coPartners": [],
+    "effects": [
+     "Colossus (Age of Apocalypse): Start the fight with +5 Osmium Prowess.",
+     "Magik: When Limbo ends, Instantly Regenerate 40% of the damage taken from Incinerate and Coldsnap effects. Magik's Regeneration Rate cannot be reduced below 90% while healing from Limbo."
+    ],
+    "id": 1183,
+    "name": "Big Shiny Mountain",
+    "partners": [
+     "colossusaoa"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
     "coPartners": [
      "guillotine2099"
     ],
@@ -35250,6 +35862,24 @@
      "warlock"
     ],
     "unique": false
+   },
+   {
+    "coPartners": [
+     "sabretooth",
+     "sauron"
+    ],
+    "effects": [
+     "Colossus (Age of Apocalypse): At the start of each fight with 60% Max Health or more, lose 10% of Max Health and gain a Regeneration Passive, healing 15% of Max Health over 30 seconds.",
+     "Magneto, Sauron, Sabretooth: While in a fight, count as a #Hero instead of #Mercenary or #Villain.",
+     "All Champions: #Heroes gain 7% increased Fury Passive and Prowess effect potency."
+    ],
+    "id": 1185,
+    "name": "Freedom Fighters",
+    "partners": [
+     "colossusaoa"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -35845,6 +36475,21 @@
     "name": "Crime and Punishment",
     "partners": [
      "blackcat"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [
+     "sasquatch"
+    ],
+    "effects": [
+     "Synergy Champions: Gain +10% Attack Rating and +[300] Armor Rating while Berserk, Enraged, or during Wrath of Tanaraq."
+    ],
+    "id": 1186,
+    "name": "Boiling Point",
+    "partners": [
+     "colossusaoa"
     ],
     "reverse": true,
     "unique": true
@@ -36977,6 +37622,22 @@
     ],
     "reverse": true,
     "unique": true
+   },
+   {
+    "coPartners": [
+     "dracula",
+     "knull"
+    ],
+    "effects": [
+     "All Champions gain +[115] Critical Damage Rating."
+    ],
+    "id": 12,
+    "name": "Rivals",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": false
    },
    {
     "coPartners": [],
@@ -38118,6 +38779,24 @@
    },
    {
     "coPartners": [
+     "sentinel",
+     "thechampion",
+     "ironmaninfinitywar",
+     "captainamericaiw"
+    ],
+    "effects": [
+     "Synergy Champions: Gain +5% Attack Rating for each unique Class on the team."
+    ],
+    "id": 1190,
+    "name": "Rebirth",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [
      "hyperion",
      "magneto"
     ],
@@ -38128,6 +38807,23 @@
     "name": "Enemies",
     "partners": [
      "colossus"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
+     "apocalypse",
+     "cyclopsblueteam",
+     "wolverine"
+    ],
+    "effects": [
+     "All Champions gain +[155] Critical Rating."
+    ],
+    "id": 1,
+    "name": "Enemies",
+    "partners": [
+     "colossusaoa"
     ],
     "reverse": true,
     "unique": false
@@ -40859,6 +41555,23 @@
    {
     "coPartners": [
      "spidermanmilesmorales",
+     "shehulk"
+    ],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Start each fight with a +15% Fury Buff for 10 seconds, refreshed when Shifting Gears.",
+     "Other Synergy Champions: Start each fight with a +15% Fury Buff for 20 seconds, refreshed on Special activation."
+    ],
+    "id": 1197,
+    "name": "All Fired Up!",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [
+     "spidermanmilesmorales",
      "dust",
      "vivvision"
     ],
@@ -42214,6 +42927,7 @@
     "partners": [
      "cyclops",
      "cyclopsblueteam",
+     "colossusaoa",
      "gambit",
      "phoenix"
     ],
@@ -42908,6 +43622,23 @@
      "magneto"
     ],
     "unique": false
+   },
+   {
+    "coPartners": [
+     "quicksilver"
+    ],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Activating Special Attack 3 while above 200 Speed inflicts a 150% Whiplash Debuff for 5 seconds.",
+     "Quicksilver: While in Terminal Velocity, hits inflict a 200% Whiplash Debuff for 5 seconds unless already active.",
+     "Northstar: Every 2 Momentum gained, inflict a 200% Whiplash Debuff for 3 seconds."
+    ],
+    "id": 1196,
+    "name": "Speed Kills",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
    }
   ],
   "nova": [
@@ -46413,6 +47144,23 @@
    },
    {
     "coPartners": [
+     "blackwidow",
+     "hulk",
+     "ironman"
+    ],
+    "effects": [
+     "All Champions gain +[100] Critical Rating, +[75] Physical Resistance, +[100] Armor Rating, and +[75] Critical Damage Rating."
+    ],
+    "id": 1192,
+    "name": "The Radiance",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
      "spidergwen"
     ],
     "effects": [
@@ -47172,6 +47920,20 @@
     "unique": false
    },
    {
+    "coPartners": [],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): At the start of each fight, inflict a Stagger Debuff for 2 seconds that targets non-Ignition Buffs.",
+     "Synergy Champions: Gain +10% Ability Accuracy."
+    ],
+    "id": 1195,
+    "name": "A Guilty Conscience",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
     "coPartners": [
      "nickfury",
      "blackwidow",
@@ -47335,6 +48097,23 @@
     ],
     "reverse": true,
     "unique": false
+   },
+   {
+    "coPartners": [
+     "northstar"
+    ],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Activating Special Attack 3 while above 200 Speed inflicts a 150% Whiplash Debuff for 5 seconds.",
+     "Quicksilver: While in Terminal Velocity, hits inflict a 200% Whiplash Debuff for 5 seconds unless already active.",
+     "Northstar: Every 2 Momentum gained, inflict a 200% Whiplash Debuff for 3 seconds."
+    ],
+    "id": 1196,
+    "name": "Speed Kills",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -48878,6 +49657,23 @@
     "unique": false
    },
    {
+    "coPartners": [
+     "iceman",
+     "nightcrawler",
+     "jubilee"
+    ],
+    "effects": [
+     "All Champions gain +5% Perfect Block Chance."
+    ],
+    "id": 4,
+    "name": "Teammates",
+    "partners": [
+     "colossusaoa"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
     "coPartners": [],
     "effects": [
      "All Champions gain +5% Perfect Block Chance."
@@ -49453,6 +50249,24 @@
     "name": "Cat Scratch Fervor",
     "partners": [
      "blackcat"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [
+     "magneto",
+     "sauron"
+    ],
+    "effects": [
+     "Colossus (Age of Apocalypse): At the start of each fight with 60% Max Health or more, lose 10% of Max Health and gain a Regeneration Passive, healing 15% of Max Health over 30 seconds.",
+     "Magneto, Sauron, Sabretooth: While in a fight, count as a #Hero instead of #Mercenary or #Villain.",
+     "All Champions: #Heroes gain 7% increased Fury Passive and Prowess effect potency."
+    ],
+    "id": 1185,
+    "name": "Freedom Fighters",
+    "partners": [
+     "colossusaoa"
     ],
     "reverse": true,
     "unique": true
@@ -50124,6 +50938,21 @@
     "unique": true
    },
    {
+    "coPartners": [
+     "mangog"
+    ],
+    "effects": [
+     "Synergy Champions: Gain +10% Attack Rating and +[300] Armor Rating while Berserk, Enraged, or during Wrath of Tanaraq."
+    ],
+    "id": 1186,
+    "name": "Boiling Point",
+    "partners": [
+     "colossusaoa"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
     "coPartners": [],
     "effects": [
      "Guardian:  Well-Timed Blocks inflict a Shock Debuff, dealing 50% of Attack Rating as Energy Damage over 2 second(s)."
@@ -50291,6 +51120,24 @@
     "name": "Bird Telepathy",
     "partners": [
      "samwilson"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [
+     "magneto",
+     "sabretooth"
+    ],
+    "effects": [
+     "Colossus (Age of Apocalypse): At the start of each fight with 60% Max Health or more, lose 10% of Max Health and gain a Regeneration Passive, healing 15% of Max Health over 30 seconds.",
+     "Magneto, Sauron, Sabretooth: While in a fight, count as a #Hero instead of #Mercenary or #Villain.",
+     "All Champions: #Heroes gain 7% increased Fury Passive and Prowess effect potency."
+    ],
+    "id": 1185,
+    "name": "Freedom Fighters",
+    "partners": [
+     "colossusaoa"
     ],
     "reverse": true,
     "unique": true
@@ -51368,6 +52215,24 @@
     "unique": false
    },
    {
+    "coPartners": [
+     "mistersinister",
+     "thechampion",
+     "ironmaninfinitywar",
+     "captainamericaiw"
+    ],
+    "effects": [
+     "Synergy Champions: Gain +5% Attack Rating for each unique Class on the team."
+    ],
+    "id": 1190,
+    "name": "Rebirth",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
     "coPartners": [],
     "effects": [
      "All Champions: Gain +5% Attack Rating for each #Size:XL Champion on the team."
@@ -52389,6 +53254,23 @@
     ],
     "reverse": true,
     "unique": false
+   },
+   {
+    "coPartners": [
+     "spidermanmilesmorales",
+     "msmarvelkamalakhan"
+    ],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Start each fight with a +15% Fury Buff for 10 seconds, refreshed when Shifting Gears.",
+     "Other Synergy Champions: Start each fight with a +15% Fury Buff for 20 seconds, refreshed on Special activation."
+    ],
+    "id": 1197,
+    "name": "All Fired Up!",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -55899,6 +56781,23 @@
     ],
     "reverse": true,
     "unique": false
+   },
+   {
+    "coPartners": [
+     "msmarvelkamalakhan",
+     "shehulk"
+    ],
+    "effects": [
+     "Ghost Rider (Robbie Reyes): Start each fight with a +15% Fury Buff for 10 seconds, refreshed when Shifting Gears.",
+     "Other Synergy Champions: Start each fight with a +15% Fury Buff for 20 seconds, refreshed on Special activation."
+    ],
+    "id": 1197,
+    "name": "All Fired Up!",
+    "partners": [
+     "ghostriderreyes"
+    ],
+    "reverse": true,
+    "unique": true
    },
    {
     "coPartners": [
@@ -61872,6 +62771,24 @@
    },
    {
     "coPartners": [
+     "sentinel",
+     "mistersinister",
+     "ironmaninfinitywar",
+     "captainamericaiw"
+    ],
+    "effects": [
+     "Synergy Champions: Gain +5% Attack Rating for each unique Class on the team."
+    ],
+    "id": 1190,
+    "name": "Rebirth",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": true
+   },
+   {
+    "coPartners": [
      "archangel",
      "nebula"
     ],
@@ -63786,6 +64703,22 @@
     ],
     "reverse": true,
     "unique": true
+   },
+   {
+    "coPartners": [
+     "wolverinex23",
+     "doctordoom"
+    ],
+    "effects": [
+     "All Champions gain +3% Health, +[75] Energy Resistance, and +3% Attack Rating."
+    ],
+    "id": 1193,
+    "name": "Revelation",
+    "partners": [
+     "carina"
+    ],
+    "reverse": true,
+    "unique": false
    },
    {
     "coPartners": [
@@ -70326,6 +71259,7 @@
     "name": "Enemies",
     "partners": [
      "magneto",
+     "colossusaoa",
      "medusa",
      "misternegative",
      "northstar",
@@ -71043,6 +71977,22 @@
     "name": "Avengers Arena",
     "partners": [
      "arcade"
+    ],
+    "reverse": true,
+    "unique": false
+   },
+   {
+    "coPartners": [
+     "thorjanefoster",
+     "doctordoom"
+    ],
+    "effects": [
+     "All Champions gain +3% Health, +[75] Energy Resistance, and +3% Attack Rating."
+    ],
+    "id": 1193,
+    "name": "Revelation",
+    "partners": [
+     "carina"
     ],
     "reverse": true,
     "unique": false
@@ -72332,6 +73282,28 @@
    ],
    "name": "New Wave"
   },
+  "1185": {
+   "effects": [
+    "Colossus (Age of Apocalypse): At the start of each fight with 60% Max Health or more, lose 10% of Max Health and gain a Regeneration Passive, healing 15% of Max Health over 30 seconds.",
+    "Magneto, Sauron, Sabretooth: While in a fight, count as a #Hero instead of #Mercenary or #Villain.",
+    "All Champions: #Heroes gain 7% increased Fury Passive and Prowess effect potency."
+   ],
+   "name": "Freedom Fighters"
+  },
+  "1187": {
+   "effects": [
+    "Carina: Enter the first fight in each Quest with 2 Persistent ISO-8 Shards.",
+    "Ægon: Special Attack 1 hits benefit from Passive True Accuracy, and each hit after the first inflicts a 25% Shock Debuff for 3 seconds."
+   ],
+   "name": "Stardust"
+  },
+  "1189": {
+   "effects": [
+    "Carina: Enter the first fight in each Quest with 1 Persistent ISO-8 Shard.",
+    "Guillotine: For each Buff on the Opponent, gain a 5% Vicious Passive. Max stacks: 5."
+   ],
+   "name": "Sauvage"
+  },
   "119": {
    "effects": [
     "Nimrod: Performing an Unblockable Special Attack grants 1 personal Armor Up Buff for each Mutant Nimrod has defeated in a Quest, up to 5.",
@@ -72339,6 +73311,29 @@
     "Kitty Pryde: Heavy Attacks are Guaranteed Critical Hits. Cooldown: 8 seconds."
    ],
    "name": "Terminated"
+  },
+  "1194": {
+   "effects": [
+    "Ghost Rider (Robbie Reyes): Reverse - Dodging back refreshes the Speed loss timer.",
+    "Ghost Rider, Cosmic Ghost Rider: Clutching the Brakes - Well-Timed Blocks pause personal Judgement effects other than Power Gain and Power Steal for 2 seconds. Cooldown: 4 seconds.",
+    "Kushala: Full Throttle - Gaining a Bar of Power within 0.1 seconds of striking the Opponent grants a 5% Vicious Passive for 15 seconds."
+   ],
+   "name": "The Devil's Bounty Hunters"
+  },
+  "1196": {
+   "effects": [
+    "Ghost Rider (Robbie Reyes): Activating Special Attack 3 while above 200 Speed inflicts a 150% Whiplash Debuff for 5 seconds.",
+    "Quicksilver: While in Terminal Velocity, hits inflict a 200% Whiplash Debuff for 5 seconds unless already active.",
+    "Northstar: Every 2 Momentum gained, inflict a 200% Whiplash Debuff for 3 seconds."
+   ],
+   "name": "Speed Kills"
+  },
+  "1197": {
+   "effects": [
+    "Ghost Rider (Robbie Reyes): Start each fight with a +15% Fury Buff for 10 seconds, refreshed when Shifting Gears.",
+    "Other Synergy Champions: Start each fight with a +15% Fury Buff for 20 seconds, refreshed on Special activation."
+   ],
+   "name": "All Fired Up!"
   },
   "120": {
    "effects": [

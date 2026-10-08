@@ -1,0 +1,199 @@
+{
+    "id": "carina",
+    "name": "Carina",
+    "abilityDetails": {},
+    "synergies": [],
+    "howToPlay": "",
+    "bestUse": "",
+    "signatureAbility": "Contest of Champions\nCarina gains +[115.48 - 305.56] Critical Rating for each of the following #Tags on the Opponent: #Avengers, #Hydra, #Spider-Verse Heroes, #Sinister Six, #Symbiote, #X-Men, #Brotherhood of Mutants, #Fantastic Four, #Guardians of the Galaxy, #Defenders, #Robot.\nOverstacking Carina's Persistent ISO-8 Shards inflicts an indefinite 10% Suppression Passive. Max stacks: [1 - 8] (rounded down).",
+    "abilitySections": [
+        {
+            "title": "Elder Physiology - Always Active",
+            "content": [
+                "In tune with the latent powers of The Contest, Carina has a Fractured Power Bar.",
+                "As an Elder of the Universe, Carina possesses a near immortal body. This causes her to gain a Regeneration Buff every time she loses 20% of her Max Health, healing 10% of Max Health over 10 seconds. Each Health threshold only triggers once per fight.",
+                "Carina starts each fight with a 3% Safeguard Buff for 3 seconds that starts paused until she's struck, and is removed if the Opponent activates a Special Attack 3."
+            ]
+        },
+        {
+            "title": "Growing Power",
+            "content": [
+                "Carina's Power Gain Buffs grant 0.3% of Max Power over 5 seconds. They expire one at a time and are refreshed when gaining a new one. Max stacks: 20.",
+                "Carina's first landed Light Attack in a combo grants her 2 Power Gain Buffs. When she whiffs a Basic Attack or attacks the Opponent during their Special Attack, she gains 1 Power Gain Buff."
+            ]
+        },
+        {
+            "title": "Growing Beyond",
+            "content": [
+                "Overstacking Carina's Power Gains grants stackable indefinite Unblockable Buffs. Striking the Opponent consumes one of these Unblockables to inflict a [305.56] Armor Break Debuff for 2 seconds.",
+                "At 10+ Unblockable Buffs, activating a Special Attack grants Carina a non-stacking +[2,542] Myriad Buff for 12 seconds."
+            ]
+        },
+        {
+            "title": "Soul of The Contest - Max: 8",
+            "content": [
+                "The first time in each fight Carina gains her Myriad Buff, she gains a Persistent ISO-8 Shard. She also gains a Shard each time the Opponent reaches 1% Health.",
+                "Each Persistent ISO-8 Shard increases the base potency and duration of Carina's personal Debuffs by 12.5% for the rest of the Quest."
+            ]
+        },
+        {
+            "title": "Special Attack 1 - Elder Storm",
+            "content": [
+                "On activation, Carina gains 3 Amplify Buffs. One has 200% potency and lasts 3 seconds, one has 100% potency and lasts 6 seconds, and one has 50% potency and lasts 12 seconds.",
+                "Each of the four hits grant Carina 3 personal Power Gain Buffs.",
+                "This Special Attack has a 0.5 second cooldown."
+            ]
+        },
+        {
+            "title": "Special Attack 2 - Empyrean Glare",
+            "content": [
+                "The final 4 hits each inflict a [12,710] Corrosion Debuff for 40 seconds. Max stacks: 8. As a Defender, these scale with Base Attack only."
+            ]
+        },
+        {
+            "title": "Special Attack 3 - Battlerealm Seraph",
+            "content": [
+                "Immediately on activation, Carina gains 10 personal Power Gain Buffs and regains her Safeguard Buff if it is not active.",
+                "Carina gains stackable True Damage, Zeal, and Instinct Buffs, 10% Energize, Rejuvenate, and Aptitude Buffs, and +[687.5] Armor Up and Precision Buffs, all for 12 seconds."
+            ]
+        },
+        {
+            "title": "Signature Ability - Contest of Champions",
+            "content": [
+                "Carina gains +[115.48 - 305.56] Critical Rating for each of the following #Tags on the Opponent: #Avengers, #Hydra, #Spider-Verse Heroes, #Sinister Six, #Symbiote, #X-Men, #Brotherhood of Mutants, #Fantastic Four, #Guardians of the Galaxy, #Defenders, #Robot.",
+                "Overstacking Carina's Persistent ISO-8 Shards inflicts an indefinite 10% Suppression Passive. Max stacks: [1 - 8] (rounded down)."
+            ]
+        }
+    ],
+    "abilityRefs": {
+        "Fractured Power Bar": [
+            [
+                0,
+                0
+            ]
+        ],
+        "Regeneration": [
+            [
+                0,
+                1
+            ]
+        ],
+        "Safeguard": [
+            [
+                0,
+                2
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Power Gain": [
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                1
+            ],
+            [
+                4,
+                1
+            ],
+            [
+                6,
+                0
+            ]
+        ],
+        "Unblockable": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Armor Break": [
+            [
+                2,
+                0
+            ]
+        ],
+        "Myriad": [
+            [
+                2,
+                1
+            ]
+        ],
+        "Amplify": [
+            [
+                4,
+                0
+            ]
+        ],
+        "Corrosion": [
+            [
+                5,
+                0
+            ]
+        ],
+        "True Damage": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Zeal": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Instinct": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Energize": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Rejuvenate": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Aptitude": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Armor Up": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Precision": [
+            [
+                6,
+                1
+            ]
+        ],
+        "Suppression": [
+            [
+                7,
+                1
+            ]
+        ]
+    },
+    "immunityRefs": {},
+    "counterRefs": {},
+    "abilitySynergies": {},
+    "immunitySynergies": {},
+    "counterSynergies": {}
+}

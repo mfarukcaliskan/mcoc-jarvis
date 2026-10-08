@@ -189,7 +189,11 @@
             ]
         ]
     },
-    "abilitySynergies": {},
+    "abilitySynergies": {
+        "Whiplash": [
+            1196
+        ]
+    },
     "immunitySynergies": {},
     "counterSynergies": {}
 }
