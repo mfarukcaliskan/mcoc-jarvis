@@ -9394,6 +9394,19 @@
    },
    {
     "coPartners": [
+     "greengoblin",
+     "vulture",
+     "kraven",
+     "mysterio"
+    ],
+    "id": null,
+    "partners": [
+     "scorpion"
+    ],
+    "reverse": true
+   },
+   {
+    "coPartners": [
      "mysterio",
      "rhino",
      "scorpion",
@@ -10254,6 +10267,12 @@
      "countnefaria",
      "baronzemo",
      "mordo"
+    ]
+   },
+   {
+    "id": null,
+    "partners": [
+     "masacre"
     ]
    },
    {
@@ -11317,6 +11336,13 @@
      "hulk",
      "onslaught",
      "vision"
+    ]
+   },
+   {
+    "id": null,
+    "partners": [
+     "thor",
+     "heimdall"
     ]
    },
    {
@@ -12996,6 +13022,19 @@
    },
    {
     "coPartners": [
+     "doctoroctopus",
+     "vulture",
+     "kraven",
+     "mysterio"
+    ],
+    "id": null,
+    "partners": [
+     "scorpion"
+    ],
+    "reverse": true
+   },
+   {
+    "coPartners": [
      "ultron",
      "yondu",
      "antmanfuture"
@@ -14189,6 +14228,16 @@
     "partners": [
      "cullobsidian",
      "ebonymaw"
+    ],
+    "reverse": true
+   },
+   {
+    "coPartners": [
+     "thor"
+    ],
+    "id": null,
+    "partners": [
+     "enchantress"
     ],
     "reverse": true
    },
@@ -20163,6 +20212,19 @@
    },
    {
     "coPartners": [
+     "doctoroctopus",
+     "greengoblin",
+     "vulture",
+     "mysterio"
+    ],
+    "id": null,
+    "partners": [
+     "scorpion"
+    ],
+    "reverse": true
+   },
+   {
+    "coPartners": [
      "hobgoblin",
      "vulture"
     ],
@@ -22233,6 +22295,14 @@
     "id": 332,
     "partners": [
      "dazzler"
+    ],
+    "reverse": true
+   },
+   {
+    "coPartners": [],
+    "id": null,
+    "partners": [
+     "dracula"
     ],
     "reverse": true
    },
@@ -25062,6 +25132,19 @@
     "partners": [
      "sandman",
      "vulture"
+    ],
+    "reverse": true
+   },
+   {
+    "coPartners": [
+     "doctoroctopus",
+     "greengoblin",
+     "vulture",
+     "kraven"
+    ],
+    "id": null,
+    "partners": [
+     "scorpion"
     ],
     "reverse": true
    },
@@ -31087,6 +31170,16 @@
      "spidermansymbiote",
      "spidermanmilesmorales",
      "spidergwen"
+    ]
+   },
+   {
+    "id": null,
+    "partners": [
+     "doctoroctopus",
+     "greengoblin",
+     "vulture",
+     "kraven",
+     "mysterio"
     ]
    },
    {
@@ -38415,6 +38508,16 @@
    },
    {
     "coPartners": [
+     "heimdall"
+    ],
+    "id": null,
+    "partners": [
+     "enchantress"
+    ],
+    "reverse": true
+   },
+   {
+    "coPartners": [
      "thorragnarok",
      "thorjanefoster"
     ],
@@ -41455,6 +41558,19 @@
     "id": 800,
     "partners": [
      "sauron"
+    ],
+    "reverse": true
+   },
+   {
+    "coPartners": [
+     "doctoroctopus",
+     "greengoblin",
+     "kraven",
+     "mysterio"
+    ],
+    "id": null,
+    "partners": [
+     "scorpion"
     ],
     "reverse": true
    },

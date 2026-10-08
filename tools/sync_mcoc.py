@@ -710,28 +710,38 @@ def cmd_synergies():
         return str(sid) in texts
 
     roster = [g for g in gg if gid[g["id"]] in ours]
+    import itertools
+    # Bazi sampiyonlarda 'synergy' grup sayisi 'synergy_map'ten fazla (orn. Scorpion: Sinister Six grubu): site ortaklari yine
+    # gosterir ama etki metni yoktur -> id=None satiri (yalniz ortaklar).
+    def groups_of(g):
+        return list(itertools.zip_longest(g.get("synergy", []), g.get("synergy_map", []), fillvalue=None))
+
     for g in roster:  # 1) sampiyonun kendi listesi
         rows = []
-        for partners, sid in zip(g.get("synergy", []), g.get("synergy_map", [])):
-            if use(sid):
-                rows.append({"id": int(sid), "partners": [gid[p] for p in partners if gid.get(p) in ours]})
+        for partners, sid in groups_of(g):
+            if partners is None:
+                continue
+            if sid is None or use(sid):
+                rows.append({"id": None if sid is None else int(sid), "partners": [gid[p] for p in partners if gid.get(p) in ours]})
         if rows:
             out[gid[g["id"]]] = rows
     for g in roster:  # 2) ters yon
         oid = gid[g["id"]]
-        for partners, sid in zip(g.get("synergy", []), g.get("synergy_map", [])):
-            if str(sid) not in texts:
+        for partners, sid in groups_of(g):
+            if partners is None or (sid is not None and str(sid) not in texts):
                 continue
             members = [gid[p] for p in partners if gid.get(p) in ours]
             for pid in members:
                 rows = out.setdefault(pid, [])
-                same = [r for r in rows if r["id"] == int(sid)]
+                same = [r for r in rows if r["id"] == (None if sid is None else int(sid))] if sid is not None else []
                 if same:  # ayni kimlik baska ortak grubuyla da gecerli: sahibi mevcut kayda ekle
                     for r in same:
                         if oid not in r["partners"]:
                             r["partners"].append(oid)
                     continue
-                rows.append({"id": int(sid), "partners": [oid], "coPartners": [m for m in members if m != pid], "reverse": True})
+                if sid is None and any(r["id"] is None and r.get("reverse") and r["partners"] == [oid] for r in rows):
+                    continue
+                rows.append({"id": None if sid is None else int(sid), "partners": [oid], "coPartners": [m for m in members if m != pid], "reverse": True})
     for g in roster:  # 3) yetenek/bagisiklik/counter satirlarinin dayandigi sinerjiler (kendi listesinde olmayabilir)
         for key in ("synergy_ability_map", "synergy_immune_map", "synergy_xability_map"):
             for sid in g.get(key) or []:
