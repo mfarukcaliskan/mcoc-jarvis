@@ -3,7 +3,7 @@ package com.example.myapplication.data
 import android.content.Context
 import org.json.JSONObject
 
-data class SynergyEntry(val id: Int, val name: String, val unique: Boolean, val partners: List<String>, val effects: List<String>, val coPartners: List<String> = emptyList())
+data class SynergyEntry(val id: Int?, val name: String, val unique: Boolean, val partners: List<String>, val effects: List<String>, val coPartners: List<String> = emptyList())
 
 /** synergies.json (tools/sync_mcoc.py synergies, mcoc.gg): şampiyon başına temiz sinerji listesi. Tembel yüklenir (~550 KB). */
 data class SynergyText(val name: String, val effects: List<String>, val unique: Boolean = false)
@@ -34,9 +34,14 @@ object SynergyRepository {
                 val arr = root.getJSONArray(id)
                 m[id] = (0 until arr.length()).mapNotNull { i ->
                     val o = arr.getJSONObject(i)
-                    val t = referenced[o.getInt("id").toString()] ?: return@mapNotNull null
                     fun strs(k: String) = o.optJSONArray(k)?.let { a -> (0 until a.length()).map { a.getString(it) } } ?: emptyList()
-                    SynergyEntry(o.getInt("id"), t.name, t.unique, strs("partners"), t.effects, strs("coPartners"))
+                    if (o.isNull("id")) {
+                        // mcoc.gg ortakları listeler ama etki metni vermez
+                        SynergyEntry(null, "Ortaklık (mcoc.gg'de etki metni yok)", false, strs("partners"), emptyList(), strs("coPartners"))
+                    } else {
+                        val t = referenced[o.getInt("id").toString()] ?: return@mapNotNull null
+                        SynergyEntry(o.getInt("id"), t.name, t.unique, strs("partners"), t.effects, strs("coPartners"))
+                    }
                 }
             }
             map = m

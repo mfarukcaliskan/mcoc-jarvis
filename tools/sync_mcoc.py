@@ -66,22 +66,39 @@ def load_ours():
         return json.load(f)
 
 
+def _global_hashes():
+    import hashlib
+    return {n: hashlib.sha256(open(os.path.join(CACHE, n + ".json"), "rb").read()).hexdigest() for n in GLOBAL_FILES}
+
+
 def cmd_fetch():
-    for name in GLOBAL_FILES:
-        fetch_json(name + ".json")
-        time.sleep(0.2)
-    champs = load("champions.json")["data"]
-    missing = []
-    for c in champs:
-        fetch_json(f"champions/{c['image']}.json")
-        time.sleep(0.1)
-        if 7 in c.get("rarity", []):
-            try:
-                fetch_json(f"prestige/{c['image']}.json")
-            except urllib.error.HTTPError as e:
-                missing.append((c["image"], e.code))
+    """Tum mcoc.gg dosyalarini indirir. mcoc.gg gun icinde guncellenebiliyor (sinerji kimlikleri kayabiliyor); indirme
+    dakikalar surdugu icin global dosyalar sonda yeniden alinip karsilastirilir, degistiyse bastan baslanir (en fazla 3 deneme).
+    Tutarsiz veri yazmaktansa hata verir."""
+    for attempt in range(1, 4):
+        for name in GLOBAL_FILES:
+            fetch_json(name + ".json")
+            time.sleep(0.2)
+        before = _global_hashes()
+        champs = load("champions.json")["data"]
+        missing = []
+        for c in champs:
+            fetch_json(f"champions/{c['image']}.json")
             time.sleep(0.1)
-    print(f"{len(champs)} sampiyon indirildi; prestij dosyasi eksik: {missing or 'yok'}")
+            if 7 in c.get("rarity", []):
+                try:
+                    fetch_json(f"prestige/{c['image']}.json")
+                except urllib.error.HTTPError as e:
+                    missing.append((c["image"], e.code))
+                time.sleep(0.1)
+        for name in GLOBAL_FILES:  # tutarlilik denetimi
+            fetch_json(name + ".json")
+            time.sleep(0.2)
+        if _global_hashes() == before:
+            print(f"{len(champs)} sampiyon indirildi (deneme {attempt}, tutarli); prestij dosyasi eksik: {missing or 'yok'}")
+            return
+        print(f"deneme {attempt}: mcoc.gg indirme sirasinda degisti, yeniden basliyorum")
+    sys.exit("mcoc.gg verisi indirme sirasinda surekli degisti; tutarsiz veri yazilmadi")
 
 
 def clean(text):
@@ -98,6 +115,15 @@ def table(rows):
         out[str(r["id"])] = r
         if str(r["id"]).isdigit():
             out[int(r["id"])] = r
+    return out
+
+
+def synergy_table():
+    """mcoc.gg synergies.json'da bazi kimlikler iki kez geciyor (56, 553): site ILK kaydi kullaniyor (Enchantress/Valkyrie
+    icin 'Crystalline Prison', canli sitede dogrulandi). Son kaydin kazandigi dict() yerine ilk kayit tutulur."""
+    out = {}
+    for x in load("synergies.json")["data"]:
+        out.setdefault(str(x["id"]), x)
     return out
 
 
@@ -343,7 +369,7 @@ def cmd_capabilities():
     ours = {c["id"] for c in load_ours()}
     ab = table(load("abilities.json")["data"])
     im = table(load("immunities.json")["data"])
-    syn = {str(s["id"]): s for s in load("synergies.json")["data"]}
+    syn = synergy_table()
 
     def titles(image):
         path = os.path.join(CACHE, "champions", f"{image}.json")
@@ -697,7 +723,7 @@ def cmd_synergies():
     gecen sampiyona da ters yonlu kayit (reverse=true, partners=[sinerjiyi listeleyen sampiyon]) eklenir."""
     gg = load("champions.json")["data"]
     ours = {c["id"] for c in load_ours()}
-    syn = {str(x["id"]): x for x in load("synergies.json")["data"]}
+    syn = synergy_table()
     gid = {g["id"]: gg_to_ours_id(g["image"]) for g in gg}
     texts, out = {}, {}
 

@@ -49044,13 +49044,11 @@
   },
   "553": {
    "effects": [
-    "Enchantress: New Evocation Spell: Poison Spray (Inflicts 3 Poison Passives.): ↓,↓,↑.",
-    "Lady Deathstrike: Once per fight, while Ferocity is active, it does not unpause when Blocking an attack.",
-    "Psylocke: When consuming a Psi-Charge, 50% chance for it to be refunded.",
-    "Spiral: Lose 5 fewer Fervors when Spiral's pause expires."
+    "Enchantress: New Transmutation Spell: Shield (Grants a Bulwark Buff): ↓,↓,↓.",
+    "Valkyrie: While her Combo is inverted, Valkyrie's Block Proficiency is increased by +[1,200]."
    ],
-   "name": "Sisters in Hood",
-   "unique": true
+   "name": "Crystalline Prison",
+   "unique": false
   },
   "554": {
    "effects": [
@@ -49110,9 +49108,9 @@
   },
   "56": {
    "effects": [
-    "Synergy Champions: Bat attacks gain +[300] Critical Rating."
+    "Synergy Champions: Gain +7.5% Combat Power Rate."
    ],
-   "name": "Up to Bat",
+   "name": "Noble Lords",
    "unique": true
   },
   "560": {

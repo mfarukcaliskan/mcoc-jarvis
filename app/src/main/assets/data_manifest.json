@@ -1,8 +1,8 @@
 {
-  "dataVersion": 61,
-  "generatedAt": "2026-10-08T08:48:04Z",
+  "dataVersion": 62,
+  "generatedAt": "2026-10-08T09:35:08Z",
   "files": {
-    "capabilities.json": "a0702f957e1504389e5c8d5a5b91950ef0b7d913fdab09951ab500cd78cb395a",
+    "capabilities.json": "5f422eca561d1fb6bc026733a270a4c3d0bfb3a48a4d6e5d80afe60eedf498e7",
     "champion_extra.json": "5e20b8480f7179a24dac2d122c38d2a57d2c64fcfd5cfcca1e25dab0770ed3f0",
     "champions_db.json": "12e2bfb525749e79ddb1f1a8fe8194e815e1eed88f4b531c7d13a0d68f4ef7ba",
     "details/abomination.json": "17037ee1313f9ae4b0f7faf5dfe393861640f6553a314aa870b1477545a094d3",
@@ -523,6 +523,6 @@
     "quests/9_4_6.json": "580238cc6e0cebd16862906003610c591e02deb4a13768316a6278b96bfb9153",
     "relic_statcast.json": "067a16688d40939cbaa64f9822a4092ecc67863ce960d124d091daef8a551463",
     "relics.json": "de73c6bbce0767c23fa93b0dfb31ee698a1dd3679c727fd5f16fa617d0b34ea5",
-    "synergies.json": "7b85d277baa6b155a1811d6d5073a8a0161b2ce654964e96f43273ad4e0d64a1"
+    "synergies.json": "37865a4aa24a050e41fa7ac1670296415fe4c5e1e5ca5f82389da90f57247c9e"
   }
 }

@@ -127,8 +127,10 @@ class EventsDataTest {
             for (i in 0 until arr.length()) {
                 val o = arr.getJSONObject(i)
                 assertTrue(ids(o.getJSONArray("partners")).all { it in known })
-                val t = texts.optJSONObject(o.getInt("id").toString())
-                assertTrue("sinerji ${o.getInt("id")} metni yok", t != null && t.getJSONArray("effects").length() > 0)
+                if (!o.isNull("id")) {  // id'siz kayıtlar yalnızca ortak listesidir (mcoc.gg etki metni vermiyor)
+                    val t = texts.optJSONObject(o.getInt("id").toString())
+                    assertTrue("sinerji ${o.getInt("id")} metni yok", t != null && t.getJSONArray("effects").length() > 0)
+                }
                 n++
             }
         }
