@@ -217,7 +217,7 @@ def build_champion(g, lk, known_tags):
         "focusAttack": lk["focus"].get(g.get("focus_attack"), {}).get("name", ""),
         "focusDefense": lk["focus"].get(g.get("focus_defense"), {}).get("name", ""),
         "releaseDate": f"{int(day):02d}-{int(month):02d}-{year}",
-        "strongMatchups": [lk["champs"][x]["image"] for x in g.get("xchampion", []) if x in lk["champs"]],
+        "strongMatchups": [gg_to_ours_id(lk["champs"][x]["image"]) for x in g.get("xchampion", []) if x in lk["champs"]],
         "strongCounters": lk.get("inv_x", {}).get(g["id"], []),
         "reactsTo": names(g.get("react", []), lk["immune"]),
         "counterAbilities": names(g.get("xability", []), lk["ability"]),
@@ -268,8 +268,7 @@ def cmd_apply():
     inv_x = {}
     for g in gg:
         for target in g.get("xchampion", []):
-            if g["image"] in lk["champs"].get(target, {}).get("image", "") or True:
-                inv_x.setdefault(target, []).append(g["image"])
+            inv_x.setdefault(target, []).append(gg_to_ours_id(g["image"]))
     lk["inv_x"] = inv_x
     known_tags = {t for c in ours_list for t in c.get("tags", [])}
     # 1b) mevcut sampiyonlarin kaynak kaynakli sayisal/liste alanlari mcoc.gg ile yenilenir (siralamalar, istatistikler,
@@ -691,71 +690,63 @@ def cmd_extras():
 
 
 def cmd_synergies():
-    """mcoc.gg sinerjileri (synergies.json): sampiyon basina temiz liste. Her kayit: sinerji adi, gereken ortaklar (bizdeki id),
-    ve satir satir etki metni. Sinerji simetriktir (iki taraf da kendi listesinde gorur)."""
+    """mcoc.gg sinerjileri (synergies.json), iki tablo:
+    - texts: sinerji kimligi -> {ad, benzersiz mi, etki satirlari} (her metin YALNIZ BIR KEZ saklanir)
+    - champions: sampiyon -> [{id, partners, coPartners?, reverse?}] (yalniz kimlik + ortaklar)
+    Sinerji tek tarafin listesinde olabilir; site 'SYNERGIES' listesi ters yonu de gosterir, bu yuzden ortak listesinde adi
+    gecen sampiyona da ters yonlu kayit (reverse=true, partners=[sinerjiyi listeleyen sampiyon]) eklenir."""
     gg = load("champions.json")["data"]
     ours = {c["id"] for c in load_ours()}
     syn = {str(x["id"]): x for x in load("synergies.json")["data"]}
     gid = {g["id"]: gg_to_ours_id(g["image"]) for g in gg}
-    out = {}
-    for g in gg:
-        oid = gid[g["id"]]
-        if oid not in ours:
-            continue
+    texts, out = {}, {}
+
+    def use(sid):
+        x = syn.get(str(sid))
+        if x and str(sid) not in texts:
+            # kaynak isaretleme bozuk olabiliyor (kapanmayan <g>): her <g> yeni bir katilimci satiridir
+            segs = [clean(t.replace("</g>", "")) for t in x["desc"].split("<g>")]
+            texts[str(sid)] = {"name": x["name"], "unique": bool(x.get("unique")), "effects": [t for t in segs if t]}
+        return str(sid) in texts
+
+    roster = [g for g in gg if gid[g["id"]] in ours]
+    for g in roster:  # 1) sampiyonun kendi listesi
         rows = []
         for partners, sid in zip(g.get("synergy", []), g.get("synergy_map", [])):
-            x = syn.get(str(sid))
-            if not x:
-                continue
-            segs = [clean(t) for t in re.findall(r"<g>(.*?)</g>", x["desc"], re.S)] or [clean(x["desc"])]
-            rows.append({"id": int(sid), "name": x["name"], "unique": bool(x.get("unique")),
-                         "partners": [gid[p] for p in partners if gid.get(p) in ours],
-                         "effects": [t for t in segs if t]})
+            if use(sid):
+                rows.append({"id": int(sid), "partners": [gid[p] for p in partners if gid.get(p) in ours]})
         if rows:
-            out[oid] = rows
-    # Sinerji yalnizca bir tarafin listesinde olabilir: site "SYNERGIES" listesi ters yonu de gosterir.
-    # Ortak listesinde adi gecen sampiyona da (ters yonlu) kayit eklenir.
-    for g in gg:
+            out[gid[g["id"]]] = rows
+    for g in roster:  # 2) ters yon
         oid = gid[g["id"]]
-        if oid not in ours:
-            continue
         for partners, sid in zip(g.get("synergy", []), g.get("synergy_map", [])):
-            x = syn.get(str(sid))
-            if not x:
+            if str(sid) not in texts:
                 continue
-            segs = [clean(t) for t in re.findall(r"<g>(.*?)</g>", x["desc"], re.S)] or [clean(x["desc"])]
             members = [gid[p] for p in partners if gid.get(p) in ours]
             for pid in members:
                 rows = out.setdefault(pid, [])
                 same = [r for r in rows if r["id"] == int(sid)]
-                if same:  # ayni sinerji kimligi baska ortakla da gecerli: sahibi ortak listesine ekle
+                if same:  # ayni kimlik baska ortak grubuyla da gecerli: sahibi mevcut kayda ekle
                     for r in same:
-                        if oid not in r["partners"] and not r.get("reverse"):
+                        if oid not in r["partners"]:
                             r["partners"].append(oid)
-                    if any(r.get("reverse") and oid in r["partners"] for r in same) or any(oid in r["partners"] for r in same):
-                        continue
-                rows.append({"id": int(sid), "name": x["name"], "unique": bool(x.get("unique")),
-                             "partners": [oid], "coPartners": [m for m in members if m != pid],
-                             "effects": [t for t in segs if t], "reverse": True})
-    # sampiyonun yetenek/bagisiklik/counter satirlarinin dayandigi sinerjiler (sampiyonun kendi listesinde olmayabilir)
-    referenced = {}
-    for g in gg:
-        if gid[g["id"]] not in ours:
-            continue
+                    continue
+                rows.append({"id": int(sid), "partners": [oid], "coPartners": [m for m in members if m != pid], "reverse": True})
+    for g in roster:  # 3) yetenek/bagisiklik/counter satirlarinin dayandigi sinerjiler (kendi listesinde olmayabilir)
         for key in ("synergy_ability_map", "synergy_immune_map", "synergy_xability_map"):
             for sid in g.get(key) or []:
-                x = syn.get(str(sid))
-                if x and str(sid) not in referenced:
-                    segs = [clean(t) for t in re.findall(r"<g>(.*?)</g>", x["desc"], re.S)] or [clean(x["desc"])]
-                    referenced[str(sid)] = {"name": x["name"], "effects": [t for t in segs if t]}
+                use(sid)
     path = os.path.join(ASSETS, "synergies.json")
-    doc = {"source": "mcoc.gg champions.json + synergies.json (yetkili)", "referenced": referenced, "note": "partners: sinerjiyi etkinlestiren diger sampiyonlar (oyunda yalnizca oynanabilir kadro; kadroda olmayanlar atildi). Metin Ingilizce, mcoc.gg'den oldugu gibi.", "champions": out}
+    doc = {"source": "mcoc.gg champions.json + synergies.json (yetkili)",
+           "note": "texts: sinerji metinleri (Ingilizce, mcoc.gg'den oldugu gibi). champions: sampiyon basina sinerji kimlikleri ve ortaklar; "
+                   "partners = sinerjiyi etkinlestiren diger sampiyonlar (yalniz bizim kadrodakiler).",
+           "texts": texts, "champions": out}
     new = json.dumps(doc, ensure_ascii=False, indent=1, sort_keys=True)
     if os.path.isfile(path) and open(path, encoding="utf-8").read() == new:
         print("synergies.json degismedi")
         return
     open(path, "w", encoding="utf-8").write(new)
-    print(f"synergies.json: {len(out)} sampiyon, {sum(len(v) for v in out.values())} kayit")
+    print(f"synergies.json: {len(out)} sampiyon, {sum(len(v) for v in out.values())} kayit, {len(texts)} metin")
 
 
 def _norm_name(s):

@@ -488,7 +488,7 @@
         "strongMatchups": [],
         "strongCounters": [
             "absorbingman",
-            "agatha",
+            "agathaharkness",
             "diablo",
             "iceman",
             "isophyne",
@@ -1197,7 +1197,7 @@
         ],
         "strongMatchups": [],
         "strongCounters": [
-            "agatha"
+            "agathaharkness"
         ],
         "reactsTo": [],
         "counterAbilities": [
@@ -1619,7 +1619,7 @@
             "lumatrix"
         ],
         "strongCounters": [
-            "agatha",
+            "agathaharkness",
             "doctorstrange",
             "isophyne",
             "kushala",

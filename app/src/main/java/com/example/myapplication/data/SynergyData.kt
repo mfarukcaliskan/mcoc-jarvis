@@ -6,7 +6,7 @@ import org.json.JSONObject
 data class SynergyEntry(val id: Int, val name: String, val unique: Boolean, val partners: List<String>, val effects: List<String>, val coPartners: List<String> = emptyList())
 
 /** synergies.json (tools/sync_mcoc.py synergies, mcoc.gg): şampiyon başına temiz sinerji listesi. Tembel yüklenir (~550 KB). */
-data class SynergyText(val name: String, val effects: List<String>)
+data class SynergyText(val name: String, val effects: List<String>, val unique: Boolean = false)
 
 object SynergyRepository {
     private var referenced: Map<String, SynergyText> = emptyMap()
@@ -22,22 +22,23 @@ object SynergyRepository {
         if (loaded) return
         val ctx = appContext ?: return
         try {
-            val root = JSONObject(DataSource.openText(ctx, "synergies.json")).getJSONObject("champions")
+            val doc = JSONObject(DataSource.openText(ctx, "synergies.json"))
+            val tx = doc.getJSONObject("texts")
+            referenced = tx.keys().asSequence().associateWith { k ->
+                val o = tx.getJSONObject(k)
+                SynergyText(o.getString("name"), o.getJSONArray("effects").let { a -> (0 until a.length()).map { a.getString(it) } }, o.optBoolean("unique"))
+            }
+            val root = doc.getJSONObject("champions")
             val m = mutableMapOf<String, List<SynergyEntry>>()
             for (id in root.keys()) {
                 val arr = root.getJSONArray(id)
-                m[id] = (0 until arr.length()).map { i ->
+                m[id] = (0 until arr.length()).mapNotNull { i ->
                     val o = arr.getJSONObject(i)
-                    fun strs(k: String) = o.getJSONArray(k).let { a -> (0 until a.length()).map { a.getString(it) } }
-                    SynergyEntry(o.getInt("id"), o.getString("name"), o.optBoolean("unique"), strs("partners"), strs("effects"),
-                        o.optJSONArray("coPartners")?.let { a -> (0 until a.length()).map { a.getString(it) } } ?: emptyList())
+                    val t = referenced[o.getInt("id").toString()] ?: return@mapNotNull null
+                    fun strs(k: String) = o.optJSONArray(k)?.let { a -> (0 until a.length()).map { a.getString(it) } } ?: emptyList()
+                    SynergyEntry(o.getInt("id"), t.name, t.unique, strs("partners"), t.effects, strs("coPartners"))
                 }
             }
-            val ref = JSONObject(DataSource.openText(ctx, "synergies.json")).optJSONObject("referenced")
-            referenced = ref?.keys()?.asSequence()?.associateWith { k ->
-                val o = ref.getJSONObject(k)
-                SynergyText(o.getString("name"), o.getJSONArray("effects").let { a -> (0 until a.length()).map { a.getString(it) } })
-            } ?: emptyMap()
             map = m
             loaded = true
         } catch (e: Exception) {

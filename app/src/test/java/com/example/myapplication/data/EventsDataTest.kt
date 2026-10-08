@@ -115,9 +115,11 @@ class EventsDataTest {
     }
 
     @Test
-    fun synergies_referenceKnownChampions() {
+    fun synergies_referenceKnownChampionsAndTexts() {
         val known = championIds()
-        val root = JSONObject(assets("synergies.json").readText()).getJSONObject("champions")
+        val doc = JSONObject(assets("synergies.json").readText())
+        val texts = doc.getJSONObject("texts")
+        val root = doc.getJSONObject("champions")
         var n = 0
         for (id in root.keys()) {
             assertTrue("bilinmeyen $id", id in known)
@@ -125,7 +127,8 @@ class EventsDataTest {
             for (i in 0 until arr.length()) {
                 val o = arr.getJSONObject(i)
                 assertTrue(ids(o.getJSONArray("partners")).all { it in known })
-                assertTrue("${o.getString("name")}: etkisiz", o.getJSONArray("effects").length() > 0)
+                val t = texts.optJSONObject(o.getInt("id").toString())
+                assertTrue("sinerji ${o.getInt("id")} metni yok", t != null && t.getJSONArray("effects").length() > 0)
                 n++
             }
         }
@@ -134,7 +137,7 @@ class EventsDataTest {
 
     @Test
     fun detailSynergyIds_resolveToReferencedTexts() {
-        val ref = JSONObject(assets("synergies.json").readText()).getJSONObject("referenced")
+        val ref = JSONObject(assets("synergies.json").readText()).getJSONObject("texts")
         val dir = File("src/main/assets/details").let { if (it.isDirectory) it else File("app/src/main/assets/details") }
         dir.listFiles { f -> f.name.endsWith(".json") }!!.forEach { f ->
             val o = JSONObject(f.readText())
